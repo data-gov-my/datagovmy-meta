@@ -1,0 +1,98 @@
+{
+    "dashboard_name": "homepage",
+    "manual_trigger": "",
+    "required_params": [],
+    "optional_params": [],
+    "charts": {
+        "highlight": {
+            "name": "highlight",
+            "chart_type": "custom_chart",
+            "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_main_callout.parquet",
+            "data_as_of": "2023-03-06 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "chart"
+                ],
+                "columns": [
+                    "callout"
+                ],
+                "null_vals": null
+            }
+        },
+        "timeseries": {
+            "name": "timeseries",
+            "chart_type": "timeseries_chart",
+            "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_timeseries.parquet",
+            "data_as_of": "2023-03-06 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "x": "date",
+                "views": "views",
+                "line_views": "views_7dma",
+                "downloads": "downloads",
+                "line_downloads": "downloads_7dma",
+                "users": "users",
+                "line_users": "users_7dma"
+            }
+        },
+        "statistics": {
+            "name": "statistics",
+            "chart_type": "custom_chart",
+            "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_timeseries_callout.parquet",
+            "data_as_of": "2023-03-06 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "chart"
+                ],
+                "columns": [
+                    "callout1",
+                    "callout2"
+                ],
+                "null_vals": null
+            }
+        },
+        "table_summary": {
+            "name": "table_summary",
+            "chart_type": "metrics_table",
+            "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_metrics_table.parquet?ignoreCache=1",
+            "data_as_of": "2023-03-06 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "time_period",
+                    "chart_type"
+                ],
+                "obj_attr": {
+                    "route": "id",
+                    "count": "count",
+                    "name_en": "name_en",
+                    "name_bm": "name_bm"
+                }
+            }
+        },
+        "metrics_stats": {
+            "name": "metrics_stats",
+            "chart_type": "custom_chart",
+            "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_metrics_callout.parquet",
+            "data_as_of": "2023-03-06 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "time_period",
+                    "chart_type"
+                ],
+                "columns": [
+                    "count"
+                ],
+                "null_vals": null
+            }
+        }
+    }
+}
