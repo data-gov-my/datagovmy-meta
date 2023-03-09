@@ -1,0 +1,50 @@
+`{
+    "dashboard_name": "reserves",
+    "manual_trigger": "",
+    "required_params": [],
+    "optional_params": [],
+    "charts": {
+        "timeseries": {
+            "name": "timeseries",
+            "chart_type": "timeseries_chart",
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/reserves_timeseries.parquet",
+            "data_as_of": "2023-01-31 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "chart_type": {
+                    "x": "date",
+                    "total": "total",
+                    "currency": "currency",
+                    "reserves_required": "reserves_required",
+                    "reserves_excess": "reserves_excess",
+                    "net_claims_gov": "net_claims_gov",
+                    "claims_gov": "claims_gov",
+                    "deposits_gov": "deposits_gov",
+                    "claims_private": "claims_private",
+                    "external": "external",
+                    "others": "others",
+                    "recession": "recession"
+                }
+            }
+        },
+        "statistics": {
+            "name": "statistics",
+            "chart_type": "custom_chart",
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/reserves_timeseries_callout.parquet",
+            "data_as_of": "2023-01-31 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "chart_type",
+                    "chart"
+                ],
+                "columns": [
+                    "callout"
+                ],
+                "null_vals": null
+            }
+        }
+    }
+}

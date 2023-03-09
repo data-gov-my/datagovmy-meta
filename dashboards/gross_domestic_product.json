@@ -1,0 +1,48 @@
+{
+    "dashboard_name": "gorss_domestic_product",
+    "manual_trigger" : "",
+    "required_params": [],
+    "optional_params": [],
+    "charts": {
+      "timeseries": {
+        "name": "timeseries",
+        "chart_type": "timeseries_chart",
+        "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/gdp_timeseries.parquet",
+        "data_as_of" : "2022-12-31 23:59",
+        "api_type": "static",
+        "api_params": [],
+        "variables": {
+            "chart_type" : {
+                "x": "date",
+                "overall" : "overall",
+                "supply_agri" : "supply_agri",
+                "supply_mining" : "supply_mining",
+                "supply_manufacturing" : "supply_manufacturing",
+                "supply_construction" : "supply_construction",
+                "supply_services" : "supply_services",
+                "supply_import_duties" : "supply_import_duties",
+                "demand_c" : "demand_c",
+                "demand_g" : "demand_g",
+                "demand_i" : "demand_i",
+                "demand_x" : "demand_x",
+                "demand_m" : "demand_m",
+                "demand_nx" : "demand_nx",
+                "demand_inventory" : "demand_inventory"                                                
+            }
+        }
+      },
+      "statistics": {
+        "name": "statistics",
+        "chart_type": "custom_chart",
+        "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/gdp_timeseries_callout.parquet",
+        "data_as_of" : "2022-12-31 23:59",
+        "api_type": "static",
+        "api_params": [],
+        "variables": {
+          "keys": ["chart_type", "chart"],
+          "columns": ["callout"],
+          "null_vals": null
+        }
+      }      
+    }
+}
