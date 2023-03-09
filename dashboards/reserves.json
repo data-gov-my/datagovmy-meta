@@ -1,6 +1,6 @@
 {
     "dashboard_name": "reserves",
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "required_params": [],
     "optional_params": [],
     "charts": {
