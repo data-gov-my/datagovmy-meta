@@ -3,12 +3,12 @@
         "bucket": "dosm-public-demography",
         "file_name": "test_pyramid",
         "manual_trigger": "1",
-        "category": "CATALOGUE_TYPE",
-        "category_en": "Catalogue Types",
-        "category_bm": "Jenis Katalog",
+        "category": "SITE_METADATA",
+        "category_en": "Site Metadata",
+        "category_bm": "Metadata Laman",
         "subcategory": "CHARTS",
-        "subcategory_en": "Charts",
-        "subcategory_bm": "Carta",
+        "subcategory_en": "Chart Samples",
+        "subcategory_bm": "Contoh Carta",
         "description": {
             "en": "Lorem ipsum.",
             "bm": "Lorem ipsum."
