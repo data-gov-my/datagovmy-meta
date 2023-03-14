@@ -1,7 +1,7 @@
 {
     "file": {
         "bucket": "dosm-public-economy",
-        "file_name": "test_groupedbar2",
+        "file_name": "sample_bar2",
         "manual_trigger": "1",
         "category": "SITE_METADATA",
         "category_en": "Site Metadata",
