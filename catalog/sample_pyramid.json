@@ -1,0 +1,135 @@
+{
+    "file": {
+        "bucket": "dosm-public-demography",
+        "file_name": "test_pyramid",
+        "manual_trigger": "1",
+        "category": "SITE_METADATA",
+        "category_en": "Site Metadata",
+        "category_bm": "Metadata Laman",
+        "subcategory": "CHARTS",
+        "subcategory_en": "Chart Samples",
+        "subcategory_bm": "Contoh Carta",
+        "description": {
+            "en": "Lorem ipsum.",
+            "bm": "Lorem ipsum."
+        },
+        "link_parquet": "https://storage.googleapis.com/dosm-public-demography/test_pyramid.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-demography/test_pyramid.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-demography/test_pyramid.metadata",
+        "variables": [
+            {
+                "id": 0,
+                "name": "Pyramid Bar",
+                "title_en": "Pyramid Bar",
+                "title_bm": "Pyramid Bar",
+                "desc_en": "Population pyramid for Malaysia",
+                "desc_bm": "Piramid populasi bagi Malaysia"
+            },
+            {
+                "id": 1,
+                "name": "year",
+                "title_en": "Year",
+                "title_bm": "Tahun",
+                "desc_en": "[Integer] Years from 2010-2021",
+                "desc_bm": "[Integer] Tahun dari 2010 hingga 2021"
+            },
+            {
+                "id": 2,
+                "name": "state",
+                "title_en": "State",
+                "title_bm": "Negeri",
+                "desc_en": "[Categorical] Name of the state (16 in total) or Malaysia",
+                "desc_bm": "[Kategori] Name negeri (16 keseluruhan) atau Malaysia"
+            },
+            {
+                "id": 3,
+                "name": "ethnicity",
+                "title_en": "Ethnicity",
+                "title_bm": "Etnik",
+                "desc_en": "[Categorical] Total, Malay, Other Bumiputera, Chinese, Indian, Other Citizen, Non-citizen",
+                "desc_bm": "[Kategori] Keseluruhan, Melayu, Bumiptutera lain, Cina, India, Lain-lain Warganegara, Bukan Warganegara"
+            },
+            {
+                "id": 4,
+                "name": "age",
+                "title_en": "Age Group",
+                "title_bm": "Kumpulan Umur",
+                "desc_en": "[Categorical] 5-year groups from 0-4 until 85+",
+                "desc_bm": "[Kategori] Kumpulan umur dengan julat 5 tahun, dari 0-4 hingga 85+"
+            },
+            {
+                "id": 5,
+                "name": "male",
+                "title_en": "Male Population",
+                "title_bm": "Populasi Lelaki",
+                "desc_en": "[Integer] Estimated number of people",
+                "desc_bm": "[Integer] Anggaran jumlah penduduk"
+            },
+            {
+                "id": 6,
+                "name": "female",
+                "title_en": "Female Population",
+                "title_bm": "Populasi Perempuan",
+                "desc_en": "[Integer] Estimated number of people",
+                "desc_bm": "[Integer] Anggaran jumlah penduduk"
+            }
+        ]
+    },
+    "catalog_data": [
+        {
+            "id": 0,
+            "catalog_filters": {
+                "frequency": "YEARLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2022",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-12-31 23:59",
+                "last_updated": "2023-01-25 12:00",
+                "next_update": "2023-01-26 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum",
+                    "caveat": "Lorem ipsum",
+                    "publication": "Lorem ipsum"
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum",
+                    "caveat": "Lorem ipsum",
+                    "publication": "Lorem ipsum"
+                }
+            },
+            "chart": {
+                "chart_type": "PYRAMID",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "year",
+                        "ethnicity"
+                    ],
+                    "precision": 0
+                },
+                "chart_variables": {
+                    "parents": [
+                        "year",
+                        "ethnicity"
+                    ],
+                    "x": "age",
+                    "y": ["male","female"],
+                    "format_lang": {
+                        "x_en": "Age",
+                        "x_bm": "Umur",
+                        "y_en": ["Male","Female"],
+                        "y_bm": ["Lelaki","Perempuan"]
+                    }  
+                }
+            }
+        }
+    ]
+}
