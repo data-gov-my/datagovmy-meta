@@ -1,7 +1,7 @@
 {
     "file": {
         "bucket": "dosm-public-economy",
-        "file_name": "test_groupedbar",
+        "file_name": "test_groupedbar2",
         "manual_trigger": "1",
         "category": "SITE_METADATA",
         "category_en": "Site Metadata",
@@ -19,9 +19,9 @@
         "variables": [
             {
                 "id": 0,
-                "name": "Grouped Bar (3 bars)",
-                "title_en": "Grouped Bar (3 bars)",
-                "title_bm": "Grouped Bar (3 bars)",
+                "name": "Vertical Bar (2 bars)",
+                "title_en": "Vertical Bar (2 bars)",
+                "title_bm": "Vertical Bar (2 bars)",
                 "desc_en": "[Categorical] Name of variable in snake case, representing ethnic group; all groups are citizens except for the explicit non-citizen variable",
                 "desc_bm": "[Kategori] Nama pembolehubah dengan kes ular, mewakili kumpulan etnik; semua kumpulan adalah warganegara kecuali kumpulan yang dinyatakan sebagai bukan warganegara"
             },
@@ -138,13 +138,13 @@
                     ],
                     "format": {
                         "x": "variable",
-                        "y": ["mean", "median", "mode"]
+                        "y": ["mean","median"]
                     },
                     "format_lang": {
                         "x_en": "Variable",
                         "x_bm": "Pembolehubah",
-                        "y_en": ["Mean", "Median", "Mode"],
-                        "y_bm": ["Purata", "Median", "Mod"]
+                        "y_en": ["Var1","Var2"],
+                        "y_bm": ["Var1","Var2"]
                     }
                 }
             }
