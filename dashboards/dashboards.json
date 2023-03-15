@@ -1,6 +1,6 @@
 {
     "dashboard_name": "dashboards",
-    "manual_trigger": "2",
+    "manual_trigger": "",
     "required_params": [],
     "optional_params": [],
     "charts": {
@@ -13,13 +13,13 @@
             "api_params": [],
             "variables": {
                 "keys": [
+                    "lang",
                     "time_period"
                 ],
                 "obj_attr": {
                     "route": "id",
+                    "name": "name",
                     "agency": "agency",
-                    "name_en": "name_en",
-                    "name_bm": "name_bm",
                     "views": "views"
                 }
             }
@@ -33,15 +33,13 @@
             "api_params": [],
             "variables": {
                 "keys": [
+                    "lang",
                     "category"
                 ],
                 "obj_attr": {
-                    "category_en": "category_en",
-                    "category_bm": "category_bm",
                     "route": "id",
+                    "name": "name",
                     "agency": "agency",
-                    "name_en": "name_en",
-                    "name_bm": "name_bm",
                     "views": "views"
                 }
             }
