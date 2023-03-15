@@ -1,0 +1,22 @@
+{
+    "dashboard_name": "birthday_popularity",
+    "manual_trigger": "",
+    "required_params": ["state"],
+    "optional_params": [],
+    "charts": {
+        "timeseries": {
+            "name": "timeseries",
+            "chart_type": "timeseries_chart",
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/birthday_timeseries.parquet",
+            "data_as_of": "2023-03-15 23:59",
+            "api_type": "dynamic",
+            "api_params": ["state"],
+            "variables": {
+                "state" : {
+                    "x": "date",
+                    "births": "births"
+                }
+            }
+        }
+    }
+}
