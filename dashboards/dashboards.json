@@ -1,0 +1,30 @@
+{
+    "dashboard_name": "dashboards",
+    "manual_trigger": "",
+    "required_params": [],
+    "optional_params": [],
+    "charts": {
+        "table_summary": {
+            "name": "table_summary",
+            "chart_type": "metrics_table",
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/dashboards_metrics.parquet",
+            "data_as_of": "2023-03-15 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "category"
+                ],
+                "obj_attr": {
+                    "category_en": "category_en",
+                    "category_bm": "category_bm",
+                    "route": "id",
+                    "agency": "agency",
+                    "name_en": "name_en",
+                    "name_bm": "name_bm",
+                    "views": "views"
+                }
+            }
+        }
+    }
+}
