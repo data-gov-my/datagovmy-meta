@@ -33,7 +33,7 @@
             "api_params": [],
             "variables": {
                 "keys": [
-                    "category",
+                    "category"
                 ],
                 "obj_attr": {
                     "category_en": "category_en",
