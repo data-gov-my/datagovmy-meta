@@ -1,6 +1,6 @@
 {
     "dashboard_name": "dashboards",
-    "manual_trigger": "1",
+    "manual_trigger": "2",
     "required_params": [],
     "optional_params": [],
     "charts": {
@@ -45,6 +45,6 @@
                     "views": "views"
                 }
             }
-        }
+        }        
     }
 }
