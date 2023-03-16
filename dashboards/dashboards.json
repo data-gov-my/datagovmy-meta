@@ -34,8 +34,7 @@
             "variables": {
                 "keys": [
                     "lang",
-                    "category",
-                    "agency"
+                    "category"
                 ],
                 "obj_attr": {
                     "route": "id",
