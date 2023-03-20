@@ -1,6 +1,6 @@
 {
     "dashboard_name": "birthday_popularity",
-    "manual_trigger": "",
+    "manual_trigger": "Malacca Melaka",
     "required_params": ["state"],
     "optional_params": [],
     "charts": {
