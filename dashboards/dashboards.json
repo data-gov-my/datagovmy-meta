@@ -8,7 +8,7 @@
             "name": "dashboards_top",
             "chart_type": "metrics_table",
             "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/dashboards_top.parquet",
-            "data_as_of": "2023-03-15 23:59",
+            "data_as_of": "2023-03-27 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -29,7 +29,7 @@
             "name": "dashboards_all",
             "chart_type": "metrics_table",
             "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/dashboards_all.parquet",
-            "data_as_of": "2023-03-15 23:59",
+            "data_as_of": "2023-03-27 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
