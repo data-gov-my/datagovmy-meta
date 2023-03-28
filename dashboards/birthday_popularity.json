@@ -1,7 +1,7 @@
 {
     "dashboard_name": "birthday_popularity",
     "manual_trigger": "",
-    "required_params": ["state", "bday"],
+    "required_params": ["state"],
     "optional_params": [],
     "charts": {
         "timeseries": {
