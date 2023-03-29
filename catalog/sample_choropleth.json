@@ -1,0 +1,455 @@
+{
+    "file": {
+        "bucket": "dosm-public-elections",
+        "file_name": "summary-parliament-ge15",
+        "category": "SITE_METADATA",
+        "category_en": "Site Metadata",
+        "category_bm": "Metadata Laman",
+        "subcategory": "CHARTS",
+        "subcategory_en": "Chart Samples",
+        "subcategory_bm": "Contoh Carta",
+        "description": {
+            "en": "This dataset provides a headline summary of key voting statistics for GE15 at parliament level, including voter turnout, margin of victory, and rejected votes. GE15 was primarily held on 19th November 2022, and concluded on 7th December 2022 after the by-election in Padang Serai.",
+            "bm": "Dataset ini merumuskan statistik undi penting bagi PRU15 di peringkat parlimen, termasuk peratus keluar, margin kemenangan, dan undi tolak. PRU15 dilaksanakan pada 19 November 2022, dan dimuktamadkan setelah pilihanraya kecil di Padang Serai pada 7 Disember 2022."
+        },
+        "link_parquet": "https://storage.googleapis.com/dosm-public-elections/summary-parliament-ge15.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-elections/summary-parliament-ge15.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-elections/summary-parliament-ge15.metadata",
+        "variables": [
+            {
+                "id": -1,
+                "name": "state",
+                "title_en": "State",
+                "title_bm": "Negeri",
+                "desc_en": "[Categorical] Name of the state. There are 16 in total.",
+                "desc_bm": "[Kategori] Nama negeri. Terdapat 16 keseluruhan."
+            },
+            {
+                "id": -1,
+                "name": "parlimen",
+                "title_en": "Parliament",
+                "title_bm": "Parlimen",
+                "desc_en": "[Categorical] Name of the parliamentary constituency. There are 222 in total, with the first 5 characters indicating the order, from P.001 to P.222.",
+                "desc_bm": "[Kategori] Nama kawasan parlimen. Terdapat 222 keseluruhan, dengan 5 aksara pertama melambangan urutannya dari P.001 hingga P.222"
+            },
+            {
+                "id": 1,
+                "name": "pengundi_jumlah",
+                "title_en": "GE15: Registered Voters",
+                "title_bm": "PRU15: Pengundi Berdaftar",
+                "desc_en": "[Integer] Number of individuals eligible to vote.",
+                "desc_bm": "[Integer] Pemilih berdaftar yang mengambil bahagian dalam PRU15."
+            },
+            {
+                "id": 2,
+                "name": "undi_keluar_peti",
+                "title_en": "GE15: Ballots Issued",
+                "title_bm": "PRU15: Undi Dikeluarkan",
+                "desc_en": "[Integer] The number of ballots officially released.",
+                "desc_bm": "[Integer] Jumlah kertas undi yang dikeluarkan secara rasmi."
+            },
+            {
+                "id": 3,
+                "name": "undi_dalam_peti",
+                "title_en": "GE15: Ballots Returned",
+                "title_bm": "PRU15: Undi Dikembalikan",
+                "desc_en": "[Integer] Number of ballots returned for counting.",
+                "desc_bm": "[Integer] Jumlah kertas undi yang dipulangkan untuk pengiraan."
+            },
+            {
+                "id": 4,
+                "name": "undi_tak_kembali",
+                "title_en": "GE15: Ballots Not Returned",
+                "title_bm": "PRU15: Undi Tidak Dikembalikan",
+                "desc_en": "[Integer] Number of ballots not returned after being released, including postal ballots that were not returned to the polling station by the time of counting.",
+                "desc_bm": "[Integer] Jumlah kertas undi yang tidak dipulangkan untuk pengiraan, termasuk undi pos yang tidak sempat dipulangkan ke pusat mengundi pada waktu proses pengiraan berlangsung."
+            },
+            {
+                "id": 5,
+                "name": "undi_tolak",
+                "title_en": "GE15: Votes Rejected",
+                "title_bm": "PRU15: Undi Ditolak",
+                "desc_en": "[Integer] Number of ballots returned but rejected during the counting process.",
+                "desc_bm": "[Integer] Jumlah kertas undi yang dipulangkan tetapi ditolak semasa proses pengiraan."
+            },
+            {
+                "id": 6,
+                "name": "majoriti",
+                "title_en": "GE15: Majority",
+                "title_bm": "PRU15: Majoriti",
+                "desc_en": "[Integer] Difference between the number of votes won by the victorious candidate, and their closest competitor.",
+                "desc_bm": "[Integer] Beza antara jumlah undi yang diperolehi oleh calon yang menang dengan calon yang paling dekat."
+            },
+            {
+                "id": 7,
+                "name": "peratus_undi",
+                "title_en": "GE15: Voter Turnout",
+                "title_bm": "PRU15: Peratus Undi",
+                "desc_en": "[Float] Ratio of ballots issued to registered voters.",
+                "desc_bm": "[Apung] Nisbah undi dikeluarkan kepada jumlah pengundi berdaftar."
+            },
+            {
+                "id": 8,
+                "name": "peratus_tolak",
+                "title_en": "GE15: % of Votes Rejected",
+                "title_bm": "PRU15: Peratus Undi Ditolak",
+                "desc_en": "[Float] Ratio of votes rejected to ballots returned.",
+                "desc_bm": "[Apung] Nisbah undi ditolak kepada jumlah undi dikembalikan."
+            }
+        ]
+    },
+    "catalog_data": [
+        {
+            "id": 1,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "PARLIMEN"
+                ],
+                "start": "2022",
+                "end": "2022",
+                "data_source": [
+                    "SPR"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-12-07 23:59",
+                "last_updated": "2022-12-07 23:59",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "This data is produced by SPR, and details the official results as gazetted by SPR.",
+                    "caveat": "In the event of a conflict between this data and any other source, the SPR portal and election dashboard should be regarded as the single source of truth."
+                },
+                "bm": {
+                    "methodology": "Data ini dihasilkan oleh Suruhanjaya Pilihanraya, dan memberi perincian keputusan pilihanraya seperti yang diwartakan oleh SPR.",
+                    "caveat": "Sekiranya terdapat perbezaan antara data ini dengan mana-mana sumber lain, perlu diingati bahawa data yang absah adalah data yang dipaparkan di portal ataupun papan pemuka SPR."
+                }
+            },
+            "chart": {
+                "chart_type": "CHOROPLETH",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "color": "blues",
+                    "file_json": "parlimen",
+                    "format": {
+                        "x": "parlimen",
+                        "y": "pengundi_jumlah"
+                    }
+                }
+            }
+        },
+        {
+            "id": 2,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "PARLIMEN"
+                ],
+                "start": "2022",
+                "end": "2022",
+                "data_source": [
+                    "SPR"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-12-07 23:59",
+                "last_updated": "2022-12-07 23:59",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "This data is produced by SPR, and details the official results as gazetted by SPR.",
+                    "caveat": "In the event of a conflict between this data and any other source, the SPR portal and election dashboard should be regarded as the single source of truth."
+                },
+                "bm": {
+                    "methodology": "Data ini dihasilkan oleh Suruhanjaya Pilihanraya, dan memberi perincian keputusan pilihanraya seperti yang diwartakan oleh SPR.",
+                    "caveat": "Sekiranya terdapat perbezaan antara data ini dengan mana-mana sumber lain, perlu diingati bahawa data yang absah adalah data yang dipaparkan di portal ataupun papan pemuka SPR."
+                }
+            },
+            "chart": {
+                "chart_type": "CHOROPLETH",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "color": "blues",
+                    "file_json": "parlimen",
+                    "format": {
+                        "x": "parlimen",
+                        "y": "undi_keluar_peti"
+                    }
+                }
+            }
+        },
+        {
+            "id": 3,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "PARLIMEN"
+                ],
+                "start": "2022",
+                "end": "2022",
+                "data_source": [
+                    "SPR"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-12-07 23:59",
+                "last_updated": "2022-12-07 23:59",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "This data is produced by SPR, and details the official results as gazetted by SPR.",
+                    "caveat": "In the event of a conflict between this data and any other source, the SPR portal and election dashboard should be regarded as the single source of truth."
+                },
+                "bm": {
+                    "methodology": "Data ini dihasilkan oleh Suruhanjaya Pilihanraya, dan memberi perincian keputusan pilihanraya seperti yang diwartakan oleh SPR.",
+                    "caveat": "Sekiranya terdapat perbezaan antara data ini dengan mana-mana sumber lain, perlu diingati bahawa data yang absah adalah data yang dipaparkan di portal ataupun papan pemuka SPR."
+                }
+            },
+            "chart": {
+                "chart_type": "CHOROPLETH",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "color": "blues",
+                    "file_json": "parlimen",
+                    "format": {
+                        "x": "parlimen",
+                        "y": "undi_dalam_peti"
+                    }
+                }
+            }
+        },
+        {
+            "id": 4,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "PARLIMEN"
+                ],
+                "start": "2022",
+                "end": "2022",
+                "data_source": [
+                    "SPR"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-12-07 23:59",
+                "last_updated": "2022-12-07 23:59",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "This data is produced by SPR, and details the official results as gazetted by SPR.",
+                    "caveat": "In the event of a conflict between this data and any other source, the SPR portal and election dashboard should be regarded as the single source of truth."
+                },
+                "bm": {
+                    "methodology": "Data ini dihasilkan oleh Suruhanjaya Pilihanraya, dan memberi perincian keputusan pilihanraya seperti yang diwartakan oleh SPR.",
+                    "caveat": "Sekiranya terdapat perbezaan antara data ini dengan mana-mana sumber lain, perlu diingati bahawa data yang absah adalah data yang dipaparkan di portal ataupun papan pemuka SPR."
+                }
+            },
+            "chart": {
+                "chart_type": "CHOROPLETH",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "color": "reds",
+                    "file_json": "parlimen",
+                    "format": {
+                        "x": "parlimen",
+                        "y": "undi_tak_kembali"
+                    }
+                }
+            }
+        },
+        {
+            "id": 5,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "PARLIMEN"
+                ],
+                "start": "2022",
+                "end": "2022",
+                "data_source": [
+                    "SPR"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-12-07 23:59",
+                "last_updated": "2022-12-07 23:59",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "This data is produced by SPR, and details the official results as gazetted by SPR.",
+                    "caveat": "In the event of a conflict between this data and any other source, the SPR portal and election dashboard should be regarded as the single source of truth."
+                },
+                "bm": {
+                    "methodology": "Data ini dihasilkan oleh Suruhanjaya Pilihanraya, dan memberi perincian keputusan pilihanraya seperti yang diwartakan oleh SPR.",
+                    "caveat": "Sekiranya terdapat perbezaan antara data ini dengan mana-mana sumber lain, perlu diingati bahawa data yang absah adalah data yang dipaparkan di portal ataupun papan pemuka SPR."
+                }
+            },
+            "chart": {
+                "chart_type": "CHOROPLETH",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "color": "reds",
+                    "file_json": "parlimen",
+                    "format": {
+                        "x": "parlimen",
+                        "y": "undi_tolak"
+                    }
+                }
+            }
+        },
+        {
+            "id": 6,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "PARLIMEN"
+                ],
+                "start": "2022",
+                "end": "2022",
+                "data_source": [
+                    "SPR"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-12-07 23:59",
+                "last_updated": "2022-12-07 23:59",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "This data is produced by SPR, and details the official results as gazetted by SPR.",
+                    "caveat": "In the event of a conflict between this data and any other source, the SPR portal and election dashboard should be regarded as the single source of truth."
+                },
+                "bm": {
+                    "methodology": "Data ini dihasilkan oleh Suruhanjaya Pilihanraya, dan memberi perincian keputusan pilihanraya seperti yang diwartakan oleh SPR.",
+                    "caveat": "Sekiranya terdapat perbezaan antara data ini dengan mana-mana sumber lain, perlu diingati bahawa data yang absah adalah data yang dipaparkan di portal ataupun papan pemuka SPR."
+                }
+            },
+            "chart": {
+                "chart_type": "CHOROPLETH",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "color": "greens",
+                    "file_json": "parlimen",
+                    "format": {
+                        "x": "parlimen",
+                        "y": "majoriti"
+                    }
+                }
+            }
+        },
+        {
+            "id": 7,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "PARLIMEN"
+                ],
+                "start": "2022",
+                "end": "2022",
+                "data_source": [
+                    "SPR"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-12-07 23:59",
+                "last_updated": "2022-12-07 23:59",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "This data is produced by SPR, and details the official results as gazetted by SPR.",
+                    "caveat": "In the event of a conflict between this data and any other source, the SPR portal and election dashboard should be regarded as the single source of truth."
+                },
+                "bm": {
+                    "methodology": "Data ini dihasilkan oleh Suruhanjaya Pilihanraya, dan memberi perincian keputusan pilihanraya seperti yang diwartakan oleh SPR.",
+                    "caveat": "Sekiranya terdapat perbezaan antara data ini dengan mana-mana sumber lain, perlu diingati bahawa data yang absah adalah data yang dipaparkan di portal ataupun papan pemuka SPR."
+                }
+            },
+            "chart": {
+                "chart_type": "CHOROPLETH",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "color": "blues",
+                    "file_json": "parlimen",
+                    "format": {
+                        "x": "parlimen",
+                        "y": "peratus_undi"
+                    }
+                }
+            }
+        },
+        {
+            "id": 8,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "PARLIMEN"
+                ],
+                "start": "2022",
+                "end": "2022",
+                "data_source": [
+                    "SPR"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-12-07 23:59",
+                "last_updated": "2022-12-07 23:59",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "This data is produced by SPR, and details the official results as gazetted by SPR.",
+                    "caveat": "In the event of a conflict between this data and any other source, the SPR portal and election dashboard should be regarded as the single source of truth."
+                },
+                "bm": {
+                    "methodology": "Data ini dihasilkan oleh Suruhanjaya Pilihanraya, dan memberi perincian keputusan pilihanraya seperti yang diwartakan oleh SPR.",
+                    "caveat": "Sekiranya terdapat perbezaan antara data ini dengan mana-mana sumber lain, perlu diingati bahawa data yang absah adalah data yang dipaparkan di portal ataupun papan pemuka SPR."
+                }
+            },
+            "chart": {
+                "chart_type": "CHOROPLETH",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "color": "reds",
+                    "file_json": "parlimen",
+                    "format": {
+                        "x": "parlimen",
+                        "y": "peratus_tolak"
+                    }
+                }
+            }
+        }
+    ]
+}
