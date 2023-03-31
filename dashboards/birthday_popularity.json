@@ -20,6 +20,7 @@
         },
         "rank_table" : {
             "name" : "rank_table",
+            "chart_type": "snapshot_chart",
             "chart_source" : "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/birthday_rank.parquet",
             "data_as_of" : "2022-12-31 13:59",
             "api_type" : "dynamic",
