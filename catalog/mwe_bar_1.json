@@ -76,15 +76,11 @@
             "chart": {
                 "chart_type": "BAR",
                 "chart_filters": {
-                    "SLICE_BY": [
-                        "date"
-                    ],
+                    "SLICE_BY": [],
                     "precision": 0
                 },
                 "chart_variables": {
-                    "parents": [
-                        "date"
-                    ],
+                    "parents": [],
                     "format": {
                         "x": "state",
                         "y": ["var1"]
