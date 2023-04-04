@@ -55,7 +55,13 @@
                 "end": "2023",
                 "data_source": [
                     "MAMPU"
-                ]
+                ],
+                "contains_sex": true,
+                "contains_ethnicity": false,
+                "contains_religion": false,
+                "contains_nationality": false,
+                "contains_oku": false,
+                "contains_marital": true,
             },
             "metadata_neutral": {
                 "data_as_of": "2023-04-03 23:59",
