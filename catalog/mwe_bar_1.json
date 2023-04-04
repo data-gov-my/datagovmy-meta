@@ -12,8 +12,8 @@
             "en": "Lorem ipsum.",
             "bm": "Lorem ipsum."
         },
-        "link_parquet": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_timeseries.parquet",
-        "link_csv": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_timeseries.csv",
+        "link_parquet": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_bar.parquet",
+        "link_csv": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_bar.csv",
         "variables": [
             {
                 "id": -1,
@@ -34,8 +34,8 @@
             {
                 "id": 1,
                 "name": "var_1",
-                "title_en": "Variable 1",
-                "title_bm": "Pembolehubah 1",
+                "title_en": "Vertical Bar (1 bar)",
+                "title_bm": "Bar Menegak (1 bar)",
                 "desc_en": "[Integer] A precise, succinct description of this variable",
                 "desc_bm": "[Integer] A precise, succinct description of this variable"
             }
@@ -43,12 +43,10 @@
     },
     "catalog_data": [
         {
-            "id": 1,
+            "id": 0,
             "catalog_filters": {
-                "frequency": "DAILY",
-                "limit_frequency": false,
+                "frequency": "MONTHLY",
                 "geographic": [
-                    "STATE",
                     "NATIONAL"
                 ],
                 "start": "2006",
@@ -75,22 +73,22 @@
                 }
             },
             "chart": {
-                "chart_type": "TIMESERIES",
+                "chart_type": "BAR",
                 "chart_filters": {
-                    "SLICE_BY": [
-                        "state"
-                    ],
+                    "SLICE_BY": [],
                     "precision": 0
                 },
                 "chart_variables": {
-                    "parents": [
-                        "state"
-                    ],
-                    "operation": "SUM",
+                    "parents": [],
                     "format": {
-                        "x": "date",
-                        "y": "var1",
-                        "line": ""
+                        "x": "state",
+                        "y": ["var1"]
+                    },
+                    "format_lang": {
+                        "x_en": "State",
+                        "x_bm": "Negeri",
+                        "y_en": ["Var1"],
+                        "y_bm": ["Var1"]
                     }
                 }
             }
