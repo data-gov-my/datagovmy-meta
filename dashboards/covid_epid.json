@@ -8,7 +8,8 @@
       "bar_chart": {
         "name": "bar_chart",
         "chart_type": "bar_chart",
-        "chart_source": "covidepid_05_bar.parquet",
+        "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_05_bar.parquet",
+        "data_as_of": "2023-04-01 23:59",
         "api_type": "static",
         "api_params": [],
         "variables": {
@@ -28,7 +29,8 @@
       "snapshot_bar": {
         "name": "snapshot_bar",
         "chart_type": "bar_meter",
-        "chart_source": "covidepid_02_snapshot_bar.parquet",
+        "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_02_snapshot_bar.parquet",
+        "data_as_of": "2023-04-01 23:59",
         "api_type": "static",
         "api_params": [],
         "variables": {
@@ -61,7 +63,8 @@
       "snapshot_graphic": {
         "name": "snapshot_graphic",
         "chart_type": "custom_chart",
-        "chart_source": "covidepid_02_snapshot_graphic.parquet",
+        "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_02_snapshot_graphic.parquet",
+        "data_as_of": "2023-04-01 23:59",
         "api_type": "dynamic",
         "api_params": ["state"],
         "variables": {
@@ -98,7 +101,8 @@
       "snapshot_table": {
         "name": "snapshot_table",
         "chart_type": "snapshot_chart",
-        "chart_source": "covidepid_04_snapshot_table.parquet",
+        "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_04_snapshot_table.parquet",
+        "data_as_of": "2023-04-01 23:59",
         "api_type": "static",
         "api_params": [],
         "variables": {
@@ -128,7 +132,8 @@
       "timeseries_admitted": {
         "name": "timeseries_admitted",
         "chart_type": "timeseries_chart",
-        "chart_source": "covidepid_03_timeseries.parquet",
+        "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_03_timeseries.parquet",
+        "data_as_of": "2023-04-01 23:59",
         "api_type": "dynamic",
         "api_params": [
           "state"
@@ -144,7 +149,8 @@
       "timeseries_cases": {
         "name": "timeseries_cases",
         "chart_type": "timeseries_chart",
-        "chart_source": "covidepid_03_timeseries.parquet",
+        "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_03_timeseries.parquet",
+        "data_as_of": "2023-04-01 23:59",
         "api_type": "dynamic",
         "api_params": [
           "state"
@@ -160,7 +166,8 @@
       "timeseries_deaths": {
         "name": "timeseries_deaths",
         "chart_type": "timeseries_chart",
-        "chart_source": "covidepid_03_timeseries.parquet",
+        "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_03_timeseries.parquet",
+        "data_as_of": "2023-04-01 23:59",
         "api_type": "dynamic",
         "api_params": [
           "state"
@@ -178,7 +185,8 @@
       "timeseries_icu": {
         "name": "timeseries_icu",
         "chart_type": "timeseries_chart",
-        "chart_source": "covidepid_03_timeseries.parquet",
+        "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_03_timeseries.parquet",
+        "data_as_of": "2023-04-01 23:59",
         "api_type": "dynamic",
         "api_params": [
           "state"
@@ -194,7 +202,8 @@
       "timeseries_tests": {
         "name": "timeseries_tests",
         "chart_type": "timeseries_chart",
-        "chart_source": "covidepid_03_timeseries.parquet",
+        "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_03_timeseries.parquet",
+        "data_as_of": "2023-04-01 23:59",
         "api_type": "dynamic",
         "api_params": [
           "state"
@@ -211,7 +220,8 @@
       "timeseries_vents": {
         "name": "timeseries_vents",
         "chart_type": "timeseries_chart",
-        "chart_source": "covidepid_03_timeseries.parquet",
+        "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_03_timeseries.parquet",
+        "data_as_of": "2023-04-01 23:59",
         "api_type": "dynamic",
         "api_params": [
           "state"
@@ -227,7 +237,8 @@
       "statistics": {
         "name": "statistics",
         "chart_type": "custom_chart",
-        "chart_source": "covidepid_03_timeseries_keystats.parquet",
+        "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_03_timeseries_keystats.parquet",
+        "data_as_of": "2023-04-01 23:59",
         "api_type": "dynamic",
         "api_params": [
           "state"
@@ -247,7 +258,8 @@
       "util_chart": {
         "name": "util_chart",
         "chart_type": "custom_chart",
-        "chart_source": "covidepid_01_util.parquet",
+        "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_01_util.parquet",
+        "data_as_of": "2023-04-01 23:59",
         "api_type": "dynamic",
         "api_params": [
           "state"
