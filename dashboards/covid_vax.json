@@ -8,7 +8,8 @@
       "bar_chart": {
         "name": "bar_chart",
         "chart_type": "bar_meter",
-        "chart_source": "covidvax_01_waffle.parquet",
+        "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidvax_01_waffle.parquet",
+        "data_as_of": "2023-04-03 23:59",
         "api_type": "dynamic",
         "api_params": [
           "state"
@@ -58,7 +59,8 @@
       "snapshot": {
         "name": "snapshot",
         "chart_type": "snapshot_chart",
-        "chart_source": "covidvax_03_snapshot.parquet",
+        "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidvax_03_snapshot.parquet",
+        "data_as_of": "2023-04-03 23:59",
         "api_type": "static",
         "api_params": [],
         "variables": {
@@ -96,7 +98,8 @@
       "statistics": {
         "name": "statistics",
         "chart_type": "custom_chart",
-        "chart_source": "covidvax_02_timeseries_keystats.parquet",
+        "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidvax_02_timeseries_keystats.parquet",
+        "data_as_of": "2023-04-03 23:59",
         "api_type": "dynamic",
         "api_params": [
           "state"
@@ -116,7 +119,8 @@
       "timeseries": {
         "name": "timeseries",
         "chart_type": "timeseries_chart",
-        "chart_source": "covidvax_02_timeseries.parquet",
+        "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidvax_02_timeseries.parquet",
+        "data_as_of": "2023-04-03 23:59",
         "api_type": "dynamic",
         "api_params": [
           "state"
@@ -143,7 +147,8 @@
       "waffle": {
         "name": "waffle",
         "chart_type": "waffle_chart",
-        "chart_source": "covidvax_01_waffle.parquet",
+        "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidvax_01_waffle.parquet",
+        "data_as_of": "2023-04-03 23:59",
         "api_type": "dynamic",
         "api_params": [
           "state"
