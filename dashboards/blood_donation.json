@@ -10,6 +10,7 @@
         "name": "bar_chart_age",
         "chart_type": "bar_chart",
         "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/blood_03_barchart_age.parquet",
+        "data_as_of": "2023-04-03 23:59",
         "api_type": "dynamic",
         "api_params": [
           "state"
@@ -29,6 +30,7 @@
         "name": "bar_chart_time",
         "chart_type": "bar_chart",
         "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/blood_03_barchart_time.parquet",
+        "data_as_of": "2023-04-03 23:59",
         "api_type": "dynamic",
         "api_params": [
           "state"
@@ -48,6 +50,7 @@
         "name": "heatmap_bloodstock",
         "chart_type": "heatmap_chart",
         "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/blood_01_stock_snapshot.parquet",
+        "data_as_of": "2023-04-03 23:59",
         "api_type": "static",
         "api_params": [],
         "variables": {
@@ -80,6 +83,7 @@
         "name": "heatmap_donorrate",
         "chart_type": "heatmap_chart",
         "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/blood_04_heatmap_donorrate.parquet",
+        "data_as_of": "2023-04-03 23:59",
         "api_type": "dynamic",
         "api_params": [
           "state"
@@ -116,6 +120,7 @@
         "name": "heatmap_retention",
         "chart_type": "heatmap_chart",
         "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/blood_04_heatmap_retention.parquet",
+        "data_as_of": "2023-04-03 23:59",
         "api_type": "dynamic",
         "api_params": [
           "state"
@@ -141,6 +146,7 @@
         "name": "timeseries_all",
         "chart_type": "timeseries_chart",
         "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/blood_02_timeseries.parquet",
+        "data_as_of": "2023-04-03 23:59",
         "api_type": "dynamic",
         "api_params": [
           "state"
@@ -157,6 +163,7 @@
         "name": "timeseries_bloodstock",
         "chart_type": "timeseries_chart",
         "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/blood_01_stock_timeseries.parquet",
+        "data_as_of": "2023-04-03 23:59",
         "api_type": "dynamic",
         "api_params": [
           "state"
@@ -191,6 +198,7 @@
         "name": "map_facility",
         "chart_type": "custom_chart",
         "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/blood_05_map_facility.parquet",
+        "data_as_of": "2023-04-03 23:59",
         "api_type": "static",
         "api_params": [],
         "variables": {
@@ -209,6 +217,7 @@
         "name": "barchart_key_variables",
         "chart_type": "bar_meter",
         "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/blood_02_barcharts.parquet",
+        "data_as_of": "2023-04-03 23:59",
         "api_type": "dynamic",
         "api_params": [
           "state"
@@ -228,6 +237,7 @@
         "name": "choropleth_malaysia",
         "chart_type": "snapshot_chart",
         "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/blood_06_choropleth_msia.parquet",
+        "data_as_of": "2023-04-03 23:59",
         "api_type": "static",
         "api_params": [],
         "variables": {
