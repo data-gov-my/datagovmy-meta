@@ -1,6 +1,6 @@
 {
     "dashboard_name": "blood_donation",
-    "manual_trigger": "",
+    "manual_trigger": "2",
     "required_params": [
       "state"
     ],
