@@ -1,9 +1,25 @@
 {
     "dashboard_name": "dashboards",
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "required_params": [],
     "optional_params": [],
     "charts": {
+        "agencies_all": {
+            "name": "agencies_all",
+            "chart_type": "metrics_table",
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/dashboards_agencies.parquet",
+            "data_as_of": "2023-03-27 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "lang"
+                ],
+                "obj_attr": {
+                    "agency": "agency"
+                }
+            }
+        },
         "dashboards_top": {
             "name": "dashboards_top",
             "chart_type": "metrics_table",
