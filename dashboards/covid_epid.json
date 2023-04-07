@@ -1,6 +1,6 @@
 {
     "dashboard_name": "covid_epid",
-    "manual_trigger": "1",
+    "manual_trigger": "2",
     "required_params": [
       "state"
     ],
