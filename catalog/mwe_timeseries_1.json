@@ -79,7 +79,6 @@
                     },
                     "chart": {
                         "chart_type": "TIMESERIES",
-                        "stacked": false,
                         "chart_filters": {
                             "SLICE_BY": [
                                 "state"

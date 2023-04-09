@@ -70,7 +70,6 @@
                     },
                     "chart": {
                         "chart_type": "BAR",
-                        "stacked": false,
                         "chart_filters": {
                             "SLICE_BY": [],
                             "precision": 0
