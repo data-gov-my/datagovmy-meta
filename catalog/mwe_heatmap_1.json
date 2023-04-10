@@ -1,8 +1,8 @@
 {
     "file": {
-        "manual_trigger": "2",
+        "manual_trigger": "",
         "bucket": "dgmy-public-mwe",
-        "file_name": "mwe_heattable_1",
+        "file_name": "mwe_heattable",
         "category": "METADATA",
         "category_en": "Site Metadata",
         "category_bm": "Metadata Portal",
@@ -33,26 +33,10 @@
                 "desc_bm": "[Kategori] Name negeri (16 keseluruhan) atau Malaysia"
             },
             {
-                "id": -1,
-                "name": "var1",
-                "title_en": "Variable 1",
-                "title_bm": "Pembolehubah 1",
-                "desc_en": "[Integer] A precise, succinct description of this variable",
-                "desc_bm": "[Integer] A precise, succinct description of this variable"
-            },
-            {
-                "id": -1,
-                "name": "var2",
-                "title_en": "Variable 2",
-                "title_bm": "Pembolehubah 2",
-                "desc_en": "[Integer] A precise, succinct description of this variable",
-                "desc_bm": "[Integer] A precise, succinct description of this variable"
-            },
-            {
                 "id": 0,
-                "name": "var_1",
-                "title_en": "Timeseries (2 lines)",
-                "title_bm": "Siri Masa (2 siri)",
+                "name": "heatmap_table",
+                "title_en": "Heatmap Table",
+                "title_bm": "Jadual Peta Haba",
                 "desc_en": "A precise, succinct description of this chart",
                 "desc_bm": "A precise, succinct description of this chart",
                 "catalog_data" : {
