@@ -4,23 +4,22 @@
     "required_params": ["manufacturer", "model", "colour"],
     "optional_params": [],
     "charts": {
-        "timeseries": {
+        "timeseries" : {
             "name": "timeseries",
-            "chart_type": "timeseries_chart",
+            "chart_type": "timeseries_shared",
             "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/car_popularity_timeseries.parquet",
-            "data_as_of": "2022-12-31 23:59",
-            "api_type": "dynamic",
+            "data_as_of" : "2023-02-28 23:59",
+            "api_type": "individual_chart",
             "api_params": ["manufacturer", "model", "colour"],
             "variables": {
-                "manufacturer" :{
-                    "model" : {
-                        "colour" : {
-                            "x": "date",
-                            "cars": "cars"
-                        }
-                    }
-                }
-            }
-        }
+              "keys" : ["manufacturer", "model", "colour"],
+              "constant" : {
+                  "x" : "date"
+              },
+              "attributes" : {
+                  "cars" : "cars"
+              }
+            } 
+        }  
     }
 }
