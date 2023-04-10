@@ -50,7 +50,7 @@
             },
             {
                 "id": 0,
-                "name": "var_1",
+                "name": "mwe_timeseries_2",
                 "title_en": "Timeseries (2 lines)",
                 "title_bm": "Siri Masa (2 siri)",
                 "desc_en": "A precise, succinct description of this chart",
