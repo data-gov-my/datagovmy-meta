@@ -12,8 +12,14 @@
             "api_type": "dynamic",
             "api_params": ["manufacturer", "model", "colour"],
             "variables": {
-                "x": "date",
-                "cars": "cars"
+                "manufacturer" :{
+                    "model" : {
+                        "colour" : {
+                            "x": "date",
+                            "cars": "cars"
+                        }
+                    }
+                }
             }
         }
     }
