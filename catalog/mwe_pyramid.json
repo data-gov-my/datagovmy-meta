@@ -24,9 +24,42 @@
                 "desc_en": "[Date] Date in YYYY-MM-DD format",
                 "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
             },
+
+            {
+                "id": -1,
+                "name": "ethnicity",
+                "title_en": "Ethnicity",
+                "title_bm": "Etnik",
+                "desc_en": "[Categorical] Total, Malay, Other Bumiputera, Chinese, Indian, Other Citizen, Non-citizen",
+                "desc_bm": "[Kategori] Keseluruhan, Melayu, Bumiptutera lain, Cina, India, Lain-lain Warganegara, Bukan Warganegara"
+            },
+            {
+                "id": -1,
+                "name": "age",
+                "title_en": "Age Group",
+                "title_bm": "Kumpulan Umur",
+                "desc_en": "[Categorical] 5-year groups from 0-4 until 85+",
+                "desc_bm": "[Kategori] Kumpulan umur dengan julat 5 tahun, dari 0-4 hingga 85+"
+            },
+            {
+                "id": -1,
+                "name": "male",
+                "title_en": "Male Population",
+                "title_bm": "Populasi Lelaki",
+                "desc_en": "[Integer] Estimated number of people",
+                "desc_bm": "[Integer] Anggaran jumlah penduduk"
+            },
+            {
+                "id": -1,
+                "name": "female",
+                "title_en": "Female Population",
+                "title_bm": "Populasi Perempuan",
+                "desc_en": "[Integer] Estimated number of people",
+                "desc_bm": "[Integer] Anggaran jumlah penduduk"
+            },
             {
                 "id": 0,
-                "name": "Pyramid Bar",
+                "name": "mwe_pyramid",
                 "title_en": "Pyramid Bar",
                 "title_bm": "Pyramid Bar",
                 "desc_en": "Population pyramid for Malaysia",
@@ -83,38 +116,6 @@
                         }
                     }
                 }
-            },
-            {
-                "id": 1,
-                "name": "ethnicity",
-                "title_en": "Ethnicity",
-                "title_bm": "Etnik",
-                "desc_en": "[Categorical] Total, Malay, Other Bumiputera, Chinese, Indian, Other Citizen, Non-citizen",
-                "desc_bm": "[Kategori] Keseluruhan, Melayu, Bumiptutera lain, Cina, India, Lain-lain Warganegara, Bukan Warganegara"
-            },
-            {
-                "id": 2,
-                "name": "age",
-                "title_en": "Age Group",
-                "title_bm": "Kumpulan Umur",
-                "desc_en": "[Categorical] 5-year groups from 0-4 until 85+",
-                "desc_bm": "[Kategori] Kumpulan umur dengan julat 5 tahun, dari 0-4 hingga 85+"
-            },
-            {
-                "id": 3,
-                "name": "male",
-                "title_en": "Male Population",
-                "title_bm": "Populasi Lelaki",
-                "desc_en": "[Integer] Estimated number of people",
-                "desc_bm": "[Integer] Anggaran jumlah penduduk"
-            },
-            {
-                "id": 4,
-                "name": "female",
-                "title_en": "Female Population",
-                "title_bm": "Populasi Perempuan",
-                "desc_en": "[Integer] Estimated number of people",
-                "desc_bm": "[Integer] Anggaran jumlah penduduk"
             }
         ]
     }
