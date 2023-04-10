@@ -98,11 +98,7 @@
                             "precision": 0
                         },
                         "chart_variables": {
-                            "parents": [],
-                            "format": {
-                                "index": "group",
-                                "columns": ["18-24", "25-29", "30-34", "35-39", "40-44", "45-49", "50-54", "55-59"]
-                            }
+                            "parents": []
                         }
                     }
                 }                
