@@ -2,7 +2,7 @@
     "file": {
         "manual_trigger": "1",
         "bucket": "dgmy-public-mwe",
-        "file_name": "mwe_bar_2",
+        "file_name": "mwe_bar_4",
         "category": "METADATA",
         "category_en": "Site Metadata",
         "category_bm": "Metadata Portal",
@@ -49,10 +49,26 @@
                 "desc_bm": "[Integer] A precise, succinct description of this variable"
             },
             {
+                "id": -1,
+                "name": "var3",
+                "title_en": "Variable 3",
+                "title_bm": "Pembolehubah 3",
+                "desc_en": "[Integer] A precise, succinct description of this variable",
+                "desc_bm": "[Integer] A precise, succinct description of this variable"
+            },
+            {
+                "id": -1,
+                "name": "var4",
+                "title_en": "Variable 4",
+                "title_bm": "Pembolehubah 4",
+                "desc_en": "[Integer] A precise, succinct description of this variable",
+                "desc_bm": "[Integer] A precise, succinct description of this variable"
+            },
+            {
                 "id": 0,
-                "name": "mwe_bar_2",
-                "title_en": "Vertical Bar (2 bars)",
-                "title_bm": "Bar Menegak (2 bar)",
+                "name": "mwe_bar_4",
+                "title_en": "Vertical Bar (4 bars)",
+                "title_bm": "Bar Menegak (4 bar)",
                 "desc_en": "A precise, succinct description of this chart",
                 "desc_bm": "A precise, succinct description of this chart",
                 "catalog_data" : {
@@ -94,13 +110,13 @@
                             "parents": [],
                             "format": {
                                 "x": "state",
-                                "y": ["var1","var2"]
+                                "y": ["var1","var2","var3","var4"]
                             },
                             "format_lang": {
                                 "x_en": "State",
                                 "x_bm": "Negeri",
-                                "y_en": ["Variable 1","Variable 2"],
-                                "y_bm": ["Pembolehubah 1","Pembolehubah 2"]
+                                "y_en": ["Variable 1","Variable 2","Variable 3","Variable 3"],
+                                "y_bm": ["Pembolehubah 1","Pembolehubah 2","Pembolehubah 3","Pembolehubah 4"]
                             }
                         }
                     }
