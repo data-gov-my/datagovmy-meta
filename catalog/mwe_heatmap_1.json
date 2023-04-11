@@ -89,12 +89,12 @@
                     "translations" : {
                         "chart_columns" : {
                             "en" : {
-                                "columns" : {
+                                "index" : {
                                     "indian_male" : "Indian Male"
                                 }
                             },
                             "bm" : {
-                                "columns" : {
+                                "index" : {
                                     "indian_male" : "Lelaki India"
                                 }
                             }
