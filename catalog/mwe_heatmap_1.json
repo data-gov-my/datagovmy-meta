@@ -82,7 +82,8 @@
                             "precision": 0
                         },
                         "chart_variables": {
-                            "parents": []
+                            "parents": [],
+                            "colour" : "greens"
                         }
                     }
                 }                

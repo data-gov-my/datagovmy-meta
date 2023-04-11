@@ -33,7 +33,7 @@
                 "desc_bm": "[Integer] A precise, succinct description of this variable",
                 "catalog_data" : {
                     "catalog_filters": {
-                        "frequency": "MONTHLY",
+                        "frequency": "YEARLY",
                         "geographic": [
                             "NATIONAL"
                         ],
@@ -75,10 +75,10 @@
                                 "y": "voter_turnout"
                             },
                             "format_lang": {
-                                "x_en": "State",
-                                "x_bm": "Negeri",
-                                "y_en": ["Var1"],
-                                "y_bm": ["Var1"]
+                                "x_en": "Parliament",
+                                "x_bm": "Parlimen",
+                                "y_en": "Voter Turnout",
+                                "y_bm": "Peratus Keluar Mengundi"
                             }
                         }
                     }
