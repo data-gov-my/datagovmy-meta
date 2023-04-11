@@ -85,7 +85,21 @@
                             "parents": [],
                             "colour" : "greens"
                         }
-                    }
+                    },
+                    "translations" : {
+                        "chart_columns" : {
+                            "en" : {
+                                "columns" : {
+                                    "indian_male" : "Indian Male"
+                                }
+                            },
+                            "bm" : {
+                                "columns" : {
+                                    "indian_male" : "Lelaki India"
+                                }
+                            }
+                        }
+                    }                     
                 }                
             }
         ]
