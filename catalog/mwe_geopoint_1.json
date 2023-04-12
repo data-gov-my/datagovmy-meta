@@ -2,7 +2,7 @@
     "file": {
         "manual_trigger": "2",
         "bucket": "dgmy-public-mwe",
-        "file_name": "mwe_heattable",
+        "file_name": "mwe_geopoint",
         "category": "METADATA",
         "category_en": "Site Metadata",
         "category_bm": "Metadata Portal",
