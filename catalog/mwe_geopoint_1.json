@@ -1,6 +1,6 @@
 {
     "file": {
-        "manual_trigger": "1",
+        "manual_trigger": "",
         "bucket": "dgmy-public-mwe",
         "file_name": "mwe_geopoint",
         "category": "METADATA",
@@ -51,12 +51,12 @@
                         "data_source": [
                             "MAMPU"
                         ],
-                        "sex": true,
+                        "sex": false,
                         "ethnicity": false,
                         "religion": false,
                         "nationality": false,
                         "oku": false,
-                        "marital": true
+                        "marital": false
                     },
                     "metadata_neutral": {
                         "data_as_of": "2023-04-03 23:59",
