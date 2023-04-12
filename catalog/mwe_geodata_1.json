@@ -1,5 +1,6 @@
 {
     "file": {
+        "manual_trigger" : "1",
         "bucket": "dosm-public-geodata",
         "file_name": "admin_2_district",
         "category": "GEODATA",
