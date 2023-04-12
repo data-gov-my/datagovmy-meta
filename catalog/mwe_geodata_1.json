@@ -1,0 +1,82 @@
+{
+    "file": {
+        "bucket": "dosm-public-geodata",
+        "file_name": "admin_2_district",
+        "category": "GEODATA",
+        "category_en": "Geospatial Data",
+        "category_bm": "Data Geospatial",
+        "subcategory": "ADMINBOUNDS",
+        "subcategory_en": "Administrative Boundaries",
+        "subcategory_bm": "Sempadan Pentadbiran",
+        "description": {
+            "en": "Lorem ipsum.",
+            "bm": "Lorem ipsum."
+        },
+        "link_geojson": "https://storage.googleapis.com/dosm-public-geodata/admin_2_district.geojson",
+        "variables": [
+            {
+                "id": 0,
+                "name": "Administrative Boundaries: District",
+                "title_en": "Administrative Boundaries: District",
+                "title_bm": "Sempadan Pentadbiran: Daerah",
+                "desc_en": "Lorem ipsum.",
+                "desc_bm": "Lorem ipsum.",
+                "catalog_data" : {
+                    "catalog_filters": {
+                        "frequency": "AS_REQUIRED",
+                        "geographic": [
+                            "DISTRICT"
+                        ],
+                        "start": "2023",
+                        "end": "2023",
+                        "data_source": [
+                            "JUPEM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2022-01-31 23:59",
+                        "last_updated": "2022-02-01 12:00",
+                        "next_update": "n/a"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "Lorem ipsum.",
+                            "caveat": "Lorem ipsum."
+                        },
+                        "bm": {
+                            "methodology": "Lorem ipsum.",
+                            "caveat": "Lorem ipsum."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "GEOJSON",
+                        "chart_filters": {
+                            "SLICE_BY": []
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "color": "reds",
+                            "file_json": "district"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 1,
+                "name": "state",
+                "title_en": "State",
+                "title_bm": "Negeri",
+                "desc_en": "[Categorical] Name of the state, with 16 states in total.",
+                "desc_bm": "[Kategori] Nama negeri, dengan 16 negeri secara keseluruhan."
+            },
+            {
+                "id": 2,
+                "name": "district",
+                "title_en": "District",
+                "title_bm": "Daerah",
+                "desc_en": "[Categorical] Name of the district, with 160 districts in total.",
+                "desc_bm": "[Kategori] Nama daerah, dengan 160 daerah secara keseluruhan."
+            }
+        ]
+    }
+}
