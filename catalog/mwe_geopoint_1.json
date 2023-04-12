@@ -13,8 +13,8 @@
             "en": "Lorem ipsum.",
             "bm": "Lorem ipsum."
         },
-        "link_parquet": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_heattable.parquet",
-        "link_csv": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_heattable.csv",
+        "link_parquet": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_geopoint.parquet",
+        "link_csv": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_geopoint.csv",
         "variables": [
             {
                 "id": -1,
