@@ -2,7 +2,7 @@
     "file": {
         "manual_trigger": "1",
         "bucket": "dgmy-public-mwe",
-        "file_name": "mwe_scatter",
+        "file_name": "mwe_scatterplot",
         "category": "METADATA",
         "category_en": "Site Metadata",
         "category_bm": "Metadata Portal",
@@ -26,9 +26,9 @@
             },
             {
                 "id": 0,
-                "name": "Scatter plot",
-                "title_en": "Scatter plot",
-                "title_bm": "Scatter plot",
+                "name": "mwe_scatterplot",
+                "title_en": "Scatter Plot",
+                "title_bm": "Scatter Plot",
                 "desc_en": "A precise, succinct description of this chart",
                 "desc_bm": "A precise, succinct description of this chart",
                 "catalog_data" : {

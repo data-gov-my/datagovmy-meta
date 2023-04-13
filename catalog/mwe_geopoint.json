@@ -34,7 +34,7 @@
             },
             {
                 "id": 0,
-                "name": "Geopoint",
+                "name": "mwe_geopoint",
                 "title_en": "Geopoint",
                 "title_bm": "Geopoint sample",
                 "desc_en": "A precise, succinct description of this chart",
