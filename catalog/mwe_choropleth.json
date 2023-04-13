@@ -26,9 +26,9 @@
             },
             {
                 "id": 0,
-                "name": "var_1",
-                "title_en": "Choropleth sample",
-                "title_bm": "Sampel Choropleth",
+                "name": "mwe_choropleth",
+                "title_en": "Choropleth",
+                "title_bm": "Choropleth",
                 "desc_en": "[Integer] A precise, succinct description of this variable",
                 "desc_bm": "[Integer] A precise, succinct description of this variable",
                 "catalog_data" : {

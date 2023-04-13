@@ -2,7 +2,7 @@
     "file": {
         "manual_trigger": "",
         "bucket": "dgmy-public-mwe",
-        "file_name": "mwe_timeseries_1",
+        "file_name": "mwe_hbar_4",
         "category": "METADATA",
         "category_en": "Site Metadata",
         "category_bm": "Metadata Portal",
@@ -13,8 +13,8 @@
             "en": "Lorem ipsum.",
             "bm": "Lorem ipsum."
         },
-        "link_parquet": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_timeseries.parquet",
-        "link_csv": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_timeseries.csv",
+        "link_parquet": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_bar.parquet",
+        "link_csv": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_bar.csv",
         "variables": [
             {
                 "id": -1,
@@ -33,40 +33,23 @@
                 "desc_bm": "[Kategori] Name negeri (16 keseluruhan) atau Malaysia"
             },
             {
-                "id": -1,
-                "name": "var1",
-                "title_en": "Variable 1",
-                "title_bm": "Pembolehubah 1",
-                "desc_en": "[Integer] A precise, succinct description of this variable",
-                "desc_bm": "[Integer] A precise, succinct description of this variable"
-            },
-            {
                 "id": 0,
-                "name": "mwe_timeseries_1",
-                "title_en": "Timeseries (1 line)",
-                "title_bm": "Siri Masa (1 siri)",
-                "desc_en": "A precise, succinct description of this chart",
-                "desc_bm": "A precise, succinct description of this chart",
+                "name": "mwe_hbar_4",
+                "title_en": "Horizontal Bar (4 bars)",
+                "title_bm": "Bar Melintang (4 bar)",
+                "desc_en": "[Integer] A precise, succinct description of this variable",
+                "desc_bm": "[Integer] A precise, succinct description of this variable",
                 "catalog_data" : {
-                    "id": 0,
                     "catalog_filters": {
-                        "frequency": "DAILY",
-                        "limit_frequency": false,
+                        "frequency": "MONTHLY",
                         "geographic": [
-                            "STATE",
                             "NATIONAL"
                         ],
                         "start": "2006",
                         "end": "2023",
                         "data_source": [
                             "MAMPU"
-                        ],
-                        "sex": true,
-                        "ethnicity": false,
-                        "religion": false,
-                        "nationality": false,
-                        "oku": false,
-                        "marital": true
+                        ]
                     },
                     "metadata_neutral": {
                         "data_as_of": "2023-04-03 23:59",
@@ -86,24 +69,38 @@
                         }
                     },
                     "chart": {
-                        "chart_type": "TIMESERIES",
+                        "chart_type": "HBAR",
                         "chart_filters": {
-                            "SLICE_BY": [
-                                "state"
-                            ],
+                            "SLICE_BY": [],
                             "precision": 0
                         },
                         "chart_variables": {
-                            "parents": [
-                                "state"
-                            ],
-                            "operation": "SUM",
+                            "parents": [],
                             "format": {
-                                "x": "date",
-                                "y": ["var1"]                            }
+                                "x": "state",
+                                "y": ["var1","var2","var3","var4"]
+                            },
+                            "format_lang": {
+                                "x_en": "State",
+                                "x_bm": "Negeri",
+                                "y_en": ["Variable 1","Variable 2","Variable 3","Variable 4"],
+                                "y_bm": ["Pembolehubah 1","Pembolehubah 2","Pembolehubah 3","Pembolehubah 4"]
+                            }
                         }
-                    }
-                }                
+                    },
+                    "translations" : {
+                        "table_columns" : {
+                            "en" : {
+                                "x": "State",
+                                "y": ["Variable 1","Variable 2","Variable 3","Variable 4"]
+                            },
+                            "bm" : {
+                                "x": "Negeri",
+                                "y": ["Pembolehubah 1","Pembolehubah 2","Pembolehubah 3","Pembolehubah 4"]
+                            }
+                        }
+                    } 
+                }
             }
         ]
     }

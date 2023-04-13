@@ -34,7 +34,7 @@
             },
             {
                 "id": 0,
-                "name": "var_1",
+                "name": "mwe_hbar_1",
                 "title_en": "Horizontal Bar (1 bar)",
                 "title_bm": "Bar Melintang (1 bar)",
                 "desc_en": "[Integer] A precise, succinct description of this variable",
