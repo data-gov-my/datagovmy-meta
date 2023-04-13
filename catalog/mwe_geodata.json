@@ -1,14 +1,14 @@
 {
     "file": {
-        "manual_trigger" : "1",
-        "bucket": "dosm-public-geodata",
-        "file_name": "admin_2_district",
-        "category": "GEODATA",
-        "category_en": "Geospatial Data",
-        "category_bm": "Data Geospatial",
-        "subcategory": "ADMINBOUNDS",
-        "subcategory_en": "Administrative Boundaries",
-        "subcategory_bm": "Sempadan Pentadbiran",
+        "manual_trigger" : "",
+        "bucket": "dgmy-public-mwe",
+        "file_name": "mwe_geodata",
+        "category": "METADATA",
+        "category_en": "Site Metadata",
+        "category_bm": "Metadata Portal",
+        "subcategory": "SAMPLE_CHART",
+        "subcategory_en": "Chart Samples",
+        "subcategory_bm": "Contoh Carta",
         "description": {
             "en": "Lorem ipsum.",
             "bm": "Lorem ipsum."
@@ -17,9 +17,9 @@
         "variables": [
             {
                 "id": 0,
-                "name": "Administrative Boundaries: District",
-                "title_en": "Administrative Boundaries: District",
-                "title_bm": "Sempadan Pentadbiran: Daerah",
+                "name": "mwe_geodata",
+                "title_en": "Geodata",
+                "title_bm": "Geodata",
                 "desc_en": "Lorem ipsum.",
                 "desc_bm": "Lorem ipsum.",
                 "catalog_data" : {
@@ -63,7 +63,7 @@
                 }
             },
             {
-                "id": 1,
+                "id": -1,
                 "name": "state",
                 "title_en": "State",
                 "title_bm": "Negeri",
@@ -71,7 +71,7 @@
                 "desc_bm": "[Kategori] Nama negeri, dengan 16 negeri secara keseluruhan."
             },
             {
-                "id": 2,
+                "id": -1,
                 "name": "district",
                 "title_en": "District",
                 "title_bm": "Daerah",
