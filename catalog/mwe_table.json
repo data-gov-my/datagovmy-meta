@@ -26,7 +26,7 @@
             },
             {
                 "id": 0,
-                "name": "Table",
+                "name": "mwe_table",
                 "title_en": "Table",
                 "title_bm": "Meja",
                 "desc_en": "A precise, succinct description of this chart",

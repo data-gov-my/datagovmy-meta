@@ -2,7 +2,7 @@
     "file": {
         "manual_trigger": "",
         "bucket": "dgmy-public-mwe",
-        "file_name": "mwe_stacked_area_1",
+        "file_name": "mwe_stacked_area",
         "category": "METADATA",
         "category_en": "Site Metadata",
         "category_bm": "Metadata Portal",
@@ -42,9 +42,9 @@
             },
             {
                 "id": 0,
-                "name": "var_1",
-                "title_en": "Timeseries (1 line)",
-                "title_bm": "Siri Masa (1 siri)",
+                "name": "mwe_stacked_area",
+                "title_en": "Stacked Area",
+                "title_bm": "Kawasan Bertindan",
                 "desc_en": "A precise, succinct description of this chart",
                 "desc_bm": "A precise, succinct description of this chart",
                 "catalog_data" : {
@@ -100,7 +100,7 @@
                             "operation": "SUM",
                             "format": {
                                 "x": "date",
-                                "y": ["var1", "var2", "var3"],
+                                "y": ["var1", "var2", "var3","var4"],
                                 "line": ""
                             }
                         }

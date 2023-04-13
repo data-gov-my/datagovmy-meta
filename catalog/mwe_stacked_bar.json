@@ -2,7 +2,7 @@
     "file": {
         "manual_trigger": "1",
         "bucket": "dgmy-public-mwe",
-        "file_name": "mwe_stacked_bar_1",
+        "file_name": "mwe_stacked_bar",
         "category": "METADATA",
         "category_en": "Site Metadata",
         "category_bm": "Metadata Portal",
@@ -42,9 +42,9 @@
             },
             {
                 "id": 0,
-                "name": "mwe_bar_1",
-                "title_en": "Vertical Bar (1 bar)",
-                "title_bm": "Bar Menegak (1 bar)",
+                "name": "mwe_stacked_bar",
+                "title_en": "Stacked Bar",
+                "title_bm": "Bar Bertindan",
                 "desc_en": "A precise, succinct description of this chart",
                 "desc_bm": "A precise, succinct description of this chart",
                 "catalog_data" : {
@@ -86,7 +86,7 @@
                             "parents": [],
                             "format": {
                                 "x": "state",
-                                "y": ["var1", "var2", "var3"]
+                                "y": ["var1", "var2", "var3","var4"]
                             }
                         }
                     },
@@ -94,11 +94,11 @@
                         "table_columns" : {
                             "en" : {
                                 "x": "State",
-                                "y": ["Variable 1","Variable 2", "Variable 3"]
+                                "y": ["Variable 1","Variable 2", "Variable 3", "Variable 4"]
                             },
                             "bm" : {
                                 "x": "Negeri",
-                                "y": ["Pembolehubah 1","Pembolehubah 2", "Pembolehubah 3"]
+                                "y": ["Pembolehubah 1","Pembolehubah 2", "Pembolehubah 3", "Pembolehubah 4"]
                             }
                         }
                     } 
