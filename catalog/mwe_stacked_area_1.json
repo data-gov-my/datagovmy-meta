@@ -1,8 +1,8 @@
 {
     "file": {
-        "manual_trigger": "1",
+        "manual_trigger": "",
         "bucket": "dgmy-public-mwe",
-        "file_name": "mwe_table",
+        "file_name": "mwe_stacked_area_1",
         "category": "METADATA",
         "category_en": "Site Metadata",
         "category_bm": "Metadata Portal",
@@ -13,8 +13,8 @@
             "en": "Lorem ipsum.",
             "bm": "Lorem ipsum."
         },
-        "link_parquet": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_table.parquet",
-        "link_csv": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_table.csv",
+        "link_parquet": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_timeseries.parquet",
+        "link_csv": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_timeseries.csv",
         "variables": [
             {
                 "id": -1,
@@ -25,15 +25,33 @@
                 "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
             },
             {
+                "id": -1,
+                "name": "state",
+                "title_en": "State",
+                "title_bm": "Negeri",
+                "desc_en": "[Categorical] Name of the state (16 in total) or Malaysia",
+                "desc_bm": "[Kategori] Name negeri (16 keseluruhan) atau Malaysia"
+            },
+            {
+                "id": -1,
+                "name": "var1",
+                "title_en": "Variable 1",
+                "title_bm": "Pembolehubah 1",
+                "desc_en": "[Integer] A precise, succinct description of this variable",
+                "desc_bm": "[Integer] A precise, succinct description of this variable"
+            },
+            {
                 "id": 0,
-                "name": "Table",
-                "title_en": "Table",
-                "title_bm": "Meja",
+                "name": "var_1",
+                "title_en": "Timeseries (1 line)",
+                "title_bm": "Siri Masa (1 siri)",
                 "desc_en": "A precise, succinct description of this chart",
                 "desc_bm": "A precise, succinct description of this chart",
                 "catalog_data" : {
+                    "id": 0,
                     "catalog_filters": {
-                        "frequency": "YEARLY",
+                        "frequency": "DAILY",
+                        "limit_frequency": false,
                         "geographic": [
                             "STATE",
                             "NATIONAL"
@@ -68,17 +86,25 @@
                         }
                     },
                     "chart": {
-                        "chart_type": "TABLE",
+                        "chart_type": "STACKED_AREA",
                         "chart_filters": {
-                            "SLICE_BY": [],
+                            "SLICE_BY": [
+                                "state"
+                            ],
                             "precision": 0
                         },
                         "chart_variables": {
-                            "parents": [],
-                            "exclude" : [],
-                            "freeze" : []
+                            "parents": [
+                                "state"
+                            ],
+                            "operation": "SUM",
+                            "format": {
+                                "x": "date",
+                                "y": ["var1", "var2", "var3"],
+                                "line": ""
+                            }
                         }
-                    }              
+                    }
                 }                
             }
         ]

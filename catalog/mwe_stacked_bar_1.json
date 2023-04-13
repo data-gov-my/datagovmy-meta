@@ -2,7 +2,7 @@
     "file": {
         "manual_trigger": "1",
         "bucket": "dgmy-public-mwe",
-        "file_name": "mwe_table",
+        "file_name": "mwe_bar_1",
         "category": "METADATA",
         "category_en": "Site Metadata",
         "category_bm": "Metadata Portal",
@@ -13,8 +13,8 @@
             "en": "Lorem ipsum.",
             "bm": "Lorem ipsum."
         },
-        "link_parquet": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_table.parquet",
-        "link_csv": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_table.csv",
+        "link_parquet": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_bar.parquet",
+        "link_csv": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_bar.csv",
         "variables": [
             {
                 "id": -1,
@@ -25,30 +25,39 @@
                 "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
             },
             {
+                "id": -1,
+                "name": "state",
+                "title_en": "State",
+                "title_bm": "Negeri",
+                "desc_en": "[Categorical] Name of the state (16 in total) or Malaysia",
+                "desc_bm": "[Kategori] Name negeri (16 keseluruhan) atau Malaysia"
+            },
+            {
+                "id": -1,
+                "name": "var1",
+                "title_en": "Variable 1",
+                "title_bm": "Pembolehubah 1",
+                "desc_en": "[Integer] A precise, succinct description of this variable",
+                "desc_bm": "[Integer] A precise, succinct description of this variable"
+            },
+            {
                 "id": 0,
-                "name": "Table",
-                "title_en": "Table",
-                "title_bm": "Meja",
+                "name": "mwe_bar_1",
+                "title_en": "Vertical Bar (1 bar)",
+                "title_bm": "Bar Menegak (1 bar)",
                 "desc_en": "A precise, succinct description of this chart",
                 "desc_bm": "A precise, succinct description of this chart",
                 "catalog_data" : {
                     "catalog_filters": {
-                        "frequency": "YEARLY",
+                        "frequency": "MONTHLY",
                         "geographic": [
-                            "STATE",
                             "NATIONAL"
                         ],
                         "start": "2006",
                         "end": "2023",
                         "data_source": [
                             "MAMPU"
-                        ],
-                        "sex": true,
-                        "ethnicity": false,
-                        "religion": false,
-                        "nationality": false,
-                        "oku": false,
-                        "marital": true
+                        ]
                     },
                     "metadata_neutral": {
                         "data_as_of": "2023-04-03 23:59",
@@ -68,18 +77,26 @@
                         }
                     },
                     "chart": {
-                        "chart_type": "TABLE",
+                        "chart_type": "STACKED_BAR",
                         "chart_filters": {
                             "SLICE_BY": [],
                             "precision": 0
                         },
                         "chart_variables": {
                             "parents": [],
-                            "exclude" : [],
-                            "freeze" : []
+                            "format": {
+                                "x": "state",
+                                "y": ["var1", "var2", "var3"]
+                            },
+                            "format_lang": {
+                                "x_en": "State",
+                                "x_bm": "Negeri",
+                                "y_en": ["Variable 1","Variable 2", "Variable 3"],
+                                "y_bm": ["Pembolehubah 1","Pembolehubah 2", "Pembolehubah 3"]
+                            }
                         }
-                    }              
-                }                
+                    }
+                }
             }
         ]
     }
