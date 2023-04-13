@@ -1,6 +1,6 @@
 {
     "file": {
-        "manual_trigger": "1",
+        "manual_trigger": "",
         "bucket": "dgmy-public-mwe",
         "file_name": "mwe_scatterplot",
         "category": "METADATA",
