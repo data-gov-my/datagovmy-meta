@@ -87,12 +87,18 @@
                             "format": {
                                 "x": "state",
                                 "y": ["var1"]
+                            }
+                        }
+                    },
+                    "translations" : {
+                        "table_columns" : {
+                            "en" : {
+                                "x": "State",
+                                "y": ["Variable 1","Variable 2"]
                             },
-                            "format_lang": {
-                                "x_en": "State",
-                                "x_bm": "Negeri",
-                                "y_en": ["Variable 1","Variable 2"],
-                                "y_bm": ["Pembolehubah 1","Pembolehubah 2"]
+                            "bm" : {
+                                "x": "Negeri",
+                                "y": ["Pembolehubah 1","Pembolehubah 2"]
                             }
                         }
                     }

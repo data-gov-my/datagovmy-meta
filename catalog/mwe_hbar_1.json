@@ -87,7 +87,19 @@
                                 "y_bm": ["Var1"]
                             }
                         }
-                    }
+                    },
+                    "translations" : {
+                        "table_columns" : {
+                            "en" : {
+                                "x": "State",
+                                "y": ["Variable 1"]
+                            },
+                            "bm" : {
+                                "x": "Negeri",
+                                "y": ["Pembolehubah 1"]
+                            }
+                        }
+                    } 
                 }
             }
         ]

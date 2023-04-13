@@ -106,15 +106,21 @@
                                 "ethnicity"
                             ],
                             "x": "age",
-                            "y": ["male","female"],
-                            "format_lang": {
-                                "x_en": "Age",
-                                "x_bm": "Umur",
-                                "y_en": ["Male","Female"],
-                                "y_bm": ["Lelaki","Perempuan"]
-                            }  
+                            "y": ["male","female"]
                         }
-                    }
+                    },
+                    "translations" : {
+                        "table_columns" : {
+                            "en" : {
+                                "x": "Age",
+                                "y": ["Male","Female"]
+                            },
+                            "bm" : {
+                                "x": "Negeri",
+                                "y": ["Lelaki","Perempuan"]
+                            }
+                        }
+                    } 
                 }
             }
         ]

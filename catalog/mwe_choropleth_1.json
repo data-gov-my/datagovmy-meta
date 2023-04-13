@@ -73,15 +73,21 @@
                             "format": {
                                 "x": "parliament",
                                 "y": "voter_turnout"
-                            },
-                            "format_lang": {
-                                "x_en": "Parliament",
-                                "x_bm": "Parlimen",
-                                "y_en": "Voter Turnout",
-                                "y_bm": "Peratus Keluar Mengundi"
                             }
                         }
-                    }
+                    },
+                    "translations" : {
+                        "table_columns" : {
+                            "en" : {
+                                "x": "Parliament",
+                                "y": "Voter Turnout"
+                            },
+                            "bm" : {
+                                "x": "Parlimen",
+                                "y": "Peratus Keluar Mengundi"
+                            }
+                        }
+                    }                   
                 }
             }
         ]

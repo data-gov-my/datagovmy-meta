@@ -100,9 +100,7 @@
                             "operation": "SUM",
                             "format": {
                                 "x": "date",
-                                "y": ["var1"],
-                                "line": ""
-                            }
+                                "y": ["var1"]                            }
                         }
                     }
                 }                
