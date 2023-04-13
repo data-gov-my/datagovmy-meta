@@ -2,7 +2,7 @@
     "file": {
         "manual_trigger": "1",
         "bucket": "dgmy-public-mwe",
-        "file_name": "mwe_bar_1",
+        "file_name": "mwe_stacked_bar_1",
         "category": "METADATA",
         "category_en": "Site Metadata",
         "category_bm": "Metadata Portal",
