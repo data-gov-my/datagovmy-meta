@@ -110,7 +110,19 @@
                                 "y": ["var1","var2"]
                             }
                         }
-                    }
+                    },
+                    "translations" : {
+                        "en" : {
+                            "x" : "Date",
+                            "y1" : "Variable 1",
+                            "y2" : "Variable 2"
+                        },
+                        "bm" : {
+                            "x" : "Tarikh",
+                            "y1" : "Pembolehubah 1",
+                            "y2" : "Pembolehubah 2"
+                        }
+                    }                        
                 }                
             }
         ]
