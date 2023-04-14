@@ -99,15 +99,15 @@
                         }
                     },
                     "translations" : {
-                        "table_columns" : {
-                            "en" : {
-                                "x": "State",
-                                "y": ["Variable 1","Variable 2"]
-                            },
-                            "bm" : {
-                                "x": "Negeri",
-                                "y": ["Pembolehubah 1","Pembolehubah 2"]
-                            }
+                        "en" : {
+                            "x": "State",
+                            "y1": "Variable 1",
+                            "y2" : "Variable 2"
+                        },
+                        "bm" : {
+                            "x": "Negeri",
+                            "y1": "Pembolehubah 1",
+                            "y2": "Pembolehubah 2"
                         }
                     }                    
                 }

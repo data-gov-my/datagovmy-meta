@@ -110,15 +110,15 @@
                         }
                     },
                     "translations" : {
-                        "table_columns" : {
-                            "en" : {
-                                "x": "Age",
-                                "y": ["Male","Female"]
-                            },
-                            "bm" : {
-                                "x": "Negeri",
-                                "y": ["Lelaki","Perempuan"]
-                            }
+                        "en" : {
+                            "x": "Age",
+                            "y1": "Male",
+                            "y2" : "Female"
+                        },
+                        "bm" : {
+                            "x": "Negeri",
+                            "y1": "Lelaki",
+                            "y2": "Perempuan"
                         }
                     } 
                 }

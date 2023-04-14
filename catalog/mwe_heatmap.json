@@ -87,31 +87,25 @@
                         }
                     },
                     "translations" : {
-                        "chart_columns" : {
-                            "en" : {
-                                "index" : {
-                                    "indian_male" : "Indian (male)",
-                                    "chinese_male" : "Chinese (male)",
-                                    "malay_male" : "Malay (male)",
-                                    "other_male" : "Others (male)",
-                                    "indian_female" : "Indian (female)",
-                                    "chinese_female" : "Chinese (female)",
-                                    "malay_female" : "Malay (female)",
-                                    "other_female" : "Others (female)"
-                                }
-                            },
-                            "bm" : {
-                                "index" : {
-                                    "indian_male" : "India (lelaki)",
-                                    "chinese_male" : "Cina (lelaki)",
-                                    "malay_male" : "Melayu (lelaki)",
-                                    "other_male" : "Lain-lain (lelaki)",
-                                    "indian_female" : "India (perempuan)",
-                                    "chinese_female" : "Cina (perempuan)",
-                                    "malay_female" : "Melayu (perempuan)",
-                                    "other_female" : "Lain-lain (perempuan)"
-                                }
-                            }
+                        "en" : {
+                            "indian_male" : "Indian (male)",
+                            "chinese_male" : "Chinese (male)",
+                            "malay_male" : "Malay (male)",
+                            "other_male" : "Others (male)",
+                            "indian_female" : "Indian (female)",
+                            "chinese_female" : "Chinese (female)",
+                            "malay_female" : "Malay (female)",
+                            "other_female" : "Others (female)"
+                        },
+                        "bm" : {
+                            "indian_male" : "India (lelaki)",
+                            "chinese_male" : "Cina (lelaki)",
+                            "malay_male" : "Melayu (lelaki)",
+                            "other_male" : "Lain-lain (lelaki)",
+                            "indian_female" : "India (perempuan)",
+                            "chinese_female" : "Cina (perempuan)",
+                            "malay_female" : "Melayu (perempuan)",
+                            "other_female" : "Lain-lain (perempuan)"
                         }
                     }                     
                 }                

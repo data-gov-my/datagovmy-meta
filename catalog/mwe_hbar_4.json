@@ -79,25 +79,23 @@
                             "format": {
                                 "x": "state",
                                 "y": ["var1","var2","var3","var4"]
-                            },
-                            "format_lang": {
-                                "x_en": "State",
-                                "x_bm": "Negeri",
-                                "y_en": ["Variable 1","Variable 2","Variable 3","Variable 4"],
-                                "y_bm": ["Pembolehubah 1","Pembolehubah 2","Pembolehubah 3","Pembolehubah 4"]
                             }
                         }
                     },
                     "translations" : {
-                        "table_columns" : {
-                            "en" : {
-                                "x": "State",
-                                "y": ["Variable 1","Variable 2","Variable 3","Variable 4"]
-                            },
-                            "bm" : {
-                                "x": "Negeri",
-                                "y": ["Pembolehubah 1","Pembolehubah 2","Pembolehubah 3","Pembolehubah 4"]
-                            }
+                        "en" : {
+                            "x": "State",
+                            "y1": "Variable 1",
+                            "y2": "Variable 2",
+                            "y3": "Variable 3",
+                            "y4": "Variable 4"
+                        },
+                        "bm" : {
+                            "x": "Negeri",
+                            "y1": "Pembolehubah 1",
+                            "y2": "Pembolehubah 2",
+                            "y3": "Pembolehubah 3",
+                            "y4": "Pembolehubah 4"
                         }
                     } 
                 }

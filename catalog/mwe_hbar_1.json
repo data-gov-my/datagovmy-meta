@@ -79,25 +79,17 @@
                             "format": {
                                 "x": "state",
                                 "y": ["var1"]
-                            },
-                            "format_lang": {
-                                "x_en": "State",
-                                "x_bm": "Negeri",
-                                "y_en": ["Var1"],
-                                "y_bm": ["Var1"]
                             }
                         }
                     },
                     "translations" : {
-                        "table_columns" : {
-                            "en" : {
-                                "x": "State",
-                                "y": ["Variable 1"]
-                            },
-                            "bm" : {
-                                "x": "Negeri",
-                                "y": ["Pembolehubah 1"]
-                            }
+                        "en" : {
+                            "x": "State",
+                            "y1": "Variable 1"
+                        },
+                        "bm" : {
+                            "x": "Negeri",
+                            "y1": "Pembolehubah 1"
                         }
                     } 
                 }
