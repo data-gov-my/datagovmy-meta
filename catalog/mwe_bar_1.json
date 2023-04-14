@@ -94,11 +94,11 @@
                         "table_columns" : {
                             "en" : {
                                 "x": "State",
-                                "y": ["Variable 1","Variable 2"]
+                                "y": ["Variable 1"]
                             },
                             "bm" : {
                                 "x": "Negeri",
-                                "y": ["Pembolehubah 1","Pembolehubah 2"]
+                                "y": ["Pembolehubah 1"]
                             }
                         }
                     }
