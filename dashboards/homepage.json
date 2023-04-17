@@ -8,8 +8,8 @@
         "timeseries": {
             "name": "timeseries",
             "chart_type": "timeseries_chart",
-            "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_timeseries.parquet",
-            "data_as_of": "2023-03-06 23:59",
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/homepage_timeseries.parquet",
+            "data_as_of": "2023-04-16 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -25,8 +25,8 @@
         "statistics": {
             "name": "statistics",
             "chart_type": "custom_chart",
-            "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_timeseries_callout.parquet",
-            "data_as_of": "2023-03-06 23:59",
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/homepage_timeseries_callout.parquet",
+            "data_as_of": "2023-04-16 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -43,8 +43,8 @@
         "table_summary": {
             "name": "table_summary",
             "chart_type": "metrics_table",
-            "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_metrics_table.parquet?ignoreCache=1",
-            "data_as_of": "2023-03-06 23:59",
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/homepage_top.parquet",
+            "data_as_of": "2023-04-16 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -54,9 +54,10 @@
                 ],
                 "obj_attr": {
                     "route": "id",
-                    "count": "count",
                     "name_en": "name_en",
-                    "name_bm": "name_bm"
+                    "name_bm": "name_bm",
+                    "agency_abbr": "agency",
+                    "count": "count",
                 }
             }
         }
