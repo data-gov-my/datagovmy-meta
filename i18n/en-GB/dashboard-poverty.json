@@ -1,0 +1,7 @@
+{
+    "route": "dashboard/poverty",
+    "translation_json": {
+        "header": "Poverty",
+        "description": ""
+    }
+}

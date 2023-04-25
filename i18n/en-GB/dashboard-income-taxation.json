@@ -1,0 +1,7 @@
+{
+    "route": "dashboard/income-taxation",
+    "translation_json": {
+        "header": "Income Taxation",
+        "description": ""
+    }
+}

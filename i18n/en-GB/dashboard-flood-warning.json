@@ -1,0 +1,7 @@
+{
+    "route": "dashboard/flood-warning",
+    "translation_json": {
+        "header": "Flood Warning",
+        "description": ""
+    }
+}

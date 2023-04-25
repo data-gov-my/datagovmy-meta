@@ -1,0 +1,7 @@
+{
+    "route": "dashboard/government-site-tracker",
+    "translation_json": {
+        "header": "Government Site Tracker",
+        "description": ""
+    }
+}

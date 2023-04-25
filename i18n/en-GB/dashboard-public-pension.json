@@ -1,0 +1,7 @@
+{
+    "route": "dashboard/public-pension",
+    "translation_json": {
+        "header": "Public Pensions",
+        "description": ""
+    }
+}

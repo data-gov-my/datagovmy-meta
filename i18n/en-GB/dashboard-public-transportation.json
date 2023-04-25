@@ -1,0 +1,7 @@
+{
+    "route": "dashboard/public-transportation",
+    "translation_json": {
+        "header": "Public Transportation",
+        "description": ""
+    }
+}
