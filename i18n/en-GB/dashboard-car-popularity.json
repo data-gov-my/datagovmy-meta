@@ -1,5 +1,4 @@
 {
-    "language": "en-GB",
     "route": "dashboard/car-popularity",
     "translation_json": {
         "header": "Car Popularity",
