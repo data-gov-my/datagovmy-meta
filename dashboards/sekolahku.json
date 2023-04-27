@@ -9,9 +9,7 @@
             "chart_type": "query_values",
             "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/sekolahku_school_info.parquet",
             "api_type": "dynamic",
-            "api_params": [
-                "code"
-            ],
+            "api_params": [],
             "variables": {
                 "flat": true,
                 "columns": [
