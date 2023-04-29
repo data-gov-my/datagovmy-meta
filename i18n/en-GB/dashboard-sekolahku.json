@@ -46,8 +46,8 @@
     },
     "oku": {
       "title": "OKU Status",
-      "no": "OKU",
-      "yes": "Non-OKU"
+      "yes": "OKU",
+      "no": "Non-OKU"
     }
   },
   "section_3": {
