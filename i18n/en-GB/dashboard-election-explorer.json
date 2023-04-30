@@ -2,7 +2,7 @@
     "route": "dashboard/election-explorer",
     "translation_json": {
         "header": "Election Explorer",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        "description": "The Election Comission of Malaysia was established in 1957 according to Article 114 of the Federal Constitution, and is charged with safeguarding the right of every citizen to elect their representative via free and fair elections. Accordingly, the SPR has maintained a perfect record of every election in Malaysia's history. Powered by that data, this dashboard gives you a user-friendly way to explore Malaysia's entire electoral history. Enjoy, and may it help you better participate in our democracy!",
         "elections": "Elections",
         "candidates": "Candidates",
         "parties": "Political Parties",
