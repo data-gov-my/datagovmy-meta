@@ -53,7 +53,7 @@
             }
         },
         "section_3": {
-            "title": "How does {{ school }} compare to other {{ level }} schools in Malaysia?",
+            "title": "How does {{ school }} compare to other {{ level }} schools in {{ state }}?",
             "national": "National Level",
             "state": "State Level",
             "gpa": "SPM Grade Point Average (GPA)",
