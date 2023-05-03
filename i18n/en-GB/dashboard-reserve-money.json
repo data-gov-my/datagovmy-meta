@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/reserve-money",
-    "translation_json": {
+    "route": "/dashboard/reserve-money",
+    "translation": {
         "header": "Reserve Money",
         "description": "This dashboard uses data from Bank Negara Malaysia (BNM)'s Monthly Highlights and Statistics to track several key measures of reserve money. This includes Statutory Reserves, which are balances that banking institutions are required to maintain in their Statutory Reserve Accounts (SRA) equivalent to a certain proportion of their eligible liabilities, this proportion being the Statutory Reserve Requirement (SRR) set by BNM.",
         "section_1": {

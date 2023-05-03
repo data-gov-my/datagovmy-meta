@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/election-explorer",
-    "translation_json": {
+    "route": "/dashboard/election-explorer",
+    "translation": {
         "header": "Election Explorer",
         "description": "The Election Comission of Malaysia was established in 1957 according to Article 114 of the Federal Constitution, and is charged with safeguarding the right of every citizen to elect their representative via free and fair elections. Accordingly, the SPR has maintained a perfect record of every election in Malaysia's history. Powered by that data, this dashboard gives you a user-friendly way to explore Malaysia's entire electoral history. We hope it helps you become a more informed participant in our democracy!",
         "elections": "Elections",
@@ -41,13 +41,13 @@
             "choro_header": "How do {{ stat }} rates differ across the country?",
             "choro_rank": "Ranking",
             "voter_turnout": "Voter Turnout",
-            "majority_%": "Majority (%)", 
-            "rejected_votes": "Rejected votes", 
-            "%_PH": "% PH", 
+            "majority_%": "Majority (%)",
+            "rejected_votes": "Rejected votes",
+            "%_PH": "% PH",
             "num_voters": "Number of voters"
         },
         "candidate": {
-            "header": "Explore the electoral history of anyone who’s ever competed in an election",
+            "header": "Explore the electoral history of anyone who's ever competed in an election",
             "search_candidate": "Search for candidate's name",
             "title": "Complete electoral history for ",
             "no_data_dun": "{{ name }} has never competed in State elections",
@@ -58,9 +58,9 @@
             "lost_deposit": "Lost Deposit"
         },
         "party": {
-            "header": "Explore any party’s entire electoral history",
+            "header": "Explore any party's entire electoral history",
             "search_party": "Search for political party name",
-            "title": "<strong>{{ party }}’s electoral history</strong> in ",
+            "title": "<strong>{{ party }}'s electoral history</strong> in ",
             "no_data_dun": "{{ party }} has never competed in {{ state }} State elections",
             "no_data_dun_mys": "Please select a state; DUN-level results cannot be summarised at national level.",
             "no_data_parliament": "{{ party }} has never competed in Parliament elections",

@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/retirement-readiness",
-    "translation_json": {
+    "route": "/dashboard/retirement-readiness",
+    "translation": {
         "header": "Retirement Readiness",
         "description": ""
     }

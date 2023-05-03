@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/weather-and-climate",
-    "translation_json": {
+    "route": "/dashboard/weather-and-climate",
+    "translation": {
         "header": "Weather and Climate",
         "description": ""
     }

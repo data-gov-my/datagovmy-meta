@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/crime",
-    "translation_json": {
+    "route": "/dashboard/crime",
+    "translation": {
         "header": "Crime",
         "description": ""
     }

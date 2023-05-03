@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/immigration",
-    "translation_json": {
+    "route": "/dashboard/immigration",
+    "translation": {
         "header": "Immigration",
         "description": ""
     }

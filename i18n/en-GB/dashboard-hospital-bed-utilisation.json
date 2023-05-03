@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/hospital-bed-utilisation",
-    "translation_json": {
+    "route": "/dashboard/hospital-bed-utilisation",
+    "translation": {
         "header": "Hospital Bed Utilisation",
         "description": ""
     }

@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/gdp",
-    "translation_json": {
+    "route": "/dashboard/gdp",
+    "translation": {
         "header": "Gross Domestic Product (GDP)",
         "description": "The state of the economy is a core question for any country or government. Our quarterly Gross Domestic Product (GDP) estimates capture the value being created by the Malaysian economy, with breakdowns available by economic sector and expenditure category. It is a key data release monitored by policymakers, the private sector, and the international community - to get a sense of how the Malaysian economy is performing.",
         "section_1": {

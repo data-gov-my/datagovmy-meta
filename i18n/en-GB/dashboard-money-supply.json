@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/money-supply",
-    "translation_json": {
+    "route": "/dashboard/money-supply",
+    "translation": {
         "header": "Money Supply",
         "description": "There are over RM150 billion in coins and notes circulating in the Malaysian economy. This dashboard, which builds on Bank Negara Malaysia's Monthly Highlights and Statistics, provides an overview allowing users to track the composition and growth of currency in circulation. It should be noted that currency in circulation only captures currency which is still valid legal tender, which is a subset of all notes and coins that have ever existed. For instance, the RM1 coin has been discontinued.",
         "section_1": {

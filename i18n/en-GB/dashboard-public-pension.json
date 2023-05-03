@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/public-pension",
-    "translation_json": {
+    "route": "/dashboard/public-pension",
+    "translation": {
         "header": "Public Pensions",
         "description": ""
     }

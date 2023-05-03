@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/public-transportation",
-    "translation_json": {
+    "route": "/dashboard/public-transportation",
+    "translation": {
         "header": "Public Transportation",
         "description": ""
     }

@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/civil-service",
-    "translation_json": {
+    "route": "/dashboard/civil-service",
+    "translation": {
         "header": "The Civil Service",
         "description": ""
     }

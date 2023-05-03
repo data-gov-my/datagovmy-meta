@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/covid-19",
-    "translation_json": {
+    "route": "/dashboard/covid-19",
+    "translation": {
         "header": "COVID-19",
         "description": "Building on the Ministry of Health's previous COVIDNOW dashboard, this page provides a summarised view of the pandemic in Malaysia, allowing you to track its evolution on a daily basis.",
         "donut_header": "Healthcare facility utilisation",

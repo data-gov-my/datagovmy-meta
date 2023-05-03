@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/social-security",
-    "translation_json": {
+    "route": "/dashboard/social-security",
+    "translation": {
         "header": "Social Security",
         "description": ""
     }

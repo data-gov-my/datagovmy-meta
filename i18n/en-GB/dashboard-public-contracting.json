@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/public-contracting",
-    "translation_json": {
+    "route": "/dashboard/public-contracting",
+    "translation": {
         "header": "Public Contracting",
         "description": ""
     }

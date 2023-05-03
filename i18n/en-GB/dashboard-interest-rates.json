@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/interest-rates",
-    "translation_json": {
+    "route": "/dashboard/interest-rates",
+    "translation": {
         "header": "Interest Rates",
         "description": "There are many different interest rates in the economy - the rate you get when you open a savings account, the rate you get when you open a fixed deposit account, and the rate you get when you take a loan, to name a few. All these rates (and more) matter for economic activity, and are influenced by the Overnight Policy Rate (OPR), which is the primary policy tool of Bank Negara Malaysia (BNM). This dashboard uses data from BNM's Monthly Highlights and Statistics to track several key interest rates at a glance.",
         "section_1": {
