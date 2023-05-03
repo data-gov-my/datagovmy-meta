@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/internet-penetration",
-    "translation_json": {
+    "route": "/ms-MY/dashboard/internet-penetration",
+    "translation": {
         "header": "",
         "description": ""
     }

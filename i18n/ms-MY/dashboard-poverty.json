@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/poverty",
-    "translation_json": {
+    "route": "/ms-MY/dashboard/poverty",
+    "translation": {
         "header": "",
         "description": ""
     }

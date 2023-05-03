@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/public-contracting",
-    "translation_json": {
+    "route": "/ms-MY/dashboard/public-contracting",
+    "translation": {
         "header": "",
         "description": ""
     }

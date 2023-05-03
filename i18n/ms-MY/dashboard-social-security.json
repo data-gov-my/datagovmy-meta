@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/social-security",
-    "translation_json": {
+    "route": "/ms-MY/dashboard/social-security",
+    "translation": {
         "header": "",
         "description": ""
     }

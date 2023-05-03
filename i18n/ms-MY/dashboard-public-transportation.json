@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/public-transportation",
-    "translation_json": {
+    "route": "/ms-MY/dashboard/public-transportation",
+    "translation": {
         "header": "",
         "description": ""
     }

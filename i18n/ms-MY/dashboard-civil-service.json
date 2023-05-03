@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/civil-service",
-    "translation_json": {
+    "route": "/ms-MY/dashboard/civil-service",
+    "translation": {
         "header": "",
         "description": ""
     }

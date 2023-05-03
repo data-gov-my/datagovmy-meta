@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/retirement-readiness",
-    "translation_json": {
+    "route": "/ms-MY/dashboard/retirement-readiness",
+    "translation": {
         "header": "",
         "description": ""
     }

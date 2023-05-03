@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/birthday-explorer",
-    "translation_json": {
+    "route": "/ms-MY/dashboard/birthday-explorer",
+    "translation": {
         "header": "Peneroka Hari Lahir",
         "description": "Mark Twain pernah berkata bahawa <i>{{ quote }}</i>. Namun begitu, laman web ini tidak mampu memberikan makna kehidupan kepada anda, lagipun, kita cuma sebuah laman web data. Tetapi, apa yang kita boleh buat adalah memberi konteks kepada hari lahir anda yang berasaskan data. Berapakah orang yang mempunyai hari lahir yang sama dengan anda? Bulan apakah yang paling popular untuk beranak? Hari apakah yang paling istimewa sepanjang tahun? Cubalah terokai data tersebut di bawah!",
         "quote": "\u201cDua hari yang paling penting dalam kehidupan kita adalah hari kita dilahirkan bersama dengan hari kita memahami makna kehidupan\u201d",

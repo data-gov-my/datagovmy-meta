@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/gdp",
-    "translation_json": {
+    "route": "/ms-MY/dashboard/gdp",
+    "translation": {
         "header": "Keluaran Dalam Negeri Kasar (KDNK)",
         "description": "Keadaan ekonomi adalah persoalan teras bagi mana-mana negara atau kerajaan. Anggaran Keluaran Dalam Negara Kasar (KDNK) setiap suku tahun menggambarkan nilai yang dicipta oleh ekonomi Malaysia, dengan pecahan tersedia mengikut sektor ekonomi dan kategori perbelanjaan. Ia merupakan keluaran data utama yang dipantau oleh penggubal dasar, sektor swasta dan komuniti antarabangsa untuk mengukur prestasi ekonomi Malaysia.",
         "section_1": {

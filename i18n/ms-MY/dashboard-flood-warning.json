@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/flood-warning",
-    "translation_json": {
+    "route": "/ms-MY/dashboard/flood-warning",
+    "translation": {
         "header": "",
         "description": ""
     }

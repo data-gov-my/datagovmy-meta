@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/fire-and-rescue",
-    "translation_json": {
+    "route": "/ms-MY/dashboard/fire-and-rescue",
+    "translation": {
         "header": "",
         "description": ""
     }

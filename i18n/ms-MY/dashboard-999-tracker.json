@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/999-tracker",
-    "translation_json": {
+    "route": "/ms-MY/dashboard/999-tracker",
+    "translation": {
         "header": "",
         "description": ""
     }

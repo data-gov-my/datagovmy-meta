@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/immigration",
-    "translation_json": {
+    "route": "/ms-MY/dashboard/immigration",
+    "translation": {
         "header": "",
         "description": ""
     }

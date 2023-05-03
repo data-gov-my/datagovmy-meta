@@ -1,6 +1,6 @@
 {
-    "route": "/dashboard/sekolahku",
-    "translation_json": {
+    "route": "/ms-MY/dashboard/sekolahku",
+    "translation": {
         "header": "Sekolahku",
         "description": "Pergi ke sekolah adalah tonggak penting bagi setiap kanak-kanak. Bermula dari umur 7 hingga 17 tahun, sekolah adalah tempat di mana mereka akan menghabiskan setengah hari mereka - belajar, bermain, dan berkembang. Oleh itu, adalah sangat wajar bagi ibu bapa untuk mahu sebanyak mungkin maklumat tentang persekitaran pembelajaran anak mereka. Papan pemuka ini menggunakan data kaya Kementerian Pendidikan tentang pelajar, guru, dan sekolah untuk membawa kepada anda data terperinci tentang sekolah anak anda, termasuk demografi, sumber daya, dan tahap pencapaian sekolah. Harapan kami bahawa ketelusan ini akan membina kepercayaan yang lebih mendalam dalam sistem pendidikan negara.",
         "section_1": {

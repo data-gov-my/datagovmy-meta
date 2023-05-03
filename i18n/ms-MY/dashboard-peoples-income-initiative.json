@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/peoples-income-initiative",
-    "translation_json": {
+    "route": "/ms-MY/dashboard/peoples-income-initiative",
+    "translation": {
         "header": "",
         "description": ""
     }

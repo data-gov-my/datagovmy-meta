@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/covid-19",
-    "translation_json": {
+    "route": "/ms-MY/dashboard/covid-19",
+    "translation": {
         "header": "COVID-19",
         "description": "Berdasarkan dashboard COVIDNOW yang sebelumnya, halaman ini memberi ringkasan tentang pandemik di Malaysia dan membolehkan anda mengikuti perkembangan terkini setiap hari.",
         "donut_header": "Kadar penggunaan fasiliti kesihatan",

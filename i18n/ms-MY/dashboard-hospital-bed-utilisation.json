@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/hospital-bed-utilisation",
-    "translation_json": {
+    "route": "/ms-MY/dashboard/hospital-bed-utilisation",
+    "translation": {
         "header": "",
         "description": ""
     }

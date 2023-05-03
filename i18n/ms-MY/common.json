@@ -1,6 +1,6 @@
 {
-    "route": "/",
-    "translation_json": {
+    "route": "/ms-MY",
+    "translation": {
         "site": {
             "name": "data.gov.my",
             "description": "Terokailah pelbagai jenis data terbitan Malaysia. Jika data itu minyak yang baru, maka keterbukaan itulah saluran yang memaksimumkan kegunaannya."

@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/income-taxation",
-    "translation_json": {
+    "route": "/ms-MY/dashboard/income-taxation",
+    "translation": {
         "header": "",
         "description": ""
     }

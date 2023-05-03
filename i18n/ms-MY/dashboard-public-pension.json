@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/public-pension",
-    "translation_json": {
+    "route": "/ms-MY/dashboard/public-pension",
+    "translation": {
         "header": "",
         "description": ""
     }

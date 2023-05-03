@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/election-explorer",
-    "translation_json": {
+    "route": "/ms-MY/dashboard/election-explorer",
+    "translation": {
         "header": "Peneroka Pilihan Raya",
         "description": "Suruhanjaya Pilihanraya Malaysia ditubuhkan pada tahun 1957 berdasarkan Perkara 114 Perlembagaan Malaysia, dan diamanahkan untuk memelihara hak setiap rakyat Malaysia untuk memilih wakil rayat melalui pilihanraya yang bebas dan adil. Sejajar dengan amanah itu, SPR telah menyimpan rekod absah bagi setiap pilihanraya dalam sejarah Malaysia. Papan pemuka ini menggunakan data tersebut untuk membolehkan anda menerokai keseluruhan sejarah pilihanraya Malaysia. Semoga ia membantu anda menjadi warganegara demokratik yang lebih berilmiah!",
         "elections": "Pilihan Raya",
@@ -31,7 +31,7 @@
             "parliament_of": "Parlimen ",
             "summary": "Rumusan",
             "map": "Peta",
-            "table": "Jadual",        
+            "table": "Jadual",
             "majority": "112 kerusi (50%) Majoriti mudah",
             "explore": "Bahagian ini digunakan untuk menerokai keputusan pilihan raya seperti Pilihan Raya Umum ke-15 pada tahun 2022. \nSekiranya anda ingin menerokai sejarah penuh seseorang calon ataupun sebuah parti, sila pergi ke bahagian Calon atau Parti Politik",
             "section_2": "Lihat keputusan penuh bagi kerusi tertentu",
@@ -40,10 +40,10 @@
             "section_3": "Analisa pilihan raya",
             "choro_header": "Bagaimanakan kadar {{ stat }} berbeza di seluruh negara?",
             "choro_rank": "Kedudukan",
-            "voter_turnout": "Keluar Mengundi",        
-            "majority_%": "Majoriti (%)", 
-            "rejected_votes": "Undi ditolak", 
-            "%_PH": "% PH", 
+            "voter_turnout": "Keluar Mengundi",
+            "majority_%": "Majoriti (%)",
+            "rejected_votes": "Undi ditolak",
+            "%_PH": "% PH",
             "num_voters": "Jumlah pengundi"
         },
         "candidate": {

@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/government-site-tracker",
-    "translation_json": {
+    "route": "/ms-MY/dashboard/government-site-tracker",
+    "translation": {
         "header": "",
         "description": ""
     }
