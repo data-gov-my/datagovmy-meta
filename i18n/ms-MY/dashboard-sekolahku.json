@@ -55,6 +55,8 @@
         },
         "section_3": {
             "title": "Bagaimanakah {{ school }} berbanding dengan sekolah-sekolah {{ level }} lain di {{ state }}?",
+            "legend_primary": "Sekolah rendah lain",
+            "legend_secondary": "Sekolah menengah lain",
             "national": "Peringkat Kebangsaan",
             "state": "Peringkat Negeri",
             "gpa": "Purata Gred Mata Pelajaran SPM (GPA)",
