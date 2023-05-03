@@ -1,6 +1,6 @@
 {
-    "route": "dashboard/999-tracker",
-    "translation_json": {
+    "route": "/dashboard/999-tracker",
+    "translation": {
         "header": "999 Tracker",
         "description": ""
     }
