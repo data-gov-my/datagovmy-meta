@@ -1,0 +1,7 @@
+{
+    "route": "/dashboard/crime",
+    "translation": {
+        "header": "Crime",
+        "description": ""
+    }
+}

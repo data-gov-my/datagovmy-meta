@@ -1,0 +1,7 @@
+{
+    "route": "/dashboard/public-transportation",
+    "translation": {
+        "header": "Public Transportation",
+        "description": ""
+    }
+}

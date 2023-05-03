@@ -1,0 +1,7 @@
+{
+    "route": "/dashboard/internet-penetration",
+    "translation": {
+        "header": "Internet Penetration",
+        "description": ""
+    }
+}

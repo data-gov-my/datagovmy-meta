@@ -1,0 +1,170 @@
+{
+  "dashboard_name": "consumer_price_index",
+  "manual_trigger": "",
+  "required_params": [],
+  "optional_params": [],
+  "charts": {
+    "bar_chart": {
+      "name": "bar_chart",
+      "chart_type": "bar_chart",
+      "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/cpi_main_barchart.parquet",
+      "data_as_of": "2023-01-31 23:59",
+      "api_type": "static",
+      "api_params": [],
+      "variables": {
+        "keys": [
+          "period",
+          "state"
+        ],
+        "axis_values": [
+          "variable",
+          "value"
+        ]
+      }
+    },
+    "timeseries": {
+      "name": "timeseries",
+      "chart_type": "timeseries_chart",
+      "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/cpi_main_timeseries.parquet",
+      "data_as_of": "2023-01-31 23:59",
+      "api_type": "static",
+      "api_params": [],
+      "variables": {
+        "series_type": {
+          "chart_type": {
+            "x": "date",
+            "overall": "overall",
+            "food_beverage": "food_beverage",
+            "alcohol_tobacco": "alcohol_tobacco",
+            "clothing_footwear": "clothing_footwear",
+            "housing_utilities": "housing_utilities",
+            "furnishings": "furnishings",
+            "health": "health",
+            "transport": "transport",
+            "communication": "communication",
+            "recreation_culture": "recreation_culture",
+            "education": "education",
+            "hospitality": "hospitality",
+            "misc": "misc",
+            "recession": "recession"
+          }
+        }
+      }
+    },
+    "statistics": {
+      "name": "statistics",
+      "chart_type": "custom_chart",
+      "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/cpi_main_timeseries_callout.parquet",
+      "data_as_of": "2023-01-31 23:59",
+      "api_type": "static",
+      "api_params": [],
+      "variables": {
+        "keys": [
+          "series_type",
+          "chart_type",
+          "chart"
+        ],
+        "columns": [
+          "callout"
+        ],
+        "null_vals": null
+      }
+    },
+    "timeseries_6d": {
+      "name": "timeseries_6d",
+      "chart_type": "timeseries_shared",
+      "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/cpi_query_timeseries_4d.parquet",
+      "data_as_of": "2023-01-31 23:59",
+      "api_type": "individual_chart",
+      "api_params": [
+        "lang",
+        "level"
+      ],
+      "variables": {
+        "keys": [
+          "lang",
+          "level",
+          "name"
+        ],
+        "constant": {
+          "x": "date"
+        },
+        "attributes": {
+          "y": "value"
+        }
+      }
+    },
+    "snapshot_4d": {
+      "name": "snapshot_4d",
+      "chart_type": "timeseries_shared",
+      "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/cpi_query_snapshot_4d.parquet?ignoreCache=0",
+      "data_as_of": "2023-01-31 23:59",
+      "api_type": "individual_chart",
+      "api_params": [
+        "lang",
+        "level"
+      ],
+      "variables": {
+        "keys": [
+          "lang",
+          "level",
+          "name"
+        ],
+        "constant": {
+          "x": "date"
+        },
+        "attributes": {
+          "y1": "weight",
+          "y2": "yoy_latest",
+          "y3": "yoy_avg",
+          "y4": "mom_latest",
+          "y5": "mom_avg"
+        }
+      }
+    },
+    "choropleth_district": {
+      "name": "choropleth_district",
+      "chart_type": "choropleth_chart",
+      "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/cpi_district.parquet",
+      "data_as_of": "2023-01-31 23:59",
+      "api_type": "static",
+      "api_params": [],
+      "variables": {
+        "y": [
+          "coicop_017101",
+          "coicop_017120",
+          "coicop_017118",
+          "coicop_0171302",
+          "coicop_0171221",
+          "coicop_0171222",
+          "coicop_017139",
+          "coicop_017126",
+          "coicop_0171091",
+          "coicop_0171342",
+          "coicop_0171041",
+          "coicop_017125",
+          "coicop_017119",
+          "coicop_017123",
+          "coicop_0161263",
+          "coicop_016118",
+          "coicop_016119",
+          "coicop_0161013",
+          "coicop_016301",
+          "coicop_016304",
+          "coicop_0144013",
+          "coicop_013103",
+          "coicop_013101",
+          "coicop_0121041",
+          "coicop_012101",
+          "coicop_0132032",
+          "coicop_013205",
+          "coicop_013202",
+          "coicop_0011222",
+          "coicop_001128",
+          "coicop_1111021"
+        ],
+        "x": "district"
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+    "dashboard_name": "interest_rates",
+    "manual_trigger": "1",
+    "required_params": [],
+    "optional_params": [],
+    "charts": {
+        "timeseries": {
+            "name": "timeseries",
+            "chart_type": "timeseries_chart",
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/interestrates_timeseries.parquet",
+            "data_as_of": "2023-01-31 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "x": "date",
+                "deposit_fixed_12mo": "deposit_fixed_12mo",
+                "deposit_saving": "deposit_saving",
+                "base": "base",
+                "walr": "walr",
+                "recession": "recession"
+            }
+        },
+        "timeseries_opr": {
+            "name": "timeseries_opr",
+            "chart_type": "timeseries_chart",
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/interestrates_timeseries_opr.parquet",
+            "data_as_of": "2023-01-31 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "x": "date",
+                "opr": "opr"
+            }
+        },
+        "statistics": {
+            "name": "statistics",
+            "chart_type": "custom_chart",
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/interestrates_timeseries_callout.parquet",
+            "data_as_of": "2023-01-31 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "chart"
+                ],
+                "columns": [
+                    "callout"
+                ],
+                "null_vals": null
+            }
+        }
+    }
+}

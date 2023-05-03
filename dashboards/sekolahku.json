@@ -1,0 +1,134 @@
+{ 
+    "dashboard_name": "sekolahku",
+    "manual_trigger": "2",
+    "required_params": [],
+    "optional_params": [],
+    "charts": {
+        "query_values": {
+            "name": "query_values",
+            "chart_type": "query_values",
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/sekolahku_school_info.parquet",
+            "api_type": "dynamic",
+            "api_params": [],
+            "variables": {
+                "flat": true,
+                "columns": [
+                    "code",
+                    "school",
+                    "postcode",
+                    "state"
+                ]
+            }
+        },
+        "sekolahku_info": {
+            "name": "sekolahku_info",
+            "chart_type": "custom_chart",
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/sekolahku_school_info.parquet",
+            "api_type": "dynamic",
+            "api_params": [
+                "code"
+            ],
+            "variables": {
+                "keys": [
+                    "code"
+                ],
+                "columns": [
+                    "code",
+                    "school",
+                    "state",
+                    "ppd",
+                    "city",
+                    "postcode",
+                    "lat",
+                    "lon",
+                    "strata",
+                    "type",
+                    "level",
+                    "funding_status",
+                    "students",
+                    "teachers"
+                ],
+                "null_vals": null
+            }
+        },
+        "sekolahku_barmeter": {
+            "name": "sekolahku_barmeter",
+            "chart_type": "bar_meter",
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/sekolahku_barmeter.parquet",
+            "api_type": "dynamic",
+            "api_params": [
+                "code"
+            ],
+            "variables": {
+                "axis_values": [
+                    {
+                        "variable": "value"
+                    }
+                ],
+                "keys": [
+                    "code",
+                    "use_as",
+                    "chart"
+                ],
+                "null_vals": null
+            }
+        },
+        "bellcurve_linechart": {
+            "name": "bellcurve_linechart",
+            "chart_type": "line_chart",
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/sekolahku_bellcurve_curve.parquet",
+            "api_type": "dynamic",
+            "api_params": [],
+            "variables": {
+                "state": {
+                    "level": {
+                        "chart": {
+                            "x": "x",
+                            "y": "y"
+                        }
+                    }
+                }
+            }
+        },
+        "bellcurve_callout": {
+            "name": "bellcurve_callout",
+            "chart_type": "custom_chart",
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/sekolahku_bellcurve_callout.parquet",
+            "api_type": "dynamic",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "state",
+                    "level",
+                    "chart"
+                ],
+                "columns": [
+                    "callout"
+                ],
+                "null_vals": null
+            }
+        },
+        "bellcurve_school": {
+            "name": "bellcurve_school",
+            "chart_type": "custom_chart",
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/sekolahku_bellcurve_school.parquet",
+            "api_type": "dynamic",
+            "api_params": [
+                "code"
+            ],
+            "variables": {
+                "keys": [
+                    "code"
+                ],
+                "columns": [
+                    "students",
+                    "st_ratio",
+                    "max_ethnic",
+                    "closest_school_dist",
+                    "household_income",
+                    "gpa"
+                ]
+            }
+        }
+    }
+}

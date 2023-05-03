@@ -4,28 +4,11 @@
     "required_params": [],
     "optional_params": [],
     "charts": {
-        "highlight": {
-            "name": "highlight",
-            "chart_type": "custom_chart",
-            "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_main_callout.parquet",
-            "data_as_of": "2023-03-06 23:59",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "keys": [
-                    "chart"
-                ],
-                "columns": [
-                    "callout"
-                ],
-                "null_vals": null
-            }
-        },
         "timeseries": {
             "name": "timeseries",
             "chart_type": "timeseries_chart",
-            "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_timeseries.parquet",
-            "data_as_of": "2023-03-06 23:59",
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/homepage_timeseries.parquet",
+            "data_as_of": "2023-04-16 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -41,8 +24,8 @@
         "statistics": {
             "name": "statistics",
             "chart_type": "custom_chart",
-            "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_timeseries_callout.parquet",
-            "data_as_of": "2023-03-06 23:59",
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/homepage_timeseries_callout.parquet",
+            "data_as_of": "2023-04-16 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -59,8 +42,8 @@
         "table_summary": {
             "name": "table_summary",
             "chart_type": "metrics_table",
-            "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_metrics_table.parquet?ignoreCache=1",
-            "data_as_of": "2023-03-06 23:59",
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/homepage_top.parquet",
+            "data_as_of": "2023-04-16 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -69,29 +52,12 @@
                     "chart_type"
                 ],
                 "obj_attr": {
-                    "route": "id",
-                    "count": "count",
+                    "id": "id",
                     "name_en": "name_en",
-                    "name_bm": "name_bm"
+                    "name_bm": "name_bm",
+                    "agency": "agency_abbr",
+                    "count": "count"
                 }
-            }
-        },
-        "metrics_stats": {
-            "name": "metrics_stats",
-            "chart_type": "custom_chart",
-            "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_metrics_callout.parquet",
-            "data_as_of": "2023-03-06 23:59",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "keys": [
-                    "time_period",
-                    "chart_type"
-                ],
-                "columns": [
-                    "count"
-                ],
-                "null_vals": null
             }
         }
     }

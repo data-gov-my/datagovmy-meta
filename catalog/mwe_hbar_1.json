@@ -1,0 +1,99 @@
+{
+    "file": {
+        "manual_trigger": "",
+        "bucket": "dgmy-public-mwe",
+        "file_name": "mwe_hbar_1",
+        "category": "METADATA",
+        "category_en": "Site Metadata",
+        "category_bm": "Metadata Portal",
+        "subcategory": "SAMPLE_CHART",
+        "subcategory_en": "Chart Samples",
+        "subcategory_bm": "Contoh Carta",
+        "description": {
+            "en": "Lorem ipsum.",
+            "bm": "Lorem ipsum."
+        },
+        "link_parquet": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_bar.parquet",
+        "link_csv": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_bar.csv",
+        "variables": [
+            {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] The date in YYYY-MM-DD format",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+            },
+            {
+                "id": -1,
+                "name": "state",
+                "title_en": "State",
+                "title_bm": "Negeri",
+                "desc_en": "[Categorical] Name of the state (16 in total) or Malaysia",
+                "desc_bm": "[Kategori] Name negeri (16 keseluruhan) atau Malaysia"
+            },
+            {
+                "id": 0,
+                "name": "mwe_hbar_1",
+                "title_en": "Horizontal Bar (1 bar)",
+                "title_bm": "Bar Melintang (1 bar)",
+                "desc_en": "[Integer] A precise, succinct description of this variable",
+                "desc_bm": "[Integer] A precise, succinct description of this variable",
+                "catalog_data" : {
+                    "catalog_filters": {
+                        "frequency": "MONTHLY",
+                        "geographic": [
+                            "NATIONAL"
+                        ],
+                        "start": "2006",
+                        "end": "2023",
+                        "data_source": [
+                            "MAMPU"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-04-03 23:59",
+                        "last_updated": "2023-04-04 06:00",
+                        "next_update": "2023-04-05 06:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                            "caveat": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+                            "publication": "Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 'Lorem ipsum dolor sit amet..'', comes from a line in section 1.10.32."
+                        },
+                        "bm": {
+                            "methodology": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                            "caveat": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+                            "publication": "Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 'Lorem ipsum dolor sit amet..'', comes from a line in section 1.10.32."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "HBAR",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 0
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "format": {
+                                "x": "state",
+                                "y": ["var1"]
+                            }
+                        }
+                    },
+                    "translations" : {
+                        "en" : {
+                            "x": "State",
+                            "y1": "Variable 1"
+                        },
+                        "bm" : {
+                            "x": "Negeri",
+                            "y1": "Pembolehubah 1"
+                        }
+                    } 
+                }
+            }
+        ]
+    }
+}

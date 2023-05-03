@@ -1,0 +1,128 @@
+{
+    "file": {
+        "manual_trigger": "",
+        "bucket": "dgmy-public-mwe",
+        "file_name": "mwe_pyramid",
+        "category": "METADATA",
+        "category_en": "Site Metadata",
+        "category_bm": "Metadata Portal",
+        "subcategory": "SAMPLE_CHART",
+        "subcategory_en": "Chart Samples",
+        "subcategory_bm": "Contoh Carta",
+        "description": {
+            "en": "Lorem ipsum.",
+            "bm": "Lorem ipsum."
+        },
+        "link_parquet": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_pyramid.parquet",
+        "link_csv": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_pyramid.csv",
+        "variables": [
+            {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] Date in YYYY-MM-DD format",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+            },
+
+            {
+                "id": -1,
+                "name": "ethnicity",
+                "title_en": "Ethnicity",
+                "title_bm": "Etnik",
+                "desc_en": "[Categorical] Total, Malay, Other Bumiputera, Chinese, Indian, Other Citizen, Non-citizen",
+                "desc_bm": "[Kategori] Keseluruhan, Melayu, Bumiptutera lain, Cina, India, Lain-lain Warganegara, Bukan Warganegara"
+            },
+            {
+                "id": -1,
+                "name": "age",
+                "title_en": "Age Group",
+                "title_bm": "Kumpulan Umur",
+                "desc_en": "[Categorical] 5-year groups from 0-4 until 85+",
+                "desc_bm": "[Kategori] Kumpulan umur dengan julat 5 tahun, dari 0-4 hingga 85+"
+            },
+            {
+                "id": -1,
+                "name": "male",
+                "title_en": "Male Population",
+                "title_bm": "Populasi Lelaki",
+                "desc_en": "[Integer] Estimated number of people",
+                "desc_bm": "[Integer] Anggaran jumlah penduduk"
+            },
+            {
+                "id": -1,
+                "name": "female",
+                "title_en": "Female Population",
+                "title_bm": "Populasi Perempuan",
+                "desc_en": "[Integer] Estimated number of people",
+                "desc_bm": "[Integer] Anggaran jumlah penduduk"
+            },
+            {
+                "id": 0,
+                "name": "mwe_pyramid",
+                "title_en": "Pyramid Bar",
+                "title_bm": "Pyramid Bar",
+                "desc_en": "Population pyramid for Malaysia",
+                "desc_bm": "Piramid populasi bagi Malaysia",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "YEARLY",
+                        "geographic": [
+                            "NATIONAL"
+                        ],
+                        "start": "2010",
+                        "end": "2022",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2022-12-31 23:59",
+                        "last_updated": "2023-01-25 12:00",
+                        "next_update": "2023-01-26 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "Lorem ipsum",
+                            "caveat": "Lorem ipsum",
+                            "publication": "Lorem ipsum"
+                        },
+                        "bm": {
+                            "methodology": "Lorem ipsum",
+                            "caveat": "Lorem ipsum",
+                            "publication": "Lorem ipsum"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "PYRAMID",
+                        "chart_filters": {
+                            "SLICE_BY": [
+                                "ethnicity"
+                            ],
+                            "precision": 0
+                        },
+                        "chart_variables": {
+                            "parents": [
+                                "ethnicity"
+                            ],
+                            "x": "age",
+                            "y": ["male","female"]
+                        }
+                    },
+                    "translations" : {
+                        "en" : {
+                            "x": "Age",
+                            "y1": "Male",
+                            "y2" : "Female"
+                        },
+                        "bm" : {
+                            "x": "Negeri",
+                            "y1": "Lelaki",
+                            "y2": "Perempuan"
+                        }
+                    } 
+                }
+            }
+        ]
+    }
+}
