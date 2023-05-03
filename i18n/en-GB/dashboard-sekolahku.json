@@ -55,6 +55,8 @@
         },
         "section_3": {
             "title": "How does {{ school }} compare to other {{ level }} schools in {{ state }}?",
+            "legend_primary": "Other primary schools",
+            "legend_secondary": "Other secondary schools",
             "national": "National Level",
             "state": "State Level",
             "gpa": "SPM Grade Point Average (GPA)",
