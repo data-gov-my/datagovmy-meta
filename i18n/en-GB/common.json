@@ -1,6 +1,6 @@
 {
     "route": "/",
-    "translation_json": {
+    "translation": {
         "site": {
             "name": "data.gov.my",
             "description": "Your one-stop interface to browse Malaysia's wealth of open data. If data is the new oil, then openness is the pipeline that maximises its value."
