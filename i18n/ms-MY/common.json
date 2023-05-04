@@ -156,7 +156,7 @@
             "description": "Portal ini adalah rumah bagi segala data terbuka sektor awam Malaysia. Sama ada anda rakyat marhaen yang menginginkan maklumat, ataupun penyelidik yang mencari sumber, ataupun pembangun aplikasi yang memerlukan API, anda boleh mendapatinya di sini. Misi kami adalah untuk menjadikan Malaysia negara berpacukan data yang terhebat di dunia.",
             "section_1": {
                 "title": "Terokailah papan pemuka paling popular!",
-                "description": "Papan pemuka inilah yang paling menular, tetapi kandung penuh lama ini luas sekali! Jangan lupa untuk lihat koleksi penuh papan pemuka kami!",
+                "description": "Papan pemuka inilah yang paling menular, tetapi jangan lupa untuk lihat koleksi penuh papan pemuka kami!",
                 "stats": {
                     "population": "Penduduk Semasa",
                     "economic_growth": "Pertumbuhan Ekonomi",
@@ -170,7 +170,7 @@
             },
             "section_2": {
                 "title": "Lihat dataset paling hangat!",
-                "description": "Sekiranya ada ingin membuat carian yang terperinci, layarilah katalog data kami yang membekalkan data daripada seluruh agensi kerajaan Malaysia!",
+                "description": "Untuk carian yang khusus, gunalah katalog data kami yang membekalkan segala data terbuka sektor awam Malaysia.",
                 "today": "Hari ini",
                 "past_24h": "24 jam",
                 "past_month": "1 bulan",
@@ -204,7 +204,7 @@
         },
         "catalogue": {
             "header": "Katalog Data",
-            "description": "Terokailah segala data terbuka Malaysia di sini. Ia akan diperluas dan diperdalam setiap hari dengan data yang lebih terperinci dan pelbagai dari semua agensi persekutuan dan negeri Malaysia.",
+            "description": "Terokailah segala data terbuka Malaysia di sini. Ia akan diperluas etiap hari dengan data yang lebih terperinci dan pelbagai dari semua agensi persekutuan dan negeri Malaysia.",
             "dataset_count": "{{ count }} siri data, dan semakin meningkat",
             "download": "Muat turun",
             "category": "Kategori",

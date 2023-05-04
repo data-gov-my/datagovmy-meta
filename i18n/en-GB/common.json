@@ -157,7 +157,7 @@
             "description": "Your one-stop centre to browse Malaysia's wealth of open data. Whether you're a regular citizen looking for information, a researcher looking for material, or an app developer looking for an API, we've got you covered. Our mission is to make Malaysia the #1 data-driven country in the world.",
             "section_1": {
                 "title": "Explore our hottest dashboards",
-                "description": "These dashboards are the ones that have been getting attention, but we have way more to offer - don't forget to check out our full collection of dashboards!",
+                "description": "These dashboards have been getting attention, but don't forget to check out our full collection of dashboards!",
                 "stats": {
                     "population": "Current Population",
                     "economic_growth": "Economic Growth",
@@ -171,7 +171,7 @@
             },
             "section_2": {
                 "title": "Study our most popular datasets",
-                "description": "If you want to search for something specific, head on over to our data catalogue, where we serve data from every government agency in Malaysia!",
+                "description": "To search for something specific, use our data catalogue - it hosts every open dataset from Malaysia's public sector.",
                 "past_24h": "24 hours",
                 "past_month": "1 month",
                 "all_time": "All-time",
