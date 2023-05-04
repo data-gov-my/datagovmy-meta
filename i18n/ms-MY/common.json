@@ -3,7 +3,7 @@
     "translation": {
         "site": {
             "name": "data.gov.my",
-            "description": "Terokailah pelbagai jenis data terbitan Malaysia. Jika data itu minyak yang baru, maka keterbukaan itulah saluran yang memaksimumkan kegunaannya."
+            "description": "Terokailah segala data terbuka sektor awam Malaysia!"
         },
         "error": {
             "output": "Hasil",
@@ -153,7 +153,7 @@
         },
         "home": {
             "title": "Terkini. Terperinci. Terbukti.",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "Portal ini adalah rumah bagi segala data terbuka sektor awam Malaysia. Sama ada anda rakyat marhaen yang menginginkan maklumat, ataupun penyelidik yang mencari sumber, ataupun pembangun aplikasi yang memerlukan API, anda boleh mendapatinya di sini. Misi kami adalah untuk menjadikan Malaysia negara berpacukan data yang terhebat di dunia.",
             "section_1": {
                 "title": "Terokailah papan pemuka paling popular!",
                 "description": "Papan pemuka inilah yang paling menular, tetapi kandung penuh lama ini luas sekali! Jangan lupa untuk lihat koleksi penuh papan pemuka kami!",
@@ -204,7 +204,7 @@
         },
         "catalogue": {
             "header": "Katalog Data",
-            "description": "Layarilah segala data terbuka Malaysia di sini. Laman ini akan berkembang dengan lebih mendalam dan luas setiap hari, menyediakan data yang lebih kaya dan berbagai dari semua agensi kerajaan dan negeri Malaysia.",
+            "description": "Terokailah segala data terbuka Malaysia di sini. Ia akan diperluas dan diperdalam setiap hari dengan data yang lebih terperinci dan pelbagai dari semua agensi persekutuan dan negeri Malaysia.",
             "dataset_count": "{{ count }} siri data, dan semakin meningkat",
             "download": "Muat turun",
             "category": "Kategori",

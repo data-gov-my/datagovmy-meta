@@ -3,7 +3,7 @@
     "translation": {
         "site": {
             "name": "data.gov.my",
-            "description": "Your one-stop interface to browse Malaysia's wealth of open data. If data is the new oil, then openness is the pipeline that maximises its value."
+            "description": "Your one-stop interface to browse Malaysia's wealth of open data!"
         },
         "error": {
             "output": "Output",
@@ -154,7 +154,7 @@
         "home": {
             "category": "Malaysia's official open data portal",
             "title": "High frequency. High granularity. High impact.",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "Your one-stop centre to browse Malaysia's wealth of open data. Whether you're a regular citizen looking for information, a researcher looking for material, or an app developer looking for an API, we've got you covered. Our mission is to make Malaysia the #1 data-driven country in the world.",
             "section_1": {
                 "title": "Explore our hottest dashboards",
                 "description": "These dashboards are the ones that have been getting attention, but we have way more to offer - don't forget to check out our full collection of dashboards!",
@@ -201,7 +201,7 @@
             "demographics": "Demographics",
             "source_placeholder": "Select Agency",
             "search_placeholder": "Search for dashboards",
-            "section1_title": "Most Popular Dashboards",
+            "section1_title": "Most popular Dashboards",
             "section1_description": "Explore popular dashboards",
             "section2_title": "All dashboards",
             "index_filters": {
@@ -216,7 +216,7 @@
         },
         "catalogue": {
             "header": "Data Catalogue",
-            "description": "Your one-stop interface to browse Malaysia's wealth of open data. This page will grow in depth and breadth every single day, providing richer and more varied data from all Malaysian government and state agencies.",
+            "description": "Your one-stop interface to browse Malaysia's wealth of open data. This page will grow in depth and breadth every single day, providing richer and more varied data from all Malaysian federal and state agencies.",
             "dataset_count": "{{ count }} data series, and counting",
             "download": "Download",
             "category": "Category",
