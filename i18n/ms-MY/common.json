@@ -196,7 +196,7 @@
             }
         },
         "dashboard": {
-            "header": "Koleksi Papan Pemuka",
+            "header": "Papan Pemuka",
             "source_placeholder": "Pilih Agensi",
             "search_placeholder": "Cari papan pemuka",
             "section1_title": "Papan Pemuka Paling Popular",
