@@ -6,7 +6,9 @@
         "section_1": {
             "title": "Terokai data pada 10,232 sekolah kerajaan di Malaysia!",
             "search_school": "Cari sekolah anak anda",
-            "school_description": "Sebuah sekolah {{level}} {{type}} {{funding_status}} di kawasan {{strata}} {{city}}, {{school}} telah beroperasi sejak {{established}}, kini dengan tenaga pengajar sebanyak {{teachers}} cikgu mendidik {{students}} pelajar.",
+            "SK": "nasional",
+            "SMK": "menengah",
+            "school_description": "Sebuah sekolah {{level}} {{type}} $t(section_1.{{funding_status}}) di kawasan {{strata}} {{city}}, {{school}} telah beroperasi sejak {{established}}, kini dengan tenaga pengajar sebanyak {{teachers}} cikgu mendidik {{students}} pelajar.",
             "school_description_nofund": "Sebuah sekolah {{level}} {{type}} di kawasan {{strata}} {{city}}, {{school}} telah beroperasi sejak {{established}}, kini dengan tenaga pengajar sebanyak {{teachers}} cikgu mendidik {{students}} pelajar.",
             "disclaimer": "Nota: Sekolah swasta tidak termasuk, kerana mereka tidak dioperasikan oleh KPM (hanya dikawal selia)"
         },
