@@ -8,7 +8,7 @@
       "search_school": "Search for your child's school",
       "SK": "national",
       "SMK": "secondary",
-      "school_description": "A $t({{funding_status}}) {{type}} {{level}} in {{strata}} {{city}}, {{school}} has been in operation since {{established}}, with a current force of {{teachers}} staff teaching {{students}} students.",
+      "school_description": "A $t(section_1.{{funding_status}}) {{type}} {{level}} in {{strata}} {{city}}, {{school}} has been in operation since {{established}}, with a current force of {{teachers}} staff teaching {{students}} students.",
       "school_description_nofund": "A {{type}} {{level}} in {{strata}} {{city}}, {{school}} has been in operation since {{established}}, with a current force of {{teachers}} staff teaching {{students}} students.",
       "disclaimer": "Note: Private schools are omitted, as they are not operated by MoE (only regulated)"
     },
