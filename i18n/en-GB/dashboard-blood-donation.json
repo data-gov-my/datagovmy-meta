@@ -2,8 +2,8 @@
     "route": "/dashboard/blood-donation",
     "translation": {
         "title": "Healthcare Programs",
-        "title_header": "Blood Donation",
-        "title_description": "A stable and high supply of blood is critical for a well-functioning public healthcare system. This dashboard, which gives you near real-time updates on key indicators related to blood transfusion services, is brought to you by the National Blood Centre. The data is collected via the Blood Bank Information System v2 (BBISv2), a vein-to-vein blood-tracking system used by 22 main blood collection sites under MoH - and covers the majority of blood donations in Malaysia.",
+        "header": "Blood Donation",
+        "description": "A stable and high supply of blood is critical for a well-functioning public healthcare system. This dashboard, which gives you near real-time updates on key indicators related to blood transfusion services, is brought to you by the National Blood Centre. The data is collected via the Blood Bank Information System v2 (BBISv2), a vein-to-vein blood-tracking system used by 22 main blood collection sites under MoH - and covers the majority of blood donations in Malaysia.",
         "title_link": "",
         "zoom": "Zoom into",
         "table_header": "Is {{ state }}'s current blood stock sufficient?",
