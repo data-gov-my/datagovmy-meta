@@ -21,6 +21,10 @@
         "result": "Result",
         "winning_party": "Winning Party",
         "majority": "Majority",
+        "select_election": "Select Election",
+        "acronym_parlimen": "GE",
+        "acronym_state": "SE",
+        "acronym_by-election": "By-election",
         "election": {
             "section_1": "Explore any election from Merdeka to the present!",
             "parliament": "Parliament",
