@@ -21,6 +21,10 @@
         "result": "Keputusan",
         "winning_party": "Parti Menang",
         "majority": "Majoriti",
+        "select_election": "Pilih Pilihanraya",
+        "acronym_parlimen": "PRU",
+        "acronym_state": "PRN",
+        "acronym_by-election": "PRK",
         "election": {
             "section_1": "Terokailah data pilihan raya dari Merdeka sehingga kini!",
             "parliament": "Parlimen",
