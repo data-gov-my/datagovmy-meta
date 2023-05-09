@@ -2,8 +2,8 @@
     "route": "/ms-MY/dashboard/blood-donation",
     "translation": {
         "title": "Program Kesihatan",
-        "title_header": "Pendermaan Darah",
-        "title_description": "Bekalan darah yang stabil dan tinggi adalah penting untuk memastikan sistem kesihatan awam dapat beroperasi dengan lancar. Dashboard ini memberikan anda data terkini tentang indikator berkaitan perkhidmatan transfusi darah, melalui Pusat Darah Negara. Data ini dikumpul melalui BBISv2, sistem penjejakan darah 'vein-to-vein' yang diguna di 22 pusat kutipan darah utama dibawah KKM yang merangkumi majoriti pendermaan darah di Malaysia.",
+        "header": "Pendermaan Darah",
+        "description": "Bekalan darah yang stabil dan tinggi adalah penting untuk memastikan sistem kesihatan awam dapat beroperasi dengan lancar. Dashboard ini memberikan anda data terkini tentang indikator berkaitan perkhidmatan transfusi darah, melalui Pusat Darah Negara. Data ini dikumpul melalui BBISv2, sistem penjejakan darah 'vein-to-vein' yang diguna di 22 pusat kutipan darah utama dibawah KKM yang merangkumi majoriti pendermaan darah di Malaysia.",
         "title_link": "",
         "zoom": "Data untuk",
         "table_header": "Adakah stok darah semasa {{ state }} mencukupi?",
