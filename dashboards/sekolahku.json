@@ -1,4 +1,4 @@
-{ 
+{
     "dashboard_name": "sekolahku",
     "manual_trigger": "2",
     "required_params": [],
@@ -17,7 +17,15 @@
                     "school",
                     "postcode",
                     "state"
-                ]
+                ],
+                "sort_values": {
+                    "by": [
+                        "code"
+                    ],
+                    "ascending": [
+                        true
+                    ]
+                }
             }
         },
         "sekolahku_info": {

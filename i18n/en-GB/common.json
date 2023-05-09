@@ -68,7 +68,8 @@
             "district": "Select district",
             "facility": "Select facility",
             "facility_type": "Select facility type",
-            "no_results": "No results"
+            "no_results": "No results",
+            "loading": "Loading..."
         },
         "nav": {
             "home": "Home",
