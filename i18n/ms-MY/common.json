@@ -68,7 +68,8 @@
             "district": "Pilih daerah",
             "facility": "Pilih fasiliti",
             "facility_type": "Pilih jenis fasiliti",
-            "no_results": "Tiada hasil carian"
+            "no_results": "Tiada hasil carian",
+            "loading": "Memuatkan..."
         },
         "nav": {
             "home": "Utama",
