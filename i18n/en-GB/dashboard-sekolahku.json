@@ -4,7 +4,7 @@
     "header": "Sekolahku",
     "description": "Going to school is a milestone for every child. From the age of 7 to 17, school is the place where they'll spend at least half their day - learning, playing, and growing. It is therefore completely natural for parents to want as much information as they can get on their child's learning environment. This dashboard uses the Ministry of Education's rich data on students, teachers, and schools to bring you detailed data on your child's school, including the school's demographics, resources, and achievement level. It is our hope that this transparency fosters deeper trust in the nation's education system.",
     "section_1": {
-      "title": "Explored data on the 10,232 government schools in Malaysia!",
+      "title": "Explored data on the {{total, number}} government schools in Malaysia!",
       "search_school": "Search for your child's school",
       "SK": "national",
       "SMK": "secondary",
