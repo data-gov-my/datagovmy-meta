@@ -16,6 +16,18 @@
         "source": "Sumber Data",
         "source_placeholder": "Pilih agensi",
         "search_placeholder": "Cari dataset",
+        "filter_options": {
+            "daily": "Harian",
+            "weekly": "Mingguan",
+            "monthly": "Bulanan",
+            "quarterly": "Suku Tahunan",
+            "yearly": "Tahunan",
+            "state": "Negeri",
+            "dun": "DUN",
+            "national": "Kebangsaan",
+            "parlimen": "Parlimen",
+            "district": "Daerah"
+        },
         "image": {
             "title": "Gambar (PNG)",
             "desc": "Sesuai untuk kegunaan secara umum."
