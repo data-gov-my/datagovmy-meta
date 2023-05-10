@@ -16,6 +16,18 @@
         "source": "Data Source",
         "source_placeholder": "Select agency",
         "search_placeholder": "Search for dataset",
+        "filter_options": {
+            "daily": "Daily",
+            "weekly": "Weekly",
+            "monthly": "Monthly",
+            "quarterly": "Quarterly",
+            "yearly": "Yearly",
+            "state": "State",
+            "dun": "DUN",
+            "national": "National",
+            "parlimen": "Parliament",
+            "district": "District"
+        },
         "image": {
             "title": "Image (PNG)",
             "desc": "Suitable for general digital use."
