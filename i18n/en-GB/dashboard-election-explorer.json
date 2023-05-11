@@ -25,6 +25,7 @@
         "GE": "GE",
         "SE": "SE",
         "By": "By-Election",
+        "filter": "Filter",
         "election": {
             "section_1": "Explore any election from Merdeka to the present!",
             "parliament": "Parliament",
