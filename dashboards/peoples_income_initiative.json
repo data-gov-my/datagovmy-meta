@@ -10,6 +10,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/ipr_timeseries.parquet",
+            "data_as_of": "2023-05-16 23:59",
             "api_type": "dynamic",
             "api_params": [
                 "state"
@@ -28,6 +29,7 @@
             "name": "timeseries_callout",
             "chart_type": "custom_chart",
             "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/ipr_timeseries_callout.parquet",
+            "data_as_of": "2023-05-16 23:59",
             "api_type": "dynamic",
             "api_params": [],
             "variables": {
