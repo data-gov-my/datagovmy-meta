@@ -2,6 +2,16 @@
     "route": "/dashboard/peoples-income-initiative",
     "translation": {
         "header": "The People's Income Initiative (IPR)",
-        "description": ""
+        "description": "In the Belanjawanku 2023 speech, the Prime Minister announced that the government would be allocating RM700 million towards the pursuit of ending poverty. And so - IPR was born. The brainchild of the Economic Ministry, IPR is a two-pronged strategy to increase the income of the poor, while trying to solve daily economic problems. For this reason, IPR focuses on eradicating poverty by funnelling participants into agricultural initiatives (INTAN), vending machine businesses (INSAN) and public service operation (IKHSAN). This dashboard tracks IPR’s performance transparently for all to see.",
+        "screening_header": "How strong is the take-up of IPR among the rakyat?",
+        "timeseries_title": "{{ state }}: Daily Registrations for IPR",
+        "INTAN": "INTAN (Farming)",
+        "INSAN": "INSAN (Vending Machines)",
+        "IKHSAN": "IKHSAN (Service Operators)",
+        "choro_header": "How do takeup rates differ across the country?",
+        "choro_description": "This data shows the % of the target population in each state which has signed up for at least one IPR program. /n/nNote: The rakyat are permitted to register for more than 1 program. However, multiple registrations only count once in this ranking.",
+        "choro_ranking": "Ranking",
+        "daily": "Daily",
+        "total": "Total"
     }
 }
