@@ -2,6 +2,16 @@
     "route": "/ms-MY/dashboard/fire-and-rescue",
     "translation": {
         "header": "",
-        "description": ""
+        "description": "",
+        "operation_header": "Apakah tren operasi bomba terkini?",
+        "timeseries_title": "{{ state }}: Respons Harian bagi Jabatan Bomba dan Penyelamat",
+        "fire": "Kebakaran",
+        "rescue": "Penyelamatan",
+        "others": "Khidmat khas",
+        "choro_header": "Bagaimanakan kadar insiden kebakaran dan penyelamatan berbeza di seluruh negara?",
+        "choro_description": "",
+        "choro_ranking": "Kedudukan",
+        "daily": "Harian",
+        "total": "Jumlah"
     }
 }

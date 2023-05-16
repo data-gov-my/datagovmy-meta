@@ -2,6 +2,16 @@
     "route": "/dashboard/fire-and-rescue",
     "translation": {
         "header": "Fire and Rescue",
-        "description": ""
+        "description": "<i>The hero is a humble man and not the type to shirk,\nThe type to say “It’s just my job” as he heads off to work,\nHis profession is his passion, his adrenaline his spark,\nThe hat he wears to battle is his way to make his mark.</i>\n- adapted from “A Firefighter’s Dream” by Rupert McCall\n\nEach day, the firefighters of our country risk their lives to keep us safe. Using their real-time database on emergency operations, this dashboard presents data on fire and rescue in Malaysia, and aims to raise awareness on Bomba’s service.",
+        "operation_header": "How are fire and rescue operations trending?",
+        "timeseries_title": "{{ state }}: Daily Responses by the Fire and Rescue Department",
+        "fire": "Fire",
+        "rescue": "Rescue",
+        "others": "Special Functions",
+        "choro_header": "How does the rate of fire and rescue incidents differ across states?",
+        "choro_description": "",
+        "choro_ranking": "Ranking",
+        "daily": "Daily",
+        "total": "Total"
     }
 }
