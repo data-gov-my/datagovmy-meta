@@ -12,6 +12,11 @@
         "choro_description": "Data ini menunjukkan % daripada populasi sasaran yang telah berdaftar untuk sekurang-kurangnya satu program IPR. \n\nNota: Rakyat dibenarkan berdaftar lebih daripada sekali, tetapi semua pendaftaran hanya akan dikira sekali bagi kedudukan ini.",
         "choro_ranking": "Kedudukan",
         "daily": "Harian",
-        "total": "Jumlah"
+        "total": "Jumlah",
+        "filter": "Tapisan",
+        "absolute": "Mutlak",
+        "absolute_hardcore_poor": "Mutlak (miskin tegar)",
+        "per_capita": "Per kapita",
+        "per_capita_hardcore_poor": "Per kapita (miskin tegar)"
     }
 }

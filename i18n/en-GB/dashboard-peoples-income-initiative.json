@@ -12,6 +12,11 @@
         "choro_description": "This data shows the % of the target population in each state which has signed up for at least one IPR program. \n\nNote: The rakyat are permitted to register for more than 1 program. However, multiple registrations only count once in this ranking.",
         "choro_ranking": "Ranking",
         "daily": "Daily",
-        "total": "Total"
+        "total": "Total",
+        "filter": "Filter",
+        "absolute": "Absolute",
+        "absolute_hardcore_poor": "Absolute (hardcore poor)",
+        "per_capita": "Per capita",
+        "per_capita_hardcore_poor": "Per capita (hardcore poor)"
     }
 }
