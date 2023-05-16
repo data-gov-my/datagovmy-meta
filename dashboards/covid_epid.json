@@ -53,9 +53,7 @@
           }
         ],
         "keys": [],
-        "subkeys": {
-          "sub_keys": true
-        },
+        "subkeys": true,
         "null_vals": null,
         "add_key": {},
         "wanted": [],
