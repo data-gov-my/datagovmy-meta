@@ -1,0 +1,46 @@
+{
+    "dashboard_name": "peoples_income_initiative",
+    "manual_trigger": "2",
+    "required_params": [
+        "state"
+    ],
+    "optional_params": [],
+    "charts": {
+        "timeseries": {
+            "name": "timeseries",
+            "chart_type": "timeseries_chart",
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/ipr_timeseries.parquet",
+            "api_type": "dynamic",
+            "api_params": [
+                "state"
+            ],
+            "variables": {
+                "state": {
+                    "x": "date",
+                    "ikshan": "ikhsan",
+                    "insan": "insan",
+                    "intan": "intan",
+                    "overall": "overall"
+                }
+            }
+        },
+        "timeseries_callout": {
+            "name": "timeseries_callout",
+            "chart_type": "custom_chart",
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/ipr_timeseries_callout.parquet",
+            "api_type": "dynamic",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "state",
+                    "chart",
+                    "variable"
+                ],
+                "columns": [
+                    "value"
+                ],
+                "null_vals": null
+            }
+        }
+    }
+}
