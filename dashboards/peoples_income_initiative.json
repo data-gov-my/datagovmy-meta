@@ -43,6 +43,23 @@
                 ],
                 "null_vals": null
             }
+        },
+        "choropleth": {
+            "name": "choropleth",
+            "chart_type": "choropleth_chart",
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/ipr_choropleth_state.parquet",
+            "data_as_of": "2023-05-16 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "x": "state",
+                "y": [
+                    "value"
+                ],
+                "keys": [
+                    "variable"
+                ]
+            }
         }
     }
 }
