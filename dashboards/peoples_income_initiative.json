@@ -18,7 +18,7 @@
             "variables": {
                 "state": {
                     "x": "date",
-                    "ikshan": "ikhsan",
+                    "ikhsan": "ikhsan",
                     "insan": "insan",
                     "intan": "intan",
                     "overall": "overall"
