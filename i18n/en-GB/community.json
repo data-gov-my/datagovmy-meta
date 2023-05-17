@@ -1,0 +1,32 @@
+{
+    "route": "/community",
+    "translation": {
+        "cta": "Join the MODS",
+        "header": "Malaysian Open Data Scientists (MODS)",
+        "description": "MODS is your chance to drive the direction of Malaysia’s open data journey! A community involving public servants, the private sector, and civil society, MODS brings together data scientists, subject matter experts, and policymakers to ensure that Malaysia’s open data doesn’t just stay at the frontier, but shapes it.\n\nDon’t just ask for change - make it!",
+        "fill_form": "Fill in your details to apply:",
+        "area_expertise": "Your Area of Expertise",
+        "email": "Email",
+        "phone": "Phone number",
+        "institution": "Institution (Eg. University of Malaya)",
+        "experience": "Describe your achievements and experience in your area of expertise!",
+        "democracy": "Democracy",
+        "demography": "Demography",
+        "agro_commodity": "Agriculture + Commodities",
+        "economy": "Economy",
+        "tourism_culture": "Tourism + Culture",
+        "digitalisation": "Digitalisation",
+        "health": "Health",
+        "education": "Education",
+        "sports": "Sports",
+        "transport": "Transport",
+        "housing": "Housing",
+        "technology": "Technology",
+        "crime": "Crime",
+        "defence": "Defence",
+        "environment": "Environment",
+        "public_admin": "Public Adminstration",
+        "web_dev": "Web Development (Generalist)",
+        "data_science": "Data Science (Generalist)"
+    }
+}

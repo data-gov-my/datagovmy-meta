@@ -1,0 +1,32 @@
+{
+    "route": "ms-MY/community",
+    "translation": {
+        "cta": "Sertailah MODS",
+        "header": "Malaysian Open Data Scientists (MODS)",
+        "description": "MODS merupakan peluang anda untuk memacu hala tuju data terbuka Malaysia! Komuniti yang menyatukan sektor awam, sektor swasta dan masyarakat, di mana saintis data, pakar bidang khusus dan penggubal dasar akan bekerjasama untuk memastikan data terbuka Malaysia bukan sahaja kekal di sempadan, tetapi menganjakannya ke depan.\n\nJangan hanya minta perubahan - sertailah kami!",
+        "fill_form": "Isikan maklumat anda untuk memohon:",
+        "area_expertise": "Bidang kepakaran anda",
+        "email": "Emel",
+        "phone": "Nombor telefon",
+        "institution": "Institusi (Eg. Universiti Malaya)",
+        "experience": "Huraikan pencapaian dan pengalaman anda dalam bidang kepakaran anda!",
+        "democracy": "Demokrasi",
+        "demography": "Demografi",
+        "agro_commodity": "Pertanian + Kommoditi",
+        "economy": "Ekonomi",
+        "tourism_culture": "Pelancongan + Budaya",
+        "digitalisation": "Digitalisasi",
+        "health": "Kesihatan",
+        "education": "Pendidikan",
+        "sports": "Sukan",
+        "transport": "Pengangkutan",
+        "housing": "Perumahan",
+        "technology": "Teknologi",
+        "crime": "Jenayah",
+        "defence": "Pertahanan",
+        "environment": "Alam Sekitar",
+        "public_admin": "Pentadbiran Awam",
+        "web_dev": "Pembangunan Web (Generalis)",
+        "data_science": "Sains Data (Generalis)"
+    }
+}

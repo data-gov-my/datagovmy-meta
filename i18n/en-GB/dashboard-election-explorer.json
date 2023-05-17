@@ -76,7 +76,7 @@
         },
         "seat": {
             "header": "Explore the entire electoral history for your area",
-            "search_seat": "Search for a seat (eg. Bayan Baru)",
+            "search_seat": "Search for a seat (Eg. Bayan Baru)",
             "uncontested": "Uncontested",
             "close": "Close contest",
             "comfortable": "Comfortable win"
