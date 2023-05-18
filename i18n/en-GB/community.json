@@ -27,6 +27,13 @@
         "environment": "Environment",
         "public_admin": "Public Adminstration",
         "web_dev": "Web Development (Generalist)",
-        "data_science": "Data Science (Generalist)"
+        "data_science": "Data Science (Generalist)",
+        "area_required": "Please choose your area of expertise.",
+        "name_required": "Please fill in your name.",
+        "email_required": "Please fill in your email address.",
+        "exp_required": "Please fill in your achievements and experiences.",
+        "email_invalid": "Please fill in a valid email address.",
+        "thank_you": "Thank you!",
+        "received": "We have received your application to join the MODS!\nWithin 5 minutes, you should receive an email from data.dtsa@mampu.gov.my with further details."
     }
 }
