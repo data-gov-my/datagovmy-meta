@@ -7,7 +7,6 @@
         "fill_form": "Isikan maklumat anda untuk memohon:",
         "area_expertise": "Bidang kepakaran anda",
         "email": "Emel",
-        "phone": "Nombor telefon",
         "institution": "Institusi (Eg. Universiti Malaya)",
         "experience": "Huraikan pencapaian dan pengalaman anda dalam bidang kepakaran anda!",
         "democracy": "Demokrasi",
@@ -27,6 +26,14 @@
         "environment": "Alam Sekitar",
         "public_admin": "Pentadbiran Awam",
         "web_dev": "Pembangunan Web (Generalis)",
-        "data_science": "Sains Data (Generalis)"
+        "data_science": "Sains Data (Generalis)",
+        "area_required": "Sila pilih bidang kepakaran anda.",
+        "name_required": "Sila isikan nama anda.",
+        "email_required": "Sila isikan emel anda.",
+        "inst_required": "Sila isikan institusi anda.",
+        "exp_required": "Sila isikan pencapaian dan pengalaman anda.",
+        "email_invalid": "Sila isikan emel anda secara lengkap.",
+        "thank_you": "Terima kasih!",
+        "received": "Permohonan anda untuk menyertai MODS telah diterima! Dalam 5 minit, anda akan menerima emel daripada data.dtsa@mampu.gov.my bersama maklumat selanjutnya."
     }
 }

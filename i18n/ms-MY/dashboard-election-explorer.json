@@ -28,6 +28,10 @@
         "filter": "Tapisan",
         "parlimen": "Parlimen",
         "dun": "DUN",
+        "tooltip": {
+            "voter_turnout": "Nisbah pengundi sebenar berbanding jumlah pengundi yang layak",
+            "rejected_votes": "Undi yang tidak dikira kerana rosak atau tidak sah"
+        },
         "election": {
             "section_1": "Terokailah data pilihan raya dari Merdeka sehingga kini!",
             "parliament": "Parlimen",
@@ -44,6 +48,8 @@
             "section_2": "Lihat keputusan penuh bagi kerusi tertentu",
             "search_area": "Carilah kawasan anda",
             "full_result": "{{ election }}: Keputusan penuh bagi ",
+            "election_result": "Keputusan Pilihan Raya",
+            "voting_statistics": "Statistik Pengundian",
             "section_3": "Analisa pilihan raya",
             "choro_header": "Bagaimanakah kadar {{ stat }} berbeza di seluruh negara?",
             "choro_rank": "Kedudukan",
