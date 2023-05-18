@@ -1,5 +1,5 @@
 {
-    "route": "/helpdesk",
+    "route": "ms-MY/helpdesk",
     "translation": {
         "header": "Pusat Bantuan",
         "description": "Dapatkan penjelasan tentang soalan lazim atau hubungi kami untuk mendapatkan bantuan yang lebih spesifik.",
