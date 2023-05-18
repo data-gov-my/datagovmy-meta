@@ -28,6 +28,10 @@
         "filter": "Filter",
         "parlimen": "Parliament",
         "dun": "DUN",
+        "tooltip": {
+            "voter_turnout": "Ratio of actual voters against the total number of eligible voters",
+            "rejected_votes": "Votes that are not counted due to being spoilt or made invalid"
+        },
         "election": {
             "section_1": "Explore any election from Merdeka to the present!",
             "parliament": "Parliament",
@@ -43,6 +47,8 @@
             "explore": "This page is designed to help you explore the results for a particular election, such as the 15th General Election in 2022. \nIf you wish to explore the full history for a particular candidate or party, visit our Party and Candidate Explorer instead!",
             "section_2": "View the full ballot for a specific seat",
             "full_result": "{{ election }}: Full result for ",
+            "election_result": "Election Result",
+            "voting_statistics": "Voting Statistics",
             "search_area": "Search for your area",
             "section_3": "Election analysis",
             "choro_header": "How do {{ stat }} rates differ across the country?",
