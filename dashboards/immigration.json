@@ -4,6 +4,21 @@
   "required_params": [],
   "optional_params": [],
   "charts": {
+    "query_values": {
+      "name": "query_values",
+      "chart_type": "query_values",
+      "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/immigration_timeseries_country.parquet",
+      "api_type": "dynamic",
+      "api_params": [],
+      "variables": {
+        "flat": true,
+        "columns": ["country"],
+        "sort_values": {
+          "by": ["country"],
+          "ascending": [true]
+        }
+      }
+    },
     "timeseries_country": {
       "name": "timeseries_country",
       "chart_type": "timeseries_chart",
