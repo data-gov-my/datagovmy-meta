@@ -1,7 +1,39 @@
 {
     "route": "/ms-MY/dashboard/immigration",
     "translation": {
-        "header": "",
-        "description": ""
+        "header": "Imigresen",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "search_country": "Cari negara yang spesifik",
+        "section_1": {
+            "header": "Berapakah orang dari {{ country }} yang telah masuk dan keluar dari Malaysia?",
+            "title": "Kemasukan dan Pelepasan Harian",
+            "entrances": "Kemasukan",
+            "departures": "Pelepasan",
+            "net_migration": "Migrasi Bersih"
+        },
+        "section_2": {
+            "header": "Berapakah orang yang mempunyai pasport aktif di Malaysia?",
+            "absolute_total": "Mutlak (jumlah)",
+            "absolute_adult": "Mutlak (dewasa)",
+            "absolute_children": "Mutlak (kanak-kanak)",
+            "per_capita_total": "Per kapita (jumlah)",
+            "per_capita_adult": "Per kapita (dewasa)",
+            "per_capita_children": "Per kapita (kanak-kanak)",
+            "description": "Lorem ipsum",
+            "ranking": "Kedudukan"
+        },
+        "section_3": {
+            "header": "Bagaimanakah tren operasi kaunter di Jabatan Imigresen?",
+            "title_passport": "Pengeluaran Pasport Harian",
+            "title_expat": "Pas Ekspatriat",
+            "title_visit": "Pas Lawatan Sosial",
+            "title_permit": "Permit Masuk",
+            "daily": "Harian",
+            "total": "Jumlah",
+            "this_year": "Tahun ini",
+            "active_passports": "Pasport Aktif",
+            "active_passes": "Pas Aktif",
+            "active_permits": "Permit Aktif"
+        }
     }
 }

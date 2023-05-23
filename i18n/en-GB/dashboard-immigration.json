@@ -2,6 +2,38 @@
     "route": "/dashboard/immigration",
     "translation": {
         "header": "Immigration",
-        "description": ""
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "search_country": "Zoom into a specific country",
+        "section_1": {
+            "header": "How many people from {{ country }} are entering and leaving the country?",
+            "title": "Daily Entrances and Departures",
+            "entrances": "Entrances",
+            "departures": "Departures",
+            "net_migration": "Net Migration"
+        },
+        "section_2": {
+            "header": "How many Malaysians have an active passport?",
+            "absolute_total": "Absolute (total)",
+            "absolute_adult": "Absolute (adult)",
+            "absolute_children": "Absolute (children)",
+            "per_capita_total": "Per capita (total)",
+            "per_capita_adult": "Per capita (adult)",
+            "per_capita_children": "Per capita (children)",
+            "description": "Lorem ipsum",
+            "ranking": "Ranking"
+        },
+        "section_3": {
+            "header": "How are the Immigration Department’s counter operations trending?",
+            "title_passport": "Daily Passport Issuances",
+            "title_expat": "Expatriate Passes",
+            "title_visit": "Social Visit Passes",
+            "title_permit": "Entry Permits",
+            "daily": "Daily",
+            "total": "Total",
+            "this_year": "This Year",
+            "active_passports": "Active Passports",
+            "active_passes": "Active Passes",
+            "active_permits": "Active Permits"
+        }
     }
 }
