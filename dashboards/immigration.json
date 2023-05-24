@@ -25,11 +25,15 @@
       "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/immigration_timeseries_country.parquet",
       "data_as_of": "2023-05-23 23:59",
       "api_type": "dynamic",
-      "api_params": ["country"],
+      "api_params": ["country", "period"],
       "variables": {
         "country": {
-          "x": "date",
-          "daily": "daily"
+          "period": {
+            "x": "date",
+            "immigration": "immigration",
+            "emigration": "emigration",
+            "net_migration": "net_migration"
+          }
         }
       }
     },
