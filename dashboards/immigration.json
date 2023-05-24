@@ -1,0 +1,95 @@
+{
+  "dashboard_name": "immigration",
+  "manual_trigger": "2",
+  "required_params": [],
+  "optional_params": [],
+  "charts": {
+    "query_values": {
+      "name": "query_values",
+      "chart_type": "query_values",
+      "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/immigration_timeseries_country.parquet",
+      "api_type": "dynamic",
+      "api_params": [],
+      "variables": {
+        "flat": true,
+        "columns": ["country"],
+        "sort_values": {
+          "by": ["country"],
+          "ascending": [true]
+        }
+      }
+    },
+    "timeseries_country": {
+      "name": "timeseries_country",
+      "chart_type": "timeseries_chart",
+      "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/immigration_timeseries_country.parquet",
+      "data_as_of": "2023-05-23 23:59",
+      "api_type": "dynamic",
+      "api_params": ["country", "period"],
+      "variables": {
+        "country": {
+          "period": {
+            "x": "date",
+            "immigration": "immigration",
+            "emigration": "emigration",
+            "net_migration": "net_migration"
+          }
+        }
+      }
+    },
+    "timeseries_country_callout": {
+      "name": "timeseries_country_callout",
+      "chart_type": "custom_chart",
+      "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/immigration_timeseries_country_callout.parquet",
+      "data_as_of": "2023-05-23 23:59",
+      "api_type": "dynamic",
+      "api_params": ["country"],
+      "variables": {
+        "keys": ["country", "variable"],
+        "columns": ["value"],
+        "null_vals": null
+      }
+    },
+    "choropleth": {
+      "name": "choropleth",
+      "chart_type": "choropleth_chart",
+      "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/immigration_choropleth_state.parquet",
+      "data_as_of": "2023-05-23 23:59",
+      "api_type": "static",
+      "api_params": [],
+      "variables": {
+        "x": "state",
+        "y": ["value"],
+        "keys": ["variable"]
+      }
+    },
+    "timeseries": {
+      "name": "timeseries",
+      "chart_type": "timeseries_chart",
+      "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/immigration_timeseries.parquet",
+      "data_as_of": "2023-05-23 23:59",
+      "api_type": "dynamic",
+      "api_params": [],
+      "variables": {
+        "x": "date",
+        "passport": "passport",
+        "expatriate": "expatriate",
+        "visit": "visit",
+        "entry": "entry"
+      }
+    },
+    "timeseries_callout": {
+      "name": "timeseries_callout",
+      "chart_type": "custom_chart",
+      "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/immigration_timeseries_callout.parquet",
+      "data_as_of": "2023-05-23 23:59",
+      "api_type": "dynamic",
+      "api_params": [],
+      "variables": {
+        "keys": ["chart", "variable"],
+        "columns": ["value"],
+        "null_vals": null
+      }
+    }
+  }
+}

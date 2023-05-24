@@ -32,6 +32,7 @@
         "institution": "Institution",
         "category": "Category",
         "tell_us": "Tell us what you need!",
+        "submit": "Submit",
         "name_required": "Please fill in your name.",
         "email_required": "Please fill in your email address.",
         "inst_required": "Please fill in your institution.",
