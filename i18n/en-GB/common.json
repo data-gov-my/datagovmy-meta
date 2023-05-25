@@ -17,6 +17,13 @@
                 "title": "Oops, we cannot find the page you're looking for.",
                 "description": "Is your URL incorrect?",
                 "reason": "Error code: 404 -- Page not found"
+            },
+            "toast": {
+                "request_failure": "Oops! Unable to load requested data",
+                "image_download_failure": "Oops! Unable to download requested image",
+                "form_submission_failure": "Oops! Unable to process form submission",
+                "try_again": "Please try again later",
+                "reach_support": "Please check again or reach out to support for assistance"
             }
         },
         "common": {
