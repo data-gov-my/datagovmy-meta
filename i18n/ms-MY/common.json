@@ -17,6 +17,13 @@
                 "title": "Maaf, laman yang anda cari tidak dapat dijumpai.",
                 "description": "Adakah URL anda betul?",
                 "reason": "Kod ralat: 404 -- Laman tidak dijumpai"
+            },
+            "toast": {
+                "request_failure": "Aduhai! Data yang dicari tidak dapat dipaparkan.",
+                "image_download_failure": "Maaf, gagal untuk memuat turun gambar.",
+                "form_submission_failure": "Alamak, gagal untuk proses borang anda.",
+                "try_again": "Sila cuba kembali sebentar lagi",
+                "reach_support": "Sila semak kembali atau hubungi pihak kami untuk bantuan"
             }
         },
         "common": {
