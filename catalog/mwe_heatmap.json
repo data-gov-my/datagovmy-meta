@@ -51,12 +51,10 @@
                         "data_source": [
                             "MAMPU"
                         ],
-                        "sex": true,
-                        "ethnicity": false,
-                        "religion": false,
-                        "nationality": false,
-                        "oku": false,
-                        "marital": true
+                        "demographic": [
+                            "SEX",
+                            "MARITAL"
+                        ]
                     },
                     "metadata_neutral": {
                         "data_as_of": "2023-04-03 23:59",
