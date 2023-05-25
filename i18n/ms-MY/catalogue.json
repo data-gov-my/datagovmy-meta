@@ -11,11 +11,15 @@
         "filter": "Tapisan",
         "period": "Tempoh",
         "geography": "Kawasan",
+        "demography": "Demografi",
         "begin": "Dari",
         "end": "Hingga",
         "source": "Sumber Data",
-        "source_placeholder": "Pilih agensi",
-        "search_placeholder": "Cari dataset",
+        "placeholder": {
+            "source": "Pilih agensi",
+            "search": "Cari dataset",
+            "demography": "Data mengikut"
+        },
         "filter_options": {
             "daily": "Harian",
             "weekly": "Mingguan",
@@ -26,7 +30,14 @@
             "dun": "DUN",
             "national": "Kebangsaan",
             "parlimen": "Parlimen",
-            "district": "Daerah"
+            "district": "Daerah",
+            "sex": "Jantina",
+            "ethnicity": "Bangsa",
+            "age": "Umur",
+            "religion": "Agama",
+            "nationality": "Kewarganegaraan",
+            "disability": "Status kurang upaya",
+            "marital": "Status perkahwinan"
         },
         "image": {
             "title": "Gambar (PNG)",
