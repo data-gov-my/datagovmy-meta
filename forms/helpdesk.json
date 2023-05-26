@@ -1,0 +1,27 @@
+{
+  "send_email": true,
+  "validate_fields": [
+    "name",
+    "email",
+    "phone",
+    "category",
+    "description",
+    "language"
+  ],
+  "email_template": [
+    {
+      "name": "helpdesk",
+      "subject": "Helpdesk Ticket | {{category}}",
+      "content": "Hello {{name}}, thank you for submitting a helpdesk ticket!",
+      "html_content": "Hello <strong>{{name}}</strong>, thank you for submitting a helpdesk ticket!",
+      "language": "en-GB"
+    },
+    {
+      "name": "helpdesk",
+      "subject": "Ticket Helpdesk | {{category}}",
+      "content": "Apa khabar {{name}}, terima kasih atas ticket anda!",
+      "html_content": "Apa khabar <strong>{{name}}</strong>, terima kasih atas ticket anda!",
+      "language": "ms-MY"
+    }
+  ]
+}
