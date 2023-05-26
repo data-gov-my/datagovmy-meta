@@ -5,7 +5,8 @@
     "name",
     "email",
     "institution",
-    "description"
+    "description",
+    "language"
   ],
   "email_template": [
     {
