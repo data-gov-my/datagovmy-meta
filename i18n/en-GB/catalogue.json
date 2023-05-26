@@ -11,11 +11,15 @@
         "filter": "Filter",
         "period": "Period",
         "geography": "Geography",
+        "demography": "Demography",
         "begin": "Begin",
         "end": "End",
         "source": "Data Source",
-        "source_placeholder": "Select agency",
-        "search_placeholder": "Search for dataset",
+        "placeholder": {
+            "source": "Select agency",
+            "search": "Search for dataset",
+            "demography": "Data contains"
+        },
         "filter_options": {
             "daily": "Daily",
             "weekly": "Weekly",
@@ -26,7 +30,14 @@
             "dun": "DUN",
             "national": "National",
             "parlimen": "Parliament",
-            "district": "District"
+            "district": "District",
+            "sex": "Sex",
+            "ethnicity": "Ethnicity",
+            "age": "Age",
+            "religion": "Religion",
+            "nationality": "Nationality",
+            "disability": "Disability status",
+            "marital": "Marital status"
         },
         "image": {
             "title": "Image (PNG)",
