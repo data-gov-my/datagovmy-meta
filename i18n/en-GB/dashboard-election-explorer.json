@@ -75,6 +75,7 @@
         },
         "seat": {
             "header": "Explore the entire electoral history for your area",
+            "title": "Complete electoral history for ",
             "search_seat": "Search for a seat (Eg. Bayan Baru)",
             "uncontested": "Uncontested",
             "close": "Close contest",
@@ -162,7 +163,7 @@
         "PEACE": "Justices of Peace Coalition People's Party (PEACE)",
         "PEJUANG": "Parti Pejuang Tanah Air (PEJUANG)",
         "PEKEMAS": "Parti Keadilan Masyarakat Malaysia (PEKEMAS)",
-        "PERIKATAN": "Parti Perikatan (PP)",
+        "PERIKATAN": "Parti Perikatan (PERIKATAN)",
         "PERMAS": "Persatuan Rakyat Malaysia Sarawak (PERMAS)",
         "PESAKA": "Parti Pesaka Anak Sarawak (PESAKA)",
         "PETIR": "Parti Tindakan Rakyat (PETIR)",
