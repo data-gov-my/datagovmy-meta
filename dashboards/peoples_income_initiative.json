@@ -1,5 +1,7 @@
 {
     "dashboard_name": "peoples_income_initiative",
+    "data_as_of": "2023-06-01 23:59",
+    "route": "",
     "manual_trigger": "2",
     "required_params": [
         "state"

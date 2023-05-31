@@ -1,7 +1,11 @@
 {
     "dashboard_name": "birthday_popularity",
+    "data_as_of": "2023-06-01 23:59",
+    "route": "/dashboard/birthday-explorer,/ms-MY/dashboard/birthday-explorer",
     "manual_trigger": "",
-    "required_params": ["state"],
+    "required_params": [
+        "state"
+    ],
     "optional_params": [],
     "charts": {
         "timeseries": {
@@ -10,32 +14,34 @@
             "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/birthday_timeseries.parquet",
             "data_as_of": "2017-12-31 23:59",
             "api_type": "dynamic",
-            "api_params": ["state"],
+            "api_params": [
+                "state"
+            ],
             "variables": {
-                "state" : {
+                "state": {
                     "x": "date",
                     "births": "births",
                     "rank": "rank"
                 }
             }
         },
-         "rank_table" : {
-            "name" : "rank_table",
+        "rank_table": {
+            "name": "rank_table",
             "chart_type": "custom_chart",
-            "chart_source" : "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/birthday_rank.parquet",
-            "data_as_of" : "2017-12-31 13:59",
-            "api_type" : "static",
-            "api_params" : [],
-            "variables": { 
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/birthday_rank.parquet",
+            "data_as_of": "2017-12-31 13:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
                 "keys": [
                     "state",
                     "year"
-                  ],
-                  "columns": [
+                ],
+                "columns": [
                     "year_popular",
                     "year_rare"
-                  ],
-                  "null_vals": null                
+                ],
+                "null_vals": null
             }
         }
     }

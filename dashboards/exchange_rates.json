@@ -1,5 +1,7 @@
 {
     "dashboard_name": "exchange_rates",
+    "data_as_of": "2023-06-01 23:59",
+    "route": "/dashboard/exchange-rates,/ms-MY/dashboard/exchange-rates",
     "manual_trigger": "rt",
     "required_params": [],
     "optional_params": [],
