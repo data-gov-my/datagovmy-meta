@@ -1,0 +1,20 @@
+{
+    "route": "ms-MY/dashboard/ktmb-explorer",
+    "translation": {
+        "header": "Peneroka KTMB",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "title": "Explore ridership data between any two stations on KTMB-operated services!",
+        "service": "Perkhidmatan",
+        "select_origin": "Pilih Permulaan",
+        "select_destination": "Pilih Destinasi",
+        "day": "Harian",
+        "month": "Bulanan",
+        "year": "Tahunan",
+        "ridership_day": "Jumlah Penumpang Harian: {{ station_A }} ke {{ station_B }}",
+        "ridership_month": "Jumlah Penumpang Bulanan: {{ station_A }} ke {{ station_B }}",
+        "ridership_year": "Jumlah Penumpang Tahunan: {{ station_A }} ke {{ station_B }}",
+        "daily": "Harian",
+        "past_month": "Sebulan",
+        "past_year": "Setahun"
+    }
+}
