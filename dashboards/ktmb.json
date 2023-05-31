@@ -1,0 +1,55 @@
+{
+    "dashboard_name": "ktmb",
+    "route": "/dashboard/ktmb,/ms-MY/dashboard/ktmb",
+    "data_as_of": "2023-05-31 23:59",
+    "manual_trigger": "",
+    "required_params": [],
+    "optional_params": [],
+    "charts": {
+      "timeseries": {
+        "name": "timeseries",
+        "chart_type": "timeseries_chart",
+        "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/ktmb_timeseries.parquet",
+        "data_as_of": "2023-05-31 23:59",
+        "api_type": "static",
+        "api_params": [],
+        "variables": {
+          "service": {
+            "origin": {
+              "destination": {
+                "frequency": {
+                  "x": "date",
+                  "y": "passengers"
+                }
+              }
+            }
+          }
+        }
+      },
+      "timeseries_callout": {
+        "name": "timeseries_callout",
+        "chart_type": "custom_chart",
+        "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/ktmb_timeseries_callout.parquet",
+        "data_as_of": "2023-05-31 23:59",
+        "api_type": "static",
+        "api_params": [],
+        "variables": {
+          "keys": ["service", "origin", "destination", "frequency"],
+          "columns": ["passengers"],
+          "null_vals": null
+        }
+      },
+      "query_values": {
+        "name": "query_values",
+        "chart_type": "query_values",
+        "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/ktmb_timeseries.parquet",
+        "data_as_of": "2023-05-31 23:59",
+        "api_type": "dynamic",
+        "api_params": [],
+        "variables": {
+          "columns": ["service", "origin", "destination"]
+        }
+      }
+    }
+  }
+  
