@@ -1,5 +1,6 @@
 {
     "dashboard_name": "car_popularity",
+    "route": "/dashboard/car-popularity,/ms-MY/dashboard/car-popularity",
     "manual_trigger": "",
     "required_params": [
         "manufacturer",
