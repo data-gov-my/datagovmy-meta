@@ -41,7 +41,8 @@
       "api_params": [],
       "variables": {
         "x": "state",
-        "y": ["value"]
+        "y": ["value"],
+        "keys": ["variable"]
       }
     },
     "barmeter": {
