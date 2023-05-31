@@ -3,9 +3,9 @@
   "validate_fields": [
     "name",
     "email",
-    "phone",
+    "institution",
     "category",
-    "description",
+    "feedback",
     "language"
   ],
   "email_template": [

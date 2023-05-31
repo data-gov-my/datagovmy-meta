@@ -1,0 +1,61 @@
+{
+  "dashboard_name": "unhcr",
+  "manual_trigger": "2",
+  "required_params": [],
+  "optional_params": [],
+  "charts": {
+    "timeseries": {
+      "name": "timeseries",
+      "chart_type": "timeseries_chart",
+      "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/unhcr_timeseries.parquet",
+      "data_as_of": "2023-05-23 23:59",
+      "api_type": "static",
+      "api_params": [],
+      "variables": {
+        "x": "date",
+        "overall": "overall",
+        "arrivals": "arrivals",
+        "registrations": "registrations",
+        "resettlements": "resettlements"
+      }
+    },
+    "timeseries_callout": {
+      "name": "timeseries_callout",
+      "chart_type": "custom_chart",
+      "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/unhcr_timeseries_callout.parquet",
+      "data_as_of": "2023-05-23 23:59",
+      "api_type": "static",
+      "api_params": [],
+      "variables": {
+        "keys": ["chart", "variable"],
+        "columns": ["value"],
+        "null_vals": null
+      }
+    },
+    "choropleth": {
+      "name": "choropleth",
+      "chart_type": "choropleth_chart",
+      "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/unhcr_choropleth_state.parquet",
+      "data_as_of": "2023-05-23 23:59",
+      "api_type": "static",
+      "api_params": [],
+      "variables": {
+        "x": "state",
+        "y": ["value"],
+        "keys": ["variable"]
+      }
+    },
+    "barmeter": {
+      "name": "barmeter",
+      "chart_type": "bar_meter",
+      "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/unhcr_barmeter.parquet",
+      "api_type": "static",
+      "api_params": [],
+      "variables": {
+        "axis_values": [{ "variable": "value" }],
+        "keys": ["use_as", "chart"],
+        "null_vals": null
+      }
+    }
+  }
+}
