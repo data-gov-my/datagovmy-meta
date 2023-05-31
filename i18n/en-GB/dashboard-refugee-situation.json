@@ -13,7 +13,7 @@
         "resettlements": "Resettlements",
         "barmeter_header": "What does Malaysia’s refugee population look like?",
         "tooltip": "{{ count }} refugees",
-        "country_origin": "Country of Origin",
+        "country": "Country of Origin",
         "mmr": "Myanmar",
         "pak": "Pakistan",
         "yem": "Yemen",
