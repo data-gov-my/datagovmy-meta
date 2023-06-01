@@ -1,7 +1,7 @@
 {
-    "dashboard_name": "peoples_income_initiative",
+    "dashboard_name": "ipr",
     "data_as_of": "2023-06-01 23:59",
-    "route": "",
+    "route": "/dashboard/peoples-income-initiative,/ms-MY/dashboard/peoples-income-initiative",
     "manual_trigger": "2",
     "required_params": [
         "state"
