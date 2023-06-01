@@ -1,5 +1,7 @@
 {
     "dashboard_name": "currency",
+    "data_as_of": "2023-06-01 23:59",
+    "route": "/dashboard/currency-in-circulation,/ms-MY/dashboard/currency-in-circulation",
     "manual_trigger": "",
     "required_params": [],
     "optional_params": [],
@@ -12,7 +14,10 @@
             "api_type": "static",
             "api_params": [],
             "variables": {
-                "chart_type": {
+                "keys": [
+                    "chart_type"
+                ],
+                "values": {
                     "x": "date",
                     "total": "total",
                     "note_1": "note_1",

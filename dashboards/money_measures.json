@@ -1,5 +1,7 @@
 {
     "dashboard_name": "money_measures",
+    "data_as_of": "2023-06-01 23:59",
+    "route": "/dashboard/money-supply,/ms-MY/dashboard/money-supply",
     "manual_trigger": "1",
     "required_params": [],
     "optional_params": [],
@@ -12,7 +14,10 @@
             "api_type": "static",
             "api_params": [],
             "variables": {
-                "chart_type": {
+                "keys": [
+                    "chart_type"
+                ],
+                "values": {
                     "x": "date",
                     "m1_total": "m1_total",
                     "m2_total": "m2_total",

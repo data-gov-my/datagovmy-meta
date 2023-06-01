@@ -1,5 +1,7 @@
 {
     "dashboard_name": "exchange_rates",
+    "data_as_of": "2023-06-01 23:59",
+    "route": "/dashboard/exchange-rates,/ms-MY/dashboard/exchange-rates",
     "manual_trigger": "rt",
     "required_params": [],
     "optional_params": [],
@@ -12,7 +14,10 @@
             "api_type": "static",
             "api_params": [],
             "variables": {
-                "chart": {
+                "keys": [
+                    "chart"
+                ],
+                "values": {
                     "x": "date",
                     "currency0": "currency0",
                     "currency1": "currency1",
