@@ -1,7 +1,7 @@
 {
     "dashboard_name": "unhcr",
     "data_as_of": "2023-06-01 23:59",
-    "route": "",
+    "route": "/dashboard/refugee-situation,/ms-MY/dashboard/refugee-situation",
     "manual_trigger": "2",
     "required_params": [],
     "optional_params": [],
