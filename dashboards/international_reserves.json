@@ -14,11 +14,14 @@
             "api_type": "static",
             "api_params": [],
             "variables": {
-                "x": "date",
-                "reserves_usd": "reserves_usd",
-                "import_months": "import_months",
-                "ed_scale": "ed_scale",
-                "recession": "recession"
+                "keys": [],
+                "values": {
+                    "x": "date",
+                    "reserves_usd": "reserves_usd",
+                    "import_months": "import_months",
+                    "ed_scale": "ed_scale",
+                    "recession": "recession"
+                }
             }
         },
         "statistics": {

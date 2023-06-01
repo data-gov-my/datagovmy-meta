@@ -114,7 +114,10 @@
                 "state"
             ],
             "variables": {
-                "state": {
+                "keys": [
+                    "state"
+                ],
+                "values": {
                     "x": "date",
                     "daily": "daily",
                     "line": "daily_7dma"

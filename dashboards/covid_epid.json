@@ -145,7 +145,10 @@
                 "state"
             ],
             "variables": {
-                "state": {
+                "keys": [
+                    "state"
+                ],
+                "values": {
                     "x": "date",
                     "admitted": "admitted",
                     "line": "admitted_7dma"
@@ -162,7 +165,10 @@
                 "state"
             ],
             "variables": {
-                "state": {
+                "keys": [
+                    "state"
+                ],
+                "values": {
                     "x": "date",
                     "cases": "cases",
                     "line": "cases_7dma"
@@ -179,7 +185,10 @@
                 "state"
             ],
             "variables": {
-                "state": {
+                "keys": [
+                    "state"
+                ],
+                "values": {
                     "x": "date",
                     "deaths_inpatient": "deaths_inp_dod",
                     "deaths_brought_in": "deaths_bid_dod",
@@ -198,7 +207,10 @@
                 "state"
             ],
             "variables": {
-                "state": {
+                "keys": [
+                    "state"
+                ],
+                "values": {
                     "x": "date",
                     "icu": "icu",
                     "line": "icu_7dma"
@@ -215,7 +227,10 @@
                 "state"
             ],
             "variables": {
-                "state": {
+                "keys": [
+                    "state"
+                ],
+                "values": {
                     "x": "date",
                     "tests_pcr": "tests_pcr",
                     "tests_rtk": "tests_rtk",
@@ -233,7 +248,10 @@
                 "state"
             ],
             "variables": {
-                "state": {
+                "keys": [
+                    "state"
+                ],
+                "values": {
                     "x": "date",
                     "vent": "vent",
                     "line": "vent_7dma"

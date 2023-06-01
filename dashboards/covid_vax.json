@@ -128,7 +128,10 @@
                 "state"
             ],
             "variables": {
-                "state": {
+                "keys": [
+                    "state"
+                ],
+                "values": {
                     "x": "date",
                     "primary": "daily_primary",
                     "booster": "daily_booster",

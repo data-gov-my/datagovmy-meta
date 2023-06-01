@@ -14,7 +14,10 @@
             "api_type": "static",
             "api_params": [],
             "variables": {
-                "chart_type": {
+                "keys": [
+                    "chart_type"
+                ],
+                "values": {
                     "x": "date",
                     "total": "total",
                     "currency": "currency",

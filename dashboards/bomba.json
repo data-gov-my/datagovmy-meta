@@ -18,7 +18,10 @@
                 "state"
             ],
             "variables": {
-                "state": {
+                "keys": [
+                    "state"
+                ],
+                "values": {
                     "x": "date",
                     "fire": "fire",
                     "rescue": "rescue",

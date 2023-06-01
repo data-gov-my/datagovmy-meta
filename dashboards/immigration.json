@@ -31,7 +31,10 @@
             "api_type": "dynamic",
             "api_params": [],
             "variables": {
-                "period": {
+                "keys": [
+                    "period"
+                ],
+                "values": {
                     "x": "date",
                     "passport": "passport",
                     "expatriate": "expatriate",

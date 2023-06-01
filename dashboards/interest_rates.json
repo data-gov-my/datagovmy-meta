@@ -14,12 +14,15 @@
             "api_type": "static",
             "api_params": [],
             "variables": {
-                "x": "date",
-                "deposit_fixed_12mo": "deposit_fixed_12mo",
-                "deposit_saving": "deposit_saving",
-                "base": "base",
-                "walr": "walr",
-                "recession": "recession"
+                "keys": [],
+                "values": {
+                    "x": "date",
+                    "deposit_fixed_12mo": "deposit_fixed_12mo",
+                    "deposit_saving": "deposit_saving",
+                    "base": "base",
+                    "walr": "walr",
+                    "recession": "recession"
+                }
             }
         },
         "timeseries_opr": {
@@ -30,8 +33,11 @@
             "api_type": "static",
             "api_params": [],
             "variables": {
-                "x": "date",
-                "opr": "opr"
+                "keys": [],
+                "values": {
+                    "x": "date",
+                    "opr": "opr"
+                }
             }
         },
         "statistics": {

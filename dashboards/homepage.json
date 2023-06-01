@@ -14,13 +14,16 @@
             "api_type": "static",
             "api_params": [],
             "variables": {
-                "x": "date",
-                "views": "views",
-                "line_views": "views_7dma",
-                "downloads": "downloads",
-                "line_downloads": "downloads_7dma",
-                "users": "users",
-                "line_users": "users_7dma"
+                "keys": [],
+                "values": {
+                    "x": "date",
+                    "views": "views",
+                    "line_views": "views_7dma",
+                    "downloads": "downloads",
+                    "line_downloads": "downloads_7dma",
+                    "users": "users",
+                    "line_users": "users_7dma"
+                }
             }
         },
         "statistics": {

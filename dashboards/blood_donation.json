@@ -154,7 +154,10 @@
                 "state"
             ],
             "variables": {
-                "state": {
+                "keys": [
+                    "state"
+                ],
+                "values": {
                     "x": "date",
                     "daily": "daily",
                     "line_daily": "daily_7dma"
@@ -171,7 +174,10 @@
                 "state"
             ],
             "variables": {
-                "state": {
+                "keys": [
+                    "state"
+                ],
+                "values": {
                     "x": "date",
                     "type_a": "stock_a",
                     "type_b": "stock_b",
@@ -187,12 +193,14 @@
             "api_type": "static",
             "api_params": [],
             "variables": {
-                "state": {
-                    "hospital": {
-                        "x": "date",
-                        "daily": "daily",
-                        "line": "daily_7dma"
-                    }
+                "keys": [
+                    "state",
+                    "hospital"
+                ],
+                "values": {
+                    "x": "date",
+                    "daily": "daily",
+                    "line": "daily_7dma"
                 }
             }
         },

@@ -14,11 +14,14 @@
             "api_type": "static",
             "api_params": [],
             "variables": {
-                "x": "date",
-                "overall": "overall",
-                "arrivals": "arrivals",
-                "registrations": "registrations",
-                "resettlements": "resettlements"
+                "keys": [],
+                "values": {
+                    "x": "date",
+                    "overall": "overall",
+                    "arrivals": "arrivals",
+                    "registrations": "registrations",
+                    "resettlements": "resettlements"
+                }
             }
         },
         "timeseries_callout": {
