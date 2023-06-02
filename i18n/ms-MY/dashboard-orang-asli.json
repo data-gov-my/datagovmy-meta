@@ -1,0 +1,23 @@
+{
+    "route": "ms-MY/dashboard/orang-asli",
+    "translation": {
+        "header": "Orang Asli",
+        "description": "Orang Asli is term used to refer to the direct descendants of Semenanjung Malaysia’s original inhabitants. Jabatan Kemajuan Orang Asli (JAKOA) is the government agency mandated to safeguard the welfare of the indigenous peoples. Accordingly, they undertake comprehensive groundwork to engage the various indigenous villages scattered across Semenanjung Malaysia. Powered by that data, this dashboard gives you the latest overview of their population, comprising 3 main ethnic groups (the Negritos, Proto-Malays, and Senois) and 18 ethnicities.",
+        "choro_header": "How are the Orang Asli distributed across Malaysia?",
+        "choro_description": "Nota: Orang Asli are the natives of Semenanjung Malaysia; the natives of Sabah and Sarawak are classified separately. Tambahan pula, tiada orang asli yang menetap di Penang, Perlis, atau Wilayah Persekutuan.",
+        "choro_ranking": "Kedudukan ({{ count }})",
+        "title": "Zoom into mana-mana kampung Orang Asli di Semenanjung Malaysia!",
+        "search_kampung": "Search or select from the map below!",
+        "pyramid_title": "{{ selected_kampung }} has an indigenous population of {{ count }}. What does this population look like?",
+        "age": "Umur",
+        "infant": "Bayi (0-4)",
+        "child": "Kanak-kanak (5-11)",
+        "teen": "Remaja (12-17)",
+        "adult": "Dewasa (18-59)",
+        "elderly": "Warga emas (60+)",
+        "sex": "Jantina",
+        "male": "Lelaki",
+        "female": "Perempuan",
+        "religion": "Agama"
+    }
+}

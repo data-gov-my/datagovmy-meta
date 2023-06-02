@@ -1,7 +1,7 @@
 {
     "dashboard_name": "ipr",
     "data_as_of": "2023-06-01 23:59",
-    "route": "/dashboard/peoples-income-initiative,/ms-MY/dashboard/peoples-income-initiative",
+    "route": "/dashboard/ipr,/ms-MY/dashboard/ipr",
     "manual_trigger": "2",
     "required_params": [
         "state"
@@ -36,7 +36,9 @@
             "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/ipr_timeseries_callout.parquet",
             "data_as_of": "2023-05-16 23:59",
             "api_type": "dynamic",
-            "api_params": [],
+            "api_params": [
+                "state"
+            ],
             "variables": {
                 "keys": [
                     "state",
