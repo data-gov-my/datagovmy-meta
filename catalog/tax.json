@@ -66,7 +66,8 @@
             "chart_variables": {
               "parents": [],
               "line_type": {
-                "tax_paid": "solid"
+                "stepped": true,
+                "tension": 0
               },
               "format": {
                 "x": "taxable_income",
@@ -128,7 +129,8 @@
             "chart_variables": {
               "parents": [],
               "line_type": {
-                "atr": "solid"
+                "stepped": true,
+                "tension": 0
               },
               "format": {
                 "x": "taxable_income",
@@ -190,7 +192,8 @@
             "chart_variables": {
               "parents": [],
               "line_type": {
-                "mtr": "solid"
+                "stepped": true,
+                "tension": 0
               },
               "format": {
                 "x": "taxable_income",
