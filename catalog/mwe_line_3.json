@@ -97,6 +97,11 @@
               },
               "chart_variables": {
                 "parents": [],
+                "line_type": {
+                  "tax_paid": "tax_paid",
+                  "mtr": "mtr",
+                  "atr":"atr"
+                },
                 "format": {
                   "x": "taxable_income",
                   "y": ["tax_paid", "mtr", "atr"]
