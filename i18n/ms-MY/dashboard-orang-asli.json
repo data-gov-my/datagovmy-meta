@@ -1,5 +1,5 @@
 {
-    "route": "ms-MY/dashboard/orang-asli",
+    "route": "/ms-MY/dashboard/orang-asli",
     "translation": {
         "header": "Orang Asli",
         "description": "Orang Asli is term used to refer to the direct descendants of Semenanjung Malaysia’s original inhabitants. Jabatan Kemajuan Orang Asli (JAKOA) is the government agency mandated to safeguard the welfare of the indigenous peoples. Accordingly, they undertake comprehensive groundwork to engage the various indigenous villages scattered across Semenanjung Malaysia. Powered by that data, this dashboard gives you the latest overview of their population, comprising 3 main ethnic groups (the Negritos, Proto-Malays, and Senois) and 18 ethnicities.",
