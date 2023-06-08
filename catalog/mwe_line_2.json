@@ -42,9 +42,9 @@
       },
       {
         "id": 0,
-        "name": "tax_paid",
-        "title_en": "Tax Paid vs Taxable Income",
-        "title_bm": "Cukai Dibayar vs Pendapatan Bercukai",
+        "name": "mwe_line_2",
+        "title_en": "Line Chart (2 Line)",
+        "title_bm": "Carta Garisan (2 Garisan)",
         "desc_en": "A precise, succinct description of this chart",
         "desc_bm": "A precise, succinct description of this chart",
         "catalog_data": {
