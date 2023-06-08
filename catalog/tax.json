@@ -66,8 +66,7 @@
             "chart_variables": {
               "parents": [],
               "line_type": {
-                "stepped": true,
-                "tension": 0
+                "y1": { "stepped": true, "tension": 0 }
               },
               "format": {
                 "x": "taxable_income",
@@ -129,8 +128,7 @@
             "chart_variables": {
               "parents": [],
               "line_type": {
-                "stepped": true,
-                "tension": 0
+                "y1": { "stepped": true, "tension": 0 }
               },
               "format": {
                 "x": "taxable_income",
@@ -192,8 +190,7 @@
             "chart_variables": {
               "parents": [],
               "line_type": {
-                "stepped": true,
-                "tension": 0
+                "y1": { "stepped": true, "tension": 0 }
               },
               "format": {
                 "x": "taxable_income",
