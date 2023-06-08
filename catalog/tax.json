@@ -1,6 +1,6 @@
 {
   "file": {
-    "manual_trigger": "1",
+    "manual_trigger": "",
     "bucket": "dgmy-public-mwe",
     "file_name": "tax",
     "category": "METADATA",
@@ -66,9 +66,7 @@
             "chart_variables": {
               "parents": [],
               "line_type": {
-                "tax_paid": "tax_paid",
-                "mtr": "mtr",
-                "atr": "atr"
+                "tax_paid": "solid"
               },
               "format": {
                 "x": "taxable_income",
@@ -130,24 +128,22 @@
             "chart_variables": {
               "parents": [],
               "line_type": {
-                "tax_paid": "tax_paid",
-                "mtr": "mtr",
-                "atr": "atr"
+                "atr": "solid"
               },
               "format": {
                 "x": "taxable_income",
-                "y": ["mtr"]
+                "y": ["atr"]
               }
             }
           },
           "translations": {
             "en": {
               "x": "Taxable Income",
-              "y1": "MTR"
+              "y1": "ATR"
             },
             "bm": {
               "x": "Pendapatan Bercukai",
-              "y1": "MTR (BM)"
+              "y1": "ATR (BM)"
             }
           }
         }
@@ -194,7 +190,7 @@
             "chart_variables": {
               "parents": [],
               "line_type": {
-                "mtr": "mtr"
+                "mtr": "solid"
               },
               "format": {
                 "x": "taxable_income",
@@ -205,11 +201,11 @@
           "translations": {
             "en": {
               "x": "Taxable Income",
-              "y1": "Tax Paid"
+              "y1": "MTR"
             },
             "bm": {
-              "x": "MTR",
-              "y1": "MTR"
+              "x": "Pendapatan Bercukai",
+              "y1": "MTR (BM)"
             }
           }
         }
