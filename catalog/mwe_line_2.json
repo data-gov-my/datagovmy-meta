@@ -2,7 +2,7 @@
   "file": {
     "manual_trigger": "1",
     "bucket": "dgmy-public-mwe",
-    "file_name": "mwe_line_1",
+    "file_name": "mwe_line_2",
     "category": "METADATA",
     "category_en": "Site Metadata",
     "category_bm": "Metadata Portal",
@@ -37,6 +37,14 @@
         "name": "var1",
         "title_en": "Variable 1",
         "title_bm": "Pembolehubah 1",
+        "desc_en": "[Integer] A precise, succinct description of this variable",
+        "desc_bm": "[Integer] A precise, succinct description of this variable"
+      },
+      {
+        "id": -1,
+        "name": "var2",
+        "title_en": "Variable 2",
+        "title_bm": "Pembolehubah 2",
         "desc_en": "[Integer] A precise, succinct description of this variable",
         "desc_bm": "[Integer] A precise, succinct description of this variable"
       },
