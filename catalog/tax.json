@@ -25,7 +25,7 @@
         "desc_bm": "[Integer] Pendapatan Bercukai dalam range X hingga Y"
       },
       {
-        "id": 0,
+        "id": 1,
         "name": "tax_paid",
         "title_en": "Tax Paid",
         "title_bm": "Cukai Dibayar",
@@ -87,7 +87,7 @@
         }
       },
       {
-        "id": 1,
+        "id": 2,
         "name": "atr",
         "title_en": "ATR",
         "title_bm": "ATR (BM)",
@@ -149,7 +149,7 @@
         }
       },
       {
-        "id": 2,
+        "id": 3,
         "name": "mtr",
         "title_en": "MTR",
         "title_bm": "MTR (BM)",
