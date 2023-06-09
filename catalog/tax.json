@@ -27,8 +27,8 @@
       {
         "id": 1,
         "name": "tax_paid",
-        "title_en": "Tax Paid",
-        "title_bm": "Cukai Dibayar",
+        "title_en": "Tax Paid vs Taxable Income",
+        "title_bm": "Cukai Dibayar vs Pendapatan Bercukai",
         "desc_en": "A precise, succinct description of this chart",
         "desc_bm": "A precise, succinct description of this chart",
         "catalog_data": {
@@ -66,7 +66,7 @@
             "chart_variables": {
               "parents": [],
               "line_type": {
-                "tax_paid": "solid"
+                "y1": { "stepped": true, "tension": 0 }
               },
               "format": {
                 "x": "taxable_income",
@@ -89,8 +89,8 @@
       {
         "id": 2,
         "name": "atr",
-        "title_en": "ATR",
-        "title_bm": "ATR (BM)",
+        "title_en": "Average Tax Rate Schedule",
+        "title_bm": "Jadual Kadar Cukai Purata",
         "desc_en": "A precise, succinct description of this chart",
         "desc_bm": "A precise, succinct description of this chart",
         "catalog_data": {
@@ -128,7 +128,7 @@
             "chart_variables": {
               "parents": [],
               "line_type": {
-                "atr": "solid"
+                "y1": { "stepped": true, "tension": 0 }
               },
               "format": {
                 "x": "taxable_income",
@@ -139,11 +139,11 @@
           "translations": {
             "en": {
               "x": "Taxable Income",
-              "y1": "ATR"
+              "y1": "Average Tax Rate"
             },
             "bm": {
               "x": "Pendapatan Bercukai",
-              "y1": "ATR (BM)"
+              "y1": "Kadar Cukai Purata"
             }
           }
         }
@@ -151,8 +151,8 @@
       {
         "id": 3,
         "name": "mtr",
-        "title_en": "MTR",
-        "title_bm": "MTR (BM)",
+        "title_en": "Marginal Tax Rate Schedule",
+        "title_bm": "Jadual Kadar Cukai Membelanjakan",
         "desc_en": "A precise, succinct description of this chart",
         "desc_bm": "A precise, succinct description of this chart",
         "catalog_data": {
@@ -190,7 +190,7 @@
             "chart_variables": {
               "parents": [],
               "line_type": {
-                "mtr": "solid"
+                "y1": { "stepped": true, "tension": 0 }
               },
               "format": {
                 "x": "taxable_income",
@@ -201,11 +201,11 @@
           "translations": {
             "en": {
               "x": "Taxable Income",
-              "y1": "MTR"
+              "y1": "Marginal Tax Rate"
             },
             "bm": {
               "x": "Pendapatan Bercukai",
-              "y1": "MTR (BM)"
+              "y1": "Kadar Cukai Membelanjakan"
             }
           }
         }
