@@ -10,7 +10,7 @@
       "name": "agency_dropdown",
       "chart_type": "query_values",
       "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/dashboards_all2.parquet",
-      "api_type": "static",
+      "api_type": "dynamic",
       "api_params": [],
       "variables": {
         "columns": ["agency"],
