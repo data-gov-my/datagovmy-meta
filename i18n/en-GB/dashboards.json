@@ -1,169 +1,173 @@
 {
-  "header": "Dashboards",
-  "description": "Your one-stop interface to explore data-driven insights and analytics on all areas of the public sector, powered by the data made open on this site.",
-  "description_agency": "Your one-stop interface to explore data-driven insights and analytics on the core work of {{ agency }}, powered by the data they make open on this site.",
-  "source_placeholder": "Select Agency",
-  "search_placeholder": "Search for dashboards",
-  "section1_title": "Most popular Dashboards",
-  "section2_title": "All dashboards",
-  "categories": {
-    "healthcare": "Healthcare",
-    "transport": "Transport",
-    "demography": "Demography",
-    "public-finances": "Public Finances",
-    "economy": "Economy",
-    "public-safety": "Public Safety",
-    "financial-sector": "Financial Sector",
-    "democracy": "Democracy",
-    "environment": "Environment",
-    "digitalisation": "Digitalisation",
-    "government-programs": "Government Programs",
-    "education": "Education"
-  },
-  "dashboards": {
-    "emergency-response": {
-      "name": "Emergency Response",
-      "description": "Real-time data for efficient emergency management."
-    },
-    "blood-donation": {
-      "name": "Blood Donation",
-      "description": "Track blood supply and encourage donations."
-    },
-    "car-popularity": {
-      "name": "Car Popularity Explorer",
-      "description": "Explore trends and popularity of car models."
-    },
-    "circle-of-life": {
-      "name": "The Circle of Life",
-      "description": "Insights on various life stages and events."
-    },
-    "civil-service": {
-      "name": "The Civil Service",
-      "description": "Information on government employment and services."
-    },
-    "inflation": {
-      "name": "Inflation",
-      "description": "Monitor and analyze inflation rates and trends."
-    },
-    "covid-19": {
-      "name": "COVID-19",
-      "description": "Stay updated on COVID-19 cases and related statistics."
-    },
-    "crime": {
-      "name": "Crime",
-      "description": "Visualize crime data and patterns for safer communities."
-    },
-    "currency-in-circulation": {
-      "name": "Currency in Circulation",
-      "description": "Track currency flow and circulation trends."
-    },
-    "election-explorer": {
-      "name": "Election Result Explorer",
-      "description": "Explore election outcomes and voting trends."
-    },
-    "exchange-rates": {
-      "name": "Exchange Rates",
-      "description": "Stay informed about currency exchange rates."
-    },
-    "fire-and-rescue": {
-      "name": "Fire and Rescue",
-      "description": "Real-time data for efficient fire and rescue operations."
-    },
-    "flood-warning": {
-      "name": "Flood Warning",
-      "description": "Receive timely alerts and information about floods."
-    },
-    "gdp": {
-      "name": "Gross Domestic Product (GDP)",
-      "description": "Measure and analyze economic growth."
-    },
-    "government-site-tracker": {
-      "name": "Government Site Tracker",
-      "description": "Monitor government website performance and availability."
-    },
-    "hospital-bed-utilisation": {
-      "name": "Hospital Bed Utilisation",
-      "description": "Track and optimize hospital bed usage."
-    },
-    "immigration": {
-      "name": "Immigration",
-      "description": "Data and insights on immigration patterns and trends."
-    },
-    "income-taxation": {
-      "name": "Income Taxation",
-      "description": "Information and updates on income tax policies."
-    },
-    "interest-rates": {
-      "name": "Interest Rates",
-      "description": "Monitor and analyze interest rate fluctuations."
-    },
-    "international-reserves": {
-      "name": "International Reserves",
-      "description": "Track and manage international reserve holdings."
-    },
-    "internet-penetration": {
-      "name": "Internet Penetration",
-      "description": "Measure and analyze internet usage rates."
-    },
-    "money-supply": {
-      "name": "Money Supply",
-      "description": "Track and analyze money supply trends."
-    },
-    "organ-donation": {
-      "name": "Organ Donation",
-      "description": "Promote organ donation and raise awareness."
-    },
-    "peka-b40": {
-      "name": "Peka B40",
-      "description": "Insights on the socio-economic support program."
-    },
-    "ipr": {
-      "name": "The People's Income Initiative (IPR)",
-      "description": "Track and analyze the impact of the People's Income Initiative."
-    },
-    "poverty": {
-      "name": "Poverty",
-      "description": "Insights and data on poverty rates and alleviation efforts."
-    },
-    "public-contracting": {
-      "name": "Public Contracting",
-      "description": "Monitor and ensure transparency in public contracting processes."
-    },
-    "public-pension": {
-      "name": "Public Pensions",
-      "description": "Information and updates on public pension schemes and benefits."
-    },
-    "public-transportation": {
-      "name": "Public Transportation",
-      "description": "Data and insights on public transportation systems and usage."
-    },
-    "reserve-money": {
-      "name": "Reserve Money",
-      "description": "Track and analyze reserve money levels and trends."
-    },
-    "retirement-readiness": {
-      "name": "Retirement Readiness",
-      "description": "Assess and plan for a financially secure retirement."
-    },
-    "sekolahku": {
-      "name": "Sekolahku",
-      "description": "Data and information on schools and education."
-    },
-    "social-security": {
-      "name": "Social Security",
-      "description": "Insights and updates on social security programs and benefits."
-    },
-    "weather-and-climate": {
-      "name": "Weather and Climate",
-      "description": "Stay informed about weather conditions and climate trends."
-    },
-    "name-popularity": {
-      "name": "Baby Name Popularity",
-      "description": "Explore the popularity and trends of baby names."
-    },
-    "birthday-explorer": {
-      "name": "Birthday Popularity",
-      "description": "Discover the popularity of birthdays and birth dates."
-    }
-  }
+    "route": "/dashboard",
+    "translation": {
+        "header": "Dashboards",
+        "description": "Your one-stop interface to explore data-driven insights and analytics on all areas of the public sector, powered by the data made open on this site.",
+        "description_agency": "Your one-stop interface to explore data-driven insights and analytics on the core work of {{ agency }}, powered by the data they make open on this site.",
+        "source_placeholder": "Select Agency",
+        "search_placeholder": "Search for dashboards",
+        "section1_title": "Most popular Dashboards",
+        "section2_title": "All dashboards",
+        "categories": {
+          "healthcare": "Healthcare",
+          "transport": "Transport",
+          "demography": "Demography",
+          "public-finances": "Public Finances",
+          "economy": "Economy",
+          "public-safety": "Public Safety",
+          "financial-sector": "Financial Sector",
+          "democracy": "Democracy",
+          "environment": "Environment",
+          "digitalisation": "Digitalisation",
+          "government-programs": "Government Programs",
+          "education": "Education"
+        },
+        "dashboards": {
+          "emergency-response": {
+            "name": "Emergency Response",
+            "description": "Real-time data for efficient emergency management."
+          },
+          "blood-donation": {
+            "name": "Blood Donation",
+            "description": "Track blood supply and encourage donations."
+          },
+          "car-popularity": {
+            "name": "Car Popularity Explorer",
+            "description": "Explore trends and popularity of car models."
+          },
+          "circle-of-life": {
+            "name": "The Circle of Life",
+            "description": "Insights on various life stages and events."
+          },
+          "civil-service": {
+            "name": "The Civil Service",
+            "description": "Information on government employment and services."
+          },
+          "inflation": {
+            "name": "Inflation",
+            "description": "Monitor and analyze inflation rates and trends."
+          },
+          "covid-19": {
+            "name": "COVID-19",
+            "description": "Stay updated on COVID-19 cases and related statistics."
+          },
+          "crime": {
+            "name": "Crime",
+            "description": "Visualize crime data and patterns for safer communities."
+          },
+          "currency-in-circulation": {
+            "name": "Currency in Circulation",
+            "description": "Track currency flow and circulation trends."
+          },
+          "election-explorer": {
+            "name": "Election Result Explorer",
+            "description": "Explore election outcomes and voting trends."
+          },
+          "exchange-rates": {
+            "name": "Exchange Rates",
+            "description": "Stay informed about currency exchange rates."
+          },
+          "fire-and-rescue": {
+            "name": "Fire and Rescue",
+            "description": "Real-time data for efficient fire and rescue operations."
+          },
+          "flood-warning": {
+            "name": "Flood Warning",
+            "description": "Receive timely alerts and information about floods."
+          },
+          "gdp": {
+            "name": "Gross Domestic Product (GDP)",
+            "description": "Measure and analyze economic growth."
+          },
+          "government-site-tracker": {
+            "name": "Government Site Tracker",
+            "description": "Monitor government website performance and availability."
+          },
+          "hospital-bed-utilisation": {
+            "name": "Hospital Bed Utilisation",
+            "description": "Track and optimize hospital bed usage."
+          },
+          "immigration": {
+            "name": "Immigration",
+            "description": "Data and insights on immigration patterns and trends."
+          },
+          "income-taxation": {
+            "name": "Income Taxation",
+            "description": "Information and updates on income tax policies."
+          },
+          "interest-rates": {
+            "name": "Interest Rates",
+            "description": "Monitor and analyze interest rate fluctuations."
+          },
+          "international-reserves": {
+            "name": "International Reserves",
+            "description": "Track and manage international reserve holdings."
+          },
+          "internet-penetration": {
+            "name": "Internet Penetration",
+            "description": "Measure and analyze internet usage rates."
+          },
+          "money-supply": {
+            "name": "Money Supply",
+            "description": "Track and analyze money supply trends."
+          },
+          "organ-donation": {
+            "name": "Organ Donation",
+            "description": "Promote organ donation and raise awareness."
+          },
+          "peka-b40": {
+            "name": "Peka B40",
+            "description": "Insights on the socio-economic support program."
+          },
+          "ipr": {
+            "name": "The People's Income Initiative (IPR)",
+            "description": "Track and analyze the impact of the People's Income Initiative."
+          },
+          "poverty": {
+            "name": "Poverty",
+            "description": "Insights and data on poverty rates and alleviation efforts."
+          },
+          "public-contracting": {
+            "name": "Public Contracting",
+            "description": "Monitor and ensure transparency in public contracting processes."
+          },
+          "public-pension": {
+            "name": "Public Pensions",
+            "description": "Information and updates on public pension schemes and benefits."
+          },
+          "public-transportation": {
+            "name": "Public Transportation",
+            "description": "Data and insights on public transportation systems and usage."
+          },
+          "reserve-money": {
+            "name": "Reserve Money",
+            "description": "Track and analyze reserve money levels and trends."
+          },
+          "retirement-readiness": {
+            "name": "Retirement Readiness",
+            "description": "Assess and plan for a financially secure retirement."
+          },
+          "sekolahku": {
+            "name": "Sekolahku",
+            "description": "Data and information on schools and education."
+          },
+          "social-security": {
+            "name": "Social Security",
+            "description": "Insights and updates on social security programs and benefits."
+          },
+          "weather-and-climate": {
+            "name": "Weather and Climate",
+            "description": "Stay informed about weather conditions and climate trends."
+          },
+          "name-popularity": {
+            "name": "Baby Name Popularity",
+            "description": "Explore the popularity and trends of baby names."
+          },
+          "birthday-explorer": {
+            "name": "Birthday Popularity",
+            "description": "Discover the popularity of birthdays and birth dates."
+          }
+        }
+      }
+      
 }
