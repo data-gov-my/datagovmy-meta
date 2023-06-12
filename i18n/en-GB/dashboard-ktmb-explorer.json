@@ -23,6 +23,7 @@
         "ridership_year": "Yearly Ridership: {{ from }} to {{ to }}",
         "daily": "Daily",
         "past_month": "Past 1 Month",
-        "past_year": "Past 1 Year"
+        "past_year": "Past 1 Year",
+        "no_trips": "No trips on this route"
     }
 }

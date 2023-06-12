@@ -23,6 +23,7 @@
         "ridership_year": "Jumlah Penumpang Tahunan: {{ from }} ke {{ to }}",
         "daily": "Harian",
         "past_month": "Sebulan",
-        "past_year": "Setahun"
+        "past_year": "Setahun",
+        "no_trips": "Tiada perjalanan di laluan ini"
     }
 }
