@@ -1,53 +1,59 @@
 {
-  "mers-999": { "full": "MERS 999", "abbr": "MERS 999" },
-  "pdn": { "full": "Royal Malaysia Police", "abbr": "PDN" },
-  "jpj": { "full": "Road Transport Department", "abbr": "JPJ" },
-  "jpn": { "full": "National Registration Department", "abbr": "JPN" },
-  "jpa": { "full": "Public Service Department", "abbr": "JPA" },
-  "dosm": { "full": "Department of Statistics Malaysia", "abbr": "DOSM" },
-  "moh": { "full": "Ministry of Health Malaysia", "abbr": "MoH" },
-  "pdrm": { "full": "Royal Malaysia Police", "abbr": "PDRM" },
-  "bnm": { "full": "Central Bank of Malaysia", "abbr": "BNM" },
-  "spr": { "full": "Election Commission of Malaysia", "abbr": "SPR" },
-  "mampu": {
-    "full": "Malaysian Administrative Modernisation and Management Planning Unit",
-    "abbr": "MAMPU"
-  },
-  "bomba": {
-    "full": "Fire and Rescue Department of Malaysia",
-    "abbr": "BOMBA"
-  },
-  "jps": { "full": "Department of Irrigation and Drainage", "abbr": "JPS" },
-  "imigresen": {
-    "full": "Immigration Department of Malaysia",
-    "abbr": "Imigresen"
-  },
-  "lhdn": { "full": "Inland Revenue Board of Malaysia", "abbr": "LHDN" },
-  "mcmc": {
-    "full": "Malaysian Communications and Multimedia Commission",
-    "abbr": "MCMC"
-  },
-  "ntrc": {
-    "full": "National Telecoms Research and Collaboration Centre",
-    "abbr": "NTRC"
-  },
-  "phcorp": { "full": "Public-Private Partnership Unit", "abbr": "PHCorp" },
-  "ke": { "full": "Ministry of Health", "abbr": "KE" },
-  "icu-jpm": {
-    "full": "Innovation and Quality Unit, Prime Minister's Department",
-    "abbr": "ICU JPM"
-  },
-  "mof": { "full": "Ministry of Finance", "abbr": "MoF" },
-  "kwap": { "full": "Retirement Fund Incorporated", "abbr": "KWAP" },
-  "mot": { "full": "Ministry of Transport", "abbr": "MoT" },
-  "epf": { "full": "Employees Provident Fund", "abbr": "EPF" },
-  "moe": { "full": "Ministry of Education", "abbr": "MoE" },
-  "perkeso": { "full": "Social Security Organization", "abbr": "PERKESO" },
-  "met": { "full": "Meteorology", "abbr": "Met" },
-  "ktmb": { "full": "Malayan Railways Limited", "abbr": "KTMB" },
-  "jakoa": { "full": "Department of Orang Asli Development", "abbr": "JAKOA" },
-  "unhcr": {
-    "full": "United Nations High Commissioner for Refugees",
-    "abbr": "UNHCR"
+  "route": null,
+  "translation": {
+    "mers-999": { "full": "MERS 999", "abbr": "MERS 999" },
+    "pdn": { "full": "Royal Malaysia Police", "abbr": "PDN" },
+    "jpj": { "full": "Road Transport Department", "abbr": "JPJ" },
+    "jpn": { "full": "National Registration Department", "abbr": "JPN" },
+    "jpa": { "full": "Public Service Department", "abbr": "JPA" },
+    "dosm": { "full": "Department of Statistics Malaysia", "abbr": "DOSM" },
+    "moh": { "full": "Ministry of Health Malaysia", "abbr": "MoH" },
+    "pdrm": { "full": "Royal Malaysia Police", "abbr": "PDRM" },
+    "bnm": { "full": "Central Bank of Malaysia", "abbr": "BNM" },
+    "spr": { "full": "Election Commission of Malaysia", "abbr": "SPR" },
+    "mampu": {
+      "full": "Malaysian Administrative Modernisation and Management Planning Unit",
+      "abbr": "MAMPU"
+    },
+    "bomba": {
+      "full": "Fire and Rescue Department of Malaysia",
+      "abbr": "BOMBA"
+    },
+    "jps": { "full": "Department of Irrigation and Drainage", "abbr": "JPS" },
+    "imigresen": {
+      "full": "Immigration Department of Malaysia",
+      "abbr": "Imigresen"
+    },
+    "lhdn": { "full": "Inland Revenue Board of Malaysia", "abbr": "LHDN" },
+    "mcmc": {
+      "full": "Malaysian Communications and Multimedia Commission",
+      "abbr": "MCMC"
+    },
+    "ntrc": {
+      "full": "National Telecoms Research and Collaboration Centre",
+      "abbr": "NTRC"
+    },
+    "phcorp": { "full": "Public-Private Partnership Unit", "abbr": "PHCorp" },
+    "ke": { "full": "Ministry of Health", "abbr": "KE" },
+    "icu-jpm": {
+      "full": "Innovation and Quality Unit, Prime Minister's Department",
+      "abbr": "ICU JPM"
+    },
+    "mof": { "full": "Ministry of Finance", "abbr": "MoF" },
+    "kwap": { "full": "Retirement Fund Incorporated", "abbr": "KWAP" },
+    "mot": { "full": "Ministry of Transport", "abbr": "MoT" },
+    "epf": { "full": "Employees Provident Fund", "abbr": "EPF" },
+    "moe": { "full": "Ministry of Education", "abbr": "MoE" },
+    "perkeso": { "full": "Social Security Organization", "abbr": "PERKESO" },
+    "met": { "full": "Meteorology", "abbr": "Met" },
+    "ktmb": { "full": "Malayan Railways Limited", "abbr": "KTMB" },
+    "jakoa": {
+      "full": "Department of Orang Asli Development",
+      "abbr": "JAKOA"
+    },
+    "unhcr": {
+      "full": "United Nations High Commissioner for Refugees",
+      "abbr": "UNHCR"
+    }
   }
 }
