@@ -166,6 +166,22 @@
           "birthday-explorer": {
             "name": "Birthday Popularity",
             "description": "Discover the popularity of birthdays and birth dates."
+          },
+          "refugee-situtation": {
+            "name": "Malaysia's Refugee Situation",
+            "description": "Get an overview of the refugee situation in Malaysia, including demographics, challenges, and UNHCR's efforts to provide assistance and protection."
+          },
+          "orang-asli": {
+            "name": "The Indigenous Peoples",
+            "description": "Gain insights into the demographics and socio-economic indicators of Malaysia's indigenous communities."
+          },
+          "covid-vaccination": {
+            "name": "Covid Vaccination",
+            "description": "Discover Covid Vaccination rates amoung different people."
+          },
+          "ktmb-explorer": {
+            "name": "KTMB Explorer",
+            "description": "Explore ridership by services, origins and destination."
           }
         }
       }
