@@ -1,68 +1,56 @@
 {
-    "dashboard_name": "dashboards",
-    "data_as_of": "2023-06-02 23:59",
-    "route": "/dashboard,/ms-MY/dashboard",
-    "manual_trigger": "1",
-    "required_params": [],
-    "optional_params": [],
-    "charts": {
-        "agencies_all": {
-            "name": "agencies_all",
-            "chart_type": "metrics_table",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/dashboards_agencies.parquet",
-            "data_as_of": "2023-03-27 23:59",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "keys": [
-                    "lang"
-                ],
-                "obj_attr": {
-                    "agency": "agency"
-                }
-            }
-        },
-        "dashboards_top": {
-            "name": "dashboards_top",
-            "chart_type": "metrics_table",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/dashboards_top.parquet",
-            "data_as_of": "2023-03-27 23:59",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "keys": [
-                    "lang",
-                    "time_period"
-                ],
-                "obj_attr": {
-                    "route": "id",
-                    "name": "name",
-                    "description": "description",
-                    "agency": "agency",
-                    "views": "views"
-                }
-            }
-        },
-        "dashboards_all": {
-            "name": "dashboards_all",
-            "chart_type": "metrics_table",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/dashboards_all.parquet",
-            "data_as_of": "2023-03-27 23:59",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "keys": [
-                    "lang",
-                    "category"
-                ],
-                "obj_attr": {
-                    "route": "id",
-                    "name": "name",
-                    "description": "description",
-                    "agency": "agency",
-                    "views": "views"
-                }
-            }
+  "dashboard_name": "dashboards2",
+  "data_as_of": "2023-06-11 23:59",
+  "route": "/dashboard,/ms-MY/dashboard",
+  "manual_trigger": "1",
+  "required_params": [],
+  "optional_params": [],
+  "charts": {
+    "query_values": {
+      "name": "agency_dropdown",
+      "chart_type": "query_values",
+      "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/dashboards_all2.parquet",
+      "api_type": "dynamic",
+      "api_params": [],
+      "variables": {
+        "columns": ["agency"],
+        "sort_values": {
+          "by": ["agency"],
+          "ascending": [true]
         }
+      }
+    },
+    "dashboards_top": {
+      "name": "dashboards_top",
+      "chart_type": "metrics_table",
+      "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/dashboards_top2.parquet",
+      "data_as_of": "2023-06-11 23:59",
+      "api_type": "static",
+      "api_params": [],
+      "variables": {
+        "keys": ["time_period"],
+        "obj_attr": {
+          "name": "name",
+          "agency": "agency",
+          "views": "views"
+        }
+      }
+    },
+    "dashboards_all": {
+      "name": "dashboards_all",
+      "chart_type": "metrics_table",
+      "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/dashboards_all2.parquet",
+      "data_as_of": "2023-06-11 23:59",
+      "api_type": "static",
+      "api_params": [],
+      "variables": {
+        "keys": ["category"],
+        "obj_attr": {
+          "name": "name",
+          "agency": "agency",
+          "views": "views"
+        }
+      }
     }
+  }
 }
