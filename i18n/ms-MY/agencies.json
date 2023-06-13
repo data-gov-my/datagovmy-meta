@@ -1,0 +1,56 @@
+{
+  "route": null,
+  "translation": {
+    "mers-999": { "full": "MERS 999", "abbr": "MERS 999" },
+    "pdn": { "full": "Police DiRaja Malaysia", "abbr": "PDN" },
+    "jpj": { "full": "Jabatan Pengangkutan Jalan", "abbr": "JPJ" },
+    "jpn": { "full": "Jabatan Pendaftaran Negara", "abbr": "JPN" },
+    "jpa": { "full": "Jabatan Perkhidmatan Awam", "abbr": "JPA" },
+    "dosm": { "full": "Jabatan Perangkaan Malaysia", "abbr": "DOSM" },
+    "moh": { "full": "Kementerian Kesihatan Malaysia", "abbr": "MoH" },
+    "pdrm": { "full": "Polis Diraja Malaysia", "abbr": "PDRM" },
+    "bnm": { "full": "Bank Negara Malaysia", "abbr": "BNM" },
+    "spr": { "full": "Suruhanjaya Pilihan Raya", "abbr": "SPR" },
+    "mampu": { "full": "Majlis Amanah Rakyat", "abbr": "MAMPU" },
+    "bomba": {
+      "full": "Jabatan Bomba dan Penyelamat Malaysia",
+      "abbr": "BOMBA"
+    },
+    "jps": { "full": "Jabatan Pengairan dan Saliran", "abbr": "JPS" },
+    "imigresen": {
+      "full": "Jabatan Imigresen Malaysia",
+      "abbr": "Imigresen"
+    },
+    "lhdn": { "full": "Lembaga Hasil Dalam Negeri", "abbr": "LHDN" },
+    "mcmc": {
+      "full": "Suruhanjaya Komunikasi dan Multimedia Malaysia",
+      "abbr": "MCMC"
+    },
+    "ntrc": {
+      "full": "National Telecoms Research and Collaboration Centre",
+      "abbr": "NTRC"
+    },
+    "phcorp": { "full": "Public-Private Partnership Unit", "abbr": "PHCorp" },
+    "ke": { "full": "Kementerian Kesihatan", "abbr": "KE" },
+    "icu-jpm": {
+      "full": "Unit Inovasi dan Kualiti, Jabatan Perdana Menteri",
+      "abbr": "ICU JPM"
+    },
+    "mof": { "full": "Kementerian Kewangan", "abbr": "MoF" },
+    "kwap": { "full": "Kumpulan Wang Persaraan", "abbr": "KWAP" },
+    "mot": { "full": "Kementerian Pengangkutan", "abbr": "MoT" },
+    "epf": { "full": "Employees Provident Fund", "abbr": "EPF" },
+    "moe": { "full": "Kementerian Pendidikan", "abbr": "MoE" },
+    "perkeso": { "full": "Pertubuhan Keselamatan Sosial", "abbr": "PERKESO" },
+    "met": { "full": "Meteorologi", "abbr": "Met" },
+    "ktmb": { "full": "Keretapi Tanah Melayu Berhad", "abbr": "KTMB" },
+    "jakoa": {
+      "full": "Jabatan Kemajuan Orang Asli",
+      "abbr": "JAKOA"
+    },
+    "unhcr": {
+      "full": "Pesuruhjaya Tinggi Bangsa-Bangsa Bersatu untuk Pelarian",
+      "abbr": "UNHCR"
+    }
+  }
+}
