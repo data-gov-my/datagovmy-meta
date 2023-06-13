@@ -121,37 +121,6 @@
             "public_safety": "Keselamatan Awam",
             "transportation": "Pengangkutan"
         },
-        "agency": {
-            "govt": "Kerajaan Malaysia",
-            "BNM": "Bank Negara Malaysia",
-            "BOMBA": "Jabatan Bomba dan Penyelamat",
-            "DOSM": "Jabatan Perangkaan Malaysia",
-            "EPF": "Kumpulan Wang Simpanan Pekerja",
-            "EPU": "Kementerian Ekonomi",
-            "ICU JPM": "Unit Penyelarasan Pelaksanaan, Jabatan Perdana Menteri",
-            "Imigresen": "Jabatan Imigresen",
-            "JAKOA": "Jabatan Kemajuan Orang Asli",
-            "JPA": "Jabatan Perkhidmatan Awam",
-            "JPJ": "Jabatan Pengangkutan Jalan",
-            "JPN": "Jabatan Pendaftaran Negara",
-            "KWAP": "Kumpulan Wang Persaraan (Diperbadankan)",
-            "LHDN": "Lembaga Hasil Dalam Negeri",
-            "MAMPU": "Unit Pemodenan Tadbiran dan Perancangan Pengurusan",
-            "MCMC": "Malaysian Communications and Multimedia Comission",
-            "MERS 999": "Malaysian Emergency Response Services 999",
-            "Met": "Jabatan Meteorologi",
-            "JPS": "Jabatan Pengairan dan Saliran",
-            "MoE": "Kementerian Pendidikan",
-            "MoF": "Kementerian Kewangan",
-            "MoH": "Kementerian Kesihatan",
-            "MoT": "Kementerian Pengangkutan",
-            "NTRC": "Pusat Sumber Transplan Nasional",
-            "PDN": "Pusat Darah Negara",
-            "PDRM": "Polis Diraja Malaysia",
-            "PHCorp": "ProtectHealth Corporation",
-            "PERKESO": "Pertubuhan Keselamatan Sosial",
-            "SPR": "Suruhanjaya Pilihan Raya"
-        },
         "home": {
             "title": "Terkini. Terperinci. Terbukti.",
             "description": "Portal ini adalah rumah bagi segala data terbuka sektor awam Malaysia. Sama ada anda rakyat marhaen yang menginginkan maklumat, ataupun penyelidik yang mencari sumber, ataupun pembangun aplikasi yang memerlukan API, anda boleh mendapatinya di sini. Misi kami adalah untuk menjadikan Malaysia negara berpacukan data yang terhebat di dunia.",
@@ -195,15 +164,6 @@
                 "views": "Paparan Harian",
                 "downloads": "Muat Turun Harian"
             }
-        },
-        "dashboard": {
-            "header": "Papan Pemuka",
-            "description": "Terokailah analitik berpacukan data bagi segala kerja sektor awam, yang dijana berasaskan data terbuka di portal ini.",
-            "description_agency": "Terokailah analitik berpacukan data bagi segala kerja hakiki {{ agency }}, yang dijana berasaskan data yang mereka sediakan secara terbuka di portal ini.",
-            "source_placeholder": "Pilih Agensi",
-            "search_placeholder": "Cari papan pemuka",
-            "section1_title": "Papan Pemuka Paling Popular",
-            "section2_title": "Semua papan pemuka"
         }
     }
 }

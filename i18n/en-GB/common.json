@@ -121,37 +121,6 @@
             "public_safety": "Public Safety",
             "transportation": "Transportation"
         },
-        "agency": {
-            "govt": "Government of Malaysia",
-            "BNM": "Central Bank of Malaysia",
-            "BOMBA": "Fire and Rescue Department",
-            "DOSM": "Department of Statistics Malaysia",
-            "EPF": "Employees Provident Fund",
-            "EPU": "Ministry of the Economy",
-            "ICU JPM": "Implementation Coordination Unit, Prime Minister's Department",
-            "Imigresen": "Immigration Department",
-            "JAKOA": "Department of Orang Asli Development",
-            "JPA": "Public Service Department",
-            "JPJ": "Road Transport Department",
-            "JPN": "National Registration Department",
-            "KWAP": "Retirement Fund Incorporated",
-            "LHDN": "Inland Revenue Board",
-            "MAMPU": "Malaysian Administrative Modernisation and Management Planning Unit",
-            "MCMC": "Malaysian Communications and Multimedia Comission",
-            "MERS 999": "Malaysian Emergency Response Services 999",
-            "Met": "Malaysian Meteorological Department",
-            "JPS": "Department of Irrigation and Drainage",
-            "MoE": "Ministry of Education",
-            "MoF": "Ministry of Finance",
-            "MoH": "Ministry of Health",
-            "MoT": "Ministry of Transport",
-            "NTRC": "National Transplant Resource Center",
-            "PDN": "National Blood Centre",
-            "PDRM": "Royal Malayisa Police",
-            "PHCorp": "ProtectHealth Corporation",
-            "PERKESO": "Social Security Organization",
-            "SPR": "Election Commission"
-        },
         "home": {
             "category": "Malaysia's official open data portal",
             "title": "High frequency. High granularity. High impact.",
@@ -195,15 +164,6 @@
                 "views": "Daily Views",
                 "downloads": "Daily Downloads"
             }
-        },
-        "dashboard": {
-            "header": "Dashboards",
-            "description": "Your one-stop interface to explore data-driven insights and analytics on all areas of the public sector, powered by the data made open on this site.",
-            "description_agency": "Your one-stop interface to explore data-driven insights and analytics on the core work of {{ agency }}, powered by the data they make open on this site.",
-            "source_placeholder": "Select Agency",
-            "search_placeholder": "Search for dashboards",
-            "section1_title": "Most popular Dashboards",
-            "section2_title": "All dashboards"
         }
     }
 }
