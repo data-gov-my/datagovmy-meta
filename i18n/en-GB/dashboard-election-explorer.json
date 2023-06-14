@@ -82,11 +82,11 @@
             "comfortable": "Comfortable win"
         },
         "trivia": {
-            "header": "Fun facts about Malaysia’s electoral history!",
-            "top10_majority_slimmest": "The 10 slimmest majorities in Malaysia’s electoral history",
-            "top10_majority_biggest": "The 10 biggest majorities in Malaysia’s electoral history",
-            "slim": "Slimmest majorities",
-            "big": "Biggest majorities",
+            "header": "Trivia: Fun facts about Malaysia’s electoral history!",
+            "majority_slim": "The slimmest majorities in Malaysia’s electoral history",
+            "majority_big": "The biggest majorities in Malaysia’s electoral history",
+            "slim": "Slimmest majority",
+            "big": "Biggest majority",
             "won": "won",
             "ge_veterans": "General Election Veterans",
             "se_veterans": "State Election Veterans"
