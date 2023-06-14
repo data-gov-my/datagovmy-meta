@@ -1,0 +1,60 @@
+{
+    "dashboard_name": "election_trivia",
+    "data_as_of": "2023-06-14 23:59",
+    "route": "/election/trivia,/ms-MY/election/trivia",
+    "manual_trigger": "1",
+    "required_params": [
+        "state"
+    ],
+    "optional_params": [],
+    "charts": {
+        "parlimen_bar": {
+            "name": "parlimen_bar",
+            "chart_type": "bar_meter",
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/elections_veteran_parlimen.parquet",
+            "data_as_of": "2023-06-14 23:59",
+            "api_type": "static",
+            "api_params": [
+                "state"
+            ],
+            "variables": {
+                "axis_values": [
+                    {
+                        "name": "competed"
+                    },
+                    {
+                        "name": "won"
+                    }
+                ],
+                "keys": [
+                    "state"
+                ],
+                "sub_keys": true
+            }
+        },
+        "dun_bar": {
+            "name": "dun_bar",
+            "chart_type": "bar_meter",
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/elections_veteran_dun.parquet",
+            "data_as_of": "2023-06-14 23:59",
+            "api_type": "static",
+            "api_params": [
+                "state"
+            ],
+            "variables": {
+                "axis_values": [
+                    {
+                        "name": "competed"
+                    },
+                    {
+                        "name": "won"
+                    }
+                ],
+                "keys": [
+                    "state"
+                ],
+                "sub_keys": true
+            }
+        }
+    }
+}
