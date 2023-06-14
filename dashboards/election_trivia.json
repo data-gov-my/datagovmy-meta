@@ -8,9 +8,10 @@
     ],
     "optional_params": [],
     "charts": {
-        "table": {
-            "name": "table",
+        "table_top": {
+            "name": "table_top",
             "chart_type": "metrics_table",
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/elections_slim_big.parquet",
             "data_as_of": "2023-06-14 23:59",
             "api_type": "dynamic",
             "api_params": [
