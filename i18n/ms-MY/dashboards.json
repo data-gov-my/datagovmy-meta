@@ -80,7 +80,7 @@
         "description": "Ukur dan analisis pertumbuhan ekonomi."
       },
       "government-site-tracker": {
-        "name": "Pemantau Portal Kerajaan",
+        "name": "Penggunaan Portal Kerajaan",
         "description": "Pantau prestasi dan ketersediaan laman web kerajaan."
       },
       "hospital-bed-utilisation": {
