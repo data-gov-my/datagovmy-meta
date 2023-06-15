@@ -28,15 +28,15 @@
         "description": "Data masa nyata untuk pengurusan kecemasan yang cekap."
       },
       "blood-donation": {
-        "name": "Derma Darah",
-        "description": "Lacak bekalan darah dan galakkan derma."
+        "name": "Pendermaan Darah",
+        "description": "Lacak bekalan darah dan galakkan pendermaan."
       },
       "car-popularity": {
-        "name": "Peneroka Populariti Kereta",
+        "name": "Populariti Kenderaan",
         "description": "Terokai trend dan populariti model kereta."
       },
       "circle-of-life": {
-        "name": "Lingkaran Kehidupan",
+        "name": "Kitaran Kehidupan",
         "description": "Pemahaman mengenai pelbagai peringkat dan peristiwa kehidupan."
       },
       "civil-service": {
@@ -56,19 +56,19 @@
         "description": "Visualisasikan data jenayah dan corak untuk komuniti yang lebih selamat."
       },
       "currency-in-circulation": {
-        "name": "Mata Wang Dalam Sirkulasi",
-        "description": "Jejak aliran dan trend sirkulasi mata wang."
+        "name": "Mata Wang dalam Edaran",
+        "description": "Jejak aliran dan trend edaran mata wang."
       },
       "election-explorer": {
-        "name": "Peneroka Hasil Pilihan Raya",
-        "description": "Terokai hasil pilihan raya dan trend pengundian."
+        "name": "Keputusan Pilihan Raya",
+        "description": "Terokai keputusan pilihan raya dan trend pengundian."
       },
       "exchange-rates": {
-        "name": "Kadar Pertukaran",
+        "name": "Kadar Pertukaran Ringgit",
         "description": "Dapatkan maklumat terkini tentang kadar pertukaran mata wang."
       },
       "fire-and-rescue": {
-        "name": "Pemadam dan Penyelamat",
+        "name": "Bomba dan Penyelamat",
         "description": "Data masa nyata untuk operasi pemadam dan penyelamatan yang cekap."
       },
       "flood-warning": {
@@ -76,11 +76,11 @@
         "description": "Terima amaran dan maklumat tepat pada waktunya mengenai banjir."
       },
       "gdp": {
-        "name": "Keluaran Dalam Negara Kasar (KDNK)",
+        "name": "Keluaran dalam Negari Kasar (KDNK)",
         "description": "Ukur dan analisis pertumbuhan ekonomi."
       },
       "government-site-tracker": {
-        "name": "Pemantau Laman Kerajaan",
+        "name": "Penggunaan Portal Kerajaan",
         "description": "Pantau prestasi dan ketersediaan laman web kerajaan."
       },
       "hospital-bed-utilisation": {
@@ -92,7 +92,7 @@
         "description": "Data dan pemahaman mengenai corak dan trend imigresen."
       },
       "income-taxation": {
-        "name": "Pengenakan Cukai Pendapatan",
+        "name": "Cukai Pendapatan",
         "description": "Maklumat dan kemas kini mengenai dasar cukai pendapatan."
       },
       "interest-rates": {
@@ -100,20 +100,20 @@
         "description": "Pantau dan analisis fluktuasi kadar faedah."
       },
       "international-reserves": {
-        "name": "Simpanan Antarabangsa",
-        "description": "Jejak dan urus simpanan antarabangsa."
+        "name": "Rizab Antarabangsa",
+        "description": "Jejak dan urus rizab antarabangsa."
       },
       "internet-penetration": {
-        "name": "Penetrasi Internet",
+        "name": "Capaian Internet",
         "description": "Ukur dan analisis kadar penggunaan internet."
       },
       "money-supply": {
-        "name": "Bekalan Wang",
+        "name": "Penawaran Wang",
         "description": "Jejak dan analisis trend bekalan wang."
       },
       "organ-donation": {
-        "name": "Derma Organ",
-        "description": "Galakkan derma organ dan tingkatkan kesedaran."
+        "name": "Pendermaan Organ",
+        "description": "Galakkan pendermaan organ dan tingkatkan kesedaran."
       },
       "peka-b40": {
         "name": "Peka B40",
@@ -140,11 +140,11 @@
         "description": "Data dan pemahaman mengenai sistem dan penggunaan pengangkutan awam."
       },
       "reserve-money": {
-        "name": "Wang Simpanan",
+        "name": "Wang Rizab",
         "description": "Jejak dan analisis tahap dan trend wang simpanan."
       },
       "retirement-readiness": {
-        "name": "Persediaan Pencen",
+        "name": "Kesediaan Bersara",
         "description": "Menilai dan merancang persaraan yang selamat dari segi kewangan."
       },
       "sekolahku": {
@@ -172,8 +172,8 @@
         "description": "Dapatkan gambaran keseluruhan mengenai situasi pelarian di Malaysia, termasuk demografi, cabaran, dan usaha UNHCR untuk memberikan bantuan dan perlindungan."
       },
       "orang-asli": {
-        "name": "Masyarakat Orang Asli",
-        "description": "Dapatkan pemahaman mengenai demografi dan petunjuk sosioekonomi komuniti pribumi Malaysia."
+        "name": "Orang Asli",
+        "description": "Dapatkan pemahaman mengenai demografi dan petunjuk sosioekonomi komuniti orang asli Malaysia."
       },
       "covid-vaccination": {
         "name": "Vaksinasi Covid",
