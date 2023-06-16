@@ -67,7 +67,7 @@
             "no_data_dun": "{{ party }} tidak pernah bertanding di Pilihan Raya Negeri {{ state }}",
             "no_data_dun_mys": "Silih pilih negeri",
             "no_data_dun_wp": "Wilayah Persekutuan terletak di bawah pentadbiran Persekutuan dan tidak mempunyai Dewan Undangan Negeri.",
-            "no_data_parliament": "{{ party }} tidak pernah bertanding di Pilihan Raya Umum",
+            "no_data_parlimen": "{{ party }} tidak pernah bertanding di {{ state }} bagi Pilihan Raya Umum",
             "formed_gov": "Menjadi Kerajaan",
             "formed_opp": "Menjadi Pembangkang"
         },
