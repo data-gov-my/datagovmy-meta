@@ -66,7 +66,7 @@
             "title": "<strong>{{ party }}'s electoral history</strong> in ",
             "no_data_dun": "{{ party }} has never competed in {{ state }} State elections",
             "no_data_dun_mys": "Please select a state; DUN-level results cannot be summarised at national level.",
-            "no_data_dun_wp": "There are no DUN results as the Federal Territories are governed directly by the federal government.",
+            "no_data_dun_wp": "There are no results as {{ state }} is governed directly by the federal government.",
             "no_data_parlimen": "{{ party }} has never competed in {{ state }} for Parliament elections.",
             "formed_gov": "Formed the Government",
             "formed_opp": "Formed the Opposition"
