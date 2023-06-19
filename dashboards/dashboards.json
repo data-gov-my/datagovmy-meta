@@ -1,6 +1,6 @@
 {
   "dashboard_name": "dashboards",
-  "data_as_of": "2023-06-11 23:59",
+  "data_last_updated": "2023-06-11 23:59",
   "route": "/dashboard,/ms-MY/dashboard",
   "manual_trigger": "1",
   "required_params": [],
@@ -13,10 +13,16 @@
       "api_type": "dynamic",
       "api_params": [],
       "variables": {
-        "columns": ["agency"],
+        "columns": [
+          "agency"
+        ],
         "sort_values": {
-          "by": ["agency"],
-          "ascending": [true]
+          "by": [
+            "agency"
+          ],
+          "ascending": [
+            true
+          ]
         }
       }
     },
@@ -28,7 +34,9 @@
       "api_type": "static",
       "api_params": [],
       "variables": {
-        "keys": ["time_period"],
+        "keys": [
+          "time_period"
+        ],
         "obj_attr": {
           "name": "name",
           "agency": "agency",
@@ -44,7 +52,9 @@
       "api_type": "static",
       "api_params": [],
       "variables": {
-        "keys": ["category"],
+        "keys": [
+          "category"
+        ],
         "obj_attr": {
           "name": "name",
           "agency": "agency",

@@ -1,6 +1,6 @@
 {
     "dashboard_name": "ipr",
-    "data_as_of": "2023-06-01 23:59",
+    "data_last_updated": "2023-06-01 23:59",
     "route": "/dashboard/ipr,/ms-MY/dashboard/ipr",
     "manual_trigger": "2",
     "required_params": [
