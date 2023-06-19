@@ -1,6 +1,6 @@
 {
     "dashboard_name": "immigration",
-    "data_as_of": "2023-06-01 23:59",
+    "data_last_updated": "2023-06-01 23:59",
     "route": "/dashboard/immigration,/ms-MY/dashboard/immigration",
     "manual_trigger": "2",
     "required_params": [],
