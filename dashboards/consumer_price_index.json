@@ -1,6 +1,6 @@
 {
     "dashboard_name": "consumer_price_index",
-    "data_as_of": "2023-06-01 23:59",
+    "data_last_updated": "2023-06-01 23:59",
     "route": "/dashboard/consumer-prices,/ms-MY/dashboard/consumer-prices",
     "manual_trigger": "",
     "required_params": [],
