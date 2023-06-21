@@ -47,6 +47,7 @@
         "header_3": "Election Analysis",
         "choro_header": "How do {{ stat }} rates differ across the country?",
         "choro_rank": "Ranking",
+        "show_more": "Show More",
         "candidate": {
             "header": "Explore the electoral history of anyone who's ever competed in an election",
             "search_candidate": "Search for candidate's name",
