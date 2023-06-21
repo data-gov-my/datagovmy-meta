@@ -88,14 +88,15 @@
             "api_type": "dynamic",
             "api_params": [],
             "variables": {
-                "state": {
-                    "level": {
-                        "chart": {
-                            "x": "x",
-                            "y": "y"
-                        }
-                    }
-                }
+                "keys": [
+                    "state",
+                    "level",
+                    "chart"
+                ],
+                "x": "x",
+                "y": [
+                    "y"
+                ]
             }
         },
         "bellcurve_callout": {
