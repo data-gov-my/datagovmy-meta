@@ -23,14 +23,14 @@
                     "type",
                     "metric"
                 ],
-                "obj_attr": {
-                    "election_name": "election_name",
-                    "date": "date",
-                    "seat": "seat",
-                    "party": "party",
-                    "name": "name",
-                    "majority": "majority"
-                }
+                "value_columns": [
+                    "election_name",
+                    "date",
+                    "seat",
+                    "party",
+                    "name",
+                    "majority"
+                ]
             }
         },
         "parlimen_bar": {
