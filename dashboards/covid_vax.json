@@ -111,11 +111,10 @@
                     "state",
                     "chart_type"
                 ],
-                "columns": [
+                "value_columns": [
                     "latest",
                     "total"
-                ],
-                "null_vals": null
+                ]
             }
         },
         "timeseries": {

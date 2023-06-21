@@ -239,11 +239,10 @@
                     "state",
                     "hospital"
                 ],
-                "columns": [
+                "value_columns": [
                     "lat",
                     "lon"
-                ],
-                "null_vals": null
+                ]
             }
         },
         "barchart_key_variables": {

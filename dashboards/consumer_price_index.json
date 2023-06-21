@@ -75,10 +75,9 @@
                     "chart_type",
                     "chart"
                 ],
-                "columns": [
+                "value_columns": [
                     "callout"
-                ],
-                "null_vals": null
+                ]
             }
         },
         "timeseries_6d": {

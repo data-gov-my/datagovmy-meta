@@ -43,11 +43,10 @@
                 "keys": [
                     "chart"
                 ],
-                "columns": [
+                "value_columns": [
                     "callout1",
                     "callout2"
-                ],
-                "null_vals": null
+                ]
             }
         },
         "table_summary": {

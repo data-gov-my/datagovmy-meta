@@ -52,10 +52,9 @@
                     "destination",
                     "frequency"
                 ],
-                "columns": [
+                "value_columns": [
                     "passengers"
-                ],
-                "null_vals": null
+                ]
             }
         },
         "query_values": {
