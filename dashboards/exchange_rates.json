@@ -82,9 +82,13 @@
                 "keys": [
                     "period"
                 ],
-                "axis_values": [
-                    "country",
-                    "pct_change"
+                "rename_cols": {
+                    "country": "x",
+                    "pct_change": "y"
+                },
+                "x": "x",
+                "y": [
+                    "y"
                 ]
             }
         }

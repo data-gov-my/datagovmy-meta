@@ -21,9 +21,13 @@
                     "state",
                     "period"
                 ],
-                "axis_values": [
-                    "age",
-                    "screened"
+                "rename_cols": {
+                    "age": "x",
+                    "screened": "y"
+                },
+                "x": "x",
+                "y": [
+                    "y"
                 ]
             }
         },
