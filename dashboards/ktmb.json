@@ -69,7 +69,19 @@
                     "service",
                     "origin",
                     "destination"
-                ]
+                ],
+                "sort_values": {
+                    "by": [
+                        "service",
+                        "origin",
+                        "destination"
+                    ],
+                    "ascending": [
+                        true,
+                        true,
+                        true
+                    ]
+                }
             }
         }
     }
