@@ -15,13 +15,16 @@
             "api_params": [],
             "variables": {
                 "keys": [],
-                "values": {
-                    "x": "date",
-                    "overall": "overall",
-                    "arrivals": "arrivals",
-                    "registrations": "registrations",
-                    "resettlements": "resettlements"
-                }
+                "rename_cols": {
+                    "date": "x"
+                },
+                "value_columns": [
+                    "x",
+                    "overall",
+                    "arrivals",
+                    "registrations",
+                    "resettlements"
+                ]
             }
         },
         "timeseries_callout": {

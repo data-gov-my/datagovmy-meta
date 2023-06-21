@@ -24,10 +24,14 @@
                     "destination",
                     "frequency"
                 ],
-                "values": {
-                    "x": "date",
-                    "y": "passengers"
-                }
+                "rename_cols": {
+                    "date": "x",
+                    "passengers": "y"
+                },
+                "value_columns": [
+                    "x",
+                    "y"
+                ]
             }
         },
         "timeseries_callout": {

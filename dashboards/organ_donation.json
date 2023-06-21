@@ -117,11 +117,15 @@
                 "keys": [
                     "state"
                 ],
-                "values": {
-                    "x": "date",
-                    "daily": "daily",
-                    "line": "daily_7dma"
-                }
+                "rename_cols": {
+                    "date": "x",
+                    "daily_7dma": "line"
+                },
+                "value_columns": [
+                    "x",
+                    "daily",
+                    "line"
+                ]
             }
         },
         "choropleth_malaysia": {

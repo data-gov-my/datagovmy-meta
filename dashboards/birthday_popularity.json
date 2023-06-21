@@ -21,11 +21,14 @@
                 "keys": [
                     "state"
                 ],
-                "values": {
-                    "x": "date",
-                    "births": "births",
-                    "rank": "rank"
-                }
+                "rename_cols": {
+                    "date": "x"
+                },
+                "value_columns": [
+                    "x",
+                    "births",
+                    "rank"
+                ]
             }
         },
         "rank_table": {

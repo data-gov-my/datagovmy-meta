@@ -21,13 +21,16 @@
                 "keys": [
                     "state"
                 ],
-                "values": {
-                    "x": "date",
-                    "fire": "fire",
-                    "rescue": "rescue",
-                    "others": "others",
-                    "overall": "overall"
-                }
+                "rename_cols": {
+                    "date": "x"
+                },
+                "value_columns": [
+                    "x",
+                    "fire",
+                    "rescue",
+                    "others",
+                    "overall"
+                ]
             }
         },
         "timeseries_callout": {
