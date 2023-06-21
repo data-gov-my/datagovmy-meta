@@ -1,7 +1,7 @@
 {
     "dashboard_name": "bomba",
     "data_last_updated": "2023-06-01 23:59",
-    "route": "",
+    "route": "/dashboard/fire-and-rescue,/ms-MY/dashboard/fire-and-rescue",
     "manual_trigger": "2",
     "required_params": [
         "state"
