@@ -26,36 +26,23 @@
                     "state",
                     "dose"
                 ],
-                "null_vals": null,
-                "add_key": {},
-                "wanted": [
-                    {
-                        "col_name": "age_group",
-                        "values": [
-                            "0-4",
-                            "5-11",
-                            "12-17",
-                            "18-29",
-                            "30-39",
-                            "40-49",
-                            "50-59",
-                            "60-69",
-                            "70-79",
-                            "80+"
-                        ]
-                    },
-                    {
-                        "col_name": "metric",
-                        "values": [
-                            "perc"
-                        ]
-                    }
-                ],
-                "id_needed": true,
-                "condition": {
-                    "metric": "perc"
-                },
-                "post_operation": "_REVERSE_"
+                "filter": {
+                    "age_group": [
+                        "0-4",
+                        "5-11",
+                        "12-17",
+                        "18-29",
+                        "30-39",
+                        "40-49",
+                        "50-59",
+                        "60-69",
+                        "70-79",
+                        "80+"
+                    ],
+                    "metric": [
+                        "perc"
+                    ]
+                }
             }
         },
         "snapshot": {
@@ -68,7 +55,6 @@
             "variables": {
                 "main_key": "state",
                 "replace_word": "perc",
-                "null_vals": null,
                 "data": {
                     "total": [
                         "total_booster1",

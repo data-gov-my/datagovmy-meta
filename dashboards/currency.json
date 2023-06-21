@@ -62,13 +62,7 @@
                 ],
                 "keys": [
                     "chart"
-                ],
-                "null_vals": null,
-                "add_key": {},
-                "wanted": [],
-                "id_needed": false,
-                "condition": {},
-                "post_operation": ""
+                ]
             }
         },
         "statistics": {

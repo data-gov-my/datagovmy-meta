@@ -30,8 +30,7 @@
                     "party": "party",
                     "name": "name",
                     "majority": "majority"
-                },
-                "null_vals": null
+                }
             }
         },
         "parlimen_bar": {

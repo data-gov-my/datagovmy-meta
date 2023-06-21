@@ -57,14 +57,7 @@
                         "state": "util_vent"
                     }
                 ],
-                "keys": [],
-                "sub_keys": true,
-                "null_vals": null,
-                "add_key": {},
-                "wanted": [],
-                "id_needed": false,
-                "condition": {},
-                "post_operation": ""
+                "sub_keys": true
             }
         },
         "snapshot_graphic": {
@@ -116,7 +109,6 @@
             "variables": {
                 "main_key": "state",
                 "replace_word": "",
-                "null_vals": null,
                 "data": {
                     "deaths": [
                         "deaths",

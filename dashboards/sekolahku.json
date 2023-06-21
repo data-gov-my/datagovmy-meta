@@ -78,8 +78,7 @@
                     "code",
                     "use_as",
                     "chart"
-                ],
-                "null_vals": null
+                ]
             }
         },
         "bellcurve_linechart": {

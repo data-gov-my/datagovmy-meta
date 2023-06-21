@@ -65,7 +65,6 @@
             "variables": {
                 "main_key": "type",
                 "replace_word": "",
-                "null_vals": null,
                 "data": {
                     "data": [
                         "m1",
