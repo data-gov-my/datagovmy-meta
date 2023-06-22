@@ -21,29 +21,13 @@
                     "state",
                     "period"
                 ],
-                "axis_values": [
-                    "age_group",
-                    "new_donors"
-                ]
-            }
-        },
-        "barchart_reasons": {
-            "name": "barchart_reasons",
-            "chart_type": "bar_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/organ_03_barchart_reasons.parquet",
-            "data_as_of": "2023-04-03 23:59",
-            "api_type": "dynamic",
-            "api_params": [
-                "state"
-            ],
-            "variables": {
-                "keys": [
-                    "state",
-                    "period"
-                ],
-                "axis_values": [
-                    "reason",
-                    "pledgers"
+                "rename_cols": {
+                    "age_group": "x",
+                    "new_donors": "y"
+                },
+                "x": "x",
+                "y": [
+                    "y"
                 ]
             }
         },
@@ -61,47 +45,14 @@
                     "state",
                     "type"
                 ],
-                "axis_values": [
-                    "period",
-                    "new_donors"
-                ]
-            }
-        },
-        "heatmap_pledgerrate": {
-            "name": "heatmap_pledgerrate",
-            "chart_type": "heatmap_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/organ_03_heatmap_pledgerrate.parquet",
-            "data_as_of": "2023-04-03 23:59",
-            "api_type": "dynamic",
-            "api_params": [
-                "state"
-            ],
-            "variables": {
-                "cols": [
-                    "0-9",
-                    "10-19",
-                    "20-29",
-                    "30-39",
-                    "40-49",
-                    "50-59",
-                    "60-69",
-                    "70-79",
-                    "80+",
-                    "Overall"
-                ],
-                "id": "demog",
-                "keys": [
-                    "state",
-                    "metric",
-                    "demog"
-                ],
-                "null_values": null,
-                "replace_vals": {},
-                "dict_rename": {
-                    "[a-zA-Z]+_": ""
+                "rename_cols": {
+                    "period": "x",
+                    "new_donors": "y"
                 },
-                "operation": "SET",
-                "row_format": "title"
+                "x": "x",
+                "y": [
+                    "y"
+                ]
             }
         },
         "timeseries": {
@@ -117,11 +68,15 @@
                 "keys": [
                     "state"
                 ],
-                "values": {
-                    "x": "date",
-                    "daily": "daily",
-                    "line": "daily_7dma"
-                }
+                "rename_cols": {
+                    "date": "x",
+                    "daily_7dma": "line"
+                },
+                "value_columns": [
+                    "x",
+                    "daily",
+                    "line"
+                ]
             }
         },
         "choropleth_malaysia": {

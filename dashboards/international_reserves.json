@@ -15,13 +15,16 @@
             "api_params": [],
             "variables": {
                 "keys": [],
-                "values": {
-                    "x": "date",
-                    "reserves_usd": "reserves_usd",
-                    "import_months": "import_months",
-                    "ed_scale": "ed_scale",
-                    "recession": "recession"
-                }
+                "rename_cols": {
+                    "date": "x"
+                },
+                "value_columns": [
+                    "x",
+                    "reserves_usd",
+                    "import_months",
+                    "ed_scale",
+                    "recession"
+                ]
             }
         },
         "statistics": {
@@ -35,10 +38,9 @@
                 "keys": [
                     "chart"
                 ],
-                "columns": [
+                "value_columns": [
                     "callout"
-                ],
-                "null_vals": null
+                ]
             }
         }
     }

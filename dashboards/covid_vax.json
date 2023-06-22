@@ -26,36 +26,23 @@
                     "state",
                     "dose"
                 ],
-                "null_vals": null,
-                "add_key": {},
-                "wanted": [
-                    {
-                        "col_name": "age_group",
-                        "values": [
-                            "0-4",
-                            "5-11",
-                            "12-17",
-                            "18-29",
-                            "30-39",
-                            "40-49",
-                            "50-59",
-                            "60-69",
-                            "70-79",
-                            "80+"
-                        ]
-                    },
-                    {
-                        "col_name": "metric",
-                        "values": [
-                            "perc"
-                        ]
-                    }
-                ],
-                "id_needed": true,
-                "condition": {
-                    "metric": "perc"
-                },
-                "post_operation": "_REVERSE_"
+                "filter": {
+                    "age_group": [
+                        "0-4",
+                        "5-11",
+                        "12-17",
+                        "18-29",
+                        "30-39",
+                        "40-49",
+                        "50-59",
+                        "60-69",
+                        "70-79",
+                        "80+"
+                    ],
+                    "metric": [
+                        "perc"
+                    ]
+                }
             }
         },
         "snapshot": {
@@ -68,7 +55,6 @@
             "variables": {
                 "main_key": "state",
                 "replace_word": "perc",
-                "null_vals": null,
                 "data": {
                     "total": [
                         "total_booster1",
@@ -111,11 +97,10 @@
                     "state",
                     "chart_type"
                 ],
-                "columns": [
+                "value_columns": [
                     "latest",
                     "total"
-                ],
-                "null_vals": null
+                ]
             }
         },
         "timeseries": {
@@ -131,22 +116,38 @@
                 "keys": [
                     "state"
                 ],
-                "values": {
-                    "x": "date",
-                    "primary": "daily_primary",
-                    "booster": "daily_booster",
-                    "booster2": "daily_booster2",
-                    "adult": "daily_adult",
-                    "adol": "daily_adol",
-                    "child": "daily_child",
-                    "line_stacked": "daily_7dma",
-                    "line_primary": "daily_primary_7dma",
-                    "line_booster": "daily_booster_7dma",
-                    "line_booster2": "daily_booster2_7dma",
-                    "line_adult": "daily_adult_7dma",
-                    "line_adol": "daily_adol_7dma",
-                    "line_child": "daily_child_7dma"
-                }
+                "rename_cols": {
+                    "date": "x",
+                    "daily_primary": "primary",
+                    "daily_booster": "booster",
+                    "daily_booster2": "booster2",
+                    "daily_adult": "adult",
+                    "daily_adol": "adol",
+                    "daily_child": "child",
+                    "daily_7dma": "line_stacked",
+                    "daily_primary_7dma": "line_primary",
+                    "daily_booster_7dma": "line_booster",
+                    "daily_booster2_7dma": "line_booster2",
+                    "daily_adult_7dma": "line_adult",
+                    "daily_adol_7dma": "line_adol",
+                    "daily_child_7dma": "line_child"
+                },
+                "value_columns": [
+                    "x",
+                    "primary",
+                    "booster",
+                    "booster2",
+                    "adult",
+                    "adol",
+                    "child",
+                    "line_stacked",
+                    "line_primary",
+                    "line_booster",
+                    "line_booster2",
+                    "line_adult",
+                    "line_adol",
+                    "line_child"
+                ]
             }
         },
         "waffle": {
@@ -159,14 +160,16 @@
                 "state"
             ],
             "variables": {
-                "wanted": [
-                    "adult",
-                    "child",
-                    "elderly",
-                    "adolescent",
-                    "total"
-                ],
-                "groups": [
+                "filter": {
+                    "age_group": [
+                        "adult",
+                        "child",
+                        "elderly",
+                        "adolescent",
+                        "total"
+                    ]
+                },
+                "keys": [
                     "state",
                     "age_group",
                     "dose"

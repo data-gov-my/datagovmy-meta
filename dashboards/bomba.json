@@ -1,7 +1,7 @@
 {
     "dashboard_name": "bomba",
-    "data_last_updated": "2023-06-06 00:00",
-    "route": "",
+    "data_last_updated": "2023-06-01 23:59",
+    "route": "/dashboard/fire-and-rescue,/ms-MY/dashboard/fire-and-rescue",
     "manual_trigger": "2",
     "required_params": [
         "state"
@@ -21,13 +21,16 @@
                 "keys": [
                     "state"
                 ],
-                "values": {
-                    "x": "date",
-                    "fire": "fire",
-                    "rescue": "rescue",
-                    "others": "others",
-                    "overall": "overall"
-                }
+                "rename_cols": {
+                    "date": "x"
+                },
+                "value_columns": [
+                    "x",
+                    "fire",
+                    "rescue",
+                    "others",
+                    "overall"
+                ]
             }
         },
         "timeseries_callout": {
@@ -43,10 +46,9 @@
                     "chart",
                     "variable"
                 ],
-                "columns": [
+                "value_columns": [
                     "value"
-                ],
-                "null_vals": null
+                ]
             }
         },
         "choropleth": {

@@ -43,12 +43,15 @@
                     "country",
                     "period"
                 ],
-                "values": {
-                    "x": "date",
-                    "immigration": "immigration",
-                    "emigration": "emigration",
-                    "net_migration": "net_migration"
-                }
+                "rename_cols": {
+                    "date": "x"
+                },
+                "value_columns": [
+                    "x",
+                    "immigration",
+                    "emigration",
+                    "net_migration"
+                ]
             }
         },
         "timeseries_country_callout": {
@@ -65,10 +68,9 @@
                     "country",
                     "variable"
                 ],
-                "columns": [
+                "value_columns": [
                     "value"
-                ],
-                "null_vals": null
+                ]
             }
         }
     }

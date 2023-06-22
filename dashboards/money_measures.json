@@ -17,22 +17,25 @@
                 "keys": [
                     "chart_type"
                 ],
-                "values": {
-                    "x": "date",
-                    "m1_total": "m1_total",
-                    "m2_total": "m2_total",
-                    "m3_total": "m3_total",
-                    "m1_currency": "m1_currency",
-                    "m1_deposit_demand": "m1_deposit_demand",
-                    "m2_deposit_saving": "m2_deposit_saving",
-                    "m2_deposit_fixed": "m2_deposit_fixed",
-                    "m2_nid": "m2_nid",
-                    "m2_repo": "m2_repo",
-                    "m2_deposit_fx": "m2_deposit_fx",
-                    "m2_deposit_other": "m2_deposit_other",
-                    "m3_deposit_other": "m3_deposit_other",
-                    "recession": "recession"
-                }
+                "rename_cols": {
+                    "date": "x"
+                },
+                "value_columns": [
+                    "x",
+                    "m1_total",
+                    "m2_total",
+                    "m3_total",
+                    "m1_currency",
+                    "m1_deposit_demand",
+                    "m2_deposit_saving",
+                    "m2_deposit_fixed",
+                    "m2_nid",
+                    "m2_repo",
+                    "m2_deposit_fx",
+                    "m2_deposit_other",
+                    "m3_deposit_other",
+                    "recession"
+                ]
             }
         },
         "statistics": {
@@ -47,10 +50,9 @@
                     "chart_type",
                     "chart"
                 ],
-                "columns": [
+                "value_columns": [
                     "callout"
-                ],
-                "null_vals": null
+                ]
             }
         },
         "table_summary": {
@@ -63,7 +65,6 @@
             "variables": {
                 "main_key": "type",
                 "replace_word": "",
-                "null_vals": null,
                 "data": {
                     "data": [
                         "m1",

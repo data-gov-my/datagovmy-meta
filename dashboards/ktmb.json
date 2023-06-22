@@ -24,10 +24,14 @@
                     "destination",
                     "frequency"
                 ],
-                "values": {
-                    "x": "date",
-                    "y": "passengers"
-                }
+                "rename_cols": {
+                    "date": "x",
+                    "passengers": "y"
+                },
+                "value_columns": [
+                    "x",
+                    "y"
+                ]
             }
         },
         "timeseries_callout": {
@@ -48,10 +52,9 @@
                     "destination",
                     "frequency"
                 ],
-                "columns": [
+                "value_columns": [
                     "passengers"
-                ],
-                "null_vals": null
+                ]
             }
         },
         "query_values": {
@@ -66,7 +69,19 @@
                     "service",
                     "origin",
                     "destination"
-                ]
+                ],
+                "sort_values": {
+                    "by": [
+                        "service",
+                        "origin",
+                        "destination"
+                    ],
+                    "ascending": [
+                        true,
+                        true,
+                        true
+                    ]
+                }
             }
         }
     }

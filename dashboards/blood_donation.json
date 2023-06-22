@@ -22,9 +22,13 @@
                     "state",
                     "period"
                 ],
-                "axis_values": [
-                    "age_group",
-                    "new_donors"
+                "rename_cols": {
+                    "age_group": "x",
+                    "new_donors": "y"
+                },
+                "x": "x",
+                "y": [
+                    "y"
                 ]
             }
         },
@@ -42,106 +46,14 @@
                     "state",
                     "type"
                 ],
-                "axis_values": [
-                    "period",
-                    "new_donors"
+                "rename_cols": {
+                    "period": "x",
+                    "new_donors": "y"
+                },
+                "x": "x",
+                "y": [
+                    "y"
                 ]
-            }
-        },
-        "heatmap_bloodstock": {
-            "name": "heatmap_bloodstock",
-            "chart_type": "heatmap_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/blood_01_stock_snapshot.parquet",
-            "data_as_of": "2023-04-03 23:59",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "cols": [
-                    "a",
-                    "b",
-                    "ab",
-                    "o"
-                ],
-                "id": "state",
-                "keys": [
-                    "state"
-                ],
-                "null_values": null,
-                "replace_vals": {
-                    "High": 0,
-                    "Safe": 1,
-                    "Low": 2,
-                    "Mid": 3
-                },
-                "dict_rename": {
-                    "female_": "",
-                    "male_": ""
-                },
-                "row_format": "upper",
-                "operation": "SET"
-            }
-        },
-        "heatmap_donorrate": {
-            "name": "heatmap_donorrate",
-            "chart_type": "heatmap_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/blood_04_heatmap_donorrate.parquet",
-            "data_as_of": "2023-04-03 23:59",
-            "api_type": "dynamic",
-            "api_params": [
-                "state"
-            ],
-            "variables": {
-                "cols": [
-                    "17-24",
-                    "25-29",
-                    "30-34",
-                    "35-39",
-                    "40-44",
-                    "45-49",
-                    "50-54",
-                    "55-59",
-                    "60-64",
-                    "Overall"
-                ],
-                "id": "demog",
-                "keys": [
-                    "state",
-                    "metric",
-                    "demog"
-                ],
-                "null_values": null,
-                "replace_vals": {},
-                "dict_rename": {
-                    "[a-zA-Z]+_": ""
-                },
-                "operation": "SET",
-                "row_format": "title"
-            }
-        },
-        "heatmap_retention": {
-            "name": "heatmap_retention",
-            "chart_type": "heatmap_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/blood_04_heatmap_retention.parquet",
-            "data_as_of": "2023-04-03 23:59",
-            "api_type": "dynamic",
-            "api_params": [
-                "state"
-            ],
-            "variables": {
-                "cols": {
-                    "x": "donated_after",
-                    "y": "retention_rate"
-                },
-                "id": "donated_in",
-                "keys": [
-                    "state",
-                    "donated_in"
-                ],
-                "null_values": null,
-                "replace_vals": {},
-                "dict_rename": {},
-                "operation": "APPEND",
-                "row_format": "upper"
             }
         },
         "timeseries_all": {
@@ -157,70 +69,15 @@
                 "keys": [
                     "state"
                 ],
-                "values": {
-                    "x": "date",
-                    "daily": "daily",
-                    "line_daily": "daily_7dma"
-                }
-            }
-        },
-        "timeseries_bloodstock": {
-            "name": "timeseries_bloodstock",
-            "chart_type": "timeseries_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/blood_01_stock_timeseries.parquet",
-            "data_as_of": "2023-04-03 23:59",
-            "api_type": "dynamic",
-            "api_params": [
-                "state"
-            ],
-            "variables": {
-                "keys": [
-                    "state"
-                ],
-                "values": {
-                    "x": "date",
-                    "type_a": "stock_a",
-                    "type_b": "stock_b",
-                    "type_ab": "stock_ab",
-                    "type_o": "stock_o"
-                }
-            }
-        },
-        "timeseries_facility": {
-            "name": "timeseries_facility",
-            "chart_type": "timeseries_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/blood_05_timeseries_facility.parquet",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "keys": [
-                    "state",
-                    "hospital"
-                ],
-                "values": {
-                    "x": "date",
-                    "daily": "daily",
-                    "line": "daily_7dma"
-                }
-            }
-        },
-        "map_facility": {
-            "name": "map_facility",
-            "chart_type": "custom_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/blood_05_map_facility.parquet",
-            "data_as_of": "2023-04-03 23:59",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "keys": [
-                    "state",
-                    "hospital"
-                ],
-                "columns": [
-                    "lat",
-                    "lon"
-                ],
-                "null_vals": null
+                "rename_cols": {
+                    "date": "x",
+                    "daily_7dma": "line_daily"
+                },
+                "value_columns": [
+                    "x",
+                    "daily",
+                    "line_daily"
+                ]
             }
         },
         "barchart_key_variables": {
@@ -242,13 +99,7 @@
                     "state",
                     "period",
                     "chart"
-                ],
-                "null_vals": null,
-                "add_key": {},
-                "wanted": [],
-                "id_needed": false,
-                "condition": {},
-                "post_operation": ""
+                ]
             }
         },
         "choropleth_malaysia": {
