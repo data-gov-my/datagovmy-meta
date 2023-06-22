@@ -7,67 +7,6 @@
     ],
     "optional_params": [],
     "charts": {
-        "barchart_ages": {
-            "name": "barchart_ages",
-            "chart_type": "bar_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/pekab40_02_barchart_ages.parquet",
-            "data_as_of": "2023-04-03 23:59",
-            "api_type": "dynamic",
-            "api_params": [
-                "state"
-            ],
-            "variables": {
-                "keys": [
-                    "state",
-                    "period"
-                ],
-                "rename_cols": {
-                    "age": "x",
-                    "screened": "y"
-                },
-                "x": "x",
-                "y": [
-                    "y"
-                ]
-            }
-        },
-        "heatmap_screenrate": {
-            "name": "heatmap_screenrate",
-            "chart_type": "heatmap_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/pekab40_02_heatmap_screenrate.parquet",
-            "data_as_of": "2023-04-03 23:59",
-            "api_type": "dynamic",
-            "api_params": [
-                "state"
-            ],
-            "variables": {
-                "cols": [
-                    "40-44",
-                    "45-49",
-                    "50-54",
-                    "55-59",
-                    "60-64",
-                    "65-69",
-                    "70-74",
-                    "75-79",
-                    "80+",
-                    "Overall"
-                ],
-                "id": "demog",
-                "keys": [
-                    "state",
-                    "metric",
-                    "demog"
-                ],
-                "null_values": null,
-                "replace_vals": {},
-                "dict_rename": {
-                    "[a-zA-Z]+_": ""
-                },
-                "operation": "SET",
-                "row_format": "title"
-            }
-        },
         "timeseries": {
             "name": "timeseries",
             "chart_type": "timeseries_chart",
