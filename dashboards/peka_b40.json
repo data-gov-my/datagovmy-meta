@@ -21,9 +21,13 @@
                     "state",
                     "period"
                 ],
-                "axis_values": [
-                    "age",
-                    "screened"
+                "rename_cols": {
+                    "age": "x",
+                    "screened": "y"
+                },
+                "x": "x",
+                "y": [
+                    "y"
                 ]
             }
         },
@@ -77,11 +81,15 @@
                 "keys": [
                     "state"
                 ],
-                "values": {
-                    "x": "date",
-                    "daily": "daily",
-                    "line": "daily_7dma"
-                }
+                "rename_cols": {
+                    "date": "x",
+                    "daily_7dma": "line"
+                },
+                "value_columns": [
+                    "x",
+                    "daily",
+                    "line"
+                ]
             }
         },
         "choropleth_malaysia": {

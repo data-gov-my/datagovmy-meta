@@ -15,14 +15,17 @@
             "api_params": [],
             "variables": {
                 "keys": [],
-                "values": {
-                    "x": "date",
-                    "deposit_fixed_12mo": "deposit_fixed_12mo",
-                    "deposit_saving": "deposit_saving",
-                    "base": "base",
-                    "walr": "walr",
-                    "recession": "recession"
-                }
+                "rename_cols": {
+                    "date": "x"
+                },
+                "value_columns": [
+                    "x",
+                    "deposit_fixed_12mo",
+                    "deposit_saving",
+                    "base",
+                    "walr",
+                    "recession"
+                ]
             }
         },
         "timeseries_opr": {
@@ -34,10 +37,13 @@
             "api_params": [],
             "variables": {
                 "keys": [],
-                "values": {
-                    "x": "date",
-                    "opr": "opr"
-                }
+                "rename_cols": {
+                    "date": "x"
+                },
+                "value_columns": [
+                    "x",
+                    "opr"
+                ]
             }
         },
         "statistics": {
@@ -51,10 +57,9 @@
                 "keys": [
                     "chart"
                 ],
-                "columns": [
+                "value_columns": [
                     "callout"
-                ],
-                "null_vals": null
+                ]
             }
         }
     }

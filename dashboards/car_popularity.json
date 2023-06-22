@@ -12,7 +12,7 @@
     "charts": {
         "timeseries": {
             "name": "timeseries",
-            "chart_type": "timeseries_shared",
+            "chart_type": "timeseries_chart",
             "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/car_popularity_timeseries.parquet",
             "data_as_of": "2023-05-27 23:59",
             "api_type": "individual_chart",
@@ -27,12 +27,15 @@
                     "model",
                     "colour"
                 ],
-                "constant": {
-                    "x": "date"
+                "rename_cols": {
+                    "date": "x"
                 },
-                "attributes": {
-                    "cars": "cars"
-                }
+                "constants": [
+                    "x"
+                ],
+                "value_columns": [
+                    "cars"
+                ]
             }
         },
         "query_values": {

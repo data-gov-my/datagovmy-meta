@@ -21,9 +21,13 @@
                     "state",
                     "period"
                 ],
-                "axis_values": [
-                    "age_group",
-                    "new_donors"
+                "rename_cols": {
+                    "age_group": "x",
+                    "new_donors": "y"
+                },
+                "x": "x",
+                "y": [
+                    "y"
                 ]
             }
         },
@@ -41,9 +45,13 @@
                     "state",
                     "period"
                 ],
-                "axis_values": [
-                    "reason",
-                    "pledgers"
+                "rename_cols": {
+                    "reason": "x",
+                    "pledgers": "y"
+                },
+                "x": "x",
+                "y": [
+                    "y"
                 ]
             }
         },
@@ -61,9 +69,13 @@
                     "state",
                     "type"
                 ],
-                "axis_values": [
-                    "period",
-                    "new_donors"
+                "rename_cols": {
+                    "period": "x",
+                    "new_donors": "y"
+                },
+                "x": "x",
+                "y": [
+                    "y"
                 ]
             }
         },
@@ -117,11 +129,15 @@
                 "keys": [
                     "state"
                 ],
-                "values": {
-                    "x": "date",
-                    "daily": "daily",
-                    "line": "daily_7dma"
-                }
+                "rename_cols": {
+                    "date": "x",
+                    "daily_7dma": "line"
+                },
+                "value_columns": [
+                    "x",
+                    "daily",
+                    "line"
+                ]
             }
         },
         "choropleth_malaysia": {

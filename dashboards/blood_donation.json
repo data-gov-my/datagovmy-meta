@@ -22,9 +22,13 @@
                     "state",
                     "period"
                 ],
-                "axis_values": [
-                    "age_group",
-                    "new_donors"
+                "rename_cols": {
+                    "age_group": "x",
+                    "new_donors": "y"
+                },
+                "x": "x",
+                "y": [
+                    "y"
                 ]
             }
         },
@@ -42,9 +46,13 @@
                     "state",
                     "type"
                 ],
-                "axis_values": [
-                    "period",
-                    "new_donors"
+                "rename_cols": {
+                    "period": "x",
+                    "new_donors": "y"
+                },
+                "x": "x",
+                "y": [
+                    "y"
                 ]
             }
         },
@@ -157,11 +165,15 @@
                 "keys": [
                     "state"
                 ],
-                "values": {
-                    "x": "date",
-                    "daily": "daily",
-                    "line_daily": "daily_7dma"
-                }
+                "rename_cols": {
+                    "date": "x",
+                    "daily_7dma": "line_daily"
+                },
+                "value_columns": [
+                    "x",
+                    "daily",
+                    "line_daily"
+                ]
             }
         },
         "timeseries_bloodstock": {
@@ -177,13 +189,20 @@
                 "keys": [
                     "state"
                 ],
-                "values": {
-                    "x": "date",
-                    "type_a": "stock_a",
-                    "type_b": "stock_b",
-                    "type_ab": "stock_ab",
-                    "type_o": "stock_o"
-                }
+                "rename_cols": {
+                    "date": "x",
+                    "stock_a": "type_a",
+                    "stock_b": "type_b",
+                    "stock_ab": "type_ab",
+                    "stock_o": "type_o"
+                },
+                "value_columns": [
+                    "x",
+                    "type_a",
+                    "type_b",
+                    "type_ab",
+                    "type_o"
+                ]
             }
         },
         "timeseries_facility": {
@@ -197,11 +216,15 @@
                     "state",
                     "hospital"
                 ],
-                "values": {
-                    "x": "date",
-                    "daily": "daily",
-                    "line": "daily_7dma"
-                }
+                "rename_cols": {
+                    "date": "x",
+                    "daily_7dma": "line"
+                },
+                "value_columns": [
+                    "x",
+                    "daily",
+                    "line"
+                ]
             }
         },
         "map_facility": {
@@ -216,11 +239,10 @@
                     "state",
                     "hospital"
                 ],
-                "columns": [
+                "value_columns": [
                     "lat",
                     "lon"
-                ],
-                "null_vals": null
+                ]
             }
         },
         "barchart_key_variables": {
@@ -242,13 +264,7 @@
                     "state",
                     "period",
                     "chart"
-                ],
-                "null_vals": null,
-                "add_key": {},
-                "wanted": [],
-                "id_needed": false,
-                "condition": {},
-                "post_operation": ""
+                ]
             }
         },
         "choropleth_malaysia": {

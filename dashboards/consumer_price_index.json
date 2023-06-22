@@ -18,9 +18,13 @@
                     "period",
                     "state"
                 ],
-                "axis_values": [
-                    "variable",
-                    "value"
+                "rename_cols": {
+                    "variable": "x",
+                    "value": "y"
+                },
+                "x": "x",
+                "y": [
+                    "y"
                 ]
             }
         },
@@ -36,23 +40,26 @@
                     "series_type",
                     "chart_type"
                 ],
-                "values": {
-                    "x": "date",
-                    "overall": "overall",
-                    "food_beverage": "food_beverage",
-                    "alcohol_tobacco": "alcohol_tobacco",
-                    "clothing_footwear": "clothing_footwear",
-                    "housing_utilities": "housing_utilities",
-                    "furnishings": "furnishings",
-                    "health": "health",
-                    "transport": "transport",
-                    "communication": "communication",
-                    "recreation_culture": "recreation_culture",
-                    "education": "education",
-                    "hospitality": "hospitality",
-                    "misc": "misc",
-                    "recession": "recession"
-                }
+                "rename_cols": {
+                    "date": "x"
+                },
+                "value_columns": [
+                    "x",
+                    "overall",
+                    "food_beverage",
+                    "alcohol_tobacco",
+                    "clothing_footwear",
+                    "housing_utilities",
+                    "furnishings",
+                    "health",
+                    "transport",
+                    "communication",
+                    "recreation_culture",
+                    "education",
+                    "hospitality",
+                    "misc",
+                    "recession"
+                ]
             }
         },
         "statistics": {
@@ -68,15 +75,14 @@
                     "chart_type",
                     "chart"
                 ],
-                "columns": [
+                "value_columns": [
                     "callout"
-                ],
-                "null_vals": null
+                ]
             }
         },
         "timeseries_6d": {
             "name": "timeseries_6d",
-            "chart_type": "timeseries_shared",
+            "chart_type": "timeseries_chart",
             "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/cpi_query_timeseries_4d.parquet",
             "data_as_of": "2023-01-31 23:59",
             "api_type": "individual_chart",
@@ -90,17 +96,21 @@
                     "level",
                     "name"
                 ],
-                "constant": {
-                    "x": "date"
+                "rename_cols": {
+                    "date": "x",
+                    "value": "y"
                 },
-                "attributes": {
-                    "y": "value"
-                }
+                "constants": [
+                    "x"
+                ],
+                "value_columns": [
+                    "y"
+                ]
             }
         },
         "snapshot_4d": {
             "name": "snapshot_4d",
-            "chart_type": "timeseries_shared",
+            "chart_type": "timeseries_chart",
             "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/cpi_query_snapshot_4d.parquet?ignoreCache=0",
             "data_as_of": "2023-01-31 23:59",
             "api_type": "individual_chart",
@@ -114,16 +124,24 @@
                     "level",
                     "name"
                 ],
-                "constant": {
-                    "x": "date"
+                "rename_cols": {
+                    "date": "x",
+                    "weight": "y1",
+                    "yoy_latest": "y2",
+                    "yoy_avg": "y3",
+                    "mom_latest": "y4",
+                    "mom_avg": "y5"
                 },
-                "attributes": {
-                    "y1": "weight",
-                    "y2": "yoy_latest",
-                    "y3": "yoy_avg",
-                    "y4": "mom_latest",
-                    "y5": "mom_avg"
-                }
+                "constants": [
+                    "x"
+                ],
+                "value_columns": [
+                    "y1",
+                    "y2",
+                    "y3",
+                    "y4",
+                    "y5"
+                ]
             }
         },
         "choropleth_district": {

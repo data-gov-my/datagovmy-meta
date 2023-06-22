@@ -42,7 +42,7 @@
                 "keys": [
                     "code"
                 ],
-                "columns": [
+                "value_columns": [
                     "code",
                     "school",
                     "state",
@@ -57,8 +57,7 @@
                     "funding_status",
                     "students",
                     "teachers"
-                ],
-                "null_vals": null
+                ]
             }
         },
         "sekolahku_barmeter": {
@@ -79,8 +78,7 @@
                     "code",
                     "use_as",
                     "chart"
-                ],
-                "null_vals": null
+                ]
             }
         },
         "bellcurve_linechart": {
@@ -90,14 +88,15 @@
             "api_type": "dynamic",
             "api_params": [],
             "variables": {
-                "state": {
-                    "level": {
-                        "chart": {
-                            "x": "x",
-                            "y": "y"
-                        }
-                    }
-                }
+                "keys": [
+                    "state",
+                    "level",
+                    "chart"
+                ],
+                "x": "x",
+                "y": [
+                    "y"
+                ]
             }
         },
         "bellcurve_callout": {
@@ -112,10 +111,9 @@
                     "level",
                     "chart"
                 ],
-                "columns": [
+                "value_columns": [
                     "callout"
-                ],
-                "null_vals": null
+                ]
             }
         },
         "bellcurve_school": {
@@ -130,7 +128,7 @@
                 "keys": [
                     "code"
                 ],
-                "columns": [
+                "value_columns": [
                     "students",
                     "st_ratio",
                     "max_ethnic",

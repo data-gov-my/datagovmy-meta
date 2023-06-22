@@ -20,13 +20,16 @@
                     "variable",
                     "metric"
                 ],
-                "axis_values": {
-                    "x": "age",
-                    "unvax": "unvax",
-                    "partialvax": "partialvax",
-                    "fullyvax": "fullyvax",
-                    "boosted": "boosted"
-                }
+                "rename_cols": {
+                    "age": "x"
+                },
+                "x": "x",
+                "y": [
+                    "unvax",
+                    "partialvax",
+                    "fullyvax",
+                    "boosted"
+                ]
             }
         },
         "snapshot_bar": {
@@ -54,14 +57,7 @@
                         "state": "util_vent"
                     }
                 ],
-                "keys": [],
-                "sub_keys": true,
-                "null_vals": null,
-                "add_key": {},
-                "wanted": [],
-                "id_needed": false,
-                "condition": {},
-                "post_operation": ""
+                "sub_keys": true
             }
         },
         "snapshot_graphic": {
@@ -74,8 +70,7 @@
                 "state"
             ],
             "variables": {
-                "null_vals": null,
-                "columns": [
+                "value_columns": [
                     "cases_active",
                     "cases_active_annot",
                     "pkrc",
@@ -114,7 +109,6 @@
             "variables": {
                 "main_key": "state",
                 "replace_word": "",
-                "null_vals": null,
                 "data": {
                     "deaths": [
                         "deaths",
@@ -148,11 +142,15 @@
                 "keys": [
                     "state"
                 ],
-                "values": {
-                    "x": "date",
-                    "admitted": "admitted",
-                    "line": "admitted_7dma"
-                }
+                "rename_cols": {
+                    "date": "x",
+                    "admitted_7dma": "line"
+                },
+                "value_columns": [
+                    "x",
+                    "admitted",
+                    "line"
+                ]
             }
         },
         "timeseries_cases": {
@@ -168,11 +166,15 @@
                 "keys": [
                     "state"
                 ],
-                "values": {
-                    "x": "date",
-                    "cases": "cases",
-                    "line": "cases_7dma"
-                }
+                "rename_cols": {
+                    "date": "x",
+                    "cases_7dma": "line"
+                },
+                "value_columns": [
+                    "x",
+                    "cases",
+                    "line"
+                ]
             }
         },
         "timeseries_deaths": {
@@ -188,13 +190,20 @@
                 "keys": [
                     "state"
                 ],
-                "values": {
-                    "x": "date",
-                    "deaths_inpatient": "deaths_inp_dod",
-                    "deaths_brought_in": "deaths_bid_dod",
-                    "tooltip": "deaths_dod",
-                    "line": "deaths_dod_7dma"
-                }
+                "rename_cols": {
+                    "date": "x",
+                    "deaths_inp_dod": "deaths_inpatient",
+                    "deaths_bid_dod": "deaths_brought_in",
+                    "deaths_dod": "tooltip",
+                    "deaths_dod_7dma": "line"
+                },
+                "value_columns": [
+                    "x",
+                    "deaths_inpatient",
+                    "deaths_brought_in",
+                    "tooltip",
+                    "line"
+                ]
             }
         },
         "timeseries_icu": {
@@ -210,11 +219,15 @@
                 "keys": [
                     "state"
                 ],
-                "values": {
-                    "x": "date",
-                    "icu": "icu",
-                    "line": "icu_7dma"
-                }
+                "rename_cols": {
+                    "date": "x",
+                    "icu_7dma": "line"
+                },
+                "value_columns": [
+                    "x",
+                    "icu",
+                    "line"
+                ]
             }
         },
         "timeseries_tests": {
@@ -230,12 +243,16 @@
                 "keys": [
                     "state"
                 ],
-                "values": {
-                    "x": "date",
-                    "tests_pcr": "tests_pcr",
-                    "tests_rtk": "tests_rtk",
-                    "tooltip": "tests_posrate_7dma"
-                }
+                "rename_cols": {
+                    "date": "x",
+                    "tests_posrate_7dma": "tooltip"
+                },
+                "value_columns": [
+                    "x",
+                    "tests_pcr",
+                    "tests_rtk",
+                    "tooltip"
+                ]
             }
         },
         "timeseries_vents": {
@@ -251,11 +268,15 @@
                 "keys": [
                     "state"
                 ],
-                "values": {
-                    "x": "date",
-                    "vent": "vent",
-                    "line": "vent_7dma"
-                }
+                "rename_cols": {
+                    "date": "x",
+                    "vent_7dma": "line"
+                },
+                "value_columns": [
+                    "x",
+                    "vent",
+                    "line"
+                ]
             }
         },
         "statistics": {
@@ -272,11 +293,10 @@
                     "state",
                     "chart_type"
                 ],
-                "columns": [
+                "value_columns": [
                     "annot1",
                     "annot2"
-                ],
-                "null_vals": null
+                ]
             }
         },
         "util_chart": {
@@ -289,8 +309,7 @@
                 "state"
             ],
             "variables": {
-                "null_vals": null,
-                "columns": [
+                "value_columns": [
                     "util_pkrc",
                     "util_hosp",
                     "util_icu",

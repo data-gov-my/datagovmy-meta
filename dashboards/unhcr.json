@@ -15,13 +15,16 @@
             "api_params": [],
             "variables": {
                 "keys": [],
-                "values": {
-                    "x": "date",
-                    "overall": "overall",
-                    "arrivals": "arrivals",
-                    "registrations": "registrations",
-                    "resettlements": "resettlements"
-                }
+                "rename_cols": {
+                    "date": "x"
+                },
+                "value_columns": [
+                    "x",
+                    "overall",
+                    "arrivals",
+                    "registrations",
+                    "resettlements"
+                ]
             }
         },
         "timeseries_callout": {
@@ -36,10 +39,9 @@
                     "chart",
                     "variable"
                 ],
-                "columns": [
+                "value_columns": [
                     "value"
-                ],
-                "null_vals": null
+                ]
             }
         },
         "choropleth": {
@@ -74,8 +76,7 @@
                 "keys": [
                     "use_as",
                     "chart"
-                ],
-                "null_vals": null
+                ]
             }
         }
     }
