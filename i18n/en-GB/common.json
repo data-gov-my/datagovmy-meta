@@ -60,8 +60,9 @@
             "copied": "Copied!",
             "maximum": "Maximum",
             "minimum": "Minimum",
-            "won": "Won",
-            "lost": "Lost",
+            "sort": "Sort",
+            "asc_order": "Ascending order",
+            "desc_order": "Descending order",
             "indicator": "Indicator",
             "charts": {
                 "heatmap": "Heatmap",

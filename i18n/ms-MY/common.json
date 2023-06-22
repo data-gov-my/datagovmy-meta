@@ -60,8 +60,9 @@
             "copied": "Disalin!",
             "maximum": "Maksima",
             "minimum": "Minima",
-            "won": "Menang",
-            "lost": "Kalah",
+            "sort": "Susun",
+            "asc_order": "Tertib menaik",
+            "desc_order": "Tertib menurun",
             "indicator": "Penunjuk",
             "charts": {
                 "heatmap": "Peta",
