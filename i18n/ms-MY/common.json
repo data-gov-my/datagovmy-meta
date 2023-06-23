@@ -41,7 +41,7 @@
             "data_for": "Data untuk {{ state }}",
             "data_of": "Data setakat {{ date }}",
             "latest": "Terkini ({{ date }})",
-            "data_last_updated": "Data dikemaskini pada {{ date }}",
+            "last_updated": "Kemaskini terakhir: {{ date }}",
             "next_update": "Kemaskini seterusnya pada {{ date }}",
             "slider": "",
             "zoom": "Pilih kawasan saya",
