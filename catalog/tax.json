@@ -38,7 +38,7 @@
             "demographic": [],
             "start": "2006",
             "end": "2023",
-            "data_source": ["MAMPU"]
+            "data_source": ["LHDN"]
           },
           "metadata_neutral": {
             "data_as_of": "2023-04-03 23:59",
@@ -100,7 +100,7 @@
             "demographic": [],
             "start": "2006",
             "end": "2023",
-            "data_source": ["MAMPU"]
+            "data_source": ["LHDN"]
           },
           "metadata_neutral": {
             "data_as_of": "2023-04-03 23:59",
@@ -162,7 +162,7 @@
             "demographic": [],
             "start": "2006",
             "end": "2023",
-            "data_source": ["MAMPU"]
+            "data_source": ["LHDN"]
           },
           "metadata_neutral": {
             "data_as_of": "2023-04-03 23:59",
