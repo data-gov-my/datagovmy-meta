@@ -3,12 +3,12 @@
     "manual_trigger": "",
     "bucket": "dgmy-public-mwe",
     "file_name": "tax",
-    "category": "METADATA",
-    "category_en": "Site Metadata",
-    "category_bm": "Metadata Portal",
-    "subcategory": "SAMPLE_CHART",
-    "subcategory_en": "Chart Samples",
-    "subcategory_bm": "Contoh Carta",
+    "category": "PUBLIC_ADMIN",
+    "category_en": "Public Administration",
+    "category_bm": "Pentadbiran Awam",
+    "subcategory": "TAXATION",
+    "subcategory_en": "Taxation",
+    "subcategory_bm": "Pencukaian",
     "description": {
       "en": "Lorem ipsum.",
       "bm": "Lorem ipsum."
@@ -21,14 +21,14 @@
         "name": "taxable_income",
         "title_en": "Taxable Income",
         "title_bm": "Pendapatan Bercukai",
-        "desc_en": "[Integer] Taxable Income within range X to Y",
-        "desc_bm": "[Integer] Pendapatan Bercukai dalam range X hingga Y"
+        "desc_en": "[Integer] Taxable income",
+        "desc_bm": "[Integer] Pendapatan boleh cukai"
       },
       {
         "id": 1,
         "name": "tax_paid",
-        "title_en": "Tax Paid vs Taxable Income",
-        "title_bm": "Cukai Dibayar vs Pendapatan Bercukai",
+        "title_en": "Tax Owed Schedule",
+        "title_bm": "Jadual Cukai Dikenakan",
         "desc_en": "A precise, succinct description of this chart",
         "desc_bm": "A precise, succinct description of this chart",
         "catalog_data": {
@@ -38,7 +38,7 @@
             "demographic": [],
             "start": "2006",
             "end": "2023",
-            "data_source": ["MAMPU"]
+            "data_source": ["LHDN"]
           },
           "metadata_neutral": {
             "data_as_of": "2023-04-03 23:59",
@@ -100,7 +100,7 @@
             "demographic": [],
             "start": "2006",
             "end": "2023",
-            "data_source": ["MAMPU"]
+            "data_source": ["LHDN"]
           },
           "metadata_neutral": {
             "data_as_of": "2023-04-03 23:59",
@@ -162,7 +162,7 @@
             "demographic": [],
             "start": "2006",
             "end": "2023",
-            "data_source": ["MAMPU"]
+            "data_source": ["LHDN"]
           },
           "metadata_neutral": {
             "data_as_of": "2023-04-03 23:59",

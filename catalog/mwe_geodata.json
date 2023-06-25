@@ -29,7 +29,7 @@
             "demographic": ["SEX", "MARITAL"],
             "start": "2023",
             "end": "2023",
-            "data_source": ["JUPEM"]
+            "data_source": ["MAMPU"]
           },
           "metadata_neutral": {
             "data_as_of": "2022-01-31 23:59",
