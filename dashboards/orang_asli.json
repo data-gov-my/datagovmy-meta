@@ -36,13 +36,28 @@
                 ]
             }
         },
+        "village_search": {
+            "name": "village_search",
+            "chart_type": "query_values",
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/orang_asli_village.parquet",
+            "data_as_of": "2023-06-24 23:59",
+            "api_type": "dynamic",
+            "api_params": [],
+            "variables": {
+                "columns": [
+                    "search"
+                ]
+            }
+        },
         "village_data": {
             "name": "village_data",
             "chart_type": "metrics_table",
             "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/orang_asli_village.parquet",
             "data_as_of": "2023-06-24 23:59",
             "api_type": "static",
-            "api_params": [],
+            "api_params": [
+                "search"
+            ],
             "variables": {
                 "keys": [
                     "search"
