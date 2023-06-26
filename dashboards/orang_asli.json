@@ -36,8 +36,8 @@
                 ]
             }
         },
-        "village_search": {
-            "name": "village_search",
+        "query_values": {
+            "name": "query_values",
             "chart_type": "query_values",
             "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/orang_asli_village.parquet",
             "data_as_of": "2023-06-24 23:59",
