@@ -44,7 +44,11 @@
             "api_type": "dynamic",
             "api_params": [],
             "variables": {
+                "flat": true,
                 "columns": [
+                    "village",
+                    "district",
+                    "state",
                     "search"
                 ]
             }
