@@ -58,7 +58,7 @@
                 "value_columns": [
                     "name",
                     "agency",
-                    "route"
+                    "views"
                 ]
             }
         },
