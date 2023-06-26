@@ -1,0 +1,7 @@
+{
+    "route": "/dashboard/emergency-response",
+    "translation": {
+        "header": "Emergency Response",
+        "description": ""
+    }
+}
