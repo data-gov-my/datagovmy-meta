@@ -11,7 +11,7 @@
         "label_maker": "Car brand",
         "label_model": "Car model",
         "label_colour": "Colour",
-        "option_manufacturer": "Select car manufacturer",
+        "option_maker": "Select car brand",
         "option_model": "Select car model",
         "option_colour": "Select car colour",
         "search_button": "Search for car",
