@@ -5,9 +5,8 @@
     "manual_trigger": "",
     "required_params": [],
     "optional_params": [
-        "manufacturer",
-        "model",
-        "colour"
+        "maker",
+        "model"
     ],
     "charts": {
         "top_makers": {
@@ -52,15 +51,13 @@
             "data_as_of": "2023-05-27 23:59",
             "api_type": "individual_chart",
             "api_params": [
-                "manufacturer",
-                "model",
-                "colour"
+                "maker",
+                "model"
             ],
             "variables": {
                 "keys": [
-                    "manufacturer",
-                    "model",
-                    "colour"
+                    "maker",
+                    "model"
                 ],
                 "rename_cols": {
                     "date": "x"
@@ -82,9 +79,8 @@
             "api_params": [],
             "variables": {
                 "columns": [
-                    "manufacturer",
-                    "model",
-                    "colour"
+                    "maker",
+                    "model"
                 ]
             }
         }
