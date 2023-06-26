@@ -75,6 +75,26 @@
                     "lon"
                 ]
             }
+        },
+        "village_barmeter": {
+            "name": "village_barmeter",
+            "chart_type": "bar_meter",
+            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/orang_asli_village_barmeter.parquet",
+            "api_type": "dynamic",
+            "api_params": [
+                "slug"
+            ],
+            "variables": {
+                "axis_values": [
+                    {
+                        "variable": "value"
+                    }
+                ],
+                "keys": [
+                    "slug",
+                    "chart"
+                ]
+            }
         }
     }
 }
