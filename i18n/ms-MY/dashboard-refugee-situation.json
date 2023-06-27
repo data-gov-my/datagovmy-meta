@@ -12,7 +12,7 @@
         "registrations": "Pendaftaran",
         "resettlements": "Penempatan Semula",
         "barmeter_header": "Apakah ciri-ciri populasi pelarian di Malaysia?",
-        "tooltip": "{{ count }} pelarian",
+        "tooltip": "{{ count, number }} pelarian",
         "country": "Negara asal",
         "mmr": "Myanmar",
         "pak": "Pakistan",

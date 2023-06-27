@@ -11,7 +11,7 @@
         "timeseries_header": "Jumlah penjawat awam yand bekerja di {{ agency }}",
         "this_month": "Terkini ({{ date }})",
         "YoY_change": "YoY Change",
-        "breakdown": "A breakdown of the {{ count }} employees of the {{ agency }}",
+        "breakdown": "A breakdown of the {{ count, number }} employees of the {{ agency }}",
         "pyramid_title": "Pekerja {{ agency }}",
         "sex": "Jantina",
         "male": "Lelaki",

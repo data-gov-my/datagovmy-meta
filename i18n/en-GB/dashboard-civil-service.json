@@ -11,7 +11,7 @@
         "timeseries_header": "Number of civil servants employed in the {{ agency }}",
         "this_month": "Latest ({{ date }})",
         "YoY_change": "YoY Change",
-        "breakdown": "A breakdown of the {{ count }} employees of the {{ agency }}",
+        "breakdown": "A breakdown of the {{ count, number }} employees of the {{ agency }}",
         "pyramid_title": "{{ agency }} Employees",
         "sex": "Sex",
         "male": "Male",

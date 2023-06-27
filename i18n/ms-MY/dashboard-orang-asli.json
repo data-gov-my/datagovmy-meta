@@ -13,7 +13,7 @@
         "title": "Terokailah mana-mana kampung Orang Asli di Semenanjung Malaysia!",
         "search_kampung": "Cari atau pilih daripada peta!",
         "map_description": "Gunakan peta di atas untuk menerokai kampung Orang Asli di Semenanjung Malaysia.",
-        "pyramid_title": "{{ selected }} mempunyai populasi sebanyak {{ count }} orang. Apakah ciri-ciri populasi tersebut?",
+        "pyramid_title": "{{ selected }} mempunyai populasi sebanyak {{ count, number }} orang. Apakah ciri-ciri populasi tersebut?",
         "marital_status": "Status Perkahwinan",
         "divorced": "Bercerai",
         "married": "Berkahwin",
