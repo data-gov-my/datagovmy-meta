@@ -43,9 +43,9 @@
         "name": "The Civil Service",
         "description": "Information on government employment and services."
       },
-      "inflation": {
-        "name": "Inflation",
-        "description": "Monitor and analyze inflation rates and trends."
+      "consumer-prices": {
+        "name": "Consumer Prices",
+        "description": "Information on consumer prices."
       },
       "covid-19": {
         "name": "COVID-19",

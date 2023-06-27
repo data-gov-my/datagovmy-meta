@@ -43,9 +43,9 @@
         "name": "Perkhidmatan Awam",
         "description": "Maklumat tentang pekerjaan kerajaan dan perkhidmatan."
       },
-      "inflation": {
-        "name": "Inflasi",
-        "description": "Pantau dan analisis kadar inflasi dan trendnya."
+      "consumer-prices": {
+        "name": "Harga Konsumer",
+        "description": "Maklumat tentang harga konsumer."
       },
       "covid-19": {
         "name": "COVID-19",
