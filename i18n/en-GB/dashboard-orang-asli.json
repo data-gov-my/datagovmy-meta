@@ -13,7 +13,7 @@
         "title": "Zoom into any indigenous village in Peninsular Malaysia!",
         "search_kampung": "Search or select from the map!",
         "map_description": "Select on the map to explore indigenous village in Peninsular Malaysia.",
-        "pyramid_title": "{{ selected }} has an indigenous population of {{ count }}. What does this population look like?",
+        "pyramid_title": "{{ selected }} has an indigenous population of {{ count, number }}. What does this population look like?",
         "marital_status": "Marital Status",
         "divorced": "Divorced",
         "married": "Married",

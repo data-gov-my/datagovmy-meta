@@ -1,7 +1,7 @@
 {
     "data_last_updated": "2023-06-14 23:59",
     "manual_trigger": "1",
-    "explorer_name" : "ELECTIONS_DASHBOARD",
+    "explorer_name" : "ELECTIONS",
     "route": "",
     "tables" : {
         "ElectionDashboard_Candidates" : {
