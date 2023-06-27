@@ -44,8 +44,8 @@
         "description": "Maklumat tentang pekerjaan kerajaan dan perkhidmatan."
       },
       "consumer-prices": {
-        "name": "Harga Konsumer",
-        "description": "Maklumat tentang harga konsumer."
+        "name": "Harga Pengguna",
+        "description": "Maklumat tentang harga pengguna."
       },
       "covid-19": {
         "name": "COVID-19",
