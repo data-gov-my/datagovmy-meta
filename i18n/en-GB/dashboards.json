@@ -29,7 +29,7 @@
       },
       "blood-donation": {
         "name": "Blood Donation",
-        "description": "Track blood supply and encourage donations."
+        "description": "Blood stock sufficiency and donation activity tracking."
       },
       "car-popularity": {
         "name": "Car Popularity Explorer",
@@ -60,8 +60,8 @@
         "description": "Track currency flow and circulation trends."
       },
       "election-explorer": {
-        "name": "Election Result Explorer",
-        "description": "Explore election outcomes and voting trends."
+        "name": "Election Data Explorer",
+        "description": "A complete history of Malaysian elections; 1955-2023."
       },
       "exchange-rates": {
         "name": "Exchange Rates",
@@ -101,7 +101,7 @@
       },
       "international-reserves": {
         "name": "International Reserves",
-        "description": "Track and manage international reserve holdings."
+        "description": "Bird's eye view of international reserve sufficiency"
       },
       "internet-penetration": {
         "name": "Internet Penetration",
@@ -137,7 +137,7 @@
       },
       "public-transportation": {
         "name": "Public Transportation",
-        "description": "Data and insights on public transportation systems and usage."
+        "description": "Public transport ridership, analytics, and KPI tracking"
       },
       "reserve-money": {
         "name": "Reserve Money",
@@ -152,8 +152,8 @@
         "description": "Data and information on schools and education."
       },
       "social-security": {
-        "name": "Social Security",
-        "description": "Insights and updates on social security programs and benefits."
+        "name": "High Frequency Labour Data",
+        "description": "Near-real time labour market data."
       },
       "weather-and-climate": {
         "name": "Weather and Climate",
@@ -173,7 +173,7 @@
       },
       "orang-asli": {
         "name": "The Indigenous Peoples",
-        "description": "Gain insights into the demographics and socio-economic indicators of Malaysia's indigenous communities."
+        "description": "Insights on Peninsular Malaysia's original inhabitants."
       },
       "covid-vaccination": {
         "name": "Covid Vaccination",
