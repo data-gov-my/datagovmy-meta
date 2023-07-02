@@ -60,7 +60,7 @@
         "description": "Track currency flow and circulation trends."
       },
       "election-explorer": {
-        "name": "Election Data Explorer",
+        "name": "Election Explorer",
         "description": "A complete history of Malaysian elections; 1955-2023."
       },
       "exchange-rates": {
@@ -101,7 +101,7 @@
       },
       "international-reserves": {
         "name": "International Reserves",
-        "description": "Bird's eye view of international reserve sufficiency"
+        "description": "Bird's eye view of international reserve sufficiency."
       },
       "internet-penetration": {
         "name": "Internet Penetration",
@@ -137,7 +137,7 @@
       },
       "public-transportation": {
         "name": "Public Transportation",
-        "description": "Public transport ridership, analytics, and KPI tracking"
+        "description": "Public transport ridership, analytics, and KPI tracking."
       },
       "reserve-money": {
         "name": "Reserve Money",
