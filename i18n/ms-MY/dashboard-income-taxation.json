@@ -1,7 +1,20 @@
 {
-    "route": "/ms-MY/dashboard/income-taxation",
+    "route": "/ms-MY/dashboard/income-taxation/overview",
     "translation": {
-        "header": "",
-        "description": ""
+        "header": "Cukai Pendapatan",
+        "description": "Membayar cukai anda adalah satu bentuk patriotisme; satu cara di mana setiap penduduk Malaysia menyumbang kepada pembangunan negara kita. Tindakan ini mencipta hubungan timbal balik - sebagai pembayar cukai, anda mempunyai hak untuk kejelasan. Oleh itu, papan pemuka ini memberi anda cara yang menyeronokkan untuk meneroka data cukai pendapatan, dengan tumpuan khusus kepada cukai pendapatan individu. Berapa ramai orang yang membayar cukai? Berapa banyak yang anda bayar berbanding dengan orang lain? Adakah tingkah laku pembayaran cukai berbeza mengikut negeri? Terokai dan cari tahu!",
+        "overview": "Gambaran Keseluruhan",
+        "individual_taxes": "Cukai Individu",
+        "personal_rank": "Bagaimana Saya Berkedudukan?",
+        "absolute": "Mutlak",
+        "relative": "Relatif",
+        "total": "Jumlah",
+        "iita": "Individu",
+        "pita": "Petroleum",
+        "cita": "Korporat",
+        "section2": {
+            "title": "Berapa bahagian cukai pendapatan yang datang dari individu?",
+            "description": "Selama 10 tahun yang lalu, kira-kira 25% daripada pendapatan cukai pendapatan datang dari individu. Carta di bawah memvisualisasikan kepentingan cukai individu dari tahun 1970 hingga kini."
+        }
     }
 }
