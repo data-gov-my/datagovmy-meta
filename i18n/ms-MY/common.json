@@ -63,6 +63,8 @@
             "sort": "Susun",
             "asc_order": "Tertib menaik",
             "desc_order": "Tertib menurun",
+            "play": "Main",
+            "pause": "Jeda",
             "indicator": "Penunjuk",
             "charts": {
                 "heatmap": "Peta",

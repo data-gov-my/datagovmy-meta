@@ -65,6 +65,8 @@
             "sort": "Sort",
             "asc_order": "Ascending order",
             "desc_order": "Descending order",
+            "play": "Play",
+            "pause": "Pause",
             "indicator": "Indicator",
             "charts": {
                 "heatmap": "Heatmap",
