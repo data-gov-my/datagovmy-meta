@@ -129,54 +129,8 @@
                 }
             }
         },
-        "timeseries_admitted": {
-            "name": "timeseries_admitted",
-            "chart_type": "timeseries_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_03_timeseries.parquet",
-            "data_as_of": "2023-04-01 23:59",
-            "api_type": "dynamic",
-            "api_params": [
-                "state"
-            ],
-            "variables": {
-                "keys": [
-                    "state",
-                    "frequency"
-                ],
-                "rename_cols": {
-                    "date": "x"
-                },
-                "value_columns": [
-                    "x",
-                    "admitted"
-                ]
-            }
-        },
-        "timeseries_cases": {
-            "name": "timeseries_cases",
-            "chart_type": "timeseries_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_03_timeseries.parquet",
-            "data_as_of": "2023-04-01 23:59",
-            "api_type": "dynamic",
-            "api_params": [
-                "state"
-            ],
-            "variables": {
-                "keys": [
-                    "state",
-                    "frequency"
-                ],
-                "rename_cols": {
-                    "date": "x"
-                },
-                "value_columns": [
-                    "x",
-                    "cases"
-                ]
-            }
-        },
-        "timeseries_deaths": {
-            "name": "timeseries_deaths",
+        "timeseries": {
+            "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_03_timeseries.parquet",
             "data_as_of": "2023-04-01 23:59",
@@ -193,84 +147,20 @@
                     "date": "x",
                     "deaths_inp_dod": "deaths_inpatient",
                     "deaths_bid_dod": "deaths_brought_in",
-                    "deaths_dod": "tooltip"
+                    "deaths_dod": "deaths_tooltip",
+                    "tests_posrate": "tests_tooltip"
                 },
                 "value_columns": [
                     "x",
+                    "admitted",
+                    "cases",
                     "deaths_inpatient",
                     "deaths_brought_in",
-                    "tooltip"
-                ]
-            }
-        },
-        "timeseries_icu": {
-            "name": "timeseries_icu",
-            "chart_type": "timeseries_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_03_timeseries.parquet",
-            "data_as_of": "2023-04-01 23:59",
-            "api_type": "dynamic",
-            "api_params": [
-                "state"
-            ],
-            "variables": {
-                "keys": [
-                    "state",
-                    "frequency"
-                ],
-                "rename_cols": {
-                    "date": "x"
-                },
-                "value_columns": [
-                    "x",
-                    "icu"
-                ]
-            }
-        },
-        "timeseries_tests": {
-            "name": "timeseries_tests",
-            "chart_type": "timeseries_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_03_timeseries.parquet",
-            "data_as_of": "2023-04-01 23:59",
-            "api_type": "dynamic",
-            "api_params": [
-                "state"
-            ],
-            "variables": {
-                "keys": [
-                    "state",
-                    "frequency"
-                ],
-                "rename_cols": {
-                    "date": "x",
-                    "tests_posrate": "tooltip"
-                },
-                "value_columns": [
-                    "x",
+                    "deaths_tooltip",
+                    "icu",
                     "tests_pcr",
                     "tests_rtk",
-                    "tooltip"
-                ]
-            }
-        },
-        "timeseries_vents": {
-            "name": "timeseries_vents",
-            "chart_type": "timeseries_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_03_timeseries.parquet",
-            "data_as_of": "2023-04-01 23:59",
-            "api_type": "dynamic",
-            "api_params": [
-                "state"
-            ],
-            "variables": {
-                "keys": [
-                    "state",
-                    "frequency"
-                ],
-                "rename_cols": {
-                    "date": "x"
-                },
-                "value_columns": [
-                    "x",
+                    "tests_tooltip",
                     "vent"
                 ]
             }
