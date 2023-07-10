@@ -5,14 +5,19 @@
         "description": "Setiap hari, anggota bomba negara kita mempertaruhkan nyawa mereka untuk memastikan kita selamat. Menggunakan pangkalan data masa nyata mereka tentang operasi kecemasan, papan pemuka ini membentangkan data tentang kebakaran dan penyelamatan di Malaysia, dan bertujuan untuk meningkatkan kesedaran awam terhadap perkhidmatan Bomba.",
         "operation_header": "Apakah tren operasi bomba terkini?",
         "timeseries_title": "{{ state }}: Respons Harian bagi Jabatan Bomba dan Penyelamat",
+        "timeseries_title_monthly": "{{ state }}: Respons Bulanan bagi Jabatan Bomba dan Penyelamat",
+        "timeseries_title_yearly": "{{ state }}: Respons Tahunan bagi Jabatan Bomba dan Penyelamat",
         "fire": "Kebakaran",
         "others": "Khidmat khas",
         "overall": "Keseluruhan",
         "rescue": "Penyelamatan",
         "choro_header": "Bagaimanakan kadar insiden kebakaran dan penyelamatan berbeza di seluruh negara?",
-        "choro_description": "",
+        "choro_desc": "",
         "choro_ranking": "Kedudukan",
+        "daily_7d": "Purata 7 hari",
         "daily": "Harian",
+        "monthly": "Bulanan",
+        "yearly": "Tahunan",
         "total": "Jumlah"
     }
 }

@@ -5,7 +5,6 @@
         "description": "",
         "timeseries_header": "Apakah tren metrik utama populasi pelarian terkini?",
         "timeseries_title": "Jumlah Populasi Pelarian dan Pencari Suaka",
-        "this_month": "Terkini ({{ date }})",
         "this_year": "Tahun ini",
         "total": "Jumlah",
         "arrivals": "Kemasukan",
