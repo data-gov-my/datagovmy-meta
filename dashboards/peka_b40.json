@@ -6,6 +6,7 @@
         "state"
     ],
     "optional_params": [],
+    "manual_trigger": "1",
     "charts": {
         "timeseries": {
             "name": "timeseries",
