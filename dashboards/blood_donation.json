@@ -67,16 +67,15 @@
             ],
             "variables": {
                 "keys": [
-                    "state"
+                    "state",
+                    "frequency"
                 ],
                 "rename_cols": {
-                    "date": "x",
-                    "daily_7dma": "line_daily"
+                    "date": "x"
                 },
                 "value_columns": [
                     "x",
-                    "daily",
-                    "line_daily"
+                    "daily"
                 ]
             }
         },
