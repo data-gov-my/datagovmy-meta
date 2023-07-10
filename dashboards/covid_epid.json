@@ -140,16 +140,15 @@
             ],
             "variables": {
                 "keys": [
-                    "state"
+                    "state",
+                    "frequency"
                 ],
                 "rename_cols": {
-                    "date": "x",
-                    "admitted_7dma": "line"
+                    "date": "x"
                 },
                 "value_columns": [
                     "x",
-                    "admitted",
-                    "line"
+                    "admitted"
                 ]
             }
         },
@@ -164,16 +163,15 @@
             ],
             "variables": {
                 "keys": [
-                    "state"
+                    "state",
+                    "frequency"
                 ],
                 "rename_cols": {
-                    "date": "x",
-                    "cases_7dma": "line"
+                    "date": "x"
                 },
                 "value_columns": [
                     "x",
-                    "cases",
-                    "line"
+                    "cases"
                 ]
             }
         },
@@ -188,21 +186,20 @@
             ],
             "variables": {
                 "keys": [
-                    "state"
+                    "state",
+                    "frequency"
                 ],
                 "rename_cols": {
                     "date": "x",
                     "deaths_inp_dod": "deaths_inpatient",
                     "deaths_bid_dod": "deaths_brought_in",
-                    "deaths_dod": "tooltip",
-                    "deaths_dod_7dma": "line"
+                    "deaths_dod": "tooltip"
                 },
                 "value_columns": [
                     "x",
                     "deaths_inpatient",
                     "deaths_brought_in",
-                    "tooltip",
-                    "line"
+                    "tooltip"
                 ]
             }
         },
@@ -217,16 +214,15 @@
             ],
             "variables": {
                 "keys": [
-                    "state"
+                    "state",
+                    "frequency"
                 ],
                 "rename_cols": {
-                    "date": "x",
-                    "icu_7dma": "line"
+                    "date": "x"
                 },
                 "value_columns": [
                     "x",
-                    "icu",
-                    "line"
+                    "icu"
                 ]
             }
         },
@@ -241,11 +237,12 @@
             ],
             "variables": {
                 "keys": [
-                    "state"
+                    "state",
+                    "frequency"
                 ],
                 "rename_cols": {
                     "date": "x",
-                    "tests_posrate_7dma": "tooltip"
+                    "tests_posrate": "tooltip"
                 },
                 "value_columns": [
                     "x",
@@ -266,16 +263,15 @@
             ],
             "variables": {
                 "keys": [
-                    "state"
+                    "state",
+                    "frequency"
                 ],
                 "rename_cols": {
-                    "date": "x",
-                    "vent_7dma": "line"
+                    "date": "x"
                 },
                 "value_columns": [
                     "x",
-                    "vent",
-                    "line"
+                    "vent"
                 ]
             }
         },
