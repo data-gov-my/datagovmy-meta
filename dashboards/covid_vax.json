@@ -114,39 +114,28 @@
             ],
             "variables": {
                 "keys": [
-                    "state"
+                    "state",
+                    "frequency"
                 ],
                 "rename_cols": {
                     "date": "x",
+                    "daily": "y",
                     "daily_primary": "primary",
                     "daily_booster": "booster",
                     "daily_booster2": "booster2",
                     "daily_adult": "adult",
                     "daily_adol": "adol",
-                    "daily_child": "child",
-                    "daily_7dma": "line_stacked",
-                    "daily_primary_7dma": "line_primary",
-                    "daily_booster_7dma": "line_booster",
-                    "daily_booster2_7dma": "line_booster2",
-                    "daily_adult_7dma": "line_adult",
-                    "daily_adol_7dma": "line_adol",
-                    "daily_child_7dma": "line_child"
+                    "daily_child": "child"
                 },
                 "value_columns": [
                     "x",
+                    "y",
                     "primary",
                     "booster",
                     "booster2",
                     "adult",
                     "adol",
-                    "child",
-                    "line_stacked",
-                    "line_primary",
-                    "line_booster",
-                    "line_booster2",
-                    "line_adult",
-                    "line_adol",
-                    "line_child"
+                    "child"
                 ]
             }
         },
