@@ -4,7 +4,7 @@
     "header": "Dashboards",
     "description": "Your one-stop interface to explore data-driven insights and analytics on all areas of the public sector, powered by the data made open on this site.",
     "description_agency": "Your one-stop interface to explore data-driven insights and analytics on the core work of {{ agency }}, powered by the data they make open on this site.",
-    "source_placeholder": "Select Agency",
+    "source_placeholder": "Agency",
     "search_placeholder": "Search for dashboards",
     "section1_title": "Most popular Dashboards",
     "section2_title": "All dashboards",
