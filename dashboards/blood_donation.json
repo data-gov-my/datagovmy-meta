@@ -71,11 +71,12 @@
                     "frequency"
                 ],
                 "rename_cols": {
-                    "date": "x"
+                    "date": "x",
+                    "daily": "y"
                 },
                 "value_columns": [
                     "x",
-                    "daily"
+                    "y"
                 ]
             }
         },
