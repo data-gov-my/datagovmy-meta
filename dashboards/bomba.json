@@ -19,7 +19,8 @@
             ],
             "variables": {
                 "keys": [
-                    "state"
+                    "state",
+                    "frequency"
                 ],
                 "rename_cols": {
                     "date": "x"
