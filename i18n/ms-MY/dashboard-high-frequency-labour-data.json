@@ -9,10 +9,6 @@
         "job_vacancies": "Job Vacancies",
         "losses_title": "How are job losses trending?",
         "losses_desc": "Nota: Jumlah sebenar job losses is more than the number shown here, because not all workers are registered with PERKESO.",
-        "daily_7d": "Purata 7 hari",
-        "daily": "Harian",
-        "monthly": "Bulanan",
-        "yearly": "Tahunan",
         "trend_weekly": "Trend (mingguan)",
         "trend_monthly": "Trend (bulanan)"
     }
