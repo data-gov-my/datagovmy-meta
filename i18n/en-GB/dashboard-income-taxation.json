@@ -21,6 +21,7 @@
         "annual_tax_paid" : "Annual tax paid",
         "enter_amount_income": "Enter your annual income",
         "enter_amount_tax_paid": "Enter your annual tax paid",
+        "valid_amount": "Please enter an amount more than or equals to 0.",
         "filter_by": "Filter by:",
         "age": "Age",
         "all_ages": "All ages",

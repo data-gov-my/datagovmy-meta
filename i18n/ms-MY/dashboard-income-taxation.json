@@ -19,8 +19,9 @@
         "rank_header": "How do I compare to other taxpayers in Malaysia?",
         "annual_income" : "Pendapatan Tahunan",
         "annual_tax_paid" : "Cukai Tahunan",
-        "enter_amount_income": "Isikan pendapatan tahunan anda",
-        "enter_amount_tax_paid": "Isikan cukai tahunan anda",
+        "enter_amount_income": "Isikan jumlah pendapatan tahunan anda",
+        "enter_amount_tax_paid": "Isikan jumlah cukai tahunan anda",
+        "valid_amount": "Sila isikan jumlah yang tidak kurang daripada 0.",
         "filter_by": "Tapisan:",
         "age": "Umur",
         "all_ages": "Semua",
@@ -33,14 +34,14 @@
         "earned_more": "Earned more",
         "earned_less": "Earned less",
         "you_are_here": "Anda di sini",
-        "top": "Anda berada dalam kalangan ",
-        "of_taxpayers": " teratas pembayar cukai",
+        "top": "Anda tergolong dalam kumpulan pembayar cukai",
+        "of_taxpayers": " teratas",
         "_income": "mempunyai pendapatan",
         "_tax_paid": "membayar cukai",
         "_all_sexes": "individu",
         "_male": "lelaki",
         "_female": "perempuan",
         "_aged": "berumur ",
-        "rank_desc": "Ini bermakna anda {{ more }} yang lebih berbanding dengan {{ group_size_below, number }} daripada {{ group_size, number}} {{ sex }} {{ aged }} di {{ state }} yang mengisytiharkan cukai individu tahun 2022."
+        "rank_desc": "Ini bermakna anda {{ more }} yang lebih berbanding {{ group_size_below, number }} daripada {{ group_size, number}} {{ sex }} {{ aged }} di {{ state }} yang mengisytiharkan cukai individu pada tahun 2022."
     }
 }
