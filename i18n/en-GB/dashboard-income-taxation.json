@@ -29,15 +29,18 @@
         "male": "Male",
         "female": "Female",
         "disclaimer": "Note: These statistics are computed based on the complete database of individuals who declared their income in 2022, including individuals whose income was too low to be taxed.",
+        "start_search": "Enter your details to find out!",
         "earned_more": "Earned more",
         "earned_less": "Earned less",
+        "you_are_here": "You are here",
         "top": "You are in the top ",
         "of_taxpayers": " of taxpayers",
         "_income": "earned more income",
-        "_tax": "paid more tax",
+        "_tax_paid": "paid more tax",
         "_all_sexes": "individuals",
         "_male": "men",
         "_female": "women",
-        "rank_desc": "This means that you {{ more }} than {{ group_size_below }} out of {{ group_size }} {{ sex }} {{ aged }} in {{ state }} who declared their income for 2022."
+        "_aged": "aged ",
+        "rank_desc": "This means that you {{ more }} than {{ group_size_below, number }} out of {{ group_size, number }} {{ sex }} {{ aged }} in {{ state }} who declared their income for 2022."
     }
 }
