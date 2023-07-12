@@ -15,13 +15,9 @@
         "tebrau": "Shuttle Tebrau",
         "select_origin": "Pilih Permulaan",
         "select_destination": "Pilih Destinasi",
-        "day": "Harian",
-        "month": "Bulanan",
-        "year": "Tahunan",
         "ridership_day": "Jumlah Penumpang Harian: {{ from }} ke {{ to }}",
         "ridership_month": "Jumlah Penumpang Bulanan: {{ from }} ke {{ to }}",
         "ridership_year": "Jumlah Penumpang Tahunan: {{ from }} ke {{ to }}",
-        "daily": "Harian",
         "past_month": "Sebulan",
         "past_year": "Setahun",
         "no_trips": "Tiada perjalanan di laluan ini"

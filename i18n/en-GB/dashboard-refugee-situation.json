@@ -5,7 +5,6 @@
         "description": "Refugees are people who have been forced to flee their homes and have crossed an international border to find safety in another country, or in this case, Malaysia. UNHCR, the UN Refugee Agency, is a global organisation dedicated to saving lives and ensuring refugees can find a safe place, having fled violence, persecution, war or disaster at home. Powered by the work of UNHCR Malaysia, this dashboard tries to shed a light on the refugee situation in Malaysia.",
         "timeseries_header": "How are key refugee population metrics trending?",
         "timeseries_title": "Total Population of Refugees and Asylum-Seekers",
-        "this_month": "Latest ({{ date }})",
         "this_year": "This Year",
         "total": "Total",
         "arrivals": "Arrivals",

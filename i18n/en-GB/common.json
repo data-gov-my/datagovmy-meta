@@ -73,6 +73,12 @@
                 "table": "Table"
             }
         },
+        "time": {
+            "daily_7d": "Daily (7d avg)",
+            "daily": "Daily",
+            "monthly": "Monthly",
+            "yearly": "Yearly"
+        },
         "placeholder": {
             "all": "All",
             "search": "Search",

@@ -71,6 +71,12 @@
                 "table": "Jadual"
             }
         },
+        "time": {
+            "daily_7d": "Purata 7 hari",
+            "daily": "Harian",
+            "monthly": "Bulanan",
+            "yearly": "Tahunan"
+        },
         "placeholder": {
             "all": "Semua",
             "search": "Cari",

@@ -14,15 +14,15 @@
         "area_type2": "Type B",
         "area_type3": "Type AB",
         "area_type4": "Type O",
-        "combine_header": "What are the latest blood donation trends in {{ state }}?",
-        "combine_description": "Blood compromises 3 main components - red blood cells, platelets, and plasma. Although plasma can be stored for up to 3 years, red blood cells can be only stored for up to 42 days, and platelets only for up to 5 days. Therefore, it is vital to maintain a high and stable level of blood donations; when blood donation activity is low or volatile, healthcare services that depend upon blood transfusions may be negatively affected.",
-        "combine_title": "{{ state }}: Daily Donations",
-        "combine_tooltip1": "7d avg",
-        "combine_tooltip2": "Daily",
+        "timeseries_header": "What are the latest blood donation trends in {{ state }}?",
+        "timeseries_desc": "Blood compromises 3 main components - red blood cells, platelets, and plasma. Although plasma can be stored for up to 3 years, red blood cells can be only stored for up to 42 days, and platelets only for up to 5 days. Therefore, it is vital to maintain a high and stable level of blood donations; when blood donation activity is low or volatile, healthcare services that depend upon blood transfusions may be negatively affected.",
+        "timeseries_title": "{{ state }}: Daily Donations",
+        "timeseries_title_monthly": "{{ state }}: Monthly Donations",
+        "timeseries_title_yearly": "{{ state }}: Yearly Donations",
         "area1_title": "Donation by donation type",
         "relative": "Relative",
         "choro_header": "How do blood donor rates differ across the country?",
-        "choro_description": "This data shows the % of the population aged 17-65 in each state which has donated at least once in the past year. The data for W.P. Kuala Lumpur may be higher than the true donor rate (and Selangor lower) due to data from the National Blood Centre's mobile campaigns around Selangor and W.P. Putrajaya being recorded as data for W.P. Kuala Lumpur.",
+        "choro_desc": "This data shows the % of the population aged 17-65 in each state which has donated at least once in the past year. The data for W.P. Kuala Lumpur may be higher than the true donor rate (and Selangor lower) due to data from the National Blood Centre's mobile campaigns around Selangor and W.P. Putrajaya being recorded as data for W.P. Kuala Lumpur.",
         "type_wholeblood_perc": "Whole blood",
         "type_apheresis_perc": "Apheresis",
         "type_apheresis_plasma_perc": "Apheresis (plasma)",
@@ -52,7 +52,6 @@
         "bar1_description": "Recruitment of new donors is vital to replace donors who reach their golden years and stop donating, as well as to support a growing population.",
         "bar1_title": "Number of new donors",
         "annual": "Annual",
-        "monthly": "Monthly",
         "bar1_tooltip1": "New Donors",
         "bar2_title": "New donors by age group",
         "yesterday": "Yesterday",
@@ -85,6 +84,6 @@
         "male": "Male",
         "female": "Female",
         "overall": "Overall",
-        "choro_ranking": "Ranking"
+        "choro_ranking": "Ranking (16)"
     }
 }

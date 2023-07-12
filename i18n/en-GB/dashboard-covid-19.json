@@ -15,6 +15,7 @@
         "diagram_header": "What does the latest data show in {{ state }}?",
         "diagram_subheader": "{{ state }}: Active COVID-19 Cases",
         "diagram_title": "Active Cases",
+        "total": "Total",
         "col1_title1": "Local Cases",
         "col1_title2": "Imported Cases",
         "col2_title1": "Home Quarantine",

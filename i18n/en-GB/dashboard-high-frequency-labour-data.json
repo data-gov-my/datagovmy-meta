@@ -9,9 +9,6 @@
         "job_vacancies": "Job Vacancies",
         "losses_title": "How are job losses trending?",
         "losses_desc": "Note: The number of actual job losses is more than the number shown here, because not all workers are registered with SOCSO.",
-        "daily": "Daily",
-        "monthly": "Monthly",
-        "yearly": "Yearly",
         "trend_weekly": "Trend (weekly)",
         "trend_monthly": "Trend (monthly)"
     }
