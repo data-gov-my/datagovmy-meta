@@ -65,6 +65,7 @@
             "name": "barmeter",
             "chart_type": "bar_meter",
             "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/unhcr_barmeter.parquet",
+            "data_as_of": "2023-06-24 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
