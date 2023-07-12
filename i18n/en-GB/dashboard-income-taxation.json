@@ -41,7 +41,7 @@
         "_all_sexes": "individuals",
         "_male": "men",
         "_female": "women",
-        "_aged": "aged ",
+        "_aged": "aged",
         "rank_desc": "This means that you {{ more }} than {{ group_size_below, number }} out of {{ group_size, number }} {{ sex }} {{ aged }} in {{ state }} who declared their income for 2022."
     }
 }

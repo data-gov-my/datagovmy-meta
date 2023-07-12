@@ -34,14 +34,14 @@
         "earned_more": "Earned more",
         "earned_less": "Earned less",
         "you_are_here": "Anda di sini",
-        "top": "Anda tergolong dalam kumpulan pembayar cukai",
+        "top": "Anda tergolong dalam kumpulan pembayar cukai ",
         "of_taxpayers": " teratas",
         "_income": "mempunyai pendapatan",
         "_tax_paid": "membayar cukai",
         "_all_sexes": "individu",
         "_male": "lelaki",
         "_female": "perempuan",
-        "_aged": "berumur ",
+        "_aged": "berumur",
         "rank_desc": "Ini bermakna anda {{ more }} yang lebih berbanding {{ group_size_below, number }} daripada {{ group_size, number}} {{ sex }} {{ aged }} di {{ state }} yang mengisytiharkan cukai individu pada tahun 2022."
     }
 }
