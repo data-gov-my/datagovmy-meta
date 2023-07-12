@@ -15,6 +15,30 @@
         "section2": {
             "title": "Berapa bahagian cukai pendapatan yang datang dari individu?",
             "description": "Selama 10 tahun yang lalu, kira-kira 25% daripada pendapatan cukai pendapatan terdapat dari individu. Carta di bawah memvisualisasikan kepentingan cukai individu dari tahun 1970 hingga kini."
-        }
+        },
+        "rank_header": "How do I compare to other taxpayers in Malaysia?",
+        "annual_income" : "Annual income",
+        "annual_tax_paid" : "Annual tax paid",
+        "enter_amount_income": "Enter your annual income",
+        "enter_amount_tax_paid": "Enter your annual tax paid",
+        "filter_by": "Filter by:",
+        "age": "Umur",
+        "all_ages": "Semua",
+        "sex": "Jantina",
+        "all_sexes": "Semua",
+        "male": "Lelaki",
+        "female": "Perempuan",
+        "disclaimer": "Note: These statistics are computed based on the complete database of individuals who declared their income in 2022, including individuals whose income was too low to be taxed.",
+        "earned_more": "Earned more",
+        "earned_less": "Earned less",
+        "top": "You are in the top ",
+        "of_taxpayers": " of taxpayers",
+        "_income": "earned more income",
+        "_tax": "paid more tax",
+        "_all_sexes": "individuals",
+        "_male": "lelaki",
+        "_female": "perempuan",
+        "rank_desc": "This means that you {{ more }} than {{ group_size_below }} out of {{ group_size }} {{ sex }} {{ aged }} in {{ state }} who declared their income pada tahun 2022."
+
     }
 }

@@ -5,7 +5,7 @@
         "description": "Paying your taxes is a form of patriotism; a way in which every resident of Malaysia contributes to the building of our nation. This act creates a reciprocal relationship - as taxpayers, you have a right to transparency. Accordingly, this dashboard gives you a fun way to explore income tax data, with a particular focus on individual income taxes. How many people pay taxes? How much are you paying relative to other people? Does taxpaying behaviour vary across states? Dive in and find out!",
         "overview": "Overview",
         "individual_taxes": "Individual Taxes",
-        "personal_rank": "How Do I Rank?",
+        "rank_me": "Where Do I Rank?",
         "absolute": "Absolute",
         "relative": "Relative",
         "total": "Total",
@@ -15,6 +15,29 @@
         "section2": {
             "title": "What proportion of income taxes come from individuals?",
             "description": "Over the last 10 years, roughly 25% of income tax revenue has come from individuals. The chart below visualises the importance of individual taxes from 1970 to the present."
-        }
+        },
+        "rank_header": "How do I compare to other taxpayers in Malaysia?",
+        "annual_income" : "Annual income",
+        "annual_tax_paid" : "Annual tax paid",
+        "enter_amount_income": "Enter your annual income",
+        "enter_amount_tax_paid": "Enter your annual tax paid",
+        "filter_by": "Filter by:",
+        "age": "Age",
+        "all_ages": "All ages",
+        "sex": "Sex",
+        "all_sexes": "All sexes",
+        "male": "Male",
+        "female": "Female",
+        "disclaimer": "Note: These statistics are computed based on the complete database of individuals who declared their income in 2022, including individuals whose income was too low to be taxed.",
+        "earned_more": "Earned more",
+        "earned_less": "Earned less",
+        "top": "You are in the top ",
+        "of_taxpayers": " of taxpayers",
+        "_income": "earned more income",
+        "_tax": "paid more tax",
+        "_all_sexes": "individuals",
+        "_male": "men",
+        "_female": "women",
+        "rank_desc": "This means that you {{ more }} than {{ group_size_below }} out of {{ group_size }} {{ sex }} {{ aged }} in {{ state }} who declared their income for 2022."
     }
 }
