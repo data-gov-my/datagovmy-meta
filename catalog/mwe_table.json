@@ -28,17 +28,25 @@
         "id": 0,
         "name": "mwe_table",
         "title_en": "Table",
-        "title_bm": "Meja",
+        "title_bm": "Jadual",
         "desc_en": "A precise, succinct description of this chart",
         "desc_bm": "A precise, succinct description of this chart",
         "catalog_data": {
           "catalog_filters": {
             "frequency": "YEARLY",
-            "geographic": ["STATE", "NATIONAL"],
-            "demographic": ["SEX", "MARITAL"],
+            "geographic": [
+              "STATE",
+              "NATIONAL"
+            ],
+            "demographic": [
+              "SEX",
+              "MARITAL"
+            ],
             "start": "2006",
             "end": "2023",
-            "data_source": ["MAMPU"]
+            "data_source": [
+              "MAMPU"
+            ]
           },
           "metadata_neutral": {
             "data_as_of": "2023-04-03 23:59",
@@ -66,19 +74,22 @@
             "chart_variables": {
               "parents": [],
               "exclude": [],
-              "freeze": ["state", "parlimen"]
+              "freeze": [
+                "state",
+                "parlimen"
+              ]
+            }
+          },
+          "translations": {
+            "en": {
+              "state": "State",
+              "parlimen": "Parliament",
+              "age_proportion_18_above": "18+ (%)"
             },
-            "translations": {
-              "en": {
-                "state": "State",
-                "parlimen": "Parliament",
-                "age_proportion_18_above": "18+ (%)"
-              },
-              "bm": {
-                "state": "Negeri",
-                "parlimen": "Parlimen",
-                "age_proportion_18_above": "18+ (%)"
-              }
+            "bm": {
+              "state": "Negeri",
+              "parlimen": "Parlimen",
+              "age_proportion_18_above": "18+ (%)"
             }
           }
         }

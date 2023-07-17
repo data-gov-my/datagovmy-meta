@@ -8,6 +8,7 @@
     "charts": {
         "query_values": {
             "name": "query_values",
+            "data_as_of": "2023-06-01 23:59",
             "chart_type": "query_values",
             "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/sekolahku_school_info.parquet",
             "api_type": "dynamic",
@@ -32,6 +33,7 @@
         },
         "sekolahku_info": {
             "name": "sekolahku_info",
+            "data_as_of": "2023-06-01 23:59",
             "chart_type": "custom_chart",
             "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/sekolahku_school_info.parquet",
             "api_type": "dynamic",
@@ -62,6 +64,7 @@
         },
         "sekolahku_barmeter": {
             "name": "sekolahku_barmeter",
+            "data_as_of": "2023-06-01 23:59",
             "chart_type": "bar_meter",
             "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/sekolahku_barmeter.parquet",
             "api_type": "dynamic",
@@ -83,6 +86,7 @@
         },
         "bellcurve_linechart": {
             "name": "bellcurve_linechart",
+            "data_as_of": "2023-06-01 23:59",
             "chart_type": "line_chart",
             "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/sekolahku_bellcurve_curve.parquet",
             "api_type": "dynamic",
@@ -101,6 +105,7 @@
         },
         "bellcurve_callout": {
             "name": "bellcurve_callout",
+            "data_as_of": "2023-06-01 23:59",
             "chart_type": "custom_chart",
             "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/sekolahku_bellcurve_callout.parquet",
             "api_type": "dynamic",
@@ -118,6 +123,7 @@
         },
         "bellcurve_school": {
             "name": "bellcurve_school",
+            "data_as_of": "2023-06-01 23:59",
             "chart_type": "custom_chart",
             "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/sekolahku_bellcurve_school.parquet",
             "api_type": "dynamic",

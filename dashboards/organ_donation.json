@@ -2,6 +2,7 @@
     "dashboard_name": "organ_donation",
     "data_last_updated": "2023-06-01 23:59",
     "route": "/dashboard/organ-donation,/ms-MY/dashboard/organ-donation",
+    "manual_trigger": "0",
     "required_params": [
         "state"
     ],

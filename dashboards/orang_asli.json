@@ -78,6 +78,7 @@
         },
         "village_barmeter": {
             "name": "village_barmeter",
+            "data_as_of": "2023-06-26 23:59",
             "chart_type": "bar_meter",
             "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/orang_asli_village_barmeter.parquet",
             "api_type": "dynamic",
