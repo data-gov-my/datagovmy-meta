@@ -68,6 +68,7 @@
             "play": "Play",
             "pause": "Pause",
             "indicator": "Indicator",
+            "ranking": "Ranking ({{ count, number }})",
             "charts": {
                 "heatmap": "Heatmap",
                 "table": "Table"
