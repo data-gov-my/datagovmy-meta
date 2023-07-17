@@ -1,0 +1,46 @@
+{
+    "dashboard_name": "poverty",
+    "data_last_updated": "2023-07-27 23:59",
+    "route": null,
+    "manual_trigger": "2",
+    "required_params": [],
+    "optional_params": [],
+    "charts": {
+        "timeseries": {
+            "name": "timeseries",
+            "chart_type": "timeseries_chart",
+            "chart_source": "https://storage.data.gov.my/dashboards/poverty_timeseries.parquet",
+            "data_as_of": "2023-07-27 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [],
+                "rename_cols": {
+                    "date": "x"
+                },
+                "value_columns": [
+                    "x",
+                    "poor",
+                    "hardcore_poor"
+                ]
+            }
+        },
+        "timeseries_callout": {
+            "name": "timeseries_callout",
+            "chart_type": "custom_chart",
+            "chart_source": "https://storage.data.gov.my/dashboards/poverty_timeseries_callout.parquet",
+            "data_as_of": "2023-07-27 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "chart",
+                    "variable"
+                ],
+                "value_columns": [
+                    "value"
+                ]
+            }
+        }
+    }
+}
