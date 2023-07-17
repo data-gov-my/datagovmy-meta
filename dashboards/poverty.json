@@ -79,7 +79,7 @@
         "heatmap": {
             "name": "heatmap",
             "chart_type": "heatmap_chart",
-            "chart_source": "http://storage.data.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/poverty_heattable.parquet",
+            "chart_source": "https://storage.data.gov.my/dashboards/poverty_heattable.parquet",
             "data_as_of": "2023-07-27 23:59",
             "api_type": "static",
             "api_params": [],
