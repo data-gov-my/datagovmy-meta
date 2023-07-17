@@ -75,6 +75,22 @@
                     "hardcore_poor_capita"
                 ]
             }
+        },
+        "heatmap": {
+            "name": "heatmap",
+            "chart_type": "heatmap_chart",
+            "chart_source": "https://storage.data.gov.my/dashboards/poverty_heattable.parquet",
+            "data_as_of": "2023-07-27 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "metric"
+                ],
+                "x": "ethnicity",
+                "y": "state",
+                "z": "value"
+            }
         }
     }
 }
