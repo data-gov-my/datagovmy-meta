@@ -67,6 +67,18 @@
               "parents": [],
               "exclude": [],
               "freeze": ["state", "parlimen"]
+            },
+            "translations": {
+              "en": {
+                "state": "State",
+                "parlimen": "Parliament",
+                "age_proportion_18_above": "18+ (%)"
+              },
+              "bm": {
+                "state": "Negeri",
+                "parlimen": "Parlimen",
+                "age_proportion_18_above": "18+ (%)"
+              }
             }
           }
         }
