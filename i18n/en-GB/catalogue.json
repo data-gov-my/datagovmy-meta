@@ -82,6 +82,10 @@
             "geojson_2": "# Uncomment below to maintain a rectangular map, but remove the whitespace caused by the South China Sea",
             "geojson_3": "# Uncomment below to change from rectangular --> square, for a more compact visual"
         },
+        "sample_query": {
+            "section_title": "Sample OpenAPI query",
+            "description": "The following code is an example of how to make an API query to retrieve the data catalogue above in JSON format. You can use different programming languages by switching the code accordingly."
+        },
         "license_text": "This data is made open under the Creative Commons Attribution 4.0 International License (CC BY 4.0). A human-readable copy of the license is available "
     }
 }
