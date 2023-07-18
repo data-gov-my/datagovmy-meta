@@ -2,7 +2,7 @@
     "route": "/dashboard/poverty",
     "translation": {
         "header": "Poverty",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "This dashboard is designed to provide up-to-date insights into the prevalence of poverty across different areas and ethnic groups in Malaysia. With this dashboard, policymakers, researchers, and concerned citizens can gain a comprehensive understanding of poverty in Malaysia. By uncovering patterns, identifying disparities, and tracking progress, this tool serves as a catalyst for evidence-based decision-making and targeted poverty reduction efforts nationwide.",
         "poverty_changes": "How has the incidence of poverty changed over time?",
         "<RM1000/month": "Citizens living in Poverty (< RM1,000 per month)",
         "<RM560/month": "Citizens living in Hardcore Poverty (< RM560 per month)",
