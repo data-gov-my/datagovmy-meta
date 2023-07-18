@@ -1,6 +1,6 @@
 {
     "file": {
-        "manual_trigger": 1,
+        "manual_trigger": 0,
         "bucket": "storage.data.gov.my/elections/federal/",
         "file_name": "ge00_ballots",
         "category": "ELECTIONS",
