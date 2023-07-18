@@ -15,7 +15,7 @@
         },
         "link_parquet": "https://storage.data.gov.my/elections/federal/ge00_ballots.parquet",
         "link_csv": "https://storage.data.gov.my/elections/federal/ge00_ballots.csv",
-        "link_preview": "https://storage.data.gov.my/elections/federal//ge00_ballots.parquet",
+        "link_preview": "https://storage.data.gov.my/elections/federal/ge00_ballots.parquet",
         "variables": [
             {
                 "id": -1,
