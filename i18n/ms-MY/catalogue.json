@@ -82,6 +82,10 @@
             "geojson_2": "# Nyah komen di bawah untuk kekalkan bentuk segi empat tepat ('rectangular'), tetapi dengan rapatkan jurang antara Semenanjung dan Borneo",
             "geojson_3": "# nyah komen di bawah untuk memadatkan peta dengan bentuk segi empat sama ('square')"
         },
+        "sample_query": {
+            "section_title": "Contoh Pertanyaan OpenAPI",
+            "description": "Kod berikut adalah contoh bagaimana untuk membuat pertanyaan API untuk mendapatkan katalog data di atas dalam format JSON. Anda boleh menggunakan pelbagai bahasa pengaturcaraan dengan menukar kod tersebut."
+        },
         "license_text": "Data ini adalah data terbuka di bawah lesen Creative Commons Attribution 4.0 International (CC BY 4.0). Penerangan lesen tersebut boleh didapati di "
     }
 }
