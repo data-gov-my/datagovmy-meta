@@ -1,7 +1,7 @@
 {
     "file": {
         "manual_trigger": 0,
-        "bucket": "elections_parlimen",
+        "bucket": "elections_federal",
         "file_name": "ge00_ballots",
         "category": "ELECTIONS",
         "category_en": "Elections",
@@ -13,9 +13,9 @@
             "en": "Ballots for every seat contested at the pre-Independence general election held on 27 July 1955.",
             "bm": "Perincian undi bagi setiap kerusi yang dipertandingkan di pilihanraya umum pramerdeka yang diadakan pada 27 Julai 1955."
         },
-        "link_parquet": "https://elections_parlimenge00_ballots.parquet",
-        "link_csv": "https://elections_parlimenge00_ballots.csv",
-        "link_preview": "https://elections_parlimenge00_ballots.parquet",
+        "link_parquet": "https://storage.data.gov.my/elections/federal/ge00_ballots.parquet",
+        "link_csv": "https://storage.data.gov.my/elections/federal/ge00_ballots.csv",
+        "link_preview": "https://storage.data.gov.my/elections/federal/ge00_ballots.parquet",
         "variables": [
             {
                 "id": -1,
