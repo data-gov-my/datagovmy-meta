@@ -92,8 +92,8 @@
             {
                 "id": 0,
                 "name": "ge00_summary",
-                "title_en": "GE-00: Results Summary",
-                "title_bm": "PRU-00: Rumusan Keputusan",
+                "title_en": "GE-00: Summary",
+                "title_bm": "PRU-00: Rumusan",
                 "desc_en": "Analytical summary of the pre-Independence general election held on 27 July 1955.",
                 "desc_bm": "Ringkasan analitik bagi pilihanraya umum pramerdeka yang diadakan pada 27 Julai 1955.",
                 "catalog_data": {
