@@ -1,6 +1,6 @@
 {
     "file": {
-        "manual_trigger": 0,
+        "manual_trigger": 1,
         "bucket": "elections_federal",
         "file_name": "ge00_summary",
         "category": "ELECTIONS",
@@ -102,7 +102,7 @@
                 "name": "mwe_table",
                 "title_en": "GE-00: Summary",
                 "title_bm": "PRU-00: Rumusan",
-                "desc_en": "Analytical summary pre-Independence general election held in 1955.",
+                "desc_en": "Analytical summary of the pre-Independence general election held in 1955.",
                 "desc_bm": "Ringkasan analitik bagi pilihanraya umum pramerdeka yang diadakan pada tahun 1955.",
                 "catalog_data": {
                     "catalog_filters": {
