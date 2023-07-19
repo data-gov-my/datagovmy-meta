@@ -2,7 +2,7 @@
     "file": {
         "manual_trigger": 0,
         "bucket": "elections_federal",
-        "file_name": "ge00_ballots",
+        "file_name": "ge14_summary",
         "category": "ELECTIONS",
         "category_en": "Elections",
         "category_bm": "Pilihanraya",
@@ -10,20 +10,20 @@
         "subcategory_en": "Federal",
         "subcategory_bm": "Persekutuan",
         "description": {
-            "en": "Ballots for every seat contested at the pre-Independence general election held on 27 July 1955.",
-            "bm": "Perincian undi bagi setiap kerusi yang dipertandingkan di pilihanraya umum pramerdeka yang diadakan pada 27 Julai 1955."
+            "en": "Analytical summary of the pre-Independence general election held in 1955.",
+            "bm": "Ringkasan analitik bagi pilihanraya umum pramerdeka yang diadakan pada tahun 1955."
         },
-        "link_parquet": "https://storage.data.gov.my/elections/federal/ge00_ballots.parquet",
-        "link_csv": "https://storage.data.gov.my/elections/federal/ge00_ballots.csv",
-        "link_preview": "https://storage.data.gov.my/elections/federal/ge00_ballots.parquet",
+        "link_parquet": "https://storage.data.gov.my/elections/federal/ge14_summary.parquet",
+        "link_csv": "https://storage.data.gov.my/elections/federal/ge14_summary.csv",
+        "link_preview": "https://storage.data.gov.my/elections/federal/ge14_summary.parquet",
         "variables": [
             {
                 "id": 0,
-                "name": "ge00_ballots",
-                "title_en": "GE-00: Ballots",
-                "title_bm": "PRU-00: Kertas Undi",
-                "desc_en": "Ballots for every seat contested at the pre-Independence general election held on 27 July 1955.",
-                "desc_bm": "Perincian undi bagi setiap kerusi yang dipertandingkan di pilihanraya umum pramerdeka yang diadakan pada 27 Julai 1955.",
+                "name": "ge14_summary",
+                "title_en": "GE-14: Summary",
+                "title_bm": "PRU-14: Rumusan",
+                "desc_en": "Analytical summary of the pre-Independence general election held on 27 July 1955.",
+                "desc_bm": "Ringkasan analitik bagi pilihanraya umum pramerdeka yang diadakan pada 27 Julai 1955.",
                 "catalog_data": {
                     "catalog_filters": {
                         "frequency": "INFREQUENT",
@@ -33,8 +33,8 @@
                             "NATIONAL"
                         ],
                         "demographic": [],
-                        "start": "1955",
-                        "end": "1955",
+                        "start": "2018",
+                        "end": "2018",
                         "data_source": [
                             "SPR"
                         ]
@@ -99,43 +99,51 @@
             },
             {
                 "id": -1,
-                "name": "ballot_order",
-                "title_en": "Ballot Order",
-                "title_bm": "Urutan Nama",
-                "desc_en": "[Integer] Order in which the candidate appears on the ballot",
-                "desc_bm": "[Integer] Urutan nama-nama yang tertera pada kertas undi"
+                "name": "voters_total",
+                "title_en": "Total Voters",
+                "title_bm": "Jumlah Pengundi",
+                "desc_en": "[Integer] Number of voters registered to vote in that seat at that election",
+                "desc_bm": "[Integer] Jumlah pengundi yang didaftarkan untuk mengundi di kerusi tersebut semasa PRU-00"
             },
             {
                 "id": -1,
-                "name": "name",
-                "title_en": "Name",
-                "title_bm": "Nama",
-                "desc_en": "[String] Name of candidate as it appeared on the ballot on voting day; this may not be the same as their real name as candidates are free to choose the name they use for campaigning and voting",
-                "desc_bm": "[Rentetan] Nama calon seperti mana yang tertera di kertas undi pada hari mengundi; ini tidak semestinya sama dengan nama sebenar mereka kerana calon adalah bebas untuk memilih nama yang digunakan bagi tujuan kempen dan undi"
+                "name": "ballots_issued",
+                "title_en": "Ballots Issued",
+                "title_bm": "Undi Dikeluarkan",
+                "desc_en": "[Integer] Number of ballots issued, including postal ballots, but not inclduing ballots accidentally damaged and immediately replace during the voting procedure",
+                "desc_bm": "[Integer] Jumlah kertas undi yang dikeluarkan, termasuk kertas undi pos, tetapi tidak termasuk kertas undi yang rosak dan terus digantikan semasa urusan mengundi dijalankan"
             },
             {
                 "id": -1,
-                "name": "candidate_uid",
-                "title_en": "Unique Candidate ID",
-                "title_bm": "ID Unik Calon",
-                "desc_en": "[Integer] Unique integer identifier to track candidates across elections",
-                "desc_bm": "[Integer] Integer unik untuk menjejaki keputusan seseorang calon merentasi pilihan raya"
+                "name": "ballots_not_returned",
+                "title_en": "Ballots Not Returned",
+                "title_bm": "Undi Tidak Dikembalikan",
+                "desc_en": "[Integer] Number of ballots issued but not returned for counting, including postal ballots not returned to the counting centre in time, but excluding spoilt ballots (e.g. torn or stained) which were replaced and therefore not counted as ballots issued",
+                "desc_bm": "[Integer] Jumlah kertas undi yang dikeluarkan tetapi tidak dikembalikan untuk pengiraan undi, termasuk kertas undi pos yang tidak dikembalikan ke pusat kiraan undi, tetapi tidak termasuk kertas undi rosak (contohnya terkoyak atau ternoda) yang telah digantikan maka tidak dikira sebagai kertas undi yang dikeluarkan"
             },
             {
                 "id": -1,
-                "name": "party",
-                "title_en": "Party",
-                "title_bm": "Parti",
-                "desc_en": "[String] Party of the candidate as it appeared on the ballot on voting day; this record is not amended to reflect unofficial information on parties and coalitions. For example, if a candidate competed under the flag of Party X despite being a member of Party Y, their party is recorded as Party X.",
-                "desc_bm": "[String] Parti calon seperti yang tertera pada kertas undi pada hari mengundi; rekod ini tidak dipinda untuk menggambarkan maklumat tidak rasmi mengenai parti dan gabungan. Sebagai contoh, jika calon bertanding bawah bendera Parti X walaupun menjadi ahli Parti Y, parti mereka direkodkan sebagai Parti X."
+                "name": "votes_rejected",
+                "title_en": "Votes Rejected",
+                "title_bm": "Undi Ditolak",
+                "desc_en": "[Integer] Number of ballots returned but declared invalid during counting because the candidate could not be determined",
+                "desc_bm": "[Integer] Jumlah kertas undi yang telah dikembalikan tetapi ditolak semasa proses kiraan undi kerana calon yang diundi tidak dapat ditentukan"
             },
             {
                 "id": -1,
-                "name": "votes",
-                "title_en": "Votes",
-                "title_bm": "Undi",
-                "desc_en": "Integer] Number of votes won by the candidate",
-                "desc_bm": "[Integer] Jumlah undi yang diperolehi oleh calon"
+                "name": "voter_turnout",
+                "title_en": "Voter Turnout",
+                "title_bm": "Peratus Keluar",
+                "desc_en": "[Float] Derived as: (ballots_issued / voters_total) * 100",
+                "desc_bm": " [Apung] Diperolehi dengan formula: (ballots_issued / voters_total) * 100"
+            },
+            {
+                "id": -1,
+                "name": "votes_rejected_perc",
+                "title_en": "Percentage Rejected",
+                "title_bm": "Peratus Ditolak",
+                "desc_en": "[Float] Derived as: (votes_rejected / (ballots_issued - ballots_not_returned)) * 100",
+                "desc_bm": " [Apung] Diperolehi dengan formula: (votes_rejected / (ballots_issued - ballots_not_returned)) * 100"
             }
         ]
     }
