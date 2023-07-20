@@ -42,11 +42,15 @@
         "catalog_data": {
           "catalog_filters": {
             "frequency": "MONTHLY",
-            "geographic": ["NATIONAL"],
+            "geographic": [
+              "NATIONAL"
+            ],
             "demographic": [],
             "start": "2006",
             "end": "2023",
-            "data_source": ["MAMPU"]
+            "data_source": [
+              "MAMPU"
+            ]
           },
           "metadata_neutral": {
             "data_as_of": "2023-04-03 23:59",
@@ -69,13 +73,23 @@
             "chart_type": "HBAR",
             "chart_filters": {
               "SLICE_BY": [],
-              "precision": 0
+              "precision": {
+                "default": 0,
+                "columns": {
+                  "var1": 1,
+                  "var2": 2
+                }
+              }
             },
             "chart_variables": {
               "parents": [],
               "format": {
                 "x": "state",
-                "y": ["var1", "var2", "var3"]
+                "y": [
+                  "var1",
+                  "var2",
+                  "var3"
+                ]
               }
             }
           },
