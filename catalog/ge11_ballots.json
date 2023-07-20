@@ -1,0 +1,142 @@
+{
+    "file": {
+        "manual_trigger": 0,
+        "bucket": "elections_federal",
+        "file_name": "ge11_ballots",
+        "category": "ELECTIONS",
+        "category_en": "Elections",
+        "category_bm": "Pilihanraya",
+        "subcategory": "FEDERAL",
+        "subcategory_en": "Federal",
+        "subcategory_bm": "Persekutuan",
+        "description": {
+            "en": "Ballots for every seat contested at the pre-Independence general election held in 1955.",
+            "bm": "Perincian undi bagi setiap kerusi yang dipertandingkan di pilihanraya umum pramerdeka yang diadakan pada tahun 1955."
+        },
+        "link_parquet": "https://storage.data.gov.my/elections/federal/ge11_ballots.parquet",
+        "link_csv": "https://storage.data.gov.my/elections/federal/ge11_ballots.csv",
+        "link_preview": "https://storage.data.gov.my/elections/federal/ge11_ballots.parquet",
+        "variables": [
+            {
+                "id": 0,
+                "name": "ge11_ballots",
+                "title_en": "GE-11: Ballots",
+                "title_bm": "PRU-11: Kertas Undi",
+                "desc_en": "Ballots for every seat contested at the pre-Independence general election held on 27 July 1955.",
+                "desc_bm": "Perincian undi bagi setiap kerusi yang dipertandingkan di pilihanraya umum pramerdeka yang diadakan pada 27 Julai 1955.",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "INFREQUENT",
+                        "geographic": [
+                            "PARLIMEN",
+                            "STATE",
+                            "NATIONAL"
+                        ],
+                        "demographic": [],
+                        "start": "2004",
+                        "end": "2004",
+                        "data_source": [
+                            "SPR"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "1955-08-31 23:59",
+                        "last_updated": "2023-07-18 23:59",
+                        "next_update": "-"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "This data is a digital representation of the physical election results tabulated and gazetted per the Electoral Regulations (Conduct of Elections). The digitalisation process was rigorously cross-checked against physical records to ensure consistency and accuracy of information.",
+                            "caveat": "As of now, this data has not been verified by SPR, and is shown here on the staging site to provide easy access for exploring and checking the data.",
+                            "publication": "-"
+                        },
+                        "bm": {
+                            "methodology": "Data ini merupakan rekod digital keputusan pilihanraya yang dikira dan diwartakan selaras dengan Peraturan-Peraturan Pilihan Raya (Penjalanan Pilihan Raya). Proses pendigitalan disemak silang dengan rekod fizikal untuk memastikan ketepatan maklumat.",
+                            "caveat": "Setakat sekarang, data ini belum disemak dan diabsahkan oleh SPR, maka hanya dipaparkan di portal UAT ini bagi tujuan memudahkan proses semakan.",
+                            "publication": "-"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TABLE",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 0
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "exclude": [],
+                            "freeze": [
+                                "state",
+                                "parlimen"
+                            ]
+                        }
+                    }
+                }
+            },
+            {
+                "id": -1,
+                "name": "state",
+                "title_en": "State",
+                "title_bm": "Negeri",
+                "desc_en": "[String] 1 of 16 states",
+                "desc_bm": "[Rentetan] 1 antara 16 negeri"
+            },
+            {
+                "id": -1,
+                "name": "parlimen",
+                "title_en": "Parliament",
+                "title_bm": "Parlimen",
+                "desc_en": "[String] Name of seat as it appeared on the ballot on voting day",
+                "desc_bm": "[Rentetan] Nama kerusi seperti mana yang tertera di kertas undi pada hari mengundi"
+            },
+            {
+                "id": -1,
+                "name": "area_name",
+                "title_en": "Area Name",
+                "title_bm": "Nama Kawasan",
+                "desc_en": "[String] Name of the area, with seat code (P.xxx) stripped out, and area name historically harmonised. For example, Kota Baharu, Kota Bahru and Kota Bharu are all harmonised to the modern Kota Bharu.",
+                "desc_bm": "[Rentetan] Nama kawasan, tanpa kod kerusi (P.xxx) dan namanya diselaraskan mengambil kira perubahan dari zaman ke zaman. Contohnya, nama Kota Baharu, Kota Bahru, dan Kota Bharu semuanya diharmonikan kepada penggunaan moden iaitu Kota Bharu."
+            },
+            {
+                "id": -1,
+                "name": "ballot_order",
+                "title_en": "Ballot Order",
+                "title_bm": "Urutan Nama",
+                "desc_en": "[Integer] Order in which the candidate appears on the ballot",
+                "desc_bm": "[Integer] Urutan nama-nama yang tertera pada kertas undi"
+            },
+            {
+                "id": -1,
+                "name": "name",
+                "title_en": "Name",
+                "title_bm": "Nama",
+                "desc_en": "[String] Name of candidate as it appeared on the ballot on voting day; this may not be the same as their real name as candidates are free to choose the name they use for campaigning and voting",
+                "desc_bm": "[Rentetan] Nama calon seperti mana yang tertera di kertas undi pada hari mengundi; ini tidak semestinya sama dengan nama sebenar mereka kerana calon adalah bebas untuk memilih nama yang digunakan bagi tujuan kempen dan undi"
+            },
+            {
+                "id": -1,
+                "name": "candidate_uid",
+                "title_en": "Unique Candidate ID",
+                "title_bm": "ID Unik Calon",
+                "desc_en": "[Integer] Unique integer identifier to track candidates across elections",
+                "desc_bm": "[Integer] Integer unik untuk menjejaki keputusan seseorang calon merentasi pilihan raya"
+            },
+            {
+                "id": -1,
+                "name": "party",
+                "title_en": "Party",
+                "title_bm": "Parti",
+                "desc_en": "[String] Party of the candidate as it appeared on the ballot on voting day; this record is not amended to reflect unofficial information on parties and coalitions. For example, if a candidate competed under the flag of Party X despite being a member of Party Y, their party is recorded as Party X.",
+                "desc_bm": "[String] Parti calon seperti yang tertera pada kertas undi pada hari mengundi; rekod ini tidak dipinda untuk menggambarkan maklumat tidak rasmi mengenai parti dan gabungan. Sebagai contoh, jika calon bertanding bawah bendera Parti X walaupun menjadi ahli Parti Y, parti mereka direkodkan sebagai Parti X."
+            },
+            {
+                "id": -1,
+                "name": "votes",
+                "title_en": "Votes",
+                "title_bm": "Undi",
+                "desc_en": "Integer] Number of votes won by the candidate",
+                "desc_bm": "[Integer] Jumlah undi yang diperolehi oleh calon"
+            }
+        ]
+    }
+}
