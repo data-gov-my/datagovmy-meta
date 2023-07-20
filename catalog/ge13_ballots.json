@@ -60,7 +60,10 @@
                         "chart_type": "TABLE",
                         "chart_filters": {
                             "SLICE_BY": [],
-                            "precision": 0
+                            "precision": {
+                                "default": 0,
+                                "columns": {}
+                            }
                         },
                         "chart_variables": {
                             "parents": [],
