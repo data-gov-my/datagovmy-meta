@@ -35,7 +35,7 @@
 					"catalog_filters": {
 						"frequency": "YEARLY",
 						"geography": ["STATE", "NATIONAL"],
-						"demographic": ["SEX"],
+						"demography": ["SEX"],
 						"start": "2006",
 						"end": "2023",
 						"data_source": ["MAMPU"]
