@@ -27,7 +27,7 @@
                 "catalog_data": {
                     "catalog_filters": {
                         "frequency": "INFREQUENT",
-                        "geographic": [
+                        "geography": [
                             "PARLIMEN",
                             "STATE",
                             "NATIONAL"
