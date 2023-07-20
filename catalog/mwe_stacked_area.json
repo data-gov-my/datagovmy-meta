@@ -1,97 +1,117 @@
 {
-  "file": {
-    "manual_trigger": "",
-    "bucket": "dgmy-public-mwe",
-    "file_name": "mwe_stacked_area",
-    "category": "METADATA",
-    "category_en": "Site Metadata",
-    "category_bm": "Metadata Portal",
-    "subcategory": "SAMPLE_CHART",
-    "subcategory_en": "Chart Samples",
-    "subcategory_bm": "Contoh Carta",
-    "description": {
-      "en": "Lorem ipsum.",
-      "bm": "Lorem ipsum."
-    },
-    "link_parquet": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_timeseries.parquet",
-    "link_csv": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_timeseries.csv",
-    "variables": [
-      {
-        "id": -1,
-        "name": "date",
-        "title_en": "Date",
-        "title_bm": "Tarikh",
-        "desc_en": "[Date] The date in YYYY-MM-DD format",
-        "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
-      },
-      {
-        "id": -1,
-        "name": "state",
-        "title_en": "State",
-        "title_bm": "Negeri",
-        "desc_en": "[Categorical] Name of the state (16 in total) or Malaysia",
-        "desc_bm": "[Kategori] Name negeri (16 keseluruhan) atau Malaysia"
-      },
-      {
-        "id": -1,
-        "name": "var1",
-        "title_en": "Variable 1",
-        "title_bm": "Pembolehubah 1",
-        "desc_en": "[Integer] A precise, succinct description of this variable",
-        "desc_bm": "[Integer] A precise, succinct description of this variable"
-      },
-      {
-        "id": 0,
-        "name": "mwe_stacked_area",
-        "title_en": "Stacked Area",
-        "title_bm": "Kawasan Bertindan",
-        "desc_en": "A precise, succinct description of this chart",
-        "desc_bm": "A precise, succinct description of this chart",
-        "catalog_data": {
-          "id": 0,
-          "catalog_filters": {
-            "frequency": "DAILY",
-            "limit_frequency": false,
-            "geographic": ["STATE", "NATIONAL"],
-            "demographic": ["SEX", "MARITAL"],
-            "start": "2006",
-            "end": "2023",
-            "data_source": ["MAMPU"]
-          },
-          "metadata_neutral": {
-            "data_as_of": "2023-04-03 23:59",
-            "last_updated": "2023-04-04 06:00",
-            "next_update": "2023-04-05 06:00"
-          },
-          "metadata_lang": {
-            "en": {
-              "methodology": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-              "caveat": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
-              "publication": "Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 'Lorem ipsum dolor sit amet..'', comes from a line in section 1.10.32."
+    "file": {
+        "manual_trigger": "",
+        "bucket": "dgmy-public-mwe",
+        "file_name": "mwe_stacked_area",
+        "category": "METADATA",
+        "category_en": "Site Metadata",
+        "category_bm": "Metadata Portal",
+        "subcategory": "SAMPLE_CHART",
+        "subcategory_en": "Chart Samples",
+        "subcategory_bm": "Contoh Carta",
+        "description": {
+            "en": "Lorem ipsum.",
+            "bm": "Lorem ipsum."
+        },
+        "link_parquet": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_timeseries.parquet",
+        "link_csv": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_timeseries.csv",
+        "variables": [
+            {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] The date in YYYY-MM-DD format",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
             },
-            "bm": {
-              "methodology": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-              "caveat": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
-              "publication": "Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 'Lorem ipsum dolor sit amet..'', comes from a line in section 1.10.32."
-            }
-          },
-          "chart": {
-            "chart_type": "STACKED_AREA",
-            "chart_filters": {
-              "SLICE_BY": ["state"],
-              "precision": 0
+            {
+                "id": -1,
+                "name": "state",
+                "title_en": "State",
+                "title_bm": "Negeri",
+                "desc_en": "[Categorical] Name of the state (16 in total) or Malaysia",
+                "desc_bm": "[Kategori] Name negeri (16 keseluruhan) atau Malaysia"
             },
-            "chart_variables": {
-              "parents": ["state"],
-              "operation": "SUM",
-              "format": {
-                "x": "date",
-                "y": ["var1", "var2", "var3", "var4"]
-              }
+            {
+                "id": -1,
+                "name": "var1",
+                "title_en": "Variable 1",
+                "title_bm": "Pembolehubah 1",
+                "desc_en": "[Integer] A precise, succinct description of this variable",
+                "desc_bm": "[Integer] A precise, succinct description of this variable"
+            },
+            {
+                "id": 0,
+                "name": "mwe_stacked_area",
+                "title_en": "Stacked Area",
+                "title_bm": "Kawasan Bertindan",
+                "desc_en": "A precise, succinct description of this chart",
+                "desc_bm": "A precise, succinct description of this chart",
+                "catalog_data": {
+                    "id": 0,
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "limit_frequency": false,
+                        "geographic": [
+                            "STATE",
+                            "NATIONAL"
+                        ],
+                        "demographic": [
+                            "SEX",
+                            "MARITAL"
+                        ],
+                        "start": "2006",
+                        "end": "2023",
+                        "data_source": [
+                            "MAMPU"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-04-03 23:59",
+                        "last_updated": "2023-04-04 06:00",
+                        "next_update": "2023-04-05 06:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                            "caveat": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+                            "publication": "Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 'Lorem ipsum dolor sit amet..'', comes from a line in section 1.10.32."
+                        },
+                        "bm": {
+                            "methodology": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                            "caveat": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+                            "publication": "Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 'Lorem ipsum dolor sit amet..'', comes from a line in section 1.10.32."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "STACKED_AREA",
+                        "chart_filters": {
+                            "SLICE_BY": [
+                                "state"
+                            ],
+                            "precision": {
+                                "default": 0,
+                                "columns": {}
+                            }
+                        },
+                        "chart_variables": {
+                            "parents": [
+                                "state"
+                            ],
+                            "operation": "SUM",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "var1",
+                                    "var2",
+                                    "var3",
+                                    "var4"
+                                ]
+                            }
+                        }
+                    }
+                }
             }
-          }
-        }
-      }
-    ]
-  }
+        ]
+    }
 }
