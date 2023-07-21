@@ -85,6 +85,7 @@
                         "bm": {
                           "state": "Negeri",
                           "parlimen": "Parlimen",
+                          "area_name": "Nama Kawasan",
                           "ballot_order": "Urutan Nama",
                           "name": "Nama",
                           "candidate_uid": "ID Unik",
