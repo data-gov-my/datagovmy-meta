@@ -16,6 +16,12 @@
         "begin": "Dari",
         "end": "Hingga",
         "source": "Sumber Data",
+        "desktop": "Desktop",
+        "mobile": "Mobil",
+        "settings": "Tetapan",
+        "embed": "Pautan Pembenam",
+        "embed_code": "Kod Pautan Pembenam",
+        "view_full_chart": "Lihat carta penuh",
         "placeholder": {
             "source": "Pilih agensi",
             "search": "Cari dataset",
