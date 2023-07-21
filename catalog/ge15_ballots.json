@@ -1,6 +1,6 @@
 {
     "file": {
-        "manual_trigger": 0,
+        "manual_trigger": 1,
         "bucket": "elections_federal",
         "file_name": "ge15_ballots",
         "category": "ELECTIONS",
@@ -69,6 +69,27 @@
                                 "state",
                                 "parlimen"
                             ]
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                          "state": "State",
+                          "parlimen": "Parliament",
+                          "area_name": "Area Name",
+                          "ballot_order": "Ballot Order",
+                          "name": "Name",
+                          "candidate_uid": "Unique ID",
+                          "party": "Party",
+                          "votes": "Votes"
+                        },
+                        "bm": {
+                          "state": "Negeri",
+                          "parlimen": "Parlimen",
+                          "ballot_order": "Urutan Nama",
+                          "name": "Nama",
+                          "candidate_uid": "ID Unik",
+                          "party": "Parti",
+                          "votes": "Undi"
                         }
                     }
                 }
