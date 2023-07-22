@@ -64,6 +64,28 @@
 							"exclude": [],
 							"freeze": ["state", "parlimen"]
 						}
+					},
+					"translations": {
+						"en": {
+							"state": "State",
+							"parlimen": "Parliament",
+							"area_name": "Area Name",
+							"ballot_order": "Ballot Order",
+							"name": "Name",
+							"candidate_uid": "Unique ID",
+							"party": "Party",
+							"votes": "Votes"
+						},
+						"bm": {
+							"state": "Negeri",
+							"parlimen": "Parlimen",
+							"area_name": "Nama Kawasan",
+							"ballot_order": "Urutan Nama",
+							"name": "Nama",
+							"candidate_uid": "ID Unik",
+							"party": "Parti",
+							"votes": "Undi"
+						}
 					}
 				}
 			},
