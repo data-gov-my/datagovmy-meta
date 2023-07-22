@@ -1,194 +1,183 @@
 {
-    "file": {
-        "manual_trigger": "2",
-        "bucket": "dgmy-public-mwe",
-        "file_name": "mwe_table",
-        "category": "METADATA",
-        "category_en": "Site Metadata",
-        "category_bm": "Metadata Portal",
-        "subcategory": "SAMPLE_CHART",
-        "subcategory_en": "Chart Samples",
-        "subcategory_bm": "Contoh Carta",
-        "description": {
-            "en": "Lorem ipsum.",
-            "bm": "Lorem ipsum."
-        },
-        "link_parquet": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_table.parquet",
-        "link_csv": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_table.csv",
-        "variables": [
-            {
-                "id": -1,
-                "name": "date",
-                "title_en": "Date",
-                "title_bm": "Tarikh",
-                "desc_en": "[Date] The date in YYYY-MM-DD format",
-                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
-            },
-            {
-                "id": 0,
-                "name": "mwe_table",
-                "title_en": "Table",
-                "title_bm": "Jadual",
-                "desc_en": "A precise, succinct description of this chart",
-                "desc_bm": "A precise, succinct description of this chart",
-                "catalog_data": {
-                    "catalog_filters": {
-                        "frequency": "YEARLY",
-                        "geographic": [
-                            "STATE",
-                            "NATIONAL"
-                        ],
-                        "demographic": [
-                            "SEX",
-                            "MARITAL"
-                        ],
-                        "start": "2006",
-                        "end": "2023",
-                        "data_source": [
-                            "MAMPU"
-                        ]
-                    },
-                    "metadata_neutral": {
-                        "data_as_of": "2023-04-03 23:59",
-                        "last_updated": "2023-04-04 06:00",
-                        "next_update": "2023-04-05 06:00"
-                    },
-                    "metadata_lang": {
-                        "en": {
-                            "methodology": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-                            "caveat": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
-                            "publication": "Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 'Lorem ipsum dolor sit amet..'', comes from a line in section 1.10.32."
-                        },
-                        "bm": {
-                            "methodology": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-                            "caveat": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
-                            "publication": "Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 'Lorem ipsum dolor sit amet..'', comes from a line in section 1.10.32."
-                        }
-                    },
-                    "chart": {
-                        "chart_type": "TABLE",
-                        "chart_filters": {
-                            "SLICE_BY": [],
-                            "precision": {
-                                "default": 0,
-                                "columns": {}
-                            }
-                        },
-                        "chart_variables": {
-                            "parents": [],
-                            "exclude": [],
-                            "freeze": [
-                                "state",
-                                "parlimen"
-                            ]
-                        }
-                    },
-                    "translations": {
-                        "en": {
-                            "state": "State",
-                            "parlimen": "Parliament",
-                            "area_km2": "Area (km²)",
-                            "population_total": "Total Population",
-                            "nationality_citizen": "Citizen",
-                            "nationality_non_citizen": "Non-citizen",
-                            "sex_male": "Male",
-                            "sex_female": "Female",
-                            "ethnicity_proportion_bumi": "Bumiputera (%)",
-                            "ethnicity_proportion_chinese": "Chinese (%)",
-                            "ethnicity_proportion_indian": "Indian (%)",
-                            "ethnicity_proportion_other": "Other Ethnicities (%)",
-                            "age_proportion_0_14": "0-14 Years (%)",
-                            "age_proportion_15_64": "15-64 Years (%)",
-                            "age_proportion_65_above": "65+ Years (%)",
-                            "age_proportion_18_above": "18+ Years (%)",
-                            "housing_total": "Total Housing",
-                            "household_total": "Total Households",
-                            "household_size_avg": "Average Household Size",
-                            "live_births": "Total Live Births",
-                            "live_births_male": "Male Live Births",
-                            "live_births_female": "Female Live Births",
-                            "deaths": "Total Deaths",
-                            "deaths_male": "Male Deaths",
-                            "deaths_female": "Female Deaths",
-                            "labour_participation_rate": "Labour Participation Rate",
-                            "labour_unemployment_rate": "Unemployment Rate",
-                            "income_median": "Median Income",
-                            "income_avg": "Average Income",
-                            "expenditure_avg": "Average Expenditure",
-                            "gini": "Gini Coefficient",
-                            "poverty_incidence": "Poverty Incidence",
-                            "sme_small": "Small SMEs",
-                            "sme_micro": "Micro SMEs",
-                            "sme_medium": "Medium SMEs",
-                            "businesses_agriculture": "Agriculture Businesses",
-                            "businesses_crops": "Crop-related Businesses",
-                            "businesses_livestock": "Livestock Businesses",
-                            "businesses_fisheries": "Fisheries Businesses",
-                            "businesses_forestry": "Forestry Businesses",
-                            "businesses_mining": "Mining Businesses",
-                            "businesses_manufacturing": "Manufacturing Businesses",
-                            "businesses_construction": "Construction Businesses",
-                            "businesses_services": "Service-related Businesses",
-                            "utilities_pipedwater_home": "Piped Water (Home)",
-                            "utilities_pipedwater_public": "Piped Water (Public)",
-                            "utilities_pipedwater_other": "Piped Water (Other)",
-                            "utilities_electricity_home": "Electricity (Home)",
-                            "utilities_electricity_none": "No Electricity"
-                        },
-                        "bm": {
-                            "state": "Negeri",
-                            "parlimen": "Parlimen",
-                            "area_km2": "Luas (km²)",
-                            "population_total": "Jumlah Penduduk",
-                            "nationality_citizen": "Warganegara",
-                            "nationality_non_citizen": "Bukan Warganegara",
-                            "sex_male": "Lelaki",
-                            "sex_female": "Perempuan",
-                            "ethnicity_proportion_bumi": "Bumiputera (%)",
-                            "ethnicity_proportion_chinese": "Cina (%)",
-                            "ethnicity_proportion_indian": "India (%)",
-                            "ethnicity_proportion_other": "Kumpulan Etnik Lain (%)",
-                            "age_proportion_0_14": "0-14 Tahun (%)",
-                            "age_proportion_15_64": "15-64 Tahun (%)",
-                            "age_proportion_65_above": "65+ Tahun (%)",
-                            "age_proportion_18_above": "18+ Tahun (%)",
-                            "housing_total": "Jumlah Perumahan",
-                            "household_total": "Jumlah Isi Rumah",
-                            "household_size_avg": "Purata Saiz Isi Rumah",
-                            "live_births": "Jumlah Kelahiran Hidup",
-                            "live_births_male": "Kelahiran Lelaki",
-                            "live_births_female": "Kelahiran Perempuan",
-                            "deaths": "Jumlah Kematian",
-                            "deaths_male": "Kematian Lelaki",
-                            "deaths_female": "Kematian Perempuan",
-                            "labour_participation_rate": "Kadar Penyertaan Buruh",
-                            "labour_unemployment_rate": "Kadar Pengangguran",
-                            "income_median": "Pendapatan Median",
-                            "income_avg": "Pendapatan Purata",
-                            "expenditure_avg": "Perbelanjaan Purata",
-                            "gini": "Pekali Gini",
-                            "poverty_incidence": "Kekerapan Kemiskinan",
-                            "sme_small": "PKS Kecil",
-                            "sme_micro": "PKS Mikro",
-                            "sme_medium": "PKS Sederhana",
-                            "businesses_agriculture": "Perniagaan Pertanian",
-                            "businesses_crops": "Perniagaan Tanaman",
-                            "businesses_livestock": "Perniagaan Penternakan",
-                            "businesses_fisheries": "Perniagaan Perikanan",
-                            "businesses_forestry": "Perniagaan Perhutanan",
-                            "businesses_mining": "Perniagaan Perlombongan",
-                            "businesses_manufacturing": "Perniagaan Pengilangan",
-                            "businesses_construction": "Perniagaan Pembinaan",
-                            "businesses_services": "Perniagaan Perkhidmatan",
-                            "utilities_pipedwater_home": "Air Paip (Rumah)",
-                            "utilities_pipedwater_public": "Air Paip (Awam)",
-                            "utilities_pipedwater_other": "Air Paip (Lain-lain)",
-                            "utilities_electricity_home": "Elektrik (Rumah)",
-                            "utilities_electricity_none": "Tiada Elektrik"
-                        }
-                    }
-                }
-            }
-        ]
-    }
+	"file": {
+		"manual_trigger": "2",
+		"bucket": "dgmy-public-mwe",
+		"file_name": "mwe_table",
+		"category": "METADATA",
+		"category_en": "Site Metadata",
+		"category_bm": "Metadata Portal",
+		"subcategory": "SAMPLE_CHART",
+		"subcategory_en": "Chart Samples",
+		"subcategory_bm": "Contoh Carta",
+		"description": {
+			"en": "Lorem ipsum.",
+			"bm": "Lorem ipsum."
+		},
+		"link_parquet": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_table.parquet",
+		"link_csv": "https://dgmy-public-mwe.s3.ap-southeast-1.amazonaws.com/mwe_table.csv",
+		"variables": [
+			{
+				"id": -1,
+				"name": "date",
+				"title_en": "Date",
+				"title_bm": "Tarikh",
+				"desc_en": "[Date] The date in YYYY-MM-DD format",
+				"desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+			},
+			{
+				"id": 0,
+				"name": "mwe_table",
+				"title_en": "Table",
+				"title_bm": "Jadual",
+				"desc_en": "A precise, succinct description of this chart",
+				"desc_bm": "A precise, succinct description of this chart",
+				"catalog_data": {
+					"catalog_filters": {
+						"frequency": "YEARLY",
+						"geography": ["STATgeographyNAL"],
+						"demography": ["SEX", "MARITAL"],
+						"start": "2006",
+						"end": "2023",
+						"data_source": ["MAMPU"]
+					},
+					"metadata_neutral": {
+						"data_as_of": "2023-04-03 23:59",
+						"last_updated": "2023-04-04 06:00",
+						"next_update": "2023-04-05 06:00"
+					},
+					"metadata_lang": {
+						"en": {
+							"methodology": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+							"caveat": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+							"publication": "Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 'Lorem ipsum dolor sit amet..'', comes from a line in section 1.10.32."
+						},
+						"bm": {
+							"methodology": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+							"caveat": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+							"publication": "Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 'Lorem ipsum dolor sit amet..'', comes from a line in section 1.10.32."
+						}
+					},
+					"chart": {
+						"chart_type": "TABLE",
+						"chart_filters": {
+							"SLICE_BY": [],
+							"precision": {
+								"default": 0,
+								"columns": {}
+							}
+						},
+						"chart_variables": {
+							"parents": [],
+							"exclude": [],
+							"freeze": ["state", "parlimen"]
+						}
+					},
+					"translations": {
+						"en": {
+							"state": "State",
+							"parlimen": "Parliament",
+							"area_km2": "Area (km²)",
+							"population_total": "Total Population",
+							"nationality_citizen": "Citizen",
+							"nationality_non_citizen": "Non-citizen",
+							"sex_male": "Male",
+							"sex_female": "Female",
+							"ethnicity_proportion_bumi": "Bumiputera (%)",
+							"ethnicity_proportion_chinese": "Chinese (%)",
+							"ethnicity_proportion_indian": "Indian (%)",
+							"ethnicity_proportion_other": "Other Ethnicities (%)",
+							"age_proportion_0_14": "0-14 Years (%)",
+							"age_proportion_15_64": "15-64 Years (%)",
+							"age_proportion_65_above": "65+ Years (%)",
+							"age_proportion_18_above": "18+ Years (%)",
+							"housing_total": "Total Housing",
+							"household_total": "Total Households",
+							"household_size_avg": "Average Household Size",
+							"live_births": "Total Live Births",
+							"live_births_male": "Male Live Births",
+							"live_births_female": "Female Live Births",
+							"deaths": "Total Deaths",
+							"deaths_male": "Male Deaths",
+							"deaths_female": "Female Deaths",
+							"labour_participation_rate": "Labour Participation Rate",
+							"labour_unemployment_rate": "Unemployment Rate",
+							"income_median": "Median Income",
+							"income_avg": "Average Income",
+							"expenditure_avg": "Average Expenditure",
+							"gini": "Gini Coefficient",
+							"poverty_incidence": "Poverty Incidence",
+							"sme_small": "Small SMEs",
+							"sme_micro": "Micro SMEs",
+							"sme_medium": "Medium SMEs",
+							"businesses_agriculture": "Agriculture Businesses",
+							"businesses_crops": "Crop-related Businesses",
+							"businesses_livestock": "Livestock Businesses",
+							"businesses_fisheries": "Fisheries Businesses",
+							"businesses_forestry": "Forestry Businesses",
+							"businesses_mining": "Mining Businesses",
+							"businesses_manufacturing": "Manufacturing Businesses",
+							"businesses_construction": "Construction Businesses",
+							"businesses_services": "Service-related Businesses",
+							"utilities_pipedwater_home": "Piped Water (Home)",
+							"utilities_pipedwater_public": "Piped Water (Public)",
+							"utilities_pipedwater_other": "Piped Water (Other)",
+							"utilities_electricity_home": "Electricity (Home)",
+							"utilities_electricity_none": "No Electricity"
+						},
+						"bm": {
+							"state": "Negeri",
+							"parlimen": "Parlimen",
+							"area_km2": "Luas (km²)",
+							"population_total": "Jumlah Penduduk",
+							"nationality_citizen": "Warganegara",
+							"nationality_non_citizen": "Bukan Warganegara",
+							"sex_male": "Lelaki",
+							"sex_female": "Perempuan",
+							"ethnicity_proportion_bumi": "Bumiputera (%)",
+							"ethnicity_proportion_chinese": "Cina (%)",
+							"ethnicity_proportion_indian": "India (%)",
+							"ethnicity_proportion_other": "Kumpulan Etnik Lain (%)",
+							"age_proportion_0_14": "0-14 Tahun (%)",
+							"age_proportion_15_64": "15-64 Tahun (%)",
+							"age_proportion_65_above": "65+ Tahun (%)",
+							"age_proportion_18_above": "18+ Tahun (%)",
+							"housing_total": "Jumlah Perumahan",
+							"household_total": "Jumlah Isi Rumah",
+							"household_size_avg": "Purata Saiz Isi Rumah",
+							"live_births": "Jumlah Kelahiran Hidup",
+							"live_births_male": "Kelahiran Lelaki",
+							"live_births_female": "Kelahiran Perempuan",
+							"deaths": "Jumlah Kematian",
+							"deaths_male": "Kematian Lelaki",
+							"deaths_female": "Kematian Perempuan",
+							"labour_participation_rate": "Kadar Penyertaan Buruh",
+							"labour_unemployment_rate": "Kadar Pengangguran",
+							"income_median": "Pendapatan Median",
+							"income_avg": "Pendapatan Purata",
+							"expenditure_avg": "Perbelanjaan Purata",
+							"gini": "Pekali Gini",
+							"poverty_incidence": "Kekerapan Kemiskinan",
+							"sme_small": "PKS Kecil",
+							"sme_micro": "PKS Mikro",
+							"sme_medium": "PKS Sederhana",
+							"businesses_agriculture": "Perniagaan Pertanian",
+							"businesses_crops": "Perniagaan Tanaman",
+							"businesses_livestock": "Perniagaan Penternakan",
+							"businesses_fisheries": "Perniagaan Perikanan",
+							"businesses_forestry": "Perniagaan Perhutanan",
+							"businesses_mining": "Perniagaan Perlombongan",
+							"businesses_manufacturing": "Perniagaan Pengilangan",
+							"businesses_construction": "Perniagaan Pembinaan",
+							"businesses_services": "Perniagaan Perkhidmatan",
+							"utilities_pipedwater_home": "Air Paip (Rumah)",
+							"utilities_pipedwater_public": "Air Paip (Awam)",
+							"utilities_pipedwater_other": "Air Paip (Lain-lain)",
+							"utilities_electricity_home": "Elektrik (Rumah)",
+							"utilities_electricity_none": "Tiada Elektrik"
+						}
+					}
+				}
+			}
+		]
+	}
 }
