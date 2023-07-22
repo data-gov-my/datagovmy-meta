@@ -28,7 +28,7 @@
 					"catalog_filters": {
 						"frequency": "INFREQUENT",
 						"geography": ["PARLIMEN", "STATE", "NATIONAL"],
-						"demographic": [],
+						"demography": [],
 						"start": "1986",
 						"end": "1986",
 						"data_source": ["SPR"]

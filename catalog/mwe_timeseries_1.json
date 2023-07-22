@@ -53,7 +53,7 @@
 						"frequency": "DAILY",
 						"limit_frequency": false,
 						"geography": ["STATE", "NATIONAL"],
-						"demographic": ["SEX", "MARITAL"],
+						"demography": ["SEX", "MARITAL"],
 						"start": "2006",
 						"end": "2023",
 						"data_source": ["MAMPU"]
