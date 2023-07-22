@@ -63,8 +63,8 @@
                             "precision":{
                                 "default": 0,
                                 "columns": {
-                                "voter_turnout": 1,
-                                "votes_rejected_perc": 1
+                                "voter_turnout": 2,
+                                "votes_rejected_perc": 2
                                 }
                             }
                         },
