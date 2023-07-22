@@ -50,8 +50,8 @@
         "catalog_data": {
           "catalog_filters": {
             "frequency": "MONTHLY",
-            "geographic": ["NATIONAL"],
-            "demographic": [],
+            "geography": ["NATIONAL"],
+            "demography": [],
             "start": "2006",
             "end": "2023",
             "data_source": ["MAMPU"]

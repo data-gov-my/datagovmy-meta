@@ -25,8 +25,8 @@
         "catalog_data": {
           "catalog_filters": {
             "frequency": "AS_REQUIRED",
-            "geographic": ["DISTRICT"],
-            "demographic": ["SEX", "MARITAL"],
+            "geography": ["DISTRICT"],
+            "demography": ["SEX", "MARITAL"],
             "start": "2023",
             "end": "2023",
             "data_source": ["MAMPU"]

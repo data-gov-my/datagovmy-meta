@@ -42,8 +42,8 @@
         "catalog_data": {
           "catalog_filters": {
             "frequency": "YEARLY",
-            "geographic": ["STATE", "NATIONAL"],
-            "demographic": [],
+            "geography": ["STATE", "NATIONAL"],
+            "demography": [],
             "start": "2006",
             "end": "2023",
             "data_source": ["MAMPU"]

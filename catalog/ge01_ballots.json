@@ -27,12 +27,12 @@
                 "catalog_data": {
                     "catalog_filters": {
                         "frequency": "INFREQUENT",
-                        "geographic": [
+                        "geography": [
                             "PARLIMEN",
                             "STATE",
                             "NATIONAL"
                         ],
-                        "demographic": [],
+                        "demography": [],
                         "start": "1959",
                         "end": "1959",
                         "data_source": [

@@ -52,8 +52,8 @@
           "catalog_filters": {
             "frequency": "DAILY",
             "limit_frequency": false,
-            "geographic": ["STATE", "NATIONAL"],
-            "demographic": ["SEX", "MARITAL"],
+            "geography": ["STATE", "NATIONAL"],
+            "demography": ["SEX", "MARITAL"],
             "start": "2006",
             "end": "2023",
             "data_source": ["MAMPU"]
