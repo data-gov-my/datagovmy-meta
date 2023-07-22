@@ -1,6 +1,6 @@
 {
     "file": {
-        "manual_trigger": 0,
+        "manual_trigger": 1,
         "bucket": "elections_federal",
         "file_name": "ge15_ballots",
         "category": "ELECTIONS",
