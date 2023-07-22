@@ -60,7 +60,13 @@
                         "chart_type": "TABLE",
                         "chart_filters": {
                             "SLICE_BY": [],
-                            "precision": 0
+                            "precision":{
+                                "default": 0,
+                                "columns": {
+                                "voter_turnout": 1,
+                                "votes_rejected_perc": 1
+                                }
+                            }
                         },
                         "chart_variables": {
                             "parents": [],
@@ -69,6 +75,30 @@
                                 "state",
                                 "parlimen"
                             ]
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                          "state": "State",
+                          "parlimen": "Parliament",
+                          "area_name": "Area Name",
+                          "voters_total": "Registered Voters",
+                          "ballots_issued": "Ballots Issued",
+                          "ballots_not_returned": "Ballots Not Returned",
+                          "votes_rejected": "Votes Rejected",
+                          "voter_turnout": "Voter Turnout",
+                          "votes_rejected_perc": "Votes Rejected (%)"
+                        },
+                        "bm": {
+                          "state": "Negeri",
+                          "parlimen": "Parlimen",
+                          "area_name": "Nama Kawasan",
+                          "voters_total": "Pengundi Berdaftar",
+                          "ballots_issued": "Kertas Undi Dikeluarkan",
+                          "ballots_not_returned": "Kertas Undi Tidak Dikembalikan",
+                          "votes_rejected": "Undi Ditolak",
+                          "voter_turnout": "Peratus Keluar",
+                          "votes_rejected_perc": "Undi Ditolak (%)"
                         }
                     }
                 }
