@@ -69,10 +69,7 @@
 						"chart_type": "GEOPOINT",
 						"chart_filters": {
 							"SLICE_BY": [],
-							"precision": {
-								"default": 0,
-								"columns": {}
-							}
+							"precision": 0
 						},
 						"chart_variables": {
 							"parents": [],

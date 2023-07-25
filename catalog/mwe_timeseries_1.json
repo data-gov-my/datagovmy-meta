@@ -79,10 +79,7 @@
 						"chart_type": "TIMESERIES",
 						"chart_filters": {
 							"SLICE_BY": ["state"],
-							"precision": {
-								"default": 0,
-								"columns": {}
-							}
+							"precision": 0
 						},
 						"chart_variables": {
 							"parents": ["state"],

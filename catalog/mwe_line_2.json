@@ -85,22 +85,13 @@
 						"chart_type": "LINE",
 						"chart_filters": {
 							"SLICE_BY": [],
-							"precision": {
-								"default": 0,
-								"columns": {}
-							}
+							"precision": 0
 						},
 						"chart_variables": {
 							"parents": [],
 							"line_type": {
-								"y1": {
-									"stepped": true,
-									"tension": 0
-								},
-								"y2": {
-									"stepped": true,
-									"tension": 0
-								}
+								"y1": { "stepped": true, "tension": 0 },
+								"y2": { "stepped": true, "tension": 0 }
 							},
 							"format": {
 								"x": "taxable_income",

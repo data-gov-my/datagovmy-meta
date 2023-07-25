@@ -24,6 +24,7 @@
 				"desc_en": "[Date] Date in YYYY-MM-DD format",
 				"desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
 			},
+
 			{
 				"id": -1,
 				"name": "ethnicity",
@@ -93,10 +94,7 @@
 						"chart_type": "PYRAMID",
 						"chart_filters": {
 							"SLICE_BY": ["ethnicity"],
-							"precision": {
-								"default": 0,
-								"columns": {}
-							}
+							"precision": 0
 						},
 						"chart_variables": {
 							"parents": ["ethnicity"],

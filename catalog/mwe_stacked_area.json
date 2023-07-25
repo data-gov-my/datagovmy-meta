@@ -79,10 +79,7 @@
 						"chart_type": "STACKED_AREA",
 						"chart_filters": {
 							"SLICE_BY": ["state"],
-							"precision": {
-								"default": 0,
-								"columns": {}
-							}
+							"precision": 0
 						},
 						"chart_variables": {
 							"parents": ["state"],
