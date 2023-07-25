@@ -38,7 +38,7 @@
         "rank_most_rare": " most rare",
         "rank_one": "{{ count }}st",
         "rank_two": "{{ count }}nd",
-        "rank_few": "{{ count }}d",
+        "rank_few": "{{ count }}rd",
         "rank_other": "{{ count }}th",
         "popularity": " most popular out of the {{ count }} possible dates",
         "popularity_without": " out of the {{ count }} possible dates",
