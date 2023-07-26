@@ -17,6 +17,17 @@
 				"keys": ["decade", "ethnicity"],
 				"value_columns": ["name_first", "sex", "count"]
 			}
+		},
+		"ethnicity_dropdown": {
+			"name": "ethnicity_dropdown",
+			"chart_type": "query_values",
+			"chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/name_popularity_top.parquet",
+			"data_as_of": "2023-07-26 23:59",
+			"api_type": "dynamic",
+			"api_params": [],
+			"variables": {
+				"columns": ["decade", "ethnicity"]
+			}
 		}
 	}
 }
