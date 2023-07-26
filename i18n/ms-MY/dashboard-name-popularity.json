@@ -15,6 +15,7 @@
 		"column_female_name": "Nama Perempuan",
 		"column_count": "Bilangan Bayi",
 		"privacy_prompt": "Untuk menjaga privasi, data siri masa bagi nama ini tidak dipaparkan.",
+		"privacy_prompt2": "Untuk mengekalkan privasi, dekad paling popular bagi nama ini tidak dipaparkan.",
 		"bar_title_first_one": "Terdapat {{count, number}} rakyat Malaysia yang mempunyai nama pertama ",
 		"bar_title_first_other": "Terdapat {{count, number}} rakyat Malaysia yang mempunyai nama pertama ",
 		"bar_title_last_one": "Terdapat {{count, number}} rakyat Malaysia yang mempunyai nama keluarga ",
