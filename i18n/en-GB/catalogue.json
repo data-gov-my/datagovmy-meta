@@ -16,6 +16,12 @@
 		"begin": "Begin",
 		"end": "End",
 		"source": "Data Source",
+		"desktop": "Desktop",
+		"mobile": "Mobile",
+		"settings": "Settings",
+		"embed": "Embed",
+		"embed_code": "Embed Code",
+		"view_full_chart": "View full chart",
 		"placeholder": {
 			"source": "Select agency",
 			"search": "Search for dataset",

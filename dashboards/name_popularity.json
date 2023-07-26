@@ -1,0 +1,22 @@
+{
+	"dashboard_name": "name_popularity",
+	"data_last_updated": "2023-07-26 23:59",
+	"route": "/dashboard/name-popularity,/ms-MY/dashboard/name-popularity",
+	"manual_trigger": "",
+	"required_params": [],
+	"optional_params": [],
+	"charts": {
+		"top_names": {
+			"name": "top_names",
+			"chart_type": "metrics_table",
+			"chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/name_popularity_top.parquet",
+			"data_as_of": "2023-07-26 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["decade", "ethnicity"],
+				"value_columns": ["name_first", "sex", "count"]
+			}
+		}
+	}
+}
