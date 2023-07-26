@@ -15,6 +15,7 @@
 		"column_female_name": "Female Names",
 		"column_count": "Babies",
 		"privacy_prompt": "To preserve privacy, timeseries data for this name is not displayed.",
+		"privacy_prompt2": "To preserve privacy, most popular decade for this name is not displayed.",
 		"bar_title_first_one": "There is {{count, number}} living Malaysian with the first name ",
 		"bar_title_first_other": "There are {{count, number}} living Malaysians with the first name ",
 		"bar_title_last_one": "There is {{count, number}} living Malaysian with the surname ",
