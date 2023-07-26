@@ -5,6 +5,7 @@
 		"description": "Are you curious about how popular your name or surname is in Malaysia? Or perhaps you're a parent-to-be searching for a unique name for your child? Our name popularity dashboard lets you explore the popularity of any Malaysian name or surname with just a few clicks. Using Malaysia's gold-standard IC database, you can discover how many Malaysians share your name and gain fascinating insights into the country's diverse culture. Check it out now and satisfy your curiosity!",
 		"section1_title1": "Most popular",
 		"section1_title2": "baby names in",
+		"year_format": "{{year}}s",
 		"ethnicity": {
 			"malay": "Malay",
 			"chinese": "Chinese",
