@@ -11,7 +11,7 @@
 			"indian": "Indian"
 		},
 		"column_male_name": "Male Names",
-		"column_female_name": "Male Bames",
+		"column_female_name": "Female Names",
 		"column_count": "Babies",
 		"privacy_prompt": "To preserve privacy, timeseries data for this name is not displayed.",
 		"bar_title_first_one": "There is {{count, number}} living Malaysian with the first name ",
