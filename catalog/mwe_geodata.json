@@ -1,6 +1,7 @@
 {
 	"file": {
 		"manual_trigger": "",
+		"exclude_openapi": true,
 		"bucket": "dgmy-public-mwe",
 		"file_name": "mwe_geodata",
 		"category": "METADATA",
