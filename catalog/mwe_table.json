@@ -1,6 +1,7 @@
 {
 	"file": {
-		"manual_trigger": "2",
+		"manual_trigger": "0",
+		"exclude_openapi": false,
 		"bucket": "dgmy-public-mwe",
 		"file_name": "mwe_table",
 		"category": "METADATA",
@@ -73,7 +74,7 @@
 						"en": {
 							"state": "State",
 							"parlimen": "Parliament",
-							"area_km2": "Area (km²)",
+							"area_km2": "Area (km\u00b2)",
 							"population_total": "Total Population",
 							"nationality_citizen": "Citizen",
 							"nationality_non_citizen": "Non-citizen",
@@ -124,7 +125,7 @@
 						"bm": {
 							"state": "Negeri",
 							"parlimen": "Parlimen",
-							"area_km2": "Luas (km²)",
+							"area_km2": "Luas (km\u00b2)",
 							"population_total": "Jumlah Penduduk",
 							"nationality_citizen": "Warganegara",
 							"nationality_non_citizen": "Bukan Warganegara",

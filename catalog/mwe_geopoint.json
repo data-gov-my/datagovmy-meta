@@ -1,6 +1,7 @@
 {
 	"file": {
-		"manual_trigger": "",
+		"manual_trigger": "0",
+		"exclude_openapi": false,
 		"bucket": "dgmy-public-mwe",
 		"file_name": "mwe_geopoint",
 		"category": "METADATA",

@@ -1,6 +1,7 @@
 {
 	"file": {
-		"manual_trigger": 0,
+		"manual_trigger": "0",
+		"exclude_openapi": false,
 		"bucket": "elections_federal",
 		"file_name": "ge08_ballots",
 		"category": "ELECTIONS",

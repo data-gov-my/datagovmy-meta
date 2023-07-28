@@ -1,6 +1,7 @@
 {
 	"file": {
-		"manual_trigger": "",
+		"manual_trigger": "0",
+		"exclude_openapi": false,
 		"bucket": "dgmy-public-mwe",
 		"file_name": "mwe_pyramid",
 		"category": "METADATA",
@@ -24,7 +25,6 @@
 				"desc_en": "[Date] Date in YYYY-MM-DD format",
 				"desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
 			},
-
 			{
 				"id": -1,
 				"name": "ethnicity",
