@@ -4,7 +4,7 @@
         "header": "Pendermaan Organ",
         "description": "Pusat Sumber Transplan Nasional telah mengendalikan pendaftaran Pengikrar Derma Organ sejak 1997. Namun, sebahagian daripada data tersebut telah dikumpul secara manual. Data yang dipaparkan di sana adalah berdasarkan rekod sejak 2009 yang telah didigitalkan dan disatukan dengan data ikrar baru yang dikumpul melalui MySejahtera. Kementerian Kesihatan Malaysia sentiasa komited dalam memastikan penyampaian maklumat kesihatan yang komprehensif kepada rakyat.",
         "timeseries_header": "Apakah tren pengikrar organ terkini di {{ state }}?",
-        "timeseries_description": "Pada 6 September 2022, Ikrar Penderma Organ digital telah dilancarkan di MySejahtera. Lonjakan dalam jumlah ikrar sejak kebelakangan ini dapat dikaitkan dengan usaha digitalisasi ini.",
+        "timeseries_desc": "Pada 6 September 2022, Ikrar Penderma Organ digital telah dilancarkan di MySejahtera. Lonjakan dalam jumlah ikrar sejak kebelakangan ini dapat dikaitkan dengan usaha digitalisasi ini.",
         "timeseries_title": "{{ state }}: Ikrar Harian",
         "timeseries_title_monthly": "{{ state }}: Ikrar Bulanan",
         "timeseries_title_yearly": "{{ state }}: Ikrar Tahunan",
