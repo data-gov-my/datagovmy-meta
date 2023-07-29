@@ -20,7 +20,11 @@
       "environment": "Alam Sekitar",
       "digitalisation": "Digitalisasi",
       "government-programs": "Program Kerajaan",
-      "education": "Pendidikan"
+      "education": "Pendidikan",
+      "infectious-diseases": "Penyakit Berjangkit",
+      "healthcare-resources": "Sumber Sistem Kesihatan",
+      "healthcare-programs": "Program Kesihatan",
+      "national-accounts": "Akaun Kebangsaan"
     },
     "dashboards": {
       "emergency-response": {
@@ -182,6 +186,34 @@
       "ktmb-explorer": {
         "name": "Peneroka KTMB",
         "description": "Terokai jumlah penumpang mengikut perkhidmatan, asal, dan destinasi."
+      },
+      "healthcare-facilities": {
+        "name": "Fasiliti Kesihatan",
+        "description": "Pusat Informatik Kesihatan (PIK) mengendalikan pangkalan data tentang semua fasiliti keshatan di Malaysia"
+      },
+      "covidnow-data": {
+        "name": "Data tentang COVIDNOW",
+        "description": "Memaparkan data penting tentang tabiat penggunaan internet rakyat Malaysia ketika menulusuri COVIDNOW."
+      },
+      "labour-market": {
+        "name": "Pasaran Buruh",
+        "description": "Data daripada Laporan Tenaga Buruh bulanan, yang membentangkan statistik tenaga buruh, pekerjaan dan pengangguran yang diperoleh daripada Tinjauan Tenaga Buruh (LFS)."
+      },
+      "composite-index": {
+        "name": "Indeks Komposit",
+        "description": "Penunjuk Ekonomi Malaysia (MEI) iaitu set indeks komposit yang diterbitkan secara bulanan oleh DOSM, dan merangkumi indikator Pelopor, Serentak, dan Susulan yang menggambarkan pergerakan ekonomi di Malaysia."
+      },
+      "wholesale-retail": {
+        "name": "Perdagangan Borong dan Runcit",
+        "description": "Prestasi perdagangan borong dan runcit (termasuk perdagangan kenderaan bermotor) di Malaysia."
+      },
+      "industrial-production": {
+        "name": "Pengeluaran Perindustrian",
+        "description": "Prestasi pengeluaran perindustrian di Malaysia yang terdiri daripada sektor pengeluaran perlombongan, pembuatan, dan elektrik"
+      },
+      "producer-prices": {
+        "name": "Harga Pengeluar",
+        "description": "Harga yang diterima pengeluar untuk 1,063 item ketika tahap pertama pemerdagangan berlaku."
       }
     }
   }
