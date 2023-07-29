@@ -2,7 +2,7 @@
   "route": null,
   "translation": {
     "header": "Pasaran Buruh",
-    "description": "",
+    "description": "Data daripada Laporan Tenaga Buruh bulanan, yang membentangkan statistik tenaga buruh, pekerjaan dan pengangguran yang diperoleh daripada Tinjauan Tenaga Buruh (LFS)",
     "section_1": {
       "title": "Apakah tren pengangguran?",
       "description": ""
