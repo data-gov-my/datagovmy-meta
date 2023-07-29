@@ -214,6 +214,10 @@
       "producer-prices": {
         "name": "Producer Prices",
         "description": "Prices received by producers for 1,063 items, at the first stage of commercialization."
+      },
+      "kawasanku": {
+        "name": "Kawasanku",
+        "description": "Population data at State, District, Parliament Constituency & State Legislative Assembly level."
       }
     }
   }
