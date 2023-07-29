@@ -214,6 +214,10 @@
       "producer-prices": {
         "name": "Harga Pengeluar",
         "description": "Harga yang diterima pengeluar untuk 1,063 item ketika tahap pertama pemerdagangan berlaku."
+      },
+      "kawasanku": {
+        "name": "Kawasanku",
+        "description": "Data populasi penduduk di peringkat Negeri, Daerah, Parlimen dan Dewan Undangan Negeri (DUN)."
       }
     }
   }
