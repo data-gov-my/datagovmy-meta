@@ -1,6 +1,7 @@
 {
 	"file": {
-		"manual_trigger": "1",
+		"manual_trigger": "0",
+		"exclude_openapi": false,
 		"bucket": "dgmy-public-mwe",
 		"file_name": "mwe_line_2",
 		"category": "METADATA",
@@ -90,8 +91,14 @@
 						"chart_variables": {
 							"parents": [],
 							"line_type": {
-								"y1": { "stepped": true, "tension": 0 },
-								"y2": { "stepped": true, "tension": 0 }
+								"y1": {
+									"stepped": true,
+									"tension": 0
+								},
+								"y2": {
+									"stepped": true,
+									"tension": 0
+								}
 							},
 							"format": {
 								"x": "taxable_income",

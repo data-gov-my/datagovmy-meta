@@ -20,7 +20,11 @@
       "environment": "Environment",
       "digitalisation": "Digitalisation",
       "government-programs": "Government Programs",
-      "education": "Education"
+      "education": "Education",
+      "infectious-diseases": "Infectious Diseases",
+      "healthcare-resources": "Healthcare Resources",
+      "healthcare-programs": "Healthcare Programs",
+      "national-accounts": "National Accounts"
     },
     "dashboards": {
       "emergency-response": {
@@ -182,6 +186,38 @@
       "ktmb-explorer": {
         "name": "KTMB Explorer",
         "description": "Explore ridership by services, origins and destination."
+      },
+      "healthcare-facilities": {
+        "name": "Healthcare Facilities",
+        "description": "The Health Informatics Centre (PIK) maintains a constantly-updated database on all healthcare facilities in Malaysia."
+      },
+      "covidnow-data": {
+        "name": "Data on COVIDNOW",
+        "description": "Discover important data about the internet usage habits of Malaysians when browsing COVIDNOW"
+      },
+      "labour-market": {
+        "name": "Labour Markets",
+        "description": "Data from the monthly Labour Force Report, which presents statistics of the labour force, employment and unemployment obtained from the Labour Force Survey (LFS)"
+      },
+      "composite-index": {
+        "name": "Composite Indices",
+        "description": "Malaysian Economic Indicators (MEI) a set of composite indices published monthly by DOSM, which provides Leading, Coincident and Lagging signals on economic movement in Malaysia"
+      },
+      "wholesale-retail": {
+        "name": "Wholesale & Retail Trade",
+        "description": "Performance of wholesale and retail trade (including trade of motor vehicles) in Malaysia."
+      },
+      "industrial-production": {
+        "name": "Industrial Production",
+        "description": "Performance of industrial production in Malaysia, comprising the mining, manufacturing, and electricity production sectors."
+      },
+      "producer-prices": {
+        "name": "Producer Prices",
+        "description": "Prices received by producers for 1,063 items, at the first stage of commercialization."
+      },
+      "kawasanku": {
+        "name": "Kawasanku",
+        "description": "Population data at State, District, Parliament Constituency & State Legislative Assembly level."
       }
     }
   }
