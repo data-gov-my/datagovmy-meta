@@ -1,6 +1,6 @@
 {
     "dashboard_name": "industrial_production",
-    "data_last_updated": "2023-06-31 23:59",
+    "data_last_updated": "2023-07-31 23:59",
     "route": "/dashboard/industrial-production,/ms-MY/dashboard/industrial-production",    
     "manual_trigger": "",
     "required_params": [],

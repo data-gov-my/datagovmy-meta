@@ -1,6 +1,6 @@
 {
     "dashboard_name": "composite_indices",
-    "data_last_updated": "2023-06-31 23:59",
+    "data_last_updated": "2023-07-31 23:59",
     "route": "/dashboard/composite-indices,/ms-MY/dashboard/composite-indices",    
     "manual_trigger": "0",
     "required_params": [],
