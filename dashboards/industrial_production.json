@@ -14,7 +14,7 @@
             "api_type": "static",
             "api_params": [],
             "variables": {
-                "keys" : [],
+                "keys" : ["chart_type"],
                 "rename_cols" : {
                     "date" : "x"
                 },
