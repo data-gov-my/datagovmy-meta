@@ -17,6 +17,14 @@
       "full": "Employees Provident Fund",
       "abbr": "EPF"
     },
+    "epu": {
+      "full": "Ministry of the Economy",
+      "abbr": "EPU"
+    },
+    "govt": {
+      "full": "Government of Malaysia",
+      "abbr": "GOVT"
+    },
     "icu-jpm": {
       "full": "Internal Coordination Unit",
       "abbr": "ICU JPM"
@@ -45,10 +53,6 @@
       "full": "Department of Irrigation and Drainage",
       "abbr": "JPS"
     },
-    "ke": {
-      "full": "Ministry of Health",
-      "abbr": "KE"
-    },
     "ktmb": {
       "full": "Malayan Railways Limited",
       "abbr": "KTMB"
@@ -74,7 +78,7 @@
       "abbr": "MERS 999"
     },
     "met": {
-      "full": "Meteorology",
+      "full": "Malaysian Meteorology Department",
       "abbr": "Met"
     },
     "moe": {
@@ -94,7 +98,7 @@
       "abbr": "MoT"
     },
     "ntrc": {
-      "full": "National Transplant Resource Center",
+      "full": "National Transplant Resource Centre",
       "abbr": "NTRC"
     },
     "pdn": {
@@ -120,14 +124,6 @@
     "unhcr": {
       "full": "United Nations High Commissioner for Refugees",
       "abbr": "UNHCR"
-    },
-    "govt": {
-      "full": "Government of Malaysia",
-      "abbr": "GOVT"
-    },
-    "epu": {
-      "full": "Ministry of the Economy",
-      "abbr": "EPU"
     }
   }
 }
