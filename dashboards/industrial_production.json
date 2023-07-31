@@ -1,0 +1,56 @@
+{
+    "dashboard_name": "industrial_production",
+    "data_last_updated": "2023-06-31 23:59",
+    "route": "/dashboard/industrial-production,/ms-MY/dashboard/industrial-production",    
+    "manual_trigger": "",
+    "required_params": [],
+    "optional_params": [],
+    "charts": {
+        "timeseries": {
+            "name": "timeseries",
+            "chart_type": "timeseries_chart",
+            "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/ipi_timeseries.parquet",
+            "data_as_of": "2023-05-31 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys" : [],
+                "rename_cols" : {
+                    "date" : "x"
+                },
+                "value_columns" : [
+                    "x",
+                    "overall",
+                    "mining",
+                    "mfg",
+                    "electric",
+                    "mfg_food",
+                    "mfg_textiles",
+                    "mfg_wood",
+                    "mfg_petroleum",
+                    "mfg_metal",
+                    "mfg_electric",
+                    "mfg_transport",
+                    "recession"
+                ]
+            }
+        },
+        "statistics": {
+            "name": "statistics",
+            "chart_type": "custom_chart",
+            "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/ipi_timeseries_callout.parquet",
+            "data_as_of": "2023-05-31 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "chart_type",
+                    "chart"
+                ],
+                "value_columns": [
+                    "callout"
+                ]
+            }
+        }
+    }
+}
