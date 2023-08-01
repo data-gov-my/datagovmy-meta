@@ -33,6 +33,8 @@
 			"monthly": "Monthly",
 			"quarterly": "Quarterly",
 			"yearly": "Yearly",
+			"infrequent": "Infrequent",
+			"as_required": "As Required",
 			"state": "State",
 			"dun": "DUN",
 			"national": "National",
