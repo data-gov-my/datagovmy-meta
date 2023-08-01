@@ -33,6 +33,8 @@
 			"monthly": "Bulanan",
 			"quarterly": "Suku Tahunan",
 			"yearly": "Tahunan",
+			"infrequent": "Jarang",
+			"as_required": "Jika Perlu",
 			"state": "Negeri",
 			"dun": "DUN",
 			"national": "Kebangsaan",

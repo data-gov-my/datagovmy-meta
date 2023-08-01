@@ -17,6 +17,14 @@
       "full": "Kumpulan Wang Simpanan Pekerja",
       "abbr": "KWSP"
     },
+    "epu": {
+      "full": "Kementerian Ekonomi",
+      "abbr": "EPU"
+    },
+    "govt": {
+      "full": "Kerajaan Malaysia",
+      "abbr": "GOVT"
+    },
     "icu-jpm": {
       "full": "Unit Penyelarasan Pelaksanaan",
       "abbr": "ICU JPM"
@@ -45,10 +53,6 @@
       "full": "Jabatan Pengairan dan Saliran",
       "abbr": "JPS"
     },
-    "ke": {
-      "full": "Kementerian Kesihatan",
-      "abbr": "KE"
-    },
     "ktmb": {
       "full": "Keretapi Tanah Melayu Berhad",
       "abbr": "KTMB"
@@ -62,7 +66,7 @@
       "abbr": "LHDN"
     },
     "mampu": {
-      "full": "Majlis Amanah Rakyat",
+      "full": "Unit Pemodenan Tadbiran dan Perancangan Pengurusan Malaysia",
       "abbr": "MAMPU"
     },
     "mcmc": {
@@ -74,7 +78,7 @@
       "abbr": "MERS 999"
     },
     "met": {
-      "full": "Meteorologi",
+      "full": "Jabatan Meteorologi Malaysia",
       "abbr": "Met"
     },
     "moe": {
@@ -94,7 +98,7 @@
       "abbr": "MoT"
     },
     "ntrc": {
-      "full": "National Transplant Resource Center",
+      "full": "Pusat Sumber Transplan Nasional",
       "abbr": "NTRC"
     },
     "pdn": {
@@ -120,14 +124,6 @@
     "unhcr": {
       "full": "Pesuruhjaya Tinggi Bangsa-Bangsa Bersatu untuk Pelarian",
       "abbr": "UNHCR"
-    },
-    "govt": {
-      "full": "Kerajaan Malaysia",
-      "abbr": "GOVT"
-    },
-    "epu": {
-      "full": "Kementerian Ekonomi",
-      "abbr": "EPU"
     }
   }
 }

@@ -1,0 +1,51 @@
+{
+    "dashboard_name": "producer_price_index",
+    "data_last_updated": "2023-07-31 23:59",
+    "route": "/dashboard/producer-price-index,/ms-MY/dashboard/producer-price-index",  
+    "manual_trigger": "",
+    "required_params": [],
+    "optional_params": [],
+    "charts": {
+        "timeseries": {
+            "name": "timeseries",
+            "chart_type": "timeseries_chart",
+            "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/ppi_main_timeseries.parquet",
+            "data_as_of": "2023-06-30 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys" : ["chart_type"],
+                "rename_cols" : {
+                    "date" : "x"
+                },
+                "value_columns" : [
+                    "x",
+                    "overall",
+                    "agriculture",
+                    "mining",
+                    "manufacturing",
+                    "electricity",
+                    "water",
+                    "recession"
+                ]
+            }
+        },
+        "statistics": {
+            "name": "statistics",
+            "chart_type": "custom_chart",
+            "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/ppi_main_timeseries_callout.parquet",
+            "data_as_of": "2023-06-30 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "chart_type",
+                    "chart"
+                ],
+                "value_columns": [
+                    "callout"
+                ]
+            }
+        }
+    }
+}
