@@ -35,8 +35,8 @@
 						"data_source": ["SPR"]
 					},
 					"metadata_neutral": {
-						"data_as_of": "1955-08-31 23:59",
-						"last_updated": "2023-07-18 23:59",
+						"data_as_of": "1955-08-31 23:59:00",
+						"last_updated": "2023-07-18 23:59:00",
 						"next_update": "-"
 					},
 					"metadata_lang": {
