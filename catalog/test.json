@@ -44,17 +44,15 @@
 			{
 				"id": 0,
 				"name": "ridership",
-				"title_en": "Ridership (1 line)",
-				"title_bm": "Ridership (1 siri)",
+				"title_en": "ridership (1 bar)",
+				"title_bm": "ridership (1 bar)",
 				"desc_en": "A precise, succinct description of this chart",
 				"desc_bm": "A precise, succinct description of this chart",
 				"catalog_data": {
-					"id": 0,
 					"catalog_filters": {
-						"frequency": "DAILY",
-						"limit_frequency": false,
-						"geography": ["STATE", "NATIONAL"],
-						"demography": ["SEX", "MARITAL"],
+						"frequency": "MONTHLY",
+						"geography": ["NATIONAL"],
+						"demography": [],
 						"start": "2006",
 						"end": "2023",
 						"data_source": ["MAMPU"]
@@ -77,14 +75,13 @@
 						}
 					},
 					"chart": {
-						"chart_type": "TIMESERIES",
+						"chart_type": "BAR",
 						"chart_filters": {
 							"SLICE_BY": ["origin", "destination"],
 							"precision": 0
 						},
 						"chart_variables": {
 							"parents": ["origin", "destination"],
-							"operation": "SUM",
 							"format": {
 								"x": "timestamp",
 								"y": ["ridership"]
@@ -93,12 +90,12 @@
 					},
 					"translations": {
 						"en": {
-							"x": "Timestamp",
-							"y1": "Ridership"
+							"x": "timestamp",
+							"y": "ridership"
 						},
 						"bm": {
-							"x": "Timestamp",
-							"y1": "Ridership"
+							"x": "timestamp",
+							"y": "ridership"
 						}
 					}
 				}
