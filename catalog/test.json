@@ -1,7 +1,7 @@
 {
 	"file": {
 		"manual_trigger": "0",
-		"exclude_openapi": false,
+		"exclude_openapi": true,
 		"bucket": "transportation",
 		"file_name": "ridership_sample_truncated",
 		"category": "METADATA",
