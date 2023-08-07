@@ -1,0 +1,21 @@
+{
+    "route": null,
+    "translation": {
+        "nso": "Malaysia's National Statistics Organisation",
+        "header": "Publications",
+        "description": "As Malaysia's official national statistics organisation (NSO), DOSM's role goes far beyond just releasing datasets like the ones you can explore and download from our Data Catalogue. Every year, we release over 1000 publications slicing, dicing, and analysing the data we publish - to help people make sense of it. This page catalogues all of those publications, together with technical documentation, in a seamless interface for you to explore. Enjoy!",
+        "browse": "Browse",
+        "upcoming": "Upcoming",
+        "upcoming_publications": "Upcoming Publications",
+        "documentation": "Documentation",
+        "browse_publications": "Looking for something specific?",
+        "select_publication": "Select a publication",
+        "filter_by": "Filter by",
+        "new": "New",
+        "download_list": "Download list",
+        "subject": "Subject",
+        "file_download": "File Download",
+        "download_pdf": "Download PDF",
+        "download_excel": "Download XLSX"
+    }
+}

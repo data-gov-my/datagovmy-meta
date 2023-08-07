@@ -1,0 +1,21 @@
+{
+    "route": null,
+    "translation": {
+        "nso": "Pertubuhan Perangkaan Kebangsaan Malaysia",
+        "header": "Penerbitan",
+        "description": "As Malaysia's official national statistics organisation (NSO), DOSM's role goes far beyond just releasing datasets like the ones you can explore and download from our Data Catalogue. Every year, we release over 1000 publications slicing, dicing, and analysing the data we publish - to help people make sense of it. This page catalogues all of those publications, together with technical documentation, in a seamless interface for you to explore. Enjoy!",
+        "browse": "Layari",
+        "upcoming": "Akan Datang",
+        "upcoming_publications": "Penerbitan Akan Datang",
+        "documentation": "Dokumentasi",
+        "browse_publications": "Cari penerbitan spesifik?",
+        "select_publication": "Pilih suatu penerbitan",
+        "filter_by": "Tapiskan",
+        "new": "Baru",
+        "download_list": "Senarai muat turun",
+        "subject": "Subjek",
+        "file_download": "Muat Turun Fail",
+        "download_pdf": "Muat Turun PDF",
+        "download_excel": "Muat Turun XLSX"
+    }
+}
