@@ -1,0 +1,72 @@
+{
+    "publication": "cpi-2023-05",
+    "release_date": "2023-07-24",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[May 2023] Consumer Price Index",
+        "publication_type": "Consumer Price Index",
+        "description": "Official inflation data, covering headline, core, and state-level inflation",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Consumer Price Index Report: May 2023",
+                "resource_link": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/publications/cpi_2023-05_report.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "CPI Main Tables: May 2023",
+                "resource_link": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/publications/cpi_2023-05_main.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "CPI Tables by State: May 2023",
+                "resource_link": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/publications/cpi_2023-05_state.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Core CPI Tables: May 2023",
+                "resource_link": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/publications/cpi_2023-05_core.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Mei 2023] Indeks Harga Pengguna",
+        "publication_type": "Indeks Harga Pengguna",
+        "description": "Data inflasi rasmi, merangkumi inflasi, inflasi teras, dan inflasi mengikut negeri",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Laporan Indeks Harga Pengguna: Mei 2023",
+                "resource_link": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/publications/cpi_2023-05_report.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Jadual Utama IHP: Mei 2023",
+                "resource_link": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/publications/cpi_2023-05_main.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Jadual IHP mengikut Negeri: Mei 2023",
+                "resource_link": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/publications/cpi_2023-05_state.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Jadual IHP Teras: Mei 2023",
+                "resource_link": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/publications/cpi_2023-05_core.xlsx"
+            }
+        ]
+    }
+}

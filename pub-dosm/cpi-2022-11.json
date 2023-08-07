@@ -1,0 +1,72 @@
+{
+    "publication": "cpi-2022-11",
+    "release_date": "2023-07-24",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Nov 2022] Consumer Price Index",
+        "publication_type": "Consumer Price Index",
+        "description": "Official inflation data, covering headline, core, and state-level inflation",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Consumer Price Index Report: Nov 2022",
+                "resource_link": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/publications/cpi_2022-11_report.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "CPI Main Tables: Nov 2022",
+                "resource_link": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/publications/cpi_2022-11_main.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "CPI Tables by State: Nov 2022",
+                "resource_link": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/publications/cpi_2022-11_state.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Core CPI Tables: Nov 2022",
+                "resource_link": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/publications/cpi_2022-11_core.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Nov 2022] Indeks Harga Pengguna",
+        "publication_type": "Indeks Harga Pengguna",
+        "description": "Data inflasi rasmi, merangkumi inflasi, inflasi teras, dan inflasi mengikut negeri",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Laporan Indeks Harga Pengguna: Nov 2022",
+                "resource_link": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/publications/cpi_2022-11_report.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Jadual Utama IHP: Nov 2022",
+                "resource_link": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/publications/cpi_2022-11_main.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Jadual IHP mengikut Negeri: Nov 2022",
+                "resource_link": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/publications/cpi_2022-11_state.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Jadual IHP Teras: Nov 2022",
+                "resource_link": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/publications/cpi_2022-11_core.xlsx"
+            }
+        ]
+    }
+}
