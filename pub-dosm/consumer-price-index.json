@@ -1,5 +1,6 @@
 {
-	"publication": "consumer-price-index",
+	"publication": "cpi-2023-06",
+	"publication_type": "cpi",
 	"release_date": "2023-07-24",
 	"frequency": "MONTHLY",
 	"geography": ["NATIONAL", "STATE"],
