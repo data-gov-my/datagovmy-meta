@@ -4,7 +4,7 @@
 	"frequency": "MONTHLY",
 	"geography": ["NATIONAL", "STATE"],
 	"demography": [],
-	"en-GB": {
+	"en": {
 		"title": "[June 2023] Consumer Price Index",
 		"description": "Official inflation data for Malaysia, covering headline, core, and state-level inflation",
 		"resources": [
@@ -30,7 +30,7 @@
 			}
 		]
 	},
-	"ms-MY": {
+	"bm": {
 		"title": "[Jun 2023] Indeks Harga Pengguna",
 		"description": "Data inflasi rasmi bagi Malaysia, merangkumi inflasi, inflasi teras, dan inflasi mengikut negeri",
 		"resources": [
