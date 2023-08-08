@@ -1,12 +1,13 @@
 {
 	"publication": "cpi-2023-06",
+	"publication_type": "cpi",
 	"release_date": "2023-07-24",
 	"frequency": "MONTHLY",
 	"geography": ["NATIONAL", "STATE"],
 	"demography": [],
 	"en": {
 		"title": "[Jun 2023] Consumer Price Index",
-		"publication_type": "Consumer Price Index",
+		"publication_type_title": "Consumer Price Index",
 		"description": "Official inflation data, covering headline, core, and state-level inflation",
 		"resources": [
 			{
@@ -37,7 +38,7 @@
 	},
 	"bm": {
 		"title": "[Jun 2023] Indeks Harga Pengguna",
-		"publication_type": "Indeks Harga Pengguna",
+		"publication_type_title": "Indeks Harga Pengguna",
 		"description": "Data inflasi rasmi, merangkumi inflasi, inflasi teras, dan inflasi mengikut negeri",
 		"resources": [
 			{
