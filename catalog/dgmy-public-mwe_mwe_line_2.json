@@ -86,7 +86,7 @@
 						"chart_type": "LINE",
 						"chart_filters": {
 							"SLICE_BY": [],
-							"precision": 1
+							"precision": 0
 						},
 						"chart_variables": {
 							"parents": [],
