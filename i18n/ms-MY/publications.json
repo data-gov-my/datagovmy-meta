@@ -12,8 +12,10 @@
         "select_publication": "Pilih suatu penerbitan",
         "filter_by": "Tapiskan",
         "new": "Baru",
+        "downloads": "Muat Turun",
         "download_list": "Senarai muat turun",
         "subject": "Subjek",
+        "search_subject": "Cari subjek",
         "file_download": "Muat Turun Fail",
         "download_pdf": "Muat Turun PDF",
         "download_excel": "Muat Turun XLSX"

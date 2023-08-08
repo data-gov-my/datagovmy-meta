@@ -12,8 +12,10 @@
         "select_publication": "Select a publication",
         "filter_by": "Filter by",
         "new": "New",
+        "downloads": "Downloads",
         "download_list": "Download list",
         "subject": "Subject",
+        "search_subject": "Search for subject title",
         "file_download": "File Download",
         "download_pdf": "Download PDF",
         "download_excel": "Download XLSX"
