@@ -1,0 +1,109 @@
+{
+	"file": {
+		"manual_trigger": "0",
+		"exclude_openapi": false,
+		"bucket": "test",
+		"file_name": "intraday_test",
+		"category": "METADATA",
+		"category_en": "Site Metadata",
+		"category_bm": "Metadata Portal",
+		"subcategory": "SAMPLE_CHART",
+		"subcategory_en": "Chart Samples",
+		"subcategory_bm": "Contoh Carta",
+		"description": {
+			"en": "Lorem ipsum.",
+			"bm": "Lorem ipsum."
+		},
+		"link_parquet": "https://storage.data.gov.my/transportation/ridership_sample_truncated.parquet",
+		"link_csv": "https://storage.data.gov.my/transportation/ridership_sample_truncated.parquet",
+		"link_preview" : "https://storage.data.gov.my/transportation/ridership_sample_truncated.parquet",
+		"variables": [
+			{
+				"id": -1,
+				"name": "timestamp",
+				"title_en": "timestamp",
+				"title_bm": "timestamp",
+				"desc_en": "[timestamp] The date in YYYY-MM-DD H:M:S format",
+				"desc_bm": "[timestamp] Tarikh dalam format YYYY-MM-DD H:M:S"
+			},
+			{
+				"id": -1,
+				"name": "origin",
+				"title_en": "origin",
+				"title_bm": "origin",
+				"desc_en": "[origin] Station ID",
+				"desc_bm": "[origin] Stesen ID"
+			},
+			{
+				"id": -1,
+				"name": "destination",
+				"title_en": "destination",
+				"title_bm": "destination",
+				"desc_en": "[destination] Station ID",
+				"desc_bm": "[Integer] Stesen ID"
+			},
+			{
+				"id": 0,
+				"name": "intraday_timeseries",
+				"title_en": "Intraday Timeseries (1 line)",
+				"title_bm": "Intraday Siri Masa (1 siri)",
+				"desc_en": "A precise, succinct description of this chart",
+				"desc_bm": "A precise, succinct description of this chart",
+				"catalog_data": {
+					"id": 0,
+					"catalog_filters": {
+						"frequency": "DAILY",
+						"limit_frequency": false,
+						"geography": ["STATE", "NATIONAL"],
+						"demography": ["SEX", "MARITAL"],
+						"start": "2006",
+						"end": "2023",
+						"data_source": ["MAMPU"]
+					},
+					"metadata_neutral": {
+						"data_as_of": "2023-04-03 23:59:00",
+						"last_updated": "2023-04-04 06:00:00",
+						"next_update": "2023-04-05 06:00:00"
+					},
+					"metadata_lang": {
+						"en": {
+							"methodology": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+							"caveat": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+							"publication": "Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 'Lorem ipsum dolor sit amet..'', comes from a line in section 1.10.32."
+						},
+						"bm": {
+							"methodology": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+							"caveat": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+							"publication": "Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 'Lorem ipsum dolor sit amet..'', comes from a line in section 1.10.32."
+						}
+					},
+					"chart": {
+						"chart_type": "INTRADAY",
+						"chart_filters": {
+							"SLICE_BY": ["origin", "destination"],
+							"precision": 0
+						},
+						"chart_variables": {
+							"parents": ["origin", "destination"],
+							"operation": "NONE",
+							"format": {
+								"x": "timestamp",
+								"y": ["ridership"]
+							}
+						}
+					},
+					"translations": {
+						"en": {
+							"x": "Timestamp",
+							"y1": "Ridership"
+						},
+						"bm": {
+							"x": "Timestamp",
+							"y1": "Ridership"
+						}
+					}
+				}
+			}
+		]
+	}
+}
