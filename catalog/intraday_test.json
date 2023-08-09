@@ -1,7 +1,7 @@
 {
 	"file": {
 		"manual_trigger": "1",
-		"exclude_openapi": false,
+		"exclude_openapi": true,
 		"bucket": "test",
 		"file_name": "intraday_test",
 		"category": "METADATA",
