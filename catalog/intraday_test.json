@@ -1,6 +1,6 @@
 {
 	"file": {
-		"manual_trigger": "0",
+		"manual_trigger": "1",
 		"exclude_openapi": false,
 		"bucket": "test",
 		"file_name": "intraday_test",
@@ -16,7 +16,7 @@
 		},
 		"link_parquet": "https://storage.data.gov.my/transportation/ridership_sample_truncated.parquet",
 		"link_csv": "https://storage.data.gov.my/transportation/ridership_sample_truncated.parquet",
-		"link_preview" : "https://storage.data.gov.my/transportation/ridership_sample_truncated.parquet",
+		"link_preview": "https://storage.data.gov.my/transportation/ridership_sample_truncated.parquet",
 		"variables": [
 			{
 				"id": -1,
