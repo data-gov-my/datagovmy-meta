@@ -18,6 +18,19 @@
         "search_subject": "Search for subject title",
         "file_download": "File Download",
         "download_pdf": "Download PDF",
-        "download_excel": "Download XLSX"
+        "download_excel": "Download XLSX",
+        "sun": "Sun",
+        "mon": "Mon",
+        "tue": "Tue",
+        "wed": "Wed",
+        "thu": "Thu",
+        "fri": "Fri",
+        "sat": "Sat",
+        "today": "Today",
+        "calendar_view": "Calendar View",
+        "cards_view": "Cards View",
+        "list_view": "List View",
+        "technical_notes": "Technical Notes",
+        "data_dictionary": "Data Dictionary"
     }
 }
