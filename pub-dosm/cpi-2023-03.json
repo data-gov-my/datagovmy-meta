@@ -1,0 +1,70 @@
+{
+	"publication": "cpi-2023-03",
+	"publication_type": "cpi",
+	"release_date": "2023-04-24",
+	"frequency": "MONTHLY",
+	"geography": ["NATIONAL", "STATE"],
+	"demography": [],
+	"en": {
+		"title": "[Mar 2023] Consumer Price Index",
+		"publication_type_title": "Consumer Price Index",
+		"description": "Official inflation data, covering headline, core, and state-level inflation",
+		"resources": [
+			{
+				"resource_id": 1,
+				"resource_type": "pdf",
+				"resource_name": "Consumer Price Index Report: Mar 2023",
+				"resource_link": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/publications/cpi_2023-03_report.pdf"
+			},
+			{
+				"resource_id": 2,
+				"resource_type": "excel",
+				"resource_name": "CPI Main Tables: Mar 2023",
+				"resource_link": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/publications/cpi_2023-03_main.xlsx"
+			},
+			{
+				"resource_id": 3,
+				"resource_type": "excel",
+				"resource_name": "CPI Tables by State: Mar 2023",
+				"resource_link": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/publications/cpi_2023-03_state.xlsx"
+			},
+			{
+				"resource_id": 4,
+				"resource_type": "excel",
+				"resource_name": "Core CPI Tables: Mar 2023",
+				"resource_link": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/publications/cpi_2023-03_core.xlsx"
+			}
+		]
+	},
+	"bm": {
+		"title": "[Mac 2023] Indeks Harga Pengguna",
+		"publication_type_title": "Indeks Harga Pengguna",
+		"description": "Data inflasi rasmi, merangkumi inflasi, inflasi teras, dan inflasi mengikut negeri",
+		"resources": [
+			{
+				"resource_id": 1,
+				"resource_type": "pdf",
+				"resource_name": "Laporan Indeks Harga Pengguna: Mac 2023",
+				"resource_link": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/publications/cpi_2023-03_report.pdf"
+			},
+			{
+				"resource_id": 2,
+				"resource_type": "excel",
+				"resource_name": "Jadual Utama IHP: Mac 2023",
+				"resource_link": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/publications/cpi_2023-03_main.xlsx"
+			},
+			{
+				"resource_id": 3,
+				"resource_type": "excel",
+				"resource_name": "Jadual IHP mengikut Negeri: Mac 2023",
+				"resource_link": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/publications/cpi_2023-03_state.xlsx"
+			},
+			{
+				"resource_id": 4,
+				"resource_type": "excel",
+				"resource_name": "Jadual IHP Teras: Mac 2023",
+				"resource_link": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/publications/cpi_2023-03_core.xlsx"
+			}
+		]
+	}
+}
