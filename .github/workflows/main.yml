@@ -20,10 +20,17 @@ jobs:
 
         # Steps represent a sequence of tasks that will be executed as part of the job
         steps:
-            - name: POST call prod
+            - name: POST call datagovmy prod
               uses: fjogeleit/http-request-action@v1
               with:
                   url: "https://datagovmy.app/update/"
                   method: "POST"
                   customHeaders: '{"Authorization": "${{ secrets.WORKFLOW_TOKEN }}"}'
+                  timeout: 30000
+            - name: POST call openapi prod
+              uses: fjogeleit/http-request-action@v1
+              with:
+                  url: "https://api.datagovmy.dev/data-catalogue/update/"
+                  method: "POST"
+                  customHeaders: '{"Authorization": "${{ secrets.DATA_CATALOGUE_TOKEN }}"}'
                   timeout: 30000
