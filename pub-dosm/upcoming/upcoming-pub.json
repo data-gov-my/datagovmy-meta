@@ -1,0 +1,14 @@
+{
+	"publication": "something-new",
+	"release_date": "2023-09-05",
+	"en": {
+		"title": "Something New!",
+		"product_type": "Publication",
+		"release_series": "Secret series"
+	},
+	"bm": {
+		"title": "Something Baharu!",
+		"product_type": "Publikasi",
+		"release_series": "Siri Rahsia"
+	}
+}
