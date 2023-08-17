@@ -18,12 +18,15 @@
     "table": {
       "title": "Title",
       "desc": "Description",
+      "product_type": "Product Type",
+      "release_series": "Release Series",
       "release_date": "Release Date"
     },
     "search_subject": "Search for subject title",
     "file_download": "File Download",
     "download_pdf": "Download PDF",
     "download_excel": "Download XLSX",
+    "copy_publication_link": "Copy publication link",
     "sun": "Sun",
     "mon": "Mon",
     "tue": "Tue",
@@ -36,6 +39,6 @@
     "cards_view": "Cards View",
     "list_view": "List View",
     "technical_notes": "Technical Notes",
-    "data_dictionary": "Data Dictionary"
+    "data_dictionaries": "Data Dictionaries"
   }
 }

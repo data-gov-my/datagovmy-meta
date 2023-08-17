@@ -18,12 +18,15 @@
     "table": {
       "title": "Tajuk",
       "desc": "Penerangan",
+      "product_type": "Jenis Produk",
+      "release_series": "Siri Keluaran",
       "release_date": "Tarikh Keluaran"
     },
     "search_subject": "Cari subjek",
     "file_download": "Muat Turun Fail",
     "download_pdf": "Muat Turun PDF",
     "download_excel": "Muat Turun XLSX",
+    "copy_publication_link": "Salin pautan",
     "sun": "Aha",
     "mon": "Isn",
     "tue": "Sel",
@@ -36,6 +39,6 @@
     "cards_view": "Paparan Kad",
     "list_view": "Senarai",
     "technical_notes": "Nota Teknikal",
-    "data_dictionary": "Kamus Data"
+    "data_dictionaries": "Kamus Data"
   }
 }
