@@ -1,13 +1,16 @@
 {
 	"publication": "something-new",
+	"publication_type": "cpi",
 	"release_date": "2023-09-05",
 	"en": {
 		"title": "Something New!",
+		"publication_type_title": "Consumer Price Index",
 		"product_type": "Publication",
 		"release_series": "Secret series"
 	},
 	"bm": {
 		"title": "Something Baharu!",
+		"publication_type_title": "Indeks Harga Pengguna",
 		"product_type": "Publikasi",
 		"release_series": "Siri Rahsia"
 	}
