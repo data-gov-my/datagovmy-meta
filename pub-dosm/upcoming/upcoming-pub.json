@@ -1,3 +1,4 @@
 {
-	"parquet_link": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/test-upcoming-pubs.parquet"
+	"manual_trigger": 0,
+	"parquet_link": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/meta/arc.parquet"
 }
