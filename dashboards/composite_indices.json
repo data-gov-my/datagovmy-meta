@@ -1,7 +1,10 @@
 {
     "dashboard_name": "composite_indices",
     "data_last_updated": "2023-07-31 23:59",
-    "route": "/dashboard/composite-indices,/ms-MY/dashboard/composite-indices",    
+    "route": "/dashboard/composite-indices,/ms-MY/dashboard/composite-indices",
+    "sites": [
+        "datagovmy"
+    ],
     "manual_trigger": "0",
     "required_params": [],
     "optional_params": [],
@@ -14,18 +17,20 @@
             "api_type": "static",
             "api_params": [],
             "variables": {
-                "keys" : ["chart_type"],
-                "rename_cols" : {
-                    "date" : "x"
+                "keys": [
+                    "chart_type"
+                ],
+                "rename_cols": {
+                    "date": "x"
                 },
-                "value_columns" : [
-                    "x", 
-                    "leading", 
-                    "coincident", 
-                    "lagging", 
-                    "leading_diffusion", 
-                    "coincident_diffusion", 
-                    "flag_recession_business", 
+                "value_columns": [
+                    "x",
+                    "leading",
+                    "coincident",
+                    "lagging",
+                    "leading_diffusion",
+                    "coincident_diffusion",
+                    "flag_recession_business",
                     "flag_recession_growth"
                 ]
             }

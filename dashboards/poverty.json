@@ -2,6 +2,9 @@
     "dashboard_name": "poverty",
     "data_last_updated": "2023-07-27 23:59",
     "route": "/dashboard/poverty,/ms-MY/dashboard/poverty",
+    "sites": [
+        "datagovmy"
+    ],
     "manual_trigger": "1",
     "required_params": [],
     "optional_params": [],

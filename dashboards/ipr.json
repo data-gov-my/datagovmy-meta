@@ -2,6 +2,9 @@
     "dashboard_name": "ipr",
     "data_last_updated": "2023-06-01 23:59",
     "route": "/dashboard/ipr,/ms-MY/dashboard/ipr",
+    "sites": [
+        "datagovmy"
+    ],
     "manual_trigger": "2",
     "required_params": [
         "state"

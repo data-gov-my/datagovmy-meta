@@ -2,6 +2,9 @@
     "dashboard_name": "perkeso",
     "data_last_updated": "2023-06-28 23:59",
     "route": "/dashboard/perkeso,/ms-MY/dashboard/perkeso",
+    "sites": [
+        "datagovmy"
+    ],
     "manual_trigger": "2",
     "required_params": [],
     "optional_params": [],

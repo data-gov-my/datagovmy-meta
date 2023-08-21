@@ -1,7 +1,10 @@
 {
     "dashboard_name": "labour",
     "data_last_updated": "2023-07-31 23:59",
-    "route": "/dashboard/labour,/ms-MY/dashboard/labour",    
+    "route": "/dashboard/labour,/ms-MY/dashboard/labour",
+    "sites": [
+        "datagovmy"
+    ],
     "manual_trigger": "",
     "required_params": [],
     "optional_params": [],
@@ -14,18 +17,18 @@
             "api_type": "static",
             "api_params": [],
             "variables": {
-                "keys" : [],
-                "rename_cols" : {
-                    "date" : "x",
-                    "u_rate" : "unemployment_rate",
-                    "p_rate" : "labour_force_participation",
-                    "under_rate" : "under_employment_rate",
-                    "ep_ratio" : "employment_population_ratio",
-                    "unemployed" : "unemployed_persons",
-                    "own_account" : "own_account_workers",
-                    "outside" : "outside_labour_force"
+                "keys": [],
+                "rename_cols": {
+                    "date": "x",
+                    "u_rate": "unemployment_rate",
+                    "p_rate": "labour_force_participation",
+                    "under_rate": "under_employment_rate",
+                    "ep_ratio": "employment_population_ratio",
+                    "unemployed": "unemployed_persons",
+                    "own_account": "own_account_workers",
+                    "outside": "outside_labour_force"
                 },
-                "value_columns" : [
+                "value_columns": [
                     "x",
                     "unemployment_rate",
                     "labour_force_participation",
