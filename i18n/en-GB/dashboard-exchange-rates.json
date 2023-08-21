@@ -1,5 +1,8 @@
 {
     "route": "/dashboard/exchange-rates",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "Exchange Rates",
         "description": "Malaysia is a small open economy. Trade is very important for our country. Consequently, this dashboard gives you an easy way to conduct exchange rate surveillance. Crucially, it moves beyond the often-quoted USD/MYR rate, and provides you with a comprehensive view of all currency pairs that are important for Malaysia.",

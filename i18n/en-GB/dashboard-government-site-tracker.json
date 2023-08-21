@@ -1,5 +1,8 @@
 {
     "route": "/dashboard/government-site-tracker",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "Government Site Tracker",
         "description": ""

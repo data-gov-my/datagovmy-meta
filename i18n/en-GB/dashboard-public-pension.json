@@ -1,5 +1,8 @@
 {
     "route": "/dashboard/public-pension",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "Public Pensions",
         "description": ""

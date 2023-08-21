@@ -1,5 +1,8 @@
 {
     "route": "/dashboard/car-popularity",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "Car Popularity",
         "description": "In Malaysia, a vehicle has to be registered with the Road Transport Department (JPJ) before it can be legally driven. JPJ therefore maintains a database of every vehicle ever used in Malaysia. This dashboard draws on that data to provide insights into the popularity of different car makes and models. Whether you're a car enthusiast looking to check out the latest trends or a prospective buyer trying to choose your first car, we hope this dashboard is an invaluable resource for you!",
