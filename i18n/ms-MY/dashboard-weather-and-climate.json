@@ -1,5 +1,8 @@
 {
     "route": "/ms-MY/dashboard/weather-and-climate",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "",
         "description": ""

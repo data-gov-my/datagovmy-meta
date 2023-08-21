@@ -1,5 +1,8 @@
 {
     "route": "/ms-MY/dashboard/blood-donation",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "title": "Program Kesihatan",
         "header": "Pendermaan Darah",

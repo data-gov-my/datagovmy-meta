@@ -1,5 +1,8 @@
 {
     "route": "/ms-MY/dashboard/sekolahku",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "Sekolahku",
         "description": "Hari persekolahan pertama seorang kanak-kanak adalah hari yang penuh bermakna. Dari umur 7 hingga 17 tahun, sekolah adalah tempat di mana mereka akan dididik dan diasuh potensi mereka. Oleh itu, sudah pasti para ibu bapa gemar mendapat maklumat tentang persekitaran pembelajaran anak mereka. Papan pemuka ini menganalisa data Kementerian Pendidikan Malaysia mengenai pelajar, guru, dan sekolah untuk memberi gambaran tentang sekolah anak anda, termasuk demografi dan tahap pencapaian sekolah. Kami berhapar bahawa ketelusan ini akan mengukuhkan kepercayaan terhadap sistem pendidikan negara.",

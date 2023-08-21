@@ -1,5 +1,8 @@
 {
     "route": "ms-MY/dashboard/refugee-situation",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "Situasi Pelarian Malaysia",
         "description": "",

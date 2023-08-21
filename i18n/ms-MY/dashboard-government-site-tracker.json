@@ -1,5 +1,8 @@
 {
     "route": "/ms-MY/dashboard/government-site-tracker",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "",
         "description": ""

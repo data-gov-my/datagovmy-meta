@@ -1,5 +1,8 @@
 {
     "route": "/ms-MY/dashboard/emergency-response",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "Respon Kecemasan",
         "description": ""

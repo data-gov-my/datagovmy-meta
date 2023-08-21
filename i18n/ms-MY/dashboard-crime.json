@@ -1,5 +1,8 @@
 {
     "route": "/ms-MY/dashboard/crime",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "",
         "description": ""

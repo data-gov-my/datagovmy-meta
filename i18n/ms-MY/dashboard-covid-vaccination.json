@@ -1,5 +1,8 @@
 {
     "route": "/ms-MY/dashboard/covid-vaccination",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "page_title": "Vaksinasi COVID-19",
         "header": "Data terkini mengenai Program Imunisasi COVID-19 Kebangsaan",
