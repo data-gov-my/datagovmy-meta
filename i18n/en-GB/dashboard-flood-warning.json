@@ -1,5 +1,8 @@
 {
     "route": "/dashboard/flood-warning",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "Flood Warning",
         "description": ""

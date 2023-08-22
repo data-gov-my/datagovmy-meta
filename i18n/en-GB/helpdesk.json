@@ -1,5 +1,8 @@
 {
     "route": "/helpdesk",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "Help Centre",
         "description": "Get clarification on common queries, or reach out to us for more specialised help.",

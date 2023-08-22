@@ -1,5 +1,8 @@
 {
     "route": "/dashboard/hospital-bed-utilisation",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "Hospital Bed Utilisation",
         "description": ""

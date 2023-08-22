@@ -1,5 +1,8 @@
 {
     "route": "/dashboard/public-contracting",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "Public Contracting",
         "description": ""

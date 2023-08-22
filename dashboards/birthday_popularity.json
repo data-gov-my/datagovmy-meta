@@ -2,6 +2,9 @@
     "dashboard_name": "birthday_popularity",
     "data_last_updated": "2023-06-01 23:59",
     "route": "/dashboard/birthday-explorer,/ms-MY/dashboard/birthday-explorer",
+    "sites": [
+        "datagovmy"
+    ],
     "manual_trigger": "",
     "required_params": [
         "state"

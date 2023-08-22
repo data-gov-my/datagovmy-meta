@@ -1,5 +1,8 @@
 {
     "route": "/dashboard/weather-and-climate",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "Weather and Climate",
         "description": ""

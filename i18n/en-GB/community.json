@@ -1,5 +1,8 @@
 {
     "route": "/community",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "cta": "Join the MODCom",
         "toast_teaser": "🚧  Not so soon, my friend! Wait until August 2023",

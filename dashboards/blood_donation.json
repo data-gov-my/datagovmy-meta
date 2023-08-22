@@ -2,6 +2,9 @@
     "dashboard_name": "blood_donation",
     "data_last_updated": "2023-06-01 23:59",
     "route": "/dashboard/blood-donation,/ms-MY/dashboard/blood-donation",
+    "sites": [
+        "datagovmy"
+    ],
     "manual_trigger": "2",
     "required_params": [
         "state"

@@ -1,5 +1,8 @@
 {
     "route": null,
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "overall": "Semua Negara",
         "ad": "Andorra",

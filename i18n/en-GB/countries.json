@@ -1,5 +1,8 @@
 {
     "route": null,
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "overall": "All Countries",
         "af": "Afghanistan",
@@ -252,5 +255,5 @@
         "sx": "Sint Maarten (Dutch part)",
         "ss": "South Sudan",
         "xk": "Kosovo"
-   }
+    }
 }

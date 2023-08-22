@@ -2,6 +2,9 @@
     "dashboard_name": "unhcr",
     "data_last_updated": "2023-06-01 23:59",
     "route": "/dashboard/refugee-situation,/ms-MY/dashboard/refugee-situation",
+    "sites": [
+        "datagovmy"
+    ],
     "manual_trigger": "2",
     "required_params": [],
     "optional_params": [],

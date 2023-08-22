@@ -1,189 +1,155 @@
 {
-    "dashboard_name": "covid_epid",
-    "data_last_updated": "2023-06-01 23:59",
-    "route": "/dashboard/covid-19,/ms-MY/dashboard/covid-19",
-    "manual_trigger": "2",
-    "required_params": [
-        "state"
-    ],
-    "optional_params": [],
-    "charts": {
-        "bar_chart": {
-            "name": "bar_chart",
-            "chart_type": "bar_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_05_bar.parquet",
-            "data_as_of": "2023-04-01 23:59",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "keys": [
-                    "variable",
-                    "metric"
-                ],
-                "rename_cols": {
-                    "age": "x"
-                },
-                "x": "x",
-                "y": [
-                    "unvax",
-                    "partialvax",
-                    "fullyvax",
-                    "boosted"
-                ]
-            }
-        },
-        "snapshot_bar": {
-            "name": "snapshot_bar",
-            "chart_type": "bar_meter",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_02_snapshot_bar.parquet",
-            "data_as_of": "2023-04-01 23:59",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "axis_values": [
-                    {
-                        "state": "deaths"
-                    },
-                    {
-                        "state": "cases"
-                    },
-                    {
-                        "state": "util_hosp"
-                    },
-                    {
-                        "state": "util_icu"
-                    },
-                    {
-                        "state": "util_vent"
-                    }
-                ],
-                "sub_keys": true
-            }
-        },
-        "snapshot_graphic": {
-            "name": "snapshot_graphic",
-            "chart_type": "custom_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_02_snapshot_graphic.parquet",
-            "data_as_of": "2023-04-01 23:59",
-            "api_type": "dynamic",
-            "api_params": [
-                "state"
-            ],
-            "variables": {
-                "value_columns": [
-                    "cases_active",
-                    "cases_active_annot",
-                    "pkrc",
-                    "pkrc_annot",
-                    "hosp",
-                    "hosp_annot",
-                    "icu",
-                    "icu_annot",
-                    "vent",
-                    "vent_annot",
-                    "home",
-                    "home_annot",
-                    "cases_local",
-                    "cases_local_annot",
-                    "cases_import",
-                    "cases_import_annot",
-                    "cases_recovered",
-                    "cases_recovered_annot",
-                    "deaths",
-                    "deaths_annot",
-                    "deaths_bid",
-                    "deaths_bid_annot"
-                ],
-                "keys": [
-                    "state"
-                ]
-            }
-        },
-        "snapshot_table": {
-            "name": "snapshot_table",
-            "chart_type": "snapshot_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_04_snapshot_table.parquet",
-            "data_as_of": "2023-04-01 23:59",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "main_key": "state",
-                "replace_word": "",
-                "data": {
-                    "deaths": [
-                        "deaths",
-                        "deaths_100k",
-                        "deaths_trend"
-                    ],
-                    "cases": [
-                        "cases",
-                        "cases_100k",
-                        "cases_posrate",
-                        "cases_trend"
-                    ],
-                    "admitted": [
-                        "admitted",
-                        "util_hosp",
-                        "admitted_trend"
-                    ]
-                }
-            }
-        },
-        "timeseries": {
-            "name": "timeseries",
-            "chart_type": "timeseries_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_03_timeseries.parquet",
-            "data_as_of": "2023-04-01 23:59",
-            "api_type": "dynamic",
-            "api_params": [
-                "state"
-            ],
-            "variables": {
-                "keys": [
-                    "state",
-                    "frequency"
-                ],
-                "rename_cols": {
-                    "date": "x",
-                    "deaths_inp_dod": "deaths_inpatient",
-                    "deaths_bid_dod": "deaths_brought_in",
-                    "deaths_dod": "deaths_tooltip",
-                    "tests_posrate": "tests_tooltip"
-                },
-                "value_columns": [
-                    "x",
-                    "admitted",
-                    "cases",
-                    "deaths_inpatient",
-                    "deaths_brought_in",
-                    "deaths_tooltip",
-                    "icu",
-                    "tests_pcr",
-                    "tests_rtk",
-                    "tests_tooltip",
-                    "vent"
-                ]
-            }
-        },
-        "statistics": {
-            "name": "statistics",
-            "chart_type": "custom_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_03_timeseries_keystats.parquet",
-            "data_as_of": "2023-04-01 23:59",
-            "api_type": "dynamic",
-            "api_params": [
-                "state"
-            ],
-            "variables": {
-                "keys": [
-                    "state",
-                    "chart_type"
-                ],
-                "value_columns": [
-                    "annot1",
-                    "annot2"
-                ]
-            }
-        }
-    }
+	"dashboard_name": "covid_epid",
+	"data_last_updated": "2023-06-01 23:59",
+	"route": "/dashboard/covid-19,/ms-MY/dashboard/covid-19",
+	"sites": ["kkmnow"],
+	"manual_trigger": "2",
+	"required_params": ["state"],
+	"optional_params": [],
+	"charts": {
+		"bar_chart": {
+			"name": "bar_chart",
+			"chart_type": "bar_chart",
+			"chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_05_bar.parquet",
+			"data_as_of": "2023-04-01 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["variable", "metric"],
+				"rename_cols": {
+					"age": "x"
+				},
+				"x": "x",
+				"y": ["unvax", "partialvax", "fullyvax", "boosted"]
+			}
+		},
+		"snapshot_bar": {
+			"name": "snapshot_bar",
+			"chart_type": "bar_meter",
+			"chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_02_snapshot_bar.parquet",
+			"data_as_of": "2023-04-01 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"axis_values": [
+					{
+						"state": "deaths"
+					},
+					{
+						"state": "cases"
+					},
+					{
+						"state": "util_hosp"
+					},
+					{
+						"state": "util_icu"
+					},
+					{
+						"state": "util_vent"
+					}
+				],
+				"sub_keys": true
+			}
+		},
+		"snapshot_graphic": {
+			"name": "snapshot_graphic",
+			"chart_type": "custom_chart",
+			"chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_02_snapshot_graphic.parquet",
+			"data_as_of": "2023-04-01 23:59",
+			"api_type": "dynamic",
+			"api_params": ["state"],
+			"variables": {
+				"value_columns": [
+					"cases_active",
+					"cases_active_annot",
+					"pkrc",
+					"pkrc_annot",
+					"hosp",
+					"hosp_annot",
+					"icu",
+					"icu_annot",
+					"vent",
+					"vent_annot",
+					"home",
+					"home_annot",
+					"cases_local",
+					"cases_local_annot",
+					"cases_import",
+					"cases_import_annot",
+					"cases_recovered",
+					"cases_recovered_annot",
+					"deaths",
+					"deaths_annot",
+					"deaths_bid",
+					"deaths_bid_annot"
+				],
+				"keys": ["state"]
+			}
+		},
+		"snapshot_table": {
+			"name": "snapshot_table",
+			"chart_type": "snapshot_chart",
+			"chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_04_snapshot_table.parquet",
+			"data_as_of": "2023-04-01 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"main_key": "state",
+				"replace_word": "",
+				"data": {
+					"deaths": ["deaths", "deaths_100k", "deaths_trend"],
+					"cases": [
+						"cases",
+						"cases_100k",
+						"cases_posrate",
+						"cases_trend"
+					],
+					"admitted": ["admitted", "util_hosp", "admitted_trend"]
+				}
+			}
+		},
+		"timeseries": {
+			"name": "timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_03_timeseries.parquet",
+			"data_as_of": "2023-04-01 23:59",
+			"api_type": "dynamic",
+			"api_params": ["state"],
+			"variables": {
+				"keys": ["state", "frequency"],
+				"rename_cols": {
+					"date": "x",
+					"deaths_inp_dod": "deaths_inpatient",
+					"deaths_bid_dod": "deaths_brought_in",
+					"deaths_dod": "deaths_tooltip",
+					"tests_posrate": "tests_tooltip"
+				},
+				"value_columns": [
+					"x",
+					"admitted",
+					"cases",
+					"deaths_inpatient",
+					"deaths_brought_in",
+					"deaths_tooltip",
+					"icu",
+					"tests_pcr",
+					"tests_rtk",
+					"tests_tooltip",
+					"vent"
+				]
+			}
+		},
+		"statistics": {
+			"name": "statistics",
+			"chart_type": "custom_chart",
+			"chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidepid_03_timeseries_keystats.parquet",
+			"data_as_of": "2023-04-01 23:59",
+			"api_type": "dynamic",
+			"api_params": ["state"],
+			"variables": {
+				"keys": ["state", "chart_type"],
+				"value_columns": ["annot1", "annot2"]
+			}
+		}
+	}
 }

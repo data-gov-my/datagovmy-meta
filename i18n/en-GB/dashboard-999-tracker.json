@@ -1,5 +1,8 @@
 {
     "route": "/dashboard/999-tracker",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "999 Tracker",
         "description": ""

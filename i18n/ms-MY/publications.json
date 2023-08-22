@@ -1,5 +1,6 @@
 {
-  "route": null,
+	"route": null,
+	"sites": ["datagovmy"],
   "translation": {
     "nso": "Pertubuhan Perangkaan Kebangsaan Malaysia",
     "header": "Penerbitan",

@@ -1,5 +1,8 @@
 {
     "route": "/ms-MY/dashboard/reserve-money",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "Wang Rizab",
         "description": "Papan pemuka ini menggunakan data daripada Sorotan dan Perangkaan Bulanan (MHS) terbitan Bank Negara Malaysia (BNM) untuk menjejaki beberapa jenis wang rizab. Ini termasuk Wang Rizab Berkanun, iaitu sejumlah daripada liabiliti layak yang wajib disimpan oleh institusi perbankan dalam Akaun Rizab Berkanun (SRA) mereka, selaras dengan Keperluan Rizab Berkanun (SRR) yang ditetapkan oleh BNM.",

@@ -1,5 +1,8 @@
 {
     "route": "/ms-MY/dashboard/international-reserves",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "Rizab Antarabangsa",
         "description": "Akta Bank Negara Malaysia 2009 (CBA 2009) mengamanahkan BNM untuk memegang dan mengurus rizab antarabangsa bagi tujuan menggalakkan kestabilan kewangan dan monetari, serta mengekalkan keyakinan orang ramai. Pengurusan rizab antarabangsa oleh BNM tertakluk kepada tadbir urus yang ketat dan rangka kerja pengurusan risiko yang diwujudkan menurut CBA 2009. Papan pemuka ini menunjukkan 3 kayu ukur utama kecukupan rizab antarabangsa yang diumumkan oleh BNM dua kali sebulan.",

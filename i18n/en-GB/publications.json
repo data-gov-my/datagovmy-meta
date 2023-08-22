@@ -1,5 +1,6 @@
 {
-  "route": null,
+	"route": null,
+	"sites": ["datagovmy"],
   "translation": {
     "nso": "Malaysia's National Statistics Organisation",
     "header": "Publications",

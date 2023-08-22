@@ -1,5 +1,8 @@
 {
     "route": "/dashboard/emergency-response",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "Emergency Response",
         "description": ""

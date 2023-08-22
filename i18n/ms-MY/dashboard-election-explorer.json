@@ -1,5 +1,8 @@
 {
     "route": "/ms-MY/dashboard/election-explorer",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "Peneroka Pilihan Raya",
         "description": "Suruhanjaya Pilihanraya Malaysia ditubuhkan pada tahun 1957 berdasarkan Perkara 114 Perlembagaan Malaysia, dan diamanahkan untuk memelihara hak setiap rakyat Malaysia untuk memilih wakil rayat melalui pilihanraya yang bebas dan adil. Sejajar dengan amanah itu, SPR telah menyimpan rekod absah bagi setiap pilihanraya dalam sejarah Malaysia. Papan pemuka ini menggunakan data tersebut untuk membolehkan anda menerokai keseluruhan sejarah pilihanraya Malaysia. Semoga ia membantu anda menjadi warganegara demokratik yang lebih berilmiah!",

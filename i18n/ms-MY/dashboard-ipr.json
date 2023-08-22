@@ -1,5 +1,8 @@
 {
     "route": "/ms-MY/dashboard/ipr",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "Inisiatif Pendapatan Rakyat (IPR)",
         "description": "Dalam ucapan Belanjawanku 2023, Perdana Menteri telah mengumumkan bahawa kerajaan akan memperuntukkan RM700 juta dalam usaha membasmi kemiskinan. Dengan itu - IPR dilancarkan. Cetusan idea Kementerian Ekonomi, IPR merupakan strategi serampang dua mata untuk menambah pendapatan keluarga miskin tegar dan B40 pada masa yang sama menyelesaikan masalah ekonomi harian. Atas sebab ini, IPR menumpukan usaha membasmi kemiskinan menerusi inisiatif pertanian (INTAN), perniagaan makanan (INSAN) dan operator perkhidmatan (IKHSAN). Papan pemuka ini menjejak prestasi IPR secara telus untuk dilihat oleh semua.",

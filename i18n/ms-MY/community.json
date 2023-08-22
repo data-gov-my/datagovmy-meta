@@ -1,5 +1,8 @@
 {
     "route": "ms-MY/community",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "cta": "Sertailah MODCom",
         "toast_teaser": "🚧 Tidak lama lagi, kawan! Tunggu sehingga Ogos 2023",

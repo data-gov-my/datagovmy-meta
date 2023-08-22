@@ -1,5 +1,8 @@
 {
     "route": "/ms-MY/",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "site": {
             "name": "data.gov.my",

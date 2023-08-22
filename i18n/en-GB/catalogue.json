@@ -1,5 +1,6 @@
 {
 	"route": null,
+	"sites": ["datagovmy"],
 	"translation": {
 		"header": "Data Catalogue",
 		"description": "Your one-stop interface to browse Malaysia's wealth of open data. This page will grow in depth and breadth every single day, providing richer and more varied data from all Malaysian federal and state agencies.",

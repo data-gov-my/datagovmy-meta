@@ -1,5 +1,8 @@
 {
     "route": "/ms-MY/dashboard/999-tracker",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "",
         "description": ""

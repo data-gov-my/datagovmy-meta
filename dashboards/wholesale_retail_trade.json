@@ -1,7 +1,10 @@
 {
     "dashboard_name": "wholesale_retail_trade",
     "data_last_updated": "2023-07-31 23:59",
-    "route": "/dashboard/wholesale-retail-trade,/ms-MY/dashboard/wholesale-retail-trade",    
+    "route": "/dashboard/wholesale-retail-trade,/ms-MY/dashboard/wholesale-retail-trade",
+    "sites": [
+        "datagovmy"
+    ],
     "manual_trigger": "",
     "required_params": [],
     "optional_params": [],
@@ -14,11 +17,13 @@
             "api_type": "static",
             "api_params": [],
             "variables": {
-                "keys" : ["chart_type"],
-                "rename_cols" : {
-                    "date" : "x"
+                "keys": [
+                    "chart_type"
+                ],
+                "rename_cols": {
+                    "date": "x"
                 },
-                "value_columns" : [
+                "value_columns": [
                     "x",
                     "total",
                     "wholesale",
