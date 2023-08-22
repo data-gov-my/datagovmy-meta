@@ -9,7 +9,7 @@
     "upcoming_publications": "Penerbitan Akan Datang",
     "documentation": "Dokumentasi",
     "browse_publications": "Cari penerbitan spesifik?",
-    "select_publication": "Pilih suatu penerbitan",
+    "select_publication": "Pilih jenis penerbitan",
     "filter_by": "Tapiskan",
     "new": "Baru",
     "downloads": "Muat Turun",
@@ -19,6 +19,7 @@
       "title": "Tajuk",
       "desc": "Penerangan",
       "product_type": "Jenis Produk",
+      "publication_type": "Jenis Penerbitan",
       "release_series": "Siri Keluaran",
       "release_date": "Tarikh Keluaran"
     },
