@@ -184,7 +184,7 @@
     },
     "opendosm": {
       "category": "Malaysia's National Statistics Organisation",
-      "title": "Data: The backbone of effective governance",
+      "header": "Data: The backbone of effective governance",
       "description": "OpenDOSM is a platform that catalogs, visualises, and analyses DOSM's wealth of data. Everything on this site is open-sourced and freely available for the nation's benefit. If data is the new oil, then openness is the pipeline that maximises its value.",
       "usage": "Usage of OpenDOSM",
       "keys": {
