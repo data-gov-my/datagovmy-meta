@@ -7,6 +7,22 @@
 	"required_params": [],
 	"optional_params": [],
 	"charts": {
+		"bop_snapshot": {
+			"name": "bop_snapshot",
+			"chart_type": "snapshot_chart",
+			"chart_source": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/dashboards/bop_snapshot.parquet",
+			"data_as_of": "2023-08-23 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["date"],
+				"main_key": "variable",
+				"replace_word": "",
+				"data": {
+					"data": ["net", "credit", "debit"]
+				}
+			}
+		},
 		"timeseries": {
 			"name": "timeseries",
 			"chart_type": "timeseries_chart",
