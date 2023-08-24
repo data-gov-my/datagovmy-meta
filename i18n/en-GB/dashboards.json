@@ -1,7 +1,7 @@
 {
     "route": "/dashboard",
     "sites": [
-        "datagovmy"
+        "datagovmy", "opendosm"
     ],
     "translation": {
         "header": "Dashboards",
@@ -221,6 +221,14 @@
             "kawasanku": {
                 "name": "Kawasanku",
                 "description": "Population data at State, District, Parliament Constituency & State Legislative Assembly level."
+            },
+            "iip": {
+                "name": "International Investment Position (IIP)",
+                "description": "Financial statement of the value and composition of its external financial assets and liabilities of a country."
+            },
+            "bop": {
+              "name": "Balance of Payments",
+              "description": "Financial statement of the value and composition of its external financial assets and liabilities of a country."
             }
         }
     }
