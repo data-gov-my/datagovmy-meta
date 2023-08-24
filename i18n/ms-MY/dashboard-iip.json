@@ -1,6 +1,6 @@
 {
   "route": "/ms-MY/dashboard/international-investment-position",
-  "sites": ["datagovmy"],
+  "sites": ["opendosm"],
   "translation": {
     "header": "International Investment Position (IIP)",
     "description": "How much money is the world investing in Malaysia? And how much money is Malaysia investing overseas? These are two critical questions for our policymakers, answered through data on what is called our International Investment Position (IIP). The IIP is one of 3 primary national accounts that convey Malaysia’s economic performance, the other two being Gross Domestic Product (GDP) and the Balance of Payments (BOP). This dashboard gives you an easy way to explore key IIP trends and patterns. Enjoy!",

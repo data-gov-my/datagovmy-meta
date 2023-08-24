@@ -1,7 +1,7 @@
 {
     "route": "/ms-MY/dashboard",
     "sites": [
-        "datagovmy"
+        "datagovmy", "opendosm"
     ],
     "translation": {
         "header": "Papan Pemuka",
@@ -221,6 +221,14 @@
             "kawasanku": {
                 "name": "Kawasanku",
                 "description": "Data populasi penduduk di peringkat Negeri, Daerah, Parlimen dan Dewan Undangan Negeri (DUN)."
+            },
+            "iip": {
+              "name": "International Investment Position (IIP)",
+              "description": "Financial statement of the value and composition of its external financial assets and liabilities of a country."
+            },
+            "bop": {
+              "name": "Balance of Payments",
+              "description": "Financial statement of the value and composition of its external financial assets and liabilities of a country."
             }
         }
     }
