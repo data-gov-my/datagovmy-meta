@@ -142,17 +142,7 @@
             "description": "Portal ini adalah rumah bagi segala data terbuka sektor awam Malaysia. Sama ada anda rakyat marhaen yang menginginkan maklumat, ataupun penyelidik yang mencari sumber, ataupun pembangun aplikasi yang memerlukan API, anda boleh mendapatinya di sini. Misi kami adalah untuk menjadikan Malaysia negara berpacukan data yang terhebat di dunia.",
             "section_1": {
                 "title": "Terokailah papan pemuka paling popular!",
-                "description": "Papan pemuka inilah yang paling menular, tetapi jangan lupa untuk lihat koleksi penuh papan pemuka kami!",
-                "stats": {
-                    "population": "Penduduk Semasa",
-                    "economic_growth": "Pertumbuhan Ekonomi",
-                    "bnm_opr": "Kadar Dasar Semalaman BNM",
-                    "unemployment": "Pengangguran",
-                    "inflation": "Inflasi",
-                    "production_cost": "Kos Pengeluaran",
-                    "industrial_production": "Pengeluaran Industri",
-                    "wholesale_retail": "Perdagangan Borong & Runcit"
-                }
+                "description": "Papan pemuka inilah yang paling menular, tetapi jangan lupa untuk lihat koleksi penuh papan pemuka kami!"
             },
             "section_2": {
                 "title": "Lihat dataset paling hangat!",
@@ -179,17 +169,6 @@
                 "users": "Penggunaan OpenAPI Harian",
                 "views": "Paparan Harian",
                 "downloads": "Muat Turun Harian"
-            }
-        },
-        "opendosm": {
-            "category": "Agensi Statistik Nasional Malaysia",
-            "header": "Data: Asas kepada pentadbiran cekap",
-            "description": "OpenDOSM adalah platform yang mengkatalog, memberi visualisasi, dan menganalisis pelbagai jenis data daripada Jabatan Perangkaan Malaysia. Segala data yang dipaparkan di platform ini adalah sumber terbuka dan percuma demi manfaat negara. Jika data itu minyak yang baru, maka keterbukaan itulah saluran yang memaksimumkan kegunaannya.",
-            "usage": "Penggunaan OpenDOSM",
-            "keys": {
-                "users": "Pengguna Harian",
-                "views": "Paparan Harian",
-                "downloads": "Muat turun Data Harian"
             }
         }
     }

@@ -1,6 +1,6 @@
 {
-	"route": null,
-	"sites": ["datagovmy"],
+	"route": "/publications",
+	"sites": ["opendosm"],
   "translation": {
     "nso": "Agensi Statistik Nasional Malaysia",
     "header": "Penerbitan",

@@ -1,6 +1,6 @@
 {
-	"route": null,
-	"sites": ["datagovmy"],
+	"route": "/publications",
+	"sites": ["opendosm"],
   "translation": {
     "nso": "Malaysia's National Statistics Organisation",
     "header": "Publications",

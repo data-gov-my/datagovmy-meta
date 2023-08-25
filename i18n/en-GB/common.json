@@ -144,17 +144,7 @@
       "description": "Your one-stop centre to browse Malaysia's wealth of open data. Whether you're a regular citizen looking for information, a researcher looking for material, or an app developer looking for an API, we've got you covered. Our mission is to make Malaysia the #1 data-driven country in the world.",
       "section_1": {
         "title": "Explore our hottest dashboards",
-        "description": "These dashboards have been getting attention, but don't forget to check out our full collection of dashboards!",
-        "stats": {
-          "population": "Current Population",
-          "economic_growth": "Economic Growth",
-          "bnm_opr": "BNM OPR",
-          "unemployment": "Unemployment",
-          "inflation": "Inflation",
-          "production_cost": "Production Costs",
-          "industrial_production": "Industrial Production",
-          "wholesale_retail": "Wholesale & Retail Trade"
-        }
+        "description": "These dashboards have been getting attention, but don't forget to check out our full collection of dashboards!"
       },
       "section_2": {
         "title": "Study our most popular datasets",
@@ -181,17 +171,6 @@
         "views": "Daily Views",
         "downloads": "Daily Downloads"
       }
-    },
-    "opendosm": {
-      "category": "Malaysia's National Statistics Organisation",
-      "header": "Data: The backbone of effective governance",
-      "description": "OpenDOSM is a platform that catalogs, visualises, and analyses DOSM's wealth of data. Everything on this site is open-sourced and freely available for the nation's benefit. If data is the new oil, then openness is the pipeline that maximises its value.",
-      "usage": "Usage of OpenDOSM",
-      "keys": {
-        "users": "Daily Users",
-        "views": "Daily Views",
-        "downloads": "Daily Data Downloads"
-	    }
     }
   }
 }
