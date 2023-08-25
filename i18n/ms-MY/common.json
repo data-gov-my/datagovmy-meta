@@ -135,7 +135,9 @@
             "healthcare": "Program Kesihatan",
             "public_finances": "Kewangan Awam",
             "public_safety": "Keselamatan Awam",
-            "transportation": "Pengangkutan"
+            "transportation": "Pengangkutan",
+            "national_accounts": "Akaun Negara",
+            "services": "Perkhidmatan"
         },
         "home": {
             "title": "Terkini. Terperinci. Terbukti.",

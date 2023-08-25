@@ -54,7 +54,8 @@
       "bop_sdr": "Special Drawing Rights",
       "bop_imf": "IMF Reserve Position",
       "bop_forex": "Gold & Foreign Exchange",
-      "neo": "Net Errors and Omissions"
+      "neo": "Net Errors and Omissions",
+      "unit": "RM million"
     }
   }
 }

@@ -136,7 +136,8 @@
       "public_finances": "Public Finances",
       "public_safety": "Public Safety",
       "transportation": "Transportation",
-      "national_accounts": "National Accounts"
+      "national_accounts": "National Accounts",
+      "services": "Services"
     },
     "home": {
       "category": "Malaysia's official open data portal",
