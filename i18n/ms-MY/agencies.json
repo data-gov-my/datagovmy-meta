@@ -127,6 +127,14 @@
         "unhcr": {
             "full": "Pesuruhjaya Tinggi Bangsa-Bangsa Bersatu untuk Pelarian",
             "abbr": "UNHCR"
+        },
+        "bpan": {
+          "full": "Bahagian Perangkaan Akaun Nasional",
+          "abbr": "BPAN"
+        },
+        "bppib": {
+          "full": "Bahagian Perangkaan Pengeluaran Industri & Binaan",
+          "abbr": "BPPIB"
         }
     }
 }

@@ -127,6 +127,14 @@
         "unhcr": {
             "full": "United Nations High Commissioner for Refugees",
             "abbr": "UNHCR"
+        },
+        "bpan": {
+          "full": "National Accounts Division",
+          "abbr": "BPAN"
+        },
+        "bppib": {
+          "full": "Industrial Production & Construction Division",
+          "abbr": "BPPIB"
         }
     }
 }
