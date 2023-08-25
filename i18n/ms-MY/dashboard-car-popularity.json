@@ -18,10 +18,23 @@
         "option_model": "Pilih model kereta",
         "option_colour": "Pilih warna kereta",
         "search_button": "Cari kereta",
-        "search_prompt": "Mula carian untuk jenama kereta untuk melihat kepopularan kereta anda",
-        "timeseries_car_description": "{{maker}} {{car}}: ",
-        "timeseries_title": "Kepopularan dari Tahun ke Tahun",
-        "timeseries_description": "Nota: Data ini berdasarkan tahun pendaftaran pertama kereta dengan JPJ, bukan tahun pengeluarannya",
-        "label": "Kereta"
+        "search_prompt": "Mula carian untuk jenama kereta untuk melihat populariti kereta anda",
+        "cars": "Kereta",
+        "manufacturer": "Pengeluar Kereta",
+        "model": "Model",
+        "popularity_over_the_years": "{{ manufacturer }} {{ model }}: Populariti dari Tahun ke Tahun",
+        "popularity_disclaimer": "Nota: Data ini berdasarkan tahun pendaftaran pertama kereta tersebut dengan JPJ, bukan tahun pengeluarannya.",
+        "this_year": "Tahun Ini",
+        "past_5yrs": "5 Tahun",
+        "since_2000": "Sejak 2000",
+        "registration_trend": "Apakah tren pendaftaran kenderaan?",
+        "registration_disclaimer": "Nota: Data ini menunjukkan pendaftaran kenderaan, bukan jumlah kenderaan yang mempunyai lesen aktif.",
+        "bus": "Bas",
+        "car": "Kereta (Termasuk MPV, Jeep dan Trak)",
+        "lorry": "Lori",
+        "motorcycle": "Motosikal",
+        "other": "Kenderaan Lain (Traktor, Treler, dll)",
+        "van": "Van",
+        "YoY_change": "Perubahan YoY"
     }
 }

@@ -19,9 +19,23 @@
         "option_colour": "Select car colour",
         "search_button": "Search for car",
         "search_prompt": "Start search for car brand to see your car popularity",
-        "timeseries_car_description": "{{maker}} {{car}}: ",
-        "timeseries_title": "Popularity over the Years",
-        "timeseries_description": "Note: This data is based on the year the car was first registered with JPJ, not the year it was manufactured",
-        "label": "Cars"
+        "cars": "Cars",
+        "manufacturer": "Manufacturer",
+        "model": "Model",
+        "popularity_over_the_years": "{{ manufacturer }} {{ model }}: Popularity over the Years",
+        "popularity_disclaimer": "Note: This data is based on the year the car was registered with JPJ, not the year it was manufactured",
+        "this_year": "This Year",
+        "past_5yrs": "Past 5 Years",
+        "since_2000": "Since 2000",
+        "registration_trend": "How are vehicle registrations trending?",
+        "registration_disclaimer": "Note: This data show vehicle registrations, rather than the number of vehicles with an active license?",
+        "bus": "Bus",
+        "car": "Cars (including MPVs, Jeeps, and Trucks)",
+        "lorry": "Lorries",
+        "motorcycle": "Motorcycles",
+        "other": "Other Vehicles (Tractors, Trailers, etc)",
+        "van": "Van",
+        "lorry_bus_others": "Lorries, Buses & Other Vehicles",
+        "YoY_change": "YoY Change"
     }
 }
