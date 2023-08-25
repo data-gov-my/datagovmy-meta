@@ -15,7 +15,7 @@
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
-				"keys": ["chart_type", "frequency"],
+				"keys": ["frequency"],
 				"rename_cols": {
 					"date": "x"
 				},
@@ -38,7 +38,7 @@
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
-				"keys": ["chart_type", "chart"],
+				"keys": ["chart_type"],
 				"value_columns": ["latest", "alltime"]
 			}
 		},
