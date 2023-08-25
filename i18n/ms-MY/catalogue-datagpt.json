@@ -1,5 +1,6 @@
 {
   "route": "/ms-MY/data-catalogue/datagpt",
+  "sites": [],
   "translation": {
     "description": "Terokalah data terkini yang dikumpul oleh Malaysia dengan memulakan perbualan dengan DataGPT!",
     "new_chat": "Perbualan baru",
