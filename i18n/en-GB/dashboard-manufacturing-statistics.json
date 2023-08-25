@@ -8,10 +8,10 @@
       "title": "How are key manufacturing statistics trending?"
     },
     "keys": {
-      "actual":"Actual Values", 
+      "actual": "Actual Values",
       "actual_sa": "Seasonally Adjusted",
       "growth_yoy": "YoY Growth",
-      "growth_mom": "MoM Growth",
+      "growth_momsa": "MoM Growth",
       "recession": "Recession",
       "no_shade": "No shading",
       "sales": "Sales Value (Ex-Factory)",

@@ -8,10 +8,10 @@
       "title": "How are key manufacturing statistics trending?"
     },
     "keys": {
-      "actual":"Nilai Sebenar", 
+      "actual": "Nilai Sebenar",
       "actual_sa": "Terlaras Secara Musim",
       "growth_yoy": "Pertumbuhan Tahunan",
-      "growth_mom": "Pertumbuhan Bulanan",
+      "growth_momsa": "Pertumbuhan Bulanan",
       "recession": "Recession",
       "no_shade": "No shading",
       "sales": "Sales Value (Ex-Factory)",
