@@ -27,15 +27,14 @@
         "this_year": "This Year",
         "past_5yrs": "Past 5 Years",
         "since_2000": "Since 2000",
+        "alltime": "All-Time",
         "registration_trend": "How are vehicle registrations trending?",
-        "registration_disclaimer": "Note: This data show vehicle registrations, rather than the number of vehicles with an active license?",
+        "registration_disclaimer": "Note: This data show vehicle registrations, rather than the number of vehicles with an active license",
         "bus": "Bus",
         "car": "Cars (including MPVs, Jeeps, and Trucks)",
         "lorry": "Lorries",
         "motorcycle": "Motorcycles",
         "other": "Other Vehicles (Tractors, Trailers, etc)",
-        "van": "Van",
-        "lorry_bus_others": "Lorries, Buses & Other Vehicles",
-        "YoY_change": "YoY Change"
+        "van": "Van"
     }
 }

@@ -27,6 +27,7 @@
         "this_year": "Tahun Ini",
         "past_5yrs": "5 Tahun",
         "since_2000": "Sejak 2000",
+        "alltime": "Keseluruhan",
         "registration_trend": "Apakah tren pendaftaran kenderaan?",
         "registration_disclaimer": "Nota: Data ini menunjukkan pendaftaran kenderaan, bukan jumlah kenderaan yang mempunyai lesen aktif.",
         "bus": "Bas",
@@ -34,7 +35,6 @@
         "lorry": "Lori",
         "motorcycle": "Motosikal",
         "other": "Kenderaan Lain (Traktor, Treler, dll)",
-        "van": "Van",
-        "YoY_change": "Perubahan YoY"
+        "van": "Van"
     }
 }
