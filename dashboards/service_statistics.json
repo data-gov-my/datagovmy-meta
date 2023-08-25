@@ -19,7 +19,13 @@
 				"rename_cols": {
 					"date": "x"
 				},
-				"value_columns": ["x", "revenue", "employees", "wages"]
+				"value_columns": [
+					"x",
+					"revenue",
+					"employees",
+					"wages",
+					"recession"
+				]
 			}
 		},
 		"timeseries_callout": {
