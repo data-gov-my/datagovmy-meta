@@ -228,7 +228,11 @@
             },
             "bop": {
               "name": "Balance of Payments",
-              "description": "Financial statement of the value and composition of its external financial assets and liabilities of a country."
+              "description": "The Balance of Payments (BOP) shows us how resources are flowing between Malaysia and other countries."
+            },
+            "manufacturing-statistics": {
+              "name": "Manufacturing Statistics",
+              "description": "This dashboard summarises key indicators and gives you an easy way to monitor the performance of Malaysia’s manufacturing sector."
             }
         }
     }
