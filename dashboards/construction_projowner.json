@@ -20,7 +20,7 @@
 					"date": "x"
 				},
 				"value_columns": [
-					"date",
+					"x",
 					"project_owner",
 					"chart_type",
 					"total",
