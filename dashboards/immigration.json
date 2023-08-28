@@ -86,6 +86,7 @@
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
+				"keys": ["chart"],
 				"value_columns": ["daily", "yearly"]
 			}
 		}
