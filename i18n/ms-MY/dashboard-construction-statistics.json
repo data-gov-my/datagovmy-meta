@@ -1,5 +1,5 @@
 {
-  "route": "ms-MY/dashboard/construction-statistics",
+  "route": "/ms-MY/dashboard/construction-statistics",
   "sites": [
     "opendosm"
   ],
