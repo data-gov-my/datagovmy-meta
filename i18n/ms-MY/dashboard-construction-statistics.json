@@ -1,31 +1,31 @@
 {
-	"route": "ms-MY/dashboard/construction-statistics",
-	"sites": ["opendosm"],
-	"translation": {
-		"header": "Statistik Pembinaan",
-		"description": "Semua projek pembinaan bernilai RM500,000 dan ke atas perlu berdaftar dengan Lembaga Pembangunan Industri Pembinaan (CIDB). Menggunakan data tersebut, papan pemuka ini membentangkan petunjuk utama mengenai aktiviti pembinaan di Malaysia.",
-		"section_1": {
-			"title": "Apakah tren statistik pembinaan yang utama?",
-			"num_projects": "Jumlah Projek",
-			"value_of_work_done": "Nilai Kerja Pembinaan"
-		},
-		"section_2": {
-			"title": "A deeper look at construction activity by project owner and sub-sector",
-			"all_constructions": "Semua Aktiviti Pembinaan",
-			"residential": "Bangunan Kediaman",
-			"non_residential": "Bangunan Bukan Kediaman",
-			"civil_engineering": "Kejuruteraan Awam"
-		},
-		"keys": {
-			"actual": "Nilai Sebenar",
-			"growth_yoy": "Pertumbuhan YoY",
-			"growth_qoq": "Pertumbuhan QoQ",
-			"all": "Semua Pemilik Projek",
-			"private": "Sektor Swasta",
-			"public": "Perbadanan Awam",
-			"gov": "Kerajaan",
-			"recession": "Kemelesetan",
-			"no_shade": "Tiada lorekan"
-		}
-	}
+  "route": "ms-MY/dashboard/construction-statistics",
+  "sites": [
+    "opendosm"
+  ],
+  "translation": {
+    "header": "Statistik Pembinaan",
+    "description": "Semua projek pembinaan bernilai RM500,000 dan ke atas perlu berdaftar dengan Lembaga Pembangunan Industri Pembinaan (CIDB). Menggunakan data tersebut, papan pemuka ini membentangkan petunjuk utama mengenai aktiviti pembinaan di Malaysia.",
+    "section_1": {
+      "title": "Apakah tren statistik pembinaan yang utama?"
+    },
+    "section_2": {
+      "title": "A deeper look at construction activity by project owner and sub-sector",
+      "total": "Semua Aktiviti Pembinaan",
+      "residential": "Bangunan Kediaman",
+      "non_residential": "Bangunan Bukan Kediaman",
+      "civileng": "Kejuruteraan Awam"
+    },
+    "projects": "projek",
+    "num_projects": "Jumlah Projek",
+    "value_of_work_done": "Nilai Kerja Pembinaan",
+    "actual": "Nilai Sebenar",
+    "growth_yoy": "Pertumbuhan YoY",
+    "growth_qoq": "Pertumbuhan QoQ",
+    "government": "Kerajaan",
+    "private": "Sektor Swasta",
+    "publiccorp": "Perbadanan Awam",
+    "no_shade": "Tiada lorekan",
+    "recession": "Kemelesetan"
+  }
 }
