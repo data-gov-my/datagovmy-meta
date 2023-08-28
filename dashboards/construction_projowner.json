@@ -1,0 +1,48 @@
+{
+	"dashboard_name": "construction_projowner",
+	"data_last_updated": "2023-08-28 23:59",
+	"route": "/dashboard/construction-project-owner,/ms-MY/dashboard/construction-project-owner",
+	"sites": ["opendosm"],
+	"manual_trigger": "0",
+	"required_params": [],
+	"optional_params": [],
+	"charts": {
+		"timeseries": {
+			"name": "timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/dashboards/construction_projowner_timeseries.parquet",
+			"data_as_of": "2023-08-28 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["project_owner", "chart_type"],
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": [
+					"date",
+					"project_owner",
+					"chart_type",
+					"total",
+					"residential",
+					"non_residential",
+					"civileng",
+					"special",
+					"recession"
+				]
+			}
+		},
+		"timeseries_callout": {
+			"name": "timeseries_callout",
+			"chart_type": "custom_chart",
+			"chart_source": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/dashboards/construction_projowner_timeseries_callout.parquet",
+			"data_as_of": "2023-08-28 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["project_owner", "chart_type", "chart"],
+				"value_columns": ["latest"]
+			}
+		}
+	}
+}
