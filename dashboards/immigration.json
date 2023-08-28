@@ -61,7 +61,7 @@
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
-				"keys": [],
+				"keys": ["frequency"],
 				"rename_cols": {
 					"date": "x"
 				},
