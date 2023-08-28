@@ -21,8 +21,6 @@
 				},
 				"value_columns": [
 					"x",
-					"project_owner",
-					"chart_type",
 					"total",
 					"residential",
 					"non_residential",
