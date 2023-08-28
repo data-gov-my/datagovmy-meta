@@ -10,7 +10,7 @@
       "title": "Apakah tren statistik pembinaan yang utama?"
     },
     "section_2": {
-      "title": "A deeper look at construction activity by project owner and sub-sector",
+      "title": "Tinjauan lebih mendalam tentang pembinaan mengikut pemilik projek dan sub-sektor",
       "total": "Semua Aktiviti Pembinaan",
       "residential": "Bangunan Kediaman",
       "non_residential": "Bangunan Bukan Kediaman",
@@ -18,7 +18,7 @@
     },
     "projects": "projek",
     "num_projects": "Jumlah Projek",
-    "value_of_work_done": "Nilai Kerja Pembinaan",
+    "value": "Nilai Kerja Pembinaan",
     "actual": "Nilai Sebenar",
     "growth_yoy": "Pertumbuhan YoY",
     "growth_qoq": "Pertumbuhan QoQ",
