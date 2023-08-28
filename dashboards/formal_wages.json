@@ -40,6 +40,33 @@
 				"x": "x",
 				"y": ["y"]
 			}
+		},
+		"timeseries": {
+			"name": "timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/labour_formalwages_timeseries_state.parquet",
+			"data_as_of": "2023-08-28 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["state"],
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": ["x", "salary"]
+			}
+		},
+		"timeseries_callout": {
+			"name": "timeseries_callout",
+			"chart_type": "custom_chart",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/labour_formalwages_timeseries_state_callout.parquet",
+			"data_as_of": "2023-08-28 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["state"],
+				"value_columns": ["salary"]
+			}
 		}
 	}
 }
