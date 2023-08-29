@@ -27,7 +27,10 @@
             "infectious-diseases": "Infectious Diseases",
             "healthcare-resources": "Healthcare Resources",
             "healthcare-programs": "Healthcare Programs",
-            "national-accounts": "National Accounts"
+            "national-accounts": "National Accounts",
+            "services": "Services",
+            "labour_market": "Labour Market",
+            "producer_price": "Producer Prices"
         },
         "dashboards": {
             "emergency-response": {
@@ -233,6 +236,18 @@
             "manufacturing-statistics": {
               "name": "Manufacturing Statistics",
               "description": "This dashboard summarises key indicators and gives you an easy way to monitor the performance of Malaysia’s manufacturing sector."
+            },
+            "labour-productivity": {
+              "name": "Labour Productivity",
+              "description": "This dashboard tracks labour productivity across all key sectors in the Malaysian economy."
+            },
+            "formal-sector-wages": {
+              "name": "Formal Sector Wages",
+              "description": "Data of the formal sector wages in Malaysia"
+            },
+            "services-producer-prices": {
+              "name": "Services Producer Prices",
+              "description": "This dashboard tracks labour productivity across all key sectors in the Malaysian economy."
             }
         }
     }

@@ -137,9 +137,11 @@
             "public_finances": "Kewangan Awam",
             "public_safety": "Keselamatan Awam",
             "transportation": "Pengangkutan",
-            "national_accounts": "Akaun Negara",
+            "national_accounts": "Akaun Kebangsaan",
             "services": "Perkhidmatan",
-            "public_administration": "Pentadbiran Awam"
+            "public_administration": "Pentadbiran Awam",
+            "labour_market": "Pasaran Buruh",
+            "producer_price": "Harga Pengeluar"
         },
         "home": {
             "title": "Terkini. Terperinci. Terbukti.",

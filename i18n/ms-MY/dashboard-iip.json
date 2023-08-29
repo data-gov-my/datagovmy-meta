@@ -2,29 +2,29 @@
   "route": "/ms-MY/dashboard/international-investment-position",
   "sites": ["opendosm"],
   "translation": {
-    "header": "International Investment Position (IIP)",
-    "description": "How much money is the world investing in Malaysia? And how much money is Malaysia investing overseas? These are two critical questions for our policymakers, answered through data on what is called our International Investment Position (IIP). The IIP is one of 3 primary national accounts that convey Malaysia’s economic performance, the other two being Gross Domestic Product (GDP) and the Balance of Payments (BOP). This dashboard gives you an easy way to explore key IIP trends and patterns. Enjoy!",
+    "header": "Kedudukan Pelaburan Antarabangsa (KPA)",
+    "description": "Berapa banyak wang yang dunia pelaburkan di Malaysia? Dan berapa banyak wang yang Malaysia pelaburkan di luar negeri? Ini adalah dua soalan penting bagi pembuat dasar kita, dijawab melalui data yang dikenali sebagai Kedudukan Pelaburan Antarabangsa (KPA). KPA merupakan salah satu daripada 3 akaun nasional utama yang menggambarkan prestasi ekonomi Malaysia, dua yang lain ialah Keluaran Dalam Negara Kasar (KDNK) dan Perimbangan Pembayaran (PP). Papan pemuka ini memberikan cara mudah untuk meneroka corak dan tren utama KPA. Selamat menikmati!",
     "section_1": {
-      "title": "How is Malaysia’s International Investment Position (IIP) trending?",
-      "description": "Net figures are derived by subtracting liabilities from assets. A positive number indicates net assets, while a negative number indicates net liabilities."
+      "title": "Bagaimana trend Kedudukan Pelaburan Antarabangsa (KPA) di Malaysia?",
+      "description": "Angka bersih dihasilkan dengan mengurangkan liabiliti daripada aset. Nombor positif menunjukkan aset bersih, manakala nombor negatif menunjukkan liabiliti bersih."
     },
     "keys": {
-      "net": "Net",
-      "liabilities": "Liabilities",
-      "assets": "Assets",
-      "derivatives": "Derivatives",
-      "direct_debt": "Direct Investment (Debt)",
-      "direct_equity": "Direct Investment (Equity)",
-      "direct_total": "Direct Investment (Total)",
-      "other": "Other Investments",
-      "porfolio_equity": "Portfolio Investment (Equity)",
-      "portfolio_debt": "Portfolio Investment (Debt)",
-      "portfolio_total": "Portfolio Investment (Total)",
-      "recession": "Recession",
-      "no_shade": "No shading",
-      "reserve": "Reserves",
-      "total": "Total",
-      "qoq_change": "QoQ change"
+      "net": "Jumlah Bersih",
+      "liabilities": "Liabiliti",
+      "assets": "Aset",
+      "derivatives": "Instrumen Derivatif",
+      "direct_debt": "Pelaburan Langsung (Hutang)",
+      "direct_equity": "Pelaburan Langsung (Ekuiti)",
+      "direct_total": "Pelaburan Langsung (Jumlah)",
+      "other": "Pelaburan Lain-lain",
+      "porfolio_equity": "Pelaburan Portfolio (Ekuiti)",
+      "portfolio_debt": "Pelaburan Portfolio (Hutang)",
+      "portfolio_total": "Pelaburan Portfolio (Jumlah)",
+      "recession": "Kemelesetan",
+      "no_shade": "Tiada lorekan",
+      "reserve": "Rizab",
+      "total": "Jumlah",
+      "qoq_change": "Perubahan QoQ"
     }
   }
 }

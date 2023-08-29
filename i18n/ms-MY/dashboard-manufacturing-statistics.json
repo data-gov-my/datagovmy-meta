@@ -2,21 +2,21 @@
   "route": "/ms-MY/dashboard/manufacturing-statistics",
   "sites": ["opendosm"],
   "translation": {
-    "header": "Manufacturing Statistics",
-    "description": "Although roughly half of Malaysia’s GDP comes from the services sector, manufacturing remains highly strategic for the Malaysian economy, with high-value manufacturing hubs in Penang, Kulim, Klang Valley, and Johor. Using data from our monthly publication on manufacturing, this dashboard summarises key indicators and gives you an easy way to monitor the performance of Malaysia’s manufacturing sector.",
+    "header": "Statistik Pembuatan",
+    "description": "Walaupun lebih kurang separuh daripada KDNK Malaysia berasal daripada sektor perkhidmatan, sektor pembuatan tetap menjadi sangat strategik bagi ekonomi Malaysia, dengan pusat-pusat pembuatan nilai tinggi di Pulau Pinang, Kulim, Lembah Klang, dan Johor. Dengan menggunakan data dari penerbitan bulanan kami tentang pembuatan, papan pemuka ini merangkumi petunjuk utama dan memberikan cara mudah untuk memantau prestasi sektor pembuatan Malaysia.",
     "section_1": {
-      "title": "How are key manufacturing statistics trending?"
+      "title": "Bagaimana trend statistik pembuatan utama?"
     },
     "keys": {
       "actual": "Nilai Sebenar",
       "actual_sa": "Terlaras Secara Musim",
       "growth_yoy": "Pertumbuhan Tahunan",
       "growth_momsa": "Pertumbuhan Bulanan",
-      "recession": "Recession",
-      "no_shade": "No shading",
-      "sales": "Sales Value (Ex-Factory)",
-      "employees": "Number of Employees",
-      "wages": "Salaries & Wages Paid"
+      "recession": "Kemelesetan",
+      "no_shade": "Tiada lorekan",
+      "sales": "Nilai Jualan (Ex-Factory)",
+      "employees": "Bilangan Pekerja",
+      "wages": "Gaji & Upah Dibayar"
     }
   }
 }

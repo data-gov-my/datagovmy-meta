@@ -139,7 +139,9 @@
       "transportation": "Transportation",
       "national_accounts": "National Accounts",
       "services": "Services",
-      "public_administration": "Public Administration"
+      "public_administration": "Public Administration",
+      "labour_market": "Labour Market",
+      "producer_price": "Producer Prices"
     },
     "home": {
       "category": "Malaysia's official open data portal",
