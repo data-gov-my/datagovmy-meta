@@ -1,38 +1,32 @@
 {
-    "route": "/dashboard/immigration",
-    "sites": [
-        "datagovmy"
-    ],
-    "translation": {
-        "header": "Immigration",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "search_country": "Zoom into a specific country",
-        "country_header": "How many people from {{ country }} are entering and leaving the country?",
-        "country_header_overall": "How many people from {{ country }} are entering and leaving the country overall?",
-        "country_title": "Entrances and Departures",
-        "country_desc": "This data is only available at national level because movement between states is free and unmonitored in Malaysia.",
-        "entrances": "Entrances",
-        "departures": "Departures",
-        "net_migration": "Net Migration",
-        "choro_header": "How many Malaysians have an active passport?",
-        "absolute": "Absolute (Overall)",
-        "absolute_adult": "Absolute (Adult)",
-        "absolute_children": "Absolute (Children)",
-        "per_capita": "Per capita (Overall)",
-        "per_capita_adult": "Per capita (Adult)",
-        "per_capita_children": "Per capita (Children)",
-        "choro_description": "Lorem ipsum",
-        "choro_ranking": "Ranking",
-        "timeseries_header": "How are the Immigration Department’s counter operations trending?",
-        "timeseries_desc": "This data is only available at national level because movement between states is free and unmonitored in Malaysia.",
-        "passport": "Passport Issuances",
-        "expatriate": "Expatriate Passes",
-        "visit": "Social Visit Passes",
-        "entry": "Entry Permits",
-        "total": "Total",
-        "this_year": "This Year",
-        "active_passports": "Active Passports",
-        "active_passes": "Active Passes",
-        "active_permits": "Active Permits"
+  "route": "/dashboard/immigration",
+  "sites": ["datagovmy"],
+  "translation": {
+    "header": "Immigration",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "section_1": {
+      "title": "How many people from {{ country }} are entering and leaving the country?",
+      "title_ALL": "How many people from {{ country }} are entering and leaving the country overall?",
+      "description": "This data is only available at national level because movement between states is free and unmonitored in Malaysia.",
+      "search_placeholder": "Zoom into a specific country",
+      "timeseries_title": "Entrances and Departures"
+    },
+    "section_2": {
+      "title": "A breakdown of foreign arrivals by demographic group",
+      "description": "(insert blurb after Thevesh actualy sees the data)"
+    },
+    "keys": {
+      "entrances": "Entrances ({{ year }})",
+      "departures": "Departures ({{ year }})",
+      "net_migration": "Net Migration ({{ year }})",
+      "male": "Male",
+      "female": "Female",
+      "baby": "Babies (< 2 years old)",
+      "child": "Children (3-10 years old)",
+      "teenager": "Teenagers (11-17 years old)",
+      "adult_young": "Young Adults (18-30 years old)",
+      "adult": "Adults (31-60 years old)",
+      "elderly": "Elderly (> 60 years old)"
     }
+  }
 }

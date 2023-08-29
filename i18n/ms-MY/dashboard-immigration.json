@@ -1,38 +1,32 @@
 {
-    "route": "/ms-MY/dashboard/immigration",
-    "sites": [
-        "datagovmy"
-    ],
-    "translation": {
-        "header": "Imigresen",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "search_country": "Cari negara yang spesifik",
-        "country_header": "Berapakah jumlah kemasukan dan pelepasan warga {{ country }} di Malaysia?",
-        "country_header_overall": "Berapakah jumlah kemasukan dan pelepasan warga asing secara keseluruhan di Malaysia?",
-        "country_title": "Kemasukan dan Pelepasan",
-        "country_desc": "Data ini hanya didapati di peringkat nasional kerana pergerakan antara negeri adalah bebas dan tidak dipantau di Malaysia",
-        "entrances": "Kemasukan",
-        "departures": "Pelepasan",
-        "net_migration": "Migrasi Bersih",
-        "choro_header": "Berapakah jumlah orang yang mempunyai pasport aktif di Malaysia?",
-        "absolute": "Mutlak (Keseluruhan)",
-        "absolute_adult": "Mutlak (Dewasa)",
-        "absolute_children": "Mutlak (Kanak-kanak)",
-        "per_capita": "Per kapita (Keseluruhan)",
-        "per_capita_adult": "Per kapita (Dewasa)",
-        "per_capita_children": "Per kapita (Kanak-kanak)",
-        "choro_description": "Lorem ipsum",
-        "choro_ranking": "Kedudukan",
-        "timeseries_header": "Bagaimanakah tren operasi kaunter di Jabatan Imigresen?",
-        "timeseries_desc": "Data ini hanya didapati di peringkat nasional kerana pergerakan antara negeri adalah bebas dan tidak dipantau di Malaysia",
-        "passport": "Pengeluaran Pasport",
-        "expatriate": "Pas Ekspatriat",
-        "visit": "Pas Lawatan Sosial",
-        "entry": "Permit Masuk",
-        "total": "Jumlah",
-        "this_year": "Tahun ini",
-        "active_passports": "Pasport Aktif",
-        "active_passes": "Pas Aktif",
-        "active_permits": "Permit Aktif"
+  "route": "/ms-MY/dashboard/immigration",
+  "sites": ["datagovmy"],
+  "translation": {
+    "header": "Immigresen",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "section_1": {
+      "title": "Berapakah jumlah kemasukan dan pelepasan warga {{ country }} di Malaysia?",
+      "title_ALL": "Berapakah jumlah kemasukan dan pelepasan warga asing secara keseluruhan di Malaysia?",
+      "description": "Data ini hanya didapati di peringkat nasional kerana pergerakan antara negeri adalah bebas dan tidak dipantau di Malaysia",
+      "search_placeholder": "Cari negara yang spesifik",
+      "timeseries_title": "Kemasukan dan Pelepasan"
+    },
+    "section_2": {
+      "title": "Pecahan ketibaan warga asing mengikut kumpulan demografi",
+      "description": "(insert blurb after Thevesh actualy sees the data)"
+    },
+    "keys": {
+      "entrances": "Kemasukan ({{ year }})",
+      "departures": "Pelepasan ({{ year }})",
+      "net_migration": "Migrasi Bersih ({{ year }})",
+      "male": "Lelaki",
+      "female": "Perempuan",
+      "baby": "Bayi (< 2 tahun)",
+      "child": "Kanak-kanak (3-10 tahun)",
+      "teenager": "Remaja (11-17 tahun)",
+      "adult_young": "Dewasa Muda (18-30 tahun)",
+      "adult": "Dewasa (31-60 tahun)",
+      "elderly": "Warga Emas (> 60 tahun)"
     }
+  }
 }
