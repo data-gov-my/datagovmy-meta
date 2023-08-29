@@ -1,0 +1,50 @@
+{
+	"dashboard_name": "services_ppi",
+	"data_last_updated": "2023-08-29 23:59",
+	"route": "/dashboard/services-producer-prices,/ms-MY/dashboard/services-producer-prices",
+	"sites": ["opendosm"],
+	"manual_trigger": "0",
+	"required_params": [],
+	"optional_params": [],
+	"charts": {
+		"timeseries": {
+			"name": "timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/services_ppi_timeseries.parquet",
+			"data_as_of": "2023-08-29 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["chart_type"],
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": [
+					"x",
+					"total",
+					"infocomm",
+					"transport",
+					"accom",
+					"arts",
+					"professional",
+					"health",
+					"education",
+					"realestate",
+					"recession"
+				]
+			}
+		},
+		"timeseries_callout": {
+			"name": "timeseries_callout",
+			"chart_type": "custom_chart",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/services_ppi_timeseries_callout.parquet",
+			"data_as_of": "2023-08-29 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["chart_type", "chart"],
+				"value_columns": ["latest"]
+			}
+		}
+	}
+}

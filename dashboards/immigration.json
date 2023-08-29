@@ -1,7 +1,7 @@
 {
 	"dashboard_name": "immigration",
 	"data_last_updated": "2023-06-01 23:59",
-	"route": "/dashboard/immigration,/ms-MY/dashboard/immigration",
+	"route": "/dashboard/passport-and-passes,/ms-MY/dashboard/passport-and-passes",
 	"sites": ["datagovmy"],
 	"manual_trigger": "0",
 	"required_params": [],

@@ -16,9 +16,9 @@
       "description": "(insert blurb after Thevesh actualy sees the data)"
     },
     "keys": {
-      "entrances": "Kemasukan ({{ year }})",
-      "departures": "Pelepasan ({{ year }})",
-      "net_migration": "Migrasi Bersih ({{ year }})",
+      "entrances": "Kemasukan",
+      "departures": "Pelepasan",
+      "net_migration": "Migrasi Bersih",
       "male": "Lelaki",
       "female": "Perempuan",
       "baby": "Bayi (< 2 tahun)",
