@@ -12,7 +12,9 @@
         "station_temp_rain": "{{ station }}: Temperature and Rainfall",
         "disclaimer": "Note: To ensure 100% completeness, observations are recorded manually on the rare occasions when automation does not operate as intended",
         "mean_temp": "Mean Temperature",
+        "temperature": "Temperature",
         "total_rain": "Total Rainfall",
+        "rainfall": "Rainfall",
         "days_with_rain": "Days with Rain (past 4 weeks)"
     }
 }

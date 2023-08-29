@@ -12,7 +12,9 @@
         "station_temp_rain": "{{ station }}: Suhu dan Hujan",
         "disclaimer": "Nota: Untuk memastikan kelengkapan data, pemerhatian akan dijalankan secara manual sekiranya operasi automatik tidak dijalankan seperti biasa",
         "mean_temp": "Purata Suhu",
+        "temperature": "Suhu",
         "total_rain": "Jumlah Hujan",
+        "rainfall": "Hujan",
         "days_with_rain": "Hari Hujan (tempoh 4 minggu)"
     }
 }
