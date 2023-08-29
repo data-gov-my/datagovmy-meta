@@ -4,7 +4,7 @@
 	"route": "/dashboard/weather-and-climate,/ms-MY/dashboard/weather-and-climate",
 	"sites": ["datagovmy"],
 	"manual_trigger": "0",
-	"required_params": [],
+	"required_params": ["station"],
 	"optional_params": [],
 	"charts": {
 		"query_values": {
@@ -28,8 +28,8 @@
 			"data_as_of": "2023-08-29 23:59",
 			"chart_type": "timeseries_chart",
 			"chart_source": "https://storage.data.gov.my/dashboards/weather_station_timeseries.parquet",
-			"api_type": "static",
-			"api_params": [],
+			"api_type": "dynamic",
+			"api_params": ["station"],
 			"variables": {
 				"keys": ["station", "frequency"],
 				"rename_cols": {
@@ -43,8 +43,8 @@
 			"data_as_of": "2023-08-29 23:59",
 			"chart_type": "custom_chart",
 			"chart_source": "https://storage.data.gov.my/dashboards/weather_station_timeseries_callout.parquet",
-			"api_type": "static",
-			"api_params": [],
+			"api_type": "dynamic",
+			"api_params": ["station"],
 			"variables": {
 				"keys": ["station"],
 				"value_columns": ["rainfall", "temperature"]
