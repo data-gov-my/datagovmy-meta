@@ -47,7 +47,7 @@
 			"api_params": [],
 			"variables": {
 				"keys": ["station"],
-				"value_columns": ["rainfall"]
+				"value_columns": ["rainfall", "temperature"]
 			}
 		}
 	}
