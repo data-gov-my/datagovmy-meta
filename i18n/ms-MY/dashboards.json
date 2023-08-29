@@ -27,7 +27,10 @@
             "infectious-diseases": "Penyakit Berjangkit",
             "healthcare-resources": "Sumber Sistem Kesihatan",
             "healthcare-programs": "Program Kesihatan",
-            "national-accounts": "Akaun Kebangsaan"
+            "national-accounts": "Akaun Kebangsaan",
+            "services": "Perkhidmatan",
+            "labour_market": "Pasaran Buruh",
+            "producer_price": "Harga Pengeluar"
         },
         "dashboards": {
             "emergency-response": {
@@ -223,16 +226,28 @@
                 "description": "Data populasi penduduk di peringkat Negeri, Daerah, Parlimen dan Dewan Undangan Negeri (DUN)."
             },
             "iip": {
-              "name": "International Investment Position (IIP)",
-              "description": "Financial statement of the value and composition of its external financial assets and liabilities of a country."
+              "name": "Kedudukan Pelaburan Antarabangsa",
+              "description": "Penyata kewangan nilai dan komposisi aset kewangan luaran dan liabiliti negara."
             },
             "bop": {
-              "name": "Balance of Payments",
-              "description": "The Balance of Payments (BOP) shows us how resources are flowing between Malaysia and other countries."
+              "name": "Perimbangan Pembayaran",
+              "description": "Perimbangan Pembayaran menunjukkan bagaimana sumber-sumber mengalir antara Malaysia dan negara-negara lain."
             },
             "manufacturing-statistics": {
-              "name": "Manufacturing Statistics",
-              "description": "This dashboard summarises key indicators and gives you an easy way to monitor the performance of Malaysia’s manufacturing sector."
+              "name": "Statistik Pembuatan",
+              "description": "Papan pemuka ini merangkumi petunjuk utama dan memberikan cara mudah untuk memantau prestasi sektor pembuatan Malaysia."
+            },
+            "labour-productivity": {
+              "name": "Produktiviti Buruh",
+              "description": "Papan pemuka ini mengesan produktiviti buruh di semua sektor utama dalam ekonomi Malaysia."
+            },
+            "formal-sector-wages": {
+              "name": "Gaji Sektor Formal",
+              "description": "Data gaji sektor formal di Malaysia"
+            },
+            "services-producer-prices": {
+              "name": "Harga Pengeluar Perkhidmatan",
+              "description": "Papan pemuka ini mengesan produktiviti buruh di semua sektor utama dalam ekonomi Malaysia."
             }
         }
     }

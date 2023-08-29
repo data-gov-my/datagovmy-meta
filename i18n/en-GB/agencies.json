@@ -135,6 +135,14 @@
         "bppib": {
           "full": "Industrial Production & Construction Division",
           "abbr": "BPPIB"
+        },
+        "mbls": {
+          "full": "Malaysian Bureau of Labour Statistics",
+          "abbr": "MBLS"
+        },
+        "piesd": {
+          "full": "Price, Income & Expenditure Statistics Division",
+          "abbr": "PIESD"
         }
     }
 }

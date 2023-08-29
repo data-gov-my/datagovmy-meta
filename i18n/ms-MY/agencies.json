@@ -135,6 +135,14 @@
         "bppib": {
           "full": "Bahagian Perangkaan Pengeluaran Industri & Binaan",
           "abbr": "BPPIB"
+        },
+        "mbls": {
+          "full": "Biro Statistik Buruh Malaysia",
+          "abbr": "MBLS"
+        },
+        "piesd": {
+          "full": "Bahagian Perangkaan Harga, Pendapatan & Perbelanjaan",
+          "abbr": "PIESD"
         }
     }
 }
