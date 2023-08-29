@@ -19,7 +19,7 @@
 				"columns": ["state", "station", "lat", "lon"],
 				"sort_values": {
 					"by": ["state", "station"],
-					"ascending": [true]
+					"ascending": [true, true]
 				}
 			}
 		},
