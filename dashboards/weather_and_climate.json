@@ -16,11 +16,7 @@
 			"api_params": [],
 			"variables": {
 				"flat": true,
-				"columns": ["state", "station", "lat", "lon"],
-				"sort_values": {
-					"by": ["state", "station"],
-					"ascending": [true, true]
-				}
+				"columns": ["station", "lat", "lon", "slug"]
 			}
 		},
 		"timeseries": {
