@@ -16,9 +16,9 @@
       "description": "(insert blurb after Thevesh actualy sees the data)"
     },
     "keys": {
-      "entrances": "Entrances ({{ year }})",
-      "departures": "Departures ({{ year }})",
-      "net_migration": "Net Migration ({{ year }})",
+      "entrances": "Entrances",
+      "departures": "Departures",
+      "net_migration": "Net Migration",
       "male": "Male",
       "female": "Female",
       "baby": "Babies (< 2 years old)",
