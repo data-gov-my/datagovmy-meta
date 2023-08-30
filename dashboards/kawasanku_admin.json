@@ -7,61 +7,21 @@
 	"required_params": ["area", "area_type"],
 	"optional_params": [],
 	"charts": {
-		"jitter_chart": {
-			"name": "jitter_chart",
-			"chart_type": "jitter_chart",
-			"chart_source": "https://storage.googleapis.com/dosm-public-dashboards/kawasanku_admin_jitter.parquet",
-			"data_as_of": "2022-11-25 23:59",
+		"pyramid_data": {
+			"name": "pyramid_data",
+			"chart_type": "pyramid_chart",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/kawasanku_admin_pyramid.parquet",
+			"data_as_of": "2023-06-26 23:59",
 			"api_type": "dynamic",
-			"api_params": [],
+			"api_params": ["area_type", "area"],
 			"variables": {
-				"keys": ["area_type"],
-				"id": "area",
-				"columns": {
-					"geography": [
-						"total_area",
-						"max_elevation",
-						"ruggedness",
-						"watercover",
-						"treecover",
-						"treeloss",
-						"nightlights"
-					],
-					"population": [
-						"population_density",
-						"female_male",
-						"household_size",
-						"birth_rate",
-						"death_rate",
-						"dep_young",
-						"dep_old"
-					],
-					"economy": [
-						"income_mean",
-						"expenditure_mean",
-						"gini",
-						"poverty",
-						"labour_urate",
-						"labour_prate",
-						"agegroup_working"
-					],
-					"public_services": [
-						"electricity",
-						"water",
-						"hospital",
-						"clinic",
-						"school",
-						"police_fire",
-						"grocery"
-					]
-				},
-				"tooltip": true
+				"keys": ["area_type", "area"]
 			}
 		},
 		"bar_chart": {
 			"name": "bar_chart",
 			"chart_type": "bar_meter",
-			"chart_source": "https://storage.googleapis.com/dosm-public-dashboards/kawasanku_admin_barmeter.parquet?ignoreCache=1",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/kawasanku_admin_barmeter.parquet",
 			"data_as_of": "2022-11-25 23:59",
 			"api_type": "dynamic",
 			"api_params": ["area_type", "area"],
@@ -77,7 +37,7 @@
 		"bar_chart_callout": {
 			"name": "bar_chart_callout",
 			"chart_type": "bar_meter",
-			"chart_source": "https://storage.googleapis.com/dosm-public-dashboards/kawasanku_admin_barmeter_callout.parquet?ignoreCache=1",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/kawasanku_admin_barmeter_callout.parquet",
 			"data_as_of": "2022-11-25 23:59",
 			"api_type": "dynamic",
 			"api_params": ["area_type", "area"],
@@ -93,7 +53,7 @@
 		"choropleth_parlimen": {
 			"name": "choropleth_parlimen",
 			"chart_type": "choropleth_chart",
-			"chart_source": "https://storage.googleapis.com/dosm-public-dashboards/kawasanku_electoral_choropleth_parlimen.parquet",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/kawasanku_electoral_choropleth_parlimen.parquet",
 			"data_as_of": "2020-01-01 00:00",
 			"api_type": "static",
 			"api_params": [],
@@ -116,7 +76,7 @@
 		"choropleth_dun": {
 			"name": "choropleth_dun",
 			"chart_type": "choropleth_chart",
-			"chart_source": "https://storage.googleapis.com/dosm-public-dashboards/kawasanku_electoral_choropleth_dun.parquet",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/kawasanku_electoral_choropleth_dun.parquet",
 			"data_as_of": "2020-01-01 00:00",
 			"api_type": "static",
 			"api_params": [],
