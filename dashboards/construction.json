@@ -1,0 +1,73 @@
+{
+	"dashboard_name": "construction",
+	"data_last_updated": "2023-08-28 23:59",
+	"route": "/dashboard/construction,/ms-MY/dashboard/construction",
+	"sites": ["opendosm"],
+	"manual_trigger": "0",
+	"required_params": [],
+	"optional_params": [],
+	"charts": {
+		"timeseries": {
+			"name": "timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/construction_timeseries.parquet",
+			"data_as_of": "2023-08-28 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["chart_type"],
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": ["x", "projects", "value", "recession"]
+			}
+		},
+		"timeseries_callout": {
+			"name": "timeseries_callout",
+			"chart_type": "custom_chart",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/construction_timeseries_callout.parquet",
+			"data_as_of": "2023-08-28 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["chart_type", "chart"],
+				"value_columns": ["latest"]
+			}
+		},
+		"timeseries_projowner": {
+			"name": "timeseries_projowner",
+			"chart_type": "timeseries_chart",
+			"chart_source": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/dashboards/construction_projowner_timeseries.parquet",
+			"data_as_of": "2023-08-28 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["project_owner", "chart_type"],
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": [
+					"x",
+					"total",
+					"residential",
+					"non_residential",
+					"civileng",
+					"special",
+					"recession"
+				]
+			}
+		},
+		"timeseries_projowner_callout": {
+			"name": "timeseries_projowner_callout",
+			"chart_type": "custom_chart",
+			"chart_source": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/dashboards/construction_projowner_timeseries_callout.parquet",
+			"data_as_of": "2023-08-28 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["project_owner", "chart_type", "chart"],
+				"value_columns": ["latest"]
+			}
+		}
+	}
+}

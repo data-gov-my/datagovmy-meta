@@ -2,6 +2,9 @@
     "dashboard_name": "public_transport",
     "data_last_updated": "2023-06-28 23:59",
     "route": "/dashboard/public-transport,/ms-MY/dashboard/public-transport",
+    "sites": [
+        "datagovmy"
+    ],
     "manual_trigger": "1",
     "required_params": [],
     "optional_params": [],

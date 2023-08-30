@@ -1,5 +1,8 @@
 {
     "route": "/dashboard/crime",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "Crime",
         "description": ""

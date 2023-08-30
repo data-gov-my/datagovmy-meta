@@ -2,6 +2,9 @@
     "dashboard_name": "peka_b40",
     "data_last_updated": "2023-06-01 23:59",
     "route": "/dashboard/peka-b40,/ms-MY/dashboard/peka-b40",
+    "sites": [
+        "datagovmy"
+    ],
     "required_params": [
         "state"
     ],

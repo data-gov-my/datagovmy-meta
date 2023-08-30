@@ -1,5 +1,8 @@
 {
     "route": "/ms-MY/",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "site": {
             "name": "data.gov.my",
@@ -117,10 +120,11 @@
             "brought_by": "Produk data digital oleh",
             "brought_by_the": "Produk data digital oleh",
             "visit_portal": "Layari portal kami",
-            "click_to_explore": "Click to explore",
+            "click_to_explore": "Klik untuk mengetahui lebih lanjut",
             "ovs": "Lahir di Luar Negara"
         },
         "categories": {
+            "construction": "Pembinaan",
             "democracy": "Demokrasi",
             "demography": "Demografi",
             "digitalisation": "Digitalisasi",
@@ -132,24 +136,19 @@
             "healthcare": "Program Kesihatan",
             "public_finances": "Kewangan Awam",
             "public_safety": "Keselamatan Awam",
-            "transportation": "Pengangkutan"
+            "transportation": "Pengangkutan",
+            "national_accounts": "Akaun Kebangsaan",
+            "services": "Perkhidmatan",
+            "public_administration": "Pentadbiran Awam",
+            "labour_markets": "Pasaran Buruh",
+            "producer_price": "Harga Pengeluar"
         },
         "home": {
             "title": "Terkini. Terperinci. Terbukti.",
             "description": "Portal ini adalah rumah bagi segala data terbuka sektor awam Malaysia. Sama ada anda rakyat marhaen yang menginginkan maklumat, ataupun penyelidik yang mencari sumber, ataupun pembangun aplikasi yang memerlukan API, anda boleh mendapatinya di sini. Misi kami adalah untuk menjadikan Malaysia negara berpacukan data yang terhebat di dunia.",
             "section_1": {
                 "title": "Terokailah papan pemuka paling popular!",
-                "description": "Papan pemuka inilah yang paling menular, tetapi jangan lupa untuk lihat koleksi penuh papan pemuka kami!",
-                "stats": {
-                    "population": "Penduduk Semasa",
-                    "economic_growth": "Pertumbuhan Ekonomi",
-                    "bnm_opr": "Kadar Dasar Semalaman BNM",
-                    "unemployment": "Pengangguran",
-                    "inflation": "Inflasi",
-                    "production_cost": "Kos Pengeluaran",
-                    "industrial_production": "Pengeluaran Industri",
-                    "wholesale_retail": "Perdagangan Borong & Runcit"
-                }
+                "description": "Papan pemuka inilah yang paling menular, tetapi jangan lupa untuk lihat koleksi penuh papan pemuka kami!"
             },
             "section_2": {
                 "title": "Lihat dataset paling hangat!",

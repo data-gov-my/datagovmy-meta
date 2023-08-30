@@ -2,6 +2,9 @@
     "dashboard_name": "homepage",
     "data_last_updated": "2023-07-01 23:59",
     "route": "/,/ms-MY/",
+    "sites": [
+        "datagovmy"
+    ],
     "manual_trigger": "",
     "required_params": [],
     "optional_params": [],

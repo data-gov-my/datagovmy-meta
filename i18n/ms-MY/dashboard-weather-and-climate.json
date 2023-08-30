@@ -1,7 +1,20 @@
 {
     "route": "/ms-MY/dashboard/weather-and-climate",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
-        "header": "",
-        "description": ""
+        "header": "Cuaca dan Iklim",
+        "description": "Perubahan iklim merupakan ancaman wujud terbesar yang bukan sahaja dihadapi oleh Malaysia, tetapi di seluruh dunia. Menggunakan data daripada 42 stesen cuaca yang dikendalikan oleh Jabatan Meteorologi Malaysia, papan pemuka ini memberikan anda data iklim selama 30 tahun, untuk membantu anda meneroka dan memahami kedua-dua arah aliran cuaca (jangka pendek) dan iklim (jangka panjang) di kawasan anda. Nikmatilah!",
+        "title": "Terokailah mana-mana stesen cuaca berdekatan anda!",
+        "search_station": "Cari atau pilih daripada peta!",
+        "map_desc": "Gunakan peta di atas untuk menerokai lokasi semua 42 stesen cuaca di Malaysia.",
+        "station_temp_rain": "{{ station }}: Suhu dan Hujan",
+        "disclaimer": "Nota: Untuk memastikan kelengkapan data, pemerhatian akan dijalankan secara manual sekiranya operasi automatik tidak dijalankan seperti biasa",
+        "mean_temp": "Purata Suhu",
+        "temperature": "Suhu",
+        "total_rain": "Jumlah Hujan",
+        "rainfall": "Hujan",
+        "days_with_rain": "Hari Hujan (tempoh 4 minggu)"
     }
 }

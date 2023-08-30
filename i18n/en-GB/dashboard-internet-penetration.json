@@ -1,5 +1,8 @@
 {
     "route": "/dashboard/internet-penetration",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "Internet Penetration",
         "description": ""

@@ -1,5 +1,8 @@
 {
     "route": "/ms-MY/dashboard/flood-warning",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "",
         "description": ""

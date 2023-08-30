@@ -1,5 +1,8 @@
 {
     "route": "/ms-MY/dashboard/money-supply",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "Penawaran Wang",
         "description": "Papan pemuka ini merupakan sebuah gambaran menyeluruh terhadap mata wang dalam edaran di Malaysia yang terdiri daripada lebih RM150 bilion nilai mata wang dan duit syiling dalam edaran dalam ekonomi Malaysia, membolehkan pengguna meneliti komposisi dan pertumbuhan mata wang dalam edaran berdasarkan data dari Sorotan dan Perangkaan Bulanan (MHS) terbitan Bank Negara Malaysia. Untuk makluman, mata wang dalam edaran mengambil kira mata wang yang dikira wang sah sahaja. Contohnya, duit syiling RM1 yang sudah dihentikan pengedarannya tidak termasuk dalam data dan papan pemuka ini.",

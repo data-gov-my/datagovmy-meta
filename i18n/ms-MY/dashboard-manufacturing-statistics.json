@@ -1,0 +1,22 @@
+{
+  "route": "/ms-MY/dashboard/manufacturing-statistics",
+  "sites": ["opendosm"],
+  "translation": {
+    "header": "Statistik Pembuatan",
+    "description": "Walaupun lebih kurang separuh daripada KDNK Malaysia berasal daripada sektor perkhidmatan, sektor pembuatan tetap menjadi sangat strategik bagi ekonomi Malaysia, dengan pusat-pusat pembuatan nilai tinggi di Pulau Pinang, Kulim, Lembah Klang, dan Johor. Dengan menggunakan data dari penerbitan bulanan kami tentang pembuatan, papan pemuka ini merangkumi petunjuk utama dan memberikan cara mudah untuk memantau prestasi sektor pembuatan Malaysia.",
+    "section_1": {
+      "title": "Bagaimana trend statistik pembuatan utama?"
+    },
+    "keys": {
+      "actual": "Nilai Sebenar",
+      "actual_sa": "Terlaras Secara Musim",
+      "growth_yoy": "Pertumbuhan Tahunan",
+      "growth_momsa": "Pertumbuhan Bulanan",
+      "recession": "Kemelesetan",
+      "no_shade": "Tiada lorekan",
+      "sales": "Nilai Jualan (Ex-Factory)",
+      "employees": "Bilangan Pekerja",
+      "wages": "Gaji & Upah Dibayar"
+    }
+  }
+}

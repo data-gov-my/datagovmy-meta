@@ -1,5 +1,8 @@
 {
     "route": "/ms-MY/dashboard/public-contracting",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "",
         "description": ""

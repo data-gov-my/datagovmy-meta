@@ -1,5 +1,8 @@
 {
     "route": "/ms-MY/dashboard/fire-and-rescue",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "Kebakaran dan Penyelamatan",
         "description": "Setiap hari, anggota bomba negara kita mempertaruhkan nyawa mereka untuk memastikan kita selamat. Menggunakan pangkalan data masa nyata mereka tentang operasi kecemasan, papan pemuka ini membentangkan data tentang kebakaran dan penyelamatan di Malaysia, dan bertujuan untuk meningkatkan kesedaran awam terhadap perkhidmatan Bomba.",

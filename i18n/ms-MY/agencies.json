@@ -1,129 +1,148 @@
 {
-  "route": null,
-  "translation": {
-    "bnm": {
-      "full": "Bank Negara Malaysia",
-      "abbr": "BNM"
-    },
-    "bomba": {
-      "full": "Jabatan Bomba dan Penyelamat Malaysia",
-      "abbr": "BOMBA"
-    },
-    "dosm": {
-      "full": "Jabatan Perangkaan Malaysia",
-      "abbr": "DOSM"
-    },
-    "epf": {
-      "full": "Kumpulan Wang Simpanan Pekerja",
-      "abbr": "KWSP"
-    },
-    "epu": {
-      "full": "Kementerian Ekonomi",
-      "abbr": "EPU"
-    },
-    "govt": {
-      "full": "Kerajaan Malaysia",
-      "abbr": "GOVT"
-    },
-    "icu-jpm": {
-      "full": "Unit Penyelarasan Pelaksanaan",
-      "abbr": "ICU JPM"
-    },
-    "imigresen": {
-      "full": "Jabatan Imigresen Malaysia",
-      "abbr": "Imigresen"
-    },
-    "jakoa": {
-      "full": "Jabatan Kemajuan Orang Asli",
-      "abbr": "JAKOA"
-    },
-    "jpa": {
-      "full": "Jabatan Perkhidmatan Awam",
-      "abbr": "JPA"
-    },
-    "jpj": {
-      "full": "Jabatan Pengangkutan Jalan",
-      "abbr": "JPJ"
-    },
-    "jpn": {
-      "full": "Jabatan Pendaftaran Negara",
-      "abbr": "JPN"
-    },
-    "jps": {
-      "full": "Jabatan Pengairan dan Saliran",
-      "abbr": "JPS"
-    },
-    "ktmb": {
-      "full": "Keretapi Tanah Melayu Berhad",
-      "abbr": "KTMB"
-    },
-    "kwap": {
-      "full": "Kumpulan Wang Persaraan",
-      "abbr": "KWAP"
-    },
-    "lhdn": {
-      "full": "Lembaga Hasil Dalam Negeri",
-      "abbr": "LHDN"
-    },
-    "mampu": {
-      "full": "Unit Pemodenan Tadbiran dan Perancangan Pengurusan Malaysia",
-      "abbr": "MAMPU"
-    },
-    "mcmc": {
-      "full": "Suruhanjaya Komunikasi dan Multimedia Malaysia",
-      "abbr": "MCMC"
-    },
-    "mers-999": {
-      "full": "Malaysian Emergency Response Services 999",
-      "abbr": "MERS 999"
-    },
-    "met": {
-      "full": "Jabatan Meteorologi Malaysia",
-      "abbr": "Met"
-    },
-    "moe": {
-      "full": "Kementerian Pendidikan",
-      "abbr": "MoE"
-    },
-    "mof": {
-      "full": "Kementerian Kewangan",
-      "abbr": "MoF"
-    },
-    "moh": {
-      "full": "Kementerian Kesihatan Malaysia",
-      "abbr": "MoH"
-    },
-    "mot": {
-      "full": "Kementerian Pengangkutan",
-      "abbr": "MoT"
-    },
-    "ntrc": {
-      "full": "Pusat Sumber Transplan Nasional",
-      "abbr": "NTRC"
-    },
-    "pdn": {
-      "full": "Pusat Darah Negara",
-      "abbr": "PDN"
-    },
-    "pdrm": {
-      "full": "Polis Diraja Malaysia",
-      "abbr": "PDRM"
-    },
-    "perkeso": {
-      "full": "Pertubuhan Keselamatan Sosial",
-      "abbr": "PERKESO"
-    },
-    "phcorp": {
-      "full": "ProtectHealth Corporation",
-      "abbr": "PHCorp"
-    },
-    "spr": {
-      "full": "Suruhanjaya Pilihan Raya",
-      "abbr": "SPR"
-    },
-    "unhcr": {
-      "full": "Pesuruhjaya Tinggi Bangsa-Bangsa Bersatu untuk Pelarian",
-      "abbr": "UNHCR"
+    "route": null,
+    "sites": [
+        "datagovmy"
+    ],
+    "translation": {
+        "bnm": {
+            "full": "Bank Negara Malaysia",
+            "abbr": "BNM"
+        },
+        "bomba": {
+            "full": "Jabatan Bomba dan Penyelamat Malaysia",
+            "abbr": "BOMBA"
+        },
+        "dosm": {
+            "full": "Jabatan Perangkaan Malaysia",
+            "abbr": "DOSM"
+        },
+        "epf": {
+            "full": "Kumpulan Wang Simpanan Pekerja",
+            "abbr": "KWSP"
+        },
+        "epu": {
+            "full": "Kementerian Ekonomi",
+            "abbr": "EPU"
+        },
+        "govt": {
+            "full": "Kerajaan Malaysia",
+            "abbr": "GOVT"
+        },
+        "icu-jpm": {
+            "full": "Unit Penyelarasan Pelaksanaan",
+            "abbr": "ICU JPM"
+        },
+        "imigresen": {
+            "full": "Jabatan Imigresen Malaysia",
+            "abbr": "Imigresen"
+        },
+        "jakoa": {
+            "full": "Jabatan Kemajuan Orang Asli",
+            "abbr": "JAKOA"
+        },
+        "jpa": {
+            "full": "Jabatan Perkhidmatan Awam",
+            "abbr": "JPA"
+        },
+        "jpj": {
+            "full": "Jabatan Pengangkutan Jalan",
+            "abbr": "JPJ"
+        },
+        "jpn": {
+            "full": "Jabatan Pendaftaran Negara",
+            "abbr": "JPN"
+        },
+        "jps": {
+            "full": "Jabatan Pengairan dan Saliran",
+            "abbr": "JPS"
+        },
+        "ktmb": {
+            "full": "Keretapi Tanah Melayu Berhad",
+            "abbr": "KTMB"
+        },
+        "kwap": {
+            "full": "Kumpulan Wang Persaraan",
+            "abbr": "KWAP"
+        },
+        "lhdn": {
+            "full": "Lembaga Hasil Dalam Negeri",
+            "abbr": "LHDN"
+        },
+        "mampu": {
+            "full": "Unit Pemodenan Tadbiran dan Perancangan Pengurusan Malaysia",
+            "abbr": "MAMPU"
+        },
+        "mcmc": {
+            "full": "Suruhanjaya Komunikasi dan Multimedia Malaysia",
+            "abbr": "MCMC"
+        },
+        "mers-999": {
+            "full": "Malaysian Emergency Response Services 999",
+            "abbr": "MERS 999"
+        },
+        "met": {
+            "full": "Jabatan Meteorologi Malaysia",
+            "abbr": "Met"
+        },
+        "moe": {
+            "full": "Kementerian Pendidikan",
+            "abbr": "MoE"
+        },
+        "mof": {
+            "full": "Kementerian Kewangan",
+            "abbr": "MoF"
+        },
+        "moh": {
+            "full": "Kementerian Kesihatan Malaysia",
+            "abbr": "MoH"
+        },
+        "mot": {
+            "full": "Kementerian Pengangkutan",
+            "abbr": "MoT"
+        },
+        "ntrc": {
+            "full": "Pusat Sumber Transplan Nasional",
+            "abbr": "NTRC"
+        },
+        "pdn": {
+            "full": "Pusat Darah Negara",
+            "abbr": "PDN"
+        },
+        "pdrm": {
+            "full": "Polis Diraja Malaysia",
+            "abbr": "PDRM"
+        },
+        "perkeso": {
+            "full": "Pertubuhan Keselamatan Sosial",
+            "abbr": "PERKESO"
+        },
+        "phcorp": {
+            "full": "ProtectHealth Corporation",
+            "abbr": "PHCorp"
+        },
+        "spr": {
+            "full": "Suruhanjaya Pilihan Raya",
+            "abbr": "SPR"
+        },
+        "unhcr": {
+            "full": "Pesuruhjaya Tinggi Bangsa-Bangsa Bersatu untuk Pelarian",
+            "abbr": "UNHCR"
+        },
+        "bpan": {
+          "full": "Bahagian Perangkaan Akaun Nasional",
+          "abbr": "BPAN"
+        },
+        "bppib": {
+          "full": "Bahagian Perangkaan Pengeluaran Industri & Binaan",
+          "abbr": "BPPIB"
+        },
+        "mbls": {
+          "full": "Biro Statistik Buruh Malaysia",
+          "abbr": "MBLS"
+        },
+        "piesd": {
+          "full": "Bahagian Perangkaan Harga, Pendapatan & Perbelanjaan",
+          "abbr": "PIESD"
+        }
     }
-  }
 }

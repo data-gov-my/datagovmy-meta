@@ -1,78 +1,91 @@
 {
-    "dashboard_name": "immigration_country",
-    "data_last_updated": "2023-06-01 23:59",
-    "route": "",
-    "manual_trigger": "2",
-    "required_params": [
-        "country"
-    ],
-    "optional_params": [],
-    "charts": {
-        "query_values": {
-            "name": "query_values",
-            "chart_type": "query_values",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/immigration_timeseries_country.parquet",
-            "data_as_of": "2023-06-19 23:59",
-            "api_type": "dynamic",
-            "api_params": [],
-            "variables": {
-                "flat": true,
-                "columns": [
-                    "country"
-                ],
-                "sort_values": {
-                    "by": [
-                        "country"
-                    ],
-                    "ascending": [
-                        true
-                    ]
-                }
-            }
-        },
-        "timeseries_country": {
-            "name": "timeseries_country",
-            "chart_type": "timeseries_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/immigration_timeseries_country.parquet",
-            "data_as_of": "2023-05-23 23:59",
-            "api_type": "dynamic",
-            "api_params": [
-                "country"
-            ],
-            "variables": {
-                "keys": [
-                    "country",
-                    "period"
-                ],
-                "rename_cols": {
-                    "date": "x"
-                },
-                "value_columns": [
-                    "x",
-                    "immigration",
-                    "emigration",
-                    "net_migration"
-                ]
-            }
-        },
-        "timeseries_country_callout": {
-            "name": "timeseries_country_callout",
-            "chart_type": "custom_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/immigration_timeseries_country_callout.parquet",
-            "data_as_of": "2023-05-23 23:59",
-            "api_type": "dynamic",
-            "api_params": [
-                "country"
-            ],
-            "variables": {
-                "keys": [
-                    "country",
-                    "variable"
-                ],
-                "value_columns": [
-                    "value"
-                ]
-            }
-        }
-    }
+	"dashboard_name": "immigration_country",
+	"data_last_updated": "2023-08-01 23:59",
+	"route": "/dashboard/immigration,/ms-MY/dashboard/immigration",
+	"sites": ["datagovmy"],
+	"manual_trigger": "",
+	"required_params": ["country"],
+	"optional_params": [],
+	"charts": {
+		"query_values": {
+			"name": "query_values",
+			"chart_type": "query_values",
+			"chart_source": "https://storage.data.gov.my/dashboards/immigration_timeseries.parquet",
+			"data_as_of": "2023-07-31 23:59",
+			"api_type": "dynamic",
+			"api_params": [],
+			"variables": {
+				"flat": true,
+				"columns": ["country"],
+				"sort_values": {
+					"by": ["country"],
+					"ascending": [true]
+				}
+			}
+		},
+		"timeseries_country": {
+			"name": "timeseries_country",
+			"chart_type": "timeseries_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/immigration_timeseries.parquet",
+			"data_as_of": "2023-07-31 23:59",
+			"api_type": "dynamic",
+			"api_params": ["country"],
+			"variables": {
+				"keys": ["country", "frequency"],
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": ["x", "in", "out", "net"]
+			}
+		},
+		"timeseries_country_callout": {
+			"name": "timeseries_country_callout",
+			"chart_type": "custom_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/immigration_timeseries_callout.parquet",
+			"data_as_of": "2023-07-31 23:59",
+			"api_type": "dynamic",
+			"api_params": ["country"],
+			"variables": {
+				"keys": ["country"],
+				"value_columns": ["in", "out", "net"]
+			}
+		},
+		"timeseries_demography": {
+			"name": "timeseries_demography",
+			"chart_type": "timeseries_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/immigration_demog_timeseries.parquet",
+			"data_as_of": "2023-07-31 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["frequency"],
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": [
+					"x",
+					"female",
+					"male",
+					"baby",
+					"child",
+					"teenager",
+					"adult_young",
+					"adult",
+					"elderly"
+				]
+			}
+		},
+		"timeseries_demography_callout": {
+			"name": "timeseries_demography_callout",
+			"chart_type": "custom_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/immigration_demog_timeseries_callout.parquet",
+			"data_as_of": "2023-07-31 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["chart"],
+				"value_columns": ["daily", "yearly"]
+			}
+		}
+	}
 }

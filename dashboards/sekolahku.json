@@ -2,6 +2,9 @@
     "dashboard_name": "sekolahku",
     "data_last_updated": "2023-06-01 23:59",
     "route": "/dashboard/sekolahku,/ms-MY/dashboard/sekolahku",
+    "sites": [
+        "datagovmy"
+    ],
     "manual_trigger": "2",
     "required_params": [],
     "optional_params": [],

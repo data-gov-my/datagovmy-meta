@@ -1,0 +1,72 @@
+{
+	"dashboard_name": "formal_wages",
+	"data_last_updated": "2023-08-28 23:59",
+	"route": "/dashboard/formal-sector-wages,/ms-MY/dashboard/formal-sector-wages",
+	"sites": ["opendosm"],
+	"manual_trigger": "0",
+	"required_params": [],
+	"optional_params": [],
+	"charts": {
+		"bar_bracket": {
+			"name": "bar_bracket",
+			"chart_type": "bar_chart",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/labour_formalwages_snapshot_bracket.parquet",
+			"data_as_of": "2023-08-28 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["date"],
+				"rename_cols": {
+					"bracket": "x",
+					"n_people": "y"
+				},
+				"x": "x",
+				"y": ["y"]
+			}
+		},
+		"bar_percentile": {
+			"name": "bar_percentile",
+			"chart_type": "bar_chart",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/labour_formalwages_snapshot_percentile.parquet",
+			"data_as_of": "2023-08-28 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["date"],
+				"rename_cols": {
+					"percentile": "x",
+					"salary": "y"
+				},
+				"x": "x",
+				"y": ["y"]
+			}
+		},
+		"timeseries": {
+			"name": "timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/labour_formalwages_timeseries_state.parquet",
+			"data_as_of": "2023-08-28 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["state"],
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": ["x", "salary"]
+			}
+		},
+		"timeseries_callout": {
+			"name": "timeseries_callout",
+			"chart_type": "custom_chart",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/labour_formalwages_timeseries_state_callout.parquet",
+			"data_as_of": "2023-08-28 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["state"],
+				"value_columns": ["salary"]
+			}
+		}
+	}
+}

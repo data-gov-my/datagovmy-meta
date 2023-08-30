@@ -1,5 +1,8 @@
 {
     "route": "/dashboard/covid-vaccination",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "page_title": "COVID-19 Vaccination",
         "header": "The latest data on the National COVID-19 Immunisation Program",

@@ -1,5 +1,6 @@
 {
-  "route": null,
+	"route": "/publications",
+	"sites": ["opendosm"],
   "translation": {
     "nso": "Malaysia's National Statistics Organisation",
     "header": "Publications",
@@ -9,7 +10,7 @@
     "upcoming_publications": "Upcoming Publications",
     "documentation": "Documentation",
     "browse_publications": "Looking for something specific?",
-    "select_publication": "Select a publication",
+    "select_publication": "Select a publication type",
     "filter_by": "Filter by",
     "new": "New",
     "downloads": "Downloads",
@@ -19,6 +20,7 @@
       "title": "Title",
       "desc": "Description",
       "product_type": "Product Type",
+      "publication_type": "Publication Type",
       "release_series": "Release Series",
       "release_date": "Release Date"
     },

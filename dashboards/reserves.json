@@ -2,6 +2,9 @@
     "dashboard_name": "reserves",
     "data_last_updated": "2023-06-01 23:59",
     "route": "/dashboard/reserve-money,/ms-MY/dashboard/reserve-money",
+    "sites": [
+        "datagovmy"
+    ],
     "manual_trigger": "1",
     "required_params": [],
     "optional_params": [],

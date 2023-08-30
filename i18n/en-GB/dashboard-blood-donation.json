@@ -1,5 +1,8 @@
 {
     "route": "/dashboard/blood-donation",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "title": "Healthcare Programs",
         "header": "Blood Donation",

@@ -1,5 +1,8 @@
 {
     "route": "/dashboard/poverty",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "Poverty",
         "description": "This dashboard is designed to provide up-to-date insights into the prevalence of poverty across different areas and ethnic groups in Malaysia. With this dashboard, policymakers, researchers, and concerned citizens can gain a comprehensive understanding of poverty in Malaysia. By uncovering patterns, identifying disparities, and tracking progress, this tool serves as a catalyst for evidence-based decision-making and targeted poverty reduction efforts nationwide.",

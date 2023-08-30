@@ -1,5 +1,6 @@
 {
 	"route": null,
+	"sites": ["datagovmy"],
 	"translation": {
 		"header": "Katalog Data",
 		"description": "Terokailah segala data terbuka Malaysia di sini. Ia akan diperluas setiap hari dengan data yang lebih terperinci dan pelbagai dari semua agensi persekutuan dan negeri Malaysia.",
@@ -99,6 +100,7 @@
 			"desc2": "Selain itu, anda boleh bereksperimen dengan kod secara interaktif dan menghantar pertanyaan di bahagian ",
 			"link2": "Permintaan Contoh"
 		},
-		"license_text": "Data ini adalah data terbuka di bawah lesen Creative Commons Attribution 4.0 International (CC BY 4.0). Penerangan lesen tersebut boleh didapati di "
+		"license_text": "Data ini adalah data terbuka di bawah lesen Creative Commons Attribution 4.0 International (CC BY 4.0). Penerangan lesen tersebut boleh didapati di ",
+		"try_datagpt": "Cubalah DataGPT baharu"
 	}
 }

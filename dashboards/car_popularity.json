@@ -1,88 +1,97 @@
 {
-    "dashboard_name": "car_popularity",
-    "data_last_updated": "2023-06-01 23:59",
-    "route": "/dashboard/car-popularity,/ms-MY/dashboard/car-popularity",
-    "manual_trigger": "",
-    "required_params": [],
-    "optional_params": [
-        "maker",
-        "model"
-    ],
-    "charts": {
-        "top_makers": {
-            "name": "top_makers",
-            "chart_type": "metrics_table",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/car_popularity_makers.parquet",
-            "data_as_of": "2023-05-27 23:59",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "keys": [
-                    "date"
-                ],
-                "value_columns": [
-                    "maker",
-                    "vehicles"
-                ]
-            }
-        },
-        "top_models": {
-            "name": "top_models",
-            "chart_type": "metrics_table",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/car_popularity_models.parquet",
-            "data_as_of": "2023-05-27 23:59",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "keys": [
-                    "date"
-                ],
-                "value_columns": [
-                    "maker",
-                    "model",
-                    "vehicles"
-                ]
-            }
-        },
-        "timeseries": {
-            "name": "timeseries",
-            "chart_type": "timeseries_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/car_popularity_timeseries.parquet",
-            "data_as_of": "2023-05-27 23:59",
-            "api_type": "individual_chart",
-            "api_params": [
-                "maker",
-                "model"
-            ],
-            "variables": {
-                "keys": [
-                    "maker",
-                    "model"
-                ],
-                "rename_cols": {
-                    "date": "x"
-                },
-                "constants": [
-                    "x"
-                ],
-                "value_columns": [
-                    "cars"
-                ]
-            }
-        },
-        "query_values": {
-            "name": "query_values",
-            "chart_type": "query_values",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/car_popularity_timeseries.parquet",
-            "data_as_of": "2023-05-27 23:59",
-            "api_type": "dynamic",
-            "api_params": [],
-            "variables": {
-                "columns": [
-                    "maker",
-                    "model"
-                ]
-            }
-        }
-    }
+	"dashboard_name": "car_popularity",
+	"data_last_updated": "2023-06-01 23:59",
+	"route": "/dashboard/car-popularity,/ms-MY/dashboard/car-popularity",
+	"sites": ["datagovmy"],
+	"manual_trigger": "",
+	"required_params": [],
+	"optional_params": ["maker", "model"],
+	"charts": {
+		"vehicle_timeseries": {
+			"name": "timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/vehicles_timeseries.parquet",
+			"data_as_of": "2023-08-25 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["frequency"],
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": [
+					"x",
+					"bus",
+					"car",
+					"lorry",
+					"motorcycle",
+					"other",
+					"van"
+				]
+			}
+		},
+		"vehicle_timeseries_callout": {
+			"name": "timeseries_callout",
+			"chart_type": "custom_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/vehicles_timeseries_callout.parquet",
+			"data_as_of": "2023-08-25 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["chart_type"],
+				"value_columns": ["latest", "alltime"]
+			}
+		},
+		"top_makers": {
+			"name": "top_makers",
+			"chart_type": "metrics_table",
+			"chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/car_popularity_makers.parquet",
+			"data_as_of": "2023-05-27 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["date"],
+				"value_columns": ["maker", "vehicles"]
+			}
+		},
+		"top_models": {
+			"name": "top_models",
+			"chart_type": "metrics_table",
+			"chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/car_popularity_models.parquet",
+			"data_as_of": "2023-05-27 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["date"],
+				"value_columns": ["maker", "model", "vehicles"]
+			}
+		},
+		"timeseries": {
+			"name": "timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/car_popularity_timeseries.parquet",
+			"data_as_of": "2023-05-27 23:59",
+			"api_type": "individual_chart",
+			"api_params": ["maker", "model"],
+			"variables": {
+				"keys": ["maker", "model"],
+				"rename_cols": {
+					"date": "x"
+				},
+				"constants": ["x"],
+				"value_columns": ["cars"]
+			}
+		},
+		"query_values": {
+			"name": "query_values",
+			"chart_type": "query_values",
+			"chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/car_popularity_timeseries.parquet",
+			"data_as_of": "2023-05-27 23:59",
+			"api_type": "dynamic",
+			"api_params": [],
+			"variables": {
+				"columns": ["maker", "model"]
+			}
+		}
+	}
 }

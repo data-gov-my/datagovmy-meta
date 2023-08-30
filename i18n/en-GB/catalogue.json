@@ -1,5 +1,6 @@
 {
 	"route": null,
+	"sites": ["datagovmy"],
 	"translation": {
 		"header": "Data Catalogue",
 		"description": "Your one-stop interface to browse Malaysia's wealth of open data. This page will grow in depth and breadth every single day, providing richer and more varied data from all Malaysian federal and state agencies.",
@@ -99,6 +100,7 @@
 			"desc2": "Additionally, you can experiment with the code interactively and send requests at the ",
 			"link2": "Example Requests section"
 		},
-		"license_text": "This data is made open under the Creative Commons Attribution 4.0 International License (CC BY 4.0). A human-readable copy of the license is available "
+		"license_text": "This data is made open under the Creative Commons Attribution 4.0 International License (CC BY 4.0). A human-readable copy of the license is available ",
+		"try_datagpt": "Try the new DataGPT"
 	}
 }

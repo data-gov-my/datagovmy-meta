@@ -1,5 +1,8 @@
 {
     "route": "/ms-MY/dashboard/orang-asli",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "Orang Asli",
         "description": "Orang Asli merupakan istilah yang digunakan untuk merujuk kepada keturunan penduduk asal di Semenanjung Malaysia. Jabatan Kemajuan Orang Asli (JAKOA) merupakan agensi kerajaan yang dimandat untuk menjaga kebajikan Orang Asli. Accordingly, they undertake comprehensive groundwork to engage the various indigenous villages scattered across Semenanjung Malaysia. Menggunakan data tersebut, papan pemuka ini menggambarkan populasi terkini mereka, yang terdiri daripada 3 kumpulan etnik utama (Negrito, Proto-Melayu dan Senoi) bersama 18 etnik-etnik lain.",

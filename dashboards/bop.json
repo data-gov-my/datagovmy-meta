@@ -1,0 +1,70 @@
+{
+	"dashboard_name": "bop",
+	"data_last_updated": "2023-08-21 23:59",
+	"route": "/dashboard/balance-of-payments,/ms-MY/dashboard/balance-of-payments",
+	"sites": ["datagovmy"],
+	"manual_trigger": "0",
+	"required_params": [],
+	"optional_params": [],
+	"charts": {
+		"bop_snapshot": {
+			"name": "bop_snapshot",
+			"chart_type": "snapshot_chart",
+			"chart_source": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/dashboards/bop_snapshot.parquet",
+			"data_as_of": "2023-08-23 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["date"],
+				"main_key": "variable",
+				"replace_word": "",
+				"data": {
+					"data": ["net", "credit", "debit"]
+				}
+			}
+		},
+		"timeseries": {
+			"name": "timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/dashboards/bop_timeseries.parquet",
+			"data_as_of": "2023-08-23 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["chart_type"],
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": [
+					"x",
+					"bop",
+					"ca",
+					"ca_goods",
+					"ca_services",
+					"ca_primary",
+					"ca_secondary",
+					"ka",
+					"fa",
+					"fa_dia",
+					"fa_pi",
+					"fa_derivatives",
+					"fa_other",
+					"neo",
+					"recession"
+				]
+			}
+		},
+		"timeseries_callout": {
+			"name": "timeseries_callout",
+			"chart_type": "custom_chart",
+			"chart_source": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/dashboards/bop_timeseries_callout.parquet",
+			"data_as_of": "2023-08-23 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["chart_type", "chart"],
+				"value_columns": ["latest", "change"]
+			}
+		}
+	}
+}

@@ -2,6 +2,7 @@
 	"dashboard_name": "iip",
 	"data_last_updated": "2023-08-21 23:59",
 	"route": "/dashboard/international-investment-position,/ms-MY/dashboard/international-investment-position",
+	"sites": ["datagovmy"],
 	"manual_trigger": "0",
 	"required_params": [],
 	"optional_params": [],
@@ -14,35 +15,23 @@
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
-				"keys": [],
+				"keys": ["chart_type"],
 				"rename_cols": {
 					"date": "x"
 				},
 				"value_columns": [
 					"x",
-					"assets_direct_equity",
-					"assets_equity_debt",
-					"assets_porfolio_equity",
-					"assets_portfolio_debt",
-					"assets_derivatives",
-					"assets_other",
-					"assets_reserve",
-					"assets_total",
-					"liabilities_direct_equity",
-					"liabilities_equity_debt",
-					"liabilities_porfolio_equity",
-					"liabilities_portfolio_debt",
-					"liabilities_derivatives",
-					"liabilities_other",
-					"liabilities_total",
-					"net_direct_equity",
-					"net_equity_debt",
-					"net_porfolio_equity",
-					"net_portfolio_debt",
-					"net_derivatives",
-					"net_other",
-					"net_reserve",
-					"net_total"
+					"direct_equity",
+					"direct_debt",
+					"direct_total",
+					"porfolio_equity",
+					"portfolio_debt",
+					"portfolio_total",
+					"derivatives",
+					"other",
+					"reserve",
+					"total",
+					"recession"
 				]
 			}
 		},
@@ -54,7 +43,7 @@
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
-				"keys": ["chart"],
+				"keys": ["chart_type", "chart"],
 				"value_columns": ["latest", "change"]
 			}
 		}

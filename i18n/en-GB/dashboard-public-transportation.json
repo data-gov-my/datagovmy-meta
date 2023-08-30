@@ -1,5 +1,8 @@
 {
     "route": "/dashboard/public-transportation",
+    "sites": [
+        "datagovmy"
+    ],
     "translation": {
         "header": "Public Transportation",
         "description": "The Mayor of Bogotá, Colombia once said <i>“A developed country is not a place where the poor have cars. It's where the rich use public transportation.”</i> Indeed, the availability and uptake of public transportation services is a key indicator of our progress as a nation. Drawing on high-frequency data from the various operators of Malaysia’s public transportation services (such as Prasarana, KTMB, MyBas50), this dashboard brings you the latest trends in ridership and KPI achievement.",
