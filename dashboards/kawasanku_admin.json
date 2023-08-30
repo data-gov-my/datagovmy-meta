@@ -1,5 +1,8 @@
 {
 	"dashboard_name": "kawasanku_admin",
+	"data_last_updated": "2023-08-30 23:59",
+	"routes": null,
+	"sites": ["datagovmy"],
 	"manual_trigger": "1",
 	"required_params": ["area", "area_type"],
 	"optional_params": [],
