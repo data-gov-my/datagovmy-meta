@@ -4,7 +4,7 @@
 	"route": "",
 	"sites": ["datagovmy"],
 	"manual_trigger": "1",
-	"required_params": ["area", "area-type"],
+	"required_params": ["area", "area_type"],
 	"optional_params": [],
 	"charts": {
 		"jitter_chart": {
