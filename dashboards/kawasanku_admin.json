@@ -13,7 +13,7 @@
 			"chart_source": "https://storage.googleapis.com/dosm-public-dashboards/kawasanku_admin_jitter.parquet",
 			"data_as_of": "2022-11-25 23:59",
 			"api_type": "dynamic",
-			"api_params": [],
+			"api_params": ["area"],
 			"variables": {
 				"keys": "area_type",
 				"id": "area",
