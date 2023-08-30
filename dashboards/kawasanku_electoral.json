@@ -1,0 +1,100 @@
+{
+	"dashboard_name": "kawasanku_electoral",
+	"data_last_updated": "2023-08-30 23:59",
+	"route": "",
+	"sites": ["datagovmy"],
+	"manual_trigger": "1",
+	"required_params": ["area", "area-type"],
+	"optional_params": [],
+	"charts": {
+		"pyramid_data": {
+			"name": "pyramid_data",
+			"chart_type": "pyramid_chart",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/kawasanku_electoral_pyramid.parquet",
+			"data_as_of": "2023-06-26 23:59",
+			"api_type": "dynamic",
+			"api_params": ["area_type", "area"],
+			"variables": {
+				"keys": ["area_type", "area"]
+			}
+		},
+		"bar_chart": {
+			"name": "bar_chart",
+			"chart_type": "bar_meter",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/kawasanku_electoral_barmeter.parquet?ignoreCache=1",
+			"data_as_of": "2022-11-25 23:59",
+			"api_type": "dynamic",
+			"api_params": ["area"],
+			"variables": {
+				"axis_values": [
+					{
+						"variable": "value"
+					}
+				],
+				"keys": ["area", "chart"]
+			}
+		},
+		"bar_chart_callout": {
+			"name": "bar_chart_callout",
+			"chart_type": "bar_meter",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/kawasanku_electoral_barmeter_callout.parquet?ignoreCache=1",
+			"data_as_of": "2022-11-25 23:59",
+			"api_type": "dynamic",
+			"api_params": ["area"],
+			"variables": {
+				"axis_values": [
+					{
+						"variable": "value"
+					}
+				],
+				"keys": ["area", "chart"]
+			}
+		},
+		"choropleth_parlimen": {
+			"name": "choropleth_parlimen",
+			"chart_type": "choropleth_chart",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/kawasanku_electoral_choropleth_parlimen.parquet",
+			"data_as_of": "2020-01-01 00:00",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"y": [
+					"poverty",
+					"electricity",
+					"water",
+					"income_mean",
+					"expenditure_mean",
+					"gini",
+					"population_density",
+					"max_elevation",
+					"treecover",
+					"nightlights"
+				],
+				"x": "parlimen"
+			}
+		},
+		"choropleth_dun": {
+			"name": "choropleth_dun",
+			"chart_type": "choropleth_chart",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/kawasanku_electoral_choropleth_dun.parquet",
+			"data_as_of": "2020-01-01 00:00",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"y": [
+					"poverty",
+					"electricity",
+					"water",
+					"income_mean",
+					"expenditure_mean",
+					"gini",
+					"population_density",
+					"max_elevation",
+					"treecover",
+					"nightlights"
+				],
+				"x": "dun"
+			}
+		}
+	}
+}
