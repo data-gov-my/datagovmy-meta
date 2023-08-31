@@ -248,6 +248,10 @@
             "services-producer-prices": {
               "name": "Services Producer Prices",
               "description": "This dashboard tracks labour productivity across all key sectors in the Malaysian economy."
+            },
+            "construction-statistics": {
+                "name": "Construction Statistics",
+                "description": "This dashboard tracks Malaysia’s construction by projects and its value across all sectors."
             }
         }
     }

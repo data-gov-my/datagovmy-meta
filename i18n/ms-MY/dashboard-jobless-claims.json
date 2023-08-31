@@ -1,0 +1,34 @@
+{
+    "route": "/ms-MY/dashboard/jobless-claims",
+    "sites": [
+        "datagovmy"
+    ],
+    "translation": {
+        "header": "Tuntutan Pengangguran",
+        "description": "Kira-kira 70% daripada tenaga buruh Malaysia berdaftar di bawah Sistem Insurans Pekerjaan (EIS) PERKESO, yang memberikan bantuan kewangan segera kepada pekerja sekiranya mereka kehilangan pekerjaan. Hasilnya, PERKESO dapat memerhati pasaran buruh Malaysia secara langsung. Bagi seseorang penggubal dasar, data PERKESO ini merupakan pelengkap yang penting kepada Survei Tenaga Buruh DOSM, yang selalunya ketinggalan 1 bulan setengah (Contohnya, data bagi Mei akan dikeluarkan pada pertengahan Julai) disebabkan masa yang diambil untuk menjalankan kajian soal selidik di seluruh negara. Papan pemuka ini membawakan kepada anda data buruh frekuensi tinggi PERKESO, dan membolehkan anda memerhati pelbagai arah aliran pasaran buruh!",
+        "losses_title": "Apakah tren pengangguran?",
+        "losses_desc": "Nota: Jumlah sebenar job losses adalah lebih daripada jumlah yang ditunjukkan di sini, kerana bukan semua pekerja berdaftar di bawah PERKESO.",
+        "trend_monthly": "Trend (bulanan)",
+        "trend_yearly": "Trend (tahunan)",
+        "job_loss_by_state": "{{ state }}: Analisis Pengangguran Bagi Tahun Ini",
+        "job_loss_by_sex_age": "Pengangguran Mengikut Jantina dan Umur",
+        "sex": "Jantina",
+        "male": "Lelaki",
+        "female": "Perempuan",
+        "educ": "Tahap Pendidikan",
+        "0_no_educ": "Tiada Pendidikan",
+        "1_primary": "Sekolah Rendah",
+        "2_secondary": "Sekolah Menengah",
+        "3_diploma": "STPM / Diploma",
+        "4_degree": "Ijazah Sarjana Muda",
+        "5_postgraduate": "Ijazah Sarjana / Kedoktoran",
+        "salary_range": "Salary",
+        "0_1499": "< RM1,500",
+        "1500-1999": "RM1,500 - RM1,999",
+        "2000-2999": "RM2,000 - RM2,999",
+        "3000-3999": "RM3,000 - RM3,999",
+        "4000-4999": "RM4,000 - RM4,999",
+        "5000-5999": "RM5,000 - RM5,999",
+        "6000_above": "> RM6,000"
+    }
+}

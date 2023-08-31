@@ -248,6 +248,10 @@
             "services-producer-prices": {
               "name": "Harga Pengeluar Perkhidmatan",
               "description": "Papan pemuka ini mengesan produktiviti buruh di semua sektor utama dalam ekonomi Malaysia."
+            },
+            "construction-statistics": {
+                "name": "Statistik Pembinaan",
+                "description": "Papan pemuka ini menunjukkan jumlah dan nilai projek pembinaan mengikut sektor atau pemilik."
             }
         }
     }
