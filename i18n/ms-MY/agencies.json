@@ -143,6 +143,10 @@
         "piesd": {
           "full": "Bahagian Perangkaan Harga, Pendapatan & Perbelanjaan",
           "abbr": "PIESD"
+        },
+        "pdsd": {
+          "full": "Bahagian Perangkaan Penduduk & Demografi",
+          "abbr": "PDSD"
         }
     }
 }

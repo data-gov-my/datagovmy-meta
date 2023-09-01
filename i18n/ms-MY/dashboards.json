@@ -256,6 +256,10 @@
             "household-income-expenditure": {
                 "name": "Pendapatan & Perbelanjaan Isi Rumah",
                 "description": "Papan pemuka ini menunjukkan data pendapatan dan perbelanjaan isi rumah di Malaysia."
+            },
+            "population": {
+                "name": "Populasi Penduduk Malaysia",
+                "description": "Papan pemuka ini mengesan populasi penduduk Malaysia"
             }
         }
     }
