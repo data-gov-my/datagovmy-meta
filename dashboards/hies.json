@@ -75,7 +75,7 @@
 					"access_water",
 					"access_electricity"
 				],
-				"keys": ["state", "district"]
+				"keys": ["state"]
 			}
 		}
 	}
