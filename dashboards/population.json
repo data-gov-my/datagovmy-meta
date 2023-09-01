@@ -48,7 +48,6 @@
 				},
 				"value_columns": [
 					"x",
-					"chart_type",
 					"births_live",
 					"births_still",
 					"deaths",
