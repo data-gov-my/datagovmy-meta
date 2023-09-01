@@ -252,6 +252,10 @@
             "construction-statistics": {
                 "name": "Construction Statistics",
                 "description": "This dashboard tracks Malaysia’s construction by projects and its value across all sectors."
+            },
+            "household-income-expenditure": {
+                "name": "Household Income & Expenditure",
+                "description": "This dashboard tracks Malaysia’s household income and expenditure."
             }
         }
     }

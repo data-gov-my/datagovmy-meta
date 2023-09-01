@@ -252,6 +252,10 @@
             "construction-statistics": {
                 "name": "Statistik Pembinaan",
                 "description": "Papan pemuka ini menunjukkan jumlah dan nilai projek pembinaan mengikut sektor atau pemilik."
+            },
+            "household-income-expenditure": {
+                "name": "Pendapatan & Perbelanjaan Isi Rumah",
+                "description": "Papan pemuka ini menunjukkan data pendapatan dan perbelanjaan isi rumah di Malaysia."
             }
         }
     }
