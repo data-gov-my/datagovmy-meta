@@ -143,6 +143,10 @@
         "piesd": {
           "full": "Price, Income & Expenditure Statistics Division",
           "abbr": "PIESD"
+        },
+        "pdsd": {
+          "full": "Population & Demographic Statistics Division",
+          "abbr": "PDSD"
         }
     }
 }

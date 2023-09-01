@@ -256,6 +256,10 @@
             "household-income-expenditure": {
                 "name": "Household Income & Expenditure",
                 "description": "This dashboard tracks Malaysia’s household income and expenditure."
+            },
+            "population": {
+                "name": "Population of Malaysia",
+                "description": "This dashboard tracks Malaysia’s population."
             }
         }
     }

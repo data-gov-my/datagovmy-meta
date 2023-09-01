@@ -2,26 +2,26 @@
   "route": "/ms-MY/dashboard/services-producer-prices",
   "sites": ["opendosm"],
   "translation": {
-    "header": "Services Producer Prices",
-    "description": "In simple terms, labour productivity measures how much output is being produced for every hour worked, or every person employed. Contrary to popular belief, it does not really measure whether workers are ‘hardworking’, but rather whether the quality of skills, machines and processes used is increasing adequately. Beyond unemployment and wages, policymakers pay close attention to labour productivity, which is a key driver of high-quality economic growth. This dashboard tracks labour productivity across all key sectors in the Malaysian economy.",
+    "header": "Harga Pengeluar Perkhidmatan",
+    "description": "Secara ringkas, produktiviti buruh mengukur berapa banyak hasil yang dihasilkan untuk setiap jam kerja, atau setiap orang yang bekerja. Bertentangan dengan kepercayaan popular, ia sebenarnya tidak mengukur sama ada pekerja adalah 'rajinkan', tetapi lebih kepada sama ada kualiti kemahiran, mesin, dan proses yang digunakan meningkat dengan cukup baik. Selain pengangguran dan upah, pembuat dasar memberikan perhatian yang besar kepada produktiviti buruh, yang merupakan pendorong utama pertumbuhan ekonomi berkualiti tinggi. Papan pemuka ini mengesan produktiviti buruh di semua sektor utama dalam ekonomi Malaysia.",
     "section_1": {
-      "title": "How are producer prices in the services sector trending?"
+      "title": "Bagaimana trend harga pengeluar dalam sektor perkhidmatan?"
     },
     "keys": {
-      "growth_qoq": "QoQ growth",
-      "growth_yoy": "YoY growth",
-      "index": "Index",
-      "recession": "Recession",
-      "no_shade": "No shading",
-      "total": "All Services",
-      "infocomm": "Information and Communication",
-      "transport": "Transportation",
-      "accom": "Accommodation and Food & Beverage",
-      "arts": "Arts, Entertainment & Recreation",
-      "professional": "Professional Services",
-      "health": "Health",
-      "education": "Education",
-      "realestate" :"Real Estate"
+      "growth_qoq": "Pertumbuhan QoQ",
+      "growth_yoy": "Pertumbuhan YoY",
+      "index": "Indeks",
+      "recession": "Kemelesetan",
+      "no_shade": "Tiada lorekan",
+      "total": "Semua Perkhidmatan",
+      "infocomm": "Maklumat dan Komunikasi",
+      "transport": "Pengangkutan",
+      "accom": "Penginapan dan Makanan & Minuman",
+      "arts": "Seni, Hiburan & Rekreasi",
+      "professional": "Perkhidmatan Profesional",
+      "health": "Kesihatan",
+      "education": "Pendidikan",
+      "realestate" :"Hartanah"
     }
   }
 }
