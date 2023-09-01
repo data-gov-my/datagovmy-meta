@@ -141,7 +141,8 @@
             "services": "Perkhidmatan",
             "public_administration": "Pentadbiran Awam",
             "labour_markets": "Pasaran Buruh",
-            "producer_price": "Harga Pengeluar"
+            "producer_price": "Harga Pengeluar",
+            "households": "Isi Rumah"
         },
         "home": {
             "title": "Terkini. Terperinci. Terbukti.",

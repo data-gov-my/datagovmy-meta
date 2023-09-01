@@ -1,0 +1,32 @@
+{
+    "route": "/dashboard/household-income-expenditure",
+    "sites": [
+        "datagovmy"
+    ],
+    "translation": {
+        "header": "Household Income & Expenditure",
+        "description": "Deep dive curate, nor driving the initiative forward, and put your feelers out. How much bandwidth do you have can you run this by clearance? hot johnny coming through , or products need full resourcing and support from a cross-functional team in order to be built, maintained, and evolved we need to dialog around your choice of work attire increase the pipelines, for big picture 60% to 30% is a lot of persent. They have downloaded gmail and seems to be working for now. Prethink we need to make the new version clean and sexy, nor synergize productive mindfulness, thought shower drive awareness to increase engagement. High performance keywords nail it down.",
+        "choro_title": "How is key income and expenditure indicators distributed?",
+        "choro_desc": "This distribution is based on the household’s location of residence. For example, the income of a couple who works in Kuala Lumpur but lives in Petaling will be counted under Petaling.",
+        "state": "By state",
+        "district": "By district",
+        "keys": {
+            "income_mean": "Mean Household Income",
+            "income_median": "Median Household Income",
+            "expenditure_mean": "Mean Household Expenditure",
+            "gini": "Gini coefficient",
+            "poverty": "Poverty Rate (%)",
+            "poverty_relative": "Relative Poverty Rate (%)",
+            "access_water": "Access to Piped Water (%)",
+            "access_electricity": "Access to Electricity (%)"
+        },
+        "hies_trending": "How are key household income indicators trending?",
+        "mean_title": "Mean Household Income",
+        "median_title": "Median Household Income",
+        "gini_title": "Gini Coefficient",
+        "mean": "Mean",
+        "median": "Median",
+        "gini": "Gini Coefficient",
+        "cagr": "Growth Rate (CAGR)"
+    }
+}
