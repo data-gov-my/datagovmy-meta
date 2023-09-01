@@ -4,8 +4,8 @@
 	"route": "/dashboard/household-income-and-expenditure,/ms-MY/dashboard/household-income-and-expenditure",
 	"sites": ["opendosm"],
 	"manual_trigger": "0",
-	"required_params": ["state"],
-	"optional_params": [],
+	"required_params": [],
+	"optional_params": ["state"],
 	"charts": {
 		"timeseries": {
 			"name": "timeseries",
@@ -64,7 +64,7 @@
 			"api_type": "dynamic",
 			"api_params": ["state"],
 			"variables": {
-				"x": "state",
+				"x": "district",
 				"y": [
 					"income_mean",
 					"income_median",
