@@ -6,12 +6,12 @@
 	"tables": {
 		"KTMBTimeseries": {
 			"data_as_of": "2023-06-14 23:59",
-			"source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/elections_candidates.parquet",
+			"source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/ktmb_timeseries.parquet",
 			"update": "REBUILD"
 		},
 		"KTMBTimeseriesCallout": {
 			"data_as_of": "2023-06-14 23:59",
-			"source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/elections_candidates.parquet",
+			"source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/ktmb_timeseries_callout.parquet",
 			"update": "REBUILD"
 		}
 	}
