@@ -32,7 +32,7 @@
         "search_prompt": "Mula carian nama untuk melihat populariti nama anda!",
         "search_button": "Cari nama",
         "search_radio_label": "Cari Untuk:",
-        "search_details": "Data di sebalik papan pemuka ini tidak mengandungi sebarang nama penuh. Anda hanya boleh mencari nama pertama anda (contohnya Anwar, Azizah) atau nama keluarga anda (contohnya Loke, Veerapan).",
+        "search_details": "Data di sebalik papan pemuka ini tidak mengandungi sebarang nama penuh. Anda hanya boleh mencari nama pertama anda, contohnya Anwar, Azizah, Anthony, atau Harshini.",
         "search_disclaimer": "Kami tidak menyimpan input anda - hanya anda yang dapat melihat carian anda.",
         "search_validation_first": "Sila masukkan nama pertama anda",
         "search_validation_last": "Sila masukkan nama keluarga anda",
