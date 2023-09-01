@@ -101,6 +101,22 @@
 				"keys": ["area", "chart"]
 			}
 		},
+		"query_values": {
+			"name": "query_values",
+			"data_as_of": "2022-11-25 23:59",
+			"chart_type": "query_values",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/kawasanku_electoral_barmeter_callout.parquet?ignoreCache=1",
+			"api_type": "dynamic",
+			"api_params": [],
+			"variables": {
+				"flat": true,
+				"columns": ["area_type", "area"],
+				"sort_values": {
+					"by": ["area_type", "area"],
+					"ascending": [true, true]
+				}
+			}
+		},
 		"choropleth_parlimen": {
 			"name": "choropleth_parlimen",
 			"chart_type": "choropleth_chart",
