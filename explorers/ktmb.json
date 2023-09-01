@@ -1,0 +1,18 @@
+{
+	"data_last_updated": "2023-09-01 23:59",
+	"manual_trigger": "1",
+	"explorer_name": "KTMB",
+	"route": "/dashboard/ktmb,/ms-MY/dashboard/ktmb",
+	"tables": {
+		"KTMBTimeseries": {
+			"data_as_of": "2023-06-14 23:59",
+			"source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/elections_candidates.parquet",
+			"update": "REBUILD"
+		},
+		"KTMBTimeseriesCallout": {
+			"data_as_of": "2023-06-14 23:59",
+			"source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/elections_candidates.parquet",
+			"update": "REBUILD"
+		}
+	}
+}
