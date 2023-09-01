@@ -2,7 +2,7 @@
 	"dashboard_name": "population",
 	"data_last_updated": "2023-09-01 23:59",
 	"route": "/dashboard/population,/ms-MY/dashboard/population",
-	"sites": ["datagovmy"],
+	"sites": ["opendosm"],
 	"manual_trigger": "0",
 	"required_params": ["state"],
 	"optional_params": [],
