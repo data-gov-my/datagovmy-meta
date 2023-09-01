@@ -39,7 +39,7 @@
 			"chart_type": "choropleth_chart",
 			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/hies_choropleth_state.parquet",
 			"data_as_of": "2023-09-01 23:59",
-			"api_type": "dynamic",
+			"api_type": "static",
 			"api_params": ["state"],
 			"variables": {
 				"x": "state",
@@ -52,8 +52,7 @@
 					"poverty_relative",
 					"access_water",
 					"access_electricity"
-				],
-				"keys": ["state"]
+				]
 			}
 		},
 		"choropleth_district": {
@@ -61,9 +60,10 @@
 			"chart_type": "choropleth_chart",
 			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/hies_choropleth_district.parquet",
 			"data_as_of": "2023-09-01 23:59",
-			"api_type": "dynamic",
+			"api_type": "static",
 			"api_params": ["state"],
 			"variables": {
+				"keys": ["state"],
 				"x": "district",
 				"y": [
 					"income_mean",
@@ -74,8 +74,7 @@
 					"poverty_relative",
 					"access_water",
 					"access_electricity"
-				],
-				"keys": ["state"]
+				]
 			}
 		}
 	}
