@@ -3,12 +3,15 @@
 	"publication_type": "cpi",
 	"release_date": "2023-07-24",
 	"frequency": "MONTHLY",
-	"geography": ["NATIONAL", "STATE"],
+	"geography": [
+		"NATIONAL", 
+		"STATE"
+	],
 	"demography": [],
 	"en": {
 		"title": "[Jun 2023] Consumer Price Index",
 		"publication_type_title": "Consumer Price Index",
-		"description": "Official inflation data, covering headline, core, and state-level inflation",
+		"description": "Official consumer price data, covering headline, core, and state-level inflation",
 		"resources": [
 			{
 				"resource_id": 1,
