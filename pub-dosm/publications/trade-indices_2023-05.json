@@ -1,0 +1,84 @@
+{
+    "publication": "trade-indices_2023-05",
+    "publication_type": "trade-indices",
+    "release_date": "2023-06-28",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[May 2023] Trade Indices",
+        "publication_type_title": "Trade Indices",
+        "description": "Official trade index data, covering export/import value and volume, and terms of trade",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Trade Indices Report: May 2023",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2023-05.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Export Volume and Value: May 2023",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2023-05_export.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Import Volume and Value: May 2023",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2023-05_import.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Seasonally Adjusted Trade Indices: May 2023",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2023-05_sa.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Terms of Trade: May 2023",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2023-05_tot.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[May 2023] Trade Indices",
+        "publication_type_title": "Trade Indices",
+        "description": "Official trade index data, covering export/import value and volume, and terms of trade",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Laporan Indeks Perdagangan: Mei 2023",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2023-05.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Nilai dan Volum Eksport: Mei 2023",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2023-05_export.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Nilai dan Volum Import: Mei 2023",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2023-05_import.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Indeks Pelarasan Musim: Mei 2023",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2023-05_sa.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Terma Perdagangan: Mei 2023",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2023-05_tot.xlsx"
+            }
+        ]
+    }
+}

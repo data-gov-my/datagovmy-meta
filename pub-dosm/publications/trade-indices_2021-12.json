@@ -1,0 +1,84 @@
+{
+    "publication": "trade-indices_2021-12",
+    "publication_type": "trade-indices",
+    "release_date": "2022-02-04",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Dec 2021] Trade Indices",
+        "publication_type_title": "Trade Indices",
+        "description": "Official trade index data, covering export/import value and volume, and terms of trade",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Trade Indices Report: Dec 2021",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2021-12.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Export Volume and Value: Dec 2021",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2021-12_export.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Import Volume and Value: Dec 2021",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2021-12_import.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Seasonally Adjusted Trade Indices: Dec 2021",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2021-12_sa.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Terms of Trade: Dec 2021",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2021-12_tot.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Dec 2021] Trade Indices",
+        "publication_type_title": "Trade Indices",
+        "description": "Official trade index data, covering export/import value and volume, and terms of trade",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Laporan Indeks Perdagangan: Dis 2021",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2021-12.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Nilai dan Volum Eksport: Dis 2021",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2021-12_export.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Nilai dan Volum Import: Dis 2021",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2021-12_import.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Indeks Pelarasan Musim: Dis 2021",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2021-12_sa.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Terma Perdagangan: Dis 2021",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2021-12_tot.xlsx"
+            }
+        ]
+    }
+}
