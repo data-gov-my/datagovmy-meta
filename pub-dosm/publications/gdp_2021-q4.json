@@ -1,0 +1,48 @@
+{
+    "publication": "gdp_2021-q4",
+    "publication_type": "gdp",
+    "release_date": "2022-02-11",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[4Q 2021] Gross Domestic Product",
+        "publication_type_title": "Gross Domestic Product",
+        "description": "Official gross domestic product (GDP) data, covering nominal/real GDP by  type of expenditure/activity",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Gross Domestic Product: 4Q 2021",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//gdp/gdp_yyyy-mm.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Gross Domestic Product: 4Q 2021",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//gdp/gdp_yyyy-mm.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST4 2021] Keluaran Dalam Negeri Kasar",
+        "publication_type_title": "Keluaran Dalam Negeri Kasar",
+        "description": "Data keluaran dalam negeri kasar (KDNK) rasmi, merangkumi KDNK mengikut jenis perbelanjaan/aktiviti",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Keluaran Dalam Negeri Kasar: ST4 2021",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//gdp/gdp_yyyy-mm.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Keluaran Dalam Negeri Kasar: ST4 2021",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//gdp/gdp_yyyy-mm.xlsx"
+            }
+        ]
+    }
+}
