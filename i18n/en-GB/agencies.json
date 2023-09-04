@@ -147,6 +147,22 @@
         "pdsd": {
           "full": "Population & Demographic Statistics Division",
           "abbr": "PDSD"
+        },
+        "ssd": {
+          "full": "Services Statistics Division",
+          "abbr": "SSD"
+        },
+        "imd": {
+          "full": "Information Management Division",
+          "abbr": "IMD"
+        },
+        "eid": {
+          "full": "Economic Indicators Division",
+          "abbr": "IMD"
+        },
+        "itsd": {
+          "full": "International Trade Statistics Division",
+          "abbr": "ITSD"
         }
     }
 }

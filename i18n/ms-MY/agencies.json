@@ -147,6 +147,22 @@
         "pdsd": {
           "full": "Bahagian Perangkaan Penduduk & Demografi",
           "abbr": "PDSD"
+        },
+        "ssd": {
+          "full": "Bahagian Perangkaan Perkhidmatan",
+          "abbr": "SSD"
+        },
+        "imd": {
+          "full": "Bahagian Pengurusan Maklumat",
+          "abbr": "IMD"
+        },
+        "eid": {
+          "full": "Bahagian Petunjuk Ekonomi",
+          "abbr": "IMD"
+        },
+        "itsd": {
+          "full": "Bahagian Perangkaan Perdagangan Antarabangsa",
+          "abbr": "ITSD"
         }
     }
 }
