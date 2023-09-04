@@ -163,6 +163,10 @@
         "itsd": {
           "full": "International Trade Statistics Division",
           "abbr": "ITSD"
+        },
+        "bpib": {
+          "full": "Balance of Payments Statistics Division",
+          "abbr": "BPIB"
         }
     }
 }

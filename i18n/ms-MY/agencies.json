@@ -163,6 +163,10 @@
         "itsd": {
           "full": "Bahagian Perangkaan Perdagangan Antarabangsa",
           "abbr": "ITSD"
+        },
+        "bpib": {
+          "full": "Bahagian Perangkaan Imbangan Pembayaran",
+          "abbr": "BPIB"
         }
     }
 }
