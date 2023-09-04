@@ -30,7 +30,9 @@
             "national-accounts": "National Accounts",
             "services": "Services",
             "labour_markets": "Labour Market",
-            "producer_price": "Producer Prices"
+            "producer_price": "Producer Prices",
+            "trade": "Trade"
+
         },
         "dashboards": {
             "emergency-response": {
@@ -260,6 +262,10 @@
             "population": {
                 "name": "Population of Malaysia",
                 "description": "This dashboard tracks Malaysia’s population."
+            },
+            "external_trade": {
+              "name": "External Trade Statistics",
+              "description": "This dashboard summarises important trade economic indicators, and in the near future, will be expanded to allow you to zoom into Malaysia’s trading relationship with any country in the world!"
             }
         }
     }
