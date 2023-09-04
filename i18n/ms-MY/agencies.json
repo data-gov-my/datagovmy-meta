@@ -167,6 +167,10 @@
         "bpib": {
           "full": "Bahagian Perangkaan Imbangan Pembayaran",
           "abbr": "BPIB"
+        },
+        "bipd": {
+          "full": "Bahagian Integrasi & Pengurusan Data",
+          "abbr": "BIPD"
         }
     }
 }

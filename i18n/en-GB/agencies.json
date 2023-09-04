@@ -167,6 +167,10 @@
         "bpib": {
           "full": "Balance of Payments Statistics Division",
           "abbr": "BPIB"
+        },
+        "bipd": {
+          "full": "Integration and Data Management Division",
+          "abbr": "BIPD"
         }
     }
 }
