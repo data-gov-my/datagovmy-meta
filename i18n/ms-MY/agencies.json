@@ -127,50 +127,6 @@
         "unhcr": {
             "full": "Pesuruhjaya Tinggi Bangsa-Bangsa Bersatu untuk Pelarian",
             "abbr": "UNHCR"
-        },
-        "bpan": {
-          "full": "Bahagian Perangkaan Akaun Nasional",
-          "abbr": "BPAN"
-        },
-        "bppib": {
-          "full": "Bahagian Perangkaan Pengeluaran Industri & Binaan",
-          "abbr": "BPPIB"
-        },
-        "mbls": {
-          "full": "Biro Statistik Buruh Malaysia",
-          "abbr": "MBLS"
-        },
-        "piesd": {
-          "full": "Bahagian Perangkaan Harga, Pendapatan & Perbelanjaan",
-          "abbr": "PIESD"
-        },
-        "pdsd": {
-          "full": "Bahagian Perangkaan Penduduk & Demografi",
-          "abbr": "PDSD"
-        },
-        "ssd": {
-          "full": "Bahagian Perangkaan Perkhidmatan",
-          "abbr": "SSD"
-        },
-        "imd": {
-          "full": "Bahagian Pengurusan Maklumat",
-          "abbr": "IMD"
-        },
-        "eid": {
-          "full": "Bahagian Petunjuk Ekonomi",
-          "abbr": "IMD"
-        },
-        "itsd": {
-          "full": "Bahagian Perangkaan Perdagangan Antarabangsa",
-          "abbr": "ITSD"
-        },
-        "bpib": {
-          "full": "Bahagian Perangkaan Imbangan Pembayaran",
-          "abbr": "BPIB"
-        },
-        "bipd": {
-          "full": "Bahagian Integrasi & Pengurusan Data",
-          "abbr": "BIPD"
         }
     }
 }

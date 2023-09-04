@@ -127,50 +127,6 @@
         "unhcr": {
             "full": "United Nations High Commissioner for Refugees",
             "abbr": "UNHCR"
-        },
-        "bpan": {
-          "full": "National Accounts Division",
-          "abbr": "BPAN"
-        },
-        "bppib": {
-          "full": "Industrial Production & Construction Division",
-          "abbr": "BPPIB"
-        },
-        "mbls": {
-          "full": "Malaysian Bureau of Labour Statistics",
-          "abbr": "MBLS"
-        },
-        "piesd": {
-          "full": "Price, Income & Expenditure Statistics Division",
-          "abbr": "PIESD"
-        },
-        "pdsd": {
-          "full": "Population & Demographic Statistics Division",
-          "abbr": "PDSD"
-        },
-        "ssd": {
-          "full": "Services Statistics Division",
-          "abbr": "SSD"
-        },
-        "imd": {
-          "full": "Information Management Division",
-          "abbr": "IMD"
-        },
-        "eid": {
-          "full": "Economic Indicators Division",
-          "abbr": "IMD"
-        },
-        "itsd": {
-          "full": "International Trade Statistics Division",
-          "abbr": "ITSD"
-        },
-        "bpib": {
-          "full": "Balance of Payments Statistics Division",
-          "abbr": "BPIB"
-        },
-        "bipd": {
-          "full": "Integration and Data Management Division",
-          "abbr": "BIPD"
         }
     }
 }
