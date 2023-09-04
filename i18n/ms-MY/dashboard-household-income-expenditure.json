@@ -27,6 +27,7 @@
         "mean": "Purata",
         "median": "Penengah",
         "gini": "Pekali Gini",
-        "cagr": "Kadar Pertumbuhan (CAGR)"
+        "cagr": "Kadar Pertumbuhan (CAGR)",
+        "month": "sebulan"
     }
 }

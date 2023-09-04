@@ -27,6 +27,7 @@
         "mean": "Mean",
         "median": "Median",
         "gini": "Gini Coefficient",
-        "cagr": "Growth Rate (CAGR)"
+        "cagr": "Growth Rate (CAGR)",
+        "month": "month"
     }
 }
