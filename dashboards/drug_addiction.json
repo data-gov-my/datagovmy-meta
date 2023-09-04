@@ -1,0 +1,42 @@
+{
+	"dashboard_name": "drug_addiction",
+	"data_last_updated": "2023-09-05 23:59",
+	"route": "/dashboard/refugee-situation,/ms-MY/dashboard/refugee-situation",
+	"sites": ["datagovmy"],
+	"manual_trigger": "0",
+	"required_params": [],
+	"optional_params": [],
+	"charts": {
+		"timeseries": {
+			"name": "timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/drugaddiction_timeseries.parquet",
+			"data_as_of": "2023-09-05 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["state"],
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": ["x", "total", "male", "female"]
+			}
+		},
+		"barmeter": {
+			"name": "barmeter",
+			"chart_type": "bar_meter",
+			"chart_source": "https://storage.data.gov.my/dashboards/drugaddiction_barmeter.parquet",
+			"data_as_of": "2023-09-05 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"axis_values": [
+					{
+						"variable": "value"
+					}
+				],
+				"keys": ["state", "chart"]
+			}
+		}
+	}
+}
