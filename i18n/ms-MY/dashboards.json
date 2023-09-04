@@ -263,7 +263,7 @@
                 "name": "Populasi Penduduk Malaysia",
                 "description": "Papan pemuka ini mengesan populasi penduduk Malaysia"
             },
-            "external_trade": {
+            "external-trade": {
               "name": "Statistik Perdagangan Luaran",
               "description": "Papan pemuka ini merangkumi petunjuk ekonomi perdagangan penting, dan pada masa akan datang, akan diperluaskan untuk membolehkan anda menganalisis hubungan perdagangan Malaysia dengan mana-mana negara di dunia!"
             }
