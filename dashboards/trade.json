@@ -1,0 +1,86 @@
+{
+	"dashboard_name": "trade",
+	"data_last_updated": "2023-08-21 23:59",
+	"route": "/dashboard/external-trade-statistics,/ms-MY/dashboard/external-trade-statistics",
+	"sites": ["opendosm"],
+	"manual_trigger": "0",
+	"required_params": [],
+	"optional_params": [],
+	"charts": {
+		"timeseries": {
+			"name": "timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/trade_timeseries.parquet",
+			"data_as_of": "2023-09-04 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["chart_type"],
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": [
+					"x",
+					"balance",
+					"exports",
+					"imports",
+					"total",
+					"recession"
+				]
+			}
+		},
+		"timeseries_callout": {
+			"name": "timeseries_callout",
+			"chart_type": "custom_chart",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/trade_timeseries_callout.parquet",
+			"data_as_of": "2023-09-04 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["chart_type", "chart"],
+				"value_columns": ["latest"]
+			}
+		},
+		"indices_timeseries": {
+			"name": "indices_timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/trade_indices_timeseries.parquet",
+			"data_as_of": "2023-09-04 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["variable", "chart_type"],
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": [
+					"x",
+					"overall",
+					"food",
+					"beverage_tobacco",
+					"crude",
+					"fuels",
+					"oils",
+					"chemicals",
+					"mfg",
+					"machinery",
+					"misc_mfg",
+					"misc_trnsc",
+					"recession"
+				]
+			}
+		},
+		"indices_timeseries_callout": {
+			"name": "indices_timeseries_callout",
+			"chart_type": "custom_chart",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/trade_indices_timeseries_callout.parquet",
+			"data_as_of": "2023-09-04 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["variable", "chart"],
+				"value_columns": ["growth_yoy", "index"]
+			}
+		}
+	}
+}
