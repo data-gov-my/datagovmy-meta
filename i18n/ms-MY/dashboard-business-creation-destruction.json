@@ -13,11 +13,11 @@
       "reg_rob": "Pendaftaran Perniagaan",
       "reg_llp": "Pendaftartan LLP",
       "death_roc": "Pembubaran Syarikat",
-      "death_rob": "Pembubaran Perniagaan",
+      "death_rob": "Penamatan Perniagaan",
       "death_llp": "Pembubaran LLP",
       "new": "baru",
       "dissolved": "dibubarkan",
-      "terminated": "dibubarkan"
+      "terminated": "ditamatkan"
     }
   }
 }
