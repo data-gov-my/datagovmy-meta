@@ -267,6 +267,14 @@
       "external-trade": {
         "name": "Statistik Perdagangan Luaran",
         "description": "Papan pemuka ini merangkumi petunjuk ekonomi perdagangan penting, dan pada masa akan datang, akan diperluaskan untuk membolehkan anda menganalisis hubungan perdagangan Malaysia dengan mana-mana negara di dunia!"
+      },
+      "household-debt": {
+        "name": "Hutang Isi Rumah",
+        "description": "Papan pemuka ini memberikan anda pandangan terhadap trend utama berkaitan hutang isi rumah."
+      },
+      "business-creation-destruction": {
+        "name": "Penciptaan dan Pemusnahan Perniagaan",
+        "description": "Dikuasai oleh pendaftaran mereka, papan pemuka ini merangkumi trend dalam penciptaan dan pemusnahan perniagaan."
       }
     }
   }

@@ -128,6 +128,10 @@
             "full": "Election Commission of Malaysia",
             "abbr": "SPR"
         },
+        "ssm": {
+            "full": "Companies Commission of Malaysia",
+            "abbr": "SSM"
+        },
         "unhcr": {
             "full": "United Nations High Commissioner for Refugees",
             "abbr": "UNHCR"

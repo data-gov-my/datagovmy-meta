@@ -1,0 +1,27 @@
+{
+  "route": "/ms-MY/dashboard/household-debt",
+  "sites": ["datagovmy"],
+  "translation": {
+    "header": "Hutang Isi Rumah",
+    "description": "Hutang isi rumah Malaysia merupakan salah satu yang tertinggi di rantau ASEAN. Dalam konteks ini, Bank Negara Malaysia (BNM) menjaga kestabilan kewangan dengan memantau dan mengawal aktiviti pemberian pinjaman semua institusi kewangan di Malaysia, antara lain. Menggunakan data terkumpul dari Sistem Maklumat Rujukan Kredit Pusat Bank Negara Malaysia (CCRIS), papan pemuka ini memberikan anda pandangan tentang trend utama berkaitan hutang isi rumah. Untuk masa ini, ia menunjukkan data tentang 'arus' aktiviti pinjaman secara bulanan, yang dibahagikan mengikut tujuan. Pada masa akan datang, ia akan diperkukuhkan dengan data yang lebih terperinci yang menunjukkan keadaan berhutang penduduk Malaysia.",
+    "section_1": {
+      "title": "Pemecahan aktiviti pemberian pinjaman mengikut tujuan",
+      "description": "Nilai pinjaman yang diluluskan adalah indikator yang merakam transaksi pinjaman sebenar, kerana permohonan pinjaman mungkin tidak diluluskan jika ia terlalu berisiko. Data mengenai permohonan dan kelulusan pinjaman tetap memberikan pandangan berguna tentang permintaan untuk pinjaman, serta tingkah laku institusi kewangan."
+    },
+    "keys": {
+      "applied": "Pinjaman Dimohon",
+      "approved": "Pinjaman Diluluskan",
+      "disbursed": "Pinjaman Dikeluarkan",
+      "repaid": "Pinjaman Dibayar Semula",
+      "rm": "Nilai (RM)",
+      "growth_yoy": "Pertumbuhan YoY",
+      "recession": "Kemelesetan",
+      "no_shade": "Tiada lorekan",
+      "credit_card": "Kad Kredit",
+      "vehicles_passenger": "Kenderaan Penumpang",
+      "property_residental": "Harta Tanah Kediaman",
+      "personal_total": "Kegunaan Peribadi (perkahwinan, penambahbaikan rumah, dll)",
+      "securities": "Sekuriti"
+    }
+  }
+}

@@ -267,6 +267,14 @@
       "external-trade": {
         "name": "External Trade Statistics",
         "description": "This dashboard summarises important trade economic indicators, and in the near future, will be expanded to allow you to zoom into Malaysia’s trading relationship with any country in the world!"
+      },
+      "household-debt": {
+        "name": "Household Debt",
+        "description": "This dashboard gives you insight into key trends on household debt."
+      },
+      "business-creation-destruction": {
+        "name": "Business Creation and Destruction",
+        "description": "Powered by their registry, this dashboard summarises trends in business creation and destruction."
       }
     }
   }

@@ -128,9 +128,13 @@
             "full": "Suruhanjaya Pilihan Raya",
             "abbr": "SPR"
         },
+        "ssm": {
+          "full": "Suruhanjaya Syarikat Malaysia",
+          "abbr": "SSM"
+      },
         "unhcr": {
-            "full": "Pesuruhjaya Tinggi Bangsa-Bangsa Bersatu untuk Pelarian",
-            "abbr": "UNHCR"
+          "full": "Pesuruhjaya Tinggi Bangsa-Bangsa Bersatu untuk Pelarian",
+          "abbr": "UNHCR"
         }
     }
 }
