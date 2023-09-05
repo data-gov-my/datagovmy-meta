@@ -1,7 +1,7 @@
 {
 	"data_last_updated": "2023-09-01 23:59",
 	"sites": ["datagovmy"],
-	"manual_trigger": "0",
+	"manual_trigger": "1",
 	"explorer_name": "KTMB",
 	"route": "/dashboard/ktmb,/ms-MY/dashboard/ktmb",
 	"tables": {
