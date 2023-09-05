@@ -27,7 +27,7 @@
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
-				"keys": ["time_period", "chart_type"],
+				"keys": ["chart_type", "time_period"],
 				"rename_cols": {
 					"agency": "agency_abbr"
 				},
