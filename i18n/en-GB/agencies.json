@@ -4,6 +4,10 @@
         "datagovmy"
     ],
     "translation": {
+        "aadk": {
+            "full": "National Anti-Drugs Agency",
+            "abbr": "AADK"
+        },
         "bnm": {
             "full": "Central Bank of Malaysia",
             "abbr": "BNM"
