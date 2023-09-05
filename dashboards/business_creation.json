@@ -33,7 +33,7 @@
 		"timeseries_callout": {
 			"name": "timeseries_callout",
 			"chart_type": "custom_chart",
-			"chart_source": "https://storage.data.gov.my/dashboards/ssm_timeseries.parquet",
+			"chart_source": "https://storage.data.gov.my/dashboards/ssm_timeseries_callout.parquet",
 			"data_as_of": "2023-08-21 23:59",
 			"api_type": "dynamic",
 			"api_params": ["state"],
