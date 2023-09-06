@@ -1,7 +1,7 @@
 {
-	"dashboard_name": "internet_traffic",
+	"dashboard_name": "internet_penetration",
 	"data_last_updated": "2023-09-06 23:59",
-	"route": "/dashboard/internet-traffic,/ms-MY/dashboard/internet-traffic",
+	"route": "/dashboard/internet-penetration,/ms-MY/dashboard/internet-penetration",
 	"sites": ["datagovmy"],
 	"manual_trigger": "0",
 	"required_params": [],
@@ -10,27 +10,28 @@
 		"timeseries": {
 			"name": "timeseries",
 			"chart_type": "timeseries_chart",
-			"chart_source": "http://storage.data.gov.my/dashboards/internet_traffic_timeseries.parquet",
+			"chart_source": "http://storage.data.gov.my/dashboards/internet_penetration_timeseries.parquet",
 			"data_as_of": "2023-09-06 23:59",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
+				"keys": ["chart_type"],
 				"rename_cols": {
 					"date": "x"
 				},
-				"value_columns": ["x", "traffic_fbb", "traffic_mbb"]
+				"value_columns": ["x", "fbb", "mbb", "mc", "ptv"]
 			}
 		},
 		"timeseries_callout": {
 			"name": "timeseries_callout",
 			"chart_type": "custom_chart",
-			"chart_source": "https://storage.data.gov.my/dashboards/internet_traffic_timeseries_callout.parquet",
+			"chart_source": "https://storage.data.gov.my/dashboards/internet_penetration_timeseries_callout.parquet",
 			"data_as_of": "2023-09-06 23:59",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
 				"keys": ["chart"],
-				"value_columns": ["latest"]
+				"value_columns": ["latest", "rate"]
 			}
 		}
 	}
