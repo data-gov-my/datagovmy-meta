@@ -25,7 +25,8 @@
           "ptv": "Pay-TV Subscriptions",
           "perHundredPremises": "per 100 premises",
           "perHundredPopulation": "per 100 population",
-          "perHundredHouseholds": "per 100 households"
+          "perHundredHouseholds": "per 100 households",
+          "rate": "Rate"
         }
     }
 }

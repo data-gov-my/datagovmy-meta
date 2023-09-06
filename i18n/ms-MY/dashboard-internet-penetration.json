@@ -25,7 +25,8 @@
         "ptv": "Langganan TV Berbayar",
         "perHundredPremises": "setiap 100 premis",
         "perHundredPopulation": "setiap 100 penduduk",
-        "perHundredHouseholds": "setiap 100 isi rumah"
+        "perHundredHouseholds": "setiap 100 isi rumah",
+        "rate": "Kadar"
       }
   }
 }
