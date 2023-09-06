@@ -1,0 +1,64 @@
+{
+	"dashboard_name": "internet_penetration",
+	"data_last_updated": "2023-09-06 23:59",
+	"route": "/dashboard/internet-penetration,/ms-MY/dashboard/internet-penetration",
+	"sites": ["datagovmy"],
+	"manual_trigger": "0",
+	"required_params": [],
+	"optional_params": [],
+	"charts": {
+		"traffic_timeseries": {
+			"name": "traffic_timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "http://storage.data.gov.my/dashboards/internet_traffic_timeseries.parquet",
+			"data_as_of": "2023-09-06 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": ["x", "traffic_fbb", "traffic_mbb"]
+			}
+		},
+		"traffic_timeseries_callout": {
+			"name": "traffic_timeseries_callout",
+			"chart_type": "custom_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/internet_traffic_timeseries_callout.parquet",
+			"data_as_of": "2023-09-06 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["chart"],
+				"value_columns": ["latest"]
+			}
+		},
+		"penetration_timeseries": {
+			"name": "penetration_timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "http://storage.data.gov.my/dashboards/internet_penetration_timeseries.parquet",
+			"data_as_of": "2023-09-06 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["chart_type"],
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": ["x", "fbb", "mbb", "mc", "ptv"]
+			}
+		},
+		"penetration_timeseries_callout": {
+			"name": "penetration_timeseries_callout",
+			"chart_type": "custom_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/internet_penetration_timeseries_callout.parquet",
+			"data_as_of": "2023-09-06 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["chart"],
+				"value_columns": ["latest", "rate"]
+			}
+		}
+	}
+}
