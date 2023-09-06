@@ -16,7 +16,7 @@
 			"api_params": [],
 			"variables": {
 				"keys": ["chart"],
-				"value_columns": ["callout"]
+				"value_columns": ["callout", "data_as_of"]
 			}
 		},
 		"table_summary": {
