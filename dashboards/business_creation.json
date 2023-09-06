@@ -1,0 +1,53 @@
+{
+	"dashboard_name": "business_creation",
+	"data_last_updated": "2023-08-21 23:59",
+	"route": "/dashboard/business-creation,/ms-MY/dashboard/business-creation",
+	"sites": ["datagovmy"],
+	"manual_trigger": "0",
+	"required_params": ["state"],
+	"optional_params": [],
+	"charts": {
+		"timeseries": {
+			"name": "timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/ssm_timeseries.parquet",
+			"data_as_of": "2023-08-21 23:59",
+			"api_type": "dynamic",
+			"api_params": ["state"],
+			"variables": {
+				"keys": ["state", "frequency"],
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": [
+					"x",
+					"reg_llp",
+					"reg_roc",
+					"reg_rob",
+					"death_llp",
+					"death_roc",
+					"death_rob"
+				]
+			}
+		},
+		"timeseries_callout": {
+			"name": "timeseries_callout",
+			"chart_type": "custom_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/ssm_timeseries_callout.parquet",
+			"data_as_of": "2023-08-21 23:59",
+			"api_type": "dynamic",
+			"api_params": ["state"],
+			"variables": {
+				"keys": ["state"],
+				"value_columns": [
+					"reg_llp",
+					"reg_roc",
+					"reg_rob",
+					"death_llp",
+					"death_roc",
+					"death_rob"
+				]
+			}
+		}
+	}
+}

@@ -32,7 +32,7 @@
         "search_prompt": "Start search for name to see your name popularity!",
         "search_button": "Search name",
         "search_radio_label": "Search For:",
-        "search_details": "The data behind this dashboard does not contain any full names. You can only search for your first name (e.g. Anwar, Azizah) or your surname (e.g. Loke, Veerapan).",
+        "search_details": "The data behind this dashboard does not contain any full names. You can only search for your first name, e.g. Anwar, Azizah, Anthony, or Harshini.",
         "search_disclaimer": "We do not store your input - only you can see your search.",
         "search_validation_first": "Please enter your first name",
         "search_validation_last": "Please enter your last name",

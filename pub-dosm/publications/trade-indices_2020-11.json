@@ -1,0 +1,84 @@
+{
+    "publication": "trade-indices_2020-11",
+    "publication_type": "trade-indices",
+    "release_date": "2021-01-04",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Nov 2020] Trade Indices",
+        "publication_type_title": "Trade Indices",
+        "description": "Official trade index data, covering export/import value and volume, and terms of trade",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Trade Indices Report: Nov 2020",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2020-11.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Export Volume and Value: Nov 2020",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2020-11_export.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Import Volume and Value: Nov 2020",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2020-11_import.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Seasonally Adjusted Trade Indices: Nov 2020",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2020-11_sa.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Terms of Trade: Nov 2020",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2020-11_tot.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Nov 2020] Indeks Perdagangan",
+        "publication_type_title": "Indeks Perdagangan",
+        "description": "Data indeks perdagangan rasmi, merangkumi nilai dan volum eksport/import, serta terma perdagangan",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Laporan Indeks Perdagangan: Nov 2020",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2020-11.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Nilai dan Volum Eksport: Nov 2020",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2020-11_export.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Nilai dan Volum Import: Nov 2020",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2020-11_import.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Indeks Pelarasan Musim: Nov 2020",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2020-11_sa.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Terma Perdagangan: Nov 2020",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2020-11_tot.xlsx"
+            }
+        ]
+    }
+}

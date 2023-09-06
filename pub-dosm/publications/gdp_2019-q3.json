@@ -1,0 +1,48 @@
+{
+    "publication": "gdp_2019-q3",
+    "publication_type": "gdp",
+    "release_date": "2019-11-15",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[3Q 2019] Gross Domestic Product",
+        "publication_type_title": "Gross Domestic Product",
+        "description": "Official gross domestic product (GDP) data, covering nominal/real GDP by  type of expenditure/activity",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Gross Domestic Product: 3Q 2019",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//gdp/gdp_yyyy-mm.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Gross Domestic Product: 3Q 2019",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//gdp/gdp_yyyy-mm.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST3 2019] Keluaran Dalam Negeri Kasar",
+        "publication_type_title": "Keluaran Dalam Negeri Kasar",
+        "description": "Data keluaran dalam negeri kasar (KDNK) rasmi, merangkumi KDNK mengikut jenis perbelanjaan/aktiviti",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Keluaran Dalam Negeri Kasar: ST3 2019",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//gdp/gdp_yyyy-mm.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Keluaran Dalam Negeri Kasar: ST3 2019",
+                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//gdp/gdp_yyyy-mm.xlsx"
+            }
+        ]
+    }
+}

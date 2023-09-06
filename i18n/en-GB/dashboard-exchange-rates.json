@@ -1,7 +1,7 @@
 {
     "route": "/dashboard/exchange-rates",
     "sites": [
-        "datagovmy"
+        "datagovmy", "opendosm"
     ],
     "translation": {
         "header": "Exchange Rates",

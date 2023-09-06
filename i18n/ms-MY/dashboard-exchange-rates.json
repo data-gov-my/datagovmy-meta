@@ -1,7 +1,7 @@
 {
     "route": "/ms-MY/dashboard/exchange-rates",
     "sites": [
-        "datagovmy"
+        "datagovmy", "opendosm"
     ],
     "translation": {
         "header": "Kadar Pertukaran Mata Wang",

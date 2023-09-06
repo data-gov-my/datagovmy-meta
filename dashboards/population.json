@@ -1,0 +1,78 @@
+{
+	"dashboard_name": "population",
+	"data_last_updated": "2023-09-01 23:59",
+	"route": "/dashboard/population,/ms-MY/dashboard/population",
+	"sites": ["opendosm"],
+	"manual_trigger": "0",
+	"required_params": ["state"],
+	"optional_params": [],
+	"charts": {
+		"population_timeseries": {
+			"name": "population_timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/population_timeseries.parquet",
+			"data_as_of": "2023-09-01 23:59",
+			"api_type": "dynamic",
+			"api_params": ["state"],
+			"variables": {
+				"keys": ["state", "chart_type"],
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": ["x", "population"]
+			}
+		},
+		"population_timeseries_callout": {
+			"name": "population_timeseries_callout",
+			"chart_type": "custom_chart",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/population_timeseries_callout.parquet",
+			"data_as_of": "2023-09-01 23:59",
+			"api_type": "dynamic",
+			"api_params": ["state"],
+			"variables": {
+				"keys": ["state", "chart_type"],
+				"value_columns": ["population"]
+			}
+		},
+		"vitalstats_timeseries": {
+			"name": "vitalstats_timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/population_vitalstats_timeseries.parquet",
+			"data_as_of": "2023-09-01 23:59",
+			"api_type": "dynamic",
+			"api_params": ["state"],
+			"variables": {
+				"keys": ["state", "chart_type"],
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": [
+					"x",
+					"births_live",
+					"births_still",
+					"deaths",
+					"deaths_infant",
+					"deaths_maternal",
+					"deaths_neonatal",
+					"deaths_perinatal",
+					"deaths_toddler",
+					"deaths_under_five",
+					"fertility",
+					"natural_increase"
+				]
+			}
+		},
+		"vitalstats_timeseries_callout": {
+			"name": "vitalstats_timeseries_callout",
+			"chart_type": "custom_chart",
+			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/population_vitalstats_timeseries_callout.parquet",
+			"data_as_of": "2023-09-01 23:59",
+			"api_type": "dynamic",
+			"api_params": ["state"],
+			"variables": {
+				"keys": ["state", "chart_type", "chart"],
+				"value_columns": ["latest"]
+			}
+		}
+	}
+}

@@ -1,50 +1,65 @@
 {
-    "dashboard_name": "perkeso",
-    "data_last_updated": "2023-06-28 23:59",
-    "route": "/dashboard/perkeso,/ms-MY/dashboard/perkeso",
-    "sites": [
-        "datagovmy"
-    ],
-    "manual_trigger": "2",
-    "required_params": [],
-    "optional_params": [],
-    "charts": {
-        "timeseries": {
-            "name": "timeseries",
-            "chart_type": "timeseries_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/perkeso_timeseries.parquet",
-            "data_as_of": "2023-06-28 23:59",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "keys": [
-                    "frequency"
-                ],
-                "rename_cols": {
-                    "date": "x"
-                },
-                "value_columns": [
-                    "x",
-                    "losses"
-                ]
-            }
-        },
-        "timeseries_callout": {
-            "name": "timeseries_callout",
-            "chart_type": "custom_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/perkeso_timeseries_callout.parquet",
-            "data_as_of": "2023-06-28 23:59",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "keys": [
-                    "chart",
-                    "variable"
-                ],
-                "value_columns": [
-                    "value"
-                ]
-            }
-        }
-    }
+	"dashboard_name": "perkeso",
+	"data_last_updated": "2023-06-28 23:59",
+	"route": "/dashboard/perkeso,/ms-MY/dashboard/perkeso",
+	"sites": ["datagovmy"],
+	"manual_trigger": "2",
+	"required_params": ["state"],
+	"optional_params": [],
+	"charts": {
+		"timeseries": {
+			"name": "timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/joblessclaims_timeseries.parquet",
+			"data_as_of": "2023-06-28 23:59",
+			"api_type": "dynamic",
+			"api_params": ["state"],
+			"variables": {
+				"keys": ["state", "frequency"],
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": ["x", "losses"]
+			}
+		},
+		"timeseries_callout": {
+			"name": "timeseries_callout",
+			"chart_type": "custom_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/joblessclaims_timeseries_callout.parquet",
+			"data_as_of": "2023-06-28 23:59",
+			"api_type": "dynamic",
+			"api_params": ["state"],
+			"variables": {
+				"keys": ["state"],
+				"value_columns": ["growth_mom", "growth_yoy"]
+			}
+		},
+		"pyramid_data": {
+			"name": "pyramid_data",
+			"chart_type": "pyramid_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/joblessclaims_pyramid.parquet",
+			"data_as_of": "2023-06-26 23:59",
+			"api_type": "dynamic",
+			"api_params": ["state"],
+			"variables": {
+				"keys": ["state"]
+			}
+		},
+		"barmeter": {
+			"name": "barmeter",
+			"chart_type": "bar_meter",
+			"chart_source": "https://storage.data.gov.my/dashboards/joblessclaims_barmeter.parquet",
+			"data_as_of": "2023-04-03 23:59",
+			"api_type": "dynamic",
+			"api_params": ["state"],
+			"variables": {
+				"axis_values": [
+					{
+						"variable": "losses"
+					}
+				],
+				"keys": ["state", "chart"]
+			}
+		}
+	}
 }

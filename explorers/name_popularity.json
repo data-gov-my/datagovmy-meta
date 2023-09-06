@@ -1,20 +1,21 @@
 {
-    "data_last_updated": "2023-06-14 23:59",
-    "manual_trigger": "1",
-    "explorer_name" : "NAME_POPULARITY",
-    "route": "",
-    "tables" : {
-        "NameDashboard_FirstName" : {
-            "data_as_of" : "2023-06-14 23:59",
-            "source" : "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/name_popularity_first.parquet",
-            "update" : "UPDATE",
-            "unique_keys" : ["name"]
-        },
-        "NameDashboard_LastName" : {
-            "data_as_of" : "2023-06-14 23:59",
-            "source" : "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/name_popularity_last.parquet",
-            "update" : "UPDATE",
-            "unique_keys" : ["name"]
-        }                    
-    }
+	"data_last_updated": "2023-06-14 23:59",
+	"manual_trigger": "0",
+	"explorer_name": "NAME_POPULARITY",
+	"sites": ["datagovmy"],
+	"route": "",
+	"tables": {
+		"NameDashboard_FirstName": {
+			"data_as_of": "2023-06-14 23:59",
+			"source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/name_popularity_first.parquet",
+			"update": "UPDATE",
+			"unique_keys": ["name"]
+		},
+		"NameDashboard_LastName": {
+			"data_as_of": "2023-06-14 23:59",
+			"source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/name_popularity_last.parquet",
+			"update": "UPDATE",
+			"unique_keys": ["name"]
+		}
+	}
 }

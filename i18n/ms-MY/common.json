@@ -119,6 +119,7 @@
             "dark": "Gelap",
             "brought_by": "Produk data digital oleh",
             "brought_by_the": "Produk data digital oleh",
+            "product_by_division": "Produk data terbuka oleh",
             "visit_portal": "Layari portal kami",
             "click_to_explore": "Klik untuk mengetahui lebih lanjut",
             "ovs": "Lahir di Luar Negara"
@@ -141,7 +142,9 @@
             "services": "Perkhidmatan",
             "public_administration": "Pentadbiran Awam",
             "labour_markets": "Pasaran Buruh",
-            "producer_price": "Harga Pengeluar"
+            "producer_price": "Harga Pengeluar",
+            "households": "Isi Rumah",
+            "trade": "Perdagangan"
         },
         "home": {
             "title": "Terkini. Terperinci. Terbukti.",

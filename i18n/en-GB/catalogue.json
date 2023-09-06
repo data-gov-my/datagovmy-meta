@@ -38,6 +38,7 @@
 			"intraday": "Intraday",
 			"infrequent": "Infrequent",
 			"as_required": "As Required",
+			"one_off": "One-Off",
 			"state": "State",
 			"dun": "DUN",
 			"national": "National",

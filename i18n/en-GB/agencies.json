@@ -4,6 +4,10 @@
         "datagovmy"
     ],
     "translation": {
+        "aadk": {
+            "full": "National Anti-Drugs Agency",
+            "abbr": "AADK"
+        },
         "bnm": {
             "full": "Central Bank of Malaysia",
             "abbr": "BNM"
@@ -124,25 +128,13 @@
             "full": "Election Commission of Malaysia",
             "abbr": "SPR"
         },
+        "ssm": {
+            "full": "Companies Commission of Malaysia",
+            "abbr": "SSM"
+        },
         "unhcr": {
             "full": "United Nations High Commissioner for Refugees",
             "abbr": "UNHCR"
-        },
-        "bpan": {
-          "full": "National Accounts Division",
-          "abbr": "BPAN"
-        },
-        "bppib": {
-          "full": "Industrial Production & Construction Division",
-          "abbr": "BPPIB"
-        },
-        "mbls": {
-          "full": "Malaysian Bureau of Labour Statistics",
-          "abbr": "MBLS"
-        },
-        "piesd": {
-          "full": "Price, Income & Expenditure Statistics Division",
-          "abbr": "PIESD"
         }
     }
 }

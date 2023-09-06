@@ -1,0 +1,19 @@
+{
+	"data_last_updated": "2023-09-01 23:59",
+	"sites": ["datagovmy"],
+	"manual_trigger": "1",
+	"explorer_name": "Prasarana",
+	"route": "/dashboard/prasarana,/ms-MY/dashboard/prasarana",
+	"tables": {
+		"PrasaranaTimeseries": {
+			"data_as_of": "2023-06-14 23:59",
+			"source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/ktmb_timeseries.parquet",
+			"update": "REBUILD"
+		},
+		"PrasaranaTimeseriesCallout": {
+			"data_as_of": "2023-06-14 23:59",
+			"source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/ktmb_timeseries_callout.parquet",
+			"update": "REBUILD"
+		}
+	}
+}
