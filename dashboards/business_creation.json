@@ -38,15 +38,8 @@
 			"api_type": "dynamic",
 			"api_params": ["state"],
 			"variables": {
-				"keys": ["state"],
-				"value_columns": [
-					"reg_llp",
-					"reg_roc",
-					"reg_rob",
-					"death_llp",
-					"death_roc",
-					"death_rob"
-				]
+				"keys": ["state", "chart"],
+				"value_columns": ["this_year"]
 			}
 		}
 	}

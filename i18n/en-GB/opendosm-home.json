@@ -13,10 +13,10 @@
 		"stats": {
 			"population": "Current Population",
 			"economic_growth": "Economic Growth",
-			"bnm_opr": "BNM OPR",
 			"unemployment": "Unemployment",
 			"inflation": "Inflation",
 			"production_cost": "Production Costs",
+            "manufacturing_output": "Manufacturing Output",
 			"industrial_production": "Industrial Production",
 			"wholesale_retail": "Wholesale & Retail Trade"
 		},

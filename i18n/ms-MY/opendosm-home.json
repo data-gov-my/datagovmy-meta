@@ -15,10 +15,10 @@
         "stats": {
             "population": "Penduduk Semasa",
             "economic_growth": "Pertumbuhan Ekonomi",
-            "bnm_opr": "Kadar Dasar Semalaman BNM",
             "unemployment": "Pengangguran",
             "inflation": "Inflasi",
             "production_cost": "Kos Pengeluaran",
+            "manufacturing_output": "Keluaran Pembuatan",
             "industrial_production": "Pengeluaran Industri",
             "wholesale_retail": "Perdagangan Borong & Runcit"
         },
