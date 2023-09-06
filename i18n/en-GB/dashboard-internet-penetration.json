@@ -5,6 +5,27 @@
     ],
     "translation": {
         "header": "Internet Penetration",
-        "description": ""
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "section_traffic": {
+          "title": "How is broadband traffic trending?",
+          "description": "Note: 1 Exabyte (EB) is equivalent to 1 billion Gigabytes (GB) or 1 thousand Petabytes (PB)"
+        },
+        "section_penetration": {
+          "title": "How are key subscription penetration rates trending?",
+          "description": "Note: A single person may have more than 1 subscription, which is why penetration rates may exceed 100%"
+        },
+        "keys": {
+          "traffic_fbb": "Fixed-Broadband Traffic",
+          "traffic_mbb": "Mobile-Broadband Traffic",
+          "actual": "Actual Values",
+          "pen_rate": "Penetration Rates",
+          "fbb": "Fixed-Broadband Subscriptions",
+          "mbb": "Mobile-Broadband Subscriptions",
+          "mc": "Mobile-Cellular Subscriptions",
+          "ptv": "Pay-TV Subscriptions",
+          "perHundredPremises": "per 100 premises",
+          "perHundredPopulation": "per 100 population",
+          "perHundredHouseholds": "per 100 households"
+        }
     }
 }
