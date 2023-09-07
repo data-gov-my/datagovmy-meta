@@ -1,0 +1,28 @@
+{
+    "route": "ms-MY/dashboard/prasarana-explorer",
+    "sites": [
+        "datagovmy"
+    ],
+    "translation": {
+        "header": "Peneroka Prasarana",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "title": "Terokailah data penumpang antara mana-mana 2 stesen yang dikendali Prasarana!",
+        "filters": "Tapisan",
+        "origin": "Permulaan",
+        "destination": "Destinasi",
+        "apply_filter": "Tapiskan",
+        "service": "Perkhidmatan",
+        "ets": "ETS",
+        "intercity": "Antara Bandar",
+        "komuter": "Komuter",
+        "tebrau": "Shuttle Tebrau",
+        "select_origin": "Pilih Permulaan",
+        "select_destination": "Pilih Destinasi",
+        "ridership_day": "Jumlah Penumpang Harian: {{ from }} ke {{ to }}",
+        "ridership_month": "Jumlah Penumpang Bulanan: {{ from }} ke {{ to }}",
+        "ridership_year": "Jumlah Penumpang Tahunan: {{ from }} ke {{ to }}",
+        "past_month": "Sebulan",
+        "past_year": "Setahun",
+        "no_trips": "Tiada perjalanan di laluan ini"
+    }
+}
