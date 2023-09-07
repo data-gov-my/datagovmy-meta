@@ -1,5 +1,5 @@
 {
-    "route": "/ms-MY/dashboard/income-taxation/overview",
+    "route": "/ms-MY/dashboard/income-taxation",
     "sites": [
         "datagovmy"
     ],
@@ -29,11 +29,7 @@
         "self": "Taksiran Bersendirian",
         "joint": "Taksiran Bersama",
         "age": "Umur",
-        "all_ages": "Semua",
-        "sex": "Jantina",
-        "all_sexes": "Semua",
-        "male": "Lelaki",
-        "female": "Perempuan",
+        "all_ages": "Semua umur",
         "disclaimer": "Nota: Statistik ini dikira berdasarkan pangkalan data lengkap individu yang mengisytiharkan pendapatan mereka pada {{ year }}, termasuk individu berpendapatan rendah yang tidak dikenakan cukai.",
         "start_search": "Masukkan butiran anda untuk mulakan pencarian!",
         "earned_more": "Berpendapatan lebih",

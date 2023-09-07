@@ -1,5 +1,5 @@
 {
-    "route": "/dashboard/income-taxation/overview",
+    "route": "/dashboard/income-taxation",
     "sites": [
         "datagovmy"
     ],
@@ -30,10 +30,6 @@
         "joint": "Joint Assessment",
         "age": "Age",
         "all_ages": "All ages",
-        "sex": "Sex",
-        "all_sexes": "All sexes",
-        "male": "Male",
-        "female": "Female",
         "disclaimer": "Note: These statistics are computed based on the complete database of individuals who declared their income in {{ year }}, including individuals whose income was too low to be taxed.",
         "start_search": "Enter your details to find out!",
         "earned_more": "Earned more",
