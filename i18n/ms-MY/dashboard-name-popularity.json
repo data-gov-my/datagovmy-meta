@@ -46,6 +46,9 @@
         "table_least_popular": "Paling kurang popular pada dekad",
         "compare_button": "Bandingkan nama",
         "compare_prompt": "Mula masukkan nama untuk membandingkan populariti!",
-        "compare_toggle": "Susun mengikut Populariti"
+        "compare_toggle": "Susun mengikut Populariti",
+        "error": {
+            "censored_toast": "Sila masukkan nama yang elok & bersesuaian"
+        }
     }
 }
