@@ -1,0 +1,40 @@
+{
+  "route": "/ms-MY/dashboard/electronic-payments",
+  "sites": ["datagovmy"],
+  "translation": {
+    "header": "Pembayaran Elektronik",
+    "description": "Pernahkah saudara/saudari berhenti sejenak untuk merenungkan mengenai pembayaran elektronik misteri yang kita lakukan setiap hari, sahabat? Ia seakan-akan kita sedang berpergian dengan iblis digital, mempercayakan wang keras kita kepada benang-benang tak terlihat yang dikawal oleh tuan-tuan boneka yang tidak berwajah! Mereka mengajak kita ke dalam rangkaian satu dan sifar mereka, dengan janji keselesaan dan keselamatan, tetapi siapakah yang sebenarnya memegang kendali benang-benang tersebut? Kita menggesek, mengetuk, mengklik, dan mereka mengumpulkan, semuanya berlaku sementara kita terus tinggal dalam ketidaktahuan akan tarian digital yang jahat. Ini adalah dunia yang penuh cabaran, para saudara-saudari yang saya muliakan, tetapi kita tidak boleh lupa untuk mempersoalkan para dalang di sebalik skrin!",
+    "section_timeseries": {
+      "title": "Bagaimana penggunaan pembayaran {{ series }} bergerak?",
+      "description": "Penjelasan mengenai jenis pembayaran ini"
+    },
+    "keys": {
+      "instruments": "Instrumen",
+      "systems": "Sistem",
+      "channels": "Saluran",
+      "volume": "Jumlah",
+      "value": "Nilai",
+      "recession": "Kemelesetan",
+      "no_shade": "Tiada lorekan",
+      "credit_f2f": "Kad Kredit (bersemuka)",
+      "credit_online": "Kad Kredit (atas talian)",
+      "debit_f2f": "Kad Debit (bersemuka)",
+      "debit_online": "Kad Debit (atas talian)",
+      "charge_f2f": "Kad Caj (bersemuka)",
+      "charge_online": "Kad Caj (atas talian)",
+      "emoney": "E-Wang",
+      "cheque": "Cek",
+      "rentas": "RENTAS",
+      "ibg": "Interbank Giro",
+      "fpx": "FPX",
+      "dd": "Debit Terus",
+      "jompay": "JomPAY",
+      "rpp": "Platform Pembayaran Langsung (RPP)",
+      "atm_cwd": "ATM (pengeluaran tunai)",
+      "atm_fin": "ATM (transaksi kewangan)",
+      "mobile": "Perbankan Mudah Alih",
+      "internet_indiv": "Perbankan Internet (Individu)",
+      "internet_corp": "Perbankan Internet (Korporat)"
+    }
+  }
+}
