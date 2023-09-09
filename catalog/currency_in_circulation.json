@@ -7,9 +7,9 @@
         "category": "FINSECTOR",
         "category_en": "Financial Sector",
         "category_bm": "Sektor Kewangan",
-        "subcategory": "MONEYBANKING",
-        "subcategory_en": "Money & Banking",
-        "subcategory_bm": "Duit & Bank",
+        "subcategory": "CURCIR",
+        "subcategory_en": "Currency in Circulation",
+        "subcategory_bm": "Mata Wang dalam Peredaran",
         "description": {
             "en": "Value of currency in circulation by denomination",
             "bm": "Nilai mata wang dalam edaran mengikut denominasi"
