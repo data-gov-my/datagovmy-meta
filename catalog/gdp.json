@@ -1,0 +1,1039 @@
+{
+    "file": {
+        "manual_trigger": "na",
+        "exclude_openapi": false,
+        "bucket": "gdp",
+        "file_name": "gdp",
+        "category": "NATSTATS_GDP",
+        "category_en": "National Statistics (GDP)",
+        "category_bm": "Statistik Nasional (KDNK)",
+        "subcategory": "NATIONAL",
+        "subcategory_en": "National GDP",
+        "subcategory_bm": "KDNK Negara",
+        "category_opendosm": "GDP",
+        "category_opendosm_en": "Gross Domestic Product",
+        "category_opendosm_bm": "Keluaran Dalam Negeri Kasar",
+        "subcategory_opendosm": "NATIONAL",
+        "subcategory_opendosm_en": "National GDP",
+        "subcategory_opendosm_bm": "GDP Negara",
+        "description": {
+            "en": "This publication contains statistics of quarterly national accounts estimates by economic activity and type of expenditure in both current and constant prices at base year 2015.",
+            "bm": "Laporan ini merangkumi anggaran statistik akaun negara suku tahunan mengikut aktiviti ekonomi dan jenis perbelanjaan pada harga semasa dan harga malar tahun asas 2015."
+        },
+        "link_parquet": "https://storage.dosm.gov.my/gdp/gdp.parquet",
+        "link_csv": "https://storage.dosm.gov.my/gdp/gdp.csv",
+        "link_preview": "https://storage.dosm.gov.my/gdp/gdp.parquet",
+        "variables": [
+            {
+                "id": -1,
+                "name": "series_type",
+                "title_en": "Series Type",
+                "title_bm": "Jenis Siri",
+                "desc_en": "[Categorical] real, real_sa, or nominal",
+                "desc_bm": "[Kategori] real, real_sa, atau nominal"
+            },
+            {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01"
+            },
+            {
+                "id": 1,
+                "name": "overall",
+                "title_en": "Overall",
+                "title_bm": "Keseluruhan",
+                "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
+                "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015.",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "QUARTERLY",
+                        "limit_frequency": true,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2015",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-06-30 23:59",
+                        "last_updated": "2023-08-18 12:00",
+                        "next_update": "2023-11-11 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                            "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts.",
+                            "publication": "[Gross Domestic Product, 2Q 2023](https://storage.googleapis.com/dosm-public-publications/quarterly_2023-q2_gdp.pdf), the latest edition of the quarterly GDP statistics published by DOSM. Bank Negara Malaysia's [Quarterly Bulletin, 2Q 2023](https://www.bnm.gov.my/-/quarterly-bulletin-2q-2023) also provides a summary of the latest release. For an interactive look, check out OpenDOSM's [GDP dashboard](https://open.dosm.gov.my/gdp)."
+                        },
+                        "bm": {
+                            "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                            "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan.",
+                            "publication": "[Keluaran Dalam Negeri Kasar, Suku Kedua 2023](https://storage.googleapis.com/dosm-public-publications/quarterly_2023-q2_gdp.pdf), edisi terkini statistik suku tahunan KDNK yang diterbitkan oleh DOSM. [Buletin Suku Tahunan, Suku Kedua 2023](https://www.bnm.gov.my/-/buletin-suku-tahunan-suku-kedua-2023) terbitan Bank Negara Malaysia juga merumuskan statistik terkini. Bagi paparan interaktif, anda boleh melayari [papan pemuka GDP](https://open.dosm.gov.my/gdp) di OpenDOSM."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [
+                                "series_type"
+                            ],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [
+                                "series_type"
+                            ],
+                            "operation": "SUM",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "overall"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 2,
+                "name": "supply_agri",
+                "title_en": "By Activity >  Agriculture",
+                "title_bm": "Mengikut Aktiviti >  Pertanian",
+                "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
+                "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015.",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "QUARTERLY",
+                        "limit_frequency": true,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2015",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-06-30 23:59",
+                        "last_updated": "2023-08-18 12:00",
+                        "next_update": "2023-11-11 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                            "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts.",
+                            "publication": "[Gross Domestic Product, 2Q 2023](https://storage.googleapis.com/dosm-public-publications/quarterly_2023-q2_gdp.pdf), the latest edition of the quarterly GDP statistics published by DOSM. Bank Negara Malaysia's [Quarterly Bulletin, 2Q 2023](https://www.bnm.gov.my/-/quarterly-bulletin-2q-2023) also provides a summary of the latest release. For an interactive look, check out OpenDOSM's [GDP dashboard](https://open.dosm.gov.my/gdp)."
+                        },
+                        "bm": {
+                            "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                            "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan.",
+                            "publication": "[Keluaran Dalam Negeri Kasar, Suku Kedua 2023](https://storage.googleapis.com/dosm-public-publications/quarterly_2023-q2_gdp.pdf), edisi terkini statistik suku tahunan KDNK yang diterbitkan oleh DOSM. [Buletin Suku Tahunan, Suku Kedua 2023](https://www.bnm.gov.my/-/buletin-suku-tahunan-suku-kedua-2023) terbitan Bank Negara Malaysia juga merumuskan statistik terkini. Bagi paparan interaktif, anda boleh melayari [papan pemuka GDP](https://open.dosm.gov.my/gdp) di OpenDOSM."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [
+                                "series_type"
+                            ],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [
+                                "series_type"
+                            ],
+                            "operation": "SUM",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "supply_agri"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 3,
+                "name": "supply_mining",
+                "title_en": "By Activity >  Mining",
+                "title_bm": "Mengikut Aktiviti >  Perlombongan",
+                "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
+                "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015.",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "QUARTERLY",
+                        "limit_frequency": true,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2015",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-06-30 23:59",
+                        "last_updated": "2023-08-18 12:00",
+                        "next_update": "2023-11-11 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                            "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts.",
+                            "publication": "[Gross Domestic Product, 2Q 2023](https://storage.googleapis.com/dosm-public-publications/quarterly_2023-q2_gdp.pdf), the latest edition of the quarterly GDP statistics published by DOSM. Bank Negara Malaysia's [Quarterly Bulletin, 2Q 2023](https://www.bnm.gov.my/-/quarterly-bulletin-2q-2023) also provides a summary of the latest release. For an interactive look, check out OpenDOSM's [GDP dashboard](https://open.dosm.gov.my/gdp)."
+                        },
+                        "bm": {
+                            "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                            "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan.",
+                            "publication": "[Keluaran Dalam Negeri Kasar, Suku Kedua 2023](https://storage.googleapis.com/dosm-public-publications/quarterly_2023-q2_gdp.pdf), edisi terkini statistik suku tahunan KDNK yang diterbitkan oleh DOSM. [Buletin Suku Tahunan, Suku Kedua 2023](https://www.bnm.gov.my/-/buletin-suku-tahunan-suku-kedua-2023) terbitan Bank Negara Malaysia juga merumuskan statistik terkini. Bagi paparan interaktif, anda boleh melayari [papan pemuka GDP](https://open.dosm.gov.my/gdp) di OpenDOSM."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [
+                                "series_type"
+                            ],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [
+                                "series_type"
+                            ],
+                            "operation": "SUM",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "supply_mining"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 4,
+                "name": "supply_manufacturing",
+                "title_en": "By Activity >  Manufacturing",
+                "title_bm": "Mengikut Aktiviti >  Pembuatan",
+                "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
+                "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015.",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "QUARTERLY",
+                        "limit_frequency": true,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2015",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-06-30 23:59",
+                        "last_updated": "2023-08-18 12:00",
+                        "next_update": "2023-11-11 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                            "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts.",
+                            "publication": "[Gross Domestic Product, 2Q 2023](https://storage.googleapis.com/dosm-public-publications/quarterly_2023-q2_gdp.pdf), the latest edition of the quarterly GDP statistics published by DOSM. Bank Negara Malaysia's [Quarterly Bulletin, 2Q 2023](https://www.bnm.gov.my/-/quarterly-bulletin-2q-2023) also provides a summary of the latest release. For an interactive look, check out OpenDOSM's [GDP dashboard](https://open.dosm.gov.my/gdp)."
+                        },
+                        "bm": {
+                            "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                            "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan.",
+                            "publication": "[Keluaran Dalam Negeri Kasar, Suku Kedua 2023](https://storage.googleapis.com/dosm-public-publications/quarterly_2023-q2_gdp.pdf), edisi terkini statistik suku tahunan KDNK yang diterbitkan oleh DOSM. [Buletin Suku Tahunan, Suku Kedua 2023](https://www.bnm.gov.my/-/buletin-suku-tahunan-suku-kedua-2023) terbitan Bank Negara Malaysia juga merumuskan statistik terkini. Bagi paparan interaktif, anda boleh melayari [papan pemuka GDP](https://open.dosm.gov.my/gdp) di OpenDOSM."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [
+                                "series_type"
+                            ],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [
+                                "series_type"
+                            ],
+                            "operation": "SUM",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "supply_manufacturing"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 5,
+                "name": "supply_construction",
+                "title_en": "By Activity >  Construction",
+                "title_bm": "Mengikut Aktiviti >  Pembinaan",
+                "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
+                "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015.",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "QUARTERLY",
+                        "limit_frequency": true,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2015",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-06-30 23:59",
+                        "last_updated": "2023-08-18 12:00",
+                        "next_update": "2023-11-11 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                            "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts.",
+                            "publication": "[Gross Domestic Product, 2Q 2023](https://storage.googleapis.com/dosm-public-publications/quarterly_2023-q2_gdp.pdf), the latest edition of the quarterly GDP statistics published by DOSM. Bank Negara Malaysia's [Quarterly Bulletin, 2Q 2023](https://www.bnm.gov.my/-/quarterly-bulletin-2q-2023) also provides a summary of the latest release. For an interactive look, check out OpenDOSM's [GDP dashboard](https://open.dosm.gov.my/gdp)."
+                        },
+                        "bm": {
+                            "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                            "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan.",
+                            "publication": "[Keluaran Dalam Negeri Kasar, Suku Kedua 2023](https://storage.googleapis.com/dosm-public-publications/quarterly_2023-q2_gdp.pdf), edisi terkini statistik suku tahunan KDNK yang diterbitkan oleh DOSM. [Buletin Suku Tahunan, Suku Kedua 2023](https://www.bnm.gov.my/-/buletin-suku-tahunan-suku-kedua-2023) terbitan Bank Negara Malaysia juga merumuskan statistik terkini. Bagi paparan interaktif, anda boleh melayari [papan pemuka GDP](https://open.dosm.gov.my/gdp) di OpenDOSM."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [
+                                "series_type"
+                            ],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [
+                                "series_type"
+                            ],
+                            "operation": "SUM",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "supply_construction"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 6,
+                "name": "supply_services",
+                "title_en": "By Activity >  Services",
+                "title_bm": "Mengikut Aktiviti >  Perkhidmatan",
+                "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
+                "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015.",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "QUARTERLY",
+                        "limit_frequency": true,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2015",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-06-30 23:59",
+                        "last_updated": "2023-08-18 12:00",
+                        "next_update": "2023-11-11 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                            "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts.",
+                            "publication": "[Gross Domestic Product, 2Q 2023](https://storage.googleapis.com/dosm-public-publications/quarterly_2023-q2_gdp.pdf), the latest edition of the quarterly GDP statistics published by DOSM. Bank Negara Malaysia's [Quarterly Bulletin, 2Q 2023](https://www.bnm.gov.my/-/quarterly-bulletin-2q-2023) also provides a summary of the latest release. For an interactive look, check out OpenDOSM's [GDP dashboard](https://open.dosm.gov.my/gdp)."
+                        },
+                        "bm": {
+                            "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                            "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan.",
+                            "publication": "[Keluaran Dalam Negeri Kasar, Suku Kedua 2023](https://storage.googleapis.com/dosm-public-publications/quarterly_2023-q2_gdp.pdf), edisi terkini statistik suku tahunan KDNK yang diterbitkan oleh DOSM. [Buletin Suku Tahunan, Suku Kedua 2023](https://www.bnm.gov.my/-/buletin-suku-tahunan-suku-kedua-2023) terbitan Bank Negara Malaysia juga merumuskan statistik terkini. Bagi paparan interaktif, anda boleh melayari [papan pemuka GDP](https://open.dosm.gov.my/gdp) di OpenDOSM."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [
+                                "series_type"
+                            ],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [
+                                "series_type"
+                            ],
+                            "operation": "SUM",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "supply_services"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 7,
+                "name": "supply_import_duties",
+                "title_en": "By Activity >  Import Duties",
+                "title_bm": "Mengikut Aktiviti >  Duti Import",
+                "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
+                "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015.",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "QUARTERLY",
+                        "limit_frequency": true,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2015",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-06-30 23:59",
+                        "last_updated": "2023-08-18 12:00",
+                        "next_update": "2023-11-11 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                            "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts.",
+                            "publication": "[Gross Domestic Product, 2Q 2023](https://storage.googleapis.com/dosm-public-publications/quarterly_2023-q2_gdp.pdf), the latest edition of the quarterly GDP statistics published by DOSM. Bank Negara Malaysia's [Quarterly Bulletin, 2Q 2023](https://www.bnm.gov.my/-/quarterly-bulletin-2q-2023) also provides a summary of the latest release. For an interactive look, check out OpenDOSM's [GDP dashboard](https://open.dosm.gov.my/gdp)."
+                        },
+                        "bm": {
+                            "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                            "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan.",
+                            "publication": "[Keluaran Dalam Negeri Kasar, Suku Kedua 2023](https://storage.googleapis.com/dosm-public-publications/quarterly_2023-q2_gdp.pdf), edisi terkini statistik suku tahunan KDNK yang diterbitkan oleh DOSM. [Buletin Suku Tahunan, Suku Kedua 2023](https://www.bnm.gov.my/-/buletin-suku-tahunan-suku-kedua-2023) terbitan Bank Negara Malaysia juga merumuskan statistik terkini. Bagi paparan interaktif, anda boleh melayari [papan pemuka GDP](https://open.dosm.gov.my/gdp) di OpenDOSM."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [
+                                "series_type"
+                            ],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [
+                                "series_type"
+                            ],
+                            "operation": "SUM",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "supply_import_duties"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 8,
+                "name": "demand_c",
+                "title_en": "By Expenditure >  Private Consumption",
+                "title_bm": "Mengikut Perbelanjaan >  Penggunaan Swasta",
+                "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
+                "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015.",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "QUARTERLY",
+                        "limit_frequency": true,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2015",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-06-30 23:59",
+                        "last_updated": "2023-08-18 12:00",
+                        "next_update": "2023-11-11 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                            "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts.",
+                            "publication": "[Gross Domestic Product, 2Q 2023](https://storage.googleapis.com/dosm-public-publications/quarterly_2023-q2_gdp.pdf), the latest edition of the quarterly GDP statistics published by DOSM. Bank Negara Malaysia's [Quarterly Bulletin, 2Q 2023](https://www.bnm.gov.my/-/quarterly-bulletin-2q-2023) also provides a summary of the latest release. For an interactive look, check out OpenDOSM's [GDP dashboard](https://open.dosm.gov.my/gdp)."
+                        },
+                        "bm": {
+                            "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                            "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan.",
+                            "publication": "[Keluaran Dalam Negeri Kasar, Suku Kedua 2023](https://storage.googleapis.com/dosm-public-publications/quarterly_2023-q2_gdp.pdf), edisi terkini statistik suku tahunan KDNK yang diterbitkan oleh DOSM. [Buletin Suku Tahunan, Suku Kedua 2023](https://www.bnm.gov.my/-/buletin-suku-tahunan-suku-kedua-2023) terbitan Bank Negara Malaysia juga merumuskan statistik terkini. Bagi paparan interaktif, anda boleh melayari [papan pemuka GDP](https://open.dosm.gov.my/gdp) di OpenDOSM."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [
+                                "series_type"
+                            ],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [
+                                "series_type"
+                            ],
+                            "operation": "SUM",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "demand_c"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 9,
+                "name": "demand_g",
+                "title_en": "By Expenditure >  Government Spending",
+                "title_bm": "Mengikut Perbelanjaan >  Penggunaan Kerajaan",
+                "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
+                "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015.",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "QUARTERLY",
+                        "limit_frequency": true,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2015",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-06-30 23:59",
+                        "last_updated": "2023-08-18 12:00",
+                        "next_update": "2023-11-11 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                            "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts.",
+                            "publication": "[Gross Domestic Product, 2Q 2023](https://storage.googleapis.com/dosm-public-publications/quarterly_2023-q2_gdp.pdf), the latest edition of the quarterly GDP statistics published by DOSM. Bank Negara Malaysia's [Quarterly Bulletin, 2Q 2023](https://www.bnm.gov.my/-/quarterly-bulletin-2q-2023) also provides a summary of the latest release. For an interactive look, check out OpenDOSM's [GDP dashboard](https://open.dosm.gov.my/gdp)."
+                        },
+                        "bm": {
+                            "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                            "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan.",
+                            "publication": "[Keluaran Dalam Negeri Kasar, Suku Kedua 2023](https://storage.googleapis.com/dosm-public-publications/quarterly_2023-q2_gdp.pdf), edisi terkini statistik suku tahunan KDNK yang diterbitkan oleh DOSM. [Buletin Suku Tahunan, Suku Kedua 2023](https://www.bnm.gov.my/-/buletin-suku-tahunan-suku-kedua-2023) terbitan Bank Negara Malaysia juga merumuskan statistik terkini. Bagi paparan interaktif, anda boleh melayari [papan pemuka GDP](https://open.dosm.gov.my/gdp) di OpenDOSM."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [
+                                "series_type"
+                            ],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [
+                                "series_type"
+                            ],
+                            "operation": "SUM",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "demand_g"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 10,
+                "name": "demand_i",
+                "title_en": "By Expenditure >  GFCF",
+                "title_bm": "Mengikut Perbelanjaan >  PMTK",
+                "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
+                "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015.",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "QUARTERLY",
+                        "limit_frequency": true,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2015",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-06-30 23:59",
+                        "last_updated": "2023-08-18 12:00",
+                        "next_update": "2023-11-11 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                            "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts.",
+                            "publication": "[Gross Domestic Product, 2Q 2023](https://storage.googleapis.com/dosm-public-publications/quarterly_2023-q2_gdp.pdf), the latest edition of the quarterly GDP statistics published by DOSM. Bank Negara Malaysia's [Quarterly Bulletin, 2Q 2023](https://www.bnm.gov.my/-/quarterly-bulletin-2q-2023) also provides a summary of the latest release. For an interactive look, check out OpenDOSM's [GDP dashboard](https://open.dosm.gov.my/gdp)."
+                        },
+                        "bm": {
+                            "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                            "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan.",
+                            "publication": "[Keluaran Dalam Negeri Kasar, Suku Kedua 2023](https://storage.googleapis.com/dosm-public-publications/quarterly_2023-q2_gdp.pdf), edisi terkini statistik suku tahunan KDNK yang diterbitkan oleh DOSM. [Buletin Suku Tahunan, Suku Kedua 2023](https://www.bnm.gov.my/-/buletin-suku-tahunan-suku-kedua-2023) terbitan Bank Negara Malaysia juga merumuskan statistik terkini. Bagi paparan interaktif, anda boleh melayari [papan pemuka GDP](https://open.dosm.gov.my/gdp) di OpenDOSM."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [
+                                "series_type"
+                            ],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [
+                                "series_type"
+                            ],
+                            "operation": "SUM",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "demand_i"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 11,
+                "name": "demand_x",
+                "title_en": "By Expenditure >  Exports",
+                "title_bm": "Mengikut Perbelanjaan >  Eksport",
+                "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
+                "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015.",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "QUARTERLY",
+                        "limit_frequency": true,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2015",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-06-30 23:59",
+                        "last_updated": "2023-08-18 12:00",
+                        "next_update": "2023-11-11 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                            "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts.",
+                            "publication": "[Gross Domestic Product, 2Q 2023](https://storage.googleapis.com/dosm-public-publications/quarterly_2023-q2_gdp.pdf), the latest edition of the quarterly GDP statistics published by DOSM. Bank Negara Malaysia's [Quarterly Bulletin, 2Q 2023](https://www.bnm.gov.my/-/quarterly-bulletin-2q-2023) also provides a summary of the latest release. For an interactive look, check out OpenDOSM's [GDP dashboard](https://open.dosm.gov.my/gdp)."
+                        },
+                        "bm": {
+                            "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                            "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan.",
+                            "publication": "[Keluaran Dalam Negeri Kasar, Suku Kedua 2023](https://storage.googleapis.com/dosm-public-publications/quarterly_2023-q2_gdp.pdf), edisi terkini statistik suku tahunan KDNK yang diterbitkan oleh DOSM. [Buletin Suku Tahunan, Suku Kedua 2023](https://www.bnm.gov.my/-/buletin-suku-tahunan-suku-kedua-2023) terbitan Bank Negara Malaysia juga merumuskan statistik terkini. Bagi paparan interaktif, anda boleh melayari [papan pemuka GDP](https://open.dosm.gov.my/gdp) di OpenDOSM."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [
+                                "series_type"
+                            ],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [
+                                "series_type"
+                            ],
+                            "operation": "SUM",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "demand_x"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 12,
+                "name": "demand_m",
+                "title_en": "By Expenditure >  Imports",
+                "title_bm": "Mengikut Perbelanjaan >  Import",
+                "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
+                "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015.",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "QUARTERLY",
+                        "limit_frequency": true,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2015",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-06-30 23:59",
+                        "last_updated": "2023-08-18 12:00",
+                        "next_update": "2023-11-11 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                            "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts.",
+                            "publication": "[Gross Domestic Product, 2Q 2023](https://storage.googleapis.com/dosm-public-publications/quarterly_2023-q2_gdp.pdf), the latest edition of the quarterly GDP statistics published by DOSM. Bank Negara Malaysia's [Quarterly Bulletin, 2Q 2023](https://www.bnm.gov.my/-/quarterly-bulletin-2q-2023) also provides a summary of the latest release. For an interactive look, check out OpenDOSM's [GDP dashboard](https://open.dosm.gov.my/gdp)."
+                        },
+                        "bm": {
+                            "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                            "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan.",
+                            "publication": "[Keluaran Dalam Negeri Kasar, Suku Kedua 2023](https://storage.googleapis.com/dosm-public-publications/quarterly_2023-q2_gdp.pdf), edisi terkini statistik suku tahunan KDNK yang diterbitkan oleh DOSM. [Buletin Suku Tahunan, Suku Kedua 2023](https://www.bnm.gov.my/-/buletin-suku-tahunan-suku-kedua-2023) terbitan Bank Negara Malaysia juga merumuskan statistik terkini. Bagi paparan interaktif, anda boleh melayari [papan pemuka GDP](https://open.dosm.gov.my/gdp) di OpenDOSM."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [
+                                "series_type"
+                            ],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [
+                                "series_type"
+                            ],
+                            "operation": "SUM",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "demand_m"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 13,
+                "name": "demand_nx",
+                "title_en": "By Expenditure >  Net Exports",
+                "title_bm": "Mengikut Perbelanjaan >  Eksport Bersih",
+                "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
+                "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015.",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "QUARTERLY",
+                        "limit_frequency": true,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2015",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-06-30 23:59",
+                        "last_updated": "2023-08-18 12:00",
+                        "next_update": "2023-11-11 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                            "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts.",
+                            "publication": "[Gross Domestic Product, 2Q 2023](https://storage.googleapis.com/dosm-public-publications/quarterly_2023-q2_gdp.pdf), the latest edition of the quarterly GDP statistics published by DOSM. Bank Negara Malaysia's [Quarterly Bulletin, 2Q 2023](https://www.bnm.gov.my/-/quarterly-bulletin-2q-2023) also provides a summary of the latest release. For an interactive look, check out OpenDOSM's [GDP dashboard](https://open.dosm.gov.my/gdp)."
+                        },
+                        "bm": {
+                            "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                            "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan.",
+                            "publication": "[Keluaran Dalam Negeri Kasar, Suku Kedua 2023](https://storage.googleapis.com/dosm-public-publications/quarterly_2023-q2_gdp.pdf), edisi terkini statistik suku tahunan KDNK yang diterbitkan oleh DOSM. [Buletin Suku Tahunan, Suku Kedua 2023](https://www.bnm.gov.my/-/buletin-suku-tahunan-suku-kedua-2023) terbitan Bank Negara Malaysia juga merumuskan statistik terkini. Bagi paparan interaktif, anda boleh melayari [papan pemuka GDP](https://open.dosm.gov.my/gdp) di OpenDOSM."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [
+                                "series_type"
+                            ],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [
+                                "series_type"
+                            ],
+                            "operation": "SUM",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "demand_nx"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 14,
+                "name": "demand_inventory",
+                "title_en": "By Expenditure >  Change in Inventories",
+                "title_bm": "Mengikut Perbelanjaan >  Perubahan Inventori",
+                "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
+                "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015.",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "QUARTERLY",
+                        "limit_frequency": true,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2015",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-06-30 23:59",
+                        "last_updated": "2023-08-18 12:00",
+                        "next_update": "2023-11-11 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                            "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts.",
+                            "publication": "[Gross Domestic Product, 2Q 2023](https://storage.googleapis.com/dosm-public-publications/quarterly_2023-q2_gdp.pdf), the latest edition of the quarterly GDP statistics published by DOSM. Bank Negara Malaysia's [Quarterly Bulletin, 2Q 2023](https://www.bnm.gov.my/-/quarterly-bulletin-2q-2023) also provides a summary of the latest release. For an interactive look, check out OpenDOSM's [GDP dashboard](https://open.dosm.gov.my/gdp)."
+                        },
+                        "bm": {
+                            "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                            "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan.",
+                            "publication": "[Keluaran Dalam Negeri Kasar, Suku Kedua 2023](https://storage.googleapis.com/dosm-public-publications/quarterly_2023-q2_gdp.pdf), edisi terkini statistik suku tahunan KDNK yang diterbitkan oleh DOSM. [Buletin Suku Tahunan, Suku Kedua 2023](https://www.bnm.gov.my/-/buletin-suku-tahunan-suku-kedua-2023) terbitan Bank Negara Malaysia juga merumuskan statistik terkini. Bagi paparan interaktif, anda boleh melayari [papan pemuka GDP](https://open.dosm.gov.my/gdp) di OpenDOSM."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [
+                                "series_type"
+                            ],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [
+                                "series_type"
+                            ],
+                            "operation": "SUM",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "demand_inventory"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,126 @@
+{
+    "file": {
+        "manual_trigger": "na",
+        "exclude_openapi": false,
+        "bucket": "gdp",
+        "file_name": "gdp_state",
+        "category": "NATSTATS_GDP",
+        "category_en": "National Statistics (GDP)",
+        "category_bm": "Statistik Nasional (KDNK)",
+        "subcategory": "STATE",
+        "subcategory_en": "GDP by State",
+        "subcategory_bm": "KDNK mengikut Negeri",
+        "category_opendosm": "GDP",
+        "category_opendosm_en": "Gross Domestic Product",
+        "category_opendosm_bm": "Keluaran Dalam Negeri Kasar",
+        "subcategory_opendosm": "STATE",
+        "subcategory_opendosm_en": "GDP by State",
+        "subcategory_opendosm_bm": "GDP mengikut Negeri",
+        "description": {
+            "en": "This dataset contains annual national accounts estimates by state, in constant 2015 prices.",
+            "bm": "Set data ini merangkumi anggaran statistik akaun negara tahunan mengikut negeri, pada harga malar 2015."
+        },
+        "link_parquet": "https://storage.dosm.gov.my/gdp/gdp_state.parquet",
+        "link_csv": "https://storage.dosm.gov.my/gdp/gdp_state.csv",
+        "link_preview": "https://storage.dosm.gov.my/gdp/gdp_state.parquet",
+        "variables": [
+            {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai  01-01"
+            },
+            {
+                "id": -1,
+                "name": "state",
+                "title_en": "State",
+                "title_bm": "Negeri",
+                "desc_en": "[Categorical] Name of the state (16 in total, or Supranational).",
+                "desc_bm": "[Kategori] Name negeri (16 keseluruhan) atau Malaysia"
+            },
+            {
+                "id": -1,
+                "name": "series_type",
+                "title_en": "Series Type",
+                "title_bm": "Jenis Siri",
+                "desc_en": "[Categorical] RM (in constant 2015 prices), growth, or contribution to Malaysia's GDP.",
+                "desc_bm": "[Kategori] RM (dalam harga malar 2015), pertumbuhan tahunan, ataupun sumbangan kepada KDNK Malaysia."
+            },
+            {
+                "id": 1,
+                "name": "value",
+                "title_en": "GDP by State",
+                "title_bm": "KDNK mengikut Negeri",
+                "desc_en": "[Float] Value (in RM millions) given the date, state, and series type.",
+                "desc_bm": "[Apung] Nilai bagi jenis siri dan negeri pada tarikh yang diperincikan.",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "YEARLY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "STATE"
+                        ],
+                        "demography": [],
+                        "start": "2015",
+                        "end": "2022",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2022-12-31 23:59",
+                        "last_updated": "2023-06-28 12:00",
+                        "next_update": "-"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "GDP is the total value of all goods and services produced in a certain period, after deducting the cost of goods and services used in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the value added by resident producers (in producer prices) plus import duties. Therefore, GDP is equivalent to expenditure (in purchaser prices) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                            "caveat": "W.P. Putrajaya data is subsumed under W.P. Kuala Lumpur; Supra indicates economic activity not constrained by state boundaries.",
+                            "publication": "[Gross Domestic Product by State, 2021](https://www.dosm.gov.my/v1/index.php?r=column/pdfPrev&id=L3NnMU44VnA0YjRxVXhuYUpZTmVnZz09)"
+                        },
+                        "bm": {
+                            "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                            "caveat": "Data bagi W.P. Putrajaya dikelaskan di bawah W.P. Kuala Lumpur; data bagi negeri Supra merangkumi aktiviti pengeluaran yang melangkaui pusat kepentingan ekonomi utama bagi mana-mana negeri.",
+                            "publication": "[KDNK mengikut Negeri, 2021](https://www.dosm.gov.my/v1/index.php?r=column/pdfPrev&id=L3NnMU44VnA0YjRxVXhuYUpZTmVnZz09)"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [
+                                "state",
+                                "series_type"
+                            ],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [
+                                "state",
+                                "series_type"
+                            ],
+                            "operation": "SUM",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "value"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
