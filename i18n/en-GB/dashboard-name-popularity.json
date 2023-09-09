@@ -46,6 +46,9 @@
         "table_least_popular": "Least popular decade",
         "compare_button": "Compare names",
         "compare_prompt": "Start entering names to compare popularity!",
-        "compare_toggle": "Sort by Popularity"
+        "compare_toggle": "Sort by Popularity",
+        "error": {
+            "censored_toast": "Please enter an appropriate name"
+        }
     }
 }

@@ -1,10 +1,32 @@
 {
-    "route": "/ms-MY/dashboard/internet-penetration",
-    "sites": [
-        "datagovmy"
-    ],
-    "translation": {
-        "header": "",
-        "description": ""
-    }
+  "route": "/ms-MY/dashboard/internet-penetration",
+  "sites": [
+      "datagovmy"
+  ],
+  "translation": {
+      "header": "Pencapaian Internet",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "section_traffic": {
+        "title": "Bagaimana trend trafik jalur lebar?",
+        "description": "Nota: 1 Exabyte (EB) adalah bersamaan dengan 1 bilion Gigabytes (GB) atau 1 ribu Petabytes (PB)."
+      },
+      "section_penetration": {
+        "title": "Bagaimana trend kadar penembusan langganan utama?",
+        "description": "Nota: Seorang individu boleh mempunyai lebih daripada 1 langganan, oleh itu kadar penembusan langganan boleh melebihi 100%."
+      },
+      "keys": {
+        "traffic_fbb": "Trafik Jalur Lebar Tetap",
+        "traffic_mbb": "Trafik Jalur Lebar Mudah Alih",
+        "actual": "Nilai Sebenar",
+        "pen_rate": "Kadar Pencapaian",
+        "fbb": "Langganan Jalur Lebar Tetap",
+        "mbb": "Langganan Jalur Lebar Mudah Alih",
+        "mc": "Langganan Mudah Alih-Cellular",
+        "ptv": "Langganan TV Berbayar",
+        "perHundredPremises": "setiap 100 premis",
+        "perHundredPopulation": "setiap 100 penduduk",
+        "perHundredHouseholds": "setiap 100 isi rumah",
+        "rate": "Kadar"
+      }
+  }
 }

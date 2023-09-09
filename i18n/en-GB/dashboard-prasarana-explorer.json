@@ -1,0 +1,28 @@
+{
+    "route": "/dashboard/prasarana-explorer",
+    "sites": [
+        "datagovmy"
+    ],
+    "translation": {
+        "header": "Prasarana Explorer",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "title": "Explore ridership data between any two stations on Prasarana-operated services!",
+        "filters": "Filters",
+        "origin": "Origin",
+        "destination": "Destination",
+        "apply_filter": "Apply filter",
+        "service": "Service",
+        "ets": "ETS",
+        "intercity": "Intercity",
+        "komuter": "Komuter",
+        "tebrau": "Shuttle Tebrau",
+        "select_origin": "Select Origin",
+        "select_destination": "Select Destination",
+        "ridership_day": "Daily Ridership: {{ from }} to {{ to }}",
+        "ridership_month": "Monthly Ridership: {{ from }} to {{ to }}",
+        "ridership_year": "Yearly Ridership: {{ from }} to {{ to }}",
+        "past_month": "Past 1 Month",
+        "past_year": "Past 1 Year",
+        "no_trips": "No trips on this route"
+    }
+}
