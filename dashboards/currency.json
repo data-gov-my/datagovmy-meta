@@ -1,6 +1,6 @@
 {
     "dashboard_name": "currency",
-    "data_last_updated": "2023-06-01 23:59",
+    "data_last_updated": "2023-08-31 23:59",
     "route": "/dashboard/currency-in-circulation,/ms-MY/dashboard/currency-in-circulation",
     "sites": [
         "datagovmy"
@@ -12,8 +12,8 @@
         "timeseries": {
             "name": "timeseries",
             "chart_type": "timeseries_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/currency_timeseries.parquet",
-            "data_as_of": "2023-01-31 23:59",
+            "chart_source": "https://storage.data.gov.my/dashboards/currency_timeseries.parquet",
+            "data_as_of": "2023-07-31 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -53,8 +53,8 @@
         "bar_chart": {
             "name": "bar_chart",
             "chart_type": "bar_meter",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/currency_barmeter.parquet",
-            "data_as_of": "2023-01-31 23:59",
+            "chart_source": "https://storage.data.gov.my/dashboards/currency_barmeter.parquet",
+            "data_as_of": "2023-07-31 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -71,8 +71,8 @@
         "statistics": {
             "name": "statistics",
             "chart_type": "custom_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/currency_timeseries_callout.parquet",
-            "data_as_of": "2023-01-31 23:59",
+            "chart_source": "https://storage.data.gov.my/dashboards/currency_timeseries_callout.parquet",
+            "data_as_of": "2023-07-31 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
