@@ -1,0 +1,439 @@
+{
+    "file": {
+        "manual_trigger": "na",
+        "exclude_openapi": false,
+        "bucket": "ppi",
+        "file_name": "ppi",
+        "category": "NATSTATS_PPI",
+        "category_en": "National Statistics (Producer Prices)",
+        "category_bm": "Statistik Nasional (Harga Pengeluar)",
+        "subcategory": "PPI",
+        "subcategory_en": "PPI",
+        "subcategory_bm": "IHPR",
+        "category_opendosm": "PPI",
+        "category_opendosm_en": "Producer Prices",
+        "category_opendosm_bm": "Harga Pengeluar",
+        "subcategory_opendosm": "PPI",
+        "subcategory_opendosm_en": "PPI",
+        "subcategory_opendosm_bm": "IHPR",
+        "description": {
+            "en": "The publication of Producer Price Index (PPI) Local Production is a monthly publication that presents statistics covering five main sectors namely agriculture, forestry and fishing, mining, manufacturing, electricity and gas supply, and water supply. The PPI is compiled based on the data from the Producer Price Survey which is conducted on a monthly basis.",
+            "bm": "Penerbitan Indeks Harga Pengeluar (IHPR) Pengeluaran Tempatan merupakan penerbitan bulanan yang memaparkan statistik meliputi lima sektor utama iaitu pertanian, perhutanan dan perikanan, perlombongan, pembuatan, bekalan elektrik dan gas, dan bekalan air. IHPR Pengeluaran Tempatan disusun berdasarkan data Survei Harga Pengeluar yang dilaksanakan pada setiap bulan."
+        },
+        "link_parquet": "https://storage.dosm.gov.my/ppi/ppi.parquet",
+        "link_csv": "https://storage.dosm.gov.my/ppi/ppi.csv",
+        "link_preview": "https://storage.dosm.gov.my/ppi/ppi.parquet",
+        "variables": [
+            {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01"
+            },
+            {
+                "id": 1,
+                "name": "overall",
+                "title_en": "PPI (Producer Price Index)",
+                "title_bm": "IHPR (Indeks Harga Pengeluar)",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "MONTHLY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2010",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-07-31 23:59",
+                        "last_updated": "2023-08-28 12:00",
+                        "next_update": "2023-09-25 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The index is compiled based on the average price change for commodities charged by domestic producers of an industry.",
+                            "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
+                            "publication": "[Producer Price Index, July 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_ppi.pdf), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on producer prices](https://open.dosm.gov.my/producer-prices)."
+                        },
+                        "bm": {
+                            "methodology": "Indeks disusun berdasarkan perubahan purata harga bagi komoditi yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
+                            "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa.",
+                            "publication": "[Indeks Harga Pengeluar, Julai 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_ppi.pdf), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/producer-prices)."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "overall"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 2,
+                "name": "agriculture",
+                "title_en": "Agriculture, Forestry & Fishing",
+                "title_bm": "Pertanian, Perhutanan & Perikanan",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "MONTHLY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2010",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-07-31 23:59",
+                        "last_updated": "2023-08-28 12:00",
+                        "next_update": "2023-09-25 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The index is compiled based on the average price change for commodities in Agriculture, forestry and fishing sector charged by domestic producers of an industry.",
+                            "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
+                            "publication": "[Producer Price Index, July 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_ppi.pdf), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on producer prices](https://open.dosm.gov.my/producer-prices)."
+                        },
+                        "bm": {
+                            "methodology": "Indeks disusun berdasarkan perubahan purata harga bagi komoditi dalam sektor Pertanian, Perhutanan dan Perikanan yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
+                            "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa.",
+                            "publication": "[Indeks Harga Pengeluar, Julai 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_ppi.pdf), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/producer-prices)."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "agriculture"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 3,
+                "name": "mining",
+                "title_en": "Mining",
+                "title_bm": "Perlombongan",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "MONTHLY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2010",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-07-31 23:59",
+                        "last_updated": "2023-08-28 12:00",
+                        "next_update": "2023-09-25 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The index is compiled based on the average price change for commodities in Mining sector charged by domestic producers of an industry.",
+                            "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
+                            "publication": "[Producer Price Index, July 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_ppi.pdf), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on producer prices](https://open.dosm.gov.my/producer-prices)."
+                        },
+                        "bm": {
+                            "methodology": "Indeks disusun berdasarkan perubahan purata harga bagi komoditi dalam sektor Perlombongan yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
+                            "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa.",
+                            "publication": "[Indeks Harga Pengeluar, Julai 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_ppi.pdf), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/producer-prices)."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "mining"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 4,
+                "name": "manufacturing",
+                "title_en": "Manufacturing",
+                "title_bm": "Pembuatan",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "MONTHLY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2010",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-07-31 23:59",
+                        "last_updated": "2023-08-28 12:00",
+                        "next_update": "2023-09-25 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The index is compiled based on the average price change for commodities in Manufacturing Sector charged by domestic producers of an industry.",
+                            "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
+                            "publication": "[Producer Price Index, July 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_ppi.pdf), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on producer prices](https://open.dosm.gov.my/producer-prices)."
+                        },
+                        "bm": {
+                            "methodology": "Indeks disusun berdasarkan perubahan purata harga bagi komoditi dalam sektor Pembuatan yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
+                            "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa.",
+                            "publication": "[Indeks Harga Pengeluar, Julai 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_ppi.pdf), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/producer-prices)."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "manufacturing"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 5,
+                "name": "electricity",
+                "title_en": "Electricity & Gas Supply",
+                "title_bm": "Bekalan Elektrik & Gas",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "MONTHLY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2010",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-07-31 23:59",
+                        "last_updated": "2023-08-28 12:00",
+                        "next_update": "2023-09-25 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The index is compiled based on the average price change for commodities in Electricity and Gas Supply sector charged by domestic producers of an industry.",
+                            "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
+                            "publication": "[Producer Price Index, July 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_ppi.pdf), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on producer prices](https://open.dosm.gov.my/producer-prices)."
+                        },
+                        "bm": {
+                            "methodology": "Indeks disusun berdasarkan perubahan purata harga bagi komoditi dalam sektor Bekalan Elektrik & gas yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
+                            "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa.",
+                            "publication": "[Indeks Harga Pengeluar, Julai 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_ppi.pdf), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/producer-prices)."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "electricity"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 6,
+                "name": "water",
+                "title_en": "Water Supply",
+                "title_bm": "Bekalan Air",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "MONTHLY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2010",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-07-31 23:59",
+                        "last_updated": "2023-08-28 12:00",
+                        "next_update": "2023-09-25 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The index is compiled based on the average price change for commodities in Water Supply sector charged by domestic producers of an industry.",
+                            "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
+                            "publication": "[Producer Price Index, July 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_ppi.pdf), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on producer prices](https://open.dosm.gov.my/producer-prices)."
+                        },
+                        "bm": {
+                            "methodology": "Indeks disusun berdasarkan perubahan purata harga bagi komoditi dalam sektor Bekalan Air yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
+                            "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa.",
+                            "publication": "[Indeks Harga Pengeluar, Julai 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_ppi.pdf), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/producer-prices)."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "water"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
