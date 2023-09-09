@@ -30,7 +30,65 @@
                 "title_en": "PriceCatcher: 2023/09",
                 "title_bm": "PriceCatcher: 2023/09",
                 "desc_en": "The table below provides a preview of the full dataset, which contains over a million prices. We recommend that you download and work with the data in a coding environment. This data should be used in conjuction with the Item Lookup and Premise Lookup tables.",
-                "desc_bm": "Jadual di bawah memberi pratonton kepada dataset penuh yang mengandungi lebih daripada sejuta harga. Kami sarankan anda memuat turun dan menganalisa data dengan menggunakan kod. Set data ini harus digunakan bersama dengan Jadual Carian Barangan dan Jadual Carian Premis."
+                "desc_bm": "Jadual di bawah memberi pratonton kepada dataset penuh yang mengandungi lebih daripada sejuta harga. Kami sarankan anda memuat turun dan menganalisa data dengan menggunakan kod. Set data ini harus digunakan bersama dengan Jadual Carian Barangan dan Jadual Carian Premis.",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "geography": [
+                            "DISTRICT"
+                        ],
+                        "demography": [],
+                        "start": "2023",
+                        "end": "2023",
+                        "data_source": [
+                            "KPDN",
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-09-05 23:59",
+                        "last_updated": "2023-09-06 09:00",
+                        "next_update": "-"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": " Prices are collected and verified by groundstaff on a daily basis, with over 2 million prices collected every month.",
+                            "caveat": "This data is collected for the purpose of price surveillance, and is excellent for high-frequency analysis of specific items in specific locations. Inflation surveillance requires a different approach, in particular to ensure proper representativeness. Inflation analysis should be conducted using DOSM's CPI data.",
+                            "publication": "\u2014"
+                        },
+                        "bm": {
+                            "methodology": "Harga dipungut dan disahkan oleh staf di lapangan, dengan lebih 2 juta harga dipungut setiap bulan.",
+                            "caveat": "Data ini dipungut bagi tujuan survelan harga, maka amat bersesuaian untuk analisa barangan khusus di lokasi yang khusus, pada frekuensi yang tinggi. Namun, survelan inflasi memerlukan pendekatan yang berbeza bagi memastikan keterwakilan data. Sebarang analisa inflasi harus menggunakan data IHP yang diterbitkan oleh DOSM.",
+                            "publication": "\u2014"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TABLE",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "exclude": [],
+                            "freeze": []
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "date": "Date",
+                            "premise_code": "Premise Code",
+                            "item_code": "Item Code",
+                            "price": "Price"
+                        },
+                        "bm": {
+                            "date": "Tarikh",
+                            "premise_code": "Kod Premis",
+                            "item_code": "Kod Barangan",
+                            "price": "Harga"
+                        }
+                    }
+                }
             },
             {
                 "id": -1,
