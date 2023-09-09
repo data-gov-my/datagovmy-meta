@@ -1,0 +1,908 @@
+{
+    "file": {
+        "manual_trigger": "na",
+        "exclude_openapi": false,
+        "bucket": "cpi",
+        "file_name": "cpi_headline",
+        "category": "NATSTATS_CPI",
+        "category_en": "National Statistics (CPI)",
+        "category_bm": "Statistik Nasional (IHP)",
+        "subcategory": "HEADLINE",
+        "subcategory_en": "Headline CPI",
+        "subcategory_bm": "IHP Keseluruhan",
+        "category_opendosm": "CPI",
+        "category_opendosm_en": "Consumer Prices",
+        "category_opendosm_bm": "Harga Pengguna",
+        "subcategory_opendosm": "HEADLINE",
+        "subcategory_opendosm_en": "Headline CPI",
+        "subcategory_opendosm_bm": "IHP Keseluruhan",
+        "description": {
+            "en": "Malaysia's Consumer Price Index (CPI) is a monthly publication which presents statistics covering 12 main groups of goods and services. This is consistent with the classification according to the United Nations \"Classification of Individual Consumption According to Purpose (COICOP)\".",
+            "bm": "Indeks Harga Pengguna (IHP) Malaysia merupakan penerbitan bulanan yang memaparkan statistik meliputi 12 kumpulan utama barangan dan perkhidmatan. Ini selaras dengan klasifikasi yang berpandukan kepada United Nations \"Classification of Individual Consumption According to Purpose (COICOP)\"."
+        },
+        "link_parquet": "https://storage.dosm.gov.my/cpi/cpi_headline.parquet",
+        "link_csv": "https://storage.dosm.gov.my/cpi/cpi_headline.csv",
+        "link_preview": "https://storage.dosm.gov.my/cpi/cpi_headline.parquet",
+        "variables": [
+            {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to -01-01",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai -01-01"
+            },
+            {
+                "id": 1,
+                "name": "overall",
+                "title_en": "CPI (Consumer Price Index)",
+                "title_bm": "IHP (Indeks Harga Pengguna)",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "MONTHLY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2010",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-07-31 23:59",
+                        "last_updated": "2023-08-25 12:00",
+                        "next_update": "2023-09-22 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The index is compiled based on the average price change for goods and services collected according to price collection centers in each state in Malaysia.",
+                            "caveat": "This index is compiled based on Classification of Individual Consumption According to Purpose (COICOP).",
+                            "publication": "[Consumer Price Index, Jul 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_cpi.pdf), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/consumer-prices)."
+                        },
+                        "bm": {
+                            "methodology": "Indeks disusun berdasarkan perubahan purata harga bagi barangan dan perkhidmatan yang dikutip mengikut pusat pungutan harga di setiap negeri di Malaysia.",
+                            "caveat": "Indeks ini disusun berdasarkan Classification of Individual Consumption According to Purpose (COICOP).",
+                            "publication": "[Indeks Harga Pengguna, Jul 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_cpi.pdf), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/consumer-prices)."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "overall"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 2,
+                "name": "food_beverage",
+                "title_en": "Food & Non-Alcoholic Beverages",
+                "title_bm": "Makanan & Minuman Bukan Alkohol         ",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "MONTHLY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2010",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-07-31 23:59",
+                        "last_updated": "2023-08-25 12:00",
+                        "next_update": "2023-09-22 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The index is compiled based on the average price change for Food & Non-Alcoholic Beverages items collected according to price collection centers in each state in Malaysia.",
+                            "caveat": "This index is compiled based on Classification of Individual Consumption According to Purpose (COICOP) at 2 digit level (Main Group).",
+                            "publication": "[Consumer Price Index, Jul 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_cpi.pdf), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/consumer-prices)."
+                        },
+                        "bm": {
+                            "methodology": "Indeks ini disusun berdasarkan perubahan purata harga bagi item Makanan & Minuman Bukan Alkohol yang dikutip mengikut pusat pungutan harga di setiap negeri di Malaysia.",
+                            "caveat": "Indeks ini disusun berdasarkan Classification of Individual Consumption According to Purpose (COICOP) di peringkat 2 digit (Kumpulan Utama).",
+                            "publication": "[Indeks Harga Pengguna, Jul 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_cpi.pdf), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/consumer-prices)."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "food_beverage"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 3,
+                "name": "alcohol_tobacco",
+                "title_en": "Alcoholic Beverages & Tobacco",
+                "title_bm": "Minuman Alkohol & Tembakau        ",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "MONTHLY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2010",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-07-31 23:59",
+                        "last_updated": "2023-08-25 12:00",
+                        "next_update": "2023-09-22 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The index is compiled based on the average price change for Alcoholic Beverages & Tobacco items collected according to price collection centers in each state in Malaysia.",
+                            "caveat": "This index is compiled based on Classification of Individual Consumption According to Purpose (COICOP) at 2 digit level (Main Group).",
+                            "publication": "[Consumer Price Index, Jul 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_cpi.pdf), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/consumer-prices)."
+                        },
+                        "bm": {
+                            "methodology": "Indeks ini disusun berdasarkan perubahan purata harga bagi item Minuman Alkohol & Tembakau yang dikutip mengikut pusat pungutan harga di setiap negeri di Malaysia.",
+                            "caveat": "Indeks ini disusun berdasarkan Classification of Individual Consumption According to Purpose (COICOP) di peringkat 2 digit (Kumpulan Utama).",
+                            "publication": "[Indeks Harga Pengguna, Jul 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_cpi.pdf), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/consumer-prices)."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "alcohol_tobacco"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 4,
+                "name": "clothing_footwear",
+                "title_en": "Clothing & Footwear",
+                "title_bm": "Pakaian & Kasut            ",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "MONTHLY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2010",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-07-31 23:59",
+                        "last_updated": "2023-08-25 12:00",
+                        "next_update": "2023-09-22 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The index is compiled based on the average price change for Clothing & Footwear items collected according to price collection centers in each state in Malaysia.",
+                            "caveat": "This index is compiled based on Classification of Individual Consumption According to Purpose (COICOP) at 2 digit level (Main Group).",
+                            "publication": "[Consumer Price Index, Jul 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_cpi.pdf), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/consumer-prices)."
+                        },
+                        "bm": {
+                            "methodology": "Indeks ini disusun berdasarkan perubahan purata harga bagi item Pakaian & Kasut yang dikutip mengikut pusat pungutan harga di setiap negeri di Malaysia.",
+                            "caveat": "Indeks ini disusun berdasarkan Classification of Individual Consumption According to Purpose (COICOP) di peringkat 2 digit (Kumpulan Utama).",
+                            "publication": "[Indeks Harga Pengguna, Jul 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_cpi.pdf), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/consumer-prices)."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "clothing_footwear"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 5,
+                "name": "housing_utilities",
+                "title_en": "Housing, Water, Electricity, Gas & Other Fuels",
+                "title_bm": "Perumahan, Air, Elektrik, Gas & Bahan Api Lain  ",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "MONTHLY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2010",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-07-31 23:59",
+                        "last_updated": "2023-08-25 12:00",
+                        "next_update": "2023-09-22 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The index is compiled based on the average price change for Housing, Water, Electricity, Gas & Other Fuels items collected according to price collection centers in each state in Malaysia.",
+                            "caveat": "This index is compiled based on Classification of Individual Consumption According to Purpose (COICOP) at 2 digit level (Main Group).",
+                            "publication": "[Consumer Price Index, Jul 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_cpi.pdf), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/consumer-prices)."
+                        },
+                        "bm": {
+                            "methodology": "Indeks ini disusun berdasarkan perubahan purata harga bagi item Perumahan, Air, Elektrik, Gas & Bahan Api Lain yang dikutip mengikut pusat pungutan harga di setiap negeri di Malaysia.",
+                            "caveat": "Indeks ini disusun berdasarkan Classification of Individual Consumption According to Purpose (COICOP) di peringkat 2 digit (Kumpulan Utama).",
+                            "publication": "[Indeks Harga Pengguna, Jul 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_cpi.pdf), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/consumer-prices)."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "housing_utilities"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 6,
+                "name": "furnishings",
+                "title_en": "Furnishings, Household Equipment & Routine Household Maintenance",
+                "title_bm": "Hiasan, Perkakasan & Penyelenggaraan Isi Rumah   ",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "MONTHLY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2010",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-07-31 23:59",
+                        "last_updated": "2023-08-25 12:00",
+                        "next_update": "2023-09-22 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The index is compiled based on the average price change for Furnishings, Household Equipment & Routine Household Maintenance items collected according to price collection centers in each state in Malaysia.",
+                            "caveat": "This index is compiled based on Classification of Individual Consumption According to Purpose (COICOP) at 2 digit level (Main Group).",
+                            "publication": "[Consumer Price Index, Jul 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_cpi.pdf), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/consumer-prices)."
+                        },
+                        "bm": {
+                            "methodology": "Indeks ini disusun berdasarkan perubahan purata harga bagi item Hiasan, Perkakasan & Penyelenggaraan Isi Rumah yang dikutip mengikut pusat pungutan harga di setiap negeri di Malaysia.",
+                            "caveat": "Indeks ini disusun berdasarkan Classification of Individual Consumption According to Purpose (COICOP) di peringkat 2 digit (Kumpulan Utama).",
+                            "publication": "[Indeks Harga Pengguna, Jul 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_cpi.pdf), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/consumer-prices)."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "furnishings"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 7,
+                "name": "health",
+                "title_en": "Health",
+                "title_bm": "Kesihatan                   ",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "MONTHLY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2010",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-07-31 23:59",
+                        "last_updated": "2023-08-25 12:00",
+                        "next_update": "2023-09-22 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The index is compiled based on the average price change for health items collected according to price collection centers in each state in Malaysia.",
+                            "caveat": "This index is compiled based on Classification of Individual Consumption According to Purpose (COICOP) at 2 digit level (Main Group).",
+                            "publication": "[Consumer Price Index, Jul 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_cpi.pdf), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/consumer-prices)."
+                        },
+                        "bm": {
+                            "methodology": "Indeks ini disusun berdasarkan perubahan purata harga bagi item Kesihatan yang dikutip mengikut pusat pungutan harga di setiap negeri di Malaysia.",
+                            "caveat": "Indeks ini disusun berdasarkan Classification of Individual Consumption According to Purpose (COICOP) di peringkat 2 digit (Kumpulan Utama).",
+                            "publication": "[Indeks Harga Pengguna, Jul 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_cpi.pdf), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/consumer-prices)."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "health"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 8,
+                "name": "transport",
+                "title_en": "Transport",
+                "title_bm": "Pengangkutan                ",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "MONTHLY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2010",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-07-31 23:59",
+                        "last_updated": "2023-08-25 12:00",
+                        "next_update": "2023-09-22 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The index is compiled based on the average price change for Transport items collected according to price collection centers in each state in Malaysia.",
+                            "caveat": "This index is compiled based on Classification of Individual Consumption According to Purpose (COICOP) at 2 digit level (Main Group).",
+                            "publication": "[Consumer Price Index, Jul 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_cpi.pdf), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/consumer-prices)."
+                        },
+                        "bm": {
+                            "methodology": "Indeks ini disusun berdasarkan perubahan purata harga bagi item Pengangkutan yang dikutip mengikut pusat pungutan harga di setiap negeri di Malaysia.",
+                            "caveat": "Indeks ini disusun berdasarkan Classification of Individual Consumption According to Purpose (COICOP) di peringkat 2 digit (Kumpulan Utama).",
+                            "publication": "[Indeks Harga Pengguna, Jul 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_cpi.pdf), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/consumer-prices)."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "transport"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 9,
+                "name": "communication",
+                "title_en": "Communication",
+                "title_bm": "Komunikasi                   ",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "MONTHLY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2010",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-07-31 23:59",
+                        "last_updated": "2023-08-25 12:00",
+                        "next_update": "2023-09-22 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The index is compiled based on the average price change for Communication items collected according to price collection centers in each state in Malaysia.",
+                            "caveat": "This index is compiled based on Classification of Individual Consumption According to Purpose (COICOP) at 2 digit level (Main Group).",
+                            "publication": "[Consumer Price Index, Jul 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_cpi.pdf), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/consumer-prices)."
+                        },
+                        "bm": {
+                            "methodology": "Indeks ini disusun berdasarkan perubahan purata harga bagi item Komunikasi yang dikutip mengikut pusat pungutan harga di setiap negeri di Malaysia.",
+                            "caveat": "Indeks ini disusun berdasarkan Classification of Individual Consumption According to Purpose (COICOP) di peringkat 2 digit (Kumpulan Utama).",
+                            "publication": "[Indeks Harga Pengguna, Jul 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_cpi.pdf), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/consumer-prices)."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "communication"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 10,
+                "name": "recreation_culture",
+                "title_en": "Recreation Services & Culture",
+                "title_bm": "Perkhidmatan Rekreasi & Kebudayaan       ",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "MONTHLY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2010",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-07-31 23:59",
+                        "last_updated": "2023-08-25 12:00",
+                        "next_update": "2023-09-22 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The index is compiled based on the average price change for Recreation Services & Culture items collected according to price collection centers in each state in Malaysia.",
+                            "caveat": "This index is compiled based on Classification of Individual Consumption According to Purpose (COICOP) at 2 digit level (Main Group).",
+                            "publication": "[Consumer Price Index, Jul 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_cpi.pdf), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/consumer-prices)."
+                        },
+                        "bm": {
+                            "methodology": "Indeks ini disusun berdasarkan perubahan purata harga bagi item Perkhidmatan Rekreasi & Kebudayaan yang dikutip mengikut pusat pungutan harga di setiap negeri di Malaysia.",
+                            "caveat": "Indeks ini disusun berdasarkan Classification of Individual Consumption According to Purpose (COICOP) di peringkat 2 digit (Kumpulan Utama).",
+                            "publication": "[Indeks Harga Pengguna, Jul 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_cpi.pdf), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/consumer-prices)."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "recreation_culture"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 11,
+                "name": "education",
+                "title_en": "Education",
+                "title_bm": "Pendidikan                  ",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "MONTHLY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2010",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-07-31 23:59",
+                        "last_updated": "2023-08-25 12:00",
+                        "next_update": "2023-09-22 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The index is compiled based on the average price change for Education items collected according to price collection centers in each state in Malaysia.",
+                            "caveat": "This index is compiled based on Classification of Individual Consumption According to Purpose (COICOP) at 2 digit level (Main Group).",
+                            "publication": "[Consumer Price Index, Jul 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_cpi.pdf), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/consumer-prices)."
+                        },
+                        "bm": {
+                            "methodology": "Indeks ini disusun berdasarkan perubahan purata harga bagi item Pendidikan yang dikutip mengikut pusat pungutan harga di setiap negeri di Malaysia.",
+                            "caveat": "Indeks ini disusun berdasarkan Classification of Individual Consumption According to Purpose (COICOP) di peringkat 2 digit (Kumpulan Utama).",
+                            "publication": "[Indeks Harga Pengguna, Jul 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_cpi.pdf), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/consumer-prices)."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "education"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 12,
+                "name": "hospitality",
+                "title_en": "Restaurants & Hotels",
+                "title_bm": "Restoran & Hotel          ",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "MONTHLY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2010",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-07-31 23:59",
+                        "last_updated": "2023-08-25 12:00",
+                        "next_update": "2023-09-22 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The index is compiled based on the average price change for Restaurants & Hotels items collected according to price collection centers in each state in Malaysia.",
+                            "caveat": "This index is compiled based on Classification of Individual Consumption According to Purpose (COICOP) at 2 digit level (Main Group).",
+                            "publication": "[Consumer Price Index, Jul 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_cpi.pdf), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/consumer-prices)."
+                        },
+                        "bm": {
+                            "methodology": "Indeks ini disusun berdasarkan perubahan purata harga bagi item Restoran & Hotel yang dikutip mengikut pusat pungutan harga di setiap negeri di Malaysia.",
+                            "caveat": "Indeks ini disusun berdasarkan Classification of Individual Consumption According to Purpose (COICOP) di peringkat 2 digit (Kumpulan Utama).",
+                            "publication": "[Indeks Harga Pengguna, Jul 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_cpi.pdf), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/consumer-prices)."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "hospitality"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 13,
+                "name": "misc",
+                "title_en": "Miscellaneous Goods & Services",
+                "title_bm": "Pelbagai Barangan & Perkhidmatan            ",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "MONTHLY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2010",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-07-31 23:59",
+                        "last_updated": "2023-08-25 12:00",
+                        "next_update": "2023-09-22 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The index is compiled based on the average price change for Miscellaneous Goods & Services items collected according to price collection centers in each state in Malaysia.",
+                            "caveat": "This index is compiled based on Classification of Individual Consumption According to Purpose (COICOP) at 2 digit level (Main Group).",
+                            "publication": "[Consumer Price Index, Jul 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_cpi.pdf), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/consumer-prices)."
+                        },
+                        "bm": {
+                            "methodology": "Indeks ini disusun berdasarkan perubahan purata harga bagi item Pelbagai Barangan & Perkhidmatan yang dikutip mengikut pusat pungutan harga di setiap negeri di Malaysia.",
+                            "caveat": "Indeks ini disusun berdasarkan Classification of Individual Consumption According to Purpose (COICOP) di peringkat 2 digit (Kumpulan Utama).",
+                            "publication": "[Indeks Harga Pengguna, Jul 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_cpi.pdf), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/consumer-prices)."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "misc"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Value"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Nilai"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
