@@ -90,16 +90,12 @@
                     },
                     "translations": {
                         "en": {
-                            "date": "Date",
-                            "premise_code": "Premise Code",
-                            "item_code": "Item Code",
-                            "price": "Price"
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
                         },
                         "bm": {
-                            "date": "Tarikh",
-                            "premise_code": "Kod Premis",
-                            "item_code": "Kod Barangan",
-                            "price": "Harga"
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
                         }
                     }
                 }
@@ -162,16 +158,12 @@
                     },
                     "translations": {
                         "en": {
-                            "date": "Date",
-                            "premise_code": "Premise Code",
-                            "item_code": "Item Code",
-                            "price": "Price"
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
                         },
                         "bm": {
-                            "date": "Tarikh",
-                            "premise_code": "Kod Premis",
-                            "item_code": "Kod Barangan",
-                            "price": "Harga"
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
                         }
                     }
                 }
@@ -234,16 +226,12 @@
                     },
                     "translations": {
                         "en": {
-                            "date": "Date",
-                            "premise_code": "Premise Code",
-                            "item_code": "Item Code",
-                            "price": "Price"
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
                         },
                         "bm": {
-                            "date": "Tarikh",
-                            "premise_code": "Kod Premis",
-                            "item_code": "Kod Barangan",
-                            "price": "Harga"
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
                         }
                     }
                 }
@@ -306,16 +294,12 @@
                     },
                     "translations": {
                         "en": {
-                            "date": "Date",
-                            "premise_code": "Premise Code",
-                            "item_code": "Item Code",
-                            "price": "Price"
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
                         },
                         "bm": {
-                            "date": "Tarikh",
-                            "premise_code": "Kod Premis",
-                            "item_code": "Kod Barangan",
-                            "price": "Harga"
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
                         }
                     }
                 }
@@ -378,16 +362,12 @@
                     },
                     "translations": {
                         "en": {
-                            "date": "Date",
-                            "premise_code": "Premise Code",
-                            "item_code": "Item Code",
-                            "price": "Price"
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
                         },
                         "bm": {
-                            "date": "Tarikh",
-                            "premise_code": "Kod Premis",
-                            "item_code": "Kod Barangan",
-                            "price": "Harga"
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
                         }
                     }
                 }
@@ -450,16 +430,12 @@
                     },
                     "translations": {
                         "en": {
-                            "date": "Date",
-                            "premise_code": "Premise Code",
-                            "item_code": "Item Code",
-                            "price": "Price"
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
                         },
                         "bm": {
-                            "date": "Tarikh",
-                            "premise_code": "Kod Premis",
-                            "item_code": "Kod Barangan",
-                            "price": "Harga"
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
                         }
                     }
                 }
@@ -522,16 +498,12 @@
                     },
                     "translations": {
                         "en": {
-                            "date": "Date",
-                            "premise_code": "Premise Code",
-                            "item_code": "Item Code",
-                            "price": "Price"
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
                         },
                         "bm": {
-                            "date": "Tarikh",
-                            "premise_code": "Kod Premis",
-                            "item_code": "Kod Barangan",
-                            "price": "Harga"
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
                         }
                     }
                 }
@@ -594,16 +566,12 @@
                     },
                     "translations": {
                         "en": {
-                            "date": "Date",
-                            "premise_code": "Premise Code",
-                            "item_code": "Item Code",
-                            "price": "Price"
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
                         },
                         "bm": {
-                            "date": "Tarikh",
-                            "premise_code": "Kod Premis",
-                            "item_code": "Kod Barangan",
-                            "price": "Harga"
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
                         }
                     }
                 }
@@ -666,16 +634,12 @@
                     },
                     "translations": {
                         "en": {
-                            "date": "Date",
-                            "premise_code": "Premise Code",
-                            "item_code": "Item Code",
-                            "price": "Price"
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
                         },
                         "bm": {
-                            "date": "Tarikh",
-                            "premise_code": "Kod Premis",
-                            "item_code": "Kod Barangan",
-                            "price": "Harga"
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
                         }
                     }
                 }
@@ -738,16 +702,12 @@
                     },
                     "translations": {
                         "en": {
-                            "date": "Date",
-                            "premise_code": "Premise Code",
-                            "item_code": "Item Code",
-                            "price": "Price"
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
                         },
                         "bm": {
-                            "date": "Tarikh",
-                            "premise_code": "Kod Premis",
-                            "item_code": "Kod Barangan",
-                            "price": "Harga"
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
                         }
                     }
                 }
@@ -810,16 +770,12 @@
                     },
                     "translations": {
                         "en": {
-                            "date": "Date",
-                            "premise_code": "Premise Code",
-                            "item_code": "Item Code",
-                            "price": "Price"
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
                         },
                         "bm": {
-                            "date": "Tarikh",
-                            "premise_code": "Kod Premis",
-                            "item_code": "Kod Barangan",
-                            "price": "Harga"
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
                         }
                     }
                 }
@@ -882,16 +838,12 @@
                     },
                     "translations": {
                         "en": {
-                            "date": "Date",
-                            "premise_code": "Premise Code",
-                            "item_code": "Item Code",
-                            "price": "Price"
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
                         },
                         "bm": {
-                            "date": "Tarikh",
-                            "premise_code": "Kod Premis",
-                            "item_code": "Kod Barangan",
-                            "price": "Harga"
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
                         }
                     }
                 }
@@ -954,16 +906,12 @@
                     },
                     "translations": {
                         "en": {
-                            "date": "Date",
-                            "premise_code": "Premise Code",
-                            "item_code": "Item Code",
-                            "price": "Price"
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
                         },
                         "bm": {
-                            "date": "Tarikh",
-                            "premise_code": "Kod Premis",
-                            "item_code": "Kod Barangan",
-                            "price": "Harga"
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
                         }
                     }
                 }
@@ -1026,16 +974,12 @@
                     },
                     "translations": {
                         "en": {
-                            "date": "Date",
-                            "premise_code": "Premise Code",
-                            "item_code": "Item Code",
-                            "price": "Price"
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
                         },
                         "bm": {
-                            "date": "Tarikh",
-                            "premise_code": "Kod Premis",
-                            "item_code": "Kod Barangan",
-                            "price": "Harga"
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
                         }
                     }
                 }
@@ -1098,16 +1042,12 @@
                     },
                     "translations": {
                         "en": {
-                            "date": "Date",
-                            "premise_code": "Premise Code",
-                            "item_code": "Item Code",
-                            "price": "Price"
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
                         },
                         "bm": {
-                            "date": "Tarikh",
-                            "premise_code": "Kod Premis",
-                            "item_code": "Kod Barangan",
-                            "price": "Harga"
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
                         }
                     }
                 }
@@ -1170,16 +1110,12 @@
                     },
                     "translations": {
                         "en": {
-                            "date": "Date",
-                            "premise_code": "Premise Code",
-                            "item_code": "Item Code",
-                            "price": "Price"
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
                         },
                         "bm": {
-                            "date": "Tarikh",
-                            "premise_code": "Kod Premis",
-                            "item_code": "Kod Barangan",
-                            "price": "Harga"
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
                         }
                     }
                 }
@@ -1242,16 +1178,12 @@
                     },
                     "translations": {
                         "en": {
-                            "date": "Date",
-                            "premise_code": "Premise Code",
-                            "item_code": "Item Code",
-                            "price": "Price"
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
                         },
                         "bm": {
-                            "date": "Tarikh",
-                            "premise_code": "Kod Premis",
-                            "item_code": "Kod Barangan",
-                            "price": "Harga"
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
                         }
                     }
                 }
@@ -1314,16 +1246,12 @@
                     },
                     "translations": {
                         "en": {
-                            "date": "Date",
-                            "premise_code": "Premise Code",
-                            "item_code": "Item Code",
-                            "price": "Price"
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
                         },
                         "bm": {
-                            "date": "Tarikh",
-                            "premise_code": "Kod Premis",
-                            "item_code": "Kod Barangan",
-                            "price": "Harga"
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
                         }
                     }
                 }
@@ -1386,16 +1314,12 @@
                     },
                     "translations": {
                         "en": {
-                            "date": "Date",
-                            "premise_code": "Premise Code",
-                            "item_code": "Item Code",
-                            "price": "Price"
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
                         },
                         "bm": {
-                            "date": "Tarikh",
-                            "premise_code": "Kod Premis",
-                            "item_code": "Kod Barangan",
-                            "price": "Harga"
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
                         }
                     }
                 }
@@ -1458,16 +1382,12 @@
                     },
                     "translations": {
                         "en": {
-                            "date": "Date",
-                            "premise_code": "Premise Code",
-                            "item_code": "Item Code",
-                            "price": "Price"
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
                         },
                         "bm": {
-                            "date": "Tarikh",
-                            "premise_code": "Kod Premis",
-                            "item_code": "Kod Barangan",
-                            "price": "Harga"
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
                         }
                     }
                 }
@@ -1530,16 +1450,12 @@
                     },
                     "translations": {
                         "en": {
-                            "date": "Date",
-                            "premise_code": "Premise Code",
-                            "item_code": "Item Code",
-                            "price": "Price"
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
                         },
                         "bm": {
-                            "date": "Tarikh",
-                            "premise_code": "Kod Premis",
-                            "item_code": "Kod Barangan",
-                            "price": "Harga"
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
                         }
                     }
                 }
@@ -1602,16 +1518,12 @@
                     },
                     "translations": {
                         "en": {
-                            "date": "Date",
-                            "premise_code": "Premise Code",
-                            "item_code": "Item Code",
-                            "price": "Price"
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
                         },
                         "bm": {
-                            "date": "Tarikh",
-                            "premise_code": "Kod Premis",
-                            "item_code": "Kod Barangan",
-                            "price": "Harga"
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
                         }
                     }
                 }
@@ -1674,16 +1586,12 @@
                     },
                     "translations": {
                         "en": {
-                            "date": "Date",
-                            "premise_code": "Premise Code",
-                            "item_code": "Item Code",
-                            "price": "Price"
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
                         },
                         "bm": {
-                            "date": "Tarikh",
-                            "premise_code": "Kod Premis",
-                            "item_code": "Kod Barangan",
-                            "price": "Harga"
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
                         }
                     }
                 }
@@ -1746,16 +1654,12 @@
                     },
                     "translations": {
                         "en": {
-                            "date": "Date",
-                            "premise_code": "Premise Code",
-                            "item_code": "Item Code",
-                            "price": "Price"
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
                         },
                         "bm": {
-                            "date": "Tarikh",
-                            "premise_code": "Kod Premis",
-                            "item_code": "Kod Barangan",
-                            "price": "Harga"
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
                         }
                     }
                 }
