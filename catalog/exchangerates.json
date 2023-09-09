@@ -14,7 +14,7 @@
         "category_opendosm_en": "External Trade",
         "category_opendosm_bm": "Perdagangan Luar",
         "subcategory_opendosm": "EXCHANGE",
-        "subcategory_opendosm_en": "PriceCatcher",
+        "subcategory_opendosm_en": "Exchange Rates",
         "subcategory_opendosm_bm": "Kadar Pertukaran Mata Wang",
         "description": {
             "en": "A dataset containing the rates of exchange of the Malaysian Ringgit vis-\u00e0-vis major trading partners.",
