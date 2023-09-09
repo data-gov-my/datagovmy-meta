@@ -37,10 +37,10 @@
                     "catalog_filters": {
                         "frequency": "MONTHLY",
                         "limit_frequency": true,
-                        "geographic": [
+                        "geography": [
                             "NATIONAL"
                         ],
-                        "demographic": [],
+                        "demography": [],
                         "start": "2000",
                         "end": "2023",
                         "data_source": [
