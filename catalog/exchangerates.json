@@ -20,7 +20,6 @@
             "en": "A dataset containing the rates of exchange of the Malaysian Ringgit vis-\u00e0-vis major trading partners.",
             "bm": "Dataset yang mengandungi kadar pertukaran ringgit Malaysia berbanding rakan dagang utama."
         },
-        "Unnamed: 12": "Dataset yang mengandungi kadar pertukaran ringgit Malaysia berbanding rakan dagang utama.",
         "link_parquet": "https://storage.data.gov.my/finsector/exchangerates.parquet",
         "link_csv": "https://storage.data.gov.my/finsector/exchangerates.csv",
         "link_preview": "https://storage.data.gov.my/finsector/exchangerates.parquet",
