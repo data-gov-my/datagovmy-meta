@@ -1,6 +1,7 @@
 {
     "file": {
-        "manual_trigger": 0,
+        "manual_trigger": "",
+		"exclude_openapi": false,
         "bucket": "finsector",
         "file_name": "currency_in_circulation",
         "category": "FINSECTOR",
