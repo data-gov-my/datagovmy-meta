@@ -1,1057 +1,949 @@
 {
-    "file": {
-        "manual_trigger": "",
+	"file": {
+		"manual_trigger": "",
 		"exclude_openapi": false,
-        "bucket": "finsector",
-        "file_name": "currency_in_circulation",
-        "category": "FINSECTOR",
-        "category_en": "Financial Sector",
-        "category_bm": "Sektor Kewangan",
-        "subcategory": "MONEYBANKING",
-        "subcategory_en": "Money & Banking",
-        "subcategory_bm": "Duit & Bank",
-        "description": {
-            "en": "Value of currency in circulation by denomination",
-            "bm": "Nilai mata wang dalam edaran mengikut denominasi"
-        },
-        "link_parquet": "https://storage.data.gov.my/finsector/currency_in_circulation.parquet",
-        "link_csv": "https://storage.data.gov.my/finsector/currency_in_circulation.csv",
-        "link_preview": "https://storage.data.gov.my/finsector/currency_in_circulation.parquet",
-        "variables": [
-            {
-                "id": 0,
-                "name": "date",
-                "title_en": "Date",
-                "title_bm": "Tarikh",
-                "desc_en": "Tarikh",
-                "desc_bm": "[Date] The date in YYYY-MM-DD format, with DD set to 01 since the data is at monthly frequency"
-            },
-            {
-                "id": 1,
-                "name": "note_1",
-                "title_en": "Notes: RM 1",
-                "title_bm": "Nota: RM 1",
-                "desc_en": "[Float] Total value of RM 1 notes in circulation, in RM millions",
-                "desc_bm": "[Apung] Nilai keseluruhan nota RM 1 dalam edaran, dalam RM juta",
-                "catalog_data": {
-                    "catalog_filters": {
-                        "frequency": "MONTHLY",
-                        "limit_frequency": true,
-                        "geography": [
-                            "NATIONAL"
-                        ],
-                        "demography": [],
-                        "start": "2000",
-                        "end": "2023",
-                        "data_source": [
-                            "BNM"
-                        ]
-                    },
-                    "metadata_neutral": {
-                        "data_as_of": "1955-07-31 23:59",
-                        "last_updated": "2023-08-31 23:59",
-                        "next_update": "2023-09-30 23:59"
-                    },
-                    "metadata_lang": {
-                        "en": {
-                            "methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
-                            "caveat": "-",
-                            "publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
-                        },
-                        "bm": {
-                            "methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
-                            "caveat": "-",
-                            "publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
-                        }
-                    },
-                    "chart": {
-                        "chart_type": "TIMESERIES",
-                        "chart_filters": {
-                            "SLICE_BY": [],
-                            "precision": 1
-                        },
-                        "chart_variables": {
-                            "parents": [],
-                            "operation": "SUM",
-                            "format": {
-                                "x": "date",
-                                "y": [
-                                    "note_1"
-                                ]
-                            }
-                        }
-                    }
-                }
-            },
-            {
-                "id": 2,
-                "name": "note_2",
-                "title_en": "Notes: RM 2",
-                "title_bm": "Nota: RM 2",
-                "desc_en": "[Float] Total value of RM 2 notes in circulation, in RM millions",
-                "desc_bm": "[Apung] Nilai keseluruhan nota RM 2 dalam edaran, dalam RM juta",
-                "catalog_data": {
-                    "catalog_filters": {
-                        "frequency": "MONTHLY",
-                        "limit_frequency": true,
-                        "geographic": [
-                            "NATIONAL"
-                        ],
-                        "demographic": [],
-                        "start": "2000",
-                        "end": "2023",
-                        "data_source": [
-                            "BNM"
-                        ]
-                    },
-                    "metadata_neutral": {
-                        "data_as_of": "1955-07-31 23:59",
-                        "last_updated": "2023-08-31 23:59",
-                        "next_update": "2023-09-30 23:59"
-                    },
-                    "metadata_lang": {
-                        "en": {
-                            "methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
-                            "caveat": "-",
-                            "publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
-                        },
-                        "bm": {
-                            "methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
-                            "caveat": "-",
-                            "publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
-                        }
-                    },
-                    "chart": {
-                        "chart_type": "TIMESERIES",
-                        "chart_filters": {
-                            "SLICE_BY": [],
-                            "precision": 1
-                        },
-                        "chart_variables": {
-                            "parents": [],
-                            "operation": "SUM",
-                            "format": {
-                                "x": "date",
-                                "y": [
-                                    "note_2"
-                                ]
-                            }
-                        }
-                    }
-                }
-            },
-            {
-                "id": 3,
-                "name": "note_5",
-                "title_en": "Notes: RM 5",
-                "title_bm": "Nota: RM 5",
-                "desc_en": "[Float] Total value of RM 5 notes in circulation, in RM millions",
-                "desc_bm": "[Apung] Nilai keseluruhan nota RM 5 dalam edaran, dalam RM juta",
-                "catalog_data": {
-                    "catalog_filters": {
-                        "frequency": "MONTHLY",
-                        "limit_frequency": true,
-                        "geographic": [
-                            "NATIONAL"
-                        ],
-                        "demographic": [],
-                        "start": "2000",
-                        "end": "2023",
-                        "data_source": [
-                            "BNM"
-                        ]
-                    },
-                    "metadata_neutral": {
-                        "data_as_of": "1955-07-31 23:59",
-                        "last_updated": "2023-08-31 23:59",
-                        "next_update": "2023-09-30 23:59"
-                    },
-                    "metadata_lang": {
-                        "en": {
-                            "methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
-                            "caveat": "-",
-                            "publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
-                        },
-                        "bm": {
-                            "methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
-                            "caveat": "-",
-                            "publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
-                        }
-                    },
-                    "chart": {
-                        "chart_type": "TIMESERIES",
-                        "chart_filters": {
-                            "SLICE_BY": [],
-                            "precision": 1
-                        },
-                        "chart_variables": {
-                            "parents": [],
-                            "operation": "SUM",
-                            "format": {
-                                "x": "date",
-                                "y": [
-                                    "note_5"
-                                ]
-                            }
-                        }
-                    }
-                }
-            },
-            {
-                "id": 4,
-                "name": "note_10",
-                "title_en": "Notes: RM 10",
-                "title_bm": "Nota: RM 10",
-                "desc_en": "[Float] Total value of RM 10 notes in circulation, in RM millions",
-                "desc_bm": "[Apung] Nilai keseluruhan nota RM 10 dalam edaran, dalam RM juta",
-                "catalog_data": {
-                    "catalog_filters": {
-                        "frequency": "MONTHLY",
-                        "limit_frequency": true,
-                        "geographic": [
-                            "NATIONAL"
-                        ],
-                        "demographic": [],
-                        "start": "2000",
-                        "end": "2023",
-                        "data_source": [
-                            "BNM"
-                        ]
-                    },
-                    "metadata_neutral": {
-                        "data_as_of": "1955-07-31 23:59",
-                        "last_updated": "2023-08-31 23:59",
-                        "next_update": "2023-09-30 23:59"
-                    },
-                    "metadata_lang": {
-                        "en": {
-                            "methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
-                            "caveat": "-",
-                            "publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
-                        },
-                        "bm": {
-                            "methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
-                            "caveat": "-",
-                            "publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
-                        }
-                    },
-                    "chart": {
-                        "chart_type": "TIMESERIES",
-                        "chart_filters": {
-                            "SLICE_BY": [],
-                            "precision": 1
-                        },
-                        "chart_variables": {
-                            "parents": [],
-                            "operation": "SUM",
-                            "format": {
-                                "x": "date",
-                                "y": [
-                                    "note_10"
-                                ]
-                            }
-                        }
-                    }
-                }
-            },
-            {
-                "id": 5,
-                "name": "note_20",
-                "title_en": "Notes: RM 20",
-                "title_bm": "Nota: RM 20",
-                "desc_en": "[Float] Total value of RM 20 notes in circulation, in RM millions",
-                "desc_bm": "[Apung] Nilai keseluruhan nota RM 20 dalam edaran, dalam RM juta",
-                "catalog_data": {
-                    "catalog_filters": {
-                        "frequency": "MONTHLY",
-                        "limit_frequency": true,
-                        "geographic": [
-                            "NATIONAL"
-                        ],
-                        "demographic": [],
-                        "start": "2000",
-                        "end": "2023",
-                        "data_source": [
-                            "BNM"
-                        ]
-                    },
-                    "metadata_neutral": {
-                        "data_as_of": "1955-07-31 23:59",
-                        "last_updated": "2023-08-31 23:59",
-                        "next_update": "2023-09-30 23:59"
-                    },
-                    "metadata_lang": {
-                        "en": {
-                            "methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
-                            "caveat": "-",
-                            "publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
-                        },
-                        "bm": {
-                            "methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
-                            "caveat": "-",
-                            "publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
-                        }
-                    },
-                    "chart": {
-                        "chart_type": "TIMESERIES",
-                        "chart_filters": {
-                            "SLICE_BY": [],
-                            "precision": 1
-                        },
-                        "chart_variables": {
-                            "parents": [],
-                            "operation": "SUM",
-                            "format": {
-                                "x": "date",
-                                "y": [
-                                    "note_20"
-                                ]
-                            }
-                        }
-                    }
-                }
-            },
-            {
-                "id": 6,
-                "name": "note_50",
-                "title_en": "Notes: RM 50",
-                "title_bm": "Nota: RM 50",
-                "desc_en": "[Float] Total value of RM 50 notes in circulation, in RM millions",
-                "desc_bm": "[Apung] Nilai keseluruhan nota RM 50 dalam edaran, dalam RM juta",
-                "catalog_data": {
-                    "catalog_filters": {
-                        "frequency": "MONTHLY",
-                        "limit_frequency": true,
-                        "geographic": [
-                            "NATIONAL"
-                        ],
-                        "demographic": [],
-                        "start": "2000",
-                        "end": "2023",
-                        "data_source": [
-                            "BNM"
-                        ]
-                    },
-                    "metadata_neutral": {
-                        "data_as_of": "1955-07-31 23:59",
-                        "last_updated": "2023-08-31 23:59",
-                        "next_update": "2023-09-30 23:59"
-                    },
-                    "metadata_lang": {
-                        "en": {
-                            "methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
-                            "caveat": "-",
-                            "publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
-                        },
-                        "bm": {
-                            "methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
-                            "caveat": "-",
-                            "publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
-                        }
-                    },
-                    "chart": {
-                        "chart_type": "TIMESERIES",
-                        "chart_filters": {
-                            "SLICE_BY": [],
-                            "precision": 1
-                        },
-                        "chart_variables": {
-                            "parents": [],
-                            "operation": "SUM",
-                            "format": {
-                                "x": "date",
-                                "y": [
-                                    "note_50"
-                                ]
-                            }
-                        }
-                    }
-                }
-            },
-            {
-                "id": 7,
-                "name": "note_100",
-                "title_en": "Notes: RM 100",
-                "title_bm": "Nota: RM 100",
-                "desc_en": "[Float] Total value of RM 100 notes in circulation, in RM millions",
-                "desc_bm": "[Apung] Nilai keseluruhan nota RM 100 dalam edaran, dalam RM juta",
-                "catalog_data": {
-                    "catalog_filters": {
-                        "frequency": "MONTHLY",
-                        "limit_frequency": true,
-                        "geographic": [
-                            "NATIONAL"
-                        ],
-                        "demographic": [],
-                        "start": "2000",
-                        "end": "2023",
-                        "data_source": [
-                            "BNM"
-                        ]
-                    },
-                    "metadata_neutral": {
-                        "data_as_of": "1955-07-31 23:59",
-                        "last_updated": "2023-08-31 23:59",
-                        "next_update": "2023-09-30 23:59"
-                    },
-                    "metadata_lang": {
-                        "en": {
-                            "methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
-                            "caveat": "-",
-                            "publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
-                        },
-                        "bm": {
-                            "methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
-                            "caveat": "-",
-                            "publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
-                        }
-                    },
-                    "chart": {
-                        "chart_type": "TIMESERIES",
-                        "chart_filters": {
-                            "SLICE_BY": [],
-                            "precision": 1
-                        },
-                        "chart_variables": {
-                            "parents": [],
-                            "operation": "SUM",
-                            "format": {
-                                "x": "date",
-                                "y": [
-                                    "note_100"
-                                ]
-                            }
-                        }
-                    }
-                }
-            },
-            {
-                "id": 8,
-                "name": "note_500",
-                "title_en": "Notes: RM 500",
-                "title_bm": "Nota: RM 500",
-                "desc_en": "[Float] Total value of RM 500 notes in circulation, in RM millions",
-                "desc_bm": "[Apung] Nilai keseluruhan nota RM 500 dalam edaran, dalam RM juta",
-                "catalog_data": {
-                    "catalog_filters": {
-                        "frequency": "MONTHLY",
-                        "limit_frequency": true,
-                        "geographic": [
-                            "NATIONAL"
-                        ],
-                        "demographic": [],
-                        "start": "2000",
-                        "end": "2023",
-                        "data_source": [
-                            "BNM"
-                        ]
-                    },
-                    "metadata_neutral": {
-                        "data_as_of": "1955-07-31 23:59",
-                        "last_updated": "2023-08-31 23:59",
-                        "next_update": "2023-09-30 23:59"
-                    },
-                    "metadata_lang": {
-                        "en": {
-                            "methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
-                            "caveat": "-",
-                            "publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
-                        },
-                        "bm": {
-                            "methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
-                            "caveat": "-",
-                            "publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
-                        }
-                    },
-                    "chart": {
-                        "chart_type": "TIMESERIES",
-                        "chart_filters": {
-                            "SLICE_BY": [],
-                            "precision": 1
-                        },
-                        "chart_variables": {
-                            "parents": [],
-                            "operation": "SUM",
-                            "format": {
-                                "x": "date",
-                                "y": [
-                                    "note_500"
-                                ]
-                            }
-                        }
-                    }
-                }
-            },
-            {
-                "id": 9,
-                "name": "note_1000",
-                "title_en": "Notes: RM 1000",
-                "title_bm": "Nota: RM 1000",
-                "desc_en": "[Float] Total value of RM 1000 notes in circulation, in RM millions",
-                "desc_bm": "[Apung] Nilai keseluruhan nota RM 1000 dalam edaran, dalam RM juta",
-                "catalog_data": {
-                    "catalog_filters": {
-                        "frequency": "MONTHLY",
-                        "limit_frequency": true,
-                        "geographic": [
-                            "NATIONAL"
-                        ],
-                        "demographic": [],
-                        "start": "2000",
-                        "end": "2023",
-                        "data_source": [
-                            "BNM"
-                        ]
-                    },
-                    "metadata_neutral": {
-                        "data_as_of": "1955-07-31 23:59",
-                        "last_updated": "2023-08-31 23:59",
-                        "next_update": "2023-09-30 23:59"
-                    },
-                    "metadata_lang": {
-                        "en": {
-                            "methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
-                            "caveat": "-",
-                            "publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
-                        },
-                        "bm": {
-                            "methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
-                            "caveat": "-",
-                            "publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
-                        }
-                    },
-                    "chart": {
-                        "chart_type": "TIMESERIES",
-                        "chart_filters": {
-                            "SLICE_BY": [],
-                            "precision": 1
-                        },
-                        "chart_variables": {
-                            "parents": [],
-                            "operation": "SUM",
-                            "format": {
-                                "x": "date",
-                                "y": [
-                                    "note_1000"
-                                ]
-                            }
-                        }
-                    }
-                }
-            },
-            {
-                "id": 10,
-                "name": "note_others",
-                "title_en": "Notes: Other",
-                "title_bm": "Nota: Other",
-                "desc_en": "[Float] Total value of notes besides the ones specified in circulation, in RM millions",
-                "desc_bm": "[Apung] Nilai keseluruhan nota selain daripada yang diperincikan dalam edaran, dalam RM juta",
-                "catalog_data": {
-                    "catalog_filters": {
-                        "frequency": "MONTHLY",
-                        "limit_frequency": true,
-                        "geographic": [
-                            "NATIONAL"
-                        ],
-                        "demographic": [],
-                        "start": "2000",
-                        "end": "2023",
-                        "data_source": [
-                            "BNM"
-                        ]
-                    },
-                    "metadata_neutral": {
-                        "data_as_of": "1955-07-31 23:59",
-                        "last_updated": "2023-08-31 23:59",
-                        "next_update": "2023-09-30 23:59"
-                    },
-                    "metadata_lang": {
-                        "en": {
-                            "methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
-                            "caveat": "-",
-                            "publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
-                        },
-                        "bm": {
-                            "methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
-                            "caveat": "-",
-                            "publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
-                        }
-                    },
-                    "chart": {
-                        "chart_type": "TIMESERIES",
-                        "chart_filters": {
-                            "SLICE_BY": [],
-                            "precision": 1
-                        },
-                        "chart_variables": {
-                            "parents": [],
-                            "operation": "SUM",
-                            "format": {
-                                "x": "date",
-                                "y": [
-                                    "note_others"
-                                ]
-                            }
-                        }
-                    }
-                }
-            },
-            {
-                "id": 11,
-                "name": "coin_1",
-                "title_en": "Coins: 1 sen",
-                "title_bm": "Syiling: 1 sen",
-                "desc_en": "[Float] Total value of 1 sen coins in circulation, in RM millions",
-                "desc_bm": "[Apung] Nilai keseluruhan syiling 1 sen dalam edaran, dalam RM juta",
-                "catalog_data": {
-                    "catalog_filters": {
-                        "frequency": "MONTHLY",
-                        "limit_frequency": true,
-                        "geographic": [
-                            "NATIONAL"
-                        ],
-                        "demographic": [],
-                        "start": "2000",
-                        "end": "2023",
-                        "data_source": [
-                            "BNM"
-                        ]
-                    },
-                    "metadata_neutral": {
-                        "data_as_of": "1955-07-31 23:59",
-                        "last_updated": "2023-08-31 23:59",
-                        "next_update": "2023-09-30 23:59"
-                    },
-                    "metadata_lang": {
-                        "en": {
-                            "methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
-                            "caveat": "-",
-                            "publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
-                        },
-                        "bm": {
-                            "methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
-                            "caveat": "-",
-                            "publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
-                        }
-                    },
-                    "chart": {
-                        "chart_type": "TIMESERIES",
-                        "chart_filters": {
-                            "SLICE_BY": [],
-                            "precision": 1
-                        },
-                        "chart_variables": {
-                            "parents": [],
-                            "operation": "SUM",
-                            "format": {
-                                "x": "date",
-                                "y": [
-                                    "coin_1"
-                                ]
-                            }
-                        }
-                    }
-                }
-            },
-            {
-                "id": 12,
-                "name": "coin_5",
-                "title_en": "Coins: 5 sen",
-                "title_bm": "Syiling: 5 sen",
-                "desc_en": "[Float] Total value of 5 sen coins in circulation, in RM millions",
-                "desc_bm": "[Apung] Nilai keseluruhan syiling 5 sen dalam edaran, dalam RM juta",
-                "catalog_data": {
-                    "catalog_filters": {
-                        "frequency": "MONTHLY",
-                        "limit_frequency": true,
-                        "geographic": [
-                            "NATIONAL"
-                        ],
-                        "demographic": [],
-                        "start": "2000",
-                        "end": "2023",
-                        "data_source": [
-                            "BNM"
-                        ]
-                    },
-                    "metadata_neutral": {
-                        "data_as_of": "1955-07-31 23:59",
-                        "last_updated": "2023-08-31 23:59",
-                        "next_update": "2023-09-30 23:59"
-                    },
-                    "metadata_lang": {
-                        "en": {
-                            "methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
-                            "caveat": "-",
-                            "publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
-                        },
-                        "bm": {
-                            "methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
-                            "caveat": "-",
-                            "publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
-                        }
-                    },
-                    "chart": {
-                        "chart_type": "TIMESERIES",
-                        "chart_filters": {
-                            "SLICE_BY": [],
-                            "precision": 1
-                        },
-                        "chart_variables": {
-                            "parents": [],
-                            "operation": "SUM",
-                            "format": {
-                                "x": "date",
-                                "y": [
-                                    "coin_5"
-                                ]
-                            }
-                        }
-                    }
-                }
-            },
-            {
-                "id": 13,
-                "name": "coin_10",
-                "title_en": "Coins: 10 sen",
-                "title_bm": "Syiling: 10 sen",
-                "desc_en": "[Float] Total value of 10 sen coins in circulation, in RM millions",
-                "desc_bm": "[Apung] Nilai keseluruhan syiling 10 sen dalam edaran, dalam RM juta",
-                "catalog_data": {
-                    "catalog_filters": {
-                        "frequency": "MONTHLY",
-                        "limit_frequency": true,
-                        "geographic": [
-                            "NATIONAL"
-                        ],
-                        "demographic": [],
-                        "start": "2000",
-                        "end": "2023",
-                        "data_source": [
-                            "BNM"
-                        ]
-                    },
-                    "metadata_neutral": {
-                        "data_as_of": "1955-07-31 23:59",
-                        "last_updated": "2023-08-31 23:59",
-                        "next_update": "2023-09-30 23:59"
-                    },
-                    "metadata_lang": {
-                        "en": {
-                            "methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
-                            "caveat": "-",
-                            "publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
-                        },
-                        "bm": {
-                            "methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
-                            "caveat": "-",
-                            "publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
-                        }
-                    },
-                    "chart": {
-                        "chart_type": "TIMESERIES",
-                        "chart_filters": {
-                            "SLICE_BY": [],
-                            "precision": 1
-                        },
-                        "chart_variables": {
-                            "parents": [],
-                            "operation": "SUM",
-                            "format": {
-                                "x": "date",
-                                "y": [
-                                    "coin_10"
-                                ]
-                            }
-                        }
-                    }
-                }
-            },
-            {
-                "id": 14,
-                "name": "coin_20",
-                "title_en": "Coins: 20 sen",
-                "title_bm": "Syiling: 20 sen",
-                "desc_en": "[Float] Total value of 20 sen coins in circulation, in RM millions",
-                "desc_bm": "[Apung] Nilai keseluruhan syiling 20 sen dalam edaran, dalam RM juta",
-                "catalog_data": {
-                    "catalog_filters": {
-                        "frequency": "MONTHLY",
-                        "limit_frequency": true,
-                        "geographic": [
-                            "NATIONAL"
-                        ],
-                        "demographic": [],
-                        "start": "2000",
-                        "end": "2023",
-                        "data_source": [
-                            "BNM"
-                        ]
-                    },
-                    "metadata_neutral": {
-                        "data_as_of": "1955-07-31 23:59",
-                        "last_updated": "2023-08-31 23:59",
-                        "next_update": "2023-09-30 23:59"
-                    },
-                    "metadata_lang": {
-                        "en": {
-                            "methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
-                            "caveat": "-",
-                            "publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
-                        },
-                        "bm": {
-                            "methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
-                            "caveat": "-",
-                            "publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
-                        }
-                    },
-                    "chart": {
-                        "chart_type": "TIMESERIES",
-                        "chart_filters": {
-                            "SLICE_BY": [],
-                            "precision": 1
-                        },
-                        "chart_variables": {
-                            "parents": [],
-                            "operation": "SUM",
-                            "format": {
-                                "x": "date",
-                                "y": [
-                                    "coin_20"
-                                ]
-                            }
-                        }
-                    }
-                }
-            },
-            {
-                "id": 15,
-                "name": "coin_50",
-                "title_en": "Coins: 50 sen",
-                "title_bm": "Syiling: 50 sen",
-                "desc_en": "[Float] Total value of 50 sen coins in circulation, in RM millions",
-                "desc_bm": "[Apung] Nilai keseluruhan syiling 50 sen dalam edaran, dalam RM juta",
-                "catalog_data": {
-                    "catalog_filters": {
-                        "frequency": "MONTHLY",
-                        "limit_frequency": true,
-                        "geographic": [
-                            "NATIONAL"
-                        ],
-                        "demographic": [],
-                        "start": "2000",
-                        "end": "2023",
-                        "data_source": [
-                            "BNM"
-                        ]
-                    },
-                    "metadata_neutral": {
-                        "data_as_of": "1955-07-31 23:59",
-                        "last_updated": "2023-08-31 23:59",
-                        "next_update": "2023-09-30 23:59"
-                    },
-                    "metadata_lang": {
-                        "en": {
-                            "methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
-                            "caveat": "-",
-                            "publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
-                        },
-                        "bm": {
-                            "methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
-                            "caveat": "-",
-                            "publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
-                        }
-                    },
-                    "chart": {
-                        "chart_type": "TIMESERIES",
-                        "chart_filters": {
-                            "SLICE_BY": [],
-                            "precision": 1
-                        },
-                        "chart_variables": {
-                            "parents": [],
-                            "operation": "SUM",
-                            "format": {
-                                "x": "date",
-                                "y": [
-                                    "coin_50"
-                                ]
-                            }
-                        }
-                    }
-                }
-            },
-            {
-                "id": 16,
-                "name": "coin_rm1",
-                "title_en": "Coins: RM 1 (coin)",
-                "title_bm": "Syiling: RM 1 (coin)",
-                "desc_en": "[Float] Total value of RM 1 (coin) coins in circulation, in RM millions",
-                "desc_bm": "[Apung] Nilai keseluruhan syiling RM 1 (coin) dalam edaran, dalam RM juta",
-                "catalog_data": {
-                    "catalog_filters": {
-                        "frequency": "MONTHLY",
-                        "limit_frequency": true,
-                        "geographic": [
-                            "NATIONAL"
-                        ],
-                        "demographic": [],
-                        "start": "2000",
-                        "end": "2023",
-                        "data_source": [
-                            "BNM"
-                        ]
-                    },
-                    "metadata_neutral": {
-                        "data_as_of": "1955-07-31 23:59",
-                        "last_updated": "2023-08-31 23:59",
-                        "next_update": "2023-09-30 23:59"
-                    },
-                    "metadata_lang": {
-                        "en": {
-                            "methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
-                            "caveat": "-",
-                            "publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
-                        },
-                        "bm": {
-                            "methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
-                            "caveat": "-",
-                            "publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
-                        }
-                    },
-                    "chart": {
-                        "chart_type": "TIMESERIES",
-                        "chart_filters": {
-                            "SLICE_BY": [],
-                            "precision": 1
-                        },
-                        "chart_variables": {
-                            "parents": [],
-                            "operation": "SUM",
-                            "format": {
-                                "x": "date",
-                                "y": [
-                                    "coin_rm1"
-                                ]
-                            }
-                        }
-                    }
-                }
-            },
-            {
-                "id": 17,
-                "name": "coin_rm5",
-                "title_en": "Coins: RM 5 (coin)",
-                "title_bm": "Syiling: RM 5 (coin)",
-                "desc_en": "[Float] Total value of RM 5 (coin) coins in circulation, in RM millions",
-                "desc_bm": "[Apung] Nilai keseluruhan syiling RM 5 (coin) dalam edaran, dalam RM juta",
-                "catalog_data": {
-                    "catalog_filters": {
-                        "frequency": "MONTHLY",
-                        "limit_frequency": true,
-                        "geographic": [
-                            "NATIONAL"
-                        ],
-                        "demographic": [],
-                        "start": "2000",
-                        "end": "2023",
-                        "data_source": [
-                            "BNM"
-                        ]
-                    },
-                    "metadata_neutral": {
-                        "data_as_of": "1955-07-31 23:59",
-                        "last_updated": "2023-08-31 23:59",
-                        "next_update": "2023-09-30 23:59"
-                    },
-                    "metadata_lang": {
-                        "en": {
-                            "methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
-                            "caveat": "-",
-                            "publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
-                        },
-                        "bm": {
-                            "methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
-                            "caveat": "-",
-                            "publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
-                        }
-                    },
-                    "chart": {
-                        "chart_type": "TIMESERIES",
-                        "chart_filters": {
-                            "SLICE_BY": [],
-                            "precision": 1
-                        },
-                        "chart_variables": {
-                            "parents": [],
-                            "operation": "SUM",
-                            "format": {
-                                "x": "date",
-                                "y": [
-                                    "coin_rm5"
-                                ]
-                            }
-                        }
-                    }
-                }
-            },
-            {
-                "id": 18,
-                "name": "coin_others",
-                "title_en": "Coins: Other",
-                "title_bm": "Syiling: Other",
-                "desc_en": "[Float] Total value of Other Coins coins in circulation, in RM millions",
-                "desc_bm": "[Apung] Nilai keseluruhan syiling Other Coins dalam edaran, dalam RM juta",
-                "catalog_data": {
-                    "catalog_filters": {
-                        "frequency": "MONTHLY",
-                        "limit_frequency": true,
-                        "geographic": [
-                            "NATIONAL"
-                        ],
-                        "demographic": [],
-                        "start": "2000",
-                        "end": "2023",
-                        "data_source": [
-                            "BNM"
-                        ]
-                    },
-                    "metadata_neutral": {
-                        "data_as_of": "1955-07-31 23:59",
-                        "last_updated": "2023-08-31 23:59",
-                        "next_update": "2023-09-30 23:59"
-                    },
-                    "metadata_lang": {
-                        "en": {
-                            "methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
-                            "caveat": "-",
-                            "publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
-                        },
-                        "bm": {
-                            "methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
-                            "caveat": "-",
-                            "publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
-                        }
-                    },
-                    "chart": {
-                        "chart_type": "TIMESERIES",
-                        "chart_filters": {
-                            "SLICE_BY": [],
-                            "precision": 1
-                        },
-                        "chart_variables": {
-                            "parents": [],
-                            "operation": "SUM",
-                            "format": {
-                                "x": "date",
-                                "y": [
-                                    "coin_others"
-                                ]
-                            }
-                        }
-                    }
-                }
-            }
-        ]
-    }
+		"bucket": "finsector",
+		"file_name": "currency_in_circulation",
+		"category": "FINSECTOR",
+		"category_en": "Financial Sector",
+		"category_bm": "Sektor Kewangan",
+		"subcategory": "MONEYBANKING",
+		"subcategory_en": "Money & Banking",
+		"subcategory_bm": "Duit & Bank",
+		"description": {
+			"en": "Value of currency in circulation by denomination",
+			"bm": "Nilai mata wang dalam edaran mengikut denominasi"
+		},
+		"link_parquet": "https://storage.data.gov.my/finsector/currency_in_circulation.parquet",
+		"link_csv": "https://storage.data.gov.my/finsector/currency_in_circulation.csv",
+		"link_preview": "https://storage.data.gov.my/finsector/currency_in_circulation.parquet",
+		"variables": [
+			{
+				"id": 0,
+				"name": "date",
+				"title_en": "Date",
+				"title_bm": "Tarikh",
+				"desc_en": "Tarikh",
+				"desc_bm": "[Date] The date in YYYY-MM-DD format, with DD set to 01 since the data is at monthly frequency"
+			},
+			{
+				"id": 1,
+				"name": "note_1",
+				"title_en": "Notes: RM 1",
+				"title_bm": "Nota: RM 1",
+				"desc_en": "[Float] Total value of RM 1 notes in circulation, in RM millions",
+				"desc_bm": "[Apung] Nilai keseluruhan nota RM 1 dalam edaran, dalam RM juta",
+				"catalog_data": {
+					"catalog_filters": {
+						"frequency": "MONTHLY",
+						"limit_frequency": true,
+						"geography": ["NATIONAL"],
+						"demography": [],
+						"start": "2000",
+						"end": "2023",
+						"data_source": ["BNM"]
+					},
+					"metadata_neutral": {
+						"data_as_of": "1955-07-31 23:59",
+						"last_updated": "2023-08-31 23:59",
+						"next_update": "2023-09-30 23:59"
+					},
+					"metadata_lang": {
+						"en": {
+							"methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
+							"caveat": "-",
+							"publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
+						},
+						"bm": {
+							"methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
+							"caveat": "-",
+							"publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
+						}
+					},
+					"chart": {
+						"chart_type": "TIMESERIES",
+						"chart_filters": {
+							"SLICE_BY": [],
+							"precision": 1
+						},
+						"chart_variables": {
+							"parents": [],
+							"operation": "SUM",
+							"format": {
+								"x": "date",
+								"y": ["note_1"]
+							}
+						}
+					}
+				}
+			},
+			{
+				"id": 2,
+				"name": "note_2",
+				"title_en": "Notes: RM 2",
+				"title_bm": "Nota: RM 2",
+				"desc_en": "[Float] Total value of RM 2 notes in circulation, in RM millions",
+				"desc_bm": "[Apung] Nilai keseluruhan nota RM 2 dalam edaran, dalam RM juta",
+				"catalog_data": {
+					"catalog_filters": {
+						"frequency": "MONTHLY",
+						"limit_frequency": true,
+						"geography": ["NATIONAL"],
+						"demography": [],
+						"start": "2000",
+						"end": "2023",
+						"data_source": ["BNM"]
+					},
+					"metadata_neutral": {
+						"data_as_of": "1955-07-31 23:59",
+						"last_updated": "2023-08-31 23:59",
+						"next_update": "2023-09-30 23:59"
+					},
+					"metadata_lang": {
+						"en": {
+							"methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
+							"caveat": "-",
+							"publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
+						},
+						"bm": {
+							"methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
+							"caveat": "-",
+							"publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
+						}
+					},
+					"chart": {
+						"chart_type": "TIMESERIES",
+						"chart_filters": {
+							"SLICE_BY": [],
+							"precision": 1
+						},
+						"chart_variables": {
+							"parents": [],
+							"operation": "SUM",
+							"format": {
+								"x": "date",
+								"y": ["note_2"]
+							}
+						}
+					}
+				}
+			},
+			{
+				"id": 3,
+				"name": "note_5",
+				"title_en": "Notes: RM 5",
+				"title_bm": "Nota: RM 5",
+				"desc_en": "[Float] Total value of RM 5 notes in circulation, in RM millions",
+				"desc_bm": "[Apung] Nilai keseluruhan nota RM 5 dalam edaran, dalam RM juta",
+				"catalog_data": {
+					"catalog_filters": {
+						"frequency": "MONTHLY",
+						"limit_frequency": true,
+						"geography": ["NATIONAL"],
+						"demography": [],
+						"start": "2000",
+						"end": "2023",
+						"data_source": ["BNM"]
+					},
+					"metadata_neutral": {
+						"data_as_of": "1955-07-31 23:59",
+						"last_updated": "2023-08-31 23:59",
+						"next_update": "2023-09-30 23:59"
+					},
+					"metadata_lang": {
+						"en": {
+							"methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
+							"caveat": "-",
+							"publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
+						},
+						"bm": {
+							"methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
+							"caveat": "-",
+							"publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
+						}
+					},
+					"chart": {
+						"chart_type": "TIMESERIES",
+						"chart_filters": {
+							"SLICE_BY": [],
+							"precision": 1
+						},
+						"chart_variables": {
+							"parents": [],
+							"operation": "SUM",
+							"format": {
+								"x": "date",
+								"y": ["note_5"]
+							}
+						}
+					}
+				}
+			},
+			{
+				"id": 4,
+				"name": "note_10",
+				"title_en": "Notes: RM 10",
+				"title_bm": "Nota: RM 10",
+				"desc_en": "[Float] Total value of RM 10 notes in circulation, in RM millions",
+				"desc_bm": "[Apung] Nilai keseluruhan nota RM 10 dalam edaran, dalam RM juta",
+				"catalog_data": {
+					"catalog_filters": {
+						"frequency": "MONTHLY",
+						"limit_frequency": true,
+						"geography": ["NATIONAL"],
+						"demography": [],
+						"start": "2000",
+						"end": "2023",
+						"data_source": ["BNM"]
+					},
+					"metadata_neutral": {
+						"data_as_of": "1955-07-31 23:59",
+						"last_updated": "2023-08-31 23:59",
+						"next_update": "2023-09-30 23:59"
+					},
+					"metadata_lang": {
+						"en": {
+							"methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
+							"caveat": "-",
+							"publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
+						},
+						"bm": {
+							"methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
+							"caveat": "-",
+							"publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
+						}
+					},
+					"chart": {
+						"chart_type": "TIMESERIES",
+						"chart_filters": {
+							"SLICE_BY": [],
+							"precision": 1
+						},
+						"chart_variables": {
+							"parents": [],
+							"operation": "SUM",
+							"format": {
+								"x": "date",
+								"y": ["note_10"]
+							}
+						}
+					}
+				}
+			},
+			{
+				"id": 5,
+				"name": "note_20",
+				"title_en": "Notes: RM 20",
+				"title_bm": "Nota: RM 20",
+				"desc_en": "[Float] Total value of RM 20 notes in circulation, in RM millions",
+				"desc_bm": "[Apung] Nilai keseluruhan nota RM 20 dalam edaran, dalam RM juta",
+				"catalog_data": {
+					"catalog_filters": {
+						"frequency": "MONTHLY",
+						"limit_frequency": true,
+						"geography": ["NATIONAL"],
+						"demography": [],
+						"start": "2000",
+						"end": "2023",
+						"data_source": ["BNM"]
+					},
+					"metadata_neutral": {
+						"data_as_of": "1955-07-31 23:59",
+						"last_updated": "2023-08-31 23:59",
+						"next_update": "2023-09-30 23:59"
+					},
+					"metadata_lang": {
+						"en": {
+							"methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
+							"caveat": "-",
+							"publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
+						},
+						"bm": {
+							"methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
+							"caveat": "-",
+							"publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
+						}
+					},
+					"chart": {
+						"chart_type": "TIMESERIES",
+						"chart_filters": {
+							"SLICE_BY": [],
+							"precision": 1
+						},
+						"chart_variables": {
+							"parents": [],
+							"operation": "SUM",
+							"format": {
+								"x": "date",
+								"y": ["note_20"]
+							}
+						}
+					}
+				}
+			},
+			{
+				"id": 6,
+				"name": "note_50",
+				"title_en": "Notes: RM 50",
+				"title_bm": "Nota: RM 50",
+				"desc_en": "[Float] Total value of RM 50 notes in circulation, in RM millions",
+				"desc_bm": "[Apung] Nilai keseluruhan nota RM 50 dalam edaran, dalam RM juta",
+				"catalog_data": {
+					"catalog_filters": {
+						"frequency": "MONTHLY",
+						"limit_frequency": true,
+						"geography": ["NATIONAL"],
+						"demography": [],
+						"start": "2000",
+						"end": "2023",
+						"data_source": ["BNM"]
+					},
+					"metadata_neutral": {
+						"data_as_of": "1955-07-31 23:59",
+						"last_updated": "2023-08-31 23:59",
+						"next_update": "2023-09-30 23:59"
+					},
+					"metadata_lang": {
+						"en": {
+							"methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
+							"caveat": "-",
+							"publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
+						},
+						"bm": {
+							"methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
+							"caveat": "-",
+							"publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
+						}
+					},
+					"chart": {
+						"chart_type": "TIMESERIES",
+						"chart_filters": {
+							"SLICE_BY": [],
+							"precision": 1
+						},
+						"chart_variables": {
+							"parents": [],
+							"operation": "SUM",
+							"format": {
+								"x": "date",
+								"y": ["note_50"]
+							}
+						}
+					}
+				}
+			},
+			{
+				"id": 7,
+				"name": "note_100",
+				"title_en": "Notes: RM 100",
+				"title_bm": "Nota: RM 100",
+				"desc_en": "[Float] Total value of RM 100 notes in circulation, in RM millions",
+				"desc_bm": "[Apung] Nilai keseluruhan nota RM 100 dalam edaran, dalam RM juta",
+				"catalog_data": {
+					"catalog_filters": {
+						"frequency": "MONTHLY",
+						"limit_frequency": true,
+						"geography": ["NATIONAL"],
+						"demography": [],
+						"start": "2000",
+						"end": "2023",
+						"data_source": ["BNM"]
+					},
+					"metadata_neutral": {
+						"data_as_of": "1955-07-31 23:59",
+						"last_updated": "2023-08-31 23:59",
+						"next_update": "2023-09-30 23:59"
+					},
+					"metadata_lang": {
+						"en": {
+							"methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
+							"caveat": "-",
+							"publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
+						},
+						"bm": {
+							"methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
+							"caveat": "-",
+							"publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
+						}
+					},
+					"chart": {
+						"chart_type": "TIMESERIES",
+						"chart_filters": {
+							"SLICE_BY": [],
+							"precision": 1
+						},
+						"chart_variables": {
+							"parents": [],
+							"operation": "SUM",
+							"format": {
+								"x": "date",
+								"y": ["note_100"]
+							}
+						}
+					}
+				}
+			},
+			{
+				"id": 8,
+				"name": "note_500",
+				"title_en": "Notes: RM 500",
+				"title_bm": "Nota: RM 500",
+				"desc_en": "[Float] Total value of RM 500 notes in circulation, in RM millions",
+				"desc_bm": "[Apung] Nilai keseluruhan nota RM 500 dalam edaran, dalam RM juta",
+				"catalog_data": {
+					"catalog_filters": {
+						"frequency": "MONTHLY",
+						"limit_frequency": true,
+						"geography": ["NATIONAL"],
+						"demography": [],
+						"start": "2000",
+						"end": "2023",
+						"data_source": ["BNM"]
+					},
+					"metadata_neutral": {
+						"data_as_of": "1955-07-31 23:59",
+						"last_updated": "2023-08-31 23:59",
+						"next_update": "2023-09-30 23:59"
+					},
+					"metadata_lang": {
+						"en": {
+							"methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
+							"caveat": "-",
+							"publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
+						},
+						"bm": {
+							"methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
+							"caveat": "-",
+							"publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
+						}
+					},
+					"chart": {
+						"chart_type": "TIMESERIES",
+						"chart_filters": {
+							"SLICE_BY": [],
+							"precision": 1
+						},
+						"chart_variables": {
+							"parents": [],
+							"operation": "SUM",
+							"format": {
+								"x": "date",
+								"y": ["note_500"]
+							}
+						}
+					}
+				}
+			},
+			{
+				"id": 9,
+				"name": "note_1000",
+				"title_en": "Notes: RM 1000",
+				"title_bm": "Nota: RM 1000",
+				"desc_en": "[Float] Total value of RM 1000 notes in circulation, in RM millions",
+				"desc_bm": "[Apung] Nilai keseluruhan nota RM 1000 dalam edaran, dalam RM juta",
+				"catalog_data": {
+					"catalog_filters": {
+						"frequency": "MONTHLY",
+						"limit_frequency": true,
+						"geography": ["NATIONAL"],
+						"demography": [],
+						"start": "2000",
+						"end": "2023",
+						"data_source": ["BNM"]
+					},
+					"metadata_neutral": {
+						"data_as_of": "1955-07-31 23:59",
+						"last_updated": "2023-08-31 23:59",
+						"next_update": "2023-09-30 23:59"
+					},
+					"metadata_lang": {
+						"en": {
+							"methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
+							"caveat": "-",
+							"publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
+						},
+						"bm": {
+							"methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
+							"caveat": "-",
+							"publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
+						}
+					},
+					"chart": {
+						"chart_type": "TIMESERIES",
+						"chart_filters": {
+							"SLICE_BY": [],
+							"precision": 1
+						},
+						"chart_variables": {
+							"parents": [],
+							"operation": "SUM",
+							"format": {
+								"x": "date",
+								"y": ["note_1000"]
+							}
+						}
+					}
+				}
+			},
+			{
+				"id": 10,
+				"name": "note_others",
+				"title_en": "Notes: Other",
+				"title_bm": "Nota: Other",
+				"desc_en": "[Float] Total value of notes besides the ones specified in circulation, in RM millions",
+				"desc_bm": "[Apung] Nilai keseluruhan nota selain daripada yang diperincikan dalam edaran, dalam RM juta",
+				"catalog_data": {
+					"catalog_filters": {
+						"frequency": "MONTHLY",
+						"limit_frequency": true,
+						"geography": ["NATIONAL"],
+						"demography": [],
+						"start": "2000",
+						"end": "2023",
+						"data_source": ["BNM"]
+					},
+					"metadata_neutral": {
+						"data_as_of": "1955-07-31 23:59",
+						"last_updated": "2023-08-31 23:59",
+						"next_update": "2023-09-30 23:59"
+					},
+					"metadata_lang": {
+						"en": {
+							"methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
+							"caveat": "-",
+							"publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
+						},
+						"bm": {
+							"methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
+							"caveat": "-",
+							"publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
+						}
+					},
+					"chart": {
+						"chart_type": "TIMESERIES",
+						"chart_filters": {
+							"SLICE_BY": [],
+							"precision": 1
+						},
+						"chart_variables": {
+							"parents": [],
+							"operation": "SUM",
+							"format": {
+								"x": "date",
+								"y": ["note_others"]
+							}
+						}
+					}
+				}
+			},
+			{
+				"id": 11,
+				"name": "coin_1",
+				"title_en": "Coins: 1 sen",
+				"title_bm": "Syiling: 1 sen",
+				"desc_en": "[Float] Total value of 1 sen coins in circulation, in RM millions",
+				"desc_bm": "[Apung] Nilai keseluruhan syiling 1 sen dalam edaran, dalam RM juta",
+				"catalog_data": {
+					"catalog_filters": {
+						"frequency": "MONTHLY",
+						"limit_frequency": true,
+						"geography": ["NATIONAL"],
+						"demography": [],
+						"start": "2000",
+						"end": "2023",
+						"data_source": ["BNM"]
+					},
+					"metadata_neutral": {
+						"data_as_of": "1955-07-31 23:59",
+						"last_updated": "2023-08-31 23:59",
+						"next_update": "2023-09-30 23:59"
+					},
+					"metadata_lang": {
+						"en": {
+							"methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
+							"caveat": "-",
+							"publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
+						},
+						"bm": {
+							"methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
+							"caveat": "-",
+							"publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
+						}
+					},
+					"chart": {
+						"chart_type": "TIMESERIES",
+						"chart_filters": {
+							"SLICE_BY": [],
+							"precision": 1
+						},
+						"chart_variables": {
+							"parents": [],
+							"operation": "SUM",
+							"format": {
+								"x": "date",
+								"y": ["coin_1"]
+							}
+						}
+					}
+				}
+			},
+			{
+				"id": 12,
+				"name": "coin_5",
+				"title_en": "Coins: 5 sen",
+				"title_bm": "Syiling: 5 sen",
+				"desc_en": "[Float] Total value of 5 sen coins in circulation, in RM millions",
+				"desc_bm": "[Apung] Nilai keseluruhan syiling 5 sen dalam edaran, dalam RM juta",
+				"catalog_data": {
+					"catalog_filters": {
+						"frequency": "MONTHLY",
+						"limit_frequency": true,
+						"geography": ["NATIONAL"],
+						"demography": [],
+						"start": "2000",
+						"end": "2023",
+						"data_source": ["BNM"]
+					},
+					"metadata_neutral": {
+						"data_as_of": "1955-07-31 23:59",
+						"last_updated": "2023-08-31 23:59",
+						"next_update": "2023-09-30 23:59"
+					},
+					"metadata_lang": {
+						"en": {
+							"methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
+							"caveat": "-",
+							"publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
+						},
+						"bm": {
+							"methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
+							"caveat": "-",
+							"publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
+						}
+					},
+					"chart": {
+						"chart_type": "TIMESERIES",
+						"chart_filters": {
+							"SLICE_BY": [],
+							"precision": 1
+						},
+						"chart_variables": {
+							"parents": [],
+							"operation": "SUM",
+							"format": {
+								"x": "date",
+								"y": ["coin_5"]
+							}
+						}
+					}
+				}
+			},
+			{
+				"id": 13,
+				"name": "coin_10",
+				"title_en": "Coins: 10 sen",
+				"title_bm": "Syiling: 10 sen",
+				"desc_en": "[Float] Total value of 10 sen coins in circulation, in RM millions",
+				"desc_bm": "[Apung] Nilai keseluruhan syiling 10 sen dalam edaran, dalam RM juta",
+				"catalog_data": {
+					"catalog_filters": {
+						"frequency": "MONTHLY",
+						"limit_frequency": true,
+						"geography": ["NATIONAL"],
+						"demography": [],
+						"start": "2000",
+						"end": "2023",
+						"data_source": ["BNM"]
+					},
+					"metadata_neutral": {
+						"data_as_of": "1955-07-31 23:59",
+						"last_updated": "2023-08-31 23:59",
+						"next_update": "2023-09-30 23:59"
+					},
+					"metadata_lang": {
+						"en": {
+							"methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
+							"caveat": "-",
+							"publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
+						},
+						"bm": {
+							"methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
+							"caveat": "-",
+							"publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
+						}
+					},
+					"chart": {
+						"chart_type": "TIMESERIES",
+						"chart_filters": {
+							"SLICE_BY": [],
+							"precision": 1
+						},
+						"chart_variables": {
+							"parents": [],
+							"operation": "SUM",
+							"format": {
+								"x": "date",
+								"y": ["coin_10"]
+							}
+						}
+					}
+				}
+			},
+			{
+				"id": 14,
+				"name": "coin_20",
+				"title_en": "Coins: 20 sen",
+				"title_bm": "Syiling: 20 sen",
+				"desc_en": "[Float] Total value of 20 sen coins in circulation, in RM millions",
+				"desc_bm": "[Apung] Nilai keseluruhan syiling 20 sen dalam edaran, dalam RM juta",
+				"catalog_data": {
+					"catalog_filters": {
+						"frequency": "MONTHLY",
+						"limit_frequency": true,
+						"geography": ["NATIONAL"],
+						"demography": [],
+						"start": "2000",
+						"end": "2023",
+						"data_source": ["BNM"]
+					},
+					"metadata_neutral": {
+						"data_as_of": "1955-07-31 23:59",
+						"last_updated": "2023-08-31 23:59",
+						"next_update": "2023-09-30 23:59"
+					},
+					"metadata_lang": {
+						"en": {
+							"methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
+							"caveat": "-",
+							"publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
+						},
+						"bm": {
+							"methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
+							"caveat": "-",
+							"publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
+						}
+					},
+					"chart": {
+						"chart_type": "TIMESERIES",
+						"chart_filters": {
+							"SLICE_BY": [],
+							"precision": 1
+						},
+						"chart_variables": {
+							"parents": [],
+							"operation": "SUM",
+							"format": {
+								"x": "date",
+								"y": ["coin_20"]
+							}
+						}
+					}
+				}
+			},
+			{
+				"id": 15,
+				"name": "coin_50",
+				"title_en": "Coins: 50 sen",
+				"title_bm": "Syiling: 50 sen",
+				"desc_en": "[Float] Total value of 50 sen coins in circulation, in RM millions",
+				"desc_bm": "[Apung] Nilai keseluruhan syiling 50 sen dalam edaran, dalam RM juta",
+				"catalog_data": {
+					"catalog_filters": {
+						"frequency": "MONTHLY",
+						"limit_frequency": true,
+						"geography": ["NATIONAL"],
+						"demography": [],
+						"start": "2000",
+						"end": "2023",
+						"data_source": ["BNM"]
+					},
+					"metadata_neutral": {
+						"data_as_of": "1955-07-31 23:59",
+						"last_updated": "2023-08-31 23:59",
+						"next_update": "2023-09-30 23:59"
+					},
+					"metadata_lang": {
+						"en": {
+							"methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
+							"caveat": "-",
+							"publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
+						},
+						"bm": {
+							"methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
+							"caveat": "-",
+							"publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
+						}
+					},
+					"chart": {
+						"chart_type": "TIMESERIES",
+						"chart_filters": {
+							"SLICE_BY": [],
+							"precision": 1
+						},
+						"chart_variables": {
+							"parents": [],
+							"operation": "SUM",
+							"format": {
+								"x": "date",
+								"y": ["coin_50"]
+							}
+						}
+					}
+				}
+			},
+			{
+				"id": 16,
+				"name": "coin_rm1",
+				"title_en": "Coins: RM 1 (coin)",
+				"title_bm": "Syiling: RM 1 (coin)",
+				"desc_en": "[Float] Total value of RM 1 (coin) coins in circulation, in RM millions",
+				"desc_bm": "[Apung] Nilai keseluruhan syiling RM 1 (coin) dalam edaran, dalam RM juta",
+				"catalog_data": {
+					"catalog_filters": {
+						"frequency": "MONTHLY",
+						"limit_frequency": true,
+						"geography": ["NATIONAL"],
+						"demography": [],
+						"start": "2000",
+						"end": "2023",
+						"data_source": ["BNM"]
+					},
+					"metadata_neutral": {
+						"data_as_of": "1955-07-31 23:59",
+						"last_updated": "2023-08-31 23:59",
+						"next_update": "2023-09-30 23:59"
+					},
+					"metadata_lang": {
+						"en": {
+							"methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
+							"caveat": "-",
+							"publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
+						},
+						"bm": {
+							"methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
+							"caveat": "-",
+							"publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
+						}
+					},
+					"chart": {
+						"chart_type": "TIMESERIES",
+						"chart_filters": {
+							"SLICE_BY": [],
+							"precision": 1
+						},
+						"chart_variables": {
+							"parents": [],
+							"operation": "SUM",
+							"format": {
+								"x": "date",
+								"y": ["coin_rm1"]
+							}
+						}
+					}
+				}
+			},
+			{
+				"id": 17,
+				"name": "coin_rm5",
+				"title_en": "Coins: RM 5 (coin)",
+				"title_bm": "Syiling: RM 5 (coin)",
+				"desc_en": "[Float] Total value of RM 5 (coin) coins in circulation, in RM millions",
+				"desc_bm": "[Apung] Nilai keseluruhan syiling RM 5 (coin) dalam edaran, dalam RM juta",
+				"catalog_data": {
+					"catalog_filters": {
+						"frequency": "MONTHLY",
+						"limit_frequency": true,
+						"geography": ["NATIONAL"],
+						"demography": [],
+						"start": "2000",
+						"end": "2023",
+						"data_source": ["BNM"]
+					},
+					"metadata_neutral": {
+						"data_as_of": "1955-07-31 23:59",
+						"last_updated": "2023-08-31 23:59",
+						"next_update": "2023-09-30 23:59"
+					},
+					"metadata_lang": {
+						"en": {
+							"methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
+							"caveat": "-",
+							"publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
+						},
+						"bm": {
+							"methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
+							"caveat": "-",
+							"publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
+						}
+					},
+					"chart": {
+						"chart_type": "TIMESERIES",
+						"chart_filters": {
+							"SLICE_BY": [],
+							"precision": 1
+						},
+						"chart_variables": {
+							"parents": [],
+							"operation": "SUM",
+							"format": {
+								"x": "date",
+								"y": ["coin_rm5"]
+							}
+						}
+					}
+				}
+			},
+			{
+				"id": 18,
+				"name": "coin_others",
+				"title_en": "Coins: Other",
+				"title_bm": "Syiling: Other",
+				"desc_en": "[Float] Total value of Other Coins coins in circulation, in RM millions",
+				"desc_bm": "[Apung] Nilai keseluruhan syiling Other Coins dalam edaran, dalam RM juta",
+				"catalog_data": {
+					"catalog_filters": {
+						"frequency": "MONTHLY",
+						"limit_frequency": true,
+						"geography": ["NATIONAL"],
+						"demography": [],
+						"start": "2000",
+						"end": "2023",
+						"data_source": ["BNM"]
+					},
+					"metadata_neutral": {
+						"data_as_of": "1955-07-31 23:59",
+						"last_updated": "2023-08-31 23:59",
+						"next_update": "2023-09-30 23:59"
+					},
+					"metadata_lang": {
+						"en": {
+							"methodology": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time.",
+							"caveat": "-",
+							"publication": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs)."
+						},
+						"bm": {
+							"methodology": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa.",
+							"caveat": "-",
+							"publication": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs)."
+						}
+					},
+					"chart": {
+						"chart_type": "TIMESERIES",
+						"chart_filters": {
+							"SLICE_BY": [],
+							"precision": 1
+						},
+						"chart_variables": {
+							"parents": [],
+							"operation": "SUM",
+							"format": {
+								"x": "date",
+								"y": ["coin_others"]
+							}
+						}
+					}
+				}
+			}
+		]
+	}
 }
