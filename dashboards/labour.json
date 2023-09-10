@@ -1,6 +1,6 @@
 {
     "dashboard_name": "labour",
-    "data_last_updated": "2023-07-31 23:59",
+    "data_last_updated": "2023-09-08 12:00",
     "route": "/dashboard/labour,/ms-MY/dashboard/labour",
     "sites": [
         "datagovmy"
@@ -12,8 +12,8 @@
         "timeseries": {
             "name": "timeseries",
             "chart_type": "timeseries_chart",
-            "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/labour_timeseries.parquet",
-            "data_as_of": "2023-05-31 23:59",
+            "chart_source": "https://storage.dosm.gov.my/dashboards/labour_timeseries.parquet",
+            "data_as_of": "2023-07-31 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -43,8 +43,8 @@
         "bar_chart": {
             "name": "bar_chart",
             "chart_type": "bar_meter",
-            "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/labour_barmeter.parquet",
-            "data_as_of": "2023-05-31 23:59",
+            "chart_source": "https://storage.dosm.gov.my/dashboards/labour_barmeter.parquet",
+            "data_as_of": "2023-07-31 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -62,8 +62,8 @@
         "choropleth_malaysia": {
             "name": "choropleth_malaysia",
             "chart_type": "choropleth_chart",
-            "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/labour_choropleth.parquet",
-            "data_as_of": "2023-05-31 23:59",
+            "chart_source": "https://storage.dosm.gov.my/dashboards/labour_choropleth.parquet",
+            "data_as_of": "2023-07-31 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -79,8 +79,8 @@
         "statistics": {
             "name": "statistics",
             "chart_type": "custom_chart",
-            "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/labour_timeseries_callout.parquet",
-            "data_as_of": "2023-05-31 23:59",
+            "chart_source": "https://storage.dosm.gov.my/dashboards/labour_timeseries_callout.parquet",
+            "data_as_of": "2023-07-31 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
