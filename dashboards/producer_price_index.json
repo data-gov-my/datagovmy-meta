@@ -1,6 +1,6 @@
 {
     "dashboard_name": "producer_price_index",
-    "data_last_updated": "2023-08-28 23:59",
+    "data_last_updated": "2023-08-28 12:00",
     "route": "/dashboard/producer-price-index,/ms-MY/dashboard/producer-price-index",
     "sites": [
         "datagovmy"
