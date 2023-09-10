@@ -19,7 +19,7 @@
         "link_preview": "https://storage.data.gov.my/finsector/interestrates.parquet",
         "variables": [
             {
-                "id": 0,
+                "id": -1,
                 "name": "date",
                 "title_en": "Date",
                 "title_bm": "Tarikh",
