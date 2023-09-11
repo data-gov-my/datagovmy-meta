@@ -1,36 +1,58 @@
 {
-    "dashboard_name": "income_tax",
-    "data_last_updated": "2023-06-28 23:59",
-    "route": "/dashboard/income-taxation,/ms-MY/dashboard/income-taxation",
-    "sites": [
-        "datagovmy"
-    ],
-    "manual_trigger": "1",
-    "required_params": [],
-    "optional_params": [],
-    "charts": {
-        "stacked_bar": {
-            "name": "stacked_bar",
-            "chart_type": "bar_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/income_tax_stacked_bar.parquet",
-            "data_as_of": "2023-06-28 23:59",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "keys": [
-                    "type"
-                ],
-                "rename_cols": {
-                    "date": "x"
-                },
-                "x": "x",
-                "y": [
-                    "direct_iita",
-                    "direct_pita",
-                    "direct_cita",
-                    "direct_subtotal"
-                ]
-            }
-        }
-    }
+	"dashboard_name": "income_tax",
+	"data_last_updated": "2023-06-28 23:59",
+	"route": "/dashboard/income-taxation,/ms-MY/dashboard/income-taxation",
+	"sites": ["datagovmy"],
+	"manual_trigger": "1",
+	"required_params": [],
+	"optional_params": [],
+	"charts": {
+		"stacked_bar": {
+			"name": "stacked_bar",
+			"chart_type": "bar_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/incometax_stackedbar.parquet",
+			"data_as_of": "2023-06-28 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["type"],
+				"rename_cols": {
+					"date": "x"
+				},
+				"x": "x",
+				"y": [
+					"direct_iita",
+					"direct_pita",
+					"direct_cita",
+					"direct_subtotal"
+				]
+			}
+		},
+		"timeseries": {
+			"name": "timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/incometax_timeseries.parquet",
+			"data_as_of": "2023-08-23 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": ["x", "total", "solo", "joint", "zero"]
+			}
+		},
+		"timeseries_callout": {
+			"name": "timeseries_callout",
+			"chart_type": "custom_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/incometax_timeseries_callout.parquet",
+			"data_as_of": "2023-08-23 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["chart"],
+				"value_columns": ["latest"]
+			}
+		}
+	}
 }
