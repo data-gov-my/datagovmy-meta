@@ -3,7 +3,7 @@
 	"data_last_updated": "2023-09-01 09:00",
 	"route": "/dashboard/car-popularity,/ms-MY/dashboard/car-popularity",
 	"sites": ["datagovmy"],
-	"manual_trigger": "van",
+	"manual_trigger": "",
 	"required_params": [],
 	"optional_params": ["maker", "model"],
 	"charts": {
