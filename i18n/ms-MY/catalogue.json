@@ -99,7 +99,8 @@
 			"desc1": "Kod berikut adalah contoh bagaimana untuk membuat pertanyaan API untuk mengambil katalog data yang disebutkan di atas. Anda boleh menggunakan pelbagai bahasa pengaturcaraan dengan menukar kod mengikut keperluan. Untuk panduan lengkap mengenai parameter pertanyaan dan sintaksis yang mungkin, sila rujuk kepada ",
 			"link1": "Dokumentasi Open API",
 			"desc2": "Selain itu, anda boleh bereksperimen dengan kod secara interaktif dan menghantar pertanyaan di bahagian ",
-			"link2": "Permintaan Contoh"
+			"link2": "Permintaan Contoh",
+			"unavailable": "Katalog data ini tidak boleh diakses melalui OpenAPI kerana sifat data yang tidak sesuai untuk akses API. Sila gunakan pautan muat turun yang disediakan untuk dataset penuh seperti yang ditunjukkan di bahagian atas."
 		},
 		"license_text": "Data ini adalah data terbuka di bawah lesen Creative Commons Attribution 4.0 International (CC BY 4.0). Penerangan lesen tersebut boleh didapati di ",
 		"try_datagpt": "Cubalah DataGPT baharu"

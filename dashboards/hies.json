@@ -1,7 +1,7 @@
 {
 	"dashboard_name": "hies",
-	"data_last_updated": "2023-09-01 23:59",
-	"route": "/dashboard/household-income-and-expenditure,/ms-MY/dashboard/household-income-and-expenditure",
+	"data_last_updated": "2023-07-28 12:00",
+	"route": "/dashboard/household-income-expenditure,/ms-MY/dashboard/household-income-expenditure",
 	"sites": ["opendosm"],
 	"manual_trigger": "0",
 	"required_params": [],
@@ -10,8 +10,8 @@
 		"timeseries": {
 			"name": "timeseries",
 			"chart_type": "timeseries_chart",
-			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/hies_timeseries.parquet",
-			"data_as_of": "2023-09-01 23:59",
+			"chart_source": "http://storage.dosm.gov.my/dashboards/hies_timeseries.parquet",
+			"data_as_of": "2022-12-31 23:59",
 			"api_type": "dynamic",
 			"api_params": ["state"],
 			"variables": {
@@ -25,8 +25,8 @@
 		"timeseries_callout": {
 			"name": "timeseries_callout",
 			"chart_type": "custom_chart",
-			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/hies_timeseries_callout.parquet",
-			"data_as_of": "2023-09-01 23:59",
+			"chart_source": "http://storage.dosm.gov.my/dashboards/hies_timeseries_callout.parquet",
+			"data_as_of": "2022-12-31 23:59",
 			"api_type": "dynamic",
 			"api_params": ["state"],
 			"variables": {
@@ -37,8 +37,8 @@
 		"choropleth_state": {
 			"name": "choropleth_state",
 			"chart_type": "choropleth_chart",
-			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/hies_choropleth_state.parquet",
-			"data_as_of": "2023-09-01 23:59",
+			"chart_source": "http://storage.dosm.gov.my/dashboards/hies_choropleth_state.parquet",
+			"data_as_of": "2022-12-31 23:59",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -58,8 +58,8 @@
 		"choropleth_district": {
 			"name": "choropleth_district",
 			"chart_type": "choropleth_chart",
-			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/hies_choropleth_district.parquet",
-			"data_as_of": "2023-09-01 23:59",
+			"chart_source": "http://storage.dosm.gov.my/dashboards/hies_choropleth_district.parquet",
+			"data_as_of": "2022-12-31 23:59",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {

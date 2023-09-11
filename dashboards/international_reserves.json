@@ -1,6 +1,6 @@
 {
     "dashboard_name": "international_reserves",
-    "data_last_updated": "2023-06-01 23:59",
+    "data_last_updated": "2023-09-07 15:00",
     "route": "/dashboard/international-reserves,/ms-MY/dashboard/international-reserves",
     "sites": [
         "datagovmy"
@@ -12,8 +12,8 @@
         "timeseries": {
             "name": "timeseries",
             "chart_type": "timeseries_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/intlreserves_timeseries.parquet",
-            "data_as_of": "2023-02-15 23:59",
+            "chart_source": "https://storage.data.gov.my/dashboards/intlreserves_timeseries.parquet",
+            "data_as_of": "2023-08-30 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -33,8 +33,8 @@
         "statistics": {
             "name": "statistics",
             "chart_type": "custom_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/intlreserves_timeseries_callout.parquet",
-            "data_as_of": "2023-02-15 23:59",
+            "chart_source": "https://storage.data.gov.my/dashboards/intlreserves_timeseries_callout.parquet",
+            "data_as_of": "2023-08-30 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {

@@ -5,14 +5,14 @@
     "sites": [
         "datagovmy"
     ],
-    "manual_trigger": "1",
+    "manual_trigger": "0",
     "required_params": [],
     "optional_params": [],
     "charts": {
         "timeseries": {
             "name": "timeseries",
             "chart_type": "timeseries_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/interestrates_timeseries.parquet",
+            "chart_source": "https://storage.data.gov.my/dashboards/interestrates_timeseries.parquet",
             "data_as_of": "2023-07-31 23:59",
             "api_type": "static",
             "api_params": [],
@@ -34,7 +34,7 @@
         "timeseries_opr": {
             "name": "timeseries_opr",
             "chart_type": "timeseries_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/interestrates_timeseries_opr.parquet",
+            "chart_source": "https://storage.data.gov.my/dashboards/interestrates_timeseries_opr.parquet",
             "data_as_of": "2023-09-07 23:59",
             "api_type": "static",
             "api_params": [],
@@ -52,7 +52,7 @@
         "statistics": {
             "name": "statistics",
             "chart_type": "custom_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/interestrates_timeseries_callout.parquet",
+            "chart_source": "https://storage.data.gov.my/dashboards/interestrates_timeseries_callout.parquet",
             "data_as_of": "2023-07-31 23:59",
             "api_type": "static",
             "api_params": [],
