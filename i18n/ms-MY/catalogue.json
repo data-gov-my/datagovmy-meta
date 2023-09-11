@@ -102,7 +102,6 @@
 			"link2": "Permintaan Contoh",
 			"unavailable": "Katalog data ini tidak boleh diakses melalui OpenAPI kerana sifat data yang tidak sesuai untuk akses API. Sila gunakan pautan muat turun yang disediakan untuk dataset penuh seperti yang ditunjukkan di bahagian atas."
 		},
-		"license_text": "Data ini adalah data terbuka di bawah lesen Creative Commons Attribution 4.0 International (CC BY 4.0). Penerangan lesen tersebut boleh didapati di ",
-		"try_datagpt": "Cubalah DataGPT baharu"
+		"license_text": "Data ini adalah data terbuka di bawah lesen Creative Commons Attribution 4.0 International (CC BY 4.0). Penerangan lesen tersebut boleh didapati di "
 	}
 }

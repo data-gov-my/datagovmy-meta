@@ -102,7 +102,6 @@
 			"link2": "Example Requests section",
 			"unavailable": "This data catalog is not available through OpenAPI as the nature of the data makes it unsuitable for API access. For the full dataset, please use the provided download link as shown in the above section."
 		},
-		"license_text": "This data is made open under the Creative Commons Attribution 4.0 International License (CC BY 4.0). A human-readable copy of the license is available ",
-		"try_datagpt": "Try the new DataGPT"
+		"license_text": "This data is made open under the Creative Commons Attribution 4.0 International License (CC BY 4.0). A human-readable copy of the license is available "
 	}
 }
