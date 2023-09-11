@@ -1,7 +1,7 @@
 {
     "route": "/dashboard/organ-donation",
     "sites": [
-        "datagovmy"
+        "kkmnow"
     ],
     "translation": {
         "header": "Organ Donation",

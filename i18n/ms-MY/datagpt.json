@@ -1,5 +1,5 @@
 {
-  "route": "/ms-MY/data-catalogue/datagpt",
+  "route": "/ms-MY/datagpt",
   "sites": ["datagovmy"],
   "translation": {
     "description": "Terokalah data terkini yang dikumpul oleh Malaysia dengan memulakan perbualan dengan DataGPT!",

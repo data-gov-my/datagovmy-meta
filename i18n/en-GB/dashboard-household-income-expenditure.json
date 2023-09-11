@@ -1,7 +1,7 @@
 {
     "route": "/dashboard/household-income-expenditure",
     "sites": [
-        "datagovmy"
+        "opendosm"
     ],
     "translation": {
         "header": "Household Income & Expenditure",

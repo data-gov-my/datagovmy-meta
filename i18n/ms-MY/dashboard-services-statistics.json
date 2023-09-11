@@ -1,5 +1,5 @@
 {
-  "route": "/dashboard/interest-rates",
+  "route": "/ms-MY/dashboard/interest-rates",
   "sites": ["opendosm"],
   "translation": {
     "header": "Statistik Perkhidmatan",

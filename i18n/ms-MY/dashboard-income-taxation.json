@@ -6,19 +6,7 @@
     "translation": {
         "header": "Cukai Pendapatan",
         "description": "Membayar cukai anda adalah satu bentuk patriotisme; satu cara di mana setiap penduduk Malaysia menyumbang kepada pembangunan negara kita. Tindakan ini mencipta hubungan timbal balik - sebagai pembayar cukai, anda mempunyai hak untuk kejelasan. Oleh itu, papan pemuka ini memberi anda cara yang menyeronokkan untuk meneroka data cukai pendapatan, dengan tumpuan khusus kepada cukai pendapatan individu. Berapa ramai orang yang membayar cukai? Berapa banyak yang anda bayar berbanding dengan orang lain? Adakah tingkah laku pembayaran cukai berbeza mengikut negeri? Terokai dan cari tahu!",
-        "overview": "Gambaran Keseluruhan",
-        "individual_taxes": "Cukai Individu",
         "rank_me": "Apa kedudukan saya?",
-        "absolute": "Mutlak",
-        "relative": "Relatif",
-        "total": "Jumlah",
-        "iita": "Individu",
-        "pita": "Lain-lain",
-        "cita": "Korporat",
-        "section2": {
-            "title": "Berapa bahagian cukai pendapatan yang datang dari individu?",
-            "description": "Selama 10 tahun yang lalu, kira-kira 25% daripada pendapatan cukai pendapatan terdapat dari individu. Carta di bawah memvisualisasikan kepentingan cukai individu dari tahun 1970 hingga kini."
-        },
         "rank_header": "Bagaimanakah anda berbanding pembayar cukai lain di Malaysia?",
         "annual_income": "Pendapatan Tahunan",
         "annual_tax_paid": "Cukai Tahunan",
@@ -26,7 +14,7 @@
         "enter_amount_tax_paid": "Isikan jumlah cukai tahunan anda",
         "valid_amount": "Sila isikan jumlah yang tidak kurang daripada 0.",
         "filter_by": "Tapisan:",
-        "self": "Taksiran Bersendirian",
+        "solo": "Taksiran Bersendirian",
         "joint": "Taksiran Bersama",
         "age": "Umur",
         "all_ages": "Semua umur",
@@ -37,9 +25,28 @@
         "you_are_here": "Anda di sini",
         "top": "Anda tergolong dalam kumpulan pembayar cukai ",
         "of_taxpayers": " teratas",
-        "_income": "mempunyai pendapatan",
-        "_tax_paid": "membayar cukai",
+        "income": "mempunyai pendapatan",
+        "tax_paid": "membayar cukai",
         "aged": "berumur",
-        "rank_desc": "Ini bermakna anda {{ more }} yang lebih berbanding {{ group_size_below, number }} daripada {{ group_size, number}} individu {{ aged }} di {{ state }} yang mengisytiharkan cukai individu pada tahun {{ year }}."
+        "rank_desc": "Ini bermakna anda {{ more }} yang lebih berbanding {{ group_size_below, number }} daripada {{ group_size, number}} individu {{ aged }} di {{ state }} yang mengisytiharkan cukai individu pada tahun {{ year }}.",
+        "section2": {
+            "title": "Berapa ramai individu yang membayar cukai setiap tahun?",
+            "total": "Jumlah Individu",
+            "solo": "Pemfailan Sendirian",
+            "joint": "Pemfailan Bersama (suami dan isteri)",
+            "zero": "Pemfailan tanpa Cukai Dibayar (pendapatan tidak mencukupi)",
+            "people": "individu",
+            "filings": "pemfailan"
+        },
+        "section3": {
+            "title": "Berapa bahagian cukai pendapatan yang datang dari individu?",
+            "description": "Selama 10 tahun yang lalu, kira-kira 25% daripada pendapatan cukai pendapatan terdapat dari individu. Carta di bawah memvisualisasikan kepentingan cukai individu dari tahun 1970 hingga kini."
+        },
+        "absolute": "Mutlak",
+        "relative": "Relatif",
+        "total": "Jumlah",
+        "iita": "Individu",
+        "pita": "Lain-lain",
+        "cita": "Korporat"
     }
 }

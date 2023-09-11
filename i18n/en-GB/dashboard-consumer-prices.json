@@ -1,7 +1,7 @@
 {
     "route": "/dashboard/consumer-prices",
     "sites": [
-        "datagovmy"
+        "opendosm"
     ],
     "translation": {
         "header": "Consumer Prices",

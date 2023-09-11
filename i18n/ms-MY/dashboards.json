@@ -161,7 +161,7 @@
         "description": "Data dan maklumat mengenai sekolah dan pendidikan."
       },
       "social-security": {
-        "name": "Keselamatan Sosial",
+        "name": "Bantuan Hilang Pekerjaan",
         "description": "Pemahaman dan kemas kini mengenai program dan faedah keselamatan sosial."
       },
       "weather-and-climate": {
@@ -271,6 +271,10 @@
       "household-debt": {
         "name": "Hutang Isi Rumah",
         "description": "Papan pemuka ini memberikan anda pandangan terhadap trend utama berkaitan hutang isi rumah."
+      },
+      "electronic-payments": {
+        "name": "Pembayaran Elektronij",
+        "description": "Papan pemuka ini memberi gambaran besar arah aliran statistik pembayaran elektronik yang ada di Malaysia."
       },
       "business-creation-destruction": {
         "name": "Penciptaan dan Pemusnahan Perniagaan",

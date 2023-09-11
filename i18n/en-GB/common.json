@@ -100,10 +100,12 @@
       "about": "About",
       "community": "Community",
       "helpdesk": "Helpdesk",
+      "legacy": "Legacy Site",
       "publications": "Publications",
       "pmo": "Prime Minister's Department",
       "gov": "Government of Malaysia",
       "open_source": "Open Source",
+      "open_data_portal": "Open Data Portal",
       "frontend": "Frontend Repo: NextJS",
       "backend": "Backend Repo: Django",
       "uiux": "UI + UX Design: Figma",
@@ -122,7 +124,8 @@
       "product_by_division": "A open data product by the",
       "visit_portal": "Visit our portal",
       "click_to_explore": "Click to explore",
-      "ovs": "Malaysian-born Overseas"
+      "ovs": "Malaysian-born Overseas",
+      "try_datagpt": "Try the new DataGPT"
     },
     "categories": {
       "construction": "Construction",

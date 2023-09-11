@@ -99,11 +99,13 @@
             "api_docs": "Dokumentasi API",
             "community": "Komuniti",
             "helpdesk": "Meja Bantuan",
+            "legacy": "Portal Lama",
             "publications": "Penerbitan",
             "about": "Tentang",
             "pmo": "Jabatan Perdana Menteri",
             "gov": "Kerajaan Malaysia",
             "open_source": "Sumber Terbuka",
+            "open_data_portal": "Portal Data Terbuka",
             "frontend": "Repo 'Frontend': NextJS",
             "backend": "Repo 'Backend': Django",
             "uiux": "Reka Bentuk UI + UX: Figma",
@@ -122,7 +124,8 @@
             "product_by_division": "Produk data terbuka oleh",
             "visit_portal": "Layari portal kami",
             "click_to_explore": "Klik untuk mengetahui lebih lanjut",
-            "ovs": "Lahir di Luar Negara"
+            "ovs": "Lahir di Luar Negara",
+            "try_datagpt": "Cubalah DataGPT baharu"
         },
         "categories": {
             "construction": "Pembinaan",

@@ -161,7 +161,7 @@
         "description": "Data and information on schools and education."
       },
       "social-security": {
-        "name": "High Frequency Labour Data",
+        "name": "Jobless Claims",
         "description": "Near-real time labour market data."
       },
       "weather-and-climate": {
@@ -271,6 +271,10 @@
       "household-debt": {
         "name": "Household Debt",
         "description": "This dashboard gives you insight into key trends on household debt."
+      },
+      "electronic-payments": {
+        "name": "Electronic Payments",
+        "description": "This dashboard gives you an overview of the electronic payment trends available in Malaysia."
       },
       "business-creation-destruction": {
         "name": "Business Creation and Destruction",

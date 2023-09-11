@@ -1,7 +1,7 @@
 {
     "route": "/ms-MY/dashboard/consumer-prices",
     "sites": [
-        "datagovmy"
+        "opendosm"
     ],
     "translation": {
         "header": "Harga Pengguna",

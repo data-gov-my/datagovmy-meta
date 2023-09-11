@@ -1,11 +1,17 @@
 {
-    "route": "/dashboard/prasarana-explorer",
+    "route": "/dashboard/rapid-bus-and-rail-explorer",
     "sites": [
         "datagovmy"
     ],
     "translation": {
-        "header": "Prasarana Explorer",
+        "header": "Rapid Bus and Rail Explorer",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "coming_soon": "Coming Soon",
+        "the": "The ",
+        "overview": " provides an overview of ridership trends.",
+        "on": "On ",
+        "live": " will go live with this special dashboard that allows you to explore ridership from any origin to any destination on Rapid Bus and Rail services, at daily frequency.",
+        "stay_tuned": "Stay Tuned!",
         "title": "Explore ridership data between any two stations on Prasarana-operated services!",
         "filters": "Filters",
         "origin": "Origin",

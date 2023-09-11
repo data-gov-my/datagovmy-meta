@@ -1,5 +1,5 @@
 {
-  "route": null,
+  "route": "/dashboard/kawasanku",
   "sites": ["opendosm"],
   "translation": {
     "title": "Kawasanku",

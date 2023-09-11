@@ -1,5 +1,5 @@
 {
-    "route": "ms-MY/dashboard/refugee-situation",
+    "route": "/ms-MY/dashboard/refugee-situation",
     "sites": [
         "datagovmy"
     ],
