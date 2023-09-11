@@ -1,11 +1,17 @@
 {
-    "route": "/ms-MY/dashboard/prasarana-explorer",
+    "route": "/ms-MY/dashboard/rapid-bus-and-rail-explorer",
     "sites": [
         "datagovmy"
     ],
     "translation": {
-        "header": "Peneroka Prasarana",
+        "header": "Peneroka Rapid Bus dan Rail",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "coming_soon": "Akan Datang",
+        "the": "Papan pemuka ",
+        "overview": " ini akan memberikan gambaran keseluruhan tentang tren data penumpang",
+        "on": "Pada ",
+        "live": " papan pemuka khas ini akan membolehkan anda menerokai data penumpang harian antara mana-mana 2 stesen yang dikendali Rapid Bus dan Rapid Rail.",
+        "stay_tuned": "Nantikan!",
         "title": "Terokailah data penumpang antara mana-mana 2 stesen yang dikendali Prasarana!",
         "filters": "Tapisan",
         "origin": "Permulaan",
