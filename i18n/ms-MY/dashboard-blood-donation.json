@@ -1,7 +1,7 @@
 {
     "route": "/ms-MY/dashboard/blood-donation",
     "sites": [
-        "datagovmy"
+        "kkmnow"
     ],
     "translation": {
         "title": "Program Kesihatan",

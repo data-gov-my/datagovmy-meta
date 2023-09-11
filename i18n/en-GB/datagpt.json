@@ -1,6 +1,6 @@
 {
-	"route": "/data-catalogue/datagpt",
-	"sites": ["datagovmy"],
+  "route": "/datagpt",
+  "sites": ["datagovmy"],
   "translation": {
     "description": "Start a conversation with DataGPT to explore the data Malaysia has collected so far.",
     "new_chat": "New chat",

@@ -1,7 +1,7 @@
 {
     "route": "/dashboard/peka-b40",
     "sites": [
-        "datagovmy"
+        "kkmnow"
     ],
     "translation": {
         "header": "PeKa B40",

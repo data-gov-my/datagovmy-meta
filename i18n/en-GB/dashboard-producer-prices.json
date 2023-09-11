@@ -1,7 +1,7 @@
 {
-    "route": null,
+    "route": "/dashboard/producer-prices",
     "sites": [
-        "datagovmy"
+        "opendosm"
     ],
     "translation": {
         "header": "Producer Prices",

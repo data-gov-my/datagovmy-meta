@@ -1,5 +1,5 @@
 {
-    "route": "ms-MY/dashboard/prasarana-explorer",
+    "route": "/ms-MY/dashboard/prasarana-explorer",
     "sites": [
         "datagovmy"
     ],

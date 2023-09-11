@@ -1,7 +1,7 @@
 {
-    "route": null,
+    "route": "/dashboard/wholesale-retail-trade",
     "sites": [
-        "datagovmy"
+        "opendosm"
     ],
     "translation": {
         "header": "Wholesale and Retail Trade",
