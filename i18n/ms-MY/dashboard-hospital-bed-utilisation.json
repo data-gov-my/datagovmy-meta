@@ -1,7 +1,7 @@
 {
     "route": "/ms-MY/dashboard/hospital-bed-utilisation",
     "sites": [
-        "datagovmy"
+        "kkmnow"
     ],
     "translation": {
         "header": "",

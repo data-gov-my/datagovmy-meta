@@ -1,7 +1,7 @@
 {
-    "route": null,
+    "route": "/dashboard/composite-index",
     "sites": [
-        "datagovmy"
+        "opendosm"
     ],
     "translation": {
         "header": "Composite Indices",

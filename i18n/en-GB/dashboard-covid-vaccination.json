@@ -1,14 +1,13 @@
 {
     "route": "/dashboard/covid-vaccination",
     "sites": [
-        "datagovmy"
+        "kkmnow"
     ],
     "translation": {
         "page_title": "COVID-19 Vaccination",
         "header": "The latest data on the National COVID-19 Immunisation Program",
         "description": "Building on the Ministry of Health's previous COVIDNOW dashboard, this page provides a summarised view of the COVID-19 vaccination program in Malaysia, allowing you to track its evolution on a daily basis.",
         "title_description2": "",
-        "description_link": "",
         "zoom": "Zoom into",
         "waffle_header": "{{ state }}: How vaccinated against COVID-19 are we?",
         "data": "Data for",

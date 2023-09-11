@@ -1,7 +1,7 @@
 {
-    "route": null,
+    "route": "/ms-MY/dashboard/industrial-production",
     "sites": [
-        "datagovmy"
+        "opendosm"
     ],
     "translation": {
         "header": "Pengeluaran Perindustrian",

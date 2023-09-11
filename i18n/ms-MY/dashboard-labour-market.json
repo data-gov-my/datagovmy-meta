@@ -1,7 +1,7 @@
 {
-    "route": null,
+    "route": "/ms-MY/dashboard/labour-market",
     "sites": [
-        "datagovmy"
+        "opendosm"
     ],
     "translation": {
         "header": "Pasaran Buruh",

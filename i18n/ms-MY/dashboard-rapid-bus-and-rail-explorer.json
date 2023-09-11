@@ -1,5 +1,5 @@
 {
-    "route": "ms-MY/dashboard/rapid-bus-and-rail-explorer",
+    "route": "/ms-MY/dashboard/rapid-bus-and-rail-explorer",
     "sites": [
         "datagovmy"
     ],

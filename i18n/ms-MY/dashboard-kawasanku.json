@@ -1,5 +1,5 @@
 {
-  "route": null,
+  "route": "/ms-MY/dashboard/kawasanku",
   "sites": ["opendosm"],
   "translation": {
     "title": "Kawasanku",

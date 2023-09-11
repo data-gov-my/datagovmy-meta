@@ -1,7 +1,7 @@
 {
-    "route": null,
+    "route": "/dashboard/industrial-production",
     "sites": [
-        "datagovmy"
+        "opendosm"
     ],
     "translation": {
         "header": "Industrial Production",

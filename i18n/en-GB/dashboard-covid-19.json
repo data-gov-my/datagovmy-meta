@@ -1,7 +1,7 @@
 {
     "route": "/dashboard/covid-19",
     "sites": [
-        "datagovmy"
+        "kkmnow"
     ],
     "translation": {
         "header": "COVID-19",

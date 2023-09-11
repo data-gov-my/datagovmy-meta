@@ -1,7 +1,7 @@
 {
     "route": "/ms-MY/dashboard/gdp",
     "sites": [
-        "datagovmy"
+        "opendosm"
     ],
     "translation": {
         "header": "Keluaran Dalam Negeri Kasar (KDNK)",

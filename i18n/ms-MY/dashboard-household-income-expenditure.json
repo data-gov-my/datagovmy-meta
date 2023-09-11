@@ -1,7 +1,7 @@
 {
     "route": "/ms-MY/dashboard/household-income-expenditure",
     "sites": [
-        "datagovmy"
+        "opendosm"
     ],
     "translation": {
         "header": "Pendapatan & Perbelanjaan Isi Rumah",
