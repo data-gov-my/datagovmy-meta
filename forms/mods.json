@@ -13,14 +13,14 @@
 			"name": "mods",
 			"subject": "Mods Application | {{expertise_area}}",
 			"content": "Join the telegram group (https://t.me/datagovmy)",
-			"html_content": "<!DOCTYPE html><html><head><title>Welcome to MODCom</title></head><body><p>Dear {{ name }},</p><p>Thank you for joining MODCom! Your interest in Malaysia's open data is greatly appreciated.</p><p>Join our Telegram group (https://t.me/datagovmy) to stay connected and receive instant updates on events and news related to MODCom.</p><p>We look forward to your active participation!</p><p>Best regards,</p><p>GovTech Malaysia</p></body></html>",
+			"html_content": "<!DOCTYPE html><html><head></head><body><p>Dear {{ name }},</p><p>Thank you for joining the MODCom! We really appreciate your support of Malaysia's open data journey.</p><p>Join our Telegram group (https://t.me/datagovmy) to stay connected and receive instant updates on data releases, events and news related to data.gov.my.</p><p>Welcome aboard!</p><p>Warm regards,<br>Public Sector Open Data team<br>MAMPU</p></body></html>",
 			"language": "en-GB"
 		},
 		{
 			"name": "mods",
 			"subject": "Permohonan Mods | {{expertise_area}}",
 			"content": "Sertai kumpulan Telegram (https://t.me/datagovmy)",
-			"html_content": "Salam Sejahtera {{name}},\n\nTerima kasih atas menyertai MODCom!\nKeprihatinan anda terhadap data terbuka Malaysia sangat dihargai.\nSertailah kumpulan Telegram kami (https://t.me/datagovmy) untuk kekal berhubung dan menerima kemas kini segera tentang acara dan berita berkaitan dengan MODCom.\nKami menantikan penyertaan aktif anda!\n\nSalam hormat,\nGovTech Malaysia.",
+			"html_content": "<!DOCTYPE html><html><head></head><body><p>Salam sejahtera {{ name }},</p><p>Terima kasih kerana menyertai MODCom! Kami amat menghargai kebersamaan anda dalam jelajah data terbuka Malaysia.</p><p>Sertai kami di Telegram (https://t.me/datagovmy) untuk mendapat berita terkini tentang penerbitan data baharu dan hal-hal lain berkaitan data.gov.my</p><p>Selamat datang!</p><p>Yang benar,<br>Pasukan Data Terbuka Sektor Awam,<br>MAMPU</p></body></html>",
 			"language": "ms-MY"
 		}
 	]
