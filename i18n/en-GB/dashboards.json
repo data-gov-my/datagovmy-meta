@@ -14,6 +14,7 @@
       "transport": "Transport",
       "demography": "Demography",
       "public-finances": "Public Finances",
+      "public-administration": "Public Administration",
       "economy": "Economy",
       "public-safety": "Public Safety",
       "financial-sector": "Financial Sector",
@@ -67,6 +68,10 @@
       "currency-in-circulation": {
         "name": "Currency in Circulation",
         "description": "Track currency flow and circulation trends."
+      },
+      "drug-addiction": {
+        "name": "Drug Addiction",
+        "description": "Track drug and substance abuses cases in Malaysia."
       },
       "election-explorer": {
         "name": "Election Explorer",
@@ -131,6 +136,10 @@
       "ipr": {
         "name": "The People's Income Initiative (IPR)",
         "description": "Track and analyze the impact of the People's Income Initiative."
+      },
+      "passport-and-passes": {
+        "name": "Passport and Passes",
+        "description": "Find out how many passports issued to Malaysians and visas for visiting foreigners."
       },
       "poverty": {
         "name": "Poverty",

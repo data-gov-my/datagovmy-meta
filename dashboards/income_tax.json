@@ -28,6 +28,34 @@
 				]
 			}
 		},
+		"query_values": {
+			"name": "query_values",
+			"chart_type": "query_values",
+			"chart_source": "https://storage.data.gov.my/dashboards/incometax_interactive.parquet",
+			"data_as_of": "2023-05-27 23:59",
+			"api_type": "dynamic",
+			"api_params": [],
+			"variables": {
+				"columns": ["variable", "state", "type", "age"]
+			}
+		},
+		"tax_percentile": {
+			"name": "tax_percentile",
+			"chart_type": "metrics_table",
+			"chart_source": "https://storage.data.gov.my/dashboards/incometax_interactive.parquet",
+			"data_as_of": "2023-09-12 23:59",
+			"api_type": "dynamic",
+			"api_params": ["variable", "state", "type", "age"],
+			"variables": {
+				"keys": ["variable", "state", "type", "age"],
+				"value_columns": [
+					"value",
+					"percentile",
+					"n_group",
+					"n_more_than"
+				]
+			}
+		},
 		"timeseries": {
 			"name": "timeseries",
 			"chart_type": "timeseries_chart",

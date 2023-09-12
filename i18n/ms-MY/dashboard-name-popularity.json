@@ -49,6 +49,12 @@
         "compare_toggle": "Susun mengikut Populariti",
         "error": {
             "censored_toast": "Sila masukkan nama yang elok & bersesuaian"
+        },
+        "coming_soon": {
+            "index": "Akan Datang",
+            "text_1": " membolehkan anda meneroka populariti nama sendiri atau nama keluarga di Malaysia dengan hanya beberapa klik!",
+            "text_2": "Papan pemuka ini akan dilancarkan pada ",
+            "stay_tuned": "Nantikan!"
         }
     }
 }

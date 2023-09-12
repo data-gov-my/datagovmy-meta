@@ -49,6 +49,12 @@
         "compare_toggle": "Sort by Popularity",
         "error": {
             "censored_toast": "Please enter an appropriate name"
+        },
+        "coming_soon": {
+            "index": "Coming Soon",
+            "text_1": " lets you explore the popularity of any Malaysian name or surname with just a few clicks!",
+            "text_2": "This dashboard will go live on ",
+            "stay_tuned": "Stay Tuned!"
         }
     }
 }

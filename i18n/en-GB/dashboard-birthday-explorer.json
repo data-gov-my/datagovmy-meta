@@ -5,8 +5,8 @@
     ],
     "translation": {
         "header": "Birthday Explorer",
-        "description": "Mark Twain once wrote that <i>{{ quote }}</i>. This website can't tell you the meaning of life; we're just a data site, after all. But what we can do is give you a fun, data-driven way to contextualise your birthday. How many people share your birthday? Which months of the year are most popular for giving birth? Which dates were particularly special? Explore the data below and find out!",
-        "quote": "“The two most important days in your life are the day you are born and the day you find out why”",
+        "description": "Mark Twain once wrote that \"<i>{{ quote }}</i>\". This website can't tell you the meaning of life; we're just a data site, after all. But what we can do is give you a fun, data-driven way to contextualise your birthday. How many people share your birthday? Which months of the year are most popular for giving birth? Which dates were particularly special? Explore the data below and find out!",
+        "quote": "The two most important days in your life are the day you are born and the day you find out why",
         "search": "Search Birthday",
         "enter_birthday": "Enter your birthday",
         "choose_state": "Choose state (optional)",
@@ -14,11 +14,11 @@
         "start_search": "Start searching for your birthday.",
         "section_1": {
             "title": "How popular is your birthday?",
-            "description": "Our birthday explorer only contains data from 1923 to 2017 for now. We will update this information from time to time."
+            "description": "Explore any date from 1920 to {{ year }}! Data for {{ next_year }} will be available once data for the year is complete."
         },
         "incomplete": "The date is incomplete. Please enter a valid date.",
-        "invalid_min": "Please enter a date later than 1st Jan 1923.",
-        "invalid_max": "Please enter a date earlier than 31st Dec 2017",
+        "invalid_min": "Please enter a date later than 1st Jan 1920.",
+        "invalid_max": "Please enter a date earlier than 31st Dec {{ year }}",
         "year": "You are {{ count }} year, ",
         "year_other": "You are {{ count }} years, ",
         "month": "{{ count }} month and ",

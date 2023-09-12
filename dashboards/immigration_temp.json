@@ -1,0 +1,54 @@
+{
+	"dashboard_name": "immigration_temp",
+	"data_last_updated": "2023-06-01 23:59",
+	"route": "/dashboard/passport-and-passes,/ms-MY/dashboard/passport-and-passes",
+	"sites": ["datagovmy"],
+	"manual_trigger": "0",
+	"required_params": [],
+	"optional_params": [],
+	"charts": {
+		"query_values": {
+			"name": "query_values",
+			"chart_type": "query_values",
+			"chart_source": "https://storage.data.gov.my/dashboards/immigration_timeseries_new.parquet",
+			"data_as_of": "2023-07-31 23:59",
+			"api_type": "dynamic",
+			"api_params": [],
+			"variables": {
+				"flat": true,
+				"columns": ["country"],
+				"sort_values": {
+					"by": ["country"],
+					"ascending": [true]
+				}
+			}
+		},
+		"timeseries_country": {
+			"name": "timeseries_country",
+			"chart_type": "timeseries_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/immigration_timeseries_new.parquet",
+			"data_as_of": "2023-07-31 23:59",
+			"api_type": "dynamic",
+			"api_params": ["country"],
+			"variables": {
+				"keys": ["country", "frequency"],
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": ["x", "in"]
+			}
+		},
+		"timeseries_country_callout": {
+			"name": "timeseries_country_callout",
+			"chart_type": "custom_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/immigration_timeseries_new_callout.parquet",
+			"data_as_of": "2023-07-31 23:59",
+			"api_type": "dynamic",
+			"api_params": ["country"],
+			"variables": {
+				"keys": ["country"],
+				"value_columns": ["in"]
+			}
+		}
+	}
+}

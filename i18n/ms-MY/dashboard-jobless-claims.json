@@ -5,9 +5,9 @@
     ],
     "translation": {
         "header": "Tuntutan Pengangguran",
-        "description": "Kira-kira 70% daripada tenaga buruh Malaysia berdaftar di bawah Sistem Insurans Pekerjaan (EIS) PERKESO, yang memberikan bantuan kewangan segera kepada pekerja sekiranya mereka kehilangan pekerjaan. Hasilnya, PERKESO dapat memerhati pasaran buruh Malaysia secara langsung. Bagi seseorang penggubal dasar, data PERKESO ini merupakan pelengkap yang penting kepada Survei Tenaga Buruh DOSM, yang selalunya ketinggalan 1 bulan setengah (Contohnya, data bagi Mei akan dikeluarkan pada pertengahan Julai) disebabkan masa yang diambil untuk menjalankan kajian soal selidik di seluruh negara. Papan pemuka ini membawakan kepada anda data buruh frekuensi tinggi PERKESO, dan membolehkan anda memerhati pelbagai arah aliran pasaran buruh!",
-        "losses_title": "Apakah tren pengangguran?",
-        "losses_desc": "Nota: Jumlah sebenar job losses adalah lebih daripada jumlah yang ditunjukkan di sini, kerana bukan semua pekerja berdaftar di bawah PERKESO.",
+        "description": "Lebih kurang 70% daripada tenaga buruh Malaysia berdaftar di bawah Sistem Insurans Pekerjaan (EIS) PERKESO, yang memberikan bantuan kewangan segera kepada pekerja sekiranya mereka kehilangan pekerjaan. Hasilnya, PERKESO dapat memerhati pasaran buruh Malaysia secara langsung. Bagi seseorang penggubal dasar, data PERKESO ini merupakan pelengkap yang penting kepada Survei Tenaga Buruh DOSM, yang selalunya ketinggalan 1 bulan setengah (Contohnya, data bagi Mei akan dikeluarkan pada pertengahan Julai) disebabkan masa yang diambil untuk menjalankan kajian soal selidik di seluruh negara. Papan pemuka ini membawakan kepada anda data buruh frekuensi tinggi PERKESO, dan membolehkan anda memerhati pelbagai arah aliran pasaran buruh!",
+        "job_loss_trend": "",
+        "job_loss_disclaimer": "",
         "trend_monthly": "Trend (bulanan)",
         "trend_yearly": "Trend (tahunan)",
         "job_loss_by_state": "{{ state }}: Analisis Pengangguran Bagi Tahun Ini",
