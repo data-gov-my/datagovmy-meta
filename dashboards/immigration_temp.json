@@ -19,7 +19,7 @@
 				"rename_cols": {
 					"date": "x"
 				},
-				"value_columns": ["x", "in", "frequency"]
+				"value_columns": ["x", "in"]
 			}
 		},
 		"timeseries_country_callout": {
