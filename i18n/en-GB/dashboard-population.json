@@ -8,7 +8,7 @@
         "description": "Brie halloumi say cheese. Say cheese mozzarella swiss bavarian bergkase danish fontina lancashire pepper jack when the cheese comes out everybody's happy. Chalk and cheese cheese on toast cottage cheese red leicester croque monsieur red leicester cheese on toast mascarpone. Cheesy feet squirty cheese squirty cheese pecorino camembert de normandie stinking bishop.",
         "section_population": {
             "title": "How is the population of {{ state }} trending?",
-            "description": "Population figures include both citizens and non-citizens, but does not include temporary residents."
+            "description": "Population figures include both citizens and non-citizens, but do not include temporary residents."
         },
         "section_vitalstats": {
             "title": "{{ state }}: How are vital statistics trending?",
