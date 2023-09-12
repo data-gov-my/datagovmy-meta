@@ -1,27 +1,29 @@
 {
-  "route": "/ms-MY/dashboard/services-producer-prices",
-  "sites": ["opendosm"],
-  "translation": {
-    "header": "Harga Pengeluar Perkhidmatan",
-    "description": "Secara ringkas, produktiviti buruh mengukur berapa banyak hasil yang dihasilkan untuk setiap jam kerja, atau setiap orang yang bekerja. Bertentangan dengan kepercayaan popular, ia sebenarnya tidak mengukur sama ada pekerja adalah 'rajinkan', tetapi lebih kepada sama ada kualiti kemahiran, mesin, dan proses yang digunakan meningkat dengan cukup baik. Selain pengangguran dan upah, pembuat dasar memberikan perhatian yang besar kepada produktiviti buruh, yang merupakan pendorong utama pertumbuhan ekonomi berkualiti tinggi. Papan pemuka ini mengesan produktiviti buruh di semua sektor utama dalam ekonomi Malaysia.",
-    "section_1": {
-      "title": "Bagaimana trend harga pengeluar dalam sektor perkhidmatan?"
-    },
-    "keys": {
-      "growth_qoq": "Pertumbuhan QoQ",
-      "growth_yoy": "Pertumbuhan YoY",
-      "index": "Indeks",
-      "recession": "Kemelesetan",
-      "no_shade": "Tiada lorekan",
-      "total": "Semua Perkhidmatan",
-      "infocomm": "Maklumat dan Komunikasi",
-      "transport": "Pengangkutan",
-      "accom": "Penginapan dan Makanan & Minuman",
-      "arts": "Seni, Hiburan & Rekreasi",
-      "professional": "Perkhidmatan Profesional",
-      "health": "Kesihatan",
-      "education": "Pendidikan",
-      "realestate" :"Hartanah"
+    "route": "/ms-MY/dashboard/services-producer-prices",
+    "sites": [
+        "opendosm"
+    ],
+    "translation": {
+        "header": "Harga Pengeluar Perkhidmatan",
+        "description": "Secara ringkas, produktiviti buruh mengukur nilai yang dihasilkan bagi setiap jam seseorang bekerja, atau bagi setiap orang yang bekerja. Bertentangan dengan persepsi am, ia sebenarnya tidak mengukur sama ada pekerja adalah 'rajin' atau 'malas', tetapi lebih kepada sama ada kualiti kemahiran, mesin, dan proses yang digunakan berada pada paras yang memuaskan. Selain pengangguran dan gaji, pembuat dasar memberikan perhatian kepada produktiviti buruh, yang merupakan pendorong utama pertumbuhan ekonomi berkualiti tinggi. Papan pemuka ini memaparkan statistik produktiviti buruh di semua sektor utama ekonomi Malaysia.",
+        "section_1": {
+            "title": "Bagaimana tren harga pengeluar dalam sektor perkhidmatan?"
+        },
+        "keys": {
+            "growth_qoq": "Pertumbuhan QoQ",
+            "growth_yoy": "Pertumbuhan YoY",
+            "index": "Indeks",
+            "recession": "Kemelesetan",
+            "no_shade": "Tiada lorekan",
+            "total": "Semua Perkhidmatan",
+            "infocomm": "Maklumat dan Komunikasi",
+            "transport": "Pengangkutan",
+            "accom": "Penginapan dan Makanan & Minuman",
+            "arts": "Seni, Hiburan & Rekreasi",
+            "professional": "Perkhidmatan Profesional",
+            "health": "Kesihatan",
+            "education": "Pendidikan",
+            "realestate": "Hartanah"
+        }
     }
-  }
 }
