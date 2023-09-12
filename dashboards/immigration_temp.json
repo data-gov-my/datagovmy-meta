@@ -7,6 +7,22 @@
 	"required_params": [],
 	"optional_params": [],
 	"charts": {
+		"query_values": {
+			"name": "query_values",
+			"chart_type": "query_values",
+			"chart_source": "https://storage.data.gov.my/dashboards/immigration_timeseries_new.parquet",
+			"data_as_of": "2023-07-31 23:59",
+			"api_type": "dynamic",
+			"api_params": [],
+			"variables": {
+				"flat": true,
+				"columns": ["country"],
+				"sort_values": {
+					"by": ["country"],
+					"ascending": [true]
+				}
+			}
+		},
 		"timeseries_country": {
 			"name": "timeseries_country",
 			"chart_type": "timeseries_chart",
