@@ -199,7 +199,11 @@
       },
       "ktmb-explorer": {
         "name": "KTMB Explorer",
-        "description": "Explore ridership by services, origins and destination."
+        "description": "Explore ridership by service, origins and destination."
+      },
+      "rapid-bus-rail": {
+        "name": "Rapid Bus & Rail Explorer",
+        "description": "Explore ridership by service, origins and destination."
       },
       "healthcare-facilities": {
         "name": "Healthcare Facilities",

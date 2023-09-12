@@ -199,7 +199,11 @@
       },
       "ktmb-explorer": {
         "name": "Peneroka KTMB",
-        "description": "Terokai jumlah penumpang mengikut perkhidmatan, asal, dan destinasi."
+        "description": "Penumpang mengikut perkhidmatan, asal, dan destinasi."
+      },
+      "rapid-bus-rail": {
+        "name": "Peneroka Bas & Rel Rapid Bus",
+        "description": "Penumpang mengikut perkhidmatan, asal, dan destinasi"
       },
       "healthcare-facilities": {
         "name": "Fasiliti Kesihatan",
