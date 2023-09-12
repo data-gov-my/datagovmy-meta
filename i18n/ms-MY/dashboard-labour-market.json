@@ -8,7 +8,7 @@
         "description": "Data daripada Laporan Tenaga Buruh bulanan, yang membentangkan statistik tenaga buruh, pekerjaan dan pengangguran yang diperoleh daripada Tinjauan Tenaga Buruh (LFS)",
         "section_1": {
             "title": "Apakah tren pengangguran?",
-            "description": ""
+            "description": "Individu yang menganggur adalah individu yang tidak bekerja semasa tempoh survei dilaksanakan, tetapi sudi bekerja dan sedang mencari pekerjaan."
         },
         "section_2": {
             "title": "Apakah tren penunjuk pasaran buruh lain?"

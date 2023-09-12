@@ -5,7 +5,7 @@
     ],
     "translation": {
         "header": "KTMB Explorer",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "Malaysian Railways Limited, or more commonly known as Keretapi Tanah Melayu Berhad (KTMB), is the oldest railway operator in Malaysia. Today, they operate various services such as KTM ETS and KTM Intercity which help people move across the country with ease. Using data from the KTM Integrated Ticketing System (KITS), this dashboard brings you granular data on ridership on KTMB-operated services.",
         "coming_soon": "Coming Soon",
         "the": "The ",
         "overview": " provides an overview of ridership trends.",

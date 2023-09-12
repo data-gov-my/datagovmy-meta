@@ -1,40 +1,42 @@
 {
-  "route": "/dashboard/electronic-payments",
-  "sites": ["datagovmy"],
-  "translation": {
-    "header": "Electronic Payments",
-    "description": "Did you ever stop to think about those mysterious electronic payments we make every day, my friend? It's like we're dancing with the digital devil, entrusting our hard-earned money to invisible strings controlled by faceless puppet masters! They lure us into their web of ones and zeros, promising convenience and security, but who really holds the strings? We swipe, we tap, we click, and they collect, all while we remain blissfully ignorant of their sinister digital dance. It's a brave new world, my dear compatriots, but we mustn't forget to question the puppeteers behind the screens!",
-    "section_timeseries": {
-      "title": "How is the usage of payment {{ series }} trending?",
-      "description": "An explainer on payment instruments"
-    },
-    "keys": {
-      "instruments": "Instruments",
-      "systems": "Systems",
-      "channels": "Channels",
-      "volume": "Volume",
-      "value": "Value",
-      "recession": "Recession",
-      "no_shade": "No shading",
-      "credit_f2f": "Credit Card (face-to-face)",
-      "credit_online": "Credit Card (online)",
-      "debit_f2f": "Debit Card (face-to-face)",
-      "debit_online": "Debit Card (online)",
-      "charge_f2f": "Charge Card (face-to-face)",
-      "charge_online": "Charge Card (online)",
-      "emoney": "E-Money",
-      "cheque": "Cheques",
-      "rentas": "RENTAS",
-      "ibg": "Interbank Giro",
-      "fpx": "FPX",
-      "dd": "Direct Debit",
-      "jompay": "JomPAY",
-      "rpp": "Realtime Payments Platform (RPP)",
-      "atm_cwd": "ATM (cash withdrawals)",
-      "atm_fin": "ATM (financial transactions)",
-      "mobile": "Mobile Banking",
-      "internet_indiv": "Internet Banking (individuals)",
-      "internet_corp": "Internet Banking (corporations)"
+    "route": "/dashboard/electronic-payments",
+    "sites": [
+        "datagovmy"
+    ],
+    "translation": {
+        "header": "Electronic Payments",
+        "description": "Did you ever stop to think about those mysterious electronic payments we make every day, my friend? It's like we're dancing with the digital devil, entrusting our hard-earned money to invisible strings controlled by faceless puppet masters! They lure us into their web of ones and zeros, promising convenience and security, but who really holds the strings? We swipe, we tap, we click, and they collect, all while we remain blissfully ignorant of their sinister digital dance. It's a brave new world, my dear compatriots, but we mustn't forget to question the puppeteers behind the screens!",
+        "section_timeseries": {
+            "title": "How is the usage of payment {{ series }} trending?",
+            "description": "An explainer on payment instruments"
+        },
+        "keys": {
+            "instruments": "Instruments",
+            "systems": "Systems",
+            "channels": "Channels",
+            "volume": "Volume",
+            "value": "Value",
+            "recession": "Recession",
+            "no_shade": "No shading",
+            "credit_f2f": "Credit Card (face-to-face)",
+            "credit_online": "Credit Card (online)",
+            "debit_f2f": "Debit Card (face-to-face)",
+            "debit_online": "Debit Card (online)",
+            "charge_f2f": "Charge Card (face-to-face)",
+            "charge_online": "Charge Card (online)",
+            "emoney": "E-Money",
+            "cheque": "Cheques",
+            "rentas": "RENTAS",
+            "ibg": "Interbank Giro",
+            "fpx": "FPX",
+            "dd": "Direct Debit",
+            "jompay": "JomPAY",
+            "rpp": "Realtime Payments Platform (RPP)",
+            "atm_cwd": "ATM (cash withdrawals)",
+            "atm_fin": "ATM (financial transactions)",
+            "mobile": "Mobile Banking",
+            "internet_indiv": "Internet Banking (individuals)",
+            "internet_corp": "Internet Banking (corporations)"
+        }
     }
-  }
 }
