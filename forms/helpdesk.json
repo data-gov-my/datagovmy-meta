@@ -1,27 +1,27 @@
 {
-  "send_email": true,
-  "validate_fields": [
-    "name",
-    "email",
-    "institution",
-    "category",
-    "feedback",
-    "language"
-  ],
-  "email_template": [
-    {
-      "name": "helpdesk",
-      "subject": "Helpdesk Ticket | {{category}}",
-      "content": "Hello {{name}}, thank you for submitting a helpdesk ticket!",
-      "html_content": "Hello <strong>{{name}}</strong>, thank you for submitting a helpdesk ticket! We will get back to you shortly.",
-      "language": "en-GB"
-    },
-    {
-      "name": "helpdesk",
-      "subject": "Ticket Helpdesk | {{category}}",
-      "content": "Apa khabar {{name}}, terima kasih atas ticket anda!",
-      "html_content": "Apa khabar <strong>{{name}}</strong>, terima kasih atas ticket anda!",
-      "language": "ms-MY"
-    }
-  ]
+	"send_email": true,
+	"validate_fields": [
+		"name",
+		"email",
+		"institution",
+		"category",
+		"feedback",
+		"language"
+	],
+	"email_template": [
+		{
+			"name": "helpdesk",
+			"subject": "Helpdesk Ticket Acknowledgement | {{category}}",
+			"content": "Dear {{name}}, your inquiry has been received and will be processed within 10 working days. If no response is received after 10 working days, please consider the ticket expired.",
+			"html_content": "<!DOCTYPE html><html><head></head><body><p>Dear {{name}},</p><p>Thank you for reaching out. We appreciate your inquiry and will process it within 10 working days.</p><p>Although we endeavor to respond to all tickets, it does depend on the content of your query (for instance, we will not respond to spam, abuse, or otherwise inappropriate submissions). If no response is received after 10 working days, please consider the ticket expired.</p><p>Warm regards,<br>Public Sector Open Data team<br>MAMPU</p></body></html>",
+			"language": "en-GB"
+		},
+		{
+			"name": "helpdesk",
+			"subject": "Pengesahan Penerimaan Tiket Meja Bantuan | {{category}}",
+			"content": "Salam sejahtera, {{nama}}. Tiket anda akan diproses dalam 10 hari bekerja atau lebih awal. Sekiranya tidak menerima sebarang respon dalam 10 hari bekerja, maka tiket anda telah dilupuskan.",
+			"html_content": "<!DOCTYPE html><html><head></head><body><p>Salam sejahtera, {{ name }}</p><p>Terima kasih kerana menghubungi kami. Tiket anda akan diproses dalam 10 hari bekerja atau lebih awal.</p><p>Walaupun kami berusaha untuk memberi maklumbalas yang tepat kepada semua tiket, ia masih bergantung kandungan pertanyaan anda (contohnya, kami tidak akan melayan spam). Sekiranya tidak menerima sebarang respon dalam 10 hari bekerja, maka tiket anda telah dilupuskan.</p><p>Sekian, terima kasih.</p><p>Yang benar,<br>Pasukan Data Terbuka Sektor Awam,<br>MAMPU</p></body></html>",
+			"language": "ms-MY"
+		}
+	]
 }
