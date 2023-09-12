@@ -13,7 +13,7 @@
 			"name": "mods",
 			"subject": "Mods Application | {{expertise_area}}",
 			"content": "Join the telegram group (https://t.me/datagovmy)",
-			"html_content": "Dear {{name}},\n\nThank you for joining MODCom!\nYour interest in Malaysia's open data is greatly appreciated.\nJoin our Telegram group (https://t.me/datagovmy) to stay connected and receive instant updates on events and news related to MODCom.\nWe look forward to your active participation!\n\nBest regards,\nGovTech Malaysia.",
+			"html_content": "<!DOCTYPE html><html><head><title>Welcome to MODCom</title></head><body><p>Dear {{ name }},</p><p>Thank you for joining MODCom! Your interest in Malaysia's open data is greatly appreciated.</p><p>Join our Telegram group (https://t.me/datagovmy) to stay connected and receive instant updates on events and news related to MODCom.</p><p>We look forward to your active participation!</p><p>Best regards,GovTech Malaysia</p></body></html>",
 			"language": "en-GB"
 		},
 		{
