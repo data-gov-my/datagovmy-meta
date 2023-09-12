@@ -11,10 +11,10 @@
         "map_desc": "Gunakan peta di atas untuk menerokai lokasi semua 42 stesen cuaca di Malaysia.",
         "station_temp_rain": "{{ station }}: Suhu dan Hujan",
         "disclaimer": "Nota: Untuk memastikan kelengkapan data, pemerhatian akan dijalankan secara manual sekiranya operasi automatik tidak dijalankan seperti biasa",
-        "mean_temp": "Purata Suhu",
+        "mean_temp": "Suhu Purata",
         "temperature": "Suhu",
         "total_rain": "Jumlah Hujan",
         "rainfall": "Hujan",
-        "days_with_rain": "Hari Hujan (tempoh 4 minggu)"
+        "days_with_rain": "Hari dengan Hujan"
     }
 }

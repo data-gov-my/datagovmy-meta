@@ -15,6 +15,6 @@
         "temperature": "Temperature",
         "total_rain": "Total Rainfall",
         "rainfall": "Rainfall",
-        "days_with_rain": "Days with Rain (past 4 weeks)"
+        "days_with_rain": "Days with Rain"
     }
 }

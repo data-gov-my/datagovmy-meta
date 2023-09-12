@@ -7,11 +7,11 @@
         "header": "Balance of Payments",
         "description": "Every single country does business with others to some degree. International trade and finance are especially important for Malaysia so we can access and benefit from global markets. By recording all our international transactions, the Balance of Payments (BOP) shows us how resources are flowing between Malaysia and other countries. It is one of 3 primary national accounts that convey Malaysia' broad economic performance, the other two being our Gross Domestic Product (GDP) and International Investment Position (IIP). This dashboard gives you an easy way to explore our BOP. Enjoy!",
         "section_snapshot": {
-            "title": "What is the current state of Malaysiaâs Balance of Payments (BOP)?",
+            "title": "What is the current state of Malaysia's Balance of Payments (BOP)?",
             "description": "Net figures are derived by subtracting liabilities from assets. A positive number indicates net assets, while a negative number indicates net liabilities."
         },
         "section_timeseries": {
-            "title": "How is Malaysiaâs Balance of Payments (BOP) trending?",
+            "title": "How is Malaysia's Balance of Payments (BOP) trending?",
             "description": "Net figures are derived by subtracting liabilities from assets. A positive number indicates net assets, while a negative number indicates net liabilities."
         },
         "keys": {

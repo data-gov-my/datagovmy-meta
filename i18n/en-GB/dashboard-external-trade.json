@@ -7,7 +7,7 @@
         "header": "External Trade Statistics",
         "description": "Countries with large populations have the advantage of a huge domestic market to support their growth and expansion. As a small economy, Malaysia does not have this luxury, and must take full advantage of international trade. It is therefore very important for policymakers to monitor the data on external trade, which is a key economic driver for Malaysia. This dashboard summarises important trade economic indicators, and in the near future, will be expanded to allow you to zoom into Malaysia' trading relationship with any country in the world!",
         "section_timeseries": {
-            "title": "How is Malaysiaâs trade balance trending?",
+            "title": "How is Malaysia's trade balance trending?",
             "description": "The trade balance is derived by subtracting the value of imports from the value of exports. A positive value indicates a trade surplus, while a negative value indicates a trade deficit."
         },
         "section_indices": {
