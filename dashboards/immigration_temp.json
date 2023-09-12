@@ -1,0 +1,44 @@
+{
+	"dashboard_name": "immigration_temp",
+	"data_last_updated": "2023-06-01 23:59",
+	"route": "/dashboard/passport-and-passes,/ms-MY/dashboard/passport-and-passes",
+	"sites": ["datagovmy"],
+	"manual_trigger": "0",
+	"required_params": [],
+	"optional_params": [],
+	"charts": {
+		"timeseries": {
+			"name": "timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/immigration_timeseries_new.parquet",
+			"data_as_of": "2023-05-23 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["period"],
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": [
+					"x",
+					"passport",
+					"expatriate",
+					"visit",
+					"entry"
+				]
+			}
+		},
+		"timeseries_callout": {
+			"name": "timeseries_callout",
+			"chart_type": "custom_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/immigration_timeseries_new_callout.parquet",
+			"data_as_of": "2023-05-23 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["chart", "variable"],
+				"value_columns": ["value"]
+			}
+		}
+	}
+}
