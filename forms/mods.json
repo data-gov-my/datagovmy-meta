@@ -1,27 +1,27 @@
 {
-  "send_email": true,
-  "validate_fields": [
-    "expertise_area",
-    "name",
-    "email",
-    "institution",
-    "description",
-    "language"
-  ],
-  "email_template": [
-    {
-      "name": "mods",
-      "subject": "Mods Application | {{expertise_area}}",
-      "content": "Hello {{name}}, thank you for applying!",
-      "html_content": "Hello <strong>{{name}}</strong>, thank you for applying to MODS!",
-      "language": "en-GB"
-    },
-    {
-      "name": "mods",
-      "subject": "Permohonan Mods | {{expertise_area}}",
-      "content": "Apa khabar {{name}}, terima kasih atas permohonan anda!",
-      "html_content": "Apa khabar <strong>{{name}}</strong>, terima kasih untuk memohon ke MODS!",
-      "language": "ms-MY"
-    }
-  ]
+	"send_email": true,
+	"validate_fields": [
+		"expertise_area",
+		"name",
+		"email",
+		"institution",
+		"description",
+		"language"
+	],
+	"email_template": [
+		{
+			"name": "mods",
+			"subject": "Mods Application | {{expertise_area}}",
+			"content": "Join the telegram group (https://t.me/datagovmy)",
+			"html_content": "Dear {{name}},\n\nThank you for joining MODCom!\nYour interest in Malaysia's open data is greatly appreciated.\nJoin our Telegram group (https://t.me/datagovmy) to stay connected and receive instant updates on events and news related to MODCom.\nWe look forward to your active participation!\n\nBest regards,\nGovTech Malaysia.",
+			"language": "en-GB"
+		},
+		{
+			"name": "mods",
+			"subject": "Permohonan Mods | {{expertise_area}}",
+			"content": "Sertai kumpulan Telegram (https://t.me/datagovmy)",
+			"html_content": "Salam Sejahtera {{name}},\n\nTerima kasih atas menyertai MODCom!\nKeprihatinan anda terhadap data terbuka Malaysia sangat dihargai.\nSertailah kumpulan Telegram kami (https://t.me/datagovmy) untuk kekal berhubung dan menerima kemas kini segera tentang acara dan berita berkaitan dengan MODCom.\nKami menantikan penyertaan aktif anda!\n\nSalam hormat,\nGovTech Malaysia.",
+			"language": "ms-MY"
+		}
+	]
 }
