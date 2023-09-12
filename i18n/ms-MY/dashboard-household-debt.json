@@ -5,10 +5,10 @@
     ],
     "translation": {
         "header": "Hutang Isi Rumah",
-        "description": "Hutang isi rumah Malaysia merupakan salah satu yang tertinggi di rantau ASEAN. Dalam konteks ini, Bank Negara Malaysia (BNM) menjaga kestabilan kewangan dengan memantau dan mengawal aktiviti pemberian pinjaman semua institusi kewangan di Malaysia, antara lain. Menggunakan data terkumpul dari Sistem Maklumat Rujukan Kredit Pusat Bank Negara Malaysia (CCRIS), papan pemuka ini memberikan anda pandangan tentang tren utama berkaitan hutang isi rumah. Untuk masa ini, ia menunjukkan data tentang 'arus' aktiviti pinjaman secara bulanan, yang dibahagikan mengikut tujuan. Pada masa akan datang, ia akan diperkukuhkan dengan data yang lebih terperinci yang menunjukkan keadaan berhutang penduduk Malaysia.",
+        "description": "Hutang isi rumah Malaysia adalah antara yang tertinggi di rantau ASEAN. Dalam situasi ini, Bank Negara Malaysia (BNM) memelihara kestabilan kewangan dengan memantau dan mengawal aktiviti pinjaman bagi semua institusi kewangan di Malaysia, antara lain lagi. Menggunakan data terkumpul dari Sistem Maklumat Rujukan Kredit Pusat (CCRIS) Bank Negara Malaysia, papan pemuka ini memaparkan tren utama berkaitan hutang isi rumah. Buat masa ini, ia menunjukkan aktiviti pinjaman bulanan secara am, mengikut tujuan pinjaman. Dalam tempoh masa yang terdekat, ia akan diperkukuhkan dengan data yang lebih terperinci yang menunjukkan keterhutangan rakyat Malaysia.",
         "section_1": {
-            "title": "Pemecahan aktiviti pemberian pinjaman mengikut tujuan",
-            "description": "Nilai pinjaman yang diluluskan adalah indikator yang merakam transaksi pinjaman sebenar, kerana permohonan pinjaman mungkin tidak diluluskan jika ia terlalu berisiko. Data mengenai permohonan dan kelulusan pinjaman tetap memberikan pandangan berguna tentang permintaan untuk pinjaman, serta tingkah laku institusi kewangan."
+            "title": "Peminjaman mengikut tujuan",
+            "description": "Nilai pinjaman yang dikeluarkan adalah indikator yang menggambarkan pinjaman sebenar, kerana sesuatu permohonan pinjaman mungkin tidak diluluskan jika ia terlalu berisiko. Namun, data mengenai permohonan dan kelulusan pinjaman tetap memberikan gambaran tentang permintaan untuk pinjaman, serta operasi institusi kewangan."
         },
         "keys": {
             "applied": "Pinjaman Dimohon",
@@ -16,7 +16,7 @@
             "disbursed": "Pinjaman Dikeluarkan",
             "repaid": "Pinjaman Dibayar Semula",
             "rm": "Nilai (RM)",
-            "growth_yoy": "Pertumbuhan YoY",
+            "growth_yoy": "Pertumbuhan Tahunan",
             "recession": "Kemelesetan",
             "no_shade": "Tiada lorekan",
             "credit_card": "Kad Kredit",
