@@ -14,7 +14,7 @@
 			"en": "Lorem ipsum.",
 			"bm": "Lorem ipsum."
 		},
-		"link_geojson": "https://storage.googleapis.com/dosm-public-geodata/admin_2_district.geojson",
+		"link_geojson": "https://storage.data.gov.my/boundaries/admin_2_district.geojson",
 		"variables": [
 			{
 				"id": 0,
@@ -27,7 +27,7 @@
 					"catalog_filters": {
 						"frequency": "AS_REQUIRED",
 						"geography": ["DISTRICT"],
-						"demography": ["SEX", "MARITAL"],
+						"demography": [],
 						"start": "2023",
 						"end": "2023",
 						"data_source": ["MAMPU"]
