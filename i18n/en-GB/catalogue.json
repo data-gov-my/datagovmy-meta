@@ -3,8 +3,8 @@
 	"sites": ["datagovmy"],
 	"translation": {
 		"header": "Data Catalogue",
-		"description": "Your one-stop interface to browse Malaysia's wealth of open data. This page will grow in depth and breadth every single day, providing richer and more varied data from all Malaysian federal and state agencies.",
-		"description_agency": "Your one-stop interface to browse {{ agency }}'s wealth of open data. This page will grow in depth and breadth every single day, providing richer and more varied data from {{ agency }}.",
+		"description": "Your one-stop interface to browse Malaysia's wealth of open data. This page will consistently grow in depth and breadth with high-quality data from federal and state agencies in Malaysia.\n\nLaunch note (13 Sep): To manage the release of new and novel datasets at this stage, we will not follow a '<i>data dump</i>' philosophy. Rather, we will incrementally release data in a controlled manner.\n\n13 Sep, 6:00PM: Look out for the release of daily births data, daily rainfall and temperature data, as well as granular income tax data!",
+		"description_agency": "Your one-stop interface to browse {{ agency }}'s wealth of open data. This page will consistently will grow in depth and breadth, providing richer and more varied data from {{ agency }}.",
 		"dataset_count": "{{ count }} data series, and counting",
 		"download": "Download",
 		"category": "Category",
