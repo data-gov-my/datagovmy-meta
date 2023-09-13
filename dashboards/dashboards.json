@@ -3,7 +3,7 @@
 	"data_last_updated": "2023-09-13 00:01",
 	"route": "/dashboard,/ms-MY/dashboard",
 	"sites": ["datagovmy"],
-	"manual_trigger": "0",
+	"manual_trigger": "",
 	"required_params": [],
 	"optional_params": [],
 	"charts": {
