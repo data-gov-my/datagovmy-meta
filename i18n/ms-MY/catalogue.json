@@ -3,7 +3,7 @@
 	"sites": ["datagovmy"],
 	"translation": {
 		"header": "Katalog Data",
-		"description": "Terokailah segala data terbuka Malaysia di sini! Ia akan diperluas secara konsisten dengan data berkualiti tinggi daripada semua agensi persekutuan dan negeri di Malaysia. Pada fasa awal, kami menerbitkan data secara terkawal dan bukan secara <i>data dump</i>. Pada 13 Sep, nantikan penerbitan data kelahiran harian, hujan dan suhu harian, serta data cukai yang terperinci!",
+		"description": "Terokailah segala data terbuka Malaysia di sini! Ia akan diperluas secara konsisten dengan data berkualiti tinggi daripada semua agensi persekutuan dan negeri di Malaysia. Pada fasa awal, kami menerbitkan data secara terkawal dan bukan secara <i>data dump</i>. Pada 14 Sep, nantikan penerbitan data kelahiran harian, hujan dan suhu harian, serta data cukai yang terperinci!",
 		"description_agency": "Terokailah segala data terbuka {{ agency }} di sini. Ia akan diperluas secara konsisten dengan data yang lebih terperinci dan pelbagai daripada {{ agency }}.",
 		"dataset_count": "{{ count }} siri data, dan semakin meningkat",
 		"download": "Muat turun",
