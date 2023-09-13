@@ -46,7 +46,7 @@
             },
             "car-popularity": {
                 "name": "Car Popularity Explorer",
-                "description": "Explore trends and popularity of car models."
+                "description": "Car model popularity and vehicle registration trends."
             },
             "circle-of-life": {
                 "name": "The Circle of Life",
@@ -106,11 +106,11 @@
             },
             "immigration": {
                 "name": "Immigration",
-                "description": "Data and insights on immigration patterns and trends."
+                "description": "Foreign arrivals in Malaysia by nationality."
             },
             "income-taxation": {
                 "name": "Income Taxation",
-                "description": "Information and updates on income tax policies."
+                "description": "Compare yourself against other Malaysian taxpayers!"
             },
             "interest-rates": {
                 "name": "Interest Rates",
@@ -158,7 +158,7 @@
             },
             "public-transportation": {
                 "name": "Public Transportation",
-                "description": "Public transport ridership, analytics, and KPI tracking."
+                "description": "Ridership data from all main services."
             },
             "reserve-money": {
                 "name": "Reserve Money",
@@ -178,7 +178,7 @@
             },
             "weather-and-climate": {
                 "name": "Weather and Climate",
-                "description": "Stay informed about weather conditions and climate trends."
+                "description": "10 years of rainfall and temperature data."
             },
             "name-popularity": {
                 "name": "Baby Name Popularity",
@@ -186,7 +186,7 @@
             },
             "birthday-explorer": {
                 "name": "Birthday Popularity",
-                "description": "Discover the popularity of birthdays and birth dates."
+                "description": "Data-driven insights into your date of birth!"
             },
             "refugee-situation": {
                 "name": "Malaysia's Refugee Situation",
