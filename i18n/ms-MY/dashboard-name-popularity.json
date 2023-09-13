@@ -5,7 +5,7 @@
     ],
     "translation": {
         "header": "Populariti Nama Bayi",
-        "description": "Adakah anda ingin tahu betapa popularnya nama atau nama keluarga anda di Malaysia? Atau mungkin anda seorang ibu bapa yang mencari nama yang unik untuk anak anda? Papan pemuka populariti nama kami membolehkan anda meneroka populariti mana-mana nama atau nama keluarga Malaysia dengan hanya beberapa klik. Dengan menggunakan pangkalan data IC standard emas Malaysia, anda boleh mengetahui berapa ramai rakyat Malaysia yang berkongsi nama anda dan mendapat wawasan yang menarik tentang budaya yang pelbagai di negara ini. Semak sekarang dan puaskan rasa ingin tahu anda!",
+        "description": "Adakah anda ingin tahu betapa popularnya nama anda di Malaysia? Atau mungkin anda seorang ibu bapa yang mencari nama yang unik untuk anak anda? Papan pemuka populariti nama kami membolehkan anda meneroka populariti mana-mana nama atau nama keluarga Malaysia dengan hanya beberapa klik. Dengan menggunakan data agregat daripada pangkalan data Kad Pengenalan Malaysia, anda boleh mengetahui analisa yang menarik tentang nama dan budaya yang pelbagai di negara ini!",
         "section1_title1": "Nama-nama",
         "section1_title2": "paling popular pada tahun",
         "year_format": "{{year}}-an",
@@ -52,7 +52,7 @@
         },
         "coming_soon": {
             "index": "Akan Datang",
-            "text_1": " membolehkan anda meneroka populariti nama sendiri atau nama keluarga di Malaysia dengan hanya beberapa klik!",
+            "text_1": " membolehkan anda meneroka populariti nama anda di Malaysia dengan hanya beberapa klik!",
             "text_2": "Papan pemuka ini akan dilancarkan pada ",
             "stay_tuned": "Nantikan!"
         }
