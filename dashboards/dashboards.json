@@ -1,6 +1,6 @@
 {
 	"dashboard_name": "dashboards",
-	"data_last_updated": "2023-09-11 00:01",
+	"data_last_updated": "2023-09-13 00:01",
 	"route": "/dashboard,/ms-MY/dashboard",
 	"sites": ["datagovmy"],
 	"manual_trigger": "0",
@@ -10,8 +10,8 @@
 		"query_values": {
 			"name": "agency_dropdown",
 			"chart_type": "query_values",
-			"chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/dashboards_all.parquet",
-			"data_as_of": "2023-09-10 23:59",
+			"chart_source": "https://storage.data.gov.my/dashboards/dashboards_all.parquet",
+			"data_as_of": "2023-09-12 23:59",
 			"api_type": "dynamic",
 			"api_params": [],
 			"variables": {
@@ -26,7 +26,7 @@
 			"name": "dashboards_top",
 			"chart_type": "metrics_table",
 			"chart_source": "https://storage.data.gov.my/dashboards/dashboards_top.parquet",
-			"data_as_of": "2023-09-10 23:59",
+			"data_as_of": "2023-09-12 23:59",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -37,8 +37,8 @@
 		"dashboards_all": {
 			"name": "dashboards_all",
 			"chart_type": "metrics_table",
-			"chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/dashboards_all.parquet",
-			"data_as_of": "2023-09-10 23:59",
+			"chart_source": "https://storage.data.gov.my/dashboards/dashboards_all.parquet",
+			"data_as_of": "2023-09-12 23:59",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -49,8 +49,8 @@
 		"dashboards_route": {
 			"name": "dashboards_route",
 			"chart_type": "custom_chart",
-			"chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/dashboards_all.parquet",
-			"data_as_of": "2023-09-10 23:59",
+			"chart_source": "https://storage.data.gov.my/dashboards/dashboards_all.parquet",
+			"data_as_of": "2023-09-12 23:59",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
