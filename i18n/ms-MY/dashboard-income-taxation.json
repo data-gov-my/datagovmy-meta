@@ -34,7 +34,7 @@
         "rank_desc": "Ini bermakna anda {{ more }} yang lebih berbanding {{ n_more_than, number }} daripada {{ n_group, number}} individu {{ aged }} di {{ state }}{{ assessment }} pada tahun {{ year }}.",
         "section2": {
             "title": "Berapa ramai individu yang membayar cukai setiap tahun?",
-            "total": "Jumlah Individu",
+            "total": "Jumlah Taksiran",
             "solo": "Diri Sendiri",
             "joint": "Bersama Suami / Isteri",
             "zero": "Tidak Dikenakan Cukai (pendapatan tidak mencukupi)",
