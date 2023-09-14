@@ -23,7 +23,7 @@
                 "name": "date",
                 "title_en": "Date of Birth",
                 "title_bm": "Tarikh Kelahiran",
-                "desc_en": "[Date] Date of birth in YYYY-MM-DD format; note that this date represents the actual date of birth and NOT tha date of registration with JPN",
+                "desc_en": "[Date] Date of birth in YYYY-MM-DD format; note that this date represents the actual date of birth and NOT the date of registration with JPN",
                 "desc_bm": "[Tarikh] Tarikh lahir dalam format YYYY-MM-DD; perlu ditekankan bahawa tarikh ini merujuk kepada tarikh kelahiran sebenar dan BUKAN tarikh pendaftaran dengan JPN"
             },
             {
@@ -31,7 +31,7 @@
                 "name": "state",
                 "title_en": "State",
                 "title_bm": "Negeri",
-                "desc_en": "[Categorical] Name of the state - with only Malaysia included for now",
+                "desc_en": "[Categorical] Name of the state, with only Malaysia included for now",
                 "desc_bm": "[Kategori] Name negeri, namun hanya data untuk Malaysia disediakan buat masa ini"
             },
             {
@@ -92,11 +92,11 @@
                     "translations": {
                         "en": {
                             "x": "Date",
-                            "y1": "Value"
+                            "y1": "Births"
                         },
                         "bm": {
                             "x": "Tarikh",
-                            "y1": "Nilai"
+                            "y1": "Kelahiran"
                         }
                     }
                 }
