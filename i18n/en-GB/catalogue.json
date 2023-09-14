@@ -1,5 +1,5 @@
 {
-	"route": "/data-catalogue",
+	"route": null,
 	"sites": ["datagovmy"],
 	"translation": {
 		"header": "Data Catalogue",
