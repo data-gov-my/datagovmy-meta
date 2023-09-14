@@ -1,9 +1,9 @@
 {
 	"dashboard_name": "income_tax",
-	"data_last_updated": "2023-06-28 23:59",
+	"data_last_updated": "2023-08-01 00:01",
 	"route": "/dashboard/income-taxation,/ms-MY/dashboard/income-taxation",
 	"sites": ["datagovmy"],
-	"manual_trigger": "1",
+	"manual_trigger": "",
 	"required_params": [],
 	"optional_params": [],
 	"charts": {
@@ -11,7 +11,7 @@
 			"name": "stacked_bar",
 			"chart_type": "bar_chart",
 			"chart_source": "https://storage.data.gov.my/dashboards/incometax_stackedbar.parquet",
-			"data_as_of": "2023-06-28 23:59",
+			"data_as_of": "2022-12-31 23:59",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -32,7 +32,7 @@
 			"name": "query_values",
 			"chart_type": "query_values",
 			"chart_source": "https://storage.data.gov.my/dashboards/incometax_interactive.parquet",
-			"data_as_of": "2023-05-27 23:59",
+			"data_as_of": "2023-07-31 23:59",
 			"api_type": "dynamic",
 			"api_params": [],
 			"variables": {
@@ -43,7 +43,7 @@
 			"name": "tax_percentile",
 			"chart_type": "metrics_table",
 			"chart_source": "https://storage.data.gov.my/dashboards/incometax_interactive.parquet",
-			"data_as_of": "2023-09-12 23:59",
+			"data_as_of": "2023-07-31 23:59",
 			"api_type": "dynamic",
 			"api_params": ["variable", "state", "type", "age"],
 			"variables": {
@@ -60,7 +60,7 @@
 			"name": "timeseries",
 			"chart_type": "timeseries_chart",
 			"chart_source": "https://storage.data.gov.my/dashboards/incometax_timeseries.parquet",
-			"data_as_of": "2023-08-23 23:59",
+			"data_as_of": "2023-07-31 23:59",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -74,7 +74,7 @@
 			"name": "timeseries_callout",
 			"chart_type": "custom_chart",
 			"chart_source": "https://storage.data.gov.my/dashboards/incometax_timeseries_callout.parquet",
-			"data_as_of": "2023-08-23 23:59",
+			"data_as_of": "2023-07-31 23:59",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {

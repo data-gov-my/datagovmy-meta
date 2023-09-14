@@ -5,7 +5,7 @@
     ],
     "translation": {
         "header": "Baby Name Popularity",
-        "description": "Are you curious about how popular your name or surname is in Malaysia? Or perhaps you're a parent-to-be searching for a unique name for your child? Our name popularity dashboard lets you explore the popularity of any Malaysian name or surname with just a few clicks. Using Malaysia's gold-standard IC database, you can discover how many Malaysians share your name and gain fascinating insights into the country's diverse culture. Check it out now and satisfy your curiosity!",
+        "description": "Are you curious about how popular your name is in Malaysia? Or perhaps you're a parent-to-be searching for a unique name for your child? Our name popularity dashboard lets you explore the popularity of any Malaysian name with just a few clicks. Using aggregated data from Malaysia's gold-standard IC database, you can discover how many Malaysians share your name and gain fascinating insights into the country's diverse culture. Check it out now and satisfy your curiosity!",
         "section1_title1": "Most popular",
         "section1_title2": "baby names in",
         "year_format": "{{year}}s",
@@ -52,7 +52,7 @@
         },
         "coming_soon": {
             "index": "Coming Soon",
-            "text_1": " lets you explore the popularity of any Malaysian name or surname with just a few clicks!",
+            "text_1": " will let you explore the popularity of any Malaysian name with just a few clicks!",
             "text_2": "This dashboard will go live on ",
             "stay_tuned": "Stay Tuned!"
         }

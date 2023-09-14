@@ -46,7 +46,7 @@
             },
             "car-popularity": {
                 "name": "Populariti Kenderaan",
-                "description": "Terokai trend dan populariti model kereta."
+                "description": "Populariti model kereta dan tren pendaftaran kenderaan."
             },
             "circle-of-life": {
                 "name": "Kitaran Kehidupan",
@@ -106,11 +106,11 @@
             },
             "immigration": {
                 "name": "Imigresen",
-                "description": "Data dan pemahaman mengenai corak dan trend imigresen."
+                "description": "Ketibaan di Malaysia mengikut kewarganegaraan."
             },
             "income-taxation": {
                 "name": "Cukai Pendapatan",
-                "description": "Maklumat dan kemas kini mengenai dasar cukai pendapatan."
+                "description": "Bandingkan diri dengan pembayar cukai lain di Malaysia!"
             },
             "interest-rates": {
                 "name": "Kadar Faedah",
@@ -158,7 +158,7 @@
             },
             "public-transportation": {
                 "name": "Pengangkutan Awam",
-                "description": "Data dan pemahaman mengenai sistem dan penggunaan pengangkutan awam."
+                "description": "Data penggunaan perkhidmatan pengangkutan awam utama."
             },
             "reserve-money": {
                 "name": "Wang Rizab",
@@ -178,7 +178,7 @@
             },
             "weather-and-climate": {
                 "name": "Cuaca dan Iklim",
-                "description": "Maklumat terkini mengenai keadaan cuaca dan trend iklim."
+                "description": "Siri masa panjang hujan dan suhu."
             },
             "name-popularity": {
                 "name": "Populariti Nama Bayi",
@@ -186,7 +186,7 @@
             },
             "birthday-explorer": {
                 "name": "Populariti Hari Lahir",
-                "description": "Temui populariti hari lahir dan tarikh kelahiran."
+                "description": "Analisa berpacukan data tentang tarikh kelahiran anda!"
             },
             "refugee-situation": {
                 "name": "Situasi Pelarian di Malaysia",

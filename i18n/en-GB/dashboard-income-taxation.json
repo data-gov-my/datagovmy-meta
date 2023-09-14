@@ -34,7 +34,7 @@
         "rank_desc": "This means that you {{ more }} than {{ n_more_than, number }} out of {{ n_group, number }} taxpayers {{ aged }} in {{ state }}{{ assessment }} in {{ year }}.",
         "section2": {
             "title": "How many people pay tax each year?",
-            "total": "Total Number of Individuals",
+            "total": "Total Number of Tax Filings",
             "solo": "Solo Filings",
             "joint": "Joint Filings (husband and wife)",
             "zero": "Filings with No Tax Paid (insufficient income)",
