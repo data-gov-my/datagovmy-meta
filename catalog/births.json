@@ -14,9 +14,9 @@
             "en": "This dataset tabulates the number of people born in Malaysia and registered with JPN from 1920 to the present.",
             "bm": "Set data ini menunjukkan jumlah orang yang lahir di Malaysia dan didaftarkan dengan JPN daripada 1920 sehingga kini."
         },
-        "link_parquet": "https://storage.datagovmy.gov.my/demography/births.parquet",
-        "link_csv": "https://storage.datagovmy.gov.my/demography/births.csv",
-        "link_preview": "https://storage.datagovmy.gov.my/demography/births.parquet",
+        "link_parquet": "https://storage.data.gov.my/demography/births.parquet",
+        "link_csv": "https://storage.data.gov.my/demography/births.csv",
+        "link_preview": "https://storage.data.gov.my/demography/births.parquet",
         "variables": [
             {
                 "id": -1,
