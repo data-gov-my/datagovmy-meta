@@ -1,6 +1,6 @@
 {
 	"route": "/data-catalogue",
-	"sites": ["datagovmy"],
+	"sites": ["opendosm"],
 	"translation": {
 		"header": "Data Catalogue",
 		"description": "Your one-stop interface to browse Malaysia's wealth of open data. This page will consistently grow in depth and breadth with high-quality data from federal and state agencies in Malaysia. In the early stages, we will incrementally release data in a controlled manner rather than a <i>data dump</i>. On 14th Sep, look out for the release of daily births data, daily rainfall and temperature data, as well as granular income tax data!",
