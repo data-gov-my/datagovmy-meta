@@ -1,6 +1,6 @@
 {
     "file": {
-        "manual_trigger": "na",
+        "manual_trigger": "",
         "exclude_openapi": true,
         "bucket": "pricecatcher",
         "file_name": "lookup_premise_preview",
