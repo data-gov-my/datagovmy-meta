@@ -1,7 +1,7 @@
 {
 	"dashboard_name": "epayment",
-	"data_last_updated": "2023-09-07 23:59",
-	"route": "/dashboard/epayment,/ms-MY/dashboard/epayment",
+	"data_last_updated": "2023-08-31 23:59",
+	"route": "/dashboard/electronic-payments,/ms-MY/dashboard/electronic-payments",
 	"sites": ["datagovmy"],
 	"manual_trigger": "0",
 	"required_params": [],
@@ -11,7 +11,7 @@
 			"name": "epayment_instruments_timeseries",
 			"chart_type": "timeseries_chart",
 			"chart_source": "https://storage.data.gov.my/dashboards/epayment_instruments_timeseries.parquet",
-			"data_as_of": "2023-09-07 23:59",
+			"data_as_of": "2023-07-31 23:59",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -37,7 +37,7 @@
 			"name": "epayment_instruments_timeseries_callout",
 			"chart_type": "custom_chart",
 			"chart_source": "https://storage.data.gov.my/dashboards/epayment_instruments_timeseries_callout.parquet",
-			"data_as_of": "2023-09-07 23:59",
+			"data_as_of": "2023-07-31 23:59",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -49,7 +49,7 @@
 			"name": "epayment_systems_timeseries",
 			"chart_type": "timeseries_chart",
 			"chart_source": "https://storage.data.gov.my/dashboards/epayment_systems_timeseries.parquet",
-			"data_as_of": "2023-09-07 23:59",
+			"data_as_of": "2023-07-31 23:59",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -73,7 +73,7 @@
 			"name": "epayment_systems_timeseries_callout",
 			"chart_type": "custom_chart",
 			"chart_source": "https://storage.data.gov.my/dashboards/epayment_systems_timeseries_callout.parquet",
-			"data_as_of": "2023-09-07 23:59",
+			"data_as_of": "2023-07-31 23:59",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -85,7 +85,7 @@
 			"name": "epayment_channels_timeseries",
 			"chart_type": "timeseries_chart",
 			"chart_source": "https://storage.data.gov.my/dashboards/epayment_channels_timeseries.parquet",
-			"data_as_of": "2023-09-07 23:59",
+			"data_as_of": "2023-07-31 23:59",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -108,7 +108,7 @@
 			"name": "epayment_channels_timeseries_callout",
 			"chart_type": "custom_chart",
 			"chart_source": "https://storage.data.gov.my/dashboards/epayment_channels_timeseries_callout.parquet",
-			"data_as_of": "2023-09-07 23:59",
+			"data_as_of": "2023-07-31 23:59",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
