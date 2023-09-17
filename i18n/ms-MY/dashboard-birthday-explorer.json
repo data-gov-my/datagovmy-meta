@@ -41,7 +41,7 @@
         "popular_while": ", manakala hari yang paling popular ialah ",
         "date": "{{ count }}hb {{ month }}",
         "rare": ", manakala hari yang paling jarang ialah ",
-        "explore": "Cubalah gunakan carta di bawah untuk menerokai bagaimana populariti hari lahir telah berubah sejak tahun 1923.",
+        "explore": "Cubalah gunakan carta di bawah untuk menerokai bagaimana populariti hari lahir telah berubah sejak tahun 1920.",
         "section_2": {
             "title": "{{ state }}: Jumlah bayi yang dilahirkan pada setiap tarikh, dari tahun {{ start_year }} ke {{ end_year }}",
             "title_same_year": "{{ state }}: Jumlah bayi yang dilahirkan pada setiap tarikh dalam tahun {{ start_year }}",
