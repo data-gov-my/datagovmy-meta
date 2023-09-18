@@ -17,6 +17,7 @@
       "404": {
         "title": "Oops, we cannot find the page you're looking for.",
         "description": "Is your URL incorrect?",
+        "legacy": "If you're looking for a dataset that was available via the old site, you may head to ",
         "reason": "Error code: 404 -- Page not found"
       },
       "toast": {
