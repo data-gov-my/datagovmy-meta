@@ -18,7 +18,8 @@
             },
             "404": {
                 "title": "Maaf, laman yang anda cari tidak dapat dijumpai.",
-                "description": "Adakah URL anda betul? Jika anda ingin menuju ke portal lama data.gov.my, sila klik pautan berikut: ",
+                "description": "Adakah URL anda betul?",
+                "legacy": "Jika anda ingin menuju ke portal lama data.gov.my, sila klik pautan berikut: ",
                 "reason": "Kod ralat: 404 -- Laman tidak dijumpai"
             },
             "toast": {
