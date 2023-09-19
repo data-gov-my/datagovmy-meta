@@ -10,6 +10,12 @@
         "subcategory": "PRICECATCHER",
         "subcategory_en": "PriceCatcher",
         "subcategory_bm": "PriceCatcher",
+        "category_opendosm": "CPI",
+        "category_opendosm_en": "Consumer Prices",
+        "category_opendosm_bm": "Harga Pengguna",
+        "subcategory_opendosm": "PRICECATCHER",
+        "subcategory_opendosm_en": "PriceCatcher",
+        "subcategory_opendosm_bm": "PriceCatcher",
         "description": {
             "en": "Lookup table, to be left-joined against item code in the main PriceCatcher data.",
             "bm": "Jadual carian, untuk dipadankan (left-join) dengan kod barang (item code) dalam dataset PriceCatcher utama."
