@@ -16,7 +16,7 @@
             "growth_momsa": "Pertumbuhan Bulanan",
             "recession": "Kemelesetan",
             "no_shade": "Tiada lorekan",
-            "sales": "Nilai Jualan (Ex-Factory)",
+            "sales": "Nilai Jualan (<i>Ex-Factory</i>)",
             "employees": "Bilangan Pekerja",
             "wages": "Gaji & Upah Dibayar"
         }

@@ -5,7 +5,7 @@
     ],
     "translation": {
         "header": "The Population of Malaysia",
-        "description": "Coming soon",
+        "description": "Measuring the population of Malaysia is the beating heart of everything we do at DOSM. Almost every single government agency relies on our population data to some degree, whether it is for surveillance, policy formulation, or policy implementation. This dashboard summarises key population trends and data at national and state level.",
         "section_population": {
             "title": "How is the population of {{ state }} trending?",
             "description": "Population figures include both citizens and non-citizens, but do not include temporary residents."

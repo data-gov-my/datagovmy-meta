@@ -17,9 +17,9 @@
         },
         "keys": {
             "growth_real_yoy": "Pertumbuhan Tahunan (harga malar)",
-            "growth_real_qoq": "Pertumbuhan Sukuan (harga malar, tsm)",
+            "growth_real_qoq": "Pertumbuhan Suku Tahunan (harga malar, tsm)",
             "growth_nominal_yoy": "Pertumbuhan Tahunan (harga semasa)",
-            "growth_nominal_qoq": "Pertumbuhan Sukuan (harga semasa)",
+            "growth_nominal_qoq": "Pertumbuhan Suku Tahunan (harga semasa)",
             "real": "Harga malar",
             "real_sa": "Harga malar (tsm)",
             "nominal": "Nominal",

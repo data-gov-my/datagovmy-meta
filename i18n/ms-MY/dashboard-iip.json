@@ -5,10 +5,10 @@
     ],
     "translation": {
         "header": "Kedudukan Pelaburan Antarabangsa (KPA)",
-        "description": "Berapa banyak wang yang dunia pelaburkan di Malaysia? Dan berapa banyak wang yang Malaysia pelaburkan di luar negeri? Ini adalah dua soalan penting bagi pembuat dasar kita, dijawab melalui data yang dikenali sebagai Kedudukan Pelaburan Antarabangsa (KPA). KPA merupakan salah satu daripada 3 akaun nasional utama yang menggambarkan prestasi ekonomi Malaysia, dua yang lain ialah Keluaran Dalam Negara Kasar (KDNK) dan Perimbangan Pembayaran (PP). Papan pemuka ini memberikan cara mudah untuk meneroka corak dan tren utama KPA. Selamat menikmati!",
+        "description": "Berapa banyak wang yang dilaburkan di Malaysia? Berapa banyak wang yang Malaysia laburkan di luar negera? Ini adalah dua soalan penting bagi penggubal dasar kita, yang dapat dijawab melalui data tentang Kedudukan Pelaburan Antarabangsa (<i>International Investment Position</i>) Malaysia. KPA merupakan salah satu daripada 3 akaun nasional utama yang menggambarkan prestasi ekonomi Malaysia, bersama Keluaran Dalam Negara Kasar (KDNK) dan Imbangan Pembayaran (BOP). Papan pemuka ini membolehkan anda menerokai tren terkini KPA Malaysia.",
         "section_1": {
-            "title": "Bagaimana tren Kedudukan Pelaburan Antarabangsa (KPA) di Malaysia?",
-            "description": "Angka bersih dihasilkan dengan mengurangkan liabiliti daripada aset. Nombor positif menunjukkan aset bersih, manakala nombor negatif menunjukkan liabiliti bersih."
+            "title": "Bagaimana tren Kedudukan Pelaburan Antarabangsa Malaysia?",
+            "description": "Angka bersih dihasilkan dengan menolak liabiliti daripada aset. Angka positif menunjukkan aset bersih, manakala nombor negatif menunjukkan liabiliti bersih."
         },
         "keys": {
             "net": "Jumlah Bersih",
@@ -26,7 +26,7 @@
             "no_shade": "Tiada lorekan",
             "reserve": "Rizab",
             "total": "Jumlah",
-            "qoq_change": "Perubahan QoQ"
+            "qoq_change": "Pertumbuhan Suku Tahunan"
         }
     }
 }
