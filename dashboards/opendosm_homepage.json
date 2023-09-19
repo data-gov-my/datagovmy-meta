@@ -3,7 +3,7 @@
 	"data_last_updated": "2023-09-19 00:01",
 	"route": "/,/ms-MY",
 	"sites": ["opendosm"],
-	"manual_trigger": "",
+	"manual_trigger": "1",
 	"required_params": [],
 	"optional_params": [],
 	"charts": {
