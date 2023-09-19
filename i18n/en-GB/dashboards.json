@@ -258,7 +258,7 @@
             },
             "formal-sector-wages": {
                 "name": "Formal Sector Wages",
-                "description": "Quarterly formal sector wages, based on administrative data from EPF, SOCSO"
+                "description": "Quarterly formal sector wages, based on administrative data from EPF and SOCSO"
             },
             "services-statistics": {
                 "name": "Services Statistics",

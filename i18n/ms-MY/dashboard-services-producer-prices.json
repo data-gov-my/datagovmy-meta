@@ -10,8 +10,8 @@
             "title": "Bagaimana tren harga pengeluar dalam sektor perkhidmatan?"
         },
         "keys": {
-            "growth_qoq": "Pertumbuhan QoQ",
-            "growth_yoy": "Pertumbuhan YoY",
+            "growth_qoq": "Pertumbuhan Suku Tahunan",
+            "growth_yoy": "Pertumbuhan Tahunan",
             "index": "Indeks",
             "recession": "Kemelesetan",
             "no_shade": "Tiada lorekan",

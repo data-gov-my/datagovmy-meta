@@ -14,7 +14,7 @@
             "title": "Pemecahan terperinci indeks perdagangan luaran utama mengikut bahagian komoditi SITC"
         },
         "keys": {
-            "growth_yoy": "Pertumbuhan YoY",
+            "growth_yoy": "Pertumbuhan Tahunan",
             "value": "Nilai (RM)",
             "index": "Indeks",
             "recession": "Kemelesetan",

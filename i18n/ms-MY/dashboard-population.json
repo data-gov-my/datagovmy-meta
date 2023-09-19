@@ -5,7 +5,7 @@
     ],
     "translation": {
         "header": "Populasi Penduduk Malaysia",
-        "description": "Akan datang",
+        "description": "Usaha perangkaan populasi Malaysia adalah cerucuk kepada segala kerja kami di DOSM. Hampir setiap agensi kerajaan bergantung kepada data penduduk yang kami hasilkan, sama ada untuk analisis, penggubalan dasar, ataupun pelaksanaan dasar kerajaan. Papan pemuka ini merumuskan tren kependudukan yang penting pada peringkat negara dan negeri.",
         "section_population": {
             "title": "Bagaimana tren populasi di {{ state }}?",
             "description": "Angka populasi merangkumi warganegara dan bukan warganegara, tetapi tidak termasuk penduduk sementara."
