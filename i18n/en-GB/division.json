@@ -28,9 +28,9 @@
       "full": "Price, Income & Expenditure Statistics Division",
       "abbr": "BPHPP"
     },
-    "bpib": {
+    "bpip": {
       "full": "Balance of Payments Statistics Division",
-      "abbr": "BPIB"
+      "abbr": "BPIP"
     },
     "bpksa": {
       "full": "Strategic Communication & International Division",
@@ -71,6 +71,10 @@
     "mbls": {
       "full": "Malaysian Bureau of Labour Statistics",
       "abbr": "MBLS"
+    },
+    "kpdn": {
+      "full": "Ministry of Domestic Trade",
+      "abbr": "KPDN"
     }
   }
 }

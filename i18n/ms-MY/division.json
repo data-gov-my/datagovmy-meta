@@ -28,9 +28,9 @@
             "full": "Bahagian Perangkaan Harga, Pendapatan & Perbelanjaan",
             "abbr": "BPHPP"
         },
-        "bpib": {
+        "bpip": {
             "full": "Bahagian Perangkaan Imbangan Pembayaran",
-            "abbr": "BPIB"
+            "abbr": "BPIP"
         },
         "bpksa": {
             "full": "Bahagian Perangkaan Komunikasi Strategik & Antrabangsa",
@@ -71,6 +71,10 @@
         "mbls": {
             "full": "Biro Statistik Buruh Malaysia",
             "abbr": "MBLS"
+        },
+        "kpdn": {
+          "full": "Kementerian Perdagangan Dalam Negeri",
+          "abbr": "KPDN"
         }
     }
 }
