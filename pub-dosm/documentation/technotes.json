@@ -1,31 +1,31 @@
 {
-	"publication": "cpi-technical-notes",
+	"publication": "technote-cpi",
 	"documentation_type": "technical-note",
 	"publication_type": "cpi",
-	"release_date": "2023-01-24",
+	"release_date": "2023-08-24",
 	"en": {
-		"title": "[Dec 2022] Consumer Price Index",
+		"title": "Consumer Price Index: Technical Notes",
 		"publication_type_title": "Consumer Price Index",
 		"description": "Official inflation data, covering headline, core, and state-level inflation",
 		"resources": [
 			{
 				"resource_id": 1,
 				"resource_type": "pdf",
-				"resource_name": "Consumer Price Index Report: Dec 2022",
-				"resource_link": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/publications/cpi_2022-12_report.pdf"
+				"resource_name": "Consumer Price Index: Technical Notes",
+				"resource_link": "https://storage.dosm.gov.my/technotes/technotes_cpi.pdf"
 			}
 		]
 	},
 	"bm": {
-		"title": "[Dis 2022] Indeks Harga Pengguna",
+		"title": "Consumer Price Index: Nota Teknikal",
 		"publication_type_title": "Indeks Harga Pengguna",
 		"description": "Data inflasi rasmi, merangkumi inflasi, inflasi teras, dan inflasi mengikut negeri",
 		"resources": [
 			{
 				"resource_id": 1,
 				"resource_type": "pdf",
-				"resource_name": "Laporan Indeks Harga Pengguna: Dis 2022",
-				"resource_link": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/publications/cpi_2022-12_report.pdf"
+				"resource_name": "Indeks Harga Pengguna: Nota Teknikal",
+				"resource_link": "https://storage.dosm.gov.my/technotes/technotes_cpi.pdf"
 			}
 		]
 	}
