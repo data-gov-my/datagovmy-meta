@@ -82,7 +82,7 @@
             },
             "exchange-rates": {
                 "name": "Exchange Rates",
-                "description": "Stay informed about currency exchange rates."
+                "description": "Exchange rate of the MYR against currencies of 24 major trading partners, including USA, China, UK, and Singapore."
             },
             "fire-and-rescue": {
                 "name": "Fire and Rescue",
@@ -218,7 +218,7 @@
             },
             "labour-market": {
                 "name": "Labour Markets",
-                "description": "Monthly Labour Force Survey (LFS) report"
+                "description": "Monthly Labour Force Survey (LFS) report, covering unemployment, labour force participation, and nature of employment."
             },
             "composite-index": {
                 "name": "Composite Indices",
@@ -234,7 +234,7 @@
             },
             "producer-prices": {
                 "name": "Producer Prices",
-                "description": "Monthly PPI inflation, covering producer prices for all main economic sectors."
+                "description": "Monthly PPI inflation, covering producer prices for all main economic sectors except services and construction."
             },
             "kawasanku": {
                 "name": "Kawasanku",
@@ -254,7 +254,7 @@
             },
             "labour-productivity": {
                 "name": "Labour Productivity",
-                "description": "Quarterly labour productivity across all key economic sectors."
+                "description": "Quarterly labour productivity across all key economic sectors, covering time-based and worker-based productivity."
             },
             "formal-sector-wages": {
                 "name": "Formal Sector Wages",
@@ -262,11 +262,11 @@
             },
             "services-statistics": {
                 "name": "Services Statistics",
-                "description": "Quarterly performance of services sub-sectors"
+                "description": "Quarterly performance of services sub-sectors, covering sales, employment, and wages."
             },
             "services-producer-prices": {
                 "name": "Services Producer Prices",
-                "description": "Quarterly producer prices in services subsectors"
+                "description": "Quarterly producer prices in the services sector, complementing the PPI which does not cover the services sector."
             },
             "construction-statistics": {
                 "name": "Construction Statistics",
