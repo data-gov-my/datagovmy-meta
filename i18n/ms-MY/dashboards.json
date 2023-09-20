@@ -58,7 +58,7 @@
             },
             "consumer-prices": {
                 "name": "Harga Pengguna",
-                "description": "Maklumat tentang harga pengguna."
+                "description": "Inflasi IHP bulanan di peringkat negara dan negeri, merangkumi IHP keseluruhan, IHP teras, dan IHP mengikut kategory."
             },
             "covid-19": {
                 "name": "COVID-19",
@@ -94,7 +94,7 @@
             },
             "gdp": {
                 "name": "Keluaran dalam Negari Kasar (KDNK)",
-                "description": "Ukur dan analisis pertumbuhan ekonomi."
+                "description": "Pertumbuhan ekonomi suku tahunan, merangkumi GDP pada harga malar dan semasa mengikut kategori perbelanjaan dan aktiviti ekonomi."
             },
             "government-site-tracker": {
                 "name": "Penggunaan Portal Kerajaan",
@@ -222,43 +222,43 @@
             },
             "composite-index": {
                 "name": "Indeks Komposit",
-                "description": "Indikator pelopor, serentak, dan susulan bagi ekonomi Malaysia"
+                "description": "Indikator pelopor, serentak, dan susulan bagi ekonomi Malaysia."
             },
             "wholesale-retail": {
                 "name": "Perdagangan Borong dan Runcit",
-                "description": "Prestasi bulanan perdagangan borong dan runcit"
+                "description": "Prestasi bulanan perdagangan borong dan runcit, termasukan prestasi jualan kenderaan bermotor."
             },
             "industrial-production": {
                 "name": "Pengeluaran Perindustrian",
-                "description": "Prestasi pengeluaran perindustrian bulanan, merangkumi perlombongan, pembuatan, dan penjanaan elektrik"
+                "description": "Prestasi pengeluaran perindustrian bulanan, merangkumi perlombongan, pembuatan, dan penjanaan elektrik."
             },
             "producer-prices": {
                 "name": "Harga Pengeluar",
-                "description": "Harga yang diterima pengeluar untuk 1,063 item ketika tahap pertama pemerdagangan berlaku."
+                "description": "Inflasi IHPR bulanan, merangkumi harga pengeluar bagi semua sektor ekonomi utama."
             },
             "kawasanku": {
                 "name": "Kawasanku",
-                "description": "Data populasi penduduk di peringkat Negeri, Daerah, Parlimen dan Dewan Undangan Negeri (DUN)."
+                "description": "Data Banci 2020 di peringkat negara, negeri, daerah pentadbiran, parlimen, dan DUN."
             },
             "iip": {
                 "name": "Kedudukan Pelaburan Antarabangsa",
-                "description": "Penyata kewangan aset dan liability kewangan luar Malaysia"
+                "description": "Penyata kewangan aset dan liability kewangan luar Malaysia; IIP menunjukkan stok manakala BOP menunjukkan aliran."
             },
             "bop": {
-                "name": "Perimbangan Pembayaran",
-                "description": "Penyata suku tahunan transaksi Malaysia dengan negara lain"
+                "name": "Imbangan Pembayaran",
+                "description": "Penyata suku tahunan transaksi Malaysia dengan negara lain; BOP menunjukkan aliran manakala IIP menunjukkan stok."
             },
             "manufacturing-statistics": {
                 "name": "Statistik Pembuatan",
-                "description": "Prestasi bulanan bagi subsektor pembuatan"
+                "description": "Prestasi bulanan bagi subsektor pembuatan, merangkumi nilai jualan, bilangan pekerja, serta gaji dan upah."
             },
             "labour-productivity": {
                 "name": "Produktiviti Buruh",
-                "description": "Produktiviti buruh suku tahunan bagi semua sektor ekonomi utama"
+                "description": "Produktiviti buruh suku tahunan bagi semua sektor ekonomi utama."
             },
             "formal-sector-wages": {
                 "name": "Gaji Sektor Formal",
-                "description": "Gaji suku tahunan sektor formal, berdasarkan data pentadbiran daripada KWSP dan PERKESO"
+                "description": "Gaji suku tahunan sektor formal di peringkat negara dan negeri, berdasarkan data pentadbiran daripada KWSP dan PERKESO"
             },
             "services-statistics": {
                 "name": "Statistik Perkhidmatan",
@@ -270,19 +270,19 @@
             },
             "construction-statistics": {
                 "name": "Statistik Pembinaan",
-                "description": "Survelan suku tahunan projek pembinaan di sektor awam dan swasta"
+                "description": "Survelan suku tahunan projek pembinaan di sektor awam dan swasta."
             },
             "household-income-expenditure": {
                 "name": "Pendapatan & Perbelanjaan Isi Rumah",
-                "description": "Pendapat dan perbelanjaan isi rumah di peringkat negeri dan daerah"
+                "description": "Pendapat dan perbelanjaan isi rumah di peringkat negeri dan daerah, dengan data terkini daripada survei 2022."
             },
             "population": {
                 "name": "Populasi Penduduk Malaysia",
-                "description": "Populasi Malaysia sejak 1980"
+                "description": "Populasi Malaysia sejak 1980, termasuk perangkaan penting mengenai kelahiran dan kematian."
             },
             "external-trade": {
                 "name": "Statistik Perdagangan Luaran",
-                "description": "Statistik dan indeks bulanan perdagangan luar"
+                "description": "Statistik dan indeks perdagangan luar  bulanan, merangkumi eksport, import, imbangan dagangan, dan terma perdagangan."
             },
             "household-debt": {
                 "name": "Hutang Isi Rumah",
