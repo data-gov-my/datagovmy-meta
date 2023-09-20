@@ -82,7 +82,7 @@
             },
             "exchange-rates": {
                 "name": "Kadar Pertukaran Ringgit",
-                "description": "Dapatkan maklumat terkini tentang kadar pertukaran mata wang."
+                "description": "Kadar pertukaran Ringgit berbanding mata wang 24 rakan dagang utama, termasuk Amerika Syarikat, China, UK, dan Singapura."
             },
             "fire-and-rescue": {
                 "name": "Bomba dan Penyelamat",
@@ -218,7 +218,7 @@
             },
             "labour-market": {
                 "name": "Pasaran Buruh",
-                "description": "Laporan Survei Tenaga Buruh (STB) bulanan"
+                "description": "Laporan Survei Tenaga Buruh (STB) bulanan, merangkumi pengangguran, penyertaan tenaga buruh, dan kategori pekerjaan."
             },
             "composite-index": {
                 "name": "Indeks Komposit",
@@ -234,7 +234,7 @@
             },
             "producer-prices": {
                 "name": "Harga Pengeluar",
-                "description": "Inflasi IHPR bulanan, merangkumi harga pengeluar bagi semua sektor ekonomi utama."
+                "description": "Inflasi IHPR bulanan, merangkumi harga pengeluar bagi semua sektor ekonomi utama kecuali perkhidmatan dan pembinaan."
             },
             "kawasanku": {
                 "name": "Kawasanku",
@@ -254,7 +254,7 @@
             },
             "labour-productivity": {
                 "name": "Produktiviti Buruh",
-                "description": "Produktiviti buruh suku tahunan bagi semua sektor ekonomi utama."
+                "description": "Produktiviti buruh suku tahunan bagi semua sektor ekonomi utama, merangkumi produktiviti mengikut masa serta pekerja."
             },
             "formal-sector-wages": {
                 "name": "Gaji Sektor Formal",
@@ -262,11 +262,11 @@
             },
             "services-statistics": {
                 "name": "Statistik Perkhidmatan",
-                "description": "Prestasi suku tahunan sub-sektor perkhidmatan"
+                "description": "Prestasi suku tahunan subsektor perkhidmatan, merangkumi nilai jualan, bilangan pekerja, serta gaji dan upah."
             },
             "services-producer-prices": {
                 "name": "Harga Pengeluar Perkhidmatan",
-                "description": "Harga pengeluar suku tahunan di subsektor perkhidmatan"
+                "description": "Harga pengeluar suku tahunan di sektor perkhidmatan, melengkapkan IHPR yang tidak merangkumi sektor perkhidmatan."
             },
             "construction-statistics": {
                 "name": "Statistik Pembinaan",
