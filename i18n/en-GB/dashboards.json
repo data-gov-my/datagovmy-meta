@@ -58,7 +58,7 @@
             },
             "consumer-prices": {
                 "name": "Consumer Prices",
-                "description": "Information on consumer prices."
+                "description": "Monthly CPI inflation at national and state level, covering headline CPI, core CPI, and CPI by category."
             },
             "covid-19": {
                 "name": "COVID-19",
@@ -94,7 +94,7 @@
             },
             "gdp": {
                 "name": "Gross Domestic Product (GDP)",
-                "description": "Measure and analyze economic growth."
+                "description": "Quarterly economic growth, covering real and nominal GDP by expenditure and economic activity."
             },
             "government-site-tracker": {
                 "name": "Government Site Tracker",
@@ -222,43 +222,43 @@
             },
             "composite-index": {
                 "name": "Composite Indices",
-                "description": "Leading, coincident, and lagging indicators for the Malaysian economy"
+                "description": "Leading, coincident, and lagging indicators for the Malaysian economy."
             },
             "wholesale-retail": {
                 "name": "Wholesale & Retail Trade",
-                "description": "Monthly performance of wholesale and retail trade"
+                "description": "Monthly wholesale and retail trade performance, including the performance of motor vehicle sales."
             },
             "industrial-production": {
                 "name": "Industrial Production",
-                "description": "Monthly industrial production performance, covering mining, manufacturing, and electricity production"
+                "description": "Monthly industrial production performance, covering mining, manufacturing, and electricity production."
             },
             "producer-prices": {
                 "name": "Producer Prices",
-                "description": "Prices received by producers for 1,063 items, at the first stage of commercialization."
+                "description": "Monthly PPI inflation, covering producer prices for all main economic sectors."
             },
             "kawasanku": {
                 "name": "Kawasanku",
-                "description": "Population data at State, District, Parliament Constituency & State Legislative Assembly level."
+                "description": "Census 2020 data at national, state, district, parliament, and state legislative assembly (DUN) level."
             },
             "iip": {
                 "name": "International Investment Position (IIP)",
-                "description": "Quarterly statement of Malaysia's external financial assets and liabilities"
+                "description": "Quarterly statement of Malaysia's external financial assets and liabilities; the IIP shows stocks while the BOP shows flows."
             },
             "bop": {
                 "name": "Balance of Payments",
-                "description": "Quarterly statement of Malaysia's transactions with other nations"
+                "description": "Quarterly statement of Malaysia's transactions with other nations; the BOP shows flows while the IIP shows stocks."
             },
             "manufacturing-statistics": {
                 "name": "Manufacturing Statistics",
-                "description": "Monthly performance of manufacturing subsectors"
+                "description": "Monthly performance of manufacturing subsectors, covering sales, employment, and wages."
             },
             "labour-productivity": {
                 "name": "Labour Productivity",
-                "description": "Quarterly labour productivity across all key economic sectors"
+                "description": "Quarterly labour productivity across all key economic sectors."
             },
             "formal-sector-wages": {
                 "name": "Formal Sector Wages",
-                "description": "Quarterly formal sector wages, based on administrative data from EPF and SOCSO"
+                "description": "Quarterly formal sector wages at national and state level, based on administrative data from EPF and SOCSO"
             },
             "services-statistics": {
                 "name": "Services Statistics",
@@ -270,19 +270,19 @@
             },
             "construction-statistics": {
                 "name": "Construction Statistics",
-                "description": "Quarterly surveillance of construction projects in the public and private sectors"
+                "description": "Quarterly surveillance of construction projects in the public and private sectors."
             },
             "household-income-expenditure": {
                 "name": "Household Income & Expenditure",
-                "description": "Household income and expenditure at state and district level"
+                "description": "Household income and expenditure at state and district level, updated with the latest data from the 2022 survey."
             },
             "population": {
                 "name": "Population of Malaysia",
-                "description": "The population of Malaysia from 1980 to the present"
+                "description": "The population of Malaysia from 1980 to the present, including vital statistics on births and deaths."
             },
             "external-trade": {
                 "name": "External Trade Statistics",
-                "description": "Monthly external trade statistics and indices"
+                "description": "Monthly external trade statistics and indices, covering exports, imports, the trade balance, and terms of trade."
             },
             "household-debt": {
                 "name": "Household Debt",
