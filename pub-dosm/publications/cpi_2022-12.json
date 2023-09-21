@@ -1,0 +1,73 @@
+{
+    "publication": "cpi_2022-12",
+    "publication_type": "cpi",
+    "release_date": "2023-01-20",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Dec 2022] Consumer Price Index",
+        "publication_type_title": "Consumer Price Index",
+        "description": "Official consumer price data, covering headline, core, and state-level inflation",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Consumer Price Index Report: Dec 2022",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2022-12.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "CPI Main Tables: Dec 2022",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2022-12_main.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "CPI Tables by State: Dec 2022",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2022-12_state.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Core CPI Tables: Dec 2022",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2022-12_core.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Dis 2022] Indeks Harga Pengguna",
+        "publication_type_title": "Indeks Harga Pengguna",
+        "description": "Data harga pengguna rasmi, merangkumi inflasi, inflasi teras, dan inflasi mengikut negeri",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Laporan Indeks Harga Pengguna: Dis 2022",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2022-12.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Jadual Utama IHP: Dis 2022",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2022-12_main.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Jadual IHP mengikut Negeri: Dis 2022",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2022-12_state.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Jadual IHP Teras: Dis 2022",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2022-12_core.xlsx"
+            }
+        ]
+    }
+}
