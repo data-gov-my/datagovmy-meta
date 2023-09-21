@@ -1,0 +1,48 @@
+{
+    "publication": "mms_2022-12",
+    "publication_type": "mms",
+    "release_date": "2023-02-07",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Dec 2022] Manufacturing Statistics",
+        "publication_type_title": "Manufacturing Statistics",
+        "description": "Monthly manufacturing statistics, covering sales, employees, and wages for manufacturing subsectors",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Monthly Manufacturing Statistics: Dec 2022",
+                "resource_link": "https://storage.dosm.gov.my/mfg/mms_2022-12.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Monthly Manufacturing Statistics: Dec 2022",
+                "resource_link": "https://storage.dosm.gov.my/mfg/mms_2022-12.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Dis 2022] Statistik Pembuatan",
+        "publication_type_title": "Statistik Pembuatan",
+        "description": "Statistik pembuatan bulanan, merangkumi jualan, pekerja, dan gaji bagi subsektor pembuatan",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Statistik Pembuatan Bulanan: Dis 2022",
+                "resource_link": "https://storage.dosm.gov.my/mfg/mms_2022-12.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Statistik Pembuatan Bulanan: Dis 2022",
+                "resource_link": "https://storage.dosm.gov.my/mfg/mms_2022-12.pdf"
+            }
+        ]
+    }
+}
