@@ -1,6 +1,6 @@
 {
-    "publication": "domestictourism_2022",
-    "publication_type": "domestictourism",
+    "publication": "domestictourism_state_2022",
+    "publication_type": "tourism",
     "release_date": "2023-09-15",
     "frequency": "YEARLY",
     "geography": [
@@ -8,8 +8,8 @@
     ],
     "demography": [],
     "en": {
-        "title": "[2022] Domestic Tourism",
-        "publication_type_title": "Domestic Tourism",
+        "title": "[2022] Domestic Tourism by State",
+        "publication_type_title": "Tourism",
         "description": "Domestic tourism by state, covering key statistics of domestic visits to each state.",
         "resources": [
             {
@@ -207,9 +207,9 @@
         ]
     },
     "bm": {
-        "title": "[2022] Pelancongan Domestik",
-        "publication_type_title": "Pelancongan Domestik",
-        "description": "Pelancongan domestik mengikiut negerti, merangkumi statistik penting pelancong domestik ke setiap negeri.",
+        "title": "[2022] Pelancongan Domestik mengikut Negeri",
+        "publication_type_title": "Pelancongan",
+        "description": "Pelancongan domestik mengikiut negeri, merangkumi statistik penting pelancong domestik ke setiap negeri.",
         "resources": [
             {
                 "resource_id": 1,
