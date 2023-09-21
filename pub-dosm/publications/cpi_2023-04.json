@@ -1,0 +1,73 @@
+{
+    "publication": "cpi_2023-04",
+    "publication_type": "cpi",
+    "release_date": "2023-05-17",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Apr 2023] Consumer Price Index",
+        "publication_type_title": "Consumer Price Index",
+        "description": "Official consumer price data, covering headline, core, and state-level inflation",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Consumer Price Index Report: Apr 2023",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2023-04.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "CPI Main Tables: Apr 2023",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2023-04_main.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "CPI Tables by State: Apr 2023",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2023-04_state.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Core CPI Tables: Apr 2023",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2023-04_core.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Apr 2023] Indeks Harga Pengguna",
+        "publication_type_title": "Indeks Harga Pengguna",
+        "description": "Data harga pengguna rasmi, merangkumi inflasi, inflasi teras, dan inflasi mengikut negeri",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Laporan Indeks Harga Pengguna: Apr 2023",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2023-04.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Jadual Utama IHP: Apr 2023",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2023-04_main.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Jadual IHP mengikut Negeri: Apr 2023",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2023-04_state.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Jadual IHP Teras: Apr 2023",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2023-04_core.xlsx"
+            }
+        ]
+    }
+}
