@@ -73,7 +73,7 @@
                 "description": "Jejak aliran dan trend edaran mata wang."
             },
             "drug-addiction": {
-                "name": "Drug Addiction",
+                "name": "Penagihan Dadah",
                 "description": "Jejak penyalahgunaan dadah dan bahan bahaya di Malaysia."
             },
             "election-explorer": {
@@ -141,7 +141,7 @@
                 "description": "Jejak dan analisis impak Inisiatif Pendapatan Rakyat."
             },
             "passport-and-passes": {
-                "name": "Passport and Passes",
+                "name": "Pasport dan Pas",
                 "description": "Pantau berapa banyak passport yang dikeluarkan kepada rakyat Malaysia dan visa untuk pelawat asing."
             },
             "poverty": {
@@ -205,7 +205,7 @@
                 "description": "Penumpang mengikut perkhidmatan, asal, dan destinasi."
             },
             "rapid-bus-rail": {
-                "name": "Peneroka Bas & Rel Rapid Bus",
+                "name": "Peneroka Bas & Rel Rapid",
                 "description": "Penumpang mengikut perkhidmatan, asal, dan destinasi"
             },
             "healthcare-facilities": {
