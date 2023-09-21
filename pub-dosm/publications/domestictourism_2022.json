@@ -1,0 +1,408 @@
+{
+    "publication": "domestictourism_2022",
+    "publication_type": "domestictourism",
+    "release_date": "2023-09-15",
+    "frequency": "YEARLY",
+    "geography": [
+        "STATE"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2022] Domestic Tourism",
+        "publication_type_title": "Domestic Tourism",
+        "description": "Domestic tourism by state, covering key statistics of domestic visits to each state.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Domestic Tourism in Johor: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_johor.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Domestic Tourism in Kedah: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_kedah.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Domestic Tourism in Kelantan: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_kelantan.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Domestic Tourism in Melaka: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_melaka.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Domestic Tourism in Pahang: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_pahang.xlsx"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "excel",
+                "resource_name": "Domestic Tourism in Negeri Sembilan: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_negerisembilan.xlsx"
+            },
+            {
+                "resource_id": 7,
+                "resource_type": "excel",
+                "resource_name": "Domestic Tourism in Pulau Pinang: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_pulaupinang.xlsx"
+            },
+            {
+                "resource_id": 8,
+                "resource_type": "excel",
+                "resource_name": "Domestic Tourism in Perak: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_perak.xlsx"
+            },
+            {
+                "resource_id": 9,
+                "resource_type": "excel",
+                "resource_name": "Domestic Tourism in Perlis: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_perlis.xlsx"
+            },
+            {
+                "resource_id": 10,
+                "resource_type": "excel",
+                "resource_name": "Domestic Tourism in Selangor: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_selangor.xlsx"
+            },
+            {
+                "resource_id": 11,
+                "resource_type": "excel",
+                "resource_name": "Domestic Tourism in Terengganu: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_terengganu.xlsx"
+            },
+            {
+                "resource_id": 12,
+                "resource_type": "excel",
+                "resource_name": "Domestic Tourism in Sabah: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_sabah.xlsx"
+            },
+            {
+                "resource_id": 13,
+                "resource_type": "excel",
+                "resource_name": "Domestic Tourism in Sarawak: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_sarawak.xlsx"
+            },
+            {
+                "resource_id": 14,
+                "resource_type": "excel",
+                "resource_name": "Domestic Tourism in W.P. Kuala Lumpur: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_wpkualalumpur.xlsx"
+            },
+            {
+                "resource_id": 15,
+                "resource_type": "excel",
+                "resource_name": "Domestic Tourism in W.P. Labuan: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_wplabuan.xlsx"
+            },
+            {
+                "resource_id": 16,
+                "resource_type": "excel",
+                "resource_name": "Domestic Tourism in W.P. Putrajaya: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_wpputrajaya.xlsx"
+            },
+            {
+                "resource_id": 17,
+                "resource_type": "pdf",
+                "resource_name": "Domestic Tourism in Johor: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_johor.pdf"
+            },
+            {
+                "resource_id": 18,
+                "resource_type": "pdf",
+                "resource_name": "Domestic Tourism in Kedah: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_kedah.pdf"
+            },
+            {
+                "resource_id": 19,
+                "resource_type": "pdf",
+                "resource_name": "Domestic Tourism in Kelantan: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_kelantan.pdf"
+            },
+            {
+                "resource_id": 20,
+                "resource_type": "pdf",
+                "resource_name": "Domestic Tourism in Melaka: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_melaka.pdf"
+            },
+            {
+                "resource_id": 21,
+                "resource_type": "pdf",
+                "resource_name": "Domestic Tourism in Pahang: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_pahang.pdf"
+            },
+            {
+                "resource_id": 22,
+                "resource_type": "pdf",
+                "resource_name": "Domestic Tourism in Negeri Sembilan: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_negerisembilan.pdf"
+            },
+            {
+                "resource_id": 23,
+                "resource_type": "pdf",
+                "resource_name": "Domestic Tourism in Pulau Pinang: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_pulaupinang.pdf"
+            },
+            {
+                "resource_id": 24,
+                "resource_type": "pdf",
+                "resource_name": "Domestic Tourism in Perak: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_perak.pdf"
+            },
+            {
+                "resource_id": 25,
+                "resource_type": "pdf",
+                "resource_name": "Domestic Tourism in Perlis: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_perlis.pdf"
+            },
+            {
+                "resource_id": 26,
+                "resource_type": "pdf",
+                "resource_name": "Domestic Tourism in Selangor: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_selangor.pdf"
+            },
+            {
+                "resource_id": 27,
+                "resource_type": "pdf",
+                "resource_name": "Domestic Tourism in Terengganu: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_terengganu.pdf"
+            },
+            {
+                "resource_id": 28,
+                "resource_type": "pdf",
+                "resource_name": "Domestic Tourism in Sabah: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_sabah.pdf"
+            },
+            {
+                "resource_id": 29,
+                "resource_type": "pdf",
+                "resource_name": "Domestic Tourism in Sarawak: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_sarawak.pdf"
+            },
+            {
+                "resource_id": 30,
+                "resource_type": "pdf",
+                "resource_name": "Domestic Tourism in W.P. Kuala Lumpur: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_wpkualalumpur.pdf"
+            },
+            {
+                "resource_id": 31,
+                "resource_type": "pdf",
+                "resource_name": "Domestic Tourism in W.P. Labuan: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_wplabuan.pdf"
+            },
+            {
+                "resource_id": 32,
+                "resource_type": "pdf",
+                "resource_name": "Domestic Tourism in W.P. Putrajaya: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_wpputrajaya.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2022] Pelancongan Domestik",
+        "publication_type_title": "Pelancongan Domestik",
+        "description": "Pelancongan domestik mengikiut negerti, merangkumi statistik penting pelancong domestik ke setiap negeri.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Pelancongan Domestik di Johor: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_johor.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Pelancongan Domestik di Kedah: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_kedah.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Pelancongan Domestik di Kelantan: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_kelantan.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Pelancongan Domestik di Melaka: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_melaka.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Pelancongan Domestik di Pahang: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_pahang.xlsx"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "excel",
+                "resource_name": "Pelancongan Domestik di Negeri Sembilan: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_negerisembilan.xlsx"
+            },
+            {
+                "resource_id": 7,
+                "resource_type": "excel",
+                "resource_name": "Pelancongan Domestik di Pulau Pinang: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_pulaupinang.xlsx"
+            },
+            {
+                "resource_id": 8,
+                "resource_type": "excel",
+                "resource_name": "Pelancongan Domestik di Perak: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_perak.xlsx"
+            },
+            {
+                "resource_id": 9,
+                "resource_type": "excel",
+                "resource_name": "Pelancongan Domestik di Perlis: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_perlis.xlsx"
+            },
+            {
+                "resource_id": 10,
+                "resource_type": "excel",
+                "resource_name": "Pelancongan Domestik di Selangor: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_selangor.xlsx"
+            },
+            {
+                "resource_id": 11,
+                "resource_type": "excel",
+                "resource_name": "Pelancongan Domestik di Terengganu: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_terengganu.xlsx"
+            },
+            {
+                "resource_id": 12,
+                "resource_type": "excel",
+                "resource_name": "Pelancongan Domestik di Sabah: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_sabah.xlsx"
+            },
+            {
+                "resource_id": 13,
+                "resource_type": "excel",
+                "resource_name": "Pelancongan Domestik di Sarawak: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_sarawak.xlsx"
+            },
+            {
+                "resource_id": 14,
+                "resource_type": "excel",
+                "resource_name": "Pelancongan Domestik di W.P. Kuala Lumpur: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_wpkualalumpur.xlsx"
+            },
+            {
+                "resource_id": 15,
+                "resource_type": "excel",
+                "resource_name": "Pelancongan Domestik di W.P. Labuan: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_wplabuan.xlsx"
+            },
+            {
+                "resource_id": 16,
+                "resource_type": "excel",
+                "resource_name": "Pelancongan Domestik di W.P. Putrajaya: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_wpputrajaya.xlsx"
+            },
+            {
+                "resource_id": 17,
+                "resource_type": "pdf",
+                "resource_name": "Pelancongan Domestik di Johor: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_johor.pdf"
+            },
+            {
+                "resource_id": 18,
+                "resource_type": "pdf",
+                "resource_name": "Pelancongan Domestik di Kedah: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_kedah.pdf"
+            },
+            {
+                "resource_id": 19,
+                "resource_type": "pdf",
+                "resource_name": "Pelancongan Domestik di Kelantan: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_kelantan.pdf"
+            },
+            {
+                "resource_id": 20,
+                "resource_type": "pdf",
+                "resource_name": "Pelancongan Domestik di Melaka: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_melaka.pdf"
+            },
+            {
+                "resource_id": 21,
+                "resource_type": "pdf",
+                "resource_name": "Pelancongan Domestik di Pahang: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_pahang.pdf"
+            },
+            {
+                "resource_id": 22,
+                "resource_type": "pdf",
+                "resource_name": "Pelancongan Domestik di Negeri Sembilan: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_negerisembilan.pdf"
+            },
+            {
+                "resource_id": 23,
+                "resource_type": "pdf",
+                "resource_name": "Pelancongan Domestik di Pulau Pinang: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_pulaupinang.pdf"
+            },
+            {
+                "resource_id": 24,
+                "resource_type": "pdf",
+                "resource_name": "Pelancongan Domestik di Perak: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_perak.pdf"
+            },
+            {
+                "resource_id": 25,
+                "resource_type": "pdf",
+                "resource_name": "Pelancongan Domestik di Perlis: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_perlis.pdf"
+            },
+            {
+                "resource_id": 26,
+                "resource_type": "pdf",
+                "resource_name": "Pelancongan Domestik di Selangor: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_selangor.pdf"
+            },
+            {
+                "resource_id": 27,
+                "resource_type": "pdf",
+                "resource_name": "Pelancongan Domestik di Terengganu: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_terengganu.pdf"
+            },
+            {
+                "resource_id": 28,
+                "resource_type": "pdf",
+                "resource_name": "Pelancongan Domestik di Sabah: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_sabah.pdf"
+            },
+            {
+                "resource_id": 29,
+                "resource_type": "pdf",
+                "resource_name": "Pelancongan Domestik di Sarawak: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_sarawak.pdf"
+            },
+            {
+                "resource_id": 30,
+                "resource_type": "pdf",
+                "resource_name": "Pelancongan Domestik di W.P. Kuala Lumpur: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_wpkualalumpur.pdf"
+            },
+            {
+                "resource_id": 31,
+                "resource_type": "pdf",
+                "resource_name": "Pelancongan Domestik di W.P. Labuan: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_wplabuan.pdf"
+            },
+            {
+                "resource_id": 32,
+                "resource_type": "pdf",
+                "resource_name": "Pelancongan Domestik di W.P. Putrajaya: 2022",
+                "resource_link": "https://storage.dosm.gov.my/domestictourism/domestictourism_2022_wpputrajaya.pdf"
+            }
+        ]
+    }
+}
