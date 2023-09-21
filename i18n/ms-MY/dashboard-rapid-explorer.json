@@ -1,11 +1,11 @@
 {
-    "route": "/ms-MY/dashboard/rapid-bus-and-rail-explorer",
+    "route": "/ms-MY/dashboard/rapid-explorer",
     "sites": [
         "datagovmy"
     ],
     "translation": {
-        "header": "Peneroke Bas & Rel Rapid",
-        "description": "Prasarana adalah pemilik dan pengendali perkhidmatan rel negara, termasuk haringan LRT, Monorel KL, dan laluan MRT. Mereka juga memiliki dan mengendalikan perkhidmatan bas di Kuala Lumpur, Selangor, Pulau Pinang dan Pahang. Perkhidmatan tersebut kebiasaannya dirujuk sebagai Bas dan Rel Rapid. Papan pemuka ini menggunakan data daripada infrastruktur bersepadu mereka untuk membekalkan data terperinci tentang penggunan perkhidmatan yang dikendalikan oleh Prasarana.",
+        "header": "Peneroka Bas & Rel Rapid",
+        "description": "Prasarana adalah pemilik dan pengendali perkhidmatan rel negara, termasuk jaringan LRT, Monorel KL, dan laluan MRT. Mereka juga memiliki dan mengendalikan perkhidmatan bas di Kuala Lumpur, Selangor, Pulau Pinang dan Pahang. Perkhidmatan tersebut kebiasaannya dirujuk sebagai Bas dan Rel Rapid. Papan pemuka ini menggunakan data daripada infrastruktur bersepadu mereka untuk membekalkan data terperinci tentang penggunan perkhidmatan yang dikendalikan oleh Prasarana.",
         "coming_soon": "Akan Datang",
         "the": "Papan pemuka ",
         "overview": " memberi gambaran keseluruhan tentang penggunaan pengangkutan awam.",
