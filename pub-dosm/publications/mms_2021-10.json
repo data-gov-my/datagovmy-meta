@@ -1,0 +1,48 @@
+{
+    "publication": "mms_2021-10",
+    "publication_type": "mms",
+    "release_date": "2021-12-10",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Oct 2021] Manufacturing Statistics",
+        "publication_type_title": "Manufacturing Statistics",
+        "description": "Monthly manufacturing statistics, covering sales, employees, and wages for manufacturing subsectors",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Monthly Manufacturing Statistics: Oct 2021",
+                "resource_link": "https://storage.dosm.gov.my/mfg/mms_2021-10.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Monthly Manufacturing Statistics: Oct 2021",
+                "resource_link": "https://storage.dosm.gov.my/mfg/mms_2021-10.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Okt 2021] Statistik Pembuatan",
+        "publication_type_title": "Statistik Pembuatan",
+        "description": "Statistik pembuatan bulanan, merangkumi jualan, pekerja, dan gaji bagi subsektor pembuatan",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Statistik Pembuatan Bulanan: Okt 2021",
+                "resource_link": "https://storage.dosm.gov.my/mfg/mms_2021-10.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Statistik Pembuatan Bulanan: Okt 2021",
+                "resource_link": "https://storage.dosm.gov.my/mfg/mms_2021-10.pdf"
+            }
+        ]
+    }
+}

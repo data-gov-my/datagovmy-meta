@@ -1,0 +1,48 @@
+{
+    "publication": "mms_2023-06",
+    "publication_type": "mms",
+    "release_date": "2023-08-08",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Jun 2023] Manufacturing Statistics",
+        "publication_type_title": "Manufacturing Statistics",
+        "description": "Monthly manufacturing statistics, covering sales, employees, and wages for manufacturing subsectors",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Monthly Manufacturing Statistics: Jun 2023",
+                "resource_link": "https://storage.dosm.gov.my/mfg/mms_2023-06.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Monthly Manufacturing Statistics: Jun 2023",
+                "resource_link": "https://storage.dosm.gov.my/mfg/mms_2023-06.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Jun 2023] Statistik Pembuatan",
+        "publication_type_title": "Statistik Pembuatan",
+        "description": "Statistik pembuatan bulanan, merangkumi jualan, pekerja, dan gaji bagi subsektor pembuatan",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Statistik Pembuatan Bulanan: Jun 2023",
+                "resource_link": "https://storage.dosm.gov.my/mfg/mms_2023-06.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Statistik Pembuatan Bulanan: Jun 2023",
+                "resource_link": "https://storage.dosm.gov.my/mfg/mms_2023-06.pdf"
+            }
+        ]
+    }
+}
