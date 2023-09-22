@@ -5,8 +5,8 @@
     ],
     "translation": {
         "header": "Rapid Rail Explorer",
-        "description": "Prasarana is the owner-operator of the country's rail services, including LRT networks, KL Monorail and the MRT lines. In addition to that, they are also the owner-operator for the stage bus services in Kuala Lumpur, Selangor, Penang and Pahang. All these comprise what is commonly known as the Rapid Rail and Rapid Bus systems. Using data from their integrated infrastructure, this dashboard brings you granular data on ridership on Prasarana-operated services.",
-        "title": "Explore ridership data between any two stations on Prasarana-operated services!",
+        "description": "Prasarana is the owner-operator of the country's rail services, including LRT networks, KL Monorail and the MRT lines. In addition to that, they are also the owner-operator for the stage bus services in Kuala Lumpur, Selangor, Penang and Pahang. All these comprise what is commonly known as the Rapid Rail and Rapid Bus systems. Using data from their integrated infrastructure, this dashboard brings you granular data on ridership on Rapid Rail, and will be enriched in future with Rapid Bus Data.",
+        "title": "Explore ridership data between any two Rapid Rail stations!",
         "disclaimer": "When analysing origin-destination data, remember that people can switch lines along their journey. For example, you can enter via a Kelana Jaya line station, but exit via an Ampang Line station. For this reason, the dropdown does not allow you to filter to a specific line.",
         "filters": "Filters",
         "origin": "Origin",
@@ -17,10 +17,10 @@
         "rail": "Rapid Rail",
         "select_origin": "Select Origin",
         "select_destination": "Select Destination",
-        "ridership_day": "Daily Ridership: {{ from }} to {{ to }}",
-        "ridership_month": "Monthly Ridership: {{ from }} to {{ to }}",
-        "ridership_year": "Yearly Ridership: {{ from }} to {{ to }}",
+        "ridership_day": "Ridership from {{ from }} to {{ to }}",
+        "ridership_month": "Ridership from {{ from }} to {{ to }}",
+        "ridership_year": "Ridership from {{ from }} to {{ to }}",
         "this_month": "This Month ({{ date }})",
-        "no_trips": "No trips on this route"
+        "no_trips": "No trips on this route; note that data for certain exits on the Putrajaya Line is not yet available."
     }
 }

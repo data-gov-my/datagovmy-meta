@@ -5,22 +5,22 @@
     ],
     "translation": {
         "header": "Peneroka Rel Rapid",
-        "description": "Prasarana adalah pemilik dan pengendali perkhidmatan rel negara, termasuk jaringan LRT, Monorel KL, dan laluan MRT. Mereka juga memiliki dan mengendalikan perkhidmatan bas di Kuala Lumpur, Selangor, Pulau Pinang dan Pahang. Perkhidmatan tersebut kebiasaannya dirujuk sebagai Bas dan Rel Rapid. Papan pemuka ini menggunakan data daripada infrastruktur bersepadu mereka untuk membekalkan data terperinci tentang penggunan perkhidmatan yang dikendalikan oleh Prasarana.",
-        "title": "Terokailah data penumpang antara mana-mana 2 stesen yang dikendali Prasarana!",
+        "description": "Prasarana adalah pemilik dan pengendali perkhidmatan rel negara, termasuk jaringan LRT, Monorel KL, dan laluan MRT. Mereka juga memiliki dan mengendalikan perkhidmatan bas di Kuala Lumpur, Selangor, Pulau Pinang dan Pahang. Perkhidmatan tersebut kebiasaannya dirujuk sebagai Bas dan Rel Rapid. Papan pemuka ini menggunakan data daripada infrastruktur bersepadu mereka untuk membekalkan data terperinci tentang penggunan perkhidmatan Rel Rapid, dan akan diperluas pada masa depan dengan data Bas Rapid.",
+        "title": "Terokailah data penumpang antara mana-mana stesen Rel Rapid!",
         "disclaimer": "Nota: Apabila menganalisa data stesen ke stesen, perlu diingati bahawa penunggang dapat menukar perkhidmatan dalam perjalanan. Contohnya, anda boleh bermula perjalanan dari stesen laluan Kelana Jaya, tetapi tamat di stesen laluan Ampang. Oleh itu, tapisan mengikut laluan tidak disediakan.",
-        "filters": "Tapisan",
-        "origin": "Permulaan",
+        "filters": "Penapis",
+        "origin": "Asal",
         "destination": "Destinasi",
-        "apply_filter": "Tapiskan",
+        "apply_filter": "Tapis",
         "service": "Perkhidmatan",
         "bus": "Bas Rapid",
         "rail": "Rel Rapid",
         "select_origin": "Pilih Permulaan",
         "select_destination": "Pilih Destinasi",
-        "ridership_day": "Jumlah Penumpang Harian: {{ from }} ke {{ to }}",
-        "ridership_month": "Jumlah Penumpang Bulanan: {{ from }} ke {{ to }}",
-        "ridership_year": "Jumlah Penumpang Tahunan: {{ from }} ke {{ to }}",
-        "this_month": "Sebulan ({{ date }})",
-        "no_trips": "Tiada perjalanan di laluan ini"
+        "ridership_day": "Penumpang dari {{ from }} ke {{ to }}",
+        "ridership_month": "Penumpang dari {{ from }} ke {{ to }}",
+        "ridership_year": "Penumpang dari {{ from }} ke {{ to }}",
+        "this_month": "Bulan Ini ({{ date }})",
+        "no_trips": "Tiada perjalanan di laluan ini; data bagi 'tap-out' bagi stesen tertentu di laluan Putrajaya belum lagi selesai proses integrasi."
     }
 }
