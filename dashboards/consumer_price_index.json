@@ -1,6 +1,6 @@
 {
 	"dashboard_name": "consumer_price_index",
-	"data_last_updated": "2023-08-25 12:00",
+	"data_last_updated": "2023-09-22 12:00",
 	"route": "/dashboard/consumer-prices,/ms-MY/dashboard/consumer-prices",
 	"sites": ["opendosm"],
 	"manual_trigger": "",
@@ -11,7 +11,7 @@
 			"name": "bar_chart",
 			"chart_type": "bar_chart",
 			"chart_source": "https://storage.dosm.gov.my/dashboards/cpi_main_barchart.parquet",
-			"data_as_of": "2023-07-31 23:59",
+			"data_as_of": "2023-08-31 23:59",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -28,7 +28,7 @@
 			"name": "timeseries",
 			"chart_type": "timeseries_chart",
 			"chart_source": "https://storage.dosm.gov.my/dashboards/cpi_main_timeseries.parquet",
-			"data_as_of": "2023-07-31 23:59",
+			"data_as_of": "2023-08-31 23:59",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -59,7 +59,7 @@
 			"name": "statistics",
 			"chart_type": "custom_chart",
 			"chart_source": "https://storage.dosm.gov.my/dashboards/cpi_main_timeseries_callout.parquet",
-			"data_as_of": "2023-07-31 23:59",
+			"data_as_of": "2023-08-31 23:59",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -71,7 +71,7 @@
 			"name": "timeseries_6d",
 			"chart_type": "timeseries_chart",
 			"chart_source": "https://storage.dosm.gov.my/dashboards/cpi_query_timeseries_4d.parquet",
-			"data_as_of": "2023-07-31 23:59",
+			"data_as_of": "2023-08-31 23:59",
 			"api_type": "individual_chart",
 			"api_params": ["lang", "level"],
 			"variables": {
@@ -88,7 +88,7 @@
 			"name": "snapshot_4d",
 			"chart_type": "timeseries_chart",
 			"chart_source": "https://storage.dosm.gov.my/dashboards/cpi_query_snapshot_4d.parquet?ignoreCache=0",
-			"data_as_of": "2023-07-31 23:59",
+			"data_as_of": "2023-08-31 23:59",
 			"api_type": "individual_chart",
 			"api_params": ["lang", "level"],
 			"variables": {
