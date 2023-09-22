@@ -4,7 +4,7 @@
         "datagovmy"
     ],
     "translation": {
-        "header": "Rapid Bus & Rail Explorer",
+        "header": "Rapid Rail Explorer",
         "description": "Prasarana is the owner-operator of the country's rail services, including LRT networks, KL Monorail and the MRT lines. In addition to that, they are also the owner-operator for the stage bus services in Kuala Lumpur, Selangor, Penang and Pahang. All these comprise what is commonly known as the Rapid Rail and Rapid Bus systems. Using data from their integrated infrastructure, this dashboard brings you granular data on ridership on Prasarana-operated services.",
         "title": "Explore ridership data between any two stations on Prasarana-operated services!",
         "disclaimer": "When analysing origin-destination data, remember that people can switch lines along their journey. For example, you can enter via a Kelana Jaya line station, but exit via an Ampang Line station. For this reason, the dropdown does not allow you to filter to a specific line.",
