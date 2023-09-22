@@ -25,8 +25,7 @@
         "ridership_day": "Daily Ridership: {{ from }} to {{ to }}",
         "ridership_month": "Monthly Ridership: {{ from }} to {{ to }}",
         "ridership_year": "Yearly Ridership: {{ from }} to {{ to }}",
-        "past_month": "Past 1 Month",
-        "past_year": "Past 1 Year",
+        "this_month": "This Month ({{ date }})",
         "no_trips": "No trips on this route"
     }
 }
