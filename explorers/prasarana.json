@@ -3,7 +3,7 @@
     "sites": [
         "datagovmy"
     ],
-    "manual_trigger": "1",
+    "manual_trigger": "2023-09-24 00:35:20.695628",
     "explorer_name": "Prasarana",
     "route": "/dashboard/rapid-explorer,/ms-MY/dashboard/rapid-explorer",
     "tables": {
