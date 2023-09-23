@@ -17,5 +17,6 @@
             "source": "https://storage.data.gov.my/dashboards/ktmb_timeseries_callout.parquet",
             "update": "REBUILD"
         }
-    }
+    },
+    "manual trigger": "2023-09-24 00:14:08.526052"
 }
