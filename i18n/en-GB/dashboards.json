@@ -205,7 +205,7 @@
                 "description": "Explore ridership by service, origins and destination."
             },
             "rapid-bus-rail": {
-                "name": "Rapid Bus & Rail Explorer",
+                "name": "Rapid Rail Explorer",
                 "description": "Explore ridership by service, origins and destination."
             },
             "healthcare-facilities": {
