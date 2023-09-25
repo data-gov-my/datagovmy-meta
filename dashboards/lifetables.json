@@ -1,0 +1,59 @@
+{
+	"dashboard_name": "lifetables",
+	"data_last_updated": "2023-09-25 23:59",
+	"route": "/dashboard/life-expectancy,/ms-MY/dashboard/life-expectancy",
+	"sites": ["opendosm"],
+	"manual_trigger": "0",
+	"required_params": [],
+	"optional_params": [],
+	"charts": {
+		"timeseries": {
+			"name": "timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/lifetables_timeseries.parquet",
+			"data_as_of": "2023-09-25 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["sex"],
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": [
+					"x",
+					"overall",
+					"bumi",
+					"bumi_malay",
+					"bumi_other",
+					"chinese",
+					"indian",
+					"noncitizen"
+				]
+			}
+		},
+		"timeseries_callout": {
+			"name": "timeseries_callout",
+			"chart_type": "custom_chart",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/lifetables_timeseries_callout.parquet",
+			"data_as_of": "2023-09-25 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["chart"],
+				"value_columns": ["overall", "male", "female"]
+			}
+		},
+		"choropleth_state": {
+			"name": "choropleth_state",
+			"chart_type": "choropleth_chart",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/lifetables_state.parquet",
+			"data_as_of": "2023-09-25 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"x": "state",
+				"y": ["overall", "male", "female"]
+			}
+		}
+	}
+}
