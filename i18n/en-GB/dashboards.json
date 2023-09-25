@@ -295,6 +295,10 @@
             "business-creation-destruction": {
                 "name": "Business Creation and Destruction",
                 "description": "Powered by their registry, this dashboard summarises trends in business creation and destruction."
+            },
+            "life-expectancy": {
+                "name": "Life Expectancy",
+                "description": "This dashboard summarises trends in life expectancy since 1957, with breakdowns by state and demographic group."
             }
         }
     }
