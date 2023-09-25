@@ -1,0 +1,44 @@
+{
+  "route": "/ms-MY/dashboard/life-expectancy",
+  "sites": [
+      "opendosm"
+  ],
+  "translation": {
+      "header": "Jangkaan Hayat",
+      "description": "Usaha perangkaan populasi Malaysia adalah cerucuk kepada segala kerja kami di DOSM. Ini bukan sahaja merangkumi persoalan tentang berapa ramai penduduk yang menetap di Malaysia, tetapi juga berapa lama mereka hidup, atau apa yang ditermakan sebagai 'jangkaan hayat'. Ia adalah indikator sosial yang penting, bukan sahaja untuk pembuat dasar, tetapi juga untuk individu - untuk merancang kewangan persaraan dengan tepat, sudah semestinya lebih baik sekiranya mengetahui data tentang jangkaan hayat bagi kumpulan demografi anda! Papan pemuka ini merumuskan tren jangkaan hayat sejak tahun 1957, dengan pecahan mengikut negeri dan kumpulan demografi.",
+      "section_timeseries": {
+          "title": "Bagaimana tren jangkaanan hayat ketika lahir?",
+          "description": "Angka-angka ini menunjukkan anggaran umur yang akan dicapai oleh seorang bayi yang baru dilahirkan dalam tahun rujukan."
+      },
+      "section_heatmap": {
+          "title": "Ringkasan jangkaan hayat mengikut jantina dan kumpulan etnik"
+      },
+      "section_choropleth": {
+          "title": "Bagaimanakah perbezaan jangkaan hayat mengikut negeri?",
+          "description": "Statistik ini dihasilkan berdasarkan lokasi kediaman individu. Contohnya, jangkaan hayat individu yang bekerja di Kuala Lumpur tetapi tinggal di Selangor akan dikira bawah Selangor."
+      },
+      "keys": {
+          "overall": "Kedua-dua Jantina",
+          "male": "Lelaki",
+          "female": "Perempuan",
+          "years": "tahun",
+          "overall_title": "Keseluruhan (merangkumi semua kumpulan etnik)",
+          "bumi": "Bumiputera (Melayu dan Bumiputera lain)",
+          "bumi_malay": "Melayu",
+          "bumi_other": "Bumiputera Lain",
+          "chinese": "Cina",
+          "indian": "India",
+          "noncitizen": "Penduduk Bukan Warganegara",
+          "female_bumi_malay": "Perempuan - Melayu",
+          "female_bumi_other": "Perempuan - Bumiputera Lain",
+          "female_chinese": "Perempuan - Cina",
+          "female_indian": "Perempuan - India",
+          "female_noncitizen": "Perempuan - Penduduk Bukan Warganegara",
+          "male_bumi_malay": "Lelaki - Melayu",
+          "male_bumi_other": "Lelaki - Bumiputera Lain",
+          "male_chinese": "Lelaki - Cina",
+          "male_indian": "Lelaki - India",
+          "male_noncitizen": "Lelaki - Penduduk Bukan Warganegara"
+      }
+  }
+}

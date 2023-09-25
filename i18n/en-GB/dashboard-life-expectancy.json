@@ -1,0 +1,44 @@
+{
+  "route": "/dashboard/life-expectancy",
+  "sites": [
+      "opendosm"
+  ],
+  "translation": {
+      "header": "Life Expectancy",
+      "description": "Measuring the population of Malaysia is the beating heart of everything we do at DOSM. This includes measuring not only how many people live in the country, but how long they live for, or what is called ‘life expectancy’. It is a critical social indicator, not just for policymakers, but also for individuals - to accurately plan your finances after retirement, it is good to have data on how long the average person in your demographic lives for! This dashboard summarises trends in life expectancy since 1957, with breakdowns by state and demographic group.",
+      "section_timeseries": {
+          "title": "How is life expectancy at birth trending?",
+          "description": "These figures indicate how long a baby newly born in the reference year is expected to live for."
+      },
+      "section_heatmap": {
+          "title": "A summary of life expectancy by sex and ethnic group"
+      },
+      "section_choropleth": {
+          "title": "How does life expectancy differ across states?",
+          "description": "This distribution is based on individuals’ location of residence. For example, the life expectancy of an individual who works in Kuala Lumpur but lives in Selangor will be counted under Selangor."
+      },
+      "keys": {
+          "overall": "Both Sexes",
+          "male": "Male",
+          "female": "Female",
+          "years": "years",
+          "overall_title": "Overall (across all ethnic groups)",
+          "bumi": "Bumiputera (Malay and other)",
+          "bumi_malay": "Malay",
+          "bumi_other": "Other Bumiputera",
+          "chinese": "Chinese",
+          "indian": "Indian",
+          "noncitizen": "Non-Citizen Residents",
+          "female_bumi_malay": "Female - Malay",
+          "female_bumi_other": "Female - Other Bumiputera",
+          "female_chinese": "Female - Chinese",
+          "female_indian": "Female - Indian",
+          "female_noncitizen": "Female - Non-Citizen",
+          "male_bumi_malay": "Male - Malay",
+          "male_bumi_other": "Male - Other Bumiputera",
+          "male_chinese": "Male - Chinese",
+          "male_indian": "Male - Indian",
+          "male_noncitizen": "Male - Non-Citizen"
+      }
+  }
+}
