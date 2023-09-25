@@ -43,6 +43,20 @@
 				"value_columns": ["overall", "male", "female"]
 			}
 		},
+		"heatmap": {
+			"name": "heatmap",
+			"chart_type": "heatmap_chart",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/lifetables_heattable.parquet",
+			"data_as_of": "2023-09-25 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": [],
+				"x": "group",
+				"y": "year",
+				"z": "value"
+			}
+		},
 		"choropleth_state": {
 			"name": "choropleth_state",
 			"chart_type": "choropleth_chart",
