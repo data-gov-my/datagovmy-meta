@@ -16,13 +16,13 @@
                 "resource_id": 1,
                 "resource_type": "pdf",
                 "resource_name": "Gross Domestic Product: 2Q 2022",
-                "resource_link": "https://storage.data.gov.my/gdp/gdp_yyyy-mm.pdf"
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_yyyy-mm.pdf"
             },
             {
                 "resource_id": 2,
                 "resource_type": "excel",
                 "resource_name": "Gross Domestic Product: 2Q 2022",
-                "resource_link": "https://storage.data.gov.my/gdp/gdp_yyyy-mm.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_yyyy-mm.xlsx"
             }
         ]
     },
@@ -35,13 +35,13 @@
                 "resource_id": 1,
                 "resource_type": "pdf",
                 "resource_name": "Keluaran Dalam Negeri Kasar: ST2 2022",
-                "resource_link": "https://storage.data.gov.my/gdp/gdp_yyyy-mm.pdf"
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_yyyy-mm.pdf"
             },
             {
                 "resource_id": 2,
                 "resource_type": "excel",
                 "resource_name": "Keluaran Dalam Negeri Kasar: ST2 2022",
-                "resource_link": "https://storage.data.gov.my/gdp/gdp_yyyy-mm.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_yyyy-mm.xlsx"
             }
         ]
     }
