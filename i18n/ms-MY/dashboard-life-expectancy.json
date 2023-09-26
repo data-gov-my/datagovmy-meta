@@ -38,7 +38,10 @@
           "male_bumi_other": "Lelaki - Bumiputera Lain",
           "male_chinese": "Lelaki - Cina",
           "male_indian": "Lelaki - India",
-          "male_noncitizen": "Lelaki - Penduduk Bukan Warganegara"
+          "male_noncitizen": "Lelaki - Penduduk Bukan Warganegara",
+          "gap_sex": "Jurang Jantina (Perempuan - Lelaki)",
+          "state": "Mengikut negeri",
+          "district": "Mengikut daerah"
       }
   }
 }

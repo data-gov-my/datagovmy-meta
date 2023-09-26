@@ -38,7 +38,10 @@
           "male_bumi_other": "Male - Other Bumiputera",
           "male_chinese": "Male - Chinese",
           "male_indian": "Male - Indian",
-          "male_noncitizen": "Male - Non-Citizen"
+          "male_noncitizen": "Male - Non-Citizen",
+          "gap_sex": "Gender Gap (Female - Male)",
+          "state": "By State",
+          "district": "By district"
       }
   }
 }
