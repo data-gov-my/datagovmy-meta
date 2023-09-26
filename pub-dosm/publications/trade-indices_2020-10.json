@@ -16,31 +16,31 @@
                 "resource_id": 1,
                 "resource_type": "pdf",
                 "resource_name": "Trade Indices Report: Oct 2020",
-                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2020-10.pdf"
+                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2020-10.pdf"
             },
             {
                 "resource_id": 2,
                 "resource_type": "excel",
                 "resource_name": "Export Volume and Value: Oct 2020",
-                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2020-10_export.xlsx"
+                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2020-10_export.xlsx"
             },
             {
                 "resource_id": 3,
                 "resource_type": "excel",
                 "resource_name": "Import Volume and Value: Oct 2020",
-                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2020-10_import.xlsx"
+                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2020-10_import.xlsx"
             },
             {
                 "resource_id": 4,
                 "resource_type": "excel",
                 "resource_name": "Seasonally Adjusted Trade Indices: Oct 2020",
-                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2020-10_sa.xlsx"
+                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2020-10_sa.xlsx"
             },
             {
                 "resource_id": 5,
                 "resource_type": "excel",
                 "resource_name": "Terms of Trade: Oct 2020",
-                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2020-10_tot.xlsx"
+                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2020-10_tot.xlsx"
             }
         ]
     },
@@ -53,31 +53,31 @@
                 "resource_id": 1,
                 "resource_type": "pdf",
                 "resource_name": "Laporan Indeks Perdagangan: Okt 2020",
-                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2020-10.pdf"
+                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2020-10.pdf"
             },
             {
                 "resource_id": 2,
                 "resource_type": "excel",
                 "resource_name": "Nilai dan Volum Eksport: Okt 2020",
-                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2020-10_export.xlsx"
+                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2020-10_export.xlsx"
             },
             {
                 "resource_id": 3,
                 "resource_type": "excel",
                 "resource_name": "Nilai dan Volum Import: Okt 2020",
-                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2020-10_import.xlsx"
+                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2020-10_import.xlsx"
             },
             {
                 "resource_id": 4,
                 "resource_type": "excel",
                 "resource_name": "Indeks Pelarasan Musim: Okt 2020",
-                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2020-10_sa.xlsx"
+                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2020-10_sa.xlsx"
             },
             {
                 "resource_id": 5,
                 "resource_type": "excel",
                 "resource_name": "Terma Perdagangan: Okt 2020",
-                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2020-10_tot.xlsx"
+                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2020-10_tot.xlsx"
             }
         ]
     }

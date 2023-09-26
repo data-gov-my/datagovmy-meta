@@ -16,31 +16,31 @@
                 "resource_id": 1,
                 "resource_type": "pdf",
                 "resource_name": "Trade Indices Report: Jun 2022",
-                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2022-06.pdf"
+                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2022-06.pdf"
             },
             {
                 "resource_id": 2,
                 "resource_type": "excel",
                 "resource_name": "Export Volume and Value: Jun 2022",
-                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2022-06_export.xlsx"
+                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2022-06_export.xlsx"
             },
             {
                 "resource_id": 3,
                 "resource_type": "excel",
                 "resource_name": "Import Volume and Value: Jun 2022",
-                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2022-06_import.xlsx"
+                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2022-06_import.xlsx"
             },
             {
                 "resource_id": 4,
                 "resource_type": "excel",
                 "resource_name": "Seasonally Adjusted Trade Indices: Jun 2022",
-                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2022-06_sa.xlsx"
+                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2022-06_sa.xlsx"
             },
             {
                 "resource_id": 5,
                 "resource_type": "excel",
                 "resource_name": "Terms of Trade: Jun 2022",
-                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2022-06_tot.xlsx"
+                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2022-06_tot.xlsx"
             }
         ]
     },
@@ -53,31 +53,31 @@
                 "resource_id": 1,
                 "resource_type": "pdf",
                 "resource_name": "Laporan Indeks Perdagangan: Jun 2022",
-                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2022-06.pdf"
+                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2022-06.pdf"
             },
             {
                 "resource_id": 2,
                 "resource_type": "excel",
                 "resource_name": "Nilai dan Volum Eksport: Jun 2022",
-                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2022-06_export.xlsx"
+                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2022-06_export.xlsx"
             },
             {
                 "resource_id": 3,
                 "resource_type": "excel",
                 "resource_name": "Nilai dan Volum Import: Jun 2022",
-                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2022-06_import.xlsx"
+                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2022-06_import.xlsx"
             },
             {
                 "resource_id": 4,
                 "resource_type": "excel",
                 "resource_name": "Indeks Pelarasan Musim: Jun 2022",
-                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2022-06_sa.xlsx"
+                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2022-06_sa.xlsx"
             },
             {
                 "resource_id": 5,
                 "resource_type": "excel",
                 "resource_name": "Terma Perdagangan: Jun 2022",
-                "resource_link": "https://d1ohshjlmb78be.cloudfront.net//tradeindices/tradeindices_2022-06_tot.xlsx"
+                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2022-06_tot.xlsx"
             }
         ]
     }
