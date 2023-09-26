@@ -16,31 +16,31 @@
                 "resource_id": 1,
                 "resource_type": "pdf",
                 "resource_name": "Trade Indices Report: Nov 2020",
-                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2020-11.pdf"
+                "resource_link": "https://storage.dosm.gov.my/tradeindices/tradeindices_2020-11.pdf"
             },
             {
                 "resource_id": 2,
                 "resource_type": "excel",
                 "resource_name": "Export Volume and Value: Nov 2020",
-                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2020-11_export.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/tradeindices/tradeindices_2020-11_export.xlsx"
             },
             {
                 "resource_id": 3,
                 "resource_type": "excel",
                 "resource_name": "Import Volume and Value: Nov 2020",
-                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2020-11_import.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/tradeindices/tradeindices_2020-11_import.xlsx"
             },
             {
                 "resource_id": 4,
                 "resource_type": "excel",
                 "resource_name": "Seasonally Adjusted Trade Indices: Nov 2020",
-                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2020-11_sa.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/tradeindices/tradeindices_2020-11_sa.xlsx"
             },
             {
                 "resource_id": 5,
                 "resource_type": "excel",
                 "resource_name": "Terms of Trade: Nov 2020",
-                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2020-11_tot.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/tradeindices/tradeindices_2020-11_tot.xlsx"
             }
         ]
     },
@@ -53,31 +53,31 @@
                 "resource_id": 1,
                 "resource_type": "pdf",
                 "resource_name": "Laporan Indeks Perdagangan: Nov 2020",
-                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2020-11.pdf"
+                "resource_link": "https://storage.dosm.gov.my/tradeindices/tradeindices_2020-11.pdf"
             },
             {
                 "resource_id": 2,
                 "resource_type": "excel",
                 "resource_name": "Nilai dan Volum Eksport: Nov 2020",
-                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2020-11_export.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/tradeindices/tradeindices_2020-11_export.xlsx"
             },
             {
                 "resource_id": 3,
                 "resource_type": "excel",
                 "resource_name": "Nilai dan Volum Import: Nov 2020",
-                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2020-11_import.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/tradeindices/tradeindices_2020-11_import.xlsx"
             },
             {
                 "resource_id": 4,
                 "resource_type": "excel",
                 "resource_name": "Indeks Pelarasan Musim: Nov 2020",
-                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2020-11_sa.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/tradeindices/tradeindices_2020-11_sa.xlsx"
             },
             {
                 "resource_id": 5,
                 "resource_type": "excel",
                 "resource_name": "Terma Perdagangan: Nov 2020",
-                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2020-11_tot.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/tradeindices/tradeindices_2020-11_tot.xlsx"
             }
         ]
     }

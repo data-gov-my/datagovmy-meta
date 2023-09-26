@@ -16,31 +16,31 @@
                 "resource_id": 1,
                 "resource_type": "pdf",
                 "resource_name": "Trade Indices Report: Jul 2022",
-                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2022-07.pdf"
+                "resource_link": "https://storage.dosm.gov.my/tradeindices/tradeindices_2022-07.pdf"
             },
             {
                 "resource_id": 2,
                 "resource_type": "excel",
                 "resource_name": "Export Volume and Value: Jul 2022",
-                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2022-07_export.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/tradeindices/tradeindices_2022-07_export.xlsx"
             },
             {
                 "resource_id": 3,
                 "resource_type": "excel",
                 "resource_name": "Import Volume and Value: Jul 2022",
-                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2022-07_import.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/tradeindices/tradeindices_2022-07_import.xlsx"
             },
             {
                 "resource_id": 4,
                 "resource_type": "excel",
                 "resource_name": "Seasonally Adjusted Trade Indices: Jul 2022",
-                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2022-07_sa.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/tradeindices/tradeindices_2022-07_sa.xlsx"
             },
             {
                 "resource_id": 5,
                 "resource_type": "excel",
                 "resource_name": "Terms of Trade: Jul 2022",
-                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2022-07_tot.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/tradeindices/tradeindices_2022-07_tot.xlsx"
             }
         ]
     },
@@ -53,31 +53,31 @@
                 "resource_id": 1,
                 "resource_type": "pdf",
                 "resource_name": "Laporan Indeks Perdagangan: Jul 2022",
-                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2022-07.pdf"
+                "resource_link": "https://storage.dosm.gov.my/tradeindices/tradeindices_2022-07.pdf"
             },
             {
                 "resource_id": 2,
                 "resource_type": "excel",
                 "resource_name": "Nilai dan Volum Eksport: Jul 2022",
-                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2022-07_export.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/tradeindices/tradeindices_2022-07_export.xlsx"
             },
             {
                 "resource_id": 3,
                 "resource_type": "excel",
                 "resource_name": "Nilai dan Volum Import: Jul 2022",
-                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2022-07_import.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/tradeindices/tradeindices_2022-07_import.xlsx"
             },
             {
                 "resource_id": 4,
                 "resource_type": "excel",
                 "resource_name": "Indeks Pelarasan Musim: Jul 2022",
-                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2022-07_sa.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/tradeindices/tradeindices_2022-07_sa.xlsx"
             },
             {
                 "resource_id": 5,
                 "resource_type": "excel",
                 "resource_name": "Terma Perdagangan: Jul 2022",
-                "resource_link": "https://storage.data.gov.my/tradeindices/tradeindices_2022-07_tot.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/tradeindices/tradeindices_2022-07_tot.xlsx"
             }
         ]
     }
