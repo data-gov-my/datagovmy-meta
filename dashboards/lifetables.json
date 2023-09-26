@@ -1,6 +1,6 @@
 {
 	"dashboard_name": "lifetables",
-	"data_last_updated": "2023-09-25 23:59",
+	"data_last_updated": "2023-09-26 12:00",
 	"route": "/dashboard/life-expectancy,/ms-MY/dashboard/life-expectancy",
 	"sites": ["opendosm"],
 	"manual_trigger": "0",
@@ -35,7 +35,7 @@
 			"name": "timeseries_callout",
 			"chart_type": "custom_chart",
 			"chart_source": "https://storage.dosm.gov.my/dashboards/lifetables_timeseries_callout.parquet",
-      "data_as_of": "2022-12-31 23:59",
+			"data_as_of": "2022-12-31 23:59",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -66,7 +66,19 @@
 			"api_params": [],
 			"variables": {
 				"x": "state",
-				"y": ["overall", "male", "female"]
+				"y": ["overall", "male", "female", "gap_sex"]
+			}
+		},
+		"choropleth_district": {
+			"name": "choropleth_district",
+			"chart_type": "choropleth_chart",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/lifetables_district.parquet",
+			"data_as_of": "2022-12-31 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"x": "district",
+				"y": ["overall", "male", "female", "gap_sex"]
 			}
 		}
 	}
