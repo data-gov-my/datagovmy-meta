@@ -1,0 +1,23 @@
+name: Auto-Merge Staging to Main
+
+on:
+    push:
+        branches:
+            - staging
+
+jobs:
+    automated_merge:
+        if: contains(github.event.head_commit.message, 'Automated')
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@master
+
+            - name: Automated merge (staging -> main)
+              uses: devmasx/merge-branch@master
+              with:
+                  type: now
+                  from_branch: staging
+                  target_branch: main
+                  message: Automated merge from staging
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
