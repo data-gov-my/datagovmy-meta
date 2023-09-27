@@ -21,3 +21,19 @@ jobs:
                   target_branch: main
                   message: Automated merge from staging
                   github_token: ${{ secrets.GITHUB_TOKEN }}
+
+            - name: POST call datagovmy prod
+              uses: fjogeleit/http-request-action@v1
+              with:
+                  url: "https://datagovmy.app/update/"
+                  method: "POST"
+                  customHeaders: '{"Authorization": "${{ secrets.WORKFLOW_TOKEN }}"}'
+                  timeout: 30000
+
+            - name: POST call openapi prod
+              uses: fjogeleit/http-request-action@v1
+              with:
+                  url: "https://api.datagovmy.dev/data-catalogue/update/"
+                  method: "POST"
+                  customHeaders: '{"Authorization": "${{ secrets.DATA_CATALOGUE_TOKEN }}"}'
+                  timeout: 30000
