@@ -18,7 +18,7 @@
           "description": "This distribution is based on individuals’ location of residence. For example, the life expectancy of an individual who works in Kuala Lumpur but lives in Selangor will be counted under Selangor."
       },
       "keys": {
-          "overall": "Both Sexes",
+          "overall": "Both sexes",
           "male": "Male",
           "female": "Female",
           "years": "years",
@@ -29,19 +29,19 @@
           "chinese": "Chinese",
           "indian": "Indian",
           "noncitizen": "Non-Citizen Residents",
-          "female_bumi_malay": "Female - Malay",
-          "female_bumi_other": "Female - Other Bumiputera",
-          "female_chinese": "Female - Chinese",
-          "female_indian": "Female - Indian",
-          "female_noncitizen": "Female - Non-Citizen",
-          "male_bumi_malay": "Male - Malay",
-          "male_bumi_other": "Male - Other Bumiputera",
-          "male_chinese": "Male - Chinese",
-          "male_indian": "Male - Indian",
-          "male_noncitizen": "Male - Non-Citizen",
-          "gap_sex": "Gender Gap (Female - Male)",
-          "state": "By State",
-          "district": "By District"
+          "female_bumi_malay": "Female (Malay)",
+          "female_bumi_other": "Female (other Bumiputera)",
+          "female_chinese": "Female (Chinese)",
+          "female_indian": "Female (Indian)",
+          "female_noncitizen": "Female (non-citizen)",
+          "male_bumi_malay": "Male (Malay",
+          "male_bumi_other": "Male (other Bumiputera)",
+          "male_chinese": "Male (Chinese)",
+          "male_indian": "Male (Indian)",
+          "male_noncitizen": "Male (non-citizen)",
+          "gap_sex": "Gender gap (Female - Male)",
+          "state": "By state",
+          "district": "By district"
       }
   }
 }

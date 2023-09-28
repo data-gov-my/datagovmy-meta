@@ -18,7 +18,7 @@
           "description": "Statistik ini dihasilkan berdasarkan lokasi kediaman individu. Contohnya, jangkaan hayat individu yang bekerja di Kuala Lumpur tetapi tinggal di Selangor akan dikira bawah Selangor."
       },
       "keys": {
-          "overall": "Kedua-dua Jantina",
+          "overall": "Kedua-dua jantina",
           "male": "Lelaki",
           "female": "Perempuan",
           "years": "tahun",
@@ -29,19 +29,19 @@
           "chinese": "Cina",
           "indian": "India",
           "noncitizen": "Penduduk Bukan Warganegara",
-          "female_bumi_malay": "Perempuan - Melayu",
-          "female_bumi_other": "Perempuan - Bumiputera Lain",
-          "female_chinese": "Perempuan - Cina",
-          "female_indian": "Perempuan - India",
-          "female_noncitizen": "Perempuan - Penduduk Bukan Warganegara",
-          "male_bumi_malay": "Lelaki - Melayu",
-          "male_bumi_other": "Lelaki - Bumiputera Lain",
-          "male_chinese": "Lelaki - Cina",
-          "male_indian": "Lelaki - India",
-          "male_noncitizen": "Lelaki - Penduduk Bukan Warganegara",
+          "female_bumi_malay": "Perempuan (Melayu)",
+          "female_bumi_other": "Perempuan (Bumiputera lain)",
+          "female_chinese": "Perempuan (Cina)",
+          "female_indian": "Perempuan (India)",
+          "female_noncitizen": "Perempuan (bukan warganegara)",
+          "male_bumi_malay": "Lelaki (Melayu)",
+          "male_bumi_other": "Lelaki (Bumiputera lain)",
+          "male_chinese": "Lelaki (Cina)",
+          "male_indian": "Lelaki (India)",
+          "male_noncitizen": "Lelaki (bukan Warganegara)",
           "gap_sex": "Jurang Jantina (Perempuan - Lelaki)",
-          "state": "Mengikut Negeri",
-          "district": "Mengikut Daerah"
+          "state": "Mengikut negeri",
+          "district": "Mengikut daerah"
       }
   }
 }
