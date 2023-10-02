@@ -1,0 +1,180 @@
+{
+    "file": {
+        "manual_trigger": "na",
+        "exclude_openapi": false,
+        "bucket": "population",
+        "file_name": "population_timeseries_district",
+        "category": "DEMOGRAPHY",
+        "category_en": "Demography",
+        "category_bm": "Demografi",
+        "subcategory": "POPULATION",
+        "subcategory_en": "Population",
+        "subcategory_bm": "Penduduk",
+        "category_opendosm": "DEMOGRAPHY",
+        "category_opendosm_en": "Demography",
+        "category_opendosm_bm": "Demografi",
+        "subcategory_opendosm": "POPULATION",
+        "subcategory_opendosm_en": "Population",
+        "subcategory_opendosm_bm": "Penduduk",
+        "description": {
+            "en": "This dataset tabulates the population of Malaysia at administrative district level, by sex, ethnicity, and 5-year age group, from 2020 to 2023.",
+            "bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat daerah pentadbiran, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023."
+        },
+        "link_parquet": "https://storage.dosm.gov.my/population/population_timeseries_district.parquet",
+        "link_csv": "https://storage.dosm.gov.my/population/population_timeseries_district.csv",
+        "link_preview": "https://storage.dosm.gov.my/population/population_timeseries_district.parquet",
+        "variables": [
+            {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as this is annual data",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01 kerana ini adalah data tahunan"
+            },
+            {
+                "id": -1,
+                "name": "state",
+                "title_en": "State",
+                "title_bm": "Negeri",
+                "desc_en": "[Categorical] One of 16 states",
+                "desc_bm": "[Kategoril] Satu daripada 16 negeri"
+            },
+            {
+                "id": -1,
+                "name": "district",
+                "title_en": "District",
+                "title_bm": "Daerah",
+                "desc_en": "[Categorical] One of 160 administrative districts, including the 4 states (Perlis and the 3 Federal Territories) which do not have subdivisions",
+                "desc_bm": "[Kategori] Satu daripada 160 daerah pentadbiran, termasuk 4 negeri (Perlis dan 3 Wilayah Persekutuan) yang tidak dipecahkan lagi"
+            },
+            {
+                "id": -1,
+                "name": "ethnicity",
+                "title_en": "Ethnicity",
+                "title_bm": "Etnik",
+                "desc_en": "[Categorical] One of six mutually exclusive ethnic groups, or the overall population",
+                "desc_bm": "[Kategori] Satu daripada enam kumpulan etnik saling eksklusif, ataupun penduduk keseluruhan"
+            },
+            {
+                "id": -1,
+                "name": "age",
+                "title_en": "Age Group",
+                "title_bm": "Kumpulan Umur",
+                "desc_en": "[Categorical] Five-year age groups e.g. 0-4, 5-9, 10-14, etc. 85+ is the oldest category.",
+                "desc_bm": "[Kategori] Kumpulan umur dengan julat 5 tahun, contohnya 0-4, 5-9, 10-14, dsb. 85+ adalah kumpulan yang tertua."
+            },
+            {
+                "id": -1,
+                "name": "sex",
+                "title_en": "Sex",
+                "title_bm": "Jantina",
+                "desc_en": "[Categorical] Male, female, or overall",
+                "desc_bm": "[Kategori] Lelaki, perempuan, atau keseluruhan"
+            },
+            {
+                "id": 1,
+                "name": "population",
+                "title_en": "Population Timeseries: Administrative Districts",
+                "title_bm": "Siri Masa Penduduk: Daerah Pentadbiran",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "YEARLY",
+                        "limit_frequency": true,
+                        "geography": [
+                            "DISTRICT"
+                        ],
+                        "demography": [],
+                        "start": "2020",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-06-30 23:59",
+                        "last_updated": "2023-08-29 12:00",
+                        "next_update": "2024-08-31 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "Value for 2020 are based on adjusted data from the 2020 Population and Housing Census of Malaysia. Values for 2021-23 are intercensal mid-year population estimates.",
+                            "caveat": "Values for breakdowns may not sum to totals due to rounding to one decimal place. However, the differences are not obvious.",
+                            "publication": "OpenDOSM features a [dashboard on the population of Malaysia](https://open.dosm.gov.my/dashboard/population)."
+                        },
+                        "bm": {
+                            "methodology": "Angka bagi 2020 adalah berdasarkan data dari Banci Penduduk dan Perumahan Malaysia 2020. Angka bagi 2021-23 adalah anggaran pertengah tahun anggaran antara banci.",
+                            "caveat": "Angka-angka tidak semestinya terjumlah disebabkan oleh penggenapan kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
+                            "publication": "OpenDOSM sendiri memaparkan [papan pemuka khas tentang populasi](https://open.dosm.gov.my/dashboard/population)."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [
+                                "state",
+                                "district",
+                                "ethnicity",
+                                "sex",
+                                "age"
+                            ],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [
+                                "state",
+                                "district",
+                                "ethnicity",
+                                "sex",
+                                "age"
+                            ],
+                            "operation": "SUM",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "population"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "overall_ethnicity": "All ethnicities",
+                            "bumi_malay": "Malay",
+                            "chinese": "Chinese",
+                            "indian": "Indian",
+                            "bumi_other": "Other Bumiputera",
+                            "other_citizen": "Other (citizen)",
+                            "other_noncitizen": "Other (non-citizen)",
+                            "overall_sex": "Both sexes",
+                            "male": "Male",
+                            "female": "Female",
+                            "overall_age": "All ages",
+                            "x": "Age",
+                            "y1": "Male",
+                            "y2": "Female"
+                        },
+                        "bm": {
+                            "overall_ethnicity": "Semua etnik",
+                            "bumi_malay": "Melayu",
+                            "chinese": "Cina",
+                            "indian": "India",
+                            "bumi_other": "Bumiputera lain",
+                            "other_citizen": "Lain-lain (warganegara)",
+                            "other_noncitizen": "Lain-lain (bukan warganegara)",
+                            "overall_sex": "Kedua-dua jantina",
+                            "male": "Lelaki",
+                            "female": "Perempuan",
+                            "overall_age": "Semua umur",
+                            "x": "Negeri",
+                            "y1": "Lelaki",
+                            "y2": "Perempuan"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
