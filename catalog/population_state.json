@@ -123,6 +123,12 @@
                     },
                     "translations": {
                         "en": {
+                            "date":"Date",
+                            "state":"State",
+                            "district":"District",
+                            "sex":"Sex",
+                            "ethnicity":"Ethnicity",
+                            "age":"Age",
                             "overall_ethnicity": "All ethnicities",
                             "bumi_malay": "Malay",
                             "chinese": "Chinese",
@@ -139,6 +145,13 @@
                             "y2": "Female"
                         },
                         "bm": {
+                            "date": "Tarikh",
+                            "state":"Negeri",
+                            "district":"Daerah",
+                            "sex":"Jantina",
+                            "ethnicity":"Etnik",
+                            "age":"Umur",
+                            "population":"Penduduk ('000)",
                             "overall_ethnicity": "Semua etnik",
                             "bumi_malay": "Melayu",
                             "chinese": "Cina",
