@@ -17,9 +17,8 @@
         "rail": "Rapid Rail",
         "select_origin": "Select Origin",
         "select_destination": "Select Destination",
-        "ridership_day": "Ridership from {{ from }} to {{ to }}",
-        "ridership_month": "Ridership from {{ from }} to {{ to }}",
-        "ridership_year": "Ridership from {{ from }} to {{ to }}",
+        "A0: All Stations": "A0: All Stations",
+        "ridership": "Ridership from {{ from }} to {{ to }}",
         "this_month": "This Month ({{ date }})",
         "no_trips": "No trips on this route; note that data for certain exits on the Putrajaya Line is not yet available."
     }

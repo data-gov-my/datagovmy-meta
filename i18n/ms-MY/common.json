@@ -1,7 +1,9 @@
 {
     "route": "/ms-MY/",
     "sites": [
-        "datagovmy"
+        "datagovmy",
+        "opendosm",
+        "kkmnow"
     ],
     "translation": {
         "site": {

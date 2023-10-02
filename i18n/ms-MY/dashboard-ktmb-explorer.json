@@ -18,9 +18,7 @@
         "tebrau": "Shuttle Tebrau",
         "select_origin": "Pilih Permulaan",
         "select_destination": "Pilih Destinasi",
-        "ridership_day": "Penumpang dari {{ from }} ke {{ to }}",
-        "ridership_month": "Penumpang dari {{ from }} ke {{ to }}",
-        "ridership_year": "Penumpang dari {{ from }} ke {{ to }}",
+        "ridership": "Penumpang dari {{ from }} ke {{ to }}",
         "this_month": "Bulan Ini ({{ date }})",
         "no_trips": "Tiada perjalanan di laluan ini"
     }
