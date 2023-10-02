@@ -17,9 +17,8 @@
         "rail": "Rel Rapid",
         "select_origin": "Pilih Permulaan",
         "select_destination": "Pilih Destinasi",
-        "ridership_day": "Penumpang dari {{ from }} ke {{ to }}",
-        "ridership_month": "Penumpang dari {{ from }} ke {{ to }}",
-        "ridership_year": "Penumpang dari {{ from }} ke {{ to }}",
+        "all_stations": "A0: Semua Stesen",
+        "ridership": "Penumpang dari {{ from }} ke {{ to }}",
         "this_month": "Bulan Ini ({{ date }})",
         "no_trips": "Tiada perjalanan di laluan ini; data bagi 'tap-out' bagi stesen tertentu di laluan Putrajaya belum lagi selesai proses integrasi."
     }
