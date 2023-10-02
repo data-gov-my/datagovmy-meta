@@ -118,7 +118,7 @@
                             ],
                             "operation": "MEAN",
                             "format": {
-                                "x": "date",
+                                "x": "age",
                                 "y": [
                                     "male",
                                     "female"
@@ -139,7 +139,7 @@
                             "male": "Male",
                             "female": "Female",
                             "overall_age": "All ages",
-                            "x": "Age",
+                            "x": "Age group",
                             "y1": "Male",
                             "y2": "Female"
                         },
@@ -155,7 +155,7 @@
                             "male": "Lelaki",
                             "female": "Perempuan",
                             "overall_age": "Semua umur",
-                            "x": "Negeri",
+                            "x": "Kumpulan umur",
                             "y1": "Lelaki",
                             "y2": "Perempuan"
                         }
