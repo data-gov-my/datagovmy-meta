@@ -111,12 +111,14 @@
                         }
                     },
                     "chart": {
-                        "chart_type": "PYRAMID",
+                        "chart_type": "TIMESERIES",
                         "chart_filters": {
                             "SLICE_BY": [
                                 "state",
                                 "district",
-                                "ethnicity"
+                                "ethnicity",
+                                "sex",
+                                "age"
                             ],
                             "precision": 1
                         },
