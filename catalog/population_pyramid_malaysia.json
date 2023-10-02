@@ -116,14 +116,11 @@
                             "parents": [
                                 "ethnicity"
                             ],
-                            "operation": "MEAN",
-                            "format": {
-                                "x": "age",
-                                "y": [
-                                    "male",
-                                    "female"
-                                ]
-                            }
+                            "x": "age",
+                            "y": [
+                                "male",
+                                "female"
+                            ]
                         }
                     },
                     "translations": {
