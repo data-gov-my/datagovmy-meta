@@ -10,9 +10,15 @@
         "subcategory": "POPULATION",
         "subcategory_en": "Population",
         "subcategory_bm": "Penduduk",
+        "category_opendosm": "DEMOGRAPHY",
+        "category_opendosm_en": "Demography",
+        "category_opendosm_bm": "Demografi",
+        "subcategory_opendosm": "POPULATION",
+        "subcategory_opendosm_en": "Population",
+        "subcategory_opendosm_bm": "Penduduk",
         "description": {
             "en": "This dataset tabulates the population of Malaysia at national level, by sex, ethnicity, and 5-year age group, from 2020 to 2023. It is presented in the form of a population pyramid, which is designed to show the age and sex-based structure of the population in a single view.",
-            "bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat nasional, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023. Ia dipaparkan dalam format piramid penduduk yang bertujuan menunjukkan strukture penduduk mengikut umur dan jantina dalam satu paparan yang mudah."
+            "bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat nasional, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023. Ia dipaparkan dalam format piramid penduduk yang bertujuan menunjukkan struktur penduduk mengikut umur dan jantina dalam satu paparan yang mudah."
         },
         "link_parquet": "https://storage.dosm.gov.my/population/population_pyramid_malaysia.parquet",
         "link_csv": "https://storage.dosm.gov.my/population/population_pyramid_malaysia.csv",
@@ -72,7 +78,7 @@
                 "title_en": "Population Pyramid: Malaysia",
                 "title_bm": "Piramid Penduduk: Malaysia",
                 "desc_en": "This dataset tabulates the population of Malaysia at national level, by sex, ethnicity, and 5-year age group, from 2020 to 2023. It is presented in the form of a population pyramid, which is designed to show the age and sex-based structure of the population in a single view.",
-                "desc_bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat nasional, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023. Ia dipaparkan dalam format piramid penduduk yang bertujuan menunjukkan strukture penduduk mengikut umur dan jantina dalam satu paparan yang mudah.",
+                "desc_bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat nasional, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023. Ia dipaparkan dalam format piramid penduduk yang bertujuan menunjukkan struktur penduduk mengikut umur dan jantina dalam satu paparan yang mudah.",
                 "catalog_data": {
                     "catalog_filters": {
                         "frequency": "YEARLY",
@@ -90,7 +96,7 @@
                     "metadata_neutral": {
                         "data_as_of": "2023-06-30 23:59",
                         "last_updated": "2023-07-31 12:00",
-                        "next_update": "TBC"
+                        "next_update": "2024-07-31 12:00"
                     },
                     "metadata_lang": {
                         "en": {
