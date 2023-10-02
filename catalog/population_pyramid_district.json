@@ -3,7 +3,7 @@
         "manual_trigger": "na",
         "exclude_openapi": false,
         "bucket": "population",
-        "file_name": "population_pyramid_malaysia",
+        "file_name": "population_pyramid_district",
         "category": "DEMOGRAPHY",
         "category_en": "Demography",
         "category_bm": "Demografi",
@@ -17,12 +17,12 @@
         "subcategory_opendosm_en": "Population",
         "subcategory_opendosm_bm": "Penduduk",
         "description": {
-            "en": "This dataset tabulates the population of Malaysia at national level, by sex, ethnicity, and 5-year age group, from 2020 to 2023. It is presented in the form of a population pyramid, which is designed to show the age and sex-based structure of the population in a single view.",
-            "bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat nasional, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023. Ia dipaparkan dalam format piramid penduduk yang bertujuan menunjukkan struktur penduduk mengikut umur dan jantina dalam satu paparan yang mudah."
+            "en": "This dataset tabulates the population of Malaysia at administrative district level, by sex, ethnicity, and 5-year age group, from 2020 to 2023. It is presented in the form of a population pyramid, which is designed to show the age and sex-based structure of the population in a single view.",
+            "bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat daerah pentadbiran, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023. Ia dipaparkan dalam format piramid penduduk yang bertujuan menunjukkan struktur penduduk mengikut umur dan jantina dalam satu paparan yang mudah."
         },
-        "link_parquet": "https://storage.dosm.gov.my/population/population_pyramid_malaysia.parquet",
-        "link_csv": "https://storage.dosm.gov.my/population/population_pyramid_malaysia.csv",
-        "link_preview": "https://storage.dosm.gov.my/population/population_pyramid_malaysia.parquet",
+        "link_parquet": "https://storage.dosm.gov.my/population/population_pyramid_district.parquet",
+        "link_csv": "https://storage.dosm.gov.my/population/population_pyramid_district.csv",
+        "link_preview": "https://storage.dosm.gov.my/population/population_pyramid_district.parquet",
         "variables": [
             {
                 "id": -1,
@@ -37,8 +37,16 @@
                 "name": "state",
                 "title_en": "State",
                 "title_bm": "Negeri",
-                "desc_en": "[Categorical] The value is set to 'Malaysia'; this column is included for avoidance of doubt regarding coverage if the dataset is examined in isolation",
-                "desc_bm": "[Kategoril] Nilai ditetapkan sebagai 'Malaysia'; lajur ini dimasukkan untuk mengelakkan keraguan mengenai skop data sekiranya dilihat tanpa metadata di portal ini"
+                "desc_en": "[Categorical] One of 16 states",
+                "desc_bm": "[Kategoril] Satu daripada 16 negeri"
+            },
+            {
+                "id": -1,
+                "name": "district",
+                "title_en": "District",
+                "title_bm": "Daerah",
+                "desc_en": "[Categorical] One of 160 administrative districts, including the 4 states (Perlis and the 3 Federal Territories) which do not have subdivisions",
+                "desc_bm": "[Kategori] Satu daripada 160 daerah pentadbiran, termasuk 4 negeri (Perlis dan 3 Wilayah Persekutuan) yang tidak dipecahkan lagi"
             },
             {
                 "id": -1,
@@ -74,17 +82,17 @@
             },
             {
                 "id": 0,
-                "name": "population_pyramid_malaysia",
-                "title_en": "Population Pyramid: Malaysia",
-                "title_bm": "Piramid Penduduk: Malaysia",
-                "desc_en": "This dataset tabulates the population of Malaysia at national level, by sex, ethnicity, and 5-year age group, from 2020 to 2023. It is presented in the form of a population pyramid, which is designed to show the age and sex-based structure of the population in a single view.",
-                "desc_bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat nasional, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023. Ia dipaparkan dalam format piramid penduduk yang bertujuan menunjukkan struktur penduduk mengikut umur dan jantina dalam satu paparan yang mudah.",
+                "name": "population_pyramid_district",
+                "title_en": "Population Pyramid: Administrative Districts",
+                "title_bm": "Piramid Penduduk: Daerah Pentadbiran",
+                "desc_en": "This dataset tabulates the population of Malaysia at administrative district level, by sex, ethnicity, and 5-year age group, from 2020 to 2023. It is presented in the form of a population pyramid, which is designed to show the age and sex-based structure of the population in a single view.",
+                "desc_bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat daerah pentadbiran, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023. Ia dipaparkan dalam format piramid penduduk yang bertujuan menunjukkan struktur penduduk mengikut umur dan jantina dalam satu paparan yang mudah.",
                 "catalog_data": {
                     "catalog_filters": {
                         "frequency": "YEARLY",
                         "limit_frequency": true,
                         "geography": [
-                            "NATIONAL"
+                            "DISTRICT"
                         ],
                         "demography": [],
                         "start": "2020",
@@ -95,8 +103,8 @@
                     },
                     "metadata_neutral": {
                         "data_as_of": "2023-06-30 23:59",
-                        "last_updated": "2023-07-31 12:00",
-                        "next_update": "2024-07-31 12:00"
+                        "last_updated": "2023-08-29 12:00",
+                        "next_update": "2024-08-31 12:00"
                     },
                     "metadata_lang": {
                         "en": {
@@ -114,12 +122,16 @@
                         "chart_type": "PYRAMID",
                         "chart_filters": {
                             "SLICE_BY": [
+                                "state",
+                                "district",
                                 "ethnicity"
                             ],
                             "precision": 1
                         },
                         "chart_variables": {
                             "parents": [
+                                "state",
+                                "district",
                                 "ethnicity"
                             ],
                             "x": "age",

@@ -3,7 +3,7 @@
         "manual_trigger": "na",
         "exclude_openapi": false,
         "bucket": "population",
-        "file_name": "population_pyramid_malaysia",
+        "file_name": "population_pyramid_state",
         "category": "DEMOGRAPHY",
         "category_en": "Demography",
         "category_bm": "Demografi",
@@ -17,12 +17,12 @@
         "subcategory_opendosm_en": "Population",
         "subcategory_opendosm_bm": "Penduduk",
         "description": {
-            "en": "This dataset tabulates the population of Malaysia at national level, by sex, ethnicity, and 5-year age group, from 2020 to 2023. It is presented in the form of a population pyramid, which is designed to show the age and sex-based structure of the population in a single view.",
-            "bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat nasional, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023. Ia dipaparkan dalam format piramid penduduk yang bertujuan menunjukkan struktur penduduk mengikut umur dan jantina dalam satu paparan yang mudah."
+            "en": "This dataset tabulates the population of Malaysia at state level, by sex, ethnicity, and 5-year age group, from 2020 to 2023. It is presented in the form of a population pyramid, which is designed to show the age and sex-based structure of the population in a single view.",
+            "bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat negeri, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023. Ia dipaparkan dalam format piramid penduduk yang bertujuan menunjukkan struktur penduduk mengikut umur dan jantina dalam satu paparan yang mudah."
         },
-        "link_parquet": "https://storage.dosm.gov.my/population/population_pyramid_malaysia.parquet",
-        "link_csv": "https://storage.dosm.gov.my/population/population_pyramid_malaysia.csv",
-        "link_preview": "https://storage.dosm.gov.my/population/population_pyramid_malaysia.parquet",
+        "link_parquet": "https://storage.dosm.gov.my/population/population_pyramid_state.parquet",
+        "link_csv": "https://storage.dosm.gov.my/population/population_pyramid_state.csv",
+        "link_preview": "https://storage.dosm.gov.my/population/population_pyramid_state.parquet",
         "variables": [
             {
                 "id": -1,
@@ -37,8 +37,8 @@
                 "name": "state",
                 "title_en": "State",
                 "title_bm": "Negeri",
-                "desc_en": "[Categorical] The value is set to 'Malaysia'; this column is included for avoidance of doubt regarding coverage if the dataset is examined in isolation",
-                "desc_bm": "[Kategoril] Nilai ditetapkan sebagai 'Malaysia'; lajur ini dimasukkan untuk mengelakkan keraguan mengenai skop data sekiranya dilihat tanpa metadata di portal ini"
+                "desc_en": "[Categorical] One of 16 states",
+                "desc_bm": "[Kategoril] Satu daripada 16 negeri"
             },
             {
                 "id": -1,
@@ -74,17 +74,17 @@
             },
             {
                 "id": 0,
-                "name": "population_pyramid_malaysia",
-                "title_en": "Population Pyramid: Malaysia",
-                "title_bm": "Piramid Penduduk: Malaysia",
-                "desc_en": "This dataset tabulates the population of Malaysia at national level, by sex, ethnicity, and 5-year age group, from 2020 to 2023. It is presented in the form of a population pyramid, which is designed to show the age and sex-based structure of the population in a single view.",
-                "desc_bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat nasional, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023. Ia dipaparkan dalam format piramid penduduk yang bertujuan menunjukkan struktur penduduk mengikut umur dan jantina dalam satu paparan yang mudah.",
+                "name": "population_pyramid_state",
+                "title_en": "Population Pyramid: States",
+                "title_bm": "Piramid Penduduk: Negeri",
+                "desc_en": "This dataset tabulates the population of Malaysia at state level, by sex, ethnicity, and 5-year age group, from 2020 to 2023. It is presented in the form of a population pyramid, which is designed to show the age and sex-based structure of the population in a single view.",
+                "desc_bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat negeri, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023. Ia dipaparkan dalam format piramid penduduk yang bertujuan menunjukkan struktur penduduk mengikut umur dan jantina dalam satu paparan yang mudah.",
                 "catalog_data": {
                     "catalog_filters": {
                         "frequency": "YEARLY",
                         "limit_frequency": true,
                         "geography": [
-                            "NATIONAL"
+                            "STATE"
                         ],
                         "demography": [],
                         "start": "2020",
@@ -114,12 +114,14 @@
                         "chart_type": "PYRAMID",
                         "chart_filters": {
                             "SLICE_BY": [
+                                "state",
                                 "ethnicity"
                             ],
                             "precision": 1
                         },
                         "chart_variables": {
                             "parents": [
+                                "state",
                                 "ethnicity"
                             ],
                             "x": "age",
