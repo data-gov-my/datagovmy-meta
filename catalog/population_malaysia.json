@@ -1,6 +1,6 @@
 {
     "file": {
-        "manual_trigger": "na",
+        "manual_trigger": "",
         "exclude_openapi": false,
         "bucket": "population",
         "file_name": "population_malaysia",
