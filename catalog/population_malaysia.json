@@ -1,9 +1,9 @@
 {
     "file": {
-        "manual_trigger": "na",
+        "manual_trigger": "",
         "exclude_openapi": false,
         "bucket": "population",
-        "file_name": "population_timeseries_malaysia",
+        "file_name": "population_malaysia",
         "category": "DEMOGRAPHY",
         "category_en": "Demography",
         "category_bm": "Demografi",
@@ -20,9 +20,9 @@
             "en": "This dataset tabulates the population of Malaysia at national level, by sex, ethnicity, and 5-year age group, from 2020 to 2023.",
             "bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat nasional, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023."
         },
-        "link_parquet": "https://storage.dosm.gov.my/population/population_timeseries_malaysia.parquet",
-        "link_csv": "https://storage.dosm.gov.my/population/population_timeseries_malaysia.csv",
-        "link_preview": "https://storage.dosm.gov.my/population/population_timeseries_malaysia.parquet",
+        "link_parquet": "https://storage.dosm.gov.my/population/population_malaysia.parquet",
+        "link_csv": "https://storage.dosm.gov.my/population/population_malaysia.csv",
+        "link_preview": "https://storage.dosm.gov.my/population/population_malaysia.parquet",
         "variables": [
             {
                 "id": -1,
@@ -58,27 +58,34 @@
             },
             {
                 "id": -1,
-                "name": "sex",
-                "title_en": "Sex",
-                "title_bm": "Jantina",
-                "desc_en": "[Categorical] Male, female, or overall",
-                "desc_bm": "[Kategori] Lelaki, perempuan, atau keseluruhan"
+                "name": "female",
+                "title_en": "Female",
+                "title_bm": "Perempuan",
+                "desc_en": "[Float] Thousands of females ('000 people)",
+                "desc_bm": "[Apung] Ribuan perempuan ('000 orang)"
             },
             {
-                "id": 1,
-                "name": "population",
-                "title_en": "Population Timeseries: Malaysia",
-                "title_bm": "Siri Masa Penduduk: Malaysia",
-                "desc_en": "[Float] Thousands of people ('000 people)",
-                "desc_bm": "[Apung] Ribuan orang ('000 orang)",
+                "id": -1,
+                "name": "male",
+                "title_en": "Male",
+                "title_bm": "Lelaki",
+                "desc_en": "[Float] Thousands of males ('000 people)",
+                "desc_bm": "[Apung] Ribuan lelaki ('000 orang)"
+            },
+            {
+                "id": 0,
+                "name": "population_pyramid_malaysia",
+                "title_en": "Population Table: Malaysia",
+                "title_bm": "Penduduk: Malaysia",
+                "desc_en": "This dataset tabulates the population of Malaysia at national level, by sex, ethnicity, and 5-year age group, from 2020 to 2023.",
+                "desc_bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat nasional, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023.",
                 "catalog_data": {
                     "catalog_filters": {
                         "frequency": "YEARLY",
-                        "limit_frequency": true,
                         "geography": [
                             "NATIONAL"
                         ],
-                        "demography": [],
+                        "demography": ["SEX","ETHNICITY","AGE"],
                         "start": "2020",
                         "end": "2023",
                         "data_source": [
@@ -92,7 +99,7 @@
                     },
                     "metadata_lang": {
                         "en": {
-                            "methodology": "Value for 2020 are based on adjusted data from the 2020 Population and Housing Census of Malaysia. Values for 2021-23 are intercensal mid-year population estimates.",
+                            "methodology": "Values for 2020 are based on adjusted data from the 2020 Population and Housing Census of Malaysia. Values for 2021-23 are intercensal mid-year population estimates.",
                             "caveat": "Values for breakdowns may not sum to totals due to rounding to one decimal place. However, the differences are not obvious.",
                             "publication": "OpenDOSM features a [dashboard on the population of Malaysia](https://open.dosm.gov.my/dashboard/population)."
                         },
@@ -103,32 +110,26 @@
                         }
                     },
                     "chart": {
-                        "chart_type": "TIMESERIES",
+                        "chart_type": "TABLE",
                         "chart_filters": {
-                            "SLICE_BY": [
-                                "ethnicity",
-                                "sex",
-                                "age"
-                            ],
+                            "SLICE_BY": [],
                             "precision": 1
                         },
                         "chart_variables": {
-                            "parents": [
-                                "ethnicity",
-                                "sex",
-                                "age"
-                            ],
-                            "operation": "SUM",
-                            "format": {
-                                "x": "date",
-                                "y": [
-                                    "population"
-                                ]
-                            }
+                            "parents": [],
+                            "exclude": [],
+                            "freeze": []
                         }
                     },
                     "translations": {
                         "en": {
+                            "date":"Date",
+                            "state":"State",
+                            "district":"District",
+                            "sex":"Sex",
+                            "ethnicity":"Ethnicity",
+                            "age":"Age",
+                            "population": "Population ('000)",
                             "overall_ethnicity": "All ethnicities",
                             "bumi_malay": "Malay",
                             "chinese": "Chinese",
@@ -145,6 +146,13 @@
                             "y2": "Female"
                         },
                         "bm": {
+                            "date": "Tarikh",
+                            "state":"Negeri",
+                            "district":"Daerah",
+                            "sex":"Jantina",
+                            "ethnicity":"Etnik",
+                            "age":"Umur",
+                            "population":"Penduduk ('000)",
                             "overall_ethnicity": "Semua etnik",
                             "bumi_malay": "Melayu",
                             "chinese": "Cina",

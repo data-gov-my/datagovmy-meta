@@ -1,9 +1,9 @@
 {
     "file": {
-        "manual_trigger": "na",
-        "exclude_openapi": false,
+        "manual_trigger": "",
+        "exclude_openapi": true,
         "bucket": "population",
-        "file_name": "population_timeseries_state",
+        "file_name": "population_district",
         "category": "DEMOGRAPHY",
         "category_en": "Demography",
         "category_bm": "Demografi",
@@ -17,12 +17,12 @@
         "subcategory_opendosm_en": "Population",
         "subcategory_opendosm_bm": "Penduduk",
         "description": {
-            "en": "This dataset tabulates the population of Malaysia at state level, by sex, ethnicity, and 5-year age group, from 2020 to 2023.",
-            "bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat negeri, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023."
+            "en": "This dataset tabulates the population of Malaysia at administrative district level, by sex, ethnicity, and 5-year age group, from 2020 to 2023.",
+            "bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat daerah pentadbiran, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023."
         },
-        "link_parquet": "https://storage.dosm.gov.my/population/population_timeseries_state.parquet",
-        "link_csv": "https://storage.dosm.gov.my/population/population_timeseries_state.csv",
-        "link_preview": "https://storage.dosm.gov.my/population/population_timeseries_state.parquet",
+        "link_parquet": "https://storage.dosm.gov.my/population/population_district.parquet",
+        "link_csv": "https://storage.dosm.gov.my/population/population_district.csv",
+        "link_preview": "https://storage.dosm.gov.my/population/population_district_preview.parquet",
         "variables": [
             {
                 "id": -1,
@@ -42,6 +42,14 @@
             },
             {
                 "id": -1,
+                "name": "district",
+                "title_en": "District",
+                "title_bm": "Daerah",
+                "desc_en": "[Categorical] One of 160 administrative districts, including the 4 states (Perlis and the 3 Federal Territories) which do not have subdivisions",
+                "desc_bm": "[Kategori] Satu daripada 160 daerah pentadbiran, termasuk 4 negeri (Perlis dan 3 Wilayah Persekutuan) yang tidak dipecahkan lagi"
+            },
+            {
+                "id": -1,
                 "name": "ethnicity",
                 "title_en": "Ethnicity",
                 "title_bm": "Etnik",
@@ -58,27 +66,34 @@
             },
             {
                 "id": -1,
-                "name": "sex",
-                "title_en": "Sex",
-                "title_bm": "Jantina",
-                "desc_en": "[Categorical] Male, female, or overall",
-                "desc_bm": "[Kategori] Lelaki, perempuan, atau keseluruhan"
+                "name": "female",
+                "title_en": "Female",
+                "title_bm": "Perempuan",
+                "desc_en": "[Float] Thousands of females ('000 people)",
+                "desc_bm": "[Apung] Ribuan perempuan ('000 orang)"
             },
             {
-                "id": 1,
-                "name": "population",
-                "title_en": "Population Timeseries: States",
-                "title_bm": "Siri Masa Penduduk: Negeri",
-                "desc_en": "[Float] Thousands of people ('000 people)",
-                "desc_bm": "[Apung] Ribuan orang ('000 orang)",
+                "id": -1,
+                "name": "male",
+                "title_en": "Male",
+                "title_bm": "Lelaki",
+                "desc_en": "[Float] Thousands of males ('000 people)",
+                "desc_bm": "[Apung] Ribuan lelaki ('000 orang)"
+            },
+            {
+                "id": 0,
+                "name": "population_pyramid_district",
+                "title_en": "Population Table: Administrative Districts",
+                "title_bm": "Jadual Penduduk: Daerah Pentadbiran",
+                "desc_en": "This dataset tabulates the population of Malaysia at administrative district level, by sex, ethnicity, and 5-year age group, from 2020 to 2023. Because the full dataset contains over 250,000 rows, the data shown here is a truncated preview (using Batu Pahat as an example) to help you explore the various fields.",
+                "desc_bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat daerah pentadbiran, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023. Oleh sebab set data penuh mengandungi lebih daripada 250,000 baris, data yang dipaparkan di sini telah disingkatkan (dengan mengambil Batu Pahat sebagai contoh) untuk membantu anda memahami medan-medan yang terkandung.",
                 "catalog_data": {
                     "catalog_filters": {
                         "frequency": "YEARLY",
-                        "limit_frequency": true,
                         "geography": [
-                            "STATE"
+                            "DISTRICT"
                         ],
-                        "demography": [],
+                        "demography": ["SEX","ETHNICITY","AGE"],
                         "start": "2020",
                         "end": "2023",
                         "data_source": [
@@ -87,12 +102,12 @@
                     },
                     "metadata_neutral": {
                         "data_as_of": "2023-06-30 23:59",
-                        "last_updated": "2023-07-31 12:00",
-                        "next_update": "2024-07-31 12:00"
+                        "last_updated": "2023-08-29 12:00",
+                        "next_update": "2024-08-31 12:00"
                     },
                     "metadata_lang": {
                         "en": {
-                            "methodology": "Value for 2020 are based on adjusted data from the 2020 Population and Housing Census of Malaysia. Values for 2021-23 are intercensal mid-year population estimates.",
+                            "methodology": "Values for 2020 are based on adjusted data from the 2020 Population and Housing Census of Malaysia. Values for 2021-23 are intercensal mid-year population estimates.",
                             "caveat": "Values for breakdowns may not sum to totals due to rounding to one decimal place. However, the differences are not obvious.",
                             "publication": "OpenDOSM features a [dashboard on the population of Malaysia](https://open.dosm.gov.my/dashboard/population)."
                         },
@@ -103,34 +118,26 @@
                         }
                     },
                     "chart": {
-                        "chart_type": "TIMESERIES",
+                        "chart_type": "TABLE",
                         "chart_filters": {
-                            "SLICE_BY": [
-                                "state",
-                                "ethnicity",
-                                "sex",
-                                "age"
-                            ],
+                            "SLICE_BY": [],
                             "precision": 1
                         },
                         "chart_variables": {
-                            "parents": [
-                                "state",
-                                "ethnicity",
-                                "sex",
-                                "age"
-                            ],
-                            "operation": "SUM",
-                            "format": {
-                                "x": "date",
-                                "y": [
-                                    "population"
-                                ]
-                            }
+                            "parents": [],
+                            "exclude": [],
+                            "freeze": []
                         }
                     },
                     "translations": {
                         "en": {
+                            "date":"Date",
+                            "state":"State",
+                            "district":"District",
+                            "sex":"Sex",
+                            "ethnicity":"Ethnicity",
+                            "age":"Age",
+                            "population": "Population ('000)",
                             "overall_ethnicity": "All ethnicities",
                             "bumi_malay": "Malay",
                             "chinese": "Chinese",
@@ -147,6 +154,13 @@
                             "y2": "Female"
                         },
                         "bm": {
+                            "date": "Tarikh",
+                            "state":"Negeri",
+                            "district":"Daerah",
+                            "sex":"Jantina",
+                            "ethnicity":"Etnik",
+                            "age":"Umur",
+                            "population":"Penduduk ('000)",
                             "overall_ethnicity": "Semua etnik",
                             "bumi_malay": "Melayu",
                             "chinese": "Cina",
