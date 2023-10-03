@@ -1,9 +1,9 @@
-name: Auto-Merge Staging to Main
+name: Auto-Merge Main to Staging
 
 on:
     push:
         branches:
-            - staging
+            - main
 
 jobs:
     automated_merge:
@@ -17,23 +17,23 @@ jobs:
               uses: devmasx/merge-branch@master
               with:
                   type: now
-                  from_branch: staging
-                  target_branch: main
-                  message: Automated merge from staging
+                  from_branch: main
+                  target_branch: staging
+                  message: Automated merge from main
                   github_token: ${{ secrets.GITHUB_TOKEN }}
 
-            - name: POST call datagovmy prod
+            - name: POST call datagovmy staging
               uses: fjogeleit/http-request-action@v1
               with:
-                  url: "https://datagovmy.app/update/"
+                  url: "https://staging.datagovmy.app/update/"
                   method: "POST"
-                  customHeaders: '{"Authorization": "${{ secrets.WORKFLOW_TOKEN }}"}'
+                  customHeaders: '{"Authorization": "${{ secrets.WORKFLOW_TOKEN_STAGING }}"}'
                   timeout: 30000
 
-            - name: POST call openapi prod
+            - name: POST call openapi staging
               uses: fjogeleit/http-request-action@v1
               with:
-                  url: "https://api.datagovmy.dev/data-catalogue/update/"
+                  url: "https://staging.datagovmy.dev/data-catalogue/update/"
                   method: "POST"
-                  customHeaders: '{"Authorization": "${{ secrets.DATA_CATALOGUE_TOKEN }}"}'
+                  customHeaders: '{"Authorization": "${{ secrets.DATA_CATALOGUE_TOKEN_STAGING }}"}'
                   timeout: 30000
