@@ -1,0 +1,48 @@
+{
+    "publication": "ipi_2022-12",
+    "publication_type": "ipi",
+    "release_date": "2023-02-07",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Dec 2022] Industrial Production Index",
+        "publication_type_title": "Industrial Production Index",
+        "description": "Industrial production indices for the manufacturing, mining, and electricity-production sectors.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Industrial Production Index: Dec 2022",
+                "resource_link": "https://storage.dosm.gov.my/ipi/ipi_2022-12.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Industrial Production Index: Dec 2022",
+                "resource_link": "https://storage.dosm.gov.my/ipi/ipi_2022-12.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Dis 2022] Indeks Pengeluaran Perinudstrian",
+        "publication_type_title": "Indeks Pengeluaran Perinudstrian",
+        "description": "Indeks pengeluaran perindustrian bagi sektor pembuatan, pelombongan dan penjanaan elektrik.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Indeks Pengeluaran Perindustrian: Dis 2022",
+                "resource_link": "https://storage.dosm.gov.my/ipi/ipi_2022-12.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Indeks Pengeluaran Perindustrian: Dis 2022",
+                "resource_link": "https://storage.dosm.gov.my/ipi/ipi_2022-12.pdf"
+            }
+        ]
+    }
+}
