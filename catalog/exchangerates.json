@@ -1,6 +1,6 @@
 {
     "file": {
-        "manual_trigger": "2023-10-04 07:24:23.667945",
+        "manual_trigger": "2023-10-05 07:26:57.754717",
         "exclude_openapi": false,
         "bucket": "finsector",
         "file_name": "exchangerates",
@@ -55,9 +55,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-10-03 23:59",
-                        "last_updated": "2023-10-04 04:00",
-                        "next_update": "2023-10-05 04:00"
+                        "data_as_of": "2023-10-04 23:59",
+                        "last_updated": "2023-10-05 04:00",
+                        "next_update": "2023-10-06 04:00"
                     },
                     "metadata_lang": {
                         "en": {
@@ -123,9 +123,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-10-03 23:59",
-                        "last_updated": "2023-10-04 04:00",
-                        "next_update": "2023-10-05 04:00"
+                        "data_as_of": "2023-10-04 23:59",
+                        "last_updated": "2023-10-05 04:00",
+                        "next_update": "2023-10-06 04:00"
                     },
                     "metadata_lang": {
                         "en": {
@@ -191,9 +191,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-10-03 23:59",
-                        "last_updated": "2023-10-04 04:00",
-                        "next_update": "2023-10-05 04:00"
+                        "data_as_of": "2023-10-04 23:59",
+                        "last_updated": "2023-10-05 04:00",
+                        "next_update": "2023-10-06 04:00"
                     },
                     "metadata_lang": {
                         "en": {
@@ -259,9 +259,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-10-03 23:59",
-                        "last_updated": "2023-10-04 04:00",
-                        "next_update": "2023-10-05 04:00"
+                        "data_as_of": "2023-10-04 23:59",
+                        "last_updated": "2023-10-05 04:00",
+                        "next_update": "2023-10-06 04:00"
                     },
                     "metadata_lang": {
                         "en": {
@@ -327,9 +327,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-10-03 23:59",
-                        "last_updated": "2023-10-04 04:00",
-                        "next_update": "2023-10-05 04:00"
+                        "data_as_of": "2023-10-04 23:59",
+                        "last_updated": "2023-10-05 04:00",
+                        "next_update": "2023-10-06 04:00"
                     },
                     "metadata_lang": {
                         "en": {
@@ -395,9 +395,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-10-03 23:59",
-                        "last_updated": "2023-10-04 04:00",
-                        "next_update": "2023-10-05 04:00"
+                        "data_as_of": "2023-10-04 23:59",
+                        "last_updated": "2023-10-05 04:00",
+                        "next_update": "2023-10-06 04:00"
                     },
                     "metadata_lang": {
                         "en": {
@@ -463,9 +463,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-10-03 23:59",
-                        "last_updated": "2023-10-04 04:00",
-                        "next_update": "2023-10-05 04:00"
+                        "data_as_of": "2023-10-04 23:59",
+                        "last_updated": "2023-10-05 04:00",
+                        "next_update": "2023-10-06 04:00"
                     },
                     "metadata_lang": {
                         "en": {
@@ -531,9 +531,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-10-03 23:59",
-                        "last_updated": "2023-10-04 04:00",
-                        "next_update": "2023-10-05 04:00"
+                        "data_as_of": "2023-10-04 23:59",
+                        "last_updated": "2023-10-05 04:00",
+                        "next_update": "2023-10-06 04:00"
                     },
                     "metadata_lang": {
                         "en": {
@@ -599,9 +599,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-10-03 23:59",
-                        "last_updated": "2023-10-04 04:00",
-                        "next_update": "2023-10-05 04:00"
+                        "data_as_of": "2023-10-04 23:59",
+                        "last_updated": "2023-10-05 04:00",
+                        "next_update": "2023-10-06 04:00"
                     },
                     "metadata_lang": {
                         "en": {
@@ -667,9 +667,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-10-03 23:59",
-                        "last_updated": "2023-10-04 04:00",
-                        "next_update": "2023-10-05 04:00"
+                        "data_as_of": "2023-10-04 23:59",
+                        "last_updated": "2023-10-05 04:00",
+                        "next_update": "2023-10-06 04:00"
                     },
                     "metadata_lang": {
                         "en": {
@@ -735,9 +735,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-10-03 23:59",
-                        "last_updated": "2023-10-04 04:00",
-                        "next_update": "2023-10-05 04:00"
+                        "data_as_of": "2023-10-04 23:59",
+                        "last_updated": "2023-10-05 04:00",
+                        "next_update": "2023-10-06 04:00"
                     },
                     "metadata_lang": {
                         "en": {
@@ -803,9 +803,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-10-03 23:59",
-                        "last_updated": "2023-10-04 04:00",
-                        "next_update": "2023-10-05 04:00"
+                        "data_as_of": "2023-10-04 23:59",
+                        "last_updated": "2023-10-05 04:00",
+                        "next_update": "2023-10-06 04:00"
                     },
                     "metadata_lang": {
                         "en": {
@@ -871,9 +871,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-10-03 23:59",
-                        "last_updated": "2023-10-04 04:00",
-                        "next_update": "2023-10-05 04:00"
+                        "data_as_of": "2023-10-04 23:59",
+                        "last_updated": "2023-10-05 04:00",
+                        "next_update": "2023-10-06 04:00"
                     },
                     "metadata_lang": {
                         "en": {
@@ -939,9 +939,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-10-03 23:59",
-                        "last_updated": "2023-10-04 04:00",
-                        "next_update": "2023-10-05 04:00"
+                        "data_as_of": "2023-10-04 23:59",
+                        "last_updated": "2023-10-05 04:00",
+                        "next_update": "2023-10-06 04:00"
                     },
                     "metadata_lang": {
                         "en": {
@@ -1007,9 +1007,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-10-03 23:59",
-                        "last_updated": "2023-10-04 04:00",
-                        "next_update": "2023-10-05 04:00"
+                        "data_as_of": "2023-10-04 23:59",
+                        "last_updated": "2023-10-05 04:00",
+                        "next_update": "2023-10-06 04:00"
                     },
                     "metadata_lang": {
                         "en": {
@@ -1075,9 +1075,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-10-03 23:59",
-                        "last_updated": "2023-10-04 04:00",
-                        "next_update": "2023-10-05 04:00"
+                        "data_as_of": "2023-10-04 23:59",
+                        "last_updated": "2023-10-05 04:00",
+                        "next_update": "2023-10-06 04:00"
                     },
                     "metadata_lang": {
                         "en": {
@@ -1143,9 +1143,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-10-03 23:59",
-                        "last_updated": "2023-10-04 04:00",
-                        "next_update": "2023-10-05 04:00"
+                        "data_as_of": "2023-10-04 23:59",
+                        "last_updated": "2023-10-05 04:00",
+                        "next_update": "2023-10-06 04:00"
                     },
                     "metadata_lang": {
                         "en": {
@@ -1211,9 +1211,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-10-03 23:59",
-                        "last_updated": "2023-10-04 04:00",
-                        "next_update": "2023-10-05 04:00"
+                        "data_as_of": "2023-10-04 23:59",
+                        "last_updated": "2023-10-05 04:00",
+                        "next_update": "2023-10-06 04:00"
                     },
                     "metadata_lang": {
                         "en": {
@@ -1279,9 +1279,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-10-03 23:59",
-                        "last_updated": "2023-10-04 04:00",
-                        "next_update": "2023-10-05 04:00"
+                        "data_as_of": "2023-10-04 23:59",
+                        "last_updated": "2023-10-05 04:00",
+                        "next_update": "2023-10-06 04:00"
                     },
                     "metadata_lang": {
                         "en": {
@@ -1347,9 +1347,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-10-03 23:59",
-                        "last_updated": "2023-10-04 04:00",
-                        "next_update": "2023-10-05 04:00"
+                        "data_as_of": "2023-10-04 23:59",
+                        "last_updated": "2023-10-05 04:00",
+                        "next_update": "2023-10-06 04:00"
                     },
                     "metadata_lang": {
                         "en": {
@@ -1415,9 +1415,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-10-03 23:59",
-                        "last_updated": "2023-10-04 04:00",
-                        "next_update": "2023-10-05 04:00"
+                        "data_as_of": "2023-10-04 23:59",
+                        "last_updated": "2023-10-05 04:00",
+                        "next_update": "2023-10-06 04:00"
                     },
                     "metadata_lang": {
                         "en": {
@@ -1483,9 +1483,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-10-03 23:59",
-                        "last_updated": "2023-10-04 04:00",
-                        "next_update": "2023-10-05 04:00"
+                        "data_as_of": "2023-10-04 23:59",
+                        "last_updated": "2023-10-05 04:00",
+                        "next_update": "2023-10-06 04:00"
                     },
                     "metadata_lang": {
                         "en": {
@@ -1551,9 +1551,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-10-03 23:59",
-                        "last_updated": "2023-10-04 04:00",
-                        "next_update": "2023-10-05 04:00"
+                        "data_as_of": "2023-10-04 23:59",
+                        "last_updated": "2023-10-05 04:00",
+                        "next_update": "2023-10-06 04:00"
                     },
                     "metadata_lang": {
                         "en": {
@@ -1619,9 +1619,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-10-03 23:59",
-                        "last_updated": "2023-10-04 04:00",
-                        "next_update": "2023-10-05 04:00"
+                        "data_as_of": "2023-10-04 23:59",
+                        "last_updated": "2023-10-05 04:00",
+                        "next_update": "2023-10-06 04:00"
                     },
                     "metadata_lang": {
                         "en": {
