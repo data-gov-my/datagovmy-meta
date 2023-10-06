@@ -1,0 +1,172 @@
+{
+    "file": {
+        "manual_trigger": "na",
+        "exclude_openapi": false,
+        "bucket": "hies",
+        "file_name": "hies_district",
+        "category": "ECONOMY",
+        "category_en": "Economy",
+        "category_bm": "Ekonomi",
+        "subcategory": "HIES",
+        "subcategory_en": "Household Income & Expenditure",
+        "subcategory_bm": "Pendapatan & Perbelanjaan Isi Rumah",
+        "category_opendosm" : "ECONOMY",
+        "category_opendosm_en" : "Economy",
+        "category_opendosm_bm" : "Ekonomi",
+        "subcategory_opendosm" : "HIES",
+        "subcategory_opendosm_en" : "Household Income & Expenditure",
+        "subcategory_opendosm_bm" : "Pendapatan & Perbelanjaan Isi Rumah",
+        "description": {
+            "en": "This dataset tabulates household-level income, expenditure, poverty, and income inequality at administrative district level. It is based on the Household Income & Expenditure Surveys (HIES) carried in 2022.",
+            "bm": "Set data ini menunjukkan pendapatan, perbelanjaan, ketidaksamaan pendapatan, dan kadar kemiskinan bagi isi rumah di peringkat daerah pentadbiran. Data ini dihasilkan berdasarkan Survei Pendapatan dan Isi Rumah (HIES) yang dilaksanakan pada tahun 2022."
+        },
+        "link_parquet": "https://storage.dosm.gov.my/hies/hies_district.parquet",
+        "link_csv": "https://storage.dosm.gov.my/hies/hies_district.csv",
+        "link_preview": "https://storage.dosm.gov.my/hies/hies_district.parquet",
+        "variables": [
+            {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as this is annual data",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01 kerana ini adalah data tahunan"
+            },
+            {
+                "id": -1,
+                "name": "state",
+                "title_en": "State",
+                "title_bm": "Negeri",
+                "desc_en": "[Categorical] One of 16 states",
+                "desc_bm": "[Kategoril] Satu daripada 16 negeri"
+            },
+            {
+                "id": -1,
+                "name": "district",
+                "title_en": "District",
+                "title_bm": "Daerah",
+                "desc_en": "[Categorical] One of 160 administrative districts, including the 4 states (Perlis and the 3 Federal Territories) which do not have subdivisions",
+                "desc_bm": "[Kategori] Satu daripada 160 daerah pentadbiran, termasuk 4 negeri (Perlis dan 3 Wilayah Persekutuan) yang tidak dipecahkan lagi"
+            },
+            {
+                "id": -1,
+                "name": "income_mean",
+                "title_en": "Mean Income",
+                "title_bm": "Pendapatan Purata",
+                "desc_en": "[Integer] Average (across households) gross monthly household income, in RM",
+                "desc_bm": "[Integer] Purata (antara isi rumah) pendapatan kasar bulanan isi rumah, dalam RM"
+            },
+            {
+                "id": -1,
+                "name": "income_median",
+                "title_en": "Median Income",
+                "title_bm": "Pendapatan Penengah",
+                "desc_en": "[Integer] Median (across households) gross monthly household income, in RM",
+                "desc_bm": "[Integer] Penengah (antara isi rumah) pendapatan kasar bulanan isi rumah, dalam RM"
+            },
+            {
+                "id": -1,
+                "name": "expenditure_mean",
+                "title_en": "Mean Expenditure",
+                "title_bm": "Perbelanjaan Purata",
+                "desc_en": "[Integer] Average (across households) gross monthly household expenditure, in RM",
+                "desc_bm": "[Integer] Purata (antara isi rumah) perbelanjaan kasar bulanan isi rumah, dalam RM"
+            },
+            {
+                "id": -1,
+                "name": "gini",
+                "title_en": "Gini Coefficient",
+                "title_bm": "Pekali Gini",
+                "desc_en": "[Float] Gini coefficient, with higher values indicating greater inequality of income between households",
+                "desc_bm": "[Apung] Pekali gini, dengan nilai yang lebih tinggi melambangkan ketidaksaksamaan pendapatan yang lebih antara isi rumah"
+            },
+            {
+                "id": -1,
+                "name": "poverty",
+                "title_en": "Poverty Rate",
+                "title_bm": "Kadar Kemiskinan",
+                "desc_en": "[Float] Proportion of households with monthly income below the Poverty Line Income (PLI)",
+                "desc_bm": "[Apung] Nisbah isi rumah dengan pendapatan bulanan yang rendah daripada Pendapatan Garis Kemiskinan (PGK)"
+            },
+            {
+                "id": 0,
+                "name": "hies_district",
+                "title_en": "Household Income and Expenditure: Administrative Districts",
+                "title_bm": "Pendapatan dan Perbelanjaan Isi Rumah: Daerah Pentadbiran",
+                "desc_en": "This dataset tabulates household-level income, expenditure, poverty, and income inequality at administrative district level. It is based on the Household Income & Expenditure Surveys (HIES) carried in 2022.",
+                "desc_bm": "Set data ini menunjukkan pendapatan, perbelanjaan, ketidaksamaan pendapatan, dan kadar kemiskinan bagi isi rumah di peringkat daerah pentadbiran. Data ini dihasilkan berdasarkan Survei Pendapatan dan Isi Rumah (HIES) yang dilaksanakan pada tahun 2022.",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "YEARLY",
+                        "geography": [
+                            "DISTRICT"
+                        ],
+                        "demography": [],
+                        "start": "2022",
+                        "end": "2022",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2022-12-31 23:59",
+                        "last_updated": "2023-07-28 12:00",
+                        "next_update": "-"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "This data is is based on Household Income Surveys (HIS) and Household Income & Expenditure Surveys (HIES) carried out from 1970 to 2022, the latest of which is HIES 2022. The survey is carried out at least twice in a rolling five-year period to produce representative data regarding income, poverty and access to basic amenities for Malaysian households.",
+                            "caveat": "For a full account of the relative standard errors for the survey as well as the detailed survey methodology, please refer to the [HIES Technical Notes](https://storage.googleapis.com/dosm-public-publications/technote_hies_income_en.pdf).",
+                            "publication": "The [Household Income & Expenditure Survey Report, 2022](https://storage.googleapis.com/dosm-public-publications/multiyear_2022_hies.pdf)."
+                        },
+                        "bm": {
+                            "methodology": "Data ini dihasilkan berdasarkan Survei Pendapatan Isi Rumah (HIS) serta Survei Pendapatan dan Perbelanjaan Isi Rumah (HIES) yang dilaksanakan dari tahun 1970 ke 2022, dengan survei yang terkini dilaksanakan pada tahun 2022. Survei itu dilaksanakan dua kali dalam tempoh lima tahun bagi tujuan menghasilkan data pendapatan, kemiskinan dan akses kepada kemudahan asas bagi isi rumah warganegara.",
+                            "caveat": "Untuk mendapat butiran penuh tentang ralat piawai survei serta metodologi yang terperinci, sila rujuk kepada [Nota Teknikal HIES](https://storage.googleapis.com/dosm-public-publications/technote_hies_income_bm.pdf).",
+                            "publication": "[Laporan Survei Pendapatan dan Perbelanjaan Isi Rumah, 2022](https://storage.googleapis.com/dosm-public-publications/multiyear_2022_hies.pdf)."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TABLE",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": {
+                                "default": 0,
+                                "columns": {
+                                    "gini": 3,
+                                    "poverty": 1
+                                }
+                            }
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "exclude": [],
+                            "freeze": []
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "date": "Date",
+                            "state": "State",
+                            "district": "District",
+                            "income_mean": "Mean Income (RM)",
+                            "income_median": "Median Income (RM)",
+                            "expenditure_mean": "Mean Expenditure (RM)",
+                            "gini": "Gini Coefficient",
+                            "poverty": "Poverty Rate (%)"
+                        },
+                        "bm": {
+                            "date": "Tarikh",
+                            "state": "Negeri",
+                            "district": "Daerah",
+                            "income_mean": "Pendapatan Purata (RM)",
+                            "income_median": "Pendapatan Penengah (RM)",
+                            "expenditure_mean": "Perbelanjaan Purata (RM)",
+                            "gini": "Pekali Gini",
+                            "poverty": "Kadar Kemiskinan (%)"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
