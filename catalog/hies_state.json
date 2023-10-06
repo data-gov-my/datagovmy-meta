@@ -85,8 +85,8 @@
                 "name": "hies_state",
                 "title_en": "Household Income and Expenditure: States",
                 "title_bm": "Pendapatan dan Perbelanjaan Isi Rumah: Negeri",
-                "desc_en": "Pendapatan dan Perbelanjaan Isi Rumah: Negeri",
-                "desc_bm": "This dataset tabulates household-level income, expenditure, poverty, and income inequality at state level. It is based on the Household Income & Expenditure Surveys (HIES) carried in 2022.\tSet data ini menunjukkan pendapatan, perbelanjaan, ketidaksamaan pendapatan, dan kadar kemiskinan bagi isi rumah di peringkat negeri. Data ini dihasilkan berdasarkan Survei Pendapatan dan Isi Rumah (HIES) yang dilaksanakan pada tahun 2022.",
+                "desc_en": "This dataset tabulates household-level income, expenditure, poverty, and income inequality at state level. It is based on the Household Income & Expenditure Surveys (HIES) carried in 2022.",
+                "desc_bm": "Set data ini menunjukkan pendapatan, perbelanjaan, ketidaksamaan pendapatan, dan kadar kemiskinan bagi isi rumah di peringkat negeri. Data ini dihasilkan berdasarkan Survei Pendapatan dan Isi Rumah (HIES) yang dilaksanakan pada tahun 2022.",
                 "catalog_data": {
                     "catalog_filters": {
                         "frequency": "YEARLY",
