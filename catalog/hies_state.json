@@ -124,7 +124,7 @@
                             "precision": {
                                 "default": 0,
                                 "columns": {
-                                    "gini": 1,
+                                    "gini": 3,
                                     "poverty": 1
                                 }
                             }
