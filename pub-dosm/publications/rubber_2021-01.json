@@ -1,0 +1,48 @@
+{
+    "publication": "rubber_2021-01",
+    "publication_type": "rubber",
+    "release_date": "2021-03-15",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Jan 2021] Rubber",
+        "publication_type_title": "Rubber",
+        "description": "Monthly performance of the rubber sector, covering supply, demand, production and consumption of rubber.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Rubber: Jan 2021",
+                "resource_link": "https://storage.dosm.gov.my/rubber/rubber_2021-01.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Rubber: Jan 2021",
+                "resource_link": "https://storage.dosm.gov.my/rubber/rubber_2021-01.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Jan 2021] Getah",
+        "publication_type_title": "Getah",
+        "description": "Prestasi bulanan sektor getah, merangkumi penawaran, permintaan, pengeluaran, dan penggunaan getah.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Getah: Jan 2021",
+                "resource_link": "https://storage.dosm.gov.my/rubber/rubber_2021-01.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Getah: Jan 2021",
+                "resource_link": "https://storage.dosm.gov.my/rubber/rubber_2021-01.pdf"
+            }
+        ]
+    }
+}

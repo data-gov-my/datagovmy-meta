@@ -1,0 +1,48 @@
+{
+    "publication": "rubber_2023-04",
+    "publication_type": "rubber",
+    "release_date": "2023-06-08",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Apr 2023] Rubber",
+        "publication_type_title": "Rubber",
+        "description": "Monthly performance of the rubber sector, covering supply, demand, production and consumption of rubber.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Rubber: Apr 2023",
+                "resource_link": "https://storage.dosm.gov.my/rubber/rubber_2023-04.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Rubber: Apr 2023",
+                "resource_link": "https://storage.dosm.gov.my/rubber/rubber_2023-04.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Apr 2023] Getah",
+        "publication_type_title": "Getah",
+        "description": "Prestasi bulanan sektor getah, merangkumi penawaran, permintaan, pengeluaran, dan penggunaan getah.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Getah: Apr 2023",
+                "resource_link": "https://storage.dosm.gov.my/rubber/rubber_2023-04.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Getah: Apr 2023",
+                "resource_link": "https://storage.dosm.gov.my/rubber/rubber_2023-04.pdf"
+            }
+        ]
+    }
+}
