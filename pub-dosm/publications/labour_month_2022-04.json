@@ -1,0 +1,48 @@
+{
+    "publication": "labour_month_2022-04",
+    "publication_type": "labour",
+    "release_date": "2022-06-09",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Apr 2022] Labour Force",
+        "publication_type_title": "Labour Force",
+        "description": "Labour force report, covering statistics on unemployment, employment, and labour force participation.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Labour Force: Apr 2022",
+                "resource_link": "https://storage.dosm.gov.my/labour/lfs_month_2022-04_en.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Labour Force: Apr 2022",
+                "resource_link": "https://storage.dosm.gov.my/labour/lfs_month_2022-04_en.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Apr 2022] Tenaga Buruh",
+        "publication_type_title": "Tenaga Buruh",
+        "description": "Laporan tenaga buruh, merangkumi statistik pengangguran, penduduk bekerja, dan penyertaan tenaga buruh.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Tenaga Buruh: Apr 2022",
+                "resource_link": "https://storage.dosm.gov.my/labour/lfs_month_2022-04_bm.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Tenaga Buruh: Apr 2022",
+                "resource_link": "https://storage.dosm.gov.my/labour/lfs_month_2022-04_bm.pdf"
+            }
+        ]
+    }
+}
