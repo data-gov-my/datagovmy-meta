@@ -31,7 +31,8 @@
         "aged": "berumur",
         "assessment_solo": " yang mengisytiharkan cukai secara bersendirian",
         "assessment_joint": " yang mengisytiharkan cukai melalui taksiran bersama",
-        "rank_desc": "Ini bermakna anda {{ more }} yang lebih berbanding {{ n_more_than, number }} daripada {{ n_group, number}} pembayar cukai* {{ aged }} di {{ state }}{{ assessment }} pada tahun {{ year }}.",
+        "rank_desc": "Ini bermakna anda {{ more }} yang lebih berbanding {{ n_more_than, number }} daripada {{ n_group, number}} pembayar cukai {{ aged }} di {{ state }}{{ assessment }} pada tahun {{ year }}.",
+        "rank_desc_all": "Ini bermakna anda {{ more }} yang lebih berbanding {{ n_more_than, number }} daripada {{ n_group, number}} pembayar cukai* {{ aged }} di {{ state }}{{ assessment }} pada tahun {{ year }}.",
         "asterisk": "*Jumlah taksiran, dan bukannya jumlah individu, kerana jumlah tersebut termasuk taksiran bersama",
         "section2": {
             "title": "Berapa ramai individu yang membayar cukai setiap tahun?",

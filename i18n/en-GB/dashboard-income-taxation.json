@@ -31,7 +31,8 @@
         "aged": "aged",
         "assessment_solo": " who filed a solo assessment",
         "assessment_joint": " who filed a joint assessment",
-        "rank_desc": "This means that you {{ more }} than {{ n_more_than, number }} out of {{ n_group, number }} taxpayers* {{ aged }} in {{ state }}{{ assessment }} in {{ year }}.",
+        "rank_desc": "This means that you {{ more }} than {{ n_more_than, number }} out of {{ n_group, number }} taxpayers {{ aged }} in {{ state }}{{ assessment }} in {{ year }}.",
+        "rank_desc_all": "This means that you {{ more }} than {{ n_more_than, number }} out of {{ n_group, number }} taxpayers* {{ aged }} in {{ state }}{{ assessment }} in {{ year }}.",
         "asterisk": "*Number of tax filings, not number of individuals, as this includes joint filings",
         "section2": {
             "title": "How many people pay tax each year?",
