@@ -1,0 +1,48 @@
+{
+    "publication": "labour_month_2021-02",
+    "publication_type": "labour",
+    "release_date": "2021-04-08",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Feb 2021] Labour Force",
+        "publication_type_title": "Labour Force",
+        "description": "Labour force report, covering statistics on unemployment, employment, and labour force participation.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Labour Force: Feb 2021",
+                "resource_link": "https://storage.dosm.gov.my/labour/lfs_month_2021-02_en.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Labour Force: Feb 2021",
+                "resource_link": "https://storage.dosm.gov.my/labour/lfs_month_2021-02_en.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Feb 2021] Tenaga Buruh",
+        "publication_type_title": "Tenaga Buruh",
+        "description": "Laporan tenaga buruh, merangkumi statistik pengangguran, penduduk bekerja, dan penyertaan tenaga buruh.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Tenaga Buruh: Feb 2021",
+                "resource_link": "https://storage.dosm.gov.my/labour/lfs_month_2021-02_bm.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Tenaga Buruh: Feb 2021",
+                "resource_link": "https://storage.dosm.gov.my/labour/lfs_month_2021-02_bm.pdf"
+            }
+        ]
+    }
+}
