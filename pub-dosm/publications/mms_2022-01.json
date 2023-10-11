@@ -1,6 +1,6 @@
 {
     "publication": "mms_2022-01",
-    "publication_type": "mms",
+    "publication_type": "mfg",
     "release_date": "2022-03-11",
     "frequency": "MONTHLY",
     "geography": [
@@ -9,8 +9,8 @@
     "demography": [],
     "en": {
         "title": "[Jan 2022] Manufacturing Statistics",
-        "publication_type_title": "Manufacturing Statistics",
-        "description": "Monthly manufacturing statistics, covering sales, employees, and wages for manufacturing subsectors",
+        "publication_type_title": "Manufacturing",
+        "description": "Monthly manufacturing statistics, covering sales, employees, and wages for manufacturing subsectors.",
         "resources": [
             {
                 "resource_id": 1,
@@ -28,8 +28,8 @@
     },
     "bm": {
         "title": "[Jan 2022] Statistik Pembuatan",
-        "publication_type_title": "Statistik Pembuatan",
-        "description": "Statistik pembuatan bulanan, merangkumi jualan, pekerja, dan gaji bagi subsektor pembuatan",
+        "publication_type_title": "Pembuatan",
+        "description": "Statistik pembuatan bulanan, merangkumi jualan, pekerja, dan gaji bagi subsektor pembuatan.",
         "resources": [
             {
                 "resource_id": 1,

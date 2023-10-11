@@ -10,7 +10,7 @@
     "en": {
         "title": "[Jan 2021] Industrial Production Index",
         "publication_type_title": "Industrial Production Index",
-        "description": "Industrial production indices for the manufacturing, mining, and electricity-production sectors.",
+        "description": "Monthly industrial production indices for the manufacturing, mining, and electricity-production sectors.",
         "resources": [
             {
                 "resource_id": 1,
@@ -29,7 +29,7 @@
     "bm": {
         "title": "[Jan 2021] Indeks Pengeluaran Perinudstrian",
         "publication_type_title": "Indeks Pengeluaran Perinudstrian",
-        "description": "Indeks pengeluaran perindustrian bagi sektor pembuatan, pelombongan dan penjanaan elektrik.",
+        "description": "Indeks pengeluaran perindustrian bulanan bagi sektor pembuatan, pelombongan dan penjanaan elektrik.",
         "resources": [
             {
                 "resource_id": 1,
