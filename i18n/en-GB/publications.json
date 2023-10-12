@@ -1,6 +1,6 @@
 {
-	"route": "/publications",
-	"sites": ["opendosm"],
+  "route": "/publications",
+  "sites": ["opendosm"],
   "translation": {
     "nso": "Malaysia's National Statistics Organisation",
     "header": "Publications",
@@ -13,7 +13,7 @@
     "select_publication": "Select a publication type",
     "filter_by": "Filter by",
     "new": "New",
-    "downloads": "Downloads",
+    "downloads": "Count",
     "download_list": "Download list",
     "subject": "Subject",
     "table": {
@@ -25,9 +25,11 @@
       "release_date": "Release Date"
     },
     "search_subject": "Search for subject title",
-    "file_download": "File Download",
+    "file_download": "Download",
     "download_pdf": "Download PDF",
     "download_excel": "Download XLSX",
+    "download_mobile_pdf": "PDF",
+    "download_mobile_excel": "XLSX",
     "copy_publication_link": "Copy publication link",
     "sun": "Sun",
     "mon": "Mon",

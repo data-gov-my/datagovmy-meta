@@ -1,6 +1,6 @@
 {
-	"route": "/publications",
-	"sites": ["opendosm"],
+  "route": "/publications",
+  "sites": ["opendosm"],
   "translation": {
     "nso": "Agensi Statistik Negara Malaysia",
     "header": "Penerbitan",
@@ -13,7 +13,7 @@
     "select_publication": "Pilih jenis penerbitan",
     "filter_by": "Tapiskan",
     "new": "Baru",
-    "downloads": "Muat Turun",
+    "downloads": "Kiraan",
     "download_list": "Senarai muat turun",
     "subject": "Subjek",
     "table": {
@@ -25,9 +25,11 @@
       "release_date": "Tarikh Keluaran"
     },
     "search_subject": "Cari subjek",
-    "file_download": "Muat Turun Fail",
+    "file_download": "Muat Turun",
     "download_pdf": "Muat Turun PDF",
     "download_excel": "Muat Turun XLSX",
+    "download_mobile_pdf": "PDF",
+    "download_mobile_excel": "XLSX",
     "copy_publication_link": "Salin pautan",
     "sun": "Aha",
     "mon": "Isn",
