@@ -1,47 +1,47 @@
 {
-    "publication": "gdp_sa_ict_2020",
+    "publication": "ictsa_2018",
     "publication_type": "gdp_sa",
-    "release_date": "2021-10-15",
+    "release_date": "2019-10-16",
     "frequency": "YEARLY",
     "geography": [
         "NATIONAL"
     ],
     "demography": [],
     "en": {
-        "title": "[2020] ICT Satellite Account",
+        "title": "[2018] ICT Satellite Account",
         "publication_type_title": "Satellite Accounts",
         "description": "Annual performance of ICT industries, covering the production, consumption, and trade of ICT products.",
         "resources": [
             {
                 "resource_id": 1,
                 "resource_type": "excel",
-                "resource_name": "ICT Satellite Account: 2020",
-                "resource_link": "https://storage.dosm.gov.my/gdp/ictsa_2020.xlsx"
+                "resource_name": "ICT Satellite Account: 2018",
+                "resource_link": "https://storage.dosm.gov.my/gdp/ictsa_2018.xlsx"
             },
             {
                 "resource_id": 2,
                 "resource_type": "pdf",
-                "resource_name": "ICT Satellite Account: 2020",
-                "resource_link": "https://storage.dosm.gov.my/gdp/ictsa_2020.pdf"
+                "resource_name": "ICT Satellite Account: 2018",
+                "resource_link": "https://storage.dosm.gov.my/gdp/ictsa_2018.pdf"
             }
         ]
     },
     "bm": {
-        "title": "[2020] Akaun Satelit TMK",
+        "title": "[2018] Akaun Satelit TMK",
         "publication_type_title": "Akaun Satelit",
         "description": "Prestasi tahunan industri TMK, merangkumi pengeluaran, penggunaan, dan perdagangan produk TMK.",
         "resources": [
             {
                 "resource_id": 1,
                 "resource_type": "excel",
-                "resource_name": "Akaun Satelit TMK: 2020",
-                "resource_link": "https://storage.dosm.gov.my/gdp/ictsa_2020.xlsx"
+                "resource_name": "Akaun Satelit TMK: 2018",
+                "resource_link": "https://storage.dosm.gov.my/gdp/ictsa_2018.xlsx"
             },
             {
                 "resource_id": 2,
                 "resource_type": "pdf",
-                "resource_name": "Akaun Satelit TMK: 2020",
-                "resource_link": "https://storage.dosm.gov.my/gdp/ictsa_2020.pdf"
+                "resource_name": "Akaun Satelit TMK: 2018",
+                "resource_link": "https://storage.dosm.gov.my/gdp/ictsa_2018.pdf"
             }
         ]
     }
