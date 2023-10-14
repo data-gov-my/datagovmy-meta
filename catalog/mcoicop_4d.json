@@ -1,0 +1,138 @@
+{
+    "file": {
+        "manual_trigger": "na",
+        "exclude_openapi": false,
+        "bucket": "dictionaries",
+        "file_name": "mcoicop_4d",
+        "category": "DICT",
+        "category_en": "Data Dictionaries",
+        "category_bm": "Dictionary Data",
+        "subcategory": "ECONOMY",
+        "subcategory_en": "Economy",
+        "subcategory_bm": "Ekonomi",
+        "category_opendosm" : "DICT",
+        "category_opendosm_en" : "Data Dictionaries",
+        "category_opendosm_bm" : "Dictionary Data",
+        "subcategory_opendosm" : "ECONOMY",
+        "subcategory_opendosm_en" : "Economy",
+        "subcategory_opendosm_bm" : "Ekonomi",
+        "description": {
+            "en": "This table provides a complete lookup for 4-digit codes (classes) under Malaysia's COICOP (Classification of Individual Consumption According to Purpose), as applied and used in data publications in Malaysia. This table is a subset of the main table, and is provided to lighten the data payload for users who only need a 2-digit lookup.",
+            "bm": "Jadual ini memberi rujukan lengkap bagi kod 4 digit (kelas) dalam COICOP Malaysia (Classification of Individual Consumption According to Purpose), seperti yang digunapakai dalam penerbitan data di Malaysia. Jadual ini adalah subset kepada jadual penuh, dan dibekalkan untuk mengecilkan saiz data bagi pengguna yang hanya memerlukan rujukan 2 digit."
+        },
+        "link_parquet": "https://storage.dosm.gov.my/dictionaries/mcoicop_4d.parquet",
+        "link_csv": "https://storage.dosm.gov.my/dictionaries/mcoicop_4d.csv",
+        "link_preview": "https://storage.dosm.gov.my/dictionaries/mcoicop_4d.parquet",
+        "variables": [
+            {
+                "id": -1,
+                "name": "division",
+                "title_en": "Division",
+                "title_bm": "Bahagian",
+                "desc_en": "[String] 2-digit code; please ensure that you read this column as a string, because the (intentional) leading zeroes will be dropped if read as an integer (e.g. upon opening in Microsoft Excel)",
+                "desc_bm": "[Rentetan] Kod 2 digit; sila pastikan anda membaca lajur ini sebagai rentetan kerana angka sifar di hadapan akan digugurkan sekiranya dibaca sebagai integer (contohnya apabila dibuka dalam Microsoft Excel)"
+            },
+            {
+                "id": -1,
+                "name": "group",
+                "title_en": "Group",
+                "title_bm": "Kumpulan",
+                "desc_en": "[String] 3-digit code, with dashes where not applicable (e.g. for rows providing 2-digit definitions)",
+                "desc_bm": "[Rentetan] Kod 3 digit, dengan tanda sempang apabila tidak berkaitan (contohnya untuk baris yang memberi definisi 2 digit)"
+            },
+            {
+                "id": -1,
+                "name": "class",
+                "title_en": "Class",
+                "title_bm": "Kelas",
+                "desc_en": "[String] 4-digit code, with dashes where not applicable (e.g. for rows providing 2 and 3-digit definitions)",
+                "desc_bm": "[Rentetan] Kod 4 digit, dengan tanda sempang apabila tidak berkaitan (contohnya untuk baris yang memberi definisi 2 digit)"
+            },
+            {
+                "id": -1,
+                "name": "desc_en",
+                "title_en": "Description (EN)",
+                "title_bm": "Keterangan (EN)",
+                "desc_en": "[String] Description for the code, in English",
+                "desc_bm": "[Rentetan] Keterangan kod dalam Bahasa Inggeris"
+            },
+            {
+                "id": -1,
+                "name": "desc_bm",
+                "title_en": "Description (BM)",
+                "title_bm": "Keterangan (EN)",
+                "desc_en": "[String] Description for the code, in Malay",
+                "desc_bm": "[Rentetan] Keterangan kod dalam Bahasa Melayu"
+            },
+            {
+                "id": 0,
+                "name": "MCOICOP: 4 Digit (Classes)",
+                "title_en": "MCOICOP: 4 Digit (Classes)",
+                "title_bm": "MCOICOP: 4 Digit (Kelas)",
+                "desc_en": "This table provides a complete lookup for 4-digit codes (classes) under Malaysia's COICOP (Classification of Individual Consumption According to Purpose), as applied and used in data publications in Malaysia. This table is a subset of the [main table](/data-catalogue/dictionaries_mcoicop_0), and is provided to lighten the data payload for users who only need a 2-digit lookup.",
+                "desc_bm": "Jadual ini memberi rujukan lengkap bagi kod 4 digit (kelas) dalam COICOP Malaysia (Classification of Individual Consumption According to Purpose), seperti yang digunapakai dalam penerbitan data di Malaysia. Jadual ini adalah subset kepada [jadual penuh](/data-catalogue/dictionaries_mcoicop_0), dan dibekalkan untuk mengecilkan saiz data bagi pengguna yang hanya memerlukan rujukan 2 digit.",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "INFREQUENT",
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2016",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2016-12-31 23:59",
+                        "last_updated": "2016-12-31 23:59",
+                        "next_update": "-"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "Malaysia's COICOP is adapted from the [COICOP published by the United Nations Statistics Division](https://unstats.un.org/unsd/classifications/unsdclassifications), which is used as a global reference to classify individual and household consumption.",
+                            "caveat": "\u2014",
+                            "publication": "\u2014"
+                        },
+                        "bm": {
+                            "methodology": "COICOP Malaysia diadaptasikan daripada [COICOP yang diterbitkan oleh Bahagian Statistik Pertubuhan Bangsa-bangsa Bersatu](https://unstats.un.org/unsd/classifications/unsdclassifications), yang diguna sebagai rujukan antarabanga dalam pengelasan penggunaan individu dan isi rumah.",
+                            "caveat": "\u2014",
+                            "publication": "\u2014"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TABLE",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 0
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "exclude": [],
+                            "freeze": []
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "digits": "Digits",
+                            "division": "Division",
+                            "group": "Group",
+                            "class": "Class",
+                            "desc_en": "Description (EN)",
+                            "desc_bm": "Description (BM)"
+                        },
+                        "bm": {
+                            "digits": "Digit",
+                            "division": "Bahagian",
+                            "group": "Kumpulan",
+                            "class": "Kelas",
+                            "desc_en": "Keterangan (EN)",
+                            "desc_bm": "Keterangan (EN)"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
