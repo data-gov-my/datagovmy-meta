@@ -18,7 +18,7 @@
         "subcategory_opendosm_bm" : "Ekonomi",
         "description": {
             "en": "This table provides a complete lookup for 2, 3, and 4-digit codes under Malaysia's COICOP (Classification of Individual Consumption According to Purpose), as applied and used in data publications in Malaysia. The MCOICOP is primarily used by the Department of Statistics Malaysia (DOSM), for instance when categorising and analysing consumer price inflation.",
-            "bm": "Jadual ini memberi rujukan lengkap bagi kod 2, 3, dan 4 digit dalam COICOP Malaysia (Classification of Individual Consumption According to Purpose), seperti yang digunapakai dalam penerbitan data di Malaysia. MCOICOP digunakan terutamanya oleh Jabatan Perangkaan Malaysia (DOSM), misalnya dalam mengkategorikan dan menganalisa inflasi harga pengguna."
+            "bm": "Jadual ini memberi rujukan lengkap bagi kod 2, 3, dan 4 digit dalam COICOP Malaysia (Classification of Individual Consumption According to Purpose), seperti yang digunapakai dalam penerbitan data di Malaysia. MCOICOP digunakan terutamanya oleh Jabatan Perangkaan Malaysia (DOSM), misalnya dalam pengkelasan dan analisis inflasi harga pengguna."
         },
         "link_parquet": "https://storage.dosm.gov.my/dictionaries/mcoicop.parquet",
         "link_csv": "https://storage.dosm.gov.my/dictionaries/mcoicop.csv",
@@ -99,12 +99,12 @@
                     },
                     "metadata_lang": {
                         "en": {
-                            "methodology": "Malaysia's COICOP is adapted from the [COICOP published by the United Nations Statistics Division](https://unstats.un.org/unsd/classifications/unsdclassifications), which is used as a global reference to classify individual and household consumption.",
+                            "methodology": "The MCOICOP was adapted from the [COICOP published by the United Nations Statistics Division](https://unstats.un.org/unsd/classifications/Econ), which is used as a global reference in the classification of individual and household consumption.",
                             "caveat": "\u2014",
                             "publication": "\u2014"
                         },
                         "bm": {
-                            "methodology": "COICOP Malaysia diadaptasikan daripada [COICOP yang diterbitkan oleh Bahagian Statistik Pertubuhan Bangsa-bangsa Bersatu](https://unstats.un.org/unsd/classifications/unsdclassifications), yang diguna sebagai rujukan antarabanga dalam pengelasan penggunaan individu dan isi rumah.",
+                            "methodology": "MCOICOP diadaptasikan daripada [COICOP yang diterbitkan oleh Bahagian Statistik Pertubuhan Bangsa-bangsa Bersatu](https://unstats.un.org/unsd/classifications/Econ), yang diguna sebagai rujukan antarabanga dalam pengkelasan penggunaan individu dan isi rumah.",
                             "caveat": "\u2014",
                             "publication": "\u2014"
                         }
