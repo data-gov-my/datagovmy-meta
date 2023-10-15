@@ -69,8 +69,8 @@
                 "name": "MCOICOP: 4 Digit (Classes)",
                 "title_en": "MCOICOP: 4 Digit (Classes)",
                 "title_bm": "MCOICOP: 4 Digit (Kelas)",
-                "desc_en": "This table provides a complete lookup for 4-digit codes (classes) under Malaysia's COICOP (Classification of Individual Consumption According to Purpose), as applied and used in data publications in Malaysia. This table is a subset of the [main table](https://data.gov.my/data-catalogue/dictionaries_mcoicop_0), and is provided to lighten the data payload for users who only need a 4-digit lookup.",
-                "desc_bm": "Jadual ini memberi rujukan lengkap bagi kod 4 digit (kelas) dalam COICOP Malaysia (Classification of Individual Consumption According to Purpose), seperti yang digunapakai dalam penerbitan data di Malaysia. Jadual ini adalah subset kepada [jadual penuh](https://data.gov.my/data-catalogue/dictionaries_mcoicop_0), dan dibekalkan untuk mengecilkan saiz data bagi pengguna yang hanya memerlukan rujukan 4 digit.",
+                "desc_en": "This table provides a complete lookup for 4-digit codes (classes) under Malaysia's COICOP (Classification of Individual Consumption According to Purpose), as applied and used in data publications in Malaysia. This table is a subset of the main table, and is provided to lighten the data payload for users who only need a 4-digit lookup.",
+                "desc_bm": "Jadual ini memberi rujukan lengkap bagi kod 4 digit (kelas) dalam COICOP Malaysia (Classification of Individual Consumption According to Purpose), seperti yang digunapakai dalam penerbitan data di Malaysia. Jadual ini adalah subset kepada jadual penuh, dan dibekalkan untuk mengecilkan saiz data bagi pengguna yang hanya memerlukan rujukan 4 digit.",
                 "catalog_data": {
                     "catalog_filters": {
                         "frequency": "INFREQUENT",
