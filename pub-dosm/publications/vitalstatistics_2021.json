@@ -1,0 +1,54 @@
+{
+    "publication": "vitalstatistics_2021",
+    "publication_type": "demography",
+    "release_date": "2022-10-13",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE",
+        "DISTRICT"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY",
+        "AGE"
+    ],
+    "en": {
+        "title": "[2021] Vital Statistics",
+        "publication_type_title": "Demography",
+        "description": "Annual births and deaths at national, state, and administrative district level, including birth, death, and fertility rates.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Vital Statistics: 2021",
+                "resource_link": "https://storage.dosm.gov.my/demography/vitalstatistics_2021.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Vital Statistics: 2021",
+                "resource_link": "https://storage.dosm.gov.my/demography/vitalstatistics_2021.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2021] Perangkaan Penting",
+        "publication_type_title": "Demografi",
+        "description": "Kelahiran dan kematian tahunan di peringkat negara, negeri, dan daerah pentadbiran, termasuk kadar kelahiran, kematian, dan kesuburan.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Perangkaan Penting: 2021",
+                "resource_link": "https://storage.dosm.gov.my/demography/vitalstatistics_2021.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Perangkaan Penting: 2021",
+                "resource_link": "https://storage.dosm.gov.my/demography/vitalstatistics_2021.pdf"
+            }
+        ]
+    }
+}
