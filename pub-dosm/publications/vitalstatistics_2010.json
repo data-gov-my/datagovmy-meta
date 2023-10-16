@@ -1,0 +1,42 @@
+{
+    "publication": "vitalstatistics_2010",
+    "publication_type": "demography",
+    "release_date": "2011-11-30",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE",
+        "DISTRICT"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY",
+        "AGE"
+    ],
+    "en": {
+        "title": "[2010] Vital Statistics",
+        "publication_type_title": "Demography",
+        "description": "Annual births and deaths at national, state, and administrative district level, including birth, death, and fertility rates.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Vital Statistics: 2010",
+                "resource_link": "https://storage.dosm.gov.my/demography/vitalstatistics_2010.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2010] Perangkaan Penting",
+        "publication_type_title": "Demografi",
+        "description": "Kelahiran dan kematian tahunan di peringkat negara, negeri, dan daerah pentadbiran, termasuk kadar kelahiran, kematian, dan kesuburan.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Perangkaan Penting: 2010",
+                "resource_link": "https://storage.dosm.gov.my/demography/vitalstatistics_2010.pdf"
+            }
+        ]
+    }
+}
