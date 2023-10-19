@@ -1,0 +1,36 @@
+{
+    "publication": "tradeindices_2020-09",
+    "publication_type": "trade",
+    "release_date": "2020-11-04",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Sep 2020] Trade Indices",
+        "publication_type_title": "External Trade",
+        "description": "Official monthly trade index data, covering export/import value and volume, and terms of trade",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Trade Indices Report: Sep 2020",
+                "resource_link": "https://storage.dosm.gov.my/trade/tradeindices_2020-09.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Sep 2020] Indeks Perdagangan",
+        "publication_type_title": "Perdagangan Luar Negeri",
+        "description": "Data indeks perdagangan bulanan rasmi, merangkumi nilai dan volum eksport/import, serta terma perdagangan",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Laporan Indeks Perdagangan: Sep 2020",
+                "resource_link": "https://storage.dosm.gov.my/trade/tradeindices_2020-09.pdf"
+            }
+        ]
+    }
+}
