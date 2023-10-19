@@ -1,0 +1,36 @@
+{
+    "publication": "mets_2023-03",
+    "publication_type": "trade",
+    "release_date": "2023-04-28",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Mar 2023] External Trade",
+        "publication_type_title": "External Trade",
+        "description": "Monthly external trade activity, covering exports, imports, and the balance of trade by trading partner and commodity.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "External Trade:  Mar 2023",
+                "resource_link": "https://storage.dosm.gov.my/trade/mets_2023-03.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Mac 2023] Perdagangan Luar Negeri",
+        "publication_type_title": "Perdagangan Luar Negeri",
+        "description": "Aktiviti perdagangan luar bulanan, merangkumi eksport, import, dan imbangan perdagangan mengikut rakan dagang dan komoditi.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Perdagangan Luar Negeri: Mac 2023",
+                "resource_link": "https://storage.dosm.gov.my/trade/mets_2023-03.pdf"
+            }
+        ]
+    }
+}
