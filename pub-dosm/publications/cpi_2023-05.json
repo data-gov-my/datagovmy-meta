@@ -10,7 +10,7 @@
     "demography": [],
     "en": {
         "title": "[May 2023] Consumer Price Index",
-        "publication_type_title": "Consumer Price Index",
+        "publication_type_title": "Consumer Price Index (CPI)",
         "description": "Official consumer price data, covering headline, core, and state-level inflation",
         "resources": [
             {
@@ -41,7 +41,7 @@
     },
     "bm": {
         "title": "[Mei 2023] Indeks Harga Pengguna",
-        "publication_type_title": "Indeks Harga Pengguna",
+        "publication_type_title": "Indeks Harga Pengguna (IHP)",
         "description": "Data harga pengguna rasmi, merangkumi inflasi, inflasi teras, dan inflasi mengikut negeri",
         "resources": [
             {
