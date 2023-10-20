@@ -108,11 +108,11 @@
 					"chart": {
 						"chart_type": "TABLE",
 						"chart_filters": {
-							"SLICE_BY": ["state"],
+							"SLICE_BY": [],
 							"precision": 1
 						},
 						"chart_variables": {
-							"parents": ["state"],
+							"parents": [],
 							"exclude": [],
 							"freeze": []
 						}
