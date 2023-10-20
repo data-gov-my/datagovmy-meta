@@ -168,7 +168,7 @@
 							},
 							"chart_variables": {
 								"parents": [],
-								"file_json": "parlimen",
+								"file_json": "state",
 								"colour": "greens",
 								"format": {
 									"x": "state",
