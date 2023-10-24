@@ -35,23 +35,23 @@
       "social_family": "Family"
     },
     "tooltip": {
-      "overall": "Overall Well-Being",
-      "economy": "Economic Well-Being",
-      "social": "Social Well-Being",
-      "economy_transport": "Underlying indicators:\n\n- Number of railway passengers\n- Ownership of private cars and motorcycles\n- Road length per capita\n- Road Development Index (RDI)",
-      "economy_comms": "Communications",
-      "economy_educ": "Education",
-      "economy_income": "Income & Distribution",
-      "economy_work": "Working Life",
-      "social_housing": "Housing",
-      "social_entertainment": "Entertainment & Recreation",
-      "social_safety": "Public Safety",
-      "social_participation": "Social Participation",
-      "social_governance": "Governance",
-      "social_culture": "Culture",
-      "social_health": "Health",
-      "social_environment": "Environment",
-      "social_family": "Family"
+      "overall": "Comprised of 5 Indikator Ekonomi Dan 9 Indikator Sosial",
+      "economy": "Comprised of 5 Indikator Ekonomi",
+      "social": "Comprised of 9 Indikator Sosial",
+      "economy_transport": "Underlying Indicators:\n- Number of Railway Passengers\n- Ownership of Private Cars and Motorcycles\n- Road Length per Capita\n- Road Development Index (RDI)",
+      "economy_comms": "Underlying Indicators:\n- Fixed and Mobile Telephone Lines Subscriptions\n- Internet Subscriptions\n- Number of Domain Names",
+      "economy_educ": "Underlying Indicators:\n- Pre-school Participation Rate\n- Literacy Rate\n- Percentage of Candidates passing (SPM)\n- Number of Lecturers with PhD\n- Primary School Participation Rate\n- Secondary School Participation Rate\n- Primary School Completion Rate\n- Secondary School Completion Rate\n- Tertiary Participation Rate\n- Percentage of Graduate Teachers in Secondary School\n- Percentage of Graduate Teachers in Primary School",
+      "economy_income": "Underlying Indicators:\n- Real Gross National Income per Capita\n- Gini Coefficient\n- Incidence of Poverty",
+      "economy_work": "Underlying Indicators:\n- Industrial and Travel Accidents Rate\n- Average Working Hours\n- Man-days Lost Due to Industrial Actions\n- Trade Disputes",
+      "social_housing": "Underlying Indicators:\n- Percentage of Low Cost Housing Units to the Number of B40 Households\n- Percentage of Households with Treated Water Supply\n- Percentage of Households with Electric Supply\n- Percentage of Households with Garbage Collection Services\n- Number of Persons per Room",
+      "social_entertainment": "Underlying Indicators:\n- Number of Domestic Hotel Guests\n- Number of Households with Paid TV Subscriptions\n- Number of Recreational Park Visitors\n- Number of Cinemagoers",
+      "social_safety": "Underlying Indicators:\n- Number of Road Accidents\n- Crime Rate",
+      "social_participation": "Underlying Indicators:\n- Membership of RELA\n- Number of registered residents associations\n- Number of Registered Non-profit Organizations",
+      "social_governance": "Underlying Indicators:\n- Number of e-Payment Transactions\n- Percentage of e-Filling Users\n- Percentage of Corruption Cases Prosecuted\n- Percentage of Cases Solved by Public Complaints Bureau",
+      "social_culture": "Underlying Indicators:\n- Number of Membership in Public Libraries and National Libraries\n- Number of Istana Budaya Visitors\n- Number of Craft Complex Visitors\n- Number of Museum Visitors",
+      "social_health": "Underlying Indicators:\n- Life Expectancy at Birth\n- Infant Mortality Rate\n- Maternal Mortality Rate\n- Number of Non-communicable Disease cases\n- Doctor to Population Ratio\n- Percentage of Patients Whose Waiting Time is Less Than 90 Minutes\n- Number of Beds in Hospitals\n- Number of Communicable Disease Cases",
+      "social_environment": "Underlying Indicators:\n- Water Quality\n- Air Quality\n- Percentage of Forested Land\n- Quantity of Scheduled Waste Generated\n- Maximum Mean Temperature",
+      "social_family": "Underlying Indicators:\n- Divorce Rate\n- Dependency Ratio\n- Domestic Violence Cases\n- Household Debt Per Capita\n- Children Involved in Crime\n- Mean Monthly Household Income"
     }
   }
 }
