@@ -33,6 +33,25 @@
       "social_health": "Health",
       "social_environment": "Environment",
       "social_family": "Family"
+    },
+    "tooltip": {
+      "overall": "Overall Well-Being",
+      "economy": "Economic Well-Being",
+      "social": "Social Well-Being",
+      "economy_transport": "<><h6 className=\"text-white dark:text-washed-dark\">Underlying indicators:</h6><ol><li>- Number of railway passengers</li><li>- Ownership of private cars and motorcycles</li><li>- Road length per capita</li><li>- Road Development Index (RDI)</li></ol></>",
+      "economy_comms": "Communications",
+      "economy_educ": "Education",
+      "economy_income": "Income & Distribution",
+      "economy_work": "Working Life",
+      "social_housing": "Housing",
+      "social_entertainment": "Entertainment & Recreation",
+      "social_safety": "Public Safety",
+      "social_participation": "Social Participation",
+      "social_governance": "Governance",
+      "social_culture": "Culture",
+      "social_health": "Health",
+      "social_environment": "Environment",
+      "social_family": "Family"
     }
   }
 }

@@ -33,6 +33,25 @@
       "social_health": "Kesihatan",
       "social_environment": "Alam Sekitar",
       "social_family": "Keluarga"
+    },
+    "tooltip": {
+      "overall": "Kesejahteraan Keseluruhan",
+      "economy": "Kesejahteraan Ekonomi",
+      "social": "Kesejahteraan Sosial",
+      "economy_transport": "<><p>Indikator:</p><ol><li>- Bilangan penumpang keretapi</li><li>- Pemilikan kereta dan motosikal persendirian</li><li>- Panjang jalan per kapita</li><li>- Indeks Pembangunan Jalan Raya (RDI)</li></ol></>",
+      "economy_comms": "Komunikasi",
+      "economy_educ": "Pendidikan",
+      "economy_income": "Pendapatan & Pengagihan",
+      "economy_work": "Persekitaran Bekerja",
+      "social_housing": "Perumahan",
+      "social_entertainment": "Hiburan & Rekreasi",
+      "social_safety": "Keselamatan Awam",
+      "social_participation": "Penyertaan Sosial",
+      "social_governance": "Tadbir Urus",
+      "social_culture": "Kebudayaan",
+      "social_health": "Kesihatan",
+      "social_environment": "Alam Sekitar",
+      "social_family": "Keluarga"
     }
   }
 }
