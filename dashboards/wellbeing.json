@@ -49,7 +49,7 @@
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
-				"keys": ["chart_type"],
+				"keys": ["chart"],
 				"value_columns": ["index", "growth_yoy"]
 			}
 		}
