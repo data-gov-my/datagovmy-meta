@@ -1,0 +1,38 @@
+{
+  "route": "/dashboard/wellbeing",
+  "sites": ["opendosm"],
+  "translation": {
+    "header": "Well-Being",
+    "description": "The annual Malaysian Well-being Index (MyWI) Report is published to measure the well-being of Malaysians from an economic and social perspective. It provides a holistic synthesis of various economic and social statistics, broken down into 5 economic and 9 social components. This dashboard summarises Malaysia’s well-being indices from 2000 to the present.",
+    "section_timeseries": {
+      "title": "How are Malaysia’s well-being indices trending?"
+    },
+    "section_economy": {
+      "title": "A breakdown of economic well-being indices"
+    },
+    "section_social": {
+      "title": "A breakdown of social well-being indices"
+    },
+    "keys": {
+      "growth_yoy": "YoY Growth",
+      "index": "Index",
+      "overall": "Overall Well-Being",
+      "economy": "Economic Well-Being",
+      "social": "Social Well-Being",
+      "economy_transport": "Transportation",
+      "economy_comms": "Communications",
+      "economy_educ": "Education",
+      "economy_income": "Income & Distribution",
+      "economy_work": "Working Life",
+      "social_housing": "Housing",
+      "social_entertainment": "Entertainment & Recreation",
+      "social_safety": "Public Safety",
+      "social_participation": "Social Participation",
+      "social_governance": "Governance",
+      "social_culture": "Culture",
+      "social_health": "Health",
+      "social_environment": "Environment",
+      "social_family": "Family"
+    }
+  }
+}

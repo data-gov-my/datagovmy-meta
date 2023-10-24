@@ -1,0 +1,38 @@
+{
+  "route": "/ms-MY/dashboard/wellbeing",
+  "sites": ["opendosm"],
+  "translation": {
+    "header": "Kesejahteraan Rakyat",
+    "description": "Indeks Kesejahteraan Rakyat Malaysia diterbitkan secara tahunan untuk mengukur tahap kesejahteraan rakyat Malaysia daripada perspektif ekonomi dan sosial. Ia merumuskan perangkaan ekonomi dan sosial secara holistik, dengan 5 komponen ekonomi dan 9 komponen sosial. Papan pemuka ini memaparkan indeks kesejahteraan rakyat Malaysia dari tahun 2000 sehingga kini.",
+    "section_timeseries": {
+      "title": "Bagaimana arah aliran indeks kesejahteraan Malaysia?"
+    },
+    "section_economy": {
+      "title": "Pembahagian indeks kesejahteraan ekonomi"
+    },
+    "section_social": {
+      "title": "Pembahagian indeks kesejahteraan sosial"
+    },
+    "keys": {
+      "growth_yoy": "Pertumbuhan Tahunan",
+      "index": "Indeks",
+      "overall": "Kesejahteraan Keseluruhan",
+      "economy": "Kesejahteraan Ekonomi",
+      "social": "Kesejahteraan Sosial",
+      "economy_transport": "Pengangkutan",
+      "economy_comms": "Komunikasi",
+      "economy_educ": "Pendidikan",
+      "economy_income": "Pendapatan & Pengagihan",
+      "economy_work": "Persekitaran Bekerja",
+      "social_housing": "Perumahan",
+      "social_entertainment": "Hiburan & Rekreasi",
+      "social_safety": "Keselamatan Awam",
+      "social_participation": "Penyertaan Sosial",
+      "social_governance": "Tadbir Urus",
+      "social_culture": "Kebudayaan",
+      "social_health": "Kesihatan",
+      "social_environment": "Alam Sekitar",
+      "social_family": "Keluarga"
+    }
+  }
+}
