@@ -38,7 +38,7 @@
       "overall": "Overall Well-Being",
       "economy": "Economic Well-Being",
       "social": "Social Well-Being",
-      "economy_transport": "### Underlying indicators:\n\n- Number of railway passengers\n- Ownership of private cars and motorcycles\n- Road length per capita\n- Road Development Index (RDI)",
+      "economy_transport": "Underlying indicators:\n\n- Number of railway passengers\n- Ownership of private cars and motorcycles\n- Road length per capita\n- Road Development Index (RDI)",
       "economy_comms": "Communications",
       "economy_educ": "Education",
       "economy_income": "Income & Distribution",
