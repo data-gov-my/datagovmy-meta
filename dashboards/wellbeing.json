@@ -1,57 +1,57 @@
 {
-	"dashboard_name": "wellbeing",
-	"data_last_updated": "2023-10-24 23:59",
-	"route": "/dashboard/wellbeing,/ms-MY/dashboard/wellbeing",
-	"sites": ["opendosm"],
-	"manual_trigger": "0",
-	"required_params": [],
-	"optional_params": [],
-	"charts": {
-		"timeseries": {
-			"name": "timeseries",
-			"chart_type": "timeseries_chart",
-			"chart_source": "https://storage.dosm.gov.my/dashboards/wellbeing_timeseries.parquet",
-			"data_as_of": "2023-10-24 23:59",
-			"api_type": "static",
-			"api_params": [],
-			"variables": {
-				"keys": ["chart_type"],
-				"rename_cols": {
-					"date": "x"
-				},
-				"value_columns": [
-					"x",
-					"overall",
-					"economy",
-					"economy_transport",
-					"economy_comms",
-					"economy_educ",
-					"economy_income",
-					"economy_work",
-					"social",
-					"social_housing",
-					"social_entertainment",
-					"social_safety",
-					"social_participation",
-					"social_governance",
-					"social_culture",
-					"social_health",
-					"social_environment",
-					"social_family"
-				]
-			}
-		},
-		"timeseries_callout": {
-			"name": "timeseries_callout",
-			"chart_type": "custom_chart",
-			"chart_source": "https://storage.dosm.gov.my/dashboards/wellbeing_timeseries_callout.parquet",
-			"data_as_of": "2023-10-24 23:59",
-			"api_type": "static",
-			"api_params": [],
-			"variables": {
-				"keys": ["chart"],
-				"value_columns": ["index", "growth_yoy"]
-			}
-		}
-	}
+  "dashboard_name": "wellbeing",
+  "data_last_updated": "2023-10-24 23:59",
+  "route": "/dashboard/wellbeing,/ms-MY/dashboard/wellbeing",
+  "sites": ["opendosm"],
+  "manual_trigger": "0",
+  "required_params": [],
+  "optional_params": [],
+  "charts": {
+    "timeseries": {
+      "name": "timeseries",
+      "chart_type": "timeseries_chart",
+      "chart_source": "https://storage.dosm.gov.my/dashboards/wellbeing_timeseries.parquet",
+      "data_as_of": "2021",
+      "api_type": "static",
+      "api_params": [],
+      "variables": {
+        "keys": ["chart_type"],
+        "rename_cols": {
+          "date": "x"
+        },
+        "value_columns": [
+          "x",
+          "overall",
+          "economy",
+          "economy_transport",
+          "economy_comms",
+          "economy_educ",
+          "economy_income",
+          "economy_work",
+          "social",
+          "social_housing",
+          "social_entertainment",
+          "social_safety",
+          "social_participation",
+          "social_governance",
+          "social_culture",
+          "social_health",
+          "social_environment",
+          "social_family"
+        ]
+      }
+    },
+    "timeseries_callout": {
+      "name": "timeseries_callout",
+      "chart_type": "custom_chart",
+      "chart_source": "https://storage.dosm.gov.my/dashboards/wellbeing_timeseries_callout.parquet",
+      "data_as_of": "2021",
+      "api_type": "static",
+      "api_params": [],
+      "variables": {
+        "keys": ["chart"],
+        "value_columns": ["index", "growth_yoy"]
+      }
+    }
+  }
 }
