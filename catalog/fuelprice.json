@@ -1,6 +1,6 @@
 {
     "file": {
-        "manual_trigger": "2023-10-20 04:46:35.535263",
+        "manual_trigger": "2023-10-30 06:46:41.772595",
         "exclude_openapi": false,
         "bucket": "commodities",
         "file_name": "fuelprice",
@@ -56,9 +56,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-10-19 00:01",
-                        "last_updated": "2023-10-18 23:59",
-                        "next_update": "2023-10-25 23:59"
+                        "data_as_of": "2023-10-26 00:01",
+                        "last_updated": "2023-10-25 23:59",
+                        "next_update": "2023-11-01 23:59"
                     },
                     "metadata_lang": {
                         "en": {
@@ -131,9 +131,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-10-19 00:01",
-                        "last_updated": "2023-10-18 23:59",
-                        "next_update": "2023-10-25 23:59"
+                        "data_as_of": "2023-10-26 00:01",
+                        "last_updated": "2023-10-25 23:59",
+                        "next_update": "2023-11-01 23:59"
                     },
                     "metadata_lang": {
                         "en": {
@@ -206,9 +206,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-10-19 00:01",
-                        "last_updated": "2023-10-18 23:59",
-                        "next_update": "2023-10-25 23:59"
+                        "data_as_of": "2023-10-26 00:01",
+                        "last_updated": "2023-10-25 23:59",
+                        "next_update": "2023-11-01 23:59"
                     },
                     "metadata_lang": {
                         "en": {
