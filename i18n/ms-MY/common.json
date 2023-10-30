@@ -73,7 +73,7 @@
         "heatmap": "Peta",
         "table": "Jadual"
       },
-      "banner": "Hi semua, _archieve.data.gov.my_ tidak lagi digunakan. Lorem ipsum dsada jdsdnald asdald. Untuk memastikan kelangsungan hayat, anda diminta untuk buat itu ini dan yada yada. Ini adalah placeholder message banner kami. Untuk info lebih lanjut, layari laman web kami di [data.gov.my](https://www.data.gov.my)"
+      "banner": "Hi semua, _archieve.data.gov.my_ tidak lagi digunakan. Lorem ipsum dsada jdsdnald asdald. Untuk memastikan kelangsungan hayat, anda diminta untuk buat itu ini dan yada yada. Ini adalah placeholder message banner kami. Nanti update dari kami."
     },
     "time": {
       "daily_7d": "Purata 7 hari",
@@ -183,8 +183,7 @@
         "users": "Penggunaan OpenAPI Harian",
         "views": "Paparan Harian",
         "downloads": "Muat Turun Harian"
-      },
-      "banner": "Hi semua, _archieve.data.gov.my_ tidak lagi digunakan. Lorem ipsum dsada jdsdnald asdald. Untuk memastikan kelangsungan hayat, anda diminta untuk buat itu ini dan yada yada. Ini adalah placeholder message banner kami. Untuk info lebih lanjut, layari laman web kami di [data.gov.my](https://www.data.gov.my)"
+      }
     }
   }
 }
