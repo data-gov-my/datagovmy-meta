@@ -117,66 +117,7 @@
 							"freeze": []
 						}
 					},
-					"dataviz": [
-						{
-							"translation_key": "pyramid",
-							"chart_type": "PYRAMID",
-							"chart_filters": {
-								"SLICE_BY": ["ethnicity"],
-								"precision": 1
-							},
-							"chart_variables": {
-								"parents": ["ethnicity"],
-								"x": "age",
-								"y": ["male", "female"]
-							}
-						},
-						{
-							"translation_key": "bar",
-							"chart_type": "BAR",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 0
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "state",
-									"y": ["population"]
-								}
-							}
-						},
-						{
-							"translation_key": "heattable",
-							"chart_type": "HEATTABLE",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 0
-							},
-							"chart_variables": {
-								"parents": [],
-								"colour": "greens"
-							}
-						},
-						{
-							"translation_key": "choropleth",
-							"chart_type": "CHOROPLETH",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 0
-							},
-							"chart_variables": {
-								"parents": [],
-								"file_json": "state",
-								"colour": "greens",
-								"format": {
-									"x": "state",
-									"y": "population"
-								}
-							}
-						}
-					],
+					"dataviz": [],
 					"translations": {
 						"en": {
 							"date": "Date",
