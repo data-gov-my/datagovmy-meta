@@ -72,7 +72,8 @@
       "charts": {
         "heatmap": "Peta",
         "table": "Jadual"
-      }
+      },
+      "banner": "Hi semua, _archieve.data.gov.my_ tidak lagi digunakan. Lorem ipsum dsada jdsdnald asdald. Untuk memastikan kelangsungan hayat, anda diminta untuk buat itu ini dan yada yada. Ini adalah placeholder message banner kami. Untuk info lebih lanjut, layari laman web kami di [data.gov.my](https://www.data.gov.my)"
     },
     "time": {
       "daily_7d": "Purata 7 hari",
