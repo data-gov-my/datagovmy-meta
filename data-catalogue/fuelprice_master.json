@@ -191,7 +191,7 @@
 		],
 		"related_datasets": [
 			{
-				"id": "population_population_state_0",
+				"id": "population_population_state",
 				"title": {
 					"en": "Population Table: States",
 					"bm": "Jadual Penduduk: Negeri"
