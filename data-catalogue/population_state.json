@@ -141,18 +141,10 @@
 							"x": "Age",
 							"y1": "Male",
 							"y2": "Female",
-							"pyramid": {
-								"name": "Pyramid Chart"
-							},
-							"bar": {
-								"name": "Bar Chart"
-							},
-							"heattable": {
-								"name": "Heattable Chart"
-							},
-							"choropleth": {
-								"name": "Choropleth Chart"
-							}
+							"pyramid": "Pyramid Chart",
+							"bar": "Bar Chart",
+							"heattable": "Heattable Chart",
+							"choropleth": "Choropleth Chart"
 						},
 						"bm": {
 							"date": "Tarikh",
@@ -176,18 +168,10 @@
 							"x": "Negeri",
 							"y1": "Lelaki",
 							"y2": "Perempuan",
-							"pyramid": {
-								"name": "Carta Piramid"
-							},
-							"bar": {
-								"name": "Carta Bar"
-							},
-							"heattable": {
-								"name": "Carta Heattable"
-							},
-							"choropleth": {
-								"name": "Carta Choropleth"
-							}
+							"pyramid": "Carta Piramid",
+							"bar": "Carta Bar",
+							"heattable": "Carta Heattable",
+							"choropleth": "Carta Choropleth"
 						}
 					}
 				}
