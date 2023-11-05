@@ -1,0 +1,48 @@
+{
+    "publication": "employment_2021-q1",
+    "publication_type": "labour",
+    "release_date": "2021-05-10",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[1Q 2021] Employment",
+        "publication_type_title": "Labour Force",
+        "description": "Quarterly employment statistics, covering job creation, takeup, and vacancies, broken down by sector, sub-sector, and skill level.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Employment: 1Q 2021",
+                "resource_link": "https://storage.dosm.gov.my/labour/employment_2021-q1.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Employment: 1Q 2021",
+                "resource_link": "https://storage.dosm.gov.my/labour/employment_2021-q1.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST1 2021] Guna Tenaga",
+        "publication_type_title": "Tenaga Buruh",
+        "description": "Guna tenaga suku tahunan, merangkumi pewujudan, pengisian dan kekosongan jawatan, mengikut sektor, subsektor dan kemahiran.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Guna Tenaga: ST1 2021",
+                "resource_link": "https://storage.dosm.gov.my/labour/employment_2021-q1.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Guna Tenaga: ST1 2021",
+                "resource_link": "https://storage.dosm.gov.my/labour/employment_2021-q1.pdf"
+            }
+        ]
+    }
+}

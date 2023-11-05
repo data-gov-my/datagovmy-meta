@@ -1,0 +1,48 @@
+{
+    "publication": "employment_2022-q3",
+    "publication_type": "labour",
+    "release_date": "2022-11-09",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[3Q 2022] Employment",
+        "publication_type_title": "Labour Force",
+        "description": "Quarterly employment statistics, covering job creation, takeup, and vacancies, broken down by sector, sub-sector, and skill level.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Employment: 3Q 2022",
+                "resource_link": "https://storage.dosm.gov.my/labour/employment_2022-q3.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Employment: 3Q 2022",
+                "resource_link": "https://storage.dosm.gov.my/labour/employment_2022-q3.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST3 2022] Guna Tenaga",
+        "publication_type_title": "Tenaga Buruh",
+        "description": "Guna tenaga suku tahunan, merangkumi pewujudan, pengisian dan kekosongan jawatan, mengikut sektor, subsektor dan kemahiran.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Guna Tenaga: ST3 2022",
+                "resource_link": "https://storage.dosm.gov.my/labour/employment_2022-q3.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Guna Tenaga: ST3 2022",
+                "resource_link": "https://storage.dosm.gov.my/labour/employment_2022-q3.pdf"
+            }
+        ]
+    }
+}
