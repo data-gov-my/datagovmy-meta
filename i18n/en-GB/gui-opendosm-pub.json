@@ -8,8 +8,10 @@
     "get_started_desc": "Fill in the forms to generate preview of the metadata of the publication",
     "resources": "Resources",
     "resources_desc": "Add or remove resources for this publication. At least one resource is required to generate the template",
+    "choose_items": "Choose Items",
     "add_one": "Add one",
     "add_more": "Add more",
+    "no_resource_added": "No resources added",
     "generate_json": "Generate JSON",
     "forms": {
       "publication": "Publication ID",
@@ -23,11 +25,14 @@
       "publication_type_title_bm": "Publication Type Title BM",
       "description": "Description",
       "description_bm": "Description BM",
+      "description_placeholder": "Add description here",
+      "description_placeholder_bm": "Add description BM here",
       "resource_id": "Resource ID",
       "resource_type": "Resource Type",
       "resource_name": "Resource Name",
       "resource_name_bm": "Resource Name BM",
-      "resource_link": "Resource Link"
+      "resource_link": "Resource Link",
+      "resource_link_placeholder": "Insert resource url"
     },
     "validations": {
       "required": "Required",
