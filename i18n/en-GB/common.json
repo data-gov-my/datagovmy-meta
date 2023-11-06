@@ -74,7 +74,8 @@
       "charts": {
         "heatmap": "Heatmap",
         "table": "Table"
-      }
+      },
+      "banner": "Hello everyone, _archieve.data.gov.my_ is no longer in use. Lorem ipsum dsada jdsdnald asdald. To ensure longetivity, please do this and that and yada yada. This is a placeholder message for our banner. Stay tune for more update"
     },
     "time": {
       "daily_7d": "Daily (7d avg)",

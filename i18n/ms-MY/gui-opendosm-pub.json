@@ -1,0 +1,42 @@
+{
+  "route": "/ms-MY/gui/opendosm-pub",
+  "sites": ["datagovmy"],
+  "translation": {
+    "header": "GUI Admin: Penerbitan OpenDOSM",
+    "description": "GUI ini menghasilkan templat yang disahkan dan khusus untuk penerbitan OpenDOSM. Buat masa ini, aliran kerja untuk memuat naik templat ini ke S3 dan proses memuat naik penerbitan ini secara langsung adalah masih manual, tetapi proses ini akan menjadi automatik pada masa hadapan",
+    "get_started": "Mulakan",
+    "get_started_desc": "Isi borang untuk menghasilkan pratonton metadata penerbitan yang akan dihasilkan",
+    "resources": "Sumber",
+    "resources_desc": "Tambahkan atau alih keluar sumber untuk penerbitan ini. Sekurang-kurangnya satu sumber diperlukan untuk menghasilkan templat",
+    "choose_items": "Pilih item",
+    "add_one": "Tambah satu",
+    "add_more": "Tambah lagi",
+    "no_resource_added": "Tiada sumber ditambah",
+    "generate_json": "Jana JSON",
+    "forms": {
+      "publication": "ID Penerbitan",
+      "publication_type": "Jenis Penerbitan",
+      "title": "Tajuk",
+      "title_bm": "Tajuk dalam BM",
+      "frequency": "Kekerapan",
+      "demography": "Demografi",
+      "geography": "Geografi",
+      "publication_type_title": "Tajuk Jenis Penerbitan",
+      "publication_type_title_bm": "Tajuk Jenis Penerbitan dalam BM",
+      "description": "Penerangan",
+      "description_bm": "Penerangan dalam BM",
+      "description_placeholder": "Tambah penerangan disini",
+      "description_placeholder_bm": "Tambah penerangan dalam BM disini",
+      "resource_id": "ID Sumber",
+      "resource_type": "Jenis Sumber",
+      "resource_name": "Nama Sumber",
+      "resource_name_bm": "Nama Sumber dalam BM",
+      "resource_link": "Pautan Sumber",
+      "resource_link_placeholder": "Tambah pautan URL sumber"
+    },
+    "validations": {
+      "required": "Diperlukan",
+      "not_valid_url": "Format url tidak sah"
+    }
+  }
+}

@@ -160,30 +160,18 @@
 							"y1": "Price (RM)",
 							"change_weekly": "Weekly Change",
 							"level": "Price",
-							"ron95-timeseries": {
-								"name": "Ron95 Timeseries"
-							},
-							"ron97-timeseries": {
-								"name": "Ron97 Timeseries"
-							},
-							"diesel-timeseries": {
-								"name": "Diesel Timeseries"
-							}
+							"ron95-timeseries": "Ron95 Timeseries",
+							"ron97-timeseries": "Ron97 Timeseries",
+							"diesel-timeseries": "Diesel Timeseries"
 						},
 						"bm": {
 							"x": "Tarikh",
 							"y1": "Harga (RM)",
 							"change_weekly": "Perubahan Mingguan",
 							"level": "Harga",
-							"ron95-timeseries": {
-								"name": "Siri Masa Ron95"
-							},
-							"ron97-timeseries": {
-								"name": "Ron97 Timeseries"
-							},
-							"diesel-timeseries": {
-								"name": "Diesel Timeseries"
-							}
+							"ron95-timeseries": "Siri Masa Ron95",
+							"ron97-timeseries": "Ron97 Timeseries",
+							"diesel-timeseries": "Diesel Timeseries"
 						}
 					}
 				}
