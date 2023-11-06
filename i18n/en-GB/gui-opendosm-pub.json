@@ -1,0 +1,37 @@
+{
+  "route": "/gui/opendosm-pub",
+  "sites": ["datagovmy"],
+  "translation": {
+    "header": "Admin GUI: OpenDOSM Publications",
+    "description": "This GUI generates validated, fully-specified templates for OpenDOSM publications. For now, the workflow to upload these templates to S3 and use them to push a publication live is still manual, but will be automated from this GUI in future.",
+    "get_started": "Get Started",
+    "get_started_desc": "Fill in the forms to generate preview of the metadata of the publication",
+    "resources": "Resources",
+    "resources_desc": "Add or remove resources for this publication. At least one resource is required to generate the template",
+    "add_one": "Add one",
+    "add_more": "Add more",
+    "generate_json": "Generate JSON",
+    "forms": {
+      "publication": "Publication ID",
+      "publication_type": "Publication Type",
+      "title": "Title",
+      "title_bm": "Title BM",
+      "frequency": "Frequency",
+      "demography": "Demography",
+      "geography": "Geography",
+      "publication_type_title": "Publication Type Title",
+      "publication_type_title_bm": "Publication Type Title BM",
+      "description": "Description",
+      "description_bm": "Description BM",
+      "resource_id": "Resource ID",
+      "resource_type": "Resource Type",
+      "resource_name": "Resource Name",
+      "resource_name_bm": "Resource Name BM",
+      "resource_link": "Resource Link"
+    },
+    "validations": {
+      "required": "Required",
+      "not_valid_url": "Not a valid url"
+    }
+  }
+}
