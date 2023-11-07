@@ -3,7 +3,7 @@
         "manual_trigger": "",
         "exclude_openapi": false,
         "bucket": "population",
-        "file_name": "population_state",
+        "file_name": "population_malaysia",
         "category": "DEMOGRAPHY",
         "category_en": "Demography",
         "category_bm": "Demografi",
@@ -17,12 +17,12 @@
         "subcategory_opendosm_en": "Population",
         "subcategory_opendosm_bm": "Penduduk",
         "description": {
-            "en": "This dataset tabulates the population of Malaysia at state level, by sex, ethnicity, and 5-year age group, from 2020 to 2023.",
-            "bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat negeri, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023."
+            "en": "This dataset tabulates the population of Malaysia at national level, by sex, ethnicity, and 5-year age group, from 2020 to 2023.",
+            "bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat nasional, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023."
         },
-        "link_parquet": "https://storage.dosm.gov.my/population/population_state.parquet",
-        "link_csv": "https://storage.dosm.gov.my/population/population_state.csv",
-        "link_preview": "https://storage.dosm.gov.my/population/population_state.parquet",
+        "link_parquet": "https://storage.dosm.gov.my/population/population_malaysia.parquet",
+        "link_csv": "https://storage.dosm.gov.my/population/population_malaysia.csv",
+        "link_preview": "https://storage.dosm.gov.my/population/population_malaysia.parquet",
         "variables": [
             {
                 "id": -1,
@@ -37,8 +37,8 @@
                 "name": "state",
                 "title_en": "State",
                 "title_bm": "Negeri",
-                "desc_en": "[Categorical] One of 16 states",
-                "desc_bm": "[Kategoril] Satu daripada 16 negeri"
+                "desc_en": "[Categorical] The value is set to 'Malaysia'; this column is included for avoidance of doubt regarding coverage if the dataset is examined in isolation",
+                "desc_bm": "[Kategoril] Nilai ditetapkan sebagai 'Malaysia'; lajur ini dimasukkan untuk mengelakkan keraguan mengenai skop data sekiranya dilihat tanpa metadata di portal ini"
             },
             {
                 "id": -1,
@@ -74,16 +74,16 @@
             },
             {
                 "id": 0,
-                "name": "population_pyramid_state",
-                "title_en": "Population Table: States",
-                "title_bm": "Jadual Penduduk: Negeri",
-                "desc_en": "This dataset tabulates the population of Malaysia at state level, by sex, ethnicity, and 5-year age group, from 2020 to 2023.",
-                "desc_bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat negeri, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023.",
+                "name": "population_pyramid_malaysia",
+                "title_en": "Population Table: Malaysia",
+                "title_bm": "Penduduk: Malaysia",
+                "desc_en": "This dataset tabulates the population of Malaysia at national level, by sex, ethnicity, and 5-year age group, from 2020 to 2023.",
+                "desc_bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat nasional, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023.",
                 "catalog_data": {
                     "catalog_filters": {
                         "frequency": "YEARLY",
                         "geography": [
-                            "STATE"
+                            "NATIONAL"
                         ],
                         "demography": ["SEX","ETHNICITY","AGE"],
                         "start": "2020",
@@ -112,11 +112,11 @@
                     "chart": {
                         "chart_type": "TABLE",
                         "chart_filters": {
-                            "SLICE_BY": ["state"],
+                            "SLICE_BY": [],
                             "precision": 1
                         },
                         "chart_variables": {
-                            "parents": ["state"],
+                            "parents": [],
                             "exclude": [],
                             "freeze": []
                         }

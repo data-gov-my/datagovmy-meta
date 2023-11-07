@@ -1,9 +1,9 @@
 {
     "file": {
         "manual_trigger": "",
-        "exclude_openapi": false,
+        "exclude_openapi": true,
         "bucket": "population",
-        "file_name": "population_state",
+        "file_name": "population_district",
         "category": "DEMOGRAPHY",
         "category_en": "Demography",
         "category_bm": "Demografi",
@@ -17,12 +17,12 @@
         "subcategory_opendosm_en": "Population",
         "subcategory_opendosm_bm": "Penduduk",
         "description": {
-            "en": "This dataset tabulates the population of Malaysia at state level, by sex, ethnicity, and 5-year age group, from 2020 to 2023.",
-            "bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat negeri, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023."
+            "en": "This dataset tabulates the population of Malaysia at administrative district level, by sex, ethnicity, and 5-year age group, from 2020 to 2023.",
+            "bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat daerah pentadbiran, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023."
         },
-        "link_parquet": "https://storage.dosm.gov.my/population/population_state.parquet",
-        "link_csv": "https://storage.dosm.gov.my/population/population_state.csv",
-        "link_preview": "https://storage.dosm.gov.my/population/population_state.parquet",
+        "link_parquet": "https://storage.dosm.gov.my/population/population_district.parquet",
+        "link_csv": "https://storage.dosm.gov.my/population/population_district.csv",
+        "link_preview": "https://storage.dosm.gov.my/population/population_district_preview.parquet",
         "variables": [
             {
                 "id": -1,
@@ -39,6 +39,14 @@
                 "title_bm": "Negeri",
                 "desc_en": "[Categorical] One of 16 states",
                 "desc_bm": "[Kategoril] Satu daripada 16 negeri"
+            },
+            {
+                "id": -1,
+                "name": "district",
+                "title_en": "District",
+                "title_bm": "Daerah",
+                "desc_en": "[Categorical] One of 160 administrative districts, including the 4 states (Perlis and the 3 Federal Territories) which do not have subdivisions",
+                "desc_bm": "[Kategori] Satu daripada 160 daerah pentadbiran, termasuk 4 negeri (Perlis dan 3 Wilayah Persekutuan) yang tidak dipecahkan lagi"
             },
             {
                 "id": -1,
@@ -74,16 +82,16 @@
             },
             {
                 "id": 0,
-                "name": "population_pyramid_state",
-                "title_en": "Population Table: States",
-                "title_bm": "Jadual Penduduk: Negeri",
-                "desc_en": "This dataset tabulates the population of Malaysia at state level, by sex, ethnicity, and 5-year age group, from 2020 to 2023.",
-                "desc_bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat negeri, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023.",
+                "name": "population_pyramid_district",
+                "title_en": "Population Table: Administrative Districts",
+                "title_bm": "Jadual Penduduk: Daerah Pentadbiran",
+                "desc_en": "This dataset tabulates the population of Malaysia at administrative district level, by sex, ethnicity, and 5-year age group, from 2020 to 2023. Because the full dataset contains over 250,000 rows, the data shown here is a truncated preview (using Batu Pahat as an example) to help you explore the various fields.",
+                "desc_bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat daerah pentadbiran, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023. Oleh sebab set data penuh mengandungi lebih daripada 250,000 baris, data yang dipaparkan di sini telah disingkatkan (dengan mengambil Batu Pahat sebagai contoh) untuk membantu anda memahami medan-medan yang terkandung.",
                 "catalog_data": {
                     "catalog_filters": {
                         "frequency": "YEARLY",
                         "geography": [
-                            "STATE"
+                            "DISTRICT"
                         ],
                         "demography": ["SEX","ETHNICITY","AGE"],
                         "start": "2020",
@@ -94,8 +102,8 @@
                     },
                     "metadata_neutral": {
                         "data_as_of": "2023-06-30 23:59",
-                        "last_updated": "2023-07-31 12:00",
-                        "next_update": "2024-07-31 12:00"
+                        "last_updated": "2023-08-29 12:00",
+                        "next_update": "2024-08-31 12:00"
                     },
                     "metadata_lang": {
                         "en": {
@@ -112,11 +120,11 @@
                     "chart": {
                         "chart_type": "TABLE",
                         "chart_filters": {
-                            "SLICE_BY": ["state"],
+                            "SLICE_BY": [],
                             "precision": 1
                         },
                         "chart_variables": {
-                            "parents": ["state"],
+                            "parents": [],
                             "exclude": [],
                             "freeze": []
                         }
