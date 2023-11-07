@@ -1,0 +1,48 @@
+{
+    "publication": "ipi_2023-09",
+    "publication_type": "ipi",
+    "release_date": "2023-11-07",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Sep 2023] Industrial Production Index",
+        "publication_type_title": "Industrial Production Index",
+        "description": "Monthly industrial production indices for the manufacturing, mining, and electricity-production sectors.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Industrial Production Index: Sep 2023",
+                "resource_link": "https://storage.dosm.gov.my/ipi/ipi_2023-09.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Industrial Production Index: Sep 2023",
+                "resource_link": "https://storage.dosm.gov.my/ipi/ipi_2023-09.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Sep 2023] Indeks Pengeluaran Perinudstrian",
+        "publication_type_title": "Indeks Pengeluaran Perinudstrian",
+        "description": "Indeks pengeluaran perindustrian bulanan bagi sektor pembuatan, pelombongan dan penjanaan elektrik.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Indeks Pengeluaran Perindustrian: Sep 2023",
+                "resource_link": "https://storage.dosm.gov.my/ipi/ipi_2023-09.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Indeks Pengeluaran Perindustrian: Sep 2023",
+                "resource_link": "https://storage.dosm.gov.my/ipi/ipi_2023-09.pdf"
+            }
+        ]
+    }
+}
