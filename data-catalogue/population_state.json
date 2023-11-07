@@ -121,6 +121,8 @@
                             "freeze": []
                         }
                     },
+
+					"dataviz": [],
                     "translations": {
                         "en": {
                             "date":"Date",
