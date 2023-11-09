@@ -1,80 +1,70 @@
 {
-    "dashboard_name": "homepage",
-    "data_last_updated": "2023-11-08 00:01",
-    "route": "/,/ms-MY/",
-    "sites": [
-        "datagovmy"
-    ],
-    "manual_trigger": "2023-11-08 07:38:40.083885",
-    "required_params": [],
-    "optional_params": [],
-    "charts": {
-        "timeseries": {
-            "name": "timeseries",
-            "chart_type": "timeseries_chart",
-            "chart_source": "https://storage.data.gov.my/dashboards/homepage_timeseries.parquet",
-            "data_as_of": "2023-11-07 23:59",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "keys": [],
-                "rename_cols": {
-                    "date": "x",
-                    "views_7dma": "line_views",
-                    "downloads_7dma": "line_downloads",
-                    "users_7dma": "line_users"
-                },
-                "value_columns": [
-                    "x",
-                    "views",
-                    "line_views",
-                    "downloads",
-                    "line_downloads",
-                    "users",
-                    "line_users"
-                ]
-            }
-        },
-        "statistics": {
-            "name": "statistics",
-            "chart_type": "custom_chart",
-            "chart_source": "https://storage.data.gov.my/dashboards/homepage_timeseries_callout.parquet",
-            "data_as_of": "2023-11-07 23:59",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "keys": [
-                    "chart"
-                ],
-                "value_columns": [
-                    "callout1",
-                    "callout2"
-                ]
-            }
-        },
-        "table_summary": {
-            "name": "table_summary",
-            "chart_type": "metrics_table",
-            "chart_source": "https://storage.data.gov.my/dashboards/homepage_top.parquet",
-            "data_as_of": "2023-11-07 23:59",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "keys": [
-                    "time_period",
-                    "chart_type"
-                ],
-                "rename_cols": {
-                    "agency": "agency_abbr"
-                },
-                "value_columns": [
-                    "id",
-                    "name_en",
-                    "name_bm",
-                    "agency_abbr",
-                    "count"
-                ]
-            }
-        }
-    }
+	"dashboard_name": "homepage",
+	"data_last_updated": "2023-11-09 00:01",
+	"route": "/,/ms-MY/",
+	"sites": ["datagovmy"],
+	"manual_trigger": "2023-11-09 00:10:29.180234",
+	"required_params": [],
+	"optional_params": [],
+	"charts": {
+		"timeseries": {
+			"name": "timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/homepage_timeseries.parquet",
+			"data_as_of": "2023-11-08 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": [],
+				"rename_cols": {
+					"date": "x",
+					"views_7dma": "line_views",
+					"downloads_7dma": "line_downloads",
+					"users_7dma": "line_users"
+				},
+				"value_columns": [
+					"x",
+					"views",
+					"line_views",
+					"downloads",
+					"line_downloads",
+					"users",
+					"line_users"
+				]
+			}
+		},
+		"statistics": {
+			"name": "statistics",
+			"chart_type": "custom_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/homepage_timeseries_callout.parquet",
+			"data_as_of": "2023-11-08 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["chart"],
+				"value_columns": ["callout1", "callout2"]
+			}
+		},
+		"table_summary": {
+			"name": "table_summary",
+			"chart_type": "metrics_table",
+			"chart_source": "https://storage.data.gov.my/dashboards/homepage_top.parquet",
+			"data_as_of": "2023-11-08 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["time_period", "chart_type"],
+				"rename_cols": {
+					"agency": "agency_abbr"
+				},
+				"value_columns": [
+					"id",
+					"name_en",
+					"name_bm",
+					"agency_abbr",
+					"count"
+				]
+			}
+		}
+	}
 }
