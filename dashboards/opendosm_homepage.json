@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
 	"dashboard_name": "opendosm_homepage",
 	"data_last_updated": "2023-11-09 00:01",
 	"route": "/,/ms-MY/",
@@ -80,3 +81,101 @@
 		}
 	}
 }
+=======
+    "dashboard_name": "opendosm_homepage",
+    "data_last_updated": "2023-11-10 00:01",
+    "route": "/,/ms-MY/",
+    "sites": [
+        "opendosm"
+    ],
+    "manual_trigger": "2023-11-10 03:24:39.796424",
+    "required_params": [],
+    "optional_params": [],
+    "charts": {
+        "keystats": {
+            "name": "keystats",
+            "chart_type": "custom_chart",
+            "chart_source": "https://storage.dosm.gov.my/dashboards/homepage_keystats.parquet",
+            "data_as_of": "2023-11-09 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "chart"
+                ],
+                "value_columns": [
+                    "callout",
+                    "data_as_of"
+                ]
+            }
+        },
+        "table_summary": {
+            "name": "table_summary",
+            "chart_type": "metrics_table",
+            "chart_source": "https://storage.dosm.gov.my/dashboards/homepage_top.parquet",
+            "data_as_of": "2023-11-09 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "chart_type",
+                    "time_period"
+                ],
+                "rename_cols": {
+                    "agency": "agency_abbr"
+                },
+                "value_columns": [
+                    "id",
+                    "name_en",
+                    "name_bm",
+                    "agency_abbr",
+                    "count"
+                ]
+            }
+        },
+        "timeseries": {
+            "name": "timeseries",
+            "chart_type": "timeseries_chart",
+            "chart_source": "https://storage.dosm.gov.my/dashboards/homepage_timeseries.parquet",
+            "data_as_of": "2023-11-09 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [],
+                "rename_cols": {
+                    "date": "x",
+                    "views_7dma": "line_views",
+                    "downloads_7dma": "line_downloads",
+                    "users_7dma": "line_users"
+                },
+                "value_columns": [
+                    "x",
+                    "views",
+                    "line_views",
+                    "downloads",
+                    "line_downloads",
+                    "users",
+                    "line_users"
+                ]
+            }
+        },
+        "timeseries_callout": {
+            "name": "timeseries_callout",
+            "chart_type": "custom_chart",
+            "chart_source": "https://storage.dosm.gov.my/dashboards/homepage_timeseries_callout.parquet",
+            "data_as_of": "2023-11-09 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "chart"
+                ],
+                "value_columns": [
+                    "callout1",
+                    "callout2"
+                ]
+            }
+        }
+    }
+}
+>>>>>>> Stashed changes
