@@ -1,98 +1,88 @@
 {
-    "dashboard_name": "exchange_rates",
-    "data_last_updated": "2023-11-08 04:00",
-    "route": "/dashboard/exchange-rates,/ms-MY/dashboard/exchange-rates",
-    "sites": [
-        "opendosm"
-    ],
-    "manual_trigger": "2023-11-08 07:40:53.980726",
-    "required_params": [],
-    "optional_params": [],
-    "charts": {
-        "timeseries": {
-            "name": "timeseries",
-            "chart_type": "timeseries_chart",
-            "chart_source": "https://storage.dosm.gov.my/dashboards/er_timeseries.parquet",
-            "data_as_of": "2023-11-07 23:59",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "keys": [
-                    "chart"
-                ],
-                "rename_cols": {
-                    "date": "x"
-                },
-                "value_columns": [
-                    "x",
-                    "currency0",
-                    "currency1",
-                    "currency2",
-                    "currency3",
-                    "currency4",
-                    "currency5",
-                    "currency6",
-                    "currency7",
-                    "currency8",
-                    "currency9",
-                    "currency10",
-                    "currency11",
-                    "currency12",
-                    "currency13",
-                    "currency14",
-                    "currency15",
-                    "currency16",
-                    "currency17",
-                    "currency18",
-                    "currency19",
-                    "currency20",
-                    "currency21",
-                    "currency22",
-                    "currency23",
-                    "currency24"
-                ]
-            }
-        },
-        "statistics": {
-            "name": "statistics",
-            "chart_type": "custom_chart",
-            "chart_source": "https://storage.dosm.gov.my/dashboards/er_timeseries_callout.parquet",
-            "data_as_of": "2023-11-07 23:59",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "keys": [
-                    "chart"
-                ],
-                "value_columns": [
-                    "callout",
-                    "country_en",
-                    "country_bm",
-                    "tooltip_unit",
-                    "chart_flag"
-                ]
-            }
-        },
-        "bar_chart": {
-            "name": "bar_chart",
-            "chart_type": "bar_chart",
-            "chart_source": "https://storage.dosm.gov.my/dashboards/er_barchart.parquet",
-            "data_as_of": "2023-11-07 23:59",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "keys": [
-                    "period"
-                ],
-                "rename_cols": {
-                    "country": "x",
-                    "pct_change": "y"
-                },
-                "x": "x",
-                "y": [
-                    "y"
-                ]
-            }
-        }
-    }
+	"dashboard_name": "exchange_rates",
+	"data_last_updated": "2023-11-08 04:00",
+	"route": "/dashboard/exchange-rates,/ms-MY/dashboard/exchange-rates",
+	"sites": ["opendosm"],
+	"manual_trigger": "2023-11-08 07:40:53.980726",
+	"required_params": [],
+	"optional_params": [],
+	"charts": {
+		"timeseries": {
+			"name": "timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/er_timeseries.parquet",
+			"data_as_of": "2023-11-07 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["chart"],
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": [
+					"x",
+					"currency0",
+					"currency1",
+					"currency2",
+					"currency3",
+					"currency4",
+					"currency5",
+					"currency6",
+					"currency7",
+					"currency8",
+					"currency9",
+					"currency10",
+					"currency11",
+					"currency12",
+					"currency13",
+					"currency14",
+					"currency15",
+					"currency16",
+					"currency17",
+					"currency18",
+					"currency19",
+					"currency20",
+					"currency21",
+					"currency22",
+					"currency23",
+					"currency24"
+				]
+			}
+		},
+		"statistics": {
+			"name": "statistics",
+			"chart_type": "custom_chart",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/er_timeseries_callout.parquet",
+			"data_as_of": "2023-11-07 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["chart"],
+				"value_columns": [
+					"callout",
+					"country_en",
+					"country_bm",
+					"tooltip_unit",
+					"chart_flag"
+				]
+			}
+		},
+		"bar_chart": {
+			"name": "bar_chart",
+			"chart_type": "bar_chart",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/er_barchart.parquet",
+			"data_as_of": "2023-11-07 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["period"],
+				"rename_cols": {
+					"country": "x",
+					"pct_change": "y"
+				},
+				"x": "x",
+				"y": ["y"]
+			}
+		}
+	}
 }

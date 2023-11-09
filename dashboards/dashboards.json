@@ -1,86 +1,62 @@
 {
-    "dashboard_name": "dashboards",
-    "data_last_updated": "2023-11-09 00:01",
-    "route": "",
-    "sites": [
-        "datagovmy"
-    ],
-    "manual_trigger": "2023-11-09 00:10:29.181746",
-    "required_params": [],
-    "optional_params": [],
-    "charts": {
-        "query_values": {
-            "name": "agency_dropdown",
-            "chart_type": "query_values",
-            "chart_source": "https://storage.data.gov.my/dashboards/dashboards_all.parquet",
-            "data_as_of": "2023-11-08 23:59",
-            "api_type": "dynamic",
-            "api_params": [],
-            "variables": {
-                "columns": [
-                    "agency"
-                ],
-                "sort_values": {
-                    "by": [
-                        "agency"
-                    ],
-                    "ascending": [
-                        true
-                    ]
-                }
-            }
-        },
-        "dashboards_top": {
-            "name": "dashboards_top",
-            "chart_type": "metrics_table",
-            "chart_source": "https://storage.data.gov.my/dashboards/dashboards_top.parquet",
-            "data_as_of": "2023-11-08 23:59",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "keys": [
-                    "time_period"
-                ],
-                "value_columns": [
-                    "name",
-                    "agency",
-                    "views"
-                ]
-            }
-        },
-        "dashboards_all": {
-            "name": "dashboards_all",
-            "chart_type": "metrics_table",
-            "chart_source": "https://storage.data.gov.my/dashboards/dashboards_all.parquet",
-            "data_as_of": "2023-11-08 23:59",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "keys": [
-                    "category"
-                ],
-                "value_columns": [
-                    "name",
-                    "agency",
-                    "views"
-                ]
-            }
-        },
-        "dashboards_route": {
-            "name": "dashboards_route",
-            "chart_type": "custom_chart",
-            "chart_source": "https://storage.data.gov.my/dashboards/dashboards_all.parquet",
-            "data_as_of": "2023-11-08 23:59",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "keys": [
-                    "name"
-                ],
-                "value_columns": [
-                    "route"
-                ]
-            }
-        }
-    }
+	"dashboard_name": "dashboards",
+	"data_last_updated": "2023-11-09 00:01",
+	"route": "",
+	"sites": ["datagovmy"],
+	"manual_trigger": "2023-11-09 00:10:29.181746",
+	"required_params": [],
+	"optional_params": [],
+	"charts": {
+		"query_values": {
+			"name": "agency_dropdown",
+			"chart_type": "query_values",
+			"chart_source": "https://storage.data.gov.my/dashboards/dashboards_all.parquet",
+			"data_as_of": "2023-11-08 23:59",
+			"api_type": "dynamic",
+			"api_params": [],
+			"variables": {
+				"columns": ["agency"],
+				"sort_values": {
+					"by": ["agency"],
+					"ascending": [true]
+				}
+			}
+		},
+		"dashboards_top": {
+			"name": "dashboards_top",
+			"chart_type": "metrics_table",
+			"chart_source": "https://storage.data.gov.my/dashboards/dashboards_top.parquet",
+			"data_as_of": "2023-11-08 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["time_period"],
+				"value_columns": ["name", "agency", "views"]
+			}
+		},
+		"dashboards_all": {
+			"name": "dashboards_all",
+			"chart_type": "metrics_table",
+			"chart_source": "https://storage.data.gov.my/dashboards/dashboards_all.parquet",
+			"data_as_of": "2023-11-08 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["category"],
+				"value_columns": ["name", "agency", "views"]
+			}
+		},
+		"dashboards_route": {
+			"name": "dashboards_route",
+			"chart_type": "custom_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/dashboards_all.parquet",
+			"data_as_of": "2023-11-08 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["name"],
+				"value_columns": ["route"]
+			}
+		}
+	}
 }
