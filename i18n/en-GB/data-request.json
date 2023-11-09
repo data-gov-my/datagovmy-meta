@@ -1,0 +1,46 @@
+{
+  "route": "/data-request",
+  "sites": ["datagovmy"],
+  "translation": {
+    "header": "Tell us what you need",
+    "description_line1": "Our work is never done, and we want to be guided by our users.",
+    "description_line2": "Use this page to request data and get transparent updates on your ticket!",
+    "request_data": "Request data",
+    "data_request_tickets": "Data request tickets",
+    "search_query_placeholder": "Has your request been made before?",
+    "status": {
+      "all": "All Tickets",
+      "under_review": "Under Review",
+      "in_progress": "In Progress",
+      "published": "Data Published",
+      "rejected": "Rejected"
+    },
+    "table": {
+      "status": "Status",
+      "title": "Dataset title",
+      "description": "Dataset description",
+      "data_owner": "Data Owner"
+    },
+    "request_modal": {
+      "title": "Request data",
+      "subtitle": "Fill in the form below:",
+      "success_title": "Request submitted for review!",
+      "success_description": "You can check the data request tickets below for update."
+    },
+    "success_modal": {
+      "title": "The data you requested is now live!",
+      "subtitle": "Check out the following data catalogue entries:"
+    },
+    "forms": {
+      "name": "Name",
+      "email": "Email",
+      "institution": "Institution (optional)",
+      "dataset_title": "Dataset title",
+      "dataset_description": "Dataset description",
+      "dataset_description_placeholder": "Describe the dataset",
+      "agency": "Agency",
+      "purpose": "Purpose of request",
+      "submit": "Submit Request"
+    }
+  }
+}

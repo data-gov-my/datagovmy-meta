@@ -1,0 +1,31 @@
+{
+  "route": "/community-products",
+  "sites": ["datagovmy"],
+  "translation": {
+    "header": "Community Products",
+    "description": "This page showcases the various ways in which the community has put Malaysia’s open data to good use!",
+    "request_to_feature": "I want to feature my product",
+    "section_title": "Apps, analytics, publications, and more!",
+    "select_publication": "Search for a product",
+    "filter_by": "Filter by:",
+    "new": "New",
+    "title": "Application Name",
+    "purpose": "Purpose",
+    "problem_statement": "Problem Statement",
+    "solution_developed": "Solution(s) Developed",
+    "source": "Data Sources/Reference Sources",
+    "website": "Website",
+    "email": "Email",
+    "request_feature_modal": {
+      "title": "Feature my open data product in data.gov.my",
+      "subtitle": "Email {{ email }} with the following details:",
+      "name": "Name",
+      "email": "Email",
+      "institution": "Institution",
+      "product_name": "Product name",
+      "product_description": "Product description** (note: must contain problem statement and how your product solves the problem)",
+      "link_to_product": "Link to live product (note: without a link, product will not be showcased)",
+      "dataset_used": "Open datasets used"
+    }
+  }
+}
