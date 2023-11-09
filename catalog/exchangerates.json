@@ -1,1501 +1,1669 @@
 {
-	"file": {
-		"manual_trigger": "2023-11-08 07:40:53.981200",
-		"exclude_openapi": false,
-		"bucket": "finsector",
-		"file_name": "exchangerates",
-		"category": "FINSECTOR",
-		"category_en": "Financial Sector",
-		"category_bm": "Sektor Kewangan",
-		"subcategory": "EXCHANGE",
-		"subcategory_en": "Exchange Rates",
-		"subcategory_bm": "Kadar Pertukaran Mata Wang",
-		"category_opendosm": "EXTERNAL",
-		"category_opendosm_en": "External Trade",
-		"category_opendosm_bm": "Perdagangan Luar",
-		"subcategory_opendosm": "EXCHANGE",
-		"subcategory_opendosm_en": "Exchange Rates",
-		"subcategory_opendosm_bm": "Kadar Pertukaran Mata Wang",
-		"description": {
-			"en": "A dataset containing the rates of exchange of the Malaysian Ringgit vis-à-vis major trading partners.",
-			"bm": "Dataset yang mengandungi kadar pertukaran ringgit Malaysia berbanding rakan dagang utama."
-		},
-		"link_parquet": "https://storage.data.gov.my/finsector/exchangerates.parquet",
-		"link_csv": "https://storage.data.gov.my/finsector/exchangerates.csv",
-		"link_preview": "https://storage.data.gov.my/finsector/exchangerates.parquet",
-		"variables": [
-			{
-				"id": -1,
-				"name": "date",
-				"title_en": "Date",
-				"title_bm": "Tarikh",
-				"desc_en": "[Date] The date in YYYY-MM-DD format",
-				"desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
-			},
-			{
-				"id": 1,
-				"name": "myr_usd",
-				"title_en": "Exchange Rate vs USA",
-				"title_bm": "Kadar Pertukaran Asing ke AS",
-				"desc_en": "[Float] The rate of exchange (adjusted close) of MYR to USD",
-				"desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke USD",
-				"catalog_data": {
-					"catalog_filters": {
-						"frequency": "DAILY",
-						"limit_frequency": false,
-						"geography": ["NATIONAL"],
-						"demography": [],
-						"start": "2003",
-						"end": "2023",
-						"data_source": ["DOSM", "MAMPU"]
-					},
-					"metadata_neutral": {
-						"data_as_of": "2023-11-07 23:59",
-						"last_updated": "2023-11-08 04:00",
-						"next_update": "2023-11-09 04:00"
-					},
-					"metadata_lang": {
-						"en": {
-							"methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-							"caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
-							"publication": "—"
-						},
-						"bm": {
-							"methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-							"caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
-							"publication": "—"
-						}
-					},
-					"chart": {
-						"chart_type": "TIMESERIES",
-						"chart_filters": {
-							"SLICE_BY": [],
-							"precision": 2
-						},
-						"chart_variables": {
-							"parents": [],
-							"operation": "MEAN",
-							"format": {
-								"x": "date",
-								"y": ["myr_usd"]
-							}
-						}
-					},
-					"translations": {
-						"en": {
-							"x": "Date",
-							"y1": "Exchange Rate (1 MYR)"
-						},
-						"bm": {
-							"x": "Tarikh",
-							"y1": "Kadar Pertukaran (1 MYR)"
-						}
-					}
-				}
-			},
-			{
-				"id": 2,
-				"name": "myr_rmb",
-				"title_en": "Exchange Rate vs China",
-				"title_bm": "Kadar Pertukaran Asing ke China",
-				"desc_en": "[Float] The rate of exchange (adjusted close) of MYR to RMB",
-				"desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke RMB",
-				"catalog_data": {
-					"catalog_filters": {
-						"frequency": "DAILY",
-						"limit_frequency": false,
-						"geography": ["NATIONAL"],
-						"demography": [],
-						"start": "2003",
-						"end": "2023",
-						"data_source": ["DOSM", "MAMPU"]
-					},
-					"metadata_neutral": {
-						"data_as_of": "2023-11-07 23:59",
-						"last_updated": "2023-11-08 04:00",
-						"next_update": "2023-11-09 04:00"
-					},
-					"metadata_lang": {
-						"en": {
-							"methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-							"caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
-							"publication": "—"
-						},
-						"bm": {
-							"methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-							"caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
-							"publication": "—"
-						}
-					},
-					"chart": {
-						"chart_type": "TIMESERIES",
-						"chart_filters": {
-							"SLICE_BY": [],
-							"precision": 2
-						},
-						"chart_variables": {
-							"parents": [],
-							"operation": "MEAN",
-							"format": {
-								"x": "date",
-								"y": ["myr_rmb"]
-							}
-						}
-					},
-					"translations": {
-						"en": {
-							"x": "Date",
-							"y1": "Exchange Rate (1 MYR)"
-						},
-						"bm": {
-							"x": "Tarikh",
-							"y1": "Kadar Pertukaran (1 MYR)"
-						}
-					}
-				}
-			},
-			{
-				"id": 3,
-				"name": "myr_sgd",
-				"title_en": "Exchange Rate vs Singapore",
-				"title_bm": "Kadar Pertukaran Asing ke Singapura",
-				"desc_en": "[Float] The rate of exchange (adjusted close) of MYR to SGD",
-				"desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke SGD",
-				"catalog_data": {
-					"catalog_filters": {
-						"frequency": "DAILY",
-						"limit_frequency": false,
-						"geography": ["NATIONAL"],
-						"demography": [],
-						"start": "2003",
-						"end": "2023",
-						"data_source": ["DOSM", "MAMPU"]
-					},
-					"metadata_neutral": {
-						"data_as_of": "2023-11-07 23:59",
-						"last_updated": "2023-11-08 04:00",
-						"next_update": "2023-11-09 04:00"
-					},
-					"metadata_lang": {
-						"en": {
-							"methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-							"caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
-							"publication": "—"
-						},
-						"bm": {
-							"methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-							"caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
-							"publication": "—"
-						}
-					},
-					"chart": {
-						"chart_type": "TIMESERIES",
-						"chart_filters": {
-							"SLICE_BY": [],
-							"precision": 2
-						},
-						"chart_variables": {
-							"parents": [],
-							"operation": "MEAN",
-							"format": {
-								"x": "date",
-								"y": ["myr_sgd"]
-							}
-						}
-					},
-					"translations": {
-						"en": {
-							"x": "Date",
-							"y1": "Exchange Rate (1 MYR)"
-						},
-						"bm": {
-							"x": "Tarikh",
-							"y1": "Kadar Pertukaran (1 MYR)"
-						}
-					}
-				}
-			},
-			{
-				"id": 4,
-				"name": "myr_eur",
-				"title_en": "Exchange Rate vs Euro Area",
-				"title_bm": "Kadar Pertukaran Asing ke Kawasan Euro",
-				"desc_en": "[Float] The rate of exchange (adjusted close) of MYR to EUR",
-				"desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke EUR",
-				"catalog_data": {
-					"catalog_filters": {
-						"frequency": "DAILY",
-						"limit_frequency": false,
-						"geography": ["NATIONAL"],
-						"demography": [],
-						"start": "2003",
-						"end": "2023",
-						"data_source": ["DOSM", "MAMPU"]
-					},
-					"metadata_neutral": {
-						"data_as_of": "2023-11-07 23:59",
-						"last_updated": "2023-11-08 04:00",
-						"next_update": "2023-11-09 04:00"
-					},
-					"metadata_lang": {
-						"en": {
-							"methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-							"caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
-							"publication": "—"
-						},
-						"bm": {
-							"methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-							"caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
-							"publication": "—"
-						}
-					},
-					"chart": {
-						"chart_type": "TIMESERIES",
-						"chart_filters": {
-							"SLICE_BY": [],
-							"precision": 2
-						},
-						"chart_variables": {
-							"parents": [],
-							"operation": "MEAN",
-							"format": {
-								"x": "date",
-								"y": ["myr_eur"]
-							}
-						}
-					},
-					"translations": {
-						"en": {
-							"x": "Date",
-							"y1": "Exchange Rate (1 MYR)"
-						},
-						"bm": {
-							"x": "Tarikh",
-							"y1": "Kadar Pertukaran (1 MYR)"
-						}
-					}
-				}
-			},
-			{
-				"id": 5,
-				"name": "myr_jpy",
-				"title_en": "Exchange Rate vs Japan",
-				"title_bm": "Kadar Pertukaran Asing ke Japan",
-				"desc_en": "[Float] The rate of exchange (adjusted close) of MYR to JPY",
-				"desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke JPY",
-				"catalog_data": {
-					"catalog_filters": {
-						"frequency": "DAILY",
-						"limit_frequency": false,
-						"geography": ["NATIONAL"],
-						"demography": [],
-						"start": "2003",
-						"end": "2023",
-						"data_source": ["DOSM", "MAMPU"]
-					},
-					"metadata_neutral": {
-						"data_as_of": "2023-11-07 23:59",
-						"last_updated": "2023-11-08 04:00",
-						"next_update": "2023-11-09 04:00"
-					},
-					"metadata_lang": {
-						"en": {
-							"methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-							"caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
-							"publication": "—"
-						},
-						"bm": {
-							"methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-							"caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
-							"publication": "—"
-						}
-					},
-					"chart": {
-						"chart_type": "TIMESERIES",
-						"chart_filters": {
-							"SLICE_BY": [],
-							"precision": 2
-						},
-						"chart_variables": {
-							"parents": [],
-							"operation": "MEAN",
-							"format": {
-								"x": "date",
-								"y": ["myr_jpy"]
-							}
-						}
-					},
-					"translations": {
-						"en": {
-							"x": "Date",
-							"y1": "Exchange Rate (1 MYR)"
-						},
-						"bm": {
-							"x": "Tarikh",
-							"y1": "Kadar Pertukaran (1 MYR)"
-						}
-					}
-				}
-			},
-			{
-				"id": 6,
-				"name": "myr_twd",
-				"title_en": "Exchange Rate vs Chinese Taipei",
-				"title_bm": "Kadar Pertukaran Asing ke China Taipei",
-				"desc_en": "[Float] The rate of exchange (adjusted close) of MYR to TWD",
-				"desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke TWD",
-				"catalog_data": {
-					"catalog_filters": {
-						"frequency": "DAILY",
-						"limit_frequency": false,
-						"geography": ["NATIONAL"],
-						"demography": [],
-						"start": "2003",
-						"end": "2023",
-						"data_source": ["DOSM", "MAMPU"]
-					},
-					"metadata_neutral": {
-						"data_as_of": "2023-11-07 23:59",
-						"last_updated": "2023-11-08 04:00",
-						"next_update": "2023-11-09 04:00"
-					},
-					"metadata_lang": {
-						"en": {
-							"methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-							"caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
-							"publication": "—"
-						},
-						"bm": {
-							"methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-							"caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
-							"publication": "—"
-						}
-					},
-					"chart": {
-						"chart_type": "TIMESERIES",
-						"chart_filters": {
-							"SLICE_BY": [],
-							"precision": 2
-						},
-						"chart_variables": {
-							"parents": [],
-							"operation": "MEAN",
-							"format": {
-								"x": "date",
-								"y": ["myr_twd"]
-							}
-						}
-					},
-					"translations": {
-						"en": {
-							"x": "Date",
-							"y1": "Exchange Rate (1 MYR)"
-						},
-						"bm": {
-							"x": "Tarikh",
-							"y1": "Kadar Pertukaran (1 MYR)"
-						}
-					}
-				}
-			},
-			{
-				"id": 7,
-				"name": "myr_thb",
-				"title_en": "Exchange Rate vs Thailand",
-				"title_bm": "Kadar Pertukaran Asing ke Thailand",
-				"desc_en": "[Float] The rate of exchange (adjusted close) of MYR to THB",
-				"desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke THB",
-				"catalog_data": {
-					"catalog_filters": {
-						"frequency": "DAILY",
-						"limit_frequency": false,
-						"geography": ["NATIONAL"],
-						"demography": [],
-						"start": "2003",
-						"end": "2023",
-						"data_source": ["DOSM", "MAMPU"]
-					},
-					"metadata_neutral": {
-						"data_as_of": "2023-11-07 23:59",
-						"last_updated": "2023-11-08 04:00",
-						"next_update": "2023-11-09 04:00"
-					},
-					"metadata_lang": {
-						"en": {
-							"methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-							"caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
-							"publication": "—"
-						},
-						"bm": {
-							"methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-							"caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
-							"publication": "—"
-						}
-					},
-					"chart": {
-						"chart_type": "TIMESERIES",
-						"chart_filters": {
-							"SLICE_BY": [],
-							"precision": 2
-						},
-						"chart_variables": {
-							"parents": [],
-							"operation": "MEAN",
-							"format": {
-								"x": "date",
-								"y": ["myr_thb"]
-							}
-						}
-					},
-					"translations": {
-						"en": {
-							"x": "Date",
-							"y1": "Exchange Rate (1 MYR)"
-						},
-						"bm": {
-							"x": "Tarikh",
-							"y1": "Kadar Pertukaran (1 MYR)"
-						}
-					}
-				}
-			},
-			{
-				"id": 8,
-				"name": "myr_idr",
-				"title_en": "Exchange Rate vs Indonesia",
-				"title_bm": "Kadar Pertukaran Asing ke Indonesia",
-				"desc_en": "[Float] The rate of exchange (adjusted close) of MYR to IDR",
-				"desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke IDR",
-				"catalog_data": {
-					"catalog_filters": {
-						"frequency": "DAILY",
-						"limit_frequency": false,
-						"geography": ["NATIONAL"],
-						"demography": [],
-						"start": "2003",
-						"end": "2023",
-						"data_source": ["DOSM", "MAMPU"]
-					},
-					"metadata_neutral": {
-						"data_as_of": "2023-11-07 23:59",
-						"last_updated": "2023-11-08 04:00",
-						"next_update": "2023-11-09 04:00"
-					},
-					"metadata_lang": {
-						"en": {
-							"methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-							"caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
-							"publication": "—"
-						},
-						"bm": {
-							"methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-							"caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
-							"publication": "—"
-						}
-					},
-					"chart": {
-						"chart_type": "TIMESERIES",
-						"chart_filters": {
-							"SLICE_BY": [],
-							"precision": 2
-						},
-						"chart_variables": {
-							"parents": [],
-							"operation": "MEAN",
-							"format": {
-								"x": "date",
-								"y": ["myr_idr"]
-							}
-						}
-					},
-					"translations": {
-						"en": {
-							"x": "Date",
-							"y1": "Exchange Rate (1 MYR)"
-						},
-						"bm": {
-							"x": "Tarikh",
-							"y1": "Kadar Pertukaran (1 MYR)"
-						}
-					}
-				}
-			},
-			{
-				"id": 9,
-				"name": "myr_hkd",
-				"title_en": "Exchange Rate vs Hong Kong SAR",
-				"title_bm": "Kadar Pertukaran Asing ke Hong Kong SAR",
-				"desc_en": "[Float] The rate of exchange (adjusted close) of MYR to HKD",
-				"desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke HKD",
-				"catalog_data": {
-					"catalog_filters": {
-						"frequency": "DAILY",
-						"limit_frequency": false,
-						"geography": ["NATIONAL"],
-						"demography": [],
-						"start": "2003",
-						"end": "2023",
-						"data_source": ["DOSM", "MAMPU"]
-					},
-					"metadata_neutral": {
-						"data_as_of": "2023-11-07 23:59",
-						"last_updated": "2023-11-08 04:00",
-						"next_update": "2023-11-09 04:00"
-					},
-					"metadata_lang": {
-						"en": {
-							"methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-							"caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
-							"publication": "—"
-						},
-						"bm": {
-							"methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-							"caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
-							"publication": "—"
-						}
-					},
-					"chart": {
-						"chart_type": "TIMESERIES",
-						"chart_filters": {
-							"SLICE_BY": [],
-							"precision": 2
-						},
-						"chart_variables": {
-							"parents": [],
-							"operation": "MEAN",
-							"format": {
-								"x": "date",
-								"y": ["myr_hkd"]
-							}
-						}
-					},
-					"translations": {
-						"en": {
-							"x": "Date",
-							"y1": "Exchange Rate (1 MYR)"
-						},
-						"bm": {
-							"x": "Tarikh",
-							"y1": "Kadar Pertukaran (1 MYR)"
-						}
-					}
-				}
-			},
-			{
-				"id": 10,
-				"name": "myr_krw",
-				"title_en": "Exchange Rate vs South Korea",
-				"title_bm": "Kadar Pertukaran Asing ke Korea Selatan",
-				"desc_en": "[Float] The rate of exchange (adjusted close) of MYR to KRW",
-				"desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke KRW",
-				"catalog_data": {
-					"catalog_filters": {
-						"frequency": "DAILY",
-						"limit_frequency": false,
-						"geography": ["NATIONAL"],
-						"demography": [],
-						"start": "2003",
-						"end": "2023",
-						"data_source": ["DOSM", "MAMPU"]
-					},
-					"metadata_neutral": {
-						"data_as_of": "2023-11-07 23:59",
-						"last_updated": "2023-11-08 04:00",
-						"next_update": "2023-11-09 04:00"
-					},
-					"metadata_lang": {
-						"en": {
-							"methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-							"caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
-							"publication": "—"
-						},
-						"bm": {
-							"methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-							"caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
-							"publication": "—"
-						}
-					},
-					"chart": {
-						"chart_type": "TIMESERIES",
-						"chart_filters": {
-							"SLICE_BY": [],
-							"precision": 2
-						},
-						"chart_variables": {
-							"parents": [],
-							"operation": "MEAN",
-							"format": {
-								"x": "date",
-								"y": ["myr_krw"]
-							}
-						}
-					},
-					"translations": {
-						"en": {
-							"x": "Date",
-							"y1": "Exchange Rate (1 MYR)"
-						},
-						"bm": {
-							"x": "Tarikh",
-							"y1": "Kadar Pertukaran (1 MYR)"
-						}
-					}
-				}
-			},
-			{
-				"id": 11,
-				"name": "myr_vnd",
-				"title_en": "Exchange Rate vs Vietnam",
-				"title_bm": "Kadar Pertukaran Asing ke Vietnam",
-				"desc_en": "[Float] The rate of exchange (adjusted close) of MYR to VND",
-				"desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke VND",
-				"catalog_data": {
-					"catalog_filters": {
-						"frequency": "DAILY",
-						"limit_frequency": false,
-						"geography": ["NATIONAL"],
-						"demography": [],
-						"start": "2003",
-						"end": "2023",
-						"data_source": ["DOSM", "MAMPU"]
-					},
-					"metadata_neutral": {
-						"data_as_of": "2023-11-07 23:59",
-						"last_updated": "2023-11-08 04:00",
-						"next_update": "2023-11-09 04:00"
-					},
-					"metadata_lang": {
-						"en": {
-							"methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-							"caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
-							"publication": "—"
-						},
-						"bm": {
-							"methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-							"caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
-							"publication": "—"
-						}
-					},
-					"chart": {
-						"chart_type": "TIMESERIES",
-						"chart_filters": {
-							"SLICE_BY": [],
-							"precision": 2
-						},
-						"chart_variables": {
-							"parents": [],
-							"operation": "MEAN",
-							"format": {
-								"x": "date",
-								"y": ["myr_vnd"]
-							}
-						}
-					},
-					"translations": {
-						"en": {
-							"x": "Date",
-							"y1": "Exchange Rate (1 MYR)"
-						},
-						"bm": {
-							"x": "Tarikh",
-							"y1": "Kadar Pertukaran (1 MYR)"
-						}
-					}
-				}
-			},
-			{
-				"id": 12,
-				"name": "myr_inr",
-				"title_en": "Exchange Rate vs India",
-				"title_bm": "Kadar Pertukaran Asing ke India",
-				"desc_en": "[Float] The rate of exchange (adjusted close) of MYR to INR",
-				"desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke INR",
-				"catalog_data": {
-					"catalog_filters": {
-						"frequency": "DAILY",
-						"limit_frequency": false,
-						"geography": ["NATIONAL"],
-						"demography": [],
-						"start": "2003",
-						"end": "2023",
-						"data_source": ["DOSM", "MAMPU"]
-					},
-					"metadata_neutral": {
-						"data_as_of": "2023-11-07 23:59",
-						"last_updated": "2023-11-08 04:00",
-						"next_update": "2023-11-09 04:00"
-					},
-					"metadata_lang": {
-						"en": {
-							"methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-							"caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
-							"publication": "—"
-						},
-						"bm": {
-							"methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-							"caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
-							"publication": "—"
-						}
-					},
-					"chart": {
-						"chart_type": "TIMESERIES",
-						"chart_filters": {
-							"SLICE_BY": [],
-							"precision": 2
-						},
-						"chart_variables": {
-							"parents": [],
-							"operation": "MEAN",
-							"format": {
-								"x": "date",
-								"y": ["myr_inr"]
-							}
-						}
-					},
-					"translations": {
-						"en": {
-							"x": "Date",
-							"y1": "Exchange Rate (1 MYR)"
-						},
-						"bm": {
-							"x": "Tarikh",
-							"y1": "Kadar Pertukaran (1 MYR)"
-						}
-					}
-				}
-			},
-			{
-				"id": 13,
-				"name": "myr_aud",
-				"title_en": "Exchange Rate vs Australia",
-				"title_bm": "Kadar Pertukaran Asing ke Australia",
-				"desc_en": "[Float] The rate of exchange (adjusted close) of MYR to AUD",
-				"desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke AUD",
-				"catalog_data": {
-					"catalog_filters": {
-						"frequency": "DAILY",
-						"limit_frequency": false,
-						"geography": ["NATIONAL"],
-						"demography": [],
-						"start": "2003",
-						"end": "2023",
-						"data_source": ["DOSM", "MAMPU"]
-					},
-					"metadata_neutral": {
-						"data_as_of": "2023-11-07 23:59",
-						"last_updated": "2023-11-08 04:00",
-						"next_update": "2023-11-09 04:00"
-					},
-					"metadata_lang": {
-						"en": {
-							"methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-							"caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
-							"publication": "—"
-						},
-						"bm": {
-							"methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-							"caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
-							"publication": "—"
-						}
-					},
-					"chart": {
-						"chart_type": "TIMESERIES",
-						"chart_filters": {
-							"SLICE_BY": [],
-							"precision": 2
-						},
-						"chart_variables": {
-							"parents": [],
-							"operation": "MEAN",
-							"format": {
-								"x": "date",
-								"y": ["myr_aud"]
-							}
-						}
-					},
-					"translations": {
-						"en": {
-							"x": "Date",
-							"y1": "Exchange Rate (1 MYR)"
-						},
-						"bm": {
-							"x": "Tarikh",
-							"y1": "Kadar Pertukaran (1 MYR)"
-						}
-					}
-				}
-			},
-			{
-				"id": 14,
-				"name": "myr_php",
-				"title_en": "Exchange Rate vs Philippines",
-				"title_bm": "Kadar Pertukaran Asing ke Filipina",
-				"desc_en": "[Float] The rate of exchange (adjusted close) of MYR to PHP",
-				"desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke PHP",
-				"catalog_data": {
-					"catalog_filters": {
-						"frequency": "DAILY",
-						"limit_frequency": false,
-						"geography": ["NATIONAL"],
-						"demography": [],
-						"start": "2003",
-						"end": "2023",
-						"data_source": ["DOSM", "MAMPU"]
-					},
-					"metadata_neutral": {
-						"data_as_of": "2023-11-07 23:59",
-						"last_updated": "2023-11-08 04:00",
-						"next_update": "2023-11-09 04:00"
-					},
-					"metadata_lang": {
-						"en": {
-							"methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-							"caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
-							"publication": "—"
-						},
-						"bm": {
-							"methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-							"caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
-							"publication": "—"
-						}
-					},
-					"chart": {
-						"chart_type": "TIMESERIES",
-						"chart_filters": {
-							"SLICE_BY": [],
-							"precision": 2
-						},
-						"chart_variables": {
-							"parents": [],
-							"operation": "MEAN",
-							"format": {
-								"x": "date",
-								"y": ["myr_php"]
-							}
-						}
-					},
-					"translations": {
-						"en": {
-							"x": "Date",
-							"y1": "Exchange Rate (1 MYR)"
-						},
-						"bm": {
-							"x": "Tarikh",
-							"y1": "Kadar Pertukaran (1 MYR)"
-						}
-					}
-				}
-			},
-			{
-				"id": 15,
-				"name": "myr_aed",
-				"title_en": "Exchange Rate vs UAE",
-				"title_bm": "Kadar Pertukaran Asing ke Emiriah Arab Bersatu",
-				"desc_en": "[Float] The rate of exchange (adjusted close) of MYR to AED",
-				"desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke AED",
-				"catalog_data": {
-					"catalog_filters": {
-						"frequency": "DAILY",
-						"limit_frequency": false,
-						"geography": ["NATIONAL"],
-						"demography": [],
-						"start": "2003",
-						"end": "2023",
-						"data_source": ["DOSM", "MAMPU"]
-					},
-					"metadata_neutral": {
-						"data_as_of": "2023-11-07 23:59",
-						"last_updated": "2023-11-08 04:00",
-						"next_update": "2023-11-09 04:00"
-					},
-					"metadata_lang": {
-						"en": {
-							"methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-							"caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
-							"publication": "—"
-						},
-						"bm": {
-							"methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-							"caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
-							"publication": "—"
-						}
-					},
-					"chart": {
-						"chart_type": "TIMESERIES",
-						"chart_filters": {
-							"SLICE_BY": [],
-							"precision": 2
-						},
-						"chart_variables": {
-							"parents": [],
-							"operation": "MEAN",
-							"format": {
-								"x": "date",
-								"y": ["myr_aed"]
-							}
-						}
-					},
-					"translations": {
-						"en": {
-							"x": "Date",
-							"y1": "Exchange Rate (1 MYR)"
-						},
-						"bm": {
-							"x": "Tarikh",
-							"y1": "Kadar Pertukaran (1 MYR)"
-						}
-					}
-				}
-			},
-			{
-				"id": 16,
-				"name": "myr_sar",
-				"title_en": "Exchange Rate vs Saudi Arabia",
-				"title_bm": "Kadar Pertukaran Asing ke Arab Saudi",
-				"desc_en": "[Float] The rate of exchange (adjusted close) of MYR to SAR",
-				"desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke SAR",
-				"catalog_data": {
-					"catalog_filters": {
-						"frequency": "DAILY",
-						"limit_frequency": false,
-						"geography": ["NATIONAL"],
-						"demography": [],
-						"start": "2003",
-						"end": "2023",
-						"data_source": ["DOSM", "MAMPU"]
-					},
-					"metadata_neutral": {
-						"data_as_of": "2023-11-07 23:59",
-						"last_updated": "2023-11-08 04:00",
-						"next_update": "2023-11-09 04:00"
-					},
-					"metadata_lang": {
-						"en": {
-							"methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-							"caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
-							"publication": "—"
-						},
-						"bm": {
-							"methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-							"caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
-							"publication": "—"
-						}
-					},
-					"chart": {
-						"chart_type": "TIMESERIES",
-						"chart_filters": {
-							"SLICE_BY": [],
-							"precision": 2
-						},
-						"chart_variables": {
-							"parents": [],
-							"operation": "MEAN",
-							"format": {
-								"x": "date",
-								"y": ["myr_sar"]
-							}
-						}
-					},
-					"translations": {
-						"en": {
-							"x": "Date",
-							"y1": "Exchange Rate (1 MYR)"
-						},
-						"bm": {
-							"x": "Tarikh",
-							"y1": "Kadar Pertukaran (1 MYR)"
-						}
-					}
-				}
-			},
-			{
-				"id": 17,
-				"name": "myr_try",
-				"title_en": "Exchange Rate vs Turkey",
-				"title_bm": "Kadar Pertukaran Asing ke Turki",
-				"desc_en": "[Float] The rate of exchange (adjusted close) of MYR to TRY",
-				"desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke TRY",
-				"catalog_data": {
-					"catalog_filters": {
-						"frequency": "DAILY",
-						"limit_frequency": false,
-						"geography": ["NATIONAL"],
-						"demography": [],
-						"start": "2003",
-						"end": "2023",
-						"data_source": ["DOSM", "MAMPU"]
-					},
-					"metadata_neutral": {
-						"data_as_of": "2023-11-07 23:59",
-						"last_updated": "2023-11-08 04:00",
-						"next_update": "2023-11-09 04:00"
-					},
-					"metadata_lang": {
-						"en": {
-							"methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-							"caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
-							"publication": "—"
-						},
-						"bm": {
-							"methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-							"caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
-							"publication": "—"
-						}
-					},
-					"chart": {
-						"chart_type": "TIMESERIES",
-						"chart_filters": {
-							"SLICE_BY": [],
-							"precision": 2
-						},
-						"chart_variables": {
-							"parents": [],
-							"operation": "MEAN",
-							"format": {
-								"x": "date",
-								"y": ["myr_try"]
-							}
-						}
-					},
-					"translations": {
-						"en": {
-							"x": "Date",
-							"y1": "Exchange Rate (1 MYR)"
-						},
-						"bm": {
-							"x": "Tarikh",
-							"y1": "Kadar Pertukaran (1 MYR)"
-						}
-					}
-				}
-			},
-			{
-				"id": 18,
-				"name": "myr_gbp",
-				"title_en": "Exchange Rate vs UK",
-				"title_bm": "Kadar Pertukaran Asing ke UK",
-				"desc_en": "[Float] The rate of exchange (adjusted close) of MYR to GBP",
-				"desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke GBP",
-				"catalog_data": {
-					"catalog_filters": {
-						"frequency": "DAILY",
-						"limit_frequency": false,
-						"geography": ["NATIONAL"],
-						"demography": [],
-						"start": "2003",
-						"end": "2023",
-						"data_source": ["DOSM", "MAMPU"]
-					},
-					"metadata_neutral": {
-						"data_as_of": "2023-11-07 23:59",
-						"last_updated": "2023-11-08 04:00",
-						"next_update": "2023-11-09 04:00"
-					},
-					"metadata_lang": {
-						"en": {
-							"methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-							"caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
-							"publication": "—"
-						},
-						"bm": {
-							"methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-							"caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
-							"publication": "—"
-						}
-					},
-					"chart": {
-						"chart_type": "TIMESERIES",
-						"chart_filters": {
-							"SLICE_BY": [],
-							"precision": 2
-						},
-						"chart_variables": {
-							"parents": [],
-							"operation": "MEAN",
-							"format": {
-								"x": "date",
-								"y": ["myr_gbp"]
-							}
-						}
-					},
-					"translations": {
-						"en": {
-							"x": "Date",
-							"y1": "Exchange Rate (1 MYR)"
-						},
-						"bm": {
-							"x": "Tarikh",
-							"y1": "Kadar Pertukaran (1 MYR)"
-						}
-					}
-				}
-			},
-			{
-				"id": 19,
-				"name": "myr_brl",
-				"title_en": "Exchange Rate vs Brazil",
-				"title_bm": "Kadar Pertukaran Asing ke Brazil",
-				"desc_en": "[Float] The rate of exchange (adjusted close) of MYR to BRL",
-				"desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke BRL",
-				"catalog_data": {
-					"catalog_filters": {
-						"frequency": "DAILY",
-						"limit_frequency": false,
-						"geography": ["NATIONAL"],
-						"demography": [],
-						"start": "2003",
-						"end": "2023",
-						"data_source": ["DOSM", "MAMPU"]
-					},
-					"metadata_neutral": {
-						"data_as_of": "2023-11-07 23:59",
-						"last_updated": "2023-11-08 04:00",
-						"next_update": "2023-11-09 04:00"
-					},
-					"metadata_lang": {
-						"en": {
-							"methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-							"caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
-							"publication": "—"
-						},
-						"bm": {
-							"methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-							"caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
-							"publication": "—"
-						}
-					},
-					"chart": {
-						"chart_type": "TIMESERIES",
-						"chart_filters": {
-							"SLICE_BY": [],
-							"precision": 2
-						},
-						"chart_variables": {
-							"parents": [],
-							"operation": "MEAN",
-							"format": {
-								"x": "date",
-								"y": ["myr_brl"]
-							}
-						}
-					},
-					"translations": {
-						"en": {
-							"x": "Date",
-							"y1": "Exchange Rate (1 MYR)"
-						},
-						"bm": {
-							"x": "Tarikh",
-							"y1": "Kadar Pertukaran (1 MYR)"
-						}
-					}
-				}
-			},
-			{
-				"id": 20,
-				"name": "myr_mxn",
-				"title_en": "Exchange Rate vs Mexico",
-				"title_bm": "Kadar Pertukaran Asing ke Mexico",
-				"desc_en": "[Float] The rate of exchange (adjusted close) of MYR to MXN",
-				"desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke MXN",
-				"catalog_data": {
-					"catalog_filters": {
-						"frequency": "DAILY",
-						"limit_frequency": false,
-						"geography": ["NATIONAL"],
-						"demography": [],
-						"start": "2003",
-						"end": "2023",
-						"data_source": ["DOSM", "MAMPU"]
-					},
-					"metadata_neutral": {
-						"data_as_of": "2023-11-07 23:59",
-						"last_updated": "2023-11-08 04:00",
-						"next_update": "2023-11-09 04:00"
-					},
-					"metadata_lang": {
-						"en": {
-							"methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-							"caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
-							"publication": "—"
-						},
-						"bm": {
-							"methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-							"caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
-							"publication": "—"
-						}
-					},
-					"chart": {
-						"chart_type": "TIMESERIES",
-						"chart_filters": {
-							"SLICE_BY": [],
-							"precision": 2
-						},
-						"chart_variables": {
-							"parents": [],
-							"operation": "MEAN",
-							"format": {
-								"x": "date",
-								"y": ["myr_mxn"]
-							}
-						}
-					},
-					"translations": {
-						"en": {
-							"x": "Date",
-							"y1": "Exchange Rate (1 MYR)"
-						},
-						"bm": {
-							"x": "Tarikh",
-							"y1": "Kadar Pertukaran (1 MYR)"
-						}
-					}
-				}
-			},
-			{
-				"id": 21,
-				"name": "myr_bdt",
-				"title_en": "Exchange Rate vs Bangladesh",
-				"title_bm": "Kadar Pertukaran Asing ke Bangladesh",
-				"desc_en": "[Float] The rate of exchange (adjusted close) of MYR to BDT",
-				"desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke BDT",
-				"catalog_data": {
-					"catalog_filters": {
-						"frequency": "DAILY",
-						"limit_frequency": false,
-						"geography": ["NATIONAL"],
-						"demography": [],
-						"start": "2003",
-						"end": "2023",
-						"data_source": ["DOSM", "MAMPU"]
-					},
-					"metadata_neutral": {
-						"data_as_of": "2023-11-07 23:59",
-						"last_updated": "2023-11-08 04:00",
-						"next_update": "2023-11-09 04:00"
-					},
-					"metadata_lang": {
-						"en": {
-							"methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-							"caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
-							"publication": "—"
-						},
-						"bm": {
-							"methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-							"caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
-							"publication": "—"
-						}
-					},
-					"chart": {
-						"chart_type": "TIMESERIES",
-						"chart_filters": {
-							"SLICE_BY": [],
-							"precision": 2
-						},
-						"chart_variables": {
-							"parents": [],
-							"operation": "MEAN",
-							"format": {
-								"x": "date",
-								"y": ["myr_bdt"]
-							}
-						}
-					},
-					"translations": {
-						"en": {
-							"x": "Date",
-							"y1": "Exchange Rate (1 MYR)"
-						},
-						"bm": {
-							"x": "Tarikh",
-							"y1": "Kadar Pertukaran (1 MYR)"
-						}
-					}
-				}
-			},
-			{
-				"id": 22,
-				"name": "myr_chf",
-				"title_en": "Exchange Rate vs Switzerland",
-				"title_bm": "Kadar Pertukaran Asing ke Switzerland",
-				"desc_en": "[Float] The rate of exchange (adjusted close) of MYR to CHF",
-				"desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke CHF",
-				"catalog_data": {
-					"catalog_filters": {
-						"frequency": "DAILY",
-						"limit_frequency": false,
-						"geography": ["NATIONAL"],
-						"demography": [],
-						"start": "2003",
-						"end": "2023",
-						"data_source": ["DOSM", "MAMPU"]
-					},
-					"metadata_neutral": {
-						"data_as_of": "2023-11-07 23:59",
-						"last_updated": "2023-11-08 04:00",
-						"next_update": "2023-11-09 04:00"
-					},
-					"metadata_lang": {
-						"en": {
-							"methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-							"caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
-							"publication": "—"
-						},
-						"bm": {
-							"methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-							"caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
-							"publication": "—"
-						}
-					},
-					"chart": {
-						"chart_type": "TIMESERIES",
-						"chart_filters": {
-							"SLICE_BY": [],
-							"precision": 2
-						},
-						"chart_variables": {
-							"parents": [],
-							"operation": "MEAN",
-							"format": {
-								"x": "date",
-								"y": ["myr_chf"]
-							}
-						}
-					},
-					"translations": {
-						"en": {
-							"x": "Date",
-							"y1": "Exchange Rate (1 MYR)"
-						},
-						"bm": {
-							"x": "Tarikh",
-							"y1": "Kadar Pertukaran (1 MYR)"
-						}
-					}
-				}
-			},
-			{
-				"id": 23,
-				"name": "myr_cad",
-				"title_en": "Exchange Rate vs Canada",
-				"title_bm": "Kadar Pertukaran Asing ke Kanada",
-				"desc_en": "[Float] The rate of exchange (adjusted close) of MYR to CAD",
-				"desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke CAD",
-				"catalog_data": {
-					"catalog_filters": {
-						"frequency": "DAILY",
-						"limit_frequency": false,
-						"geography": ["NATIONAL"],
-						"demography": [],
-						"start": "2003",
-						"end": "2023",
-						"data_source": ["DOSM", "MAMPU"]
-					},
-					"metadata_neutral": {
-						"data_as_of": "2023-11-07 23:59",
-						"last_updated": "2023-11-08 04:00",
-						"next_update": "2023-11-09 04:00"
-					},
-					"metadata_lang": {
-						"en": {
-							"methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-							"caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
-							"publication": "—"
-						},
-						"bm": {
-							"methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-							"caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
-							"publication": "—"
-						}
-					},
-					"chart": {
-						"chart_type": "TIMESERIES",
-						"chart_filters": {
-							"SLICE_BY": [],
-							"precision": 2
-						},
-						"chart_variables": {
-							"parents": [],
-							"operation": "MEAN",
-							"format": {
-								"x": "date",
-								"y": ["myr_cad"]
-							}
-						}
-					},
-					"translations": {
-						"en": {
-							"x": "Date",
-							"y1": "Exchange Rate (1 MYR)"
-						},
-						"bm": {
-							"x": "Tarikh",
-							"y1": "Kadar Pertukaran (1 MYR)"
-						}
-					}
-				}
-			},
-			{
-				"id": 24,
-				"name": "myr_rub",
-				"title_en": "Exchange Rate vs Russia",
-				"title_bm": "Kadar Pertukaran Asing ke Rusia",
-				"desc_en": "[Float] The rate of exchange (adjusted close) of MYR to RUB",
-				"desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke RUB",
-				"catalog_data": {
-					"catalog_filters": {
-						"frequency": "DAILY",
-						"limit_frequency": false,
-						"geography": ["NATIONAL"],
-						"demography": [],
-						"start": "2003",
-						"end": "2023",
-						"data_source": ["DOSM", "MAMPU"]
-					},
-					"metadata_neutral": {
-						"data_as_of": "2023-11-07 23:59",
-						"last_updated": "2023-11-08 04:00",
-						"next_update": "2023-11-09 04:00"
-					},
-					"metadata_lang": {
-						"en": {
-							"methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-							"caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
-							"publication": "—"
-						},
-						"bm": {
-							"methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-							"caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
-							"publication": "—"
-						}
-					},
-					"chart": {
-						"chart_type": "TIMESERIES",
-						"chart_filters": {
-							"SLICE_BY": [],
-							"precision": 2
-						},
-						"chart_variables": {
-							"parents": [],
-							"operation": "MEAN",
-							"format": {
-								"x": "date",
-								"y": ["myr_rub"]
-							}
-						}
-					},
-					"translations": {
-						"en": {
-							"x": "Date",
-							"y1": "Exchange Rate (1 MYR)"
-						},
-						"bm": {
-							"x": "Tarikh",
-							"y1": "Kadar Pertukaran (1 MYR)"
-						}
-					}
-				}
-			}
-		]
-	}
+    "file": {
+        "manual_trigger": "2023-11-10 03:25:46.799656",
+        "exclude_openapi": false,
+        "bucket": "finsector",
+        "file_name": "exchangerates",
+        "category": "FINSECTOR",
+        "category_en": "Financial Sector",
+        "category_bm": "Sektor Kewangan",
+        "subcategory": "EXCHANGE",
+        "subcategory_en": "Exchange Rates",
+        "subcategory_bm": "Kadar Pertukaran Mata Wang",
+        "category_opendosm": "EXTERNAL",
+        "category_opendosm_en": "External Trade",
+        "category_opendosm_bm": "Perdagangan Luar",
+        "subcategory_opendosm": "EXCHANGE",
+        "subcategory_opendosm_en": "Exchange Rates",
+        "subcategory_opendosm_bm": "Kadar Pertukaran Mata Wang",
+        "description": {
+            "en": "A dataset containing the rates of exchange of the Malaysian Ringgit vis-à-vis major trading partners.",
+            "bm": "Dataset yang mengandungi kadar pertukaran ringgit Malaysia berbanding rakan dagang utama."
+        },
+        "link_parquet": "https://storage.data.gov.my/finsector/exchangerates.parquet",
+        "link_csv": "https://storage.data.gov.my/finsector/exchangerates.csv",
+        "link_preview": "https://storage.data.gov.my/finsector/exchangerates.parquet",
+        "variables": [
+            {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] The date in YYYY-MM-DD format",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+            },
+            {
+                "id": 1,
+                "name": "myr_usd",
+                "title_en": "Exchange Rate vs USA",
+                "title_bm": "Kadar Pertukaran Asing ke AS",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to USD",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke USD",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2003",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM",
+                            "MAMPU"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-11-09 23:59",
+                        "last_updated": "2023-11-10 04:00",
+                        "next_update": "2023-11-11 04:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
+                            "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                            "publication": "—"
+                        },
+                        "bm": {
+                            "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
+                            "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                            "publication": "—"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 2
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "myr_usd"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 2,
+                "name": "myr_rmb",
+                "title_en": "Exchange Rate vs China",
+                "title_bm": "Kadar Pertukaran Asing ke China",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to RMB",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke RMB",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2003",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM",
+                            "MAMPU"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-11-09 23:59",
+                        "last_updated": "2023-11-10 04:00",
+                        "next_update": "2023-11-11 04:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
+                            "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                            "publication": "—"
+                        },
+                        "bm": {
+                            "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
+                            "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                            "publication": "—"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 2
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "myr_rmb"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 3,
+                "name": "myr_sgd",
+                "title_en": "Exchange Rate vs Singapore",
+                "title_bm": "Kadar Pertukaran Asing ke Singapura",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to SGD",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke SGD",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2003",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM",
+                            "MAMPU"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-11-09 23:59",
+                        "last_updated": "2023-11-10 04:00",
+                        "next_update": "2023-11-11 04:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
+                            "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                            "publication": "—"
+                        },
+                        "bm": {
+                            "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
+                            "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                            "publication": "—"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 2
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "myr_sgd"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 4,
+                "name": "myr_eur",
+                "title_en": "Exchange Rate vs Euro Area",
+                "title_bm": "Kadar Pertukaran Asing ke Kawasan Euro",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to EUR",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke EUR",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2003",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM",
+                            "MAMPU"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-11-09 23:59",
+                        "last_updated": "2023-11-10 04:00",
+                        "next_update": "2023-11-11 04:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
+                            "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                            "publication": "—"
+                        },
+                        "bm": {
+                            "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
+                            "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                            "publication": "—"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 2
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "myr_eur"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 5,
+                "name": "myr_jpy",
+                "title_en": "Exchange Rate vs Japan",
+                "title_bm": "Kadar Pertukaran Asing ke Japan",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to JPY",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke JPY",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2003",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM",
+                            "MAMPU"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-11-09 23:59",
+                        "last_updated": "2023-11-10 04:00",
+                        "next_update": "2023-11-11 04:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
+                            "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                            "publication": "—"
+                        },
+                        "bm": {
+                            "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
+                            "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                            "publication": "—"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 2
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "myr_jpy"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 6,
+                "name": "myr_twd",
+                "title_en": "Exchange Rate vs Chinese Taipei",
+                "title_bm": "Kadar Pertukaran Asing ke China Taipei",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to TWD",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke TWD",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2003",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM",
+                            "MAMPU"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-11-09 23:59",
+                        "last_updated": "2023-11-10 04:00",
+                        "next_update": "2023-11-11 04:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
+                            "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                            "publication": "—"
+                        },
+                        "bm": {
+                            "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
+                            "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                            "publication": "—"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 2
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "myr_twd"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 7,
+                "name": "myr_thb",
+                "title_en": "Exchange Rate vs Thailand",
+                "title_bm": "Kadar Pertukaran Asing ke Thailand",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to THB",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke THB",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2003",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM",
+                            "MAMPU"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-11-09 23:59",
+                        "last_updated": "2023-11-10 04:00",
+                        "next_update": "2023-11-11 04:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
+                            "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                            "publication": "—"
+                        },
+                        "bm": {
+                            "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
+                            "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                            "publication": "—"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 2
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "myr_thb"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 8,
+                "name": "myr_idr",
+                "title_en": "Exchange Rate vs Indonesia",
+                "title_bm": "Kadar Pertukaran Asing ke Indonesia",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to IDR",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke IDR",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2003",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM",
+                            "MAMPU"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-11-09 23:59",
+                        "last_updated": "2023-11-10 04:00",
+                        "next_update": "2023-11-11 04:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
+                            "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                            "publication": "—"
+                        },
+                        "bm": {
+                            "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
+                            "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                            "publication": "—"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 2
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "myr_idr"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 9,
+                "name": "myr_hkd",
+                "title_en": "Exchange Rate vs Hong Kong SAR",
+                "title_bm": "Kadar Pertukaran Asing ke Hong Kong SAR",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to HKD",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke HKD",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2003",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM",
+                            "MAMPU"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-11-09 23:59",
+                        "last_updated": "2023-11-10 04:00",
+                        "next_update": "2023-11-11 04:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
+                            "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                            "publication": "—"
+                        },
+                        "bm": {
+                            "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
+                            "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                            "publication": "—"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 2
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "myr_hkd"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 10,
+                "name": "myr_krw",
+                "title_en": "Exchange Rate vs South Korea",
+                "title_bm": "Kadar Pertukaran Asing ke Korea Selatan",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to KRW",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke KRW",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2003",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM",
+                            "MAMPU"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-11-09 23:59",
+                        "last_updated": "2023-11-10 04:00",
+                        "next_update": "2023-11-11 04:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
+                            "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                            "publication": "—"
+                        },
+                        "bm": {
+                            "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
+                            "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                            "publication": "—"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 2
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "myr_krw"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 11,
+                "name": "myr_vnd",
+                "title_en": "Exchange Rate vs Vietnam",
+                "title_bm": "Kadar Pertukaran Asing ke Vietnam",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to VND",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke VND",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2003",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM",
+                            "MAMPU"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-11-09 23:59",
+                        "last_updated": "2023-11-10 04:00",
+                        "next_update": "2023-11-11 04:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
+                            "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                            "publication": "—"
+                        },
+                        "bm": {
+                            "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
+                            "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                            "publication": "—"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 2
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "myr_vnd"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 12,
+                "name": "myr_inr",
+                "title_en": "Exchange Rate vs India",
+                "title_bm": "Kadar Pertukaran Asing ke India",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to INR",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke INR",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2003",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM",
+                            "MAMPU"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-11-09 23:59",
+                        "last_updated": "2023-11-10 04:00",
+                        "next_update": "2023-11-11 04:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
+                            "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                            "publication": "—"
+                        },
+                        "bm": {
+                            "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
+                            "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                            "publication": "—"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 2
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "myr_inr"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 13,
+                "name": "myr_aud",
+                "title_en": "Exchange Rate vs Australia",
+                "title_bm": "Kadar Pertukaran Asing ke Australia",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to AUD",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke AUD",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2003",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM",
+                            "MAMPU"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-11-09 23:59",
+                        "last_updated": "2023-11-10 04:00",
+                        "next_update": "2023-11-11 04:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
+                            "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                            "publication": "—"
+                        },
+                        "bm": {
+                            "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
+                            "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                            "publication": "—"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 2
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "myr_aud"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 14,
+                "name": "myr_php",
+                "title_en": "Exchange Rate vs Philippines",
+                "title_bm": "Kadar Pertukaran Asing ke Filipina",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to PHP",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke PHP",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2003",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM",
+                            "MAMPU"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-11-09 23:59",
+                        "last_updated": "2023-11-10 04:00",
+                        "next_update": "2023-11-11 04:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
+                            "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                            "publication": "—"
+                        },
+                        "bm": {
+                            "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
+                            "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                            "publication": "—"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 2
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "myr_php"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 15,
+                "name": "myr_aed",
+                "title_en": "Exchange Rate vs UAE",
+                "title_bm": "Kadar Pertukaran Asing ke Emiriah Arab Bersatu",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to AED",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke AED",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2003",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM",
+                            "MAMPU"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-11-09 23:59",
+                        "last_updated": "2023-11-10 04:00",
+                        "next_update": "2023-11-11 04:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
+                            "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                            "publication": "—"
+                        },
+                        "bm": {
+                            "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
+                            "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                            "publication": "—"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 2
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "myr_aed"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 16,
+                "name": "myr_sar",
+                "title_en": "Exchange Rate vs Saudi Arabia",
+                "title_bm": "Kadar Pertukaran Asing ke Arab Saudi",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to SAR",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke SAR",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2003",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM",
+                            "MAMPU"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-11-09 23:59",
+                        "last_updated": "2023-11-10 04:00",
+                        "next_update": "2023-11-11 04:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
+                            "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                            "publication": "—"
+                        },
+                        "bm": {
+                            "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
+                            "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                            "publication": "—"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 2
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "myr_sar"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 17,
+                "name": "myr_try",
+                "title_en": "Exchange Rate vs Turkey",
+                "title_bm": "Kadar Pertukaran Asing ke Turki",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to TRY",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke TRY",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2003",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM",
+                            "MAMPU"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-11-09 23:59",
+                        "last_updated": "2023-11-10 04:00",
+                        "next_update": "2023-11-11 04:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
+                            "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                            "publication": "—"
+                        },
+                        "bm": {
+                            "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
+                            "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                            "publication": "—"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 2
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "myr_try"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 18,
+                "name": "myr_gbp",
+                "title_en": "Exchange Rate vs UK",
+                "title_bm": "Kadar Pertukaran Asing ke UK",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to GBP",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke GBP",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2003",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM",
+                            "MAMPU"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-11-09 23:59",
+                        "last_updated": "2023-11-10 04:00",
+                        "next_update": "2023-11-11 04:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
+                            "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                            "publication": "—"
+                        },
+                        "bm": {
+                            "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
+                            "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                            "publication": "—"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 2
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "myr_gbp"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 19,
+                "name": "myr_brl",
+                "title_en": "Exchange Rate vs Brazil",
+                "title_bm": "Kadar Pertukaran Asing ke Brazil",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to BRL",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke BRL",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2003",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM",
+                            "MAMPU"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-11-09 23:59",
+                        "last_updated": "2023-11-10 04:00",
+                        "next_update": "2023-11-11 04:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
+                            "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                            "publication": "—"
+                        },
+                        "bm": {
+                            "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
+                            "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                            "publication": "—"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 2
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "myr_brl"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 20,
+                "name": "myr_mxn",
+                "title_en": "Exchange Rate vs Mexico",
+                "title_bm": "Kadar Pertukaran Asing ke Mexico",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to MXN",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke MXN",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2003",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM",
+                            "MAMPU"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-11-09 23:59",
+                        "last_updated": "2023-11-10 04:00",
+                        "next_update": "2023-11-11 04:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
+                            "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                            "publication": "—"
+                        },
+                        "bm": {
+                            "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
+                            "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                            "publication": "—"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 2
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "myr_mxn"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 21,
+                "name": "myr_bdt",
+                "title_en": "Exchange Rate vs Bangladesh",
+                "title_bm": "Kadar Pertukaran Asing ke Bangladesh",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to BDT",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke BDT",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2003",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM",
+                            "MAMPU"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-11-09 23:59",
+                        "last_updated": "2023-11-10 04:00",
+                        "next_update": "2023-11-11 04:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
+                            "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                            "publication": "—"
+                        },
+                        "bm": {
+                            "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
+                            "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                            "publication": "—"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 2
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "myr_bdt"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 22,
+                "name": "myr_chf",
+                "title_en": "Exchange Rate vs Switzerland",
+                "title_bm": "Kadar Pertukaran Asing ke Switzerland",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to CHF",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke CHF",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2003",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM",
+                            "MAMPU"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-11-09 23:59",
+                        "last_updated": "2023-11-10 04:00",
+                        "next_update": "2023-11-11 04:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
+                            "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                            "publication": "—"
+                        },
+                        "bm": {
+                            "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
+                            "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                            "publication": "—"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 2
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "myr_chf"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 23,
+                "name": "myr_cad",
+                "title_en": "Exchange Rate vs Canada",
+                "title_bm": "Kadar Pertukaran Asing ke Kanada",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to CAD",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke CAD",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2003",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM",
+                            "MAMPU"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-11-09 23:59",
+                        "last_updated": "2023-11-10 04:00",
+                        "next_update": "2023-11-11 04:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
+                            "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                            "publication": "—"
+                        },
+                        "bm": {
+                            "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
+                            "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                            "publication": "—"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 2
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "myr_cad"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 24,
+                "name": "myr_rub",
+                "title_en": "Exchange Rate vs Russia",
+                "title_bm": "Kadar Pertukaran Asing ke Rusia",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to RUB",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke RUB",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "limit_frequency": false,
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2003",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM",
+                            "MAMPU"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-11-09 23:59",
+                        "last_updated": "2023-11-10 04:00",
+                        "next_update": "2023-11-11 04:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
+                            "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                            "publication": "—"
+                        },
+                        "bm": {
+                            "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
+                            "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                            "publication": "—"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TIMESERIES",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 2
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "operation": "MEAN",
+                            "format": {
+                                "x": "date",
+                                "y": [
+                                    "myr_rub"
+                                ]
+                            }
+                        }
+                    },
+                    "translations": {
+                        "en": {
+                            "x": "Date",
+                            "y1": "Exchange Rate (1 MYR)"
+                        },
+                        "bm": {
+                            "x": "Tarikh",
+                            "y1": "Kadar Pertukaran (1 MYR)"
+                        }
+                    }
+                }
+            }
+        ]
+    }
 }
