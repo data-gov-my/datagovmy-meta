@@ -75,7 +75,7 @@
         "heatmap": "Heatmap",
         "table": "Table"
       },
-      "banner": "Hello everyone, _archieve.data.gov.my_ is no longer in use. Lorem ipsum dsada jdsdnald asdald. To ensure longetivity, please do this and that and yada yada. This is a placeholder message for our banner. Stay tune for more update"
+      "banner": "We made a major change to our data catalogue - it now serves _datasets_ rather than _data series_ (check it out!). We also made major improvements to the content of each catalogue item. To enable this upgrade, we revised the _permalinks_ and _Open API endpoints_ for several datasets, which will break data pipelines relying on the old URLs. If you notice pipeline failures, please ensure you are using the newest URL. To the best of our ability, we will ensure there are no such breaking change to the data catalogue in future - this is intended to be the stable and scalable version."
     },
     "time": {
       "daily_7d": "Daily (7d avg)",

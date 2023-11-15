@@ -73,7 +73,7 @@
         "heatmap": "Peta",
         "table": "Jadual"
       },
-      "banner": "Hi semua, _archieve.data.gov.my_ tidak lagi digunakan. Lorem ipsum dsada jdsdnald asdald. Untuk memastikan kelangsungan hayat, anda diminta untuk buat itu ini dan yada yada. Ini adalah placeholder message banner kami. Nanti update dari kami."
+      "banner": "Kami telah membuat perubahan yang besar kepada katalog data, daripada membekalkan _siri data_ kepada _set data_. Kami juga telah meningkatkan kualiti kandungan bagi setiap item di katalog data. Bagi membolehkan perubahan ini, kami telah menyemak semula _permalink_ serta _endpoint Open API_ bagi beberapa set data. Perubahan ini akan menyebabkan kegagalan saluran data yang menggunakan URL lama. Sekiranya saluran data anda terkesan oleh perubahan ini, sila pastikan anda menggunakan URL yang terkini. Pihak kami akan berusaha sedaya upaya untuk memastikan tiada perubahan sebegini pada masa hadapan."
     },
     "time": {
       "daily_7d": "Purata 7 hari",
