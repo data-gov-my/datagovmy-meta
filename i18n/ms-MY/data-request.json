@@ -1,0 +1,46 @@
+{
+  "route": "/ms-MY/data-request",
+  "sites": ["datagovmy"],
+  "translation": {
+    "header": "Beritahu kami apa yang anda perlukan",
+    "description_line1": "Kerja kami tidak pernah selesai, dan kami mahu arah tuju kami dibimbing oleh pengguna kami.",
+    "description_line2": "Gunakan halaman ini untuk meminta data dan mendapatkan kemas kini yang telus pada tiket anda!",
+    "request_data": "Mohon data",
+    "data_request_tickets": "Tiket Permohonan data",
+    "search_query_placeholder": "Adakah permintaan anda telah dibuat sebelum ini?",
+    "status": {
+      "all": "Semua Tiket",
+      "under_review": "Dalam Semakan",
+      "in_progress": "Sedang Diuruskan",
+      "published": "Data Diterbitkan",
+      "rejected": "Ditolak"
+    },
+    "table": {
+      "status": "Status",
+      "title": "Tajuk dataset",
+      "description": "Penerangan dataset",
+      "data_owner": "Pemilik data"
+    },
+    "request_modal": {
+      "title": "Mohon data",
+      "subtitle": "Isi borang dibawah ini:",
+      "success_title": "Permohonan anda telah berjaya dihantar untuk semakan!",
+      "success_description": "Anda boleh terus menyemak tiket permohonan data anda untuk kemas kini terkini."
+    },
+    "success_modal": {
+      "title": "Data yang anda mohon kini tersedia secara langsung!",
+      "subtitle": "Semak entri katalog data berikut:"
+    },
+    "forms": {
+      "name": "Nama",
+      "email": "Emel",
+      "institution": "Institusi (pilihan)",
+      "dataset_title": "Tajuk dataset",
+      "dataset_description": "Penerangan dataset",
+      "dataset_description_placeholder": "Terangkan mengenai dataset ini",
+      "agency": "Agensi",
+      "purpose": "Tujuan permohonan",
+      "submit": "Hantar Permohonan"
+    }
+  }
+}
