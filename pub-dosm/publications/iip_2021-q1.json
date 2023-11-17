@@ -1,0 +1,48 @@
+{
+    "publication": "iip_2021-q1",
+    "publication_type": "iip",
+    "release_date": "2021-05-11",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[1Q 2021] International Investment Position",
+        "publication_type_title": "International Investment Position",
+        "description": "Quarterly international investment position, covering assets and liabilities by economic sector and country.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "International Investment Position: 1Q 2021",
+                "resource_link": "https://storage.dosm.gov.my/iip/iip_2021-q1.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "International Investment Position: 1Q 2021",
+                "resource_link": "https://storage.dosm.gov.my/iip/iip_2021-q1.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST1 2021] Kedudukan Pelaburan Antarabangsa",
+        "publication_type_title": "Kedudukan Pelaburan Antarabangsa",
+        "description": "Kedudukan pelaburan antarabangsa suku tahunan, merangkumi aset dan liabiliti mengikut sektor ekonomi dan negara.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Kedudukan Pelaburan Antarabangsa: ST1 2021",
+                "resource_link": "https://storage.dosm.gov.my/iip/iip_2021-q1.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Kedudukan Pelaburan Antarabangsa: ST1 2021",
+                "resource_link": "https://storage.dosm.gov.my/iip/iip_2021-q1.pdf"
+            }
+        ]
+    }
+}
