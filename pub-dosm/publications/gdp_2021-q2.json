@@ -10,7 +10,7 @@
     "en": {
         "title": "[2Q 2021] Gross Domestic Product",
         "publication_type_title": "Gross Domestic Product",
-        "description": "Official gross domestic product (GDP) data, covering nominal/real GDP by  type of expenditure/activity",
+        "description": "Quarterly gross domestic product (GDP), covering nominal and real GDP by type of expenditure and activity.",
         "resources": [
             {
                 "resource_id": 1,
@@ -29,7 +29,7 @@
     "bm": {
         "title": "[ST2 2021] Keluaran Dalam Negeri Kasar",
         "publication_type_title": "Keluaran Dalam Negeri Kasar",
-        "description": "Data keluaran dalam negeri kasar (KDNK) rasmi, merangkumi KDNK mengikut jenis perbelanjaan/aktiviti",
+        "description": "Keluaran dalam negeri kasar (KDNK) suku tahunan, merangkumi KDNK pada harga semasa dan malar mengikut jenis perbelanjaan dan aktiviti.",
         "resources": [
             {
                 "resource_id": 1,
