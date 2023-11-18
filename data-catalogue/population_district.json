@@ -103,7 +103,7 @@
 						"data_source": ["DOSM"]
 					},
 					"metadata_neutral": {
-						"data_as_of": "2023-06-30 23:59",
+						"data_as_of": "2023",
 						"last_updated": "2023-08-29 12:00",
 						"next_update": "2024-08-31 12:00"
 					},
@@ -131,6 +131,7 @@
 							"freeze": []
 						}
 					},
+					"dataviz": [],
 					"translations": {
 						"en": {
 							"date": "Date",

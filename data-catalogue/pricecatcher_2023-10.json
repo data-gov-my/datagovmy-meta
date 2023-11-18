@@ -1,9 +1,9 @@
 {
     "file": {
-        "manual_trigger": "na",
+        "manual_trigger": "",
         "exclude_openapi": true,
         "bucket": "pricecatcher",
-        "file_name": "pricecatcher_2023-03_preview",
+        "file_name": "pricecatcher_2023-10",
         "category": "ECONOMY",
         "category_en": "Economy",
         "category_bm": "Ekonomi",
@@ -20,15 +20,15 @@
             "en": "PriceCatcher is a mobile app developed by the Ministry of Domestic Trade and Cost of Living (KPDN, formerly KPDNHEP) to help users compare the prices of key items in their area. Prices are collected and verified by groundstaff on a daily basis, with over 2 million prices collected every month. This dataset makes that wealth of data available to you for analysis.",
             "bm": "PriceCatcher adalah aplikasi mudah alih yang dibangunkan oleh Kementerian Perdagangan Dalam Negeri dan Kos Sara Hidup (KPDN, dahulunya KPDNHEP) untuk membantu pengguna mendapatkan harga barangan cepumas di sekeliling mereka. Harga dipungut dan disahkan oleh staf di lapangan, dengan lebih 2 juta harga dipungut setiap bulan. Dataset ini membolehkan anda menggunakan data raya tersebut untuk analisa lanjut."
         },
-        "link_parquet": "https://storage.data.gov.my/pricecatcher/pricecatcher_2023-03.parquet",
-        "link_csv": "https://storage.data.gov.my/pricecatcher/pricecatcher_2023-03.csv",
-        "link_preview": "https://storage.data.gov.my/pricecatcher/pricecatcher_2023-03_preview.parquet",
+        "link_parquet": "https://storage.data.gov.my/pricecatcher/pricecatcher_2023-10.parquet",
+        "link_csv": "https://storage.data.gov.my/pricecatcher/pricecatcher_2023-10.csv",
+        "link_preview": "https://storage.data.gov.my/pricecatcher/pricecatcher_2023-10_preview.parquet",
         "variables": [
             {
                 "id": 0,
-                "name": "PriceCatcher: 2023/03",
-                "title_en": "PriceCatcher: 2023/03",
-                "title_bm": "PriceCatcher: 2023/03",
+                "name": "PriceCatcher: 2023/10",
+                "title_en": "PriceCatcher: 2023/10",
+                "title_bm": "PriceCatcher: 2023/10",
                 "desc_en": "The table below provides a preview of the full dataset, which contains over a million prices. We recommend that you download and work with the data in a coding environment. This data should be used in conjuction with the Item Lookup and Premise Lookup tables.",
                 "desc_bm": "Jadual di bawah memberi pratonton kepada dataset penuh yang mengandungi lebih daripada sejuta harga. Kami sarankan anda memuat turun dan menganalisa data dengan menggunakan kod. Set data ini harus digunakan bersama dengan Jadual Carian Barangan dan Jadual Carian Premis.",
                 "catalog_data": {
@@ -46,9 +46,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-03-31 23:59",
-                        "last_updated": "2023-04-01 09:00",
-                        "next_update": "-"
+                        "data_as_of": "2023-10-17 23:59",
+                        "last_updated": "2023-10-18 09:00",
+                        "next_update": "2023-10-19 09:00"
                     },
                     "metadata_lang": {
                         "en": {
@@ -77,6 +77,7 @@
                             "freeze": []
                         }
                     },
+					"dataviz": [],
                     "translations": {
                         "en": {
                             "date": "Date",
