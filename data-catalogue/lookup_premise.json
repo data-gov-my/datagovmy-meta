@@ -25,6 +25,54 @@
         "link_preview": "https://storage.data.gov.my/pricecatcher/lookup_premise_preview.parquet",
         "variables": [
             {
+                "id": -1,
+                "name": "premise_code",
+                "title_en": "Premise Code",
+                "title_bm": "Kod Premis",
+                "desc_en": "[Integer] Column for left-join",
+                "desc_bm": "[Integer] Kolum untuk padanan"
+            },
+            {
+                "id": -1,
+                "name": "premise",
+                "title_en": "Premise",
+                "title_bm": "Nama Premis",
+                "desc_en": "[Categorical] Name of premise",
+                "desc_bm": "[Kategori] Nama premis"
+            },
+            {
+                "id": -1,
+                "name": "address",
+                "title_en": "Address",
+                "title_bm": "Alamat",
+                "desc_en": "[String] Full address",
+                "desc_bm": "[Kategori] Alamat penuh"
+            },
+            {
+                "id": -1,
+                "name": "premise_type",
+                "title_en": "Premise Type",
+                "title_bm": "Jenis Premis",
+                "desc_en": "[Categorical] Type of premise",
+                "desc_bm": "[Kategori] Jenis Premis"
+            },
+            {
+                "id": -1,
+                "name": "state",
+                "title_en": "State",
+                "title_bm": "Negeri",
+                "desc_en": "[Categorical] Name of state",
+                "desc_bm": "[Kategori] Nama negeri"
+            },
+            {
+                "id": -1,
+                "name": "district",
+                "title_en": "District",
+                "title_bm": "Daerah",
+                "desc_en": "[Categorical] Name of district",
+                "desc_bm": "[Kategori] Nama daerah"
+            },
+            {
                 "id": 0,
                 "name": "Premise Lookup",
                 "title_en": "Premise Lookup",
@@ -94,54 +142,6 @@
                         }
                     }
                 }
-            },
-            {
-                "id": -1,
-                "name": "premise_code",
-                "title_en": "Premise Code",
-                "title_bm": "Kod Premis",
-                "desc_en": "[Integer] Column for left-join",
-                "desc_bm": "[Integer] Kolum untuk padanan"
-            },
-            {
-                "id": -1,
-                "name": "premise",
-                "title_en": "Premise",
-                "title_bm": "Nama Premis",
-                "desc_en": "[Categorical] Name of premise",
-                "desc_bm": "[Kategori] Nama premis"
-            },
-            {
-                "id": -1,
-                "name": "address",
-                "title_en": "Address",
-                "title_bm": "Alamat",
-                "desc_en": "[String] Full address",
-                "desc_bm": "[Kategori] Alamat penuh"
-            },
-            {
-                "id": -1,
-                "name": "premise_type",
-                "title_en": "Premise Type",
-                "title_bm": "Jenis Premis",
-                "desc_en": "[Categorical] Type of premise",
-                "desc_bm": "[Kategori] Jenis Premis"
-            },
-            {
-                "id": -1,
-                "name": "state",
-                "title_en": "State",
-                "title_bm": "Negeri",
-                "desc_en": "[Categorical] Name of state",
-                "desc_bm": "[Kategori] Nama negeri"
-            },
-            {
-                "id": -1,
-                "name": "district",
-                "title_en": "District",
-                "title_bm": "Daerah",
-                "desc_en": "[Categorical] Name of district",
-                "desc_bm": "[Kategori] Nama daerah"
             }
         ]
     }

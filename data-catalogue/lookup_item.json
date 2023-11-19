@@ -25,6 +25,46 @@
         "link_preview": "https://storage.data.gov.my/pricecatcher/lookup_item_preview.parquet",
         "variables": [
             {
+                "id": -1,
+                "name": "item_code",
+                "title_en": "Item Code",
+                "title_bm": "Kod Barang",
+                "desc_en": "[Integer] Column for left-join",
+                "desc_bm": "[Integer] Kolum untuk padanan"
+            },
+            {
+                "id": -1,
+                "name": "item",
+                "title_en": "Item Name",
+                "title_bm": "Nama Barang",
+                "desc_en": "[Categorical] Name of item",
+                "desc_bm": "[Kategori] Nama barang"
+            },
+            {
+                "id": -1,
+                "name": "unit",
+                "title_en": "Unit of Measurement",
+                "title_bm": "Unit Ukuran",
+                "desc_en": "[Categorical] Unit of measurement",
+                "desc_bm": "[Kategori] Unit ukuran"
+            },
+            {
+                "id": -1,
+                "name": "item_group",
+                "title_en": "Item Group",
+                "title_bm": "Kumpulan",
+                "desc_en": "[Categorical] Item group",
+                "desc_bm": "[Kategori] Kumpulan barangan"
+            },
+            {
+                "id": -1,
+                "name": "item_category",
+                "title_en": "Item Category",
+                "title_bm": "Kategori",
+                "desc_en": "[Categorical] Broad category",
+                "desc_bm": "[Kategori] Kategori luas"
+            },
+            {
                 "id": 0,
                 "name": "Item Lookup",
                 "title_en": "Item Lookup",
@@ -92,46 +132,6 @@
                         }
                     }
                 }
-            },
-            {
-                "id": -1,
-                "name": "item_code",
-                "title_en": "Item Code",
-                "title_bm": "Kod Barang",
-                "desc_en": "[Integer] Column for left-join",
-                "desc_bm": "[Integer] Kolum untuk padanan"
-            },
-            {
-                "id": -1,
-                "name": "item",
-                "title_en": "Item Name",
-                "title_bm": "Nama Barang",
-                "desc_en": "[Categorical] Name of item",
-                "desc_bm": "[Kategori] Nama barang"
-            },
-            {
-                "id": -1,
-                "name": "unit",
-                "title_en": "Unit of Measurement",
-                "title_bm": "Unit Ukuran",
-                "desc_en": "[Categorical] Unit of measurement",
-                "desc_bm": "[Kategori] Unit ukuran"
-            },
-            {
-                "id": -1,
-                "name": "item_group",
-                "title_en": "Item Group",
-                "title_bm": "Kumpulan",
-                "desc_en": "[Categorical] Item group",
-                "desc_bm": "[Kategori] Kumpulan barangan"
-            },
-            {
-                "id": -1,
-                "name": "item_category",
-                "title_en": "Item Category",
-                "title_bm": "Kategori",
-                "desc_en": "[Categorical] Broad category",
-                "desc_bm": "[Kategori] Kategori luas"
             }
         ]
     }
