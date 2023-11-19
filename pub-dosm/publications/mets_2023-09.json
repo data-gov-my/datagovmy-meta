@@ -1,5 +1,5 @@
 {
-    "publication": "trade-statistics_2023-09",
+    "publication": "mets_2023-09",
     "publication_type": "trade",
     "release_date": "2023-10-19",
     "frequency": "MONTHLY",
@@ -15,13 +15,13 @@
             {
                 "resource_id": 1,
                 "resource_type": "excel",
-                "resource_name": "External Trade:  Sep 2023",
+                "resource_name": "External Trade: Sep 2023",
                 "resource_link": "https://storage.dosm.gov.my/trade/mets_2023-09.xlsx"
             },
             {
                 "resource_id": 2,
                 "resource_type": "pdf",
-                "resource_name": "External Trade:  Sep 2023",
+                "resource_name": "External Trade: Sep 2023",
                 "resource_link": "https://storage.dosm.gov.my/trade/mets_2023-09.pdf"
             }
         ]

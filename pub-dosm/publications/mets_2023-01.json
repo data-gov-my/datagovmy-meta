@@ -14,8 +14,14 @@
         "resources": [
             {
                 "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "External Trade: Jan 2023",
+                "resource_link": "https://storage.dosm.gov.my/trade/mets_2023-01.xlsx"
+            },
+            {
+                "resource_id": 2,
                 "resource_type": "pdf",
-                "resource_name": "External Trade:  Jan 2023",
+                "resource_name": "External Trade: Jan 2023",
                 "resource_link": "https://storage.dosm.gov.my/trade/mets_2023-01.pdf"
             }
         ]
@@ -27,6 +33,12 @@
         "resources": [
             {
                 "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Perdagangan Luar Negeri: Jan 2023",
+                "resource_link": "https://storage.dosm.gov.my/trade/mets_2023-01.xlsx"
+            },
+            {
+                "resource_id": 2,
                 "resource_type": "pdf",
                 "resource_name": "Perdagangan Luar Negeri: Jan 2023",
                 "resource_link": "https://storage.dosm.gov.my/trade/mets_2023-01.pdf"
