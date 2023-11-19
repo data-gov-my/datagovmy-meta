@@ -1,9 +1,9 @@
 {
     "file": {
-        "manual_trigger": "na",
+        "manual_trigger": "",
         "exclude_openapi": true,
         "bucket": "pricecatcher",
-        "file_name": "lookup_item_preview",
+        "file_name": "lookup_item",
         "category": "PRICES",
         "category_en": "Prices",
         "category_bm": "Harga",
@@ -81,12 +81,11 @@
                         "start": "2023",
                         "end": "2023",
                         "data_source": [
-                            "KPDN",
-                            "DOSM"
+                            "KPDN"
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-09-04 23:59",
+                        "data_as_of": "2023-11-09 23:59",
                         "last_updated": "-",
                         "next_update": "-"
                     },
