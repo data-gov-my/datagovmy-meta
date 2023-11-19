@@ -3,7 +3,7 @@
         "manual_trigger": "na",
         "exclude_openapi": true,
         "bucket": "pricecatcher",
-        "file_name": "pricecatcher_2022-03_preview",
+        "file_name": "pricecatcher_2022-03",
         "category": "ECONOMY",
         "category_en": "Economy",
         "category_bm": "Ekonomi",
@@ -77,6 +77,7 @@
                             "freeze": []
                         }
                     },
+					"dataviz": [],
                     "translations": {
                         "en": {
                             "date": "Date",

@@ -93,7 +93,7 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-06-30 23:59",
+                        "data_as_of": "2023",
                         "last_updated": "2023-07-31 12:00",
                         "next_update": "2024-07-31 12:00"
                     },
@@ -121,7 +121,6 @@
                             "freeze": []
                         }
                     },
-
 					"dataviz": [],
                     "translations": {
                         "en": {
