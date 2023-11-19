@@ -3,7 +3,7 @@
 		"manual_trigger": "na",
 		"exclude_openapi": true,
 		"bucket": "commodities",
-		"file_name": "fuelprice_master",
+		"file_name": "fuelprice",
         "category": "PRICES",
         "category_en": "Prices",
         "category_bm": "Harga",
