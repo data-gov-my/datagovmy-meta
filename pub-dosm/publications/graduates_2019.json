@@ -1,0 +1,53 @@
+{
+    "publication": "graduates_2019",
+    "publication_type": "labour",
+    "release_date": "2020-07-01",
+    "frequency": "YEARLY",
+    "geography": [
+        "STATE",
+        "NATIONAL"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY",
+        "AGE"
+    ],
+    "en": {
+        "title": "[2019] Graduates",
+        "publication_type_title": "Labour Force",
+        "description": "Annual graduate statistics, covering key labour market outcomes by sex, ethnicity, age, state, sector, etc.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Graduates: 2019",
+                "resource_link": "https://storage.dosm.gov.my/labour/graduates_2019.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Graduates: 2019",
+                "resource_link": "https://storage.dosm.gov.my/labour/graduates_2019.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2019] Siswazah",
+        "publication_type_title": "Tenaga Buruh",
+        "description": "Statistik siswazah tahunan, merangkumi statistik pasaran buruh utama mengikut jantina, etnik, umur, negeri, sektor, dsb.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Siswazah: 2019",
+                "resource_link": "https://storage.dosm.gov.my/labour/graduates_2019.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Siswazah: 2019",
+                "resource_link": "https://storage.dosm.gov.my/labour/graduates_2019.pdf"
+            }
+        ]
+    }
+}
