@@ -25,6 +25,38 @@
         "link_preview": "https://storage.data.gov.my/pricecatcher/pricecatcher_2022-12_preview.parquet",
         "variables": [
             {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] The date in YYYY-MM-DD format",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+            },
+            {
+                "id": -1,
+                "name": "premise_code",
+                "title_en": "Premise Code",
+                "title_bm": "Kod Premis",
+                "desc_en": "[Categorical] Integer representing the premise, to be mapped using the [Premise Lookup Table](https://data.gov.my/data-catalogue/pricecatcher_lookup_premise_preview_0). The lookup table will give you the premise name, address, district, and state.",
+                "desc_bm": "[Kategori] Integer yang melambangkan premis, yang perlu dipadankan dengan [Jadual Carian Premis](https://data.gov.my/data-catalogue/pricecatcher_lookup_premise_preview_0). Jadual carian membolehkan anda mendapatkan nama, alamat, daerah, dan negeri bagi setiap premis."
+            },
+            {
+                "id": -1,
+                "name": "item_code",
+                "title_en": "Item Code",
+                "title_bm": "Kod Barangan",
+                "desc_en": "[Categorical] Integer representing the item, to be mapped using the [Item Lookup Table](https://data.gov.my/data-catalogue/pricecatcher_lookup_item_preview_0). The lookup table will give you the item name, unit of measurement, and categorisation.",
+                "desc_bm": "[Kategori] Integer yang melambangkan barangan, yang perlu dipadankan dengan [Jadual Carian Barangan](https://data.gov.my/data-catalogue/pricecatcher_lookup_item_preview_0). Jadual carian membolehkan anda mendapatkan nama, unit ukuran, dan kategori bagi setiap barang."
+            },
+            {
+                "id": -1,
+                "name": "price",
+                "title_en": "Price",
+                "title_bm": "Harga",
+                "desc_en": "[Float] Price in RM",
+                "desc_bm": "[Apung] Harga dalam RM"
+            },
+            {
                 "id": 0,
                 "name": "PriceCatcher: 2022/12",
                 "title_en": "PriceCatcher: 2022/12",
@@ -93,38 +125,6 @@
                         }
                     }
                 }
-            },
-            {
-                "id": -1,
-                "name": "date",
-                "title_en": "Date",
-                "title_bm": "Tarikh",
-                "desc_en": "[Date] The date in YYYY-MM-DD format",
-                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
-            },
-            {
-                "id": -1,
-                "name": "premise_code",
-                "title_en": "Premise Code",
-                "title_bm": "Kod Premis",
-                "desc_en": "[Categorical] Integer representing the premise, to be mapped using the [Premise Lookup Table](https://data.gov.my/data-catalogue/pricecatcher_lookup_premise_preview_0). The lookup table will give you the premise name, address, district, and state.",
-                "desc_bm": "[Kategori] Integer yang melambangkan premis, yang perlu dipadankan dengan [Jadual Carian Premis](https://data.gov.my/data-catalogue/pricecatcher_lookup_premise_preview_0). Jadual carian membolehkan anda mendapatkan nama, alamat, daerah, dan negeri bagi setiap premis."
-            },
-            {
-                "id": -1,
-                "name": "item_code",
-                "title_en": "Item Code",
-                "title_bm": "Kod Barangan",
-                "desc_en": "[Categorical] Integer representing the item, to be mapped using the [Item Lookup Table](https://data.gov.my/data-catalogue/pricecatcher_lookup_item_preview_0). The lookup table will give you the item name, unit of measurement, and categorisation.",
-                "desc_bm": "[Kategori] Integer yang melambangkan barangan, yang perlu dipadankan dengan [Jadual Carian Barangan](https://data.gov.my/data-catalogue/pricecatcher_lookup_item_preview_0). Jadual carian membolehkan anda mendapatkan nama, unit ukuran, dan kategori bagi setiap barang."
-            },
-            {
-                "id": -1,
-                "name": "price",
-                "title_en": "Price",
-                "title_bm": "Harga",
-                "desc_en": "[Float] Price in RM",
-                "desc_bm": "[Apung] Harga dalam RM"
             }
         ]
     }
