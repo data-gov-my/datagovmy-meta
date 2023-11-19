@@ -1,0 +1,148 @@
+{
+    "file": {
+        "manual_trigger": "",
+        "exclude_openapi": true,
+        "bucket": "pricecatcher",
+        "file_name": "lookup_premise_preview",
+        "category": "ECONOMY",
+        "category_en": "Economy",
+        "category_bm": "Ekonomi",
+        "subcategory": "PRICECATCHER",
+        "subcategory_en": "PriceCatcher",
+        "subcategory_bm": "PriceCatcher",
+        "category_opendosm": "CPI",
+        "category_opendosm_en": "Consumer Prices",
+        "category_opendosm_bm": "Harga Pengguna",
+        "subcategory_opendosm": "PRICECATCHER",
+        "subcategory_opendosm_en": "PriceCatcher",
+        "subcategory_opendosm_bm": "PriceCatcher",
+        "description": {
+            "en": "Lookup table, to be left-joined against premise code in the main PriceCatcher data.",
+            "bm": "Jadual carian, untuk dipadankan (left-join) dengan kod premis (premise code) dalam dataset PriceCatcher utama."
+        },
+        "link_parquet": "https://storage.data.gov.my/pricecatcher/lookup_premise.parquet",
+        "link_csv": "https://storage.data.gov.my/pricecatcher/lookup_premise.csv",
+        "link_preview": "https://storage.data.gov.my/pricecatcher/lookup_premise_preview.parquet",
+        "variables": [
+            {
+                "id": 0,
+                "name": "Premise Lookup",
+                "title_en": "Premise Lookup",
+                "title_bm": "Jadual Carian Premis",
+                "desc_en": "Lookup table, to be left-joined against premise code in the main PriceCatcher data.",
+                "desc_bm": "Jadual carian, untuk dipadankan (left-join) dengan kod premis (premise code) dalam dataset PriceCatcher utama.",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "INFREQUENT",
+                        "geography": [
+                            "DISTRICT"
+                        ],
+                        "demography": [],
+                        "start": "2023",
+                        "end": "2023",
+                        "data_source": [
+                            "KPDN",
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-09-04 23:59",
+                        "last_updated": "-",
+                        "next_update": "-"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": " Prices are collected and verified by groundstaff on a daily basis, with over 2 million prices collected every month.",
+                            "caveat": "This data is collected for the purpose of price surveillance, and is excellent for high-frequency analysis of specific items in specific locations. Inflation surveillance requires a different approach, in particular to ensure proper representativeness. Inflation analysis should be conducted using DOSM's CPI data.",
+                            "publication": "\u2014"
+                        },
+                        "bm": {
+                            "methodology": "Harga dipungut dah disahkan oleh staf di lapangan, dengan lebih 2 juta harga dipungut setiap bulan.",
+                            "caveat": "Data ini dipungut bagi tujuan survelan harga, maka amat bersesuaian untuk analisa barangan khusus di lokasi yang khusus, pada frekuensi yang tinggi. Namun, survelan inflasi memerlukan pendekatan yang berbeza bagi memastikan keterwakilan data. Sebarang analisa inflasi harus menggunakan data IHP yang diterbitkan oleh DOSM.",
+                            "publication": "\u2014"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TABLE",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 0
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "exclude": [],
+                            "freeze": []
+                        }
+                    },
+					"dataviz": [],
+                    "translations": {
+                        "en": {
+                            "premise_code": "Premise Code",
+                            "premise": "Premise",
+                            "address": "Address",
+                            "premise_type": "Premise Type",
+                            "state": "State",
+                            "district": "District"
+                        },
+                        "bm": {
+                            "premise_code": "Kod Premis",
+                            "premise": "Nama Premis",
+                            "address": "Alamat",
+                            "premise_type": "Jenis Premis",
+                            "state": "Negeri",
+                            "district": "Daerah"
+                        }
+                    }
+                }
+            },
+            {
+                "id": -1,
+                "name": "premise_code",
+                "title_en": "Premise Code",
+                "title_bm": "Kod Premis",
+                "desc_en": "[Integer] Column for left-join",
+                "desc_bm": "[Integer] Kolum untuk padanan"
+            },
+            {
+                "id": -1,
+                "name": "premise",
+                "title_en": "Premise",
+                "title_bm": "Nama Premis",
+                "desc_en": "[Categorical] Name of premise",
+                "desc_bm": "[Kategori] Nama premis"
+            },
+            {
+                "id": -1,
+                "name": "address",
+                "title_en": "Address",
+                "title_bm": "Alamat",
+                "desc_en": "[String] Full address",
+                "desc_bm": "[Kategori] Alamat penuh"
+            },
+            {
+                "id": -1,
+                "name": "premise_type",
+                "title_en": "Premise Type",
+                "title_bm": "Jenis Premis",
+                "desc_en": "[Categorical] Type of premise",
+                "desc_bm": "[Kategori] Jenis Premis"
+            },
+            {
+                "id": -1,
+                "name": "state",
+                "title_en": "State",
+                "title_bm": "Negeri",
+                "desc_en": "[Categorical] Name of state",
+                "desc_bm": "[Kategori] Nama negeri"
+            },
+            {
+                "id": -1,
+                "name": "district",
+                "title_en": "District",
+                "title_bm": "Daerah",
+                "desc_en": "[Categorical] Name of district",
+                "desc_bm": "[Kategori] Nama daerah"
+            }
+        ]
+    }
+}
