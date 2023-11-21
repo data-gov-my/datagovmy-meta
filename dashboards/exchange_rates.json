@@ -1,11 +1,11 @@
 {
     "dashboard_name": "exchange_rates",
-    "data_last_updated": "2023-11-21 04:00",
+    "data_last_updated": "2023-11-22 04:00",
     "route": "/dashboard/exchange-rates,/ms-MY/dashboard/exchange-rates",
     "sites": [
         "opendosm"
     ],
-    "manual_trigger": "2023-11-21 07:37:51.702560",
+    "manual_trigger": "2023-11-22 07:31:05.735390",
     "required_params": [],
     "optional_params": [],
     "charts": {
@@ -13,7 +13,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/er_timeseries.parquet",
-            "data_as_of": "2023-11-20 23:59",
+            "data_as_of": "2023-11-21 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -57,7 +57,7 @@
             "name": "statistics",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/er_timeseries_callout.parquet",
-            "data_as_of": "2023-11-20 23:59",
+            "data_as_of": "2023-11-21 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -77,7 +77,7 @@
             "name": "bar_chart",
             "chart_type": "bar_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/er_barchart.parquet",
-            "data_as_of": "2023-11-20 23:59",
+            "data_as_of": "2023-11-21 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
