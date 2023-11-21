@@ -80,6 +80,7 @@
         "tab_table1": "Lihat Semua",
         "tab_table2": "Kematian",
         "tab_table4": "Kes",
+<<<<<<< Updated upstream
         "past14d": "14 hari",
         "table_death": "Kematian",
         "table_death_trend": "Tren Kematian",
@@ -91,5 +92,9 @@
         "table_cases_trend": "Tren Kes",
         "opt_cases": "Cases",
         "opt_deaths": "Deaths"
+=======
+        "opt_cases": "Kes",
+        "opt_deaths": "Kematian"
+>>>>>>> Stashed changes
     }
 }
