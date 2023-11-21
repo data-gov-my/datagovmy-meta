@@ -5,6 +5,32 @@
     ],
     "translation": {
         "header": "Hospital Bed Utilisation",
-        "description": ""
+        "description": "Hospital capacity utilisation is one of the most critical operational indicators monitored by the Ministry of Health. As a result of the Medical Development Division's pandemic work to increase reporting sophistication, hospital-level data on bed utilisation is now available in a timely manner. This dashboard presents that data transparently, and will be enriched over time with further data on utilisation and provision of hospital-specific services.",
+        "choro_header": "How does hospital bed utilisation vary nationally?",
+        "choro_desc": "This data is derived from hospital-level bed utilisation data reported by groundstaff on a daily basis.",
+        "util_nonicu": "Hospital Bed Utilisation (%)",
+        "util_icu": "ICU Bed Utilisation (%)",
+        "util_vent": "Ventilator Utilisation (%)",
+        "beds_nonicu": "Number of Hospital Beds",
+        "beds_icu": "Number of ICU Beds",
+        "vent": "Number of Ventilators",
+        "state": "State",
+        "name": "Name",
+        "table_header": "Hospital Bed Utilisation by Facility",
+        "table_beds": "Hospital Beds",
+        "table_icu": "ICU Beds",
+        "table_beds_util": "Hospital Bed Utilisation",
+        "table_icu_util": "ICU Bed Utilisation",
+        "table_noncrit": "Non-critical care",
+        "table_crit": "Critical care",
+        "timeseries_header": "Zoom into a specific facility",
+        "search_facility": "Key in a hospital name",
+        "timeseries_title": "Bed Utilisation at {{ facility }}",
+        "timeseries_nonicu": "Hospital Bed Utilisation",
+        "timeseries_icu": "ICU Bed Utilisation",
+        "timeseries_vent": "Ventilator Utilisation",
+        "util_rate": "Utilisation Rate (%)",
+        "utilised": "Utilised",
+        "available": "Available"
     }
 }

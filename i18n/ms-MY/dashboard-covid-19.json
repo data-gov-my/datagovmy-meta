@@ -75,8 +75,20 @@
             "annot2": "Kadar Positif"
         },
         "utilisation_of": "Penggunaan {{ param }}",
+        "table_header": "Lihatlah rumusan indikator utama",
+        "table_subheader": "Rumusan",
+        "tab_table1": "Lihat Semua",
         "tab_table2": "Kematian",
         "tab_table4": "Kes",
+        "past14d": "14 hari",
+        "table_death": "Kematian",
+        "table_death_trend": "Tren Kematian",
+        "table_admission": "Kemasukan ke Hospital",
+        "table_admission_util": "Kadar Penggunaan Kati",
+        "table_admission_trend": "Tren Kemasukan",
+        "table_cases": "Kes",
+        "table_cases_posrate": "Kadar Positif",
+        "table_cases_trend": "Tren Kes",
         "opt_cases": "Cases",
         "opt_deaths": "Deaths"
     }
