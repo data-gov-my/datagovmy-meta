@@ -49,13 +49,24 @@
 				}
 			}
 		},
+		"timeseries_dropdown": {
+			"name": "timeseries_dropdown",
+			"chart_type": "query_values",
+			"chart_source": "https://storage.data.gov.my/dashboards/bedutil_timeseries_facility.parquet",
+			"data_as_of": "2023-07-26 23:59",
+			"api_type": "dynamic",
+			"api_params": [],
+			"variables": {
+				"columns": ["hospital"]
+			}
+		},
 		"timeseries_facility": {
 			"name": "timeseries_facility",
 			"chart_type": "timeseries_chart",
 			"chart_source": "https://storage.data.gov.my/dashboards/bedutil_timeseries_facility.parquet",
 			"data_as_of": "2023-11-21 23:59",
-			"api_type": "static",
-			"api_params": [],
+			"api_type": "dynamic",
+			"api_params": ["hospital"],
 			"variables": {
 				"keys": ["hospital"],
 				"rename_cols": {
