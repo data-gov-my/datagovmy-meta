@@ -5,7 +5,7 @@
     "sites": [
         "datagovmy"
     ],
-    "manual_trigger": "2023-11-22 06:53:16.741255",
+    "manual_trigger": "2023-11-22 06:53:16.74125",
     "required_params": [
         "state"
     ],
