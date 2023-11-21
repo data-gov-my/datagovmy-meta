@@ -1,11 +1,11 @@
 {
     "dashboard_name": "blood_donation",
-    "data_last_updated": "2023-06-01 23:59",
+    "data_last_updated": "2023-11-22 05:00",
     "route": "/dashboard/blood-donation,/ms-MY/dashboard/blood-donation",
     "sites": [
         "datagovmy"
     ],
-    "manual_trigger": "2",
+    "manual_trigger": "2023-11-22 06:53:16.741255",
     "required_params": [
         "state"
     ],
@@ -14,8 +14,8 @@
         "bar_chart_age": {
             "name": "bar_chart_age",
             "chart_type": "bar_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/blood_03_barchart_age.parquet",
-            "data_as_of": "2023-04-03 23:59",
+            "chart_source": "https://storage.data.gov.my/dashboards/blood_barchart_age.parquet",
+            "data_as_of": "2023-11-21 23:59",
             "api_type": "dynamic",
             "api_params": [
                 "state"
@@ -38,8 +38,8 @@
         "bar_chart_time": {
             "name": "bar_chart_time",
             "chart_type": "bar_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/blood_03_barchart_time.parquet",
-            "data_as_of": "2023-04-03 23:59",
+            "chart_source": "https://storage.data.gov.my/dashboards/blood_barchart_time.parquet",
+            "data_as_of": "2023-11-21 23:59",
             "api_type": "dynamic",
             "api_params": [
                 "state"
@@ -62,8 +62,8 @@
         "timeseries_all": {
             "name": "timeseries_all",
             "chart_type": "timeseries_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/blood_02_timeseries.parquet",
-            "data_as_of": "2023-04-03 23:59",
+            "chart_source": "https://storage.data.gov.my/dashboards/blood_timeseries.parquet",
+            "data_as_of": "2023-11-21 23:59",
             "api_type": "dynamic",
             "api_params": [
                 "state"
@@ -86,8 +86,8 @@
         "barchart_key_variables": {
             "name": "barchart_key_variables",
             "chart_type": "bar_meter",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/blood_02_barcharts.parquet",
-            "data_as_of": "2023-04-03 23:59",
+            "chart_source": "https://storage.data.gov.my/dashboards/blood_barcharts.parquet",
+            "data_as_of": "2023-11-21 23:59",
             "api_type": "dynamic",
             "api_params": [
                 "state"
@@ -108,8 +108,8 @@
         "choropleth_malaysia": {
             "name": "choropleth_malaysia",
             "chart_type": "choropleth_chart",
-            "chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/blood_06_choropleth_msia.parquet",
-            "data_as_of": "2023-04-03 23:59",
+            "chart_source": "https://storage.data.gov.my/dashboards/blood_choropleth_msia.parquet",
+            "data_as_of": "2023-11-21 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
