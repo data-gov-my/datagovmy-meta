@@ -275,7 +275,7 @@
                     },
                     "dataviz": [
 						{
-							"translation_key": "usa",
+							"translation_key": "myr_usd",
 							"chart_type": "TIMESERIES",
 							"chart_filters": {
 								"SLICE_BY": [],
@@ -287,6 +287,86 @@
 								"format": {
 									"x": "date",
 									"y": ["myr_usd"]
+								}
+							}
+						},
+						{
+							"translation_key": "myr_rmb",
+							"chart_type": "TIMESERIES",
+							"chart_filters": {
+								"SLICE_BY": [],
+								"precision": 2
+							},
+							"chart_variables": {
+								"parents": [],
+								"operation": "SUM",
+								"format": {
+									"x": "date",
+									"y": ["myr_rmb"]
+								}
+							}
+						},
+						{
+							"translation_key": "myr_sgd",
+							"chart_type": "TIMESERIES",
+							"chart_filters": {
+								"SLICE_BY": [],
+								"precision": 2
+							},
+							"chart_variables": {
+								"parents": [],
+								"operation": "SUM",
+								"format": {
+									"x": "date",
+									"y": ["myr_sgd"]
+								}
+							}
+						},
+						{
+							"translation_key": "myr_eur",
+							"chart_type": "TIMESERIES",
+							"chart_filters": {
+								"SLICE_BY": [],
+								"precision": 2
+							},
+							"chart_variables": {
+								"parents": [],
+								"operation": "SUM",
+								"format": {
+									"x": "date",
+									"y": ["myr_eur"]
+								}
+							}
+						},
+						{
+							"translation_key": "myr_jpy",
+							"chart_type": "TIMESERIES",
+							"chart_filters": {
+								"SLICE_BY": [],
+								"precision": 2
+							},
+							"chart_variables": {
+								"parents": [],
+								"operation": "SUM",
+								"format": {
+									"x": "date",
+									"y": ["myr_jpy"]
+								}
+							}
+						},
+						{
+							"translation_key": "myr_twd",
+							"chart_type": "TIMESERIES",
+							"chart_filters": {
+								"SLICE_BY": [],
+								"precision": 2
+							},
+							"chart_variables": {
+								"parents": [],
+								"operation": "SUM",
+								"format": {
+									"x": "date",
+									"y": ["myr_twd"]
 								}
 							}
 						}
