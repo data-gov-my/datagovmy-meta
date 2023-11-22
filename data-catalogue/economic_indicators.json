@@ -75,8 +75,8 @@
             {
                 "id": 0,
                 "name": "Malaysian Economic Indicators",
-                "title_en": "Indikator Ekonomi Malaysia",
-                "title_bm": "Indeks Susulan, Pelopor, & Serentak",
+                "title_en": "Malaysian Economic Indicators",
+                "title_bm": "Indikator Ekonomi Malaysia",
                 "desc_en": "Indices for the purpose of monitoring Malaysia's economic situation on a monthly basis, consisting of leading, lagging, and coincidence indicators.",
                 "desc_bm": "Indeks bagi tujuan memantau kedudukan ekonomi semasa Malaysia. Ia terdiri daripada indeks pelopor, serentak dan susulan.",
                 "catalog_data": {
