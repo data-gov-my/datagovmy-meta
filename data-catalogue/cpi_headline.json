@@ -1,0 +1,227 @@
+{
+    "file": {
+        "manual_trigger": "na",
+        "exclude_openapi": false,
+        "bucket": "cpi",
+        "file_name": "cpi_headline",
+        "category": "PRICES",
+        "category_en": "Prices",
+        "category_bm": "Harga",
+        "subcategory": "PRICES_CONSUMER",
+        "subcategory_en": "Consumer Prices",
+        "subcategory_bm": "Harga Pengguna",
+        "category_opendosm" : "PRICES",
+        "category_opendosm_en" : "Prices",
+        "category_opendosm_bm" : "Harga",
+        "subcategory_opendosm" : "PRICES_CONSUMER",
+        "subcategory_opendosm_en" : "Consumer Prices",
+        "subcategory_opendosm_bm" : "Harga Pengguna",
+        "description": {
+            "en": "National CPI for 12 main groups of goods and services, consistent with the United Nations \"Classification of Individual Consumption According to Purpose (COICOP)\".",
+            "bm": "IHP Malaysia bagi 12 kumpulan utama barangan dan perkhidmatan, selaras dengan klasifikasi berpandukan United Nations \"Classification of Individual Consumption According to Purpose (COICOP)\"."
+        },
+        "link_parquet": "https://storage.data.gov.my/cpi/cpi_headline.parquet",
+        "link_csv": "https://storage.data.gov.my/cpi/cpi_headline.csv",
+        "link_preview": "https://storage.data.gov.my/cpi/cpi_headline.parquet",
+        "variables": [
+            {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to -01-01",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai -01-01"
+            },
+            {
+                "id": -1,
+                "name": "overall",
+                "title_en": "CPI (Consumer Price Index)",
+                "title_bm": "IHP (Indeks Harga Pengguna)",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100"
+            },
+            {
+                "id": -1,
+                "name": "food_beverage",
+                "title_en": "Food & Non-Alcoholic Beverages",
+                "title_bm": "Makanan & Minuman Bukan Alkohol         ",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100"
+            },
+            {
+                "id": -1,
+                "name": "alcohol_tobacco",
+                "title_en": "Alcoholic Beverages & Tobacco",
+                "title_bm": "Minuman Alkohol & Tembakau        ",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100"
+            },
+            {
+                "id": -1,
+                "name": "clothing_footwear",
+                "title_en": "Clothing & Footwear",
+                "title_bm": "Pakaian & Kasut            ",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100"
+            },
+            {
+                "id": -1,
+                "name": "housing_utilities",
+                "title_en": "Housing, Water, Electricity, Gas & Other Fuels",
+                "title_bm": "Perumahan, Air, Elektrik, Gas & Bahan Api Lain  ",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100"
+            },
+            {
+                "id": -1,
+                "name": "furnishings",
+                "title_en": "Furnishings, Household Equipment & Routine Household Maintenance",
+                "title_bm": "Hiasan, Perkakasan & Penyelenggaraan Isi Rumah   ",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100"
+            },
+            {
+                "id": -1,
+                "name": "health",
+                "title_en": "Health",
+                "title_bm": "Kesihatan                   ",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100"
+            },
+            {
+                "id": -1,
+                "name": "transport",
+                "title_en": "Transport",
+                "title_bm": "Pengangkutan                ",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100"
+            },
+            {
+                "id": -1,
+                "name": "communication",
+                "title_en": "Communication",
+                "title_bm": "Komunikasi                   ",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100"
+            },
+            {
+                "id": -1,
+                "name": "recreation_culture",
+                "title_en": "Recreation Services & Culture",
+                "title_bm": "Perkhidmatan Rekreasi & Kebudayaan       ",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100"
+            },
+            {
+                "id": -1,
+                "name": "education",
+                "title_en": "Education",
+                "title_bm": "Pendidikan                  ",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100"
+            },
+            {
+                "id": -1,
+                "name": "hospitality",
+                "title_en": "Restaurants & Hotels",
+                "title_bm": "Restoran & Hotel          ",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100"
+            },
+            {
+                "id": -1,
+                "name": "misc",
+                "title_en": "Miscellaneous Goods & Services",
+                "title_bm": "Pelbagai Barangan & Perkhidmatan            ",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100"
+            },
+            {
+                "id": 0,
+                "name": "CPI by Group",
+                "title_en": "CPI by Group",
+                "title_bm": "IHP mengikut Kumpulan",
+                "desc_en": "National CPI for 12 main groups of goods and services, consistent with the United Nations \"Classification of Individual Consumption According to Purpose (COICOP)\".",
+                "desc_bm": "IHP Malaysia bagi 12 kumpulan utama barangan dan perkhidmatan, selaras dengan klasifikasi berpandukan United Nations \"Classification of Individual Consumption According to Purpose (COICOP)\".",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "MONTHLY",
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2010",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-07-31 23:59",
+                        "last_updated": "2023-08-25 12:00",
+                        "next_update": "2023-09-22 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The index is compiled based on the average price change for Miscellaneous Goods & Services items collected according to price collection centers in each state in Malaysia.",
+                            "caveat": "This index is compiled based on Classification of Individual Consumption According to Purpose (COICOP) at 2 digit level (Main Group).",
+                            "publication": "[Consumer Price Index, Jul 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_cpi.pdf), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/consumer-prices)."
+                        },
+                        "bm": {
+                            "methodology": "Indeks ini disusun berdasarkan perubahan purata harga bagi item Pelbagai Barangan & Perkhidmatan yang dikutip mengikut pusat pungutan harga di setiap negeri di Malaysia.",
+                            "caveat": "Indeks ini disusun berdasarkan Classification of Individual Consumption According to Purpose (COICOP) di peringkat 2 digit (Kumpulan Utama).",
+                            "publication": "[Indeks Harga Pengguna, Jul 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_cpi.pdf), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/consumer-prices)."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TABLE",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "exclude": [],
+                            "freeze": []
+                        }
+                    },
+                    "dataviz": [],
+                    "translations": {
+                        "en": {
+                            "date": "Date",
+                            "overall": "CPI (Consumer Price Index)",
+                            "food_beverage": "Food & Non-Alcoholic Beverages",
+                            "alcohol_tobacco": "Alcoholic Beverages & Tobacco",
+                            "clothing_footwear": "Clothing & Footwear",
+                            "housing_utilities": "Housing, Water, Electricity, Gas & Other Fuels",
+                            "furnishings": "Furnishings, Household Equipment & Routine Household Maintenance",
+                            "health": "Health",
+                            "transport": "Transport",
+                            "communication": "Communication",
+                            "recreation_culture": "Recreation Services & Culture",
+                            "education": "Education",
+                            "hospitality": "Restaurants & Hotels",
+                            "misc": "Miscellaneous Goods & Services"
+                        },
+                        "bm": {
+                            "date": "Tarikh",
+                            "overall": "IHP (Indeks Harga Pengguna)",
+                            "food_beverage": "Makanan & Minuman Bukan Alkohol",
+                            "alcohol_tobacco": "Minuman Alkohol & Tembakau",
+                            "clothing_footwear": "Pakaian & Kasut",
+                            "housing_utilities": "Perumahan, Air, Elektrik, Gas & Bahan Api Lain ",
+                            "furnishings": "Hiasan, Perkakasan & Penyelenggaraan Isi Rumah",
+                            "health": "Kesihatan",
+                            "transport": "Pengangkutan",
+                            "communication": "Komunikasi",
+                            "recreation_culture": "Perkhidmatan Rekreasi & Kebudayaan",
+                            "education": "Pendidikan",
+                            "hospitality": "Restoran & Hotel",
+                            "misc": "Pelbagai Barangan & Perkhidmatan"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
