@@ -1,0 +1,307 @@
+{
+    "file": {
+        "manual_trigger": "na",
+        "exclude_openapi": false,
+        "bucket": "labour",
+        "file_name": "labourforce_quarterly",
+        "category": "LABOUR",
+        "category_en": "Labour Markets",
+        "category_bm": "Pasaran Buruh",
+        "subcategory": "LABOUR_LFS",
+        "subcategory_en": "Labour Force Survey",
+        "subcategory_bm": "Survei Tenaga Buruh",
+        "category_opendosm" : "LABOUR",
+        "category_opendosm_en" : "Labour Markets",
+        "category_opendosm_bm" : "Pasaran Buruh",
+        "subcategory_opendosm" : "LABOUR_LFS",
+        "subcategory_opendosm_en" : "Labour Force Survey",
+        "subcategory_opendosm_bm" : "Survei Tenaga Buruh",
+        "description": {
+            "en": "Quarterly principal labour force statistics based, including employment, unemployment, and participation.",
+            "bm": "Statistik suku tahunan utama berkaitan tenaga buruh, termasuk guna tenaga, pengangguran, dan penyertaan."
+        },
+        "link_parquet": "https://storage.dosm.gov.my/labour/labourforce_quarterly.parquet",
+        "link_csv": "https://storage.dosm.gov.my/labour/labourforce_quarterly.csv",
+        "link_preview": "https://storage.dosm.gov.my/labour/labourforce_quarterly.parquet",
+        "variables": [
+            {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] The date in YYYY-MM-DD format, with MM taking the value of the first month of the quarter (1, 4, 7, or 10), and DD set to 01,",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM mengambil nilai bulan pertama dalam suku tahun tersebut (1, 4, 7, atau 10), dan DD diberi nilai 01"
+            },
+            {
+                "id": -1,
+                "name": "lf_size",
+                "title_en": "Labour Force Size",
+                "title_bm": "Tenaga Buruh",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
+            },
+            {
+                "id": -1,
+                "name": "employed",
+                "title_en": "Employed Persons",
+                "title_bm": "Bekerja",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
+            },
+            {
+                "id": -1,
+                "name": "unemployed",
+                "title_en": "Unemployed Persons",
+                "title_bm": "Penganggur",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
+            },
+            {
+                "id": -1,
+                "name": "outside",
+                "title_en": "Persons Outside Labour Force",
+                "title_bm": "Luar Tenaga Buruh",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
+            },
+            {
+                "id": -1,
+                "name": "u_rate",
+                "title_en": "Unemployment Rate",
+                "title_bm": "Kadar Pengangguran",
+                "desc_en": "[Float] Ratio of unemployed to labour force size",
+                "desc_bm": "[Apung] Nisbah jumlah penganggur ke bilangan tenaga buruh"
+            },
+            {
+                "id": -1,
+                "name": "p_rate",
+                "title_en": "Participation Rate",
+                "title_bm": "Kadar Penyertaan",
+                "desc_en": "[Float] Ratio of the labour force size to the working age population",
+                "desc_bm": "[Apung] Nisbah jumlah tenaga buruh ke jumlah penduduk umur bekerja"
+            },
+            {
+                "id": -1,
+                "name": "ep_ratio",
+                "title_en": "Employment-Population Ratio",
+                "title_bm": "Nisbah Guna Tenaga kepada Penduduk",
+                "desc_en": "[Float] Ratio of the labour force size to the population",
+                "desc_bm": "[Apung] Nisbah jumlah tenaga buruh ke jumlah penduduk"
+            },
+            {
+                "id": -1,
+                "name": "underemployed_time",
+                "title_en": "Underemployed (Time-related)",
+                "title_bm": "Guna Tenaga Tidak Penuh (berkaitan masa)",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
+            },
+            {
+                "id": -1,
+                "name": "underemployed_time_male",
+                "title_en": "Underemployed (Time-related) > Male",
+                "title_bm": "Guna Tenaga Tidak Penuh (berkaitan masa) > Lelaki",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
+            },
+            {
+                "id": -1,
+                "name": "underemployed_time_female",
+                "title_en": "Underemployed (Time-related) > Female",
+                "title_bm": "Guna Tenaga Tidak Penuh (berkaitan masa) > Perempuan",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
+            },
+            {
+                "id": -1,
+                "name": "underemployed_time_15_24",
+                "title_en": "Underemployed (Time-related) > 15-24",
+                "title_bm": "Guna Tenaga Tidak Penuh (berkaitan masa) > 15-24",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
+            },
+            {
+                "id": -1,
+                "name": "underemployed_time_25_34",
+                "title_en": "Underemployed (Time-related) > 25-34",
+                "title_bm": "Guna Tenaga Tidak Penuh (berkaitan masa) > 25-34",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
+            },
+            {
+                "id": -1,
+                "name": "underemployed_time_35_44",
+                "title_en": "Underemployed (Time-related) > 35-44",
+                "title_bm": "Guna Tenaga Tidak Penuh (berkaitan masa) > 35-44",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
+            },
+            {
+                "id": -1,
+                "name": "underemployed_time_45",
+                "title_en": "Underemployed (Time-related) > 45+",
+                "title_bm": "Guna Tenaga Tidak Penuh (berkaitan masa) > 45+",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
+            },
+            {
+                "id": -1,
+                "name": "underemployed_skill",
+                "title_en": "Underemployed (Skills-related)",
+                "title_bm": "Guna Tenaga Tidak Penuh (berkaitan kemahiran)",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
+            },
+            {
+                "id": -1,
+                "name": "underemployed_skill_male",
+                "title_en": "Underemployed (Skills-related) > Male",
+                "title_bm": "Guna Tenaga Tidak Penuh (berkaitan kemahiran) > Lelaki",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
+            },
+            {
+                "id": -1,
+                "name": "underemployed_skill_female",
+                "title_en": "Underemployed (Skills-related) > Female",
+                "title_bm": "Guna Tenaga Tidak Penuh (berkaitan kemahiran) > Perempuan",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
+            },
+            {
+                "id": -1,
+                "name": "underemployed_skill_15_24",
+                "title_en": "Underemployed (Skills-related) > 15-24",
+                "title_bm": "Guna Tenaga Tidak Penuh (berkaitan kemahiran) > 15-24",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
+            },
+            {
+                "id": -1,
+                "name": "underemployed_skill_25_34",
+                "title_en": "Underemployed (Skills-related) > 25-34",
+                "title_bm": "Guna Tenaga Tidak Penuh (berkaitan kemahiran) > 25-34",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
+            },
+            {
+                "id": -1,
+                "name": "underemployed_skill_35_44",
+                "title_en": "Underemployed (Skills-related) > 35-44",
+                "title_bm": "Guna Tenaga Tidak Penuh (berkaitan kemahiran) > 35-44",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
+            },
+            {
+                "id": -1,
+                "name": "underemployed_skill_45",
+                "title_en": "Underemployed (Skills-related) > 45+",
+                "title_bm": "Guna Tenaga Tidak Penuh (berkaitan kemahiran) > 45+",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
+            },
+            {
+                "id": 0,
+                "name": "Labour Force Survey (Quarterly)",
+                "title_en": "Labour Force Survey (Quarterly)",
+                "title_bm": "Survei Tenaga Buruh (Suku Tahunan)",
+                "desc_en": "Quarterly principal labour force statistics based, including employment, unemployment, and participation.",
+                "desc_bm": "Statistik suku tahunan utama berkaitan tenaga buruh, termasuk guna tenaga, pengangguran, dan penyertaan.",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "QUARTERLY",
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2010",
+                        "end": "2023",
+                        "data_source": [
+                            "DOSM"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2022-06-30 23:59",
+                        "last_updated": "2023-08-10 12:00",
+                        "next_update": "2023-11-08 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
+                            "caveat": "The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
+                            "publication": "[Labour Force Report, June 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-06_labour_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market)."
+                        },
+                        "bm": {
+                            "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
+                            "caveat": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
+                            "publication": "[Laporan Tenaga Buruh, Jun 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-06_labour_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market)."
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TABLE",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 1
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "exclude": [],
+                            "freeze": []
+                        }
+                    },
+                    "dataviz": [],
+                    "translations": {
+                        "en": {
+                            "date": "Date",
+                            "lf_size": "Labour Force Size",
+                            "employed": "Employed Persons",
+                            "unemployed": "Unemployed Persons",
+                            "outside": "Persons Outside Labour Force",
+                            "u_rate": "Unemployment Rate",
+                            "p_rate": "Participation Rate",
+                            "ep_ratio": "Employment-Population Ratio",
+                            "underemployed_time": "Underemployed (Time-related)",
+                            "underemployed_time_male": "Underemployed (Time-related) > Male",
+                            "underemployed_time_female": "Underemployed (Time-related) > Female",
+                            "underemployed_time_15_24": "Underemployed (Time-related) > 15-24",
+                            "underemployed_time_25_34": "Underemployed (Time-related) > 25-34",
+                            "underemployed_time_35_44": "Underemployed (Time-related) > 35-44",
+                            "underemployed_time_45": "Underemployed (Time-related) > 45+",
+                            "underemployed_skill": "Underemployed (Skills-related)",
+                            "underemployed_skill_male": "Underemployed (Skills-related) > Male",
+                            "underemployed_skill_female": "Underemployed (Skills-related) > Female",
+                            "underemployed_skill_15_24": "Underemployed (Skills-related) > 15-24",
+                            "underemployed_skill_25_34": "Underemployed (Skills-related) > 25-34",
+                            "underemployed_skill_35_44": "Underemployed (Skills-related) > 35-44",
+                            "underemployed_skill_45": "Underemployed (Skills-related) > 45+"
+                        },
+                        "bm": {
+                            "date": "Tarikh",
+                            "lf_size": "Tenaga Buruh",
+                            "employed": "Bekerja",
+                            "unemployed": "Penganggur",
+                            "outside": "Luar Tenaga Buruh",
+                            "u_rate": "Kadar Pengangguran",
+                            "p_rate": "Kadar Penyertaan",
+                            "ep_ratio": "Nisbah Guna Tenaga kepada Penduduk",
+                            "underemployed_time": "Guna Tenaga Tidak Penuh (berkaitan masa)",
+                            "underemployed_time_male": "Guna Tenaga Tidak Penuh (berkaitan masa) > Lelaki",
+                            "underemployed_time_female": "Guna Tenaga Tidak Penuh (berkaitan masa) > Perempuan",
+                            "underemployed_time_15_24": "Guna Tenaga Tidak Penuh (berkaitan masa) > 15-24",
+                            "underemployed_time_25_34": "Guna Tenaga Tidak Penuh (berkaitan masa) > 25-34",
+                            "underemployed_time_35_44": "Guna Tenaga Tidak Penuh (berkaitan masa) > 35-44",
+                            "underemployed_time_45": "Guna Tenaga Tidak Penuh (berkaitan masa) > 45+",
+                            "underemployed_skill": "Guna Tenaga Tidak Penuh (berkaitan kemahiran)",
+                            "underemployed_skill_male": "Guna Tenaga Tidak Penuh (berkaitan kemahiran) > Lelaki",
+                            "underemployed_skill_female": "Guna Tenaga Tidak Penuh (berkaitan kemahiran) > Perempuan",
+                            "underemployed_skill_15_24": "Guna Tenaga Tidak Penuh (berkaitan kemahiran) > 15-24",
+                            "underemployed_skill_25_34": "Guna Tenaga Tidak Penuh (berkaitan kemahiran) > 25-34",
+                            "underemployed_skill_35_44": "Guna Tenaga Tidak Penuh (berkaitan kemahiran) > 35-44",
+                            "underemployed_skill_45": "Guna Tenaga Tidak Penuh (berkaitan kemahiran) > 45+"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
