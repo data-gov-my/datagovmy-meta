@@ -23,6 +23,8 @@
       "title": "Dashboards"
     },
     "usage": "Usage of KKMNOW",
+    "daily": "Daily",
+    "total": "Total",
     "views": "Views",
     "downloads": "Data Downloads"
   }
