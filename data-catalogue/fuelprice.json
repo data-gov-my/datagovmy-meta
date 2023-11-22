@@ -7,7 +7,7 @@
         "category": "PRICES",
         "category_en": "Prices",
         "category_bm": "Harga",
-		"subcategory": "COMPRICES",
+		"subcategory": "PRICES_COMMODITY",
 		"subcategory_en": "Commodity Prices",
 		"subcategory_bm": "Harga Komoditi",
 		"description": {
@@ -60,11 +60,11 @@
 			},
 			{
 				"id": 0,
-				"name": "fuelprice_table",
-				"title_en": "Fuel Price Table",
-				"title_bm": "Jadual Harga Fuel",
-				"desc_en": "This is the description for fuel price table.",
-				"desc_bm": "Ini adalah description untuk jadual harge fuel.",
+				"name": "fuelprice",
+				"title_en": "Price of Petroleum & Diesel",
+				"title_bm": "Harga Petrol & Diesel",
+				"desc_en": "Weekly retail prices of RON95 petrol, RON97 petrol, and diesel in Malaysia.",
+				"desc_bm": "Harga runcit mingguan bagi petrol RON95, petrol RON97 dan diesel di Malaysia.",
 				"catalog_data": {
 					"catalog_filters": {
 						"frequency": "WEEKLY",
