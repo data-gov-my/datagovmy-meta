@@ -16,12 +16,6 @@
 		"subcategory_opendosm": "POPULATION",
 		"subcategory_opendosm_en": "Population",
 		"subcategory_opendosm_bm": "Penduduk",
-		"category_kkm": "DEMO-KKM",
-		"category_kkm_en": "Demography KKM",
-		"category_kkm_bm": "Demografi KKM",
-		"subcategory_kkm": "POPULATION-KKM",
-		"subcategory_kkm_en": "Population KKM",
-		"subcategory_kkm_bm": "Penduduk KKM",
 		"description": {
 			"en": "This dataset tabulates the population of Malaysia at administrative district level, by sex, ethnicity, and 5-year age group, from 2020 to 2023.",
 			"bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat daerah pentadbiran, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023."
