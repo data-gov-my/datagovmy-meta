@@ -22,7 +22,7 @@
         },
         "link_parquet": "https://storage.data.gov.my/finsector/exchangerates.parquet",
         "link_csv": "https://storage.data.gov.my/finsector/exchangerates.csv",
-        "link_preview": "https://storage.data.gov.my/finsector/exchangerates.parquet",
+        "link_preview": "https://storage.data.gov.my/finsector/exchangerates_preview.parquet",
         "variables": [
             {
                 "id": -1,
@@ -273,7 +273,24 @@
                             "freeze": []
                         }
                     },
-                    "dataviz": [],
+                    "dataviz": [
+						{
+							"translation_key": "usa",
+							"chart_type": "TIMESERIES",
+							"chart_filters": {
+								"SLICE_BY": [],
+								"precision": 2
+							},
+							"chart_variables": {
+								"parents": [],
+								"operation": "SUM",
+								"format": {
+									"x": "date",
+									"y": ["myr_usd"]
+								}
+							}
+						}
+                    ],
                     "translations": {
                         "en": {
                             "date": "Date",
