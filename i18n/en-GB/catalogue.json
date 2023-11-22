@@ -1,8 +1,10 @@
 {
 	"route": null,
-	"sites": ["datagovmy", "opendosm"],
+	"sites": ["datagovmy", "opendosm", "kkmnow"],
 	"translation": {
 		"header": "Data Catalogue",
+    "header_category_govt": "Malaysia's official open data portal",
+    "header_category_agency": "{{ agency }}'s official open data portal",
 		"description": "Your one-stop interface to browse Malaysia's wealth of open data. This page will consistently grow in depth and breadth with high-quality data from federal and state agencies in Malaysia.",
 		"description_agency": "Your one-stop interface to browse {{ agency }}'s wealth of open data. This page will consistently will grow in depth and breadth, providing richer and more varied data from {{ agency }}.",
 		"description_opendosm": "Your one-stop interface to browse our wealth of open data. This page will consistently grow in depth and breadth, providing richer and more varied data from the various divisions of DOSM.",
