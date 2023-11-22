@@ -1,0 +1,354 @@
+{
+    "file": {
+        "manual_trigger": "na",
+        "exclude_openapi": false,
+        "bucket": "finsector",
+        "file_name": "exchangerates",
+        "category": "FINSECTOR",
+        "category_en": "Financial Sector",
+        "category_bm": "Sektor Kewangan",
+        "subcategory": "FINMKT",
+        "subcategory_en": "Financial Markets",
+        "subcategory_bm": "Pasaran Kewangan",
+        "category_opendosm" : "FINSECTOR",
+        "category_opendosm_en" : "Financial Sector",
+        "category_opendosm_bm" : "Sektor Kewangan",
+        "subcategory_opendosm" : "FINMKT",
+        "subcategory_opendosm_en" : "Financial Markets",
+        "subcategory_opendosm_bm" : "Pasaran Kewangan",
+        "description": {
+            "en": "Rates of exchange of the Malaysian Ringgit vis-\u00e0-vis major trading partners.",
+            "bm": "Kadar pertukaran ringgit Malaysia berbanding rakan dagang utama."
+        },
+        "link_parquet": "https://storage.data.gov.my/finsector/exchangerates.parquet",
+        "link_csv": "https://storage.data.gov.my/finsector/exchangerates.csv",
+        "link_preview": "https://storage.data.gov.my/finsector/exchangerates_preview.parquet",
+        "variables": [
+            {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] The date in YYYY-MM-DD format",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+            },
+            {
+                "id": -1,
+                "name": "myr_usd",
+                "title_en": "USA",
+                "title_bm": "AS",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to USD",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke USD"
+            },
+            {
+                "id": -1,
+                "name": "myr_rmb",
+                "title_en": "China",
+                "title_bm": "China",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to RMB",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke RMB"
+            },
+            {
+                "id": -1,
+                "name": "myr_sgd",
+                "title_en": "Singapore",
+                "title_bm": "Singapura",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to SGD",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke SGD"
+            },
+            {
+                "id": -1,
+                "name": "myr_eur",
+                "title_en": "Euro Area",
+                "title_bm": "Kawasan Euro",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to EUR",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke EUR"
+            },
+            {
+                "id": -1,
+                "name": "myr_jpy",
+                "title_en": "Japan",
+                "title_bm": "Japan",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to JPY",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke JPY"
+            },
+            {
+                "id": -1,
+                "name": "myr_twd",
+                "title_en": "Chinese Taipei",
+                "title_bm": "China Taipei",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to TWD",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke TWD"
+            },
+            {
+                "id": -1,
+                "name": "myr_thb",
+                "title_en": "Thailand",
+                "title_bm": "Thailand",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to THB",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke THB"
+            },
+            {
+                "id": -1,
+                "name": "myr_idr",
+                "title_en": "Indonesia",
+                "title_bm": "Indonesia",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to IDR",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke IDR"
+            },
+            {
+                "id": -1,
+                "name": "myr_hkd",
+                "title_en": "Hong Kong SAR",
+                "title_bm": "Hong Kong SAR",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to HKD",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke HKD"
+            },
+            {
+                "id": -1,
+                "name": "myr_krw",
+                "title_en": "South Korea",
+                "title_bm": "Korea Selatan",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to KRW",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke KRW"
+            },
+            {
+                "id": -1,
+                "name": "myr_vnd",
+                "title_en": "Vietnam",
+                "title_bm": "Vietnam",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to VND",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke VND"
+            },
+            {
+                "id": -1,
+                "name": "myr_inr",
+                "title_en": "India",
+                "title_bm": "India",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to INR",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke INR"
+            },
+            {
+                "id": -1,
+                "name": "myr_aud",
+                "title_en": "Australia",
+                "title_bm": "Australia",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to AUD",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke AUD"
+            },
+            {
+                "id": -1,
+                "name": "myr_php",
+                "title_en": "Philippines",
+                "title_bm": "Filipina",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to PHP",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke PHP"
+            },
+            {
+                "id": -1,
+                "name": "myr_aed",
+                "title_en": "UAE",
+                "title_bm": "Emiriah Arab Bersatu",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to AED",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke AED"
+            },
+            {
+                "id": -1,
+                "name": "myr_sar",
+                "title_en": "Saudi Arabia",
+                "title_bm": "Arab Saudi",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to SAR",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke SAR"
+            },
+            {
+                "id": -1,
+                "name": "myr_try",
+                "title_en": "Turkey",
+                "title_bm": "Turki",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to TRY",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke TRY"
+            },
+            {
+                "id": -1,
+                "name": "myr_gbp",
+                "title_en": "UK",
+                "title_bm": "UK",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to GBP",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke GBP"
+            },
+            {
+                "id": -1,
+                "name": "myr_brl",
+                "title_en": "Brazil",
+                "title_bm": "Brazil",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to BRL",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke BRL"
+            },
+            {
+                "id": -1,
+                "name": "myr_mxn",
+                "title_en": "Mexico",
+                "title_bm": "Mexico",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to MXN",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke MXN"
+            },
+            {
+                "id": -1,
+                "name": "myr_bdt",
+                "title_en": "Bangladesh",
+                "title_bm": "Bangladesh",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to BDT",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke BDT"
+            },
+            {
+                "id": -1,
+                "name": "myr_chf",
+                "title_en": "Switzerland",
+                "title_bm": "Switzerland",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to CHF",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke CHF"
+            },
+            {
+                "id": -1,
+                "name": "myr_cad",
+                "title_en": "Canada",
+                "title_bm": "Kanada",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to CAD",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke CAD"
+            },
+            {
+                "id": -1,
+                "name": "myr_rub",
+                "title_en": "Russia",
+                "title_bm": "Rusia",
+                "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to RUB",
+                "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke RUB"
+            },
+            {
+                "id": 0,
+                "name": "Exchange Rates",
+                "title_en": "Exchange Rates",
+                "title_bm": "Kadar Pertukaran Wang Asing",
+                "desc_en": "Rates of exchange of the Malaysian Ringgit vis-\u00e0-vis major trading partners.",
+                "desc_bm": "Kadar pertukaran ringgit Malaysia berbanding rakan dagang utama.",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "geography": [
+                            "NATIONAL"
+                        ],
+                        "demography": [],
+                        "start": "2003",
+                        "end": "2023",
+                        "data_source": [
+                            "MAMPU"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-11-21 23:59",
+                        "last_updated": "2023-11-22 04:00",
+                        "next_update": "2023-11-23 04:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
+                            "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                            "publication": "\u2014"
+                        },
+                        "bm": {
+                            "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
+                            "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                            "publication": "\u2014"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TABLE",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 2
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "exclude": [],
+                            "freeze": []
+                        }
+                    },
+                    "dataviz": [
+						{
+							"translation_key": "usa",
+							"chart_type": "TIMESERIES",
+							"chart_filters": {
+								"SLICE_BY": [],
+								"precision": 2
+							},
+							"chart_variables": {
+								"parents": [],
+								"operation": "SUM",
+								"format": {
+									"x": "date",
+									"y": ["myr_usd"]
+								}
+							}
+						}
+                    ],
+                    "translations": {
+                        "en": {
+                            "date": "Date",
+                            "myr_usd": "USA",
+                            "myr_rmb": "China",
+                            "myr_sgd": "Singapore",
+                            "myr_eur": "Euro Area",
+                            "myr_jpy": "Japan",
+                            "myr_twd": "Chinese Taipei",
+                            "myr_thb": "Thailand",
+                            "myr_idr": "Indonesia",
+                            "myr_hkd": "Hong Kong SAR",
+                            "myr_krw": "South Korea",
+                            "myr_vnd": "Vietnam",
+                            "myr_inr": "India",
+                            "myr_aud": "Australia",
+                            "myr_php": "Philippines",
+                            "myr_aed": "UAE",
+                            "myr_sar": "Saudi Arabia",
+                            "myr_try": "Turkey",
+                            "myr_gbp": "UK",
+                            "myr_brl": "Brazil",
+                            "myr_mxn": "Mexico",
+                            "myr_bdt": "Bangladesh",
+                            "myr_chf": "Switzerland",
+                            "myr_cad": "Canada",
+                            "myr_rub": "Russia"
+                        },
+                        "bm": {
+                            "date": "Tarikh",
+                            "myr_usd": "AS",
+                            "myr_rmb": "China",
+                            "myr_sgd": "Singapura",
+                            "myr_eur": "Kawasan Euro",
+                            "myr_jpy": "Japan",
+                            "myr_twd": "China Taipei",
+                            "myr_thb": "Thailand",
+                            "myr_idr": "Indonesia",
+                            "myr_hkd": "Hong Kong SAR",
+                            "myr_krw": "Korea Selatan",
+                            "myr_vnd": "Vietnam",
+                            "myr_inr": "India",
+                            "myr_aud": "Australia",
+                            "myr_php": "Filipina",
+                            "myr_aed": "Emiriah Arab Bersatu",
+                            "myr_sar": "Arab Saudi",
+                            "myr_try": "Turki",
+                            "myr_gbp": "UK",
+                            "myr_brl": "Brazil",
+                            "myr_mxn": "Mexico",
+                            "myr_bdt": "Bangladesh",
+                            "myr_chf": "Switzerland",
+                            "myr_cad": "Kanada",
+                            "myr_rub": "Rusia"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

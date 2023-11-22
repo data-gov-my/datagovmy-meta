@@ -1,151 +1,184 @@
 {
-	"dashboard_name": "covid_vax",
-	"data_last_updated": "2023-06-01 23:59",
-	"route": "/dashboard/covid-vaccination,/ms-MY/dashboard/covid-vaccination",
-	"sites": ["kkmnow"],
-	"manual_trigger": "0",
-	"required_params": ["state"],
-	"optional_params": [],
-	"charts": {
-		"bar_chart": {
-			"name": "bar_chart",
-			"chart_type": "bar_meter",
-			"chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidvax_01_waffle.parquet",
-			"data_as_of": "2023-04-03 23:59",
-			"api_type": "dynamic",
-			"api_params": ["state"],
-			"variables": {
-				"axis_values": [
-					{
-						"age_group": "value"
-					}
-				],
-				"keys": ["state", "dose"],
-				"filter": {
-					"age_group": [
-						"0-4",
-						"5-11",
-						"12-17",
-						"18-29",
-						"30-39",
-						"40-49",
-						"50-59",
-						"60-69",
-						"70-79",
-						"80+"
-					],
-					"metric": ["perc"]
-				}
-			}
-		},
-		"snapshot": {
-			"name": "snapshot",
-			"chart_type": "snapshot_chart",
-			"chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidvax_03_snapshot.parquet",
-			"data_as_of": "2023-04-03 23:59",
-			"api_type": "static",
-			"api_params": [],
-			"variables": {
-				"main_key": "state",
-				"replace_word": "perc",
-				"data": {
-					"total": [
-						"total_booster1",
-						"total_booster2",
-						"total_dose1",
-						"total_dose2"
-					],
-					"adol": [
-						"adol_booster1",
-						"adol_booster2",
-						"adol_dose1",
-						"adol_dose2"
-					],
-					"child": [
-						"child_booster1",
-						"child_booster2",
-						"child_dose1",
-						"child_dose2"
-					],
-					"adult": [
-						"adult_booster1",
-						"adult_booster2",
-						"adult_dose1",
-						"adult_dose2"
-					]
-				}
-			}
-		},
-		"statistics": {
-			"name": "statistics",
-			"chart_type": "custom_chart",
-			"chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidvax_02_timeseries_keystats.parquet",
-			"data_as_of": "2023-04-03 23:59",
-			"api_type": "dynamic",
-			"api_params": ["state"],
-			"variables": {
-				"keys": ["state", "chart_type"],
-				"value_columns": ["latest", "total"]
-			}
-		},
-		"timeseries": {
-			"name": "timeseries",
-			"chart_type": "timeseries_chart",
-			"chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidvax_02_timeseries.parquet",
-			"data_as_of": "2023-04-03 23:59",
-			"api_type": "dynamic",
-			"api_params": ["state"],
-			"variables": {
-				"keys": ["state", "frequency"],
-				"rename_cols": {
-					"date": "x",
-					"daily": "y",
-					"daily_primary": "primary",
-					"daily_booster": "booster",
-					"daily_booster2": "booster2",
-					"daily_adult": "adult",
-					"daily_adol": "adol",
-					"daily_child": "child"
-				},
-				"value_columns": [
-					"x",
-					"y",
-					"primary",
-					"booster",
-					"booster2",
-					"adult",
-					"adol",
-					"child"
-				]
-			}
-		},
-		"waffle": {
-			"name": "waffle",
-			"chart_type": "waffle_chart",
-			"chart_source": "https://dgmy-public-dashboards.s3.ap-southeast-1.amazonaws.com/covidvax_01_waffle.parquet",
-			"data_as_of": "2023-04-03 23:59",
-			"api_type": "dynamic",
-			"api_params": ["state"],
-			"variables": {
-				"filter": {
-					"age_group": [
-						"adult",
-						"child",
-						"elderly",
-						"adolescent",
-						"total"
-					]
-				},
-				"keys": ["state", "age_group", "dose"],
-				"dict_keys": ["metric", "value"],
-				"data_arr": {
-					"id": "dose",
-					"label": "dose",
-					"value": {
-						"metric": "perc"
-					}
-				}
-			}
-		}
-	}
+    "dashboard_name": "covid_vax",
+    "data_last_updated": "2023-11-22 01:00",
+    "route": "/dashboard/covid-vaccination,/ms-MY/dashboard/covid-vaccination",
+    "sites": [
+        "kkmnow"
+    ],
+    "manual_trigger": "2023-11-22 06:53:16.73531",
+    "required_params": [
+        "state"
+    ],
+    "optional_params": [],
+    "charts": {
+        "bar_chart": {
+            "name": "bar_chart",
+            "chart_type": "bar_meter",
+            "chart_source": "https://storage.data.gov.my/dashboards/covidvax_waffle.parquet",
+            "data_as_of": "2023-11-21 23:59",
+            "api_type": "dynamic",
+            "api_params": [
+                "state"
+            ],
+            "variables": {
+                "axis_values": [
+                    {
+                        "age_group": "value"
+                    }
+                ],
+                "keys": [
+                    "state",
+                    "dose"
+                ],
+                "filter": {
+                    "age_group": [
+                        "0-4",
+                        "5-11",
+                        "12-17",
+                        "18-29",
+                        "30-39",
+                        "40-49",
+                        "50-59",
+                        "60-69",
+                        "70-79",
+                        "80+"
+                    ],
+                    "metric": [
+                        "perc"
+                    ]
+                }
+            }
+        },
+        "snapshot": {
+            "name": "snapshot",
+            "chart_type": "snapshot_chart",
+            "chart_source": "https://storage.data.gov.my/dashboards/covidvax_snapshot.parquet",
+            "data_as_of": "2023-11-21 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "main_key": "state",
+                "replace_word": "perc",
+                "data": {
+                    "total": [
+                        "total_booster1",
+                        "total_booster2",
+                        "total_dose1",
+                        "total_dose2"
+                    ],
+                    "adol": [
+                        "adol_booster1",
+                        "adol_booster2",
+                        "adol_dose1",
+                        "adol_dose2"
+                    ],
+                    "child": [
+                        "child_booster1",
+                        "child_booster2",
+                        "child_dose1",
+                        "child_dose2"
+                    ],
+                    "adult": [
+                        "adult_booster1",
+                        "adult_booster2",
+                        "adult_dose1",
+                        "adult_dose2"
+                    ]
+                }
+            }
+        },
+        "statistics": {
+            "name": "statistics",
+            "chart_type": "custom_chart",
+            "chart_source": "https://storage.data.gov.my/dashboards/covidvax_timeseries_keystats.parquet",
+            "data_as_of": "2023-11-21 23:59",
+            "api_type": "dynamic",
+            "api_params": [
+                "state"
+            ],
+            "variables": {
+                "keys": [
+                    "state",
+                    "chart_type"
+                ],
+                "value_columns": [
+                    "latest",
+                    "total"
+                ]
+            }
+        },
+        "timeseries": {
+            "name": "timeseries",
+            "chart_type": "timeseries_chart",
+            "chart_source": "https://storage.data.gov.my/dashboards/covidvax_timeseries.parquet",
+            "data_as_of": "2023-11-21 23:59",
+            "api_type": "dynamic",
+            "api_params": [
+                "state"
+            ],
+            "variables": {
+                "keys": [
+                    "state",
+                    "frequency"
+                ],
+                "rename_cols": {
+                    "date": "x",
+                    "daily": "y",
+                    "daily_primary": "primary",
+                    "daily_booster": "booster",
+                    "daily_booster2": "booster2",
+                    "daily_adult": "adult",
+                    "daily_adol": "adol",
+                    "daily_child": "child"
+                },
+                "value_columns": [
+                    "x",
+                    "y",
+                    "primary",
+                    "booster",
+                    "booster2",
+                    "adult",
+                    "adol",
+                    "child"
+                ]
+            }
+        },
+        "waffle": {
+            "name": "waffle",
+            "chart_type": "waffle_chart",
+            "chart_source": "https://storage.data.gov.my/dashboards/covidvax_waffle.parquet",
+            "data_as_of": "2023-11-21 23:59",
+            "api_type": "dynamic",
+            "api_params": [
+                "state"
+            ],
+            "variables": {
+                "filter": {
+                    "age_group": [
+                        "adult",
+                        "child",
+                        "elderly",
+                        "adolescent",
+                        "total"
+                    ]
+                },
+                "keys": [
+                    "state",
+                    "age_group",
+                    "dose"
+                ],
+                "dict_keys": [
+                    "metric",
+                    "value"
+                ],
+                "data_arr": {
+                    "id": "dose",
+                    "label": "dose",
+                    "value": {
+                        "metric": "perc"
+                    }
+                }
+            }
+        }
+    }
 }

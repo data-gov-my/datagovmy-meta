@@ -75,8 +75,20 @@
             "annot2": "Positivity Rate (%)"
         },
         "utilisation_of": "{{ param }} Utilisation",
+        "table_header": "A snapshot of the latest indicators",
+        "table_subheader": "Summary",
+        "tab_table1": "Show All",
         "tab_table2": "Deaths",
         "tab_table4": "Cases",
+        "past14d": "Past 14d",
+        "table_death": "Death",
+        "table_death_trend": "Deaths Trend",
+        "table_admission": "Hospital Admissions",
+        "table_admission_util": "Hospital Bed Utilisation",
+        "table_admission_trend": "Admissions Trend",
+        "table_cases": "Cases",
+        "table_cases_posrate": "Positivity Rate",
+        "table_cases_trend": "Cases Trend",
         "opt_cases": "Cases",
         "opt_deaths": "Deaths"
     }

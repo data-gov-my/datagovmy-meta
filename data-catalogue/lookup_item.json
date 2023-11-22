@@ -1,0 +1,137 @@
+{
+    "file": {
+        "manual_trigger": "",
+        "exclude_openapi": true,
+        "bucket": "pricecatcher",
+        "file_name": "lookup_item",
+        "category": "PRICES",
+        "category_en": "Prices",
+        "category_bm": "Harga",
+        "subcategory": "PRICECATCHER",
+        "subcategory_en": "PriceCatcher",
+        "subcategory_bm": "PriceCatcher",
+        "category_opendosm": "PRICES",
+        "category_opendosm_en": "Prices",
+        "category_opendosm_bm": "Harga",
+        "subcategory_opendosm": "PRICECATCHER",
+        "subcategory_opendosm_en": "PriceCatcher",
+        "subcategory_opendosm_bm": "PriceCatcher",
+        "description": {
+            "en": "Lookup table, to be left-joined against item code in the main PriceCatcher data.",
+            "bm": "Jadual carian, untuk dipadankan (left-join) dengan kod barang (item code) dalam dataset PriceCatcher utama."
+        },
+        "link_parquet": "https://storage.data.gov.my/pricecatcher/lookup_item.parquet",
+        "link_csv": "https://storage.data.gov.my/pricecatcher/lookup_item.csv",
+        "link_preview": "https://storage.data.gov.my/pricecatcher/lookup_item_preview.parquet",
+        "variables": [
+            {
+                "id": -1,
+                "name": "item_code",
+                "title_en": "Item Code",
+                "title_bm": "Kod Barang",
+                "desc_en": "[Integer] Column for left-join",
+                "desc_bm": "[Integer] Kolum untuk padanan"
+            },
+            {
+                "id": -1,
+                "name": "item",
+                "title_en": "Item Name",
+                "title_bm": "Nama Barang",
+                "desc_en": "[Categorical] Name of item",
+                "desc_bm": "[Kategori] Nama barang"
+            },
+            {
+                "id": -1,
+                "name": "unit",
+                "title_en": "Unit of Measurement",
+                "title_bm": "Unit Ukuran",
+                "desc_en": "[Categorical] Unit of measurement",
+                "desc_bm": "[Kategori] Unit ukuran"
+            },
+            {
+                "id": -1,
+                "name": "item_group",
+                "title_en": "Item Group",
+                "title_bm": "Kumpulan",
+                "desc_en": "[Categorical] Item group",
+                "desc_bm": "[Kategori] Kumpulan barangan"
+            },
+            {
+                "id": -1,
+                "name": "item_category",
+                "title_en": "Item Category",
+                "title_bm": "Kategori",
+                "desc_en": "[Categorical] Broad category",
+                "desc_bm": "[Kategori] Kategori luas"
+            },
+            {
+                "id": 0,
+                "name": "Item Lookup",
+                "title_en": "Item Lookup",
+                "title_bm": "Jadual Carian Barangan",
+                "desc_en": "Lookup table, to be left-joined against item code in the main PriceCatcher data.",
+                "desc_bm": "Jadual carian, untuk dipadankan (left-join) dengan kod barang (item code) dalam dataset PriceCatcher utama.",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "INFREQUENT",
+                        "geography": [
+                            "DISTRICT"
+                        ],
+                        "demography": [],
+                        "start": "2023",
+                        "end": "2023",
+                        "data_source": [
+                            "KPDN"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-11-09 23:59",
+                        "last_updated": "-",
+                        "next_update": "-"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": " Prices are collected and verified by groundstaff on a daily basis, with over 2 million prices collected every month.",
+                            "caveat": "This data is collected for the purpose of price surveillance, and is excellent for high-frequency analysis of specific items in specific locations. Inflation surveillance requires a different approach, in particular to ensure proper representativeness. Inflation analysis should be conducted using DOSM's CPI data.",
+                            "publication": "\u2014"
+                        },
+                        "bm": {
+                            "methodology": "Harga dipungut dah disahkan oleh staf di lapangan, dengan lebih 2 juta harga dipungut setiap bulan.",
+                            "caveat": "Data ini dipungut bagi tujuan survelan harga, maka amat bersesuaian untuk analisa barangan khusus di lokasi yang khusus, pada frekuensi yang tinggi. Namun, survelan inflasi memerlukan pendekatan yang berbeza bagi memastikan keterwakilan data. Sebarang analisa inflasi harus menggunakan data IHP yang diterbitkan oleh DOSM.",
+                            "publication": "\u2014"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TABLE",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 0
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "exclude": [],
+                            "freeze": []
+                        }
+                    },
+					"dataviz": [],
+                    "translations": {
+                        "en": {
+                            "item_code": "Item Code",
+                            "item": "Item Name",
+                            "unit": "Unit of Measurement",
+                            "item_group": "Item Group",
+                            "item_category": "Item Category"
+                        },
+                        "bm": {
+                            "item_code": "Kod Barangan",
+                            "item": "Nama Barangan",
+                            "unit": "Unit Ukuran",
+                            "item_group": "Kumpulan",
+                            "item_category": "Kategori"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

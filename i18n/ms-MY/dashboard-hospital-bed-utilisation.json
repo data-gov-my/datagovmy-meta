@@ -4,7 +4,33 @@
         "kkmnow"
     ],
     "translation": {
-        "header": "",
-        "description": ""
+        "header": "Penggunaan Katil Hospital",
+        "description": "Penggunaan kapisiti hospital merupakan salah satu indikator paling penting yang dipantau oleh Kementerian Kesihatan Malaysia. Usaha Bahagian Perkembangan Perubatan untuk meningkatkan kecanggihan pelaporan telah membolehkan data penggunaan katil di peringkat hospital didapati dengan segera. Dashboard ini memaparkan data tersebut, dan akan diperkembangan dengan data yang lebih lanjut tentang penggunaan dan peruntukan perkhidmatan di hospital.",
+        "choro_header": "Bagaimanakah penggunaan katil hospital terkini di Malaysia?",
+        "choro_desc": "Data ini diperoleh daripada data penggunaan katil peringkat hospital yang dilaporkan oleh kakitangan setiap hari.",
+        "util_nonicu": "Penggunaan Katil Hospital (%)",
+        "util_icu": "Penggunaan Katil ICU (%)",
+        "util_vent": "Penggunaan Ventilator (%)",
+        "beds_nonicu": "Jumlah Katil Hospital",
+        "beds_icu": "Jumlah Katil ICU",
+        "vent": "Jumlah Ventilator",
+        "state": "Negeri",
+        "name": "Nama",
+        "table_header": "Kadar Penggunaan Katil Mengikut Fasiliti",
+        "table_beds": "Katil Hospital",
+        "table_icu": "Katil ICU",
+        "table_beds_util": "Kadar Penggunaan Katil Hospital",
+        "table_icu_util": "Kadar Penggunaan Katil ICU",
+        "table_noncrit": "Penjagaan bukan kritikal",
+        "table_crit": "Penjagaan kritikal",
+        "timeseries_header": "Cari hospital yang spesifik",
+        "search_facility": "Cari nama hospital",
+        "timeseries_title": "Penggunaan Katil Hospital di {{ facility }}",
+        "timeseries_nonicu": "Penggunaan Katil Hospital",
+        "timeseries_icu": "Penggunaan Katil ICU",
+        "timeseries_vent": "Penggunaan Ventilator",
+        "util_rate": "Kadar Pengggunaan (%)",
+        "utilised": "Digunakan",
+        "available": "Tersedia"
     }
 }

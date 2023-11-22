@@ -3,11 +3,11 @@
 		"manual_trigger": "na",
 		"exclude_openapi": true,
 		"bucket": "commodities",
-		"file_name": "fuelprice_master",
-		"category": "ECONOMY",
-		"category_en": "Economy",
-		"category_bm": "Ekonomi",
-		"subcategory": "COMPRICES",
+		"file_name": "fuelprice",
+        "category": "PRICES",
+        "category_en": "Prices",
+        "category_bm": "Harga",
+		"subcategory": "PRICES_COMMODITY",
 		"subcategory_en": "Commodity Prices",
 		"subcategory_bm": "Harga Komoditi",
 		"description": {
@@ -60,11 +60,11 @@
 			},
 			{
 				"id": 0,
-				"name": "fuelprice_table",
-				"title_en": "Fuel Price Table",
-				"title_bm": "Jadual Harga Fuel",
-				"desc_en": "This is the description for fuel price table.",
-				"desc_bm": "Ini adalah description untuk jadual harge fuel.",
+				"name": "fuelprice",
+				"title_en": "Price of Petroleum & Diesel",
+				"title_bm": "Harga Petrol & Diesel",
+				"desc_en": "Weekly retail prices of RON95 petrol, RON97 petrol, and diesel in Malaysia.",
+				"desc_bm": "Harga runcit mingguan bagi petrol RON95, petrol RON97 dan diesel di Malaysia.",
 				"catalog_data": {
 					"catalog_filters": {
 						"frequency": "WEEKLY",
@@ -76,21 +76,21 @@
 						"data_source": ["MOF"]
 					},
 					"metadata_neutral": {
-						"data_as_of": "2023-09-07 00:01:00",
-						"last_updated": "2023-09-06 23:59:00",
-						"next_update": "2023-09-13 23:59:00"
+                        "data_as_of": "2023-11-16 00:01",
+                        "last_updated": "2023-11-15 23:59",
+                        "next_update": "2023-11-22 23:59"
 					},
 					"metadata_lang": {
-						"en": {
-							"methodology": "This dataset presents the weekly retail price of RON95 petrol, RON97 petrol, and diesel in Malaysia. Since April 2017, the retail price of fuel in Malaysia has been set on a weekly basis (except for a short period at the end of 2018 where it was announced monthly) using the Automatic Pricing Mechanism (APM). Prior to that, it changed at a monthly (or longer) frequency. The APM is designed to allow the government to monitor the effects of changes in global crude oil prices and adjust retail fuel prices to ensure the continued welfare of the rakyat.",
-							"caveat": "Beginning 3 March 2021, the announcement of fuel prices was changed from Fridays to Wednesdays. Furthermore, because petrol and diesel prices are controlled by the government, they were not affected in the same way as non-price controlled items by the zero-rating of GST on 1 June 2018, and the subsequent implementation of SST 1 September 2018.",
-							"publication": "[MoF's weekly press statement](https://www.mof.gov.my/portal/en/news/press-release/retail-price/retail-price-of-petroleum-products-from-7-september-2023-to-13-september-2023) on the retail price of petroleum products."
-						},
-						"bm": {
-							"methodology": "Data ini memaparkan harga runcit mingguan bagi petrol RON95, petrol RON97 dan diesel di Malaysia. Sejak April 2017, harga runcit petrol di Malaysia telah ditetapkan pada kadar mingguan (kecuali setempoh di hujung tahun 2018 ketika harga diumumkan secara bulanan) dengan menggunakan formula Mekanisme Harga Automatik (APM). Sebelum itu, ia berubah pada kadar bulanan (atau kurang kerap lagi). Formula APM dikhususkan untuk memboleh kerajaan memantau kesan perubahan harga minyak mentah global dan mengambil langkah bersesuain bagi memasitikan kebajikan rakyat terus terpelihara.",
-							"caveat": "Bermula 3 Mac 2021, pengumuman harga petrol dan diesel diubah dari hari Jumaat ke hari Rabu. Tambahan lagi, sekiranya ada melakukan analisis yang melibatkan data 2018, perlu diingati bahawa harga petrol dan diesel di Malaysia dikawal oleh kerajaan, maka harganya tidak berubahan seperti barangan lain yang tidak dikawal harga semasa kadar GST disifarkan pada 1 Jun 2018 dan seterusnya apabila SST berkuatkuasa pada 1 September 2018.",
-							"publication": "[Siaran akhbar mingguan MoF](https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-minyak/harga-runcit-produk-petroleum-bagi-tempoh-7-september-2023-hingga-13-september-2023) mengenai harga runcit produk petroleum."
-						}
+                        "en": {
+                            "methodology": "This dataset presents the weekly retail price of RON95 petrol, RON97 petrol, and diesel in Malaysia. Since April 2017, the retail price of fuel in Malaysia has been set on a weekly basis (except for a short period at the end of 2018 where it was announced monthly) using the Automatic Pricing Mechanism (APM). Prior to that, it changed at a monthly (or longer) frequency. The APM is designed to allow the government to monitor the effects of changes in global crude oil prices and adjust retail fuel prices to ensure the continued welfare of the rakyat.",
+                            "caveat": "Beginning 3 March 2021, the announcement of fuel prices was changed from Fridays to Wednesdays. Furthermore, because petrol and diesel prices are controlled by the government, they were not affected in the same way as non-price controlled items by the zero-rating of GST on 1 June 2018, and the subsequent implementation of SST 1 September 2018.",
+                            "publication": "[MoF's weekly press statement](https://www.mof.gov.my/portal/en/component/tags/tag/price-of-petroleum) on the retail price of petroleum products."
+                        },
+                        "bm": {
+                            "methodology": "Data ini memaparkan harga runcit mingguan bagi petrol RON95, petrol RON97 dan diesel di Malaysia. Sejak April 2017, harga runcit petrol di Malaysia telah ditetapkan pada kadar mingguan (kecuali setempoh di hujung tahun 2018 ketika harga diumumkan secara bulanan) dengan menggunakan formula Mekanisme Harga Automatik (APM). Sebelum itu, ia berubah pada kadar bulanan (atau kurang kerap lagi). Formula APM dikhususkan untuk memboleh kerajaan memantau kesan perubahan harga minyak mentah global dan mengambil langkah bersesuain bagi memasitikan kebajikan rakyat terus terpelihara.",
+                            "caveat": "Bermula 3 Mac 2021, pengumuman harga petrol dan diesel diubah dari hari Jumaat ke hari Rabu. Tambahan lagi, sekiranya ada melakukan analisis yang melibatkan data 2018, perlu diingati bahawa harga petrol dan diesel di Malaysia dikawal oleh kerajaan, maka harganya tidak berubahan seperti barangan lain yang tidak dikawal harga semasa kadar GST disifarkan pada 1 Jun 2018 dan seterusnya apabila SST berkuatkuasa pada 1 September 2018.",
+                            "publication": "[Siaran akhbar mingguan MoF](https://www.mof.gov.my/portal/ms/component/tags/tag/price-of-petroleum) mengenai harga runcit produk petroleum."
+                        }
 					},
 					"chart": {
 						"chart_type": "TABLE",
@@ -157,36 +157,25 @@
 					"translations": {
 						"en": {
 							"x": "Date",
+							"y": "Price (RM)",
 							"y1": "Price (RM)",
 							"change_weekly": "Weekly Change",
 							"level": "Price",
-							"ron95-timeseries": "Ron95 Timeseries",
-							"ron97-timeseries": "Ron97 Timeseries",
-							"diesel-timeseries": "Diesel Timeseries"
+							"ron95-timeseries": "Price of RON95 Petrol",
+							"ron97-timeseries": "Price of RON97 Petrol",
+							"diesel-timeseries": "Price of Diesel"
 						},
 						"bm": {
 							"x": "Tarikh",
+							"y": "Harga (RM)",
 							"y1": "Harga (RM)",
 							"change_weekly": "Perubahan Mingguan",
 							"level": "Harga",
-							"ron95-timeseries": "Siri Masa Ron95",
-							"ron97-timeseries": "Ron97 Timeseries",
-							"diesel-timeseries": "Diesel Timeseries"
+							"ron95-timeseries": "Harga Petrol RON95",
+							"ron97-timeseries": "Harga Petrol RON97",
+							"diesel-timeseries": "Harga Diesel"
 						}
 					}
-				}
-			}
-		],
-		"related_datasets": [
-			{
-				"id": "population_population_state",
-				"title": {
-					"en": "Population Table: States",
-					"bm": "Jadual Penduduk: Negeri"
-				},
-				"description": {
-					"en": "This dataset tabulates the population of Malaysia at state level, by sex, ethnicity, and 5-year age group, from 2020 to 2023.",
-					"bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat negeri, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023."
 				}
 			}
 		]
