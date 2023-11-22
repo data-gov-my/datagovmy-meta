@@ -29,96 +29,96 @@
             {
                 "id": -1,
                 "name": "bus_rkl",
-                "title_en": "Ridership: Rapid Bus (KL)",
-                "title_bm": "Penggunaan Bas Rapid (KL)",
+                "title_en": "Rapid Bus (KL)",
+                "title_bm": "Bas Rapid (KL)",
                 "desc_en": "[Integer] Number of trips, NOT number of unique individuals",
                 "desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
             },
             {
                 "id": -1,
                 "name": "bus_rkn",
-                "title_en": "Ridership: Rapid Bus (Kuantan)",
-                "title_bm": "Penggunaan Bas Rapid (Kuantan)",
+                "title_en": "Rapid Bus (Kuantan)",
+                "title_bm": "Bas Rapid (Kuantan)",
                 "desc_en": "[Integer] Number of trips, NOT number of unique individuals",
                 "desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
             },
             {
                 "id": -1,
                 "name": "bus_rpn",
-                "title_en": "Ridership: Rapid Bus (Penang)",
-                "title_bm": "Penggunaan Bas Rapid (Pulau Pinang)",
+                "title_en": "Rapid Bus (Penang)",
+                "title_bm": "Bas Rapid (Pulau Pinang)",
                 "desc_en": "[Integer] Number of trips, NOT number of unique individuals",
                 "desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
             },
             {
                 "id": -1,
                 "name": "rail_lrt_ampang",
-                "title_en": "Ridership: LRT Ampang Line",
-                "title_bm": "Penggunaan LRT Laluan Ampang",
+                "title_en": "LRT Ampang Line",
+                "title_bm": "LRT Laluan Ampang",
                 "desc_en": "[Integer] Number of trips, NOT number of unique individuals",
                 "desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
             },
             {
                 "id": -1,
                 "name": "rail_lrt_kj",
-                "title_en": "Ridership: LRT Kelana Jaya Line",
-                "title_bm": "Penggunaan LRT Laluan Kelana Jaya",
+                "title_en": "LRT Kelana Jaya Line",
+                "title_bm": "LRT Laluan Kelana Jaya",
                 "desc_en": "[Integer] Number of trips, NOT number of unique individuals",
                 "desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
             },
             {
                 "id": -1,
                 "name": "rail_monorail",
-                "title_en": "Ridership: Monorail Line",
-                "title_bm": "Penggunaan Laluan Monorel",
+                "title_en": "Monorail Line",
+                "title_bm": "Laluan Monorel",
                 "desc_en": "[Integer] Number of trips, NOT number of unique individuals",
                 "desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
             },
             {
                 "id": -1,
                 "name": "rail_mrt_kajang",
-                "title_en": "Ridership: MRT Kajang Line",
-                "title_bm": "Penggunaan MRT Laluan Kajang",
+                "title_en": "MRT Kajang Line",
+                "title_bm": "MRT Laluan Kajang",
                 "desc_en": "[Integer] Number of trips, NOT number of unique individuals",
                 "desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
             },
             {
                 "id": -1,
                 "name": "rail_mrt_pjy",
-                "title_en": "Ridership: MRT Putrajaya Line",
-                "title_bm": "Penggunaan MRT Laluan Putrajaya",
+                "title_en": "MRT Putrajaya Line",
+                "title_bm": "MRT Laluan Putrajaya",
                 "desc_en": "[Integer] Number of trips, NOT number of unique individuals",
                 "desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
             },
             {
                 "id": -1,
                 "name": "rail_ets",
-                "title_en": "Ridership: KTMB ETS",
-                "title_bm": "Penggunaan KTMB ETS",
+                "title_en": "KTMB ETS",
+                "title_bm": "KTMB ETS",
                 "desc_en": "[Integer] Number of trips, NOT number of unique individuals",
                 "desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
             },
             {
                 "id": -1,
                 "name": "rail_intercity",
-                "title_en": "Ridership: KTM Intercity",
-                "title_bm": "Penggunaan KTM Intercity",
+                "title_en": "KTM Intercity",
+                "title_bm": "KTM Intercity",
                 "desc_en": "[Integer] Number of trips, NOT number of unique individuals",
                 "desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
             },
             {
                 "id": -1,
                 "name": "rail_komuter",
-                "title_en": "Ridership: KTM Komuter Utara",
-                "title_bm": "Penggunaan KTM Komuter Utara",
+                "title_en": "KTM Komuter Utara",
+                "title_bm": "KTM Komuter Utara",
                 "desc_en": "[Integer] Number of trips, NOT number of unique individuals",
                 "desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
             },
             {
                 "id": -1,
                 "name": "rail_tebrau",
-                "title_en": "Ridership: KTM Shuttle Tebrau",
-                "title_bm": "Penggunaan KTM Shuttle Tebrau",
+                "title_en": "KTM Shuttle Tebrau",
+                "title_bm": "KTM Shuttle Tebrau",
                 "desc_en": "[Integer] Number of trips, NOT number of unique individuals",
                 "desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
             },
@@ -370,33 +370,33 @@
                     "translations": {
                         "en": {
                             "date": "Date",
-                            "bus_rkl": "Ridership: Rapid Bus (KL)",
-                            "bus_rkn": "Ridership: Rapid Bus (Kuantan)",
-                            "bus_rpn": "Ridership: Rapid Bus (Penang)",
-                            "rail_lrt_ampang": "Ridership: LRT Ampang Line",
-                            "rail_lrt_kj": "Ridership: LRT Kelana Jaya Line",
-                            "rail_monorail": "Ridership: Monorail Line",
-                            "rail_mrt_kajang": "Ridership: MRT Kajang Line",
-                            "rail_mrt_pjy": "Ridership: MRT Putrajaya Line",
-                            "rail_ets": "Ridership: KTMB ETS",
-                            "rail_intercity": "Ridership: KTM Intercity",
-                            "rail_komuter": "Ridership: KTM Komuter Utara",
-                            "rail_tebrau": "Ridership: KTM Shuttle Tebrau"
+                            "bus_rkl": "Rapid Bus (KL)",
+                            "bus_rkn": "Rapid Bus (Kuantan)",
+                            "bus_rpn": "Rapid Bus (Penang)",
+                            "rail_lrt_ampang": "LRT Ampang Line",
+                            "rail_lrt_kj": "LRT Kelana Jaya Line",
+                            "rail_monorail": "Monorail Line",
+                            "rail_mrt_kajang": "MRT Kajang Line",
+                            "rail_mrt_pjy": "MRT Putrajaya Line",
+                            "rail_ets": "KTMB ETS",
+                            "rail_intercity": "KTM Intercity",
+                            "rail_komuter": "KTM Komuter Utara",
+                            "rail_tebrau": "KTM Shuttle Tebrau"
                         },
                         "bm": {
                             "date": "Tarikh",
-                            "bus_rkl": "Penggunaan Bas Rapid (KL)",
-                            "bus_rkn": "Penggunaan Bas Rapid (Kuantan)",
-                            "bus_rpn": "Penggunaan Bas Rapid (Pulau Pinang)",
-                            "rail_lrt_ampang": "Penggunaan LRT Laluan Ampang",
-                            "rail_lrt_kj": "Penggunaan LRT Laluan Kelana Jaya",
-                            "rail_monorail": "Penggunaan Laluan Monorel",
-                            "rail_mrt_kajang": "Penggunaan MRT Laluan Kajang",
-                            "rail_mrt_pjy": "Penggunaan MRT Laluan Putrajaya",
-                            "rail_ets": "Penggunaan KTMB ETS",
-                            "rail_intercity": "Penggunaan KTM Intercity",
-                            "rail_komuter": "Penggunaan KTM Komuter Utara",
-                            "rail_tebrau": "Penggunaan KTM Shuttle Tebrau"
+                            "bus_rkl": "Bas Rapid (KL)",
+                            "bus_rkn": "Bas Rapid (Kuantan)",
+                            "bus_rpn": "Bas Rapid (Pulau Pinang)",
+                            "rail_lrt_ampang": "LRT Laluan Ampang",
+                            "rail_lrt_kj": "LRT Laluan Kelana Jaya",
+                            "rail_monorail": "Laluan Monorel",
+                            "rail_mrt_kajang": "MRT Laluan Kajang",
+                            "rail_mrt_pjy": "MRT Laluan Putrajaya",
+                            "rail_ets": "KTMB ETS",
+                            "rail_intercity": "KTM Intercity",
+                            "rail_komuter": "KTM Komuter Utara",
+                            "rail_tebrau": "KTM Shuttle Tebrau"
                         }
                     }
                 }
