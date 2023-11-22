@@ -20,9 +20,9 @@
             "en": "National CPI for 12 main groups of goods and services, consistent with the United Nations \"Classification of Individual Consumption According to Purpose (COICOP)\".",
             "bm": "IHP Malaysia bagi 12 kumpulan utama barangan dan perkhidmatan, selaras dengan klasifikasi berpandukan United Nations \"Classification of Individual Consumption According to Purpose (COICOP)\"."
         },
-        "link_parquet": "https://storage.data.gov.my/cpi/cpi_headline.parquet",
-        "link_csv": "https://storage.data.gov.my/cpi/cpi_headline.csv",
-        "link_preview": "https://storage.data.gov.my/cpi/cpi_headline.parquet",
+        "link_parquet": "https://storage.dosm.gov.my/cpi/cpi_headline.parquet",
+        "link_csv": "https://storage.dosm.gov.my/cpi/cpi_headline.csv",
+        "link_preview": "https://storage.dosm.gov.my/cpi/cpi_headline.parquet",
         "variables": [
             {
                 "id": -1,
