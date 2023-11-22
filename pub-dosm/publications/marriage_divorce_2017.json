@@ -1,0 +1,59 @@
+{
+    "publication": "marriage_divorce_2017",
+    "publication_type": "demography",
+    "release_date": "2019-11-27",
+    "frequency": "YEARLY",
+    "geography": [
+        "STATE",
+        "NATIONAL"
+    ],
+    "demography": [
+        "SEX",
+        "AGE",
+        "MARITAL"
+    ],
+    "en": {
+        "title": "[2017] Marriage & Divorce",
+        "publication_type_title": "Demography",
+        "description": "Annual number/rate of marriages and divorces for both civil and Muslim marriages.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Marriage: 2017",
+                "resource_link": "https://storage.dosm.gov.my/demography/marriage_2017.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Divorce: 2017",
+                "resource_link": "https://storage.dosm.gov.my/demography/divorce_2017.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "pdf",
+                "resource_name": "Marriage & Divorce: 2017",
+                "resource_link": "https://storage.dosm.gov.my/demography/marriage_divorce_2017.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2017] Perkahwinan & Penceraian",
+        "publication_type_title": "Demografi",
+        "description": "Jumlah/kadar perkahwinan dan penceraian tahunan bagi perkahwinan sivil dan Islam.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Perkahwinan: 2017",
+                "resource_link": "https://storage.dosm.gov.my/demography/marriage_2017.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Penceraian: 2017",
+                "resource_link": "https://storage.dosm.gov.my/demography/divorce_2017.xlsx"
+            }
+        ]
+    }
+}
