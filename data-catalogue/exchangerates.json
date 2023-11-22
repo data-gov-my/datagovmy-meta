@@ -10,6 +10,12 @@
         "subcategory": "EXCHANGE",
         "subcategory_en": "Exchange Rates",
         "subcategory_bm": "Kadar Pertukaran Mata Wang",
+        "category_opendosm" : "FINSECTOR",
+        "category_opendosm_en" : "Financial Sector",
+        "category_opendosm_bm" : "Sektor Kewangan",
+        "subcategory_opendosm" : "EXCHANGE",
+        "subcategory_opendosm_en" : "Exchange Rates",
+        "subcategory_opendosm_bm" : "Kadar Pertukaran Mata Wang",
         "description": {
             "en": "Rates of exchange of the Malaysian Ringgit vis-\u00e0-vis major trading partners.",
             "bm": "Kadar pertukaran ringgit Malaysia berbanding rakan dagang utama."
