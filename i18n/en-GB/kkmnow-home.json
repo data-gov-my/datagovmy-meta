@@ -4,25 +4,27 @@
   "translation": {
     "site": {
       "name": "KKMNOW",
-      "description": "Your one-stop centre for Malaysia’s health data"
+      "description": "Your one-stop centre for Malaysia's health data"
     },
     "category": "Ministry Of Health Malaysia",
-    "header": "Your one-stop centre for Malaysia’s health data",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "header": "Your one-stop centre for Malaysia's health data",
+    "description": "KKMNOW is the Ministry of Health's pioneering initiative to make Malaysia health data accessible and understandable. Born out of necessity during the COVID-19 pandemic (during its first iteration as COVIDNOW), it has today evolved to cover a wider range of health-related data. Health is one foundation of a developed nation - we will keep improving the coverage and quality of data on this site to anchor the conversation on critical healthcare issues in Malaysia.",
     "at_a_glance": "Malaysia at a Glance",
     "stats": {
-      "covid": "Covid-19",
-      "covid_vax": "Covid Vaccination",
+      "covid": "COVID-19 Cases",
+      "covid_vax": "COVID-19 Vaccinations",
       "util_bed": "Hospital Bed Utilization",
-      "util_icu": "Ventilator Utilization",
-      "blood": "Blood Donation",
-      "organ": "Organ Donation",
-      "pekab40": "Peka B40"
+      "util_icu": "ICU Utilization",
+      "blood": "Blood Donations",
+      "organ": "Organ Pledges",
+      "pekab40": "Peka B40 Screening"
     },
     "dashboard": {
       "title": "Dashboards"
     },
     "usage": "Usage of KKMNOW",
+    "daily": "Daily",
+    "total": "Total",
     "views": "Views",
     "downloads": "Data Downloads"
   }

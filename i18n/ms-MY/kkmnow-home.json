@@ -6,23 +6,25 @@
       "name": "KKMNOW",
       "description": "Terokailah data kesihatan Malaysia"
     },
-    "category": "Ministry Of Health Malaysia",
-    "header": "Terokailah data kesihatan Malaysia",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "category": "Kementerian Kesihatan Malaysia",
+    "header": "Sumber rasmi data kesihatan Malaysia",
+    "description": "KKMNOW adalah usaha rintis Kementerian Kesihatan Malaysia untuk membolehkan rakyat memahami data kesihatan dengan mudah. Ia pertama sekali dibangunankan untuk memenuhi keperluan yang mendesak semasa pandemik COVID-19 (dengan jenama COVIDNOW semasa itu), tetapi kini sudah ditambahbaik untuk merangkumi data kesihatan yang lebih luas. Memandangan kesihatan adalah salah satu cerucuk kepada negara yang maju, kami akan terus meningkatkan skop dan kualiti data di portal ini untuk memacu pemahaman tentang isu kesihatan penting di Malaysia.",
     "at_a_glance": "Malaysia secara Sepintas Lalu",
     "stats": {
-      "covid": "Covid-19",
+      "covid": "Kes COVID-19",
       "covid_vax": "Vaksinasi Covid",
       "util_bed": "Penggunaan Katil Hospital",
-      "util_icu": "Penggunaan Ventilator",
+      "util_icu": "Penggunaan Katil ICU",
       "blood": "Pendermaan Darah",
-      "organ": "Pendermaan Organ",
-      "pekab40": "Peka B40"
+      "organ": "Ikrar Pendermaan Organ",
+      "pekab40": "Saringan Peka B40"
     },
     "dashboard": {
       "title": "Papan pemuka"
     },
     "usage": "Penggunaan KKMNOW",
+    "daily": "Harian",
+    "total": "Jumlah",
     "views": "Paparan",
     "downloads": "Muat turun Data"
   }

@@ -39,7 +39,7 @@
 			},
 			"blood-donation": {
 				"name": "Pendermaan Darah",
-				"description": "Lacak bekalan darah dan galakkan pendermaan."
+				"description": "Aktiviti pendermaan darah harian serta survelan stok darah, dengan pecahan mengikut demografik utama."
 			},
 			"car-popularity": {
 				"name": "Populariti Kenderaan",
@@ -59,7 +59,7 @@
 			},
 			"covid-19": {
 				"name": "COVID-19",
-				"description": "Mengikuti perkembangan kes COVID-19 dan statistik berkaitan."
+				"description": "Survelan mingguan COVID-19 di Malaysia pada peringkat negeri, merangkumi kes, kemasukan ke hospital, serta kematian disebabkan COVID-19."
 			},
 			"crime": {
 				"name": "Jenayah",
@@ -99,7 +99,7 @@
 			},
 			"hospital-bed-utilisation": {
 				"name": "Penggunaan Katil Hospital",
-				"description": "Jejak dan optimalkan penggunaan katil hospital."
+				"description": "Kadar penggunaan katil di peringkat hospital, merangkumi penggunaan katil ICU dan bukan ICU secara harian."
 			},
 			"immigration": {
 				"name": "Imigresen",
@@ -127,11 +127,11 @@
 			},
 			"organ-donation": {
 				"name": "Pendermaan Organ",
-				"description": "Galakkan pendermaan organ dan tingkatkan kesedaran."
+				"description": "Ikrar pendermaan organ harian serta kadar pengikraran di seluruh negara, dengan pecahan mengikut demografi utama."
 			},
 			"peka-b40": {
 				"name": "Peka B40",
-				"description": "Pemahaman mengenai program sokongan sosioekonomi."
+				"description": "Saringan kesihatan harian di bawah program PeKa B40, termasuk kadar saringan bagi kumpulan sasaran di seluruh negara."
 			},
 			"ipr": {
 				"name": "Inisiatif Pendapatan Rakyat (IPR)",
@@ -195,7 +195,7 @@
 			},
 			"covid-vaccination": {
 				"name": "Vaksinasi Covid",
-				"description": "Terokai kadar vaksinasi Covid di kalangan kumpulan yang berbeza."
+				"description": "Vaksinasi COVID-19 harian mengikut jenis dos dan kumpulan umur, termasuk kadar vaksinasi di setiap negeri."
 			},
 			"ktmb-explorer": {
 				"name": "Peneroka KTMB",

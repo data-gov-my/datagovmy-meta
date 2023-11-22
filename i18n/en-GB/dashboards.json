@@ -39,7 +39,7 @@
 			},
 			"blood-donation": {
 				"name": "Blood Donation",
-				"description": "Blood stock sufficiency and donation activity tracking."
+				"description": "Daily blood donation activity and blood stock sufficiency, with breakdowns by key demographics."
 			},
 			"car-popularity": {
 				"name": "Car Popularity Explorer",
@@ -59,7 +59,7 @@
 			},
 			"covid-19": {
 				"name": "COVID-19",
-				"description": "Stay updated on COVID-19 cases and related statistics."
+				"description": "Weekly surveillance of COVID-19 in Malaysia at state level, covering cases, hospitalisations, and deaths."
 			},
 			"crime": {
 				"name": "Crime",
@@ -99,7 +99,7 @@
 			},
 			"hospital-bed-utilisation": {
 				"name": "Hospital Bed Utilisation",
-				"description": "Track and optimize hospital bed usage."
+				"description": "Hospital-level bed utilisation data, covering utilisation for critical and non-critical care beds on a daily basis."
 			},
 			"immigration": {
 				"name": "Immigration",
@@ -127,11 +127,11 @@
 			},
 			"organ-donation": {
 				"name": "Organ Donation",
-				"description": "Promote organ donation and raise awareness."
+				"description": "Daily organ donation pledges and nationwide pledger rates, with breakdowns by key demographics."
 			},
 			"peka-b40": {
 				"name": "Peka B40",
-				"description": "Insights on the socio-economic support program."
+				"description": "Daily screenings under the PeKA B40 program, including screening rates for the target population across the country."
 			},
 			"ipr": {
 				"name": "The People's Income Initiative (IPR)",
@@ -194,8 +194,8 @@
 				"description": "Insights on Peninsular Malaysia's original inhabitants."
 			},
 			"covid-vaccination": {
-				"name": "Covid Vaccination",
-				"description": "Discover Covid Vaccination rates amoung different people."
+				"name": "COVID-19 Vaccination",
+				"description": "Daily COVID-19 vaccination activity by dose type and age group, including vaccination coverage rates across the country."
 			},
 			"ktmb-explorer": {
 				"name": "KTMB Explorer",
