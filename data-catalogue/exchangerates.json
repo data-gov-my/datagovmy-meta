@@ -1,6 +1,6 @@
 {
     "file": {
-        "manual_trigger": "na",
+        "manual_trigger": "2023-11-23 07:48:06.745568",
         "exclude_openapi": false,
         "bucket": "finsector",
         "file_name": "exchangerates",
@@ -10,14 +10,14 @@
         "subcategory": "FINMKT",
         "subcategory_en": "Financial Markets",
         "subcategory_bm": "Pasaran Kewangan",
-        "category_opendosm" : "FINSECTOR",
-        "category_opendosm_en" : "Financial Sector",
-        "category_opendosm_bm" : "Sektor Kewangan",
-        "subcategory_opendosm" : "FINMKT",
-        "subcategory_opendosm_en" : "Financial Markets",
-        "subcategory_opendosm_bm" : "Pasaran Kewangan",
+        "category_opendosm": "FINSECTOR",
+        "category_opendosm_en": "Financial Sector",
+        "category_opendosm_bm": "Sektor Kewangan",
+        "subcategory_opendosm": "FINMKT",
+        "subcategory_opendosm_en": "Financial Markets",
+        "subcategory_opendosm_bm": "Pasaran Kewangan",
         "description": {
-            "en": "Rates of exchange of the Malaysian Ringgit vis-\u00e0-vis major trading partners.",
+            "en": "Rates of exchange of the Malaysian Ringgit vis-à-vis major trading partners.",
             "bm": "Kadar pertukaran ringgit Malaysia berbanding rakan dagang utama."
         },
         "link_parquet": "https://storage.data.gov.my/finsector/exchangerates.parquet",
@@ -229,7 +229,7 @@
                 "name": "Exchange Rates",
                 "title_en": "Exchange Rates",
                 "title_bm": "Kadar Pertukaran Wang Asing",
-                "desc_en": "Rates of exchange of the Malaysian Ringgit vis-\u00e0-vis major trading partners.",
+                "desc_en": "Rates of exchange of the Malaysian Ringgit vis-à-vis major trading partners.",
                 "desc_bm": "Kadar pertukaran ringgit Malaysia berbanding rakan dagang utama.",
                 "catalog_data": {
                     "catalog_filters": {
@@ -245,20 +245,20 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-11-21 23:59",
-                        "last_updated": "2023-11-22 04:00",
-                        "next_update": "2023-11-23 04:00"
+                        "data_as_of": "2023-11-22 23:59",
+                        "last_updated": "2023-11-23 04:00",
+                        "next_update": "2023-11-24 04:00"
                     },
                     "metadata_lang": {
                         "en": {
                             "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
                             "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
-                            "publication": "\u2014"
+                            "publication": "—"
                         },
                         "bm": {
                             "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
                             "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
-                            "publication": "\u2014"
+                            "publication": "—"
                         }
                     },
                     "chart": {
@@ -274,102 +274,114 @@
                         }
                     },
                     "dataviz": [
-						{
-							"translation_key": "myr_usd",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 2
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["myr_usd"]
-								}
-							}
-						},
-						{
-							"translation_key": "myr_rmb",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 2
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["myr_rmb"]
-								}
-							}
-						},
-						{
-							"translation_key": "myr_sgd",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 2
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["myr_sgd"]
-								}
-							}
-						},
-						{
-							"translation_key": "myr_eur",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 2
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["myr_eur"]
-								}
-							}
-						},
-						{
-							"translation_key": "myr_jpy",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 2
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["myr_jpy"]
-								}
-							}
-						},
-						{
-							"translation_key": "myr_twd",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 2
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["myr_twd"]
-								}
-							}
-						}
+                        {
+                            "translation_key": "myr_usd",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 2
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "myr_usd"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "myr_rmb",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 2
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "myr_rmb"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "myr_sgd",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 2
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "myr_sgd"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "myr_eur",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 2
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "myr_eur"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "myr_jpy",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 2
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "myr_jpy"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "myr_twd",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 2
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "myr_twd"
+                                    ]
+                                }
+                            }
+                        }
                     ],
                     "translations": {
                         "en": {
