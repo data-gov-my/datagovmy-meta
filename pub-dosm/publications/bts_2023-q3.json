@@ -8,7 +8,7 @@
     ],
     "demography": [],
     "en": {
-        "title": "[3Q 2023] Kecenderungan Perniagaan",
+        "title": "[3Q 2023] Business Tendency",
         "publication_type_title": "Economic Indicators",
         "description": "Quarterly business expectations for their performance 1 to 2 quarters ahead, including for revenue, employment, and demand.",
         "resources": [
@@ -22,7 +22,7 @@
                 "resource_id": 2,
                 "resource_type": "pdf",
                 "resource_name": "Business Tendency: 3Q 2023",
-                "resource_link": "https://storage.dosm.gov.my/labour/productivity_2023-q3.pdf"
+                "resource_link": "https://storage.dosm.gov.my/bts/bts_2023-q3.pdf"
             }
         ]
     },
@@ -41,7 +41,7 @@
                 "resource_id": 2,
                 "resource_type": "pdf",
                 "resource_name": "Kecenderungan Perniagaan: ST3 2023",
-                "resource_link": "https://storage.dosm.gov.my/labour/productivity_2023-q3.pdf"
+                "resource_link": "https://storage.dosm.gov.my/bts/bts_2023-q3.pdf"
             }
         ]
     }
