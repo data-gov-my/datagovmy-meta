@@ -1,0 +1,48 @@
+{
+    "publication": "bts_2021-q1",
+    "publication_type": "indicators",
+    "release_date": "2021-02-26",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[1Q 2021] Kecenderungan Perniagaan",
+        "publication_type_title": "Economic Indicators",
+        "description": "Quarterly business expectations for their performance 1 to 2 quarters ahead, including for revenue, employment, and demand.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Business Tendency: 1Q 2021",
+                "resource_link": "https://storage.dosm.gov.my/bts/bts_2021-q1.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Business Tendency: 1Q 2021",
+                "resource_link": "https://storage.dosm.gov.my/labour/productivity_2021-q1.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST1 2021] Kecenderungan Perniagaan",
+        "publication_type_title": "Indikator Ekonomi",
+        "description": "Jangkaan suku tahunan perniagaan bagi prestasi mereka 1 ke 2 suku tahun ke hadapan, termasuk hasil, pekerja, dan permintaan.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Kecenderungan Perniagaan: ST1 2021",
+                "resource_link": "https://storage.dosm.gov.my/bts/bts_2021-q1.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Kecenderungan Perniagaan: ST1 2021",
+                "resource_link": "https://storage.dosm.gov.my/labour/productivity_2021-q1.pdf"
+            }
+        ]
+    }
+}
