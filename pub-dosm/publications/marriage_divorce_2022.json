@@ -1,0 +1,65 @@
+{
+    "publication": "marriage_divorce_2022",
+    "publication_type": "demography",
+    "release_date": "2022-11-23",
+    "frequency": "YEARLY",
+    "geography": [
+        "STATE",
+        "NATIONAL"
+    ],
+    "demography": [
+        "SEX",
+        "AGE",
+        "MARITAL"
+    ],
+    "en": {
+        "title": "[2022] Marriage & Divorce",
+        "publication_type_title": "Demography",
+        "description": "Annual number/rate of marriages and divorces for both civil and Muslim marriages.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Marriage: 2022",
+                "resource_link": "https://storage.dosm.gov.my/demography/marriage_2022.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Divorce: 2022",
+                "resource_link": "https://storage.dosm.gov.my/demography/divorce_2022.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "pdf",
+                "resource_name": "Marriage & Divorce: 2022",
+                "resource_link": "https://storage.dosm.gov.my/demography/marriage_divorce_2022.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2022] Perkahwinan & Penceraian",
+        "publication_type_title": "Demografi",
+        "description": "Jumlah/kadar perkahwinan dan penceraian tahunan bagi perkahwinan sivil dan Islam.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Perkahwinan: 2022",
+                "resource_link": "https://storage.dosm.gov.my/demography/marriage_2022.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Penceraian: 2022",
+                "resource_link": "https://storage.dosm.gov.my/demography/divorce_2022.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "pdf",
+                "resource_name": "Perkahwinan & Penceraian: 2022",
+                "resource_link": "https://storage.dosm.gov.my/demography/marriage_divorce_2022.pdf"
+            }
+        ]
+    }
+}
