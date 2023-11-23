@@ -53,6 +53,12 @@
                 "resource_type": "excel",
                 "resource_name": "Penceraian: 2017",
                 "resource_link": "https://storage.dosm.gov.my/demography/divorce_2017.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "pdf",
+                "resource_name": "Perkahwinan & Penceraian: 2017",
+                "resource_link": "https://storage.dosm.gov.my/demography/marriage_divorce_2017.pdf"
             }
         ]
     }
