@@ -1,0 +1,48 @@
+{
+    "publication": "bts_2023-q3",
+    "publication_type": "indicators",
+    "release_date": "2023-08-24",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[3Q 2023] Kecenderungan Perniagaan",
+        "publication_type_title": "Economic Indicators",
+        "description": "Quarterly business expectations for their performance 1 to 2 quarters ahead, including for revenue, employment, and demand.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Business Tendency: 3Q 2023",
+                "resource_link": "https://storage.dosm.gov.my/bts/bts_2023-q3.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Business Tendency: 3Q 2023",
+                "resource_link": "https://storage.dosm.gov.my/labour/productivity_2023-q3.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST3 2023] Kecenderungan Perniagaan",
+        "publication_type_title": "Indikator Ekonomi",
+        "description": "Jangkaan suku tahunan perniagaan bagi prestasi mereka 1 ke 2 suku tahun ke hadapan, termasuk hasil, pekerja, dan permintaan.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Kecenderungan Perniagaan: ST3 2023",
+                "resource_link": "https://storage.dosm.gov.my/bts/bts_2023-q3.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Kecenderungan Perniagaan: ST3 2023",
+                "resource_link": "https://storage.dosm.gov.my/labour/productivity_2023-q3.pdf"
+            }
+        ]
+    }
+}
