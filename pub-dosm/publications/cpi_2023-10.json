@@ -23,19 +23,19 @@
                 "resource_id": 2,
                 "resource_type": "excel",
                 "resource_name": "CPI Main Tables: Oct 2023",
-                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_main_2023-10.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2023-10_main.xlsx"
             },
             {
                 "resource_id": 3,
                 "resource_type": "excel",
                 "resource_name": "CPI Tables by State: Oct 2023",
-                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_state_2023-10.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2023-10_state.xlsx"
             },
             {
                 "resource_id": 4,
                 "resource_type": "excel",
                 "resource_name": "Core CPI Tables: Oct 2023",
-                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_core_2023-10.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2023-10_core.xlsx"
             }
         ]
     },
@@ -54,19 +54,19 @@
                 "resource_id": 2,
                 "resource_type": "excel",
                 "resource_name": "Jadual Utama IHP: Okt 2023",
-                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_main_2023-10.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2023-10_main.xlsx"
             },
             {
                 "resource_id": 3,
                 "resource_type": "excel",
                 "resource_name": "Jadual IHP mengikut Negeri: Okt 2023",
-                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_state_2023-10.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2023-10_state.xlsx"
             },
             {
                 "resource_id": 4,
                 "resource_type": "excel",
                 "resource_name": "Jadual IHP Teras: Okt 2023",
-                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_core_2023-10.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2023-10_core.xlsx"
             }
         ]
     }
