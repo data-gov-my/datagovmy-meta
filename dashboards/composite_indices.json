@@ -1,47 +1,57 @@
 {
-	"dashboard_name": "composite_indices",
-	"data_last_updated": "2023-09-25 12:00",
-	"route": "/dashboard/composite-indices,/ms-MY/dashboard/composite-indices",
-	"sites": ["opendosm"],
-	"manual_trigger": "2023-09-26 17:01:57.411971",
-	"required_params": [],
-	"optional_params": [],
-	"charts": {
-		"timeseries": {
-			"name": "timeseries",
-			"chart_type": "timeseries_chart",
-			"chart_source": "https://storage.dosm.gov.my/dashboards/mei_timeseries.parquet",
-			"data_as_of": "2023-07-31 23:59",
-			"api_type": "static",
-			"api_params": [],
-			"variables": {
-				"keys": ["chart_type"],
-				"rename_cols": {
-					"date": "x"
-				},
-				"value_columns": [
-					"x",
-					"leading",
-					"coincident",
-					"lagging",
-					"leading_diffusion",
-					"coincident_diffusion",
-					"flag_recession_business",
-					"flag_recession_growth"
-				]
-			}
-		},
-		"statistics": {
-			"name": "statistics",
-			"chart_type": "custom_chart",
-			"chart_source": "https://storage.dosm.gov.my/dashboards/mei_timeseries_callout.parquet",
-			"data_as_of": "2023-07-31 23:59",
-			"api_type": "static",
-			"api_params": [],
-			"variables": {
-				"keys": ["chart_type"],
-				"value_columns": ["callout1", "callout2", "callout3"]
-			}
-		}
-	}
+    "dashboard_name": "composite_indices",
+    "data_last_updated": "2023-11-23 12:00",
+    "route": "/dashboard/composite-indices,/ms-MY/dashboard/composite-indices",
+    "sites": [
+        "opendosm"
+    ],
+    "manual_trigger": "2023-11-24 11:56:00.585366",
+    "required_params": [],
+    "optional_params": [],
+    "charts": {
+        "timeseries": {
+            "name": "timeseries",
+            "chart_type": "timeseries_chart",
+            "chart_source": "https://storage.dosm.gov.my/dashboards/mei_timeseries.parquet",
+            "data_as_of": "2023-09-30 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "chart_type"
+                ],
+                "rename_cols": {
+                    "date": "x"
+                },
+                "value_columns": [
+                    "x",
+                    "leading",
+                    "coincident",
+                    "lagging",
+                    "leading_diffusion",
+                    "coincident_diffusion",
+                    "flag_recession_business",
+                    "flag_recession_growth"
+                ]
+            }
+        },
+        "statistics": {
+            "name": "statistics",
+            "chart_type": "custom_chart",
+            "chart_source": "https://storage.dosm.gov.my/dashboards/mei_timeseries_callout.parquet",
+            "data_as_of": "2023-09-30 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "chart_type"
+                ],
+                "value_columns": [
+                    "callout1",
+                    "callout2",
+                    "callout3"
+                ]
+            }
+        }
+    }
 }
