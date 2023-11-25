@@ -178,7 +178,7 @@
                         "chart_variables": {
                             "parents": [],
                             "exclude": [],
-                            "freeze": []
+                            "freeze": ["date"]
                         }
                     },
                     "dataviz": [
