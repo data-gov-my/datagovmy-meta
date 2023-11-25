@@ -1,6 +1,6 @@
 {
     "file": {
-        "manual_trigger": "2023-11-25 14:53:18.57578",
+        "manual_trigger": "2023-11-25 14:53:18.5757",
         "exclude_openapi": false,
         "bucket": "transportation",
         "file_name": "ridership_headline",
