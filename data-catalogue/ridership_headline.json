@@ -393,7 +393,7 @@
                                 "format": {
                                     "x": "date",
                                     "y": [
-                                        "rail_komuter"
+                                        "rail_komuter_utara"
                                     ]
                                 }
                             }
@@ -420,6 +420,7 @@
                     "translations": {
                         "en": {
                             "date": "Date",
+                            "y1": "Ridership",
                             "bus_rkl": "Rapid Bus (KL)",
                             "bus_rkn": "Rapid Bus (Kuantan)",
                             "bus_rpn": "Rapid Bus (Penang)",
@@ -436,6 +437,7 @@
                         },
                         "bm": {
                             "date": "Tarikh",
+                            "y1": "Penggunaan",
                             "bus_rkl": "Bas Rapid (KL)",
                             "bus_rkn": "Bas Rapid (Kuantan)",
                             "bus_rpn": "Bas Rapid (Pulau Pinang)",
