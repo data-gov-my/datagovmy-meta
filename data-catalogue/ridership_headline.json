@@ -1,6 +1,6 @@
 {
     "file": {
-        "manual_trigger": "na",
+        "manual_trigger": "2023-11-25 14:53:18.575787",
         "exclude_openapi": false,
         "bucket": "transportation",
         "file_name": "ridership_headline",
@@ -109,6 +109,14 @@
             {
                 "id": -1,
                 "name": "rail_komuter",
+                "title_en": "KTM Komuter",
+                "title_bm": "KTM Komuter",
+                "desc_en": "[Integer] Number of trips, NOT number of unique individuals",
+                "desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
+            },
+            {
+                "id": -1,
+                "name": "rail_komuter_utara",
                 "title_en": "KTM Komuter Utara",
                 "title_bm": "KTM Komuter Utara",
                 "desc_en": "[Integer] Number of trips, NOT number of unique individuals",
@@ -145,9 +153,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-09-30 23:59",
-                        "last_updated": "2023-10-12 12:00",
-                        "next_update": "2023-11-12 12:00"
+                        "data_as_of": "2023-10-31 23:59",
+                        "last_updated": "2023-11-12 12:00",
+                        "next_update": "2023-12-12 04:00"
                     },
                     "metadata_lang": {
                         "en": {
@@ -174,198 +182,240 @@
                         }
                     },
                     "dataviz": [
-						{
-							"translation_key": "bus_rkl",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 0
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["bus_rkl"]
-								}
-							}
-						},
-						{
-							"translation_key": "bus_rkn",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 0
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["bus_rkn"]
-								}
-							}
-						},
-						{
-							"translation_key": "bus_rpn",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 0
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["bus_rpn"]
-								}
-							}
-						},
-						{
-							"translation_key": "rail_lrt_ampang",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 0
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["rail_lrt_ampang"]
-								}
-							}
-						},
-						{
-							"translation_key": "rail_lrt_kj",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 0
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["rail_lrt_kj"]
-								}
-							}
-						},
-						{
-							"translation_key": "rail_monorail",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 0
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["rail_monorail"]
-								}
-							}
-						},
-						{
-							"translation_key": "rail_mrt_kajang",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 0
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["rail_mrt_kajang"]
-								}
-							}
-						},
-						{
-							"translation_key": "rail_mrt_pjy",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 0
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["rail_mrt_pjy"]
-								}
-							}
-						},
-						{
-							"translation_key": "rail_ets",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 0
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["rail_ets"]
-								}
-							}
-						},
-						{
-							"translation_key": "rail_intercity",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 0
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["rail_intercity"]
-								}
-							}
-						},
-						{
-							"translation_key": "rail_komuter",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 0
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["rail_komuter"]
-								}
-							}
-						},
-						{
-							"translation_key": "rail_tebrau",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 0
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["rail_tebrau"]
-								}
-							}
-						}
+                        {
+                            "translation_key": "bus_rkl",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "bus_rkl"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "bus_rkn",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "bus_rkn"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "bus_rpn",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "bus_rpn"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "rail_lrt_ampang",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "rail_lrt_ampang"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "rail_lrt_kj",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "rail_lrt_kj"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "rail_monorail",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "rail_monorail"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "rail_mrt_kajang",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "rail_mrt_kajang"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "rail_mrt_pjy",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "rail_mrt_pjy"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "rail_ets",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "rail_ets"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "rail_intercity",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "rail_intercity"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "rail_komuter",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "rail_komuter"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "rail_komuter_utara",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "rail_komuter"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "rail_tebrau",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "rail_tebrau"
+                                    ]
+                                }
+                            }
+                        }
                     ],
                     "translations": {
                         "en": {
@@ -380,7 +430,8 @@
                             "rail_mrt_pjy": "MRT Putrajaya Line",
                             "rail_ets": "KTMB ETS",
                             "rail_intercity": "KTM Intercity",
-                            "rail_komuter": "KTM Komuter Utara",
+                            "rail_komuter": "KTM Komuter",
+                            "rail_komuter_utara": "KTM Komuter Utara",
                             "rail_tebrau": "KTM Shuttle Tebrau"
                         },
                         "bm": {
@@ -395,7 +446,8 @@
                             "rail_mrt_pjy": "MRT Laluan Putrajaya",
                             "rail_ets": "KTMB ETS",
                             "rail_intercity": "KTM Intercity",
-                            "rail_komuter": "KTM Komuter Utara",
+                            "rail_komuter": "KTM Komuter",
+                            "rail_komuter_utara": "KTM Komuter Utara",
                             "rail_tebrau": "KTM Shuttle Tebrau"
                         }
                     }
