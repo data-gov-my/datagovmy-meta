@@ -1,6 +1,6 @@
 {
     "dashboard_name": "gdp",
-    "data_last_updated": "2023-11-29 12:00",
+    "data_last_updated": "2023-11-17 12:00",
     "route": "",
     "sites": [
         "opendosm"
