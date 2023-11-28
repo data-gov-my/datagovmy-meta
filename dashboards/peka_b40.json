@@ -1,53 +1,39 @@
 {
-    "dashboard_name": "peka_b40",
-    "data_last_updated": "2023-11-28 09:00",
-    "route": "/dashboard/peka-b40,/ms-MY/dashboard/peka-b40",
-    "sites": [
-        "datagovmy"
-    ],
-    "required_params": [
-        "state"
-    ],
-    "optional_params": [],
-    "manual_trigger": "2023-11-22 06:53:16.74445",
-    "charts": {
-        "timeseries": {
-            "name": "timeseries",
-            "chart_type": "timeseries_chart",
-            "chart_source": "https://storage.data.gov.my/dashboards/pekab40_timeseries.parquet",
-            "data_as_of": "2023-11-27 23:59",
-            "api_type": "dynamic",
-            "api_params": [
-                "state"
-            ],
-            "variables": {
-                "keys": [
-                    "state",
-                    "frequency"
-                ],
-                "rename_cols": {
-                    "date": "x",
-                    "daily": "y"
-                },
-                "value_columns": [
-                    "x",
-                    "y"
-                ]
-            }
-        },
-        "choropleth_malaysia": {
-            "name": "choropleth_malaysia",
-            "chart_type": "choropleth_chart",
-            "chart_source": "https://storage.data.gov.my/dashboards/pekab40_choropleth_msia.parquet",
-            "data_as_of": "2023-11-27 23:59",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "x": "state",
-                "y": [
-                    "perc"
-                ]
-            }
-        }
-    }
+	"dashboard_name": "peka_b40",
+	"data_last_updated": "2023-11-28 09:00",
+	"route": "/dashboard/peka-b40,/ms-MY/dashboard/peka-b40",
+	"sites": ["kkmnow"],
+	"required_params": ["state"],
+	"optional_params": [],
+	"manual_trigger": "2023-11-22 06:53:16.74445",
+	"charts": {
+		"timeseries": {
+			"name": "timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/pekab40_timeseries.parquet",
+			"data_as_of": "2023-11-27 23:59",
+			"api_type": "dynamic",
+			"api_params": ["state"],
+			"variables": {
+				"keys": ["state", "frequency"],
+				"rename_cols": {
+					"date": "x",
+					"daily": "y"
+				},
+				"value_columns": ["x", "y"]
+			}
+		},
+		"choropleth_malaysia": {
+			"name": "choropleth_malaysia",
+			"chart_type": "choropleth_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/pekab40_choropleth_msia.parquet",
+			"data_as_of": "2023-11-27 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"x": "state",
+				"y": ["perc"]
+			}
+		}
+	}
 }
