@@ -1,11 +1,11 @@
 {
-    "dashboard_name": "gross_domestic_product",
-    "data_last_updated": "2023-11-17 12:00",
+    "dashboard_name": "gdp",
+    "data_last_updated": "2023-11-29 12:00",
     "route": "",
     "sites": [
         "opendosm"
     ],
-    "manual_trigger": "2023-11-29 07:20:53.691506",
+    "manual_trigger": "2023-11-29 07:28:47.619325",
     "required_params": [],
     "optional_params": [],
     "charts": {
