@@ -1,0 +1,49 @@
+{
+    "publication": "digitaleconomy_2022",
+    "publication_type": "gdp",
+    "release_date": "2023-11-29",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2022] Digital Economy",
+        "publication_type_title": "Gross Domestic Product",
+        "description": "Annual compilation of statistics covering performance of the ICT sector, ICT use and access, as well as e-commerce.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Digital Economy: 2022",
+                "resource_link": "https://storage.dosm.gov.my/gdp/digitaleconomy_2022.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Digital Economy: 2022",
+                "resource_link": "https://storage.dosm.gov.my/gdp/digitaleconomy_2022.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2022] Ekonomi Digital",
+        "publication_type_title": "Keluaran Dalam Negeri Kasar",
+        "description": "Kompilasi statistik tahunan meliputi prestasi sektor ICT, penggunaan dan akses ICT, serta e-dagang.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Ekonomi Digital: 2022",
+                "resource_link": "https://storage.dosm.gov.my/gdp/digitaleconomy_2022.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Ekonomi Digital: 2022",
+                "resource_link": "https://storage.dosm.gov.my/gdp/digitaleconomy_2022.pdf"
+            }
+        ]
+    }
+}
