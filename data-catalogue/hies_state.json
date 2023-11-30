@@ -137,12 +137,12 @@
 							"chart_type": "CHOROPLETH",
 							"chart_variables": {
 								"format": {
-									"x": "district",
+									"x": "state",
 									"y": "income_mean"
 								},
 								"config": {
 									"color": "blues",
-									"geojson": "district",
+									"geojson": "state",
 									"precision": 0
 								}
 							}
@@ -152,12 +152,12 @@
 							"chart_type": "CHOROPLETH",
 							"chart_variables": {
 								"format": {
-									"x": "district",
+									"x": "state",
 									"y": "income_median"
 								},
 								"config": {
 									"color": "blues",
-									"geojson": "district",
+									"geojson": "state",
 									"precision": 0
 								}
 							}
@@ -167,12 +167,12 @@
 							"chart_type": "CHOROPLETH",
 							"chart_variables": {
 								"format": {
-									"x": "district",
+									"x": "state",
 									"y": "expenditure_mean"
 								},
 								"config": {
 									"color": "purples",
-									"geojson": "district",
+									"geojson": "state",
 									"precision": 0
 								}
 							}
@@ -182,12 +182,12 @@
 							"chart_type": "CHOROPLETH",
 							"chart_variables": {
 								"format": {
-									"x": "district",
+									"x": "state",
 									"y": "gini"
 								},
 								"config": {
 									"color": "reds",
-									"geojson": "district",
+									"geojson": "state",
 									"precision": 3
 								}
 							}
@@ -197,12 +197,12 @@
 							"chart_type": "CHOROPLETH",
 							"chart_variables": {
 								"format": {
-									"x": "district",
+									"x": "state",
 									"y": "poverty"
 								},
 								"config": {
 									"color": "reds",
-									"geojson": "district",
+									"geojson": "state",
 									"precision": 1
 								}
 							}
