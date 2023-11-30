@@ -1,0 +1,106 @@
+{
+	"bucket": "population",
+	"filename": "population_district",
+	"exclude_openapi": true,
+	"manual_trigger": "",
+	"site_category": [
+		{
+			"site": "datagovmy",
+			"category_en": "Demography datagovmy",
+			"category_bm": "Demografi datagovmy",
+			"subcategory_en": "Population datagovmy",
+			"subcategory_bm": "Penduduk datagovmy"
+		},
+		{
+			"site": "opendosm",
+			"category_en": "Demography opendosm",
+			"category_bm": "Demografi opendosm",
+			"subcategory_en": "Population opendosm",
+			"subcategory_bm": "Penduduk opendosm"
+		},
+		{
+			"site": "kkm",
+			"category_en": "Demography KKM",
+			"category_bm": "Demografi KKM",
+			"subcategory_en": "Population KKM",
+			"subcategory_bm": "Penduduk KKM"
+		}
+	],
+	"description_en": "This dataset tabulates the population of Malaysia at administrative district level, by sex, ethnicity, and 5-year age group, from 2020 to 2023.",
+	"description_bm": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat daerah pentadbiran, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023.",
+	"link_parquet": "https://storage.dosm.gov.my/population/population_district.parquet",
+	"link_csv": "https://storage.dosm.gov.my/population/population_district.csv",
+	"link_preview": "https://storage.dosm.gov.my/population/population_district_preview.parquet",
+	"frequency": "YEARLY",
+	"geography": ["DISTRICT"],
+	"demography": ["SEX", "ETHNICITY", "AGE"],
+	"dataset_begin": "2020",
+	"dataset_end": "2023",
+	"data_source": ["DOSM"],
+	"fields": [
+		{
+			"name": "date",
+			"title_en": "Date",
+			"title_bm": "Tarikh",
+			"description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as this is annual data",
+			"description_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01 kerana ini adalah data tahunan"
+		},
+		{
+			"name": "state",
+			"title_en": "State",
+			"title_bm": "Negeri",
+			"description_en": "[Categorical] One of 16 states",
+			"description_bm": "[Kategoril] Satu daripada 16 negeri"
+		},
+		{
+			"name": "district",
+			"title_en": "District",
+			"title_bm": "Daerah",
+			"description_en": "[Categorical] One of 160 administrative districts, including the 4 states (Perlis and the 3 Federal Territories) which do not have subdivisions",
+			"description_bm": "[Kategori] Satu daripada 160 daerah pentadbiran, termasuk 4 negeri (Perlis dan 3 Wilayah Persekutuan) yang tidak dipecahkan lagi"
+		},
+		{
+			"name": "ethnicity",
+			"title_en": "Ethnicity",
+			"title_bm": "Etnik",
+			"description_en": "[Categorical] One of six mutually exclusive ethnic groups, or the overall population",
+			"description_bm": "[Kategori] Satu daripada enam kumpulan etnik saling eksklusif, ataupun penduduk keseluruhan"
+		},
+		{
+			"name": "age",
+			"title_en": "Age Group",
+			"title_bm": "Kumpulan Umur",
+			"description_en": "[Categorical] Five-year age groups e.g. 0-4, 5-9, 10-14, etc. 85+ is the oldest category.",
+			"description_bm": "[Kategori] Kumpulan umur dengan julat 5 tahun, contohnya 0-4, 5-9, 10-14, dsb. 85+ adalah kumpulan yang tertua."
+		},
+		{
+			"name": "sex",
+			"title_en": "Sex",
+			"title_bm": "Seks",
+			"description_en": "[Categorical] Male or female",
+			"description_bm": "[Kategori] Lelaki atau perempuan"
+		}
+	],
+	"metadata": {
+		"data_as_of": "2023-11-17T12:00:00Z",
+		"last_updated": "2023-11-16",
+		"next_update": "2023-12-01T08:00:00Z",
+		"methodology_en": "Methodology in English",
+		"methodology_bm": "Metodologi dalam Bahasa Malaysia",
+		"caveat_en": "Caveat in English",
+		"caveat_bm": "Caveat dalam Bahasa Malaysia",
+		"publication_en": "Publication in English",
+		"publication_bm": "Penerbitan dalam Bahasa Malaysia"
+	},
+	"dataviz": [],
+	"translations": {},
+	"related_datasets": [
+		{
+			"id": "related_dataset_1",
+			"title_en": "Related Dataset Title in English",
+			"title_bm": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
+			"description_en": "Description of the related dataset in English",
+			"description_bm": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
+		}
+	]
+}
