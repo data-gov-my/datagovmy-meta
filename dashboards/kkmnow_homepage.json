@@ -1,58 +1,70 @@
 {
-	"dashboard_name": "kkmnow_homepage",
-	"data_last_updated": "2023-11-30 12:00",
-	"route": "/,/ms-MY/",
-	"sites": ["kkmnow"],
-	"manual_trigger": "2023-11-30 13:50:00",
-	"required_params": [],
-	"optional_params": [],
-	"charts": {
-		"keystats": {
-			"name": "keystats",
-			"chart_type": "custom_chart",
-			"chart_source": "https://storage.data.gov.my/dashboards/kkmnow_homepage_keystats.parquet",
-			"data_as_of": "2023-11-29 23:59",
-			"api_type": "static",
-			"api_params": [],
-			"variables": {
-				"keys": ["chart"],
-				"value_columns": ["callout", "data_as_of"]
-			}
-		},
-		"timeseries": {
-			"name": "timeseries",
-			"chart_type": "timeseries_chart",
-			"chart_source": "https://storage.data.gov.my/dashboards/kkmnow_homepage_timeseries.parquet",
-			"data_as_of": "2023-11-21 23:59",
-			"api_type": "static",
-			"api_params": [],
-			"variables": {
-				"keys": [],
-				"rename_cols": {
-					"date": "x",
-					"views_7dma": "line_views",
-					"downloads_7dma": "line_downloads"
-				},
-				"value_columns": [
-					"x",
-					"views",
-					"line_views",
-					"downloads",
-					"line_downloads"
-				]
-			}
-		},
-		"timeseries_callout": {
-			"name": "timeseries_callout",
-			"chart_type": "custom_chart",
-			"chart_source": "https://storage.data.gov.my/dashboards/kkmnow_homepage_timeseries_callout.parquet",
-			"data_as_of": "2023-11-21 23:59",
-			"api_type": "static",
-			"api_params": [],
-			"variables": {
-				"keys": ["chart"],
-				"value_columns": ["callout1", "callout2"]
-			}
-		}
-	}
+    "dashboard_name": "kkmnow_homepage",
+    "data_last_updated": "2023-11-30 12:00",
+    "route": "/,/ms-MY/",
+    "sites": [
+        "kkmnow"
+    ],
+    "manual_trigger": "2023-11-30 12:52:49.770041",
+    "required_params": [],
+    "optional_params": [],
+    "charts": {
+        "keystats": {
+            "name": "keystats",
+            "chart_type": "custom_chart",
+            "chart_source": "https://storage.data.gov.my/dashboards/kkmnow_homepage_keystats.parquet",
+            "data_as_of": "2023-11-29 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "chart"
+                ],
+                "value_columns": [
+                    "callout",
+                    "data_as_of"
+                ]
+            }
+        },
+        "timeseries": {
+            "name": "timeseries",
+            "chart_type": "timeseries_chart",
+            "chart_source": "https://storage.data.gov.my/dashboards/kkmnow_homepage_timeseries.parquet",
+            "data_as_of": "2023-11-21 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [],
+                "rename_cols": {
+                    "date": "x",
+                    "views_7dma": "line_views",
+                    "downloads_7dma": "line_downloads"
+                },
+                "value_columns": [
+                    "x",
+                    "views",
+                    "line_views",
+                    "downloads",
+                    "line_downloads"
+                ]
+            }
+        },
+        "timeseries_callout": {
+            "name": "timeseries_callout",
+            "chart_type": "custom_chart",
+            "chart_source": "https://storage.data.gov.my/dashboards/kkmnow_homepage_timeseries_callout.parquet",
+            "data_as_of": "2023-11-21 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "chart"
+                ],
+                "value_columns": [
+                    "callout1",
+                    "callout2"
+                ]
+            }
+        }
+    }
 }
