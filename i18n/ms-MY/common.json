@@ -114,7 +114,8 @@
 			"public_open_data": "Data Terbuka Sektor Awam",
 			"guiding_principles": "Prinsip Panduan",
 			"terms_of_use": "Syarat Penggunaan",
-			"ai": "Penolong AI: OpenAI"
+			"ai": "Penolong AI: OpenAI",
+      "moh_github": "GitHub MoH"
 		},
 		"components": {
 			"theme": "Tema",
