@@ -1,6 +1,6 @@
 {
     "file": {
-        "manual_trigger": "2023-11-29 06:34:40.130250",
+        "manual_trigger": "2023-11-30 08:11:37.879055",
         "exclude_openapi": false,
         "bucket": "finsector",
         "file_name": "exchangerates",
@@ -245,9 +245,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-11-28 23:59",
-                        "last_updated": "2023-11-29 04:00",
-                        "next_update": "2023-11-30 04:00"
+                        "data_as_of": "2023-11-29 23:59",
+                        "last_updated": "2023-11-30 04:00",
+                        "next_update": "2023-12-01 04:00"
                     },
                     "metadata_lang": {
                         "en": {
