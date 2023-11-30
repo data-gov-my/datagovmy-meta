@@ -116,7 +116,8 @@
 			"public_open_data": "Public Sector Open Data",
 			"guiding_principles": "Guiding Principles",
 			"terms_of_use": "Terms of Use",
-			"ai": "AI Helper: OpenAI"
+			"ai": "AI Helper: OpenAI",
+      "moh_github": "MoH GitHub"
 		},
 		"components": {
 			"theme": "Theme",
