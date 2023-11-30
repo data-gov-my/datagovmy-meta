@@ -11,7 +11,7 @@
 			"name": "keystats",
 			"chart_type": "custom_chart",
 			"chart_source": "https://storage.data.gov.my/dashboards/kkmnow_homepage_keystats.parquet",
-			"data_as_of": "2023-11-27 23:59",
+			"data_as_of": "2023-11-29 23:59",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
