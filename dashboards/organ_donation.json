@@ -1,73 +1,101 @@
 {
-	"dashboard_name": "organ_donation",
-	"data_last_updated": "2023-11-28 09:00",
-	"route": "/dashboard/organ-donation,/ms-MY/dashboard/organ-donation",
-	"sites": ["kkmnow"],
-	"manual_trigger": "2023-11-22 06:53:16.73864",
-	"required_params": ["state"],
-	"optional_params": [],
-	"charts": {
-		"barchart_age": {
-			"name": "barchart_age",
-			"chart_type": "bar_chart",
-			"chart_source": "https://storage.data.gov.my/dashboards/organ_barchart_age.parquet",
-			"data_as_of": "2023-11-27 23:59",
-			"api_type": "dynamic",
-			"api_params": ["state"],
-			"variables": {
-				"keys": ["state", "period"],
-				"rename_cols": {
-					"age_group": "x",
-					"new_donors": "y"
-				},
-				"x": "x",
-				"y": ["y"]
-			}
-		},
-		"barchart_time": {
-			"name": "barchart_time",
-			"chart_type": "bar_chart",
-			"chart_source": "https://storage.data.gov.my/dashboards/organ_barchart_time.parquet",
-			"data_as_of": "2023-11-27 23:59",
-			"api_type": "dynamic",
-			"api_params": ["state"],
-			"variables": {
-				"keys": ["state", "type"],
-				"rename_cols": {
-					"period": "x",
-					"new_donors": "y"
-				},
-				"x": "x",
-				"y": ["y"]
-			}
-		},
-		"timeseries": {
-			"name": "timeseries",
-			"chart_type": "timeseries_chart",
-			"chart_source": "https://storage.data.gov.my/dashboards/organ_timeseries.parquet",
-			"data_as_of": "2023-11-27 23:59",
-			"api_type": "dynamic",
-			"api_params": ["state"],
-			"variables": {
-				"keys": ["state", "frequency"],
-				"rename_cols": {
-					"date": "x",
-					"daily": "y"
-				},
-				"value_columns": ["x", "y"]
-			}
-		},
-		"choropleth_malaysia": {
-			"name": "choropleth_malaysia",
-			"chart_type": "choropleth_chart",
-			"chart_source": "https://storage.data.gov.my/dashboards/organ_choropleth_msia.parquet",
-			"data_as_of": "2023-11-27 23:59",
-			"api_type": "static",
-			"api_params": [],
-			"variables": {
-				"x": "state",
-				"y": ["perc"]
-			}
-		}
-	}
+    "dashboard_name": "organ_donation",
+    "data_last_updated": "2023-11-29 09:00",
+    "route": "/dashboard/organ-donation,/ms-MY/dashboard/organ-donation",
+    "sites": [
+        "kkmnow"
+    ],
+    "manual_trigger": "2023-11-22 06:53:16.73864",
+    "required_params": [
+        "state"
+    ],
+    "optional_params": [],
+    "charts": {
+        "barchart_age": {
+            "name": "barchart_age",
+            "chart_type": "bar_chart",
+            "chart_source": "https://storage.data.gov.my/dashboards/organ_barchart_age.parquet",
+            "data_as_of": "2023-11-28 23:59",
+            "api_type": "dynamic",
+            "api_params": [
+                "state"
+            ],
+            "variables": {
+                "keys": [
+                    "state",
+                    "period"
+                ],
+                "rename_cols": {
+                    "age_group": "x",
+                    "new_donors": "y"
+                },
+                "x": "x",
+                "y": [
+                    "y"
+                ]
+            }
+        },
+        "barchart_time": {
+            "name": "barchart_time",
+            "chart_type": "bar_chart",
+            "chart_source": "https://storage.data.gov.my/dashboards/organ_barchart_time.parquet",
+            "data_as_of": "2023-11-28 23:59",
+            "api_type": "dynamic",
+            "api_params": [
+                "state"
+            ],
+            "variables": {
+                "keys": [
+                    "state",
+                    "type"
+                ],
+                "rename_cols": {
+                    "period": "x",
+                    "new_donors": "y"
+                },
+                "x": "x",
+                "y": [
+                    "y"
+                ]
+            }
+        },
+        "timeseries": {
+            "name": "timeseries",
+            "chart_type": "timeseries_chart",
+            "chart_source": "https://storage.data.gov.my/dashboards/organ_timeseries.parquet",
+            "data_as_of": "2023-11-28 23:59",
+            "api_type": "dynamic",
+            "api_params": [
+                "state"
+            ],
+            "variables": {
+                "keys": [
+                    "state",
+                    "frequency"
+                ],
+                "rename_cols": {
+                    "date": "x",
+                    "daily": "y"
+                },
+                "value_columns": [
+                    "x",
+                    "y"
+                ]
+            }
+        },
+        "choropleth_malaysia": {
+            "name": "choropleth_malaysia",
+            "chart_type": "choropleth_chart",
+            "chart_source": "https://storage.data.gov.my/dashboards/organ_choropleth_msia.parquet",
+            "data_as_of": "2023-11-28 23:59",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "x": "state",
+                "y": [
+                    "perc"
+                ]
+            }
+        }
+    }
 }
