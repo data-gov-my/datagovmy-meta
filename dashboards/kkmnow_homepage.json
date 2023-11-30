@@ -1,6 +1,6 @@
 {
 	"dashboard_name": "kkmnow_homepage",
-	"data_last_updated": "2023-11-28 16:00",
+	"data_last_updated": "2023-11-30 12:00",
 	"route": "/,/ms-MY/",
 	"sites": ["kkmnow"],
 	"manual_trigger": "2023-11-30 13:50:00",
