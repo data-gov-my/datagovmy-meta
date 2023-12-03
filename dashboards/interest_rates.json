@@ -1,11 +1,11 @@
 {
     "dashboard_name": "interest_rates",
-    "data_last_updated": "2023-09-07 15:00",
+    "data_last_updated": "2023-09-30 15:00",
     "route": "/dashboard/interest-rates,/ms-MY/dashboard/interest-rates",
     "sites": [
         "datagovmy"
     ],
-    "manual_trigger": "0",
+    "manual_trigger": "2023-12-03 10:14:30.633641",
     "required_params": [],
     "optional_params": [],
     "charts": {
@@ -13,7 +13,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/interestrates_timeseries.parquet",
-            "data_as_of": "2023-07-31 23:59",
+            "data_as_of": "2023-08",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -35,7 +35,7 @@
             "name": "timeseries_opr",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/interestrates_timeseries_opr.parquet",
-            "data_as_of": "2023-09-07 23:59",
+            "data_as_of": "2023-08",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -53,7 +53,7 @@
             "name": "statistics",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/interestrates_timeseries_callout.parquet",
-            "data_as_of": "2023-07-31 23:59",
+            "data_as_of": "2023-08",
             "api_type": "static",
             "api_params": [],
             "variables": {

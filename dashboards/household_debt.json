@@ -1,46 +1,57 @@
 {
-	"dashboard_name": "household_debt",
-	"data_last_updated": "2023-09-06 23:59",
-	"route": "/dashboard/household-debt,/ms-MY/dashboard/household-debt",
-	"sites": ["datagovmy"],
-	"manual_trigger": "0",
-	"required_params": [],
-	"optional_params": [],
-	"charts": {
-		"timeseries": {
-			"name": "timeseries",
-			"chart_type": "timeseries_chart",
-			"chart_source": "http://storage.data.gov.my/dashboards/hhdebt_timeseries.parquet",
-			"data_as_of": "2023-09-06 23:59",
-			"api_type": "static",
-			"api_params": [],
-			"variables": {
-				"keys": ["transaction", "chart_type"],
-				"rename_cols": {
-					"date": "x"
-				},
-				"value_columns": [
-					"x",
-					"credit_card",
-					"vehicles_passenger",
-					"property_residental",
-					"personal_total",
-					"securities",
-					"recession"
-				]
-			}
-		},
-		"timeseries_callout": {
-			"name": "timeseries_callout",
-			"chart_type": "custom_chart",
-			"chart_source": "http://storage.data.gov.my/dashboards/hhdebt_timeseries_callout.parquet",
-			"data_as_of": "2023-09-06 23:59",
-			"api_type": "static",
-			"api_params": [],
-			"variables": {
-				"keys": ["transaction", "chart_type", "chart"],
-				"value_columns": ["latest"]
-			}
-		}
-	}
+    "dashboard_name": "household_debt",
+    "data_last_updated": "2023-11-30 15:00",
+    "route": "/dashboard/household-debt,/ms-MY/dashboard/household-debt",
+    "sites": [
+        "datagovmy"
+    ],
+    "manual_trigger": "2023-12-03 10:15:54.169339",
+    "required_params": [],
+    "optional_params": [],
+    "charts": {
+        "timeseries": {
+            "name": "timeseries",
+            "chart_type": "timeseries_chart",
+            "chart_source": "http://storage.data.gov.my/dashboards/hhdebt_timeseries.parquet",
+            "data_as_of": "2023-10",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "transaction",
+                    "chart_type"
+                ],
+                "rename_cols": {
+                    "date": "x"
+                },
+                "value_columns": [
+                    "x",
+                    "credit_card",
+                    "vehicles_passenger",
+                    "property_residental",
+                    "personal_total",
+                    "securities",
+                    "recession"
+                ]
+            }
+        },
+        "timeseries_callout": {
+            "name": "timeseries_callout",
+            "chart_type": "custom_chart",
+            "chart_source": "http://storage.data.gov.my/dashboards/hhdebt_timeseries_callout.parquet",
+            "data_as_of": "2023-10",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "transaction",
+                    "chart_type",
+                    "chart"
+                ],
+                "value_columns": [
+                    "latest"
+                ]
+            }
+        }
+    }
 }
