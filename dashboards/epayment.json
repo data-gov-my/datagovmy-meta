@@ -1,120 +1,143 @@
 {
-	"dashboard_name": "epayment",
-	"data_last_updated": "2023-08-31 23:59",
-	"route": "/dashboard/electronic-payments,/ms-MY/dashboard/electronic-payments",
-	"sites": ["datagovmy"],
-	"manual_trigger": "0",
-	"required_params": [],
-	"optional_params": [],
-	"charts": {
-		"epayment_instruments_timeseries": {
-			"name": "epayment_instruments_timeseries",
-			"chart_type": "timeseries_chart",
-			"chart_source": "https://storage.data.gov.my/dashboards/epayment_instruments_timeseries.parquet",
-			"data_as_of": "2023-07-31 23:59",
-			"api_type": "static",
-			"api_params": [],
-			"variables": {
-				"keys": ["variable"],
-				"rename_cols": {
-					"date": "x"
-				},
-				"value_columns": [
-					"x",
-					"charge_f2f",
-					"charge_online",
-					"cheque",
-					"credit_f2f",
-					"credit_online",
-					"debit_f2f",
-					"debit_online",
-					"emoney",
-					"recession"
-				]
-			}
-		},
-		"epayment_instruments_timeseries_callout": {
-			"name": "epayment_instruments_timeseries_callout",
-			"chart_type": "custom_chart",
-			"chart_source": "https://storage.data.gov.my/dashboards/epayment_instruments_timeseries_callout.parquet",
-			"data_as_of": "2023-07-31 23:59",
-			"api_type": "static",
-			"api_params": [],
-			"variables": {
-				"keys": ["variable", "chart"],
-				"value_columns": ["latest"]
-			}
-		},
-		"epayment_systems_timeseries": {
-			"name": "epayment_systems_timeseries",
-			"chart_type": "timeseries_chart",
-			"chart_source": "https://storage.data.gov.my/dashboards/epayment_systems_timeseries.parquet",
-			"data_as_of": "2023-07-31 23:59",
-			"api_type": "static",
-			"api_params": [],
-			"variables": {
-				"keys": ["variable"],
-				"rename_cols": {
-					"date": "x"
-				},
-				"value_columns": [
-					"x",
-					"dd",
-					"fpx",
-					"ibg",
-					"jompay",
-					"rentas",
-					"rpp",
-					"recession"
-				]
-			}
-		},
-		"epayment_systems_timeseries_callout": {
-			"name": "epayment_systems_timeseries_callout",
-			"chart_type": "custom_chart",
-			"chart_source": "https://storage.data.gov.my/dashboards/epayment_systems_timeseries_callout.parquet",
-			"data_as_of": "2023-07-31 23:59",
-			"api_type": "static",
-			"api_params": [],
-			"variables": {
-				"keys": ["variable", "chart"],
-				"value_columns": ["latest"]
-			}
-		},
-		"epayment_channels_timeseries": {
-			"name": "epayment_channels_timeseries",
-			"chart_type": "timeseries_chart",
-			"chart_source": "https://storage.data.gov.my/dashboards/epayment_channels_timeseries.parquet",
-			"data_as_of": "2023-07-31 23:59",
-			"api_type": "static",
-			"api_params": [],
-			"variables": {
-				"keys": ["variable"],
-				"rename_cols": {
-					"date": "x"
-				},
-				"value_columns": [
-					"x",
-					"atm_cwd",
-					"atm_fin",
-					"internet_corp",
-					"internet_indiv",
-					"mobile",
-					"recession"
-				]
-			}
-		},
-		"epayment_channels_timeseries_callout": {
-			"name": "epayment_channels_timeseries_callout",
-			"chart_type": "custom_chart",
-			"chart_source": "https://storage.data.gov.my/dashboards/epayment_channels_timeseries_callout.parquet",
-			"data_as_of": "2023-07-31 23:59",
-			"api_type": "static",
-			"api_params": [],
-			"variables": {
-				"keys": ["variable", "chart"],
-				"value_columns": ["latest"]
-			}
-		}
-	}
+    "dashboard_name": "epayment",
+    "data_last_updated": "2023-11-15 15:00",
+    "route": "/dashboard/electronic-payments,/ms-MY/dashboard/electronic-payments",
+    "sites": [
+        "datagovmy"
+    ],
+    "manual_trigger": "2023-12-03 12:38:26.152493",
+    "required_params": [],
+    "optional_params": [],
+    "charts": {
+        "epayment_instruments_timeseries": {
+            "name": "epayment_instruments_timeseries",
+            "chart_type": "timeseries_chart",
+            "chart_source": "https://storage.data.gov.my/dashboards/epayment_instruments_timeseries.parquet",
+            "data_as_of": "2023-09",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "variable"
+                ],
+                "rename_cols": {
+                    "date": "x"
+                },
+                "value_columns": [
+                    "x",
+                    "charge_f2f",
+                    "charge_online",
+                    "cheque",
+                    "credit_f2f",
+                    "credit_online",
+                    "debit_f2f",
+                    "debit_online",
+                    "emoney",
+                    "recession"
+                ]
+            }
+        },
+        "epayment_instruments_timeseries_callout": {
+            "name": "epayment_instruments_timeseries_callout",
+            "chart_type": "custom_chart",
+            "chart_source": "https://storage.data.gov.my/dashboards/epayment_instruments_timeseries_callout.parquet",
+            "data_as_of": "2023-09",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "variable",
+                    "chart"
+                ],
+                "value_columns": [
+                    "latest"
+                ]
+            }
+        },
+        "epayment_systems_timeseries": {
+            "name": "epayment_systems_timeseries",
+            "chart_type": "timeseries_chart",
+            "chart_source": "https://storage.data.gov.my/dashboards/epayment_systems_timeseries.parquet",
+            "data_as_of": "2023-09",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "variable"
+                ],
+                "rename_cols": {
+                    "date": "x"
+                },
+                "value_columns": [
+                    "x",
+                    "dd",
+                    "fpx",
+                    "ibg",
+                    "jompay",
+                    "rentas",
+                    "rpp",
+                    "recession"
+                ]
+            }
+        },
+        "epayment_systems_timeseries_callout": {
+            "name": "epayment_systems_timeseries_callout",
+            "chart_type": "custom_chart",
+            "chart_source": "https://storage.data.gov.my/dashboards/epayment_systems_timeseries_callout.parquet",
+            "data_as_of": "2023-09",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "variable",
+                    "chart"
+                ],
+                "value_columns": [
+                    "latest"
+                ]
+            }
+        },
+        "epayment_channels_timeseries": {
+            "name": "epayment_channels_timeseries",
+            "chart_type": "timeseries_chart",
+            "chart_source": "https://storage.data.gov.my/dashboards/epayment_channels_timeseries.parquet",
+            "data_as_of": "2023-09",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "variable"
+                ],
+                "rename_cols": {
+                    "date": "x"
+                },
+                "value_columns": [
+                    "x",
+                    "atm_cwd",
+                    "atm_fin",
+                    "internet_corp",
+                    "internet_indiv",
+                    "mobile",
+                    "recession"
+                ]
+            }
+        },
+        "epayment_channels_timeseries_callout": {
+            "name": "epayment_channels_timeseries_callout",
+            "chart_type": "custom_chart",
+            "chart_source": "https://storage.data.gov.my/dashboards/epayment_channels_timeseries_callout.parquet",
+            "data_as_of": "2023-09",
+            "api_type": "static",
+            "api_params": [],
+            "variables": {
+                "keys": [
+                    "variable",
+                    "chart"
+                ],
+                "value_columns": [
+                    "latest"
+                ]
+            }
+        }
+    }
 }
