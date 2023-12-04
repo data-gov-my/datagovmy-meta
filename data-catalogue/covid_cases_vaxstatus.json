@@ -38,39 +38,39 @@
                 "title_en": "State",
                 "title_bm": "Negeri",
                 "desc_en": "[Categorical] One of 16 states, or Malaysia",
-                "desc_bm": "[Kategoril] Satu daripada 16 negeri, atau Malaysia"
+                "desc_bm": "[Kategori] Satu daripada 16 negeri, atau Malaysia"
             },
             {
                 "id": -1,
                 "name": "cases_unvax",
                 "title_en": "Unvaccinated Cases",
                 "title_bm": "Kes Tidak Divaksinaski",
-                "desc_en": "[Integer] Number of cases ",
-                "desc_bm": "[Integer] Bilangan kes"
+                "desc_en": "[Integer] Number of new cases for which no vaccination record is found",
+                "desc_bm": "[Integer] Bilangan kes baharu di mana tiada rekod vaksinasi dapat dikesan"
             },
             {
                 "id": -1,
                 "name": "cases_pvax",
                 "title_en": "Partially Vaccinated Cases",
                 "title_bm": "Kes Tidak Lengkap Vaksinasi",
-                "desc_en": "[Integer] Number of cases ",
-                "desc_bm": "[Integer] Bilangan kes"
+                "desc_en": "[Integer] Number of new cases where the individual received at least 1 dose of any vaccine, but has not yet been fully vaccinated",
+                "desc_bm": "[Integer] Bilangan kes baharu di mana individu telah menerima sekurang-kurangnya satu dos bagi mana-mana vaksin, tetapi belum lagi lengkap divaksinasi"
             },
             {
                 "id": -1,
                 "name": "cases_fvax",
                 "title_en": "Fully Vaccinated Cases",
                 "title_bm": "Kes Lengkap Vaksinasi",
-                "desc_en": "[Integer] Number of cases ",
-                "desc_bm": "[Integer] Bilangan kes"
+                "desc_en": "[Integer] Number of new cases where the individual received the second dose of a two-dose vaccine at least 14 days ago, or the first dose of a one-dose vaccine at least 28 days ago; boosted cases are removed from this number",
+                "desc_bm": "[Integer] Bilangan kes baharu di mana individu telah menerima dos kedua daripada vaksin dua dos sekurang-kurangnya 14 hari lepas, ataupun dos pertama bagi vaksin satu dos sekurang-kurangnya 28 hari lepas; kes lengkap dos penggalak tidak dikira dalam angka ini"
             },
             {
                 "id": -1,
                 "name": "cases_boost",
                 "title_en": "Boosted Cases",
                 "title_bm": "Kes Lengkap Dos Penggalak",
-                "desc_en": "[Integer] Number of cases ",
-                "desc_bm": "[Integer] Bilangan kes"
+                "desc_en": "[Integer] Number of new cases where the individual received a booster dose at least 7 days ago",
+                "desc_bm": "[Integer] Bilangan kes baharu di mana individu telah menerima dos penggalak sekurang-kurangnya 7 hari lepas"
             },
             {
                 "id": 0,
@@ -100,13 +100,13 @@
                     },
                     "metadata_lang": {
                         "en": {
-                            "methodology": "This dataset is produced by the Crisis Preparedness and Response Centre (CPRC) at the Ministry of Health, based on daily ground-level surveillance conducted to monitor the evolution of COVID-19 in Malaysia. Following Malaysia's transition to endemicity, the public reporting frequency was altered from daily to weekly. Nevertheless, internal surveillance is still conducted on a daily basis.",
-                            "caveat": "In general, the data presented here is based on the date of report rather than the date of the event.",
+                            "methodology": "Building on the [base dataset](https://data.moh.gov.my/data-catalogue/healthcare_covid_cases), this dataset tabules new COVID-19 cases by vaccination status by deterministically matching individual-level COVID-19 case data with COVID-19 vaccination records from the Malaysian Vaccine Administration System (MyVAS). Matching is done using the individual's IC/BC number (for Malaysians) or passport (for non-Malaysians), with only exact matches permitted.",
+                            "caveat": "It is possible that the number of vaccinated cases exceeds the tabulated number, for instance if an individual was vaccinated under an ID different from the ID used in the COVID-19 test result declaration, or if an individual was vaccinated outside the country and has not yet uploaded their records to MyVAS. However, these issues are negligible in magnitude.",
                             "publication": "KKMNOW features a [dashboard on COVID-19](https://data.moh.gov.my/dashboard/covid-19) where you can explore the data in a more interactive manner!"
                         },
                         "bm": {
-                            "methodology": "Dataset ini dihasilkan oleh Pusat Kesiapsiagaan dan Tindak Cepat Krisis (CPRC) di Kementerian Kesihatan Malaysia, berdasarkan survelan harian di lapangan yang dilaksanakan untuk memantau evolusi COVID-19 di Malaysia. Berikutan peralihan Malaysia kepada fasa endemik, kekerapan pelaporan awam telah diubah daripada harian kepada mingguan. Namun begitu, survelan harian masih berlangunsung secara dalaman.",
-                            "caveat": "Secara am, data ini adalah berdasarkan tarikh laporan dan bukannya tarikh kejadian.",
+                            "methodology": "Berdasarkan [set data asas](https://data.moh.gov.my/data-catalogue/healthcare_covid_cases), set data ini memaparkan kes COVID-19 baharu mengikut status vaksin melalui pemadanan data kes COVID-19 peringkat individu dengan rekod vaksinasi COVID-19 daripada Sistem Pentadbiran Vaksin Malaysia (MyVAS). Pemadanan dilakukan menggunakan nombor kad pengenalan / sijil kelahiran (untuk warganegara Malaysia) ataupun nombor pasport (untuk bukan warganegara), dengan hanya padanan 100% diterima.",
+                            "caveat": "Ada kemungkinan bahawa bilangan kes yang divaksinasi melebihi bilangan yang rekod yang dapat dipadankan, contohnya jika seseorang individu telah divaksin di bawah ID yang berbeza daripada ID yang digunakan dalam pengisytiharan keputusan ujian COVID-19, ataupun jika seseorang individu telah divaksin di luar negara dan belum memuat naik rekod mereka ke MyVAS. Walau bagaimanapun, isu-isu ini tidak signifikan secara keseluruhan.",
                             "publication": "Portal KKMNOW sendiri memaparkan [papan pemuka tentang COVID-19](https://data.moh.gov.my/dashboard/covid-19) di mana anda boleh menerokai data ini dengan lebih interaktif!"
                         }
                     },
