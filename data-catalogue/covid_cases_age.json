@@ -274,6 +274,7 @@
                         "en": {
                             "date": "Date",
                             "state": "State",
+							"y1": "Cases",
                             "cases_child": "Child Cases",
                             "cases_adolescent": "Adolescent Cases",
                             "cases_adult": "Adult Cases",
@@ -292,6 +293,7 @@
                         "bm": {
                             "date": "Tarikh",
                             "state": "Negeri",
+							"y1": "Kes",
                             "cases_child": "Kes Kanak-kanak",
                             "cases_adolescent": "Kes Remaja",
                             "cases_adult": "Kes Dewasa",
