@@ -130,7 +130,98 @@
                             "freeze": ["date"]
                         }
                     },
-                    "dataviz": [],
+                    "dataviz": [
+                        {
+                            "translation_key": "cases_new",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": ["state"],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": ["state"],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "cases_new"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "cases_import",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": ["state"],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": ["state"],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "cases_import"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "cases_recovered",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": ["state"],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": ["state"],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "cases_recovered"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "cases_active",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": ["state"],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": ["state"],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "cases_active"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "cases_cluster",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": ["state"],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": ["state"],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "cases_cluster"
+                                    ]
+                                }
+                            }
+                        }
+                    ],
                     "translations": {
                         "en": {
                             "date": "Date",
