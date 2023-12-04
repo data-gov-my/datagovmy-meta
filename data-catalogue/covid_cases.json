@@ -1,249 +1,234 @@
 {
-    "file": {
-        "manual_trigger": "na",
-        "exclude_openapi": false,
-        "bucket": "healthcare",
-        "file_name": "covid_cases",
-        "category": "HEALTHCARE",
-        "category_en": "Healthcare",
-        "category_bm": "Kesihatan",
-        "subcategory": "HEALTHCARE_INF",
-        "subcategory_en": "Infectious Diseases",
-        "subcategory_bm": "Penyakit Berjangkit",
-        "category_kkm" : "HEALTHCARE_INF",
-        "category_kkm_en" : "Infectious Diseases",
-        "category_kkm_bm" : "Penyakit Berjangkit",
-        "subcategory_kkm" : "COVID",
-        "subcategory_kkm_en" : "COVID-19",
-        "subcategory_kkm_bm" : "COVID-19",
-        "description": {
-            "en": "Daily COVID-19 cases at national and state level, with details on imported, recovered, active, and cluster cases.",
-            "bm": "Kes COVID-19 harian di peringkat kebangsaan dan negeri, dengan butiran mengenai kes import, sembuh, aktif dan kluster."
-        },
-        "link_parquet": "https://storage.data.gov.my/healthcare/covid_cases.parquet",
-        "link_csv": "https://storage.data.gov.my/healthcare/covid_cases.csv",
-        "link_preview": "https://storage.data.gov.my/healthcare/covid_cases.parquet",
-        "variables": [
-            {
-                "id": -1,
-                "name": "date",
-                "title_en": "Date",
-                "title_bm": "Tarikh",
-                "desc_en": "[Date] Date in YYYY-MM-DD format",
-                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
-            },
-            {
-                "id": -1,
-                "name": "state",
-                "title_en": "State",
-                "title_bm": "Negeri",
-                "desc_en": "[Categorical] One of 16 states, or Malaysia",
-                "desc_bm": "[Kategoril] Satu daripada 16 negeri, atau Malaysia"
-            },
-            {
-                "id": -1,
-                "name": "cases_new",
-                "title_en": "New Cases",
-                "title_bm": "Kes Baharu",
-                "desc_en": "[Integer] Number of new cases reported in the 24 hours since the last report; note that this is based on the date of report and not the date of the test.",
-                "desc_bm": "[Integer] Bilangan kes baharu yang dilaporkan dalam 24 jam sejak laporan terakhir; angka ini adalah berdasarkan tarikh laporan dan bukannya tarikh ujian saringan."
-            },
-            {
-                "id": -1,
-                "name": "cases_import",
-                "title_en": "Imported Cases",
-                "title_bm": "Kes Import",
-                "desc_en": "[Integer] Number of new cases imported from abroad, i.e. inviduals who were infected outside the country",
-                "desc_bm": "[Integer] Bilangan kes baharu yang datang dari luar negara, iaitu individu yang dijangkiti di luar negara"
-            },
-            {
-                "id": -1,
-                "name": "cases_recovered",
-                "title_en": "Recoveries",
-                "title_bm": "Kes Sembuh",
-                "desc_en": "[Integer] Number of recoveries from COVID-19 reported in the 24 hours since the last report",
-                "desc_bm": "[Integer] Bilangan kes sembuh yang dilaporkan dalam 24 jam sejak laporan terakhir"
-            },
-            {
-                "id": -1,
-                "name": "cases_active",
-                "title_en": "Active Cases",
-                "title_bm": "Kes Aktif",
-                "desc_en": "[Integer] Number of COVID-19 cases who have not recovered or died",
-                "desc_bm": "[Integer] Bilangan kes COVID-19 yang belum sembuh ataupun mati"
-            },
-            {
-                "id": -1,
-                "name": "cases_cluster",
-                "title_en": "Cluster-related Cases",
-                "title_bm": "Kes Kluster",
-                "desc_en": "[Integer] Number of cases attributable to clusters; the difference between new cases and the sum of cases attributable to clusters is the number of sporadic cases",
-                "desc_bm": "[Integer] Bilangan kes yang boleh dikaitkan dengan sesebuah kluster; perbezaan antara kes baharu dan jumlah kes yang dikaitkan dengan kluster adalah bilangan kes sporadik"
-            },
-            {
-                "id": 0,
-                "name": "Daily COVID-19 Cases by State",
-                "title_en": "Daily COVID-19 Cases by State",
-                "title_bm": "Kes COVID-19 Harian mengikut Negeri",
-                "desc_en": "Daily COVID-19 cases at national and state level, broken down by vaccination status.",
-                "desc_bm": "Kes COVID-19 harian di peringkat kebangsaan dan negeri, dengan pecahan mengikut status vaksinasi.",
-                "catalog_data": {
-                    "catalog_filters": {
-                        "frequency": "DAILY",
-                        "geography": [
-                            "NATIONAL",
-                            "STATE"
-                        ],
-                        "demography": [],
-                        "start": "2020",
-                        "end": "2023",
-                        "data_source": [
-                            "MoH"
-                        ]
-                    },
-                    "metadata_neutral": {
-                        "data_as_of": "2023-12-02 23:59",
-                        "last_updated": "2023-12-03 16:00",
-                        "next_update": "2023-12-10 16:00"
-                    },
-                    "metadata_lang": {
-                        "en": {
-                            "methodology": "This dataset is produced by the Crisis Preparedness and Response Centre (CPRC) at the Ministry of Health, based on daily ground-level surveillance conducted to monitor the evolution of COVID-19 in Malaysia. Following Malaysia's transition to endemicity, the public reporting frequency was altered from daily to weekly. Nevertheless, internal surveillance is still conducted on a daily basis.",
-                            "caveat": "In general, the data presented here is based on the date of report rather than the date of the event.",
-                            "publication": "KKMNOW features a [dashboard on COVID-19](https://data.moh.gov.my/dashboard/covid-19) where you can explore the data in a more interactive manner!"
-                        },
-                        "bm": {
-                            "methodology": "Dataset ini dihasilkan oleh Pusat Kesiapsiagaan dan Tindak Cepat Krisis (CPRC) di Kementerian Kesihatan Malaysia, berdasarkan survelan harian di lapangan yang dilaksanakan untuk memantau evolusi COVID-19 di Malaysia. Berikutan peralihan Malaysia kepada fasa endemik, kekerapan pelaporan awam telah diubah daripada harian kepada mingguan. Namun begitu, survelan harian masih berlangunsung secara dalaman.",
-                            "caveat": "Secara am, data ini adalah berdasarkan tarikh laporan dan bukannya tarikh kejadian.",
-                            "publication": "Portal KKMNOW memaparkan [papan pemuka tentang COVID-19](https://data.moh.gov.my/dashboard/covid-19) di mana anda boleh menerokai data ini dengan lebih interaktif!"
-                        }
-                    },
-                    "chart": {
-                        "chart_type": "TABLE",
-                        "chart_filters": {
-                            "SLICE_BY": ["state"],
-                            "precision": 0
-                        },
-                        "chart_variables": {
-                            "parents": ["state"],
-                            "exclude": [],
-                            "freeze": ["date"]
-                        }
-                    },
-                    "dataviz": [
-                        {
-                            "translation_key": "cases_new",
-                            "chart_type": "TIMESERIES",
-                            "chart_filters": {
-                                "SLICE_BY": ["state"],
-                                "precision": 0
-                            },
-                            "chart_variables": {
-                                "parents": ["state"],
-                                "operation": "SUM",
-                                "format": {
-                                    "x": "date",
-                                    "y": [
-                                        "cases_new"
-                                    ]
-                                }
-                            }
-                        },
-                        {
-                            "translation_key": "cases_import",
-                            "chart_type": "TIMESERIES",
-                            "chart_filters": {
-                                "SLICE_BY": ["state"],
-                                "precision": 0
-                            },
-                            "chart_variables": {
-                                "parents": ["state"],
-                                "operation": "SUM",
-                                "format": {
-                                    "x": "date",
-                                    "y": [
-                                        "cases_import"
-                                    ]
-                                }
-                            }
-                        },
-                        {
-                            "translation_key": "cases_recovered",
-                            "chart_type": "TIMESERIES",
-                            "chart_filters": {
-                                "SLICE_BY": ["state"],
-                                "precision": 0
-                            },
-                            "chart_variables": {
-                                "parents": ["state"],
-                                "operation": "SUM",
-                                "format": {
-                                    "x": "date",
-                                    "y": [
-                                        "cases_recovered"
-                                    ]
-                                }
-                            }
-                        },
-                        {
-                            "translation_key": "cases_active",
-                            "chart_type": "TIMESERIES",
-                            "chart_filters": {
-                                "SLICE_BY": ["state"],
-                                "precision": 0
-                            },
-                            "chart_variables": {
-                                "parents": ["state"],
-                                "operation": "SUM",
-                                "format": {
-                                    "x": "date",
-                                    "y": [
-                                        "cases_active"
-                                    ]
-                                }
-                            }
-                        },
-                        {
-                            "translation_key": "cases_cluster",
-                            "chart_type": "TIMESERIES",
-                            "chart_filters": {
-                                "SLICE_BY": ["state"],
-                                "precision": 0
-                            },
-                            "chart_variables": {
-                                "parents": ["state"],
-                                "operation": "SUM",
-                                "format": {
-                                    "x": "date",
-                                    "y": [
-                                        "cases_cluster"
-                                    ]
-                                }
-                            }
-                        }
-                    ],
-                    "translations": {
-                        "en": {
-                            "date": "Date",
-                            "state": "State",
-                            "cases_new": "New Cases",
-                            "cases_import": "Imported Cases",
-                            "cases_recovered": "Recoveries",
-                            "cases_active": "Active Cases",
-                            "cases_cluster": "Cluster-related Cases"
-                        },
-                        "bm": {
-                            "date": "Tarikh",
-                            "state": "Negeri",
-                            "cases_new": "Kes Baharu",
-                            "cases_import": "Kes Import",
-                            "cases_recovered": "Kes Sembuh",
-                            "cases_active": "Kes Aktif",
-                            "cases_cluster": "Kes Kluster"
-                        }
-                    }
-                }
-            }
-        ]
-    }
+	"file": {
+		"manual_trigger": "na",
+		"exclude_openapi": false,
+		"bucket": "healthcare",
+		"file_name": "covid_cases",
+		"category": "HEALTHCARE",
+		"category_en": "Healthcare",
+		"category_bm": "Kesihatan",
+		"subcategory": "HEALTHCARE_INF",
+		"subcategory_en": "Infectious Diseases",
+		"subcategory_bm": "Penyakit Berjangkit",
+		"category_kkm": "HEALTHCARE_INF",
+		"category_kkm_en": "Infectious Diseases",
+		"category_kkm_bm": "Penyakit Berjangkit",
+		"subcategory_kkm": "COVID",
+		"subcategory_kkm_en": "COVID-19",
+		"subcategory_kkm_bm": "COVID-19",
+		"description": {
+			"en": "Daily COVID-19 cases at national and state level, with details on imported, recovered, active, and cluster cases.",
+			"bm": "Kes COVID-19 harian di peringkat kebangsaan dan negeri, dengan butiran mengenai kes import, sembuh, aktif dan kluster."
+		},
+		"link_parquet": "https://storage.data.gov.my/healthcare/covid_cases.parquet",
+		"link_csv": "https://storage.data.gov.my/healthcare/covid_cases.csv",
+		"link_preview": "https://storage.data.gov.my/healthcare/covid_cases.parquet",
+		"variables": [
+			{
+				"id": -1,
+				"name": "date",
+				"title_en": "Date",
+				"title_bm": "Tarikh",
+				"desc_en": "[Date] Date in YYYY-MM-DD format",
+				"desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+			},
+			{
+				"id": -1,
+				"name": "state",
+				"title_en": "State",
+				"title_bm": "Negeri",
+				"desc_en": "[Categorical] One of 16 states, or Malaysia",
+				"desc_bm": "[Kategoril] Satu daripada 16 negeri, atau Malaysia"
+			},
+			{
+				"id": -1,
+				"name": "cases_new",
+				"title_en": "New Cases",
+				"title_bm": "Kes Baharu",
+				"desc_en": "[Integer] Number of new cases reported in the 24 hours since the last report; note that this is based on the date of report and not the date of the test.",
+				"desc_bm": "[Integer] Bilangan kes baharu yang dilaporkan dalam 24 jam sejak laporan terakhir; angka ini adalah berdasarkan tarikh laporan dan bukannya tarikh ujian saringan."
+			},
+			{
+				"id": -1,
+				"name": "cases_import",
+				"title_en": "Imported Cases",
+				"title_bm": "Kes Import",
+				"desc_en": "[Integer] Number of new cases imported from abroad, i.e. inviduals who were infected outside the country",
+				"desc_bm": "[Integer] Bilangan kes baharu yang datang dari luar negara, iaitu individu yang dijangkiti di luar negara"
+			},
+			{
+				"id": -1,
+				"name": "cases_recovered",
+				"title_en": "Recoveries",
+				"title_bm": "Kes Sembuh",
+				"desc_en": "[Integer] Number of recoveries from COVID-19 reported in the 24 hours since the last report",
+				"desc_bm": "[Integer] Bilangan kes sembuh yang dilaporkan dalam 24 jam sejak laporan terakhir"
+			},
+			{
+				"id": -1,
+				"name": "cases_active",
+				"title_en": "Active Cases",
+				"title_bm": "Kes Aktif",
+				"desc_en": "[Integer] Number of COVID-19 cases who have not recovered or died",
+				"desc_bm": "[Integer] Bilangan kes COVID-19 yang belum sembuh ataupun mati"
+			},
+			{
+				"id": -1,
+				"name": "cases_cluster",
+				"title_en": "Cluster-related Cases",
+				"title_bm": "Kes Kluster",
+				"desc_en": "[Integer] Number of cases attributable to clusters; the difference between new cases and the sum of cases attributable to clusters is the number of sporadic cases",
+				"desc_bm": "[Integer] Bilangan kes yang boleh dikaitkan dengan sesebuah kluster; perbezaan antara kes baharu dan jumlah kes yang dikaitkan dengan kluster adalah bilangan kes sporadik"
+			},
+			{
+				"id": 0,
+				"name": "Daily COVID-19 Cases by State",
+				"title_en": "Daily COVID-19 Cases by State",
+				"title_bm": "Kes COVID-19 Harian mengikut Negeri",
+				"desc_en": "Daily COVID-19 cases at national and state level, broken down by vaccination status.",
+				"desc_bm": "Kes COVID-19 harian di peringkat kebangsaan dan negeri, dengan pecahan mengikut status vaksinasi.",
+				"catalog_data": {
+					"catalog_filters": {
+						"frequency": "DAILY",
+						"geography": ["NATIONAL", "STATE"],
+						"demography": [],
+						"start": "2020",
+						"end": "2023",
+						"data_source": ["MoH"]
+					},
+					"metadata_neutral": {
+						"data_as_of": "2023-12-02 23:59",
+						"last_updated": "2023-12-03 16:00",
+						"next_update": "2023-12-10 16:00"
+					},
+					"metadata_lang": {
+						"en": {
+							"methodology": "This dataset is produced by the Crisis Preparedness and Response Centre (CPRC) at the Ministry of Health, based on daily ground-level surveillance conducted to monitor the evolution of COVID-19 in Malaysia. Following Malaysia's transition to endemicity, the public reporting frequency was altered from daily to weekly. Nevertheless, internal surveillance is still conducted on a daily basis.",
+							"caveat": "In general, the data presented here is based on the date of report rather than the date of the event.",
+							"publication": "KKMNOW features a [dashboard on COVID-19](https://data.moh.gov.my/dashboard/covid-19) where you can explore the data in a more interactive manner!"
+						},
+						"bm": {
+							"methodology": "Dataset ini dihasilkan oleh Pusat Kesiapsiagaan dan Tindak Cepat Krisis (CPRC) di Kementerian Kesihatan Malaysia, berdasarkan survelan harian di lapangan yang dilaksanakan untuk memantau evolusi COVID-19 di Malaysia. Berikutan peralihan Malaysia kepada fasa endemik, kekerapan pelaporan awam telah diubah daripada harian kepada mingguan. Namun begitu, survelan harian masih berlangunsung secara dalaman.",
+							"caveat": "Secara am, data ini adalah berdasarkan tarikh laporan dan bukannya tarikh kejadian.",
+							"publication": "Portal KKMNOW memaparkan [papan pemuka tentang COVID-19](https://data.moh.gov.my/dashboard/covid-19) di mana anda boleh menerokai data ini dengan lebih interaktif!"
+						}
+					},
+					"chart": {
+						"chart_type": "TABLE",
+						"chart_filters": {
+							"SLICE_BY": ["state"],
+							"precision": 0
+						},
+						"chart_variables": {
+							"parents": ["state"],
+							"exclude": [],
+							"freeze": ["date"]
+						}
+					},
+					"dataviz": [
+						{
+							"translation_key": "cases_new",
+							"chart_type": "TIMESERIES",
+							"chart_filters": {
+								"SLICE_BY": ["state"],
+								"precision": 0
+							},
+							"chart_variables": {
+								"parents": ["state"],
+								"operation": "SUM",
+								"format": {
+									"x": "date",
+									"y": ["cases_new"]
+								}
+							}
+						},
+						{
+							"translation_key": "cases_import",
+							"chart_type": "TIMESERIES",
+							"chart_filters": {
+								"SLICE_BY": ["state"],
+								"precision": 0
+							},
+							"chart_variables": {
+								"parents": ["state"],
+								"operation": "SUM",
+								"format": {
+									"x": "date",
+									"y": ["cases_import"]
+								}
+							}
+						},
+						{
+							"translation_key": "cases_recovered",
+							"chart_type": "TIMESERIES",
+							"chart_filters": {
+								"SLICE_BY": ["state"],
+								"precision": 0
+							},
+							"chart_variables": {
+								"parents": ["state"],
+								"operation": "SUM",
+								"format": {
+									"x": "date",
+									"y": ["cases_recovered"]
+								}
+							}
+						},
+						{
+							"translation_key": "cases_active",
+							"chart_type": "TIMESERIES",
+							"chart_filters": {
+								"SLICE_BY": ["state"],
+								"precision": 0
+							},
+							"chart_variables": {
+								"parents": ["state"],
+								"operation": "SUM",
+								"format": {
+									"x": "date",
+									"y": ["cases_active"]
+								}
+							}
+						},
+						{
+							"translation_key": "cases_cluster",
+							"chart_type": "TIMESERIES",
+							"chart_filters": {
+								"SLICE_BY": ["state"],
+								"precision": 0
+							},
+							"chart_variables": {
+								"parents": ["state"],
+								"operation": "SUM",
+								"format": {
+									"x": "date",
+									"y": ["cases_cluster"]
+								}
+							}
+						}
+					],
+					"translations": {
+						"en": {
+							"date": "Date",
+							"state": "State",
+							"cases_new": "New Cases",
+							"cases_import": "Imported Cases",
+							"cases_recovered": "Recoveries",
+							"cases_active": "Active Cases",
+							"cases_cluster": "Cluster-related Cases"
+						},
+						"bm": {
+							"date": "Tarikh",
+							"state": "Negeri",
+							"cases_new": "Kes Baharu",
+							"cases_import": "Kes Import",
+							"cases_recovered": "Kes Sembuh",
+							"cases_active": "Kes Aktif",
+							"cases_cluster": "Kes Kluster"
+						}
+					}
+				}
+			}
+		]
+	}
 }
