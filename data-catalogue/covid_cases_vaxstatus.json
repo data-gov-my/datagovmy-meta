@@ -200,6 +200,7 @@
                         "en": {
                             "date": "Date",
                             "state": "State",
+							"y1": "Cases",
                             "cases_unvax": "Unvaccinated Cases",
                             "cases_pvax": "Partially Vaccinated Cases",
                             "cases_fvax": "Fully Vaccinated Cases",
@@ -208,6 +209,7 @@
                         "bm": {
                             "date": "Tarikh",
                             "state": "Negeri",
+							"y1": "Kes",
                             "cases_unvax": "Kes Tidak Divaksinaski",
                             "cases_pvax": "Kes Tidak Lengkap Vaksinasi",
                             "cases_fvax": "Kes Lengkap Vaksinasi",
