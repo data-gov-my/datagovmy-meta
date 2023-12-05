@@ -75,7 +75,7 @@
 				"heatmap": "Heatmap",
 				"table": "Table"
 			},
-			"banner": "Test banner"
+			"banner": ""
 		},
 		"time": {
 			"daily_7d": "Daily (7d avg)",
