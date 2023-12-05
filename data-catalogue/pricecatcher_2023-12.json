@@ -20,9 +20,9 @@
             "en": "Granular transactional data from PriceCatcher, a mobile app developed by the Ministry of Domestic Trade and Cost of Living (KPDN) to help users compare the prices of key items in their area.",
             "bm": "Data transaksi terperinci daripada PriceCatcher, aplikasi mudah alih yang dibangunkan oleh Kementerian Perdagangan Dalam Negeri dan Kos Sara Hidup (KPDN) untuk membantu pengguna mendapatkan harga barangan cepumas di sekeliling mereka."
         },
-        "link_parquet": "https://storage.data.gov.my/pricecatcher/pricecatcher_2023-11.parquet",
-        "link_csv": "https://storage.data.gov.my/pricecatcher/pricecatcher_2023-11.csv",
-        "link_preview": "https://storage.data.gov.my/pricecatcher/pricecatcher_2023-11_preview.parquet",
+        "link_parquet": "https://storage.data.gov.my/pricecatcher/pricecatcher_2023-12.parquet",
+        "link_csv": "https://storage.data.gov.my/pricecatcher/pricecatcher_2023-12.csv",
+        "link_preview": "https://storage.data.gov.my/pricecatcher/pricecatcher_2023-12_preview.parquet",
         "variables": [
             {
                 "id": -1,
