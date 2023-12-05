@@ -117,7 +117,8 @@
 			"guiding_principles": "Guiding Principles",
 			"terms_of_use": "Terms of Use",
 			"ai": "AI Helper: OpenAI",
-      "moh_github": "MoH GitHub"
+      "moh_github": "MoH GitHub",
+      "jc3_climate": "Climate Data (JC3)"
 		},
 		"components": {
 			"theme": "Theme",
