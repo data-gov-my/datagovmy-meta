@@ -73,7 +73,7 @@
 				"heatmap": "Peta",
 				"table": "Jadual"
 			},
-			"banner": "Kami telah membuat perubahan yang besar kepada katalog data, daripada membekalkan _siri data_ kepada _set data_. Bagi membolehkan peningkatan ini, kami telah menyemak semula endpoint bagi beberapa set data. Perubahan ini akan menyebabkan kegagalan saluran data yang menggunakan URL lama. Sekiranya saluran data anda terkesan oleh perubahan ini, sila pastikan anda menggunakan URL yang terkini. Kami akan meminimumkan perubahan sebegini pada masa hadapan."
+			"banner": ""
 		},
 		"time": {
 			"daily_7d": "Purata 7 hari",

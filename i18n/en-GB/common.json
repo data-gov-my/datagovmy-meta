@@ -75,7 +75,7 @@
 				"heatmap": "Heatmap",
 				"table": "Table"
 			},
-			"banner": "We made a major change to our data catalogue - it now serves _datasets_ rather than _data series_ (check it out!). To enable this upgrade, we revised the endpoints for several datasets, which will break data pipelines relying on the old URLs. If you notice pipeline failures, please ensure you are using the newest URL. We will ensure that such breaking changes are minimised going forward; this is intended to be the stable and scalable version."
+			"banner": ""
 		},
 		"time": {
 			"daily_7d": "Daily (7d avg)",
