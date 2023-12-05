@@ -10,6 +10,12 @@
         "subcategory": "HEALTHCARE_INF",
         "subcategory_en": "Infectious Diseases",
         "subcategory_bm": "Penyakit Berjangkit",
+        "category_kkm" : "HEALTHCARE_INF",
+        "category_kkm_en" : "Infectious Diseases",
+        "category_kkm_bm" : "Penyakit Berjangkit",
+        "subcategory_kkm" : "COVID",
+        "subcategory_kkm_en" : "COVID-19",
+        "subcategory_kkm_bm" : "COVID-19",
         "description": {
             "en": "Daily COVID-19 cases at national and state level, broken down by age group.",
             "bm": "Kes COVID-19 harian di peringkat kebangsaan dan negeri, dengan pecahan mengikut kumpulan umur."
