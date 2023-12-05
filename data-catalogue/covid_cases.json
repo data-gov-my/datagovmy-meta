@@ -85,8 +85,8 @@
 				"name": "Daily COVID-19 Cases by State",
 				"title_en": "Daily COVID-19 Cases by State",
 				"title_bm": "Kes COVID-19 Harian mengikut Negeri",
-				"desc_en": "Daily COVID-19 cases at national and state level, broken down by vaccination status.",
-				"desc_bm": "Kes COVID-19 harian di peringkat kebangsaan dan negeri, dengan pecahan mengikut status vaksinasi.",
+				"desc_en": "Daily COVID-19 cases at national and state level, with details on imported, recovered, active, and cluster cases.",
+				"desc_bm": "Kes COVID-19 harian di peringkat kebangsaan dan negeri, dengan butiran mengenai kes import, sembuh, aktif dan kluster.",
 				"catalog_data": {
 					"catalog_filters": {
 						"frequency": "DAILY",
