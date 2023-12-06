@@ -1,6 +1,6 @@
 {
     "file": {
-        "manual_trigger": "2023-11-25 14:53:18.5757",
+        "manual_trigger": "2023-12-07 04:52:08.721920",
         "exclude_openapi": false,
         "bucket": "transportation",
         "file_name": "ridership_headline",
@@ -178,7 +178,9 @@
                         "chart_variables": {
                             "parents": [],
                             "exclude": [],
-                            "freeze": ["date"]
+                            "freeze": [
+                                "date"
+                            ]
                         }
                     },
                     "dataviz": [
