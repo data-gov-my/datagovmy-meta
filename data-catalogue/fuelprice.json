@@ -1,6 +1,6 @@
 {
     "file": {
-        "manual_trigger": "2023-11-30 00:06:00.857688",
+        "manual_trigger": "2023-12-06 20:47:10.938379",
         "exclude_openapi": true,
         "bucket": "commodities",
         "file_name": "fuelprice",
@@ -80,9 +80,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-11-30 00:01",
-                        "last_updated": "2023-11-29 23:59",
-                        "next_update": "2023-12-06 23:59"
+                        "data_as_of": "2023-12-07 00:01",
+                        "last_updated": "2023-12-06 23:59",
+                        "next_update": "2023-12-13 23:59"
                     },
                     "metadata_lang": {
                         "en": {
