@@ -14,7 +14,7 @@
 		"category_opendosm_en": "Households",
 		"category_opendosm_bm": "Isi Rumah",
 		"subcategory_opendosm": "HOUSEHOLDS_HIES",
-		"subcategory_opendosm_en": "HIncome & Expenditure",
+		"subcategory_opendosm_en": "Income & Expenditure",
 		"subcategory_opendosm_bm": "Pendapatan & Perbelanjaan",
 		"description": {
 			"en": "This dataset tabulates household-level income, expenditure, poverty, and income inequality at state level. It is based on the Household Income & Expenditure Surveys (HIES) carried in 2022.",
