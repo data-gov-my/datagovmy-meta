@@ -74,9 +74,9 @@
             },
             {
                 "id": 0,
-                "name": "Daily COVID-19 Cases by State and Vaccination Status",
-                "title_en": "Daily COVID-19 Cases by State and Vaccination Status",
-                "title_bm": "Kes COVID-19 Harian mengikut Negeri dan Status Vaksinasi",
+                "name": "Daily COVID-19 Cases by Vaccination Status & State",
+                "title_en": "Daily COVID-19 Cases by Vaccination Status & State",
+                "title_bm": "Kes COVID-19 Harian mengikut Status Vaksinasi & Negeri",
                 "desc_en": "Daily COVID-19 cases at national and state level, broken down by vaccination status.",
                 "desc_bm": "Kes COVID-19 harian di peringkat kebangsaan dan negeri, dengan pecahan mengikut status vaksinasi.",
                 "catalog_data": {
