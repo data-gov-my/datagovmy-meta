@@ -32,10 +32,10 @@
 					"ets",
 					"intercity",
 					"komuter_utara",
-					"tebrau",
 					"komuter",
 					"bus",
 					"rail",
+					"tebrau",
 					"overall"
 				]
 			}
