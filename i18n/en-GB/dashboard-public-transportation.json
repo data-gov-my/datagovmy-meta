@@ -1,21 +1,28 @@
 {
-    "route": "/dashboard/public-transportation",
-    "sites": [
-        "datagovmy"
-    ],
-    "translation": {
-        "header": "Public Transportation",
-        "description": "The Mayor of Bogota, Colombia once said \"A developed country is not a place where the poor have cars. It's where the rich use public transportation.\" Indeed, the availability and uptake of public transportation services is a key indicator of our progress as a nation. Drawing on high-frequency data from the various operators of Malaysia's public transportation services (such as Prasarana, KTMB, MyBas), this dashboard brings you the latest trends in public transport ridership.",
-        "title": "How is ridership of public transportation services trending?",
-        "timeseries_desc": "This data is intended to capture broad trends in public transport ridership. You can explore more granular data on the service-specific dashboards.",
-        "trend_weekly": "Trend (weekly)",
-        "trend_monthly": "Trend (monthly)",
-        "ridership_overall": "Ridership: All Services",
-        "ridership_rapid_rail": "Ridership: Rapid Rail",
-        "ridership_rapid_bus": "Ridership: Rapid Bus",
-        "ridership_tebrau": "Ridership: KTM Shuttle Tebrau",
-        "ridership_ets": "Ridership: KTM ETS",
-        "ridership_intercity": "Ridership: KTM Intercity",
-        "ridership_komuter": "Ridership: KTM Komuter (Utara)"
-    }
+  "route": "/dashboard/public-transportation",
+  "sites": ["datagovmy"],
+  "translation": {
+    "header": "Public Transportation",
+    "description": "The Mayor of Bogota, Colombia once said \"A developed country is not a place where the poor have cars. It's where the rich use public transportation.\" Indeed, the availability and uptake of public transportation services is a key indicator of our progress as a nation. Drawing on high-frequency data from the various operators of Malaysia's public transportation services (such as Prasarana, KTMB, MyBas), this dashboard brings you the latest trends in public transport ridership.",
+    "title": "How is ridership of public transportation services trending?",
+    "timeseries_desc": "This data is intended to capture broad trends in public transport ridership. You can explore more granular data on the service-specific dashboards.",
+    "trend_weekly": "Trend (weekly)",
+    "trend_monthly": "Trend (monthly)",
+    "ridership_overall": "All Services",
+    "ridership_rail": "Rail Services",
+    "ridership_bus": "Bus Services",
+    "ridership_lrt_ampang": "LRT Ampang Line",
+    "ridership_lrt_kj": "LRT Kelana Jaya Line",
+    "ridership_mrt_kajang": "MRT Kajang Line",
+    "ridership_mrt_pjy": "MRT Putrajaya Line",
+    "ridership_monorail": "Monorail Line",
+    "ridership_komuter_utara": "KTM Komuter Utara",
+    "ridership_bus_rkl": "Rapid Bus KL",
+    "ridership_bus_rpn": "Rapid Bus Penang",
+    "ridership_bus_rkn": "Rapid Bus Kuantan",
+    "ridership_tebrau": "KTM Shuttle Tebrau",
+    "ridership_intercity": "KTM Intercity",
+    "ridership_ets": "KTM ETS",
+    "ridership_komuter": "KTM Komuter"
+  }
 }
