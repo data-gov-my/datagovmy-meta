@@ -1,21 +1,28 @@
 {
-    "route": "/ms-MY/dashboard/public-transportation",
-    "sites": [
-        "datagovmy"
-    ],
-    "translation": {
-        "header": "Pengangkutan Awam",
-        "description": "Datuk Bandar (Mayor) Bogota, Colombia pernah berkata \"Negara maju bukannya tempat di mana golongan miskin memiliki kereta, tetapi di mana golongan berada pun menggunakan pengangkutan awam.\" Sememangnya, akses kepada perkhidmatan pengangkutan awam yang menyeluruh adalah indikator penting kemajuan negara Malaysia. Dengan menggunakan data berfrekuensi tinggi daripada pengendali perkhidmatan pengangkutan awam Malaysia (seperti Prasarana, KTMB, dan MyBAS), papan pemuka ini memaparkan tren terkini penggunaan pengangkutan awam.",
-        "title": "How is ridership of public transportation services trending?",
-        "timeseries_desc": "This data is intended to capture broad trends in public transport ridership. You can explore more granular data on the service-specific dashboards.",
-        "trend_weekly": "Tren (mingguan)",
-        "trend_monthly": "Tren (bulanan)",
-        "ridership_overall": "Jumlah Penumpang: Semua Perkhidmatan",
-        "ridership_rapid_rail": "Jumlah Penumpang: Rapid Rail",
-        "ridership_rapid_bus": "Jumlah Penumpang: Rapid Bus",
-        "ridership_tebrau": "Jumlah Penumpang: KTM Shuttle Tebrau",
-        "ridership_ets": "Jumlah Penumpang: KTM ETS",
-        "ridership_intercity": "Jumlah Penumpang: KTM Intercity",
-        "ridership_komuter": "Jumlah Penumpang: KTM Komuter (Utara)"
-    }
+  "route": "/ms-MY/dashboard/public-transportation",
+  "sites": ["datagovmy"],
+  "translation": {
+    "header": "Pengangkutan Awam",
+    "description": "Datuk Bandar (Mayor) Bogota, Colombia pernah berkata \"Negara maju bukannya tempat di mana golongan miskin memiliki kereta, tetapi di mana golongan berada pun menggunakan pengangkutan awam.\" Sememangnya, akses kepada perkhidmatan pengangkutan awam yang menyeluruh adalah indikator penting kemajuan negara Malaysia. Dengan menggunakan data berfrekuensi tinggi daripada pengendali perkhidmatan pengangkutan awam Malaysia (seperti Prasarana, KTMB, dan MyBAS), papan pemuka ini memaparkan tren terkini penggunaan pengangkutan awam.",
+    "title": "Bagaimana tren jumlah penumpang perkhidmatan pengangkutan awam?",
+    "timeseries_desc": "Data ini bertujuan untuk menangkap tren secara meluas dalam jumlah penumpang pengangkutan awam. Anda boleh meneroka lebih banyak data berbutir pada papan pemuka khusus perkhidmatan.",
+    "trend_weekly": "Tren (mingguan)",
+    "trend_monthly": "Tren (bulanan)",
+    "ridership_overall": "Semua Perkhidmatan",
+    "ridership_rail": "Perkhidmatan Kereta Api",
+    "ridership_bus": "Perkhidmatan Bas",
+    "ridership_lrt_ampang": "LRT Ampang Line",
+    "ridership_lrt_kj": "LRT Kelana Jaya Line",
+    "ridership_mrt_kajang": "MRT Kajang Line",
+    "ridership_mrt_pjy": "MRT Putrajaya Line",
+    "ridership_monorail": "Monorail Line",
+    "ridership_komuter_utara": "KTM Komuter Utara",
+    "ridership_bus_rkl": "Rapid Bus KL",
+    "ridership_bus_rpn": "Rapid Bus Penang",
+    "ridership_bus_rkn": "Rapid Bus Kuantan",
+    "ridership_tebrau": "KTM Shuttle Tebrau",
+    "ridership_intercity": "KTM Intercity",
+    "ridership_ets": "KTM ETS",
+    "ridership_komuter": "KTM Komuter"
+  }
 }
