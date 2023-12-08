@@ -3,7 +3,7 @@
     "sites": [
         "datagovmy"
     ],
-    "manual_trigger": "2023-12-08 06:57:05.519918",
+    "manual_trigger": "2023-12-08 09:57:05.519918",
     "explorer_name": "KTMB",
     "route": "/dashboard/ktmb-explorer,/ms-MY/dashboard/ktmb-explorer",
     "tables": {
