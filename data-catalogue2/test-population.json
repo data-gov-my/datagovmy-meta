@@ -92,6 +92,11 @@
 		"publication_en": "Publication in English",
 		"publication_ms": "Penerbitan dalam Bahasa Malaysia"
 	},
+	"table": {
+		"precision": 0,
+		"filter_columns": ["state", "district"],
+		"freeze_columns": []
+	},
 	"dataviz": [],
 	"translations": {},
 	"related_datasets": [
