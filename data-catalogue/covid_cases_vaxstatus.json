@@ -1,6 +1,6 @@
 {
     "file": {
-        "manual_trigger": "na",
+        "manual_trigger": "2023-12-10 17:32:31.650090",
         "exclude_openapi": false,
         "bucket": "healthcare",
         "file_name": "covid_cases_vaxstatus",
@@ -10,12 +10,12 @@
         "subcategory": "HEALTHCARE_INF",
         "subcategory_en": "Infectious Diseases",
         "subcategory_bm": "Penyakit Berjangkit",
-        "category_kkm" : "HEALTHCARE_INF",
-        "category_kkm_en" : "Infectious Diseases",
-        "category_kkm_bm" : "Penyakit Berjangkit",
-        "subcategory_kkm" : "COVID",
-        "subcategory_kkm_en" : "COVID-19",
-        "subcategory_kkm_bm" : "COVID-19",
+        "category_kkm": "HEALTHCARE_INF",
+        "category_kkm_en": "Infectious Diseases",
+        "category_kkm_bm": "Penyakit Berjangkit",
+        "subcategory_kkm": "COVID",
+        "subcategory_kkm_en": "COVID-19",
+        "subcategory_kkm_bm": "COVID-19",
         "description": {
             "en": "Daily COVID-19 cases at national and state level, broken down by vaccination status.",
             "bm": "Kes COVID-19 harian di peringkat kebangsaan dan negeri, dengan pecahan mengikut status vaksinasi."
@@ -94,9 +94,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-12-02 23:59",
-                        "last_updated": "2023-12-03 16:00",
-                        "next_update": "2023-12-10 16:00"
+                        "data_as_of": "2023-12-09 23:59",
+                        "last_updated": "2023-12-10 16:00",
+                        "next_update": "2023-12-17 16:00"
                     },
                     "metadata_lang": {
                         "en": {
@@ -113,25 +113,35 @@
                     "chart": {
                         "chart_type": "TABLE",
                         "chart_filters": {
-                            "SLICE_BY": ["state"],
+                            "SLICE_BY": [
+                                "state"
+                            ],
                             "precision": 0
                         },
                         "chart_variables": {
-                            "parents": ["state"],
+                            "parents": [
+                                "state"
+                            ],
                             "exclude": [],
-                            "freeze": ["date"]
+                            "freeze": [
+                                "date"
+                            ]
                         }
                     },
-                    "dataviz":[
+                    "dataviz": [
                         {
                             "translation_key": "cases_unvax",
                             "chart_type": "TIMESERIES",
                             "chart_filters": {
-                                "SLICE_BY": ["state"],
+                                "SLICE_BY": [
+                                    "state"
+                                ],
                                 "precision": 0
                             },
                             "chart_variables": {
-                                "parents": ["state"],
+                                "parents": [
+                                    "state"
+                                ],
                                 "operation": "SUM",
                                 "format": {
                                     "x": "date",
@@ -145,11 +155,15 @@
                             "translation_key": "cases_pvax",
                             "chart_type": "TIMESERIES",
                             "chart_filters": {
-                                "SLICE_BY": ["state"],
+                                "SLICE_BY": [
+                                    "state"
+                                ],
                                 "precision": 0
                             },
                             "chart_variables": {
-                                "parents": ["state"],
+                                "parents": [
+                                    "state"
+                                ],
                                 "operation": "SUM",
                                 "format": {
                                     "x": "date",
@@ -163,11 +177,15 @@
                             "translation_key": "cases_fvax",
                             "chart_type": "TIMESERIES",
                             "chart_filters": {
-                                "SLICE_BY": ["state"],
+                                "SLICE_BY": [
+                                    "state"
+                                ],
                                 "precision": 0
                             },
                             "chart_variables": {
-                                "parents": ["state"],
+                                "parents": [
+                                    "state"
+                                ],
                                 "operation": "SUM",
                                 "format": {
                                     "x": "date",
@@ -181,11 +199,15 @@
                             "translation_key": "cases_boost",
                             "chart_type": "TIMESERIES",
                             "chart_filters": {
-                                "SLICE_BY": ["state"],
+                                "SLICE_BY": [
+                                    "state"
+                                ],
                                 "precision": 0
                             },
                             "chart_variables": {
-                                "parents": ["state"],
+                                "parents": [
+                                    "state"
+                                ],
                                 "operation": "SUM",
                                 "format": {
                                     "x": "date",
@@ -200,7 +222,7 @@
                         "en": {
                             "date": "Date",
                             "state": "State",
-							"y1": "Cases",
+                            "y1": "Cases",
                             "cases_unvax": "Unvaccinated Cases",
                             "cases_pvax": "Partially Vaccinated Cases",
                             "cases_fvax": "Fully Vaccinated Cases",
@@ -209,7 +231,7 @@
                         "bm": {
                             "date": "Tarikh",
                             "state": "Negeri",
-							"y1": "Kes",
+                            "y1": "Kes",
                             "cases_unvax": "Kes Tidak Divaksinaski",
                             "cases_pvax": "Kes Tidak Lengkap Vaksinasi",
                             "cases_fvax": "Kes Lengkap Vaksinasi",
