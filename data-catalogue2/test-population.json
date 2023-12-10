@@ -1,8 +1,29 @@
 {
 	"bucket": "population",
 	"filename": "population_district",
+
 	"exclude_openapi": true,
 	"manual_trigger": "",
+	"data_as_of": "2023-11-17T12:00:00Z",
+	"last_updated": "2023-11-16",
+	"next_update": "2023-12-01T08:00:00Z",
+	"methodology_en": "Methodology in English",
+	"methodology_ms": "Metodologi dalam Bahasa Malaysia",
+	"caveat_en": "Caveat in English",
+	"caveat_ms": "Caveat dalam Bahasa Malaysia",
+	"publication_en": "Publication in English",
+	"publication_ms": "Penerbitan dalam Bahasa Malaysia",
+	"description_en": "This dataset tabulates the population of Malaysia at administrative district level, by sex, ethnicity, and 5-year age group, from 2020 to 2023.",
+	"description_ms": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat daerah pentadbiran, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023.",
+	"link_parquet": "https://storage.dosm.gov.my/population/population_district.parquet",
+	"link_csv": "https://storage.dosm.gov.my/population/population_district.csv",
+	"link_preview": "https://storage.dosm.gov.my/population/population_district_preview.parquet",
+	"frequency": "YEARLY",
+	"geography": ["DISTRICT"],
+	"demography": ["SEX", "ETHNICITY", "AGE"],
+	"dataset_begin": "2020",
+	"dataset_end": "2023",
+	"data_source": ["DOSM"],
 	"site_category": [
 		{
 			"site": "datagovmy",
@@ -26,17 +47,6 @@
 			"subcategory_ms": "Penduduk KKM"
 		}
 	],
-	"description_en": "This dataset tabulates the population of Malaysia at administrative district level, by sex, ethnicity, and 5-year age group, from 2020 to 2023.",
-	"description_ms": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat daerah pentadbiran, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023.",
-	"link_parquet": "https://storage.dosm.gov.my/population/population_district.parquet",
-	"link_csv": "https://storage.dosm.gov.my/population/population_district.csv",
-	"link_preview": "https://storage.dosm.gov.my/population/population_district_preview.parquet",
-	"frequency": "YEARLY",
-	"geography": ["DISTRICT"],
-	"demography": ["SEX", "ETHNICITY", "AGE"],
-	"dataset_begin": "2020",
-	"dataset_end": "2023",
-	"data_source": ["DOSM"],
 	"fields": [
 		{
 			"name": "date",
@@ -81,23 +91,14 @@
 			"description_ms": "[Kategori] Lelaki atau perempuan"
 		}
 	],
-	"metadata": {
-		"data_as_of": "2023-11-17T12:00:00Z",
-		"last_updated": "2023-11-16",
-		"next_update": "2023-12-01T08:00:00Z",
-		"methodology_en": "Methodology in English",
-		"methodology_ms": "Metodologi dalam Bahasa Malaysia",
-		"caveat_en": "Caveat in English",
-		"caveat_ms": "Caveat dalam Bahasa Malaysia",
-		"publication_en": "Publication in English",
-		"publication_ms": "Penerbitan dalam Bahasa Malaysia"
-	},
-	"table": {
-		"precision": 0,
-		"filter_columns": ["state", "district"],
-		"freeze_columns": []
-	},
-	"dataviz": [],
+	"dataviz": [
+		{
+			"chart_type": "table",
+			"precision": 0,
+			"filter_columns": ["state", "district"],
+			"freeze_columns": []
+		}
+	],
 	"translations": {},
 	"related_datasets": [
 		{
