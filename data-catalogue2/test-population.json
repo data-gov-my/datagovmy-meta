@@ -1,7 +1,10 @@
 {
 	"bucket": "population",
 	"filename": "population_district",
-
+	"title_en": "Population Table: Administrative Districts",
+	"title_ms": "Jadual Penduduk: Daerah Pentadbiran",
+	"description_en": "This dataset tabulates the population of Malaysia at administrative district level, by sex, ethnicity, and 5-year age group, from 2020 to 2023.",
+	"description_ms": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat daerah pentadbiran, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023.",
 	"exclude_openapi": true,
 	"manual_trigger": "",
 	"data_as_of": "2023-11-17T12:00:00Z",
@@ -13,8 +16,6 @@
 	"caveat_ms": "Caveat dalam Bahasa Malaysia",
 	"publication_en": "Publication in English",
 	"publication_ms": "Penerbitan dalam Bahasa Malaysia",
-	"description_en": "This dataset tabulates the population of Malaysia at administrative district level, by sex, ethnicity, and 5-year age group, from 2020 to 2023.",
-	"description_ms": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat daerah pentadbiran, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023.",
 	"link_parquet": "https://storage.dosm.gov.my/population/population_district.parquet",
 	"link_csv": "https://storage.dosm.gov.my/population/population_district.csv",
 	"link_preview": "https://storage.dosm.gov.my/population/population_district_preview.parquet",
