@@ -34,12 +34,13 @@
     "forms": {
       "name": "Nama",
       "email": "Emel",
-      "institution": "Institusi (pilihan)",
+      "institution": "Institusi",
       "dataset_title": "Tajuk dataset",
       "dataset_description": "Penerangan dataset",
       "dataset_description_placeholder": "Terangkan mengenai dataset ini",
       "agency": "Agensi",
       "purpose": "Tujuan permohonan",
+      "purpose_placeholder": "Beri penerangan ringkas tentang bagaimana anda merancang untuk menggunakan dataset ini",
       "submit": "Hantar Permohonan"
     }
   }
