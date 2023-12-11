@@ -1,0 +1,124 @@
+{
+	"bucket": "pricecatcher",
+	"filename": "lookup_premise",
+	"title_en": "Premise Lookup",
+	"title_ms": "Jadual Carian Premis",
+	"description_en": "Lookup table, to be left-joined against premise code in the main PriceCatcher data.",
+	"description_ms": "Jadual carian, untuk dipadankan (left-join) dengan kod premis (premise code) dalam dataset PriceCatcher utama.",
+	"exclude_openapi": true,
+	"manual_trigger": "",
+	"data_as_of": "2023-12-07 23:59",
+	"last_updated": "2023-12-08 18:00",
+	"next_update": "-",
+	"methodology_en": " Prices are collected and verified by groundstaff on a daily basis, with over 2 million prices collected every month.",
+	"methodology_ms": "Harga dipungut dah disahkan oleh staf di lapangan, dengan lebih 2 juta harga dipungut setiap bulan.",
+	"caveat_en": "This data is collected for the purpose of price surveillance, and is excellent for high-frequency analysis of specific items in specific locations. Inflation surveillance requires a different approach, in particular to ensure proper representativeness. Inflation analysis should be conducted using DOSM's CPI data.",
+	"caveat_ms": "Data ini dipungut bagi tujuan survelan harga, maka amat bersesuaian untuk analisa barangan khusus di lokasi yang khusus, pada frekuensi yang tinggi. Namun, survelan inflasi memerlukan pendekatan yang berbeza bagi memastikan keterwakilan data. Sebarang analisa inflasi harus menggunakan data IHP yang diterbitkan oleh DOSM.",
+	"publication_en": "\u2014",
+	"publication_ms": "\u2014",
+	"link_parquet": "https://storage.data.gov.my/pricecatcher/lookup_premise.parquet",
+	"link_csv": "https://storage.data.gov.my/pricecatcher/lookup_premise.csv",
+	"link_preview": "https://storage.data.gov.my/pricecatcher/lookup_premise_preview.parquet",
+	"frequency": "INFREQUENT",
+	"geography": ["DISTRICT"],
+	"demography": [],
+	"dataset_begin": "2023",
+	"dataset_end": "2023",
+	"data_source": ["KPDN"],
+	"site_category": [
+		{
+			"site": "datagovmy",
+			"category_en": "Prices",
+			"category_ms": "Harga",
+			"subcategory_en": "PriceCatcher",
+			"subcategory_ms": "PriceCatcher"
+		},
+		{
+			"site": "opendosm",
+			"category_en": "Prices",
+			"category_ms": "Harga",
+			"subcategory_en": "PriceCatcher",
+			"subcategory_ms": "PriceCatcher"
+		}
+	],
+	"fields": [
+		{
+			"name": "premise_code",
+			"title_en": "Premise Code",
+			"title_ms": "Kod Premis",
+			"description_en": "[Integer] Column for left-join",
+			"description_ms": "[Integer] Kolum untuk padanan"
+		},
+		{
+			"name": "premise",
+			"title_en": "Premise",
+			"title_ms": "Nama Premis",
+			"description_en": "[Categorical] Name of premise",
+			"description_ms": "[Kategori] Nama premis"
+		},
+		{
+			"name": "address",
+			"title_en": "Address",
+			"title_ms": "Alamat",
+			"description_en": "[String] Full address",
+			"description_ms": "[Kategori] Alamat penuh"
+		},
+		{
+			"name": "premise_type",
+			"title_en": "Premise Type",
+			"title_ms": "Jenis Premis",
+			"description_en": "[Categorical] Type of premise",
+			"description_ms": "[Kategori] Jenis Premis"
+		},
+		{
+			"name": "state",
+			"title_en": "State",
+			"title_ms": "Negeri",
+			"description_en": "[Categorical] Name of state",
+			"description_ms": "[Kategori] Nama negeri"
+		},
+		{
+			"name": "district",
+			"title_en": "District",
+			"title_ms": "Daerah",
+			"description_en": "[Categorical] Name of district",
+			"description_ms": "[Kategori] Nama daerah"
+		}
+	],
+	"dataviz": [
+		{
+			"id": "table",
+			"title_en": "Table",
+			"title_ms": "Jadual",
+			"chart_type": "TABLE",
+			"precision": 0,
+			"filter_columns": [],
+			"freeze_columns": []
+		}
+	],
+	"translations_en": {
+		"premise_code": "Premise Code",
+		"premise": "Premise",
+		"address": "Address",
+		"premise_type": "Premise Type",
+		"state": "State",
+		"district": "District"
+	},
+	"translations_ms": {
+		"premise_code": "Kod Premis",
+		"premise": "Nama Premis",
+		"address": "Alamat",
+		"premise_type": "Jenis Premis",
+		"state": "Negeri",
+		"district": "Daerah"
+	},
+	"related_datasets": [
+		{
+			"id": "related_dataset_1",
+			"title_en": "Related Dataset Title in English",
+			"title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
+			"description_en": "Description of the related dataset in English",
+			"description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
+		}
+	]
+}
