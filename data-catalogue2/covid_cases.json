@@ -1,0 +1,180 @@
+{
+	"bucket": "healthcare",
+	"filename": "covid_cases",
+	"title_en": "Daily COVID-19 Cases by State",
+	"title_ms": "Kes COVID-19 Harian mengikut Negeri",
+	"description_en": "Daily COVID-19 cases at national and state level, with details on imported, recovered, active, and cluster cases.",
+	"description_ms": "Kes COVID-19 harian di peringkat kebangsaan dan negeri, dengan butiran mengenai kes import, sembuh, aktif dan kluster.",
+	"exclude_openapi": false,
+	"manual_trigger": "2023-12-10 17:32:31.648456",
+	"data_as_of": "2023-12-09 23:59",
+	"last_updated": "2023-12-10 16:00",
+	"next_update": "2023-12-17 16:00",
+	"methodology_en": "This dataset is produced by the Crisis Preparedness and Response Centre (CPRC) at the Ministry of Health, based on daily ground-level surveillance conducted to monitor the evolution of COVID-19 in Malaysia. Following Malaysia's transition to endemicity, the public reporting frequency was altered from daily to weekly. Nevertheless, internal surveillance is still conducted on a daily basis.",
+	"methodology_ms": "Dataset ini dihasilkan oleh Pusat Kesiapsiagaan dan Tindak Cepat Krisis (CPRC) di Kementerian Kesihatan Malaysia, berdasarkan survelan harian di lapangan yang dilaksanakan untuk memantau evolusi COVID-19 di Malaysia. Berikutan peralihan Malaysia kepada fasa endemik, kekerapan pelaporan awam telah diubah daripada harian kepada mingguan. Namun begitu, survelan harian masih berlangunsung secara dalaman.",
+	"caveat_en": "In general, the data presented here is based on the date of report rather than the date of the event.",
+	"caveat_ms": "Secara am, data ini adalah berdasarkan tarikh laporan dan bukannya tarikh kejadian.",
+	"publication_en": "KKMNOW features a [dashboard on COVID-19](https://data.moh.gov.my/dashboard/covid-19) where you can explore the data in a more interactive manner!",
+	"publication_ms": "Portal KKMNOW memaparkan [papan pemuka tentang COVID-19](https://data.moh.gov.my/dashboard/covid-19) di mana anda boleh menerokai data ini dengan lebih interaktif!",
+	"link_parquet": "https://storage.data.gov.my/healthcare/covid_cases.parquet",
+	"link_csv": "https://storage.data.gov.my/healthcare/covid_cases.csv",
+	"link_preview": "https://storage.data.gov.my/healthcare/covid_cases.parquet",
+	"frequency": "DAILY",
+	"geography": ["NATIONAL", "STATE"],
+	"demography": [],
+	"dataset_begin": "2020",
+	"dataset_end": "2023",
+	"data_source": ["MoH"],
+	"site_category": [
+		{
+			"site": "datagovmy",
+			"category_en": "Healthcare",
+			"category_ms": "Kesihatan",
+			"subcategory_en": "Infectious Diseases",
+			"subcategory_ms": "Penyakit Berjangkit"
+		},
+		{
+			"site": "kkmnow",
+			"category_en": "Infectious Diseases",
+			"category_ms": "Penyakit Berjangkit",
+			"subcategory_en": "COVID-19",
+			"subcategory_ms": "COVID-19"
+		}
+	],
+	"fields": [
+		{
+			"name": "date",
+			"title_en": "Date",
+			"title_ms": "Tarikh",
+			"description_en": "[Date] Date in YYYY-MM-DD format",
+			"description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+		},
+		{
+			"name": "state",
+			"title_en": "State",
+			"title_ms": "Negeri",
+			"description_en": "[Categorical] One of 16 states, or Malaysia",
+			"description_ms": "[Kategori] Satu daripada 16 negeri, atau Malaysia"
+		},
+		{
+			"name": "cases_new",
+			"title_en": "New Cases",
+			"title_ms": "Kes Baharu",
+			"description_en": "[Integer] Number of new cases reported in the 24 hours since the last report; note that this is based on the date of report and not the date of the test.",
+			"description_ms": "[Integer] Bilangan kes baharu yang dilaporkan dalam 24 jam sejak laporan terakhir; angka ini adalah berdasarkan tarikh laporan dan bukannya tarikh ujian saringan."
+		},
+		{
+			"name": "cases_import",
+			"title_en": "Imported Cases",
+			"title_ms": "Kes Import",
+			"description_en": "[Integer] Number of new cases imported from abroad, i.e. inviduals who were infected outside the country",
+			"description_ms": "[Integer] Bilangan kes baharu yang datang dari luar negara, iaitu individu yang dijangkiti di luar negara"
+		},
+		{
+			"name": "cases_recovered",
+			"title_en": "Recoveries",
+			"title_ms": "Kes Sembuh",
+			"description_en": "[Integer] Number of recoveries from COVID-19 reported in the 24 hours since the last report",
+			"description_ms": "[Integer] Bilangan kes sembuh yang dilaporkan dalam 24 jam sejak laporan terakhir"
+		},
+		{
+			"name": "cases_active",
+			"title_en": "Active Cases",
+			"title_ms": "Kes Aktif",
+			"description_en": "[Integer] Number of COVID-19 cases who have not recovered or died",
+			"description_ms": "[Integer] Bilangan kes COVID-19 yang belum sembuh ataupun mati"
+		},
+		{
+			"name": "cases_cluster",
+			"title_en": "Cluster-related Cases",
+			"title_ms": "Kes Kluster",
+			"description_en": "[Integer] Number of cases attributable to clusters; the difference between new cases and the sum of cases attributable to clusters is the number of sporadic cases",
+			"description_ms": "[Integer] Bilangan kes yang boleh dikaitkan dengan sesebuah kluster; perbezaan antara kes baharu dan jumlah kes yang dikaitkan dengan kluster adalah bilangan kes sporadik"
+		}
+	],
+	"dataviz": [
+		{
+			"id": "table",
+			"title_en": "Table",
+			"title_ms": "Jadual",
+			"chart_type": "TABLE",
+			"precision": 0,
+			"filter_columns": ["state"],
+			"freeze_columns": ["date"]
+		},
+		{
+			"id": "cases_new",
+			"title_en": "New Cases",
+			"title_ms": "Kes Baharu",
+			"chart_type": "TIMESERIES",
+			"filter_columns": ["state"],
+			"precision": 0,
+			"operation": "SUM",
+			"x": "date",
+			"y": ["cases_new"]
+		},
+		{
+			"id": "cases_import",
+			"title_en": "Imported Cases",
+			"title_ms": "Kes Import",
+			"chart_type": "TIMESERIES",
+			"filter_columns": ["state"],
+			"precision": 0,
+			"operation": "SUM",
+			"x": "date",
+			"y": ["cases_import"]
+		},
+		{
+			"id": "cases_recovered",
+			"title_en": "Recoveries",
+			"title_ms": "Kes Sembuh",
+			"chart_type": "TIMESERIES",
+			"filter_columns": ["state"],
+			"precision": 0,
+			"operation": "SUM",
+			"x": "date",
+			"y": ["cases_recovered"]
+		},
+		{
+			"id": "cases_active",
+			"title_en": "Active Cases",
+			"title_ms": "Kes Aktif",
+			"chart_type": "TIMESERIES",
+			"filter_columns": ["state"],
+			"precision": 0,
+			"operation": "SUM",
+			"x": "date",
+			"y": ["cases_active"]
+		},
+		{
+			"id": "cases_cluster",
+			"title_en": "Cluster-related Cases",
+			"title_ms": "Kes Kluster",
+			"chart_type": "TIMESERIES",
+			"filter_columns": ["state"],
+			"precision": 0,
+			"operation": "SUM",
+			"x": "date",
+			"y": ["cases_cluster"]
+		}
+	],
+	"translations_en": {
+		"date": "Date",
+		"state": "State",
+		"y1": "Cases"
+	},
+	"translations_ms": {
+		"date": "Tarikh",
+		"state": "Negeri",
+		"y1": "Kes"
+	},
+	"related_datasets": [
+		{
+			"id": "related_dataset_1",
+			"title_en": "Related Dataset Title in English",
+			"title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
+			"description_en": "Description of the related dataset in English",
+			"description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
+		}
+	]
+}

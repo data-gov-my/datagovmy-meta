@@ -1,6 +1,7 @@
 {
     "dashboard_name": "covid_vax",
     "data_last_updated": "2023-12-12 01:00",
+    "data_next_update": "2023-12-13 01:00",
     "route": "/dashboard/covid-vaccination,/ms-MY/dashboard/covid-vaccination",
     "sites": [
         "kkmnow"

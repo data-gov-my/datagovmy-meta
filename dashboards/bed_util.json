@@ -1,6 +1,7 @@
 {
     "dashboard_name": "bed_util",
     "data_last_updated": "2023-12-12 01:00",
+    "data_next_update": "2023-12-13 01:00",
     "route": "/dashboard/hospital-bed-utilisation,/ms-MY/dashboard/hospital-bed-utilisation",
     "sites": [
         "kkmnow"

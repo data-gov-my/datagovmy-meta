@@ -1,0 +1,133 @@
+{
+	"bucket": "ppi",
+	"filename": "ppi",
+	"title_en": "Producer Price Index",
+	"title_ms": "Indeks Harga Pengeluar",
+	"description_en": "Producer prices for five main sectors namely agriculture, forestry and fishing, mining, manufacturing, electricity and gas supply, and water supply.",
+	"description_ms": "Harga pengeluar bagi lima sektor utama iaitu pertanian, perhutanan dan perikanan, perlombongan, pembuatan, bekalan elektrik dan gas, dan bekalan air.",
+	"exclude_openapi": false,
+	"manual_trigger": "na",
+	"data_as_of": "2023-07-31 23:59",
+	"last_updated": "2023-08-28 12:00",
+	"next_update": "2023-09-25 12:00",
+	"methodology_en": "The index is compiled based on the average price change for commodities in Water Supply sector charged by domestic producers of an industry.",
+	"methodology_ms": "Indeks disusun berdasarkan perubahan purata harga bagi komoditi dalam sektor Bekalan Air yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
+	"caveat_en": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
+	"caveat_ms": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa.",
+	"publication_en": "[Producer Price Index, July 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_ppi.pdf), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on producer prices](https://open.dosm.gov.my/producer-prices).",
+	"publication_ms": "[Indeks Harga Pengeluar, Julai 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_ppi.pdf), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/producer-prices).",
+	"link_parquet": "https://storage.dosm.gov.my/ppi/ppi.parquet",
+	"link_csv": "https://storage.dosm.gov.my/ppi/ppi.csv",
+	"link_preview": "https://storage.dosm.gov.my/ppi/ppi.parquet",
+	"frequency": "MONTHLY",
+	"geography": ["NATIONAL"],
+	"demography": [],
+	"dataset_begin": "2010",
+	"dataset_end": "2023",
+	"data_source": ["DOSM"],
+	"site_category": [
+		{
+			"site": "datagovmy",
+			"category_en": "Prices",
+			"category_ms": "Harga",
+			"subcategory_en": "Producer Prices",
+			"subcategory_ms": "Harga Pengeluar"
+		},
+		{
+			"site": "opendosm",
+			"category_en": "Prices",
+			"category_ms": "Harga",
+			"subcategory_en": "Producer Prices",
+			"subcategory_ms": "Harga Pengeluar"
+		}
+	],
+	"fields": [
+		{
+			"name": "date",
+			"title_en": "Date",
+			"title_ms": "Tarikh",
+			"description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01",
+			"description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01"
+		},
+		{
+			"name": "overall",
+			"title_en": "PPI (Producer Price Index)",
+			"title_ms": "IHPR (Indeks Harga Pengeluar)",
+			"description_en": "[Float] Index, with base 2010 = 100",
+			"description_ms": "[Apung] Indeks, dengan asas 2010 = 100"
+		},
+		{
+			"name": "agriculture",
+			"title_en": "Agriculture, Forestry & Fishing",
+			"title_ms": "Pertanian, Perhutanan & Perikanan",
+			"description_en": "[Float] Index, with base 2010 = 100",
+			"description_ms": "[Apung] Indeks, dengan asas 2010 = 100"
+		},
+		{
+			"name": "mining",
+			"title_en": "Mining",
+			"title_ms": "Perlombongan",
+			"description_en": "[Float] Index, with base 2010 = 100",
+			"description_ms": "[Apung] Indeks, dengan asas 2010 = 100"
+		},
+		{
+			"name": "manufacturing",
+			"title_en": "Manufacturing",
+			"title_ms": "Pembuatan",
+			"description_en": "[Float] Index, with base 2010 = 100",
+			"description_ms": "[Apung] Indeks, dengan asas 2010 = 100"
+		},
+		{
+			"name": "electricity",
+			"title_en": "Electricity & Gas Supply",
+			"title_ms": "Bekalan Elektrik & Gas",
+			"description_en": "[Float] Index, with base 2010 = 100",
+			"description_ms": "[Apung] Indeks, dengan asas 2010 = 100"
+		},
+		{
+			"name": "water",
+			"title_en": "Water Supply",
+			"title_ms": "Bekalan Air",
+			"description_en": "[Float] Index, with base 2010 = 100",
+			"description_ms": "[Apung] Indeks, dengan asas 2010 = 100"
+		}
+	],
+	"dataviz": [
+		{
+			"id": "table",
+			"title_en": "Table",
+			"title_ms": "Jadual",
+			"chart_type": "TABLE",
+			"precision": 1,
+			"filter_columns": [],
+			"freeze_columns": []
+		}
+	],
+	"translations_en": {
+		"date": "Date",
+		"overall": "PPI (Producer Price Index)",
+		"agriculture": "Agriculture, Forestry & Fishing",
+		"mining": "Mining",
+		"manufacturing": "Manufacturing",
+		"electricity": "Electricity & Gas Supply",
+		"water": "Water Supply"
+	},
+	"translations_ms": {
+		"date": "Tarikh",
+		"overall": "IHPR (Indeks Harga Pengeluar)",
+		"agriculture": "Pertanian, Perhutanan & Perikanan",
+		"mining": "Perlombongan",
+		"manufacturing": "Pembuatan",
+		"electricity": "Bekalan Elektrik & Gas",
+		"water": "Bekalan Air"
+	},
+	"related_datasets": [
+		{
+			"id": "related_dataset_1",
+			"title_en": "Related Dataset Title in English",
+			"title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
+			"description_en": "Description of the related dataset in English",
+			"description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
+		}
+	]
+}

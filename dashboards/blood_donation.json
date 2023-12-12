@@ -1,123 +1,90 @@
 {
-    "dashboard_name": "blood_donation",
-    "data_last_updated": "2023-12-12 05:00",
-    "route": "/dashboard/blood-donation,/ms-MY/dashboard/blood-donation",
-    "sites": [
-        "kkmnow"
-    ],
-    "manual_trigger": "2023-11-22 06:53:16.74125",
-    "required_params": [
-        "state"
-    ],
-    "optional_params": [],
-    "charts": {
-        "bar_chart_age": {
-            "name": "bar_chart_age",
-            "chart_type": "bar_chart",
-            "chart_source": "https://storage.data.gov.my/dashboards/blood_barchart_age.parquet",
-            "data_as_of": "2023-12-11 23:59",
-            "api_type": "dynamic",
-            "api_params": [
-                "state"
-            ],
-            "variables": {
-                "keys": [
-                    "state",
-                    "period"
-                ],
-                "rename_cols": {
-                    "age_group": "x",
-                    "new_donors": "y"
-                },
-                "x": "x",
-                "y": [
-                    "y"
-                ]
-            }
-        },
-        "bar_chart_time": {
-            "name": "bar_chart_time",
-            "chart_type": "bar_chart",
-            "chart_source": "https://storage.data.gov.my/dashboards/blood_barchart_time.parquet",
-            "data_as_of": "2023-12-11 23:59",
-            "api_type": "dynamic",
-            "api_params": [
-                "state"
-            ],
-            "variables": {
-                "keys": [
-                    "state",
-                    "type"
-                ],
-                "rename_cols": {
-                    "period": "x",
-                    "new_donors": "y"
-                },
-                "x": "x",
-                "y": [
-                    "y"
-                ]
-            }
-        },
-        "timeseries_all": {
-            "name": "timeseries_all",
-            "chart_type": "timeseries_chart",
-            "chart_source": "https://storage.data.gov.my/dashboards/blood_timeseries.parquet",
-            "data_as_of": "2023-12-11 23:59",
-            "api_type": "dynamic",
-            "api_params": [
-                "state"
-            ],
-            "variables": {
-                "keys": [
-                    "state",
-                    "frequency"
-                ],
-                "rename_cols": {
-                    "date": "x",
-                    "daily": "y"
-                },
-                "value_columns": [
-                    "x",
-                    "y"
-                ]
-            }
-        },
-        "barchart_key_variables": {
-            "name": "barchart_key_variables",
-            "chart_type": "bar_meter",
-            "chart_source": "https://storage.data.gov.my/dashboards/blood_barcharts.parquet",
-            "data_as_of": "2023-12-11 23:59",
-            "api_type": "dynamic",
-            "api_params": [
-                "state"
-            ],
-            "variables": {
-                "axis_values": [
-                    {
-                        "variable": "value"
-                    }
-                ],
-                "keys": [
-                    "state",
-                    "period",
-                    "chart"
-                ]
-            }
-        },
-        "choropleth_malaysia": {
-            "name": "choropleth_malaysia",
-            "chart_type": "choropleth_chart",
-            "chart_source": "https://storage.data.gov.my/dashboards/blood_choropleth_msia.parquet",
-            "data_as_of": "2023-12-11 23:59",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "x": "state",
-                "y": [
-                    "perc"
-                ]
-            }
-        }
-    }
+	"dashboard_name": "blood_donation",
+	"data_last_updated": "2023-12-12 05:00",
+	"data_next_update": "2023-12-13 05:00",
+	"route": "/dashboard/blood-donation,/ms-MY/dashboard/blood-donation",
+	"sites": ["kkmnow"],
+	"manual_trigger": "2023-11-22 06:53:16.74125",
+	"required_params": ["state"],
+	"optional_params": [],
+	"charts": {
+		"bar_chart_age": {
+			"name": "bar_chart_age",
+			"chart_type": "bar_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/blood_barchart_age.parquet",
+			"data_as_of": "2023-12-11 23:59",
+			"api_type": "dynamic",
+			"api_params": ["state"],
+			"variables": {
+				"keys": ["state", "period"],
+				"rename_cols": {
+					"age_group": "x",
+					"new_donors": "y"
+				},
+				"x": "x",
+				"y": ["y"]
+			}
+		},
+		"bar_chart_time": {
+			"name": "bar_chart_time",
+			"chart_type": "bar_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/blood_barchart_time.parquet",
+			"data_as_of": "2023-12-11 23:59",
+			"api_type": "dynamic",
+			"api_params": ["state"],
+			"variables": {
+				"keys": ["state", "type"],
+				"rename_cols": {
+					"period": "x",
+					"new_donors": "y"
+				},
+				"x": "x",
+				"y": ["y"]
+			}
+		},
+		"timeseries_all": {
+			"name": "timeseries_all",
+			"chart_type": "timeseries_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/blood_timeseries.parquet",
+			"data_as_of": "2023-12-11 23:59",
+			"api_type": "dynamic",
+			"api_params": ["state"],
+			"variables": {
+				"keys": ["state", "frequency"],
+				"rename_cols": {
+					"date": "x",
+					"daily": "y"
+				},
+				"value_columns": ["x", "y"]
+			}
+		},
+		"barchart_key_variables": {
+			"name": "barchart_key_variables",
+			"chart_type": "bar_meter",
+			"chart_source": "https://storage.data.gov.my/dashboards/blood_barcharts.parquet",
+			"data_as_of": "2023-12-11 23:59",
+			"api_type": "dynamic",
+			"api_params": ["state"],
+			"variables": {
+				"axis_values": [
+					{
+						"variable": "value"
+					}
+				],
+				"keys": ["state", "period", "chart"]
+			}
+		},
+		"choropleth_malaysia": {
+			"name": "choropleth_malaysia",
+			"chart_type": "choropleth_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/blood_choropleth_msia.parquet",
+			"data_as_of": "2023-12-11 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"x": "state",
+				"y": ["perc"]
+			}
+		}
+	}
 }

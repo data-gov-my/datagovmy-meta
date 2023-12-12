@@ -46,7 +46,7 @@
 			"data_of": "Data as of {{ date }}",
 			"latest": "Latest ({{ date }})",
 			"last_updated": "Last updated: {{ date }}",
-			"next_update": "Next update {{ date }}",
+			"next_update": "Next update: {{ date }}",
 			"slider": "",
 			"zoom": "Zoom into my area",
 			"clear": "Clear",

@@ -1,65 +1,56 @@
 {
-    "dashboard_name": "public_transport",
-    "data_last_updated": "2023-12-12 12:00",
-    "route": "/dashboard/public-transportation,/ms-MY/dashboard/public-transportation",
-    "sites": [
-        "datagovmy"
-    ],
-    "manual_trigger": "2023-12-12 12:58:31.360995",
-    "required_params": [],
-    "optional_params": [],
-    "charts": {
-        "timeseries": {
-            "name": "timeseries",
-            "chart_type": "timeseries_chart",
-            "chart_source": "https://storage.data.gov.my/dashboards/public_transport_timeseries.parquet",
-            "data_as_of": "2023-11-30 23:59",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "keys": [
-                    "frequency"
-                ],
-                "rename_cols": {
-                    "date": "x"
-                },
-                "value_columns": [
-                    "x",
-                    "bus_rkl",
-                    "bus_rkn",
-                    "bus_rpn",
-                    "lrt_ampang",
-                    "mrt_kajang",
-                    "lrt_kj",
-                    "monorail",
-                    "mrt_pjy",
-                    "ets",
-                    "intercity",
-                    "komuter_utara",
-                    "komuter",
-                    "bus",
-                    "rail",
-                    "tebrau",
-                    "overall"
-                ]
-            }
-        },
-        "timeseries_callout": {
-            "name": "timeseries_callout",
-            "chart_type": "custom_chart",
-            "chart_source": "https://storage.data.gov.my/dashboards/public_transport_timeseries_callout.parquet",
-            "data_as_of": "2023-11-30 23:59",
-            "api_type": "static",
-            "api_params": [],
-            "variables": {
-                "keys": [
-                    "chart",
-                    "variable"
-                ],
-                "value_columns": [
-                    "value"
-                ]
-            }
-        }
-    }
+	"dashboard_name": "public_transport",
+	"data_last_updated": "2023-12-12 12:00",
+	"route": "/dashboard/public-transportation,/ms-MY/dashboard/public-transportation",
+	"sites": ["datagovmy"],
+	"manual_trigger": "2023-12-12 12:58:31.360995",
+	"required_params": [],
+	"optional_params": [],
+	"charts": {
+		"timeseries": {
+			"name": "timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/public_transport_timeseries.parquet",
+			"data_as_of": "2023-11-30 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["frequency"],
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": [
+					"x",
+					"bus_rkl",
+					"bus_rkn",
+					"bus_rpn",
+					"lrt_ampang",
+					"mrt_kajang",
+					"lrt_kj",
+					"monorail",
+					"mrt_pjy",
+					"ets",
+					"intercity",
+					"komuter_utara",
+					"komuter",
+					"bus",
+					"rail",
+					"tebrau",
+					"overall"
+				]
+			}
+		},
+		"timeseries_callout": {
+			"name": "timeseries_callout",
+			"chart_type": "custom_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/public_transport_timeseries_callout.parquet",
+			"data_as_of": "2023-11-30 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["chart", "variable"],
+				"value_columns": ["value"]
+			}
+		}
+	}
 }
