@@ -1,6 +1,7 @@
 {
     "dashboard_name": "household_debt",
     "data_last_updated": "2023-11-30 15:00",
+    "data_next_update": "2023-12-31 15:00",
     "route": "/dashboard/household-debt,/ms-MY/dashboard/household-debt",
     "sites": [
         "datagovmy"

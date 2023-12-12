@@ -1,6 +1,7 @@
 {
 	"dashboard_name": "income_tax",
-	"data_last_updated": "2023-08-01 00:01",
+	"data_last_updated": "2023-08-01 16:00",
+    "data_next_update": "2024-08-01 16:00",
 	"route": "/dashboard/income-taxation,/ms-MY/dashboard/income-taxation",
 	"sites": ["datagovmy"],
 	"manual_trigger": "",
