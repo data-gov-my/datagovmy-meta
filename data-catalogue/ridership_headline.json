@@ -1,6 +1,6 @@
 {
     "file": {
-        "manual_trigger": "2023-12-07 05:06:19.701352",
+        "manual_trigger": "2023-12-12 12:57:51.117560",
         "exclude_openapi": false,
         "bucket": "transportation",
         "file_name": "ridership_headline",
@@ -153,9 +153,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-10-31 23:59",
-                        "last_updated": "2023-11-12 12:00",
-                        "next_update": "2023-12-12 04:00"
+                        "data_as_of": "2023-11-30 23:59",
+                        "last_updated": "2023-12-12 12:00",
+                        "next_update": "2024-01-12 12:00"
                     },
                     "metadata_lang": {
                         "en": {
