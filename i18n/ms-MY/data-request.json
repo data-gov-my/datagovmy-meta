@@ -12,7 +12,7 @@
       "all": "Semua Tiket",
       "under_review": "Dalam Semakan",
       "in_progress": "Sedang Diuruskan",
-      "published": "Data Diterbitkan",
+      "data_published": "Data Diterbitkan",
       "rejected": "Ditolak"
     },
     "table": {
