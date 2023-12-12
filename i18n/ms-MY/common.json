@@ -44,7 +44,7 @@
 			"data_of": "Data setakat {{ date }}",
 			"latest": "Terkini ({{ date }})",
 			"last_updated": "Kemaskini terakhir: {{ date }}",
-			"next_update": "Kemaskini seterusnya pada {{ date }}",
+			"next_update": "Kemaskini seterusnya: {{ date }}",
 			"slider": "",
 			"zoom": "Pilih kawasan saya",
 			"clear": "Kosongkan",
