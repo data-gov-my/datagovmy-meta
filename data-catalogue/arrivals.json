@@ -125,13 +125,17 @@
                             "country": "Nationality",
                             "date": "Date",
                             "arrivals": "Arrivals",
-                            "y1": "Arrivals"
+                            "y1": "Arrivals",
+                            "bgd": "Bangladesh",
+                            "chn": "China"
                         },
                         "bm": {
                             "country": "Kewarganegaraan",
                             "date": "Tarikh",
                             "arrivals": "Kemasukan",
-                            "y1": "Kemasukan"
+                            "y1": "Kemasukan",
+                            "bgd": "Bangladesh",
+                            "chn": "China"
                         }
                     }
                 }
