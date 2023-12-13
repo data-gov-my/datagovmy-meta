@@ -1,0 +1,137 @@
+{
+    "file": {
+        "manual_trigger": "na",
+        "exclude_openapi": false,
+        "bucket": "demography",
+        "file_name": "arrivals",
+        "category": "DEMOGRAPHY",
+        "category_en": "Demography",
+        "category_bm": "Demografi",
+        "subcategory": "MIGRATION",
+        "subcategory_en": "Migration",
+        "subcategory_bm": "Migrasi",
+        "description": {
+            "en": "Monthly foreign arrivals in Malaysia by nationality.",
+            "bm": "Kemasukan warga asing secara bulanan ke Malaysia mengikut kewarganegaraan."
+        },
+        "link_parquet": "https://storage.data.gov.my/demography/arrivals.parquet",
+        "link_csv": "https://storage.data.gov.my/demography/arrivals.csv",
+        "link_preview": "https://storage.data.gov.my/demography/arrivals.parquet",
+        "variables": [
+            {
+                "id": -1,
+                "name": "country",
+                "title_en": "Nationality",
+                "title_bm": "Kewarganegaraan",
+                "desc_en": "[String] Standardised ISO-3 code representing the nationality of individuals entering Malaysia",
+                "desc_bm": "[String] Standardised ISO-3 code representing the nationality of individuals entering Malaysia"
+            },
+            {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] Date in YYYY-MM-DD format, with YY set to 01 as this is monthly data",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+            },
+            {
+                "id": -1,
+                "name": "arrivals",
+                "title_en": "Arrivals",
+                "title_bm": "Kemasukan",
+                "desc_en": "[Integer] Number of people",
+                "desc_bm": "[Integer] Bilangan orang"
+            },
+            {
+                "id": 0,
+                "name": "Monthly Arrivals by Nationality",
+                "title_en": "Monthly Arrivals by Nationality",
+                "title_bm": "Kemasukan Bulanan mengikut Kewarganegaraan",
+                "desc_en": "Monthly foreign arrivals in Malaysia by nationality.",
+                "desc_bm": "Kemasukan warga asing secara bulanan ke Malaysia mengikut kewarganegaraan.",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "geography": [
+                            "NATIONAL",
+                            "STATE"
+                        ],
+                        "demography": [],
+                        "start": "2020",
+                        "end": "2023",
+                        "data_source": [
+                            "Imigresen"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-10-31 23:59",
+                        "last_updated": "2023-11-30 16:00",
+                        "next_update": "2023-12-31 16:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "-",
+                            "caveat": "-",
+                            "publication": "-"
+                        },
+                        "bm": {
+                            "methodology": "-",
+                            "caveat": "-",
+                            "publication": "-"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TABLE",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 0
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "exclude": [],
+                            "freeze": []
+                        }
+                    },
+                    "dataviz": [
+                        {
+                            "translation_key": "arrivals",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [
+                                    "country"
+                                ],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": [
+                                    "country"
+                                ],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "arrivals"
+                                    ]
+                                }
+                            }
+                        }
+                    ],
+                    "translations": {
+                        "en": {
+                            "country": "Nationality",
+                            "date": "Date",
+                            "arrivals": "Arrivals",
+                            "y1": "Arrivals"
+                        },
+                        "bm": {
+                            "country": "Kewarganegaraan",
+                            "date": "Tarikh",
+                            "arrivals": "Kemasukan",
+                            "y1": "Kemasukan"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
