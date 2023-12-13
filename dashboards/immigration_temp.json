@@ -1,6 +1,7 @@
 {
 	"dashboard_name": "immigration_temp",
-	"data_last_updated": "2023-08-01 00:01",
+	"data_last_updated": "2023-11-30 16:00",
+	"data_next_update": "2023-12-31 16:00",
 	"route": "/dashboard/immigration,/ms-MY/dashboard/immigration",
 	"sites": ["datagovmy"],
 	"manual_trigger": "0",
@@ -11,7 +12,7 @@
 			"name": "query_values",
 			"chart_type": "query_values",
 			"chart_source": "https://storage.data.gov.my/dashboards/immigration_timeseries_new.parquet",
-			"data_as_of": "2023-07-31 23:59",
+			"data_as_of": "2023-10-31 23:59",
 			"api_type": "dynamic",
 			"api_params": [],
 			"variables": {
@@ -27,7 +28,7 @@
 			"name": "timeseries_country",
 			"chart_type": "timeseries_chart",
 			"chart_source": "https://storage.data.gov.my/dashboards/immigration_timeseries_new.parquet",
-			"data_as_of": "2023-07-31 23:59",
+			"data_as_of": "2023-10-31 23:59",
 			"api_type": "dynamic",
 			"api_params": ["country"],
 			"variables": {
@@ -42,7 +43,7 @@
 			"name": "timeseries_country_callout",
 			"chart_type": "custom_chart",
 			"chart_source": "https://storage.data.gov.my/dashboards/immigration_timeseries_new_callout.parquet",
-			"data_as_of": "2023-07-31 23:59",
+			"data_as_of": "2023-10-31 23:59",
 			"api_type": "dynamic",
 			"api_params": ["country"],
 			"variables": {
