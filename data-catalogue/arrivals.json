@@ -51,10 +51,9 @@
                 "desc_bm": "Kemasukan warga asing secara bulanan ke Malaysia mengikut kewarganegaraan.",
                 "catalog_data": {
                     "catalog_filters": {
-                        "frequency": "DAILY",
+                        "frequency": "MONTHLY",
                         "geography": [
-                            "NATIONAL",
-                            "STATE"
+                            "NATIONAL"
                         ],
                         "demography": [],
                         "start": "2020",
