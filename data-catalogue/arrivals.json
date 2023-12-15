@@ -23,8 +23,8 @@
                 "name": "country",
                 "title_en": "Nationality",
                 "title_bm": "Kewarganegaraan",
-                "desc_en": "[String] Standardised ISO-3 code representing the nationality of individuals entering Malaysia",
-                "desc_bm": "[String] Standardised ISO-3 code representing the nationality of individuals entering Malaysia"
+                "desc_en": "[String] Standardised ISO-3 code representing the nationality of individuals entering Malaysia. The code XXX is used to represent arrivals where no nationality was specified, including stateless individuals and refugees.",
+                "desc_bm": "[String] Standardised ISO-3 code representing the nationality of individuals entering Malaysia. Kod XXX digunakan bagi ketibaan di mana tiada kewarganegaraan yang direkodkan, termasuk individu tanpa kerakyatan _(stateless)_ dan pelarian _(refugee)_."
             },
             {
                 "id": -1,
@@ -70,14 +70,14 @@
                     },
                     "metadata_lang": {
                         "en": {
-                            "methodology": "-",
-                            "caveat": "-",
-                            "publication": "-"
+                            "methodology": "The Immigration Department of Malaysia operates the Malaysian Immigration System (MyIMMSs), which is used to record arrivals and departures by air, land, and sea at all international points of entry to Malaysia. Each arrival record contains details of the individual's nationality, sex, age, and other personal or travel-related information. The dataset shown here is aggregated from the transactional data stored in MyIMMS, which is the single source of truth for movement in and out of Malaysia.",
+                            "caveat": "This data does not account for unrecorded entrances into Malaysia, whether of a legal or illegal nature. It is based solely on records in MyIMMS. Furthermore, it should be noted that for approximately 0.01% of arrivals do not have a nationality specified, including stateless individuals and refugees.",
+                            "publication": "Our site features a [dashboard on immigration](https://data.gov.my/dashboard/immigration) where you can explore this data in a more interactive manner."
                         },
                         "bm": {
-                            "methodology": "-",
-                            "caveat": "-",
-                            "publication": "-"
+                            "methodology": "Jabatan Imigresen Malaysia mengendalikan Sistem Imigresen Malaysia (MyIMMSs), yang digunakan untuk merekodkan ketibaan dan pelepasan melalui udara, darat dan laut di semua pintu masuk antarabangsa ke Malaysia. Setiap rekod ketibaan mengandungi butiran tentang kewarganegaraan, jantina, umur dan maklumat peribadi lain bagi individu tersebut. Set data ini diagregatkan daripada data transaksi yang disimpan dalam MyIMMS, iaitu sumber tunggal bagi pergerakan masuk dan keluar dari Malaysia.",
+                            "caveat": "Data ini tidak merangkumi kemasukan yang tidak direkodkan ke Malaysia, sama ada bersifat sah atau tidak sah. Ia hanya berdasarkan rekod dalam MyIMMS. Selain itu, tiada kewarganegaraan yang direkodkan bagi ~0.01% daripada kemasukan keseluruhan, termasuk individu tanpa kerakyatan _(stateless)_ dan pelarian _(refugee)_",
+                            "publication": "Portal ini memaparkan [papan pemuka tentang imigresen](https://data.gov.my/dashboard/immigration) di mana anda boleh menerokai data ini dengan lebih interaktif."
                         }
                     },
                     "chart": {
@@ -126,6 +126,7 @@
                             "date": "Date",
                             "arrivals": "Arrivals",
                             "y1": "Arrivals",
+                            "all": "Total",
                             "afg": "Afghanistan",
                             "alb": "Albania",
                             "dza": "Algeria",
@@ -155,7 +156,7 @@
                             "bwa": "Botswana",
                             "bra": "Brazil",
                             "iot": "British Indian Ocean Territory",
-                            "xxx": "Unspecified Nationality",
+                            "xxx": "Unspecified",
                             "brn": "Brunei Darussalam",
                             "bgr": "Bulgaria",
                             "bfa": "Burkina Faso",
@@ -353,6 +354,7 @@
                             "date": "Tarikh",
                             "arrivals": "Kemasukan",
                             "y1": "Kemasukan", 
+                            "all": "Keseluruhan",
                             "afg": "Afghanistan",
                             "alb": "Albania",
                             "dza": "Algeria",
@@ -382,7 +384,7 @@
                             "bwa": "Botswana",
                             "bra": "Brazil",
                             "iot": "British Indian Ocean Territory",
-                            "xxx": "Unspecified Nationality",
+                            "xxx": "Unspecified",
                             "brn": "Brunei Darussalam",
                             "bgr": "Bulgaria",
                             "bfa": "Burkina Faso",
