@@ -3,7 +3,7 @@
         "manual_trigger": "na",
         "exclude_openapi": false,
         "bucket": "demography",
-        "file_name": "arrivals",
+        "file_name": "arrivals_poe",
         "category": "DEMOGRAPHY",
         "category_en": "Demography",
         "category_bm": "Demografi",
