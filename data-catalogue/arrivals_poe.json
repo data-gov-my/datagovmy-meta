@@ -1,7 +1,7 @@
 {
     "file": {
         "manual_trigger": "na",
-        "exclude_openapi": false,
+        "exclude_openapi": true,
         "bucket": "demography",
         "file_name": "arrivals_poe",
         "category": "DEMOGRAPHY",
