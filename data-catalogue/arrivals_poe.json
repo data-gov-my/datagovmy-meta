@@ -3,7 +3,7 @@
         "manual_trigger": "na",
         "exclude_openapi": false,
         "bucket": "demography",
-        "file_name": "arrivals",
+        "file_name": "arrivals_poe",
         "category": "DEMOGRAPHY",
         "category_en": "Demography",
         "category_bm": "Demografi",
@@ -68,11 +68,11 @@
             },
             {
                 "id": 0,
-                "name": "Monthly Arrivals by Nationality & Sex",
-                "title_en": "Monthly Arrivals by Nationality & Sex",
-                "title_bm": "Kemasukan Bulanan mengikut Kewarganegaraan & Jantina",
-                "desc_en": "Monthly foreign arrivals in Malaysia by nationality and sex.",
-                "desc_bm": "Kemasukan warga asing secara bulanan ke Malaysia mengikut kewarganegaraan dan jantina.",
+                "name": "Monthly Arrivals by Point of Entry, Nationality & Sex",
+                "title_en": "Monthly Arrivals by Point of Entry, Nationality & Sex",
+                "title_bm": "Kemasukan Bulanan mengikut Pintu Masuk, Kewarganegaraan & Jantina",
+                "desc_en": "Monthly foreign arrivals in Malaysia by point of entry, nationality and sex.",
+                "desc_bm": "Kemasukan warga asing secara bulanan ke Malaysia mengikut pintu masuk, kewarganegaraan dan jantina.",
                 "catalog_data": {
                     "catalog_filters": {
                         "frequency": "MONTHLY",
