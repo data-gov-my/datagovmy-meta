@@ -16,7 +16,6 @@
         },
         "link_parquet": "https://storage.data.gov.my/demography/arrivals.parquet",
         "link_csv": "https://storage.data.gov.my/demography/arrivals.csv",
-        "link_preview": "https://storage.data.gov.my/demography/arrivals.parquet",
         "variables": [
             {
                 "id": -1,
