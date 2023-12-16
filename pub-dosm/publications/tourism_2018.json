@@ -1,0 +1,49 @@
+{
+    "publication": "tourism_2018",
+    "publication_type": "tourism",
+    "release_date": "2019-09-27",
+    "frequency": "YEARLY",
+    "geography": [
+        "STATE",
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2018] Tourism Satellite Account",
+        "publication_type_title": "Tourism",
+        "description": "Annual performance of the tourism sector, covering inbound, domestic, and outbound tourism.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Tourism: 2018",
+                "resource_link": "https://storage.dosm.gov.my/tourism/tourism_2018.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Tourism: 2018",
+                "resource_link": "https://storage.dosm.gov.my/tourism/tourism_2018.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2018] Akaun Satelit Pelancongan",
+        "publication_type_title": "Pelancongan",
+        "description": "Prestasi tahunan sektor pelancongan, merangkumi pelancongan inbound, domestik, dan outbound.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Pelancongan: 2018",
+                "resource_link": "https://storage.dosm.gov.my/tourism/tourism_2018.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Pelancongan: 2018",
+                "resource_link": "https://storage.dosm.gov.my/tourism/tourism_2018.pdf"
+            }
+        ]
+    }
+}
