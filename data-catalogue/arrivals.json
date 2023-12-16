@@ -1,7 +1,7 @@
 {
     "file": {
         "manual_trigger": "na",
-        "exclude_openapi": false,
+        "exclude_openapi": true,
         "bucket": "demography",
         "file_name": "arrivals",
         "category": "DEMOGRAPHY",
@@ -11,8 +11,8 @@
         "subcategory_en": "Migration",
         "subcategory_bm": "Migrasi",
         "description": {
-            "en": "Monthly foreign arrivals in Malaysia by nationality.",
-            "bm": "Kemasukan warga asing secara bulanan ke Malaysia mengikut kewarganegaraan."
+            "en": "Monthly foreign arrivals in Malaysia by nationality and sex.",
+            "bm": "Kemasukan warga asing secara bulanan ke Malaysia mengikut kewarganegaraan dan jantina."
         },
         "link_parquet": "https://storage.data.gov.my/demography/arrivals.parquet",
         "link_csv": "https://storage.data.gov.my/demography/arrivals.csv",
@@ -24,7 +24,7 @@
                 "title_en": "Nationality",
                 "title_bm": "Kewarganegaraan",
                 "desc_en": "[String] Standardised ISO-3 code representing the nationality of individuals entering Malaysia. The code XXX is used to represent arrivals where no nationality was specified, including stateless individuals and refugees.",
-                "desc_bm": "[String] Standardised ISO-3 code representing the nationality of individuals entering Malaysia. Kod XXX digunakan bagi ketibaan di mana tiada kewarganegaraan yang direkodkan, termasuk individu tanpa kerakyatan (stateless) dan pelarian (refugee)."
+                "desc_bm": "[Rentetan] Kod ISO-3 piawai yang mewakili kewarganegaraan individu yang masuk ke Malaysia. Kod XXX digunakan bagi ketibaan di mana tiada kewarganegaraan yang direkodkan, termasuk individu tanpa kerakyatan (stateless) dan pelarian (refugee)."
             },
             {
                 "id": -1,
