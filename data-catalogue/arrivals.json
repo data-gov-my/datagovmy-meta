@@ -31,8 +31,8 @@
                 "name": "date",
                 "title_en": "Date",
                 "title_bm": "Tarikh",
-                "desc_en": "[Date] Date in YYYY-MM-DD format, with YY set to 01 as this is monthly data",
-                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+                "desc_en": "[Date] Date in YYYY-MM-DD format, with DD set to 01 as this is monthly data",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai DD ditetapkan sebagai 01 bagi data bulanan"
             },
             {
                 "id": -1,

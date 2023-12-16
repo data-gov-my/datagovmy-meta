@@ -11,8 +11,8 @@
         "subcategory_en": "Migration",
         "subcategory_bm": "Migrasi",
         "description": {
-            "en": "Monthly foreign arrivals in Malaysia by point of entry, nationality, and sex. The table below provides a truncated preview to help you understand the full dataset, which contains over 200,000 rows.",
-            "bm": "Kemasukan warga asing secara bulanan ke Malaysia mengikut pintu masuk, kewarganegaraan, dan jantina. Jadual di bawah adalah pratonton ringkas untuk membantu anda memahami set data penuh yang mengandungi lebih daripada 200,000 baris."
+            "en": "Monthly foreign arrivals in Malaysia by point of entry, nationality, and sex.",
+            "bm": "Kemasukan warga asing secara bulanan ke Malaysia mengikut pintu masuk, kewarganegaraan, dan jantina."
         },
         "link_parquet": "https://storage.data.gov.my/demography/arrivals_poe.parquet",
         "link_csv": "https://storage.data.gov.my/demography/arrivals_poe.csv",
@@ -39,8 +39,8 @@
                 "name": "date",
                 "title_en": "Date",
                 "title_bm": "Tarikh",
-                "desc_en": "[Date] Date in YYYY-MM-DD format, with YY set to 01 as this is monthly data",
-                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+                "desc_en": "[Date] Date in YYYY-MM-DD format, with DD set to 01 as this is monthly data",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai DD ditetapkan sebagai 01 bagi data bulanan"
             },
             {
                 "id": -1,
@@ -71,8 +71,8 @@
                 "name": "Monthly Arrivals by Point of Entry, Nationality & Sex",
                 "title_en": "Monthly Arrivals by Point of Entry, Nationality & Sex",
                 "title_bm": "Kemasukan Bulanan mengikut Pintu Masuk, Kewarganegaraan & Jantina",
-                "desc_en": "Monthly foreign arrivals in Malaysia by point of entry, nationality and sex.",
-                "desc_bm": "Kemasukan warga asing secara bulanan ke Malaysia mengikut pintu masuk, kewarganegaraan dan jantina.",
+                "desc_en": "Monthly foreign arrivals in Malaysia by point of entry, nationality and sex. The table below provides a truncated preview to help you understand the full dataset, which contains over 200,000 rows.",
+                "desc_bm": "Kemasukan warga asing secara bulanan ke Malaysia mengikut pintu masuk, kewarganegaraan dan jantina. Jadual di bawah adalah pratonton ringkas untuk membantu anda memahami set data penuh, yang mengandungi lebih daripada 200,000 baris.",
                 "catalog_data": {
                     "catalog_filters": {
                         "frequency": "MONTHLY",
