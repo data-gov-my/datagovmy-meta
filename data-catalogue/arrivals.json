@@ -39,23 +39,42 @@
                 "name": "arrivals",
                 "title_en": "Arrivals",
                 "title_bm": "Kemasukan",
-                "desc_en": "[Integer] Number of people",
-                "desc_bm": "[Integer] Bilangan orang"
+                "desc_en": "[Integer] Number of people, derived as the sum of male and female arrivals",
+                "desc_bm": "[Integer] Bilangan orang, bersamaan dengan jumlah lelaki dan perempuan"
+            },
+            {
+                "id": -1,
+                "name": "arrivals_male",
+                "title_en": "Male Arrivals",
+                "title_bm": "Kemasukan Lelaki",
+                "desc_en": "[Integer] Number of males",
+                "desc_bm": "[Integer] Bilangan lelaki"
+            },
+            {
+                "id": -1,
+                "name": "arrivals_female",
+                "title_en": "Female Arrivals",
+                "title_bm": "Kemasukan Perempuan",
+                "desc_en": "[Integer] Number of females",
+                "desc_bm": "[Integer] Bilangan perempuan"
             },
             {
                 "id": 0,
-                "name": "Monthly Arrivals by Nationality",
-                "title_en": "Monthly Arrivals by Nationality",
-                "title_bm": "Kemasukan Bulanan mengikut Kewarganegaraan",
-                "desc_en": "Monthly foreign arrivals in Malaysia by nationality.",
-                "desc_bm": "Kemasukan warga asing secara bulanan ke Malaysia mengikut kewarganegaraan.",
+                "name": "Monthly Arrivals by Nationality & Sex",
+                "title_en": "Monthly Arrivals by Nationality & Sex",
+                "title_bm": "Kemasukan Bulanan mengikut Kewarganegaraan & Jantina",
+                "desc_en": "Monthly foreign arrivals in Malaysia by nationality and sex.",
+                "desc_bm": "Kemasukan warga asing secara bulanan ke Malaysia mengikut kewarganegaraan dan jantina.",
                 "catalog_data": {
                     "catalog_filters": {
                         "frequency": "MONTHLY",
                         "geography": [
                             "NATIONAL"
                         ],
-                        "demography": [],
+                        "demography": [
+                            "SEX",
+                            "NATIONALITY"
+                        ],
                         "start": "2020",
                         "end": "2023",
                         "data_source": [
