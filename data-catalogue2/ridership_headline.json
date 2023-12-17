@@ -140,7 +140,7 @@
     ],
     "dataviz": [
         {
-            "id": "table",
+            "dataviz_id": "table",
             "title_en": "Table",
             "title_ms": "Jadual",
             "chart_type": "TABLE",
@@ -153,7 +153,7 @@
             }
         },
         {
-            "id": "bus_rkl",
+            "dataviz_id": "bus_rkl",
             "title_en": "Rapid Bus (KL)",
             "title_ms": "Bas Rapid (KL)",
             "chart_type": "TIMESERIES",
@@ -168,7 +168,7 @@
             }
         },
         {
-            "id": "bus_rkn",
+            "dataviz_id": "bus_rkn",
             "title_en": "Rapid Bus (Kuantan)",
             "title_ms": "Bas Rapid (Kuantan)",
             "chart_type": "TIMESERIES",
@@ -183,7 +183,7 @@
             }
         },
         {
-            "id": "bus_rpn",
+            "dataviz_id": "bus_rpn",
             "title_en": "Rapid Bus (Penang)",
             "title_ms": "Bas Rapid (Pulau Pinang)",
             "chart_type": "TIMESERIES",
@@ -198,7 +198,7 @@
             }
         },
         {
-            "id": "rail_lrt_ampang",
+            "dataviz_id": "rail_lrt_ampang",
             "title_en": "LRT Ampang Line",
             "title_ms": "LRT Laluan Ampang",
             "chart_type": "TIMESERIES",
@@ -213,7 +213,7 @@
             }
         },
         {
-            "id": "rail_lrt_kj",
+            "dataviz_id": "rail_lrt_kj",
             "title_en": "LRT Kelana Jaya Line",
             "title_ms": "LRT Laluan Kelana Jaya",
             "chart_type": "TIMESERIES",
@@ -228,7 +228,7 @@
             }
         },
         {
-            "id": "rail_monorail",
+            "dataviz_id": "rail_monorail",
             "title_en": "Monorail Line",
             "title_ms": "Laluan Monorel",
             "chart_type": "TIMESERIES",
@@ -243,7 +243,7 @@
             }
         },
         {
-            "id": "rail_mrt_kajang",
+            "dataviz_id": "rail_mrt_kajang",
             "title_en": "MRT Kajang Line",
             "title_ms": "MRT Laluan Kajang",
             "chart_type": "TIMESERIES",
@@ -258,7 +258,7 @@
             }
         },
         {
-            "id": "rail_mrt_pjy",
+            "dataviz_id": "rail_mrt_pjy",
             "title_en": "MRT Putrajaya Line",
             "title_ms": "MRT Laluan Putrajaya",
             "chart_type": "TIMESERIES",
@@ -273,7 +273,7 @@
             }
         },
         {
-            "id": "rail_ets",
+            "dataviz_id": "rail_ets",
             "title_en": "KTMB ETS",
             "title_ms": "KTMB ETS",
             "chart_type": "TIMESERIES",
@@ -288,7 +288,7 @@
             }
         },
         {
-            "id": "rail_intercity",
+            "dataviz_id": "rail_intercity",
             "title_en": "KTM Intercity",
             "title_ms": "KTM Intercity",
             "chart_type": "TIMESERIES",
@@ -303,7 +303,7 @@
             }
         },
         {
-            "id": "rail_komuter",
+            "dataviz_id": "rail_komuter",
             "title_en": "KTM Komuter",
             "title_ms": "KTM Komuter",
             "chart_type": "TIMESERIES",
@@ -318,7 +318,7 @@
             }
         },
         {
-            "id": "rail_komuter_utara",
+            "dataviz_id": "rail_komuter_utara",
             "title_en": "KTM Komuter Utara",
             "title_ms": "KTM Komuter Utara",
             "chart_type": "TIMESERIES",
@@ -333,7 +333,7 @@
             }
         },
         {
-            "id": "rail_tebrau",
+            "dataviz_id": "rail_tebrau",
             "title_en": "KTM Shuttle Tebrau",
             "title_ms": "KTM Shuttle Tebrau",
             "chart_type": "TIMESERIES",

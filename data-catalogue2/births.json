@@ -61,7 +61,7 @@
     ],
     "dataviz": [
         {
-            "id": "table",
+            "dataviz_id": "table",
             "title_en": "Table",
             "title_ms": "Jadual",
             "chart_type": "TABLE",
@@ -72,7 +72,7 @@
             }
         },
         {
-            "id": "births",
+            "dataviz_id": "births",
             "title_en": "Births",
             "title_ms": "Kelahiran",
             "chart_type": "TIMESERIES",

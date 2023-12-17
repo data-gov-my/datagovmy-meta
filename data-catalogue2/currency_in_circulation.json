@@ -180,7 +180,7 @@
     ],
     "dataviz": [
         {
-            "id": "table",
+            "dataviz_id": "table",
             "title_en": "Table",
             "title_ms": "Jadual",
             "chart_type": "TABLE",

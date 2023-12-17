@@ -160,7 +160,7 @@
     ],
     "dataviz": [
         {
-            "id": "table",
+            "dataviz_id": "table",
             "title_en": "Table",
             "title_ms": "Jadual",
             "chart_type": "TABLE",
@@ -175,7 +175,7 @@
             }
         },
         {
-            "id": "cases_child",
+            "dataviz_id": "cases_child",
             "title_en": "Child Cases",
             "title_ms": "Kes Kanak-kanak",
             "chart_type": "TIMESERIES",
@@ -192,7 +192,7 @@
             }
         },
         {
-            "id": "cases_adolescent",
+            "dataviz_id": "cases_adolescent",
             "title_en": "Adolescent Cases",
             "title_ms": "Kes Remaja",
             "chart_type": "TIMESERIES",
@@ -209,7 +209,7 @@
             }
         },
         {
-            "id": "cases_adult",
+            "dataviz_id": "cases_adult",
             "title_en": "Adult Cases",
             "title_ms": "Kes Dewasa",
             "chart_type": "TIMESERIES",
@@ -226,7 +226,7 @@
             }
         },
         {
-            "id": "cases_elderly",
+            "dataviz_id": "cases_elderly",
             "title_en": "Elderly Cases",
             "title_ms": "Kes Warga Emas",
             "chart_type": "TIMESERIES",

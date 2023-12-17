@@ -222,7 +222,7 @@
     ],
     "dataviz": [
         {
-            "id": "table",
+            "dataviz_id": "table",
             "title_en": "Table",
             "title_ms": "Jadual",
             "chart_type": "TABLE",
@@ -235,7 +235,7 @@
             }
         },
         {
-            "id": "myr_usd",
+            "dataviz_id": "myr_usd",
             "title_en": "USA",
             "title_ms": "AS",
             "chart_type": "TIMESERIES",
@@ -250,7 +250,7 @@
             }
         },
         {
-            "id": "myr_rmb",
+            "dataviz_id": "myr_rmb",
             "title_en": "China",
             "title_ms": "China",
             "chart_type": "TIMESERIES",
@@ -265,7 +265,7 @@
             }
         },
         {
-            "id": "myr_sgd",
+            "dataviz_id": "myr_sgd",
             "title_en": "Singapore",
             "title_ms": "Singapura",
             "chart_type": "TIMESERIES",
@@ -280,7 +280,7 @@
             }
         },
         {
-            "id": "myr_eur",
+            "dataviz_id": "myr_eur",
             "title_en": "Euro Area",
             "title_ms": "Kawasan Euro",
             "chart_type": "TIMESERIES",
@@ -295,7 +295,7 @@
             }
         },
         {
-            "id": "myr_jpy",
+            "dataviz_id": "myr_jpy",
             "title_en": "Japan",
             "title_ms": "Japan",
             "chart_type": "TIMESERIES",
@@ -310,7 +310,7 @@
             }
         },
         {
-            "id": "myr_twd",
+            "dataviz_id": "myr_twd",
             "title_en": "Chinese Taipei",
             "title_ms": "China Taipei",
             "chart_type": "TIMESERIES",

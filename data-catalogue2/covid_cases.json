@@ -97,7 +97,7 @@
     ],
     "dataviz": [
         {
-            "id": "table",
+            "dataviz_id": "table",
             "title_en": "Table",
             "title_ms": "Jadual",
             "chart_type": "TABLE",
@@ -112,7 +112,7 @@
             }
         },
         {
-            "id": "cases_new",
+            "dataviz_id": "cases_new",
             "title_en": "New Cases",
             "title_ms": "Kes Baharu",
             "chart_type": "TIMESERIES",
@@ -129,7 +129,7 @@
             }
         },
         {
-            "id": "cases_import",
+            "dataviz_id": "cases_import",
             "title_en": "Imported Cases",
             "title_ms": "Kes Import",
             "chart_type": "TIMESERIES",
@@ -146,7 +146,7 @@
             }
         },
         {
-            "id": "cases_recovered",
+            "dataviz_id": "cases_recovered",
             "title_en": "Recoveries",
             "title_ms": "Kes Sembuh",
             "chart_type": "TIMESERIES",
@@ -163,7 +163,7 @@
             }
         },
         {
-            "id": "cases_active",
+            "dataviz_id": "cases_active",
             "title_en": "Active Cases",
             "title_ms": "Kes Aktif",
             "chart_type": "TIMESERIES",
@@ -180,7 +180,7 @@
             }
         },
         {
-            "id": "cases_cluster",
+            "dataviz_id": "cases_cluster",
             "title_en": "Cluster-related Cases",
             "title_ms": "Kes Kluster",
             "chart_type": "TIMESERIES",

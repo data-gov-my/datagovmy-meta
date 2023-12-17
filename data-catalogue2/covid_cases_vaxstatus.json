@@ -90,7 +90,7 @@
     ],
     "dataviz": [
         {
-            "id": "table",
+            "dataviz_id": "table",
             "title_en": "Table",
             "title_ms": "Jadual",
             "chart_type": "TABLE",
@@ -105,7 +105,7 @@
             }
         },
         {
-            "id": "cases_unvax",
+            "dataviz_id": "cases_unvax",
             "title_en": "Unvaccinated Cases",
             "title_ms": "Kes Tidak Divaksinaski",
             "chart_type": "TIMESERIES",
@@ -122,7 +122,7 @@
             }
         },
         {
-            "id": "cases_pvax",
+            "dataviz_id": "cases_pvax",
             "title_en": "Partially Vaccinated Cases",
             "title_ms": "Kes Tidak Lengkap Vaksinasi",
             "chart_type": "TIMESERIES",
@@ -139,7 +139,7 @@
             }
         },
         {
-            "id": "cases_fvax",
+            "dataviz_id": "cases_fvax",
             "title_en": "Fully Vaccinated Cases",
             "title_ms": "Kes Lengkap Vaksinasi",
             "chart_type": "TIMESERIES",
@@ -156,7 +156,7 @@
             }
         },
         {
-            "id": "cases_boost",
+            "dataviz_id": "cases_boost",
             "title_en": "Boosted Cases",
             "title_ms": "Kes Lengkap Dos Penggalak",
             "chart_type": "TIMESERIES",

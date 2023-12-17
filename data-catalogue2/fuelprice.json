@@ -75,7 +75,7 @@
     ],
     "dataviz": [
         {
-            "id": "table",
+            "dataviz_id": "table",
             "title_en": "Table",
             "title_ms": "Jadual",
             "chart_type": "TABLE",
@@ -88,7 +88,7 @@
             }
         },
         {
-            "id": "ron95-timeseries",
+            "dataviz_id": "ron95-timeseries",
             "title_en": "Price of RON95 Petrol",
             "title_ms": "Harga Petrol RON95",
             "chart_type": "TIMESERIES",
@@ -105,7 +105,7 @@
             }
         },
         {
-            "id": "ron97-timeseries",
+            "dataviz_id": "ron97-timeseries",
             "title_en": "Price of RON97 Petrol",
             "title_ms": "Harga Petrol RON97",
             "chart_type": "TIMESERIES",
@@ -122,7 +122,7 @@
             }
         },
         {
-            "id": "diesel-timeseries",
+            "dataviz_id": "diesel-timeseries",
             "title_en": "Price of Diesel",
             "title_ms": "Harga Diesel",
             "chart_type": "TIMESERIES",
