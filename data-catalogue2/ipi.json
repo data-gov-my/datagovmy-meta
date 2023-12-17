@@ -1,212 +1,218 @@
 {
-	"title_en": "Industrial Production Index",
-	"title_ms": "Indeks Pengeluaran Industri",
-	"description_en": "Output of the three main industrial sectors namely mining, manufacturing and electricity.",
-	"description_ms": "Pengeluaran bagi tiga sektor industri utama iaitu perlombongan, pembuatan dan elektrik.",
-	"exclude_openapi": false,
-	"manual_trigger": "na",
-	"data_as_of": "2023-06-30 23:59",
-	"last_updated": "2023-08-08 12:00",
-	"next_update": "2023-09-11 12:00",
-	"methodology_en": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
-	"methodology_ms": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
-	"caveat_en": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia. Data for December 2022 is provisional; it will be updated and subsequently published in the January 2023 publication.",
-	"caveat_ms": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia. Data bagi bulan Disember 2022 merupakan data awalan, maka akan dikemaskini dan diterbitkan dalam penerbitan bulan Januari 2023.",
-	"publication_en": "[Index of Industrial Production, June 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-06_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production).",
-	"publication_ms": "[Indeks Pengeluaran Perindustrian, Jun 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-06_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production).",
-	"link_parquet": "https://storage.dosm.gov.my/ipi/ipi.parquet",
-	"link_csv": "https://storage.dosm.gov.my/ipi/ipi.csv",
-	"link_preview": "https://storage.dosm.gov.my/ipi/ipi.parquet",
-	"frequency": "MONTHLY",
-	"geography": ["NATIONAL"],
-	"demography": [],
-	"dataset_begin": "2015",
-	"dataset_end": "2023",
-	"data_source": ["DOSM"],
-	"site_category": [
-		{
-			"site": "datagovmy",
-			"category_en": "Sectoral Statistics",
-			"category_ms": "Sektor Ekonomi",
-			"subcategory_en": "Industrial Output",
-			"subcategory_ms": "Pengeluaran Industri"
-		},
-		{
-			"site": "opendosm",
-			"category_en": "Sectoral Statistics",
-			"category_ms": "Sektor Ekonomi",
-			"subcategory_en": "Industrial Output",
-			"subcategory_ms": "Pengeluaran Industri"
-		}
-	],
-	"fields": [
-		{
-			"name": "date",
-			"title_en": "Date",
-			"title_ms": "Tarikh",
-			"description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01",
-			"description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01"
-		},
-		{
-			"name": "overall",
-			"title_en": "IPI (Industrial Production Index)",
-			"title_ms": "IPP (Indeks Pengeluaran Perindustrian)",
-			"description_en": "[Float] Index, with base 2015 = 100",
-			"description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
-		},
-		{
-			"name": "mining",
-			"title_en": "Mining",
-			"title_ms": "Perlombongan",
-			"description_en": "[Float] Index, with base 2015 = 100",
-			"description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
-		},
-		{
-			"name": "mfg",
-			"title_en": "Manufacturing",
-			"title_ms": "Pembuatan",
-			"description_en": "[Float] Index, with base 2015 = 100",
-			"description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
-		},
-		{
-			"name": "electric",
-			"title_en": "Electricity",
-			"title_ms": "Elektrik",
-			"description_en": "[Float] Index, with base 2015 = 100",
-			"description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
-		},
-		{
-			"name": "mfg_food",
-			"title_en": "Manufacturing (Food, Beverages and Tobacco)",
-			"title_ms": "Pembuatan(Makanan, Minuman dan Tembakau)",
-			"description_en": "[Float] Index, with base 2015 = 100",
-			"description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
-		},
-		{
-			"name": "mfg_textiles",
-			"title_en": "Manufacturing (Textiles, Wearing Apparel, Leather Products and Footwear)",
-			"title_ms": "Pembuatan(Produk Tekstil, Pakaian, Kulit dan Kasut)",
-			"description_en": "[Float] Index, with base 2015 = 100",
-			"description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
-		},
-		{
-			"name": "mfg_wood",
-			"title_en": "Manufacturing (Wood Products, Furniture, Paper Products, Printing)",
-			"title_ms": "Pembuatan(Produk Kayu, Perabot, Keluaran Kertas, Percetakan)",
-			"description_en": "[Float] Index, with base 2015 = 100",
-			"description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
-		},
-		{
-			"name": "mfg_petroleum",
-			"title_en": "Manufacturing (Petroleum, Chemical, Rubber and Plastic Products)",
-			"title_ms": "Pembuatan(Produk Petroleum, Kimia, Getah dan Plastik)",
-			"description_en": "[Float] Index, with base 2015 = 100",
-			"description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
-		},
-		{
-			"name": "mfg_metal",
-			"title_en": "Manufacturing (Non-Metallic Mineral Products, Basic Metal and Fabricated Metal Products)",
-			"title_ms": "Pembuatan(Produk Mineral Bukan Logam, Logam Asas dan Produk Logam yang Direka)",
-			"description_en": "[Float] Index, with base 2015 = 100",
-			"description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
-		},
-		{
-			"name": "mfg_electric",
-			"title_en": "Manufacturing (Electrical and Electronics Products)",
-			"title_ms": "Pembuatan(Produk Peralatan Elektrik dan Elektronik)",
-			"description_en": "[Float] Index, with base 2015 = 100",
-			"description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
-		},
-		{
-			"name": "mfg_transport",
-			"title_en": "Manufacturing (Transport Equipment and Other Manufactures)",
-			"title_ms": "Pembuatan(Kelengkapan Pengangkutan dan Pembuatan Lain)",
-			"description_en": "[Float] Index, with base 2015 = 100",
-			"description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
-		},
-		{
-			"name": "overall_sa",
-			"title_en": "IPI (sa)",
-			"title_ms": "IPP (tsm)",
-			"description_en": "[Float] Index, with base 2015 = 100",
-			"description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
-		},
-		{
-			"name": "mining_sa",
-			"title_en": "Mining (sa)",
-			"title_ms": "Perlombongan (tsm)",
-			"description_en": "[Float] Index, with base 2015 = 100",
-			"description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
-		},
-		{
-			"name": "mfg_sa",
-			"title_en": "Manufacturing (sa)",
-			"title_ms": "Pembuatan (tsm)",
-			"description_en": "[Float] Index, with base 2015 = 100",
-			"description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
-		},
-		{
-			"name": "electric_sa",
-			"title_en": "Electricity (sa)",
-			"title_ms": "Elektrik (tsm)",
-			"description_en": "[Float] Index, with base 2015 = 100",
-			"description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
-		}
-	],
-	"dataviz": [
-		{
-			"id": "table",
-			"title_en": "Table",
-			"title_ms": "Jadual",
-			"chart_type": "TABLE",
-			"precision": 1,
-			"filter_columns": [],
-			"freeze_columns": []
-		}
-	],
-	"translations_en": {
-		"date": "Date",
-		"overall": "IPI (Industrial Production Index)",
-		"mining": "Mining",
-		"mfg": "Manufacturing",
-		"electric": "Electricity",
-		"mfg_food": "Manufacturing (Food, Beverages and Tobacco)",
-		"mfg_textiles": "Manufacturing (Textiles, Wearing Apparel, Leather Products and Footwear)",
-		"mfg_wood": "Manufacturing (Wood Products, Furniture, Paper Products, Printing)",
-		"mfg_petroleum": "Manufacturing (Petroleum, Chemical, Rubber and Plastic Products)",
-		"mfg_metal": "Manufacturing (Non-Metallic Mineral Products, Basic Metal and Fabricated Metal Products)",
-		"mfg_electric": "Manufacturing (Electrical and Electronics Products)",
-		"mfg_transport": "Manufacturing (Transport Equipment and Other Manufactures)",
-		"overall_sa": "IPI (sa)",
-		"mining_sa": "Mining (sa)",
-		"mfg_sa": "Manufacturing (sa)",
-		"electric_sa": "Electricity (sa)"
-	},
-	"translations_ms": {
-		"date": "Tarikh",
-		"overall": "IPP (Indeks Pengeluaran Perindustrian)",
-		"mining": "Perlombongan",
-		"mfg": "Pembuatan",
-		"electric": "Elektrik",
-		"mfg_food": "Pembuatan(Makanan, Minuman dan Tembakau)",
-		"mfg_textiles": "Pembuatan(Produk Tekstil, Pakaian, Kulit dan Kasut)",
-		"mfg_wood": "Pembuatan(Produk Kayu, Perabot, Keluaran Kertas, Percetakan)",
-		"mfg_petroleum": "Pembuatan(Produk Petroleum, Kimia, Getah dan Plastik)",
-		"mfg_metal": "Pembuatan(Produk Mineral Bukan Logam, Logam Asas dan Produk Logam yang Direka)",
-		"mfg_electric": "Pembuatan(Produk Peralatan Elektrik dan Elektronik)",
-		"mfg_transport": "Pembuatan(Kelengkapan Pengangkutan dan Pembuatan Lain)",
-		"overall_sa": "IPP (tsm)",
-		"mining_sa": "Perlombongan (tsm)",
-		"mfg_sa": "Pembuatan (tsm)",
-		"electric_sa": "Elektrik (tsm)"
-	},
-	"related_datasets": [
-		{
-			"id": "related_dataset_1",
-			"title_en": "Related Dataset Title in English",
-			"title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
-			"description_en": "Description of the related dataset in English",
-			"description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
-		}
-	]
+    "title_en": "Industrial Production Index",
+    "title_ms": "Indeks Pengeluaran Industri",
+    "description_en": "Output of the three main industrial sectors namely mining, manufacturing and electricity.",
+    "description_ms": "Pengeluaran bagi tiga sektor industri utama iaitu perlombongan, pembuatan dan elektrik.",
+    "exclude_openapi": false,
+    "manual_trigger": "na",
+    "data_as_of": "2023-06-30 23:59",
+    "last_updated": "2023-08-08 12:00",
+    "next_update": "2023-09-11 12:00",
+    "methodology_en": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
+    "methodology_ms": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
+    "caveat_en": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia. Data for December 2022 is provisional; it will be updated and subsequently published in the January 2023 publication.",
+    "caveat_ms": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia. Data bagi bulan Disember 2022 merupakan data awalan, maka akan dikemaskini dan diterbitkan dalam penerbitan bulan Januari 2023.",
+    "publication_en": "[Index of Industrial Production, June 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-06_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production).",
+    "publication_ms": "[Indeks Pengeluaran Perindustrian, Jun 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-06_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production).",
+    "link_parquet": "https://storage.dosm.gov.my/ipi/ipi.parquet",
+    "link_csv": "https://storage.dosm.gov.my/ipi/ipi.csv",
+    "link_preview": "https://storage.dosm.gov.my/ipi/ipi.parquet",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": "2015",
+    "dataset_end": "2023",
+    "data_source": [
+        "DOSM"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Sectoral Statistics",
+            "category_ms": "Sektor Ekonomi",
+            "subcategory_en": "Industrial Output",
+            "subcategory_ms": "Pengeluaran Industri"
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Sectoral Statistics",
+            "category_ms": "Sektor Ekonomi",
+            "subcategory_en": "Industrial Output",
+            "subcategory_ms": "Pengeluaran Industri"
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01"
+        },
+        {
+            "name": "overall",
+            "title_en": "IPI (Industrial Production Index)",
+            "title_ms": "IPP (Indeks Pengeluaran Perindustrian)",
+            "description_en": "[Float] Index, with base 2015 = 100",
+            "description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
+        },
+        {
+            "name": "mining",
+            "title_en": "Mining",
+            "title_ms": "Perlombongan",
+            "description_en": "[Float] Index, with base 2015 = 100",
+            "description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
+        },
+        {
+            "name": "mfg",
+            "title_en": "Manufacturing",
+            "title_ms": "Pembuatan",
+            "description_en": "[Float] Index, with base 2015 = 100",
+            "description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
+        },
+        {
+            "name": "electric",
+            "title_en": "Electricity",
+            "title_ms": "Elektrik",
+            "description_en": "[Float] Index, with base 2015 = 100",
+            "description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
+        },
+        {
+            "name": "mfg_food",
+            "title_en": "Manufacturing (Food, Beverages and Tobacco)",
+            "title_ms": "Pembuatan(Makanan, Minuman dan Tembakau)",
+            "description_en": "[Float] Index, with base 2015 = 100",
+            "description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
+        },
+        {
+            "name": "mfg_textiles",
+            "title_en": "Manufacturing (Textiles, Wearing Apparel, Leather Products and Footwear)",
+            "title_ms": "Pembuatan(Produk Tekstil, Pakaian, Kulit dan Kasut)",
+            "description_en": "[Float] Index, with base 2015 = 100",
+            "description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
+        },
+        {
+            "name": "mfg_wood",
+            "title_en": "Manufacturing (Wood Products, Furniture, Paper Products, Printing)",
+            "title_ms": "Pembuatan(Produk Kayu, Perabot, Keluaran Kertas, Percetakan)",
+            "description_en": "[Float] Index, with base 2015 = 100",
+            "description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
+        },
+        {
+            "name": "mfg_petroleum",
+            "title_en": "Manufacturing (Petroleum, Chemical, Rubber and Plastic Products)",
+            "title_ms": "Pembuatan(Produk Petroleum, Kimia, Getah dan Plastik)",
+            "description_en": "[Float] Index, with base 2015 = 100",
+            "description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
+        },
+        {
+            "name": "mfg_metal",
+            "title_en": "Manufacturing (Non-Metallic Mineral Products, Basic Metal and Fabricated Metal Products)",
+            "title_ms": "Pembuatan(Produk Mineral Bukan Logam, Logam Asas dan Produk Logam yang Direka)",
+            "description_en": "[Float] Index, with base 2015 = 100",
+            "description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
+        },
+        {
+            "name": "mfg_electric",
+            "title_en": "Manufacturing (Electrical and Electronics Products)",
+            "title_ms": "Pembuatan(Produk Peralatan Elektrik dan Elektronik)",
+            "description_en": "[Float] Index, with base 2015 = 100",
+            "description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
+        },
+        {
+            "name": "mfg_transport",
+            "title_en": "Manufacturing (Transport Equipment and Other Manufactures)",
+            "title_ms": "Pembuatan(Kelengkapan Pengangkutan dan Pembuatan Lain)",
+            "description_en": "[Float] Index, with base 2015 = 100",
+            "description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
+        },
+        {
+            "name": "overall_sa",
+            "title_en": "IPI (sa)",
+            "title_ms": "IPP (tsm)",
+            "description_en": "[Float] Index, with base 2015 = 100",
+            "description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
+        },
+        {
+            "name": "mining_sa",
+            "title_en": "Mining (sa)",
+            "title_ms": "Perlombongan (tsm)",
+            "description_en": "[Float] Index, with base 2015 = 100",
+            "description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
+        },
+        {
+            "name": "mfg_sa",
+            "title_en": "Manufacturing (sa)",
+            "title_ms": "Pembuatan (tsm)",
+            "description_en": "[Float] Index, with base 2015 = 100",
+            "description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
+        },
+        {
+            "name": "electric_sa",
+            "title_en": "Electricity (sa)",
+            "title_ms": "Elektrik (tsm)",
+            "description_en": "[Float] Index, with base 2015 = 100",
+            "description_ms": "[Apung] Indeks, dengan tahun asas 2015 = 100"
+        }
+    ],
+    "dataviz": [
+        {
+            "id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 1,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "overall": "IPI (Industrial Production Index)",
+        "mining": "Mining",
+        "mfg": "Manufacturing",
+        "electric": "Electricity",
+        "mfg_food": "Manufacturing (Food, Beverages and Tobacco)",
+        "mfg_textiles": "Manufacturing (Textiles, Wearing Apparel, Leather Products and Footwear)",
+        "mfg_wood": "Manufacturing (Wood Products, Furniture, Paper Products, Printing)",
+        "mfg_petroleum": "Manufacturing (Petroleum, Chemical, Rubber and Plastic Products)",
+        "mfg_metal": "Manufacturing (Non-Metallic Mineral Products, Basic Metal and Fabricated Metal Products)",
+        "mfg_electric": "Manufacturing (Electrical and Electronics Products)",
+        "mfg_transport": "Manufacturing (Transport Equipment and Other Manufactures)",
+        "overall_sa": "IPI (sa)",
+        "mining_sa": "Mining (sa)",
+        "mfg_sa": "Manufacturing (sa)",
+        "electric_sa": "Electricity (sa)"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "overall": "IPP (Indeks Pengeluaran Perindustrian)",
+        "mining": "Perlombongan",
+        "mfg": "Pembuatan",
+        "electric": "Elektrik",
+        "mfg_food": "Pembuatan(Makanan, Minuman dan Tembakau)",
+        "mfg_textiles": "Pembuatan(Produk Tekstil, Pakaian, Kulit dan Kasut)",
+        "mfg_wood": "Pembuatan(Produk Kayu, Perabot, Keluaran Kertas, Percetakan)",
+        "mfg_petroleum": "Pembuatan(Produk Petroleum, Kimia, Getah dan Plastik)",
+        "mfg_metal": "Pembuatan(Produk Mineral Bukan Logam, Logam Asas dan Produk Logam yang Direka)",
+        "mfg_electric": "Pembuatan(Produk Peralatan Elektrik dan Elektronik)",
+        "mfg_transport": "Pembuatan(Kelengkapan Pengangkutan dan Pembuatan Lain)",
+        "overall_sa": "IPP (tsm)",
+        "mining_sa": "Perlombongan (tsm)",
+        "mfg_sa": "Pembuatan (tsm)",
+        "electric_sa": "Elektrik (tsm)"
+    },
+    "related_datasets": [
+        {
+            "id": "related_dataset_1",
+            "title_en": "Related Dataset Title in English",
+            "title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
+            "description_en": "Description of the related dataset in English",
+            "description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
+        }
+    ]
 }

@@ -1,152 +1,164 @@
 {
-	"title_en": "Population Table: States",
-	"title_ms": "Jadual Penduduk: Negeri",
-	"description_en": "This dataset tabulates the population of Malaysia at state level, by sex, ethnicity, and 5-year age group, from 2020 to 2023.",
-	"description_ms": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat negeri, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023.",
-	"exclude_openapi": false,
-	"manual_trigger": "",
-	"data_as_of": "2023",
-	"last_updated": "2023-07-31 12:00",
-	"next_update": "2024-07-31 12:00",
-	"methodology_en": "Values for 2020 are based on adjusted data from the 2020 Population and Housing Census of Malaysia. Values for 2021-23 are intercensal mid-year population estimates.",
-	"methodology_ms": "Angka bagi 2020 adalah berdasarkan data dari Banci Penduduk dan Perumahan Malaysia 2020. Angka bagi 2021-23 adalah anggaran pertengah tahun anggaran antara banci.",
-	"caveat_en": "Values for breakdowns may not sum to totals due to rounding to one decimal place. However, the differences are not obvious.",
-	"caveat_ms": "Angka-angka tidak semestinya terjumlah disebabkan oleh penggenapan kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
-	"publication_en": "OpenDOSM features a [dashboard on the population of Malaysia](https://open.dosm.gov.my/dashboard/population).",
-	"publication_ms": "OpenDOSM sendiri memaparkan [papan pemuka khas tentang populasi](https://open.dosm.gov.my/dashboard/population).",
-	"link_parquet": "https://storage.dosm.gov.my/population/population_state.parquet",
-	"link_csv": "https://storage.dosm.gov.my/population/population_state.csv",
-	"link_preview": "https://storage.dosm.gov.my/population/population_state.parquet",
-	"frequency": "YEARLY",
-	"geography": ["STATE"],
-	"demography": ["SEX", "ETHNICITY", "AGE"],
-	"dataset_begin": "2020",
-	"dataset_end": "2023",
-	"data_source": ["DOSM"],
-	"site_category": [
-		{
-			"site": "datagovmy",
-			"category_en": "Demography",
-			"category_ms": "Demografi",
-			"subcategory_en": "Population",
-			"subcategory_ms": "Penduduk"
-		},
-		{
-			"site": "opendosm",
-			"category_en": "Demography",
-			"category_ms": "Demografi",
-			"subcategory_en": "Population",
-			"subcategory_ms": "Penduduk"
-		}
-	],
-	"fields": [
-		{
-			"name": "date",
-			"title_en": "Date",
-			"title_ms": "Tarikh",
-			"description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as this is annual data",
-			"description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01 kerana ini adalah data tahunan"
-		},
-		{
-			"name": "state",
-			"title_en": "State",
-			"title_ms": "Negeri",
-			"description_en": "[Categorical] One of 16 states",
-			"description_ms": "[Kategoril] Satu daripada 16 negeri"
-		},
-		{
-			"name": "ethnicity",
-			"title_en": "Ethnicity",
-			"title_ms": "Etnik",
-			"description_en": "[Categorical] One of six mutually exclusive ethnic groups, or the overall population",
-			"description_ms": "[Kategori] Satu daripada enam kumpulan etnik saling eksklusif, ataupun penduduk keseluruhan"
-		},
-		{
-			"name": "age",
-			"title_en": "Age Group",
-			"title_ms": "Kumpulan Umur",
-			"description_en": "[Categorical] Five-year age groups e.g. 0-4, 5-9, 10-14, etc. 85+ is the oldest category.",
-			"description_ms": "[Kategori] Kumpulan umur dengan julat 5 tahun, contohnya 0-4, 5-9, 10-14, dsb. 85+ adalah kumpulan yang tertua."
-		},
-		{
-			"name": "female",
-			"title_en": "Female",
-			"title_ms": "Perempuan",
-			"description_en": "[Float] Thousands of females ('000 people)",
-			"description_ms": "[Apung] Ribuan perempuan ('000 orang)"
-		},
-		{
-			"name": "male",
-			"title_en": "Male",
-			"title_ms": "Lelaki",
-			"description_en": "[Float] Thousands of males ('000 people)",
-			"description_ms": "[Apung] Ribuan lelaki ('000 orang)"
-		}
-	],
-	"dataviz": [
-		{
-			"id": "table",
-			"title_en": "Table",
-			"title_ms": "Jadual",
-			"chart_type": "TABLE",
-			"precision": 1,
-			"filter_columns": ["state"],
-			"freeze_columns": []
-		}
-	],
-	"translations_en": {
-		"date": "Date",
-		"state": "State",
-		"district": "District",
-		"sex": "Sex",
-		"ethnicity": "Ethnicity",
-		"age": "Age",
-		"population": "Population ('000)",
-		"overall_ethnicity": "All ethnicities",
-		"bumi_malay": "Malay",
-		"chinese": "Chinese",
-		"indian": "Indian",
-		"bumi_other": "Other Bumiputera",
-		"other_citizen": "Other (citizen)",
-		"other_noncitizen": "Other (non-citizen)",
-		"overall_sex": "Both sexes",
-		"male": "Male",
-		"female": "Female",
-		"overall_age": "All ages",
-		"x": "Age",
-		"y1": "Male",
-		"y2": "Female"
-	},
-	"translations_ms": {
-		"date": "Tarikh",
-		"state": "Negeri",
-		"district": "Daerah",
-		"sex": "Jantina",
-		"ethnicity": "Etnik",
-		"age": "Umur",
-		"population": "Penduduk ('000)",
-		"overall_ethnicity": "Semua etnik",
-		"bumi_malay": "Melayu",
-		"chinese": "Cina",
-		"indian": "India",
-		"bumi_other": "Bumiputera lain",
-		"other_citizen": "Lain-lain (warganegara)",
-		"other_noncitizen": "Lain-lain (bukan warganegara)",
-		"overall_sex": "Kedua-dua jantina",
-		"male": "Lelaki",
-		"female": "Perempuan",
-		"overall_age": "Semua umur",
-		"x": "Negeri",
-		"y1": "Lelaki",
-		"y2": "Perempuan"
-	},
-	"related_datasets": [
-		{
-			"id": "related_dataset_1",
-			"title_en": "Related Dataset Title in English",
-			"title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
-			"description_en": "Description of the related dataset in English",
-			"description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
-		}
-	]
+    "title_en": "Population Table: States",
+    "title_ms": "Jadual Penduduk: Negeri",
+    "description_en": "This dataset tabulates the population of Malaysia at state level, by sex, ethnicity, and 5-year age group, from 2020 to 2023.",
+    "description_ms": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat negeri, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2023",
+    "last_updated": "2023-07-31 12:00",
+    "next_update": "2024-07-31 12:00",
+    "methodology_en": "Values for 2020 are based on adjusted data from the 2020 Population and Housing Census of Malaysia. Values for 2021-23 are intercensal mid-year population estimates.",
+    "methodology_ms": "Angka bagi 2020 adalah berdasarkan data dari Banci Penduduk dan Perumahan Malaysia 2020. Angka bagi 2021-23 adalah anggaran pertengah tahun anggaran antara banci.",
+    "caveat_en": "Values for breakdowns may not sum to totals due to rounding to one decimal place. However, the differences are not obvious.",
+    "caveat_ms": "Angka-angka tidak semestinya terjumlah disebabkan oleh penggenapan kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
+    "publication_en": "OpenDOSM features a [dashboard on the population of Malaysia](https://open.dosm.gov.my/dashboard/population).",
+    "publication_ms": "OpenDOSM sendiri memaparkan [papan pemuka khas tentang populasi](https://open.dosm.gov.my/dashboard/population).",
+    "link_parquet": "https://storage.dosm.gov.my/population/population_state.parquet",
+    "link_csv": "https://storage.dosm.gov.my/population/population_state.csv",
+    "link_preview": "https://storage.dosm.gov.my/population/population_state.parquet",
+    "frequency": "YEARLY",
+    "geography": [
+        "STATE"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY",
+        "AGE"
+    ],
+    "dataset_begin": "2020",
+    "dataset_end": "2023",
+    "data_source": [
+        "DOSM"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Demography",
+            "category_ms": "Demografi",
+            "subcategory_en": "Population",
+            "subcategory_ms": "Penduduk"
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Demography",
+            "category_ms": "Demografi",
+            "subcategory_en": "Population",
+            "subcategory_ms": "Penduduk"
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as this is annual data",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01 kerana ini adalah data tahunan"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states",
+            "description_ms": "[Kategoril] Satu daripada 16 negeri"
+        },
+        {
+            "name": "ethnicity",
+            "title_en": "Ethnicity",
+            "title_ms": "Etnik",
+            "description_en": "[Categorical] One of six mutually exclusive ethnic groups, or the overall population",
+            "description_ms": "[Kategori] Satu daripada enam kumpulan etnik saling eksklusif, ataupun penduduk keseluruhan"
+        },
+        {
+            "name": "age",
+            "title_en": "Age Group",
+            "title_ms": "Kumpulan Umur",
+            "description_en": "[Categorical] Five-year age groups e.g. 0-4, 5-9, 10-14, etc. 85+ is the oldest category.",
+            "description_ms": "[Kategori] Kumpulan umur dengan julat 5 tahun, contohnya 0-4, 5-9, 10-14, dsb. 85+ adalah kumpulan yang tertua."
+        },
+        {
+            "name": "female",
+            "title_en": "Female",
+            "title_ms": "Perempuan",
+            "description_en": "[Float] Thousands of females ('000 people)",
+            "description_ms": "[Apung] Ribuan perempuan ('000 orang)"
+        },
+        {
+            "name": "male",
+            "title_en": "Male",
+            "title_ms": "Lelaki",
+            "description_en": "[Float] Thousands of males ('000 people)",
+            "description_ms": "[Apung] Ribuan lelaki ('000 orang)"
+        }
+    ],
+    "dataviz": [
+        {
+            "id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 1,
+                "filter_columns": [
+                    "state"
+                ],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "state": "State",
+        "district": "District",
+        "sex": "Sex",
+        "ethnicity": "Ethnicity",
+        "age": "Age",
+        "population": "Population ('000)",
+        "overall_ethnicity": "All ethnicities",
+        "bumi_malay": "Malay",
+        "chinese": "Chinese",
+        "indian": "Indian",
+        "bumi_other": "Other Bumiputera",
+        "other_citizen": "Other (citizen)",
+        "other_noncitizen": "Other (non-citizen)",
+        "overall_sex": "Both sexes",
+        "male": "Male",
+        "female": "Female",
+        "overall_age": "All ages",
+        "x": "Age",
+        "y1": "Male",
+        "y2": "Female"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "state": "Negeri",
+        "district": "Daerah",
+        "sex": "Jantina",
+        "ethnicity": "Etnik",
+        "age": "Umur",
+        "population": "Penduduk ('000)",
+        "overall_ethnicity": "Semua etnik",
+        "bumi_malay": "Melayu",
+        "chinese": "Cina",
+        "indian": "India",
+        "bumi_other": "Bumiputera lain",
+        "other_citizen": "Lain-lain (warganegara)",
+        "other_noncitizen": "Lain-lain (bukan warganegara)",
+        "overall_sex": "Kedua-dua jantina",
+        "male": "Lelaki",
+        "female": "Perempuan",
+        "overall_age": "Semua umur",
+        "x": "Negeri",
+        "y1": "Lelaki",
+        "y2": "Perempuan"
+    },
+    "related_datasets": [
+        {
+            "id": "related_dataset_1",
+            "title_en": "Related Dataset Title in English",
+            "title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
+            "description_en": "Description of the related dataset in English",
+            "description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
+        }
+    ]
 }

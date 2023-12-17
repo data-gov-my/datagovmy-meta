@@ -1,122 +1,128 @@
 {
-	"title_en": "Malaysian Economic Indicators",
-	"title_ms": "Indikator Ekonomi Malaysia",
-	"description_en": "Indices for the purpose of monitoring Malaysia's economic situation on a monthly basis, consisting of leading, lagging, and coincidence indicators.",
-	"description_ms": "Indeks bagi tujuan memantau kedudukan ekonomi semasa Malaysia. Ia terdiri daripada indeks pelopor, serentak dan susulan.",
-	"exclude_openapi": false,
-	"manual_trigger": "na",
-	"data_as_of": "2023-06-30 23:59",
-	"last_updated": "2023-08-25 12:00",
-	"next_update": "2023-09-25 12:00",
-	"methodology_en": "Data for the compilation of Composite and Diffusion Indexes is obtained from the Department of Statistics Malaysia and the following agencies: (i) Ministry of Housing and Local Government (MHLG); (ii) Bank Negara Malaysia (BNM); (iii) Road Transport Department (RTD); (iv) Malaysian Investment Development Authority (MIDA); and (v) Employees Provident Fund (EPF).",
-	"methodology_ms": "Data bagi penyediaan Indeks Komposit dan Indeks Difusi diperoleh daripada Jabatan Perangkaan Malaysia serta agensi berikut: (i) Kementerian Perumahan dan Kerajaan Tempatan (KPKT); (ii) Bank Negara Malaysia (BNM); (iii) Jabatan Pengangkutan Jalan (JPJ); (iv) Lembaga Pembangunan Pelaburan Malaysia (MIDA); dan (v) Kumpulan Wang Simpanan Pekerja (KWSP).",
-	"caveat_en": "The economic indicators are unable to take into account internal or/and external shocks to the economy.",
-	"caveat_ms": "Sistem penunjuk ekonomi tidak berupaya untuk mengambil kira kejutan pengaruh dalaman atau/dan luaran kepada ekonomi.",
-	"publication_en": "[Malaysian Economic Indicators, June 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-06_mei.pdf), the latest edition of the leading, coincident, and lagging composite indices published monthly by DOSM. OpenDOSM also features a [dashboard on these composite indices](https://open.dosm.gov.my/composite-indices).",
-	"publication_ms": "[Penunjuk Ekonomi Malaysia, June 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-06_mei.pdf), edisi terkini bagi indeks komposit pelopor, serentak, dan susulan yang diterbitkan secara bulanan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang indeks komposit](https://open.dosm.gov.my/composite-indices).",
-	"link_parquet": "https://storage.dosm.gov.my/econindicators/economic_indicators.parquet",
-	"link_csv": "https://storage.dosm.gov.my/econindicators/economic_indicators.csv",
-	"link_preview": "https://storage.dosm.gov.my/econindicators/economic_indicators.parquet",
-	"frequency": "MONTHLY",
-	"geography": ["NATIONAL"],
-	"demography": [],
-	"dataset_begin": "1991",
-	"dataset_end": "2023",
-	"data_source": ["DOSM"],
-	"site_category": [
-		{
-			"site": "datagovmy",
-			"category_en": "Statistical Indicators",
-			"category_ms": "Indikator Statistik",
-			"subcategory_en": "Economic Indicators",
-			"subcategory_ms": "Penunjuk Ekonomi"
-		},
-		{
-			"site": "opendosm",
-			"category_en": "Statistical Indicators",
-			"category_ms": "Indikator Statistik",
-			"subcategory_en": "Economic Indicators",
-			"subcategory_ms": "Penunjuk Ekonomi"
-		}
-	],
-	"fields": [
-		{
-			"name": "date",
-			"title_en": "Date",
-			"title_ms": "Tarikh",
-			"description_en": "[Date] The date in YYYY-MM-DD format",
-			"description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
-		},
-		{
-			"name": "leading",
-			"title_en": "Leading Index",
-			"title_ms": "Indeks Pelopor",
-			"description_en": "[Float] The Leading Index measures anticipations of the overall economic activity in the months ahead. The index tells us where the economy is going.",
-			"description_ms": "[Apung] Indeks Pelopor merupakan ukuran jangkaan keseluruhan aktiviti ekonomi untuk masa hadapan. Indeks ini memberitahu kita ke mana arah tuju ekonomi."
-		},
-		{
-			"name": "coincident",
-			"title_en": "Coincident Index",
-			"title_ms": "Indeks Serentak",
-			"description_en": "[Float] The Coincident Index is a comprehensive measure of the overall current economic performance.",
-			"description_ms": "[Apung] Indeks Serentak merupakan ukuran komprehensif terhadap prestasi keseluruhan ekonomi semasa."
-		},
-		{
-			"name": "lagging",
-			"title_en": "Lagging Index",
-			"title_ms": "Indeks Susulan",
-			"description_en": "[Float] The Lagging Index is to validate the signal of the Leading and Coincident Indexes",
-			"description_ms": "[Apung] Indeks Susulan berfungsi sebagai pengesah kepada isyarat Indeks Pelopor dan Indeks Serentak."
-		},
-		{
-			"name": "leading_diffusion",
-			"title_en": "Leading Index (Diffusion)",
-			"title_ms": "Indeks Pelopor (Difusi)",
-			"description_en": "[Float] The Diffusion Index is a complement to the Composite Index. It is used to assist in making a decision especially in determining turning point of economic cycle. The value of 100 for Diffusion Index implies that all components are increasing and the value of zero shows that all components are decreasing.",
-			"description_ms": "[Apung] Indeks Difusi adalah pelengkap kepada Indeks Komposit. Ia digunakan untuk membantu membuat keputusan terutamanya dalam penentuan titik pusing kitaran ekonomi. Nilai 100 bagi Indeks Difusi menunjukkan semua komponen meningkat dan nilai sifar bermaksud semua komponen mengalami penurunan."
-		},
-		{
-			"name": "coincident_diffusion",
-			"title_en": "Coincident Index (Diffusion)",
-			"title_ms": "Indeks Serentak (Difusi)",
-			"description_en": "[Float] The Diffusion Index is a complement to the Composite Index. It is used to assist in making a decision especially in determining turning point of economic cycle. The value of 100 for Diffusion Index implies that all components are increasing and the value of zero shows that all components are decreasing",
-			"description_ms": "[Apung] Indeks Difusi adalah pelengkap kepada Indeks Komposit. Ia digunakan untuk membantu membuat keputusan terutamanya dalam penentuan titik pusing kitaran ekonomi. Nilai 100 bagi Indeks Difusi menunjukkan semua komponen meningkat dan nilai sifar bermaksud semua komponen mengalami penurunan."
-		}
-	],
-	"dataviz": [
-		{
-			"id": "table",
-			"title_en": "Table",
-			"title_ms": "Jadual",
-			"chart_type": "TABLE",
-			"precision": 1,
-			"filter_columns": [],
-			"freeze_columns": []
-		}
-	],
-	"translations_en": {
-		"date": "Date",
-		"leading": "Leading Index",
-		"coincident": "Coincident Index",
-		"lagging": "Lagging Index",
-		"leading_diffusion": "Leading Index (Diffusion)",
-		"coincident_diffusion": "Coincident Index (Diffusion)"
-	},
-	"translations_ms": {
-		"date": "Tarikh",
-		"leading": "Indeks Pelopor",
-		"coincident": "Indeks Serentak",
-		"lagging": "Indeks Susulan",
-		"leading_diffusion": "Indeks Pelopor (Difusi)",
-		"coincident_diffusion": "Indeks Serentak (Difusi)"
-	},
-	"related_datasets": [
-		{
-			"id": "related_dataset_1",
-			"title_en": "Related Dataset Title in English",
-			"title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
-			"description_en": "Description of the related dataset in English",
-			"description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
-		}
-	]
+    "title_en": "Malaysian Economic Indicators",
+    "title_ms": "Indikator Ekonomi Malaysia",
+    "description_en": "Indices for the purpose of monitoring Malaysia's economic situation on a monthly basis, consisting of leading, lagging, and coincidence indicators.",
+    "description_ms": "Indeks bagi tujuan memantau kedudukan ekonomi semasa Malaysia. Ia terdiri daripada indeks pelopor, serentak dan susulan.",
+    "exclude_openapi": false,
+    "manual_trigger": "na",
+    "data_as_of": "2023-06-30 23:59",
+    "last_updated": "2023-08-25 12:00",
+    "next_update": "2023-09-25 12:00",
+    "methodology_en": "Data for the compilation of Composite and Diffusion Indexes is obtained from the Department of Statistics Malaysia and the following agencies: (i) Ministry of Housing and Local Government (MHLG); (ii) Bank Negara Malaysia (BNM); (iii) Road Transport Department (RTD); (iv) Malaysian Investment Development Authority (MIDA); and (v) Employees Provident Fund (EPF).",
+    "methodology_ms": "Data bagi penyediaan Indeks Komposit dan Indeks Difusi diperoleh daripada Jabatan Perangkaan Malaysia serta agensi berikut: (i) Kementerian Perumahan dan Kerajaan Tempatan (KPKT); (ii) Bank Negara Malaysia (BNM); (iii) Jabatan Pengangkutan Jalan (JPJ); (iv) Lembaga Pembangunan Pelaburan Malaysia (MIDA); dan (v) Kumpulan Wang Simpanan Pekerja (KWSP).",
+    "caveat_en": "The economic indicators are unable to take into account internal or/and external shocks to the economy.",
+    "caveat_ms": "Sistem penunjuk ekonomi tidak berupaya untuk mengambil kira kejutan pengaruh dalaman atau/dan luaran kepada ekonomi.",
+    "publication_en": "[Malaysian Economic Indicators, June 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-06_mei.pdf), the latest edition of the leading, coincident, and lagging composite indices published monthly by DOSM. OpenDOSM also features a [dashboard on these composite indices](https://open.dosm.gov.my/composite-indices).",
+    "publication_ms": "[Penunjuk Ekonomi Malaysia, June 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-06_mei.pdf), edisi terkini bagi indeks komposit pelopor, serentak, dan susulan yang diterbitkan secara bulanan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang indeks komposit](https://open.dosm.gov.my/composite-indices).",
+    "link_parquet": "https://storage.dosm.gov.my/econindicators/economic_indicators.parquet",
+    "link_csv": "https://storage.dosm.gov.my/econindicators/economic_indicators.csv",
+    "link_preview": "https://storage.dosm.gov.my/econindicators/economic_indicators.parquet",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": "1991",
+    "dataset_end": "2023",
+    "data_source": [
+        "DOSM"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "subcategory_en": "Economic Indicators",
+            "subcategory_ms": "Penunjuk Ekonomi"
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "subcategory_en": "Economic Indicators",
+            "subcategory_ms": "Penunjuk Ekonomi"
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+        },
+        {
+            "name": "leading",
+            "title_en": "Leading Index",
+            "title_ms": "Indeks Pelopor",
+            "description_en": "[Float] The Leading Index measures anticipations of the overall economic activity in the months ahead. The index tells us where the economy is going.",
+            "description_ms": "[Apung] Indeks Pelopor merupakan ukuran jangkaan keseluruhan aktiviti ekonomi untuk masa hadapan. Indeks ini memberitahu kita ke mana arah tuju ekonomi."
+        },
+        {
+            "name": "coincident",
+            "title_en": "Coincident Index",
+            "title_ms": "Indeks Serentak",
+            "description_en": "[Float] The Coincident Index is a comprehensive measure of the overall current economic performance.",
+            "description_ms": "[Apung] Indeks Serentak merupakan ukuran komprehensif terhadap prestasi keseluruhan ekonomi semasa."
+        },
+        {
+            "name": "lagging",
+            "title_en": "Lagging Index",
+            "title_ms": "Indeks Susulan",
+            "description_en": "[Float] The Lagging Index is to validate the signal of the Leading and Coincident Indexes",
+            "description_ms": "[Apung] Indeks Susulan berfungsi sebagai pengesah kepada isyarat Indeks Pelopor dan Indeks Serentak."
+        },
+        {
+            "name": "leading_diffusion",
+            "title_en": "Leading Index (Diffusion)",
+            "title_ms": "Indeks Pelopor (Difusi)",
+            "description_en": "[Float] The Diffusion Index is a complement to the Composite Index. It is used to assist in making a decision especially in determining turning point of economic cycle. The value of 100 for Diffusion Index implies that all components are increasing and the value of zero shows that all components are decreasing.",
+            "description_ms": "[Apung] Indeks Difusi adalah pelengkap kepada Indeks Komposit. Ia digunakan untuk membantu membuat keputusan terutamanya dalam penentuan titik pusing kitaran ekonomi. Nilai 100 bagi Indeks Difusi menunjukkan semua komponen meningkat dan nilai sifar bermaksud semua komponen mengalami penurunan."
+        },
+        {
+            "name": "coincident_diffusion",
+            "title_en": "Coincident Index (Diffusion)",
+            "title_ms": "Indeks Serentak (Difusi)",
+            "description_en": "[Float] The Diffusion Index is a complement to the Composite Index. It is used to assist in making a decision especially in determining turning point of economic cycle. The value of 100 for Diffusion Index implies that all components are increasing and the value of zero shows that all components are decreasing",
+            "description_ms": "[Apung] Indeks Difusi adalah pelengkap kepada Indeks Komposit. Ia digunakan untuk membantu membuat keputusan terutamanya dalam penentuan titik pusing kitaran ekonomi. Nilai 100 bagi Indeks Difusi menunjukkan semua komponen meningkat dan nilai sifar bermaksud semua komponen mengalami penurunan."
+        }
+    ],
+    "dataviz": [
+        {
+            "id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 1,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "leading": "Leading Index",
+        "coincident": "Coincident Index",
+        "lagging": "Lagging Index",
+        "leading_diffusion": "Leading Index (Diffusion)",
+        "coincident_diffusion": "Coincident Index (Diffusion)"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "leading": "Indeks Pelopor",
+        "coincident": "Indeks Serentak",
+        "lagging": "Indeks Susulan",
+        "leading_diffusion": "Indeks Pelopor (Difusi)",
+        "coincident_diffusion": "Indeks Serentak (Difusi)"
+    },
+    "related_datasets": [
+        {
+            "id": "related_dataset_1",
+            "title_en": "Related Dataset Title in English",
+            "title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
+            "description_en": "Description of the related dataset in English",
+            "description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
+        }
+    ]
 }

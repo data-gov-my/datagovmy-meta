@@ -1,185 +1,191 @@
 {
-	"title_en": "Index of Wholesale & Retail Trade",
-	"title_ms": "Indeks Perdagangan Borong & Runcit",
-	"description_en": "Performance of the wholesale & retail trade, including the motor vehicles subsector.",
-	"description_ms": "Prestasi perdagangan borong & runcit, termasuk subsektor kenderaan bermotor.",
-	"exclude_openapi": false,
-	"manual_trigger": "na",
-	"data_as_of": "2023-06-30 23:59",
-	"last_updated": "2023-08-09 12:00",
-	"next_update": "2023-09-11 12:00",
-	"methodology_en": "The data covers all establishments engaged in Wholesale & Retail Trade activities in Malaysia, including the trade of Motor Vehicles. The data reported is based on the Profit and Loss Account / Financial Statement and other supporting documents for the reference year. In cases where the account is not finalized or not available, the data is based on the best estimates.",
-	"methodology_ms": "Data ini meliputi semua pertubuhan yang terlibat dalam aktiviti Perdagangan Borong & Runcit Malaysia, termasuk Kenderaan Bermotor. Data yang dilaporkan berdasarkan penyata Untung Rugi/ Kewangan dan dokumen sokongan lain untuk tahun rujukan. Dalam keadaan di mana akaun itu tidak selesai atau tidak tersedia, data adalah berdasarkan anggaran terbaik.",
-	"caveat_en": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
-	"caveat_ms": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisis.",
-	"publication_en": "[Wholesale & Retail Trade, June 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-06_iowrt.pdf), the latest edition of the monthly wholesale and retail trade statistics published by DOSM. OpenDOSM also features a [dashboard on wholesale and retail trade](https://open.dosm.gov.my/wholesale-retail-trade).",
-	"publication_ms": "[Perdagangan Borong dan Runcit, Jun 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-06_iowrt.pdf), edisi terkini bagi statistik perdagangan borong dan runcit yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan borong dan runcit](https://open.dosm.gov.my/wholesale-retail-trade).",
-	"link_parquet": "https://storage.dosm.gov.my/iowrt/iowrt.parquet",
-	"link_csv": "https://storage.dosm.gov.my/iowrt/iowrt.csv",
-	"link_preview": "https://storage.dosm.gov.my/iowrt/iowrt.parquet",
-	"frequency": "MONTHLY",
-	"geography": ["NATIONAL"],
-	"demography": [],
-	"dataset_begin": "2018",
-	"dataset_end": "2023",
-	"data_source": ["DOSM"],
-	"site_category": [
-		{
-			"site": "datagovmy",
-			"category_en": "Sectoral Statistics",
-			"category_ms": "Sektor Ekonomi",
-			"subcategory_en": "Services",
-			"subcategory_ms": "Perkhidmatan"
-		},
-		{
-			"site": "opendosm",
-			"category_en": "Sectoral Statistics",
-			"category_ms": "Sektor Ekonomi",
-			"subcategory_en": "Services",
-			"subcategory_ms": "Perkhidmatan"
-		}
-	],
-	"fields": [
-		{
-			"name": "date",
-			"title_en": "Date",
-			"title_ms": "Tarikh",
-			"description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01",
-			"description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01"
-		},
-		{
-			"name": "overall_sales",
-			"title_en": "Sales Value",
-			"title_ms": "Nilai Jualan Keseluruhan",
-			"description_en": "[Integer] Amount in RM",
-			"description_ms": "[Integer] Jumlah dalam RM"
-		},
-		{
-			"name": "wholesale_sales",
-			"title_en": "Sales Value of Wholesale Trade",
-			"title_ms": "Nilai Jualan Perdagangan Borong",
-			"description_en": "[Integer] Amount in RM",
-			"description_ms": "[Integer] Jumlah dalam RM"
-		},
-		{
-			"name": "retail_sales",
-			"title_en": "Sales Value of Retail Trade",
-			"title_ms": "Nilai Jualan Perdagangan Borong",
-			"description_en": "[Integer] Amount in RM",
-			"description_ms": "[Integer] Jumlah dalam RM"
-		},
-		{
-			"name": "motor_sales",
-			"title_en": "Sales Value of Motor Vehicles",
-			"title_ms": "Nilai Jualan Kendaraan Bermotor",
-			"description_en": "[Integer] Amount in RM",
-			"description_ms": "[Integer] Jumlah dalam RM"
-		},
-		{
-			"name": "overall_index",
-			"title_en": "Volume Index",
-			"title_ms": "Indeks Volum Keseluruhan",
-			"description_en": "[Float] Index with base 2010 = 100",
-			"description_ms": "[Apung] Indeks dengan tahun asas 2010 = 100"
-		},
-		{
-			"name": "wholesale_index",
-			"title_en": "Volume Index of Wholesale Trade",
-			"title_ms": "Indeks Volum Perdagangan Borong",
-			"description_en": "[Float] Index with base 2010 = 100",
-			"description_ms": "[Apung] Indeks dengan tahun asas 2010 = 100"
-		},
-		{
-			"name": "retail_index",
-			"title_en": "Volume Index of Retail Trade",
-			"title_ms": "Indeks Volum Perdagangan Runcit",
-			"description_en": "[Float] Index with base 2010 = 100",
-			"description_ms": "[Apung] Indeks dengan tahun asas 2010 = 100"
-		},
-		{
-			"name": "motor_index",
-			"title_en": "Volume Index of Motor Vehicles",
-			"title_ms": "Indeks Volum Kendaraan Bermotor",
-			"description_en": "[Float] Index with base 2010 = 100",
-			"description_ms": "[Apung] Indeks dengan tahun asas 2010 = 100"
-		},
-		{
-			"name": "overall_index_sa",
-			"title_en": "Volume Index (sa)",
-			"title_ms": "Indeks Volum Keseluruhan (tsm)",
-			"description_en": "[Float] Index with base 2010 = 100",
-			"description_ms": "[Apung] Indeks dengan tahun asas 2010 = 100"
-		},
-		{
-			"name": "wholesale_index_sa",
-			"title_en": "Volume Index of Wholesale Trade (sa)",
-			"title_ms": "Indeks Volum Perdagangan Borong (tsm)",
-			"description_en": "[Float] Index with base 2010 = 100",
-			"description_ms": "[Apung] Indeks dengan tahun asas 2010 = 100"
-		},
-		{
-			"name": "retail_index_sa",
-			"title_en": "Volume Index of Retail Trade (sa)",
-			"title_ms": "Indeks Volum Perdagangan Runcit (tsm)",
-			"description_en": "[Float] Index with base 2010 = 100",
-			"description_ms": "[Apung] Indeks dengan tahun asas 2010 = 100"
-		},
-		{
-			"name": "motor_index_sa",
-			"title_en": "Volume Index of Motor Vehicles (sa)",
-			"title_ms": "Indeks Volum Kendaraan Bermotor (tsm)",
-			"description_en": "[Float] Index with base 2010 = 100",
-			"description_ms": "[Apung] Indeks dengan tahun asas 2010 = 100"
-		}
-	],
-	"dataviz": [
-		{
-			"id": "table",
-			"title_en": "Table",
-			"title_ms": "Jadual",
-			"chart_type": "TABLE",
-			"precision": 1,
-			"filter_columns": [],
-			"freeze_columns": []
-		}
-	],
-	"translations_en": {
-		"date": "Date",
-		"overall_sales": "Sales Value",
-		"wholesale_sales": "Sales Value of Wholesale Trade",
-		"retail_sales": "Sales Value of Retail Trade",
-		"motor_sales": "Sales Value of Motor Vehicles",
-		"overall_index": "Volume Index",
-		"wholesale_index": "Volume Index of Wholesale Trade",
-		"retail_index": "Volume Index of Retail Trade",
-		"motor_index": "Volume Index of Motor Vehicles",
-		"overall_index_sa": "Volume Index (sa)",
-		"wholesale_index_sa": "Volume Index of Wholesale Trade (sa)",
-		"retail_index_sa": "Volume Index of Retail Trade (sa)",
-		"motor_index_sa": "Volume Index of Motor Vehicles (sa)"
-	},
-	"translations_ms": {
-		"date": "Tarikh",
-		"overall_sales": "Nilai Jualan Keseluruhan",
-		"wholesale_sales": "Nilai Jualan Perdagangan Borong",
-		"retail_sales": "Nilai Jualan Perdagangan Borong",
-		"motor_sales": "Nilai Jualan Kendaraan Bermotor",
-		"overall_index": "Indeks Volum Keseluruhan",
-		"wholesale_index": "Indeks Volum Perdagangan Borong",
-		"retail_index": "Indeks Volum Perdagangan Runcit",
-		"motor_index": "Indeks Volum Kendaraan Bermotor",
-		"overall_index_sa": "Indeks Volum Keseluruhan (tsm)",
-		"wholesale_index_sa": "Indeks Volum Perdagangan Borong (tsm)",
-		"retail_index_sa": "Indeks Volum Perdagangan Runcit (tsm)",
-		"motor_index_sa": "Indeks Volum Kendaraan Bermotor (tsm)"
-	},
-	"related_datasets": [
-		{
-			"id": "related_dataset_1",
-			"title_en": "Related Dataset Title in English",
-			"title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
-			"description_en": "Description of the related dataset in English",
-			"description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
-		}
-	]
+    "title_en": "Index of Wholesale & Retail Trade",
+    "title_ms": "Indeks Perdagangan Borong & Runcit",
+    "description_en": "Performance of the wholesale & retail trade, including the motor vehicles subsector.",
+    "description_ms": "Prestasi perdagangan borong & runcit, termasuk subsektor kenderaan bermotor.",
+    "exclude_openapi": false,
+    "manual_trigger": "na",
+    "data_as_of": "2023-06-30 23:59",
+    "last_updated": "2023-08-09 12:00",
+    "next_update": "2023-09-11 12:00",
+    "methodology_en": "The data covers all establishments engaged in Wholesale & Retail Trade activities in Malaysia, including the trade of Motor Vehicles. The data reported is based on the Profit and Loss Account / Financial Statement and other supporting documents for the reference year. In cases where the account is not finalized or not available, the data is based on the best estimates.",
+    "methodology_ms": "Data ini meliputi semua pertubuhan yang terlibat dalam aktiviti Perdagangan Borong & Runcit Malaysia, termasuk Kenderaan Bermotor. Data yang dilaporkan berdasarkan penyata Untung Rugi/ Kewangan dan dokumen sokongan lain untuk tahun rujukan. Dalam keadaan di mana akaun itu tidak selesai atau tidak tersedia, data adalah berdasarkan anggaran terbaik.",
+    "caveat_en": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
+    "caveat_ms": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisis.",
+    "publication_en": "[Wholesale & Retail Trade, June 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-06_iowrt.pdf), the latest edition of the monthly wholesale and retail trade statistics published by DOSM. OpenDOSM also features a [dashboard on wholesale and retail trade](https://open.dosm.gov.my/wholesale-retail-trade).",
+    "publication_ms": "[Perdagangan Borong dan Runcit, Jun 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-06_iowrt.pdf), edisi terkini bagi statistik perdagangan borong dan runcit yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan borong dan runcit](https://open.dosm.gov.my/wholesale-retail-trade).",
+    "link_parquet": "https://storage.dosm.gov.my/iowrt/iowrt.parquet",
+    "link_csv": "https://storage.dosm.gov.my/iowrt/iowrt.csv",
+    "link_preview": "https://storage.dosm.gov.my/iowrt/iowrt.parquet",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": "2018",
+    "dataset_end": "2023",
+    "data_source": [
+        "DOSM"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Sectoral Statistics",
+            "category_ms": "Sektor Ekonomi",
+            "subcategory_en": "Services",
+            "subcategory_ms": "Perkhidmatan"
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Sectoral Statistics",
+            "category_ms": "Sektor Ekonomi",
+            "subcategory_en": "Services",
+            "subcategory_ms": "Perkhidmatan"
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01"
+        },
+        {
+            "name": "overall_sales",
+            "title_en": "Sales Value",
+            "title_ms": "Nilai Jualan Keseluruhan",
+            "description_en": "[Integer] Amount in RM",
+            "description_ms": "[Integer] Jumlah dalam RM"
+        },
+        {
+            "name": "wholesale_sales",
+            "title_en": "Sales Value of Wholesale Trade",
+            "title_ms": "Nilai Jualan Perdagangan Borong",
+            "description_en": "[Integer] Amount in RM",
+            "description_ms": "[Integer] Jumlah dalam RM"
+        },
+        {
+            "name": "retail_sales",
+            "title_en": "Sales Value of Retail Trade",
+            "title_ms": "Nilai Jualan Perdagangan Borong",
+            "description_en": "[Integer] Amount in RM",
+            "description_ms": "[Integer] Jumlah dalam RM"
+        },
+        {
+            "name": "motor_sales",
+            "title_en": "Sales Value of Motor Vehicles",
+            "title_ms": "Nilai Jualan Kendaraan Bermotor",
+            "description_en": "[Integer] Amount in RM",
+            "description_ms": "[Integer] Jumlah dalam RM"
+        },
+        {
+            "name": "overall_index",
+            "title_en": "Volume Index",
+            "title_ms": "Indeks Volum Keseluruhan",
+            "description_en": "[Float] Index with base 2010 = 100",
+            "description_ms": "[Apung] Indeks dengan tahun asas 2010 = 100"
+        },
+        {
+            "name": "wholesale_index",
+            "title_en": "Volume Index of Wholesale Trade",
+            "title_ms": "Indeks Volum Perdagangan Borong",
+            "description_en": "[Float] Index with base 2010 = 100",
+            "description_ms": "[Apung] Indeks dengan tahun asas 2010 = 100"
+        },
+        {
+            "name": "retail_index",
+            "title_en": "Volume Index of Retail Trade",
+            "title_ms": "Indeks Volum Perdagangan Runcit",
+            "description_en": "[Float] Index with base 2010 = 100",
+            "description_ms": "[Apung] Indeks dengan tahun asas 2010 = 100"
+        },
+        {
+            "name": "motor_index",
+            "title_en": "Volume Index of Motor Vehicles",
+            "title_ms": "Indeks Volum Kendaraan Bermotor",
+            "description_en": "[Float] Index with base 2010 = 100",
+            "description_ms": "[Apung] Indeks dengan tahun asas 2010 = 100"
+        },
+        {
+            "name": "overall_index_sa",
+            "title_en": "Volume Index (sa)",
+            "title_ms": "Indeks Volum Keseluruhan (tsm)",
+            "description_en": "[Float] Index with base 2010 = 100",
+            "description_ms": "[Apung] Indeks dengan tahun asas 2010 = 100"
+        },
+        {
+            "name": "wholesale_index_sa",
+            "title_en": "Volume Index of Wholesale Trade (sa)",
+            "title_ms": "Indeks Volum Perdagangan Borong (tsm)",
+            "description_en": "[Float] Index with base 2010 = 100",
+            "description_ms": "[Apung] Indeks dengan tahun asas 2010 = 100"
+        },
+        {
+            "name": "retail_index_sa",
+            "title_en": "Volume Index of Retail Trade (sa)",
+            "title_ms": "Indeks Volum Perdagangan Runcit (tsm)",
+            "description_en": "[Float] Index with base 2010 = 100",
+            "description_ms": "[Apung] Indeks dengan tahun asas 2010 = 100"
+        },
+        {
+            "name": "motor_index_sa",
+            "title_en": "Volume Index of Motor Vehicles (sa)",
+            "title_ms": "Indeks Volum Kendaraan Bermotor (tsm)",
+            "description_en": "[Float] Index with base 2010 = 100",
+            "description_ms": "[Apung] Indeks dengan tahun asas 2010 = 100"
+        }
+    ],
+    "dataviz": [
+        {
+            "id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 1,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "overall_sales": "Sales Value",
+        "wholesale_sales": "Sales Value of Wholesale Trade",
+        "retail_sales": "Sales Value of Retail Trade",
+        "motor_sales": "Sales Value of Motor Vehicles",
+        "overall_index": "Volume Index",
+        "wholesale_index": "Volume Index of Wholesale Trade",
+        "retail_index": "Volume Index of Retail Trade",
+        "motor_index": "Volume Index of Motor Vehicles",
+        "overall_index_sa": "Volume Index (sa)",
+        "wholesale_index_sa": "Volume Index of Wholesale Trade (sa)",
+        "retail_index_sa": "Volume Index of Retail Trade (sa)",
+        "motor_index_sa": "Volume Index of Motor Vehicles (sa)"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "overall_sales": "Nilai Jualan Keseluruhan",
+        "wholesale_sales": "Nilai Jualan Perdagangan Borong",
+        "retail_sales": "Nilai Jualan Perdagangan Borong",
+        "motor_sales": "Nilai Jualan Kendaraan Bermotor",
+        "overall_index": "Indeks Volum Keseluruhan",
+        "wholesale_index": "Indeks Volum Perdagangan Borong",
+        "retail_index": "Indeks Volum Perdagangan Runcit",
+        "motor_index": "Indeks Volum Kendaraan Bermotor",
+        "overall_index_sa": "Indeks Volum Keseluruhan (tsm)",
+        "wholesale_index_sa": "Indeks Volum Perdagangan Borong (tsm)",
+        "retail_index_sa": "Indeks Volum Perdagangan Runcit (tsm)",
+        "motor_index_sa": "Indeks Volum Kendaraan Bermotor (tsm)"
+    },
+    "related_datasets": [
+        {
+            "id": "related_dataset_1",
+            "title_en": "Related Dataset Title in English",
+            "title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
+            "description_en": "Description of the related dataset in English",
+            "description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
+        }
+    ]
 }
