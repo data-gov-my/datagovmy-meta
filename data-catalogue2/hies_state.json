@@ -1,6 +1,4 @@
 {
-	"bucket": "hies",
-	"filename": "hies_state",
 	"title_en": "Household Income and Expenditure: States",
 	"title_ms": "Pendapatan dan Perbelanjaan Isi Rumah: Negeri",
 	"description_en": "This dataset tabulates household-level income, expenditure, poverty, and income inequality at state level. It is based on the Household Income & Expenditure Surveys (HIES) carried in 2022.",

@@ -1,6 +1,4 @@
 {
-	"bucket": "hies",
-	"filename": "hies_district",
 	"title_en": "Household Income and Expenditure: Administrative Districts",
 	"title_ms": "Pendapatan dan Perbelanjaan Isi Rumah: Daerah Pentadbiran",
 	"description_en": "This dataset tabulates household-level income, expenditure, poverty, and income inequality at administrative district level. It is based on the Household Income & Expenditure Surveys (HIES) carried in 2022.",

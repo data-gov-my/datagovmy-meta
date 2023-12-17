@@ -1,6 +1,4 @@
 {
-	"bucket": "healthcare",
-	"filename": "covid_cases_age",
 	"title_en": "Daily COVID-19 Cases by Age Group & State",
 	"title_ms": "Kes COVID-19 Harian mengikut Kumpulan Umur & Negeri",
 	"description_en": "Daily COVID-19 cases at national and state level, broken down by age group.",

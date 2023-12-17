@@ -1,6 +1,4 @@
 {
-	"bucket": "population",
-	"filename": "population_state",
 	"title_en": "Population Table: States",
 	"title_ms": "Jadual Penduduk: Negeri",
 	"description_en": "This dataset tabulates the population of Malaysia at state level, by sex, ethnicity, and 5-year age group, from 2020 to 2023.",

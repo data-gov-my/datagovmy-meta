@@ -1,6 +1,4 @@
 {
-	"bucket": "finsector",
-	"filename": "interestrates",
 	"title_en": "Interest Rates",
 	"title_ms": "Kadar Faedah",
 	"description_en": "Various interest rates monitored by Bank Negara Malaysia, such as fixed deposit rates, base rates, and lending rates.",

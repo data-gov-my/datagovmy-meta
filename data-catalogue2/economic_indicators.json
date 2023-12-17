@@ -1,6 +1,4 @@
 {
-	"bucket": "econindicators",
-	"filename": "economic_indicators",
 	"title_en": "Malaysian Economic Indicators",
 	"title_ms": "Indikator Ekonomi Malaysia",
 	"description_en": "Indices for the purpose of monitoring Malaysia's economic situation on a monthly basis, consisting of leading, lagging, and coincidence indicators.",

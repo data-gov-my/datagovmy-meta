@@ -1,6 +1,4 @@
 {
-	"bucket": "pricecatcher",
-	"filename": "lookup_premise",
 	"title_en": "Premise Lookup",
 	"title_ms": "Jadual Carian Premis",
 	"description_en": "Lookup table, to be left-joined against premise code in the main PriceCatcher data.",

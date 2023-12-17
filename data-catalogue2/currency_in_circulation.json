@@ -1,6 +1,4 @@
 {
-	"bucket": "finsector",
-	"filename": "currency_in_circulation",
 	"title_en": "Currency in Circulation",
 	"title_ms": "Mata Wang dalam Peredaran",
 	"description_en": "Value of currency in circulation by denomination, for instance RM 1, RM 5, RM 10.",

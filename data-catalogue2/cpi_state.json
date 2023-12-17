@@ -1,6 +1,4 @@
 {
-	"bucket": "cpi",
-	"filename": "cpi_state",
 	"title_en": "CPI by State & Group",
 	"title_ms": "CPI mengikut Negeri dan Kumpulan",
 	"description_en": "CPI by state for 12 main groups of goods and services, consistent with the United Nations \"Classification of Individual Consumption According to Purpose (COICOP)\".",

@@ -1,6 +1,4 @@
 {
-	"bucket": "population",
-	"filename": "population_district",
 	"title_en": "Population Table: Administrative Districts",
 	"title_ms": "Jadual Penduduk: Daerah Pentadbiran",
 	"description_en": "This dataset tabulates the population of Malaysia at administrative district level, by sex, ethnicity, and 5-year age group, from 2020 to 2023.",

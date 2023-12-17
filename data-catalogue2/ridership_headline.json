@@ -1,6 +1,4 @@
 {
-	"bucket": "transportation",
-	"filename": "ridership_headline",
 	"title_en": "Daily Public Transport Ridership",
 	"title_ms": "Penggunaan Pengangkutan Awam Harian",
 	"description_en": "Daily-frequency ridership data for various public transport services across the country.",

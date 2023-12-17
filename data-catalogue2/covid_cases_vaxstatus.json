@@ -1,6 +1,4 @@
 {
-	"bucket": "healthcare",
-	"filename": "covid_cases_vaxstatus",
 	"title_en": "Daily COVID-19 Cases by Vaccination Status & State",
 	"title_ms": "Kes COVID-19 Harian mengikut Status Vaksinasi & Negeri",
 	"description_en": "Daily COVID-19 cases at national and state level, broken down by vaccination status.",

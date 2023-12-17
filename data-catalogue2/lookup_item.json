@@ -1,6 +1,4 @@
 {
-	"bucket": "pricecatcher",
-	"filename": "lookup_item",
 	"title_en": "Item Lookup",
 	"title_ms": "Jadual Carian Barangan",
 	"description_en": "Lookup table, to be left-joined against item code in the main PriceCatcher data.",
