@@ -22,8 +22,8 @@
         "NATIONAL"
     ],
     "demography": [],
-    "dataset_begin": "2000",
-    "dataset_end": "2023",
+    "dataset_begin": 2000,
+    "dataset_end": 2023,
     "data_source": [
         "BNM"
     ],

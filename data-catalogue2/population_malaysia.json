@@ -26,8 +26,8 @@
         "ETHNICITY",
         "AGE"
     ],
-    "dataset_begin": "2020",
-    "dataset_end": "2023",
+    "dataset_begin": 2020,
+    "dataset_end": 2023,
     "data_source": [
         "DOSM"
     ],

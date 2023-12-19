@@ -22,8 +22,8 @@
         "NATIONAL"
     ],
     "demography": [],
-    "dataset_begin": "1982",
-    "dataset_end": "2021",
+    "dataset_begin": 1982,
+    "dataset_end": 2021,
     "data_source": [
         "DOSM"
     ],

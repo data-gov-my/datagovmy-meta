@@ -4,10 +4,10 @@
     "description_en": "Rates of exchange of the Malaysian Ringgit vis-\u00e0-vis major trading partners.",
     "description_ms": "Kadar pertukaran ringgit Malaysia berbanding rakan dagang utama.",
     "exclude_openapi": false,
-    "manual_trigger": "2023-12-11 04:35:29.873594",
-    "data_as_of": "2023-12-10 23:59",
-    "last_updated": "2023-12-11 04:00",
-    "next_update": "2023-12-12 04:00",
+    "manual_trigger": "2023-12-19 02:15:54.155155",
+    "data_as_of": "2023-12-18 23:59",
+    "last_updated": "2023-12-19 04:00",
+    "next_update": "2023-12-20 04:00",
     "methodology_en": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
     "methodology_ms": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
     "caveat_en": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
@@ -22,8 +22,8 @@
         "NATIONAL"
     ],
     "demography": [],
-    "dataset_begin": "2003",
-    "dataset_end": "2023",
+    "dataset_begin": 2003,
+    "dataset_end": 2023,
     "data_source": [
         "MAMPU"
     ],

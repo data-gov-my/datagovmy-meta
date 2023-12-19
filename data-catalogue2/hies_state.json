@@ -22,8 +22,8 @@
         "STATE"
     ],
     "demography": [],
-    "dataset_begin": "2022",
-    "dataset_end": "2022",
+    "dataset_begin": 2022,
+    "dataset_end": 2022,
     "data_source": [
         "DOSM"
     ],
