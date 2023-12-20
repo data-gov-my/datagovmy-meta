@@ -12,8 +12,10 @@
       "all": "Semua Tiket",
       "under_review": "Dalam Semakan",
       "in_progress": "Sedang Diuruskan",
+      "in_progress_modal": "Permintaan ini sedang diproses. Status permintaan ini akan dikemas kini di laman ini apabila terdapat sebarang kemas kini. Nantikan!",
       "data_published": "Data Diterbitkan",
-      "rejected": "Ditolak"
+      "rejected": "Ditolak",
+      "rejected_modal": "Permintaan ini telah ditolak atas sebab yang berikut"
     },
     "table": {
       "status": "Status",

@@ -12,8 +12,10 @@
       "all": "All Tickets",
       "under_review": "Under Review",
       "in_progress": "In Progress",
+      "in_progress_modal": "This request is being processed. The status will be updated here once there is an update. Stay tuned!",
       "data_published": "Data Published",
-      "rejected": "Rejected"
+      "rejected": "Rejected",
+      "rejected_modal": "This request has been rejected for the following reason"
     },
     "table": {
       "status": "Status",
