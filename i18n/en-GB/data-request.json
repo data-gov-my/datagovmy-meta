@@ -2,6 +2,10 @@
   "route": null,
   "sites": ["datagovmy"],
   "translation": {
+    "site": {
+      "title": "Data Request",
+      "description": "Use this page to request data and get transparent updates on your ticket!"
+    },
     "header": "Tell us what you need",
     "description_line1": "Our work is never done, and we want to be guided by our users.",
     "description_line2": "Use this page to request data and get transparent updates on your ticket!",
@@ -11,8 +15,8 @@
     "status": {
       "all": "All Tickets",
       "under_review": "Under Review",
+      "under_review_modal": "This request is being processed. The status will be updated here once there is an update. Stay tuned!",
       "in_progress": "In Progress",
-      "in_progress_modal": "This request is being processed. The status will be updated here once there is an update. Stay tuned!",
       "data_published": "Data Published",
       "rejected": "Rejected",
       "rejected_modal": "This request has been rejected for the following reason"
@@ -21,7 +25,9 @@
       "status": "Status",
       "title": "Dataset title",
       "description": "Dataset description",
-      "data_owner": "Data Owner"
+      "data_owner": "Data Owner",
+      "date_created": "Date Created",
+      "subscribe": ""
     },
     "request_modal": {
       "title": "Request data",

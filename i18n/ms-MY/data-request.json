@@ -2,6 +2,10 @@
   "route": null,
   "sites": ["datagovmy"],
   "translation": {
+    "site": {
+      "title": "Permohonan Data",
+      "description": "Gunakan halaman ini untuk meminta data dan mendapatkan kemas kini yang telus pada tiket anda!"
+    },
     "header": "Beritahu kami apa yang anda perlukan",
     "description_line1": "Kerja kami tidak pernah selesai, dan kami mahu arah tuju kami dibimbing oleh pengguna kami.",
     "description_line2": "Gunakan halaman ini untuk meminta data dan mendapatkan kemas kini yang telus pada tiket anda!",
@@ -11,8 +15,8 @@
     "status": {
       "all": "Semua Tiket",
       "under_review": "Dalam Semakan",
+      "under_review_modal": "Permintaan ini sedang diproses. Status permintaan ini akan dikemas kini di laman ini apabila terdapat sebarang kemas kini. Nantikan!",
       "in_progress": "Sedang Diuruskan",
-      "in_progress_modal": "Permintaan ini sedang diproses. Status permintaan ini akan dikemas kini di laman ini apabila terdapat sebarang kemas kini. Nantikan!",
       "data_published": "Data Diterbitkan",
       "rejected": "Ditolak",
       "rejected_modal": "Permintaan ini telah ditolak atas sebab yang berikut"
@@ -21,7 +25,9 @@
       "status": "Status",
       "title": "Tajuk dataset",
       "description": "Penerangan dataset",
-      "data_owner": "Pemilik data"
+      "data_owner": "Pemilik data",
+      "date_created": "Tarikh dicipta",
+      "subscribe": ""
     },
     "request_modal": {
       "title": "Mohon data",
