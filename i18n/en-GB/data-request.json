@@ -1,5 +1,5 @@
 {
-  "route": "/data-request",
+  "route": null,
   "sites": ["datagovmy"],
   "translation": {
     "header": "Tell us what you need",

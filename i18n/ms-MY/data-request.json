@@ -1,5 +1,5 @@
 {
-  "route": "/ms-MY/data-request",
+  "route": null,
   "sites": ["datagovmy"],
   "translation": {
     "header": "Beritahu kami apa yang anda perlukan",
