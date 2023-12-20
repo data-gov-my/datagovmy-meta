@@ -17,7 +17,7 @@
 			"name": "data_request_submitted",
 			"subject": "[Ticket ID: {{ticket_id}}] Data Request from data.gov.my",
 			"content": "Dear {{name}}, Your data request for {{dataset_title}} from {{agency}} is received; if approved, it will be published on our Data Request page with a ticket Under Review. Notification will be sent upon publication, or check id:{{ticket_id}} on Data Request page.",
-			"html_content": "<html><head></head><body><p>Dear {name},</p><p>Your request for data on <b>{{dataset_title}}</b> from <b>{{agency}}</b> has been received. If it passes moderation checks (for spam, abuse, violence, etc), it will be published on our <a href=\"https://data.gov.my/data-request\">Data Request page</a> as a ticket Under Review.</p><p>If published, you will be notified at this email. Alternatively, you may search for id:{{ticket_id}} on our <a href=\"https://data.gov.my/data-request?ticket_id={{ticket_id}}\">Data Request page</a>.</p><p>Warm regards,<br>data.gov.my data team</p></body></html>",
+			"html_content": "<html><head></head><body><p>Dear {{name}},</p><p>Your request for data on <b>{{dataset_title}}</b> from <b>{{agency}}</b> has been received. If it passes moderation checks (for spam, abuse, violence, etc), it will be published on our <a href=\"https://data.gov.my/data-request\">Data Request page</a> as a ticket Under Review.</p><p>If published, you will be notified at this email. Alternatively, you may search for id:{{ticket_id}} on our <a href=\"https://data.gov.my/data-request?ticket_id={{ticket_id}}\">Data Request page</a>.</p><p>Warm regards,<br>data.gov.my data team</p></body></html>",
 			"language": "en-GB"
 		},
 		{
