@@ -1,19 +1,26 @@
 {
 	"send_email": true,
-	"validate_fields": ["ticket_id", "name", "email", "institution"],
+	"validate_fields": [
+		"ticket_id",
+		"name",
+		"email",
+		"institution",
+		"dataset_title",
+		"agency"
+	],
 	"email_template": [
 		{
 			"name": "data_request_subscription",
 			"subject": "[Ticket ID: {{ticket_id}}] Data Request from data.gov.my",
 			"content": "Dear {{name}}, Your request to be notified about the request for data on {{dataset_title}} from {{agency}} has been processed. You will be notified of any further developments via this email. Alternatively, you may search for id:{{ticket_id}} on our Data Request page.",
-			"html_content": "<html><head></head><body><p>Dear {{name}},</p><p>Your request to be notified about the request for data on {{dataset_title}} from {{agency}} has been processed. You will be notified of any further developments via this email. Alternatively, you may search for id:{{id}} on our <a href=\"https://data.gov.my/data-request?ticket_id={{ticket_id}}\">Data Request page</a>.</p><p>Warm regards,<br />data.gov.my data team</p></body></html>",
+			"html_content": "<html><head></head><body><p>Dear {{name}},</p><p>Your request to be notified about the request for data on {{dataset_title}} from {{agency}} has been processed. You will be notified of any further developments via this email. Alternatively, you may search for id:{{ticket_id}} on our <a href=\"https://data.gov.my/data-request?ticket_id={{ticket_id}}\">Data Request page</a>.</p><p>Warm regards,<br />data.gov.my data team</p></body></html>",
 			"language": "en-GB"
 		},
 		{
 			"name": "data_request_subscription",
 			"subject": "[Tiket ID: {{ticket_id}}] Permintaan Data dari data.gov.my",
-			"content": "Salam sejahtera {{name}}, Permohonan anda untuk menerima notifikasi bagi permohonan data mengenai {{dataset_title}} daripada {{agency}} telah diproses. Anda akan menerima notifikasi tentang perkembangan tiket ini melalui emel ini. Sebagai alternatif, anda boleh mencari id:{{id}} di halaman Permintaan Data kami.",
-			"html_content": "<html><head></head><body><p>Salam sejahtera {{name}},</p><p>Permohonan anda untuk menerima notifikasi bagi permohonan data mengenai {{dataset_title}} daripada {{agency}} telah diproses. Anda akan menerima notifikasi tentang perkembangan tiket ini melalui emel ini. Sebagai alternatif, anda boleh mencari id:{{id}} di <a href=\"https://data.gov.my/ms-MY/data-request?ticket_id={{ticket_id}}\">halaman Permintaan Data</a> kami.</p><p>Sekian, terima kasih.<br />Pasukan data data.gov.my</p></body></html>",
+			"content": "Salam sejahtera {{name}}, Permohonan anda untuk menerima notifikasi bagi permohonan data mengenai {{dataset_title}} daripada {{agency}} telah diproses. Anda akan menerima notifikasi tentang perkembangan tiket ini melalui emel ini. Sebagai alternatif, anda boleh mencari id:{{ticket_id}} di halaman Permintaan Data kami.",
+			"html_content": "<html><head></head><body><p>Salam sejahtera {{name}},</p><p>Permohonan anda untuk menerima notifikasi bagi permohonan data mengenai {{dataset_title}} daripada {{agency}} telah diproses. Anda akan menerima notifikasi tentang perkembangan tiket ini melalui emel ini. Sebagai alternatif, anda boleh mencari id:{{ticket_id}} di <a href=\"https://data.gov.my/ms-MY/data-request?ticket_id={{ticket_id}}\">halaman Permintaan Data</a> kami.</p><p>Sekian, terima kasih.<br />Pasukan data data.gov.my</p></body></html>",
 			"language": "ms-MY"
 		}
 	]
