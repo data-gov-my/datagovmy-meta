@@ -31,9 +31,13 @@
     },
     "request_modal": {
       "title": "Request data",
+      "title_subscribe": "Follow this ticket",
       "subtitle": "Fill in the form below:",
+      "subtitle_subscribe": "Interested with the development of this ticket? Submit this form below to get email notification(s) regarding this ticket.",
       "success_title": "Request submitted for review!",
-      "success_description": "You can check the data request tickets below for update."
+      "success_title_subscribe": "Successfully subscribed to the ticket",
+      "success_description": "You can check the data request tickets below for update.",
+      "success_description_subscribe": "You will receive email(s) whenever there is an update to this ticket."
     },
     "success_modal": {
       "title": "The data you requested is now live!",

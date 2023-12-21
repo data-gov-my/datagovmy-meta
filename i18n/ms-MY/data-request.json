@@ -31,9 +31,13 @@
     },
     "request_modal": {
       "title": "Mohon data",
+      "title_subscribe": "Ikuti perkembangan tiket ini",
       "subtitle": "Isi borang dibawah ini:",
+      "subtitle_subscribe": "Berminat dengan tiket ini? Isi borang dibawah dan dapatkan perkembangan tiket ini melalui emel.",
       "success_title": "Permohonan anda telah berjaya dihantar untuk semakan!",
-      "success_description": "Anda boleh terus menyemak tiket permohonan data anda untuk kemas kini terkini."
+      "success_title_subscribe": "Berjaya mengikuti perkembangan tiket ini",
+      "success_description": "Anda boleh terus menyemak tiket permohonan data anda untuk kemas kini terkini.",
+      "success_description_subscribe": "Anda akan menerima emel apabila terdapat perkembangan untuk tiket ini."
     },
     "success_modal": {
       "title": "Data yang anda mohon kini tersedia secara langsung!",
