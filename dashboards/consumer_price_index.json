@@ -1,12 +1,12 @@
 {
     "dashboard_name": "consumer_price_index",
-    "data_last_updated": "2023-11-24 12:00",
-    "data_next_update": "2023-12-22 12:00",
+    "data_last_updated": "2023-12-22 12:00",
+    "data_next_update": "2024-01-22 12:00",
     "route": "/dashboard/consumer-prices,/ms-MY/dashboard/consumer-prices",
     "sites": [
         "opendosm"
     ],
-    "manual_trigger": "2023-12-07 05:30:56.441614",
+    "manual_trigger": "2023-12-22 12:00:56.722723",
     "required_params": [],
     "optional_params": [],
     "charts": {
@@ -14,7 +14,7 @@
             "name": "bar_chart",
             "chart_type": "bar_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/cpi_main_barchart.parquet",
-            "data_as_of": "2023-10",
+            "data_as_of": "2023-11",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -36,7 +36,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/cpi_main_timeseries.parquet",
-            "data_as_of": "2023-10",
+            "data_as_of": "2023-11",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -70,7 +70,7 @@
             "name": "statistics",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/cpi_main_timeseries_callout.parquet",
-            "data_as_of": "2023-10",
+            "data_as_of": "2023-11",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -88,7 +88,7 @@
             "name": "timeseries_6d",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/cpi_query_timeseries_4d.parquet",
-            "data_as_of": "2023-10",
+            "data_as_of": "2023-11",
             "api_type": "individual_chart",
             "api_params": [
                 "lang",
@@ -116,7 +116,7 @@
             "name": "snapshot_4d",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/cpi_query_snapshot_4d.parquet?ignoreCache=0",
-            "data_as_of": "2023-10",
+            "data_as_of": "2023-11",
             "api_type": "individual_chart",
             "api_params": [
                 "lang",
@@ -152,7 +152,7 @@
             "name": "choropleth_district",
             "chart_type": "choropleth_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/cpi_district.parquet",
-            "data_as_of": "2023-10",
+            "data_as_of": "2023-11",
             "api_type": "static",
             "api_params": [],
             "variables": {
