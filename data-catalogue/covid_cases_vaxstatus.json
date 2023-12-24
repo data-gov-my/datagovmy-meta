@@ -1,6 +1,6 @@
 {
     "file": {
-        "manual_trigger": "2023-12-17 11:54:48.937707",
+        "manual_trigger": "2023-12-24 13:16:39.799783",
         "exclude_openapi": false,
         "bucket": "healthcare",
         "file_name": "covid_cases_vaxstatus",
@@ -94,9 +94,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-12-16 23:59",
-                        "last_updated": "2023-12-17 12:00",
-                        "next_update": "2023-12-24 12:00"
+                        "data_as_of": "2023-12-23 23:59",
+                        "last_updated": "2023-12-24 12:00",
+                        "next_update": "2023-12-31 12:00"
                     },
                     "metadata_lang": {
                         "en": {
