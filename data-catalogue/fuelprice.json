@@ -1,7 +1,7 @@
 {
     "file": {
         "manual_trigger": "2023-12-21 06:45:13.539298",
-        "exclude_openapi": true,
+        "exclude_openapi": false,
         "bucket": "commodities",
         "file_name": "fuelprice",
         "category": "PRICES",
