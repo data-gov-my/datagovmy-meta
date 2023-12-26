@@ -6,7 +6,7 @@
     "sites": [
         "kkmnow"
     ],
-    "manual_trigger": "2023-11-22 06:53:16.72732",
+    "manual_trigger": "",
     "required_params": [
         "state"
     ],
