@@ -1,428 +1,462 @@
 {
-	"file": {
-		"manual_trigger": "2023-12-12 12:58:31.361341",
-		"exclude_openapi": false,
-		"bucket": "transportation",
-		"file_name": "ridership_headline",
-		"category": "TRANSPORTATION",
-		"category_en": "Transportation",
-		"category_bm": "Pengangkutan",
-		"subcategory": "RIDERSHIP",
-		"subcategory_en": "Ridership",
-		"subcategory_bm": "Penggunaan",
-		"description": {
-			"en": "Daily-frequency ridership data for various public transport services across the country.",
-			"bm": "Data penggunaan pengangkutan awam berfrekuensi harian daripada beberapa perkhidmatan pengangkutan awam di seluruh negara."
-		},
-		"link_parquet": "https://storage.data.gov.my/transportation/ridership_headline.parquet",
-		"link_csv": "https://storage.data.gov.my/transportation/ridership_headline.csv",
-		"link_preview": "https://storage.data.gov.my/transportation/ridership_headline.parquet",
-		"variables": [
-			{
-				"id": -1,
-				"name": "date",
-				"title_en": "Date",
-				"title_bm": "Tarikh",
-				"desc_en": "[Date] Date in YYYY-MM-DD format",
-				"desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
-			},
-			{
-				"id": -1,
-				"name": "bus_rkl",
-				"title_en": "Rapid Bus (KL)",
-				"title_bm": "Bas Rapid (KL)",
-				"desc_en": "[Integer] Number of trips, NOT number of unique individuals",
-				"desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
-			},
-			{
-				"id": -1,
-				"name": "bus_rkn",
-				"title_en": "Rapid Bus (Kuantan)",
-				"title_bm": "Bas Rapid (Kuantan)",
-				"desc_en": "[Integer] Number of trips, NOT number of unique individuals",
-				"desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
-			},
-			{
-				"id": -1,
-				"name": "bus_rpn",
-				"title_en": "Rapid Bus (Penang)",
-				"title_bm": "Bas Rapid (Pulau Pinang)",
-				"desc_en": "[Integer] Number of trips, NOT number of unique individuals",
-				"desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
-			},
-			{
-				"id": -1,
-				"name": "rail_lrt_ampang",
-				"title_en": "LRT Ampang Line",
-				"title_bm": "LRT Laluan Ampang",
-				"desc_en": "[Integer] Number of trips, NOT number of unique individuals",
-				"desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
-			},
-			{
-				"id": -1,
-				"name": "rail_lrt_kj",
-				"title_en": "LRT Kelana Jaya Line",
-				"title_bm": "LRT Laluan Kelana Jaya",
-				"desc_en": "[Integer] Number of trips, NOT number of unique individuals",
-				"desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
-			},
-			{
-				"id": -1,
-				"name": "rail_monorail",
-				"title_en": "Monorail Line",
-				"title_bm": "Laluan Monorel",
-				"desc_en": "[Integer] Number of trips, NOT number of unique individuals",
-				"desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
-			},
-			{
-				"id": -1,
-				"name": "rail_mrt_kajang",
-				"title_en": "MRT Kajang Line",
-				"title_bm": "MRT Laluan Kajang",
-				"desc_en": "[Integer] Number of trips, NOT number of unique individuals",
-				"desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
-			},
-			{
-				"id": -1,
-				"name": "rail_mrt_pjy",
-				"title_en": "MRT Putrajaya Line",
-				"title_bm": "MRT Laluan Putrajaya",
-				"desc_en": "[Integer] Number of trips, NOT number of unique individuals",
-				"desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
-			},
-			{
-				"id": -1,
-				"name": "rail_ets",
-				"title_en": "KTMB ETS",
-				"title_bm": "KTMB ETS",
-				"desc_en": "[Integer] Number of trips, NOT number of unique individuals",
-				"desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
-			},
-			{
-				"id": -1,
-				"name": "rail_intercity",
-				"title_en": "KTM Intercity",
-				"title_bm": "KTM Intercity",
-				"desc_en": "[Integer] Number of trips, NOT number of unique individuals",
-				"desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
-			},
-			{
-				"id": -1,
-				"name": "rail_komuter",
-				"title_en": "KTM Komuter",
-				"title_bm": "KTM Komuter",
-				"desc_en": "[Integer] Number of trips, NOT number of unique individuals",
-				"desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
-			},
-			{
-				"id": -1,
-				"name": "rail_komuter_utara",
-				"title_en": "KTM Komuter Utara",
-				"title_bm": "KTM Komuter Utara",
-				"desc_en": "[Integer] Number of trips, NOT number of unique individuals",
-				"desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
-			},
-			{
-				"id": -1,
-				"name": "rail_tebrau",
-				"title_en": "KTM Shuttle Tebrau",
-				"title_bm": "KTM Shuttle Tebrau",
-				"desc_en": "[Integer] Number of trips, NOT number of unique individuals",
-				"desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
-			},
-			{
-				"id": 0,
-				"name": "Daily Public Transport Ridership",
-				"title_en": "Daily Public Transport Ridership",
-				"title_bm": "Penggunaan Pengangkutan Awam Harian",
-				"desc_en": "Daily-frequency ridership data for various public transport services across the country.",
-				"desc_bm": "Data penggunaan pengangkutan awam berfrekuensi harian daripada beberapa perkhidmatan pengangkutan awam di seluruh negara.",
-				"catalog_data": {
-					"catalog_filters": {
-						"frequency": "DAILY",
-						"geography": ["NATIONAL", "STATE"],
-						"demography": [],
-						"start": "2020",
-						"end": "2023",
-						"data_source": ["MoT", "KTMB"]
-					},
-					"metadata_neutral": {
-						"data_as_of": "2023-11-30 23:59",
-						"last_updated": "2023-12-12 12:00",
-						"next_update": "2024-01-12 12:00"
-					},
-					"metadata_lang": {
-						"en": {
-							"methodology": "This dataset is derived from anonymous transactional data generated by the ticketing or tap-in/out systems of the various public transport services across the country.",
-							"caveat": "These ridership numbers represent 'headline' totals for major public transport services. There are several nuances to bear in mind:\n 1. For Prasarana-operated services (LRT, MRT, Monorail), you should not attempt to derive the values in this dataset from origin-destination data, because the methodology for attributing ridership to specific lines (especially at interchange stations) is not straightforward.\n 2. For KTMB-operated services (Komuter, Intercity, ETS, Shuttle Tebrau), the headline totals are directly derived from origin-destination data as the various services do not 'cross' in their operations.\n 3. Although origin-destination data is updated daily on our site, this dataset is updated monthly because the headline numbers go through an audit process prior to publication.",
-							"publication": "Ridership numbers for Prasarana-operated services are also published as part of their [MyRapid Performance Update](https://myrapid.com.my/myrapid-performance/); the data here is 100% consistent with the data published there as it is derived from the same source. Our site also features a [dashboard on public transport ridership](https://data.gov.my/dashboard/public-transportation)!"
-						},
-						"bm": {
-							"methodology": "Set data ini dihasilkan daripada data transaksi (tanpa sebarang data peribadi) yang dijana oleh sistem tiket atau sistem tap masuk/keluar yang digunakan untuk mengendali perkhidmatan pengangkutan awam di seluruh negara.",
-							"caveat": "Angka ini mewakiili jumlah penumpang keseluruhan bagi perkhidmatan pengangkutan awam utama. Terdapat beberapa nuansa yang perlu diingat:\n 1. Bagi perkhidmatan yang dikendalikan oleh Prasarana (LRT, MRT, Monorel), angka keseluruhan tidak boleh dihasilkan terus daripada data asal-destinasi ('origin-destination') kerana metodologi untuk mengira penumpang bagi laluan tertentu (khususnya di stesen pertukaran) adak rumit dan sentiasa dikaji dari bulan ke bulan.\n 2. Bagi perkhidmatan yang dikendalikan oleh KTMB (Komuter, Antarabandar, ETS, Shuttle Tebrau), angka keseluruhan dihasilkan daripada data asal-destinasi kerana perkhidmatan tersebut ini tidak 'silang' semasa operasi.\n 3. Walaupun data asal-destinasi dikemaskini setiap hari di portal ini, set data ini dikemaskini secara bulanan kerana melalui proses audit sebelum penerbitan.",
-							"publication": "Jumlah penumpang untuk perkhidmatan yang dikendalikan oleh Prasarana juga diterbitkan sebagai sebahagian daripada [MyRapid Performance Update](https://myrapid.com.my/myrapid-performance/); set data ini adalah konsisten sepenuhnya dengan data yang diterbitkan dalam portal Prasarana kerana dihasilkan daripada sumber yang sama. Portal kami juga membekalkan [papan pemuka interaktif berkaitan pengangkutan awam](https://data.gov.my/dashboard/public-transportation)!"
-						}
-					},
-					"chart": {
-						"chart_type": "TABLE",
-						"chart_filters": {
-							"SLICE_BY": [],
-							"precision": 0
-						},
-						"chart_variables": {
-							"parents": [],
-							"exclude": [],
-							"freeze": ["date"]
-						}
-					},
-					"dataviz": [
-						{
-							"translation_key": "bus_rkl",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 0
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["bus_rkl"]
-								}
-							}
-						},
-						{
-							"translation_key": "bus_rkn",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 0
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["bus_rkn"]
-								}
-							}
-						},
-						{
-							"translation_key": "bus_rpn",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 0
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["bus_rpn"]
-								}
-							}
-						},
-						{
-							"translation_key": "rail_lrt_ampang",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 0
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["rail_lrt_ampang"]
-								}
-							}
-						},
-						{
-							"translation_key": "rail_lrt_kj",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 0
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["rail_lrt_kj"]
-								}
-							}
-						},
-						{
-							"translation_key": "rail_monorail",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 0
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["rail_monorail"]
-								}
-							}
-						},
-						{
-							"translation_key": "rail_mrt_kajang",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 0
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["rail_mrt_kajang"]
-								}
-							}
-						},
-						{
-							"translation_key": "rail_mrt_pjy",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 0
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["rail_mrt_pjy"]
-								}
-							}
-						},
-						{
-							"translation_key": "rail_ets",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 0
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["rail_ets"]
-								}
-							}
-						},
-						{
-							"translation_key": "rail_intercity",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 0
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["rail_intercity"]
-								}
-							}
-						},
-						{
-							"translation_key": "rail_komuter",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 0
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["rail_komuter"]
-								}
-							}
-						},
-						{
-							"translation_key": "rail_komuter_utara",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 0
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["rail_komuter_utara"]
-								}
-							}
-						},
-						{
-							"translation_key": "rail_tebrau",
-							"chart_type": "TIMESERIES",
-							"chart_filters": {
-								"SLICE_BY": [],
-								"precision": 0
-							},
-							"chart_variables": {
-								"parents": [],
-								"operation": "SUM",
-								"format": {
-									"x": "date",
-									"y": ["rail_tebrau"]
-								}
-							}
-						}
-					],
-					"translations": {
-						"en": {
-							"date": "Date",
-							"y1": "Ridership",
-							"bus_rkl": "Rapid Bus (KL)",
-							"bus_rkn": "Rapid Bus (Kuantan)",
-							"bus_rpn": "Rapid Bus (Penang)",
-							"rail_lrt_ampang": "LRT Ampang Line",
-							"rail_lrt_kj": "LRT Kelana Jaya Line",
-							"rail_monorail": "Monorail Line",
-							"rail_mrt_kajang": "MRT Kajang Line",
-							"rail_mrt_pjy": "MRT Putrajaya Line",
-							"rail_ets": "KTMB ETS",
-							"rail_intercity": "KTM Intercity",
-							"rail_komuter": "KTM Komuter",
-							"rail_komuter_utara": "KTM Komuter Utara",
-							"rail_tebrau": "KTM Shuttle Tebrau"
-						},
-						"bm": {
-							"date": "Tarikh",
-							"y1": "Penggunaan",
-							"bus_rkl": "Bas Rapid (KL)",
-							"bus_rkn": "Bas Rapid (Kuantan)",
-							"bus_rpn": "Bas Rapid (Pulau Pinang)",
-							"rail_lrt_ampang": "LRT Laluan Ampang",
-							"rail_lrt_kj": "LRT Laluan Kelana Jaya",
-							"rail_monorail": "Laluan Monorel",
-							"rail_mrt_kajang": "MRT Laluan Kajang",
-							"rail_mrt_pjy": "MRT Laluan Putrajaya",
-							"rail_ets": "KTMB ETS",
-							"rail_intercity": "KTM Intercity",
-							"rail_komuter": "KTM Komuter",
-							"rail_komuter_utara": "KTM Komuter Utara",
-							"rail_tebrau": "KTM Shuttle Tebrau"
-						}
-					}
-				}
-			}
-		]
-	}
+    "file": {
+        "manual_trigger": "2023-12-26 17:42:36.868688",
+        "exclude_openapi": false,
+        "bucket": "transportation",
+        "file_name": "ridership_headline",
+        "category": "TRANSPORTATION",
+        "category_en": "Transportation",
+        "category_bm": "Pengangkutan",
+        "subcategory": "RIDERSHIP",
+        "subcategory_en": "Ridership",
+        "subcategory_bm": "Penggunaan",
+        "description": {
+            "en": "Daily-frequency ridership data for various public transport services across the country.",
+            "bm": "Data penggunaan pengangkutan awam berfrekuensi harian daripada beberapa perkhidmatan pengangkutan awam di seluruh negara."
+        },
+        "link_parquet": "https://storage.data.gov.my/transportation/ridership_headline.parquet",
+        "link_csv": "https://storage.data.gov.my/transportation/ridership_headline.csv",
+        "link_preview": "https://storage.data.gov.my/transportation/ridership_headline.parquet",
+        "variables": [
+            {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] Date in YYYY-MM-DD format",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+            },
+            {
+                "id": -1,
+                "name": "bus_rkl",
+                "title_en": "Rapid Bus (KL)",
+                "title_bm": "Bas Rapid (KL)",
+                "desc_en": "[Integer] Number of trips, NOT number of unique individuals",
+                "desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
+            },
+            {
+                "id": -1,
+                "name": "bus_rkn",
+                "title_en": "Rapid Bus (Kuantan)",
+                "title_bm": "Bas Rapid (Kuantan)",
+                "desc_en": "[Integer] Number of trips, NOT number of unique individuals",
+                "desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
+            },
+            {
+                "id": -1,
+                "name": "bus_rpn",
+                "title_en": "Rapid Bus (Penang)",
+                "title_bm": "Bas Rapid (Pulau Pinang)",
+                "desc_en": "[Integer] Number of trips, NOT number of unique individuals",
+                "desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
+            },
+            {
+                "id": -1,
+                "name": "rail_lrt_ampang",
+                "title_en": "LRT Ampang Line",
+                "title_bm": "LRT Laluan Ampang",
+                "desc_en": "[Integer] Number of trips, NOT number of unique individuals",
+                "desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
+            },
+            {
+                "id": -1,
+                "name": "rail_lrt_kj",
+                "title_en": "LRT Kelana Jaya Line",
+                "title_bm": "LRT Laluan Kelana Jaya",
+                "desc_en": "[Integer] Number of trips, NOT number of unique individuals",
+                "desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
+            },
+            {
+                "id": -1,
+                "name": "rail_monorail",
+                "title_en": "Monorail Line",
+                "title_bm": "Laluan Monorel",
+                "desc_en": "[Integer] Number of trips, NOT number of unique individuals",
+                "desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
+            },
+            {
+                "id": -1,
+                "name": "rail_mrt_kajang",
+                "title_en": "MRT Kajang Line",
+                "title_bm": "MRT Laluan Kajang",
+                "desc_en": "[Integer] Number of trips, NOT number of unique individuals",
+                "desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
+            },
+            {
+                "id": -1,
+                "name": "rail_mrt_pjy",
+                "title_en": "MRT Putrajaya Line",
+                "title_bm": "MRT Laluan Putrajaya",
+                "desc_en": "[Integer] Number of trips, NOT number of unique individuals",
+                "desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
+            },
+            {
+                "id": -1,
+                "name": "rail_ets",
+                "title_en": "KTMB ETS",
+                "title_bm": "KTMB ETS",
+                "desc_en": "[Integer] Number of trips, NOT number of unique individuals",
+                "desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
+            },
+            {
+                "id": -1,
+                "name": "rail_intercity",
+                "title_en": "KTM Intercity",
+                "title_bm": "KTM Intercity",
+                "desc_en": "[Integer] Number of trips, NOT number of unique individuals",
+                "desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
+            },
+            {
+                "id": -1,
+                "name": "rail_komuter",
+                "title_en": "KTM Komuter",
+                "title_bm": "KTM Komuter",
+                "desc_en": "[Integer] Number of trips, NOT number of unique individuals",
+                "desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
+            },
+            {
+                "id": -1,
+                "name": "rail_komuter_utara",
+                "title_en": "KTM Komuter Utara",
+                "title_bm": "KTM Komuter Utara",
+                "desc_en": "[Integer] Number of trips, NOT number of unique individuals",
+                "desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
+            },
+            {
+                "id": -1,
+                "name": "rail_tebrau",
+                "title_en": "KTM Shuttle Tebrau",
+                "title_bm": "KTM Shuttle Tebrau",
+                "desc_en": "[Integer] Number of trips, NOT number of unique individuals",
+                "desc_bm": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
+            },
+            {
+                "id": 0,
+                "name": "Daily Public Transport Ridership",
+                "title_en": "Daily Public Transport Ridership",
+                "title_bm": "Penggunaan Pengangkutan Awam Harian",
+                "desc_en": "Daily-frequency ridership data for various public transport services across the country.",
+                "desc_bm": "Data penggunaan pengangkutan awam berfrekuensi harian daripada beberapa perkhidmatan pengangkutan awam di seluruh negara.",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "geography": [
+                            "NATIONAL",
+                            "STATE"
+                        ],
+                        "demography": [],
+                        "start": "2020",
+                        "end": "2023",
+                        "data_source": [
+                            "MoT",
+                            "KTMB"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2023-11-30 23:59",
+                        "last_updated": "2023-12-12 12:00",
+                        "next_update": "2024-01-12 12:00"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "This dataset is derived from anonymous transactional data generated by the ticketing or tap-in/out systems of the various public transport services across the country.",
+                            "caveat": "These ridership numbers represent 'headline' totals for major public transport services. There are several nuances to bear in mind:\n 1. For Prasarana-operated services (LRT, MRT, Monorail), you should not attempt to derive the values in this dataset from origin-destination data, because the methodology for attributing ridership to specific lines (especially at interchange stations) is not straightforward.\n 2. For KTMB-operated services (Komuter, Intercity, ETS, Shuttle Tebrau), the headline totals are directly derived from origin-destination data as the various services do not 'cross' in their operations.\n 3. Although origin-destination data is updated daily on our site, this dataset is updated monthly because the headline numbers go through an audit process prior to publication.",
+                            "publication": "Ridership numbers for Prasarana-operated services are also published as part of their [MyRapid Performance Update](https://myrapid.com.my/myrapid-performance/); the data here is 100% consistent with the data published there as it is derived from the same source. Our site also features a [dashboard on public transport ridership](https://data.gov.my/dashboard/public-transportation)!"
+                        },
+                        "bm": {
+                            "methodology": "Set data ini dihasilkan daripada data transaksi (tanpa sebarang data peribadi) yang dijana oleh sistem tiket atau sistem tap masuk/keluar yang digunakan untuk mengendali perkhidmatan pengangkutan awam di seluruh negara.",
+                            "caveat": "Angka ini mewakiili jumlah penumpang keseluruhan bagi perkhidmatan pengangkutan awam utama. Terdapat beberapa nuansa yang perlu diingat:\n 1. Bagi perkhidmatan yang dikendalikan oleh Prasarana (LRT, MRT, Monorel), angka keseluruhan tidak boleh dihasilkan terus daripada data asal-destinasi ('origin-destination') kerana metodologi untuk mengira penumpang bagi laluan tertentu (khususnya di stesen pertukaran) adak rumit dan sentiasa dikaji dari bulan ke bulan.\n 2. Bagi perkhidmatan yang dikendalikan oleh KTMB (Komuter, Antarabandar, ETS, Shuttle Tebrau), angka keseluruhan dihasilkan daripada data asal-destinasi kerana perkhidmatan tersebut ini tidak 'silang' semasa operasi.\n 3. Walaupun data asal-destinasi dikemaskini setiap hari di portal ini, set data ini dikemaskini secara bulanan kerana melalui proses audit sebelum penerbitan.",
+                            "publication": "Jumlah penumpang untuk perkhidmatan yang dikendalikan oleh Prasarana juga diterbitkan sebagai sebahagian daripada [MyRapid Performance Update](https://myrapid.com.my/myrapid-performance/); set data ini adalah konsisten sepenuhnya dengan data yang diterbitkan dalam portal Prasarana kerana dihasilkan daripada sumber yang sama. Portal kami juga membekalkan [papan pemuka interaktif berkaitan pengangkutan awam](https://data.gov.my/dashboard/public-transportation)!"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TABLE",
+                        "chart_filters": {
+                            "SLICE_BY": [],
+                            "precision": 0
+                        },
+                        "chart_variables": {
+                            "parents": [],
+                            "exclude": [],
+                            "freeze": [
+                                "date"
+                            ]
+                        }
+                    },
+                    "dataviz": [
+                        {
+                            "translation_key": "bus_rkl",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "bus_rkl"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "bus_rkn",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "bus_rkn"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "bus_rpn",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "bus_rpn"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "rail_lrt_ampang",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "rail_lrt_ampang"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "rail_lrt_kj",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "rail_lrt_kj"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "rail_monorail",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "rail_monorail"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "rail_mrt_kajang",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "rail_mrt_kajang"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "rail_mrt_pjy",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "rail_mrt_pjy"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "rail_ets",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "rail_ets"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "rail_intercity",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "rail_intercity"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "rail_komuter",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "rail_komuter"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "rail_komuter_utara",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "rail_komuter_utara"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "translation_key": "rail_tebrau",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": [],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "rail_tebrau"
+                                    ]
+                                }
+                            }
+                        }
+                    ],
+                    "translations": {
+                        "en": {
+                            "date": "Date",
+                            "y1": "Ridership",
+                            "bus_rkl": "Rapid Bus (KL)",
+                            "bus_rkn": "Rapid Bus (Kuantan)",
+                            "bus_rpn": "Rapid Bus (Penang)",
+                            "rail_lrt_ampang": "LRT Ampang Line",
+                            "rail_lrt_kj": "LRT Kelana Jaya Line",
+                            "rail_monorail": "Monorail Line",
+                            "rail_mrt_kajang": "MRT Kajang Line",
+                            "rail_mrt_pjy": "MRT Putrajaya Line",
+                            "rail_ets": "KTMB ETS",
+                            "rail_intercity": "KTM Intercity",
+                            "rail_komuter": "KTM Komuter",
+                            "rail_komuter_utara": "KTM Komuter Utara",
+                            "rail_tebrau": "KTM Shuttle Tebrau"
+                        },
+                        "bm": {
+                            "date": "Tarikh",
+                            "y1": "Penggunaan",
+                            "bus_rkl": "Bas Rapid (KL)",
+                            "bus_rkn": "Bas Rapid (Kuantan)",
+                            "bus_rpn": "Bas Rapid (Pulau Pinang)",
+                            "rail_lrt_ampang": "LRT Laluan Ampang",
+                            "rail_lrt_kj": "LRT Laluan Kelana Jaya",
+                            "rail_monorail": "Laluan Monorel",
+                            "rail_mrt_kajang": "MRT Laluan Kajang",
+                            "rail_mrt_pjy": "MRT Laluan Putrajaya",
+                            "rail_ets": "KTMB ETS",
+                            "rail_intercity": "KTM Intercity",
+                            "rail_komuter": "KTM Komuter",
+                            "rail_komuter_utara": "KTM Komuter Utara",
+                            "rail_tebrau": "KTM Shuttle Tebrau"
+                        }
+                    }
+                }
+            }
+        ]
+    }
 }
