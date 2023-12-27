@@ -1,7 +1,11 @@
 {
-  "route": "/data-request",
+  "route": null,
   "sites": ["datagovmy"],
   "translation": {
+    "site": {
+      "title": "Data Request",
+      "description": "Use this page to request data and get transparent updates on your ticket!"
+    },
     "header": "Tell us what you need",
     "description_line1": "Our work is never done, and we want to be guided by our users.",
     "description_line2": "Use this page to request data and get transparent updates on your ticket!",
@@ -11,21 +15,29 @@
     "status": {
       "all": "All Tickets",
       "under_review": "Under Review",
+      "under_review_modal": "This request is being processed. The status will be updated here once there is an update. Stay tuned!",
       "in_progress": "In Progress",
       "data_published": "Data Published",
-      "rejected": "Rejected"
+      "rejected": "Rejected",
+      "rejected_modal": "This request has been rejected for the following reason"
     },
     "table": {
       "status": "Status",
       "title": "Dataset title",
       "description": "Dataset description",
-      "data_owner": "Data Owner"
+      "data_owner": "Data Owner",
+      "date_created": "Date Created",
+      "subscribe": ""
     },
     "request_modal": {
       "title": "Request data",
+      "title_subscribe": "Follow this ticket",
       "subtitle": "Fill in the form below:",
+      "subtitle_subscribe": "Interested with the development of this ticket? Submit this form below to get email notification(s) regarding this ticket.",
       "success_title": "Request submitted for review!",
-      "success_description": "You can check the data request tickets below for update."
+      "success_title_subscribe": "Successfully subscribed to the ticket",
+      "success_description": "You can check the data request tickets below for update.",
+      "success_description_subscribe": "You will receive email(s) whenever there is an update to this ticket."
     },
     "success_modal": {
       "title": "The data you requested is now live!",

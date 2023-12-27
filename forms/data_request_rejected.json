@@ -1,0 +1,20 @@
+{
+	"send_email": true,
+	"validate_fields": ["ticket_id", "dataset_title", "agency", "remark"],
+	"email_template": [
+		{
+			"name": "data_request_rejected",
+			"subject": "[Ticket ID: {{ticket_id}}] Data Request from data.gov.my",
+			"content": "Salam Sejahtera, Your request for data on {{dataset_title}} from {{agency}} has been rejected. Remark: {{remark}} There will be no further notifications regarding this ticket. If you wish to seek further clarification, you may reply to this email.",
+			"html_content": "<html><head></head><body><p>Salam Sejahtera,</p><p>Your request for data on <b>{{dataset_title}}</b> from {{agency}} has been rejected.</p><p>Remark: {{remark}}</p><p>There will be no further notifications regarding this ticket. If you wish to seek further clarification, you may reply to this email.</p><p>Warm regards,<br />data.gov.my data team</p></body></html>",
+			"language": "en-GB"
+		},
+		{
+			"name": "data_request_rejected",
+			"subject": "[Tiket ID: {{ticket_id}}] Permintaan Data dari data.gov.my",
+			"content": "Salam sejahtera, Permohonan anda untuk data mengenai {{dataset_title}} daripada {{agency}} telah ditolak. Justifikasi: {{remark}} Anda tidak akan menerima sebarang lagi notifikasi tentang tiket ini. Sekiranya anda ingin mendapat pencerahan lanjut, anda boleh membalas emel ini.",
+			"html_content": "<html><head></head><body><p>Salam sejahtera,</p><p>Permohonan anda untuk data mengenai <b>{{dataset_title}}</b> daripada {{agency}} telah ditolak.</p><p>Justifikasi: {{remark}}</p><p>Anda tidak akan menerima sebarang lagi notifikasi tentang tiket ini. Sekiranya anda ingin mendapat pencerahan lanjut, anda boleh membalas emel ini.</p><p>Sekian, terima kasih.<br />Pasukan data data.gov.my</p></body></html>",
+			"language": "ms-MY"
+		}
+	]
+}

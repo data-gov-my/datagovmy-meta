@@ -15,7 +15,7 @@
         "donut3_tooltips": "Includes utilisation for non-COVID-19 cases, in order to reflect the overall state of the public healthcare system",
         "donut4": "PKRC",
         "donut4_tooltips": "COVID-19 Quarantine and Treatment Centre",
-        "diagram_header": "What does the latest data show in {{ state }}?",
+        "diagram_header": "What is the latest situation in {{ state }}?",
         "diagram_subheader": "{{ state }}: Active COVID-19 Cases",
         "diagram_title": "Active Cases",
         "total": "Total",

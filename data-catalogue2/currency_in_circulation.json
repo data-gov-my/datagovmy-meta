@@ -1,241 +1,245 @@
 {
-	"bucket": "finsector",
-	"filename": "currency_in_circulation",
-	"title_en": "Currency in Circulation",
-	"title_ms": "Mata Wang dalam Peredaran",
-	"description_en": "Value of currency in circulation by denomination, for instance RM 1, RM 5, RM 10.",
-	"description_ms": "Nilai mata wang dalam edaran mengikut denominasi, contohnya bagi nota RM1, RM5 dan RM10.",
-	"exclude_openapi": false,
-	"manual_trigger": "na",
-	"data_as_of": "2023-07-31 23:59",
-	"last_updated": "2023-08-31 23:59",
-	"next_update": "2023-09-30 23:59",
-	"methodology_en": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time. That data is summarised in this dataset at monthly frequency.",
-	"methodology_ms": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa. Data tersebut dirumuskan dalam set data ini pada frekuensi bulanan.",
-	"caveat_en": "\u2014",
-	"caveat_ms": "\u2014",
-	"publication_en": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs).",
-	"publication_ms": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs).",
-	"link_parquet": "https://storage.data.gov.my/finsector/currency_in_circulation.parquet",
-	"link_csv": "https://storage.data.gov.my/finsector/currency_in_circulation.csv",
-	"link_preview": "https://storage.data.gov.my/finsector/currency_in_circulation.parquet",
-	"frequency": "MONTHLY",
-	"geography": ["NATIONAL"],
-	"demography": [],
-	"dataset_begin": "2000",
-	"dataset_end": "2023",
-	"data_source": ["BNM"],
-	"site_category": [
-		{
-			"site": "datagovmy",
-			"category_en": "Financial Sector",
-			"category_ms": "Sektor Kewangan",
-			"subcategory_en": "Money & Banking",
-			"subcategory_ms": "Wang & Perbankan"
-		}
-	],
-	"fields": [
-		{
-			"name": "date",
-			"title_en": "Date",
-			"title_ms": "Tarikh",
-			"description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01 since the data is at monthly frequency",
-			"description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD ditetapkan sebagai 01 kerana data berfrekuensi bulanan"
-		},
-		{
-			"name": "note_1",
-			"title_en": "Notes: RM 1",
-			"title_ms": "Nota: RM 1",
-			"description_en": "[Float] Total value of RM 1 notes in circulation, in RM millions",
-			"description_ms": "[Apung] Nilai keseluruhan nota RM 1 dalam edaran, dalam RM juta"
-		},
-		{
-			"name": "note_2",
-			"title_en": "Notes: RM 2",
-			"title_ms": "Nota: RM 2",
-			"description_en": "[Float] Total value of RM 2 notes in circulation, in RM millions",
-			"description_ms": "[Apung] Nilai keseluruhan nota RM 2 dalam edaran, dalam RM juta"
-		},
-		{
-			"name": "note_5",
-			"title_en": "Notes: RM 5",
-			"title_ms": "Nota: RM 5",
-			"description_en": "[Float] Total value of RM 5 notes in circulation, in RM millions",
-			"description_ms": "[Apung] Nilai keseluruhan nota RM 5 dalam edaran, dalam RM juta"
-		},
-		{
-			"name": "note_10",
-			"title_en": "Notes: RM 10",
-			"title_ms": "Nota: RM 10",
-			"description_en": "[Float] Total value of RM 10 notes in circulation, in RM millions",
-			"description_ms": "[Apung] Nilai keseluruhan nota RM 10 dalam edaran, dalam RM juta"
-		},
-		{
-			"name": "note_20",
-			"title_en": "Notes: RM 20",
-			"title_ms": "Nota: RM 20",
-			"description_en": "[Float] Total value of RM 20 notes in circulation, in RM millions",
-			"description_ms": "[Apung] Nilai keseluruhan nota RM 20 dalam edaran, dalam RM juta"
-		},
-		{
-			"name": "note_50",
-			"title_en": "Notes: RM 50",
-			"title_ms": "Nota: RM 50",
-			"description_en": "[Float] Total value of RM 50 notes in circulation, in RM millions",
-			"description_ms": "[Apung] Nilai keseluruhan nota RM 50 dalam edaran, dalam RM juta"
-		},
-		{
-			"name": "note_100",
-			"title_en": "Notes: RM 100",
-			"title_ms": "Nota: RM 100",
-			"description_en": "[Float] Total value of RM 100 notes in circulation, in RM millions",
-			"description_ms": "[Apung] Nilai keseluruhan nota RM 100 dalam edaran, dalam RM juta"
-		},
-		{
-			"name": "note_500",
-			"title_en": "Notes: RM 500",
-			"title_ms": "Nota: RM 500",
-			"description_en": "[Float] Total value of RM 500 notes in circulation, in RM millions",
-			"description_ms": "[Apung] Nilai keseluruhan nota RM 500 dalam edaran, dalam RM juta"
-		},
-		{
-			"name": "note_1000",
-			"title_en": "Notes: RM 1000",
-			"title_ms": "Nota: RM 1000",
-			"description_en": "[Float] Total value of RM 1000 notes in circulation, in RM millions",
-			"description_ms": "[Apung] Nilai keseluruhan nota RM 1000 dalam edaran, dalam RM juta"
-		},
-		{
-			"name": "note_others",
-			"title_en": "Notes: Other",
-			"title_ms": "Nota: Other",
-			"description_en": "[Float] Total value of notes besides the ones specified in circulation, in RM millions",
-			"description_ms": "[Apung] Nilai keseluruhan nota selain daripada yang diperincikan dalam edaran, dalam RM juta"
-		},
-		{
-			"name": "coin_1",
-			"title_en": "Coins: 1 sen",
-			"title_ms": "Syiling: 1 sen",
-			"description_en": "[Float] Total value of 1 sen coins in circulation, in RM millions",
-			"description_ms": "[Apung] Nilai keseluruhan syiling 1 sen dalam edaran, dalam RM juta"
-		},
-		{
-			"name": "coin_5",
-			"title_en": "Coins: 5 sen",
-			"title_ms": "Syiling: 5 sen",
-			"description_en": "[Float] Total value of 5 sen coins in circulation, in RM millions",
-			"description_ms": "[Apung] Nilai keseluruhan syiling 5 sen dalam edaran, dalam RM juta"
-		},
-		{
-			"name": "coin_10",
-			"title_en": "Coins: 10 sen",
-			"title_ms": "Syiling: 10 sen",
-			"description_en": "[Float] Total value of 10 sen coins in circulation, in RM millions",
-			"description_ms": "[Apung] Nilai keseluruhan syiling 10 sen dalam edaran, dalam RM juta"
-		},
-		{
-			"name": "coin_20",
-			"title_en": "Coins: 20 sen",
-			"title_ms": "Syiling: 20 sen",
-			"description_en": "[Float] Total value of 20 sen coins in circulation, in RM millions",
-			"description_ms": "[Apung] Nilai keseluruhan syiling 20 sen dalam edaran, dalam RM juta"
-		},
-		{
-			"name": "coin_50",
-			"title_en": "Coins: 50 sen",
-			"title_ms": "Syiling: 50 sen",
-			"description_en": "[Float] Total value of 50 sen coins in circulation, in RM millions",
-			"description_ms": "[Apung] Nilai keseluruhan syiling 50 sen dalam edaran, dalam RM juta"
-		},
-		{
-			"name": "coin_rm1",
-			"title_en": "Coins: RM 1 (coin)",
-			"title_ms": "Syiling: RM 1 (coin)",
-			"description_en": "[Float] Total value of RM 1 (coin) coins in circulation, in RM millions",
-			"description_ms": "[Apung] Nilai keseluruhan syiling RM 1 (coin) dalam edaran, dalam RM juta"
-		},
-		{
-			"name": "coin_rm5",
-			"title_en": "Coins: RM 5 (coin)",
-			"title_ms": "Syiling: RM 5 (coin)",
-			"description_en": "[Float] Total value of RM 5 (coin) coins in circulation, in RM millions",
-			"description_ms": "[Apung] Nilai keseluruhan syiling RM 5 (coin) dalam edaran, dalam RM juta"
-		},
-		{
-			"name": "coin_others",
-			"title_en": "Coins: Other",
-			"title_ms": "Syiling: Other",
-			"description_en": "[Float] Total value of Other Coins coins in circulation, in RM millions",
-			"description_ms": "[Apung] Nilai keseluruhan syiling Other Coins dalam edaran, dalam RM juta"
-		},
-		{
-			"name": "coin_others",
-			"title_en": "Coins: Other",
-			"title_ms": "Syiling: Other",
-			"description_en": "[Float] Total value of Other Coins coins in circulation, in RM millions",
-			"description_ms": "[Apung] Nilai keseluruhan syiling Other Coins dalam edaran, dalam RM juta"
-		}
-	],
-	"dataviz": [
-		{
-			"id": "table",
-			"title_en": "Table",
-			"title_ms": "Jadual",
-			"chart_type": "TABLE",
-			"precision": 1,
-			"filter_columns": [],
-			"freeze_columns": []
-		}
-	],
-	"translations_en": {
-		"date": "Date",
-		"note_1": "Notes: RM 1",
-		"note_2": "Notes: RM 2",
-		"note_5": "Notes: RM 5",
-		"note_10": "Notes: RM 10",
-		"note_20": "Notes: RM 20",
-		"note_50": "Notes: RM 50",
-		"note_100": "Notes: RM 100",
-		"note_500": "Notes: RM 500",
-		"note_1000": "Notes: RM 1000",
-		"note_others": "Notes: Other",
-		"coin_1": "Coins: 1 sen",
-		"coin_5": "Coins: 5 sen",
-		"coin_10": "Coins: 10 sen",
-		"coin_20": "Coins: 20 sen",
-		"coin_50": "Coins: 50 sen",
-		"coin_rm1": "Coins: RM 1 (coin)",
-		"coin_rm5": "Coins: RM 5 (coin)",
-		"coin_others": "Coins: Other"
-	},
-	"translations_ms": {
-		"date": "Tarikh",
-		"note_1": "Nota: RM 1",
-		"note_2": "Nota: RM 2",
-		"note_5": "Nota: RM 5",
-		"note_10": "Nota: RM 10",
-		"note_20": "Nota: RM 20",
-		"note_50": "Nota: RM 50",
-		"note_100": "Nota: RM 100",
-		"note_500": "Nota: RM 500",
-		"note_1000": "Nota: RM 1000",
-		"note_others": "Nota: Other",
-		"coin_1": "Syiling: 1 sen",
-		"coin_5": "Syiling: 5 sen",
-		"coin_10": "Syiling: 10 sen",
-		"coin_20": "Syiling: 20 sen",
-		"coin_50": "Syiling: 50 sen",
-		"coin_rm1": "Syiling: RM 1 (coin)",
-		"coin_rm5": "Syiling: RM 5 (coin)",
-		"coin_others": "Syiling: Other"
-	},
-	"related_datasets": [
-		{
-			"id": "related_dataset_1",
-			"title_en": "Related Dataset Title in English",
-			"title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
-			"description_en": "Description of the related dataset in English",
-			"description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
-		}
-	]
+    "title_en": "Currency in Circulation",
+    "title_ms": "Mata Wang dalam Peredaran",
+    "description_en": "Value of currency in circulation by denomination, for instance RM 1, RM 5, RM 10.",
+    "description_ms": "Nilai mata wang dalam edaran mengikut denominasi, contohnya bagi nota RM1, RM5 dan RM10.",
+    "exclude_openapi": false,
+    "manual_trigger": "na",
+    "data_as_of": "2023-07-31 23:59",
+    "last_updated": "2023-08-31 23:59",
+    "next_update": "2023-09-30 23:59",
+    "methodology_en": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time. That data is summarised in this dataset at monthly frequency.",
+    "methodology_ms": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa. Data tersebut dirumuskan dalam set data ini pada frekuensi bulanan.",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs).",
+    "publication_ms": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs).",
+    "link_parquet": "https://storage.data.gov.my/finsector/currency_in_circulation.parquet",
+    "link_csv": "https://storage.data.gov.my/finsector/currency_in_circulation.csv",
+    "link_preview": "https://storage.data.gov.my/finsector/currency_in_circulation.parquet",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2000,
+    "dataset_end": 2023,
+    "data_source": [
+        "BNM"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Financial Sector",
+            "category_ms": "Sektor Kewangan",
+            "subcategory_en": "Money & Banking",
+            "subcategory_ms": "Wang & Perbankan"
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01 since the data is at monthly frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD ditetapkan sebagai 01 kerana data berfrekuensi bulanan"
+        },
+        {
+            "name": "note_1",
+            "title_en": "Notes: RM 1",
+            "title_ms": "Nota: RM 1",
+            "description_en": "[Float] Total value of RM 1 notes in circulation, in RM millions",
+            "description_ms": "[Apung] Nilai keseluruhan nota RM 1 dalam edaran, dalam RM juta"
+        },
+        {
+            "name": "note_2",
+            "title_en": "Notes: RM 2",
+            "title_ms": "Nota: RM 2",
+            "description_en": "[Float] Total value of RM 2 notes in circulation, in RM millions",
+            "description_ms": "[Apung] Nilai keseluruhan nota RM 2 dalam edaran, dalam RM juta"
+        },
+        {
+            "name": "note_5",
+            "title_en": "Notes: RM 5",
+            "title_ms": "Nota: RM 5",
+            "description_en": "[Float] Total value of RM 5 notes in circulation, in RM millions",
+            "description_ms": "[Apung] Nilai keseluruhan nota RM 5 dalam edaran, dalam RM juta"
+        },
+        {
+            "name": "note_10",
+            "title_en": "Notes: RM 10",
+            "title_ms": "Nota: RM 10",
+            "description_en": "[Float] Total value of RM 10 notes in circulation, in RM millions",
+            "description_ms": "[Apung] Nilai keseluruhan nota RM 10 dalam edaran, dalam RM juta"
+        },
+        {
+            "name": "note_20",
+            "title_en": "Notes: RM 20",
+            "title_ms": "Nota: RM 20",
+            "description_en": "[Float] Total value of RM 20 notes in circulation, in RM millions",
+            "description_ms": "[Apung] Nilai keseluruhan nota RM 20 dalam edaran, dalam RM juta"
+        },
+        {
+            "name": "note_50",
+            "title_en": "Notes: RM 50",
+            "title_ms": "Nota: RM 50",
+            "description_en": "[Float] Total value of RM 50 notes in circulation, in RM millions",
+            "description_ms": "[Apung] Nilai keseluruhan nota RM 50 dalam edaran, dalam RM juta"
+        },
+        {
+            "name": "note_100",
+            "title_en": "Notes: RM 100",
+            "title_ms": "Nota: RM 100",
+            "description_en": "[Float] Total value of RM 100 notes in circulation, in RM millions",
+            "description_ms": "[Apung] Nilai keseluruhan nota RM 100 dalam edaran, dalam RM juta"
+        },
+        {
+            "name": "note_500",
+            "title_en": "Notes: RM 500",
+            "title_ms": "Nota: RM 500",
+            "description_en": "[Float] Total value of RM 500 notes in circulation, in RM millions",
+            "description_ms": "[Apung] Nilai keseluruhan nota RM 500 dalam edaran, dalam RM juta"
+        },
+        {
+            "name": "note_1000",
+            "title_en": "Notes: RM 1000",
+            "title_ms": "Nota: RM 1000",
+            "description_en": "[Float] Total value of RM 1000 notes in circulation, in RM millions",
+            "description_ms": "[Apung] Nilai keseluruhan nota RM 1000 dalam edaran, dalam RM juta"
+        },
+        {
+            "name": "note_others",
+            "title_en": "Notes: Other",
+            "title_ms": "Nota: Other",
+            "description_en": "[Float] Total value of notes besides the ones specified in circulation, in RM millions",
+            "description_ms": "[Apung] Nilai keseluruhan nota selain daripada yang diperincikan dalam edaran, dalam RM juta"
+        },
+        {
+            "name": "coin_1",
+            "title_en": "Coins: 1 sen",
+            "title_ms": "Syiling: 1 sen",
+            "description_en": "[Float] Total value of 1 sen coins in circulation, in RM millions",
+            "description_ms": "[Apung] Nilai keseluruhan syiling 1 sen dalam edaran, dalam RM juta"
+        },
+        {
+            "name": "coin_5",
+            "title_en": "Coins: 5 sen",
+            "title_ms": "Syiling: 5 sen",
+            "description_en": "[Float] Total value of 5 sen coins in circulation, in RM millions",
+            "description_ms": "[Apung] Nilai keseluruhan syiling 5 sen dalam edaran, dalam RM juta"
+        },
+        {
+            "name": "coin_10",
+            "title_en": "Coins: 10 sen",
+            "title_ms": "Syiling: 10 sen",
+            "description_en": "[Float] Total value of 10 sen coins in circulation, in RM millions",
+            "description_ms": "[Apung] Nilai keseluruhan syiling 10 sen dalam edaran, dalam RM juta"
+        },
+        {
+            "name": "coin_20",
+            "title_en": "Coins: 20 sen",
+            "title_ms": "Syiling: 20 sen",
+            "description_en": "[Float] Total value of 20 sen coins in circulation, in RM millions",
+            "description_ms": "[Apung] Nilai keseluruhan syiling 20 sen dalam edaran, dalam RM juta"
+        },
+        {
+            "name": "coin_50",
+            "title_en": "Coins: 50 sen",
+            "title_ms": "Syiling: 50 sen",
+            "description_en": "[Float] Total value of 50 sen coins in circulation, in RM millions",
+            "description_ms": "[Apung] Nilai keseluruhan syiling 50 sen dalam edaran, dalam RM juta"
+        },
+        {
+            "name": "coin_rm1",
+            "title_en": "Coins: RM 1 (coin)",
+            "title_ms": "Syiling: RM 1 (coin)",
+            "description_en": "[Float] Total value of RM 1 (coin) coins in circulation, in RM millions",
+            "description_ms": "[Apung] Nilai keseluruhan syiling RM 1 (coin) dalam edaran, dalam RM juta"
+        },
+        {
+            "name": "coin_rm5",
+            "title_en": "Coins: RM 5 (coin)",
+            "title_ms": "Syiling: RM 5 (coin)",
+            "description_en": "[Float] Total value of RM 5 (coin) coins in circulation, in RM millions",
+            "description_ms": "[Apung] Nilai keseluruhan syiling RM 5 (coin) dalam edaran, dalam RM juta"
+        },
+        {
+            "name": "coin_others",
+            "title_en": "Coins: Other",
+            "title_ms": "Syiling: Other",
+            "description_en": "[Float] Total value of Other Coins coins in circulation, in RM millions",
+            "description_ms": "[Apung] Nilai keseluruhan syiling Other Coins dalam edaran, dalam RM juta"
+        },
+        {
+            "name": "coin_others",
+            "title_en": "Coins: Other",
+            "title_ms": "Syiling: Other",
+            "description_en": "[Float] Total value of Other Coins coins in circulation, in RM millions",
+            "description_ms": "[Apung] Nilai keseluruhan syiling Other Coins dalam edaran, dalam RM juta"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 1,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "note_1": "Notes: RM 1",
+        "note_2": "Notes: RM 2",
+        "note_5": "Notes: RM 5",
+        "note_10": "Notes: RM 10",
+        "note_20": "Notes: RM 20",
+        "note_50": "Notes: RM 50",
+        "note_100": "Notes: RM 100",
+        "note_500": "Notes: RM 500",
+        "note_1000": "Notes: RM 1000",
+        "note_others": "Notes: Other",
+        "coin_1": "Coins: 1 sen",
+        "coin_5": "Coins: 5 sen",
+        "coin_10": "Coins: 10 sen",
+        "coin_20": "Coins: 20 sen",
+        "coin_50": "Coins: 50 sen",
+        "coin_rm1": "Coins: RM 1 (coin)",
+        "coin_rm5": "Coins: RM 5 (coin)",
+        "coin_others": "Coins: Other"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "note_1": "Nota: RM 1",
+        "note_2": "Nota: RM 2",
+        "note_5": "Nota: RM 5",
+        "note_10": "Nota: RM 10",
+        "note_20": "Nota: RM 20",
+        "note_50": "Nota: RM 50",
+        "note_100": "Nota: RM 100",
+        "note_500": "Nota: RM 500",
+        "note_1000": "Nota: RM 1000",
+        "note_others": "Nota: Other",
+        "coin_1": "Syiling: 1 sen",
+        "coin_5": "Syiling: 5 sen",
+        "coin_10": "Syiling: 10 sen",
+        "coin_20": "Syiling: 20 sen",
+        "coin_50": "Syiling: 50 sen",
+        "coin_rm1": "Syiling: RM 1 (coin)",
+        "coin_rm5": "Syiling: RM 5 (coin)",
+        "coin_others": "Syiling: Other"
+    },
+    "related_datasets": [
+        {
+            "id": "related_dataset_1",
+            "title_en": "Related Dataset Title in English",
+            "title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
+            "description_en": "Description of the related dataset in English",
+            "description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
+        }
+    ]
 }

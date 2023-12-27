@@ -1,193 +1,207 @@
 {
-	"bucket": "hies",
-	"filename": "hies_district",
-	"title_en": "Household Income and Expenditure: Administrative Districts",
-	"title_ms": "Pendapatan dan Perbelanjaan Isi Rumah: Daerah Pentadbiran",
-	"description_en": "This dataset tabulates household-level income, expenditure, poverty, and income inequality at administrative district level. It is based on the Household Income & Expenditure Surveys (HIES) carried in 2022.",
-	"description_ms": "Set data ini menunjukkan pendapatan, perbelanjaan, ketidaksamaan pendapatan, dan kadar kemiskinan bagi isi rumah di peringkat daerah pentadbiran. Data ini dihasilkan berdasarkan Survei Pendapatan dan Isi Rumah (HIES) yang dilaksanakan pada tahun 2022.",
-	"exclude_openapi": false,
-	"manual_trigger": "na",
-	"data_as_of": "2022",
-	"last_updated": "2023-07-28 12:00",
-	"next_update": "-",
-	"methodology_en": "This data is is based on Household Income Surveys (HIS) and Household Income & Expenditure Surveys (HIES) carried out from 1970 to 2022, the latest of which is HIES 2022. The survey is carried out at least twice in a rolling five-year period to produce representative data regarding income, poverty and access to basic amenities for Malaysian households.",
-	"methodology_ms": "Data ini dihasilkan berdasarkan Survei Pendapatan Isi Rumah (HIS) serta Survei Pendapatan dan Perbelanjaan Isi Rumah (HIES) yang dilaksanakan dari tahun 1970 ke 2022, dengan survei yang terkini dilaksanakan pada tahun 2022. Survei itu dilaksanakan dua kali dalam tempoh lima tahun bagi tujuan menghasilkan data pendapatan, kemiskinan dan akses kepada kemudahan asas bagi isi rumah warganegara.",
-	"caveat_en": "For a full account of the relative standard errors for the survey as well as the detailed survey methodology, please refer to the [HIES Technical Notes](https://storage.googleapis.com/dosm-public-publications/technote_hies_income_en.pdf).",
-	"caveat_ms": "Untuk mendapat butiran penuh tentang ralat piawai survei serta metodologi yang terperinci, sila rujuk kepada [Nota Teknikal HIES](https://storage.googleapis.com/dosm-public-publications/technote_hies_income_bm.pdf).",
-	"publication_en": "The [Household Income & Expenditure Survey Report, 2022](https://storage.googleapis.com/dosm-public-publications/multiyear_2022_hies.pdf).",
-	"publication_ms": "[Laporan Survei Pendapatan dan Perbelanjaan Isi Rumah, 2022](https://storage.googleapis.com/dosm-public-publications/multiyear_2022_hies.pdf).",
-	"link_parquet": "https://storage.dosm.gov.my/hies/hies_district.parquet",
-	"link_csv": "https://storage.dosm.gov.my/hies/hies_district.csv",
-	"link_preview": "https://storage.dosm.gov.my/hies/hies_district.parquet",
-	"frequency": "YEARLY",
-	"geography": ["DISTRICT"],
-	"demography": [],
-	"dataset_begin": "2022",
-	"dataset_end": "2022",
-	"data_source": ["DOSM"],
-	"site_category": [
-		{
-			"site": "datagovmy",
-			"category_en": "Households",
-			"category_ms": "Isi Rumah",
-			"subcategory_en": "Income & Expenditure",
-			"subcategory_ms": "Pendapatan & Perbelanjaan"
-		},
-		{
-			"site": "opendosm",
-			"category_en": "Households",
-			"category_ms": "Isi Rumah",
-			"subcategory_en": "Income & Expenditure",
-			"subcategory_ms": "Pendapatan & Perbelanjaan"
-		}
-	],
-	"fields": [
-		{
-			"name": "date",
-			"title_en": "Date",
-			"title_ms": "Tarikh",
-			"description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as this is annual data",
-			"description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01 kerana ini adalah data tahunan"
-		},
-		{
-			"name": "state",
-			"title_en": "State",
-			"title_ms": "Negeri",
-			"description_en": "[Categorical] One of 16 states",
-			"description_ms": "[Kategoril] Satu daripada 16 negeri"
-		},
-		{
-			"name": "district",
-			"title_en": "District",
-			"title_ms": "Daerah",
-			"description_en": "[Categorical] One of 160 administrative districts, including the 4 states (Perlis and the 3 Federal Territories) which do not have subdivisions",
-			"description_ms": "[Kategori] Satu daripada 160 daerah pentadbiran, termasuk 4 negeri (Perlis dan 3 Wilayah Persekutuan) yang tidak dipecahkan lagi"
-		},
-		{
-			"name": "income_mean",
-			"title_en": "Mean Income",
-			"title_ms": "Pendapatan Purata",
-			"description_en": "[Integer] Average (across households) gross monthly household income, in RM",
-			"description_ms": "[Integer] Purata (antara isi rumah) pendapatan kasar bulanan isi rumah, dalam RM"
-		},
-		{
-			"name": "income_median",
-			"title_en": "Median Income",
-			"title_ms": "Pendapatan Penengah",
-			"description_en": "[Integer] Median (across households) gross monthly household income, in RM",
-			"description_ms": "[Integer] Penengah (antara isi rumah) pendapatan kasar bulanan isi rumah, dalam RM"
-		},
-		{
-			"name": "expenditure_mean",
-			"title_en": "Mean Expenditure",
-			"title_ms": "Perbelanjaan Purata",
-			"description_en": "[Integer] Average (across households) gross monthly household expenditure, in RM",
-			"description_ms": "[Integer] Purata (antara isi rumah) perbelanjaan kasar bulanan isi rumah, dalam RM"
-		},
-		{
-			"name": "gini",
-			"title_en": "Gini Coefficient",
-			"title_ms": "Pekali Gini",
-			"description_en": "[Float] Gini coefficient, with higher values indicating greater inequality of income between households",
-			"description_ms": "[Apung] Pekali gini, dengan nilai yang lebih tinggi melambangkan ketidaksaksamaan pendapatan yang lebih antara isi rumah"
-		},
-		{
-			"name": "poverty",
-			"title_en": "Poverty Rate",
-			"title_ms": "Kadar Kemiskinan",
-			"description_en": "[Float] Proportion of households with monthly income below the Poverty Line Income (PLI)",
-			"description_ms": "[Apung] Nisbah isi rumah dengan pendapatan bulanan yang rendah daripada Pendapatan Garis Kemiskinan (PGK)"
-		}
-	],
-	"dataviz": [
-		{
-			"id": "table",
-			"title_en": "Table",
-			"title_ms": "Jadual",
-			"chart_type": "TABLE",
-			"precision": {
-				"default": 0,
-				"columns": {
-					"gini": 3,
-					"poverty": 1
-				}
-			},
-			"filter_columns": [],
-			"freeze_columns": []
-		},
-		{
-			"id": "income_mean",
-			"title_en": "Mean Income (RM)",
-			"title_ms": "Pendapatan Purata (RM)",
-			"chart_type": "CHOROPLETH",
-			"x": "district",
-			"y": "income_mean",
-			"precision": 0,
-			"color": "blues",
-			"geojson": "district"
-		},
-		{
-			"id": "income_median",
-			"title_en": "Median Income (RM)",
-			"title_ms": "Pendapatan Penengah (RM)",
-			"chart_type": "CHOROPLETH",
-			"x": "district",
-			"y": "income_median",
-			"precision": 0,
-			"color": "blues",
-			"geojson": "district"
-		},
-		{
-			"id": "expenditure_mean",
-			"title_en": "Mean Expenditure (RM)",
-			"title_ms": "Perbelanjaan Purata (RM)",
-			"chart_type": "CHOROPLETH",
-			"x": "district",
-			"y": "expenditure_mean",
-			"precision": 0,
-			"color": "purples",
-			"geojson": "district"
-		},
-		{
-			"id": "gini",
-			"title_en": "Gini Coefficient",
-			"title_ms": "Pekali Gini",
-			"chart_type": "CHOROPLETH",
-			"x": "district",
-			"y": "gini",
-			"precision": 3,
-			"color": "reds",
-			"geojson": "district"
-		},
-		{
-			"id": "poverty",
-			"title_en": "Poverty Rate (%)",
-			"title_ms": "Kadar Kemiskinan (%)",
-			"chart_type": "CHOROPLETH",
-			"x": "district",
-			"y": "poverty",
-			"precision": 1,
-			"color": "reds",
-			"geojson": "district"
-		}
-	],
-	"translations_en": {
-		"date": "Date",
-		"state": "State",
-		"district": "District"
-	},
-	"translations_ms": {
-		"date": "Tarikh",
-		"state": "Negeri",
-		"district": "Daerah"
-	},
-	"related_datasets": [
-		{
-			"id": "related_dataset_1",
-			"title_en": "Related Dataset Title in English",
-			"title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
-			"description_en": "Description of the related dataset in English",
-			"description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
-		}
-	]
+    "title_en": "Household Income and Expenditure: Administrative Districts",
+    "title_ms": "Pendapatan dan Perbelanjaan Isi Rumah: Daerah Pentadbiran",
+    "description_en": "This dataset tabulates household-level income, expenditure, poverty, and income inequality at administrative district level. It is based on the Household Income & Expenditure Surveys (HIES) carried in 2022.",
+    "description_ms": "Set data ini menunjukkan pendapatan, perbelanjaan, ketidaksamaan pendapatan, dan kadar kemiskinan bagi isi rumah di peringkat daerah pentadbiran. Data ini dihasilkan berdasarkan Survei Pendapatan dan Isi Rumah (HIES) yang dilaksanakan pada tahun 2022.",
+    "exclude_openapi": false,
+    "manual_trigger": "na",
+    "data_as_of": "2022",
+    "last_updated": "2023-07-28 12:00",
+    "next_update": "-",
+    "methodology_en": "This data is is based on Household Income Surveys (HIS) and Household Income & Expenditure Surveys (HIES) carried out from 1970 to 2022, the latest of which is HIES 2022. The survey is carried out at least twice in a rolling five-year period to produce representative data regarding income, poverty and access to basic amenities for Malaysian households.",
+    "methodology_ms": "Data ini dihasilkan berdasarkan Survei Pendapatan Isi Rumah (HIS) serta Survei Pendapatan dan Perbelanjaan Isi Rumah (HIES) yang dilaksanakan dari tahun 1970 ke 2022, dengan survei yang terkini dilaksanakan pada tahun 2022. Survei itu dilaksanakan dua kali dalam tempoh lima tahun bagi tujuan menghasilkan data pendapatan, kemiskinan dan akses kepada kemudahan asas bagi isi rumah warganegara.",
+    "caveat_en": "For a full account of the relative standard errors for the survey as well as the detailed survey methodology, please refer to the [HIES Technical Notes](https://storage.googleapis.com/dosm-public-publications/technote_hies_income_en.pdf).",
+    "caveat_ms": "Untuk mendapat butiran penuh tentang ralat piawai survei serta metodologi yang terperinci, sila rujuk kepada [Nota Teknikal HIES](https://storage.googleapis.com/dosm-public-publications/technote_hies_income_bm.pdf).",
+    "publication_en": "The [Household Income & Expenditure Survey Report, 2022](https://storage.googleapis.com/dosm-public-publications/multiyear_2022_hies.pdf).",
+    "publication_ms": "[Laporan Survei Pendapatan dan Perbelanjaan Isi Rumah, 2022](https://storage.googleapis.com/dosm-public-publications/multiyear_2022_hies.pdf).",
+    "link_parquet": "https://storage.dosm.gov.my/hies/hies_district.parquet",
+    "link_csv": "https://storage.dosm.gov.my/hies/hies_district.csv",
+    "link_preview": "https://storage.dosm.gov.my/hies/hies_district.parquet",
+    "frequency": "YEARLY",
+    "geography": [
+        "DISTRICT"
+    ],
+    "demography": [],
+    "dataset_begin": 2022,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Households",
+            "category_ms": "Isi Rumah",
+            "subcategory_en": "Income & Expenditure",
+            "subcategory_ms": "Pendapatan & Perbelanjaan"
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Households",
+            "category_ms": "Isi Rumah",
+            "subcategory_en": "Income & Expenditure",
+            "subcategory_ms": "Pendapatan & Perbelanjaan"
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as this is annual data",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01 kerana ini adalah data tahunan"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states",
+            "description_ms": "[Kategoril] Satu daripada 16 negeri"
+        },
+        {
+            "name": "district",
+            "title_en": "District",
+            "title_ms": "Daerah",
+            "description_en": "[Categorical] One of 160 administrative districts, including the 4 states (Perlis and the 3 Federal Territories) which do not have subdivisions",
+            "description_ms": "[Kategori] Satu daripada 160 daerah pentadbiran, termasuk 4 negeri (Perlis dan 3 Wilayah Persekutuan) yang tidak dipecahkan lagi"
+        },
+        {
+            "name": "income_mean",
+            "title_en": "Mean Income",
+            "title_ms": "Pendapatan Purata",
+            "description_en": "[Integer] Average (across households) gross monthly household income, in RM",
+            "description_ms": "[Integer] Purata (antara isi rumah) pendapatan kasar bulanan isi rumah, dalam RM"
+        },
+        {
+            "name": "income_median",
+            "title_en": "Median Income",
+            "title_ms": "Pendapatan Penengah",
+            "description_en": "[Integer] Median (across households) gross monthly household income, in RM",
+            "description_ms": "[Integer] Penengah (antara isi rumah) pendapatan kasar bulanan isi rumah, dalam RM"
+        },
+        {
+            "name": "expenditure_mean",
+            "title_en": "Mean Expenditure",
+            "title_ms": "Perbelanjaan Purata",
+            "description_en": "[Integer] Average (across households) gross monthly household expenditure, in RM",
+            "description_ms": "[Integer] Purata (antara isi rumah) perbelanjaan kasar bulanan isi rumah, dalam RM"
+        },
+        {
+            "name": "gini",
+            "title_en": "Gini Coefficient",
+            "title_ms": "Pekali Gini",
+            "description_en": "[Float] Gini coefficient, with higher values indicating greater inequality of income between households",
+            "description_ms": "[Apung] Pekali gini, dengan nilai yang lebih tinggi melambangkan ketidaksaksamaan pendapatan yang lebih antara isi rumah"
+        },
+        {
+            "name": "poverty",
+            "title_en": "Poverty Rate",
+            "title_ms": "Kadar Kemiskinan",
+            "description_en": "[Float] Proportion of households with monthly income below the Poverty Line Income (PLI)",
+            "description_ms": "[Apung] Nisbah isi rumah dengan pendapatan bulanan yang rendah daripada Pendapatan Garis Kemiskinan (PGK)"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": {
+                    "default": 0,
+                    "columns": {
+                        "gini": 3,
+                        "poverty": 1
+                    }
+                },
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "income_mean",
+            "title_en": "Mean Income (RM)",
+            "title_ms": "Pendapatan Purata (RM)",
+            "chart_type": "CHOROPLETH",
+            "config": {
+                "x": "district",
+                "y": "income_mean",
+                "precision": 0,
+                "color": "blues",
+                "geojson": "district"
+            }
+        },
+        {
+            "dataviz_id": "income_median",
+            "title_en": "Median Income (RM)",
+            "title_ms": "Pendapatan Penengah (RM)",
+            "chart_type": "CHOROPLETH",
+            "config": {
+                "x": "district",
+                "y": "income_median",
+                "precision": 0,
+                "color": "blues",
+                "geojson": "district"
+            }
+        },
+        {
+            "dataviz_id": "expenditure_mean",
+            "title_en": "Mean Expenditure (RM)",
+            "title_ms": "Perbelanjaan Purata (RM)",
+            "chart_type": "CHOROPLETH",
+            "config": {
+                "x": "district",
+                "y": "expenditure_mean",
+                "precision": 0,
+                "color": "purples",
+                "geojson": "district"
+            }
+        },
+        {
+            "dataviz_id": "gini",
+            "title_en": "Gini Coefficient",
+            "title_ms": "Pekali Gini",
+            "chart_type": "CHOROPLETH",
+            "config": {
+                "x": "district",
+                "y": "gini",
+                "precision": 3,
+                "color": "reds",
+                "geojson": "district"
+            }
+        },
+        {
+            "dataviz_id": "poverty",
+            "title_en": "Poverty Rate (%)",
+            "title_ms": "Kadar Kemiskinan (%)",
+            "chart_type": "CHOROPLETH",
+            "config": {
+                "x": "district",
+                "y": "poverty",
+                "precision": 1,
+                "color": "reds",
+                "geojson": "district"
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "state": "State",
+        "district": "District"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "state": "Negeri",
+        "district": "Daerah"
+    },
+    "related_datasets": [
+        {
+            "id": "related_dataset_1",
+            "title_en": "Related Dataset Title in English",
+            "title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
+            "description_en": "Description of the related dataset in English",
+            "description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
+        }
+    ]
 }

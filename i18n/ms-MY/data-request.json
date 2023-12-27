@@ -1,7 +1,11 @@
 {
-  "route": "/ms-MY/data-request",
+  "route": null,
   "sites": ["datagovmy"],
   "translation": {
+    "site": {
+      "title": "Permohonan Data",
+      "description": "Gunakan halaman ini untuk meminta data dan mendapatkan kemas kini yang telus pada tiket anda!"
+    },
     "header": "Beritahu kami apa yang anda perlukan",
     "description_line1": "Kerja kami tidak pernah selesai, dan kami mahu arah tuju kami dibimbing oleh pengguna kami.",
     "description_line2": "Gunakan halaman ini untuk meminta data dan mendapatkan kemas kini yang telus pada tiket anda!",
@@ -11,21 +15,29 @@
     "status": {
       "all": "Semua Tiket",
       "under_review": "Dalam Semakan",
+      "under_review_modal": "Permintaan ini sedang diproses. Status permintaan ini akan dikemas kini di laman ini apabila terdapat sebarang kemas kini. Nantikan!",
       "in_progress": "Sedang Diuruskan",
       "data_published": "Data Diterbitkan",
-      "rejected": "Ditolak"
+      "rejected": "Ditolak",
+      "rejected_modal": "Permintaan ini telah ditolak atas sebab yang berikut"
     },
     "table": {
       "status": "Status",
       "title": "Tajuk dataset",
       "description": "Penerangan dataset",
-      "data_owner": "Pemilik data"
+      "data_owner": "Pemilik data",
+      "date_created": "Tarikh dicipta",
+      "subscribe": ""
     },
     "request_modal": {
       "title": "Mohon data",
+      "title_subscribe": "Ikuti perkembangan tiket ini",
       "subtitle": "Isi borang dibawah ini:",
+      "subtitle_subscribe": "Berminat dengan tiket ini? Isi borang dibawah dan dapatkan perkembangan tiket ini melalui emel.",
       "success_title": "Permohonan anda telah berjaya dihantar untuk semakan!",
-      "success_description": "Anda boleh terus menyemak tiket permohonan data anda untuk kemas kini terkini."
+      "success_title_subscribe": "Berjaya mengikuti perkembangan tiket ini",
+      "success_description": "Anda boleh terus menyemak tiket permohonan data anda untuk kemas kini terkini.",
+      "success_description_subscribe": "Anda akan menerima emel apabila terdapat perkembangan untuk tiket ini."
     },
     "success_modal": {
       "title": "Data yang anda mohon kini tersedia secara langsung!",
