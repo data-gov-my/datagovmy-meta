@@ -1,6 +1,6 @@
 {
     "file": {
-        "manual_trigger": "2023-12-31 12:33:42.624788",
+        "manual_trigger": "2023-12-31 16:45:43.790311",
         "exclude_openapi": false,
         "bucket": "healthcare",
         "file_name": "covid_cases",
