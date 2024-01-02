@@ -1,0 +1,29 @@
+{
+  "route": "/ms-MY/dashboard/padu-tracker",
+  "sites": ["opendosm"],
+  "translation": {
+    "header": "Pangkalan Data Utama (PADU)",
+    "description": "Kementerian Ekonomi memperkenalkan Pangkalan Data Utama (PADU) – pangkalan data bersepadu yang pertama dalam sejarah Malaysia. PADU menggabungkan pelbagai set data daripada sumber-sumber yang berbeza untuk meningkatkan kebolehcapaian dan integrasi data. PADU akan menjadi asas untuk pemahaman holistik dalam merangka dasar dan inisiatif bagi memajukan negara termasuk pemberian bantuan subsidi kepada golongan yang paling memerlukan serta ke arah pembaharuan kebajikan sosial. Selain itu, pada masa depan, data yang diagregasi boleh digunapakai oleh syarikat dan usahawan untuk menjalankan analisis, merangka strategi dan membuat keputusan yang lebih baik.",
+    "section_timeseries": {
+      "title": "Bagaimanakah trend pengambilan PADU?",
+      "description": ""
+    },
+    "section_heatmap": {
+      "title": "Ringkasan metrik utama mengikut jantina dan kumpulan umur"
+    },
+    "section_choropleth": {
+      "title": "Bagaimanakah kadar pengambilan mengikut negeri?",
+      "description": "Statistik ini dihasilkan berdasarkan lokasi kediaman individu. Contohnya, akaun seseorang individu yang bekerja di Kuala Lumpur tetapi tinggal di Selangor akan dikira bawah Selangor."
+    },
+    "keys": {
+      "activations": "Pengaktifan Akaun",
+      "submissions": "Penyerahan Data",
+      "daily": "Harian",
+      "cumul": "Kumulatif",
+      "activations_rate": "Kadar Pengaktifan",
+      "submissions_rate": "Kadar Penyerahan Data",
+      "abs": "Mutlak",
+      "rate": "Kadar"
+    }
+  }
+}
