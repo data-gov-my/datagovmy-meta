@@ -129,11 +129,13 @@
                     ],
                     "translations": {
                         "en": {
+                            "y1": "Registrations",
                             "state": "State",
                             "date": "Date",
                             "registrations": "Registrations"
                         },
                         "bm": {
+                            "y1": "Pendaftaran",
                             "state": "Negeri",
                             "date": "Tarikh",
                             "registrations": "Pendaftaran"
