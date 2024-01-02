@@ -3,7 +3,7 @@
   "sites": ["opendosm"],
   "translation": {
     "header": "Pangkalan Data Utama (PADU)",
-    "description": "Kementerian Ekonomi memperkenalkan Pangkalan Data Utama (PADU) – pangkalan data bersepadu yang pertama dalam sejarah Malaysia. PADU menggabungkan pelbagai set data daripada sumber-sumber yang berbeza untuk meningkatkan kebolehcapaian dan integrasi data. PADU akan menjadi asas untuk pemahaman holistik dalam merangka dasar dan inisiatif bagi memajukan negara termasuk pemberian bantuan subsidi kepada golongan yang paling memerlukan serta ke arah pembaharuan kebajikan sosial. Selain itu, pada masa depan, data yang diagregasi boleh digunapakai oleh syarikat dan usahawan untuk menjalankan analisis, merangka strategi dan membuat keputusan yang lebih baik.",
+    "description": "The Ministry of Economy introduced the Pangkalan Data Utama (PADU) – the first integrated database in Malaysian history. PADU combines multiple data sets from different sources to improve accessibility and data integration. PADU will be the basis for a holistic understanding in the framework of policies and initiatives to develop the country including the provision of assistance to the most needy as well as towards the reform of social welfare. In addition, in the future, aggregated data can be used by companies and entrepreneurs to conduct analysis, strategize and make better decisions.",
     "section_timeseries": {
       "title": "How is take-up of PADU trending?",
       "description": ""
@@ -23,7 +23,13 @@
       "activations_rate": "Activation Rate",
       "submissions_rate": "Data Submission Rate",
       "abs": "Absolute",
-      "rate": "Rate"
+      "rate": "Rate",
+      "in_db_male": "In Database (Male)",
+      "in_db_female": "In Database (Female)",
+      "activated_male": "Activated (Male)",
+      "activated_female": "Activated (Female)",
+      "submitted_male": "Submitted (Male)",
+      "submitted_female": "Submitted (Female)"
     }
   }
 }
