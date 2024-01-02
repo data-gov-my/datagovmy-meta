@@ -1,7 +1,7 @@
 {
     "file": {
         "manual_trigger": "na",
-        "exclude_openapi": false,
+        "exclude_openapi": true,
         "bucket": "healthcare",
         "file_name": "vaxreg_covid_demog",
         "category": "HEALTHCARE",
