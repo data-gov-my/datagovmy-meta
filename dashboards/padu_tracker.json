@@ -51,7 +51,7 @@
 			"chart_type": "heatmap_chart",
 			"chart_source": "https://storage.dosm.gov.my/dashboards/padu_heattable.parquet",
 			"data_as_of": "2024-01-01 23:59",
-			"api_type": "static",
+			"api_type": "dynamic",
 			"api_params": ["state"],
 			"variables": {
 				"keys": ["state", "variable"],
