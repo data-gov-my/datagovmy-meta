@@ -1,0 +1,146 @@
+{
+    "file": {
+        "manual_trigger": "na",
+        "exclude_openapi": false,
+        "bucket": "healthcare",
+        "file_name": "vaxreg_covid",
+        "category": "HEALTHCARE",
+        "category_en": "Healthcare",
+        "category_bm": "Kesihatan",
+        "subcategory": "HEALTHCARE_INF",
+        "subcategory_en": "Infectious Diseases",
+        "subcategory_bm": "Penyakit Berjangkit",
+        "category_kkm": "HEALTHCARE_INF",
+        "category_kkm_en": "Infectious Diseases",
+        "category_kkm_bm": "Penyakit Berjangkit",
+        "subcategory_kkm": "COVID",
+        "subcategory_kkm_en": "COVID-19",
+        "subcategory_kkm_bm": "COVID-19",
+        "description": {
+            "en": "Daily registrations for the COVID-19 vaccine via MySejahtera, at national and state level.",
+            "bm": "Pendaftaran harian melalui MySejahtera bagi vaksin COVID-19 di peringkat kebangsaan dan negeri."
+        },
+        "link_parquet": "https://storage.data.gov.my/healthcare/vaxreg_covid.parquet",
+        "link_csv": "https://storage.data.gov.my/healthcare/vaxreg_covid.csv",
+        "link_preview": "https://storage.data.gov.my/healthcare/vaxreg_covid.parquet",
+        "variables": [
+            {
+                "id": -1,
+                "name": "state",
+                "title_en": "State",
+                "title_bm": "Negeri",
+                "desc_en": "[Categorical] One of 16 states, or Malaysia",
+                "desc_bm": "[Kategori] Satu daripada 16 negeri, atau Malaysia"
+            },
+            {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] Date in YYYY-MM-DD format",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+            },
+            {
+                "id": -1,
+                "name": "registrations",
+                "title_en": "Registrations",
+                "title_bm": "Pendaftaran",
+                "desc_en": "[Integer] Number of individuals who registered via MySejahtera",
+                "desc_bm": "[Integer] Bilangan individu yang mendaftar melalui MySejahtera"
+            },
+            {
+                "id": 0,
+                "name": "Daily COVID-19 Vaccine Registrations by State",
+                "title_en": "Daily COVID-19 Vaccine Registrations by State",
+                "title_bm": "Pendaftaran Vaksin COVID-19 Harian mengikut Negeri",
+                "desc_en": "Daily registrations for the COVID-19 vaccine via MySejahtera, at national and state level.",
+                "desc_bm": "Pendaftaran harian melalui MySejahtera bagi vaksin COVID-19 di peringkat kebangsaan dan negeri.",
+                "catalog_data": {
+                    "catalog_filters": {
+                        "frequency": "DAILY",
+                        "geography": [
+                            "NATIONAL",
+                            "STATE"
+                        ],
+                        "demography": [],
+                        "start": "2021",
+                        "end": "2022",
+                        "data_source": [
+                            "MoH",
+                            "MySejahtera"
+                        ]
+                    },
+                    "metadata_neutral": {
+                        "data_as_of": "2022-02-22 23:59",
+                        "last_updated": "2024-01-02 09:00",
+                        "next_update": "-"
+                    },
+                    "metadata_lang": {
+                        "en": {
+                            "methodology": "This data was tabulated from 1 year's worth of anonymised individual-level registrations for the COVID-19 vaccine via MySejahtera, i.e. from the date that registrations first opened (23 Feb 2021) until 1 year later (22 Feb 2022). A small minority of records (< 0.01%) with null ages and sex were dropped from the dataset.",
+                            "caveat": "This data does not include individuals who registered via the website (vaksincovid.gov.my, now deprecated) or call centre. Although those registrations were used operationally during the program, they were intentionally excluded from this dataset due to the extremely high duplication of registrations via MySejahtera versus those two modalities. Furthermore, it should be noted that the individual's state was self-declared and unverified, and may therefore be different from the individual's state of residence, or even the state where they eventually received their vaccine. Therefore, appropriate caution should be applied when comparing registration data to actual vaccination throughput or population data.",
+                            "publication": "\u2014"
+                        },
+                        "bm": {
+                            "methodology": "Data ini dihasilkan daripada setahun data pendaftaran peringkat individu (tanpa sebarang data peribadi) untuk vaksin COVID-19 melalui MySejahtera, iaitu dari tarikh pendaftaran mula dibuka (23 Feb 2021) hingga 1 tahun kemudian (22 Feb 2022). Segelintir kecil rekod (< 0.01%) tanpa rekod umur dan jantina telah digugurkan daripada set data.",
+                            "caveat": "Data ini tidak termasuk individu yang mendaftar melalui laman web (vaksincovid.gov.my, kini sudah ditutup) atau pusat panggilan. Walaupun pendaftaran tersebut digunakan bagi operasi vaksinasi, pendaftaran melalui mod tersebut tersebut sengaja dikecualikan daripada set data ini kerana pertindihan yang sangat tinggi dengan pendaftaran melalui MySejahtera. Tambahan pula, perlu diingati bahawa negeri individu telah diisytiharkan sendiri tanpa semakan, maka mungkin berbeza daripada negeri kediaman malah negeri di mana mereka akhirnya menerima vaksin mereka. Oleh itu, anda dinasihati untuk berhati-hati sekiranya membandingkan data pendaftaran dengan data vaksinasi sebenar ataupun data populasi.",
+                            "publication": "\u2014"
+                        }
+                    },
+                    "chart": {
+                        "chart_type": "TABLE",
+                        "chart_filters": {
+                            "SLICE_BY": [
+                                "state"
+                            ],
+                            "precision": 0
+                        },
+                        "chart_variables": {
+                            "parents": [
+                                "state"
+                            ],
+                            "exclude": [],
+                            "freeze": []
+                        }
+                    },
+                    "dataviz": [
+                        {
+                            "translation_key": "registrations",
+                            "chart_type": "TIMESERIES",
+                            "chart_filters": {
+                                "SLICE_BY": [
+                                    "state"
+                                ],
+                                "precision": 0
+                            },
+                            "chart_variables": {
+                                "parents": [
+                                    "state"
+                                ],
+                                "operation": "SUM",
+                                "format": {
+                                    "x": "date",
+                                    "y": [
+                                        "registrations"
+                                    ]
+                                }
+                            }
+                        }
+                    ],
+                    "translations": {
+                        "en": {
+                            "state": "State",
+                            "date": "Date",
+                            "registrations": "Registrations"
+                        },
+                        "bm": {
+                            "state": "Negeri",
+                            "date": "Tarikh",
+                            "registrations": "Pendaftaran"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
