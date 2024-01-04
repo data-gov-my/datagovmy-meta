@@ -1,7 +1,7 @@
 {
     "title_en": "Exchange Rates",
     "title_ms": "Kadar Pertukaran Wang Asing",
-    "description_en": "Rates of exchange of the Malaysian Ringgit vis-\u00e0-vis major trading partners.",
+    "description_en": "Rates of exchange of the Malaysian Ringgit vis-à-vis major trading partners.",
     "description_ms": "Kadar pertukaran ringgit Malaysia berbanding rakan dagang utama.",
     "exclude_openapi": false,
     "manual_trigger": "2023-12-19 02:15:54.155155",
@@ -12,8 +12,8 @@
     "methodology_ms": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
     "caveat_en": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
     "caveat_ms": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
-    "publication_en": "\u2014",
-    "publication_ms": "\u2014",
+    "publication_en": "—",
+    "publication_ms": "—",
     "link_parquet": "https://storage.data.gov.my/finsector/exchangerates.parquet",
     "link_csv": "https://storage.data.gov.my/finsector/exchangerates.csv",
     "link_preview": "https://storage.data.gov.my/finsector/exchangerates_preview.parquet",
@@ -243,10 +243,12 @@
                 "filter_columns": [],
                 "precision": 2,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "myr_usd"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "myr_usd"
+                    ]
+                }
             }
         },
         {
@@ -258,10 +260,12 @@
                 "filter_columns": [],
                 "precision": 2,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "myr_rmb"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "myr_rmb"
+                    ]
+                }
             }
         },
         {
@@ -273,10 +277,12 @@
                 "filter_columns": [],
                 "precision": 2,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "myr_sgd"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "myr_sgd"
+                    ]
+                }
             }
         },
         {
@@ -288,10 +294,12 @@
                 "filter_columns": [],
                 "precision": 2,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "myr_eur"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "myr_eur"
+                    ]
+                }
             }
         },
         {
@@ -303,10 +311,12 @@
                 "filter_columns": [],
                 "precision": 2,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "myr_jpy"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "myr_jpy"
+                    ]
+                }
             }
         },
         {
@@ -318,10 +328,12 @@
                 "filter_columns": [],
                 "precision": 2,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "myr_twd"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "myr_twd"
+                    ]
+                }
             }
         }
     ],

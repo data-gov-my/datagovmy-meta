@@ -122,10 +122,12 @@
                 ],
                 "precision": 0,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "cases_new"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "cases_new"
+                    ]
+                }
             }
         },
         {
@@ -139,10 +141,12 @@
                 ],
                 "precision": 0,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "cases_import"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "cases_import"
+                    ]
+                }
             }
         },
         {
@@ -156,10 +160,12 @@
                 ],
                 "precision": 0,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "cases_recovered"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "cases_recovered"
+                    ]
+                }
             }
         },
         {
@@ -173,10 +179,12 @@
                 ],
                 "precision": 0,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "cases_active"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "cases_active"
+                    ]
+                }
             }
         },
         {
@@ -190,10 +198,12 @@
                 ],
                 "precision": 0,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "cases_cluster"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "cases_cluster"
+                    ]
+                }
             }
         }
     ],

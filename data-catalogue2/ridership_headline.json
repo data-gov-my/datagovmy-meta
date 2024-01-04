@@ -161,10 +161,12 @@
                 "filter_columns": [],
                 "precision": 0,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "bus_rkl"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "bus_rkl"
+                    ]
+                }
             }
         },
         {
@@ -176,10 +178,12 @@
                 "filter_columns": [],
                 "precision": 0,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "bus_rkn"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "bus_rkn"
+                    ]
+                }
             }
         },
         {
@@ -191,10 +195,12 @@
                 "filter_columns": [],
                 "precision": 0,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "bus_rpn"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "bus_rpn"
+                    ]
+                }
             }
         },
         {
@@ -206,10 +212,12 @@
                 "filter_columns": [],
                 "precision": 0,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "rail_lrt_ampang"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "rail_lrt_ampang"
+                    ]
+                }
             }
         },
         {
@@ -221,10 +229,12 @@
                 "filter_columns": [],
                 "precision": 0,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "rail_lrt_kj"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "rail_lrt_kj"
+                    ]
+                }
             }
         },
         {
@@ -236,10 +246,12 @@
                 "filter_columns": [],
                 "precision": 0,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "rail_monorail"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "rail_monorail"
+                    ]
+                }
             }
         },
         {
@@ -251,10 +263,12 @@
                 "filter_columns": [],
                 "precision": 0,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "rail_mrt_kajang"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "rail_mrt_kajang"
+                    ]
+                }
             }
         },
         {
@@ -266,10 +280,12 @@
                 "filter_columns": [],
                 "precision": 0,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "rail_mrt_pjy"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "rail_mrt_pjy"
+                    ]
+                }
             }
         },
         {
@@ -281,10 +297,12 @@
                 "filter_columns": [],
                 "precision": 0,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "rail_ets"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "rail_ets"
+                    ]
+                }
             }
         },
         {
@@ -296,10 +314,12 @@
                 "filter_columns": [],
                 "precision": 0,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "rail_intercity"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "rail_intercity"
+                    ]
+                }
             }
         },
         {
@@ -311,10 +331,12 @@
                 "filter_columns": [],
                 "precision": 0,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "rail_komuter"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "rail_komuter"
+                    ]
+                }
             }
         },
         {
@@ -326,10 +348,12 @@
                 "filter_columns": [],
                 "precision": 0,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "rail_komuter_utara"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "rail_komuter_utara"
+                    ]
+                }
             }
         },
         {
@@ -341,10 +365,12 @@
                 "filter_columns": [],
                 "precision": 0,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "rail_tebrau"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "rail_tebrau"
+                    ]
+                }
             }
         }
     ],

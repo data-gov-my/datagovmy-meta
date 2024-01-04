@@ -115,10 +115,12 @@
                 ],
                 "precision": 0,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "cases_unvax"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "cases_unvax"
+                    ]
+                }
             }
         },
         {
@@ -132,10 +134,12 @@
                 ],
                 "precision": 0,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "cases_pvax"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "cases_pvax"
+                    ]
+                }
             }
         },
         {
@@ -149,10 +153,12 @@
                 ],
                 "precision": 0,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "cases_fvax"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "cases_fvax"
+                    ]
+                }
             }
         },
         {
@@ -166,10 +172,12 @@
                 ],
                 "precision": 0,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "cases_boost"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "cases_boost"
+                    ]
+                }
             }
         }
     ],

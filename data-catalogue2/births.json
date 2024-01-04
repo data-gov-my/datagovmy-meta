@@ -80,10 +80,12 @@
                 "filter_columns": [],
                 "precision": 0,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "births"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "births"
+                    ]
+                }
             }
         }
     ],

@@ -118,11 +118,13 @@
             "title_ms": "Pendapatan Purata (RM)",
             "chart_type": "CHOROPLETH",
             "config": {
-                "x": "state",
-                "y": "income_mean",
                 "precision": 0,
                 "color": "blues",
-                "geojson": "state"
+                "geojson": "state",
+                "format": {
+                    "x": "state",
+                    "y": "income_mean"
+                }
             }
         },
         {
@@ -131,11 +133,13 @@
             "title_ms": "Pendapatan Penengah (RM)",
             "chart_type": "CHOROPLETH",
             "config": {
-                "x": "state",
-                "y": "income_median",
                 "precision": 0,
                 "color": "blues",
-                "geojson": "state"
+                "geojson": "state",
+                "format": {
+                    "x": "state",
+                    "y": "income_median"
+                }
             }
         },
         {
@@ -144,11 +148,13 @@
             "title_ms": "Perbelanjaan Purata (RM)",
             "chart_type": "CHOROPLETH",
             "config": {
-                "x": "state",
-                "y": "expenditure_mean",
                 "precision": 0,
                 "color": "purples",
-                "geojson": "state"
+                "geojson": "state",
+                "format": {
+                    "x": "state",
+                    "y": "expenditure_mean"
+                }
             }
         },
         {
@@ -157,11 +163,13 @@
             "title_ms": "Pekali Gini",
             "chart_type": "CHOROPLETH",
             "config": {
-                "x": "state",
-                "y": "gini",
                 "precision": 3,
                 "color": "reds",
-                "geojson": "state"
+                "geojson": "state",
+                "format": {
+                    "x": "state",
+                    "y": "gini"
+                }
             }
         },
         {
@@ -170,11 +178,13 @@
             "title_ms": "Kadar Kemiskinan (%)",
             "chart_type": "CHOROPLETH",
             "config": {
-                "x": "state",
-                "y": "poverty",
                 "precision": 1,
                 "color": "reds",
-                "geojson": "state"
+                "geojson": "state",
+                "format": {
+                    "x": "state",
+                    "y": "poverty"
+                }
             }
         }
     ],

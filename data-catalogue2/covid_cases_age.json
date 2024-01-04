@@ -185,10 +185,12 @@
                 ],
                 "precision": 0,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "cases_child"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "cases_child"
+                    ]
+                }
             }
         },
         {
@@ -202,10 +204,12 @@
                 ],
                 "precision": 0,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "cases_adolescent"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "cases_adolescent"
+                    ]
+                }
             }
         },
         {
@@ -219,10 +223,12 @@
                 ],
                 "precision": 0,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "cases_adult"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "cases_adult"
+                    ]
+                }
             }
         },
         {
@@ -236,10 +242,12 @@
                 ],
                 "precision": 0,
                 "operation": "SUM",
-                "x": "date",
-                "y": [
-                    "cases_elderly"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "cases_elderly"
+                    ]
+                }
             }
         }
     ],

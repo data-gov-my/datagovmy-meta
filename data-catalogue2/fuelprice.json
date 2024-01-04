@@ -98,10 +98,12 @@
                 ],
                 "precision": 2,
                 "operation": "MEAN",
-                "x": "date",
-                "y": [
-                    "ron95"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "ron95"
+                    ]
+                }
             }
         },
         {
@@ -115,10 +117,12 @@
                 ],
                 "precision": 2,
                 "operation": "MEAN",
-                "x": "date",
-                "y": [
-                    "ron97"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "ron97"
+                    ]
+                }
             }
         },
         {
@@ -132,10 +136,12 @@
                 ],
                 "precision": 2,
                 "operation": "MEAN",
-                "x": "date",
-                "y": [
-                    "diesel"
-                ]
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "diesel"
+                    ]
+                }
             }
         }
     ],
