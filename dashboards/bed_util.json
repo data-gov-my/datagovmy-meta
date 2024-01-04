@@ -1,7 +1,7 @@
 {
     "dashboard_name": "bed_util",
-    "data_last_updated": "2024-01-03 01:00",
-    "data_next_update": "2024-01-04 01:00",
+    "data_last_updated": "2024-01-04 01:00",
+    "data_next_update": "2024-01-05 01:00",
     "route": "/dashboard/hospital-bed-utilisation,/ms-MY/dashboard/hospital-bed-utilisation",
     "sites": [
         "kkmnow"
@@ -14,7 +14,7 @@
             "name": "choropleth_malaysia",
             "chart_type": "choropleth_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/bedutil_choropleth_state.parquet",
-            "data_as_of": "2024-01-02 23:59",
+            "data_as_of": "2024-01-03 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -33,7 +33,7 @@
             "name": "table_facility",
             "chart_type": "snapshot_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/bedutil_table_facility.parquet",
-            "data_as_of": "2024-01-02 23:59",
+            "data_as_of": "2024-01-03 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -56,7 +56,7 @@
             "name": "timeseries_dropdown",
             "chart_type": "query_values",
             "chart_source": "https://storage.data.gov.my/dashboards/bedutil_timeseries_facility.parquet",
-            "data_as_of": "2024-01-02 23:59",
+            "data_as_of": "2024-01-03 23:59",
             "api_type": "dynamic",
             "api_params": [],
             "variables": {
@@ -69,7 +69,7 @@
             "name": "timeseries_facility",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/bedutil_timeseries_facility.parquet",
-            "data_as_of": "2024-01-02 23:59",
+            "data_as_of": "2024-01-03 23:59",
             "api_type": "dynamic",
             "api_params": [
                 "hospital"
