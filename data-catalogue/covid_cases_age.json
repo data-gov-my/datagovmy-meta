@@ -1,6 +1,6 @@
 {
     "file": {
-        "manual_trigger": "2023-12-31 16:45:43.791936",
+        "manual_trigger": "2024-01-07 19:24:23.608626",
         "exclude_openapi": false,
         "bucket": "healthcare",
         "file_name": "covid_cases_age",
@@ -174,9 +174,9 @@
                         ]
                     },
                     "metadata_neutral": {
-                        "data_as_of": "2023-12-30 23:59",
-                        "last_updated": "2023-12-31 12:00",
-                        "next_update": "2024-01-07 12:00"
+                        "data_as_of": "2024-01-06 23:59",
+                        "last_updated": "2024-01-07 12:00",
+                        "next_update": "2024-01-14 12:00"
                     },
                     "metadata_lang": {
                         "en": {
