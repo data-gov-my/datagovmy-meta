@@ -1,109 +1,109 @@
 {
-    "title_en": "Daily Births in Malaysia",
-    "title_ms": "Kelahiran Harian di Malaysia",
-    "description_en": "Number of people born daily in Malaysia, based on registrations with JPN from 1920 to the present.",
-    "description_ms": "Jumlah orang yang lahir secara harian di Malaysia, berdasarkan pendaftaran dengan JPN dari 1920 sehingga kini.",
-    "exclude_openapi": false,
-    "manual_trigger": "na",
-    "data_as_of": "2023-07-31 23:59",
-    "last_updated": "2023-09-09 08:00",
-    "next_update": "2023-10-09 08:00",
-    "methodology_en": "This dataset tabulates the number of people born in Malaysia and registered with JPN from 1920 to the present.",
-    "methodology_ms": "Set data ini menunjukkan jumlah orang yang lahir di Malaysia dan didaftarkan dengan JPN daripada 1920 sehingga kini.",
-    "caveat_en": "There are several nuances to bear in mind when using this data:\n 1. The data is derived based on births registerd with JPN. Accordingly, if a birth is not registered with JPN (for instance, if a foreigner chooses to register their child in their home country, or if a resident in a remote area does not register the birth of their child), it will not count in this dataset.\n 2. This dataset tabulate births for each day of birth, rather than the date of registration with JPN. Therefore, to ensure accuracy, the data is provided with a 1 month lag, since most people do not register their child on the exact day they are born.\n 3. Data for past dates may be revised in future updates; this represents people registering children outside a 1 month window from their date of birth. However, our update procedure should ensure that there is no significant change to the trend. ",
-    "caveat_ms": "Terdapat beberapa nuansa yang perlu diambilkira semasa menggunakan data ini.\n 1. Data ini dihasilkan berdasarkan kelahiran yang didaftarkan dengan JPN. Oleh itu, sekiranya kelahiran itu tidak didaftarkan dengan JPN (contohnya sekiranya rakyat asing hanya mendaftar kelahiran anaknya di negara asal, ataupun penduduk di kawasan yang sangat terpencil belum mendaftarkan anaknya) maka ia tidak terkandung dalam set data ini.\n 2. Set data ini memaparkan jumlah kelahiran berdasarkan tarikh lahir dan bukannya tarikh pendaftaran dengan JPN. Oleh itu, bagi memastikan ketepatan data, set data ini dibekalkan dengan lag 1 bulan, memandankan kebayankan orang tidak mendaftarkan anak mereka sejurus mereka dilahirkan.\n 3. Data bagi tarikh-tarikh lepas mungkin akan dikemaskini pada masa depan; ini menunjukkan orang mendaftarkan anak mereka di luar tempoh 1 bulan daripada tarikh kelahiran. Namun, piawaian kemaskini kami biasanya akan memastikan tiada perubahan signifikan pada tren.",
-    "publication_en": "data.gov.my features a dashboard on [Birthday Popularity](https://data.gov.my/dashboard/birthday-explorer) where you can explore this dataset in a more interactive way!",
-    "publication_ms": "data.gov.my sendiri menyediakan papan pemuka tentang [Populariti Tarikh Lahir](https://data.gov.my/dashboard/birthday-explorer) yang membolehkan anda menerokai set data ini dengan lebih interaktif!",
-    "link_parquet": "https://storage.data.gov.my/demography/births.parquet",
-    "link_csv": "https://storage.data.gov.my/demography/births.csv",
-    "link_preview": "https://storage.data.gov.my/demography/births_preview.parquet",
-    "frequency": "DAILY",
-    "geography": [
-        "NATIONAL"
-    ],
-    "demography": [],
-    "dataset_begin": 1920,
-    "dataset_end": 2023,
-    "data_source": [
-        "JPN"
-    ],
-    "site_category": [
-        {
-            "site": "datagovmy",
-            "category_en": "Demography",
-            "category_ms": "Demografi",
-            "subcategory_en": "Births",
-            "subcategory_ms": "Kelahiran"
-        }
-    ],
-    "fields": [
-        {
-            "name": "date",
-            "title_en": "Date of Birth",
-            "title_ms": "Tarikh Kelahiran",
-            "description_en": "[Date] Date of birth in YYYY-MM-DD format; note that this date represents the actual date of birth and NOT the date of registration with JPN",
-            "description_ms": "[Tarikh] Tarikh lahir dalam format YYYY-MM-DD; perlu ditekankan bahawa tarikh ini merujuk kepada tarikh kelahiran sebenar dan BUKAN tarikh pendaftaran dengan JPN"
-        },
-        {
-            "name": "state",
-            "title_en": "State",
-            "title_ms": "Negeri",
-            "description_en": "[Categorical] Name of the state, with only Malaysia included for now",
-            "description_ms": "[Kategori] Name negeri, namun hanya data untuk Malaysia disediakan buat masa ini"
-        },
-        {
-            "name": "births",
-            "title_en": "Births",
-            "title_ms": "Kelahiran",
-            "description_en": "[Integer] Number of births for the date",
-            "description_ms": "[Integer] Jumlah kelahiran pada tarikh tersebut"
-        }
-    ],
-    "dataviz": [
-        {
-            "dataviz_id": "table",
-            "title_en": "Table",
-            "title_ms": "Jadual",
-            "chart_type": "TABLE",
-            "config": {
-                "precision": 0,
-                "filter_columns": [],
-                "freeze_columns": []
-            }
-        },
-        {
-            "dataviz_id": "births",
-            "title_en": "Births",
-            "title_ms": "Kelahiran",
-            "chart_type": "TIMESERIES",
-            "config": {
-                "filter_columns": [],
-                "precision": 0,
-                "operation": "SUM",
-                "format": {
-                    "x": "date",
-                    "y": [
-                        "births"
-                    ]
-                }
-            }
-        }
-    ],
-    "translations_en": {
-        "date": "Date of Birth",
-        "state": "State"
+  "title_en": "Daily Births in Malaysia",
+  "title_ms": "Kelahiran Harian di Malaysia",
+  "description_en": "Number of people born daily in Malaysia, based on registrations with JPN from 1920 to the present.",
+  "description_ms": "Jumlah orang yang lahir secara harian di Malaysia, berdasarkan pendaftaran dengan JPN dari 1920 sehingga kini.",
+  "exclude_openapi": false,
+  "manual_trigger": "na",
+  "data_as_of": "2023-07-31 23:59",
+  "last_updated": "2023-09-09 08:00",
+  "next_update": "2023-10-09 08:00",
+  "methodology_en": "This dataset tabulates the number of people born in Malaysia and registered with JPN from 1920 to the present.",
+  "methodology_ms": "Set data ini menunjukkan jumlah orang yang lahir di Malaysia dan didaftarkan dengan JPN daripada 1920 sehingga kini.",
+  "caveat_en": "There are several nuances to bear in mind when using this data:\n 1. The data is derived based on births registerd with JPN. Accordingly, if a birth is not registered with JPN (for instance, if a foreigner chooses to register their child in their home country, or if a resident in a remote area does not register the birth of their child), it will not count in this dataset.\n 2. This dataset tabulate births for each day of birth, rather than the date of registration with JPN. Therefore, to ensure accuracy, the data is provided with a 1 month lag, since most people do not register their child on the exact day they are born.\n 3. Data for past dates may be revised in future updates; this represents people registering children outside a 1 month window from their date of birth. However, our update procedure should ensure that there is no significant change to the trend. ",
+  "caveat_ms": "Terdapat beberapa nuansa yang perlu diambilkira semasa menggunakan data ini.\n 1. Data ini dihasilkan berdasarkan kelahiran yang didaftarkan dengan JPN. Oleh itu, sekiranya kelahiran itu tidak didaftarkan dengan JPN (contohnya sekiranya rakyat asing hanya mendaftar kelahiran anaknya di negara asal, ataupun penduduk di kawasan yang sangat terpencil belum mendaftarkan anaknya) maka ia tidak terkandung dalam set data ini.\n 2. Set data ini memaparkan jumlah kelahiran berdasarkan tarikh lahir dan bukannya tarikh pendaftaran dengan JPN. Oleh itu, bagi memastikan ketepatan data, set data ini dibekalkan dengan lag 1 bulan, memandankan kebayankan orang tidak mendaftarkan anak mereka sejurus mereka dilahirkan.\n 3. Data bagi tarikh-tarikh lepas mungkin akan dikemaskini pada masa depan; ini menunjukkan orang mendaftarkan anak mereka di luar tempoh 1 bulan daripada tarikh kelahiran. Namun, piawaian kemaskini kami biasanya akan memastikan tiada perubahan signifikan pada tren.",
+  "publication_en": "data.gov.my features a dashboard on [Birthday Popularity](https://data.gov.my/dashboard/birthday-explorer) where you can explore this dataset in a more interactive way!",
+  "publication_ms": "data.gov.my sendiri menyediakan papan pemuka tentang [Populariti Tarikh Lahir](https://data.gov.my/dashboard/birthday-explorer) yang membolehkan anda menerokai set data ini dengan lebih interaktif!",
+  "link_parquet": "https://storage.data.gov.my/demography/births.parquet",
+  "link_csv": "https://storage.data.gov.my/demography/births.csv",
+  "link_preview": "https://storage.data.gov.my/demography/births_preview.parquet",
+  "frequency": "DAILY",
+  "geography": [
+    "NATIONAL"
+  ],
+  "demography": [],
+  "dataset_begin": 1920,
+  "dataset_end": 2023,
+  "data_source": [
+    "JPN"
+  ],
+  "site_category": [
+    {
+      "site": "datagovmy",
+      "category_en": "Demography",
+      "category_ms": "Demografi",
+      "subcategory_en": "Births",
+      "subcategory_ms": "Kelahiran"
+    }
+  ],
+  "fields": [
+    {
+      "name": "date",
+      "title_en": "Date of Birth",
+      "title_ms": "Tarikh Kelahiran",
+      "description_en": "[Date] Date of birth in YYYY-MM-DD format; note that this date represents the actual date of birth and NOT the date of registration with JPN",
+      "description_ms": "[Tarikh] Tarikh lahir dalam format YYYY-MM-DD; perlu ditekankan bahawa tarikh ini merujuk kepada tarikh kelahiran sebenar dan BUKAN tarikh pendaftaran dengan JPN"
     },
-    "translations_ms": {
-        "date": "Tarikh Kelahiran",
-        "state": "Negeri"
+    {
+      "name": "state",
+      "title_en": "State",
+      "title_ms": "Negeri",
+      "description_en": "[Categorical] Name of the state, with only Malaysia included for now",
+      "description_ms": "[Kategori] Name negeri, namun hanya data untuk Malaysia disediakan buat masa ini"
     },
-    "related_datasets": [
-        {
-            "id": "related_dataset_1",
-            "title_en": "Related Dataset Title in English",
-            "title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
-            "description_en": "Description of the related dataset in English",
-            "description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
+    {
+      "name": "births",
+      "title_en": "Births",
+      "title_ms": "Kelahiran",
+      "description_en": "[Integer] Number of births for the date",
+      "description_ms": "[Integer] Jumlah kelahiran pada tarikh tersebut"
+    }
+  ],
+  "dataviz": [
+    {
+      "dataviz_id": "table",
+      "title_en": "Table",
+      "title_ms": "Jadual",
+      "chart_type": "TABLE",
+      "config": {
+        "precision": 0,
+        "filter_columns": [],
+        "freeze_columns": []
+      }
+    },
+    {
+      "dataviz_id": "births",
+      "title_en": "Births",
+      "title_ms": "Kelahiran",
+      "chart_type": "TIMESERIES",
+      "config": {
+        "filter_columns": [],
+        "precision": 0,
+        "operation": "SUM",
+        "format": {
+          "x": "date",
+          "y": [
+            "births"
+          ]
         }
-    ]
+      }
+    }
+  ],
+  "translations_en": {
+    "date": "Date of Birth",
+    "state": "State"
+  },
+  "translations_ms": {
+    "date": "Tarikh Kelahiran",
+    "state": "Negeri"
+  },
+  "related_datasets": [
+    {
+      "id": "related_dataset_1",
+      "title_en": "Related Dataset Title in English",
+      "title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
+      "description_en": "Description of the related dataset in English",
+      "description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
+    }
+  ]
 }

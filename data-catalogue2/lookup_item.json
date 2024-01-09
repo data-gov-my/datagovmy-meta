@@ -1,119 +1,119 @@
 {
-    "title_en": "Item Lookup",
-    "title_ms": "Jadual Carian Barangan",
-    "description_en": "Lookup table, to be left-joined against item code in the main PriceCatcher data.",
-    "description_ms": "Jadual carian, untuk dipadankan (left-join) dengan kod barang (item code) dalam dataset PriceCatcher utama.",
-    "exclude_openapi": true,
-    "manual_trigger": "",
-    "data_as_of": "2023-11-09 23:59",
-    "last_updated": "-",
-    "next_update": "-",
-    "methodology_en": " Prices are collected and verified by groundstaff on a daily basis, with over 2 million prices collected every month.",
-    "methodology_ms": "Harga dipungut dah disahkan oleh staf di lapangan, dengan lebih 2 juta harga dipungut setiap bulan.",
-    "caveat_en": "This data is collected for the purpose of price surveillance, and is excellent for high-frequency analysis of specific items in specific locations. Inflation surveillance requires a different approach, in particular to ensure proper representativeness. Inflation analysis should be conducted using DOSM's CPI data.",
-    "caveat_ms": "Data ini dipungut bagi tujuan survelan harga, maka amat bersesuaian untuk analisa barangan khusus di lokasi yang khusus, pada frekuensi yang tinggi. Namun, survelan inflasi memerlukan pendekatan yang berbeza bagi memastikan keterwakilan data. Sebarang analisa inflasi harus menggunakan data IHP yang diterbitkan oleh DOSM.",
-    "publication_en": "—",
-    "publication_ms": "—",
-    "link_parquet": "https://storage.data.gov.my/pricecatcher/lookup_item.parquet",
-    "link_csv": "https://storage.data.gov.my/pricecatcher/lookup_item.csv",
-    "link_preview": "https://storage.data.gov.my/pricecatcher/lookup_item_preview.parquet",
-    "frequency": "INFREQUENT",
-    "geography": [
-        "DISTRICT"
-    ],
-    "demography": [],
-    "dataset_begin": 2023,
-    "dataset_end": 2023,
-    "data_source": [
-        "KPDN"
-    ],
-    "site_category": [
-        {
-            "site": "datagovmy",
-            "category_en": "Prices",
-            "category_ms": "Harga",
-            "subcategory_en": "PriceCatcher",
-            "subcategory_ms": "PriceCatcher"
-        },
-        {
-            "site": "opendosm",
-            "category_en": "Prices",
-            "category_ms": "Harga",
-            "subcategory_en": "PriceCatcher",
-            "subcategory_ms": "PriceCatcher"
-        }
-    ],
-    "fields": [
-        {
-            "name": "item_code",
-            "title_en": "Item Code",
-            "title_ms": "Kod Barang",
-            "description_en": "[Integer] Column for left-join",
-            "description_ms": "[Integer] Kolum untuk padanan"
-        },
-        {
-            "name": "item",
-            "title_en": "Item Name",
-            "title_ms": "Nama Barang",
-            "description_en": "[Categorical] Name of item",
-            "description_ms": "[Kategori] Nama barang"
-        },
-        {
-            "name": "unit",
-            "title_en": "Unit of Measurement",
-            "title_ms": "Unit Ukuran",
-            "description_en": "[Categorical] Unit of measurement",
-            "description_ms": "[Kategori] Unit ukuran"
-        },
-        {
-            "name": "item_group",
-            "title_en": "Item Group",
-            "title_ms": "Kumpulan",
-            "description_en": "[Categorical] Item group",
-            "description_ms": "[Kategori] Kumpulan barangan"
-        },
-        {
-            "name": "item_category",
-            "title_en": "Item Category",
-            "title_ms": "Kategori",
-            "description_en": "[Categorical] Broad category",
-            "description_ms": "[Kategori] Kategori luas"
-        }
-    ],
-    "dataviz": [
-        {
-            "dataviz_id": "table",
-            "title_en": "Table",
-            "title_ms": "Jadual",
-            "chart_type": "TABLE",
-            "config": {
-                "precision": 0,
-                "filter_columns": [],
-                "freeze_columns": []
-            }
-        }
-    ],
-    "translations_en": {
-        "item_code": "Item Code",
-        "item": "Item Name",
-        "unit": "Unit of Measurement",
-        "item_group": "Item Group",
-        "item_category": "Item Category"
+  "title_en": "Item Lookup",
+  "title_ms": "Jadual Carian Barangan",
+  "description_en": "Lookup table, to be left-joined against item code in the main PriceCatcher data.",
+  "description_ms": "Jadual carian, untuk dipadankan (left-join) dengan kod barang (item code) dalam dataset PriceCatcher utama.",
+  "exclude_openapi": true,
+  "manual_trigger": "",
+  "data_as_of": "2023-11-09 23:59",
+  "last_updated": "-",
+  "next_update": "-",
+  "methodology_en": " Prices are collected and verified by groundstaff on a daily basis, with over 2 million prices collected every month.",
+  "methodology_ms": "Harga dipungut dah disahkan oleh staf di lapangan, dengan lebih 2 juta harga dipungut setiap bulan.",
+  "caveat_en": "This data is collected for the purpose of price surveillance, and is excellent for high-frequency analysis of specific items in specific locations. Inflation surveillance requires a different approach, in particular to ensure proper representativeness. Inflation analysis should be conducted using DOSM's CPI data.",
+  "caveat_ms": "Data ini dipungut bagi tujuan survelan harga, maka amat bersesuaian untuk analisa barangan khusus di lokasi yang khusus, pada frekuensi yang tinggi. Namun, survelan inflasi memerlukan pendekatan yang berbeza bagi memastikan keterwakilan data. Sebarang analisa inflasi harus menggunakan data IHP yang diterbitkan oleh DOSM.",
+  "publication_en": "—",
+  "publication_ms": "—",
+  "link_parquet": "https://storage.data.gov.my/pricecatcher/lookup_item.parquet",
+  "link_csv": "https://storage.data.gov.my/pricecatcher/lookup_item.csv",
+  "link_preview": "https://storage.data.gov.my/pricecatcher/lookup_item_preview.parquet",
+  "frequency": "INFREQUENT",
+  "geography": [
+    "DISTRICT"
+  ],
+  "demography": [],
+  "dataset_begin": 2023,
+  "dataset_end": 2023,
+  "data_source": [
+    "KPDN"
+  ],
+  "site_category": [
+    {
+      "site": "datagovmy",
+      "category_en": "Prices",
+      "category_ms": "Harga",
+      "subcategory_en": "PriceCatcher",
+      "subcategory_ms": "PriceCatcher"
     },
-    "translations_ms": {
-        "item_code": "Kod Barangan",
-        "item": "Nama Barangan",
-        "unit": "Unit Ukuran",
-        "item_group": "Kumpulan",
-        "item_category": "Kategori"
+    {
+      "site": "opendosm",
+      "category_en": "Prices",
+      "category_ms": "Harga",
+      "subcategory_en": "PriceCatcher",
+      "subcategory_ms": "PriceCatcher"
+    }
+  ],
+  "fields": [
+    {
+      "name": "item_code",
+      "title_en": "Item Code",
+      "title_ms": "Kod Barang",
+      "description_en": "[Integer] Column for left-join",
+      "description_ms": "[Integer] Kolum untuk padanan"
     },
-    "related_datasets": [
-        {
-            "id": "related_dataset_1",
-            "title_en": "Related Dataset Title in English",
-            "title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
-            "description_en": "Description of the related dataset in English",
-            "description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
-        }
-    ]
+    {
+      "name": "item",
+      "title_en": "Item Name",
+      "title_ms": "Nama Barang",
+      "description_en": "[Categorical] Name of item",
+      "description_ms": "[Kategori] Nama barang"
+    },
+    {
+      "name": "unit",
+      "title_en": "Unit of Measurement",
+      "title_ms": "Unit Ukuran",
+      "description_en": "[Categorical] Unit of measurement",
+      "description_ms": "[Kategori] Unit ukuran"
+    },
+    {
+      "name": "item_group",
+      "title_en": "Item Group",
+      "title_ms": "Kumpulan",
+      "description_en": "[Categorical] Item group",
+      "description_ms": "[Kategori] Kumpulan barangan"
+    },
+    {
+      "name": "item_category",
+      "title_en": "Item Category",
+      "title_ms": "Kategori",
+      "description_en": "[Categorical] Broad category",
+      "description_ms": "[Kategori] Kategori luas"
+    }
+  ],
+  "dataviz": [
+    {
+      "dataviz_id": "table",
+      "title_en": "Table",
+      "title_ms": "Jadual",
+      "chart_type": "TABLE",
+      "config": {
+        "precision": 0,
+        "filter_columns": [],
+        "freeze_columns": []
+      }
+    }
+  ],
+  "translations_en": {
+    "item_code": "Item Code",
+    "item": "Item Name",
+    "unit": "Unit of Measurement",
+    "item_group": "Item Group",
+    "item_category": "Item Category"
+  },
+  "translations_ms": {
+    "item_code": "Kod Barangan",
+    "item": "Nama Barangan",
+    "unit": "Unit Ukuran",
+    "item_group": "Kumpulan",
+    "item_category": "Kategori"
+  },
+  "related_datasets": [
+    {
+      "id": "related_dataset_1",
+      "title_en": "Related Dataset Title in English",
+      "title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
+      "description_en": "Description of the related dataset in English",
+      "description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
+    }
+  ]
 }

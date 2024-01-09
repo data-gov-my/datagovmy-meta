@@ -1,182 +1,182 @@
 {
-    "title_en": "MSIC",
-    "title_ms": "MSIC",
-    "description_en": "This table provides a complete lookup for the MSIC (Malaysian Standard Industrial Classification) 2008, as applied and used in data publications in Malaysia. The MSIC is primarily used by the Department of Statistics Malaysia (DOSM), for the purpose of categorising economic data, such as during the production of GDP data.",
-    "description_ms": "Jadual ini memberi rujukan lengkap bagi MSIC (Malaysian Standard Industrial Classification) 2008), seperti yang digunapakai dalam penerbitan data di Malaysia. MCOICOP digunakan terutamanya oleh Jabatan Perangkaan Malaysia (DOSM) bagi tujuan pengkelasan data ekonomi, misalnya dalam penghasilan data KDNK.",
-    "exclude_openapi": false,
-    "manual_trigger": "na",
-    "data_as_of": "2008-12-31 23:59",
-    "last_updated": "2008-12-31 23:59",
-    "next_update": "-",
-    "methodology_en": "The MSIC was adapted from the [ISIC published by the United Nations Statistics Division](https://unstats.un.org/unsd/classifications/Econ/isic), which is used as a global reference for the classification of economic activities.",
-    "methodology_ms": "MSIC diadaptasikan daripada [ISIC yang diterbitkan oleh Bahagian Statistik Pertubuhan Bangsa-bangsa Bersatu](https://unstats.un.org/unsd/classifications/Econ/isic), yang diguna sebagai rujukan antarabanga dalam pengkelasan aktiviti ekonomi.",
-    "caveat_en": "—",
-    "caveat_ms": "—",
-    "publication_en": "—",
-    "publication_ms": "—",
-    "link_parquet": "https://storage.dosm.gov.my/dictionaries/msic.parquet",
-    "link_csv": "https://storage.dosm.gov.my/dictionaries/msic.csv",
-    "link_preview": "https://storage.dosm.gov.my/dictionaries/msic.parquet",
-    "frequency": "INFREQUENT",
-    "geography": [
-        "NATIONAL"
-    ],
-    "demography": [],
-    "dataset_begin": 2008,
-    "dataset_end": 2023,
-    "data_source": [
-        "DOSM"
-    ],
-    "site_category": [
-        {
-            "site": "datagovmy",
-            "category_en": "Data Dictionaries",
-            "category_ms": "Dictionary Data",
-            "subcategory_en": "Economy",
-            "subcategory_ms": "Ekonomi"
-        },
-        {
-            "site": "opendosm",
-            "category_en": "Data Dictionaries",
-            "category_ms": "Dictionary Data",
-            "subcategory_en": "Economy",
-            "subcategory_ms": "Ekonomi"
-        }
-    ],
-    "fields": [
-        {
-            "name": "digits",
-            "title_en": "Digits",
-            "title_ms": "Digit",
-            "description_en": "[Integer] Number of digits; this column can be used as a filter if you only want to keep 2 digit codes, for example",
-            "description_ms": "[Integer] Bilangan digit; lajur ini boleh digunakan sebagai penapis contohnya untuk menyimpan data 2 digit sahaja"
-        },
-        {
-            "name": "section",
-            "title_en": "Section",
-            "title_ms": "Seksyen",
-            "description_en": "[String] 1-digit code; unlike the 2 to 5-digit codes, this is a letter rather than than a number",
-            "description_ms": "[Rentetan] Kod 1 digit; ia adalah abjad dan bukannya nombor seperti kod 2 hingga 5 digit"
-        },
-        {
-            "name": "division",
-            "title_en": "Division",
-            "title_ms": "Bahagian",
-            "description_en": "[String] 2-digit code; please ensure that you read this column as a string, because the (intentional) leading zeroes will be dropped if read as an integer (e.g. upon opening in Microsoft Excel)",
-            "description_ms": "[Rentetan] Kod 2 digit; sila pastikan anda membaca lajur ini sebagai rentetan kerana angka sifar di hadapan akan digugurkan sekiranya dibaca sebagai integer (contohnya apabila dibuka dalam Microsoft Excel)"
-        },
-        {
-            "name": "group",
-            "title_en": "Group",
-            "title_ms": "Kumpulan",
-            "description_en": "[String] 3-digit code, with dashes where not applicable (e.g. for rows providing 2-digit definitions)",
-            "description_ms": "[Rentetan] Kod 3 digit, dengan tanda sempang apabila tidak berkaitan (contohnya untuk baris yang memberi definisi 2 digit)"
-        },
-        {
-            "name": "class",
-            "title_en": "Class",
-            "title_ms": "Kelas",
-            "description_en": "[String] 4-digit code, with dashes where not applicable (e.g. for rows providing 2 and 3-digit definitions)",
-            "description_ms": "[Rentetan] Kod 4 digit, dengan tanda sempang apabila tidak berkaitan (contohnya untuk baris yang memberi definisi 2 dan 3 digit)"
-        },
-        {
-            "name": "item",
-            "title_en": "Item",
-            "title_ms": "Barangan",
-            "description_en": "[String] 5-digit code, with dashes where not applicable (e.g. for rows providing 2, 3, and 4-digit definitions)",
-            "description_ms": "[Rentetan] Kod 4 digit, dengan tanda sempang apabila tidak berkaitan (contohnya untuk baris yang memberi definisi 2, 3, dan 4 digit)"
-        },
-        {
-            "name": "desc_en",
-            "title_en": "Description (EN)",
-            "title_ms": "Keterangan (EN)",
-            "description_en": "[String] Description for the code, in English",
-            "description_ms": "[Rentetan] Keterangan kod dalam Bahasa Inggeris"
-        },
-        {
-            "name": "exclude_en",
-            "title_en": "Exclusions (EN)",
-            "title_ms": "Pengecualian (EN)",
-            "description_en": "[String] List of inclusions, in English, provided for avoidance of doubt",
-            "description_ms": "[Rentetan] Senarai pengecualian bagi kod tersebut dalam Bahasa Inggeris, bagi tujuan mengelakkan keraguan"
-        },
-        {
-            "name": "include_en",
-            "title_en": "Inclusions (EN)",
-            "title_ms": "Kemasukan (EN)",
-            "description_en": "[String] List of exclusions, in English, provided for avoidance of doubt",
-            "description_ms": "[Rentetan] Senarai kemasukan bagi kod tersebut dalam Bahasa Inggeris, bagi tujuan mengelakkan keraguan"
-        },
-        {
-            "name": "desc_bm",
-            "title_en": "Description (BM)",
-            "title_ms": "Keterangan (BM)",
-            "description_en": "[String] Description for the code, in Malay",
-            "description_ms": "[Rentetan] Keterangan kod dalam Bahasa Melayu"
-        },
-        {
-            "name": "exclude_bm",
-            "title_en": "Exclusions (BM)",
-            "title_ms": "Pengecualian (BM)",
-            "description_en": "[String] List of inclusions, in Malay, provided for avoidance of doubt",
-            "description_ms": "[Rentetan] Senarai pengecualian bagi kod tersebut dalam Bahasa Melayu, bagi tujuan mengelakkan keraguan"
-        },
-        {
-            "name": "include_bm",
-            "title_en": "Inclusions (BM)",
-            "title_ms": "Kemasukan (BM)",
-            "description_en": "[String] List of exclusions, in Malay, provided for avoidance of doubt",
-            "description_ms": "[Rentetan] Senarai kemasukan bagi kod tersebut dalam Bahasa Melayu, bagi tujuan mengelakkan keraguan"
-        }
-    ],
-    "dataviz": [
-        {
-            "dataviz_id": "table",
-            "title_en": "Table",
-            "title_ms": "Jadual",
-            "chart_type": "TABLE",
-            "config": {
-                "precision": 0,
-                "filter_columns": [],
-                "freeze_columns": []
-            }
-        }
-    ],
-    "translations_en": {
-        "digits": "Digits",
-        "section": "Section",
-        "division": "Division",
-        "group": "Group",
-        "class": "Class",
-        "item": "Item",
-        "desc_en": "Description (EN)",
-        "exclude_en": "Exclusions (EN)",
-        "include_en": "Inclusions (EN)",
-        "desc_bm": "Description (BM)",
-        "exclude_bm": "Exclusions (BM)",
-        "include_bm": "Inclusions (BM)"
+  "title_en": "MSIC",
+  "title_ms": "MSIC",
+  "description_en": "This table provides a complete lookup for the MSIC (Malaysian Standard Industrial Classification) 2008, as applied and used in data publications in Malaysia. The MSIC is primarily used by the Department of Statistics Malaysia (DOSM), for the purpose of categorising economic data, such as during the production of GDP data.",
+  "description_ms": "Jadual ini memberi rujukan lengkap bagi MSIC (Piawaian Klasifikasi Industri Malaysia) 2008, seperti yang digunapakai dalam penerbitan data di Malaysia. MCOICOP digunakan terutamanya oleh Jabatan Perangkaan Malaysia (DOSM) bagi tujuan pengkelasan data ekonomi, misalnya dalam penghasilan data KDNK.",
+  "exclude_openapi": false,
+  "manual_trigger": "na",
+  "data_as_of": "2008-12-31 23:59",
+  "last_updated": "2008-12-31 23:59",
+  "next_update": "-",
+  "methodology_en": "The MSIC was adapted from the [ISIC published by the United Nations Statistics Division](https://unstats.un.org/unsd/classifications/Econ/isic), which is used as a global reference for the classification of economic activities.",
+  "methodology_ms": "MSIC diadaptasikan daripada [ISIC yang diterbitkan oleh Bahagian Statistik Pertubuhan Bangsa-bangsa Bersatu](https://unstats.un.org/unsd/classifications/Econ/isic), yang diguna sebagai rujukan antarabanga dalam pengkelasan aktiviti ekonomi.",
+  "caveat_en": "—",
+  "caveat_ms": "—",
+  "publication_en": "—",
+  "publication_ms": "—",
+  "link_parquet": "https://storage.dosm.gov.my/dictionaries/msic.parquet",
+  "link_csv": "https://storage.dosm.gov.my/dictionaries/msic.csv",
+  "link_preview": "https://storage.dosm.gov.my/dictionaries/msic.parquet",
+  "frequency": "INFREQUENT",
+  "geography": [
+    "NATIONAL"
+  ],
+  "demography": [],
+  "dataset_begin": 2008,
+  "dataset_end": 2023,
+  "data_source": [
+    "DOSM"
+  ],
+  "site_category": [
+    {
+      "site": "datagovmy",
+      "category_en": "Data Dictionaries",
+      "category_ms": "Dictionary Data",
+      "subcategory_en": "Economy",
+      "subcategory_ms": "Ekonomi"
     },
-    "translations_ms": {
-        "digits": "Digit",
-        "section": "Seksyen",
-        "division": "Bahagian",
-        "group": "Kumpulan",
-        "class": "Kelas",
-        "item": "Barangan",
-        "desc_en": "Keterangan (EN)",
-        "exclude_en": "Pengecualian (EN)",
-        "include_en": "Kemasukan (EN)",
-        "desc_bm": "Keterangan (BM)",
-        "exclude_bm": "Pengecualian (BM)",
-        "include_bm": "Kemasukan (BM)"
+    {
+      "site": "opendosm",
+      "category_en": "Data Dictionaries",
+      "category_ms": "Dictionary Data",
+      "subcategory_en": "Economy",
+      "subcategory_ms": "Ekonomi"
+    }
+  ],
+  "fields": [
+    {
+      "name": "digits",
+      "title_en": "Digits",
+      "title_ms": "Digit",
+      "description_en": "[Integer] Number of digits; this column can be used as a filter if you only want to keep 2 digit codes, for example",
+      "description_ms": "[Integer] Bilangan digit; lajur ini boleh digunakan sebagai penapis contohnya untuk menyimpan data 2 digit sahaja"
     },
-    "related_datasets": [
-        {
-            "id": "related_dataset_1",
-            "title_en": "Related Dataset Title in English",
-            "title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
-            "description_en": "Description of the related dataset in English",
-            "description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
-        }
-    ]
+    {
+      "name": "section",
+      "title_en": "Section",
+      "title_ms": "Seksyen",
+      "description_en": "[String] 1-digit code; unlike the 2 to 5-digit codes, this is a letter rather than than a number",
+      "description_ms": "[Rentetan] Kod 1 digit; ia adalah abjad dan bukannya nombor seperti kod 2 hingga 5 digit"
+    },
+    {
+      "name": "division",
+      "title_en": "Division",
+      "title_ms": "Bahagian",
+      "description_en": "[String] 2-digit code; please ensure that you read this column as a string, because the (intentional) leading zeroes will be dropped if read as an integer (e.g. upon opening in Microsoft Excel)",
+      "description_ms": "[Rentetan] Kod 2 digit; sila pastikan anda membaca lajur ini sebagai rentetan kerana angka sifar di hadapan akan digugurkan sekiranya dibaca sebagai integer (contohnya apabila dibuka dalam Microsoft Excel)"
+    },
+    {
+      "name": "group",
+      "title_en": "Group",
+      "title_ms": "Kumpulan",
+      "description_en": "[String] 3-digit code, with dashes where not applicable (e.g. for rows providing 2-digit definitions)",
+      "description_ms": "[Rentetan] Kod 3 digit, dengan tanda sempang apabila tidak berkaitan (contohnya untuk baris yang memberi definisi 2 digit)"
+    },
+    {
+      "name": "class",
+      "title_en": "Class",
+      "title_ms": "Kelas",
+      "description_en": "[String] 4-digit code, with dashes where not applicable (e.g. for rows providing 2 and 3-digit definitions)",
+      "description_ms": "[Rentetan] Kod 4 digit, dengan tanda sempang apabila tidak berkaitan (contohnya untuk baris yang memberi definisi 2 dan 3 digit)"
+    },
+    {
+      "name": "item",
+      "title_en": "Item",
+      "title_ms": "Barangan",
+      "description_en": "[String] 5-digit code, with dashes where not applicable (e.g. for rows providing 2, 3, and 4-digit definitions)",
+      "description_ms": "[Rentetan] Kod 4 digit, dengan tanda sempang apabila tidak berkaitan (contohnya untuk baris yang memberi definisi 2, 3, dan 4 digit)"
+    },
+    {
+      "name": "desc_en",
+      "title_en": "Description (EN)",
+      "title_ms": "Keterangan (EN)",
+      "description_en": "[String] Description for the code, in English",
+      "description_ms": "[Rentetan] Keterangan kod dalam Bahasa Inggeris"
+    },
+    {
+      "name": "exclude_en",
+      "title_en": "Exclusions (EN)",
+      "title_ms": "Pengecualian (EN)",
+      "description_en": "[String] List of inclusions, in English, provided for avoidance of doubt",
+      "description_ms": "[Rentetan] Senarai pengecualian bagi kod tersebut dalam Bahasa Inggeris, bagi tujuan mengelakkan keraguan"
+    },
+    {
+      "name": "include_en",
+      "title_en": "Inclusions (EN)",
+      "title_ms": "Kemasukan (EN)",
+      "description_en": "[String] List of exclusions, in English, provided for avoidance of doubt",
+      "description_ms": "[Rentetan] Senarai kemasukan bagi kod tersebut dalam Bahasa Inggeris, bagi tujuan mengelakkan keraguan"
+    },
+    {
+      "name": "desc_bm",
+      "title_en": "Description (BM)",
+      "title_ms": "Keterangan (BM)",
+      "description_en": "[String] Description for the code, in Malay",
+      "description_ms": "[Rentetan] Keterangan kod dalam Bahasa Melayu"
+    },
+    {
+      "name": "exclude_bm",
+      "title_en": "Exclusions (BM)",
+      "title_ms": "Pengecualian (BM)",
+      "description_en": "[String] List of inclusions, in Malay, provided for avoidance of doubt",
+      "description_ms": "[Rentetan] Senarai pengecualian bagi kod tersebut dalam Bahasa Melayu, bagi tujuan mengelakkan keraguan"
+    },
+    {
+      "name": "include_bm",
+      "title_en": "Inclusions (BM)",
+      "title_ms": "Kemasukan (BM)",
+      "description_en": "[String] List of exclusions, in Malay, provided for avoidance of doubt",
+      "description_ms": "[Rentetan] Senarai kemasukan bagi kod tersebut dalam Bahasa Melayu, bagi tujuan mengelakkan keraguan"
+    }
+  ],
+  "dataviz": [
+    {
+      "dataviz_id": "table",
+      "title_en": "Table",
+      "title_ms": "Jadual",
+      "chart_type": "TABLE",
+      "config": {
+        "precision": 0,
+        "filter_columns": [],
+        "freeze_columns": []
+      }
+    }
+  ],
+  "translations_en": {
+    "digits": "Digits",
+    "section": "Section",
+    "division": "Division",
+    "group": "Group",
+    "class": "Class",
+    "item": "Item",
+    "desc_en": "Description (EN)",
+    "exclude_en": "Exclusions (EN)",
+    "include_en": "Inclusions (EN)",
+    "desc_bm": "Description (BM)",
+    "exclude_bm": "Exclusions (BM)",
+    "include_bm": "Inclusions (BM)"
+  },
+  "translations_ms": {
+    "digits": "Digit",
+    "section": "Seksyen",
+    "division": "Bahagian",
+    "group": "Kumpulan",
+    "class": "Kelas",
+    "item": "Barangan",
+    "desc_en": "Keterangan (EN)",
+    "exclude_en": "Pengecualian (EN)",
+    "include_en": "Kemasukan (EN)",
+    "desc_bm": "Keterangan (BM)",
+    "exclude_bm": "Pengecualian (BM)",
+    "include_bm": "Kemasukan (BM)"
+  },
+  "related_datasets": [
+    {
+      "id": "related_dataset_1",
+      "title_en": "Related Dataset Title in English",
+      "title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
+      "description_en": "Description of the related dataset in English",
+      "description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
+    }
+  ]
 }
