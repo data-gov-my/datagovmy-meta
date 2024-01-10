@@ -1,209 +1,183 @@
 {
-    "file": {
-        "manual_trigger": "2024-01-04 08:14:06.061522",
-        "exclude_openapi": false,
-        "bucket": "commodities",
-        "file_name": "fuelprice",
-        "category": "PRICES",
-        "category_en": "Prices",
-        "category_bm": "Harga",
-        "subcategory": "PRICES_COMMODITY",
-        "subcategory_en": "Commodity Prices",
-        "subcategory_bm": "Harga Komoditi",
-        "description": {
-            "en": "This dataset presents the weekly retail price of RON95 petrol, RON97 petrol, and diesel in Malaysia. Since April 2017, the retail price of fuel in Malaysia has been set on a weekly basis using the Automatic Pricing Mechanism (APM). Prior to that, it changed at a monthly (or longer) frequency. The APM is designed to allow the government to monitor the effects of changes in global crude oil prices and adjust retail fuel prices to ensure the continued welfare of the rakyat.",
-            "bm": "Data ini memaparkan harga runcit mingguan bagi petrol RON95, petrol RON97 dan diesel di Malaysia. Sejak April 2017, harga runcit petrol di Malaysia telah ditetapkan pada kadar mingguan dengan menggunakan formula Mekanisme Harga Automatik (APM). Sebelum itu, ia berubah pada kadar bulanan (atau kurang kerap lagi). Formula APM dikhususkan untuk memboleh kerajaan memantau kesan perubahan harga minyak mentah global dan mengambil langkah bersesuain bagi memasitikan kebajikan rakyat terus terpelihara."
-        },
-        "link_parquet": "https://storage.data.gov.my/commodities/fuelprice.parquet",
-        "link_csv": "https://storage.data.gov.my/commodities/fuelprice.csv",
-        "link_preview": "https://storage.data.gov.my/commodities/fuelprice.parquet",
-        "variables": [
-            {
-                "id": -1,
-                "name": "series_type",
-                "title_en": "Chart Type",
-                "title_bm": "Jenis Carta",
-                "desc_en": "[categorical] Price in RM (level), or weekly change in RM (change_weekly).",
-                "desc_bm": "[Kategori] Harga dalam RM (level), ataupun perubahan harga mingguan dalam RM (change_weekly)."
-            },
-            {
-                "id": -1,
-                "name": "date",
-                "title_en": "Date",
-                "title_bm": "Tarikh",
-                "desc_en": "[Date] The date of effect of the price, in YYYY-MM-DD format",
-                "desc_bm": "[Tarikh] Tarikh harga berkuatkuasa, dalam format YYYY-MM-DD."
-            },
-            {
-                "id": -1,
-                "name": "ron95",
-                "title_en": "RON95 Petrol Price",
-                "title_bm": "Harga Petrol RON95",
-                "desc_en": "[Float] Price per litre, in RM.",
-                "desc_bm": "[Apung] Harga seliter dalam RM."
-            },
-            {
-                "id": -1,
-                "name": "ron97",
-                "title_en": "RON97 Petrol Price",
-                "title_bm": "Harga Petrol RON97",
-                "desc_en": "[Float] Price per litre, in RM.",
-                "desc_bm": "[Apung] Harga seliter dalam RM."
-            },
-            {
-                "id": -1,
-                "name": "diesel",
-                "title_en": "Diesel Price",
-                "title_bm": "Harga Diesel",
-                "desc_en": "[Float] Price per litre, in RM.",
-                "desc_bm": "[Apung] Harga seliter dalam RM."
-            },
-            {
-                "id": 0,
-                "name": "fuelprice",
-                "title_en": "Price of Petroleum & Diesel",
-                "title_bm": "Harga Petrol & Diesel",
-                "desc_en": "Weekly retail prices of RON95 petrol, RON97 petrol, and diesel in Malaysia.",
-                "desc_bm": "Harga runcit mingguan bagi petrol RON95, petrol RON97 dan diesel di Malaysia.",
-                "catalog_data": {
-                    "catalog_filters": {
-                        "frequency": "WEEKLY",
-                        "limit_frequency": true,
-                        "geography": [
-                            "NATIONAL"
-                        ],
-                        "demography": [],
-                        "start": "2017",
-                        "end": "2023",
-                        "data_source": [
-                            "MOF"
-                        ]
-                    },
-                    "metadata_neutral": {
-                        "data_as_of": "2024-01-04 00:01",
-                        "last_updated": "2024-01-03 23:59",
-                        "next_update": "2024-01-10 23:59"
-                    },
-                    "metadata_lang": {
-                        "en": {
-                            "methodology": "This dataset presents the weekly retail price of RON95 petrol, RON97 petrol, and diesel in Malaysia. Since April 2017, the retail price of fuel in Malaysia has been set on a weekly basis (except for a short period at the end of 2018 where it was announced monthly) using the Automatic Pricing Mechanism (APM). Prior to that, it changed at a monthly (or longer) frequency. The APM is designed to allow the government to monitor the effects of changes in global crude oil prices and adjust retail fuel prices to ensure the continued welfare of the rakyat.",
-                            "caveat": "Beginning 3 March 2021, the announcement of fuel prices was changed from Fridays to Wednesdays. Furthermore, because petrol and diesel prices are controlled by the government, they were not affected in the same way as non-price controlled items by the zero-rating of GST on 1 June 2018, and the subsequent implementation of SST 1 September 2018.",
-                            "publication": "[MoF's weekly press statement](https://www.mof.gov.my/portal/en/component/tags/tag/price-of-petroleum) on the retail price of petroleum products."
-                        },
-                        "bm": {
-                            "methodology": "Data ini memaparkan harga runcit mingguan bagi petrol RON95, petrol RON97 dan diesel di Malaysia. Sejak April 2017, harga runcit petrol di Malaysia telah ditetapkan pada kadar mingguan (kecuali setempoh di hujung tahun 2018 ketika harga diumumkan secara bulanan) dengan menggunakan formula Mekanisme Harga Automatik (APM). Sebelum itu, ia berubah pada kadar bulanan (atau kurang kerap lagi). Formula APM dikhususkan untuk memboleh kerajaan memantau kesan perubahan harga minyak mentah global dan mengambil langkah bersesuain bagi memasitikan kebajikan rakyat terus terpelihara.",
-                            "caveat": "Bermula 3 Mac 2021, pengumuman harga petrol dan diesel diubah dari hari Jumaat ke hari Rabu. Tambahan lagi, sekiranya ada melakukan analisis yang melibatkan data 2018, perlu diingati bahawa harga petrol dan diesel di Malaysia dikawal oleh kerajaan, maka harganya tidak berubahan seperti barangan lain yang tidak dikawal harga semasa kadar GST disifarkan pada 1 Jun 2018 dan seterusnya apabila SST berkuatkuasa pada 1 September 2018.",
-                            "publication": "[Siaran akhbar mingguan MoF](https://www.mof.gov.my/portal/ms/component/tags/tag/price-of-petroleum) mengenai harga runcit produk petroleum."
-                        }
-                    },
-                    "chart": {
-                        "chart_type": "TABLE",
-                        "chart_filters": {
-                            "SLICE_BY": [
-                                "series_type"
-                            ],
-                            "precision": 1
-                        },
-                        "chart_variables": {
-                            "parents": [
-                                "series_type"
-                            ],
-                            "exclude": [],
-                            "freeze": []
-                        }
-                    },
-                    "dataviz": [
-                        {
-                            "translation_key": "ron95-timeseries",
-                            "chart_type": "TIMESERIES",
-                            "chart_filters": {
-                                "SLICE_BY": [
-                                    "series_type"
-                                ],
-                                "precision": 2
-                            },
-                            "chart_variables": {
-                                "parents": [
-                                    "series_type"
-                                ],
-                                "operation": "MEAN",
-                                "format": {
-                                    "x": "date",
-                                    "y": [
-                                        "ron95"
-                                    ]
-                                }
-                            }
-                        },
-                        {
-                            "translation_key": "ron97-timeseries",
-                            "chart_type": "TIMESERIES",
-                            "chart_filters": {
-                                "SLICE_BY": [
-                                    "series_type"
-                                ],
-                                "precision": 2
-                            },
-                            "chart_variables": {
-                                "parents": [
-                                    "series_type"
-                                ],
-                                "operation": "MEAN",
-                                "format": {
-                                    "x": "date",
-                                    "y": [
-                                        "ron97"
-                                    ]
-                                }
-                            }
-                        },
-                        {
-                            "translation_key": "diesel-timeseries",
-                            "chart_type": "TIMESERIES",
-                            "chart_filters": {
-                                "SLICE_BY": [
-                                    "series_type"
-                                ],
-                                "precision": 2
-                            },
-                            "chart_variables": {
-                                "parents": [
-                                    "series_type"
-                                ],
-                                "operation": "MEAN",
-                                "format": {
-                                    "x": "date",
-                                    "y": [
-                                        "diesel"
-                                    ]
-                                }
-                            }
-                        }
-                    ],
-                    "translations": {
-                        "en": {
-                            "x": "Date",
-                            "y": "Price (RM)",
-                            "y1": "Price (RM)",
-                            "change_weekly": "Weekly Change",
-                            "level": "Price",
-                            "ron95-timeseries": "Price of RON95 Petrol",
-                            "ron97-timeseries": "Price of RON97 Petrol",
-                            "diesel-timeseries": "Price of Diesel"
-                        },
-                        "bm": {
-                            "x": "Tarikh",
-                            "y": "Harga (RM)",
-                            "y1": "Harga (RM)",
-                            "change_weekly": "Perubahan Mingguan",
-                            "level": "Harga",
-                            "ron95-timeseries": "Harga Petrol RON95",
-                            "ron97-timeseries": "Harga Petrol RON97",
-                            "diesel-timeseries": "Harga Diesel"
-                        }
-                    }
-                }
-            }
-        ]
-    }
+	"file": {
+		"manual_trigger": "2024-01-04 08:14:06.061522",
+		"exclude_openapi": false,
+		"bucket": "commodities",
+		"file_name": "fuelprice",
+		"category": "PRICES",
+		"category_en": "Prices",
+		"category_bm": "Harga",
+		"subcategory": "PRICES_COMMODITY",
+		"subcategory_en": "Commodity Prices",
+		"subcategory_bm": "Harga Komoditi",
+		"description": {
+			"en": "This dataset presents the weekly retail price of RON95 petrol, RON97 petrol, and diesel in Malaysia. Since April 2017, the retail price of fuel in Malaysia has been set on a weekly basis using the Automatic Pricing Mechanism (APM). Prior to that, it changed at a monthly (or longer) frequency. The APM is designed to allow the government to monitor the effects of changes in global crude oil prices and adjust retail fuel prices to ensure the continued welfare of the rakyat.",
+			"bm": "Data ini memaparkan harga runcit mingguan bagi petrol RON95, petrol RON97 dan diesel di Malaysia. Sejak April 2017, harga runcit petrol di Malaysia telah ditetapkan pada kadar mingguan dengan menggunakan formula Mekanisme Harga Automatik (APM). Sebelum itu, ia berubah pada kadar bulanan (atau kurang kerap lagi). Formula APM dikhususkan untuk memboleh kerajaan memantau kesan perubahan harga minyak mentah global dan mengambil langkah bersesuain bagi memasitikan kebajikan rakyat terus terpelihara."
+		},
+		"link_parquet": "https://storage.data.gov.my/commodities/fuelprice.parquet",
+		"link_csv": "https://storage.data.gov.my/commodities/fuelprice.csv",
+		"link_preview": "https://storage.data.gov.my/commodities/fuelprice.parquet",
+		"variables": [
+			{
+				"id": -1,
+				"name": "series_type",
+				"title_en": "Chart Type",
+				"title_bm": "Jenis Carta",
+				"desc_en": "[categorical] Price in RM (level), or weekly change in RM (change_weekly).",
+				"desc_bm": "[Kategori] Harga dalam RM (level), ataupun perubahan harga mingguan dalam RM (change_weekly)."
+			},
+			{
+				"id": -1,
+				"name": "date",
+				"title_en": "Date",
+				"title_bm": "Tarikh",
+				"desc_en": "[Date] The date of effect of the price, in YYYY-MM-DD format",
+				"desc_bm": "[Tarikh] Tarikh harga berkuatkuasa, dalam format YYYY-MM-DD."
+			},
+			{
+				"id": -1,
+				"name": "ron95",
+				"title_en": "RON95 Petrol Price",
+				"title_bm": "Harga Petrol RON95",
+				"desc_en": "[Float] Price per litre, in RM.",
+				"desc_bm": "[Apung] Harga seliter dalam RM."
+			},
+			{
+				"id": -1,
+				"name": "ron97",
+				"title_en": "RON97 Petrol Price",
+				"title_bm": "Harga Petrol RON97",
+				"desc_en": "[Float] Price per litre, in RM.",
+				"desc_bm": "[Apung] Harga seliter dalam RM."
+			},
+			{
+				"id": -1,
+				"name": "diesel",
+				"title_en": "Diesel Price",
+				"title_bm": "Harga Diesel",
+				"desc_en": "[Float] Price per litre, in RM.",
+				"desc_bm": "[Apung] Harga seliter dalam RM."
+			},
+			{
+				"id": 0,
+				"name": "fuelprice",
+				"title_en": "Price of Petroleum & Diesel",
+				"title_bm": "Harga Petrol & Diesel",
+				"desc_en": "Weekly retail prices of RON95 petrol, RON97 petrol, and diesel in Malaysia.",
+				"desc_bm": "Harga runcit mingguan bagi petrol RON95, petrol RON97 dan diesel di Malaysia.",
+				"catalog_data": {
+					"catalog_filters": {
+						"frequency": "WEEKLY",
+						"limit_frequency": true,
+						"geography": ["NATIONAL"],
+						"demography": [],
+						"start": "2017",
+						"end": "2023",
+						"data_source": ["MOF"]
+					},
+					"metadata_neutral": {
+						"data_as_of": "2024-01-04 00:01",
+						"last_updated": "2024-01-03 23:59",
+						"next_update": "2024-01-10 23:59"
+					},
+					"metadata_lang": {
+						"en": {
+							"methodology": "This dataset presents the weekly retail price of RON95 petrol, RON97 petrol, and diesel in Malaysia. Since April 2017, the retail price of fuel in Malaysia has been set on a weekly basis (except for a short period at the end of 2018 where it was announced monthly) using the Automatic Pricing Mechanism (APM). Prior to that, it changed at a monthly (or longer) frequency. The APM is designed to allow the government to monitor the effects of changes in global crude oil prices and adjust retail fuel prices to ensure the continued welfare of the rakyat.",
+							"caveat": "Beginning 3 March 2021, the announcement of fuel prices was changed from Fridays to Wednesdays. Furthermore, because petrol and diesel prices are controlled by the government, they were not affected in the same way as non-price controlled items by the zero-rating of GST on 1 June 2018, and the subsequent implementation of SST 1 September 2018.",
+							"publication": "[MoF's weekly press statement](https://www.mof.gov.my/portal/en/component/tags/tag/price-of-petroleum) on the retail price of petroleum products."
+						},
+						"bm": {
+							"methodology": "Data ini memaparkan harga runcit mingguan bagi petrol RON95, petrol RON97 dan diesel di Malaysia. Sejak April 2017, harga runcit petrol di Malaysia telah ditetapkan pada kadar mingguan (kecuali setempoh di hujung tahun 2018 ketika harga diumumkan secara bulanan) dengan menggunakan formula Mekanisme Harga Automatik (APM). Sebelum itu, ia berubah pada kadar bulanan (atau kurang kerap lagi). Formula APM dikhususkan untuk memboleh kerajaan memantau kesan perubahan harga minyak mentah global dan mengambil langkah bersesuain bagi memasitikan kebajikan rakyat terus terpelihara.",
+							"caveat": "Bermula 3 Mac 2021, pengumuman harga petrol dan diesel diubah dari hari Jumaat ke hari Rabu. Tambahan lagi, sekiranya ada melakukan analisis yang melibatkan data 2018, perlu diingati bahawa harga petrol dan diesel di Malaysia dikawal oleh kerajaan, maka harganya tidak berubahan seperti barangan lain yang tidak dikawal harga semasa kadar GST disifarkan pada 1 Jun 2018 dan seterusnya apabila SST berkuatkuasa pada 1 September 2018.",
+							"publication": "[Siaran akhbar mingguan MoF](https://www.mof.gov.my/portal/ms/component/tags/tag/price-of-petroleum) mengenai harga runcit produk petroleum."
+						}
+					},
+					"chart": {
+						"chart_type": "TABLE",
+						"chart_filters": {
+							"SLICE_BY": ["series_type"],
+							"precision": 1
+						},
+						"chart_variables": {
+							"parents": ["series_type"],
+							"exclude": [],
+							"freeze": []
+						}
+					},
+					"dataviz": [
+						{
+							"translation_key": "ron95-timeseries",
+							"chart_type": "TIMESERIES",
+							"chart_filters": {
+								"SLICE_BY": ["series_type"],
+								"precision": 2
+							},
+							"chart_variables": {
+								"parents": ["series_type"],
+								"operation": "MEAN",
+								"format": {
+									"x": "date",
+									"y": ["ron95"]
+								}
+							}
+						},
+						{
+							"translation_key": "ron97-timeseries",
+							"chart_type": "TIMESERIES",
+							"chart_filters": {
+								"SLICE_BY": ["series_type"],
+								"precision": 2
+							},
+							"chart_variables": {
+								"parents": ["series_type"],
+								"operation": "MEAN",
+								"format": {
+									"x": "date",
+									"y": ["ron97"]
+								}
+							}
+						},
+						{
+							"translation_key": "diesel-timeseries",
+							"chart_type": "TIMESERIES",
+							"chart_filters": {
+								"SLICE_BY": ["series_type"],
+								"precision": 2
+							},
+							"chart_variables": {
+								"parents": ["series_type"],
+								"operation": "MEAN",
+								"format": {
+									"x": "date",
+									"y": ["diesel"]
+								}
+							}
+						}
+					],
+					"translations": {
+						"en": {
+							"x": "Date",
+							"y": "Price (RM)",
+							"y1": "Price (RM)",
+							"change-weekly": "Weekly Change",
+							"level": "Price",
+							"ron95-timeseries": "Price of RON95 Petrol",
+							"ron97-timeseries": "Price of RON97 Petrol",
+							"diesel-timeseries": "Price of Diesel"
+						},
+						"bm": {
+							"x": "Tarikh",
+							"y": "Harga (RM)",
+							"y1": "Harga (RM)",
+							"change-weekly": "Perubahan Mingguan",
+							"level": "Harga",
+							"ron95-timeseries": "Harga Petrol RON95",
+							"ron97-timeseries": "Harga Petrol RON97",
+							"diesel-timeseries": "Harga Diesel"
+						}
+					}
+				}
+			}
+		]
+	}
 }
