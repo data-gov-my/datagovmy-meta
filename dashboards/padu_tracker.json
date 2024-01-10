@@ -1,0 +1,64 @@
+{
+	"dashboard_name": "padu_tracker",
+	"data_last_updated": "2024-01-01 23:59",
+	"route": "/dashboard/padu-tracker,/ms-MY/dashboard/padu-tracker",
+	"sites": ["opendosm"],
+	"manual_trigger": "1",
+	"required_params": ["state"],
+	"optional_params": [],
+	"charts": {
+		"timeseries": {
+			"name": "timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/padu_timeseries.parquet",
+			"data_as_of": "2024-01-01 23:59",
+			"api_type": "dynamic",
+			"api_params": ["state"],
+			"variables": {
+				"keys": ["state"],
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": ["x", "activations", "submissions"]
+			}
+		},
+		"timeseries_callout": {
+			"name": "timeseries_callout",
+			"chart_type": "custom_chart",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/padu_timeseries_callout.parquet",
+			"data_as_of": "2024-01-01 23:59",
+			"api_type": "dynamic",
+			"api_params": ["state"],
+			"variables": {
+				"keys": ["state", "chart"],
+				"value_columns": ["cumul", "daily", "rate"]
+			}
+		},
+		"choropleth_state": {
+			"name": "choropleth_state",
+			"chart_type": "choropleth_chart",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/padu_choropleth_state.parquet",
+			"data_as_of": "2024-01-01 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"x": "state",
+				"y": ["activations", "submissions"]
+			}
+		},
+		"heatmap": {
+			"name": "heatmap",
+			"chart_type": "heatmap_chart",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/padu_heattable.parquet",
+			"data_as_of": "2024-01-01 23:59",
+			"api_type": "dynamic",
+			"api_params": ["state"],
+			"variables": {
+				"keys": ["state", "variable"],
+				"x": "group",
+				"y": "age",
+				"z": "value"
+			}
+		}
+	}
+}

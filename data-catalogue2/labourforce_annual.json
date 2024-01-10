@@ -1,146 +1,146 @@
 {
-    "title_en": "Labour Force Survey (Annual)",
-    "title_ms": "Survei Tenaga Buruh (Tahunan)",
-    "description_en": "Annual principal labour force statistics based, including employment, unemployment, and participation.",
-    "description_ms": "Statistik tahunan utama berkaitan tenaga buruh, termasuk guna tenaga, pengangguran, dan penyertaan.",
-    "exclude_openapi": false,
-    "manual_trigger": "na",
-    "data_as_of": "2021-12-31 23:59",
-    "last_updated": "2023-02-09 12:00",
-    "next_update": "2023-03-09 12:00",
-    "methodology_en": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
-    "methodology_ms": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
-    "caveat_en": "There is no data for 1991 and 1994 because the LFS was not conducted in those years. The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
-    "caveat_ms": "Tiada data bagi tahun 1991 dan 1994 kerana STB tidak dilaksanakan pada tahun berkenaan. Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
-    "publication_en": "[Labour Force Report, December 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_labour_force_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market).",
-    "publication_ms": "[Laporan Tenaga Buruh, Disember 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_labour_force_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market).",
-    "link_parquet": "https://storage.dosm.gov.my/labour/labourforce_annual.parquet",
-    "link_csv": "https://storage.dosm.gov.my/labour/labourforce_annual.csv",
-    "link_preview": "https://storage.dosm.gov.my/labour/labourforce_annual.parquet",
-    "frequency": "YEARLY",
-    "geography": [
-        "NATIONAL"
-    ],
-    "demography": [],
-    "dataset_begin": 1982,
-    "dataset_end": 2021,
-    "data_source": [
-        "DOSM"
-    ],
-    "site_category": [
-        {
-            "site": "datagovmy",
-            "category_en": "Labour Markets",
-            "category_ms": "Pasaran Buruh",
-            "subcategory_en": "Labour Force Survey",
-            "subcategory_ms": "Survei Tenaga Buruh"
-        },
-        {
-            "site": "opendosm",
-            "category_en": "Labour Markets",
-            "category_ms": "Pasaran Buruh",
-            "subcategory_en": "Labour Force Survey",
-            "subcategory_ms": "Survei Tenaga Buruh"
-        }
-    ],
-    "fields": [
-        {
-            "name": "date",
-            "title_en": "Date",
-            "title_ms": "Tarikh",
-            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to -01-01 since the data is at annual frequency",
-            "description_ms": "[Tarikh] Tarikh harga berkuatkuasa, dalam format YYYY-MM-DD kerana data berfrekuensi tahunan"
-        },
-        {
-            "name": "lf_size",
-            "title_en": "Labour Force Size",
-            "title_ms": "Tenaga Buruh",
-            "description_en": "[Float] Thousands of people ('000 people)",
-            "description_ms": "[Apung] Ribuan orang ('000 orang)"
-        },
-        {
-            "name": "employed",
-            "title_en": "Employed Persons",
-            "title_ms": "Bekerja",
-            "description_en": "[Float] Thousands of people ('000 people)",
-            "description_ms": "[Apung] Ribuan orang ('000 orang)"
-        },
-        {
-            "name": "unemployed",
-            "title_en": "Unemployed Persons",
-            "title_ms": "Penganggur",
-            "description_en": "[Float] Thousands of people ('000 people)",
-            "description_ms": "[Apung] Ribuan orang ('000 orang)"
-        },
-        {
-            "name": "outside",
-            "title_en": "Persons Outside Labour Force",
-            "title_ms": "Luar Tenaga Buruh",
-            "description_en": "[Float] Thousands of people ('000 people)",
-            "description_ms": "[Apung] Ribuan orang ('000 orang)"
-        },
-        {
-            "name": "u_rate",
-            "title_en": "Unemployment Rate",
-            "title_ms": "Kadar Pengangguran",
-            "description_en": "[Float] Ratio of unemployed to labour force size",
-            "description_ms": "[Apung] Nisbah jumlah penganggur ke bilangan tenaga buruh"
-        },
-        {
-            "name": "p_rate",
-            "title_en": "Participation Rate",
-            "title_ms": "Kadar Penyertaan",
-            "description_en": "[Float] Ratio of the labour force size to the working age population",
-            "description_ms": "[Apung] Nisbah jumlah tenaga buruh ke jumlah penduduk umur bekerja"
-        },
-        {
-            "name": "ep_ratio",
-            "title_en": "Employment-Population Ratio",
-            "title_ms": "Nisbah Guna Tenaga kepada Penduduk",
-            "description_en": "[Float] Ratio of the labour force size to the population",
-            "description_ms": "[Apung] Nisbah jumlah tenaga buruh ke jumlah penduduk"
-        }
-    ],
-    "dataviz": [
-        {
-            "dataviz_id": "table",
-            "title_en": "Table",
-            "title_ms": "Jadual",
-            "chart_type": "TABLE",
-            "config": {
-                "precision": 1,
-                "filter_columns": [],
-                "freeze_columns": []
-            }
-        }
-    ],
-    "translations_en": {
-        "date": "Date",
-        "lf_size": "Labour Force Size",
-        "employed": "Employed Persons",
-        "unemployed": "Unemployed Persons",
-        "outside": "Persons Outside Labour Force",
-        "u_rate": "Unemployment Rate",
-        "p_rate": "Participation Rate",
-        "ep_ratio": "Employment-Population Ratio"
+  "title_en": "Labour Force Survey (Annual)",
+  "title_ms": "Survei Tenaga Buruh (Tahunan)",
+  "description_en": "Annual principal labour force statistics based, including employment, unemployment, and participation.",
+  "description_ms": "Statistik tahunan utama berkaitan tenaga buruh, termasuk guna tenaga, pengangguran, dan penyertaan.",
+  "exclude_openapi": false,
+  "manual_trigger": "na",
+  "data_as_of": "2021-12-31 23:59",
+  "last_updated": "2023-02-09 12:00",
+  "next_update": "2023-03-09 12:00",
+  "methodology_en": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
+  "methodology_ms": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
+  "caveat_en": "There is no data for 1991 and 1994 because the LFS was not conducted in those years. The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
+  "caveat_ms": "Tiada data bagi tahun 1991 dan 1994 kerana STB tidak dilaksanakan pada tahun berkenaan. Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
+  "publication_en": "[Labour Force Report, December 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_labour_force_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market).",
+  "publication_ms": "[Laporan Tenaga Buruh, Disember 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_labour_force_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market).",
+  "link_parquet": "https://storage.dosm.gov.my/labour/labourforce_annual.parquet",
+  "link_csv": "https://storage.dosm.gov.my/labour/labourforce_annual.csv",
+  "link_preview": "https://storage.dosm.gov.my/labour/labourforce_annual.parquet",
+  "frequency": "YEARLY",
+  "geography": [
+    "NATIONAL"
+  ],
+  "demography": [],
+  "dataset_begin": 1982,
+  "dataset_end": 2021,
+  "data_source": [
+    "DOSM"
+  ],
+  "site_category": [
+    {
+      "site": "datagovmy",
+      "category_en": "Labour Markets",
+      "category_ms": "Pasaran Buruh",
+      "subcategory_en": "Labour Force Survey",
+      "subcategory_ms": "Survei Tenaga Buruh"
     },
-    "translations_ms": {
-        "date": "Tarikh",
-        "lf_size": "Tenaga Buruh",
-        "employed": "Bekerja",
-        "unemployed": "Penganggur",
-        "outside": "Luar Tenaga Buruh",
-        "u_rate": "Kadar Pengangguran",
-        "p_rate": "Kadar Penyertaan",
-        "ep_ratio": "Nisbah Guna Tenaga kepada Penduduk"
+    {
+      "site": "opendosm",
+      "category_en": "Labour Markets",
+      "category_ms": "Pasaran Buruh",
+      "subcategory_en": "Labour Force Survey",
+      "subcategory_ms": "Survei Tenaga Buruh"
+    }
+  ],
+  "fields": [
+    {
+      "name": "date",
+      "title_en": "Date",
+      "title_ms": "Tarikh",
+      "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to -01-01 since the data is at annual frequency",
+      "description_ms": "[Tarikh] Tarikh harga berkuatkuasa, dalam format YYYY-MM-DD kerana data berfrekuensi tahunan"
     },
-    "related_datasets": [
-        {
-            "id": "related_dataset_1",
-            "title_en": "Related Dataset Title in English",
-            "title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
-            "description_en": "Description of the related dataset in English",
-            "description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
-        }
-    ]
+    {
+      "name": "lf_size",
+      "title_en": "Labour Force Size",
+      "title_ms": "Tenaga Buruh",
+      "description_en": "[Float] Thousands of people ('000 people)",
+      "description_ms": "[Apung] Ribuan orang ('000 orang)"
+    },
+    {
+      "name": "employed",
+      "title_en": "Employed Persons",
+      "title_ms": "Bekerja",
+      "description_en": "[Float] Thousands of people ('000 people)",
+      "description_ms": "[Apung] Ribuan orang ('000 orang)"
+    },
+    {
+      "name": "unemployed",
+      "title_en": "Unemployed Persons",
+      "title_ms": "Penganggur",
+      "description_en": "[Float] Thousands of people ('000 people)",
+      "description_ms": "[Apung] Ribuan orang ('000 orang)"
+    },
+    {
+      "name": "outside",
+      "title_en": "Persons Outside Labour Force",
+      "title_ms": "Luar Tenaga Buruh",
+      "description_en": "[Float] Thousands of people ('000 people)",
+      "description_ms": "[Apung] Ribuan orang ('000 orang)"
+    },
+    {
+      "name": "u_rate",
+      "title_en": "Unemployment Rate",
+      "title_ms": "Kadar Pengangguran",
+      "description_en": "[Float] Ratio of unemployed to labour force size",
+      "description_ms": "[Apung] Nisbah jumlah penganggur ke bilangan tenaga buruh"
+    },
+    {
+      "name": "p_rate",
+      "title_en": "Participation Rate",
+      "title_ms": "Kadar Penyertaan",
+      "description_en": "[Float] Ratio of the labour force size to the working age population",
+      "description_ms": "[Apung] Nisbah jumlah tenaga buruh ke jumlah penduduk umur bekerja"
+    },
+    {
+      "name": "ep_ratio",
+      "title_en": "Employment-Population Ratio",
+      "title_ms": "Nisbah Guna Tenaga kepada Penduduk",
+      "description_en": "[Float] Ratio of the labour force size to the population",
+      "description_ms": "[Apung] Nisbah jumlah tenaga buruh ke jumlah penduduk"
+    }
+  ],
+  "dataviz": [
+    {
+      "dataviz_id": "table",
+      "title_en": "Table",
+      "title_ms": "Jadual",
+      "chart_type": "TABLE",
+      "config": {
+        "precision": 1,
+        "filter_columns": [],
+        "freeze_columns": []
+      }
+    }
+  ],
+  "translations_en": {
+    "date": "Date",
+    "lf_size": "Labour Force Size",
+    "employed": "Employed Persons",
+    "unemployed": "Unemployed Persons",
+    "outside": "Persons Outside Labour Force",
+    "u_rate": "Unemployment Rate",
+    "p_rate": "Participation Rate",
+    "ep_ratio": "Employment-Population Ratio"
+  },
+  "translations_ms": {
+    "date": "Tarikh",
+    "lf_size": "Tenaga Buruh",
+    "employed": "Bekerja",
+    "unemployed": "Penganggur",
+    "outside": "Luar Tenaga Buruh",
+    "u_rate": "Kadar Pengangguran",
+    "p_rate": "Kadar Penyertaan",
+    "ep_ratio": "Nisbah Guna Tenaga kepada Penduduk"
+  },
+  "related_datasets": [
+    {
+      "id": "related_dataset_1",
+      "title_en": "Related Dataset Title in English",
+      "title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
+      "description_en": "Description of the related dataset in English",
+      "description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
+    }
+  ]
 }
