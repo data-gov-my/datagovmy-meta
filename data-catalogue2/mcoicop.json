@@ -1,124 +1,120 @@
 {
-	"title_en": "MCOICOP",
-	"title_ms": "MCOICOP",
-	"description_en": "This table provides a complete lookup for 2, 3, and 4-digit codes under Malaysia's COICOP (Classification of Individual Consumption According to Purpose), as applied and used in data publications in Malaysia. The MCOICOP is primarily used by the Department of Statistics Malaysia (DOSM), for instance when categorising and analysing consumer price inflation.",
-	"description_ms": "Jadual ini memberi rujukan lengkap bagi kod 2, 3, dan 4 digit dalam COICOP Malaysia (Classification of Individual Consumption According to Purpose), seperti yang digunapakai dalam penerbitan data di Malaysia. MCOICOP digunakan terutamanya oleh Jabatan Perangkaan Malaysia (DOSM), misalnya dalam mengkategorikan dan menganalisa inflasi harga pengguna.",
-	"exclude_openapi": false,
-	"manual_trigger": "na",
-	"data_as_of": "2016-12-31 23:59",
-	"last_updated": "2016-12-31 23:59",
-	"next_update": "-",
-	"methodology_en": "The MCOICOP was adapted from the [COICOP published by the United Nations Statistics Division](https://unstats.un.org/unsd/classifications/Econ), which is used as a global reference in the classification of individual and household consumption.",
-	"methodology_ms": "MCOICOP diadaptasikan daripada [COICOP yang diterbitkan oleh Bahagian Statistik Pertubuhan Bangsa-bangsa Bersatu](https://unstats.un.org/unsd/classifications/Econ), yang diguna sebagai rujukan antarabanga dalam pengkelasan penggunaan individu dan isi rumah.",
-	"caveat_en": "—",
-	"caveat_ms": "—",
-	"publication_en": "—",
-	"publication_ms": "—",
-	"link_parquet": "https://storage.dosm.gov.my/dictionaries/mcoicop.parquet",
-	"link_csv": "https://storage.dosm.gov.my/dictionaries/mcoicop.csv",
-	"link_preview": "https://storage.dosm.gov.my/dictionaries/mcoicop.parquet",
-	"frequency": "INFREQUENT",
-	"geography": ["NATIONAL"],
-	"demography": [],
-	"dataset_begin": 2016,
-	"dataset_end": 2023,
-	"data_source": ["DOSM"],
-	"site_category": [
-		{
-			"site": "datagovmy",
-			"category_en": "Data Dictionaries",
-			"category_ms": "Dictionary Data",
-			"subcategory_en": "Economy",
-			"subcategory_ms": "Ekonomi"
-		},
-		{
-			"site": "opendosm",
-			"category_en": "Data Dictionaries",
-			"category_ms": "Dictionary Data",
-			"subcategory_en": "Economy",
-			"subcategory_ms": "Ekonomi"
-		}
-	],
-	"fields": [
-		{
-			"name": "digits",
-			"title_en": "Digits",
-			"title_ms": "Digit",
-			"description_en": "[Integer] Number of digits; this column can be used as a filter if you only want to keep 2 digit codes, for example",
-			"description_ms": "[Integer] Bilangan digit; lajur ini boleh digunakan sebagai penapis contohnya untuk menyimpan data 2 digit sahaja"
-		},
-		{
-			"name": "division",
-			"title_en": "Division",
-			"title_ms": "Bahagian",
-			"description_en": "[String] 2-digit code; please ensure that you read this column as a string, because the (intentional) leading zeroes will be dropped if read as an integer (e.g. upon opening in Microsoft Excel)",
-			"description_ms": "[Rentetan] Kod 2 digit; sila pastikan anda membaca lajur ini sebagai rentetan kerana angka sifar di hadapan akan digugurkan sekiranya dibaca sebagai integer (contohnya apabila dibuka dalam Microsoft Excel)"
-		},
-		{
-			"name": "group",
-			"title_en": "Group",
-			"title_ms": "Kumpulan",
-			"description_en": "[String] 3-digit code, with dashes where not applicable (e.g. for rows providing 2-digit definitions)",
-			"description_ms": "[Rentetan] Kod 3 digit, dengan tanda sempang apabila tidak berkaitan (contohnya untuk baris yang memberi definisi 2 digit)"
-		},
-		{
-			"name": "class",
-			"title_en": "Class",
-			"title_ms": "Kelas",
-			"description_en": "[String] 4-digit code, with dashes where not applicable (e.g. for rows providing 2 and 3-digit definitions)",
-			"description_ms": "[Rentetan] Kod 4 digit, dengan tanda sempang apabila tidak berkaitan (contohnya untuk baris yang memberi definisi 2 dan 3 digit)"
-		},
-		{
-			"name": "desc_en",
-			"title_en": "Description (EN)",
-			"title_ms": "Keterangan (EN)",
-			"description_en": "[String] Description for the code, in English",
-			"description_ms": "[Rentetan] Keterangan kod dalam Bahasa Inggeris"
-		},
-		{
-			"name": "desc_bm",
-			"title_en": "Description (BM)",
-			"title_ms": "Keterangan (EN)",
-			"description_en": "[String] Description for the code, in Malay",
-			"description_ms": "[Rentetan] Keterangan kod dalam Bahasa Melayu"
-		}
-	],
-	"dataviz": [
-		{
-			"dataviz_id": "table",
-			"title_en": "Table",
-			"title_ms": "Jadual",
-			"chart_type": "TABLE",
-			"config": {
-				"precision": 0,
-				"filter_columns": [],
-				"freeze_columns": []
-			}
-		}
-	],
-	"translations_en": {
-		"digits": "Digits",
-		"division": "Division",
-		"group": "Group",
-		"class": "Class",
-		"desc_en": "Description (EN)",
-		"desc_bm": "Description (BM)"
-	},
-	"translations_ms": {
-		"digits": "Digit",
-		"division": "Bahagian",
-		"group": "Kumpulan",
-		"class": "Kelas",
-		"desc_en": "Keterangan (EN)",
-		"desc_bm": "Keterangan (EN)"
-	},
-	"related_datasets": [
-		{
-			"id": "related_dataset_1",
-			"title_en": "Related Dataset Title in English",
-			"title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
-			"description_en": "Description of the related dataset in English",
-			"description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
-		}
-	]
+  "title_en": "MCOICOP",
+  "title_ms": "MCOICOP",
+  "description_en": "This table provides a complete lookup for 2, 3, and 4-digit codes under Malaysia's COICOP (Classification of Individual Consumption According to Purpose), as applied and used in data publications in Malaysia. The MCOICOP is primarily used by the Department of Statistics Malaysia (DOSM), for instance when categorising and analysing consumer price inflation.",
+  "description_ms": "Jadual ini memberi rujukan lengkap bagi kod 2, 3, dan 4 digit dalam COICOP Malaysia (Classification of Individual Consumption According to Purpose), seperti yang digunapakai dalam penerbitan data di Malaysia. MCOICOP digunakan terutamanya oleh Jabatan Perangkaan Malaysia (DOSM), misalnya dalam mengkategorikan dan menganalisa inflasi harga pengguna.",
+  "exclude_openapi": false,
+  "manual_trigger": "na",
+  "data_as_of": "2016-12-31 23:59",
+  "last_updated": "2016-12-31 23:59",
+  "next_update": "-",
+  "methodology_en": "The MCOICOP was adapted from the [COICOP published by the United Nations Statistics Division](https://unstats.un.org/unsd/classifications/Econ), which is used as a global reference in the classification of individual and household consumption.",
+  "methodology_ms": "MCOICOP diadaptasikan daripada [COICOP yang diterbitkan oleh Bahagian Statistik Pertubuhan Bangsa-bangsa Bersatu](https://unstats.un.org/unsd/classifications/Econ), yang diguna sebagai rujukan antarabanga dalam pengkelasan penggunaan individu dan isi rumah.",
+  "caveat_en": "\u2014",
+  "caveat_ms": "\u2014",
+  "publication_en": "\u2014",
+  "publication_ms": "\u2014",
+  "link_parquet": "https://storage.dosm.gov.my/dictionaries/mcoicop.parquet",
+  "link_csv": "https://storage.dosm.gov.my/dictionaries/mcoicop.csv",
+  "link_preview": "https://storage.dosm.gov.my/dictionaries/mcoicop.parquet",
+  "frequency": "INFREQUENT",
+  "geography": [
+    "NATIONAL"
+  ],
+  "demography": [],
+  "dataset_begin": 2016,
+  "dataset_end": 2023,
+  "data_source": [
+    "DOSM"
+  ],
+  "site_category": [
+    {
+      "site": "datagovmy",
+      "category_en": "Data Dictionaries",
+      "category_ms": "Dictionary Data",
+      "subcategory_en": "Economy",
+      "subcategory_ms": "Ekonomi"
+    },
+    {
+      "site": "opendosm",
+      "category_en": "Data Dictionaries",
+      "category_ms": "Dictionary Data",
+      "subcategory_en": "Economy",
+      "subcategory_ms": "Ekonomi"
+    }
+  ],
+  "fields": [
+    {
+      "name": "digits",
+      "title_en": "Digits",
+      "title_ms": "Digit",
+      "description_en": "[Integer] Number of digits; this column can be used as a filter if you only want to keep 2 digit codes, for example",
+      "description_ms": "[Integer] Bilangan digit; lajur ini boleh digunakan sebagai penapis contohnya untuk menyimpan data 2 digit sahaja"
+    },
+    {
+      "name": "division",
+      "title_en": "Division",
+      "title_ms": "Bahagian",
+      "description_en": "[String] 2-digit code; please ensure that you read this column as a string, because the (intentional) leading zeroes will be dropped if read as an integer (e.g. upon opening in Microsoft Excel)",
+      "description_ms": "[Rentetan] Kod 2 digit; sila pastikan anda membaca lajur ini sebagai rentetan kerana angka sifar di hadapan akan digugurkan sekiranya dibaca sebagai integer (contohnya apabila dibuka dalam Microsoft Excel)"
+    },
+    {
+      "name": "group",
+      "title_en": "Group",
+      "title_ms": "Kumpulan",
+      "description_en": "[String] 3-digit code, with dashes where not applicable (e.g. for rows providing 2-digit definitions)",
+      "description_ms": "[Rentetan] Kod 3 digit, dengan tanda sempang apabila tidak berkaitan (contohnya untuk baris yang memberi definisi 2 digit)"
+    },
+    {
+      "name": "class",
+      "title_en": "Class",
+      "title_ms": "Kelas",
+      "description_en": "[String] 4-digit code, with dashes where not applicable (e.g. for rows providing 2 and 3-digit definitions)",
+      "description_ms": "[Rentetan] Kod 4 digit, dengan tanda sempang apabila tidak berkaitan (contohnya untuk baris yang memberi definisi 2 dan 3 digit)"
+    },
+    {
+      "name": "desc_en",
+      "title_en": "Description (EN)",
+      "title_ms": "Keterangan (EN)",
+      "description_en": "[String] Description for the code, in English",
+      "description_ms": "[Rentetan] Keterangan kod dalam Bahasa Inggeris"
+    },
+    {
+      "name": "desc_bm",
+      "title_en": "Description (BM)",
+      "title_ms": "Keterangan (EN)",
+      "description_en": "[String] Description for the code, in Malay",
+      "description_ms": "[Rentetan] Keterangan kod dalam Bahasa Melayu"
+    }
+  ],
+  "dataviz": [
+    {
+      "dataviz_id": "table",
+      "title_en": "Table",
+      "title_ms": "Jadual",
+      "chart_type": "TABLE",
+      "config": {
+        "precision": 0,
+        "filter_columns": [],
+        "freeze_columns": []
+      }
+    }
+  ],
+  "translations_en": {
+    "digits": "Digits",
+    "division": "Division",
+    "group": "Group",
+    "class": "Class",
+    "desc_en": "Description (EN)",
+    "desc_bm": "Description (BM)"
+  },
+  "translations_ms": {
+    "digits": "Digit",
+    "division": "Bahagian",
+    "group": "Kumpulan",
+    "class": "Kelas",
+    "desc_en": "Keterangan (EN)",
+    "desc_bm": "Keterangan (EN)"
+  },
+  "related_datasets": []
 }

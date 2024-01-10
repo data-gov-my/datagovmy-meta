@@ -10,8 +10,8 @@
   "next_update": "2023-09-30 23:59",
   "methodology_en": "Bank Negara Malaysia (BNM) is the sole issuer of currency in Malaysia, and has a duty to ensure a sufficient supply of notes and coins at all times, including during festive seasons when demand for cash is higher than normal. Accordingly, BNM is able to track how much currency is in circulation at any given point in time. That data is summarised in this dataset at monthly frequency.",
   "methodology_ms": "Bank Negara Malaysia (BNM) adalah satu-satunya penerbit mata wang di Malaysia, dan bertanggungjawab untuk memastikan bekalan nota dan syiling mencukupi pada setiap masa, termasuk semasa musim perayaan apabila permintaan lebih tinggi daripada biasa. Oleh itu, BNM dapat mengesan nilai mata wang dalam peredaran pada bila-bila masa. Data tersebut dirumuskan dalam set data ini pada frekuensi bulanan.",
-  "caveat_en": "—",
-  "caveat_ms": "—",
+  "caveat_en": "\u2014",
+  "caveat_ms": "\u2014",
   "publication_en": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs).",
   "publication_ms": "Set data ini juga diterbitkan oleh BNM dalam pSorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs).",
   "link_parquet": "https://storage.data.gov.my/finsector/currency_in_circulation.parquet",
@@ -233,13 +233,5 @@
     "coin_rm5": "Syiling: RM 5 (coin)",
     "coin_others": "Syiling: Other"
   },
-  "related_datasets": [
-    {
-      "id": "related_dataset_1",
-      "title_en": "Related Dataset Title in English",
-      "title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
-      "description_en": "Description of the related dataset in English",
-      "description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
-    }
-  ]
+  "related_datasets": []
 }

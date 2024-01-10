@@ -1,7 +1,7 @@
 {
   "title_en": "Exchange Rates",
   "title_ms": "Kadar Pertukaran Wang Asing",
-  "description_en": "Rates of exchange of the Malaysian Ringgit vis-à-vis major trading partners.",
+  "description_en": "Rates of exchange of the Malaysian Ringgit vis-\u00e0-vis major trading partners.",
   "description_ms": "Kadar pertukaran ringgit Malaysia berbanding rakan dagang utama.",
   "exclude_openapi": false,
   "manual_trigger": "2024-01-09 08:03:11.146073",
@@ -12,8 +12,8 @@
   "methodology_ms": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
   "caveat_en": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
   "caveat_ms": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
-  "publication_en": "—",
-  "publication_ms": "—",
+  "publication_en": "\u2014",
+  "publication_ms": "\u2014",
   "link_parquet": "https://storage.data.gov.my/finsector/exchangerates.parquet",
   "link_csv": "https://storage.data.gov.my/finsector/exchangerates.csv",
   "link_preview": "https://storage.data.gov.my/finsector/exchangerates_preview.parquet",
@@ -379,13 +379,5 @@
     "myr_cad": "Kanada",
     "myr_rub": "Rusia"
   },
-  "related_datasets": [
-    {
-      "id": "related_dataset_1",
-      "title_en": "Related Dataset Title in English",
-      "title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
-      "description_en": "Description of the related dataset in English",
-      "description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
-    }
-  ]
+  "related_datasets": []
 }

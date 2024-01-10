@@ -12,8 +12,8 @@
   "methodology_ms": "Data ini dihasilkan daripada setahun data pendaftaran peringkat individu (tanpa sebarang data peribadi) untuk vaksin COVID-19 melalui MySejahtera, iaitu dari tarikh pendaftaran mula dibuka (23 Feb 2021) hingga 1 tahun kemudian (22 Feb 2022). Segelintir kecil rekod (< 0.01%) tanpa rekod umur dan jantina telah digugurkan daripada set data.",
   "caveat_en": "This data does not include individuals who registered via the website (vaksincovid.gov.my, now deprecated) or call centre. Although those registrations were used operationally during the program, they were intentionally excluded from this dataset due to the extremely high duplication of registrations via MySejahtera versus those two modalities. Furthermore, it should be noted that the individual's state was self-declared and unverified, and may therefore be different from the individual's state of residence, or even the state where they eventually received their vaccine. Therefore, appropriate caution should be applied when comparing registration data to actual vaccination throughput or population data.",
   "caveat_ms": "Data ini tidak termasuk individu yang mendaftar melalui laman web (vaksincovid.gov.my, kini sudah ditutup) atau pusat panggilan. Walaupun pendaftaran tersebut digunakan bagi operasi vaksinasi, pendaftaran melalui mod tersebut tersebut sengaja dikecualikan daripada set data ini kerana pertindihan yang sangat tinggi dengan pendaftaran melalui MySejahtera. Tambahan pula, perlu diingati bahawa negeri individu telah diisytiharkan sendiri tanpa semakan, maka mungkin berbeza daripada negeri kediaman malah negeri di mana mereka akhirnya menerima vaksin mereka. Oleh itu, anda dinasihati untuk berhati-hati sekiranya membandingkan data pendaftaran dengan data vaksinasi sebenar ataupun data populasi.",
-  "publication_en": "—",
-  "publication_ms": "—",
+  "publication_en": "\u2014",
+  "publication_ms": "\u2014",
   "link_parquet": "https://storage.data.gov.my/healthcare/vaxreg_covid.parquet",
   "link_csv": "https://storage.data.gov.my/healthcare/vaxreg_covid.csv",
   "link_preview": "https://storage.data.gov.my/healthcare/vaxreg_covid.parquet",
@@ -112,13 +112,5 @@
     "state": "Negeri",
     "date": "Tarikh"
   },
-  "related_datasets": [
-    {
-      "id": "related_dataset_1",
-      "title_en": "Related Dataset Title in English",
-      "title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
-      "description_en": "Description of the related dataset in English",
-      "description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
-    }
-  ]
+  "related_datasets": []
 }

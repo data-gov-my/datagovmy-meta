@@ -12,8 +12,8 @@
   "methodology_ms": "Harga dipungut dah disahkan oleh staf di lapangan, dengan lebih 2 juta harga dipungut setiap bulan.",
   "caveat_en": "This data is collected for the purpose of price surveillance, and is excellent for high-frequency analysis of specific items in specific locations. Inflation surveillance requires a different approach, in particular to ensure proper representativeness. Inflation analysis should be conducted using DOSM's CPI data.",
   "caveat_ms": "Data ini dipungut bagi tujuan survelan harga, maka amat bersesuaian untuk analisa barangan khusus di lokasi yang khusus, pada frekuensi yang tinggi. Namun, survelan inflasi memerlukan pendekatan yang berbeza bagi memastikan keterwakilan data. Sebarang analisa inflasi harus menggunakan data IHP yang diterbitkan oleh DOSM.",
-  "publication_en": "—",
-  "publication_ms": "—",
+  "publication_en": "\u2014",
+  "publication_ms": "\u2014",
   "link_parquet": "https://storage.data.gov.my/pricecatcher/lookup_item.parquet",
   "link_csv": "https://storage.data.gov.my/pricecatcher/lookup_item.csv",
   "link_preview": "https://storage.data.gov.my/pricecatcher/lookup_item_preview.parquet",
@@ -107,13 +107,5 @@
     "item_group": "Kumpulan",
     "item_category": "Kategori"
   },
-  "related_datasets": [
-    {
-      "id": "related_dataset_1",
-      "title_en": "Related Dataset Title in English",
-      "title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
-      "description_en": "Description of the related dataset in English",
-      "description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
-    }
-  ]
+  "related_datasets": []
 }

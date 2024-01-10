@@ -305,13 +305,5 @@
     "unemployed_active_long": "Penganggur > Aktif (> 1 tahun)",
     "unemployed_inactive": "Penganggur > Tidak Aktif"
   },
-  "related_datasets": [
-    {
-      "id": "related_dataset_1",
-      "title_en": "Related Dataset Title in English",
-      "title_ms": "Tajuk Dataset Berkaitan dalam Bahasa Malaysia",
-      "description_en": "Description of the related dataset in English",
-      "description_ms": "Penerangan dataset berkaitan dalam Bahasa Malaysia"
-    }
-  ]
+  "related_datasets": []
 }
