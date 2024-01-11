@@ -1,0 +1,48 @@
+{
+    "publication": "labour_month_2023-10",
+    "publication_type": "labour",
+    "release_date": "2023-12-08",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Oct 2023] Labour Force",
+        "publication_type_title": "Labour Force",
+        "description": "Labour force report, covering statistics on unemployment, employment, and labour force participation.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Labour Force: Oct 2023",
+                "resource_link": "https://storage.dosm.gov.my/labour/lfs_month_2023-10_en.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Labour Force: Oct 2023",
+                "resource_link": "https://storage.dosm.gov.my/labour/lfs_month_2023-10_en.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Okt 2023] Tenaga Buruh",
+        "publication_type_title": "Tenaga Buruh",
+        "description": "Laporan tenaga buruh, merangkumi statistik pengangguran, penduduk bekerja, dan penyertaan tenaga buruh.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Tenaga Buruh: Okt 2023",
+                "resource_link": "https://storage.dosm.gov.my/labour/lfs_month_2023-10_bm.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Tenaga Buruh: Okt 2023",
+                "resource_link": "https://storage.dosm.gov.my/labour/lfs_month_2023-10_bm.pdf"
+            }
+        ]
+    }
+}
