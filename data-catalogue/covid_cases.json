@@ -1,6 +1,6 @@
 {
     "file": {
-        "manual_trigger": "2024-01-07 19:24:23.607263",
+        "manual_trigger": "2024-01-14 15:39:49.252321",
         "exclude_openapi": false,
         "bucket": "healthcare",
         "file_name": "covid_cases",
@@ -273,5 +273,8 @@
                 }
             }
         ]
-    }
+    },
+    "last_updated": "2024-01-14 12:00",
+    "data_as_of": "2024-01-13 23:59",
+    "next_update": "2024-01-21 12:00"
 }
