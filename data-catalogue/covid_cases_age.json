@@ -1,348 +1,285 @@
 {
-    "file": {
-        "manual_trigger": "2024-01-14 15:39:49.253608",
-        "exclude_openapi": false,
-        "bucket": "healthcare",
-        "file_name": "covid_cases_age",
-        "category": "HEALTHCARE",
-        "category_en": "Healthcare",
-        "category_bm": "Kesihatan",
-        "subcategory": "HEALTHCARE_INF",
-        "subcategory_en": "Infectious Diseases",
-        "subcategory_bm": "Penyakit Berjangkit",
-        "category_kkm": "HEALTHCARE_INF",
-        "category_kkm_en": "Infectious Diseases",
-        "category_kkm_bm": "Penyakit Berjangkit",
-        "subcategory_kkm": "COVID",
-        "subcategory_kkm_en": "COVID-19",
-        "subcategory_kkm_bm": "COVID-19",
-        "description": {
-            "en": "Daily COVID-19 cases at national and state level, broken down by age group.",
-            "bm": "Kes COVID-19 harian di peringkat kebangsaan dan negeri, dengan pecahan mengikut kumpulan umur."
-        },
-        "link_parquet": "https://storage.data.gov.my/healthcare/covid_cases_age.parquet",
-        "link_csv": "https://storage.data.gov.my/healthcare/covid_cases_age.csv",
-        "link_preview": "https://storage.data.gov.my/healthcare/covid_cases_age.parquet",
-        "variables": [
-            {
-                "id": -1,
-                "name": "date",
-                "title_en": "Date",
-                "title_bm": "Tarikh",
-                "desc_en": "[Date] Date in YYYY-MM-DD format",
-                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
-            },
-            {
-                "id": -1,
-                "name": "state",
-                "title_en": "State",
-                "title_bm": "Negeri",
-                "desc_en": "[Categorical] One of 16 states, or Malaysia",
-                "desc_bm": "[Kategori] Satu daripada 16 negeri, atau Malaysia"
-            },
-            {
-                "id": -1,
-                "name": "cases_child",
-                "title_en": "Child Cases",
-                "title_bm": "Kes Kanak-kanak",
-                "desc_en": "[Integer] Number of new COVID-19 cases aged 11 and under",
-                "desc_bm": "[Integer] Bilangan kes COVID-19 baharu dalam kumpulan umur 11 dan ke bawah"
-            },
-            {
-                "id": -1,
-                "name": "cases_adolescent",
-                "title_en": "Adolescent Cases",
-                "title_bm": "Kes Remaja",
-                "desc_en": "[Integer] Number of new COVID-19 cases aged 12-17",
-                "desc_bm": "[Integer] Bilangan kes COVID-19 baharu dalam kumpulan umur 12-17"
-            },
-            {
-                "id": -1,
-                "name": "cases_adult",
-                "title_en": "Adult Cases",
-                "title_bm": "Kes Dewasa",
-                "desc_en": "[Integer] Number of new COVID-19 cases aged 18-59",
-                "desc_bm": "[Integer] Bilangan kes COVID-19 baharu dalam kumpulan umur 18-59"
-            },
-            {
-                "id": -1,
-                "name": "cases_elderly",
-                "title_en": "Elderly Cases",
-                "title_bm": "Kes Warga Emas",
-                "desc_en": "[Integer] Number of new COVID-19 cases aged 60 and above",
-                "desc_bm": "[Integer] Bilangan kes COVID-19 baharu dalam kumpulan umur 60 dan ke atas"
-            },
-            {
-                "id": -1,
-                "name": "cases_0_4",
-                "title_en": "Cases Aged 0-4",
-                "title_bm": "Kes Berumur 0-4",
-                "desc_en": "[Integer] Number of new COVID-19 cases aged 0-4",
-                "desc_bm": "[Integer] Bilangan kes COVID-19 baharu dalam kumpulan umur 0-4"
-            },
-            {
-                "id": -1,
-                "name": "cases_5_11",
-                "title_en": "Cases Aged 5-11",
-                "title_bm": "Kes Berumur 5-11",
-                "desc_en": "[Integer] Number of new COVID-19 cases aged 5-11",
-                "desc_bm": "[Integer] Bilangan kes COVID-19 baharu dalam kumpulan umur 5-11"
-            },
-            {
-                "id": -1,
-                "name": "cases_12_17",
-                "title_en": "Cases Aged 12-17",
-                "title_bm": "Kes Berumur 12-17",
-                "desc_en": "[Integer] Number of new COVID-19 cases aged 12-17",
-                "desc_bm": "[Integer] Bilangan kes COVID-19 baharu dalam kumpulan umur 12-17"
-            },
-            {
-                "id": -1,
-                "name": "cases_18_29",
-                "title_en": "Cases Aged 18-29",
-                "title_bm": "Kes Berumur 18-29",
-                "desc_en": "[Integer] Number of new COVID-19 cases aged 18-29",
-                "desc_bm": "[Integer] Bilangan kes COVID-19 baharu dalam kumpulan umur 18-29"
-            },
-            {
-                "id": -1,
-                "name": "cases_30_39",
-                "title_en": "Cases Aged 30-39",
-                "title_bm": "Kes Berumur 30-39",
-                "desc_en": "[Integer] Number of new COVID-19 cases aged 30-39",
-                "desc_bm": "[Integer] Bilangan kes COVID-19 baharu dalam kumpulan umur 30-39"
-            },
-            {
-                "id": -1,
-                "name": "cases_40_49",
-                "title_en": "Cases Aged 40-49",
-                "title_bm": "Kes Berumur 40-49",
-                "desc_en": "[Integer] Number of new COVID-19 cases aged 40-49",
-                "desc_bm": "[Integer] Bilangan kes COVID-19 baharu dalam kumpulan umur 40-49"
-            },
-            {
-                "id": -1,
-                "name": "cases_50_59",
-                "title_en": "Cases Aged 50-59",
-                "title_bm": "Kes Berumur 50-59",
-                "desc_en": "[Integer] Number of new COVID-19 cases aged 50-59",
-                "desc_bm": "[Integer] Bilangan kes COVID-19 baharu dalam kumpulan umur 50-59"
-            },
-            {
-                "id": -1,
-                "name": "cases_60_69",
-                "title_en": "Cases Aged 60-69",
-                "title_bm": "Kes Berumur 60-69",
-                "desc_en": "[Integer] Number of new COVID-19 cases aged 60-69",
-                "desc_bm": "[Integer] Bilangan kes COVID-19 baharu dalam kumpulan umur 60-69"
-            },
-            {
-                "id": -1,
-                "name": "cases_70_79",
-                "title_en": "Cases Aged 70-79",
-                "title_bm": "Kes Berumur 70-79",
-                "desc_en": "[Integer] Number of new COVID-19 cases aged 70-79",
-                "desc_bm": "[Integer] Bilangan kes COVID-19 baharu dalam kumpulan umur 70-79"
-            },
-            {
-                "id": -1,
-                "name": "cases_80",
-                "title_en": "Cases Aged 80",
-                "title_bm": "Kes Berumur 80",
-                "desc_en": "[Integer] Number of new COVID-19 cases aged 80 and above",
-                "desc_bm": "[Integer] Bilangan kes COVID-19 baharu dalam kumpulan umur 80 dan ke atas"
-            },
-            {
-                "id": 0,
-                "name": "Daily COVID-19 Cases by Age Group & State",
-                "title_en": "Daily COVID-19 Cases by Age Group & State",
-                "title_bm": "Kes COVID-19 Harian mengikut Kumpulan Umur & Negeri",
-                "desc_en": "Daily COVID-19 cases at national and state level, broken down by age group.",
-                "desc_bm": "Kes COVID-19 harian di peringkat kebangsaan dan negeri, dengan pecahan mengikut kumpulan umur.",
-                "catalog_data": {
-                    "catalog_filters": {
-                        "frequency": "DAILY",
-                        "geography": [
-                            "NATIONAL",
-                            "STATE"
-                        ],
-                        "demography": [],
-                        "start": "2020",
-                        "end": "2023",
-                        "data_source": [
-                            "MoH"
-                        ]
-                    },
-                    "metadata_neutral": {
-                        "data_as_of": "2024-01-06 23:59",
-                        "last_updated": "2024-01-07 12:00",
-                        "next_update": "2024-01-14 12:00"
-                    },
-                    "metadata_lang": {
-                        "en": {
-                            "methodology": "Building on the [base dataset](https://data.moh.gov.my/data-catalogue/healthcare_covid_cases), this dataset tabules new COVID-19 cases by age either based on the individual's IC number (for Malaysians with an IC number) or based on the age declared in the COVID-19 test result declaration (for cases without an IC number or non-Malaysians).",
-                            "caveat": "In a small minority (~1.5%) of cases, no age was declared or able to be derived. As such, the total number of cases derived from summing the cases for all age groups in this dataset will be less than the number of cases in the [base dataset](https://data.moh.gov.my/data-catalogue/healthcare_covid_cases).",
-                            "publication": "KKMNOW features a [dashboard on COVID-19](https://data.moh.gov.my/dashboard/covid-19) where you can explore the data in a more interactive manner!"
-                        },
-                        "bm": {
-                            "methodology": "Berdasarkan [set data asas](https://data.moh.gov.my/data-catalogue/healthcare_covid_cases), set data ini memaparkan kes COVID-19 baharu mengikut kumpulan umur berdasarkan nombor kad pengenalan (untuk warganegara Malaysia yang memiliki KP) ataupun berdasarkan umur dalam pengisytiharan keputusan ujian COVID-19 (untuk kes tanpa nombor KP atau kes bukan warganegara).",
-                            "caveat": "Bagi segelintir kecil kes (~1.5%), medan diumur tidak diisi dan tidak dapat diperoleh daripada nombor ID. Oleh itu, bilangan kes yang diperoleh daripada menjumlahkan kes bagi semua kumpulan umur dalam set data ini akan kurang daripada bilangan kes dalam [set data asas](https://data.moh.gov.my/data-catalogue/healthcare_covid_cases).",
-                            "publication": "Portal KKMNOW sendiri memaparkan [papan pemuka tentang COVID-19](https://data.moh.gov.my/dashboard/covid-19) di mana anda boleh menerokai data ini dengan lebih interaktif!"
-                        }
-                    },
-                    "chart": {
-                        "chart_type": "TABLE",
-                        "chart_filters": {
-                            "SLICE_BY": [
-                                "state"
-                            ],
-                            "precision": 0
-                        },
-                        "chart_variables": {
-                            "parents": [
-                                "state"
-                            ],
-                            "exclude": [],
-                            "freeze": [
-                                "date"
-                            ]
-                        }
-                    },
-                    "dataviz": [
-                        {
-                            "translation_key": "cases_child",
-                            "chart_type": "TIMESERIES",
-                            "chart_filters": {
-                                "SLICE_BY": [
-                                    "state"
-                                ],
-                                "precision": 0
-                            },
-                            "chart_variables": {
-                                "parents": [
-                                    "state"
-                                ],
-                                "operation": "SUM",
-                                "format": {
-                                    "x": "date",
-                                    "y": [
-                                        "cases_child"
-                                    ]
-                                }
-                            }
-                        },
-                        {
-                            "translation_key": "cases_adolescent",
-                            "chart_type": "TIMESERIES",
-                            "chart_filters": {
-                                "SLICE_BY": [
-                                    "state"
-                                ],
-                                "precision": 0
-                            },
-                            "chart_variables": {
-                                "parents": [
-                                    "state"
-                                ],
-                                "operation": "SUM",
-                                "format": {
-                                    "x": "date",
-                                    "y": [
-                                        "cases_adolescent"
-                                    ]
-                                }
-                            }
-                        },
-                        {
-                            "translation_key": "cases_adult",
-                            "chart_type": "TIMESERIES",
-                            "chart_filters": {
-                                "SLICE_BY": [
-                                    "state"
-                                ],
-                                "precision": 0
-                            },
-                            "chart_variables": {
-                                "parents": [
-                                    "state"
-                                ],
-                                "operation": "SUM",
-                                "format": {
-                                    "x": "date",
-                                    "y": [
-                                        "cases_adult"
-                                    ]
-                                }
-                            }
-                        },
-                        {
-                            "translation_key": "cases_elderly",
-                            "chart_type": "TIMESERIES",
-                            "chart_filters": {
-                                "SLICE_BY": [
-                                    "state"
-                                ],
-                                "precision": 0
-                            },
-                            "chart_variables": {
-                                "parents": [
-                                    "state"
-                                ],
-                                "operation": "SUM",
-                                "format": {
-                                    "x": "date",
-                                    "y": [
-                                        "cases_elderly"
-                                    ]
-                                }
-                            }
-                        }
-                    ],
-                    "translations": {
-                        "en": {
-                            "date": "Date",
-                            "state": "State",
-                            "y1": "Cases",
-                            "cases_child": "Child Cases",
-                            "cases_adolescent": "Adolescent Cases",
-                            "cases_adult": "Adult Cases",
-                            "cases_elderly": "Elderly Cases",
-                            "cases_0_4": "Cases aged 0-4",
-                            "cases_5_11": "Cases aged 5-11",
-                            "cases_12_17": "Cases aged 12-17",
-                            "cases_18_29": "Cases aged 18-29",
-                            "cases_30_39": "Cases aged 30-39",
-                            "cases_40_49": "Cases aged 40-49",
-                            "cases_50_59": "Cases aged 50-59",
-                            "cases_60_69": "Cases aged 60-69",
-                            "cases_70_79": "Cases aged 70-79",
-                            "cases_80": "Cases aged 80+"
-                        },
-                        "bm": {
-                            "date": "Tarikh",
-                            "state": "Negeri",
-                            "y1": "Kes",
-                            "cases_child": "Kes Kanak-kanak",
-                            "cases_adolescent": "Kes Remaja",
-                            "cases_adult": "Kes Dewasa",
-                            "cases_elderly": "Kes Warga Emas",
-                            "cases_0_4": "Kes berumur 0-4",
-                            "cases_5_11": "Kes berumur 5-11",
-                            "cases_12_17": "Kes berumur 12-17",
-                            "cases_18_29": "Kes berumur 18-29",
-                            "cases_30_39": "Kes berumur 30-39",
-                            "cases_40_49": "Kes berumur 40-49",
-                            "cases_50_59": "Kes berumur 50-59",
-                            "cases_60_69": "Kes berumur 60-69",
-                            "cases_70_79": "Kes berumur 70-79",
-                            "cases_80": "Kes berumur 80+"
-                        }
-                    }
-                }
-            }
-        ]
+  "title_en": "Daily COVID-19 Cases by Age Group & State",
+  "title_ms": "Kes COVID-19 Harian mengikut Kumpulan Umur & Negeri",
+  "description_en": "Daily COVID-19 cases at national and state level, broken down by age group.",
+  "description_ms": "Kes COVID-19 harian di peringkat kebangsaan dan negeri, dengan pecahan mengikut kumpulan umur.",
+  "exclude_openapi": false,
+  "manual_trigger": "2024-01-07 19:24:23.608626",
+  "data_as_of": "2024-01-06 23:59",
+  "last_updated": "2024-01-07 12:00",
+  "next_update": "2024-01-14 12:00",
+  "methodology_en": "Building on the [base dataset](https://data.moh.gov.my/data-catalogue/healthcare_covid_cases), this dataset tabules new COVID-19 cases by age either based on the individual's IC number (for Malaysians with an IC number) or based on the age declared in the COVID-19 test result declaration (for cases without an IC number or non-Malaysians).",
+  "methodology_ms": "Berdasarkan [set data asas](https://data.moh.gov.my/data-catalogue/healthcare_covid_cases), set data ini memaparkan kes COVID-19 baharu mengikut kumpulan umur berdasarkan nombor kad pengenalan (untuk warganegara Malaysia yang memiliki KP) ataupun berdasarkan umur dalam pengisytiharan keputusan ujian COVID-19 (untuk kes tanpa nombor KP atau kes bukan warganegara).",
+  "caveat_en": "In a small minority (~1.5%) of cases, no age was declared or able to be derived. As such, the total number of cases derived from summing the cases for all age groups in this dataset will be less than the number of cases in the [base dataset](https://data.moh.gov.my/data-catalogue/healthcare_covid_cases).",
+  "caveat_ms": "Bagi segelintir kecil kes (~1.5%), medan diumur tidak diisi dan tidak dapat diperoleh daripada nombor ID. Oleh itu, bilangan kes yang diperoleh daripada menjumlahkan kes bagi semua kumpulan umur dalam set data ini akan kurang daripada bilangan kes dalam [set data asas](https://data.moh.gov.my/data-catalogue/healthcare_covid_cases).",
+  "publication_en": "KKMNOW features a [dashboard on COVID-19](https://data.moh.gov.my/dashboard/covid-19) where you can explore the data in a more interactive manner!",
+  "publication_ms": "Portal KKMNOW sendiri memaparkan [papan pemuka tentang COVID-19](https://data.moh.gov.my/dashboard/covid-19) di mana anda boleh menerokai data ini dengan lebih interaktif!",
+  "link_parquet": "https://storage.data.gov.my/healthcare/covid_cases_age.parquet",
+  "link_csv": "https://storage.data.gov.my/healthcare/covid_cases_age.csv",
+  "link_preview": "https://storage.data.gov.my/healthcare/covid_cases_age.parquet",
+  "frequency": "DAILY",
+  "geography": [
+    "NATIONAL",
+    "STATE"
+  ],
+  "demography": [],
+  "dataset_begin": 2020,
+  "dataset_end": 2023,
+  "data_source": [
+    "MoH"
+  ],
+  "site_category": [
+    {
+      "site": "datagovmy",
+      "category_en": "Healthcare",
+      "category_ms": "Kesihatan",
+      "subcategory_en": "Infectious Diseases",
+      "subcategory_ms": "Penyakit Berjangkit"
     },
-    "last_updated": "2024-01-14 12:00",
-    "data_as_of": "2024-01-13 23:59",
-    "next_update": "2024-01-21 12:00"
+    {
+      "site": "kkmnow",
+      "category_en": "Infectious Diseases",
+      "category_ms": "Penyakit Berjangkit",
+      "subcategory_en": "COVID-19",
+      "subcategory_ms": "COVID-19"
+    }
+  ],
+  "fields": [
+    {
+      "name": "date",
+      "title_en": "Date",
+      "title_ms": "Tarikh",
+      "description_en": "[Date] Date in YYYY-MM-DD format",
+      "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+    },
+    {
+      "name": "state",
+      "title_en": "State",
+      "title_ms": "Negeri",
+      "description_en": "[Categorical] One of 16 states, or Malaysia",
+      "description_ms": "[Kategori] Satu daripada 16 negeri, atau Malaysia"
+    },
+    {
+      "name": "cases_child",
+      "title_en": "Child Cases",
+      "title_ms": "Kes Kanak-kanak",
+      "description_en": "[Integer] Number of new COVID-19 cases aged 11 and under",
+      "description_ms": "[Integer] Bilangan kes COVID-19 baharu dalam kumpulan umur 11 dan ke bawah"
+    },
+    {
+      "name": "cases_adolescent",
+      "title_en": "Adolescent Cases",
+      "title_ms": "Kes Remaja",
+      "description_en": "[Integer] Number of new COVID-19 cases aged 12-17",
+      "description_ms": "[Integer] Bilangan kes COVID-19 baharu dalam kumpulan umur 12-17"
+    },
+    {
+      "name": "cases_adult",
+      "title_en": "Adult Cases",
+      "title_ms": "Kes Dewasa",
+      "description_en": "[Integer] Number of new COVID-19 cases aged 18-59",
+      "description_ms": "[Integer] Bilangan kes COVID-19 baharu dalam kumpulan umur 18-59"
+    },
+    {
+      "name": "cases_elderly",
+      "title_en": "Elderly Cases",
+      "title_ms": "Kes Warga Emas",
+      "description_en": "[Integer] Number of new COVID-19 cases aged 60 and above",
+      "description_ms": "[Integer] Bilangan kes COVID-19 baharu dalam kumpulan umur 60 dan ke atas"
+    },
+    {
+      "name": "cases_0_4",
+      "title_en": "Cases Aged 0-4",
+      "title_ms": "Kes Berumur 0-4",
+      "description_en": "[Integer] Number of new COVID-19 cases aged 0-4",
+      "description_ms": "[Integer] Bilangan kes COVID-19 baharu dalam kumpulan umur 0-4"
+    },
+    {
+      "name": "cases_5_11",
+      "title_en": "Cases Aged 5-11",
+      "title_ms": "Kes Berumur 5-11",
+      "description_en": "[Integer] Number of new COVID-19 cases aged 5-11",
+      "description_ms": "[Integer] Bilangan kes COVID-19 baharu dalam kumpulan umur 5-11"
+    },
+    {
+      "name": "cases_12_17",
+      "title_en": "Cases Aged 12-17",
+      "title_ms": "Kes Berumur 12-17",
+      "description_en": "[Integer] Number of new COVID-19 cases aged 12-17",
+      "description_ms": "[Integer] Bilangan kes COVID-19 baharu dalam kumpulan umur 12-17"
+    },
+    {
+      "name": "cases_18_29",
+      "title_en": "Cases Aged 18-29",
+      "title_ms": "Kes Berumur 18-29",
+      "description_en": "[Integer] Number of new COVID-19 cases aged 18-29",
+      "description_ms": "[Integer] Bilangan kes COVID-19 baharu dalam kumpulan umur 18-29"
+    },
+    {
+      "name": "cases_30_39",
+      "title_en": "Cases Aged 30-39",
+      "title_ms": "Kes Berumur 30-39",
+      "description_en": "[Integer] Number of new COVID-19 cases aged 30-39",
+      "description_ms": "[Integer] Bilangan kes COVID-19 baharu dalam kumpulan umur 30-39"
+    },
+    {
+      "name": "cases_40_49",
+      "title_en": "Cases Aged 40-49",
+      "title_ms": "Kes Berumur 40-49",
+      "description_en": "[Integer] Number of new COVID-19 cases aged 40-49",
+      "description_ms": "[Integer] Bilangan kes COVID-19 baharu dalam kumpulan umur 40-49"
+    },
+    {
+      "name": "cases_50_59",
+      "title_en": "Cases Aged 50-59",
+      "title_ms": "Kes Berumur 50-59",
+      "description_en": "[Integer] Number of new COVID-19 cases aged 50-59",
+      "description_ms": "[Integer] Bilangan kes COVID-19 baharu dalam kumpulan umur 50-59"
+    },
+    {
+      "name": "cases_60_69",
+      "title_en": "Cases Aged 60-69",
+      "title_ms": "Kes Berumur 60-69",
+      "description_en": "[Integer] Number of new COVID-19 cases aged 60-69",
+      "description_ms": "[Integer] Bilangan kes COVID-19 baharu dalam kumpulan umur 60-69"
+    },
+    {
+      "name": "cases_70_79",
+      "title_en": "Cases Aged 70-79",
+      "title_ms": "Kes Berumur 70-79",
+      "description_en": "[Integer] Number of new COVID-19 cases aged 70-79",
+      "description_ms": "[Integer] Bilangan kes COVID-19 baharu dalam kumpulan umur 70-79"
+    },
+    {
+      "name": "cases_80",
+      "title_en": "Cases Aged 80",
+      "title_ms": "Kes Berumur 80",
+      "description_en": "[Integer] Number of new COVID-19 cases aged 80 and above",
+      "description_ms": "[Integer] Bilangan kes COVID-19 baharu dalam kumpulan umur 80 dan ke atas"
+    }
+  ],
+  "dataviz": [
+    {
+      "dataviz_id": "table",
+      "title_en": "Table",
+      "title_ms": "Jadual",
+      "chart_type": "TABLE",
+      "config": {
+        "precision": 0,
+        "filter_columns": [
+          "state"
+        ],
+        "freeze_columns": [
+          "date"
+        ]
+      }
+    },
+    {
+      "dataviz_id": "cases_child",
+      "title_en": "Child Cases",
+      "title_ms": "Kes Kanak-kanak",
+      "chart_type": "TIMESERIES",
+      "config": {
+        "filter_columns": [
+          "state"
+        ],
+        "precision": 0,
+        "operation": "SUM",
+        "format": {
+          "x": "date",
+          "y": [
+            "cases_child"
+          ]
+        }
+      }
+    },
+    {
+      "dataviz_id": "cases_adolescent",
+      "title_en": "Adolescent Cases",
+      "title_ms": "Kes Remaja",
+      "chart_type": "TIMESERIES",
+      "config": {
+        "filter_columns": [
+          "state"
+        ],
+        "precision": 0,
+        "operation": "SUM",
+        "format": {
+          "x": "date",
+          "y": [
+            "cases_adolescent"
+          ]
+        }
+      }
+    },
+    {
+      "dataviz_id": "cases_adult",
+      "title_en": "Adult Cases",
+      "title_ms": "Kes Dewasa",
+      "chart_type": "TIMESERIES",
+      "config": {
+        "filter_columns": [
+          "state"
+        ],
+        "precision": 0,
+        "operation": "SUM",
+        "format": {
+          "x": "date",
+          "y": [
+            "cases_adult"
+          ]
+        }
+      }
+    },
+    {
+      "dataviz_id": "cases_elderly",
+      "title_en": "Elderly Cases",
+      "title_ms": "Kes Warga Emas",
+      "chart_type": "TIMESERIES",
+      "config": {
+        "filter_columns": [
+          "state"
+        ],
+        "precision": 0,
+        "operation": "SUM",
+        "format": {
+          "x": "date",
+          "y": [
+            "cases_elderly"
+          ]
+        }
+      }
+    }
+  ],
+  "translations_en": {
+    "date": "Date",
+    "state": "State",
+    "y1": "Cases",
+    "cases_0_4": "Cases aged 0-4",
+    "cases_5_11": "Cases aged 5-11",
+    "cases_12_17": "Cases aged 12-17",
+    "cases_18_29": "Cases aged 18-29",
+    "cases_30_39": "Cases aged 30-39",
+    "cases_40_49": "Cases aged 40-49",
+    "cases_50_59": "Cases aged 50-59",
+    "cases_60_69": "Cases aged 60-69",
+    "cases_70_79": "Cases aged 70-79",
+    "cases_80": "Cases aged 80+"
+  },
+  "translations_ms": {
+    "date": "Tarikh",
+    "state": "Negeri",
+    "y1": "Kes",
+    "cases_0_4": "Kes berumur 0-4",
+    "cases_5_11": "Kes berumur 5-11",
+    "cases_12_17": "Kes berumur 12-17",
+    "cases_18_29": "Kes berumur 18-29",
+    "cases_30_39": "Kes berumur 30-39",
+    "cases_40_49": "Kes berumur 40-49",
+    "cases_50_59": "Kes berumur 50-59",
+    "cases_60_69": "Kes berumur 60-69",
+    "cases_70_79": "Kes berumur 70-79",
+    "cases_80": "Kes berumur 80+"
+  },
+  "related_datasets": []
 }

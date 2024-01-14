@@ -1,131 +1,108 @@
 {
-    "file": {
-        "manual_trigger": "na",
-        "exclude_openapi": true,
-        "bucket": "pricecatcher",
-        "file_name": "pricecatcher_2023-05",
-        "category": "PRICES",
-        "category_en": "Prices",
-        "category_bm": "Harga",
-        "subcategory": "PRICECATCHER",
-        "subcategory_en": "PriceCatcher",
-        "subcategory_bm": "PriceCatcher",
-        "category_opendosm": "PRICES",
-        "category_opendosm_en": "Prices",
-        "category_opendosm_bm": "Harga",
-        "subcategory_opendosm": "PRICECATCHER",
-        "subcategory_opendosm_en": "PriceCatcher",
-        "subcategory_opendosm_bm": "PriceCatcher",
-        "description": {
-            "en": "Granular transactional data from PriceCatcher, a mobile app developed by the Ministry of Domestic Trade and Cost of Living (KPDN) to help users compare the prices of key items in their area.",
-            "bm": "Data transaksi terperinci daripada PriceCatcher, aplikasi mudah alih yang dibangunkan oleh Kementerian Perdagangan Dalam Negeri dan Kos Sara Hidup (KPDN) untuk membantu pengguna mendapatkan harga barangan cepumas di sekeliling mereka."
-        },
-        "link_parquet": "https://storage.data.gov.my/pricecatcher/pricecatcher_2023-05.parquet",
-        "link_csv": "https://storage.data.gov.my/pricecatcher/pricecatcher_2023-05.csv",
-        "link_preview": "https://storage.data.gov.my/pricecatcher/pricecatcher_2023-05_preview.parquet",
-        "variables": [
-            {
-                "id": -1,
-                "name": "date",
-                "title_en": "Date",
-                "title_bm": "Tarikh",
-                "desc_en": "[Date] The date in YYYY-MM-DD format",
-                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
-            },
-            {
-                "id": -1,
-                "name": "premise_code",
-                "title_en": "Premise Code",
-                "title_bm": "Kod Premis",
-                "desc_en": "[Categorical] Integer representing the premise, to be mapped using the [Premise Lookup Table](https://data.gov.my/data-catalogue/pricecatcher_lookup_premise_preview_0). The lookup table will give you the premise name, address, district, and state.",
-                "desc_bm": "[Kategori] Integer yang melambangkan premis, yang perlu dipadankan dengan [Jadual Carian Premis](https://data.gov.my/data-catalogue/pricecatcher_lookup_premise_preview_0). Jadual carian membolehkan anda mendapatkan nama, alamat, daerah, dan negeri bagi setiap premis."
-            },
-            {
-                "id": -1,
-                "name": "item_code",
-                "title_en": "Item Code",
-                "title_bm": "Kod Barangan",
-                "desc_en": "[Categorical] Integer representing the item, to be mapped using the [Item Lookup Table](https://data.gov.my/data-catalogue/pricecatcher_lookup_item_preview_0). The lookup table will give you the item name, unit of measurement, and categorisation.",
-                "desc_bm": "[Kategori] Integer yang melambangkan barangan, yang perlu dipadankan dengan [Jadual Carian Barangan](https://data.gov.my/data-catalogue/pricecatcher_lookup_item_preview_0). Jadual carian membolehkan anda mendapatkan nama, unit ukuran, dan kategori bagi setiap barang."
-            },
-            {
-                "id": -1,
-                "name": "price",
-                "title_en": "Price",
-                "title_bm": "Harga",
-                "desc_en": "[Float] Price in RM",
-                "desc_bm": "[Apung] Harga dalam RM"
-            },
-            {
-                "id": 0,
-                "name": "PriceCatcher: 2023/05",
-                "title_en": "PriceCatcher: 2023/05",
-                "title_bm": "PriceCatcher: 2023/05",
-                "desc_en": "The table below provides a preview of the full dataset, which contains over a million prices. We recommend that you download and work with the data in a coding environment. This data should be used in conjuction with the Item Lookup and Premise Lookup tables.",
-                "desc_bm": "Jadual di bawah memberi pratonton kepada dataset penuh yang mengandungi lebih daripada sejuta harga. Kami sarankan anda memuat turun dan menganalisa data dengan menggunakan kod. Set data ini harus digunakan bersama dengan Jadual Carian Barangan dan Jadual Carian Premis.",
-                "catalog_data": {
-                    "catalog_filters": {
-                        "frequency": "DAILY",
-                        "geography": [
-                            "DISTRICT"
-                        ],
-                        "demography": [],
-                        "start": "2023",
-                        "end": "2023",
-                        "data_source": [
-                            "KPDN",
-                            "DOSM"
-                        ]
-                    },
-                    "metadata_neutral": {
-                        "data_as_of": "2023-05-31 23:59",
-                        "last_updated": "2023-06-01 09:00",
-                        "next_update": "-"
-                    },
-                    "metadata_lang": {
-                        "en": {
-                            "methodology": " Prices are collected and verified by groundstaff on a daily basis, with over 2 million prices collected every month.",
-                            "caveat": "This data is collected for the purpose of price surveillance, and is excellent for high-frequency analysis of specific items in specific locations. Inflation surveillance requires a different approach, in particular to ensure proper representativeness. Inflation analysis should be conducted using DOSM's CPI data.",
-                            "publication": "\u2014"
-                        },
-                        "bm": {
-                            "methodology": "Harga dipungut dan disahkan oleh staf di lapangan, dengan lebih 2 juta harga dipungut setiap bulan.",
-                            "caveat": "Data ini dipungut bagi tujuan survelan harga, maka amat bersesuaian untuk analisa barangan khusus di lokasi yang khusus, pada frekuensi yang tinggi. Namun, survelan inflasi memerlukan pendekatan yang berbeza bagi memastikan keterwakilan data. Sebarang analisa inflasi harus menggunakan data IHP yang diterbitkan oleh DOSM.",
-                            "publication": "\u2014"
-                        }
-                    },
-                    "chart": {
-                        "chart_type": "TABLE",
-                        "chart_filters": {
-                            "SLICE_BY": [],
-                            "precision": {
-                                "default": 0,
-                                "columns": {"price": 2}
-                            }
-                        },
-                        "chart_variables": {
-                            "parents": [],
-                            "exclude": [],
-                            "freeze": []
-                        }
-                    },
-					"dataviz": [],
-                    "translations": {
-                        "en": {
-                            "date": "Date",
-                            "premise_code": "Premise Code",
-                            "item_code": "Item Code",
-                            "price": "Price"
-                        },
-                        "bm": {
-                            "date": "Tarikh",
-                            "premise_code": "Kod Premis",
-                            "item_code": "Kod Barangan",
-                            "price": "Harga"
-                        }
-                    }
-                }
-            }
-        ]
+  "title_en": "PriceCatcher: 2023/05",
+  "title_ms": "PriceCatcher: 2023/05",
+  "description_en": "The table below provides a preview of the full dataset, which contains over a million prices. We recommend that you download and work with the data in a coding environment. This data should be used in conjuction with the Item Lookup and Premise Lookup tables.",
+  "description_ms": "Jadual di bawah memberi pratonton kepada dataset penuh yang mengandungi lebih daripada sejuta harga. Kami sarankan anda memuat turun dan menganalisa data dengan menggunakan kod. Set data ini harus digunakan bersama dengan Jadual Carian Barangan dan Jadual Carian Premis.",
+  "exclude_openapi": true,
+  "manual_trigger": "na",
+  "data_as_of": "2023-05-31 23:59",
+  "last_updated": "2023-06-01 09:00",
+  "next_update": "-",
+  "methodology_en": " Prices are collected and verified by groundstaff on a daily basis, with over 2 million prices collected every month.",
+  "methodology_ms": "Harga dipungut dan disahkan oleh staf di lapangan, dengan lebih 2 juta harga dipungut setiap bulan.",
+  "caveat_en": "This data is collected for the purpose of price surveillance, and is excellent for high-frequency analysis of specific items in specific locations. Inflation surveillance requires a different approach, in particular to ensure proper representativeness. Inflation analysis should be conducted using DOSM's CPI data.",
+  "caveat_ms": "Data ini dipungut bagi tujuan survelan harga, maka amat bersesuaian untuk analisa barangan khusus di lokasi yang khusus, pada frekuensi yang tinggi. Namun, survelan inflasi memerlukan pendekatan yang berbeza bagi memastikan keterwakilan data. Sebarang analisa inflasi harus menggunakan data IHP yang diterbitkan oleh DOSM.",
+  "publication_en": "\u2014",
+  "publication_ms": "\u2014",
+  "link_parquet": "https://storage.data.gov.my/pricecatcher/pricecatcher_2023-05.parquet",
+  "link_csv": "https://storage.data.gov.my/pricecatcher/pricecatcher_2023-05.csv",
+  "link_preview": "https://storage.data.gov.my/pricecatcher/pricecatcher_2023-05_preview.parquet",
+  "frequency": "DAILY",
+  "geography": [
+    "DISTRICT"
+  ],
+  "demography": [],
+  "dataset_begin": 2023,
+  "dataset_end": 2023,
+  "data_source": [
+    "KPDN",
+    "DOSM"
+  ],
+  "site_category": [
+    {
+      "site": "datagovmy",
+      "category_en": "Prices",
+      "category_ms": "Harga",
+      "subcategory_en": "PriceCatcher",
+      "subcategory_ms": "PriceCatcher"
+    },
+    {
+      "site": "opendosm",
+      "category_en": "Prices",
+      "category_ms": "Harga",
+      "subcategory_en": "PriceCatcher",
+      "subcategory_ms": "PriceCatcher"
     }
+  ],
+  "fields": [
+    {
+      "name": "date",
+      "title_en": "Date",
+      "title_ms": "Tarikh",
+      "description_en": "[Date] The date in YYYY-MM-DD format",
+      "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+    },
+    {
+      "name": "premise_code",
+      "title_en": "Premise Code",
+      "title_ms": "Kod Premis",
+      "description_en": "[Categorical] Integer representing the premise, to be mapped using the [Premise Lookup Table](https://data.gov.my/data-catalogue/pricecatcher_lookup_premise_preview_0). The lookup table will give you the premise name, address, district, and state.",
+      "description_ms": "[Kategori] Integer yang melambangkan premis, yang perlu dipadankan dengan [Jadual Carian Premis](https://data.gov.my/data-catalogue/pricecatcher_lookup_premise_preview_0). Jadual carian membolehkan anda mendapatkan nama, alamat, daerah, dan negeri bagi setiap premis."
+    },
+    {
+      "name": "item_code",
+      "title_en": "Item Code",
+      "title_ms": "Kod Barangan",
+      "description_en": "[Categorical] Integer representing the item, to be mapped using the [Item Lookup Table](https://data.gov.my/data-catalogue/pricecatcher_lookup_item_preview_0). The lookup table will give you the item name, unit of measurement, and categorisation.",
+      "description_ms": "[Kategori] Integer yang melambangkan barangan, yang perlu dipadankan dengan [Jadual Carian Barangan](https://data.gov.my/data-catalogue/pricecatcher_lookup_item_preview_0). Jadual carian membolehkan anda mendapatkan nama, unit ukuran, dan kategori bagi setiap barang."
+    },
+    {
+      "name": "price",
+      "title_en": "Price",
+      "title_ms": "Harga",
+      "description_en": "[Float] Price in RM",
+      "description_ms": "[Apung] Harga dalam RM"
+    }
+  ],
+  "dataviz": [
+    {
+      "dataviz_id": "table",
+      "title_en": "Table",
+      "title_ms": "Jadual",
+      "chart_type": "TABLE",
+      "config": {
+        "precision": {
+          "default": 0,
+          "columns": {
+            "price": 2
+          }
+        },
+        "filter_columns": [],
+        "freeze_columns": []
+      }
+    }
+  ],
+  "translations_en": {
+    "date": "Date",
+    "premise_code": "Premise Code",
+    "item_code": "Item Code",
+    "price": "Price"
+  },
+  "translations_ms": {
+    "date": "Tarikh",
+    "premise_code": "Kod Premis",
+    "item_code": "Kod Barangan",
+    "price": "Harga"
+  },
+  "related_datasets": []
 }
