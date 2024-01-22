@@ -1,11 +1,11 @@
 {
     "dashboard_name": "opendosm_homepage",
-    "data_last_updated": "2024-01-22 00:01",
+    "data_last_updated": "2024-01-22 12:00",
     "route": "/,/ms-MY/",
     "sites": [
         "opendosm"
     ],
-    "manual_trigger": "2024-01-22 07:24:44.604190",
+    "manual_trigger": "2024-01-22 11:59:19.910682",
     "required_params": [],
     "optional_params": [],
     "charts": {
@@ -13,7 +13,7 @@
             "name": "keystats",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/homepage_keystats.parquet",
-            "data_as_of": "2024-01-21 23:59",
+            "data_as_of": "2024-01-22 12:00",
             "api_type": "static",
             "api_params": [],
             "variables": {
