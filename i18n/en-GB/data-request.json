@@ -46,11 +46,11 @@
     "forms": {
       "name": "Name",
       "email": "Email",
-      "institution": "Institution",
+      "institution": "Applicant's Institution",
       "dataset_title": "Dataset title",
       "dataset_description": "Dataset description",
-      "dataset_description_placeholder": "Describe the dataset",
-      "agency": "Agency",
+      "dataset_description_placeholder": "Describe the dataset that you are requesting",
+      "agency": "Data provider agency",
       "purpose": "Purpose of request",
       "purpose_placeholder": "Give a short explanation on how you're planning to use this dataset",
       "submit": "Submit Request"
