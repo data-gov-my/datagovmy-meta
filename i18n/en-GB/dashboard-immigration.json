@@ -11,7 +11,7 @@
             "title_ALL": "How many people from {{ country }} are entering the country?",
             "description": "This data is only available at national level because movement between states is free and unmonitored in Malaysia.",
             "search_placeholder": "Zoom into a specific country",
-            "timeseries_title": "Entrances and Departures"
+            "timeseries_title": "Entrances into Malaysia"
         },
         "section_2": {
             "title": "A breakdown of foreign arrivals by demographic group",
