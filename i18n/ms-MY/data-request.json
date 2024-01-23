@@ -54,7 +54,14 @@
       "agency": "Agensi pembekal data",
       "purpose": "Tujuan permohonan",
       "purpose_placeholder": "Beri penerangan ringkas tentang bagaimana anda merancang untuk menggunakan dataset ini",
-      "submit": "Hantar Permohonan"
+      "submit": "Hantar Permohonan",
+      "radio": {
+        "research": "Kajian",
+        "learning": "Pembelajaran",
+        "product_development": "Pembangunan produk",
+        "general_knowledge": "Pengetahuan umum",
+        "others": "Lain-lain (nyatakan)"
+      }
     }
   }
 }

@@ -54,7 +54,14 @@
       "agency": "Data provider agency",
       "purpose": "Purpose of request",
       "purpose_placeholder": "Give a short explanation on how you're planning to use this dataset",
-      "submit": "Submit Request"
+      "submit": "Submit Request",
+      "radio": {
+        "research": "Research",
+        "learning": "Learning",
+        "product_development": "Product Development",
+        "general_knowledge": "General Knowledge",
+        "others": "Others (Please state)"
+      }
     }
   }
 }
