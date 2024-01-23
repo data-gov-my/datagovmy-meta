@@ -22,6 +22,7 @@
       "rejected_modal": "This request has been rejected for the following reason"
     },
     "table": {
+      "ticket_id": "Ticket ID",
       "status": "Status",
       "title": "Dataset title",
       "description": "Dataset description",
