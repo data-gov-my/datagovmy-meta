@@ -11,7 +11,7 @@
     "description_line2": "Gunakan halaman ini untuk meminta data dan mendapatkan kemas kini yang telus pada tiket anda!",
     "request_data": "Mohon data",
     "data_request_tickets": "Tiket Permohonan data",
-    "search_query_placeholder": "Buat carian mengikut tajuk dataset atau menggunakan 'id:1'",
+    "search_query_placeholder": "Carian berdasarkan tajuk atau ID tiket 'id:1'",
     "status": {
       "all": "Semua Tiket",
       "under_review": "Dalam Semakan",

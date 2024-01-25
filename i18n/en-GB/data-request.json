@@ -11,7 +11,7 @@
     "description_line2": "Use this page to request data and get transparent updates on your ticket!",
     "request_data": "Request data",
     "data_request_tickets": "Data request tickets",
-    "search_query_placeholder": "Search by dataset title or using 'id: 1'",
+    "search_query_placeholder": "Search by dataset title or with 'id: 1'",
     "status": {
       "all": "All Tickets",
       "under_review": "Under Review",
