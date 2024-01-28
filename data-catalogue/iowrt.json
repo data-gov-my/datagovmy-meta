@@ -134,7 +134,7 @@
         "format": {
           "x": "date",
           "y": [
-            "overall"
+            "wholesale"
           ]
         }
       }
@@ -153,7 +153,7 @@
         "format": {
           "x": "date",
           "y": [
-            "overall"
+            "retail"
           ]
         }
       }
@@ -172,7 +172,7 @@
         "format": {
           "x": "date",
           "y": [
-            "overall"
+            "motor"
           ]
         }
       }
