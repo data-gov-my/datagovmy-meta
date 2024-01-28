@@ -109,7 +109,9 @@
       "config": {
         "precision": 1,
         "filter_columns": [],
-        "freeze_columns": []
+        "freeze_columns": [
+          "date"
+        ]
       }
     },
     {
