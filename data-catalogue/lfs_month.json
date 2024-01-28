@@ -233,6 +233,7 @@
     }
   ],
   "translations_en": {
+    "y1": "Value",
     "date": "Date",
     "lf": "Labour Force Size",
     "lf_employed": "Employed Persons",
@@ -243,6 +244,7 @@
     "ep_ratio": "Employment-Population Ratio"
   },
   "translations_ms": {
+    "y1": "Nilai",
     "date": "Tarikh",
     "lf": "Tenaga Buruh",
     "lf_employed": "Bekerja",
