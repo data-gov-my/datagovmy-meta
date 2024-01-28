@@ -1,9 +1,9 @@
 {
     "dashboard_name": "labour",
-    "manual_trigger": "2024-01-29 03:03:18.441405",
+    "manual_trigger": "2024-01-29 03:04:29.059917",
     "data_last_updated": "2024-01-10 12:00",
     "data_next_update": "2024-02-09 12:00",
-    "route": "/dashboard/labour,/ms-MY/dashboard/labour",
+    "route": "/dashboard/labour-market,/ms-MY/dashboard/labour-market",
     "sites": [
         "datagovmy"
     ],
