@@ -177,8 +177,8 @@
     "mining": "Mining",
     "mfg": "Manufacturing",
     "electric": "Electricity",
-    "volume": "Volume (index)",
-    "volume-sa": "Volume (index, sa)"
+    "index": "Index",
+    "index-sa": "Index (sa)"
   },
   "translations_ms": {
     "date": "Tarikh",
@@ -186,8 +186,8 @@
     "mining": "Perlombongan",
     "mfg": "Pembuatan",
     "electric": "Elektrik",
-    "volume": "Volum (indeks)",
-    "volume-sa": "Volum (indeks, tsm)"
+    "index": "Indeks",
+    "index-sa": "Indeks (tsm)"
   },
   "related_datasets": []
 }
