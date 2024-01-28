@@ -186,8 +186,8 @@
     "retail": "Retail Trade",
     "motor": "Motor Vehicles",
     "sales": "Sales Value (RM mil)",
-    "index": "Original Index",
-    "index-sa": "Seasonally Adjusted"
+    "volume": "Volume (index)",
+    "volume-sa": "Volume (index, sa)"
   },
   "translations_ms": {
     "variable": "Pembolehubah",
@@ -197,8 +197,8 @@
     "retail": "Perdagangan Borong",
     "motor": "Kendaraan Bermotor",
     "sales": "Nilai Jualan (RM juta)",
-    "index": "Indeks Asal",
-    "index-sa": "Terlaras Secara Musim"
+    "volume": "Volum (indeks)",
+    "volume-sa": "Volum (indeks, tsm)"
   },
   "related_datasets": []
 }
