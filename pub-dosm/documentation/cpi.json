@@ -1,31 +1,31 @@
 {
-	"publication": "technote-cpi",
+	"publication": "cpi-technotes",
 	"documentation_type": "technical-note",
 	"publication_type": "cpi",
-	"release_date": "2023-08-24",
+	"release_date": "2024-01-22",
 	"en": {
 		"title": "Consumer Price Index: Technical Notes",
 		"publication_type_title": "Consumer Price Index",
-		"description": "Official inflation data, covering headline, core, and state-level inflation",
+		"description": "Official inflation data, covering headline, core, and state-level inflation.",
 		"resources": [
 			{
 				"resource_id": 1,
 				"resource_type": "pdf",
 				"resource_name": "Consumer Price Index: Technical Notes",
-				"resource_link": "https://storage.dosm.gov.my/technotes/technotes_cpi.pdf"
+				"resource_link": "https://storage.dosm.gov.my/technotes/cpi.pdf"
 			}
 		]
 	},
 	"bm": {
-		"title": "Consumer Price Index: Nota Teknikal",
+		"title": "Indeks Harga Pengguna: Nota Teknikal",
 		"publication_type_title": "Indeks Harga Pengguna",
-		"description": "Data inflasi rasmi, merangkumi inflasi, inflasi teras, dan inflasi mengikut negeri",
+		"description": "Data inflasi rasmi, merangkumi inflasi, inflasi teras, dan inflasi mengikut negeri.",
 		"resources": [
 			{
 				"resource_id": 1,
 				"resource_type": "pdf",
 				"resource_name": "Indeks Harga Pengguna: Nota Teknikal",
-				"resource_link": "https://storage.dosm.gov.my/technotes/technotes_cpi.pdf"
+				"resource_link": "https://storage.dosm.gov.my/technotes/cpi.pdf"
 			}
 		]
 	}
