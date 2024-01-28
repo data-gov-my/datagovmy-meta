@@ -1,12 +1,12 @@
 {
     "dashboard_name": "producer_price_index",
     "data_last_updated": "2023-12-27 12:00",
-    "data_next_updated": "2024-01-29 12:00",
+    "data_next_update": "2024-01-29 12:00",
     "route": "/dashboard/producer-prices,/ms-MY/dashboard/producer-prices",
     "sites": [
         "opendosm"
     ],
-    "manual_trigger": "2024-01-28 22:32:19.273336",
+    "manual_trigger": "2024-01-28 22:33:57.547985",
     "required_params": [],
     "optional_params": [],
     "charts": {
