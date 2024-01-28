@@ -1,8 +1,8 @@
 {
     "dashboard_name": "composite_indices",
-    "manual_trigger": "2023-11-24 11:56:00.585366",
-    "data_last_updated": "2023-11-23 12:00",
-    "data_next_update": "2023-11-23 12:00",
+    "manual_trigger": "2024-01-28 23:38:50.265882",
+    "data_last_updated": "2024-01-24 12:00",
+    "data_next_update": "2024-02-23 12:00",
     "route": "/dashboard/composite-indices,/ms-MY/dashboard/composite-indices",
     "sites": [
         "opendosm"
@@ -14,7 +14,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/mei_timeseries.parquet",
-            "data_as_of": "2023-09-30 23:59",
+            "data_as_of": "2023-11",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -40,7 +40,7 @@
             "name": "statistics",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/mei_timeseries_callout.parquet",
-            "data_as_of": "2023-09-30 23:59",
+            "data_as_of": "2023-11",
             "api_type": "static",
             "api_params": [],
             "variables": {
