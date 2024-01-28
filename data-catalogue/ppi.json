@@ -5,15 +5,15 @@
   "description_ms": "Harga pengeluar bagi lima sektor utama iaitu pertanian, perhutanan dan perikanan, perlombongan, pembuatan, bekalan elektrik dan gas, dan bekalan air.",
   "exclude_openapi": false,
   "manual_trigger": "na",
-  "data_as_of": "2023-07-31 23:59",
-  "last_updated": "2023-08-28 12:00",
-  "next_update": "2023-09-25 12:00",
-  "methodology_en": "The index is compiled based on the average price change for commodities in Water Supply sector charged by domestic producers of an industry.",
-  "methodology_ms": "Indeks disusun berdasarkan perubahan purata harga bagi komoditi dalam sektor Bekalan Air yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
+  "data_as_of": "2023-11",
+  "last_updated": "2023-12-27 12:00",
+  "next_update": "2024-01-29 12:00",
+  "methodology_en": "The index is compiled based on the change in the average price of commodities charged by domestic producers of an industry.",
+  "methodology_ms": "Indeks disusun berdasarkan perubahan purata harga komoditi yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
   "caveat_en": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
   "caveat_ms": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa.",
-  "publication_en": "[Producer Price Index, July 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_ppi.pdf), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on producer prices](https://open.dosm.gov.my/producer-prices).",
-  "publication_ms": "[Indeks Harga Pengeluar, Julai 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-07_ppi.pdf), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/producer-prices).",
+  "publication_en": "[Producer Price Index, Nov 2023](https://open.dosm.gov.my/publications/ppi_2023-11), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on producer prices](https://open.dosm.gov.my/dashboard/producer-prices).",
+  "publication_ms": "[Indeks Harga Pengeluar, Nov 2023](https://open.dosm.gov.my/ms-MY/publications/ppi_2023-11), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/ms-MY/dashboard/producer-prices).",
   "link_parquet": "https://storage.dosm.gov.my/ppi/ppi.parquet",
   "link_csv": "https://storage.dosm.gov.my/ppi/ppi.csv",
   "link_preview": "https://storage.dosm.gov.my/ppi/ppi.parquet",
@@ -105,24 +105,128 @@
         "filter_columns": [],
         "freeze_columns": []
       }
+    },
+    {
+      "dataviz_id": "overall",
+      "title_en": "Overall",
+      "title_ms": "Keseluruhan",
+      "chart_type": "TIMESERIES",
+      "config": {
+        "filter_columns": [],
+        "precision": 0,
+        "operation": "SUM",
+        "format": {
+          "x": "date",
+          "y": [
+            "overall"
+          ]
+        }
+      }
+    },
+    {
+      "dataviz_id": "agriculture",
+      "title_en": "Agriculture",
+      "title_ms": "Pertanian",
+      "chart_type": "TIMESERIES",
+      "config": {
+        "filter_columns": [],
+        "precision": 0,
+        "operation": "SUM",
+        "format": {
+          "x": "date",
+          "y": [
+            "agriculture"
+          ]
+        }
+      }
+    },
+    {
+      "dataviz_id": "mining",
+      "title_en": "Mining",
+      "title_ms": "Perlombongan",
+      "chart_type": "TIMESERIES",
+      "config": {
+        "filter_columns": [],
+        "precision": 0,
+        "operation": "SUM",
+        "format": {
+          "x": "date",
+          "y": [
+            "mining"
+          ]
+        }
+      }
+    },
+    {
+      "dataviz_id": "manufacturing",
+      "title_en": "Manufacturing",
+      "title_ms": "Pembuatan",
+      "chart_type": "TIMESERIES",
+      "config": {
+        "filter_columns": [],
+        "precision": 0,
+        "operation": "SUM",
+        "format": {
+          "x": "date",
+          "y": [
+            "manufacturing"
+          ]
+        }
+      }
+    },
+    {
+      "dataviz_id": "electricity",
+      "title_en": "Electricity",
+      "title_ms": "Bekalan Elektrik",
+      "chart_type": "TIMESERIES",
+      "config": {
+        "filter_columns": [],
+        "precision": 0,
+        "operation": "SUM",
+        "format": {
+          "x": "date",
+          "y": [
+            "electricity"
+          ]
+        }
+      }
+    },
+    {
+      "dataviz_id": "water",
+      "title_en": "Water Supply",
+      "title_ms": "Bekalan Air",
+      "chart_type": "TIMESERIES",
+      "config": {
+        "filter_columns": [],
+        "precision": 0,
+        "operation": "SUM",
+        "format": {
+          "x": "date",
+          "y": [
+            "water"
+          ]
+        }
+      }
     }
   ],
   "translations_en": {
+    "y1": "Value",
     "date": "Date",
-    "overall": "PPI (Producer Price Index)",
-    "agriculture": "Agriculture, Forestry & Fishing",
+    "overall": "Overall",
+    "agriculture": "Agriculture",
     "mining": "Mining",
     "manufacturing": "Manufacturing",
-    "electricity": "Electricity & Gas Supply",
+    "electricity": "Electricity",
     "water": "Water Supply"
   },
   "translations_ms": {
+    "y1": "Nilai",
     "date": "Tarikh",
-    "overall": "IHPR (Indeks Harga Pengeluar)",
-    "agriculture": "Pertanian, Perhutanan & Perikanan",
+    "overall": "Keseluruhan",
+    "agriculture": "Pertanian",
     "mining": "Perlombongan",
     "manufacturing": "Pembuatan",
-    "electricity": "Bekalan Elektrik & Gas",
+    "electricity": "Bekalan Elektrik",
     "water": "Bekalan Air"
   },
   "related_datasets": []
