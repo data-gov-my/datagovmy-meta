@@ -133,23 +133,6 @@
       }
     },
     {
-      "dataviz_id": "ep_ratio",
-      "title_en": "Employment-Population Ratio",
-      "title_ms": "Nisbah Guna Tenaga kepada Penduduk",
-      "chart_type": "TIMESERIES",
-      "config": {
-        "filter_columns": [],
-        "precision": 0,
-        "operation": "SUM",
-        "format": {
-          "x": "date",
-          "y": [
-            "ep_ratio"
-          ]
-        }
-      }
-    },
-    {
       "dataviz_id": "lf",
       "title_en": "Labour Force Size",
       "title_ms": "Jumlah Tenaga Buruh",
@@ -196,23 +179,6 @@
           "x": "date",
           "y": [
             "lf_unemployed"
-          ]
-        }
-      }
-    },
-    {
-      "dataviz_id": "lf_outside",
-      "title_en": "Outside Labour Force",
-      "title_ms": "Luar Tenaga Buruh",
-      "chart_type": "TIMESERIES",
-      "config": {
-        "filter_columns": [],
-        "precision": 0,
-        "operation": "SUM",
-        "format": {
-          "x": "date",
-          "y": [
-            "lf_outside"
           ]
         }
       }
