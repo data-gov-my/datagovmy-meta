@@ -175,7 +175,7 @@
         "format": {
           "x": "date",
           "y": [
-            "lf_size"
+            "lf"
           ]
         }
       }
