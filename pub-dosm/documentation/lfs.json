@@ -4,27 +4,27 @@
 	"publication_type": "iowrt",
 	"release_date": "2024-01-10",
 	"en": {
-		"title": " Labour Force Survey: Technical Notes",
+		"title": " Labour Force Survey",
 		"publication_type_title": "Labour Force Survey",
 		"description": "Labour force report, covering statistics on unemployment, employment, and labour force participation.",
 		"resources": [
 			{
 				"resource_id": 1,
 				"resource_type": "pdf",
-				"resource_name": " Labour Force Survey: Technical Notes",
+				"resource_name": "Technical Notes",
 				"resource_link": "https://storage.dosm.gov.my/technotes/lfs.pdf"
 			}
 		]
 	},
 	"bm": {
-		"title": "Survei Tenaga Buruh: Nota Teknikal",
+		"title": "Survei Tenaga Buruh",
 		"publication_type_title": "Survei Tenaga Buruh",
 		"description": "Laporan tenaga buruh, merangkumi statistik pengangguran, penduduk bekerja, dan penyertaan tenaga buruh.",
 		"resources": [
 			{
 				"resource_id": 1,
 				"resource_type": "pdf",
-				"resource_name": "Survei Tenaga Buruh: Nota Teknikal",
+				"resource_name": "Nota Teknikal",
 				"resource_link": "https://storage.dosm.gov.my/technotes/lfs.pdf"
 			}
 		]
