@@ -1,0 +1,32 @@
+{
+	"publication": "ppi-technotes",
+	"documentation_type": "technical-note",
+	"publication_type": "ppi",
+	"release_date": "2023-12-27",
+	"en": {
+		"title": "Producer Price Index: Technical Notes",
+		"publication_type_title": "Producer Price Index",
+		"description": "Monthly producer prices broken down by MSIC section, division and group, as well as SITC section and stage of processing.",
+		"resources": [
+			{
+				"resource_id": 1,
+				"resource_type": "pdf",
+				"resource_name": "Producer Price Index: Technical Notes",
+				"resource_link": "https://storage.dosm.gov.my/technotes/ppi.pdf"
+			}
+		]
+	},
+	"bm": {
+		"title": "Indeks Harga Pengeluar: Nota Teknikal",
+		"publication_type_title": "Indeks Harga Pengeluar",
+		"description": "Harga pengeluar bulanan mengikut seksyen, bahagian dan kumpulan MSIC, serta seksyen dan peringkat pemprosesan SITC.",
+		"resources": [
+			{
+				"resource_id": 1,
+				"resource_type": "pdf",
+				"resource_name": "Indeks Harga Pengeluar: Nota Teknikal",
+				"resource_link": "https://storage.dosm.gov.my/technotes/ppi.pdf"
+			}
+		]
+	}
+}
