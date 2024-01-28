@@ -5,18 +5,17 @@
   "description_ms": "Indeks bagi tujuan memantau kedudukan ekonomi semasa Malaysia. Ia terdiri daripada indeks pelopor, serentak dan susulan.",
   "exclude_openapi": false,
   "manual_trigger": "na",
-  "data_as_of": "2023-06-30 23:59",
-  "last_updated": "2023-08-25 12:00",
-  "next_update": "2023-09-25 12:00",
-  "methodology_en": "Data for the compilation of Composite and Diffusion Indexes is obtained from the Department of Statistics Malaysia and the following agencies: (i) Ministry of Housing and Local Government (MHLG); (ii) Bank Negara Malaysia (BNM); (iii) Road Transport Department (RTD); (iv) Malaysian Investment Development Authority (MIDA); and (v) Employees Provident Fund (EPF).",
-  "methodology_ms": "Data bagi penyediaan Indeks Komposit dan Indeks Difusi diperoleh daripada Jabatan Perangkaan Malaysia serta agensi berikut: (i) Kementerian Perumahan dan Kerajaan Tempatan (KPKT); (ii) Bank Negara Malaysia (BNM); (iii) Jabatan Pengangkutan Jalan (JPJ); (iv) Lembaga Pembangunan Pelaburan Malaysia (MIDA); dan (v) Kumpulan Wang Simpanan Pekerja (KWSP).",
+  "data_as_of": "2023-11",
+  "last_updated": "2024-01-24 12:00",
+  "next_update": "2024-02-23 12:00",
+  "methodology_en": "Data for the compilation of Composite and Diffusion Indexes is obtained from the Department of Statistics Malaysia and the following agencies:\n 1. Ministry of Housing and Local Government (MHLG)\n 2. Bank Negara Malaysia (BNM)n\n 3. Road Transport Department (RTD)\n 4. Malaysian Investment Development Authority (MIDA)\n 5. Employees Provident Fund (EPF)",
+  "methodology_ms": "Data bagi penyediaan Indeks Komposit dan Indeks Difusi diperoleh daripada Jabatan Perangkaan Malaysia serta agensi berikut\n 1. Kementerian Perumahan dan Kerajaan Tempatan (KPKT)\n 2. Bank Negara Malaysia (BNM)\n 3. Jabatan Pengangkutan Jalan (JPJ)\n 4. Lembaga Pembangunan Pelaburan Malaysia (MIDA)\n 5. Kumpulan Wang Simpanan Pekerja (KWSP)",
   "caveat_en": "The economic indicators are unable to take into account internal or/and external shocks to the economy.",
   "caveat_ms": "Sistem penunjuk ekonomi tidak berupaya untuk mengambil kira kejutan pengaruh dalaman atau/dan luaran kepada ekonomi.",
-  "publication_en": "[Malaysian Economic Indicators, June 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-06_mei.pdf), the latest edition of the leading, coincident, and lagging composite indices published monthly by DOSM. OpenDOSM also features a [dashboard on these composite indices](https://open.dosm.gov.my/composite-indices).",
-  "publication_ms": "[Penunjuk Ekonomi Malaysia, June 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-06_mei.pdf), edisi terkini bagi indeks komposit pelopor, serentak, dan susulan yang diterbitkan secara bulanan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang indeks komposit](https://open.dosm.gov.my/composite-indices).",
-  "link_parquet": "https://storage.dosm.gov.my/econindicators/economic_indicators.parquet",
-  "link_csv": "https://storage.dosm.gov.my/econindicators/economic_indicators.csv",
-  "link_preview": "https://storage.dosm.gov.my/econindicators/economic_indicators.parquet",
+  "publication_en": "[Malaysian Economic Indicators, Nov 2023](https://open.dosm.gov.my/publications/mei_2023-11), the latest edition of the monthly economic indicators published by DOSM. OpenDOSM also features a [dashboard on these indicators](https://open.dosm.gov.my/dashboard/composite-indices).",
+  "publication_ms": "[Indikator Ekonomi Malaysia, Nov 2023](https://open.dosm.gov.my/ms-MY/publications/mei_2023-11), edisi terkini bagi indikator ekonomi bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang indikator ini](https://open.dosm.gov.my/ms-MY/dashboard/composite-indices).",
+  "link_parquet": "https://storage.dosm.gov.my/mei/mei.parquet",
+  "link_csv": "https://storage.dosm.gov.my/mei/mei.csv",
   "frequency": "MONTHLY",
   "geography": [
     "NATIONAL"
@@ -98,23 +97,110 @@
         "filter_columns": [],
         "freeze_columns": []
       }
+    },
+    {
+      "dataviz_id": "leading",
+      "title_en": "Leading Index",
+      "title_ms": "Indeks Pelopor",
+      "chart_type": "TIMESERIES",
+      "config": {
+        "filter_columns": [],
+        "precision": 0,
+        "operation": "SUM",
+        "format": {
+          "x": "date",
+          "y": [
+            "leading"
+          ]
+        }
+      }
+    },
+    {
+      "dataviz_id": "coincident",
+      "title_en": "Coincident Index",
+      "title_ms": "Indeks Serentak",
+      "chart_type": "TIMESERIES",
+      "config": {
+        "filter_columns": [],
+        "precision": 0,
+        "operation": "SUM",
+        "format": {
+          "x": "date",
+          "y": [
+            "coincident"
+          ]
+        }
+      }
+    },
+    {
+      "dataviz_id": "lagging",
+      "title_en": "Lagging Index",
+      "title_ms": "Indeks Susulan",
+      "chart_type": "TIMESERIES",
+      "config": {
+        "filter_columns": [],
+        "precision": 0,
+        "operation": "SUM",
+        "format": {
+          "x": "date",
+          "y": [
+            "lagging"
+          ]
+        }
+      }
+    },
+    {
+      "dataviz_id": "leading_diffusion",
+      "title_en": "Diffusion (Leading)",
+      "title_ms": "Difusi (Pelopor)",
+      "chart_type": "TIMESERIES",
+      "config": {
+        "filter_columns": [],
+        "precision": 0,
+        "operation": "SUM",
+        "format": {
+          "x": "date",
+          "y": [
+            "leading_diffusion"
+          ]
+        }
+      }
+    },
+    {
+      "dataviz_id": "coincident_diffusion",
+      "title_en": "Diffusion (Coincident)",
+      "title_ms": "Difusi (Serentak)",
+      "chart_type": "TIMESERIES",
+      "config": {
+        "filter_columns": [],
+        "precision": 0,
+        "operation": "SUM",
+        "format": {
+          "x": "date",
+          "y": [
+            "coincident_diffusion"
+          ]
+        }
+      }
     }
   ],
   "translations_en": {
+    "y1": "Value",
     "date": "Date",
     "leading": "Leading Index",
     "coincident": "Coincident Index",
     "lagging": "Lagging Index",
-    "leading_diffusion": "Leading Index (Diffusion)",
-    "coincident_diffusion": "Coincident Index (Diffusion)"
+    "leading_diffusion": "Diffusion (Leading)",
+    "coincident_diffusion": "Diffusion (Coincident)"
   },
   "translations_ms": {
+    "y1": "Nilai",
     "date": "Tarikh",
     "leading": "Indeks Pelopor",
     "coincident": "Indeks Serentak",
     "lagging": "Indeks Susulan",
-    "leading_diffusion": "Indeks Pelopor (Difusi)",
-    "coincident_diffusion": "Indeks Serentak (Difusi)"
+    "leading_diffusion": "Difusi (Pelopor)",
+    "coincident_diffusion": "Difusi (Serentak)"
   },
   "related_datasets": []
 }
