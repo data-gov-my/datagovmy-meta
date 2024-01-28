@@ -8,12 +8,12 @@
   "data_as_of": "2023-11",
   "last_updated": "2024-01-11 12:00",
   "next_update": "2024-02-08 12:00",
-  "methodology_en": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
-  "methodology_ms": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
+  "methodology_en": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time. For a full description of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/ipi-technotes).",
+  "methodology_ms": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa. Untuk mendapat perincian metodologi yang penuh, sila merujuk kepada [Nota Teknikal](https://open.dosm.gov.my/publications/technical-notes/ipi-technotes).",
   "caveat_en": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia. Data for December 2022 is provisional; it will be updated and subsequently published in the January 2023 publication.",
   "caveat_ms": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia. Data bagi bulan Disember 2022 merupakan data awalan, maka akan dikemaskini dan diterbitkan dalam penerbitan bulan Januari 2023.",
-  "publication_en": "[Index of Industrial Production, June 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-06_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production).",
-  "publication_ms": "[Indeks Pengeluaran Perindustrian, Jun 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-06_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production).",
+  "publication_en": "[Index of Industrial Production, Nov 2023](https://open.dosm.gov.my/publications/ipi_2023-11), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/dashboard/industrial-production).",
+  "publication_ms": "[Indeks Pengeluaran Perindustrian, Nov 2023](https://open.dosm.gov.my/ms-MY/publications/ipi_2023-11), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/ms-MY/dashboard/industrial-production).",
   "link_parquet": "https://storage.dosm.gov.my/ipi/ipi.parquet",
   "link_csv": "https://storage.dosm.gov.my/ipi/ipi.csv",
   "link_preview": "https://storage.dosm.gov.my/ipi/ipi.parquet",
@@ -88,7 +88,9 @@
       "chart_type": "TABLE",
       "config": {
         "precision": 1,
-        "filter_columns": [],
+        "filter_columns": [
+          "variable"
+        ],
         "freeze_columns": []
       }
     },
@@ -98,7 +100,9 @@
       "title_ms": "Keseluruhan",
       "chart_type": "TIMESERIES",
       "config": {
-        "filter_columns": [],
+        "filter_columns": [
+          "variable"
+        ],
         "precision": 0,
         "operation": "SUM",
         "format": {
@@ -115,7 +119,9 @@
       "title_ms": "Perlombongan",
       "chart_type": "TIMESERIES",
       "config": {
-        "filter_columns": [],
+        "filter_columns": [
+          "variable"
+        ],
         "precision": 0,
         "operation": "SUM",
         "format": {
@@ -132,7 +138,9 @@
       "title_ms": "Pembuatan",
       "chart_type": "TIMESERIES",
       "config": {
-        "filter_columns": [],
+        "filter_columns": [
+          "variable"
+        ],
         "precision": 0,
         "operation": "SUM",
         "format": {
@@ -149,7 +157,9 @@
       "title_ms": "Elektrik",
       "chart_type": "TIMESERIES",
       "config": {
-        "filter_columns": [],
+        "filter_columns": [
+          "variable"
+        ],
         "precision": 0,
         "operation": "SUM",
         "format": {
@@ -166,14 +176,18 @@
     "overall": "Overall",
     "mining": "Mining",
     "mfg": "Manufacturing",
-    "electric": "Electricity"
+    "electric": "Electricity",
+    "index": "Original Index",
+    "index_sa": "Seasonally Adjusted"
   },
   "translations_ms": {
     "date": "Tarikh",
     "overall": "Keseluruhan",
     "mining": "Perlombongan",
     "mfg": "Pembuatan",
-    "electric": "Elektrik"
+    "electric": "Elektrik",
+    "index": "Indeks Asals",
+    "index_sa": "Terlaras Secara Musim"
   },
   "related_datasets": []
 }
