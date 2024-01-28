@@ -177,8 +177,8 @@
     "mining": "Mining",
     "mfg": "Manufacturing",
     "electric": "Electricity",
-    "index": "Original Index",
-    "index-sa": "Seasonally Adjusted"
+    "volume": "Volume (index)",
+    "volume-sa": "Volume (index, sa)"
   },
   "translations_ms": {
     "date": "Tarikh",
@@ -186,8 +186,8 @@
     "mining": "Perlombongan",
     "mfg": "Pembuatan",
     "electric": "Elektrik",
-    "index": "Indeks Asals",
-    "index-sa": "Terlaras Secara Musim"
+    "volume": "Volum (indeks)",
+    "volume-sa": "Volum (indeks, tsm)"
   },
   "related_datasets": []
 }
