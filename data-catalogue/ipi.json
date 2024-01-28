@@ -178,7 +178,7 @@
     "mfg": "Manufacturing",
     "electric": "Electricity",
     "index": "Original Index",
-    "index_sa": "Seasonally Adjusted"
+    "index-sa": "Seasonally Adjusted"
   },
   "translations_ms": {
     "date": "Tarikh",
@@ -187,7 +187,7 @@
     "mfg": "Pembuatan",
     "electric": "Elektrik",
     "index": "Indeks Asals",
-    "index_sa": "Terlaras Secara Musim"
+    "index-sa": "Terlaras Secara Musim"
   },
   "related_datasets": []
 }
