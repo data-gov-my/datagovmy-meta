@@ -1,0 +1,32 @@
+{
+	"publication": "technote-iowrt",
+	"documentation_type": "technical-note",
+	"publication_type": "iowrt",
+	"release_date": "2024-01-11",
+	"en": {
+		"title": " Index of Wholesale & Retail Trade: Technical Notes",
+		"publication_type_title": "Index of Wholesale & Retail Trade",
+		"description": "Monthly wholesale and retail trade performance, including the performance of motor vehicle sales.",
+		"resources": [
+			{
+				"resource_id": 1,
+				"resource_type": "pdf",
+				"resource_name": " Index of Wholesale & Retail Trade: Technical Notes",
+				"resource_link": "https://storage.dosm.gov.my/technotes/technotes_iowrt_en.pdf"
+			}
+		]
+	},
+	"bm": {
+		"title": "Indeks Perdagangan Borong & Runcit: Nota Teknikal",
+		"publication_type_title": "Indeks Perdagangan Borong & Runcit",
+		"description": "Prestasi bulanan perdagangan borong dan runcit, termasukan prestasi jualan kenderaan bermotor.",
+		"resources": [
+			{
+				"resource_id": 1,
+				"resource_type": "pdf",
+				"resource_name": "Indeks Perdagangan Borong & Runcit: Nota Teknikal",
+				"resource_link": "https://storage.dosm.gov.my/technotes/technotes_iowrt_bm.pdf"
+			}
+		]
+	}
+}
