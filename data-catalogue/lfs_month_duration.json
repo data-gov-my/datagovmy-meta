@@ -1,7 +1,6 @@
 {
   "title_en": "Monthly Unemployment by Duration",
   "title_ms": "Pengangguran Bulanan mengikut Tempoh",
-  "title_sort": 1,
   "description_en": "Breakdown of monthly unemployed figures by duration of unemployment.",
   "description_ms": "Pecahan angka penganggurann bulanan mengikut tempoh pengangguran.",
   "exclude_openapi": false,
@@ -15,8 +14,8 @@
   "caveat_ms": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
   "publication_en": "The [Labour Force Report, Nov 2023](https://open.dosm.gov.my/publications/labour_month_2023-11), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/dashboard/labour-market).",
   "publication_ms": "[Laporan Tenaga Buruh, Nov 2023](https://open.dosm.gov.my/ms-MY/publications/labour_month_2023-11), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/ms-MY/dashboard/labour-market).",
-  "link_parquet": "https://storage.dosm.gov.my/labour/lfs_month.parquet",
-  "link_csv": "https://storage.dosm.gov.my/labour/lfs_month.csv",
+  "link_parquet": "https://storage.dosm.gov.my/labour/lfs_month_duration.parquet",
+  "link_csv": "https://storage.dosm.gov.my/labour/lfs_month_duration.csv",
   "frequency": "MONTHLY",
   "geography": [
     "NATIONAL"
@@ -32,19 +31,15 @@
       "site": "datagovmy",
       "category_en": "Labour Markets",
       "category_ms": "Pasaran Buruh",
-      "category_sort": 1,
       "subcategory_en": "Labour Force Survey",
-      "subcategory_ms": "Survei Tenaga Buruh",
-      "subcategory_sort": 1
+      "subcategory_ms": "Survei Tenaga Buruh"
     },
     {
       "site": "opendosm",
       "category_en": "Labour Markets",
       "category_ms": "Pasaran Buruh",
-      "category_sort": 1,
       "subcategory_en": "Labour Force Survey",
-      "subcategory_ms": "Survei Tenaga Buruh",
-      "subcategory_sort": 1
+      "subcategory_ms": "Survei Tenaga Buruh"
     }
   ],
   "fields": [
