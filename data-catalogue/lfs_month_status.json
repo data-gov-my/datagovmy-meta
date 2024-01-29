@@ -118,7 +118,7 @@
         "filter_columns": [
           "variable"
         ],
-        "precision": 0,
+        "precision": 1,
         "operation": "SUM",
         "format": {
           "x": "date",
@@ -143,6 +143,7 @@
   },
   "translations_ms": {
     "y1": "Nilai",
+    "variable": "Pembolehubah",
     "date": "Tarikh",
     "employed": "Bekerja",
     "employed_employer": "Majikan",
