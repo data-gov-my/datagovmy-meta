@@ -11,7 +11,7 @@
     "description_line2": "Gunakan halaman ini untuk meminta data dan mendapatkan kemas kini yang telus pada tiket anda!",
     "request_data": "Mohon data",
     "data_request_tickets": "Tiket Permohonan data",
-    "search_query_placeholder": "Adakah permintaan anda telah dibuat sebelum ini?",
+    "search_query_placeholder": "Carian berdasarkan tajuk atau ID tiket 'id:1'",
     "status": {
       "all": "Semua Tiket",
       "under_review": "Dalam Semakan",
@@ -22,6 +22,7 @@
       "rejected_modal": "Permintaan ini telah ditolak atas sebab yang berikut"
     },
     "table": {
+      "ticket_id": "ID Tiket",
       "status": "Status",
       "title": "Tajuk dataset",
       "description": "Penerangan dataset",
@@ -46,14 +47,21 @@
     "forms": {
       "name": "Nama",
       "email": "Emel",
-      "institution": "Institusi",
+      "institution": "Institusi Pemohon",
       "dataset_title": "Tajuk dataset",
       "dataset_description": "Penerangan dataset",
-      "dataset_description_placeholder": "Terangkan mengenai dataset ini",
-      "agency": "Agensi",
+      "dataset_description_placeholder": "Terangkan mengenai dataset yang anda ingin mohon",
+      "agency": "Agensi pembekal data",
       "purpose": "Tujuan permohonan",
       "purpose_placeholder": "Beri penerangan ringkas tentang bagaimana anda merancang untuk menggunakan dataset ini",
-      "submit": "Hantar Permohonan"
+      "submit": "Hantar Permohonan",
+      "radio": {
+        "research": "Kajian",
+        "learning": "Pembelajaran",
+        "product_development": "Pembangunan produk",
+        "general_knowledge": "Pengetahuan umum",
+        "others": "Lain-lain (nyatakan)"
+      }
     }
   }
 }
