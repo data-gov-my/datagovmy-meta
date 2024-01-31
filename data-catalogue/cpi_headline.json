@@ -55,7 +55,7 @@
       "name": "division",
       "title_en": "Division",
       "title_ms": "Bahagian",
-      "description_en": "[String] 2-digit code from 00-12, to be matched using the division column in the [MCOICOP Lookup](https://open.dosm.gov.my/ms-MY/data-catalogue/mcoicop). The MCOICOP lookup table will give you the English and Malay definitions.",
+      "description_en": "[String] 2-digit code from 00-12, to be matched using the division column in the [MCOICOP Lookup](https://open.dosm.gov.my/data-catalogue/mcoicop). The MCOICOP lookup table will give you the English and Malay definitions.",
       "description_ms": "[Rentetan] Kod 2 digit dari 00-12, yang perlu dipadankan dengan medan division dalam [Jadual MCOICOP](https://open.dosm.gov.my/ms-MY/data-catalogue/mcoicop). Padanan tersebut akan membolehkan anda mendapat keterangan dalam Bahasa Inggeris dan Bahasa Melayu."
     },
     {
@@ -81,7 +81,22 @@
           "date"
         ]
       }
-    }
+    },
+		{
+			"dataviz_id": "index",
+			"title_en": "CPI",
+			"title_ms": "IHP",
+			"chart_type": "TIMESERIES",
+			"config": {
+				"filter_columns": ["division"],
+				"precision": 0,
+				"operation": "SUM",
+				"format": {
+					"x": "date",
+					"y": ["index"]
+				}
+			}
+		}
   ],
   "translations_en": {
     "date": "Date",
