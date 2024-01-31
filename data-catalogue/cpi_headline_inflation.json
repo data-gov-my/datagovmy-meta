@@ -1,9 +1,9 @@
 {
-  "title_en": "CPI by Division (2-digit)",
-  "title_ms": "IHP mengikut Bahagian (2-digit)",
-	"title_sort": 1,
-  "description_en": "National-level CPI for 12 main groups of goods and services.",
-  "description_ms": "IHP peringkat nasional bagi 12 kumpulan utama barangan dan perkhidmatan.",
+  "title_en": "CPI Inflation by Division (2-digit)",
+  "title_ms": "Inflasi IHP mengikut Bahagian (2-digit)",
+	"title_sort": 2,
+  "description_en": "National-level CPI inflation for 12 main groups of goods and services",
+  "description_ms": "Inflasi IHP peringkat nasional bagi 12 kumpulan utama barangan dan perkhidmatan.",
   "exclude_openapi": false,
   "manual_trigger": "na",
   "data_as_of": "2023-12",
@@ -15,8 +15,8 @@
   "caveat_ms": "Dalam mentafsirkan kadar inflasi yang dihasilkan berdasarkan IHP, perlu diingati bahawa inflasi yang dirasai oleh mana-mana individu mungkin lebih tinggi atau lebih rendah daripada angka ini. Ini tidak bermaksud bahawa angka IHP tidak betul, kerana IHP dirangka sebagai angka purata yang mewakili seluruh penduduk.",
   "publication_en": "[Consumer Price Index, Dec 2023](https://open.dosm.gov.my/publications/cpi_2023-12), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/dashboard/consumer-prices).",
   "publication_ms": "[Indeks Harga Pengguna, Dec 2023](https://open.dosm.gov.my/ms-MY/publications/cpi_2023-12), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/ms-MY/dashboard/consumer-prices).",
-  "link_parquet": "https://storage.dosm.gov.my/cpi/cpi_2d.parquet",
-  "link_csv": "https://storage.dosm.gov.my/cpi/cpi_2d.csv",
+  "link_parquet": "https://storage.dosm.gov.my/cpi/cpi_2d_inflation.parquet",
+  "link_csv": "https://storage.dosm.gov.my/cpi/cpi_2d_inflation.csv",
   "frequency": "MONTHLY",
   "geography": [
     "NATIONAL"
@@ -59,11 +59,18 @@
       "description_ms": "[Rentetan] Kod 2 digit dari 00-12, yang perlu dipadankan dengan medan division dalam [Jadual MCOICOP](https://open.dosm.gov.my/ms-MY/data-catalogue/mcoicop). Padanan tersebut akan membolehkan anda mendapat keterangan dalam Bahasa Inggeris dan Bahasa Melayu."
     },
     {
-      "name": "index",
-      "title_en": "Index",
-      "title_ms": "Indeks",
-      "description_en": "[Float] Index value, with base 2010 = 100",
-      "description_ms": "[Apung] Nilai indeks dengan asas 2010 = 100"
+      "name": "inflation_yoy",
+      "title_en": "Inflation (YoY)",
+      "title_ms": "Inflasi (tahunan)",
+      "description_en": "[Float] Year-on-year inflation, i.e. the percentage change in the CPI since 12 months ago",
+      "description_ms": "[Apung] Inflasi tahunan, iaitu peratusan perubahan IHP sejak 12 bulan lalu"
+    },
+    {
+      "name": "inflation_mom",
+      "title_en": "Inflation (MoM)",
+      "title_ms": "Inflasi (bulanan)",
+      "description_en": "[Float] Month-on-month inflation, i.e. Percentage change in the CPI since 1 month ago",
+      "description_ms": "[Apung] Inflasi bulanan, iaitu peratusan perubahan IHP sejak 1 bulan laliu"
     }
   ],
   "dataviz": [
@@ -83,9 +90,9 @@
       }
     },
 		{
-			"dataviz_id": "index",
-			"title_en": "CPI",
-			"title_ms": "IHP",
+			"dataviz_id": "inflation_yoy",
+			"title_en": "Inflation (YoY)",
+			"title_ms": "Inflasi (tahunan)",
 			"chart_type": "TIMESERIES",
 			"config": {
 				"filter_columns": ["division"],
@@ -93,7 +100,22 @@
 				"operation": "SUM",
 				"format": {
 					"x": "date",
-					"y": ["index"]
+					"y": ["inflation_yoy"]
+				}
+			}
+		},
+		{
+			"dataviz_id": "inflation_mom",
+			"title_en": "Inflation (MoM)",
+			"title_ms": "Inflasi (bulanan)",
+			"chart_type": "TIMESERIES",
+			"config": {
+				"filter_columns": ["division"],
+				"precision": 0,
+				"operation": "SUM",
+				"format": {
+					"x": "date",
+					"y": ["inflation_mom"]
 				}
 			}
 		}
@@ -103,6 +125,8 @@
     "y1": "Index",
     "division": "Division",
     "index": "Index",
+    "inflation_yoy": "Inflation (YoY)",
+    "inflation_mom": "Inflation (MoM)",
     "00": "Overall",
     "01": "Food & Non-Alcoholic Beverages",
     "02": "Alcoholic Beverages & Tobacco",
@@ -122,6 +146,8 @@
     "y1": "Indeks",
     "division": "Bahagian",
     "index": "Indeks",
+    "inflation_yoy": "Inflation (tahunan)",
+    "inflation_mom": "Inflation (bulanan)",
     "00": "Keseluruhan",
     "01": "Makanan & Minuman Bukan Alkohol",
     "02": "Minuman Alkohol & Tembakau",
@@ -136,5 +162,13 @@
     "11": "Restoran & Hotel",
     "12": "Pelbagai Barangan & Perkhidmatan"
   },
-  "related_datasets": []
+  "related_datasets": [
+    {
+      "id": "cpi_headline",
+      "title_en": "CPI by Division (2-digit)",
+      "title_ms": "IHP mengikut Bahagian (2-digit)",
+      "description_en": "National-level CPI for 12 main groups of goods and services.",
+      "description_ms": "IHP peringkat nasional bagi 12 kumpulan utama barangan dan perkhidmatan."
+      }
+  ]
 }
