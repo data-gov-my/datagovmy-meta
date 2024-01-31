@@ -1,9 +1,9 @@
 {
-  "title_en": "Core CPI by Division (2-digit)",
-  "title_ms": "IHP Teras mengikut Bahagian (2-digit)",
-	"title_sort": 3,
-  "description_en": "National-level core CPI for 12 main groups of goods and services.",
-  "description_ms": "IHP teras peringkat nasional bagi 12 kumpulan utama barangan dan perkhidmatan.",
+  "title_en": "Core CPI Inflation by Division (2-digit)",
+  "title_ms": "Inflasi IHP Teras mengikut Bahagian (2-digit)",
+	"title_sort": 4,
+  "description_en": "National-level core CPI inflation for 12 main groups of goods and services.",
+  "description_ms": "Inflasi IHP teras peringkat nasional bagi 12 kumpulan utama barangan dan perkhidmatan.",
   "exclude_openapi": false,
   "manual_trigger": "na",
   "data_as_of": "2023-12",
@@ -83,9 +83,9 @@
       }
     },
 		{
-			"dataviz_id": "index",
-			"title_en": "CPI",
-			"title_ms": "IHP",
+			"dataviz_id": "inflation_yoy",
+			"title_en": "Inflation (YoY)",
+			"title_ms": "Inflasi (tahunan)",
 			"chart_type": "TIMESERIES",
 			"config": {
 				"filter_columns": ["division"],
@@ -93,7 +93,22 @@
 				"operation": "SUM",
 				"format": {
 					"x": "date",
-					"y": ["index"]
+					"y": ["inflation_yoy"]
+				}
+			}
+		},
+		{
+			"dataviz_id": "inflation_mom",
+			"title_en": "Inflation (MoM)",
+			"title_ms": "Inflasi (bulanan)",
+			"chart_type": "TIMESERIES",
+			"config": {
+				"filter_columns": ["division"],
+				"precision": 0,
+				"operation": "SUM",
+				"format": {
+					"x": "date",
+					"y": ["inflation_mom"]
 				}
 			}
 		}
@@ -103,6 +118,8 @@
     "y1": "Index",
     "division": "Division",
     "index": "Index",
+    "inflation_yoy": "Inflation (YoY)",
+    "inflation_mom": "Inflation (MoM)",
     "00": "Overall",
     "01": "Food & Non-Alcoholic Beverages",
     "02": "Alcoholic Beverages & Tobacco",
@@ -122,6 +139,8 @@
     "y1": "Indeks",
     "division": "Bahagian",
     "index": "Indeks",
+    "inflation_yoy": "Inflasi (tahunan)",
+    "inflation_mom": "Inflasi (bulanan)",
     "00": "Keseluruhan",
     "01": "Makanan & Minuman Bukan Alkohol",
     "02": "Minuman Alkohol & Tembakau",
