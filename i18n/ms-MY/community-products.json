@@ -18,14 +18,17 @@
     "email": "Emel",
     "request_feature_modal": {
       "title": "Pamerkan produk data terbuka saya di data.gov.my",
-      "subtitle": "Emel {{ email }} dengan maklumat tersebut:",
+      "subtitle": "Hantar borang ini untuk pamerkan produk anda dan pihak kami akan menghubungi anda untuk langkah seterusnya",
       "name": "Nama",
       "email": "Emel",
-      "institution": "Institusi",
+      "institution": "Institusi Pemohon",
       "product_name": "Nama produk",
-      "product_description": "Penerangan Produk (nota: mesti nyatakan pernyataan masalah dan cara produk anda telah menyelesaikan masalah tersebut)",
-      "link_to_product": "Pautan ke produk secara langsung (nota: tanpa sebarang pautan, produk anda tidak akan ditampilkan dalam laman kami)",
-      "dataset_used": "Dataset terbuka yang digunakan"
+      "product_description": "Penerangan Produk",
+      "product_description_note": "Nota: Anda perlu menyatakan pernyataan masalah dan cara produk anda telah menyelesaikan masalah tersebut",
+      "link_to_product": "Pautan ke produk secara langsung",
+      "link_to_product_note": "Nota: tanpa sebarang pautan, produk anda tidak akan ditampilkan dalam laman kami dan permohonan anda akan ditolak",
+      "dataset_used": "Dataset terbuka yang digunakan",
+      "submit": "Hantar"
     }
   }
 }

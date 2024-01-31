@@ -18,14 +18,17 @@
     "email": "Email",
     "request_feature_modal": {
       "title": "Feature my open data product in data.gov.my",
-      "subtitle": "Email {{ email }} with the following details:",
+      "subtitle": "Submit this form to get your product showcased and we will get in touch in you for confirmation",
       "name": "Name",
       "email": "Email",
-      "institution": "Institution",
+      "institution": "Applicant's Institution",
       "product_name": "Product name",
-      "product_description": "Product description** (note: must contain problem statement and how your product solves the problem)",
-      "link_to_product": "Link to live product (note: without a link, product will not be showcased)",
-      "dataset_used": "Open datasets used"
+      "product_description": "Product description**",
+      "product_description_note": "Note: must contain problem statement and how your product solves the problem",
+      "link_to_product": "Link to live product",
+      "link_to_product_note": "Note: without a link, product will not be showcased and your application will be rejected",
+      "dataset_used": "Open datasets used",
+      "submit": "Submit"
     }
   }
 }
