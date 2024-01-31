@@ -15,8 +15,8 @@
   "caveat_ms": "IHP teras tidak dihasilkan bagi kategori 'Minuman Alkohol dan Tembakau' kerana semua item dalam kategori ini adalah item yang harganya dikawal oleh kerajaan, maka dikecualikan daripada perangkaan IHP teras.",
   "publication_en": "[Consumer Price Index, Dec 2023](https://open.dosm.gov.my/publications/cpi_2023-12), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/dashboard/consumer-prices).",
   "publication_ms": "[Indeks Harga Pengguna, Dec 2023](https://open.dosm.gov.my/ms-MY/publications/cpi_2023-12), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/ms-MY/dashboard/consumer-prices).",
-  "link_parquet": "https://storage.dosm.gov.my/cpi/cpi_2d.parquet",
-  "link_csv": "https://storage.dosm.gov.my/cpi/cpi_2d.csv",
+  "link_parquet": "https://storage.dosm.gov.my/cpi/cpi_2d_core_inflation.parquet",
+  "link_csv": "https://storage.dosm.gov.my/cpi/cpi_2d_core_inflation.csv",
   "frequency": "MONTHLY",
   "geography": [
     "NATIONAL"
