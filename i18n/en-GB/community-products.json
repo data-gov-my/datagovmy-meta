@@ -1,5 +1,5 @@
 {
-  "route": "/community-products",
+  "route": null,
   "sites": ["datagovmy"],
   "translation": {
     "header": "Community Products",
@@ -25,10 +25,12 @@
       "product_name": "Product name",
       "product_description": "Product description**",
       "product_description_note": "Note: must contain problem statement and how your product solves the problem",
-      "link_to_product": "Link to live product",
+      "link_to_product": "Link to live product***",
       "link_to_product_note": "Note: without a link, product will not be showcased and your application will be rejected",
       "dataset_used": "Open datasets used",
-      "submit": "Submit"
+      "submit": "Submit",
+      "success_title": "Your product showcase has been submitted for review!",
+      "success_description": "Our team will contact you to finalize the submission"
     }
   }
 }

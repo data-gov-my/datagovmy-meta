@@ -1,5 +1,5 @@
 {
-  "route": "/ms-MY/community-products",
+  "route": null,
   "sites": ["datagovmy"],
   "translation": {
     "header": "Produk Komuniti",
@@ -23,12 +23,14 @@
       "email": "Emel",
       "institution": "Institusi Pemohon",
       "product_name": "Nama produk",
-      "product_description": "Penerangan Produk",
+      "product_description": "Penerangan Produk**",
       "product_description_note": "Nota: Anda perlu menyatakan pernyataan masalah dan cara produk anda telah menyelesaikan masalah tersebut",
-      "link_to_product": "Pautan ke produk secara langsung",
+      "link_to_product": "Pautan ke produk secara langsung***",
       "link_to_product_note": "Nota: tanpa sebarang pautan, produk anda tidak akan ditampilkan dalam laman kami dan permohonan anda akan ditolak",
       "dataset_used": "Dataset terbuka yang digunakan",
-      "submit": "Hantar"
+      "submit": "Hantar",
+      "success_title": "Produk anda telah berjaya dihantar untuk semakan!",
+      "success_description": "Pihak kami akan menghubungi anda untuk langkah seterusnya"
     }
   }
 }
