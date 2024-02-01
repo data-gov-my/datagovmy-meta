@@ -1,22 +1,22 @@
 {
-  "title_en": "CPI by Strata & Division (2-digit)",
-  "title_ms": "IHP mengikut Strata & Bahagian (2-digit)",
-	"title_sort": 9,
-  "description_en": "CPI by strata (urban/rural) for 12 main groups of goods and services.",
-  "description_ms": "IHP mengikut strata (bandar/luar bandar) bagi 12 kumpulan utama barangan dan perkhidmatan.",
+  "title_en": "CPI for Low-Income Households by Division (2-digit)",
+  "title_ms": "IHP bagi Isi Rumah Berpendapat Rendah mengikut Bahagian (2-digit)",
+	"title_sort": 10,
+  "description_en": "National-level CPI for low-income households (< RM3000 per month) across 12 main groups of goods and services.",
+  "description_ms": "IHP peringkat nasional bagi isi rumah berpendapatan rendah (< RM3000 sebulan) meliputi 12 kumpulan utama barangan dan perkhidmatan.",
   "exclude_openapi": false,
   "manual_trigger": "na",
   "data_as_of": "2023-12",
   "last_updated": "2024-01-22 12:00",
   "next_update": "2024-02-23 12:00",
-  "methodology_en": "The CPI measures the cost of purchasing a constant, representative 'basket' of goods and services. The quantity and quality of goods in the basket are kept constant, so that changes in the cost of the basket are purely due to price changes. The changes in the cost of this basket represent the rate of inflation. This dataset in particular distinguishes between the baskets in urban and rural areas, using district-level strata classification. For a deeper understanding of the price collection and CPI computation methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/cpi-technotes). Finally, it should be noted that Malaysia's CPI classification is deliberately consistent with the United Nations Classification of Individual Consumption According to Purpose (COICOP) to ensure international comparability.",
-  "methodology_ms": "IHP mengukur kos pembelian bagi 'bakul' tetap barangan dan perkhidmatan yang mewakili corak purata pembelian penduduk Malaysia. Kualiti dan kuantiti item dalam bakul ini tidak berubah, maka perubahan kos bakul ini disebabkan oleh perubahan harga sahaja. Perubahan kos bakul inilah yang mewakili kadar inflasi. Set data ini khususnya membezakan bakul bagi kawasan bandar dan luar bandar, dengan menggunakan klasifikasi strata pada peringkat daerah. Untuk mendapat pemahaman yang lebih mendalam tentang metodologi pemungutan harga dan perangkaan IHP, sila rujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/cpi-technotes). Akhirnya, sila ambil maklum bahawa klasifikasi IHP Malaysia dipastikan konsisten dengan United Nations Classification of Individual Consumption According to Purpose (COICOP) demi membolehkan perbandingan antarabangsa.",
+  "methodology_en": "The CPI measures the cost of purchasing a constant, representative 'basket' of goods and services. The quantity and quality of goods in the basket are kept constant, so that changes in the cost of the basket are purely due to price changes. The changes in the cost of this basket represent the rate of inflation. This dataset specifically reweights the headline CPI data using different weights that reflect differences in expenditure patterns for low-income households (for example, food has a much higher weightage than in the headline CPI). For a deeper understanding of the price collection and CPI computation methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/cpi-technotes). Finally, it should be noted that Malaysia's CPI classification is deliberately consistent with the United Nations Classification of Individual Consumption According to Purpose (COICOP) to ensure international comparability.",
+  "methodology_ms": "IHP mengukur kos pembelian bagi 'bakul' tetap barangan dan perkhidmatan yang mewakili corak purata pembelian penduduk Malaysia. Kualiti dan kuantiti item dalam bakul ini tidak berubah, maka perubahan kos bakul ini disebabkan oleh perubahan harga sahaja. Perubahan kos bakul inilah yang mewakili kadar inflasi. Set data ini khususnya merangka semula data IHP dengan menggunakan wajaran berbeza untuk menggambarkan perbezaan dalam corak perbelanjaan bagi isi rumah berpendapatan rendah (contohnya, makanan diberi wajaran yang lebih tinggi daripada IHP keseluruhan). Untuk mendapat pemahaman yang lebih mendalam tentang metodologi pemungutan harga dan perangkaan IHP, sila rujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/cpi-technotes). Akhirnya, sila ambil maklum bahawa klasifikasi IHP Malaysia dipastikan konsisten dengan United Nations Classification of Individual Consumption According to Purpose (COICOP) demi membolehkan perbandingan antarabangsa.",
   "caveat_en": "When interpreting inflation rates derived from the CPI, it is important to remember that the rate of inflation experienced by a specific individual may be higher or lower than this number. This does not invalidate the CPI, which is meant to be an average value representative of the entire population.",
   "caveat_ms": "Dalam mentafsirkan kadar inflasi yang dihasilkan berdasarkan IHP, perlu diingati bahawa inflasi yang dirasai oleh mana-mana individu mungkin lebih tinggi atau lebih rendah daripada angka ini. Ini tidak bermaksud bahawa angka IHP tidak betul, kerana IHP dirangka sebagai angka purata yang mewakili seluruh penduduk.",
   "publication_en": "[Consumer Price Index, Dec 2023](https://open.dosm.gov.my/publications/cpi_2023-12), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/dashboard/consumer-prices).",
   "publication_ms": "[Indeks Harga Pengguna, Dec 2023](https://open.dosm.gov.my/ms-MY/publications/cpi_2023-12), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/ms-MY/dashboard/consumer-prices).",
-  "link_parquet": "https://storage.dosm.gov.my/cpi/cpi_2d_strata.parquet",
-  "link_csv": "https://storage.dosm.gov.my/cpi/cpi_2d_strata.csv",
+  "link_parquet": "https://storage.dosm.gov.my/cpi/cpi_2d.parquet",
+  "link_csv": "https://storage.dosm.gov.my/cpi/cpi_2d.csv",
   "frequency": "MONTHLY",
   "geography": [
     "NATIONAL"
@@ -45,13 +45,6 @@
   ],
   "fields": [
     {
-      "name": "strata",
-      "title_en": "Strata",
-      "title_ms": "Strata",
-      "description_en": "[Categorical] Urban or rural",
-      "description_ms": "[Kategori] Bandar atau luar bandar"
-    },
-    {
       "name": "date",
       "title_en": "Date",
       "title_ms": "Tarikh",
@@ -62,8 +55,8 @@
       "name": "division",
       "title_en": "Division",
       "title_ms": "Bahagian",
-      "description_en": "[Categorical] 2-digit code from 00-12, to be matched using the division column in the [MCOICOP Lookup](https://open.dosm.gov.my/data-catalogue/mcoicop). The MCOICOP lookup table will give you the English and Malay definitions.",
-      "description_ms": "[Kategori] Kod 2 digit dari 00-12, yang perlu dipadankan dengan medan division dalam [Jadual MCOICOP](https://open.dosm.gov.my/ms-MY/data-catalogue/mcoicop). Padanan tersebut akan membolehkan anda mendapat keterangan dalam Bahasa Inggeris dan Bahasa Melayu."
+      "description_en": "[String] 2-digit code from 00-12, to be matched using the division column in the [MCOICOP Lookup](https://open.dosm.gov.my/data-catalogue/mcoicop). The MCOICOP lookup table will give you the English and Malay definitions.",
+      "description_ms": "[Rentetan] Kod 2 digit dari 00-12, yang perlu dipadankan dengan medan division dalam [Jadual MCOICOP](https://open.dosm.gov.my/ms-MY/data-catalogue/mcoicop). Padanan tersebut akan membolehkan anda mendapat keterangan dalam Bahasa Inggeris dan Bahasa Melayu."
     },
     {
       "name": "index",
@@ -82,7 +75,6 @@
       "config": {
         "precision": 1,
         "filter_columns": [
-          "strata",
           "division"
         ],
         "freeze_columns": [
@@ -96,11 +88,8 @@
 			"title_ms": "IHP",
 			"chart_type": "TIMESERIES",
 			"config": {
-				"filter_columns": [
-          "strata",
-          "division"
-        ],
-				"precision": 1,
+				"filter_columns": ["division"],
+				"precision": 0,
 				"operation": "SUM",
 				"format": {
 					"x": "date",
@@ -112,7 +101,6 @@
   "translations_en": {
     "date": "Date",
     "y1": "Index",
-    "strata": "Strata",
     "division": "Division",
     "index": "Index",
     "00": "Overall",
@@ -132,7 +120,6 @@
   "translations_ms": {
     "date": "Tarikh",
     "y1": "Indeks",
-    "strata": "Strata",
     "division": "Bahagian",
     "index": "Indeks",
     "00": "Keseluruhan",
