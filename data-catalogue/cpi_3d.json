@@ -75,9 +75,7 @@
       "chart_type": "TABLE",
       "config": {
         "precision": 1,
-        "filter_columns": [
-          "division"
-        ],
+        "filter_columns": [],
         "freeze_columns": [
           "date"
         ]
