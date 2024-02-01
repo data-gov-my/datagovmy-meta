@@ -15,8 +15,8 @@
   "caveat_ms": "Dalam mentafsirkan kadar inflasi yang dihasilkan berdasarkan IHP, perlu diingati bahawa inflasi yang dirasai oleh mana-mana individu mungkin lebih tinggi atau lebih rendah daripada angka ini. Ini tidak bermaksud bahawa angka IHP tidak betul, kerana IHP dirangka sebagai angka purata yang mewakili seluruh penduduk.",
   "publication_en": "[Consumer Price Index, Dec 2023](https://open.dosm.gov.my/publications/cpi_2023-12), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/dashboard/consumer-prices).",
   "publication_ms": "[Indeks Harga Pengguna, Dec 2023](https://open.dosm.gov.my/ms-MY/publications/cpi_2023-12), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/ms-MY/dashboard/consumer-prices).",
-  "link_parquet": "https://storage.dosm.gov.my/cpi/cpi_2d_inflation.parquet",
-  "link_csv": "https://storage.dosm.gov.my/cpi/cpi_2d_inflation.csv",
+  "link_parquet": "https://storage.dosm.gov.my/cpi/cpi_2d_state_inflation.parquet",
+  "link_csv": "https://storage.dosm.gov.my/cpi/cpi_2d_state_inflation.csv",
   "frequency": "MONTHLY",
   "geography": [
     "NATIONAL"
