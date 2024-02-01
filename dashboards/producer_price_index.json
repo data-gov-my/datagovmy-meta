@@ -6,7 +6,7 @@
     "sites": [
         "opendosm"
     ],
-    "manual_trigger": "2024-01-29 00:55:07.983705",
+    "manual_trigger": "2024-02-02 05:09:38.196965",
     "required_params": [],
     "optional_params": [],
     "charts": {
@@ -14,7 +14,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/ppi_main_timeseries.parquet",
-            "data_as_of": "2023-11",
+            "data_as_of": "2023-12",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -40,7 +40,7 @@
             "name": "statistics",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/ppi_main_timeseries_callout.parquet",
-            "data_as_of": "2023-11",
+            "data_as_of": "2023-12",
             "api_type": "static",
             "api_params": [],
             "variables": {
