@@ -1,0 +1,32 @@
+{
+	"publication": "gdp-technotes",
+	"documentation_type": "technical-note",
+	"publication_type": "gdp",
+	"release_date": "2023-11-17",
+	"en": {
+		"title": "Gross Domestic Product",
+		"publication_type_title": "Gross Domestic Product",
+		"description": "Quarterly gross domestic product (GDP), covering nominal and real GDP by type of expenditure and activity.",
+		"resources": [
+			{
+				"resource_id": 1,
+				"resource_type": "pdf",
+				"resource_name": "Technical Notes",
+				"resource_link": "https://storage.dosm.gov.my/technotes/gdp.pdf"
+			}
+		]
+	},
+	"bm": {
+		"title": "Keluaran Dalam Negeri Kasar",
+		"publication_type_title": "Keluaran Dalam Negeri Kasar",
+		"description": "Keluaran dalam negeri kasar (KDNK) suku tahunan, merangkumi KDNK pada harga semasa dan malar mengikut jenis perbelanjaan dan aktiviti.",
+		"resources": [
+			{
+				"resource_id": 1,
+				"resource_type": "pdf",
+				"resource_name": "Nota Teknikal",
+				"resource_link": "https://storage.dosm.gov.my/technotes/gdp.pdf"
+			}
+		]
+	}
+}
