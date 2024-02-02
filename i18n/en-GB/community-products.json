@@ -23,6 +23,9 @@
       "email": "Email",
       "institution": "Applicant's Institution",
       "product_name": "Product name",
+      "product_type": "Product type",
+      "product_year": "Product year",
+      "product_year_placeholder": "eg. 2024",
       "product_description": "Product description**",
       "product_description_note": "Note: must contain problem statement and how your product solves the problem",
       "link_to_product": "Link to live product***",
@@ -31,6 +34,15 @@
       "submit": "Submit",
       "success_title": "Your product showcase has been submitted for review!",
       "success_description": "Our team will contact you to finalize the submission"
+    },
+    "product_type": {
+      "web_app": "Web application",
+      "mobile_app": "Mobile application",
+      "dashboard": "Dashboard",
+      "academic_work": "Academic work",
+      "ml_product": "Machine Learning (ML) product",
+      "analytics": "Analytics",
+      "publications": "Publications"
     }
   }
 }

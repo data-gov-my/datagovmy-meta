@@ -23,6 +23,9 @@
       "email": "Emel",
       "institution": "Institusi Pemohon",
       "product_name": "Nama produk",
+      "product_type": "Jenis produk",
+      "product_year": "Tahun produk",
+      "product_year_placeholder": "cth. 2024",
       "product_description": "Penerangan Produk**",
       "product_description_note": "Nota: Anda perlu menyatakan pernyataan masalah dan cara produk anda telah menyelesaikan masalah tersebut",
       "link_to_product": "Pautan ke produk secara langsung***",
@@ -31,6 +34,15 @@
       "submit": "Hantar",
       "success_title": "Produk anda telah berjaya dihantar untuk semakan!",
       "success_description": "Pihak kami akan menghubungi anda untuk langkah seterusnya"
+    },
+    "product_type": {
+      "web_app": "Aplikasi web",
+      "mobile_app": "Aplikasi mudah alih",
+      "dashboard": "Papan pemuka",
+      "academic_work": "Kerja akademik",
+      "ml_product": "Produk Machine Learning (ML)",
+      "analytics": "Analisis",
+      "publications": "Penerbitan"
     }
   }
 }
