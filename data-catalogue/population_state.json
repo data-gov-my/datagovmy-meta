@@ -1,10 +1,11 @@
 {
   "title_en": "Population Table: States",
   "title_ms": "Jadual Penduduk: Negeri",
+  "title_sort": 2,
   "description_en": "This dataset tabulates the population of Malaysia at state level, by sex, ethnicity, and 5-year age group, from 2020 to 2023.",
   "description_ms": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat negeri, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023.",
   "exclude_openapi": false,
-  "manual_trigger": "1",
+  "manual_trigger": "",
   "data_as_of": "2023",
   "last_updated": "2023-07-31 12:00",
   "next_update": "2024-07-31 12:00",
@@ -36,15 +37,19 @@
       "site": "datagovmy",
       "category_en": "Demography",
       "category_ms": "Demografi",
+      "category_sort": 1,
       "subcategory_en": "Population",
-      "subcategory_ms": "Penduduk"
+      "subcategory_ms": "Penduduk",
+      "subcategory_sort": 1
     },
     {
       "site": "opendosm",
       "category_en": "Demography",
       "category_ms": "Demografi",
+      "category_sort": 1,
       "subcategory_en": "Population",
-      "subcategory_ms": "Penduduk"
+      "subcategory_ms": "Penduduk",
+      "subcategory_sort": 1
     }
   ],
   "fields": [

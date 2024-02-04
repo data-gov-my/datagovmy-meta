@@ -1,6 +1,7 @@
 {
   "title_en": "Monthly Arrivals by Nationality & Sex",
   "title_ms": "Kemasukan Bulanan mengikut Kewarganegaraan & Jantina",
+  "title_sort": 1,
   "description_en": "Monthly foreign arrivals in Malaysia by nationality and sex.",
   "description_ms": "Kemasukan warga asing secara bulanan ke Malaysia mengikut kewarganegaraan dan jantina.",
   "exclude_openapi": false,
@@ -35,8 +36,10 @@
       "site": "datagovmy",
       "category_en": "Demography",
       "category_ms": "Demografi",
+      "category_sort": 1,
       "subcategory_en": "Migration",
-      "subcategory_ms": "Migrasi"
+      "subcategory_ms": "Migrasi",
+      "subcategory_sort": 3
     }
   ],
   "fields": [
