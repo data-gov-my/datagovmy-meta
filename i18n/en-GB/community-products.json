@@ -35,6 +35,7 @@
       "product_link": "Link to live product***",
       "product_link_note": "Note: without a link, product will not be showcased and your application will be rejected",
       "dataset_used": "Open datasets used",
+      "dataset_used_note": "Note: Provide the link to the dataset used. Multiple link should be seperated by comma (,)",
       "submit": "Submit",
       "success_title": "Your product showcase has been submitted for review!",
       "success_description": "Our team will contact you to finalize the submission"

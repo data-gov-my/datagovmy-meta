@@ -35,6 +35,7 @@
       "product_link": "Pautan ke produk secara langsung***",
       "product_link_note": "Nota: tanpa sebarang pautan, produk anda tidak akan ditampilkan dalam laman kami dan permohonan anda akan ditolak",
       "dataset_used": "Dataset terbuka yang digunakan",
+      "dataset_used_note": "Nota: Letakkan pautan the dataset yang digunakan. Untuk dataset lebih dari satu, gunakan penanda koma (,)",
       "submit": "Hantar",
       "success_title": "Produk anda telah berjaya dihantar untuk semakan!",
       "success_description": "Pihak kami akan menghubungi anda untuk langkah seterusnya"
