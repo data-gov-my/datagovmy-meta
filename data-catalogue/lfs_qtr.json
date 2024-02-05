@@ -6,7 +6,7 @@
 	"description_ms": "Statistik suku tahunan utama berkaitan tenaga buruh, termasuk kadar pengangguran dan penyertaan.",
 	"exclude_openapi": false,
 	"manual_trigger": "na",
-	"data_as_of": "2023-q3",
+	"data_as_of": "2023-Q3",
 	"last_updated": "2023-11-08 12:00",
 	"next_update": "2024-02-09 12:00",
 	"methodology_en": "This data is produced based on the Labour Force Survey (LFS), which is designed to collect representative data on the labour force at national and state level. Consistency in methodology has been maintained to ensure that the data is comparable over time. Survey findings are a monthly, quarterly and annual basis. For a full description of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/lfs-technotes).",
