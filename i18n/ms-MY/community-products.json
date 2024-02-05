@@ -6,14 +6,14 @@
     "description": "Halaman ini mempamerkan pelbagai cara komuniti kita menggunakan data terbuka Malaysia dengan baik!",
     "request_to_feature": "Saya ingin menampilkan produk saya",
     "section_title": "Applikasi, analisis, penerbitan dan banyak lagi!",
-    "select_publication": "Cari produk",
+    "select_publication": "Cari produk mengikut nama atau penerangan",
     "filter_by": "Tapiskan:",
     "new": "Baru",
     "title": "Nama Aplikasi",
     "purpose": "Tujuan",
     "problem_statement": "Pernyataan Masalah",
-    "solution_developed": "Penyelesaian Yang Dibangunkan:",
-    "source": "Sumber Data/Sumber Rujukan:",
+    "solution_developed": "Penyelesaian Yang Dibangunkan",
+    "source": "Sumber Data/Sumber Rujukan",
     "website": "Laman Web",
     "email": "Emel",
     "request_feature_modal": {
@@ -27,22 +27,25 @@
       "product_year": "Tahun produk",
       "product_year_placeholder": "cth. 2024",
       "product_description": "Penerangan Produk**",
-      "product_description_note": "Nota: Anda perlu menyatakan pernyataan masalah dan cara produk anda telah menyelesaikan masalah tersebut",
-      "link_to_product": "Pautan ke produk secara langsung***",
-      "link_to_product_note": "Nota: tanpa sebarang pautan, produk anda tidak akan ditampilkan dalam laman kami dan permohonan anda akan ditolak",
+      "product_description_placeholder": "Terangkan mengenai produk anda atau tujuan produk ini dibina",
+      "problem_statement": "Pernyataan Masalah",
+      "problem_statement_placeholder": "Terangkan secara ringkas mengenai masalah yang anda ingin selesaikan dengan produk ini.",
+      "solutions_developed": "Penyelesaian Yang Dibangunkan",
+      "solutions_developed_placeholder": "Terangkan secara ringkas bagaimana penyelesaian masalah anda dapat menyelesaikan masalah di atas.",
+      "product_link": "Pautan ke produk secara langsung***",
+      "product_link_note": "Nota: tanpa sebarang pautan, produk anda tidak akan ditampilkan dalam laman kami dan permohonan anda akan ditolak",
       "dataset_used": "Dataset terbuka yang digunakan",
       "submit": "Hantar",
       "success_title": "Produk anda telah berjaya dihantar untuk semakan!",
       "success_description": "Pihak kami akan menghubungi anda untuk langkah seterusnya"
     },
     "product_type": {
-      "web_app": "Aplikasi web",
-      "mobile_app": "Aplikasi mudah alih",
+      "web_application": "Aplikasi web",
+      "mobile_application": "Aplikasi mudah alih",
       "dashboard": "Papan pemuka",
-      "academic_work": "Kerja akademik",
-      "ml_product": "Produk Machine Learning (ML)",
-      "analytics": "Analisis",
-      "publications": "Penerbitan"
+      "academic_publication": "Kerja akademik",
+      "machine_learning": "Produk Machine Learning (ML)",
+      "analytics": "Analisis"
     }
   }
 }

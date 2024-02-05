@@ -6,7 +6,7 @@
     "description": "This page showcases the various ways in which the community has put Malaysia’s open data to good use!",
     "request_to_feature": "I want to feature my product",
     "section_title": "Apps, analytics, publications, and more!",
-    "select_publication": "Search for a product",
+    "select_publication": "Search by product name or description",
     "filter_by": "Filter by:",
     "new": "New",
     "title": "Application Name",
@@ -27,22 +27,25 @@
       "product_year": "Product year",
       "product_year_placeholder": "eg. 2024",
       "product_description": "Product description**",
-      "product_description_note": "Note: must contain problem statement and how your product solves the problem",
-      "link_to_product": "Link to live product***",
-      "link_to_product_note": "Note: without a link, product will not be showcased and your application will be rejected",
+      "product_description_placeholder": "Describe your product or the purpose of your product",
+      "problem_statement": "Problem Statement",
+      "problem_statement_placeholder": "Briefly describe about what you are trying to solve with this product",
+      "solutions_developed": "Solution(s) Developed",
+      "solutions_developed_placeholder": "Briefly describe on how your solution solves the problem described above",
+      "product_link": "Link to live product***",
+      "product_link_note": "Note: without a link, product will not be showcased and your application will be rejected",
       "dataset_used": "Open datasets used",
       "submit": "Submit",
       "success_title": "Your product showcase has been submitted for review!",
       "success_description": "Our team will contact you to finalize the submission"
     },
     "product_type": {
-      "web_app": "Web application",
-      "mobile_app": "Mobile application",
+      "web_application": "Web application",
+      "mobile_application": "Mobile application",
       "dashboard": "Dashboard",
-      "academic_work": "Academic work",
-      "ml_product": "Machine Learning (ML) product",
-      "analytics": "Analytics",
-      "publications": "Publications"
+      "academic_publication": "Academic work",
+      "machine_learning": "Machine Learning (ML) product",
+      "analytics": "Analytics"
     }
   }
 }
