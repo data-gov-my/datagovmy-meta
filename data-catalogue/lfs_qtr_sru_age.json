@@ -77,8 +77,13 @@
 			"chart_type": "TABLE",
 			"config": {
 				"precision": 1,
-				"filter_columns": [],
-				"freeze_columns": ["date"]
+				"filter_columns": [
+					"age",
+					"variable"
+				],
+				"freeze_columns": [
+					"date"
+				]
 			}
 		},
 		{
@@ -88,13 +93,16 @@
 			"chart_type": "TIMESERIES",
 			"config": {
 				"filter_columns": [
-					"age","variable"
+					"age",
+					"variable"
 				],
 				"precision": 0,
 				"operation": "SUM",
 				"format": {
 					"x": "date",
-					"y": ["sru"]
+					"y": [
+						"sru"
+					]
 				}
 			}
 		}
