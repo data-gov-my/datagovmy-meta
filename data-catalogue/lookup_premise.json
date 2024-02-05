@@ -4,7 +4,7 @@
     "description_en": "Lookup table, to be left-joined against premise code in the main PriceCatcher data.",
     "description_ms": "Jadual carian, untuk dipadankan (left-join) dengan kod premis (premise code) dalam dataset PriceCatcher utama.",
     "exclude_openapi": true,
-    "manual_trigger": "2024-01-29 16:28:54.382597",
+    "manual_trigger": "2024-02-05 09:48:19.065608",
     "data_as_of": "2024-01-28 23:59",
     "last_updated": "2024-01-29 18:00",
     "next_update": "-",
