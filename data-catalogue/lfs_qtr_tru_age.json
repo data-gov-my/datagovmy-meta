@@ -1,9 +1,9 @@
 {
-	"title_en": "Quarterly Skills-Related Underemployment by Sex",
-	"title_ms": "Gunu Tenaga Tidak Penuh Berkaitan Kemahiran Suku Tahunan mengikut Jantina",
-	"title_sort": 8,
-	"description_en": "Number and proportion of working individuals with tertiary education working in a semi-skilled or low-skilled job, broken down by sex.",
-	"description_ms": "Jumlah dan nisbah individu bekerja yang mempunyai pendidikan tertiari tetapi bekerja dalam kategori separuh mahir dan berkemahiran rendah, dengan pecahan mengikut jantina.",
+	"title_en": "Quarterly Time-Related Underemployment by Age",
+	"title_ms": "Gunu Tenaga Tidak Penuh Berkaitan Masa Suku Tahunan mengikut Umur",
+	"title_sort": 9,
+	"description_en": "Number and proportion of working individuals who worked less than 30 hours per week even though they were willing to work more, i.e. due to unavailability of work.",
+	"description_ms": "Jumlah dan nisbah individu bekerja yang bekerja kurang daripada 30 jam walaupun mereka sudi bekerja lebih, iaitu disebabkan keadaan kerja yang tidak mencukupi.",
 	"exclude_openapi": false,
 	"manual_trigger": "",
 	"data_as_of": "2023-Q3",
@@ -15,8 +15,8 @@
 	"caveat_ms": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
 	"publication_en": "The [Labour Force Report, Nov 2023](https://open.dosm.gov.my/publications/labour_month_2023-11), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/dashboard/labour-market).",
 	"publication_ms": "[Laporan Tenaga Buruh, Nov 2023](https://open.dosm.gov.my/ms-MY/publications/labour_month_2023-11), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/ms-MY/dashboard/labour-market).",
-	"link_parquet": "https://storage.dosm.gov.my/labour/lfs_qtr_sru_sex.parquet",
-	"link_csv": "https://storage.dosm.gov.my/labour/lfs_qtr_sru_sex.csv",
+	"link_parquet": "https://storage.dosm.gov.my/labour/lfs_qtr_tru_age.parquet",
+	"link_csv": "https://storage.dosm.gov.my/labour/lfs_qtr_tru_age.csv",
 	"frequency": "QUARTERLY",
 	"geography": ["NATIONAL"],
 	"demography": [],
@@ -55,18 +55,18 @@
 			"description_ms": "[Kategori] Kadar (%) atau orange ('000)"
 		},
 		{
-			"name": "sex",
-			"title_en": "Sex",
-			"title_ms": "Jantina",
-			"description_en": "[Categorical] Male, female, or overall",
-			"description_ms": "[Apung] Lelaki, perempuan, atau keseluruhan"
+			"name": "age",
+			"title_en": "Age Group",
+			"title_ms": "Kumpulan Umur",
+			"description_en": "[Categorical] 10-year age groups, or overall",
+			"description_ms": "[Apung] Kumpulan umur 10 tahun, atau keseluruhan"
 		},
 		{
-			"name": "sru",
-			"title_en": "Skills-Related Underemployment",
-			"title_ms": "Guna Tenaga Tidak Penuh Berkaitan Kemahiran",
-			"description_en": "[Float] The number or proportion of employed individuals with tertiary education but who were working in a semi-skilled or low-skilled job as classified under MASCO",
-			"description_ms": "[Apung] Jumlah ataupun nisbah individu bekerja yang mempunyai pendidikan tertiari tetapi bekerja dalam kategori separuh mahir dan berkemahiran rendah mengikut klasifikasi MASCO"
+			"name": "tru",
+			"title_en": "Time-Related Underemployment",
+			"title_ms": "Guna Tenaga Tidak Penuh Berkaitan Masa",
+			"description_en": "[Float] Number or proportion of working individuals who worked less than 30 hours per week even though they were willing to work more, i.e. due to unavailability of work",
+			"description_ms": "[Apung] Jumlah atau nisbah individu bekerja yang bekerja kurang daripada 30 jam walaupun mereka sudi bekerja lebih, iaitu disebabkan keadaan kerja yang tidak mencukupi"
 		}
 	],
 	"dataviz": [
@@ -78,7 +78,7 @@
 			"config": {
 				"precision": 1,
 				"filter_columns": [
-					"sex",
+					"age",
 					"variable"
 				],
 				"freeze_columns": [
@@ -87,13 +87,13 @@
 			}
 		},
 		{
-			"dataviz_id": "sru",
-			"title_en": "Skills-Related Underemployment",
-			"title_ms": "Guna Tenaga Tidak Penuh Berkaitan Kemahiran",
+			"dataviz_id": "tru",
+			"title_en": "Time-Related Underemployment",
+			"title_ms": "Guna Tenaga Tidak Penuh Berkaitan Masa",
 			"chart_type": "TIMESERIES",
 			"config": {
 				"filter_columns": [
-					"sex",
+					"age",
 					"variable"
 				],
 				"precision": 0,
@@ -101,7 +101,7 @@
 				"format": {
 					"x": "date",
 					"y": [
-						"sru"
+						"tru"
 					]
 				}
 			}
@@ -111,11 +111,9 @@
 		"y1": "Value",
 		"date": "Date",
 		"variable": "Variable",
-		"sex": "Sex",
-		"sru": "Underemployment",
+		"age": "Age Group",
+		"tru": "Underemployment",
 		"overall": "Overall",
-		"female": "Female",
-		"male": "Male",
 		"persons": "Persons ('000)",
 		"rate": "Rate (%)"
 	},
@@ -123,11 +121,9 @@
 		"y1": "Nilai",
 		"date": "Tarikh",
 		"variable": "Pembolehubah",
-		"sex": "Jantina",
-		"sru": "Guna Tenaga Tidak Penuh",
+		"age": "Kumpulan Umur",
+		"tru": "Guna Tenaga Tidak Penuh",
 		"overall": "Keseluruhan",
-		"female": "Perempuan",
-		"male": "Lelaki",
 		"persons": "Jumlah Orang ('000)",
 		"share": "Nisbah (%)"
 	},
