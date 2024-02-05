@@ -1,0 +1,11 @@
+{
+  "route": null,
+  "sites": ["datagovmy", "opendosm", "kkmnow"],
+  "translation": {
+    "required": "Diperlukan",
+    "invalid_email": "Masukkan emel yang sah",
+    "invalid_year": "Masukkan tahun yang sah",
+    "invalid_url": "Masukkan URL yang sah",
+    "invalid_url_multiple": "URL tidak sah pada salah satu atau lebih URL"
+  }
+}
