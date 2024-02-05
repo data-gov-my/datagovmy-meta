@@ -1,0 +1,20 @@
+{
+	"send_email": true,
+	"validate_fields": ["name", "product_name"],
+	"email_template": [
+		{
+			"name": "community_product_approved",
+			"subject": "Community Product Approved for data.gov.my",
+			"content": "Dummy",
+			"html_content": "<html><head><title>Community Product Approved</title></head><body><p>Dear {{name}},</p><p>Your submission of the community product <b>{{product_name}}</b> has been approved for showcasing on https://data.gov.my. If it passes moderation checks (for spam, abuse, violence, etc.), it will be published on our <a href='https://data.gov.my/community-products'>Community Products page</a></p><p>If approved, you will be notified at this email. Alternatively, you may search for your entry on our <a href='https://data.gov.my/community-products'>Community Products page</a>.</p><p>If the community product is rejected, no further notice will be given.</p><p>Thank you for contributing to our community showcase.</p><p>Warm regards,<br />data.gov.my data team</p></body></html>",
+			"language": "en"
+		},
+		{
+			"name": "community_product_approved",
+			"subject": "Lulusan Produk Komuniti untuk data.gov.my",
+			"content": "Dummy MS",
+			"html_content": "<html><head><title>Hantaran Produk Komuniti Diluluskan</title></head><body><p>Tuan/Puan {{name}},</p><p>Penyerahan produk komuniti anda <b>{{product_name}}</b> telah diluluskan untuk dipamerkan di https://data.gov.my/ms-MY. Jika berjaya lulus ujian moderasi (untuk spam, penyalahgunaan, keganasan, dan sebagainya), ia akan diterbitkan di <a href='https://data.gov.my/ms-MY/community-products'>halaman Produk Komuniti kami</a>.</p><p>Jika diluluskan, anda akan dimaklumkan melalui emel ini. Sebagai alternatif, anda boleh mencari entri anda di <a href='https://data.gov.my/ms-MY/community-products'>halaman Produk Komuniti kami</a>.</p><p>Jika produk komuniti ditolak, tiada notis lanjut akan diberikan.</p><p>Terima kasih kerana menyumbang kepada pameran komuniti kami.</p><p>Harapan salam,<br />Pasukan data.gov.my</p></body></html>",
+			"language": "ms"
+		}
+	]
+}
