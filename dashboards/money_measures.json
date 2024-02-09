@@ -1,12 +1,12 @@
 {
     "dashboard_name": "money_measures",
-    "data_last_updated": "2023-12-31 15:00",
-    "data_next_update": "2024-01-31 15:00",
+    "data_last_updated": "2024-01-30 15:00",
+    "data_next_update": "2024-02-29 15:00",
     "route": "/dashboard/money-supply,/ms-MY/dashboard/money-supply",
     "sites": [
         "datagovmy"
     ],
-    "manual_trigger": "2024-01-28 13:21:29.246654",
+    "manual_trigger": "2024-02-10 07:57:43.566319",
     "required_params": [],
     "optional_params": [],
     "charts": {
@@ -14,7 +14,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/moneymeasures_timeseries.parquet",
-            "data_as_of": "2023-11",
+            "data_as_of": "2023-12",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -46,7 +46,7 @@
             "name": "statistics",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/moneymeasures_timeseries_callout.parquet",
-            "data_as_of": "2023-11",
+            "data_as_of": "2023-12",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -63,7 +63,7 @@
             "name": "table_summary",
             "chart_type": "snapshot_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/moneymeasures_table_summary.parquet",
-            "data_as_of": "2023-11",
+            "data_as_of": "2023-12",
             "api_type": "static",
             "api_params": [],
             "variables": {
