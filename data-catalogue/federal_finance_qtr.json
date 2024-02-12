@@ -1,0 +1,139 @@
+{
+  "title_en": "Quarterly Federal Government Finance",
+  "title_ms": "Kewangan Suku Tahunan Kerajaan Persekutuan",
+  "sort_title": 1,
+  "description_en": "Quarterly revenue, operating and development expenditure, overall surplus/deficit, and sources of financing for the Federal Government of Malaysia.",
+  "description_ms": "Hasil, perbelanjaan mengurus dan pembangunan, lebihan/kurangan keseluruhan, serta sumber kewangan secara suku tahunan bagi Kerajaan Persekutuan Malaysia.",
+  "exclude_openapi": false,
+  "manual_trigger": "",
+  "data_as_of": "2023-Q3",
+  "last_updated": "2023-11-30 15:00",
+  "next_update": "2024-02-29 15:00",
+  "methodology_en": "This data is produced by the Accountant-General's Department in compliance with the [Malaysian Public Sector Accounting Standards](https://www2.anm.gov.my/akruan/Pages/MPSAS.aspx) and the IMF's Dissemination Standards. A few key relationships should be noted:\n- Net development expenditure is gross development expenditure less loan recoveries.\n- Net borrowing is gross borrowing less repayments, for both the domestic and foreign sectors.\n- The overall balance is revenue less operating expenditure less net development expenditure.\n- For stock values (such as use of assets), a positive value indicates the disposal of assets while a negative value indicates the acquisition of assets.",
+  "methodology_ms": "Data ini dihasilkan oleh Jabatan Akauntan Negara berdasarkan [Piawaian Perakaunan Sektor Awam Malaysia](https://www2.anm.gov.my/akruan/Pages/MPSAS.aspx) dan _IMF Dissemination Standards_. Beberapa hubungan penting perlu diambil perhatian:\n- Perbelanjaan pembangunan bersih adalah perbelanjaan pembangunan kasar tolak terimaan balik pinjaman.\n- Pinjaman bersih adalah pinjaman kasar tolak pembayaran balik, untuk kedua-dua sektor dalam negeri dan luar negeri.\n- Imbangan keseluruhan adalah hasil tolak perbelanjaan mengurus tolak perbelanjaan pembangunan bersih.\n- Untuk nilai stok (seperti penggunaan aset), nilai positif mewakili pelupusan aset manakala nilai negatif mewakili penimbuhan aset.",
+  "caveat_en": "Numbers may not add up due to rounding during derivation. Furthermore, data for 2023 are preliminary and are subject to revision in future releases.",
+  "caveat_ms": "Jumlah tidak semestinya tepat kerana penggenapan. Tambahan, data bagi 2023 adalah data awalan dan mungkin disemak dalam kemaskini akan datang.",
+  "publication_en": "\u2014",
+  "publication_ms": "\u2014",
+  "link_parquet": "https://storage.data.gov.my/publicadmin/federal_finance_qtr.parquet",
+  "link_csv": "https://storage.data.gov.my/publicadmin/federal_finance_qtr.csv",
+  "frequency": "INFREQUENT",
+  "geography": [
+    "NATIONAL"
+  ],
+  "demography": [],
+  "dataset_begin": 1996,
+  "dataset_end": 2023,
+  "data_source": [
+    "JANM"
+  ],
+  "site_category": [
+    {
+      "site": "datagovmy",
+      "category_en": "Public Administration",
+      "category_ms": "Pentadbiran Awam",
+      "subcategory_en": "Public Finance",
+      "subcategory_ms": "Kewangan Awam"
+    }
+  ],
+  "fields": [
+		{
+			"name": "date",
+			"title_en": "Date",
+			"title_ms": "Tarikh",
+			"description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01 since the data is at quarterly frequency",
+			"description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD ditetapkan sebagai 01 kerana data berfrekuensi suku tahunan"
+		},
+		{
+			"name": "category",
+			"title_en": "Category",
+			"title_ms": "Kategori",
+			"description_en": "[Categorical] Current budget ('budget') or source of financing ('financing')",
+			"description_ms": "[Kategori] Belanjawan semasa ('budget') atau sumber kewangan ('financing')"
+		},
+		{
+			"name": "variable",
+			"title_en": "Variable",
+			"title_ms": "Pembolehubah",
+      "description_en": "[String] Variable name, to be mapped using the [Lookup Table](https://data.gov.my/data-catalogue/lookup_federal_finance) where file = 'main'. The lookup table will give you the English and Malay definitions.",
+      "description_ms": "[Rentetan] Nama pembolehubahan yang perlu dipadankan dengan [Jadual Carian](https://data.gov.my/ms-MY/data-catalogue/lookup_federal_finance) dengan medan file = 'main'. Jadual carian akan memberi definisi dalam Bahasa Inggeris dan Bahasa Melayu."
+		},
+		{
+			"name": "value",
+			"title_en": "Value (RM mil)",
+			"title_ms": "Nilai (RM juta)",
+			"description_en": "[Float] The value for the variable",
+			"description_ms": "[Apung] Nilai bagi pembolehubah tersebut"
+		}
+  ],
+  "dataviz": [
+    {
+      "dataviz_id": "table",
+      "title_en": "Table",
+      "title_ms": "Jadual",
+      "chart_type": "TABLE",
+      "config": {
+        "precision": 0,
+        "filter_columns": ["category","variable"],
+        "freeze_columns": ["date"]
+      }
+    },
+		{
+			"dataviz_id": "value",
+			"title_en": "Value (RM mil)",
+			"title_ms": "Nilai (RM juta)",
+			"chart_type": "TIMESERIES",
+			"config": {
+				"filter_columns": [
+					"category",
+					"variable"
+				],
+				"precision": 0,
+				"operation": "SUM",
+				"format": {
+					"x": "date",
+					"y": [
+						"value"
+					]
+				}
+			}
+		}
+  ],
+  "translations_en": {
+    "y1": "Value (RM mil)",
+    "date": "Date",
+    "category": "Category",
+    "variable": "Variable",
+    "value": "Value (RM mil)",
+    "balance": "Overall balance",
+    "revenue": "Revenue",
+    "spending_oe": "Operating expenditure",
+    "spending_de_gross": "Development expenditure (gross)",
+    "spending_de_net": "Development expenditure (net)",
+    "spending_covid19": "COVID-19 Fund",
+    "borrowing_dom_gross": "Domestic borrowing (gross)",
+    "borrowing_dom_net": "Domestic borrowing (net)",
+    "borrowing_ext_gross": "Foreign borrowing (gross)",
+    "borrowing_ext_net": "Foreign borrowing (net)",
+    "asset_use": "Use of assets"
+  },
+  "translations_ms": {
+    "y1": "Nilai (RM juta)",
+    "date": "Tarikh",
+    "category": "Kategori",
+    "variable": "Pembolehubah",
+    "value": "Nilai (RM juta)",
+    "balance": "Imbangan keseluruhan",
+    "revenue": "Hasil",
+    "spending_oe": "Perbelanjaan mengurus",
+    "spending_de_gross": "Perbelanjaan pembangunan (kasar)",
+    "spending_de_net": "Perbelanjaan pembangunan (bersih)",
+    "spending_covid19": "Kumpulan Wang COVID-19",
+    "borrowing_dom_gross": "Pinjaman dalam negeri (kasar)",
+    "borrowing_dom_net": "Pinjaman dalam negeri (bersih)",
+    "borrowing_ext_gross": "Pinjaman luar negeri (kasar)",
+    "borrowing_ext_net": "Pinjaman luar negeri (bersih)",
+    "asset_use": "Penggunaan harta"
+  },
+  "related_datasets": []
+}
