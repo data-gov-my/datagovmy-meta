@@ -67,7 +67,7 @@
       "chart_type": "TABLE",
       "config": {
         "precision": 0,
-        "filter_columns": ["variable"],
+        "filter_columns": ["object"],
         "freeze_columns": ["date"]
       }
     },
@@ -77,16 +77,12 @@
 			"title_ms": "Perbelanjaan (RM juta)",
 			"chart_type": "TIMESERIES",
 			"config": {
-				"filter_columns": [
-					"variable"
-				],
+				"filter_columns": ["object"],
 				"precision": 0,
 				"operation": "SUM",
 				"format": {
 					"x": "date",
-					"y": [
-						"value"
-					]
+					"y": ["value"]
 				}
 			}
 		}
