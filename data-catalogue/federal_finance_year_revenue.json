@@ -9,10 +9,10 @@
   "data_as_of": "2022",
   "last_updated": "2023-11-30 15:00",
   "next_update": "2024-02-29 15:00",
-  "methodology_en": "This data is produced by the Accountant-General's Department in compliance with the [Malaysian Public Sector Accounting Standards](https://www2.anm.gov.my/akruan/Pages/MPSAS.aspx) and the IMF's Dissemination Standards. A few definitional nuances should be noted:\n- Individual income taxes include collection of income taxes without codes which will eventually be appropriately classified.\n- Prior to 2007, the value for other direct taxes includes revenue from the real property gains tax.\n- Collection of revenue under the goods and services tax began on 1 April 2015.\n- Effective 1 January 2000, the values for indirect sales tax includes revenue from the sales tax on petroleum and petroleum products, which replaced the import and excise duties on these products.\n- Other indirect taxes include betting, sweepstakes and gaming taxes, as well as collection of revenue without codes which will eventually be appropriately classified.\n The value for non-tax interest and returns on investment includes profits from PETRONAS and Bank Negara Malaysia.\n- The value for other non-tax revenue includes services fees, fines, and penalties.",
-  "methodology_ms": "Data ini dihasilkan oleh Jabatan Akauntan Negara berdasarkan [Piawaian Perakaunan Sektor Awam Malaysia](https://www2.anm.gov.my/akruan/Pages/MPSAS.aspx) dan _IMF Dissemination Standards_. Beberapa nuansa dalam definisi pembolehubah perlu diberi perhatian:\n- Cukai pendapatan individu termasuk kutipan cukai pendapatan tanpa kod yang akan diklasifikasikan semula nanti.\n- Sebelum tahun 2007, nilai untuk cukai langsung lain termasuk hasil daripada cukai atas keuntungan hartanah.\n- Kutipan hasil di bawah cukai barangan dan perkhidmatan bermula pada 1 April 2015.\n- Berkuatkuasa 1 Januari 2000, nilai untuk cukai jualan tidak langsung termasuk hasil daripada cukai jualan ke atas petroleum dan produk petroleum, yang menggantikan duti import dan eksais ke atas produk ini.\n- Cukai tidak langsung lain termasuk cukai bertaruh, judi lumba kuda, dan cukai perjudian, serta kutipan hasil tanpa kod yang akan diklasifikasikan semula nanti.\n Nilai untuk faedah bukan cukai dan pulangan ke atas pelaburan termasuk keuntungan daripada PETRONAS dan Bank Negara Malaysia.\n- Nilai untuk hasil bukan cukai lain termasuk bayaran perkhidmatan, denda dan penalti.",
-  "caveat_en": "Numbers may not add up due to rounding during derivation. Furthermore, data for 2023 are preliminary and are subject to revision in future releases.",
-  "caveat_ms": "Jumlah tidak semestinya tepat kerana penggenapan. Tambahan, data bagi 2023 adalah data awalan dan mungkin disemak dalam kemaskini akan datang.",
+  "methodology_en": "This data is produced by the Accountant-General's Department in compliance with the [Malaysian Public Sector Accounting Standards](https://www2.anm.gov.my/akruan/Pages/MPSAS.aspx) and the IMF's Dissemination Standards. A few definitional nuances should be noted:\n- Individual income taxes include collection of income taxes without codes which will eventually be appropriately classified.\n- Prior to 2007, the value for other direct taxes includes revenue from the real property gains tax.\n- Collection of revenue under the goods and services tax began on 1 April 2015.\n- Effective 1 January 2000, the values for indirect sales tax includes revenue from the sales tax on petroleum and petroleum products, which replaced the import and excise duties on these products.\n- Other indirect taxes include betting, sweepstakes and gaming taxes, as well as collection of revenue without codes which will eventually be appropriately classified.\n- The value for non-tax interest and returns on investment includes profits from PETRONAS and Bank Negara Malaysia.\n- The value for other non-tax revenue includes services fees, fines, and penalties.",
+  "methodology_ms": "Data ini dihasilkan oleh Jabatan Akauntan Negara berdasarkan [Piawaian Perakaunan Sektor Awam Malaysia](https://www2.anm.gov.my/akruan/Pages/MPSAS.aspx) dan _IMF Dissemination Standards_. Beberapa nuansa dalam definisi pembolehubah perlu diberi perhatian:\n- Cukai pendapatan individu termasuk kutipan cukai pendapatan tanpa kod yang akan diklasifikasikan semula nanti.\n- Sebelum tahun 2007, nilai untuk cukai langsung lain termasuk hasil daripada cukai atas keuntungan hartanah.\n- Kutipan hasil di bawah cukai barangan dan perkhidmatan bermula pada 1 April 2015.\n- Berkuatkuasa 1 Januari 2000, nilai untuk cukai jualan tidak langsung termasuk hasil daripada cukai jualan ke atas petroleum dan produk petroleum, yang menggantikan duti import dan eksais ke atas produk ini.\n- Cukai tidak langsung lain termasuk cukai bertaruh, judi lumba kuda, dan cukai perjudian, serta kutipan hasil tanpa kod yang akan diklasifikasikan semula nanti.\n- Nilai untuk faedah bukan cukai dan pulangan ke atas pelaburan termasuk keuntungan daripada PETRONAS dan Bank Negara Malaysia.\n- Nilai untuk hasil bukan cukai lain termasuk bayaran perkhidmatan, denda dan penalti.",
+  "caveat_en": "Numbers may not add up due to rounding during derivation.",
+  "caveat_ms": "Jumlah tidak semestinya tepat kerana penggenapan.",
   "publication_en": "\u2014",
   "publication_ms": "\u2014",
   "link_parquet": "https://storage.data.gov.my/publicadmin/federal_finance_year_revenue.parquet",
@@ -41,8 +41,8 @@
 			"name": "date",
 			"title_en": "Date",
 			"title_ms": "Tarikh",
-			"description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01 since the data is at quarterly frequency",
-			"description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD ditetapkan sebagai 01 kerana data berfrekuensi suku tahunan"
+			"description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+			"description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
 		},
 		{
 			"name": "category",
@@ -63,7 +63,7 @@
 			"title_en": "Value (RM mil)",
 			"title_ms": "Nilai (RM juta)",
 			"description_en": "[Float] Amount of revenue in millions of ringgit (RM mil)",
-			"description_ms": "[Apung] Amount of revenue dalam juta ringgit (RM juta)"
+			"description_ms": "[Apung] Jumlah hasil dalam juta ringgit (RM juta)"
 		}
   ],
   "dataviz": [
@@ -102,6 +102,9 @@
   "translations_en": {
     "y1": "Revenue (RM mil)",
     "date": "Date",
+    "category": "Category",
+    "variable": "Variable",
+    "value": "Revenue (RM mil)",
     "total": "Total",
     "tax-direct": "Direct taxes",
     "tax-indirect": "Indirect taxes",
@@ -125,6 +128,9 @@
   "translations_ms": {
     "y1": "Revenue (RM juta)",
     "date": "Tarikh",
+    "category": "Kategori",
+    "variable": "Pembolehubah",
+    "value": "Hasil (RM juta)",
     "total": "Keseluruhan",
     "tax-direct": "Cukai langsung",
     "tax-indirect": "Cukai tidak langsung",

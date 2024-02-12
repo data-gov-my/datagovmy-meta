@@ -1,0 +1,129 @@
+{
+  "title_en": "Annual Federal Government Operating Expenditure by Object",
+  "title_ms": "Perbelanjaan Mengurus Tahunan Kerajaan Persekutuan mengikut Objek",
+  "title_sort": 10,
+  "description_en": "Breakdown of annual Federal Government operating expenditure into key categories.",
+  "description_ms": "Pecahan perbelanjaan mengurus tahunan Kerajaan Persekutuan kepada kategori utama.",
+  "exclude_openapi": false,
+  "manual_trigger": "",
+  "data_as_of": "2022",
+  "last_updated": "2023-11-30 15:00",
+  "next_update": "2024-02-29 15:00",
+  "methodology_en": "This data is produced by the Accountant-General's Department in compliance with the [Malaysian Public Sector Accounting Standards](https://www2.anm.gov.my/akruan/Pages/MPSAS.aspx) and the IMF's Dissemination Standards. Within this dataset, operating expenditure includes grants and transfers (including refunds and write-offs) to state governments, public agencies and public enterprises.",
+  "methodology_ms": "Data ini dihasilkan oleh Jabatan Akauntan Negara berdasarkan [Piawaian Perakaunan Sektor Awam Malaysia](https://www2.anm.gov.my/akruan/Pages/MPSAS.aspx) dan _IMF Dissemination Standards_. Dalam set data ini, perbelanjaan mengurus termasuk pemberian dan pindahan (termasuk bayaran balik dan hapus kira) kepada kerajaan negeri, agensi awam dan perusahaan awam.",
+  "caveat_en": "Numbers may not add up due to rounding during derivation.",
+  "caveat_ms": "Jumlah tidak semestinya tepat kerana penggenapan.",
+  "publication_en": "\u2014",
+  "publication_ms": "\u2014",
+  "link_parquet": "https://storage.data.gov.my/publicadmin/federal_finance_year_oe.parquet",
+  "link_csv": "https://storage.data.gov.my/publicadmin/federal_finance_year_oe.csv",
+  "frequency": "YEARLY",
+  "geography": [
+    "NATIONAL"
+  ],
+  "demography": [],
+  "dataset_begin": 1979,
+  "dataset_end": 2022,
+  "data_source": [
+    "JANM"
+  ],
+  "site_category": [
+    {
+      "site": "datagovmy",
+      "category_en": "Public Administration",
+      "category_ms": "Pentadbiran Awam",
+      "subcategory_en": "Public Finance",
+      "subcategory_ms": "Kewangan Awam"
+    }
+  ],
+  "fields": [
+		{
+			"name": "date",
+			"title_en": "Date",
+			"title_ms": "Tarikh",
+			"description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+			"description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+		},
+		{
+			"name": "variable",
+			"title_en": "Variable",
+			"title_ms": "Pembolehubah",
+      "description_en": "[String] Variable name, to be mapped using the [Lookup Table](https://data.gov.my/data-catalogue/lookup_federal_finance) where file = 'oe'. The lookup table will give you the English and Malay definitions.",
+      "description_ms": "[Rentetan] Nama pembolehubahan yang perlu dipadankan dengan [Jadual Carian](https://data.gov.my/ms-MY/data-catalogue/lookup_federal_finance) dengan medan file = 'oe'. Jadual carian akan memberi definisi dalam Bahasa Inggeris dan Bahasa Melayu."
+		},
+		{
+			"name": "value",
+			"title_en": "Expenditure (RM mil)",
+			"title_ms": "Perbelanjaan (RM juta)",
+			"description_en": "[Float] Operating expenditure in millions of ringgit (RM mil)",
+			"description_ms": "[Apung] Perbelanjaan mengurus dalam juta ringgit (RM juta)"
+		}
+  ],
+  "dataviz": [
+    {
+      "dataviz_id": "table",
+      "title_en": "Table",
+      "title_ms": "Jadual",
+      "chart_type": "TABLE",
+      "config": {
+        "precision": 0,
+        "filter_columns": ["variable"],
+        "freeze_columns": ["date"]
+      }
+    },
+		{
+			"dataviz_id": "value",
+			"title_en": "Expenditure (RM mil)",
+			"title_ms": "Perbelanjaan (RM juta)",
+			"chart_type": "TIMESERIES",
+			"config": {
+				"filter_columns": [
+					"variable"
+				],
+				"precision": 0,
+				"operation": "SUM",
+				"format": {
+					"x": "date",
+					"y": [
+						"value"
+					]
+				}
+			}
+		}
+  ],
+  "translations_en": {
+    "y1": "Expenditure (RM mil)",
+    "date": "Date",
+    "variable": "Variable",
+    "value": "Expenditure (RM mil)",
+    "total": "Total",
+    "emoluments": "Emoluments",
+    "retirement-charges": "Retirement charges",
+    "debt-service": "Debt service",
+    "debt-service-dom": "Debt service (domestic)",
+    "debt-service-ext": "Debt service (foreign)",
+    "supplies-services": "Supplies and services",
+    "subsidies-sa": "Subsidies and social assistance",
+    "asset-acquisition": "Asset acquisition",
+    "grants-transfers": "Grants and transfers",
+    "other": "Other expenditure"
+  },
+  "translations_ms": {
+    "y1": "Perbelanjaan (RM juta)",
+    "date": "Tarikh",
+    "variable": "Pembolehubah",
+    "value": "Perbelanjaan (RM juta)",
+    "total": "Jumlah",
+    "emoluments": "Emolumen",
+    "retirement-charges": "Bayaraan persaraan",
+    "debt-service": "Khidmat hutang",
+    "debt-service-dom": "Khidmat hutang (dalam negeri)",
+    "debt-service-ext": "Khidmat hutang (luar negeri)",
+    "supplies-services": "Perkhidmatan dan bekalan",
+    "subsidies-sa": "Subsidi dan bantuan sosial",
+    "asset-acquisition": "Pembelian aset",
+    "grants-transfers": "Pemberian dan serahan",
+    "other": "Lain-lain perbelanjaan"
+  },
+  "related_datasets": []
+}
