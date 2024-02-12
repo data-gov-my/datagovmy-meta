@@ -45,9 +45,9 @@
 			"description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
 		},
 		{
-			"name": "variable",
-			"title_en": "Variable",
-			"title_ms": "Pembolehubah",
+			"name": "object",
+			"title_en": "Object",
+			"title_ms": "Objek",
       "description_en": "[String] Variable name, to be mapped using the [Lookup Table](https://data.gov.my/data-catalogue/lookup_federal_finance) where file = 'oe'. The lookup table will give you the English and Malay definitions.",
       "description_ms": "[Rentetan] Nama pembolehubahan yang perlu dipadankan dengan [Jadual Carian](https://data.gov.my/ms-MY/data-catalogue/lookup_federal_finance) dengan medan file = 'oe'. Jadual carian akan memberi definisi dalam Bahasa Inggeris dan Bahasa Melayu."
 		},
@@ -94,6 +94,7 @@
   "translations_en": {
     "y1": "Expenditure (RM mil)",
     "date": "Date",
+    "object": "Object",
     "variable": "Variable",
     "value": "Expenditure (RM mil)",
     "total": "Total",
@@ -111,6 +112,7 @@
   "translations_ms": {
     "y1": "Perbelanjaan (RM juta)",
     "date": "Tarikh",
+    "object": "Objek",
     "variable": "Pembolehubah",
     "value": "Perbelanjaan (RM juta)",
     "total": "Jumlah",
