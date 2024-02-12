@@ -1,7 +1,7 @@
 {
   "title_en": "Lookup Table",
   "title_ms": "Jadual Carian",
-  "sort_title": 9999,
+  "title_sort": 9999,
   "description_en": "Lookup table, to be left-joined against category and variable name in the other Federal Government Finance datasets if specified.",
   "description_ms": "Jadual carian, untuk dipadankan (left-join) dengan kategori dan nama pembolehubah dalam set data Kewangan Kerajaan Persekutuan sekiranya diperlukan.",
   "exclude_openapi": false,

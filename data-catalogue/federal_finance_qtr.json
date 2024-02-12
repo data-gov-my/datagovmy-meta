@@ -1,7 +1,7 @@
 {
   "title_en": "Quarterly Federal Government Finance",
   "title_ms": "Kewangan Suku Tahunan Kerajaan Persekutuan",
-  "sort_title": 1,
+  "title_sort": 1,
   "description_en": "Quarterly revenue, operating and development expenditure, overall surplus/deficit, and sources of financing for the Federal Government of Malaysia.",
   "description_ms": "Hasil, perbelanjaan mengurus dan pembangunan, lebihan/kurangan keseluruhan, serta sumber kewangan secara suku tahunan bagi Kerajaan Persekutuan Malaysia.",
   "exclude_openapi": false,
