@@ -1,0 +1,149 @@
+{
+  "title_en": "Quarterly Federal Government Revenue",
+  "title_ms": "Hasil Suku Tahunan Kerajaan Persekutuan",
+  "title_sort": 2,
+  "description_en": "Quarterly Federal Government revenue from direct taxes, indirect taxes, non-tax sources, as well as non-revenue receipts.",
+  "description_ms": "Hasil suku tahunan Kerajaan Persekutuan daripada cukai langsung, cukai tidak langsung, sumber bukan cukai, serta terimaan bukan hasil.",
+  "exclude_openapi": false,
+  "manual_trigger": "",
+  "data_as_of": "2023-Q3",
+  "last_updated": "2023-11-30 15:00",
+  "next_update": "2024-02-29 15:00",
+  "methodology_en": "This data is produced by the Accountant-General's Department in compliance with the [Malaysian Public Sector Accounting Standards](https://www2.anm.gov.my/akruan/Pages/MPSAS.aspx) and the IMF's Dissemination Standards. A few definitional nuances should be noted:\n- Individual income taxes include collection of income taxes without codes which will eventually be appropriately classified.\n- Prior to 2007, the value for other direct taxes includes revenue from the real property gains tax.\n- Collection of revenue under the goods and services tax began on 1 April 2015.\n- Effective 1 January 2000, the values for indirect sales tax includes revenue from the sales tax on petroleum and petroleum products, which replaced the import and excise duties on these products.\n- Other indirect taxes include betting, sweepstakes and gaming taxes, as well as collection of revenue without codes which will eventually be appropriately classified.\n The value for non-tax interest and returns on investment includes profits from PETRONAS and Bank Negara Malaysia.\n- The value for other non-tax revenue includes services fees, fines, and penalties.",
+  "methodology_ms": "Data ini dihasilkan oleh Jabatan Akauntan Negara berdasarkan [Piawaian Perakaunan Sektor Awam Malaysia](https://www2.anm.gov.my/akruan/Pages/MPSAS.aspx) dan _IMF Dissemination Standards_. Beberapa nuansa dalam definisi pembolehubah perlu diberi perhatian:\n- Cukai pendapatan individu termasuk kutipan cukai pendapatan tanpa kod yang akan diklasifikasikan semula nanti.\n- Sebelum tahun 2007, nilai untuk cukai langsung lain termasuk hasil daripada cukai atas keuntungan hartanah.\n- Kutipan hasil di bawah cukai barangan dan perkhidmatan bermula pada 1 April 2015.\n- Berkuatkuasa 1 Januari 2000, nilai untuk cukai jualan tidak langsung termasuk hasil daripada cukai jualan ke atas petroleum dan produk petroleum, yang menggantikan duti import dan eksais ke atas produk ini.\n- Cukai tidak langsung lain termasuk cukai bertaruh, judi lumba kuda, dan cukai perjudian, serta kutipan hasil tanpa kod yang akan diklasifikasikan semula nanti.\n Nilai untuk faedah bukan cukai dan pulangan ke atas pelaburan termasuk keuntungan daripada PETRONAS dan Bank Negara Malaysia.\n- Nilai untuk hasil bukan cukai lain termasuk bayaran perkhidmatan, denda dan penalti.",
+  "caveat_en": "Numbers may not add up due to rounding during derivation. Furthermore, data for 2023 are preliminary and are subject to revision in future releases.",
+  "caveat_ms": "Jumlah tidak semestinya tepat kerana penggenapan. Tambahan, data bagi 2023 adalah data awalan dan mungkin disemak dalam kemaskini akan datang.",
+  "publication_en": "\u2014",
+  "publication_ms": "\u2014",
+  "link_parquet": "https://storage.data.gov.my/publicadmin/federal_finance_qtr_revenue.parquet",
+  "link_csv": "https://storage.data.gov.my/publicadmin/federal_finance_qtr_revenue.csv",
+  "frequency": "QUARTERLY",
+  "geography": [
+    "NATIONAL"
+  ],
+  "demography": [],
+  "dataset_begin": 1996,
+  "dataset_end": 2023,
+  "data_source": [
+    "JANM"
+  ],
+  "site_category": [
+    {
+      "site": "datagovmy",
+      "category_en": "Public Administration",
+      "category_ms": "Pentadbiran Awam",
+      "subcategory_en": "Public Finance",
+      "subcategory_ms": "Kewangan Awam"
+    }
+  ],
+  "fields": [
+		{
+			"name": "date",
+			"title_en": "Date",
+			"title_ms": "Tarikh",
+			"description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01 since the data is at quarterly frequency",
+			"description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD ditetapkan sebagai 01 kerana data berfrekuensi suku tahunan"
+		},
+		{
+			"name": "category",
+			"title_en": "Category",
+			"title_ms": "Kategori",
+			"description_en": "[Categorical] Overall revenue, direct taxes, indirect taxes, non-tax revenue, or non-revenue receipts",
+			"description_ms": "[Kategori] Hasil keseluruhan, cukai langsung, cukai tidak langsung, hasil bukan cukai, atau terimaan bukan hasil"
+		},
+		{
+			"name": "variable",
+			"title_en": "Variable",
+			"title_ms": "Pembolehubah",
+      "description_en": "[String] Variable name, to be mapped using the [Lookup Table](https://data.gov.my/data-catalogue/lookup_federal_finance) where file = 'revenue'. The lookup table will give you the English and Malay definitions.",
+      "description_ms": "[Rentetan] Nama pembolehubahan yang perlu dipadankan dengan [Jadual Carian](https://data.gov.my/ms-MY/data-catalogue/lookup_federal_finance) dengan medan file = 'revenue'. Jadual carian akan memberi definisi dalam Bahasa Inggeris dan Bahasa Melayu."
+		},
+		{
+			"name": "value",
+			"title_en": "Value (RM mil)",
+			"title_ms": "Nilai (RM juta)",
+			"description_en": "[Float] Amount of revenue in millions of ringgit (RM mil)",
+			"description_ms": "[Apung] Amount of revenue dalam juta ringgit (RM juta)"
+		}
+  ],
+  "dataviz": [
+    {
+      "dataviz_id": "table",
+      "title_en": "Table",
+      "title_ms": "Jadual",
+      "chart_type": "TABLE",
+      "config": {
+        "precision": 0,
+        "filter_columns": ["category","variable"],
+        "freeze_columns": ["date"]
+      }
+    },
+		{
+			"dataviz_id": "value",
+			"title_en": "Value (RM mil)",
+			"title_ms": "Nilai (RM juta)",
+			"chart_type": "TIMESERIES",
+			"config": {
+				"filter_columns": [
+					"category",
+					"variable"
+				],
+				"precision": 0,
+				"operation": "SUM",
+				"format": {
+					"x": "date",
+					"y": [
+						"value"
+					]
+				}
+			}
+		}
+  ],
+  "translations_en": {
+    "y1": "Revenue (RM mil)",
+    "date": "Date",
+    "total": "Total",
+    "tax-direct": "Direct taxes",
+    "tax-indirect": "Indirect taxes",
+    "non-tax": "Non-tax sources",
+    "non-revenue": "Non-revenue receipts",
+    "cita": "Companies income tax",
+    "pita": "Petroleum income tax",
+    "iita": "Individuals income tax",
+    "stamp": "Stamp duties",
+    "other": "Others",
+    "duties-export": "Export duties",
+    "duties-import": "Import duties",
+    "duties-excise": "Excise duties",
+    "gst": "Goods and services tax",
+    "sst-sales": "Sales tax",
+    "sst-service": "Service tax",
+    "license-permit": "Licences and permits",
+    "petroleum": "Petroleum royalty",
+    "interest": "Interest and returns on investment"
+  },
+  "translations_ms": {
+    "y1": "Revenue (RM juta)",
+    "date": "Tarikh",
+    "total": "Keseluruhan",
+    "tax-direct": "Cukai langsung",
+    "tax-indirect": "Cukai tidak langsung",
+    "non-tax": "Sumber bukan cukai",
+    "non-revenue": "Terimaan bukan hasil",
+    "cita": "Cukai pendapatan syarikat",
+    "pita": "Cukai pendapatan petroleum",
+    "iita": "Cukai pendapatan individu",
+    "stamp": "Duti setem",
+    "other": "Lain-lain",
+    "duties-export": "Duti eksport",
+    "duties-import": "Duti import",
+    "duties-excise": "Duti eksais",
+    "gst": "Cukai barangan dan perkhidmatan",
+    "sst-sales": "Cukai jualan",
+    "sst-service": "Cukai perkhidmatan",
+    "license-permit": "Lesen dan permit",
+    "petroleum": "Royalti petroleum",
+    "interest": "Faedah dan pulangan pelaburan"
+  },
+  "related_datasets": []
+}
