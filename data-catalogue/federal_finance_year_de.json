@@ -1,0 +1,140 @@
+{
+  "title_en": "Annual Federal Government Development Expenditure by Function",
+  "title_ms": "Perbelanjaan Pembangunan Tahunan Kerajaan Persekutuan mengikut Fungsi",
+  "title_sort": 3,
+  "description_en": "Breakdown of annual Federal Government development expenditure by key sectors describing the area of impact of development projects.",
+  "description_ms": "Pecahan perbelanjaan mengurus tahunan Kerajaan Persekutuan kepada sektor utama yang memperincikan keberhasilan projek pembangunan.",
+  "exclude_openapi": false,
+  "manual_trigger": "",
+  "data_as_of": "2022",
+  "last_updated": "2023-11-30 15:00",
+  "next_update": "2024-02-29 15:00",
+  "methodology_en": "This data is produced by the Accountant-General's Department in compliance with the [Malaysian Public Sector Accounting Standards](https://www2.anm.gov.my/akruan/Pages/MPSAS.aspx) and the IMF's Dissemination Standards. Within this dataset, values for the general administration function include public services, statistics, Royal Customs and Excise, Inland Revenue Departments and the Ministry of Foreign Affairs.",
+  "methodology_ms": "Data ini dihasilkan oleh Jabatan Akauntan Negara berdasarkan [Piawaian Perakaunan Sektor Awam Malaysia](https://www2.anm.gov.my/akruan/Pages/MPSAS.aspx) dan _IMF Dissemination Standards_. Dalam set data ini, angka bagi fungsi pentadbiran awam termasuk Jabatan-Jabatan Perkhidmatan Awam, Perangkaan, Kastam dan Eksais DiRaja, Hasil Dalam Negeri dan Kementerian Luar Negeri",
+  "caveat_en": "Numbers may not add up due to rounding during derivation.",
+  "caveat_ms": "Jumlah tidak semestinya tepat kerana penggenapan.",
+  "publication_en": "\u2014",
+  "publication_ms": "\u2014",
+  "link_parquet": "https://storage.data.gov.my/publicadmin/federal_finance_year_de.parquet",
+  "link_csv": "https://storage.data.gov.my/publicadmin/federal_finance_year_de.csv",
+  "frequency": "QUARTERLY",
+  "geography": [
+    "NATIONAL"
+  ],
+  "demography": [],
+  "dataset_begin": 1970,
+  "dataset_end": 2022,
+  "data_source": [
+    "JANM"
+  ],
+  "site_category": [
+    {
+      "site": "datagovmy",
+      "category_en": "Public Administration",
+      "category_ms": "Pentadbiran Awam",
+      "subcategory_en": "Public Finance",
+      "subcategory_ms": "Kewangan Awam"
+    }
+  ],
+  "fields": [
+		{
+			"name": "date",
+			"title_en": "Date",
+			"title_ms": "Tarikh",
+			"description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at quarterly frequency",
+			"description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi suku tahunan"
+		},
+		{
+			"name": "category",
+			"title_en": "Category",
+			"title_ms": "Kategori",
+			"description_en": "[Categorical] Overall expenditure, defence & security, economic services, social services, or general administration",
+			"description_ms": "[Kategori] Perbelanjaan keseluruhan, pertahanan & keselamatan, perkhidmatan ekonomi, perkhidmatan sosial, atau pentadbiran am"
+		},
+		{
+			"name": "function",
+			"title_en": "Function",
+			"title_ms": "Fungsi",
+      "description_en": "[String] Variable name, to be mapped using the [Lookup Table](https://data.gov.my/data-catalogue/lookup_federal_finance) where file = 'de'. The lookup table will give you the English and Malay definitions.",
+      "description_ms": "[Rentetan] Nama pembolehubahan yang perlu dipadankan dengan [Jadual Carian](https://data.gov.my/ms-MY/data-catalogue/lookup_federal_finance) dengan medan file = 'de'. Jadual carian akan memberi definisi dalam Bahasa Inggeris dan Bahasa Melayu."
+		},
+		{
+			"name": "value",
+			"title_en": "Expenditure (RM mil)",
+			"title_ms": "Perbelanjaan (RM juta)",
+			"description_en": "[Float] Development expenditure in millions of ringgit (RM mil)",
+			"description_ms": "[Apung] Perbelanjaan pembangunan dalam juta ringgit (RM juta)"
+		}
+  ],
+  "dataviz": [
+    {
+      "dataviz_id": "table",
+      "title_en": "Table",
+      "title_ms": "Jadual",
+      "chart_type": "TABLE",
+      "config": {
+        "precision": 0,
+        "filter_columns": ["category","function"],
+        "freeze_columns": ["date"]
+      }
+    },
+		{
+			"dataviz_id": "value",
+			"title_en": "Expenditure (RM mil)",
+			"title_ms": "Perbelanjaan (RM juta)",
+			"chart_type": "TIMESERIES",
+			"config": {
+				"filter_columns": ["category","function"],
+				"precision": 0,
+				"operation": "SUM",
+				"format": {
+					"x": "date",
+					"y": ["value"]
+				}
+			}
+		}
+  ],
+  "translations_en": {
+    "y1": "Expenditure (RM mil)",
+    "date": "Date",
+    "category": "Category",
+    "function": "Function",
+    "value": "Expenditure (RM mil)",
+    "total": "Total",
+    "defence": "Defence and security",
+    "economy": "Economic services",
+    "social": "Social services",
+    "admin": "General administration",
+    "agriculture": "Agriculture and rural development",
+    "trade": "Trade and industry",
+    "transport": "Transport",
+    "utilities": "Public utilities",
+    "other": "Others",
+    "education": "Education",
+    "health": "Health",
+    "housing": "Housing",
+    "community": "Social and community services"
+  },
+  "translations_ms": {
+    "y1": "Perbelanjaan (RM juta)",
+    "date": "Tarikh",
+    "category": "Kategori",
+    "function": "Fungsi",
+    "value": "Perbelanjaan (RM juta)",
+    "total": "Jumlah",
+    "defence": "Pertahanan dan keselamatan",
+    "economy": "Perkhidmatan ekonomi",
+    "social": "Perkhidmatan sosial",
+    "admin": "Pentadbiran am",
+    "agriculture": "Pertanian dan pembangunan luar bandar",
+    "trade": "Perdagangan dan perindustrian",
+    "transport": "Pengangkutan",
+    "utilities": "Kemudahan awam",
+    "other": "Lain-lain",
+    "education": "Pendidikan",
+    "health": "Kesihatan",
+    "housing": "Perumahan",
+    "community": "Perkhidmatan sosial dan masyarakat"
+  },
+  "related_datasets": []
+}
