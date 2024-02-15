@@ -12,8 +12,8 @@
 		{
 			"name": "community_product_rejected",
 			"subject": "Tolakan Produk Komuniti untuk data.gov.my",
-			"content": "Salam sejahtera {{name}},Dimaklumkan bahawa produk anda tidak dapat dipaparkan di halaman Produk Komuniti buat masa ini kerana: {{ reason }}.\n\nSila semak komen di atas sebelum anda membuat permohonan baharu.\n\nSekian, terima kasih.\n\nPasukan data data.gov.my",
-			"html_content": "<html><head><title>Tolakan Produk Komuniti</title></head><body><p>Salam sejahtera {{name}},</p><p>Dimaklumkan bahawa produk anda tidak dapat dipaparkan di halaman Produk Komuniti buat masa ini kerana: {{ reason }}.</p><p>Sila semak komen di atas sebelum anda membuat permohonan baharu.</p><p>Sekian, terima kasih.</p><p>Pasukan data data.gov.my</p></body></html>",
+			"content": "Salam sejahtera {{name}},\n\nDimaklumkan bahawa produk anda tidak dapat dipaparkan di halaman Produk Komuniti buat masa ini kerana: {{ reason }}\n\nSila semak komen di atas sebelum anda membuat permohonan baharu.\n\nSekian, terima kasih.\nPasukan data data.gov.my",
+			"html_content": "<html><head><title>Tolakan Produk Komuniti</title></head><body><p>Salam sejahtera {{name}},</p><p>Dimaklumkan bahawa produk anda tidak dapat dipaparkan di halaman Produk Komuniti buat masa ini kerana: {{ reason }}</p><p>Sila semak komen di atas sebelum anda membuat permohonan baharu.</p><p>Sekian, terima kasih.</p><p>Pasukan data data.gov.my</p></body></html>",
 			"language": "ms"
 		}
 	]
