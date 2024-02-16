@@ -1,0 +1,48 @@
+{
+    "publication": "iip_2023-q4",
+    "publication_type": "iip",
+    "release_date": "2024-02-16",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[4Q 2023] International Investment Position",
+        "publication_type_title": "International Investment Position",
+        "description": "Quarterly international investment position, covering assets and liabilities by economic sector and country.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "International Investment Position: 4Q 2023",
+                "resource_link": "https://storage.dosm.gov.my/iip/iip_2023-q4.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "International Investment Position: 4Q 2023",
+                "resource_link": "https://storage.dosm.gov.my/iip/iip_2023-q4.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST4 2023] Kedudukan Pelaburan Antarabangsa",
+        "publication_type_title": "Kedudukan Pelaburan Antarabangsa",
+        "description": "Kedudukan pelaburan antarabangsa suku tahunan, merangkumi aset dan liabiliti mengikut sektor ekonomi dan negara.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Kedudukan Pelaburan Antarabangsa: ST4 2023",
+                "resource_link": "https://storage.dosm.gov.my/iip/iip_2023-q4.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Kedudukan Pelaburan Antarabangsa: ST4 2023",
+                "resource_link": "https://storage.dosm.gov.my/iip/iip_2023-q4.pdf"
+            }
+        ]
+    }
+}
