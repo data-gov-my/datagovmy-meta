@@ -4,9 +4,9 @@
     "data_next_update": "2024-05-17 12:00",
     "route": "/dashboard/international-investment-position,/ms-MY/dashboard/international-investment-position",
     "sites": [
-        "datagovmy"
+        "opendosm"
     ],
-    "manual_trigger": "2024-02-16 13:54:57.416345",
+    "manual_trigger": "2024-02-16 14:04:02.632034",
     "required_params": [],
     "optional_params": [],
     "charts": {
