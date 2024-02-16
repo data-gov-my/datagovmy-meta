@@ -1,0 +1,11 @@
+{
+  "route": null,
+  "sites": ["datagovmy", "opendosm", "kkmnow"],
+  "translation": {
+    "required": "Required",
+    "invalid_email": "Enter valid email",
+    "invalid_year": "Enter valid year",
+    "invalid_url": "Enter valid URL",
+    "invalid_url_multiple": "Invalid URL in one or more links"
+  }
+}
