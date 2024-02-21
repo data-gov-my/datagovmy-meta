@@ -1,12 +1,12 @@
 {
     "dashboard_name": "wholesale_retail_trade",
-    "data_last_updated": "2024-01-11 12:00",
-    "data_next_update": "2024-02-08 12:00",
+    "data_last_updated": "2024-02-08 12:00",
+    "data_next_update": "2024-03-13 12:00",
     "route": "/dashboard/wholesale-retail-trade,/ms-MY/dashboard/wholesale-retail-trade",
     "sites": [
         "opendosm"
     ],
-    "manual_trigger": "2024-01-28 14:10:47.866746",
+    "manual_trigger": "2024-02-21 10:53:21.853909",
     "required_params": [],
     "optional_params": [],
     "charts": {
@@ -14,7 +14,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/iowrt_timeseries.parquet",
-            "data_as_of": "2023-11",
+            "data_as_of": "2023-12",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -38,7 +38,7 @@
             "name": "statistics",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/iowrt_timeseries_callout.parquet",
-            "data_as_of": "2023-11",
+            "data_as_of": "2023-12",
             "api_type": "static",
             "api_params": [],
             "variables": {
