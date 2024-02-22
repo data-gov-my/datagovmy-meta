@@ -47,10 +47,9 @@
 					"category",
 					"subcategory",
 					"indicator",
-					"element",
-					"subelement"
+					"element"
 				],
-				"value_columns": ["score", "justification"]
+				"value_columns": ["subelement", "score", "justification"]
 			}
 		},
 		"links": {
