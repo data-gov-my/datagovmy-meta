@@ -25,7 +25,7 @@
 		"keystats": {
 			"name": "keystats",
 			"chart_type": "custom_chart",
-			"chart_source": "https://storage.dosm.gov.my/dashboards/odin_2024_bar.parquet",
+			"chart_source": "https://storage.dosm.gov.my/benchmarking/odin_2024_bar.parquet",
 			"data_as_of": "2024-02-21 23:59",
 			"api_type": "static",
 			"api_params": [],
