@@ -6,7 +6,7 @@
 	"sites": ["opendosm"],
 	"manual_trigger": "2023-11-22 06:53:16.74125",
 	"required_params": [],
-	"optional_params": [],
+	"optional_params": ["lang"],
 	"charts": {
 		"bar_chart": {
 			"name": "bar_chart",
@@ -32,6 +32,37 @@
 			"variables": {
 				"keys": ["category", "subcategory", "indicator", "element"],
 				"value_columns": ["overall", "maximum"]
+			}
+		},
+		"table": {
+			"name": "table",
+			"chart_type": "metrics_table",
+			"chart_source": "https://storage.dosm.gov.my/benchmarking/odin_2024_table.parquet",
+			"data_as_of": "2024-02-21 23:59",
+			"api_type": "dynamic",
+			"api_params": ["lang"],
+			"variables": {
+				"keys": [
+					"lang",
+					"category",
+					"subcategory",
+					"indicator",
+					"element",
+					"subelement"
+				],
+				"value_columns": ["score", "justification"]
+			}
+		},
+		"links": {
+			"name": "links",
+			"chart_type": "metrics_table",
+			"chart_source": "https://storage.dosm.gov.my/benchmarking/odin_2024_links.parquet",
+			"data_as_of": "2024-02-21 23:59",
+			"api_type": "dynamic",
+			"api_params": ["lang"],
+			"variables": {
+				"keys": ["lang", "category", "subcategory", "indicator"],
+				"value_columns": ["link_order", "link_title", "url"]
 			}
 		}
 	}
