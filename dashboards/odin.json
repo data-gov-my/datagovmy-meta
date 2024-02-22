@@ -1,0 +1,26 @@
+{
+	"dashboard_name": "odin",
+	"data_last_updated": "2024-02-22 05:00",
+	"data_next_update": "2024-02-23 05:00",
+	"route": ["/odin-assessment"],
+	"sites": ["opendosm"],
+	"manual_trigger": "2023-11-22 06:53:16.74125",
+	"required_params": [],
+	"optional_params": [],
+	"charts": {
+		"bar_chart": {
+			"name": "bar_chart",
+			"chart_type": "bar_chart",
+			"chart_source": "https://storage.dosm.gov.my/benchmarking/odin_2024_bar.parquet",
+			"data_as_of": "2024-02-21 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": ["category", "subcategory", "indicator", "element"],
+
+				"x": "subelement",
+				"y": ["overall", "maximum"]
+			}
+		}
+	}
+}
