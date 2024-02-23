@@ -1,6 +1,7 @@
 {
   "route": "/ms-MY/odin-self-assessment",
   "sites": [
+    "datagovmy",
     "opendosm"
   ],
   "translation": {
@@ -29,13 +30,13 @@
     "metadata": "Metadata Rujukan",
     "downloadable": "Pilihan Muat Turun",
     "license": "Lesen Data Terbuka",
-    "click_indicator": "Tekan indikator spesifik untuk melihat skor granular mengikut sub-elemen",
+    "click_indicator": "Pilih petunjuk selain 'Keseluruhan' di atas untuk melihat skor mengikut sub-elemen",
     "element": "Elemen",
     "subelement": "Sub-elemen",
     "score": "Skor",
     "justification": "Justifikasi",
-    "coverage": "Liputan (5/5)",
-    "openness": "Keterbukaan (5/5)",
+    "coverage": "Liputan ({{ n }}/5)",
+    "openness": "Keterbukaan ({{ n }}/5)",
     "reference_datasets": "Rujukan Dataset",
     "subcategory": {
       "overall": "Keseluruhan",
@@ -64,9 +65,10 @@
       "": "Built Environment"
     },
     "indicator": {
+      "overall": "Keseluruhan",
       "population": "Population data",
-      "birth": "Birth rate",
-      "death": "Death rate",
+      "birth": "Kadar Kelahiran",
+      "death": "Kadar Kematian",
       "": "Number of schools or classrooms",
       "": "Number of teaching staff",
       "": "Education expenditures",

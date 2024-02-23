@@ -1,6 +1,7 @@
 {
   "route": "/odin-self-assessment",
   "sites": [
+    "datagovmy",
     "opendosm"
   ],
   "translation": {
@@ -29,15 +30,16 @@
     "metadata": "Reference Metadata",
     "downloadable": "Download Options",
     "license": "Open Data License",
-    "click_indicator": "Click on a specific indicator to view granular scoring by sub-element",
+    "click_indicator": "Click on a specific indicator above to view granular scoring by sub-element",
     "element": "Element",
     "subelement": "Sub-element",
     "score": "Score",
     "justification": "Justification",
-    "coverage": "Coverage (5/5)",
-    "openness": "Openness (5/5)",
+    "coverage": "Coverage ({{ n }}/5)",
+    "openness": "Openness ({{ n }}/5)",
     "reference_datasets": "Reference Datasets",
     "subcategory": {
+      "overall": "Overall",
       "population": "Population and Vital Statistics",
       "": "Education Facilities",
       "": "Education Outcomes",
