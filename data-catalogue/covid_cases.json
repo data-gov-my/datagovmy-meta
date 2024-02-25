@@ -4,7 +4,7 @@
     "description_en": "Daily COVID-19 cases at national and state level, with details on imported, recovered, active, and cluster cases.",
     "description_ms": "Kes COVID-19 harian di peringkat kebangsaan dan negeri, dengan butiran mengenai kes import, sembuh, aktif dan kluster.",
     "exclude_openapi": false,
-    "manual_trigger": "2024-02-18 15:55:43.811920",
+    "manual_trigger": "2024-02-25 13:06:34.788349",
     "data_as_of": "2024-02-17 23:59",
     "last_updated": "2024-02-18 12:00",
     "next_update": "2024-02-25 12:00",
