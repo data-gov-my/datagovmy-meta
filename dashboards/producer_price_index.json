@@ -1,12 +1,12 @@
 {
     "dashboard_name": "producer_price_index",
-    "data_last_updated": "2024-01-29 12:00",
-    "data_next_update": "2024-02-27 12:00",
+    "data_last_updated": "2024-02-27 12:00",
+    "data_next_update": "2024-03-27 12:00",
     "route": "/dashboard/producer-prices,/ms-MY/dashboard/producer-prices",
     "sites": [
         "opendosm"
     ],
-    "manual_trigger": "2024-02-02 05:09:38.196965",
+    "manual_trigger": "2024-02-28 10:49:47.584770",
     "required_params": [],
     "optional_params": [],
     "charts": {
@@ -14,7 +14,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/ppi_main_timeseries.parquet",
-            "data_as_of": "2023-12",
+            "data_as_of": "2024-01",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -40,7 +40,7 @@
             "name": "statistics",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/ppi_main_timeseries_callout.parquet",
-            "data_as_of": "2023-12",
+            "data_as_of": "2024-01",
             "api_type": "static",
             "api_params": [],
             "variables": {
