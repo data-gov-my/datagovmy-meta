@@ -1,12 +1,12 @@
 {
     "dashboard_name": "currency",
-    "data_last_updated": "2024-01-31 15:00",
-    "data_next_update": "2024-02-29 15:00",
+    "data_last_updated": "2024-02-29 15:00",
+    "data_next_update": "2024-03-31 15:00",
     "route": "/dashboard/currency-in-circulation,/ms-MY/dashboard/currency-in-circulation",
     "sites": [
         "datagovmy"
     ],
-    "manual_trigger": "2024-02-10 08:10:18.173592",
+    "manual_trigger": "2024-03-02 12:32:40.498407",
     "required_params": [],
     "optional_params": [],
     "charts": {
@@ -14,7 +14,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/currency_timeseries.parquet",
-            "data_as_of": "2023-12",
+            "data_as_of": "2024-01",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -55,7 +55,7 @@
             "name": "bar_chart",
             "chart_type": "bar_meter",
             "chart_source": "https://storage.data.gov.my/dashboards/currency_barmeter.parquet",
-            "data_as_of": "2023-12",
+            "data_as_of": "2024-01",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -73,7 +73,7 @@
             "name": "statistics",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/currency_timeseries_callout.parquet",
-            "data_as_of": "2023-12",
+            "data_as_of": "2024-01",
             "api_type": "static",
             "api_params": [],
             "variables": {
