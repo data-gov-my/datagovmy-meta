@@ -15,8 +15,8 @@
   "caveat_ms": "Data ini dihasilkan berdasarkan kematian yang didaftarkan dengan JPN. Oleh itu, sekiranya kematian itu tidak didaftarkan dengan JPN (contohnya sekiranya kematian rakyat asing hanya didaftarkan di negara asal, ataupun kematian penduduk di kawasan yang sangat terpencil tidak didaftarkan) maka ia secara am tidak terkandung dalam set data ini. Namun, penyesuaian data kematian di Sabah telah dilaksanakan kerana kurang liputan pendaftaran yang didapati berdasarkan 'Kajian Kurang Liputan Pendaftaran Kematian di Sabah' yang telah dijalankan oleh DOSM dan diluluskan oleh Jawatankuasa Induk Pelaksanaan _Civil Registration and Vital Statistics_ pada tahun 2016.",
   "publication_en": "OpenDOSM features a dashboard on [Population & Vital Statistics](https://open.dosm.gov.my/dashboard/population) where you can explore this data in a more interactive manner!",
   "publication_ms": "OpenDOSM memaparkan papan pemuka tentang [Penduduk & Perangkaan Penting](https://open.dosm.gov.my/ms-MY/dashboard/population) yang membolehkan anda menerokai data ini dengan lebih interaktif!",
-  "link_parquet": "https://storage.dosm.gov.my/demography/death.parquet",
-  "link_csv": "https://storage.dosm.gov.my/demography/death.csv",
+  "link_parquet": "https://storage.dosm.gov.my/demography/death_state.parquet",
+  "link_csv": "https://storage.dosm.gov.my/demography/death_state.csv",
   "frequency": "YEARLY",
   "geography": [
     "STATE"
