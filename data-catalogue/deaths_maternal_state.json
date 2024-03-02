@@ -1,0 +1,142 @@
+{
+  "title_en": "Annual Maternal Deaths by State",
+  "title_ms": "Kematian Ibu Bersalin Tahunan mengikut Negeri",
+  "title_sort": 12,
+  "description_en": "Annual number of deaths of women during pregnancy or childbirth, by state.",
+  "description_ms": "Jumlah tahunan kematian wanita semasa mengandung atau melahirkan anak, mengikut negeri.",
+  "exclude_openapi": false,
+  "manual_trigger": "",
+  "data_as_of": "2022",
+  "last_updated": "2023-10-17 12:00",
+  "next_update": "2024-10-17 12:00",
+  "methodology_en": "A maternal death refers to the death of a woman during pregnancy or childbirth, or within 42 days after the termination of pregnancy, irrespective of the duration and site of the pregnancy. Furthermore, the death must have been from a cause related to or aggravated by the pregnancy or its management, not an accidental or unrelated cause. The 'state' reported in this dataset is based on the place of usual residence of the deceased, not the geographical location in which the deceased passed away. For example, if a woman who resides in Selangor passes away during childbirth at a hospital in Kuala Lumpur, it will be recorded as a maternal death for Selangor. For a deeper understanding of the methodology and associated definition, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/vitalstats-technotes).",
+  "methodology_ms": "Kematian ibu bersalin merujuk kepada kematian seorang wanita ketika mengandung atau melahirkan anak, atau dalam tempoh 42 hari selepas melahirkan anak atau keguguran. Tambahan, kematian tersebut mestilah akibat daripada proses kehamilan dan pengendaliannya atau penyakit-penyakit yang menjejaskan kesihatan ibu, dan bukannya daripada kemalangan atau sebab yang tidak berkaitan dengan kehamilan. Medan 'negeri' yang dilaporan dalam set data ini adalah berdasarkan tempat kediaman biasa simati dan bukannya lokasi geografi di mana simati telah meninggal dunia. Sebagai contoh, jika seorang wanita yang menetap di Selangor meninggal dunia semasa melahirkan anak di sebuah hospital di Kuala Lumpur, kematian tersebut akan direkodkan sebagai kematian ibu bersalin bagi Selangor. Untuk memahami metodologi dengan lebih terperinci, sila rujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/vitalstats-technotes).",
+  "caveat_en": "This data is derived based on deaths registered with JPN. Therefore, if an maternal death is not registered with JPN (for instance, if a foreign maternal death is registered only in their home country, or a maternal death in a remote area is not registered), it will generally not count in this dataset. However, adjustment has been made to the number of deaths in Sabah to account for the under-reporting of deaths detected based on the 'Study of Under Reporting of Deaths in Sabah', which was conducted by DOSM and approved by the Steering Committee on Implementation of Civil Registration and Vital Statistics in 2016.",
+  "caveat_ms": "Data ini dihasilkan berdasarkan kematian yang didaftarkan dengan JPN. Oleh itu, sekiranya kematian ibu bersalin itu tidak didaftarkan dengan JPN (contohnya sekiranya kematian ibu bersalin bukan warganegara hanya didaftarkan di negara asal, ataupun kematian ibu bersalin di kawasan yang sangat terpencil tidak didaftarkan) maka ia secara am tidak terkandung dalam set data ini. Namun, penyesuaian data kematian di Sabah telah dilaksanakan kerana kurang liputan pendaftaran yang didapati berdasarkan 'Kajian Kurang Liputan Pendaftaran Kematian di Sabah' yang telah dijalankan oleh DOSM dan diluluskan oleh Jawatankuasa Induk Pelaksanaan _Civil Registration and Vital Statistics_ pada tahun 2016.",
+  "publication_en": "OpenDOSM features a dashboard on [Population & Vital Statistics](https://open.dosm.gov.my/dashboard/population) where you can explore this data in a more interactive manner!",
+  "publication_ms": "OpenDOSM memaparkan papan pemuka tentang [Penduduk & Perangkaan Penting](https://open.dosm.gov.my/ms-MY/dashboard/population) yang membolehkan anda menerokai data ini dengan lebih interaktif!",
+  "link_parquet": "https://storage.dosm.gov.my/demography/death_maternal_state.parquet",
+  "link_csv": "https://storage.dosm.gov.my/demography/death_maternal_state.csv",
+  "frequency": "YEARLY",
+  "geography": [
+    "STATE"
+  ],
+  "demography": [],
+  "dataset_begin": 2000,
+  "dataset_end": 2022,
+  "data_source": [
+    "JPN","DOSM"
+  ],
+  "site_category": [
+    {
+      "site": "datagovmy",
+      "category_en": "Demography",
+      "category_ms": "Demografi",
+      "category_sort": 1,
+      "subcategory_en": "Deaths",
+      "subcategory_ms": "Kematian",
+      "subcategory_sort": 3
+    },
+    {
+      "site": "opendosm",
+      "category_en": "Demography",
+      "category_ms": "Demografi",
+      "category_sort": 1,
+      "subcategory_en": "Deaths",
+      "subcategory_ms": "Kematian",
+      "subcategory_sort": 3
+    }
+  ],
+  "fields": [
+    {
+        "name": "state",
+        "title_en": "State",
+        "title_ms": "Negeri",
+        "description_en": "[Categorical] One of 16 states",
+        "description_ms": "[Kategori] Satu daripada 16 negeri"
+    },
+		{
+			"name": "date",
+			"title_en": "Date",
+			"title_ms": "Tarikh",
+			"description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+			"description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+		},
+    {
+      "name": "abs",
+      "title_en": "Maternal Deaths",
+      "title_ms": "Kematian Ibu Bersalin",
+      "description_en": "[Integer] Number of maternal deaths in that year",
+      "description_ms": "[Integer] Jumlah kematian ibu bersalin dalam tahun tersebut"
+    },
+    {
+      "name": "rate",
+      "title_en": "Maternal Mortality Rate",
+      "title_ms": "Kadar Mortaliti Ibu Bersalin",
+      "description_en": "[Float] Number of maternal deaths per 1000 live births",
+      "description_ms": "[Integer] Jumlah kematian ibu bersalin bagi setiap 1000 kelahiran hidup"
+    }
+  ],
+  "dataviz": [
+    {
+      "dataviz_id": "table",
+      "title_en": "Table",
+      "title_ms": "Jadual",
+      "chart_type": "TABLE",
+      "config": {
+        "precision": 0,
+        "filter_columns": [],
+        "freeze_columns": []
+      }
+    },
+    {
+      "dataviz_id": "abs",
+      "title_en": "Maternal Deaths",
+      "title_ms": "Kematian Ibu Bersalin",
+      "chart_type": "TIMESERIES",
+      "config": {
+        "filter_columns": [],
+        "precision": 0,
+        "operation": "SUM",
+        "format": {
+          "x": "date",
+          "y": [
+            "abs"
+          ]
+        }
+      }
+    },
+    {
+      "dataviz_id": "rate",
+      "title_en": "Maternal Mortality Rate",
+      "title_ms": "Kadar Mortaliti Ibu Bersalin",
+      "chart_type": "TIMESERIES",
+      "config": {
+        "filter_columns": [],
+        "precision": 1,
+        "operation": "SUM",
+        "format": {
+          "x": "date",
+          "y": [
+            "rate"
+          ]
+        }
+      }
+    }
+  ],
+  "translations_en": {
+    "y1": "Value",
+    "date": "Year",
+    "state": "State",
+    "abs": "Maternal Deaths",
+    "rate": "Maternal Mortality Rate"
+  },
+  "translations_ms": {
+    "y1": "Nilai",
+    "date": "Tahun",
+    "state": "Negeri",
+    "abs": "Kematian Ibu Bersalin",
+    "rate": "Kadar Mortaliti Ibu Bersalin"
+  },
+  "related_datasets": []
+}
