@@ -19,7 +19,7 @@
   "link_csv": "https://storage.dosm.gov.my/demography/death.csv",
   "frequency": "YEARLY",
   "geography": [
-    "NATIONAL"
+    "STATE"
   ],
   "demography": [],
   "dataset_begin": 2000,
