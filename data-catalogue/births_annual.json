@@ -15,8 +15,8 @@
   "caveat_ms": "Data ini dihasilkan berdasarkan kelahiran yang didaftarkan dengan JPN. Oleh itu, sekiranya kelahiran itu tidak didaftarkan dengan JPN (contohnya sekiranya rakyat asing hanya mendaftar kelahiran anaknya di negara asal, ataupun penduduk di kawasan yang sangat terpencil belum mendaftarkan anaknya) maka ia tidak terkandung dalam set data ini.",
   "publication_en": "There are two dashboards where you can explore this (and related) data more interactively:\n - data.gov.my features a dashboard on [Birthday Popularity](https://data.gov.my/dashboard/birthday-explorer)\n - OpenDOSM features a dashboard on [Population & Vital Statistics](https://open.dosm.gov.my/dashboard/population)",
   "publication_ms": "Terdapat dua papan pemuka yang membolehkan anda menerokai set data ini (bersekali dengan data lain) dengan lebih interaktif:\n - data.gov.my memaparkan papan pemuka tentang [Populariti Tarikh Lahir](https://data.gov.my/ms-MY/dashboard/birthday-explorer)\n - OpenDOSM memaparkan papan pemuka tentang [Penduduk & Perangkaan Penting](https://open.dosm.gov.my/ms-MY/dashboard/population)",
-  "link_parquet": "https://storage.data.gov.my/demography/birth.parquet",
-  "link_csv": "https://storage.data.gov.my/demography/birth.csv",
+  "link_parquet": "https://storage.dosm.gov.my/demography/birth.parquet",
+  "link_csv": "https://storage.dosm.gov.my/demography/birth.csv",
   "frequency": "DAILY",
   "geography": [
     "NATIONAL"
