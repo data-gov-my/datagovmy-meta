@@ -1,0 +1,135 @@
+{
+  "title_en": "Annual Stillbirths by State",
+  "title_ms": "Kelahiran Mati Tahunan mengikut Negeri",
+  "title_sort": 6,
+  "description_en": "Annual number of stillbirths by state.",
+  "description_ms": "Jumlah kelahiran mati tahunan mengikut negeri.",
+  "exclude_openapi": false,
+  "manual_trigger": "na",
+  "data_as_of": "2022",
+  "last_updated": "2023-10-17 12:00",
+  "next_update": "2024-10-17 12:00",
+  "methodology_en": "A stillbirth is a birth after 28 completed weeks or more of gestation without any sign of life during delivery. The data on stillbirths in Malaysia is tabulated based on information collected and reported by the Ministry of Health. The 'state' reported in this dataset is based on the place of usual residence of the mother, not the geographical location in which the baby was born. For example, a baby born in a hospital in Kedah to a family who resides in Perlis will be counted as a live birth for Perlis. For a deeper understanding of the methodology and associated definition, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/vitalstats-technotes).",
+  "methodology_ms": "Kelahiran mati adalah kelahiran selepas kehamilan 28 minggu atau lebih yang tiada tanda bernyawa semasa dilahirkan. Data mengenai kelahiran mati di Malaysia dihasilkan berdasarkan maklumat yang dikumpul dan dilaporan oleh Kementerian Kesihatan Malaysia. Medan 'negeri' yang dilaporkan dalam set data ini adalah berdasarkan tempat kediaman ibu dan bukannya lokasi geografi di mana bayi itu dilahirkan. Sebagai contoh, bayi yang dilahirkan di sebuah hospital di Kedah kepada ibu yang menetap di Perlis akan dikira sebagai kelahiran hidup bagi Perlis. Untuk memahami metodologi dengan lebih terperinci, sila rujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/vitalstats-technotes).",
+  "caveat_en": "\u2014",
+  "caveat_ms": "\u2014",
+  "publication_en": "OpenDOSM features a dashboard on [Population & Vital Statistics](https://open.dosm.gov.my/dashboard/population) where you can explore this data in a more interactive manner!",
+  "publication_ms": "OpenDOSM memaparkan papan pemuka tentang [Penduduk & Perangkaan Penting](https://open.dosm.gov.my/ms-MY/dashboard/population) yang membolehkan anda menerokai data ini dengan lebih interaktif!",
+  "link_parquet": "https://storage.dosm.gov.my/demography/stillbirth_state.parquet",
+  "link_csv": "https://storage.dosm.gov.my/demography/stillbirth_state.csv",
+  "frequency": "YEARLY",
+  "geography": [
+    "STATE"
+  ],
+  "demography": [],
+  "dataset_begin": 2000,
+  "dataset_end": 2022,
+  "data_source": [
+    "MoH","DOSM"
+  ],
+  "site_category": [
+    {
+      "site": "datagovmy",
+      "category_en": "Demography",
+      "category_ms": "Demografi",
+      "category_sort": 1,
+      "subcategory_en": "Births",
+      "subcategory_ms": "Kelahiran",
+      "subcategory_sort": 2
+    },
+    {
+      "site": "opendosm",
+      "category_en": "Demography",
+      "category_ms": "Demografi",
+      "category_sort": 1,
+      "subcategory_en": "Births",
+      "subcategory_ms": "Kelahiran",
+      "subcategory_sort": 2
+    }
+  ],
+  "fields": [
+		{
+			"name": "date",
+			"title_en": "Date",
+			"title_ms": "Tarikh",
+			"description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+			"description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+		},
+    {
+      "name": "abs",
+      "title_en": "Stillbirths",
+      "title_ms": "Kelahiran Mati",
+      "description_en": "[Integer] Number of stillbirths in that year",
+      "description_ms": "[Integer] Jumlah kelahiran mati dalam tahun tersebut"
+    },
+    {
+      "name": "rate",
+      "title_en": "Stillbirth Rate",
+      "title_ms": "Kadar Kelahiran Mati",
+      "description_en": "[Float] Number of stillbirths per 1000 births (both live and still)",
+      "description_ms": "[Integer] Jumlah kelahiran hidup bagi setiap 1000 kelahiran (termasuk hidup dan mati)"
+    }
+  ],
+  "dataviz": [
+    {
+      "dataviz_id": "table",
+      "title_en": "Table",
+      "title_ms": "Jadual",
+      "chart_type": "TABLE",
+      "config": {
+        "precision": 0,
+        "filter_columns": ["state"],
+        "freeze_columns": []
+      }
+    },
+    {
+      "dataviz_id": "abs",
+      "title_en": "Stillbirths",
+      "title_ms": "Kelahiran Mati",
+      "chart_type": "TIMESERIES",
+      "config": {
+        "filter_columns": ["state"],
+        "precision": 0,
+        "operation": "SUM",
+        "format": {
+          "x": "date",
+          "y": [
+            "abs"
+          ]
+        }
+      }
+    },
+    {
+      "dataviz_id": "rate",
+      "title_en": "Stillbirth Rate",
+      "title_ms": "Kadar Kelahiran Mati",
+      "chart_type": "TIMESERIES",
+      "config": {
+        "filter_columns": ["state"],
+        "precision": 0,
+        "operation": "SUM",
+        "format": {
+          "x": "date",
+          "y": [
+            "rate"
+          ]
+        }
+      }
+    }
+  ],
+  "translations_en": {
+    "y1": "Value",
+    "date": "Year",
+    "state": "State",
+    "abs": "Stillbirths",
+    "rate": "Stillbirth Rate"
+  },
+  "translations_ms": {
+    "y1": "Nilai",
+    "date": "Tahun",
+    "state": "Negeri",
+    "abs": "Kelahiran Mati",
+    "rate": "Kadar Kelahiran Mati"
+  },
+  "related_datasets": []
+}
