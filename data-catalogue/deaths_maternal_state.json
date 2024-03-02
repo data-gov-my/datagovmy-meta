@@ -85,7 +85,7 @@
       "chart_type": "TABLE",
       "config": {
         "precision": 0,
-        "filter_columns": [],
+        "filter_columns": ["state"],
         "freeze_columns": []
       }
     },
@@ -95,7 +95,7 @@
       "title_ms": "Kematian Ibu Bersalin",
       "chart_type": "TIMESERIES",
       "config": {
-        "filter_columns": [],
+        "filter_columns": ["state"],
         "precision": 0,
         "operation": "SUM",
         "format": {
@@ -112,7 +112,7 @@
       "title_ms": "Kadar Mortaliti Ibu Bersalin",
       "chart_type": "TIMESERIES",
       "config": {
-        "filter_columns": [],
+        "filter_columns": ["state"],
         "precision": 1,
         "operation": "SUM",
         "format": {
