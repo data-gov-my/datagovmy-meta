@@ -1,12 +1,12 @@
 {
     "dashboard_name": "reserves",
     "data_last_updated": "2024-02-29 15:00",
-    "data_next_update": "2024-03-29 15:00",
+    "data_next_update": "2024-03-31 15:00",
     "route": "/dashboard/reserve-money,/ms-MY/dashboard/reserve-money",
     "sites": [
         "datagovmy"
     ],
-    "manual_trigger": "2024-03-02 12:27:18.326542",
+    "manual_trigger": "2024-03-02 12:31:13.038374",
     "required_params": [],
     "optional_params": [],
     "charts": {

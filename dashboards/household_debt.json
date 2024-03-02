@@ -1,12 +1,12 @@
 {
     "dashboard_name": "household_debt",
     "data_last_updated": "2024-02-29 15:00",
-    "data_next_update": "2024-03-29 15:00",
+    "data_next_update": "2024-03-31 15:00",
     "route": "/dashboard/household-debt,/ms-MY/dashboard/household-debt",
     "sites": [
         "datagovmy"
     ],
-    "manual_trigger": "2024-03-02 12:27:47.577471",
+    "manual_trigger": "2024-03-02 12:32:53.754082",
     "required_params": [],
     "optional_params": [],
     "charts": {

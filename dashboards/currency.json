@@ -1,12 +1,12 @@
 {
     "dashboard_name": "currency",
     "data_last_updated": "2024-02-29 15:00",
-    "data_next_update": "2024-03-29 15:00",
+    "data_next_update": "2024-03-31 15:00",
     "route": "/dashboard/currency-in-circulation,/ms-MY/dashboard/currency-in-circulation",
     "sites": [
         "datagovmy"
     ],
-    "manual_trigger": "2024-03-02 12:27:26.499506",
+    "manual_trigger": "2024-03-02 12:32:40.498407",
     "required_params": [],
     "optional_params": [],
     "charts": {
