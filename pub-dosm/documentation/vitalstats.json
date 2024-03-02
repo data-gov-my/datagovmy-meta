@@ -1,0 +1,32 @@
+{
+	"publication": "vitalstats-technotes",
+	"documentation_type": "technical-note",
+	"publication_type": "vitalstats",
+	"release_date": "2023-10-17",
+	"en": {
+		"title": "Vital Statistics",
+		"publication_type_title": "Demography",
+		"description": "Annual births and deaths at national, state, and administrative district level, including birth, death, and fertility rates.",
+		"resources": [
+			{
+				"resource_id": 1,
+				"resource_type": "pdf",
+				"resource_name": "Technical Notes",
+				"resource_link": "https://storage.dosm.gov.my/technotes/vitalstats.pdf"
+			}
+		]
+	},
+	"bm": {
+		"title": "Perangkaan Penting",
+		"publication_type_title": "Demografi",
+		"description": "Kelahiran dan kematian tahunan di peringkat negara, negeri, dan daerah pentadbiran, termasuk kadar kelahiran, kematian, dan kesuburan.",
+		"resources": [
+			{
+				"resource_id": 1,
+				"resource_type": "pdf",
+				"resource_name": "Nota Teknikal",
+				"resource_link": "https://storage.dosm.gov.my/technotes/vitalstats.pdf"
+			}
+		]
+	}
+}
