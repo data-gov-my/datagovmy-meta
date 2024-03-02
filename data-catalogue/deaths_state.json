@@ -122,6 +122,21 @@
           ]
         }
       }
+    },
+    {
+      "dataviz_id": "deaths_state",
+      "title_en": "Deaths by State",
+      "title_ms": "Kematian mengikut Negeri",
+      "chart_type": "CHOROPLETH",
+      "config": {
+        "format": {
+          "x": "state",
+          "y": "abs"
+        },
+        "precision": 0,
+        "color": "reds",
+        "geojson": "state"
+      }
     }
   ],
   "translations_en": {
