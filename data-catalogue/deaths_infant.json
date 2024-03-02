@@ -66,7 +66,7 @@
       "name": "rate",
       "title_en": "Infant Mortality Rate",
       "title_ms": "Kadar Mortaliti Bayi",
-      "description_en": "[Float] Number of infant deaths per live 1000 births",
+      "description_en": "[Float] Number of infant deaths per 1000 live births",
       "description_ms": "[Integer] Jumlah kematian bayi bagi setiap 1000 kelahiran hidup"
     }
   ],
