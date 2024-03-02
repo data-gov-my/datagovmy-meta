@@ -106,7 +106,7 @@
       "chart_type": "TIMESERIES",
       "config": {
         "filter_columns": [],
-        "precision": 0,
+        "precision": 1,
         "operation": "SUM",
         "format": {
           "x": "date",
