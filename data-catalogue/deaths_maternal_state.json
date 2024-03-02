@@ -73,8 +73,8 @@
       "name": "rate",
       "title_en": "Maternal Mortality Rate",
       "title_ms": "Kadar Mortaliti Ibu Bersalin",
-      "description_en": "[Float] Number of maternal deaths per 1000 live births",
-      "description_ms": "[Integer] Jumlah kematian ibu bersalin bagi setiap 1000 kelahiran hidup"
+      "description_en": "[Float] Number of maternal deaths per 100,000 live births",
+      "description_ms": "[Integer] Jumlah kematian ibu bersalin bagi setiap 100,000 kelahiran hidup"
     }
   ],
   "dataviz": [
