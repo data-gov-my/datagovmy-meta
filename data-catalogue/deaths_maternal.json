@@ -5,7 +5,7 @@
   "description_en": "Annual number of deaths of women during pregnancy or childbirth.",
   "description_ms": "Jumlah tahunan kematian wanita semasa mengandung atau melahirkan anak.",
   "exclude_openapi": false,
-  "manual_trigger": "1",
+  "manual_trigger": "",
   "data_as_of": "2022",
   "last_updated": "2023-10-17 12:00",
   "next_update": "2024-10-17 12:00",
@@ -22,7 +22,7 @@
     "NATIONAL"
   ],
   "demography": [],
-  "dataset_begin": 2000,
+  "dataset_begin": 1933,
   "dataset_end": 2022,
   "data_source": [
     "JPN","DOSM"
