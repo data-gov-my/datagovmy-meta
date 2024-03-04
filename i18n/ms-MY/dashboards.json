@@ -3,7 +3,7 @@
   "sites": ["datagovmy", "opendosm"],
   "translation": {
     "header": "Papan Pemuka",
-    "description": "Terokailah analitik berpacukan data bagi segala kerja sektor awam, yang dijana berasaskan data terbuka di portal ini.",
+    "description": "HEY FARUQI! Terokailah analitik berpacukan data bagi segala kerja sektor awam, yang dijana berasaskan data terbuka di portal ini.",
     "description_agency": "Terokailah analitik berpacukan data bagi segala kerja hakiki {{ agency }}, yang dijana berasaskan data yang mereka sediakan secara terbuka di portal ini.",
     "source_placeholder": "Agensi",
     "search_placeholder": "Cari papan pemuka",
