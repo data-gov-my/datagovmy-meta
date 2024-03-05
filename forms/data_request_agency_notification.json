@@ -1,0 +1,19 @@
+{
+	"send_email": true,
+	"validate_fields": [
+		"ticket_id",
+		"dataset_title",
+		"dataset_description",
+		"purpose_of_request",
+		"agency"
+	],
+	"email_template": [
+		{
+			"name": "data_request_agency_notification",
+			"subject": "[{{agency}}] Permohonan set data untuk data.gov.my",
+			"content": "Tuan/Puan telah menerima permohonan set data daripada pengguna Portal Data Terbuka.\n\n  *  **ID. Tiket:** {{ ticket_id }}\n  *  **Tajuk:** {{ dataset_title }}\n  *  **Keterangan:** {{ dataset_description }}\n  *  **Tujuan:** {{ purpose_of_request }}\n  *  **Pembekal:** {{ agency }}\n\nMohon kerjasama Tuan/Puan untuk memberi maklum balas berkaitan permohonan set\ndata tersebut dalam tempoh **7 hari** bekerja.\n\nSekian, terima kasih.\n\n _Admin Portal Data Terbuka Malaysia_  \n _Jabatan Digital Negara, Kementerian Digital_",
+			"html_content": "<!DOCTYPE html><html><head><title>Permohonan Set Data</title></head><body><p>Tuan/Puan telah menerima permohonan set data daripada pengguna Portal Data Terbuka.</p><ul><li><strong>ID. Tiket:</strong> {{ ticket_id }}</li><li><strong>Tajuk:</strong> {{ dataset_title }}</li><li><strong>Keterangan:</strong> {{ dataset_description }}</li><li><strong>Tujuan:</strong> {{ purpose_of_request }}</li><li><strong>Pembekal:</strong> {{ agency }}</li></ul><p>Mohon kerjasama Tuan/Puan untuk memberi maklum balas berkaitan permohonan set data tersebut dalam tempoh <strong>7 hari</strong> bekerja.</p><p>Sekian, terima kasih.</p><p><em>Admin Portal Data Terbuka Malaysia</em><br /><em>Jabatan Digital Negara, Kementerian Digital</em></p></body></html>",
+			"language": "ms"
+		}
+	]
+}
