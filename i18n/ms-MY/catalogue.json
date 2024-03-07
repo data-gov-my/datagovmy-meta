@@ -99,8 +99,8 @@
 			"geojson_3": "# nyah komen di bawah untuk memadatkan peta dengan bentuk segi empat sama ('square')"
 		},
 		"sample_query": {
-			"section_title": "Contoh Pertanyaan OpenAPI",
-			"desc1": "Kod berikut adalah contoh bagaimana untuk membuat pertanyaan API untuk mengambil katalog data yang disebutkan di atas. Anda boleh menggunakan pelbagai bahasa pengaturcaraan dengan menukar kod mengikut keperluan. Untuk panduan lengkap mengenai parameter pertanyaan dan sintaksis yang mungkin, sila rujuk kepada ",
+			"section_title": "Contoh Query OpenAPI",
+				"desc1": "Kod berikut adalah contoh bagaimana untuk membuat query API untuk mendapatkan katalog data di atas. Anda boleh mana-mana bahasa pengaturcaraan dan menukar kod mengikut keperluan. Untuk panduan lengkap mengenai parameter pertanyaan dan sintaksis yang mungkin, sila rujuk kepada ",
 			"link1": "Dokumentasi Open API",
 			"desc2": "Selain itu, anda boleh bereksperimen dengan kod secara interaktif dan menghantar pertanyaan di bahagian ",
 			"link2": "Permintaan Contoh",
