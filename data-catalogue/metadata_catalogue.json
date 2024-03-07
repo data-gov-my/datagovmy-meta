@@ -15,7 +15,7 @@
     "caveat_ms": "-",
     "publication_en": "-",
     "publication_ms": "-",
-    "link_parquet": "https://storage.data.gov.my/metdata/catalogue.parquet",
+    "link_parquet": "https://storage.data.gov.my/metadata/catalogue.parquet",
     "link_csv": "https://storage.data.gov.my/metadata/catalogue.csv",
     "link_preview": "",
     "frequency": "DAILY",
