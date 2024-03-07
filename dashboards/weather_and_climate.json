@@ -1,15 +1,15 @@
 {
 	"dashboard_name": "weather_and_climate",
-	"data_last_updated": "2023-08-29 23:59",
+	"data_last_updated": "2023-06-30 12:00",
 	"route": "/dashboard/weather-and-climate,/ms-MY/dashboard/weather-and-climate",
 	"sites": ["datagovmy"],
-	"manual_trigger": "0",
+	"manual_trigger": "",
 	"required_params": ["station"],
 	"optional_params": [],
 	"charts": {
 		"query_values": {
 			"name": "query_values",
-			"data_as_of": "2023-08-29 23:59",
+			"data_as_of": "2022-12-31 23:59",
 			"chart_type": "query_values",
 			"chart_source": "https://storage.data.gov.my/dashboards/weather_station.parquet",
 			"api_type": "dynamic",
@@ -21,7 +21,7 @@
 		},
 		"timeseries": {
 			"name": "timeseries",
-			"data_as_of": "2023-08-29 23:59",
+			"data_as_of": "2022-12-31 23:59",
 			"chart_type": "timeseries_chart",
 			"chart_source": "https://storage.data.gov.my/dashboards/weather_station_timeseries.parquet",
 			"api_type": "dynamic",
@@ -36,7 +36,7 @@
 		},
 		"timeseries_callout": {
 			"name": "timeseries_callout",
-			"data_as_of": "2023-08-29 23:59",
+			"data_as_of": "2022-12-31 23:59",
 			"chart_type": "custom_chart",
 			"chart_source": "https://storage.data.gov.my/dashboards/weather_station_timeseries_callout.parquet",
 			"api_type": "dynamic",
