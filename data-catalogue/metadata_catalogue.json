@@ -1,65 +1,65 @@
 {
-  "title_en": "Metadata: Data Catalogue",
-  "title_ms": "Metadata: Katalog Data",
-  "title_sort": 1,
-  "description_en": "-",
-  "description_ms": "-",
-  "exclude_openapi": false,
-  "manual_trigger": "",
-  "data_as_of": "2023",
-  "last_updated": "2023-07-31 12:00",
-  "next_update": "2024-07-31 12:00",
-  "methodology_en": "-",
-  "methodology_ms": "-",
-  "caveat_en": "-",
-  "caveat_ms": "-",
-  "publication_en": "-",
-  "publication_ms": "-",
-  "link_parquet": "https://storage.data.gov.my/metdata/catalogue.parquet",
-  "link_csv": "https://storage.data.gov.my/metadata/catalogue.csv",
-  "link_preview": "",
-  "frequency": "DAILY",
-  "geography": [],
-  "demography": [],
-  "dataset_begin": 2024,
-  "dataset_end": 2024,
-  "data_source": [
-    "JDN"
-  ],
-  "site_category": [
-    {
-      "site": "datagovmy",
-      "category_en": "Metadata",
-      "category_ms": "Metadata",
-      "category_sort": 90,
-      "subcategory_en": "Site Content",
-      "subcategory_ms": "Kandungan Portal",
-      "subcategory_sort": 90
-    }
-  ],
-  "fields": [
-    {
-      "name": "title_en",
-      "title_en": "Title (English)",
-      "title_ms": "Tajuk (BI)",
-      "description_en": "[String] The title of the dataset, in English",
-      "description_ms": "[Rentetan] Tajuk set data dalam Bahasa Inggeris"
-    }
-  ],
-  "dataviz": [
-    {
-      "dataviz_id": "table",
-      "title_en": "Table",
-      "title_ms": "Jadual",
-      "chart_type": "TABLE",
-      "config": {
-        "precision": 1,
-        "filter_columns": [],
-        "freeze_columns": []
-      }
-    }
-  ],
-  "translations_en": {},
-  "translations_ms": {},
-  "related_datasets": []
+    "title_en": "Metadata: Data Catalogue",
+    "title_ms": "Metadata: Katalog Data",
+    "title_sort": 1,
+    "description_en": "-",
+    "description_ms": "-",
+    "exclude_openapi": false,
+    "manual_trigger": "2024-03-07 11:56:04.108711",
+    "data_as_of": "2024-03-06 23:59",
+    "last_updated": "2024-03-07 00:01",
+    "next_update": "2024-03-08 00:01",
+    "methodology_en": "-",
+    "methodology_ms": "-",
+    "caveat_en": "-",
+    "caveat_ms": "-",
+    "publication_en": "-",
+    "publication_ms": "-",
+    "link_parquet": "https://storage.data.gov.my/metdata/catalogue.parquet",
+    "link_csv": "https://storage.data.gov.my/metadata/catalogue.csv",
+    "link_preview": "",
+    "frequency": "DAILY",
+    "geography": [],
+    "demography": [],
+    "dataset_begin": 2024,
+    "dataset_end": 2024,
+    "data_source": [
+        "JDN"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Metadata",
+            "category_ms": "Metadata",
+            "category_sort": 90,
+            "subcategory_en": "Site Content",
+            "subcategory_ms": "Kandungan Portal",
+            "subcategory_sort": 90
+        }
+    ],
+    "fields": [
+        {
+            "name": "title_en",
+            "title_en": "Title (English)",
+            "title_ms": "Tajuk (BI)",
+            "description_en": "[String] The title of the dataset, in English",
+            "description_ms": "[Rentetan] Tajuk set data dalam Bahasa Inggeris"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 1,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {},
+    "translations_ms": {},
+    "related_datasets": []
 }
