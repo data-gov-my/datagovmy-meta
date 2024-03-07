@@ -5,15 +5,15 @@
 		{
 			"name": "community_product_rejected",
 			"subject": "Community Product Rejected for data.gov.my",
-			"content": "Dear {{name}},\n\nUnfortunately, we have decided not to feature your product at this time, because: {{reason}}\n\nIf you wish, you may incorporate the comments above and open a new submission!\n\nWarm regards,\ndata.gov.my data team",
-			"html_content": "<!DOCTYPE html><html lang=\"en\"><head><title>Community Product Rejected</title></head><body><p>Dear {{name}},</p><p>Unfortunately, we have decided not to feature your product at this time, because: {{reason}}</p><p>If you wish, you may incorporate the comments above and open a new submission!</p><p>Warm regards,<br />data.gov.my data team</p></body></html>",
+			"content": "Dear {{name}},\n\nUnfortunately, we have decided not to feature your product at this time, because: {{reason}}\n\nIf you wish, you may incorporate the comments above and open a new submission!\n\nWarm regards,\nPublic Sector Open Data Team",
+			"html_content": "<!DOCTYPE html><html lang=\"en\"><head><title>Community Product Rejected</title></head><body><p>Dear {{name}},</p><p>Unfortunately, we have decided not to feature your product at this time, because: {{reason}}</p><p>If you wish, you may incorporate the comments above and open a new submission!</p><p>Warm regards,<br />Public Sector Open Data Team</p></body></html>",
 			"language": "en"
 		},
 		{
 			"name": "community_product_rejected",
 			"subject": "Tolakan Produk Komuniti untuk data.gov.my",
-			"content": "Salam sejahtera {{name}},\n\nDimaklumkan bahawa produk anda tidak dapat dipaparkan di halaman Produk Komuniti buat masa ini kerana: {{ reason }}\n\nSila semak komen di atas sebelum anda membuat permohonan baharu.\n\nSekian, terima kasih.\nPasukan data data.gov.my",
-			"html_content": "<html><head><title>Tolakan Produk Komuniti</title></head><body><p>Salam sejahtera {{name}},</p><p>Dimaklumkan bahawa produk anda tidak dapat dipaparkan di halaman Produk Komuniti buat masa ini kerana: {{ reason }}</p><p>Sila semak komen di atas sebelum anda membuat permohonan baharu.</p><p>Sekian, terima kasih.<br/>Pasukan data data.gov.my</p></body></html>",
+			"content": "Salam sejahtera {{name}},\n\nDimaklumkan bahawa produk anda tidak dapat dipaparkan di halaman Produk Komuniti buat masa ini kerana: {{ reason }}\n\nSila semak komen di atas sebelum anda membuat permohonan baharu.\n\nSekian, terima kasih.\nPasukan Data Terbuka Sektor Awam",
+			"html_content": "<html><head><title>Tolakan Produk Komuniti</title></head><body><p>Salam sejahtera {{name}},</p><p>Dimaklumkan bahawa produk anda tidak dapat dipaparkan di halaman Produk Komuniti buat masa ini kerana: {{ reason }}</p><p>Sila semak komen di atas sebelum anda membuat permohonan baharu.</p><p>Sekian, terima kasih.<br/>Pasukan Data Terbuka Sektor Awam</p></body></html>",
 			"language": "ms"
 		}
 	]
