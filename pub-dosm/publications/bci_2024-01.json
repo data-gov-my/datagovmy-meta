@@ -17,7 +17,7 @@
                 "resource_id": 1,
                 "resource_type": "excel",
                 "resource_name": "Cost of Civil Engineering Works (Peninsular Msia): Jan 2024",
-                "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-01_civileng_peninsular.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-01_civileng_semenanjung.xlsx"
             },
             {
                 "resource_id": 2,
@@ -28,13 +28,13 @@
             {
                 "resource_id": 3,
                 "resource_type": "excel",
-                "resource_name": "Cost of Structural Works (Peninsular Msia): Jan 2024",
+                "resource_name": "Cost of Building & Structural Works (Peninsular Msia): Jan 2024",
                 "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-01_structure_semenanjung.xlsx"
             },
             {
                 "resource_id": 4,
                 "resource_type": "excel",
-                "resource_name": "Cost of Structural Works (Sabah & Sarawak): Jan 2024",
+                "resource_name": "Cost of Building & Structural Works (Sabah & Sarawak): Jan 2024",
                 "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-01_structure_ss.xlsx"
             },
             {
@@ -47,7 +47,7 @@
                 "resource_id": 6,
                 "resource_type": "pdf",
                 "resource_name": "Cost of Civil Engineering Works (Peninsular Msia): Jan 2024",
-                "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-01_civileng_peninsular.pdf"
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-01_civileng_semenanjung.pdf"
             },
             {
                 "resource_id": 7,
@@ -58,13 +58,13 @@
             {
                 "resource_id": 8,
                 "resource_type": "pdf",
-                "resource_name": "Cost of Structural Works (Peninsular Msia): Jan 2024",
+                "resource_name": "Cost of Building & Structural Works (Peninsular Msia): Jan 2024",
                 "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-01_structure_semenanjung.pdf"
             },
             {
                 "resource_id": 9,
                 "resource_type": "pdf",
-                "resource_name": "Cost of Structural Works (Sabah & Sarawak): Jan 2024",
+                "resource_name": "Cost of Building & Structural Works (Sabah & Sarawak): Jan 2024",
                 "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-01_structure_ss.pdf"
             },
             {
@@ -84,7 +84,7 @@
                 "resource_id": 1,
                 "resource_type": "excel",
                 "resource_name": "Harga Kerja Kejuruteraan Sivil (Semenanjung Msia): Jan 2024",
-                "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-01_civileng_peninsular.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-01_civileng_semenanjung.xlsx"
             },
             {
                 "resource_id": 2,
@@ -95,13 +95,13 @@
             {
                 "resource_id": 3,
                 "resource_type": "excel",
-                "resource_name": "Harga Kerja Struktur (Semenanjung Msia): Jan 2024",
+                "resource_name": "Harga Kerja Bangunan & Struktur (Semenanjung Msia): Jan 2024",
                 "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-01_structure_semenanjung.xlsx"
             },
             {
                 "resource_id": 4,
                 "resource_type": "excel",
-                "resource_name": "Harga Kerja Struktur (Sabah & Sarawak): Jan 2024",
+                "resource_name": "Harga Kerja Bangunan & Struktur (Sabah & Sarawak): Jan 2024",
                 "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-01_structure_ss.xlsx"
             },
             {
@@ -114,7 +114,7 @@
                 "resource_id": 6,
                 "resource_type": "pdf",
                 "resource_name": "Harga Kerja Kejuruteraan Sivil (Semenanjung Msia): Jan 2024",
-                "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-01_civileng_peninsular.pdf"
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-01_civileng_semenanjung.pdf"
             },
             {
                 "resource_id": 7,
@@ -125,13 +125,13 @@
             {
                 "resource_id": 8,
                 "resource_type": "pdf",
-                "resource_name": "Harga Kerja Struktur (Semenanjung Msia): Jan 2024",
+                "resource_name": "Harga Kerja Bangunan & Struktur (Semenanjung Msia): Jan 2024",
                 "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-01_structure_semenanjung.pdf"
             },
             {
                 "resource_id": 9,
                 "resource_type": "pdf",
-                "resource_name": "Harga Kerja Struktur (Sabah & Sarawak): Jan 2024",
+                "resource_name": "Harga Kerja Bangunan & Struktur (Sabah & Sarawak): Jan 2024",
                 "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-01_structure_ss.pdf"
             },
             {
