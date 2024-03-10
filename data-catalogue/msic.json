@@ -1,6 +1,7 @@
 {
   "title_en": "MSIC",
   "title_ms": "MSIC",
+  "title_sort": 1,
   "description_en": "This table provides a complete lookup for the MSIC (Malaysian Standard Industrial Classification) 2008, as applied and used in data publications in Malaysia. The MSIC is primarily used by the Department of Statistics Malaysia (DOSM), for the purpose of categorising economic data, such as during the production of GDP data.",
   "description_ms": "Jadual ini memberi rujukan lengkap bagi MSIC (Piawaian Klasifikasi Industri Malaysia) 2008, seperti yang digunapakai dalam penerbitan data di Malaysia. MCOICOP digunakan terutamanya oleh Jabatan Perangkaan Malaysia (DOSM) bagi tujuan pengkelasan data ekonomi, misalnya dalam penghasilan data KDNK.",
   "exclude_openapi": false,

@@ -1,21 +1,22 @@
 {
     "title_en": "SITC: Stage of Processing",
     "title_ms": "SITC: Tahap Pemprosesan",
-    "description_en": "This table provides a partial lookup for codes under the Standard International Trade Classification (SITC) Revision 4, as applied and used by publications in Malaysia. The SITC is primarily used by the Department of Statistics Malaysia (DOSM), for instance when categorising and analysing external trade and commodity data.",
-    "description_ms": "Jadual ini memberi rujukan separuh lengkap bagi kod yang terkandung dalamn Piawai Penjenisan Perdagangan Antarabangsa (SITC) Pindaan 4, seperti yang digunapakai dalam penerbitan data di Malaysia. SITC digunakan terutamanya oleh Jabatan Perangkaan Malaysia (DOSM), misalnya dalam mengkategorikan dan menganalisa data perdagangan luar dan komoditi.",
+    "title_sort": 4,
+    "description_en": "This table provides a complete lookup for the classification of stage of processing, as applied and used by publications in Malaysia, primarily by DOSM.",
+    "description_ms": "Jadual ini memberi rujukan lengkap bagi pengkelasan tahap pemprosesan, seperti yang digunapakai dalam penerbitan data di Malaysia, terutamanuya oleh DOSM.",
     "exclude_openapi": false,
     "manual_trigger": "2024-01-30 06:48:37.959519",
     "data_as_of": "2006",
     "last_updated": "2024-03-09",
     "next_update": "-",
-    "methodology_en": "The SITC used in Malaysia is based on the [SITC published by the United Nations Statistics Division](https://unstats.un.org/unsd/trade/sitcrev4.htm), which is used as a global reference in the classification of international merchandise trade.",
-    "methodology_ms": "SITC yang digunapakai di Malaysia adalah berdasarkan [SITC yang diterbitkan oleh Bahagian Statistik Pertubuhan Bangsa-bangsa Bersatu](https://unstats.un.org/unsd/trade/sitcrev4.htm), yang diguna sebagai rujukan dalam perdagangan barangan antarabangsa.",
-    "caveat_en": "This lookup only contains 1-digit codes for now. Its granularity will be increased from time to time, in line with the expansion of datasets on the site.",
-    "caveat_ms": "Jadual carian ini hanya mengandungi kod 1 digit buat masa sekarang. Ini akan diperhalusi dari semasa ke semasa sejajar dengan perkembangan data di portal ini.",
-    "publication_en": "—",
-    "publication_ms": "—",
-    "link_parquet": "https://storage.dosm.gov.my/dictionaries/sitc.parquet",
-    "link_csv": "https://storage.dosm.gov.my/dictionaries/sitc.csv",
+    "methodology_en": "The classification of stage of processing is consistent with the [Standard International Trade Classification (SITC) Revision 4](https://unstats.un.org/unsd/trade/sitcrev4.htm) published by the United Nations Statistics Division, which is used as a global reference in the classification of international merchandise trade.",
+    "methodology_ms": "Pengkelasan tahap pemprosesan ini menepati [Piawai Penjenisan Perdagangan Antarabangsa (SITC) Pindaan 4](https://unstats.un.org/unsd/trade/sitcrev4.htm) yang diterbitkan oleh Bahagian Statistik Pertubuhan Bangsa-bangsa Bersatu, yang diguna sebagai rujukan dalam perdagangan barangan antarabangsa.",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/dictionaries/sitc_sop.parquet",
+    "link_csv": "https://storage.dosm.gov.my/dictionaries/sitc_sop.csv",
     "frequency": "INFREQUENT",
     "geography": [
         "NATIONAL"
@@ -51,11 +52,11 @@
             "description_ms": "[Integer] Bilangan digit; lajur ini boleh digunakan sebagai penapis contohnya untuk menyimpan data 1 digit sahaja"
         },
         {
-            "name": "section",
-            "title_en": "Section",
-            "title_ms": "Seksyen",
-            "description_en": "[String] 1-digit code; please ensure that you read this column as a string.",
-            "description_ms": "[Rentetan] Kod 1 digit; sila pastikan anda membaca lajur ini sebagai rentetan."
+            "name": "code",
+            "title_en": "Code",
+            "title_ms": "Kod",
+            "description_en": "[String] 1-4 digit codes; please ensure that you read this column as a string.",
+            "description_ms": "[Rentetan] Kod 1 hingga 4 digit; sila pastikan anda membaca lajur ini sebagai rentetan."
         },
         {
             "name": "desc_en",
@@ -87,6 +88,7 @@
     ],
     "translations_en": {
         "digits": "Digits",
+        "code": "Code",
         "section": "Section",
         "division": "Division",
         "group": "Group",
@@ -96,6 +98,7 @@
     },
     "translations_ms": {
         "digits": "Digit",
+        "code": "Kod",
         "section": "Seksyen",
         "division": "Bahagian",
         "group": "Kumpulan",
