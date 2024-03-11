@@ -1,0 +1,38 @@
+{
+    "publication": "flood_impact_2021",
+    "publication_type": "special",
+    "release_date": "2022-01-28",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE",
+        "DISTRICT"
+    ],
+    "demography": [],
+    "en": {
+        "title": "Impact of Floods: 2021",
+        "publication_type_title": "Special Report",
+        "description": "Impact of floods, covering the value of losses due to floods experienced by households and the economy in general.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Impact of Floods: 2021",
+                "resource_link": "https://storage.dosm.gov.my/special/flood_impact_2021.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "Impak Banjir: 2021",
+        "publication_type_title": "Laporan Khas",
+        "description": "Impak banjir, merangkumi nilai kerugian disebabkan banjir yang dialami oleh isi rumah dan ekonomi secara am.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Impak Banjir: 2021",
+                "resource_link": "https://storage.dosm.gov.my/special/flood_impact_2021.pdf"
+            }
+        ]
+    }
+}
