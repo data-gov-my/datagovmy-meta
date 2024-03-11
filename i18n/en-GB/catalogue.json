@@ -101,11 +101,11 @@
 		"sample_query": {
 			"section_title": "Sample OpenAPI query",
 			"desc1": "The following code is an example of how to make an API query to retrieve the data catalogue mentioned above. You can use different programming languages by switching the code accordingly. For a complete guide on possible query parameters and syntax, please refer to the ",
-			"link1": "official Open API documentation",
+			"link1": "official Open API Documentation",
 			"desc2": "Additionally, you can experiment with the code interactively and send requests at the ",
 			"link2": "Example Requests section",
 			"unavailable": "This data catalog is not available through OpenAPI as the nature of the data makes it unsuitable for API access. For the full dataset, please use the provided download link as shown in the above section."
 		},
-		"license_text": "This data is made open under the Creative Commons Attribution 4.0 International License (CC BY 4.0). A human-readable copy of the license is available "
+		"license_text": "This data is made open under the Creative Commons Attribution 4.0 International License (CC BY 4.0). A copy of the license is available "
 	}
 }
