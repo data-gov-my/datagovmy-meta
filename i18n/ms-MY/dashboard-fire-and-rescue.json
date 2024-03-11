@@ -5,7 +5,7 @@
     ],
     "translation": {
         "header": "Bomba dan Penyelamat",
-        "description": "<i>Semarak julangan api yang hangat membara,\nBegitulah semangat juang kami yang berkobar-kobar,\nDemi selamatkan nyawa, harta benda, dan alam sekitar,\nKami sentiasa siap sedia, setiap masa.</i>\n- diadaptasikan daripada 'Janji Wira Merah' oleh Mohd Nazrullah bin Abdul Aziz\n\nPapan pemuka ini memaparkan data tentang operasi dan penyelamat di Malaysia untuk meningkatkan kesedaran awam tentang perkhidmatan bomba. Demi memastikan keselamatan orang awam, anggota bomba negara sanggup mempertaruhkan nyawa.",
+        "description": "<i>Semarak julangan api yang hangat membara,\nBegitulah semangat juang kami yang berkobar-kobar,\nDemi selamatkan nyawa, harta benda, dan alam sekitar,\nKami sentiasa siap sedia, setiap masa.</i>\n- diadaptasikan daripada 'Janji Wira Merah' oleh Mohd Nazrullah bin Abdul Aziz\n\nPapan pemuka ini memaparkan data tentang operasi dan penyelamat di Malaysia untuk meningkatkan kesedaran awam tentang perkhidmatan bomba. Demi memastikan keselamatan orang awam dan negara, anggota bomba sanggup mempertaruhkan nyawa.",
         "operation_header": "Bagaimanakan trend terkini operasi bomba?",
         "timeseries_title": "{{ state }}: Respon Harian bagi Jabatan Bomba dan Penyelamat",
         "timeseries_title_monthly": "{{ state }}: Respon Bulanan bagi Jabatan Bomba dan Penyelamat",
