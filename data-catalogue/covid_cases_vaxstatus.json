@@ -1,7 +1,7 @@
 {
     "title_en": "Daily COVID-19 Cases by Vaccination Status & State",
     "title_ms": "Kes COVID-19 Harian mengikut Status Vaksinasi & Negeri",
-    "description_en": "Daily COVID-19 cases at national and state level, broken down by vaccination status.",
+    "description_en": "Daily COVID-19 cases at national and state level, break down by vaccination status.",
     "description_ms": "Kes COVID-19 harian di peringkat kebangsaan dan negeri, dengan pecahan mengikut status vaksinasi.",
     "exclude_openapi": false,
     "manual_trigger": "2024-03-10 14:42:22.414589",
