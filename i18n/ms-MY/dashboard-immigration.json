@@ -3,7 +3,7 @@
   "sites": ["datagovmy"],
   "translation": {
     "header": "Imigresen",
-    "description": "Selain daripada kelahiran dan kematian, migrasi merupakan penyumbang utama kepada perubahan demografi, terutamanya bagi sebuah negara dengan lokasi strategik seperti Malaysia. Dengan menggunakan data terperinci dari Jabatan Imigresen, papan pemuka ini memberi gambaran tentang tentang data dari sempadan negara kita. Berapa ramai orang luar yang datang ke Malaysia setiap tahun? Dari negara mana mereka datang? Adakah terdapat musim yang mencapai cepumas bagi sektor pelancongan? Teroikai dan tahu!",
+    "description": "Selain daripada kelahiran dan kematian, migrasi merupakan penyumbang utama kepada perubahan demografi, terutamanya bagi sebuah negara dengan lokasi strategik seperti Malaysia. Dengan menggunakan data terperinci dari Jabatan Imigresen, papan pemuka ini memberi gambaran tentang data dari sempadan negara kita. Berapakah jumlah warga asing  yang datang ke Malaysia setiap tahun? Dari negara manakah mereka berasal? Adakah terdapat trend  yang menunjukkan kadar peningkatan ketara kemasukan warga asing bagi sektor pelancongan? Terokainya sekarang!",
     "section_1": {
       "title": "Berapakah jumlah kemasukan warga {{ country }} ke Malaysia?",
       "title_ALL": "Berapakah jumlah kemasukan warga asing ke Malaysia?",
