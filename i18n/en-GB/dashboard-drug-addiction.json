@@ -11,7 +11,7 @@
             "description": "The National Anti-Drugs Agency (NADA) is the lead agency under the purview of the Ministry of Home Affairs in combating drugs and substance abuse in Malaysia. The data below is collected via the various treatment and rehabilitation centres run by NADA."
         },
         "section_2": {
-            "title": "Drug addiction in {{ state }} by"
+            "title": "Drug addiction in {{ state }} by Category"
         },
         "age": "Drug Addicts by Age",
         "job": "Drug Addicts by Employment Status",
