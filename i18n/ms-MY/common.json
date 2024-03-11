@@ -155,15 +155,15 @@
       "trade": "Perdagangan"
     },
     "home": {
-      "category": "Portal data terbuka rasmi Malaysia",
+      "category": "Portal rasmi data terbuka Malaysia",
       "title": "Terkini. Terperinci. Terbukti.",
-      "description": "Portal ini adalah rumah bagi segala data terbuka sektor awam Malaysia. Sama ada anda rakyat marhaen yang menginginkan maklumat, ataupun penyelidik yang mencari sumber, ataupun pembangun aplikasi yang memerlukan API, anda boleh mendapatinya di sini. Misi kami adalah untuk menjadikan Malaysia negara berpacukan data yang terhebat di dunia.",
+      "description": "Portal ini adalah gerbang data terbuka sektor awam Malaysia. Sama ada anda rakyat marhaen yang menginginkan maklumat, penyelidik yang mencari sumber ataupun pembangun aplikasi yang memerlukan API, anda boleh mendapatkannya di sini. Misi kami adalah untuk menjadikan Malaysia negara berpacukan data yang terhebat di dunia.",
       "section_1": {
-        "title": "Terokailah papan pemuka paling popular!",
-        "description": "Papan pemuka inilah yang paling menular, tetapi jangan lupa untuk lihat koleksi penuh papan pemuka kami!"
+        "title": "Terokailah papan pemuka paling hangat!",
+        "description": "Papan pemuka ini adalah yang paling menarik, tetapi jangan lupa untuk lihat koleksi penuh papan pemuka kami!"
       },
       "section_2": {
-        "title": "Lihat dataset paling hangat!",
+        "title": "Lihat set data paling popular!",
         "description": "Untuk carian yang khusus, gunalah katalog data kami yang membolehkan anda memuat turun atau mengakses set data melalui API dan kod.",
         "today": "Hari ini",
         "past_24h": "24 jam",
