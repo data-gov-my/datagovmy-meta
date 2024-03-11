@@ -83,7 +83,7 @@
         {
             "name": "desc_bm",
             "title_en": "Description (BM)",
-            "title_ms": "Keterangan (EN)",
+            "title_ms": "Keterangan (BM)",
             "description_en": "[String] Description for the code, in Malay",
             "description_ms": "[Rentetan] Keterangan kod dalam Bahasa Melayu"
         }

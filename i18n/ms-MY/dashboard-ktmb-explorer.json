@@ -4,9 +4,9 @@
         "datagovmy"
     ],
     "translation": {
-        "header": "Peneroka KTMB",
-        "description": "Keretapi Tanah Melayu Berhad (KTMB) adalah pengendali perkhidmatan rel yang paling lama beroperasi di Malaysia. Hari ini, mereka mengendalikan perkhidmatan seperti KTM ETS dan KTM Intercity yang memudahkan orang untuk ke sana dan ke sini. Papan pemuka ini menggunakan data daripada Sistem Tiket Bersepadu KTM (KITS) untuk membekalkan data terperinci tentang penggunan perkhidmatan yang dikendalikan oleh Prasarana.",
-        "title": "Terokailah data penumpang antara mana-mana stesen yang dikendali oleh KTMB!",
+        "header": "Terokai KTMB",
+        "description": "Keretapi Tanah Melayu Berhad (KTMB) adalah pengendali perkhidmatan rel yang paling lama beroperasi di Malaysia. Hari ini, KTMB mengendalikan perkhidmatan seperti KTM ETS dan KTM Intercity yang memudahkan pergerakan orang awam ke seluruh negara. Papan pemuka ini menggunakan data daripada Sistem Tiket Bersepadu KTM (KITS) untuk membekalkan data terperinci tentang penggunaan perkhidmatan KTMB.",
+        "title": "Terokailah data penumpang antara mana-mana stesen yang dikendalikan oleh KTMB!",
         "filters": "Penapis",
         "origin": "Asal",
         "destination": "Destinasi",
