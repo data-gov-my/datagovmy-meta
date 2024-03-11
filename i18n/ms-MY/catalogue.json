@@ -91,7 +91,7 @@
 		"meta_url": "URL ke dataset",
 		"meta_license": "Lesen",
 		"code": "Kod",
-		"code_desc": "Terokailah data secara langsung dengan menggunakan Python.",
+		"code_desc": "Sambungan secara langsung kepada data dengan menggunakan Python.",
 		"code_note": "Jika belum lagi dipasang, sila",
 		"code_comments": {
 			"geojson_1": "# URL pertama memberi koordinat dengan 15tp (ketepatan setinggi yang mungkin) \n# URL dengan _LIGHT memberi koordinat dengan 5tp, iaitu mencukupi untuk carta tetapi bukan untuk analisis \n# URL dengan _LIGHT adalah 90% lebih kecil saiznya",
@@ -99,8 +99,8 @@
 			"geojson_3": "# nyah komen di bawah untuk memadatkan peta dengan bentuk segi empat sama ('square')"
 		},
 		"sample_query": {
-			"section_title": "Contoh Pertanyaan OpenAPI",
-			"desc1": "Kod berikut adalah contoh bagaimana untuk membuat pertanyaan API untuk mengambil katalog data yang disebutkan di atas. Anda boleh menggunakan pelbagai bahasa pengaturcaraan dengan menukar kod mengikut keperluan. Untuk panduan lengkap mengenai parameter pertanyaan dan sintaksis yang mungkin, sila rujuk kepada ",
+			"section_title": "Contoh Query OpenAPI",
+			"desc1": "Kod berikut adalah contoh bagaimana untuk membuat query API untuk mengambil katalog data yang disebutkan di atas. Anda boleh menggunakan pelbagai bahasa pengaturcaraan dengan menukar kod mengikut keperluan. Untuk panduan lengkap mengenai parameter query dan sintaks yang mungkin, sila rujuk kepada ",
 			"link1": "Dokumentasi Open API",
 			"desc2": "Selain itu, anda boleh bereksperimen dengan kod secara interaktif dan menghantar pertanyaan di bahagian ",
 			"link2": "Permintaan Contoh",
