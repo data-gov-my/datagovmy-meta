@@ -159,13 +159,13 @@
     "home": {
       "category": "Malaysia's official open data portal",
       "title": "High frequency. High granularity. High impact.",
-      "description": "Your one-stop centre to browse Malaysia's wealth of open data. Whether you're a regular citizen looking for information, a researcher looking for material, or an app developer looking for an API, we've got you covered. Our mission is to make Malaysia the #1 data-driven country in the world.",
+      "description": "Your one-stop centre to browse Malaysia's wealth of open data. Whether you're a regular citizen looking for information, a researcher looking for material, or an application developer looking for an API, we've got you covered. Our mission is to make Malaysia the #1 data-driven country in the world.",
       "section_1": {
-        "title": "Explore our hottest dashboards",
+        "title": "Explore our hottest dashboards!",
         "description": "These dashboards have been getting attention, but don't forget to check out our full collection of dashboards!"
       },
       "section_2": {
-        "title": "Study our most popular datasets",
+        "title": "Study our most popular datasets!",
         "description": "To search for something specific, use our data catalogue - it allows you to download or programmatically access our datasets.",
         "past_24h": "24 hours",
         "past_month": "1 month",
