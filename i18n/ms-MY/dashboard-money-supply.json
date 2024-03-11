@@ -5,17 +5,17 @@
     ],
     "translation": {
         "header": "Penawaran Wang",
-        "description": "Papan pemuka ini merupakan sebuah gambaran menyeluruh terhadap mata wang dalam edaran di Malaysia yang terdiri daripada lebih RM150 bilion nilai mata wang dan duit syiling dalam edaran dalam ekonomi Malaysia, membolehkan pengguna meneliti komposisi dan pertumbuhan mata wang dalam edaran berdasarkan data dari Sorotan dan Perangkaan Bulanan (MHS) terbitan Bank Negara Malaysia. Untuk makluman, mata wang dalam edaran mengambil kira mata wang yang dikira wang sah sahaja. Contohnya, duit syiling RM1 yang sudah dihentikan pengedarannya tidak termasuk dalam data dan papan pemuka ini.",
+        "description": "Terdapat lebih RM150 bilion nilai syiling dan mata wang dalam edaran ekonomi Malaysia. Papan pemuka ini, dibina berdasarkan Sorotan dan Statistik Bulanan (MHS) terbitan Bank Negara Malaysia yang memberi gambaran menyeluruh yang, membolehkan pengguna meneliti komposisi dan pertumbuhan mata wang dalam edaran. Mata wang dalam edaran hanya mengambil kira mata wang yang sah sahaja. Sebagai contoh, duit syiling RM1 yang sudah dihentikan pengedarannya tidak termasuk dalam data dan papan pemuka ini.",
         "section_1": {
-            "title": "Apakah kaedah mengukur kadar penawaran wang di Malaysia?",
-            "description": "Terdapat pelbagai kaedah untuk mengukur penawaran wang. Papan pemuka ini memaparkan 3 jenis kayu ukur - M1, M2 dan M3.\n\nM1 ialah 'separuh wang' ('narrow money') ataupun aset yang paling cair.\nM2 terdiri daripada M1 dan 'separuh wang secara kecil' ('narrow quasi-money').\nM3 terdiri daripada M2 dan 'wang luas' ('broad money').\n\nJadual di bawah merumuskan definisi kayu ukur tersebut:",
+            "title": "Apakah kaedah pengukuran kadar penawaran wang di Malaysia?",
+            "description": "Terdapat pelbagai kaedah pengukuran bagi penawaran wang. Papan pemuka ini memaparkan 3 jenis kayu ukur iaitu M1, M2 dan M3.\n\nM1 ialah wang secara kecil ataupun aset yang paling cair.\nM2 terdiri daripada M1 dan separuh wang secara kecil.\nM3 terdiri daripada M2 dan wang secara luas.\n\nJadual di bawah merumuskan definisi kayu ukur tersebut:",
             "component_col_name": "Komponen",
             "m1_col_name": "% Wang M1",
             "m2_col_name": "% Wang M2",
             "m3_col_name": "% Wang M3"
         },
         "section_2": {
-            "title": "Apakah tren penawaran wang?"
+            "title": "Apakah trend penawaran wang?"
         },
         "section_3": {
             "title": "Butiran M1 (wang sempit)"
