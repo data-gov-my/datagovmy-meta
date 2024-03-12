@@ -5,12 +5,12 @@
     ],
     "translation": {
         "header": "Populariti Kereta",
-        "description": "Di Malaysia, kenderaan perlu didaftarkan dengan Jabatan Pengangkutan Jalan (JPJ) sebelum boleh digunakan secara sah. Oleh itu, JPJ perlu menyimpan data mengenai setiap kenderaan yang digunakan di Malaysia. Papan pemuka ini menggunakan data tersebut untuk memaparkan populariti jenama dan model kereta. Sama ada anda seorang penggemar kereta ataupun bakal memiliki kereta pertama, kami berharap papan pemuka ini menjadi sumber yang berharga untuk anda!",
-        "table_title": "Jenama dan siri kereta paling hangat pada",
+        "description": "Di Malaysia, kenderaan perlu didaftarkan di Jabatan Pengangkutan Jalan (JPJ) sebelum boleh digunakan secara sah. Oleh itu, JPJ perlu menyimpan data mengenai setiap kenderaan yang digunakan di Malaysia. Papan pemuka ini menggunakan data tersebut untuk memaparkan populariti jenama dan model kereta. Sama ada anda seorang penggemar kereta ataupun bakal memiliki kereta pertama, kami berharap papan pemuka ini menjadi sumber yang berharga untuk anda!",
+        "table_title": "Jenama dan siri kereta paling laris pada",
         "column_model": "Model Kereta",
         "column_vehicles": "Jumlah kereta yang didaftarkan",
         "column_maker": "Jenama kereta",
-        "section_title": "Berapa popular kereta anda?",
+        "section_title": "Adakah kereta anda popular?",
         "label_maker": "Jenama Kereta",
         "label_model": "Model Kereta",
         "label_colour": "Warna",
@@ -28,13 +28,13 @@
         "past_5yrs": "5 Tahun Terkini",
         "since_2000": "Sejak 2000",
         "alltime": "Keseluruhan",
-        "registration_trend": "Bagaimanakan tren pendaftaran kenderaan?",
+        "registration_trend": "Bagaimanakah trend pendaftaran kenderaan?",
         "registration_disclaimer": "Nota: Data ini menunjukkan pendaftaran kenderaan, bukannya jumlah kenderaan yang mempunyai lesen aktif",
         "bus": "Bas",
-        "car": "Kereta (Termasuk MPV, Jeep dan Trak)",
+        "car": "Kereta (Termasuk MPV, Jip dan Trak)",
         "lorry": "Lori",
         "motorcycle": "Motosikal",
-        "other": "Kenderaan Lain (Traktor, Treler, dll)",
+        "other": "Kenderaan Lain (Traktor, Treler, dan lain-lain)",
         "van": "Van"
     }
 }
