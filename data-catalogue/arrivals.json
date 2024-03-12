@@ -1,8 +1,8 @@
 {
-  "title_en": "Monthly Arrivals by Nationality & Gender",
+  "title_en": "Monthly Arrivals by Nationality & Sex",
   "title_ms": "Kemasukan Bulanan mengikut Kewarganegaraan & Jantina",
   "title_sort": 1,
-  "description_en": "Monthly foreign arrivals in Malaysia by nationality and gender.",
+  "description_en": "Monthly foreign arrivals in Malaysia by nationality and sex.",
   "description_ms": "Kemasukan warga asing secara bulanan ke Malaysia mengikut kewarganegaraan dan jantina.",
   "exclude_openapi": false,
   "manual_trigger": "na",
