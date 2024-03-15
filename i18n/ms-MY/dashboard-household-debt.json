@@ -5,10 +5,10 @@
     ],
     "translation": {
         "header": "Hutang Isi Rumah",
-        "description": "Hutang isi rumah Malaysia adalah antara yang tertinggi di rantau ASEAN. Dalam situasi ini, Bank Negara Malaysia (BNM) memelihara kestabilan kewangan dengan memantau dan mengawal aktiviti pinjaman bagi semua institusi kewangan di Malaysia, antara lain lagi. Menggunakan data terkumpul dari Sistem Maklumat Rujukan Kredit Pusat (CCRIS) Bank Negara Malaysia, papan pemuka ini memaparkan tren utama berkaitan hutang isi rumah. Buat masa ini, ia menunjukkan aktiviti pinjaman bulanan secara am, mengikut tujuan pinjaman. Dalam tempoh masa yang terdekat, ia akan diperkukuhkan dengan data yang lebih terperinci yang menunjukkan keterhutangan rakyat Malaysia.",
+        "description": "Hutang isi rumah Malaysia adalah antara yang tertinggi di rantau ASEAN. Dalam situasi ini, Bank Negara Malaysia (BNM) memelihara kestabilan kewangan dengan memantau dan mengawal aktiviti pinjaman bagi semua institusi kewangan di Malaysia. Papan pemuka ini menggunakan data dari Sistem Maklumat Rujukan Kredit Pusat (CCRIS) bagi memaparkan trend utama berkaitan hutang isi rumah. Buat masa ini, ia menunjukkan aktiviti pinjaman bulanan secara am mengikut tujuan pinjaman.",
         "section_1": {
             "title": "Peminjaman mengikut tujuan",
-            "description": "Nilai pinjaman yang dikeluarkan adalah indikator yang menggambarkan pinjaman sebenar, kerana sesuatu permohonan pinjaman mungkin tidak diluluskan jika ia terlalu berisiko. Namun, data mengenai permohonan dan kelulusan pinjaman tetap memberikan gambaran tentang permintaan untuk pinjaman, serta operasi institusi kewangan."
+            "description": "Nilai pinjaman yang dikeluarkan adalah indikator yang menggambarkan pinjaman sebenar kerana sesuatu permohonan pinjaman mungkin tidak diluluskan jika pinjaman tersebut berisiko. Namun, data mengenai permohonan dan kelulusan pinjaman tetap memberikan gambaran tentang permintaan untuk pinjaman, serta prosedur operasi institusi kewangan."
         },
         "keys": {
             "applied": "Pinjaman Dimohon",
