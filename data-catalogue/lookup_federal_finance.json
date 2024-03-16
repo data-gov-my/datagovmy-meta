@@ -29,12 +29,13 @@
   ],
   "site_category": [
     {
-      "site": "datagovmy",
-      "category_en": "Public Administration",
-      "category_ms": "Pentadbiran Awam",
-      "category_sort": 80,
-      "subcategory_en": "Public Finance",
-      "subcategory_ms": "Kewangan Awam"
+        "site": "datagovmy",
+        "category_en": "Data Dictionaries",
+        "category_ms": "_Dictionary_ Data",
+        "category_sort": 110,
+        "subcategory_en": "Miscellaneous",
+        "subcategory_ms": "Lain-lain",
+        "subcategory_sort": 10000
     }
   ],
   "fields": [
