@@ -32,15 +32,19 @@
             "site": "datagovmy",
             "category_en": "Financial Sector",
             "category_ms": "Sektor Kewangan",
+            "category_sort": 60,
             "subcategory_en": "Financial Markets",
-            "subcategory_ms": "Pasaran Kewangan"
+            "subcategory_ms": "Pasaran Kewangan",
+            "subcategory_sort": 10
         },
         {
             "site": "opendosm",
             "category_en": "Financial Sector",
             "category_ms": "Sektor Kewangan",
+            "category_sort": 60,
             "subcategory_en": "Financial Markets",
-            "subcategory_ms": "Pasaran Kewangan"
+            "subcategory_ms": "Pasaran Kewangan",
+            "subcategory_sort": 10
         }
     ],
     "fields": [
