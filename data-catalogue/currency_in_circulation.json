@@ -32,8 +32,10 @@
       "site": "datagovmy",
       "category_en": "Financial Sector",
       "category_ms": "Sektor Kewangan",
+      "category_sort": 60,
       "subcategory_en": "Money & Banking",
-      "subcategory_ms": "Wang & Perbankan"
+      "subcategory_ms": "Wang & Perbankan",
+      "subcategory_sort": 20
     }
   ],
   "fields": [
