@@ -1,6 +1,7 @@
 {
     "title_en": "Daily COVID-19 Cases by Age Group & State",
     "title_ms": "Kes COVID-19 Harian mengikut Kumpulan Umur & Negeri",
+    "title_sort": 3,
     "description_en": "Daily COVID-19 cases at national and state level, broken down by age group.",
     "description_ms": "Kes COVID-19 harian di peringkat kebangsaan dan negeri, dengan pecahan mengikut kumpulan umur.",
     "exclude_openapi": false,
@@ -33,6 +34,7 @@
             "site": "datagovmy",
             "category_en": "Healthcare",
             "category_ms": "Kesihatan",
+            "category_sort": 40,
             "subcategory_en": "Infectious Diseases",
             "subcategory_ms": "Penyakit Berjangkit"
         },

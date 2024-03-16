@@ -1,6 +1,7 @@
 {
   "title_en": "Household Income and Expenditure: Administrative Districts",
   "title_ms": "Pendapatan dan Perbelanjaan Isi Rumah: Daerah Pentadbiran",
+  "title_sort": 2,
   "description_en": "This dataset tabulates household-level income, expenditure, poverty, and income inequality at administrative district level. It is based on the Household Income & Expenditure Surveys (HIES) carried in 2022.",
   "description_ms": "Set data ini menunjukkan pendapatan, perbelanjaan, ketidaksamaan pendapatan, dan kadar kemiskinan bagi isi rumah di peringkat daerah pentadbiran. Data ini dihasilkan berdasarkan Survei Pendapatan dan Isi Rumah (HIES) yang dilaksanakan pada tahun 2022.",
   "exclude_openapi": false,
@@ -32,15 +33,19 @@
       "site": "datagovmy",
       "category_en": "Households",
       "category_ms": "Isi Rumah",
+      "category_sort": 20,
       "subcategory_en": "Income & Expenditure",
-      "subcategory_ms": "Pendapatan & Perbelanjaan"
+      "subcategory_ms": "Pendapatan & Perbelanjaan",
+      "subcategory_sort": 20
     },
     {
       "site": "opendosm",
       "category_en": "Households",
       "category_ms": "Isi Rumah",
+      "category_sort": 20,
       "subcategory_en": "Income & Expenditure",
-      "subcategory_ms": "Pendapatan & Perbelanjaan"
+      "subcategory_ms": "Pendapatan & Perbelanjaan",
+      "subcategory_sort": 20
     }
   ],
   "fields": [
