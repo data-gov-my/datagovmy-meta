@@ -1,0 +1,178 @@
+{
+    "title_en": "DOSM's Advance Release Calendar",
+    "title_ms": "Kalendar Awalan Keluaran DOSM",
+    "title_sort": 1,
+    "description_en": "Release date and metadata for all DOSM's publications in 2024.",
+    "description_ms": "Tarikh penerbitan serta metadata bagi semua penerbitan DOSM dalam tahun 2024.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2024-03-16 08:00",
+    "last_updated": "2024-03-16 08:00",
+    "next_update": "2024-03-17 08:00",
+    "methodology_en": "DOSM's [advance release calendar](https://www.dosm.gov.my/portal-main/arc) is compiled and coordinated by the Strategic Communications Division for the purpose of display on the main DOSM portal. It contains three fields, namely the title in English, title in Malay, and release date. To produce the structured dataset shown here, the OpenDOSM team conducts standardisation of naming conventions and adds several metadata fields which are typically helpful for users, such as category, frequency, and release series (in date and natural language formats).",
+    "methodology_ms": "[Kalendar Keluaran Awal](https://www.dosm.gov.my/portal-main/arc) DOSM disusun dan diselaras oleh Bahagian Komunikasi Strategik bagi tujuan paparan di portal utama DOSM. Ia mengangundi tiga medan, iaitu tajuk dalam Bahasa Inggeris, tajuk dalam Bahasa Melayu, serta tarikh penerbitan. Untuk mewujudkan set data berstruktur yang dipaparkan di sini, pasukan OpenDOSM melakasanakan penyeragaman konvensyen penamaan dan tambah beberapa medan metadata yang biasanya membantu pengguna data seperti kategori, frekuensi, serta siri penerbitan (dalam format tarikh dan bahasa semulajadi).",
+    "caveat_en": "—",
+    "caveat_ms": "—",
+    "publication_en": "The data shown here tallies exactly with the [Upcoming Publications calendar](https://open.dosm.gov.my/publications/upcoming) on OpenDOSM.",
+    "publication_ms": "Data yang dipaparkan di sini adalah konsisten sepenuhnya dengan [kalendar Penerbitan Akan Datang](https://open.dosm.gov.my/ms-MY/publications/upcoming) di OpenDOSM.",
+    "link_parquet": "https://storage.dosm.gov.my/meta/arc.parquet",
+    "link_csv": "https://storage.dosm.gov.my/meta/arc.csv",
+    "frequency": "DAILY",
+    "geography": [],
+    "demography": [],
+    "dataset_begin": 2024,
+    "dataset_end": 2024,
+    "data_source": [
+        "DOSM"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Metadata",
+            "category_ms": "Metadata",
+            "category_sort": 90,
+            "subcategory_en": "Site Content",
+            "subcategory_ms": "Kandungan Portal",
+            "subcategory_sort": 90
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Metadata",
+            "category_ms": "Metadata",
+            "category_sort": 90,
+            "subcategory_en": "Site Content",
+            "subcategory_ms": "Kandungan Portal",
+            "subcategory_sort": 90
+        }
+    ],
+    "fields": [
+        {
+            "name": "publication_id",
+            "title_en": "Publication ID",
+            "title_ms": "ID Penerbitan",
+            "description_en": "[String] Unique ID identifying the publication; this should be the primary key if used in a database.",
+            "description_ms": "[Rentetan] ID unik bagi penerbitan tersebut; ini harus digunakan sebagai kunci utama sekiranya digunakan dalam pangkalan data."
+        },
+        {
+            "name": "release_date",
+            "title_en": "Release Date",
+            "title_ms": "Tarikh Penerbitan",
+            "description_en": "[Timestamp] Date and time of release in YYYY-MM-DD HH:MM:SS format. The publication is embargoed until such time.",
+            "description_ms": "[Cap masa] Tarikh dan waktu penerbitan dalam format YYYY-MM-DD HH:MM:SS. Penerbitan adalah berstatus embargo sehingga tarikh dan waktu tersebut."
+        },
+        {
+            "name": "title_en",
+            "title_en": "Publication Title (EN)",
+            "title_ms": "Tajuk Penerbitan (BI)",
+            "description_en": "[String] Title of the publication in English, in the format {title}: {data up to}",
+            "description_ms": "[Rentetan] Tajuk penerbitan dalam Bahasa Inggeris, dalam format {tajuk}: {data setakat}"
+        },
+        {
+            "name": "title_bm",
+            "title_en": "Title Publication (MS)",
+            "title_ms": "Tajuk Penerbitan (BM)",
+            "description_en": "[String] Title of the publication in Malay, in the format {title}: {data up to}",
+            "description_ms": "[Rentetan] Tajuk penerbitan dalam Bahasa Melayu, dalam format {tajuk}: {data setakat}"
+        },
+        {
+            "name": "publication_type",
+            "title_en": "Publication Category",
+            "title_ms": "Kategori Penerbitan",
+            "description_en": "[String] Category of the publication indicating its broad domain. For example, all publications relating to GDP and satellite accounts are categorised as 'gdp'.",
+            "description_ms": "[Rentetan] Kategori penerbitan yang menunjukkan domain penerbitan secara am. Sebagai contoh, semua penerbitan berkaitan KDNK dan akaun satelit dikategorikan sebagai 'gdp'."
+        },
+        {
+            "name": "publication_type_en",
+            "title_en": "Publication Category (EN)",
+            "title_ms": "Kategori Penerbitan (BI)",
+            "description_en": "[String] Category of the publication in English",
+            "description_ms": "[Rentetan] Kategori penerbitan dalam Bahasa Inggeris"
+        },
+        {
+            "name": "publication_type_bm",
+            "title_en": "Publication Category (MS)",
+            "title_ms": "Kategori Penerbitan (BM)",
+            "description_en": "[String] Category of the publication in Malay",
+            "description_ms": "[Rentetan] Kategori penerbitan dalam Bahasa Melayu"
+        },
+        {
+            "name": "frequency",
+            "title_en": "Frequency of data",
+            "title_ms": "Frekuensi data",
+            "description_en": "[Categorical] Either YEARLY, QUARTERLY, or MONTHLY. Note that this is the frequency of the data series within the publication, NOT the frequency of the publication itself.",
+            "description_ms": "[Kategori] YEARLY, QUARTERLY, atau MONTHLY. Frekuensi ini adalah frequensi siri data yang terkandung dalam penerbitan BUKAN kekerapan penerbitan tersebut."
+        },
+        {
+            "name": "release_series",
+            "title_en": "Series",
+            "title_ms": "Siri",
+            "description_en": "[Date] Data as of this date, in YYYY-MM-DD format. The earliest date in the period is chosen, e.g. YYYY-01-01 for annual data and YYYY-04-01 for 2nd quarter data.",
+            "description_ms": "[Tarikh] Data sekatat tarikh ini, dalam format YYYY-MM-DD. Tarikh yang dipilih adalah tarikh terawal dalam tempoh, contohnya YYYY-01-01 bagi data tahunan dan YYYY-04-01 bagi data suku tahun kedua."
+        },
+        {
+            "name": "release_series_date",
+            "title_en": "Series (Formatted Date)",
+            "title_ms": "Siri (Tarikh Diformat)",
+            "description_en": "[String] The 'release_series' field formatted according to frequency. For instance, 2023-01-01 is formatted as 2023 for yearly data, 2023-q1 for quarterly data, and 2023-01 for monthly data.",
+            "description_ms": "[Rentetan] Medan 'release_series' tetapi diformat berdasarkan frekuensi. Contohnya, 2023-01-01 diformat sebagai 2023 bagi data tahunan, 2023-q1 bagi data suku tahunan, dan 2023-01 bagi data bulanan."
+        },
+        {
+            "name": "release_series_en",
+            "title_en": "Series (EN)",
+            "title_ms": "Siri (BI)",
+            "description_en": "[String] The 'release_series' field formatted as natural language in English. For instance, 2023-01-01 is formatted as 2023 for yearly data, Q1 2023 for quarterly data, and Jan 2023 for monthly data.",
+            "description_ms": "[Rentetan] Medan 'release_series' tetapi diformat sebagai bahasa semulajadi dalam Bahasa Inggeris. Contohnya, 2023-01-01 diformat sebagai 2023 bagi data tahunan, Q1 2023 bagi data suku tahunan, dan Jan 2023 bagi data bulanan."
+        },
+        {
+            "name": "release_series_bm",
+            "title_en": "Series (MS)",
+            "title_ms": "Siri (BM)",
+            "description_en": "[String] The 'release_series' field formatted as natural language in Malay. For instance, 2023-01-01 is formatted as 2023 for yearly data, ST1 2023 for quarterly data, and Jan 2023 for monthly data.",
+            "description_ms": "[Rentetan] Medan 'release_series' tetapi diformat sebagai bahasa semulajadi dalam Bahasa Melayu. Contohnya, 2023-01-01 diformat sebagai 2023 bagi data tahunan, ST1 2023 bagi data suku tahunan, dan Jan 2023 bagi data bulanan."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": [
+                    "publication_id"
+                ]
+            }
+        }
+    ],
+    "translations_en": {
+        "publication_id": "Publication ID",
+        "release_date": "Release Date",
+        "title_en": "Publication Title (EN)",
+        "title_bm": "Title Publication (MS)",
+        "publication_type": "Publication Category",
+        "publication_type_en": "Publication Category (EN)",
+        "publication_type_bm": "Publication Category (MS)",
+        "frequency": "Frequency of data",
+        "release_series": "Series",
+        "release_series_date": "Series (Formatted Date)",
+        "release_series_en": "Series (EN)",
+        "release_series_bm": "Series (MS)"
+    },
+    "translations_ms": {
+        "publication_id": "ID Penerbitan",
+        "release_date": "Tarikh Penerbitan",
+        "title_en": "Tajuk Penerbitan (BI)",
+        "title_bm": "Tajuk Penerbitan (BM)",
+        "publication_type": "Kategori Penerbitan",
+        "publication_type_en": "Kategori Penerbitan (BI)",
+        "publication_type_bm": "Kategori Penerbitan (BM)",
+        "frequency": "Frekuensi data",
+        "release_series": "Siri",
+        "release_series_date": "Siri (Tarikh Diformat)",
+        "release_series_en": "Siri (BI)",
+        "release_series_bm": "Siri (BM)"
+    },
+    "related_datasets": []
+}
