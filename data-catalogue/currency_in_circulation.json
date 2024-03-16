@@ -1,6 +1,7 @@
 {
   "title_en": "Currency in Circulation",
   "title_ms": "Mata Wang dalam Peredaran",
+  "title_sort": 5,
   "description_en": "Value of currency in circulation by denomination, for instance RM 1, RM 5, RM 10.",
   "description_ms": "Nilai mata wang dalam edaran mengikut denominasi, contohnya bagi nota RM1, RM5 dan RM10.",
   "exclude_openapi": false,
@@ -35,7 +36,7 @@
       "category_sort": 60,
       "subcategory_en": "Money",
       "subcategory_ms": "Wang",
-      "subcategory_sort": 20
+      "subcategory_sort": 10
     }
   ],
   "fields": [
