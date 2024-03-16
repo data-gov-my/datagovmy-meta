@@ -34,7 +34,8 @@
             "category_ms": "Dictionary Data",
             "category_sort": 110,
             "subcategory_en": "Economy",
-            "subcategory_ms": "Ekonomi"
+            "subcategory_ms": "Ekonomi",
+            "subcategory_sort": 1
         },
         {
             "site": "opendosm",
@@ -42,7 +43,8 @@
             "category_ms": "Dictionary Data",
             "category_sort": 110,
             "subcategory_en": "Economy",
-            "subcategory_ms": "Ekonomi"
+            "subcategory_ms": "Ekonomi",
+            "subcategory_sort": 1
         }
     ],
     "fields": [
