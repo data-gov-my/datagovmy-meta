@@ -1,6 +1,7 @@
 {
   "title_en": "Household Income and Expenditure: States",
   "title_ms": "Pendapatan dan Perbelanjaan Isi Rumah: Negeri",
+  "title_sort": 1,
   "description_en": "This dataset tabulates household-level income, expenditure, poverty, and income inequality at state level. It is based on the Household Income & Expenditure Surveys (HIES) carried in 2022.",
   "description_ms": "Set data ini menunjukkan pendapatan, perbelanjaan, ketidaksamaan pendapatan, dan kadar kemiskinan bagi isi rumah di peringkat negeri. Data ini dihasilkan berdasarkan Survei Pendapatan dan Isi Rumah (HIES) yang dilaksanakan pada tahun 2022.",
   "exclude_openapi": false,
@@ -32,6 +33,7 @@
       "site": "datagovmy",
       "category_en": "Households",
       "category_ms": "Isi Rumah",
+      "category_sort": 20,
       "subcategory_en": "Income & Expenditure",
       "subcategory_ms": "Pendapatan & Perbelanjaan"
     },
@@ -39,8 +41,10 @@
       "site": "opendosm",
       "category_en": "Households",
       "category_ms": "Isi Rumah",
+      "category_sort": 20,
       "subcategory_en": "Income & Expenditure",
-      "subcategory_ms": "Pendapatan & Perbelanjaan"
+      "subcategory_ms": "Pendapatan & Perbelanjaan",
+      "subcategory_sort": 20
     }
   ],
   "fields": [
