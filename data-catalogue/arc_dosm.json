@@ -30,19 +30,19 @@
             "site": "datagovmy",
             "category_en": "Metadata",
             "category_ms": "Metadata",
-            "category_sort": 90,
+            "category_sort": 120,
             "subcategory_en": "Site Content",
             "subcategory_ms": "Kandungan Portal",
-            "subcategory_sort": 90
+            "subcategory_sort": 10
         },
         {
             "site": "opendosm",
             "category_en": "Metadata",
             "category_ms": "Metadata",
-            "category_sort": 90,
+            "category_sort": 120,
             "subcategory_en": "Site Content",
             "subcategory_ms": "Kandungan Portal",
-            "subcategory_sort": 90
+            "subcategory_sort": 10
         }
     ],
     "fields": [

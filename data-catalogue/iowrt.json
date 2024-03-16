@@ -30,17 +30,21 @@
   "site_category": [
     {
       "site": "datagovmy",
-      "category_en": "Sectoral Statistics",
+      "category_en": "Economic Sectors",
       "category_ms": "Sektor Ekonomi",
+      "category_sort": 90,
       "subcategory_en": "Services",
-      "subcategory_ms": "Perkhidmatan"
+      "subcategory_ms": "Perkhidmatan",
+      "subcategory_sort": 10
     },
     {
       "site": "opendosm",
-      "category_en": "Sectoral Statistics",
+      "category_en": "Economic Sectors",
       "category_ms": "Sektor Ekonomi",
+      "category_sort": 90,
       "subcategory_en": "Services",
-      "subcategory_ms": "Perkhidmatan"
+      "subcategory_ms": "Perkhidmatan",
+      "subcategory_sort": 10
     }
   ],
   "fields": [

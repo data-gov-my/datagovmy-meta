@@ -30,17 +30,21 @@
   "site_category": [
     {
       "site": "datagovmy",
-      "category_en": "Sectoral Statistics",
+      "category_en": "Economic Sectors",
       "category_ms": "Sektor Ekonomi",
+      "category_sort": 90,
       "subcategory_en": "Industrial Output",
-      "subcategory_ms": "Pengeluaran Industri"
+      "subcategory_ms": "Pengeluaran Industri",
+      "subcategory_sort": 20
     },
     {
       "site": "opendosm",
-      "category_en": "Sectoral Statistics",
+      "category_en": "Economic Sectors",
       "category_ms": "Sektor Ekonomi",
+      "category_sort": 90,
       "subcategory_en": "Industrial Output",
-      "subcategory_ms": "Pengeluaran Industri"
+      "subcategory_ms": "Pengeluaran Industri",
+      "subcategory_sort": 20
     }
   ],
   "fields": [

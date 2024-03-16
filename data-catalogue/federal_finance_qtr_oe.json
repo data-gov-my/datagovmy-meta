@@ -32,6 +32,7 @@
       "site": "datagovmy",
       "category_en": "Public Administration",
       "category_ms": "Pentadbiran Awam",
+      "category_sort": 80,
       "subcategory_en": "Public Finance",
       "subcategory_ms": "Kewangan Awam"
     }
