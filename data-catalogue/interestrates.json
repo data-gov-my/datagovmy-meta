@@ -30,11 +30,11 @@
   "site_category": [
     {
       "site": "datagovmy",
-      "category_en": "Financial Sector",
-      "category_ms": "Sektor Kewangan",
+      "category_en": "Financial Markets",
+      "category_ms": "Pasaran Kewangan",
       "category_sort": 60,
-      "subcategory_en": "Financial Markets",
-      "subcategory_ms": "Pasaran Kewangan",
+      "subcategory_en": "Rates",
+      "subcategory_ms": "Kadar-Kadar",
       "subcategory_sort": 10
     }
   ],
