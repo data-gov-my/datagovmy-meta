@@ -32,6 +32,7 @@
             "site": "datagovmy",
             "category_en": "Labour Markets",
             "category_ms": "Pasaran Buruh",
+            "category_sort": 50,
             "subcategory_en": "Labour Force Survey",
             "subcategory_ms": "Survei Tenaga Buruh"
         },
@@ -39,6 +40,7 @@
             "site": "opendosm",
             "category_en": "Labour Markets",
             "category_ms": "Pasaran Buruh",
+            "category_sort": 50,
             "subcategory_en": "Labour Force Survey",
             "subcategory_ms": "Survei Tenaga Buruh"
         }
