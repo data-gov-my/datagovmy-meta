@@ -32,6 +32,7 @@
             "site": "datagovmy",
             "category_en": "Data Dictionaries",
             "category_ms": "Dictionary Data",
+            "category_sort": 110,
             "subcategory_en": "Economy",
             "subcategory_ms": "Ekonomi"
         },
@@ -39,6 +40,7 @@
             "site": "opendosm",
             "category_en": "Data Dictionaries",
             "category_ms": "Dictionary Data",
+            "category_sort": 110,
             "subcategory_en": "Economy",
             "subcategory_ms": "Ekonomi"
         }
