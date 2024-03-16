@@ -33,9 +33,9 @@
             "category_en": "Financial Markets",
             "category_ms": "Pasaran Kewangan",
             "category_sort": 60,
-            "subcategory_en": "Rates",
-            "subcategory_ms": "Kadar-Kadar",
-            "subcategory_sort": 10
+            "subcategory_en": "Foreign Exchange",
+            "subcategory_ms": "Pertukaran Asing (FX)",
+            "subcategory_sort": 30
         }
     ],
     "fields": [

@@ -1,6 +1,7 @@
 {
   "title_en": "Interest Rates",
   "title_ms": "Kadar Faedah",
+  "title_sort": 1,
   "description_en": "Various interest rates monitored by Bank Negara Malaysia, such as fixed deposit rates, base rates, and lending rates.",
   "description_ms": "Kadar faedah yang dipantau oleh Bank Negara Malaysia, seperti kadar deposit tetap, kadar asas, dan kadar pinjaman.",
   "exclude_openapi": false,
@@ -16,7 +17,6 @@
   "publication_ms": "Set data ini juga diterbitkan oleh BNM dalam [Sorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs).",
   "link_parquet": "https://storage.data.gov.my/finsector/interestrates.parquet",
   "link_csv": "https://storage.data.gov.my/finsector/interestrates.csv",
-  "link_preview": "https://storage.data.gov.my/finsector/interestrates.parquet",
   "frequency": "MONTHLY",
   "geography": [
     "NATIONAL"
@@ -33,9 +33,9 @@
       "category_en": "Financial Markets",
       "category_ms": "Pasaran Kewangan",
       "category_sort": 60,
-      "subcategory_en": "Rates",
-      "subcategory_ms": "Kadar-Kadar",
-      "subcategory_sort": 10
+      "subcategory_en": "Banking System",
+      "subcategory_ms": "Sistem Perbankan",
+      "subcategory_sort": 20
     }
   ],
   "fields": [
