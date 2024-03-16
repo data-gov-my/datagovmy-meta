@@ -32,8 +32,10 @@
             "site": "datagovmy",
             "category_en": "Prices",
             "category_ms": "Harga",
+            "category_sort": 70,
             "subcategory_en": "Commodity Prices",
-            "subcategory_ms": "Harga Komoditi"
+            "subcategory_ms": "Harga Komoditi",
+            "subcategory_sort": 30
         }
     ],
     "fields": [
