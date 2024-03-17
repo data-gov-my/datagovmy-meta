@@ -2,7 +2,7 @@
   "title_en": "Lookup Table: Money & Banking",
   "title_ms": "Jadual Carian: Wang & Perbankan",
   "description_en": "Lookup table, to be left-joined against variable name in the other Money and Banking datasets if specified.",
-  "description_ms": "Jadual carian, untuk dipadankan (<i>left-join</i>) dengan nama pembolehubah dalam set data Wang dan Perbankan sekiranya diperlukan.",
+  "description_ms": "Jadual carian, untuk dipadankan (left-join) dengan nama pembolehubah dalam set data Wang dan Perbankan sekiranya diperlukan.",
   "exclude_openapi": false,
   "manual_trigger": "",
   "data_as_of": "2024-01",
