@@ -1,6 +1,6 @@
 {
 	"dashboard_name": "odin",
-	"data_last_updated": "2024-03-17 17:25",
+	"data_last_updated": "2024-03-17 17:40",
 	"route": "/odin-assessment",
 	"sites": ["opendosm"],
 	"manual_trigger": "",
