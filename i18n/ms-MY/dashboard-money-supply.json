@@ -5,10 +5,10 @@
     ],
     "translation": {
         "header": "Penawaran Wang",
-        "description": "Secara amnya, penawaran wang di Malaysia merujuk kepada jumlah nilai ringgit dalam edaran pada satu masa. Namun begitu, terdapat beberapa cara untuk mengukur nilai ini, bergantung pada aset yang termasuk dalam definisi 'wang'. Papan pemuka ini mengggunakan tiga definisi empirikal paling standard - M1, M2 dan M3 - untuk menganalisa penawaran wang di Malayia secara bulanan.",
+        "description": "Secara amnya, penawaran wang di Malaysia merujuk kepada jumlah nilai ringgit dalam edaran pada satu masa. Namun begitu, terdapat beberapa cara untuk mengukur nilai ini, bergantung pada aset yang termasuk dalam definisi 'wang'. Papan pemuka ini mengggunakan tiga definisi empirikal paling standard - M1, M2 dan M3 - untuk menganalisa penawaran wang di Malaysia secara bulanan.",
         "section_1": {
-            "title": "Apakah kaedah mengukur kadar penawaran wang di Malaysia?",
-            "description": "M1 ialah 'wang sempit' (_narrow money_) ataupun aset yang paling cair.\nM2 terdiri daripada M1 dan 'wang separuh sempit' (_narrow quasi-money_).\nM3 terdiri daripada M2 dan 'wang luas' (_broad money_).\n\nJadual di bawah merumuskan definisi M1, M2 dan M3 secara terperinci:",
+            "title": "Apakah kaedah mengukur penawaran wang di Malaysia?",
+            "description": "M1 ialah 'wang sempit' _(narrow money)_ ataupun aset yang paling cair.\nM2 terdiri daripada M1 dan 'wang separuh sempit' _(narrow quasi-money)_.\nM3 terdiri daripada M2 dan 'wang luas' _(broad money)_.\n\nJadual di bawah merumuskan definisi M1, M2 dan M3 secara terperinci:",
             "component_col_name": "Komponen",
             "m1_col_name": "% Wang M1",
             "m2_col_name": "% Wang M2",
