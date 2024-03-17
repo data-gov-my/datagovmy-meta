@@ -1,6 +1,6 @@
 {
-  "title_en": "Monthly Interest Rates",
-  "title_ms": "Kadar Faedah Bulanan",
+  "title_en": "Annual Interest Rates",
+  "title_ms": "Kadar Faedah Tahunan",
   "title_sort": 1,
   "description_en": "Various interest rates monitored by Bank Negara Malaysia, such as fixed deposit rates, base rates, and lending rates.",
   "description_ms": "Kadar faedah yang dipantau oleh Bank Negara Malaysia, seperti kadar deposit tetap, kadar asas, dan kadar pinjaman.",
@@ -8,22 +8,22 @@
   "manual_trigger": "na",
   "data_as_of": "2024-01",
   "last_updated": "2024-02-29 15:00",
-  "next_update": "2024-03-31 15:00",
-  "methodology_en": " Bank Negara Malaysia (BNM) is the overseer which safeguards the public's financial interests. Accordingly, BNM tracks various interest rates of concern in real time. That data is summarised here at monthly frequency.",
-  "methodology_ms": "Bank Negara Malaysia (BNM) adalah badan berkanun yang diamanahkan untuk menjaga kepentingan kewangan awam. Sehubungan dengan itu, BNM menjejaki pelbagai kadar faedah penting secara masa nyata. Data tersebut dirumuskan dalam set data ini pada frekuensi bulanan.",
+  "next_update": "2025-02-28 15:00",
+  "methodology_en": " Bank Negara Malaysia (BNM) is the overseer which safeguards the public's financial interests. Accordingly, BNM tracks various interest rates of concern in real time. That data is summarised here at annual frequency.",
+  "methodology_ms": "Bank Negara Malaysia (BNM) adalah badan berkanun yang diamanahkan untuk menjaga kepentingan kewangan awam. Sehubungan dengan itu, BNM menjejaki pelbagai kadar faedah penting secara masa nyata. Data tersebut dirumuskan dalam set data ini pada frekuensi tahunan.",
   "caveat_en": "There are several nuances to bear in mind when using this data:\n 1. From August 2000 onwards, the Fixed Deposit Rate series for Commercial Banks and Investment Banks have been revised. Data for x-month fixed deposit rate refers to the quoted rate for that particular maturity alone. (Data prior to this date continue to reflect the average maturity).\n 2. Effective 1 August 2022, the Standardised Base Rate replaced the Base Rate (BR) as the reference rate for new retail floating-rate loans. Existing BR- and BLR-based loans applied before the effective date will continue to be referenced against the BR and BLR  respectively. However, after the effective date, the BR and BLR will move exactly in tandem with the Standardised Base Rate as any adjustments to the Standardised Base Rate will simultaneously be reflected in the corresponding adjustments to the BR and BLR.\n 3. Since March 2012, the following banks were included in the computation of the average lending rate: Industrial and Commercial Bank of China from November 2010 onwards; Sumitomo Mitsui Banking Corporation from May 2011 onwards; Mizuho Corporation Bank (M) Berhad and BNP Paribas Malaysia Berhad from December 2011 onwards. ",
   "caveat_ms": "Terdapat beberapa nuansa dalam penggubalan set data ini:\n 1. Mulai Ogos 2000, kadar deposit tetap bagi Bank-bank Perdagangan dan Bank-bank Pelaburan telah disemak semula. Data bagi kadar deposit tetap x-bulan merujuk kepada kadar disebut bagi tempoh matang tersebut sahaja. (Data sebelum Ogos 2000 masih menggunakan tempoh matang purata).\n 2. Mulai 1 Ogos 2022, Kadar Asas Standard menggantikan Kadar Asas sebagai kadar rujukan untuk pinjaman kadar terapung runcit baharu. Pinjaman sedia ada berasaskan Kadar Asas dan Kadar Pinjaman Asas yang digunakan sebelum tarikh kuat kuasa akan terus dirujuk masing-masing terhadap Kadar Asas dan Kadar Pinjaman Asas. Walau bagaimanapun, selepas tarikh berkuat kuasa, Kadar Asas dan Kadar Pinjaman Asas akan bergerak seiring dengan Kadar Asas Standard kerana sebarang pelarasan kepada Kadar Asas Standard akan ditunjukkan pada masa yang sama dalam pelarasan yang sepadan dengan Kadar Asas dan Kadar Pinjaman Asas.\n 3. Mulai Mac 2012, pengiraan kadar berian pinjaman purata termasuk bank-bank berikut: Industrial and Commercial Bank of China mulai November 2010; Sumitomo Mitsui Banking Corporation mulai Mei 2011; Mizuho Corp Bank (M) Berhad dan BNP Paribas Malaysia Berhad mulai Disember 2011.",
   "publication_en": "Our site features an [interactive dashboard on interest rates](https://data.gov.my/dashboard/interest-rates). This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs).",
   "publication_ms": "Portal kami memaparkan [_dashboard_ interaktif berkaitan kadar faedah](https://data.gov.my/ms-MY/dashboard/interest-rates). Set data ini juga diterbitkan oleh BNM dalam Sorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs).",
-  "link_parquet": "https://storage.data.gov.my/finsector/interest_rates.parquet",
-  "link_csv": "https://storage.data.gov.my/finsector/interest_rates.csv",
-  "frequency": "MONTHLY",
+  "link_parquet": "https://storage.data.gov.my/finsector/interest_rates_annual.parquet",
+  "link_csv": "https://storage.data.gov.my/finsector/interest_rates_annual.csv",
+  "frequency": "YEARLY",
   "geography": [
     "NATIONAL"
   ],
   "demography": [],
-  "dataset_begin": 1997,
-  "dataset_end": 2024,
+  "dataset_begin": 1980,
+  "dataset_end": 2023,
   "data_source": [
     "BNM"
   ],
@@ -43,8 +43,8 @@
       "name": "date",
       "title_en": "Date",
       "title_ms": "Tarikh",
-      "description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01 since the data is at monthly frequency",
-      "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD ditetapkan sebagai 01 kerana data berfrekuensi bulanan"
+      "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+      "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
     },
     {
       "name": "bank",
