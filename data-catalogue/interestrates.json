@@ -1,6 +1,6 @@
 {
-  "title_en": "Interest Rates",
-  "title_ms": "Kadar Faedah",
+  "title_en": "Monthly Interest Rates",
+  "title_ms": "Kadar Faedah Bulanan",
   "title_sort": 1,
   "description_en": "Various interest rates monitored by Bank Negara Malaysia, such as fixed deposit rates, base rates, and lending rates.",
   "description_ms": "Kadar faedah yang dipantau oleh Bank Negara Malaysia, seperti kadar deposit tetap, kadar asas, dan kadar pinjaman.",
@@ -13,17 +13,17 @@
   "methodology_ms": "Bank Negara Malaysia (BNM) adalah badan berkanun yang diamanahkan untuk menjaga kepentingan kewangan awam. Sehubungan dengan itu, BNM menjejaki pelbagai kadar faedah penting secara masa nyata. Data tersebut dirumuskan dalam set data ini pada frekuensi bulanan.",
   "caveat_en": "There are several nuances to bear in mind when using this data:\n 1. From August 2000 onwards, the Fixed Deposit Rate series for Commercial Banks and Investment Banks have been revised. Data for x-month fixed deposit rate refers to the quoted rate for that particular maturity alone. (Data prior to this date continue to reflect the average maturity).\n 2. Effective 1 August 2022, the Standardised Base Rate replaced the Base Rate (BR) as the reference rate for new retail floating-rate loans. Existing BR- and BLR-based loans applied before the effective date will continue to be referenced against the BR and BLR  respectively. However, after the effective date, the BR and BLR will move exactly in tandem with the Standardised Base Rate as any adjustments to the Standardised Base Rate will simultaneously be reflected in the corresponding adjustments to the BR and BLR.\n 3. Since March 2012, the following banks were included in the computation of the average lending rate: Industrial and Commercial Bank of China from November 2010 onwards; Sumitomo Mitsui Banking Corporation from May 2011 onwards; Mizuho Corporation Bank (M) Berhad and BNP Paribas Malaysia Berhad from December 2011 onwards. ",
   "caveat_ms": "Terdapat beberapa nuansa dalam penggubalan set data ini:\n 1. Mulai Ogos 2000, kadar deposit tetap bagi Bank-bank Perdagangan dan Bank-bank Pelaburan telah disemak semula. Data bagi kadar deposit tetap x-bulan merujuk kepada kadar disebut bagi tempoh matang tersebut sahaja. (Data sebelum Ogos 2000 masih menggunakan tempoh matang purata).\n 2. Mulai 1 Ogos 2022, Kadar Asas Standard menggantikan Kadar Asas sebagai kadar rujukan untuk pinjaman kadar terapung runcit baharu. Pinjaman sedia ada berasaskan Kadar Asas dan Kadar Pinjaman Asas yang digunakan sebelum tarikh kuat kuasa akan terus dirujuk masing-masing terhadap Kadar Asas dan Kadar Pinjaman Asas. Walau bagaimanapun, selepas tarikh berkuat kuasa, Kadar Asas dan Kadar Pinjaman Asas akan bergerak seiring dengan Kadar Asas Standard kerana sebarang pelarasan kepada Kadar Asas Standard akan ditunjukkan pada masa yang sama dalam pelarasan yang sepadan dengan Kadar Asas dan Kadar Pinjaman Asas.\n 3. Mulai Mac 2012, pengiraan kadar berian pinjaman purata termasuk bank-bank berikut: Industrial and Commercial Bank of China mulai November 2010; Sumitomo Mitsui Banking Corporation mulai Mei 2011; Mizuho Corp Bank (M) Berhad dan BNP Paribas Malaysia Berhad mulai Disember 2011.",
-  "publication_en": "This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs).",
-  "publication_ms": "Set data ini juga diterbitkan oleh BNM dalam [Sorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs).",
-  "link_parquet": "https://storage.data.gov.my/finsector/interestrates.parquet",
-  "link_csv": "https://storage.data.gov.my/finsector/interestrates.csv",
+  "publication_en": "Our site features an [interactive dashboard on interest rates](https://data.gov.my/dashboard/interest-rates). This dataset is also published as part of BNM's [monthly highlights and statistics](https://www.bnm.gov.my/publications/mhs).",
+  "publication_ms": "Portal kami memaparkan [_dashboard_ interaktif berkaitan kadar faedah](https://data.gov.my/ms-MY/dashboard/interest-rates). Set data ini juga diterbitkan oleh BNM dalam Sorotan dan Statistik Bulanan](https://www.bnm.gov.my/publications/mhs).",
+  "link_parquet": "https://storage.data.gov.my/finsector/interest_rates.parquet",
+  "link_csv": "https://storage.data.gov.my/finsector/interest_rates.csv",
   "frequency": "MONTHLY",
   "geography": [
     "NATIONAL"
   ],
   "demography": [],
-  "dataset_begin": 2000,
-  "dataset_end": 2023,
+  "dataset_begin": 1997,
+  "dataset_end": 2024,
   "data_source": [
     "BNM"
   ],
@@ -47,172 +47,25 @@
       "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD ditetapkan sebagai 01 kerana data berfrekuensi bulanan"
     },
     {
-      "name": "fdr_1mo",
-      "title_en": "Fixed Deposit Rate (1 month)",
-      "title_ms": "Kadar Deposit Tetap (1 bulan)",
-      "description_en": "[Float] Average rate across commercial banks during the month",
-      "description_ms": "[Apung] Kadar purata di bank-bank perdagangan bagi bulan tersebut"
+      "name": "bank",
+      "title_en": "Bank Type",
+      "title_ms": "Jenis Bank",
+      "description_en": "[Categorical] Type of bank; ommercial ('commercial') or investment ('investment')",
+      "description_ms": "[Kategori] Jenis bank; komersil ('commercial') atau pelaburan ('investment')"
     },
     {
-      "name": "fdr_3mo",
-      "title_en": "Fixed Deposit Rate (3 months)",
-      "title_ms": "Kadar Deposit Tetap (3 bulan)",
-      "description_en": "[Float] Average rate across commercial banks during the month",
-      "description_ms": "[Apung] Kadar purata di bank-bank perdagangan bagi bulan tersebut"
-    },
+      "name": "rate",
+      "title_en": "Rate Type",
+      "title_ms": "Jenis Kadar",
+      "description_en": "[String] Type of interest rate, to be mapped using the [Lookup Table](https://data.gov.my/data-catalogue/lookup_money_banking) where file = 'interest_rates'. The lookup table will give you the English and Malay definitions.",
+      "description_ms": "[Rentetan] Jenis kadar faedah, yang perlu dipadankan dengan [Jadual Carian](https://data.gov.my/ms-MY/data-catalogue/lookup_money_banking) dengan medan file = 'interest_rates'. Jadual carian akan memberi definisi dalam Bahasa Inggeris dan Bahasa Melayu."
+		},
     {
-      "name": "fdr_6mo",
-      "title_en": "Fixed Deposit Rate (6 months)",
-      "title_ms": "Kadar Deposit Tetap (6 bulan)",
-      "description_en": "[Float] Average rate across commercial banks during the month",
-      "description_ms": "[Apung] Kadar purata di bank-bank perdagangan bagi bulan tersebut"
-    },
-    {
-      "name": "fdr_9mo",
-      "title_en": "Fixed Deposit Rate (9 months)",
-      "title_ms": "Kadar Deposit Tetap (9 bulan)",
-      "description_en": "[Float] Average rate across commercial banks during the month",
-      "description_ms": "[Apung] Kadar purata di bank-bank perdagangan bagi bulan tersebut"
-    },
-    {
-      "name": "fdr_12mo",
-      "title_en": "Fixed Deposit Rate (12 months)",
-      "title_ms": "Kadar Deposit Tetap (12 bulan)",
-      "description_en": "[Float] Average rate across commercial banks during the month",
-      "description_ms": "[Apung] Kadar purata di bank-bank perdagangan bagi bulan tersebut"
-    },
-    {
-      "name": "wafdr_1mo",
-      "title_en": "Weighted Average FD Rate (1 month)",
-      "title_ms": "Kadar Deposit Tetap Purata Berwajaran (1 bulan)",
-      "description_en": "[Float] Average rate across commercial banks during the month",
-      "description_ms": "[Apung] Kadar purata di bank-bank perdagangan bagi bulan tersebut"
-    },
-    {
-      "name": "wafdr_3mo",
-      "title_en": "Weighted Average FD Rate (3 months)",
-      "title_ms": "Kadar Deposit Tetap Purata Berwajaran (3 bulan)",
-      "description_en": "[Float] Average rate across commercial banks during the month",
-      "description_ms": "[Apung] Kadar purata di bank-bank perdagangan bagi bulan tersebut"
-    },
-    {
-      "name": "wafdr_6mo",
-      "title_en": "Weighted Average FD Rate (6 months)",
-      "title_ms": "Kadar Deposit Tetap Purata Berwajaran (6 bulan)",
-      "description_en": "[Float] Average rate across commercial banks during the month",
-      "description_ms": "[Apung] Kadar purata di bank-bank perdagangan bagi bulan tersebut"
-    },
-    {
-      "name": "wafdr_9mo",
-      "title_en": "Weighted Average FD Rate (9 months)",
-      "title_ms": "Kadar Deposit Tetap Purata Berwajaran (9 bulan)",
-      "description_en": "[Float] Average rate across commercial banks during the month",
-      "description_ms": "[Apung] Kadar purata di bank-bank perdagangan bagi bulan tersebut"
-    },
-    {
-      "name": "wafdr_12mo",
-      "title_en": "Weighted Average FD Rate (12 months)",
-      "title_ms": "Kadar Deposit Tetap Purata Berwajaran (12 bulan)",
-      "description_en": "[Float] Average rate across commercial banks during the month",
-      "description_ms": "[Apung] Kadar purata di bank-bank perdagangan bagi bulan tersebut"
-    },
-    {
-      "name": "sr",
-      "title_en": "Savings Deposit Rate",
-      "title_ms": "Kadar Deposit Tabungan",
-      "description_en": "[Float] Average rate across commercial banks during the month",
-      "description_ms": "[Apung] Kadar purata di bank-bank perdagangan bagi bulan tersebut"
-    },
-    {
-      "name": "wasr",
-      "title_en": "Weighted Average Savings Deposit Rate",
-      "title_ms": "Kadar Deposit Tabungan Purata Berwajaran",
-      "description_en": "[Float] Average rate across commercial banks during the month",
-      "description_ms": "[Apung] Kadar purata di bank-bank perdagangan bagi bulan tersebut"
-    },
-    {
-      "name": "br",
-      "title_en": "Base Rate",
-      "title_ms": "Kadar Asas",
-      "description_en": "[Float] Average rate across commercial banks during the month",
-      "description_ms": "[Apung] Kadar purata di bank-bank perdagangan bagi bulan tersebut"
-    },
-    {
-      "name": "wabr",
-      "title_en": "Weighted Average Base Rate",
-      "title_ms": "Kadar Asas Purata Berwajaran",
-      "description_en": "[Float] Average rate across commercial banks during the month",
-      "description_ms": "[Apung] Kadar purata di bank-bank perdagangan bagi bulan tersebut"
-    },
-    {
-      "name": "blr",
-      "title_en": "Base Lending Rate",
-      "title_ms": "Kadar Pinjaman Asas",
-      "description_en": "[Float] Average rate across commercial banks during the month",
-      "description_ms": "[Apung] Kadar purata di bank-bank perdagangan bagi bulan tersebut"
-    },
-    {
-      "name": "wablr",
-      "title_en": "Weighted Average BLR",
-      "title_ms": "Kadar Pinjaman Asas Purata Berwajaran",
-      "description_en": "[Float] Average rate across commercial banks during the month",
-      "description_ms": "[Apung] Kadar purata di bank-bank perdagangan bagi bulan tersebut"
-    },
-    {
-      "name": "alr",
-      "title_en": "Average Lending Rate",
-      "title_ms": "Kadar Pinjaman Purata",
-      "description_en": "[Float] Average rate on oustanding loans across commercial banks during the month",
-      "description_ms": "[Apung] Kadar purata di bank-bank perdagangan bagi bulan tersebut"
-    },
-    {
-      "name": "walr",
-      "title_en": "Weighted ALR",
-      "title_ms": "Kadar Pinjaman Purata Berwajaran",
-      "description_en": "[Float] Average rate on outstanding loans across commercial banks during the month",
-      "description_ms": "[Apung] Kadar purata bagi pinjaman terkumpul di bank-bank perdagangan bagi bulan tersebut"
-    },
-    {
-      "name": "ib_fdr_1mo",
-      "title_en": "IB FD Rate (1 month)",
-      "title_ms": "Kadar Deposit Tetap di IB (1 bulan)",
-      "description_en": "[Float] Average rate across investment banks during the month",
-      "description_ms": "[Apung] Kadar purata bagi pinjaman terkumpul di bank-bank perdagangan bagi bulan tersebut"
-    },
-    {
-      "name": "ib_fdr_3mo",
-      "title_en": "IB FD Rate (3 months)",
-      "title_ms": "Kadar Deposit Tetap di IB (3 bulan)",
-      "description_en": "[Float] Average rate across investment banks during the month",
-      "description_ms": "[Apung] Kadar purata di bank-bank pelaburan bagi bulan tersebut"
-    },
-    {
-      "name": "ib_fdr_6mo",
-      "title_en": "IB FD Rate (6 months)",
-      "title_ms": "Kadar Deposit Tetap di IB (6 bulan)",
-      "description_en": "[Float] Average rate across investment banks during the month",
-      "description_ms": "[Apung] Kadar purata di bank-bank pelaburan bagi bulan tersebut"
-    },
-    {
-      "name": "ib_fdr_9mo",
-      "title_en": "IB FD Rate (9 months)",
-      "title_ms": "Kadar Deposit Tetap di IB (9 bulan)",
-      "description_en": "[Float] Average rate across investment banks during the month",
-      "description_ms": "[Apung] Kadar purata di bank-bank pelaburan bagi bulan tersebut"
-    },
-    {
-      "name": "ib_fdr_12mo",
-      "title_en": "IB FD Rate (12 months)",
-      "title_ms": "Kadar Deposit Tetap di IB (12 bulan)",
-      "description_en": "[Float] Average rate across investment banks during the month",
-      "description_ms": "[Apung] Kadar purata di bank-bank pelaburan bagi bulan tersebut"
-    },
-    {
-      "name": "ib_alr",
-      "title_en": "IB ALR",
-      "title_ms": "Kadar Pinjaman Purata di IB",
-      "description_en": "[Float] Average rate across investment banks during the month",
-      "description_ms": "[Apung] Kadar purata di bank-bank pelaburan bagi bulan tersebut"
+      "name": "value",
+      "title_en": "Interest Rate",
+      "title_ms": "Kadar Faedah",
+      "description_en": "[Float] Average rate of interest during the period, expressed as a percentage (%)",
+      "description_ms": "[Apung] Kadar faedah purata dalam tempoh, sebagai peratusan (%)"
     }
   ],
   "dataviz": [
@@ -223,64 +76,79 @@
       "chart_type": "TABLE",
       "config": {
         "precision": 2,
-        "filter_columns": [],
+        "filter_columns": ["bank","rate"],
         "freeze_columns": []
       }
-    }
+    },
+		{
+			"dataviz_id": "timeseries",
+			"title_en": "Interest Rate",
+			"title_ms": "Kadar Faedah",
+			"chart_type": "TIMESERIES",
+			"config": {
+				"filter_columns": ["bank","rate"],
+				"precision": 2,
+				"operation": "SUM",
+				"format": {
+					"x": "date",
+					"y": ["value"]
+				}
+			}
+		}
   ],
   "translations_en": {
     "date": "Date",
-    "fdr_1mo": "Fixed Deposit Rate (1 month)",
-    "fdr_3mo": "Fixed Deposit Rate (3 months)",
-    "fdr_6mo": "Fixed Deposit Rate (6 months)",
-    "fdr_9mo": "Fixed Deposit Rate (9 months)",
-    "fdr_12mo": "Fixed Deposit Rate (12 months)",
-    "wafdr_1mo": "Weighted Average FD Rate (1 month)",
-    "wafdr_3mo": "Weighted Average FD Rate (3 months)",
-    "wafdr_6mo": "Weighted Average FD Rate (6 months)",
-    "wafdr_9mo": "Weighted Average FD Rate (9 months)",
-    "wafdr_12mo": "Weighted Average FD Rate (12 months)",
+    "bank": "Bank Type",
+    "rate": "Rate Type",
+    "value": "Interest Rate (%)",
+    "y1": "Rate (%)",
+    "commercial": "Commercial Bank",
+    "investment": "Investment Bank",
+    "fdr-1mo": "Fixed Deposit Rate (1mo)",
+    "fdr-3mo": "Fixed Deposit Rate (3mo)",
+    "fdr-6mo": "Fixed Deposit Rate (6mo)",
+    "fdr-9mo": "Fixed Deposit Rate (9mo)",
+    "fdr-12mo": "Fixed Deposit Rate (12mo)",
+    "wafdr-1mo": "Weighted Avg FD Rate (1mo)",
+    "wafdr-3mo": "Weighted Avg FD Rate (3mo)",
+    "wafdr-6mo": "Weighted Avg FD Rate (6mo)",
+    "wafdr-9mo": "Weighted Avg FD Rate (9mo)",
+    "wafdr-12mo": "Weighted Avg FD Rate (12mo)",
     "sr": "Savings Deposit Rate",
-    "wasr": "Weighted Average Savings Deposit Rate",
-    "br": "Base Rate",
-    "wabr": "Weighted Average Base Rate",
-    "blr": "Base Lending Rate",
-    "wablr": "Weighted Average BLR",
-    "alr": "Average Lending Rate",
-    "walr": "Weighted ALR",
-    "ib_fdr_1mo": "IB FD Rate (1 month)",
-    "ib_fdr_3mo": "IB FD Rate (3 months)",
-    "ib_fdr_6mo": "IB FD Rate (6 months)",
-    "ib_fdr_9mo": "IB FD Rate (9 months)",
-    "ib_fdr_12mo": "IB FD Rate (12 months)",
-    "ib_alr": "IB ALR"
+    "wasr": "Weighted Avg Savings Deposit Rate",
+    "br": "Base Rate (BR)",
+    "wabr": "Weighted Avg BR",
+    "blr": "Base Lending Rate (BLR)",
+    "wablr": "Weighted Avg BLR",
+    "alr": "Avg Lending Rate (ALR) on Outstanding Loans",
+    "walr": "Weighted ALR"
   },
   "translations_ms": {
     "date": "Tarikh",
-    "fdr_1mo": "Kadar Deposit Tetap (1 bulan)",
-    "fdr_3mo": "Kadar Deposit Tetap (3 bulan)",
-    "fdr_6mo": "Kadar Deposit Tetap (6 bulan)",
-    "fdr_9mo": "Kadar Deposit Tetap (9 bulan)",
-    "fdr_12mo": "Kadar Deposit Tetap (12 bulan)",
-    "wafdr_1mo": "Kadar Deposit Tetap Purata Berwajaran (1 bulan)",
-    "wafdr_3mo": "Kadar Deposit Tetap Purata Berwajaran (3 bulan)",
-    "wafdr_6mo": "Kadar Deposit Tetap Purata Berwajaran (6 bulan)",
-    "wafdr_9mo": "Kadar Deposit Tetap Purata Berwajaran (9 bulan)",
-    "wafdr_12mo": "Kadar Deposit Tetap Purata Berwajaran (12 bulan)",
+    "bank": "Jenis Bank",
+    "rate": "Jenis Kadar",
+    "value": "Kadar Faedah (%)",
+    "y1": "Kadar (%)",
+    "commercial": "Bank Komersil",
+    "investment": "Bank Pelaburan",
+    "fdr-1mo": "Kadar Deposit Tetap (FD, 1 bulan)",
+    "fdr-3mo": "Kadar FD (3 bulan)",
+    "fdr-6mo": "Kadar FD (6 bulan)",
+    "fdr-9mo": "Kadar FD (9 bulan)",
+    "fdr-12mo": "Kadar FD (12 bulan)",
+    "wafdr-1mo": "Kadar FD Purata Berwajaran (1 bulan)",
+    "wafdr-3mo": "Kadar FD Purata Berwajaran (3 bulan)",
+    "wafdr-6mo": "Kadar FD Purata Berwajaran (6 bulan)",
+    "wafdr-9mo": "Kadar FD Purata Berwajaran (9 bulan)",
+    "wafdr-12mo": "Kadar FD Purata Berwajaran (12 bulan)",
     "sr": "Kadar Deposit Tabungan",
-    "wasr": "Kadar Deposit Tabungan Purata Berwajaran",
-    "br": "Kadar Asas",
-    "wabr": "Kadar Asas Purata Berwajaran",
-    "blr": "Kadar Pinjaman Asas",
-    "wablr": "Kadar Pinjaman Asas Purata Berwajaran",
-    "alr": "Kadar Pinjaman Purata",
-    "walr": "Kadar Pinjaman Purata Berwajaran",
-    "ib_fdr_1mo": "Kadar Deposit Tetap di IB (1 bulan)",
-    "ib_fdr_3mo": "Kadar Deposit Tetap di IB (3 bulan)",
-    "ib_fdr_6mo": "Kadar Deposit Tetap di IB (6 bulan)",
-    "ib_fdr_9mo": "Kadar Deposit Tetap di IB (9 bulan)",
-    "ib_fdr_12mo": "Kadar Deposit Tetap di IB (12 bulan)",
-    "ib_alr": "Kadar Pinjaman Purata di IB"
+    "wasr": "Kadar Deposit Tabungan Purata Berwajaran ",
+    "br": "Kadar Asas (BR)",
+    "wabr": "BR Purata Berwajaran ",
+    "blr": "Kadar Pinjaman Asas (BLR)",
+    "wablr": "BLR Purata Berwajaran ",
+    "alr": "Kadar Pinjaman Purata (ALR) bagi Pinjaman Terkumpul",
+    "walr": "ALR Berwajaran"
   },
   "related_datasets": []
 }
