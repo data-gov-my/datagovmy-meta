@@ -74,7 +74,7 @@
       }
     },
 		{
-			"dataviz_id": "money_supply",
+			"dataviz_id": "timeseries",
 			"title_en": "Money Supply",
 			"title_ms": "Penawaran Wang",
 			"chart_type": "TIMESERIES",
