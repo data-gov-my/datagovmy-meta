@@ -35,8 +35,8 @@
     "subelement": "Sub-elemen",
     "score": "Skor",
     "justification": "Justifikasi",
-    "coverage": "Liputan ({{ n }}/5)",
-    "openness": "Keterbukaan ({{ n }}/5)",
+    "coverage": "Liputan",
+    "openness": "Keterbukaan",
     "reference_datasets": "Rujukan Dataset",
     "subcategory": {
       "overall": "Keseluruhan",

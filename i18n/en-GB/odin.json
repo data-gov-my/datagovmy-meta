@@ -35,8 +35,8 @@
     "subelement": "Sub-element",
     "score": "Score",
     "justification": "Justification",
-    "coverage": "Coverage ({{ n }}/5)",
-    "openness": "Openness ({{ n }}/5)",
+    "coverage": "Coverage",
+    "openness": "Openness",
     "reference_datasets": "Reference Datasets",
     "subcategory": {
       "overall": "Overall",
