@@ -1,6 +1,6 @@
 {
     "dashboard_name": "odin",
-    "data_last_updated": "2024-03-18 11:05",
+    "data_last_updated": "2024-03-18 11:08",
     "route": "/odin-assessment",
     "sites": [
         "opendosm"
@@ -15,7 +15,7 @@
             "name": "bar_chart",
             "chart_type": "bar_chart",
             "chart_source": "https://storage.dosm.gov.my/benchmarking/odin_2024_bar.parquet",
-            "data_as_of": "2024-03-18 11:05",
+            "data_as_of": "2024-03-18 11:08",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -36,7 +36,7 @@
             "name": "keystats",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.dosm.gov.my/benchmarking/odin_2024_bar.parquet",
-            "data_as_of": "2024-03-18 11:05",
+            "data_as_of": "2024-03-18 11:08",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -56,7 +56,7 @@
             "name": "table",
             "chart_type": "metrics_table",
             "chart_source": "https://storage.dosm.gov.my/benchmarking/odin_2024_table.parquet",
-            "data_as_of": "2024-03-18 11:05",
+            "data_as_of": "2024-03-18 11:08",
             "api_type": "dynamic",
             "api_params": [
                 "lang"
@@ -80,7 +80,7 @@
             "name": "links",
             "chart_type": "metrics_table",
             "chart_source": "https://storage.dosm.gov.my/benchmarking/odin_2024_links.parquet",
-            "data_as_of": "2024-03-18 11:05",
+            "data_as_of": "2024-03-18 11:08",
             "api_type": "dynamic",
             "api_params": [
                 "lang"
