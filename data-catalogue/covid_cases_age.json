@@ -5,7 +5,7 @@
     "description_en": "Daily COVID-19 cases at national and state level, broken down by age group.",
     "description_ms": "Kes COVID-19 harian di peringkat kebangsaan dan negeri, dengan pecahan mengikut kumpulan umur.",
     "exclude_openapi": false,
-    "manual_trigger": "2024-03-18 07:52:30.998996",
+    "manual_trigger": "2024-03-19 06:07:30.233270",
     "data_as_of": "2024-03-17 23:59",
     "last_updated": "2024-03-18 12:00",
     "next_update": "2024-03-25 12:00",
