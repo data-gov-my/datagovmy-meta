@@ -5,15 +5,15 @@
 		{
 			"name": "data_request_rejected",
 			"subject": "[Ticket ID: {{ticket_id}}] Data Request from data.gov.my",
-			"content": "Salam Sejahtera, Your request for data on {{dataset_title}} from {{agency}} has been rejected. Remark: {{remark}} There will be no further notifications regarding this ticket. If you wish to seek further clarification, you may reply to this email.",
-			"html_content": "<html><head></head><body><p>Salam Sejahtera,</p><p>Your request for data on <b>{{dataset_title}}</b> from {{agency}} has been rejected.</p><p>Remark: {{remark}}</p><p>There will be no further notifications regarding this ticket. If you wish to seek further clarification, you may reply to this email.</p><p>Warm regards,<br />Public Sector Open Data Team</p></body></html>",
+			"content": "Salam Sejahtera,\n\nYour request for data on **{{dataset_title}}** from **{{agency}}** has been **rejected** due to the following reason:\n\n _{{remark}}_\n\nThere will be no further notifications regarding this ticket. If you wish to seek further clarification, you may reply to this email.\n\nWarm regards,\n\n ** _Public Sector Open Data Team  \nJabatan Digital Negara, Kementerian Digital_**\n\n",
+			"html_content": "<html><head><title>[Ticket ID: {{ticket_id}}] Data Request from Public Sector Open Data Portal</title></head><body><p>Salam Sejahtera,</p><p>Your request for data on <b>{{dataset_title}}</b> from <b>{{agency}}</b> has been <b>rejected</b> due to the following reason:</p><p><i>{{remark}}</i></p><p>There will be no further notifications regarding this ticket. If you wish to seek further clarification, you may reply to this email.</p><p>Warm regards,<p><strong><em>Public Sector Open Data Team<br />Jabatan Digital Negara, Kementerian Digital</em></strong></p></body></html>",
 			"language": "en-GB"
 		},
 		{
 			"name": "data_request_rejected",
 			"subject": "[Tiket ID: {{ticket_id}}] Permintaan Data dari data.gov.my",
-			"content": "Salam sejahtera, Permohonan anda untuk data mengenai {{dataset_title}} daripada {{agency}} telah ditolak. Justifikasi: {{remark}} Anda tidak akan menerima sebarang lagi notifikasi tentang tiket ini. Sekiranya anda ingin mendapat pencerahan lanjut, anda boleh membalas emel ini.",
-			"html_content": "<html><head></head><body><p>Salam sejahtera,</p><p>Permohonan anda untuk data mengenai <b>{{dataset_title}}</b> daripada {{agency}} telah ditolak.</p><p>Justifikasi: {{remark}}</p><p>Anda tidak akan menerima sebarang lagi notifikasi tentang tiket ini. Sekiranya anda ingin mendapat pencerahan lanjut, anda boleh membalas emel ini.</p><p>Sekian, terima kasih.<br />Pasukan Data Terbuka Sektor Awam</p></body></html>",
+			"content": "Salam sejahtera,\n\nPermohonan anda untuk data bertajuk **{{dataset_title}}** adalah **tidak diluluskan** oleh agensi **{{agency}}** atas justifikasi berikut:\n\n_{{remark}}_\n\nAnda tidak akan menerima sebarang notifikasi lagi berkaitan tiket ini. Sila balas e-mel ini sekiranya anda memerlukan perincian mengenai perkara ini.\n\nSekian, terima kasih.\n\n**_Admin Portal Data Terbuka Sektor Awam  \nJabatan Digital Negara, Kementerian Digital_**\n\n",
+			"html_content": "<html><head><title>[Ticket ID: {{ticket_id}}] Data Request from Public Sector Open Data Portal</title></head><body><p>Salam sejahtera,</p><p>Permohonan anda untuk data bertajuk <b>{{dataset_title}}</b> adalah <b>tidak diluluskan</b> oleh agensi <b>{{agency}}</b> atas justifikasi berikut:</p><p><i>{{remark}}</i></p><p>Anda tidak akan menerima sebarang notifikasi lagi berkaitan tiket ini. Sila balas e-mel ini sekiranya anda memerlukan perincian mengenai perkara ini.</p><p>Sekian, terima kasih.<p><strong><em>Admin Portal Data Terbuka Sektor Awam<br />Jabatan Digital Negara, Kementerian Digital</em></strong></p></p></body></html>",
 			"language": "ms-MY"
 		}
 	]
