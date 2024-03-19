@@ -1,0 +1,48 @@
+{
+    "publication": "mei_2023-11",
+    "publication_type": "indicators",
+    "release_date": "2024-01-22",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Nov 2023] Malaysian Economic Indicators",
+        "publication_type_title": "Economic Indicators",
+        "description": "Leading, lagging, and coincident composite indices (with diffusion) showing overall economic direction.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Malaysian Economic Indicators: Nov 2023",
+                "resource_link": "https://storage.dosm.gov.my/mei/mei_2023-11.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Malaysian Economic Indicators: Nov 2023",
+                "resource_link": "https://storage.dosm.gov.my/mei/mei_2023-11.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Nov 2023] Penunjuk Ekonomi Malaysia",
+        "publication_type_title": "Penunjuk Ekonomi",
+        "description": "Indeks komposit pelopor, serentak, dan susulan (termasuk difusi) menunjuk prestasi ekonomi secara am.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Penunjuk Ekonomi Malaysia: Nov 2023",
+                "resource_link": "https://storage.dosm.gov.my/mei/mei_2023-11.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Penunjuk Ekonomi Malaysia: Nov 2023",
+                "resource_link": "https://storage.dosm.gov.my/mei/mei_2023-11.pdf"
+            }
+        ]
+    }
+}
