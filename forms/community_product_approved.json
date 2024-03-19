@@ -4,16 +4,16 @@
 	"email_template": [
 		{
 			"name": "community_product_approved",
-			"subject": "Community Product Approved for data.gov.my",
-			"content": "Dear {{name}},\n\nYour submission of the community product **{{product_name}}** has been approved for showcasing on <https://data.gov.my>.\n\nYou may search for your entry on the [Community Products page](https://data.gov.my/community-products).\n\nThank you for contributing to our community showcase.\n\nWarm regards,\nPublic Sector Open Data Team",
-			"html_content": "<html><head><title>Community Product Approved</title></head><body><p>Dear {{name}},</p><p>Your submission of the community product <b>{{product_name}}</b> has been approved for showcasing on <a href='https://data.gov.my'>https://data.gov.my</a>.</p><p>You may search for your entry on the <a href='https://data.gov.my/community-products'>Community Products page</a>.</p><p>Thank you for contributing to our community showcase.</p><p>Warm regards,<br />Public Sector Open Data Team</p></body></html>",
+			"subject": "Community Product Approved for Public Sector Open Data Portal",
+			"content": "Dear {{name}},\n\nYour submission of the community product **{{product_name}}** has been\napproved for showcasing on <https://data.gov.my>.\n\nYou may search for your entry on the [Community Products\npage](https://data.gov.my/community-products).\n\nThank you for contributing to our community showcase.\n\nWarm regards,\n\n ** _Public Sector Open Data Team  \nJabatan Digital Negara, Kementerian Digital_**\n\n",
+			"html_content": "<html><head><title>Community Product Approved for Public Sector Open Data Portal</title></head><body><p>Dear {{name}},</p><p>Your submission of the community product <b>{{product_name}}</b> has been approved for showcasing on <a href='https://data.gov.my'>https://data.gov.my</a>.</p><p>You may search for your entry on the <a href='https://data.gov.my/community-products'>Community Products page</a>.</p><p>Thank you for contributing to our community showcase.</p><p>Warm regards,<p><strong><em>Public Sector Open Data Team<br />Jabatan Digital Negara, Kementerian Digital</em></strong></p></body></html>",
 			"language": "en"
 		},
 		{
 			"name": "community_product_approved",
-			"subject": "Lulusan Produk Komuniti untuk data.gov.my",
-			"content": "Dear {{name}},\n\nPermohonan anda untuk produk komuniti **{{product_name}}** telah diluluskan untuk dipaparkan di <https://data.gov.my>.\n\nAnda boleh mencari entri anda di [halaman Produk Komuniti](https://data.gov.my/community-products).\n\nTerima kasih kerana menyumbang kepada pameran komuniti kami.\n\nSekian, Terima Kasih.  \nPasukan Data Terbuka Sektor Awam",
-			"html_content": "<html><head><title>Produk Komuniti Diluluskan</title></head><body><p>Dear {{name}},</p><p>Permohonan anda untuk produk komuniti <b>{{product_name}}</b> telah diluluskan untuk dipaparkan di <a href='https://data.gov.my'>https://data.gov.my</a>.</p><p>Anda boleh mencari entri anda di <a href='https://data.gov.my/community-products'>halaman Produk Komuniti</a>.</p><p>Terima kasih kerana menyumbang kepada pameran komuniti kami.</p><p>Sekian, Terima Kasih. <br />Pasukan Data Terbuka Sektor Awam</p></body></html>",
+			"subject": "Pemakluman Kelulusan Pendaftaran Produk Komuniti untuk Portal Data Terbuka Sektor Awam",
+			"content": "Salam sejahtera {{name}},\n\nPermohonan anda bagi produk komuniti **{{product_name}}** untuk dipaparkan di\n<https://data.gov.my> telah diluluskan.\n\nAnda boleh melayari entri anda di [halaman Produk\nKomuniti](https://data.gov.my/ms-MY/community-products).\n\nTerima kasih kerana menyumbang kepada halaman Produk Komuniti kami.\n\nSekian, terima kasih.\n\n**_Admin Portal Data Terbuka Malaysia  \nJabatan Digital Negara, Kementerian Digital_**\n\n",
+			"html_content": "<html><head><title>Pemakluman Kelulusan Pendaftaran Produk Komuniti untuk Portal Data Terbuka Sektor Awam</title></head><body><p>Salam sejahtera {{name}},</p><p>Permohonan anda bagi produk komuniti <b>{{product_name}}</b> untuk dipaparkan di <a href='https://data.gov.my'>https://data.gov.my</a> telah diluluskan.</p><p>Anda boleh melayari entri anda di <a href='https://data.gov.my/ms-MY/community-products'>halaman Produk Komuniti</a>.</p><p>Terima kasih kerana menyumbang kepada halaman Produk Komuniti kami.</p><p>Sekian, terima kasih.<p><strong><em>Admin Portal Data Terbuka Malaysia<br />Jabatan Digital Negara, Kementerian Digital</em></strong></p></p></body></html>",
 			"language": "ms"
 		}
 	]
