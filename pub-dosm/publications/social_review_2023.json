@@ -1,0 +1,40 @@
+{
+    "publication": "social_review_2023",
+    "publication_type": "analysis",
+    "release_date": "2024-03-20",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "SEX",
+        "AGE"
+    ],
+    "en": {
+        "title": "[2023] Reviews & Analysis",
+        "publication_type_title": "Social Statistics Review",
+        "description": "Annual review of social statistics, covering population, housing, health, education, and others.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Social Statistics Review: 2023",
+                "resource_link": "https://storage.dosm.gov.my/analysis/social_review_2023.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2023] Sorotan dan Analisis",
+        "publication_type_title": "Sorotan Statistik Sosial",
+        "description": "Sorotan tahunan statistik sosial, merangkumi penduduk, perumahan, kesihatan, pendidikan, dan lain-lain lagi.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Sorotan Statistik Sosial: 2023",
+                "resource_link": "https://storage.dosm.gov.my/analysis/social_review_2023.pdf"
+            }
+        ]
+    }
+}
