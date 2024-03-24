@@ -1,0 +1,41 @@
+{
+    "publication": "msb_2023-12",
+    "publication_type": "summary",
+    "release_date": "2024-02-29",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY",
+        "AGE"
+    ],
+    "en": {
+        "title": "[Dec 2023] Statistical Bulletin",
+        "publication_type_title": "Reviews & Analysis",
+        "description": "Review of key publications during the month, covering demographic, economic, social, and environmental statistics.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Statistical Bulletin: Dec 2023",
+                "resource_link": "https://storage.dosm.gov.my/analysis/msb_2023-12.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Dis 2023] Buletin Statistik",
+        "publication_type_title": "Analisis & Sorotan",
+        "description": "Sorotan penerbitan penting semasa bulan tersebut, merangkumi statistik demografi, ekonomi, sosial, dan alam sekitar.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Buletin Statistik: Dis 2023",
+                "resource_link": "https://storage.dosm.gov.my/analysis/msb_2023-12.pdf"
+            }
+        ]
+    }
+}
