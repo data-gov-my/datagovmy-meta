@@ -1,6 +1,6 @@
 {
     "publication": "msb_2023-07",
-    "publication_type": "summary",
+    "publication_type": "analysis",
     "release_date": "2023-09-29",
     "frequency": "MONTHLY",
     "geography": [
@@ -27,7 +27,7 @@
     },
     "bm": {
         "title": "[Jul 2023] Buletin Statistik",
-        "publication_type_title": "Analisis & Sorotan",
+        "publication_type_title": "Sorotan & Analisis",
         "description": "Sorotan penerbitan penting semasa bulan tersebut, merangkumi statistik demografi, ekonomi, sosial, dan alam sekitar.",
         "resources": [
             {
