@@ -1,0 +1,48 @@
+{
+    "publication": "mesr_2023-08",
+    "publication_type": "summary",
+    "release_date": "2023-08-30",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Aug 2023] Economic Statistics Review",
+        "publication_type_title": "Reviews & Analysis",
+        "description": "Review and analysis of key economic statistics, covering the domestic sector, external sector, labour markets, and prices.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Economic Statistics Review: Aug 2023",
+                "resource_link": "https://storage.dosm.gov.my/analysis/mesr_2023-08.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Economic Statistics Review: Aug 2023",
+                "resource_link": "https://storage.dosm.gov.my/analysis/mesr_2023-08_en.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Ogo 2023] Sorotan Statistik Ekonomi",
+        "publication_type_title": "Sorotan & Analisis",
+        "description": "Sorotan dan analisis statistik ekonomi penting, merangkumi sektor domestik, sektor luaran, pasarah buruh, dan harga.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Sorotan Statistik Ekonomi: Ogo 2023",
+                "resource_link": "https://storage.dosm.gov.my/analysis/mesr_2023-08.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Sorotan Statistik Ekonomi: Ogo 2023",
+                "resource_link": "https://storage.dosm.gov.my/analysis/mesr_2023-08_bm.pdf"
+            }
+        ]
+    }
+}
