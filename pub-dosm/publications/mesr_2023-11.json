@@ -1,0 +1,48 @@
+{
+    "publication": "mesr_2023-11",
+    "publication_type": "summary",
+    "release_date": "2023-11-30",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Nov 2023] Economic Statistics Review",
+        "publication_type_title": "Reviews & Analysis",
+        "description": "Review and analysis of key economic statistics, covering the domestic sector, external sector, labour markets, and prices.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Economic Statistics Review: Nov 2023",
+                "resource_link": "https://storage.dosm.gov.my/analysis/mesr_2023-11.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Economic Statistics Review: Nov 2023",
+                "resource_link": "https://storage.dosm.gov.my/analysis/mesr_2023-11_en.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Nov 2023] Sorotan Statistik Ekonomi",
+        "publication_type_title": "Sorotan & Analisis",
+        "description": "Sorotan dan analisis statistik ekonomi penting, merangkumi sektor domestik, sektor luaran, pasarah buruh, dan harga.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Sorotan Statistik Ekonomi: Nov 2023",
+                "resource_link": "https://storage.dosm.gov.my/analysis/mesr_2023-11.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Sorotan Statistik Ekonomi: Nov 2023",
+                "resource_link": "https://storage.dosm.gov.my/analysis/mesr_2023-11_bm.pdf"
+            }
+        ]
+    }
+}
