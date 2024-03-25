@@ -1,0 +1,73 @@
+{
+    "publication": "cpi_2024-01",
+    "publication_type": "cpi",
+    "release_date": "2024-01-22",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Jan 2024] Consumer Price Index",
+        "publication_type_title": "Consumer Price Index (CPI)",
+        "description": "Official consumer price data, covering headline, core, and state-level inflation",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Consumer Price Index Report: Jan 2024",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2024-01.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "CPI Main Tables: Jan 2024",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2024-01_main.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "CPI Tables by State: Jan 2024",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2024-01_state.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Core CPI Tables: Jan 2024",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2024-01_core.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Jan 2024] Indeks Harga Pengguna",
+        "publication_type_title": "Indeks Harga Pengguna (IHP)",
+        "description": "Data harga pengguna rasmi, merangkumi inflasi, inflasi teras, dan inflasi mengikut negeri",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Laporan Indeks Harga Pengguna: Jan 2024",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2024-01.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Jadual Utama IHP: Jan 2024",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2024-01_main.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Jadual IHP mengikut Negeri: Jan 2024",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2024-01_state.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Jadual IHP Teras: Jan 2024",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2024-01_core.xlsx"
+            }
+        ]
+    }
+}
