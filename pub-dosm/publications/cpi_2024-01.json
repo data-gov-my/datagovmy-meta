@@ -11,7 +11,7 @@
     "en": {
         "title": "[Jan 2024] Consumer Price Index",
         "publication_type_title": "Consumer Price Index (CPI)",
-        "description": "Official consumer price data, covering headline, core, and state-level inflation",
+        "description": "Official consumer price data, covering headline, core, and state-level inflation.",
         "resources": [
             {
                 "resource_id": 1,
@@ -42,7 +42,7 @@
     "bm": {
         "title": "[Jan 2024] Indeks Harga Pengguna",
         "publication_type_title": "Indeks Harga Pengguna (IHP)",
-        "description": "Data harga pengguna rasmi, merangkumi inflasi, inflasi teras, dan inflasi mengikut negeri",
+        "description": "Data harga pengguna rasmi, merangkumi inflasi, inflasi teras, dan inflasi mengikut negeri.",
         "resources": [
             {
                 "resource_id": 1,
