@@ -1,0 +1,34 @@
+{
+    "publication": "tourism_domestic_2023-q4",
+    "publication_type": "tourism",
+    "release_date": "2024-03-26",
+    "frequency": "QUARTERLY",
+    "geography": [],
+    "demography": [],
+    "en": {
+        "title": "[4Q 2023] Domestic Tourism",
+        "publication_type_title": "Tourism",
+        "description": "Quarterly performance of domestic tourism, covering key statistics of domestic visits.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Domestic Tourism: 4Q 2023",
+                "resource_link": "https://storage.dosm.gov.my/tourism/tourism_domestic_2023-q4_en.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST4 2023] Pelancongan Domestik",
+        "publication_type_title": "Pelancongan",
+        "description": "Prestasi suku tahunan pelancongan domestik, merangkumi statistik penting pelancong domestik.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Pelancongan Domestik: ST4 2023",
+                "resource_link": "https://storage.dosm.gov.my/tourism/tourism_domestic_2023-q4_bm.pdf"
+            }
+        ]
+    }
+}
