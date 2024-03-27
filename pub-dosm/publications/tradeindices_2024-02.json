@@ -1,6 +1,7 @@
 {
     "publication": "tradeindices_2024-02",
     "publication_type": "trade",
+    "manual_trigger": 1,
     "release_date": "2024-03-27",
     "frequency": "MONTHLY",
     "geography": [
