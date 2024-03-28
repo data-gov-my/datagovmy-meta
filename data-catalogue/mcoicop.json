@@ -78,6 +78,13 @@
             "description_ms": "[Rentetan] Kod 4 digit, dengan tanda sempang apabila tidak berkaitan (contohnya untuk baris yang memberi definisi 2 dan 3 digit)"
         },
         {
+            "name": "subclass",
+            "title_en": "Subclass",
+            "title_ms": "Subkelas",
+            "description_en": "[String] 5-digit code, with dashes where not applicable (e.g. for rows providing 2 and 3-digit definitions)",
+            "description_ms": "[Rentetan] Kod 5 digit, dengan tanda sempang apabila tidak berkaitan (contohnya untuk baris yang memberi definisi 2 dan 3 digit)"
+        },
+        {
             "name": "desc_en",
             "title_en": "Description (EN)",
             "title_ms": "Keterangan (EN)",
@@ -110,6 +117,7 @@
         "division": "Division",
         "group": "Group",
         "class": "Class",
+        "subclass": "Subclass",
         "desc_en": "Description (EN)",
         "desc_bm": "Description (BM)"
     },
@@ -118,6 +126,7 @@
         "division": "Bahagian",
         "group": "Kumpulan",
         "class": "Kelas",
+        "subclass": "Subclass",
         "desc_en": "Keterangan (EN)",
         "desc_bm": "Keterangan (EN)"
     },
