@@ -1,11 +1,11 @@
 {
-    "title_en": "CPI by Division (2-digit)",
-    "title_ms": "IHP mengikut Bahagian (2-digit)",
-    "title_sort": 1,
-    "description_en": "National-level CPI for 12 main groups of goods and services.",
-    "description_ms": "IHP peringkat nasional bagi 12 kumpulan utama barangan dan perkhidmatan.",
-    "exclude_openapi": false,
-    "manual_trigger": "na",
+    "title_en": "CPI by Subclass (5-digit)",
+    "title_ms": "IHP mengikut Subkelas (5-digit)",
+    "title_sort": 9,
+    "description_en": "National-level CPI at class granularity. The table below provides a preview of the full dataset using the latest month of data only.",
+    "description_ms": "IHP peringkat nasional dengan perincian tahap kelas. Jadual di bawah memberi pratonton kepada set data penuh dengan menggunakan data bulan terkini sahaja.",
+    "exclude_openapi": true,
+    "manual_trigger": "",
     "data_as_of": "2024-02",
     "last_updated": "2024-03-25 12:00",
     "next_update": "2024-04-25 12:00",
@@ -15,8 +15,9 @@
     "caveat_ms": "Dalam mentafsirkan kadar inflasi yang dihasilkan berdasarkan IHP, perlu diingati bahawa inflasi yang dirasai oleh mana-mana individu mungkin lebih tinggi atau lebih rendah daripada angka ini. Ini tidak bermaksud bahawa angka IHP tidak betul, kerana IHP dirangka sebagai angka purata yang mewakili seluruh penduduk.",
     "publication_en": "[Consumer Price Index, Feb 2024](https://open.dosm.gov.my/publications/cpi_2024-02), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/dashboard/consumer-prices).",
     "publication_ms": "[Indeks Harga Pengguna, Feb 2024](https://open.dosm.gov.my/ms-MY/publications/cpi_2024-02), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/ms-MY/dashboard/consumer-prices).",
-    "link_parquet": "https://storage.dosm.gov.my/cpi/cpi_2d.parquet",
-    "link_csv": "https://storage.dosm.gov.my/cpi/cpi_2d.csv",
+    "link_parquet": "https://storage.dosm.gov.my/cpi/cpi_5d.parquet",
+    "link_csv": "https://storage.dosm.gov.my/cpi/cpi_5d.csv",
+    "link_preview": "https://storage.dosm.gov.my/cpi/cpi_5d_preview.parquet",
     "frequency": "MONTHLY",
     "geography": [
         "NATIONAL"
@@ -56,11 +57,11 @@
             "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01 kerana data berfrekuensi bulanan"
         },
         {
-            "name": "division",
-            "title_en": "Division",
-            "title_ms": "Bahagian",
-            "description_en": "[String] 2-digit code from 00-13, to be matched using the 'division' column in the [MCOICOP Lookup](https://open.dosm.gov.my/data-catalogue/mcoicop). The MCOICOP lookup table will give you the English and Malay definitions.",
-            "description_ms": "[Rentetan] Kod 2 digit dari 00-13, yang perlu dipadankan dengan medan 'division' dalam [Jadual MCOICOP](https://open.dosm.gov.my/ms-MY/data-catalogue/mcoicop). Padanan tersebut akan membolehkan anda mendapat keterangan dalam Bahasa Inggeris dan Bahasa Melayu."
+            "name": "subclass",
+            "title_en": "Subclass",
+            "title_ms": "Subkelas",
+            "description_en": "[String] 5-digit code, to be matched using the 'subclass' column in the [MCOICOP Lookup](https://open.dosm.gov.my/data-catalogue/mcoicop). The MCOICOP lookup table will give you the English and Malay definitions.",
+            "description_ms": "[Rentetan] Kod 5 digit yang perlu dipadankan dengan medan 'subclass' dalam [Jadual MCOICOP](https://open.dosm.gov.my/ms-MY/data-catalogue/mcoicop). Padanan tersebut akan membolehkan anda mendapat keterangan dalam Bahasa Inggeris dan Bahasa Melayu."
         },
         {
             "name": "index",
@@ -78,31 +79,10 @@
             "chart_type": "TABLE",
             "config": {
                 "precision": 1,
-                "filter_columns": [
-                    "division"
-                ],
+                "filter_columns": [],
                 "freeze_columns": [
                     "date"
                 ]
-            }
-        },
-        {
-            "dataviz_id": "index",
-            "title_en": "CPI",
-            "title_ms": "IHP",
-            "chart_type": "TIMESERIES",
-            "config": {
-                "filter_columns": [
-                    "division"
-                ],
-                "precision": 0,
-                "operation": "SUM",
-                "format": {
-                    "x": "date",
-                    "y": [
-                        "index"
-                    ]
-                }
             }
         }
     ],
@@ -110,6 +90,9 @@
         "date": "Date",
         "y1": "Index",
         "division": "Division",
+        "group": "Group",
+        "class": "Class",
+        "subclass": "Subclass",
         "index": "Index",
         "00": "Overall",
         "01": "Food & Beverages",
@@ -130,6 +113,9 @@
         "date": "Tarikh",
         "y1": "Indeks",
         "division": "Bahagian",
+        "group": "Kumpulan",
+        "class": "Kelas",
+        "subclass": "Subkelas",
         "index": "Indeks",
         "00": "Keseluruhan",
         "01": "Makanan & Minuman",
