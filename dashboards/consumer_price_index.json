@@ -1,12 +1,12 @@
 {
     "dashboard_name": "consumer_price_index",
-    "data_last_updated": "2024-01-22 12:00",
-    "data_next_update": "2024-02-23 12:00",
+    "data_last_updated": "2024-03-25 12:00",
+    "data_next_update": "2024-04-25 12:00",
     "route": "/dashboard/consumer-prices,/ms-MY/dashboard/consumer-prices",
     "sites": [
         "opendosm"
     ],
-    "manual_trigger": "2024-01-30 01:03:21.610857",
+    "manual_trigger": "",
     "required_params": [],
     "optional_params": [],
     "charts": {
@@ -14,7 +14,7 @@
             "name": "bar_chart",
             "chart_type": "bar_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/cpi_main_barchart.parquet",
-            "data_as_of": "2023-12",
+            "data_as_of": "2024-02",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -36,7 +36,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/cpi_main_timeseries.parquet",
-            "data_as_of": "2023-12",
+            "data_as_of": "2024-02",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -49,19 +49,20 @@
                 },
                 "value_columns": [
                     "x",
-                    "overall",
-                    "food_beverage",
-                    "alcohol_tobacco",
-                    "clothing_footwear",
-                    "housing_utilities",
-                    "furnishings",
-                    "health",
-                    "transport",
-                    "communication",
-                    "recreation_culture",
-                    "education",
-                    "hospitality",
-                    "misc",
+                    "00",
+                    "01",
+                    "02",
+                    "03",
+                    "04",
+                    "05",
+                    "06",
+                    "07",
+                    "08",
+                    "09",
+                    "10",
+                    "11",
+                    "12",
+                    "13",
                     "recession"
                 ]
             }
@@ -70,7 +71,7 @@
             "name": "statistics",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/cpi_main_timeseries_callout.parquet",
-            "data_as_of": "2023-12",
+            "data_as_of": "2024-02",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -88,7 +89,7 @@
             "name": "timeseries_6d",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/cpi_query_timeseries_4d.parquet",
-            "data_as_of": "2023-12",
+            "data_as_of": "2024-02",
             "api_type": "individual_chart",
             "api_params": [
                 "lang",
@@ -116,7 +117,7 @@
             "name": "snapshot_4d",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/cpi_query_snapshot_4d.parquet?ignoreCache=0",
-            "data_as_of": "2023-12",
+            "data_as_of": "2024-02",
             "api_type": "individual_chart",
             "api_params": [
                 "lang",
@@ -152,7 +153,7 @@
             "name": "choropleth_district",
             "chart_type": "choropleth_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/cpi_district.parquet",
-            "data_as_of": "2023-12",
+            "data_as_of": "2024-02",
             "api_type": "static",
             "api_params": [],
             "variables": {
