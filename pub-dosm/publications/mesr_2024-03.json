@@ -1,6 +1,6 @@
 {
     "publication": "mesr_2024-03",
-    "publication_type": "summary",
+    "publication_type": "analysis",
     "release_date": "2024-03-29",
     "frequency": "MONTHLY",
     "geography": [
@@ -28,7 +28,7 @@
     },
     "bm": {
         "title": "[Mac 2024] Sorotan Statistik Ekonomi",
-        "publication_type_title": "Analisis & Sorotan",
+        "publication_type_title": "Sorotan & Analisis",
         "description": "Sorotan dan analisis statistik ekonomi penting, merangkumi sektor domestik, sektor luaran, pasarah buruh, dan harga.",
         "resources": [
             {
