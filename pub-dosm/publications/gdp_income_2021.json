@@ -1,0 +1,48 @@
+{
+    "publication": "gdp_income_2021",
+    "publication_type": "gdp",
+    "release_date": "2022-07-26",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2021] Gross Domestic Product (Income Approach)",
+        "publication_type_title": "Gross Domestic Product",
+        "description": "Quarterly gross domestic product (GDP), covering nominal and real GDP by type of expenditure and activity.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Gross Domestic Product (Income Approach): 2021",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_income_2021.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Gross Domestic Product (Income Approach): 2021",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_income_2021.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2021] Keluaran Dalam Negeri Kasar (Kaedah Pendapatan)",
+        "publication_type_title": "Keluaran Dalam Negeri Kasar",
+        "description": "Keluaran dalam negeri kasar (KDNK) suku tahunan, merangkumi KDNK pada harga semasa dan malar mengikut jenis perbelanjaan dan aktiviti.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Keluaran Dalam Negeri Kasar (Kaedah Pendapatan): 2021",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_income_2021.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Keluaran Dalam Negeri Kasar (Kaedah Pendapatan): 2021",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_income_2021.xlsx"
+            }
+        ]
+    }
+}
