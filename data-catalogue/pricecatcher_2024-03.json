@@ -4,10 +4,10 @@
     "description_en": "The table below provides a preview of the full dataset, which contains over a million prices. We recommend that you download and work with the data in a coding environment. This data should be used in conjuction with the Item Lookup and Premise Lookup tables.",
     "description_ms": "Jadual di bawah memberi pratonton kepada dataset penuh yang mengandungi lebih daripada sejuta harga. Kami sarankan anda memuat turun dan menganalisa data dengan menggunakan kod. Set data ini harus digunakan bersama dengan Jadual Carian Barangan dan Jadual Carian Premis.",
     "exclude_openapi": true,
-    "manual_trigger": "2024-03-31 22:57:00.475221",
-    "data_as_of": "2024-03-30 23:59",
-    "last_updated": "2024-03-31 12:00",
-    "next_update": "2024-04-01 12:00",
+    "manual_trigger": "2024-04-01 02:42:02.115515",
+    "data_as_of": "2024-03-31 23:59",
+    "last_updated": "2024-04-01 12:00",
+    "next_update": "\u2014",
     "methodology_en": " Prices are collected and verified by groundstaff on a daily basis, with over 2 million prices collected every month.",
     "methodology_ms": "Harga dipungut dan disahkan oleh staf di lapangan, dengan lebih 2 juta harga dipungut setiap bulan.",
     "caveat_en": "This data is collected for the purpose of price surveillance, and is excellent for high-frequency analysis of specific items in specific locations. Inflation surveillance requires a different approach, in particular to ensure proper representativeness. Inflation analysis should be conducted using DOSM's CPI data.",
@@ -58,15 +58,15 @@
             "name": "premise_code",
             "title_en": "Premise Code",
             "title_ms": "Kod Premis",
-            "description_en": "[Categorical] Integer representing the premise, to be mapped using the [Premise Lookup Table](https://data.gov.my/data-catalogue/pricecatcher_lookup_premise_preview_0). The lookup table will give you the premise name, address, district, and state.",
-            "description_ms": "[Kategori] Integer yang melambangkan premis, yang perlu dipadankan dengan [Jadual Carian Premis](https://data.gov.my/data-catalogue/pricecatcher_lookup_premise_preview_0). Jadual carian membolehkan anda mendapatkan nama, alamat, daerah, dan negeri bagi setiap premis."
+            "description_en": "[Categorical] Integer representing the premise, to be mapped using the [Premise Lookup Table](https://data.gov.my/data-catalogue/lookup_premise). The lookup table will give you the premise name, address, district, and state.",
+            "description_ms": "[Kategori] Integer yang melambangkan premis, yang perlu dipadankan dengan [Jadual Carian Premis](https://data.gov.my/data-catalogue/lookup_premise). Jadual carian membolehkan anda mendapatkan nama, alamat, daerah, dan negeri bagi setiap premis."
         },
         {
             "name": "item_code",
             "title_en": "Item Code",
             "title_ms": "Kod Barangan",
-            "description_en": "[Categorical] Integer representing the item, to be mapped using the [Item Lookup Table](https://data.gov.my/data-catalogue/pricecatcher_lookup_item_preview_0). The lookup table will give you the item name, unit of measurement, and categorisation.",
-            "description_ms": "[Kategori] Integer yang melambangkan barangan, yang perlu dipadankan dengan [Jadual Carian Barangan](https://data.gov.my/data-catalogue/pricecatcher_lookup_item_preview_0). Jadual carian membolehkan anda mendapatkan nama, unit ukuran, dan kategori bagi setiap barang."
+            "description_en": "[Categorical] Integer representing the item, to be mapped using the [Item Lookup Table](https://data.gov.my/data-catalogue/lookup_item). The lookup table will give you the item name, unit of measurement, and categorisation.",
+            "description_ms": "[Kategori] Integer yang melambangkan barangan, yang perlu dipadankan dengan [Jadual Carian Barangan](https://data.gov.my/data-catalogue/lookup_item). Jadual carian membolehkan anda mendapatkan nama, unit ukuran, dan kategori bagi setiap barang."
         },
         {
             "name": "price",

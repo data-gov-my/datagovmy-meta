@@ -16,7 +16,6 @@
   "publication_ms": "\u2014",
   "link_parquet": "https://storage.data.gov.my/pricecatcher/lookup_item.parquet",
   "link_csv": "https://storage.data.gov.my/pricecatcher/lookup_item.csv",
-  "link_preview": "https://storage.data.gov.my/pricecatcher/lookup_item_preview.parquet",
   "frequency": "INFREQUENT",
   "geography": [
     "DISTRICT"
