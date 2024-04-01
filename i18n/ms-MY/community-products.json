@@ -18,7 +18,7 @@
     "product_link": "Laman Web",
     "email": "Emel",
     "request_feature_modal": {
-      "title": "Pamerkan produk data terbuka saya di data.gov.my",
+      "title": "Pamerkan produk data terbuka anda di data.gov.my",
       "subtitle": "Hantar borang ini untuk pamerkan produk anda dan pihak kami akan menghubungi anda untuk langkah seterusnya",
       "name": "Nama",
       "email": "Emel",
@@ -36,7 +36,7 @@
       "product_link": "Pautan ke produk secara langsung",
       "product_link_note": "Nota: tanpa sebarang pautan, produk anda tidak akan ditampilkan dalam laman kami dan permohonan anda akan ditolak",
       "dataset_used": "Dataset terbuka yang digunakan",
-      "dataset_used_note": "Nota: Letakkan pautan the dataset yang digunakan. Untuk dataset lebih dari satu, gunakan penanda koma (,)",
+      "dataset_used_note": "Nota: Letakkan pautan ke dataset yang digunakan. Sekiranya anda menggunakan lebih dari satu dataset, pisahkan dengan menggunakan penanda koma (,)",
       "submit": "Hantar",
       "success_title": "Produk anda telah berjaya dihantar untuk semakan!",
       "success_description": "Pihak kami akan menghubungi anda untuk langkah seterusnya"
