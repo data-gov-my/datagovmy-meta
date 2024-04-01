@@ -1,7 +1,7 @@
 {
   "title_en": "Annual Live Births",
   "title_ms": "Kelahiran Hidup Tahunan",
-  "title_sort": 3,
+  "title_sort": 2,
   "description_en": "Annual number of births with signs of life upon delivery.",
   "description_ms": "Jumlah kelahiran tahunan yang bernyawa semasa dilahirkan.",
   "exclude_openapi": false,
