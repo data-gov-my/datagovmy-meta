@@ -85,7 +85,7 @@
       "chart_type": "TABLE",
       "config": {
         "precision": 0,
-        "filter_columns": [],
+        "filter_columns": ["sex","ethnicity"],
         "freeze_columns": []
       }
     },
