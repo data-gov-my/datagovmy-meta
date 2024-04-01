@@ -21,7 +21,7 @@
   "geography": [
     "NATIONAL"
   ],
-  "demography": [],
+  "demography": ["SEX","ETHNICITY"],
   "dataset_begin": 2000,
   "dataset_end": 2022,
   "data_source": [
@@ -119,12 +119,12 @@
     "male": "Male",
     "female": "Female",
     "overall": "All Ethnicities",
-    "bumi_malay": "Malay",
-    "bumi_other": "Other Bumiputera",
+    "bumi-malay": "Malay",
+    "bumi-other": "Other Bumiputera",
     "chinese": "Chinese",
     "indian": "Indian",
-    "other_citizen": "Other Citizen",
-    "other_noncitizen": "Non-Citizen"
+    "other-citizen": "Other Citizen",
+    "other-noncitizen": "Non-Citizen"
   },
   "translations_ms": {
     "y1": "Nilai",
@@ -138,12 +138,12 @@
     "male": "Lelaki",
     "female": "Perempuan",
     "overall": "Semua Etnik",
-    "bumi_malay": "Melayu",
-    "bumi_other": "Bumiputera Lain",
+    "bumi-malay": "Melayu",
+    "bumi-other": "Bumiputera Lain",
     "chinese": "Cina",
     "indian": "India",
-    "other_citizen": "Lain-Lain Warganegara",
-    "other_noncitizen": "Bukan Warganegara"
+    "other-citizen": "Lain-lain Warganegara",
+    "other-noncitizen": "Bukan Warganegara"
   },
   "related_datasets": []
 }
