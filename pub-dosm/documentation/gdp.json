@@ -11,8 +11,20 @@
 			{
 				"resource_id": 1,
 				"resource_type": "pdf",
-				"resource_name": "Technical Notes",
+				"resource_name": "Technical Notes (Production & Expenditure Approach)",
 				"resource_link": "https://storage.dosm.gov.my/technotes/gdp.pdf"
+			},
+			{
+				"resource_id": 2,
+				"resource_type": "pdf",
+				"resource_name": "Technical Notes (Income Approach)",
+				"resource_link": "https://storage.dosm.gov.my/technotes/gdp_income.pdf"
+			},
+			{
+				"resource_id": 3,
+				"resource_type": "pdf",
+				"resource_name": "Glossary",
+				"resource_link": "https://storage.dosm.gov.my/technotes/gdp_glossary.pdf"
 			}
 		]
 	},
@@ -24,8 +36,20 @@
 			{
 				"resource_id": 1,
 				"resource_type": "pdf",
-				"resource_name": "Nota Teknikal",
+				"resource_name": "Nota Teknikal (Kaedah Pengeluaran & Perbelanjaan)",
 				"resource_link": "https://storage.dosm.gov.my/technotes/gdp.pdf"
+			},
+			{
+				"resource_id": 2,
+				"resource_type": "pdf",
+				"resource_name": "Nota Teknikal (Kaedah Pendapatan)",
+				"resource_link": "https://storage.dosm.gov.my/technotes/gdp_income.pdf"
+			},
+			{
+				"resource_id": 3,
+				"resource_type": "pdf",
+				"resource_name": "Glosari",
+				"resource_link": "https://storage.dosm.gov.my/technotes/gdp_glossary.pdf"
 			}
 		]
 	}
