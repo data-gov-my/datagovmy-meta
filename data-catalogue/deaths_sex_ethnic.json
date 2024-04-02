@@ -33,18 +33,18 @@
       "category_en": "Demography",
       "category_ms": "Demografi",
       "category_sort": 1,
-      "subcategory_en": "Births",
-      "subcategory_ms": "Kelahiran",
-      "subcategory_sort": 2
+      "subcategory_en": "Deaths",
+      "subcategory_ms": "Kematian",
+      "subcategory_sort": 3
     },
     {
       "site": "opendosm",
       "category_en": "Demography",
       "category_ms": "Demografi",
       "category_sort": 1,
-      "subcategory_en": "Births",
-      "subcategory_ms": "Kelahiran",
-      "subcategory_sort": 2
+      "subcategory_en": "Deaths",
+      "subcategory_ms": "Kematian",
+      "subcategory_sort": 3
     }
   ],
   "fields": [
