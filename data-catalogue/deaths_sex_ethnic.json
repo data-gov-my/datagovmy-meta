@@ -75,6 +75,13 @@
       "title_ms": "Kematian",
       "description_en": "[Integer] Number of deaths in that year",
       "description_ms": "[Integer] Jumlah kematian dalam tahun tersebut"
+    },
+    {
+      "name": "rate",
+      "title_en": "Crude Death Rate",
+      "title_ms": "Kadar Kematian Kasar",
+      "description_en": "[Float] Number of deaths per 1000 population",
+      "description_ms": "[Integer] Jumlah kematian bagi setiap 1000 penduduk"
     }
   ],
   "dataviz": [
@@ -102,6 +109,23 @@
           "x": "date",
           "y": [
             "abs"
+          ]
+        }
+      }
+    },
+    {
+      "dataviz_id": "rate",
+      "title_en": "Crude Death Rate",
+      "title_ms": "Kadar Kematian Kasar",
+      "chart_type": "TIMESERIES",
+      "config": {
+        "filter_columns": ["sex","ethnicity"],
+        "precision": 1,
+        "operation": "SUM",
+        "format": {
+          "x": "date",
+          "y": [
+            "rate"
           ]
         }
       }
