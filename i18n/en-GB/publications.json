@@ -1,5 +1,5 @@
 {
-  "route": "/publications",
+  "route": null,
   "sites": ["opendosm"],
   "translation": {
     "nso": "Malaysia's National Statistics Organisation",
