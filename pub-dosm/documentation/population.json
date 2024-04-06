@@ -1,0 +1,56 @@
+{
+	"publication": "population-technotes",
+	"documentation_type": "technical-note",
+	"publication_type": "population",
+	"release_date": "2024-01-22",
+	"en": {
+		"title": "Current Population Estimates",
+		"publication_type_title": "Demography",
+		"description": "Intercensal mid-year population estimates, at national, state and district level, with breakdowns by sex, age and ethnic group.",
+		"resources": [
+			{
+				"resource_id": 1,
+				"resource_type": "pdf",
+				"resource_name": "Technical Notes: Population Estimates for Malaysia",
+				"resource_link": "https://storage.dosm.gov.my/technotes/population_malaysia.pdf"
+			},
+			{
+				"resource_id": 2,
+				"resource_type": "pdf",
+				"resource_name": "Technical Notes: Population Estimates by State",
+				"resource_link": "https://storage.dosm.gov.my/technotes/population_state.pdf"
+			},
+			{
+				"resource_id": 3,
+				"resource_type": "pdf",
+				"resource_name": "Technical Notes: Population Estimates by District",
+				"resource_link": "https://storage.dosm.gov.my/technotes/population_district.pdf"
+			}
+		]
+	},
+	"bm": {
+		"title": "Anggaran Penduduk Semasa",
+		"publication_type_title": "Demografi",
+		"description": "Anggaran penduduk pertengahan tahun antara banci, pada peringkat nasional, negeri dan daerah, dengan pecahan mengikut jantina, kumpulan umur dan kumpulan etnik.",
+		"resources": [
+			{
+				"resource_id": 1,
+				"resource_type": "pdf",
+				"resource_name": "Nota Teknikal: Anggaran Penduduk Malaysia",
+				"resource_link": "https://storage.dosm.gov.my/technotes/population_malaysia.pdf"
+			},
+			{
+				"resource_id": 2,
+				"resource_type": "pdf",
+				"resource_name": "Nota Teknikal: Anggaran Penduduk mengikut Negeri",
+				"resource_link": "https://storage.dosm.gov.my/technotes/population_state.pdf"
+			},
+			{
+				"resource_id": 3,
+				"resource_type": "pdf",
+				"resource_name": "Nota Teknikal: Anggaran Penduduk mengikut Daerah",
+				"resource_link": "https://storage.dosm.gov.my/technotes/population_district.pdf"
+			}
+		]
+	}
+}
