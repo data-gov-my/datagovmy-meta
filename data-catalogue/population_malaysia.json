@@ -1,9 +1,9 @@
 {
-  "title_en": "Population of Malaysia (1970-2023) by Sex, Age & Ethnicity",
-  "title_ms": "Penduduk Malaysia (1970-2023) mengikut Jantina, Umur & Etnik",
+  "title_en": "Population of Malaysia by Sex, Age & Ethnicity",
+  "title_ms": "Penduduk Malaysia mengikut Jantina, Umur & Etnik",
   "title_sort": 1,
-  "description_en": "Population of Malaysia at national level from 1970 to 2023, by sex, 5-year age group and ethnicity. The preview table shows data for the latest year only, but you may download the data in full.",
-  "description_ms": "Jumlah penduduk Malaysia di peringkat nasional dari 1970 ke 2023, mengikut jantina, kumpulan umur dan kumpulan etnik. Jadual pratonton hanya menunjukkan data bagi tahun terkini, tetapi data penuh boleh dimuat turun.",
+  "description_en": "Population at national level from 1970 to 2023, by sex, age group and ethnicity. The preview table shows data for the latest year only, but you may download the data in full.",
+  "description_ms": "Jumlah penduduk di peringkat nasional dari 1970 ke 2023, mengikut jantina, kumpulan umur dan kumpulan etnik. Jadual pratonton hanya menunjukkan data bagi tahun terkini, tetapi data penuh boleh dimuat turun.",
   "exclude_openapi": true,
   "manual_trigger": "",
   "data_as_of": "2023",
