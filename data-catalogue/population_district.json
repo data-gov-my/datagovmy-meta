@@ -111,7 +111,7 @@
       "chart_type": "TABLE",
       "config": {
         "precision": 1,
-        "filter_columns": [],
+        "filter_columns": ["state","district"],
         "freeze_columns": []
       }
     }
