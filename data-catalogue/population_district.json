@@ -2,19 +2,19 @@
   "title_en": "Population Table: Administrative Districts",
   "title_ms": "Jadual Penduduk: Daerah Pentadbiran",
   "title_sort": 3,
-  "description_en": "This dataset tabulates the population of Malaysia at administrative district level, by sex, ethnicity, and 5-year age group, from 2020 to 2023. Because the full dataset contains over 250,000 rows, the data shown here is a truncated preview (using Batu Pahat as an example) to help you explore the various fields.",
-  "description_ms": "Set data ini menunjukkan jumlah penduduk Malaysia di peringkat daerah pentadbiran, dengan pecahan mengikut jantina, kumpulan ethnik, dan kumpulan umur, dari 2020 hingga 2023. Oleh sebab set data penuh mengandungi lebih daripada 250,000 baris, data yang dipaparkan di sini telah disingkatkan (dengan mengambil Batu Pahat sebagai contoh) untuk membantu anda memahami medan-medan yang terkandung.",
+  "description_en": "Population at district level from 2020 to 2023, by sex, age group and ethnicity. The preview table shows data for Petaling only, to give you a feel for the format, but you may download the data in full.",
+  "description_ms": "Jumlah penduduk di peringkat daerah dari 2020 ke 2023, mengikut jantina, kumpulan umur dan kumpulan etnik. Jadual pratonton hanya menunjukkan data bagi Petaling sebagai contoh format data, tetapi data penuh boleh dimuat turun.",
   "exclude_openapi": true,
   "manual_trigger": "",
   "data_as_of": "2023",
   "last_updated": "2023-08-29 12:00",
   "next_update": "2024-08-31 12:00",
-  "methodology_en": "Values for 2020 are based on adjusted data from the 2020 Population and Housing Census of Malaysia. Values for 2021-23 are intercensal mid-year population estimates.",
-  "methodology_ms": "Angka bagi 2020 adalah berdasarkan data dari Banci Penduduk dan Perumahan Malaysia 2020. Angka bagi 2021-23 adalah anggaran pertengah tahun anggaran antara banci.",
-  "caveat_en": "Values for breakdowns may not sum to totals due to rounding to one decimal place. However, the differences are not obvious.",
-  "caveat_ms": "Angka-angka tidak semestinya terjumlah disebabkan oleh penggenapan kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
+  "methodology_en": "Values for 2020 are based on adjusted data from the Population Censuses conducted in that year. Values for all other years are intercensal mid-year population estimates. The intercensal estimates were generated using the cohort-component method, which estimates the latest year's population by taking the previous year's value, then adding births, subtracting deaths, and adding net migration. For a deeper understanding of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/population-technotes).",
+  "methodology_ms": "Angka bagi 2020 adalah berdasarkan data daripada Banci Penduduk yang dilaksanakan pada tahun tersebut. Angka bagi semua tahun lain adalah anggaran pertengahan tahun antara banci. Anggaran antara banci dihasilkan dengan kaedah komponen kohort, yang menganggarkan angka bagi tahun terkini dengan mengambil angka bagi tahun sebelumnya, kemudian tambah kelahiran, tolak kematian, dan tambah migrasi bersih. Untuk mendapat pemahaman metodologi yang lebih mendalam, sila rujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/population-technotes).",
+  "caveat_en": "Values for breakdowns may be slightly different to totals when summed, due to rounding to one decimal place.",
+  "caveat_ms": "Angka-angka terperinci mungkin sedikit berbeza dengan angka keseluruhan apabila terjumlah, disebabkan oleh penggenapan kepada satu titik perpuluhan.",
   "publication_en": "OpenDOSM features a [dashboard on the population of Malaysia](https://open.dosm.gov.my/dashboard/population).",
-  "publication_ms": "OpenDOSM sendiri memaparkan [papan pemuka khas tentang populasi](https://open.dosm.gov.my/dashboard/population).",
+  "publication_ms": "OpenDOSM memaparkan [papan pemuka khas tentang populasi](https://open.dosm.gov.my/dashboard/population).",
   "link_parquet": "https://storage.dosm.gov.my/population/population_district.parquet",
   "link_csv": "https://storage.dosm.gov.my/population/population_district.csv",
   "link_preview": "https://storage.dosm.gov.my/population/population_district_preview.parquet",
@@ -74,33 +74,33 @@
       "description_en": "[Categorical] One of 160 administrative districts, including the 4 states (Perlis and the 3 Federal Territories) which do not have subdivisions",
       "description_ms": "[Kategori] Satu daripada 160 daerah pentadbiran, termasuk 4 negeri (Perlis dan 3 Wilayah Persekutuan) yang tidak dipecahkan lagi"
     },
-    {
-      "name": "ethnicity",
-      "title_en": "Ethnicity",
-      "title_ms": "Etnik",
-      "description_en": "[Categorical] One of six mutually exclusive ethnic groups, or the overall population",
-      "description_ms": "[Kategori] Satu daripada enam kumpulan etnik saling eksklusif, ataupun penduduk keseluruhan"
-    },
+		{
+			"name": "sex",
+			"title_en": "Sex",
+			"title_ms": "Jantina",
+			"description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
+			"description_ms": "[Kategori] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
+		},
     {
       "name": "age",
       "title_en": "Age Group",
       "title_ms": "Kumpulan Umur",
-      "description_en": "[Categorical] Five-year age groups e.g. 0-4, 5-9, 10-14, etc. 85+ is the oldest category.",
-      "description_ms": "[Kategori] Kumpulan umur dengan julat 5 tahun, contohnya 0-4, 5-9, 10-14, dsb. 85+ adalah kumpulan yang tertua."
+      "description_en": "[Categorical] Either all age groups ('overall') or five-year age groups e.g. 0-4, 5-9, 10-14, etc. 85+ is the oldest category.",
+      "description_ms": "[Kategori] Sama ada semua kumpulan umur ('overall') atau kumpulan umur dengan julat 5 tahun, contohnya 0-4, 5-9, 10-14, dsb. 85+ adalah kumpulan yang tertua."
     },
+		{
+			"name": "ethnicity",
+			"title_en": "Ethnicity",
+			"title_ms": "Kumpulan Etnik",
+			"description_en": "[Categorical] All ethnic groups ('overall'), Malay ('bumi_malay'), other Bumiputera ('bumi_other'), Chinese ('chinese'), Indian ('indian'), other citizens ('other_citizen'), or non-citizen residents ('other_noncitizen').",
+			"description_ms": "[Kategori] Semua kumpulan etnik ('overall'), Melayu ('bumi_malay'), Bumiputera lain ('bumi_other'), Cina ('chinese'), India ('indian'), lain-lain warganegara ('other_citizen'), atau penduduk bukan warganegara ('other_noncitizen')"
+		},
     {
-      "name": "female",
-      "title_en": "Female",
-      "title_ms": "Perempuan",
-      "description_en": "[Float] Thousands of females ('000 people)",
-      "description_ms": "[Apung] Ribuan perempuan ('000 orang)"
-    },
-    {
-      "name": "male",
-      "title_en": "Male",
-      "title_ms": "Lelaki",
-      "description_en": "[Float] Thousands of males ('000 people)",
-      "description_ms": "[Apung] Ribuan lelaki ('000 orang)"
+      "name": "population",
+      "title_en": "Population ('000)",
+      "title_ms": "Penduduk ('000)",
+      "description_en": "[Float] Thousands of people ('000 people)",
+      "description_ms": "[Apung] Ribuan orang ('000 orang)"
     }
   ],
   "dataviz": [
