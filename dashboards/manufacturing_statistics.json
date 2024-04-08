@@ -1,7 +1,7 @@
 {
     "dashboard_name": "manufacturing_statistics",
-    "data_last_updated": "2024-03-12 12:00",
-    "data_next_update": "2024-04-08 12:00",
+    "data_last_updated": "2024-04-08 12:00",
+    "data_next_update": "2024-05-10 12:00",
     "route": "/dashboard/manufacturing-statistics,/ms-MY/dashboard/manufacturing-statistics",
     "sites": [
         "opendosm"
