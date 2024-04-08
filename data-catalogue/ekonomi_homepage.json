@@ -1,0 +1,55 @@
+{
+    "title_en": "Economic Ministry: Key Statistics",
+    "title_ms": "Kementerian Ekonomi: Sorotan Statistik",
+    "title_sort": 1,
+    "description_en": "-",
+    "description_ms": "-",
+    "exclude_openapi": false,
+    "manual_trigger": "2024-04-08 15:11:33.223545",
+    "data_as_of": "2023",
+    "last_updated": "2024-04-08 12:00",
+    "next_update": "—",
+    "methodology_en": "-",
+    "methodology_ms": "-",
+    "caveat_en": "-",
+    "caveat_ms": "-",
+    "publication_en": "-",
+    "publication_ms": "-",
+    "link_parquet": "https://storage.dosm.gov.my/adhoc/ekonomi_homepage.parquet",
+    "link_csv": "https://storage.data.gov.my/adhoc/ekonomi_homepage.csv",
+    "link_preview": "",
+    "frequency": "YEARLY",
+    "geography": [],
+    "demography": [],
+    "dataset_begin": 2021,
+    "dataset_end": 2023,
+    "data_source": [],
+    "site_category": [
+        {
+            "site": "opendosm",
+            "category_en": "Adhoc",
+            "category_ms": "Adhoc",
+            "category_sort": 90,
+            "subcategory_en": "Adhoc",
+            "subcategory_ms": "Adhoc",
+            "subcategory_sort": 90
+        }
+    ],
+    "fields": [],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 1,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {},
+    "translations_ms": {},
+    "related_datasets": []
+}
