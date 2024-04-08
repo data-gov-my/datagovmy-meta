@@ -4,7 +4,7 @@
   "description_en": "Performance of the wholesale & retail trade, including the motor vehicles subsector.",
   "description_ms": "Prestasi perdagangan borong & runcit, termasuk subsektor kenderaan bermotor.",
   "exclude_openapi": false,
-  "manual_trigger": "",
+  "manual_trigger": "1",
   "data_as_of": "2024-02",
   "last_updated": "2024-04-08 12:00",
   "next_update": "2024-05-10 12:00",
