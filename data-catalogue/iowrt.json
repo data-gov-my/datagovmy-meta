@@ -1,22 +1,21 @@
 {
-  "title_en": "Index of Wholesale & Retail Trade",
-  "title_ms": "Indeks Perdagangan Borong & Runcit",
-  "description_en": "Performance of the wholesale & retail trade, including the motor vehicles subsector.",
-  "description_ms": "Prestasi perdagangan borong & runcit, termasuk subsektor kenderaan bermotor.",
+  "title_en": "Wholesale & Retail Trade (WRT): Headline Statistics",
+  "title_ms": "Perdagangan Borong & Runcit (PBR): Keseluruhan",
+  "description_en": "Overall performance of the wholesale & retail trade subsectors, covering sales value and volume.",
+  "description_ms": "Prestasi keseluruhan subsektor perdagangan borong & runcit, merangkumi nilai dan volum jualan.",
   "exclude_openapi": false,
-  "manual_trigger": "1",
+  "manual_trigger": "",
   "data_as_of": "2024-02",
   "last_updated": "2024-04-08 12:00",
   "next_update": "2024-05-10 12:00",
-  "methodology_en": "The data covers all establishments engaged in Wholesale & Retail Trade activities in Malaysia, including the trade of Motor Vehicles. The data reported is based on the Profit and Loss Account / Financial Statement and other supporting documents for the reference year. In cases where the account is not finalized or not available, the data is based on the best estimates. For a full description of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/iowrt-technotes).",
-  "methodology_ms": "Data ini meliputi semua pertubuhan yang terlibat dalam aktiviti Perdagangan Borong & Runcit Malaysia, termasuk Kenderaan Bermotor. Data yang dilaporkan berdasarkan penyata Untung Rugi/ Kewangan dan dokumen sokongan lain untuk tahun rujukan. Dalam keadaan di mana akaun itu tidak selesai atau tidak tersedia, data adalah berdasarkan anggaran terbaik. Untuk mendapat perincian metodologi yang penuh, sila merujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/iowrt-technotes).",
-  "caveat_en": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
-  "caveat_ms": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisis.",
+  "methodology_en": "Statistics on the wholesale and retail trade subsectors are produced using data collected through the Monthly Survey of Wholesale & Retail Trade. The data covers all establishments registered with relevant regulatory bodies which are engaged in wholesale and retail trade activities, and is reported based on the establishments' profit and loss accounts, financial statements, and other valid supporting documents. For a full description of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/iowrt-technotes).",
+  "methodology_ms": "Statistik mengenai subsektor perdagangan borong dan runcit dihasilkan menggunakan data yang dikumpul melalui Survei Perdagangan Borong & Runcit Bulanan. Data tersebut meliputi semua pertubuhan yang berdaftar dengan badan-badan kawal selia yang terlibat dalam aktiviti perdagangan borong dan runcit, dan dilaporkan berdasarkan penyata untung dan rugi, penyata kewangan, serta dokumen sokongan sah yang lain. Untuk mendapat perincian metodologi yang penuh, sila merujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/iowrt-technotes).",
+  "caveat_en": "In cases where proper financial statements for an establishment are incomplete or unavailable, the data is reported based on the best available estimates",
+  "caveat_ms": "Dalam keadaan di mana akaun kewangan sesebuah pertubuhan itu tidak selesai atau tidak tersedia, data dilaporkan berdasarkan anggaran terbaik.",
   "publication_en": "[Wholesale & Retail Trade, Feb 2023](https://open.dosm.gov.my/publications/iowrt_2024-02), the latest edition of the monthly wholesale and retail trade statistics published by DOSM. OpenDOSM also features a [dashboard on wholesale and retail trade](https://open.dosm.gov.my/dashboard/wholesale-retail-trade).",
   "publication_ms": "[Perdagangan Borong dan Runcit, Feb 2023](https://open.dosm.gov.my/ms-MY/publications/iowrt_2024-02), edisi terkini bagi statistik perdagangan borong dan runcit yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan borong dan runcit](https://open.dosm.gov.my/ms-MY/dashboard/wholesale-retail-trade).",
   "link_parquet": "https://storage.dosm.gov.my/iowrt/iowrt.parquet",
   "link_csv": "https://storage.dosm.gov.my/iowrt/iowrt.csv",
-  "link_preview": "https://storage.dosm.gov.my/iowrt/iowrt.parquet",
   "frequency": "MONTHLY",
   "geography": [
     "NATIONAL"
@@ -49,46 +48,39 @@
   ],
   "fields": [
     {
-      "name": "variable",
-      "title_en": "Variable",
-      "title_ms": "Pembolehubah",
-      "description_en": "[String] Value type; sales value (sales), index (index) or seasonally adjusted index (index_sa)",
-      "description_ms": "[Rentetan] Jenis nilai; nilai jualan (sales), indeks (index) atau indeks terlaras secara musim (index_sa)"
+      "name": "series",
+      "title_en": "Series Type",
+      "title_ms": "Jenis Siri",
+      "description_en": "[String] Series type, either absolute values ('abs'), year-on-year growth ('growth_yoy') or month-on-month growth ('growth_mom')",
+      "description_ms": "[Rentetan] Jenis siri, sama ada nilai mutlak ('abs'), pertumbuhan tahunan ('growth_yoy') atau pertumbuhan bulanan ('growth_mom')"
     },
     {
       "name": "date",
       "title_en": "Date",
       "title_ms": "Tarikh",
-      "description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01",
-      "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01"
+      "description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01 as the data is at monthly frequency",
+      "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01 kerana data berfrekuensi bulanan"
     },
     {
-      "name": "overall",
-      "title_en": "Overall",
-      "title_ms": "Keseluruhan",
-      "description_en": "[Integer] Value in RM mil or an index value",
-      "description_ms": "[Integer] Nilai dalam RM juta ataupun nilai indeks"
+      "name": "sales",
+      "title_en": "Sales Value",
+      "title_ms": "Nilai Jualan",
+      "description_en": "[Float, RM mil] The total sum paid by customers, in RM millions",
+      "description_ms": "[Apung, RM juta] Jumlah yang dibayar oleh para pelanggan, dalam RM juta"
     },
     {
-      "name": "wholesale",
-      "title_en": "Wholesale Trade",
-      "title_ms": "Perdagangan Borong",
-      "description_en": "[Integer] Value in RM mil or an index value",
-      "description_ms": "[Integer] Nilai dalam RM juta ataupun nilai indeks"
+      "name": "volume",
+      "title_en": "Volume Index",
+      "title_ms": "Indeks Volum",
+      "description_en": "[Float] Quantity of items sold, expressed as an index with base 2015 = 100",
+      "description_ms": "[Apung] Jumlah barang yang dijual, sebagai indeks dengan asas 2015 = 100"
     },
     {
-      "name": "retail",
-      "title_en": "Retail Trade",
-      "title_ms": "Perdagangan Borong",
-      "description_en": "[Integer] Value in RM mil or an index value",
-      "description_ms": "[Integer] Nilai dalam RM juta ataupun nilai indeks"
-    },
-    {
-      "name": "motor",
-      "title_en": "Motor Vehicles",
-      "title_ms": "Kendaraan Bermotor",
-      "description_en": "[Integer] Value in RM mil or an index value",
-      "description_ms": "[Integer] Nilai dalam RM juta ataupun nilai indeks"
+      "name": "volume_sa",
+      "title_en": "Volume Index (sa)",
+      "title_ms": "Indeks Volum (tsm)",
+      "description_en": "[Float] Quantity of items sold, expressed as a seasonally adjusted index with base 2015 = 100",
+      "description_ms": "[Apung] Jumlah barang yang dijual, sebagai indeks terlaras secara musim dengan asas 2015 = 100"
     }
   ],
   "dataviz": [
@@ -100,109 +92,88 @@
       "config": {
         "precision": 1,
         "filter_columns": [
-          "variable"
+          "series"
         ],
-        "freeze_columns": []
+        "freeze_columns": ["series","date"]
       }
     },
     {
-      "dataviz_id": "overall",
-      "title_en": "Overall",
-      "title_ms": "Keseluruhan",
+      "dataviz_id": "sales",
+      "title_en": "Sales Value",
+      "title_ms": "Nilai Jualan",
       "chart_type": "TIMESERIES",
       "config": {
         "filter_columns": [
-          "variable"
+          "series"
         ],
-        "precision": 0,
+        "precision": 1,
         "operation": "SUM",
         "format": {
           "x": "date",
           "y": [
-            "overall"
+            "sales"
           ]
         }
       }
     },
     {
-      "dataviz_id": "wholesale",
-      "title_en": "Wholesale Trade",
-      "title_ms": "Perdagangan Borong",
+      "dataviz_id": "volume",
+      "title_en": "Volume Index",
+      "title_ms": "Indeks Volum",
       "chart_type": "TIMESERIES",
       "config": {
         "filter_columns": [
-          "variable"
+          "series"
         ],
-        "precision": 0,
+        "precision": 1,
         "operation": "SUM",
         "format": {
           "x": "date",
           "y": [
-            "wholesale"
+            "volume"
           ]
         }
       }
     },
     {
-      "dataviz_id": "retail",
-      "title_en": "Retail Trade",
-      "title_ms": "Perdagangan Runcit",
+      "dataviz_id": "volume_sa",
+      "title_en": "Volume Index (sa)",
+      "title_ms": "Indeks Volum (tsm)",
       "chart_type": "TIMESERIES",
       "config": {
         "filter_columns": [
-          "variable"
+          "series"
         ],
-        "precision": 0,
+        "precision": 1,
         "operation": "SUM",
         "format": {
           "x": "date",
           "y": [
-            "retail"
-          ]
-        }
-      }
-    },
-    {
-      "dataviz_id": "motor",
-      "title_en": "Motor Vehicles",
-      "title_ms": "Kendaraan Bermotor",
-      "chart_type": "TIMESERIES",
-      "config": {
-        "filter_columns": [
-          "variable"
-        ],
-        "precision": 0,
-        "operation": "SUM",
-        "format": {
-          "x": "date",
-          "y": [
-            "motor"
+            "volume_sa"
           ]
         }
       }
     }
   ],
   "translations_en": {
-    "variable": "Variable",
+    "series": "Series Type",
     "date": "Date",
     "overall": "Overall",
-    "wholesale": "Wholesale Trade",
-    "retail": "Retail Trade",
-    "motor": "Motor Vehicles",
     "sales": "Sales Value (RM mil)",
     "volume": "Volume (index)",
-    "volume-sa": "Volume (index, sa)"
+    "volume-sa": "Volume (index, sa)",
+    "x": "Date",
+    "y1": "Value"
   },
   "translations_ms": {
-    "variable": "Pembolehubah",
+    "series": "Jenis Siri",
     "date": "Tarikh",
     "overall": "Keseluruhan",
-    "wholesale": "Perdagangan Borong",
-    "retail": "Perdagangan Borong",
-    "motor": "Kendaraan Bermotor",
     "sales": "Nilai Jualan (RM juta)",
     "volume": "Volum (indeks)",
-    "volume-sa": "Volum (indeks, tsm)"
+    "volume-sa": "Volum (indeks, tsm)",
+    "x": "Date",
+    "y1": "Value"
   },
   "related_datasets": []
 }
