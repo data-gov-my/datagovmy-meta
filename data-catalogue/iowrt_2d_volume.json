@@ -67,7 +67,7 @@
         "title_en": "Division",
         "title_ms": "Bahagian",
         "description_en": "[String] 2-digit code, to be matched using the 'division' column in the [MSIC Lookup](https://open.dosm.gov.my/data-catalogue/msic). The MSIC lookup table will give you the English and Malay definitions.",
-        "description_ms": "[Rentetan] Kod 2 digit dari 00-13, yang perlu dipadankan dengan medan 'division' dalam [Jadual MSIC](https://open.dosm.gov.my/ms-MY/data-catalogue/msic). Padanan tersebut akan membolehkan anda mendapat keterangan dalam Bahasa Inggeris dan Bahasa Melayu."
+        "description_ms": "[Rentetan] Kod 2 digit, yang perlu dipadankan dengan medan 'division' dalam [Jadual MSIC](https://open.dosm.gov.my/ms-MY/data-catalogue/msic). Padanan tersebut akan membolehkan anda mendapat keterangan dalam Bahasa Inggeris dan Bahasa Melayu."
     },
     {
       "name": "volume",
@@ -115,6 +115,7 @@
     "series": "Series Type",
     "date": "Date",
     "overall": "Overall",
+    "division": "Division",
     "sales": "Sales (RM mil)",
     "volume": "Volume (index)",
     "volume-sa": "Volume (index, sa)",
@@ -131,6 +132,7 @@
     "series": "Jenis Siri",
     "date": "Tarikh",
     "overall": "Keseluruhan",
+    "division": "Bahagian",
     "sales": "Jualan (RM juta)",
     "volume": "Volum (indeks)",
     "volume-sa": "Volum (indeks, tsm)",
