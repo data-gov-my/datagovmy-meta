@@ -1,9 +1,9 @@
 {
-  "title_en": "Wholesale & Retail Trade (WRT): Headline Statistics",
-  "title_ms": "Perdagangan Borong & Runcit (PBR): Keseluruhan",
-  "title_sort": 10,
-  "description_en": "Overall performance of the wholesale & retail trade subsectors, covering sales value and volume.",
-  "description_ms": "Prestasi keseluruhan subsektor perdagangan borong & runcit, merangkumi nilai dan volum jualan.",
+  "title_en": "WRT: Volume Index by Division (2 digit)",
+  "title_ms": "PBR: Indeks Volum mengikut Bahagian (2 digit)",
+  "title_sort": 30,
+  "description_en": "Volume index for wholesale & retail trade subsectors, by MSIC division (2 digit).",
+  "description_ms": "Indeks volum bagi subsektor perdagangan borong & runcit, mengikut bahagian MSIC (2 digit).",
   "exclude_openapi": false,
   "manual_trigger": "",
   "data_as_of": "2024-02",
@@ -63,11 +63,11 @@
       "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01 kerana data berfrekuensi bulanan"
     },
     {
-      "name": "sales",
-      "title_en": "Sales Value",
-      "title_ms": "Nilai Jualan",
-      "description_en": "[Float, RM mil] The total sum paid by customers, in RM millions",
-      "description_ms": "[Apung, RM juta] Jumlah yang dibayar oleh para pelanggan, dalam RM juta"
+        "name": "division",
+        "title_en": "Division",
+        "title_ms": "Bahagian",
+        "description_en": "[String] 2-digit code, to be matched using the 'division' column in the [MSIC Lookup](https://open.dosm.gov.my/data-catalogue/msic). The MSIC lookup table will give you the English and Malay definitions.",
+        "description_ms": "[Rentetan] Kod 2 digit dari 00-13, yang perlu dipadankan dengan medan 'division' dalam [Jadual MSIC](https://open.dosm.gov.my/ms-MY/data-catalogue/msic). Padanan tersebut akan membolehkan anda mendapat keterangan dalam Bahasa Inggeris dan Bahasa Melayu."
     },
     {
       "name": "volume",
@@ -75,13 +75,6 @@
       "title_ms": "Indeks Volum",
       "description_en": "[Float] Quantity of items sold, expressed as an index with base 2015 = 100",
       "description_ms": "[Apung] Jumlah barang yang dijual, sebagai indeks dengan asas 2015 = 100"
-    },
-    {
-      "name": "volume_sa",
-      "title_en": "Volume Index (sa)",
-      "title_ms": "Indeks Volum (tsm)",
-      "description_en": "[Float] Quantity of items sold, expressed as a seasonally adjusted index with base 2015 = 100",
-      "description_ms": "[Apung] Jumlah barang yang dijual, sebagai indeks terlaras secara musim dengan asas 2015 = 100"
     }
   ],
   "dataviz": [
@@ -93,28 +86,9 @@
       "config": {
         "precision": 1,
         "filter_columns": [
-          "series"
+          "series","division"
         ],
         "freeze_columns": ["series","date"]
-      }
-    },
-    {
-      "dataviz_id": "sales",
-      "title_en": "Sales Value",
-      "title_ms": "Nilai Jualan",
-      "chart_type": "TIMESERIES",
-      "config": {
-        "filter_columns": [
-          "series"
-        ],
-        "precision": 1,
-        "operation": "SUM",
-        "format": {
-          "x": "date",
-          "y": [
-            "sales"
-          ]
-        }
       }
     },
     {
@@ -124,7 +98,7 @@
       "chart_type": "TIMESERIES",
       "config": {
         "filter_columns": [
-          "series"
+          "series","division"
         ],
         "precision": 1,
         "operation": "SUM",
@@ -135,52 +109,39 @@
           ]
         }
       }
-    },
-    {
-      "dataviz_id": "volume_sa",
-      "title_en": "Volume Index (sa)",
-      "title_ms": "Indeks Volum (tsm)",
-      "chart_type": "TIMESERIES",
-      "config": {
-        "filter_columns": [
-          "series"
-        ],
-        "precision": 1,
-        "operation": "SUM",
-        "format": {
-          "x": "date",
-          "y": [
-            "volume_sa"
-          ]
-        }
-      }
     }
   ],
   "translations_en": {
     "series": "Series Type",
     "date": "Date",
     "overall": "Overall",
-    "sales": "Sales Value (RM mil)",
+    "sales": "Sales (RM mil)",
     "volume": "Volume (index)",
     "volume-sa": "Volume (index, sa)",
     "abs": "Absolute values",
     "growth-yoy": "Year-on-year growth",
     "growth-mom": "Month-on-month growth",
+    "45" : "Motor vehicles and motorcycles",
+    "46" : "Wholesale trade",
+    "47" : "Retail trade",
     "x": "Date",
-    "y1": "Value"
+    "y1": "Sales (RM mil)"
   },
   "translations_ms": {
     "series": "Jenis Siri",
     "date": "Tarikh",
     "overall": "Keseluruhan",
-    "sales": "Nilai Jualan (RM juta)",
+    "sales": "Jualan (RM juta)",
     "volume": "Volum (indeks)",
     "volume-sa": "Volum (indeks, tsm)",
     "abs": "Nilai mutlak",
     "growth-yoy": "Pertumbuhan tahunan",
     "growth-mom": "Pertumbuhan bulanan",
+    "45" : "Kenderaan bermotor dan motosikal",
+    "46" : "Perdagangan borong",
+    "47" : "Perdagangan runcit",
     "x": "Date",
-    "y1": "Value"
+    "y1": "Jualan (RM juta)"
   },
   "related_datasets": []
 }
