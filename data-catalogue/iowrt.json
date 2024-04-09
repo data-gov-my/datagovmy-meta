@@ -162,6 +162,9 @@
     "sales": "Sales Value (RM mil)",
     "volume": "Volume (index)",
     "volume-sa": "Volume (index, sa)",
+    "abs": "Absolute values",
+    "growth-yoy": "Year-on-year growth",
+    "growth-mom": "Month-on-month growth",
     "x": "Date",
     "y1": "Value"
   },
@@ -172,6 +175,9 @@
     "sales": "Nilai Jualan (RM juta)",
     "volume": "Volum (indeks)",
     "volume-sa": "Volum (indeks, tsm)",
+    "abs": "Nilai mutlak",
+    "growth-yoy": "Pertumbuhan tahunan",
+    "growth-mom": "Pertumbuhan bulanan",
     "x": "Date",
     "y1": "Value"
   },
