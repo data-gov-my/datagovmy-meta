@@ -5,7 +5,7 @@
   "description_en": "Real output of the three main industrial sectors by MSIC section (1 digit).",
   "description_ms": "Pengeluaran sebenar bagi tiga sektor industri utama mengikut seksyen MSIC (1 digit).",
   "exclude_openapi": false,
-  "manual_trigger": "1",
+  "manual_trigger": "",
   "data_as_of": "2024-02",
   "last_updated": "2024-04-08 12:00",
   "next_update": "2024-05-10 12:00",
