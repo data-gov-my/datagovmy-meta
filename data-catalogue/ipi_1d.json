@@ -153,9 +153,9 @@
       "growth-mom": "Month-on-month growth",
       "x": "Date",
       "y1": "Value",
-      "B" : "Mining",
-      "C" : "Manufacturing",
-      "D" : "Electricity"
+      "b" : "Mining",
+      "c" : "Manufacturing",
+      "d" : "Electricity"
   },
   "translations_ms": {
       "series": "Jenis Siri",
@@ -170,9 +170,9 @@
       "growth-mom": "Pertumbuhan bulanan",
       "x": "Date",
       "y1": "Value",
-      "B" : "Perlombongan",
-      "C" : "Pembuatan",
-      "D" : "Bekalan elektrik"
+      "b" : "Perlombongan",
+      "c" : "Pembuatan",
+      "d" : "Bekalan elektrik"
   },
   "related_datasets": []
 }
