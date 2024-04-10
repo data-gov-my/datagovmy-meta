@@ -15,8 +15,8 @@
   "caveat_ms": "\u2014",
   "publication_en": "[Index of Industrial Production, Feb 2024](https://open.dosm.gov.my/publications/ipi_2024-02), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/dashboard/industrial-production).",
   "publication_ms": "[Indeks Pengeluaran Perindustrian, Feb 2024](https://open.dosm.gov.my/ms-MY/publications/ipi_2024-02), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/ms-MY/dashboard/industrial-production).",
-  "link_parquet": "https://storage.dosm.gov.my/ipi/ipi.parquet",
-  "link_csv": "https://storage.dosm.gov.my/ipi/ipi.csv",
+  "link_parquet": "https://storage.dosm.gov.my/ipi/ipi_1d.parquet",
+  "link_csv": "https://storage.dosm.gov.my/ipi/ipi_1d.csv",
   "frequency": "MONTHLY",
   "geography": [
     "NATIONAL"
