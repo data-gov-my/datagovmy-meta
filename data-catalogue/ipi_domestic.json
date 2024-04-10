@@ -1,0 +1,133 @@
+{
+  "title_en": "IPI for Domestic-Oriented Divisions (2 digit)",
+  "title_ms": "IPP bagi Bahagian Berorientasikan Domestik (2 digit)",
+  "title_sort": 70,
+  "description_en": "Real output of the three main industrial sectors for specific MSIC divisions (2 digit) which are critical for Malaysia's domestic economic performance. The table provides a preview of the full dataset using the latest month of data only.",
+  "description_ms": "Pengeluaran sebenar bagi tiga sektor industri utama bagi bahagian MSIC tertentu (2 digit) yang penting dalam memacu prestasi ekonomi domestik Malaysia. Jadual memberi pratonton kepada set data penuh dengan menggunakan data bulan terkini sahaja.",
+  "exclude_openapi": true,
+  "manual_trigger": "",
+  "data_as_of": "2024-02",
+  "last_updated": "2024-04-08 12:00",
+  "next_update": "2024-05-10 12:00",
+  "methodology_en": "The Industrial Production Index (IPI) is designed to measure the production of industrial commodities in the mining, manufacturing, and electricity sectors in real terms (i.e. in terms of output, not sales value). The IPI is produced using the following data:\n - Monthly data on the production of crude oil and natural gas from PETRONAS.\n - Monthly production data for 245 selected industries in the manufacturing sector from the Monthly Manufacturing Survey, which covers establishments with significant sales.\n - Monthly data on the production of crude palm oil, refined palm kernel oil and palm kernel oil from the Malaysian Palm Oil Board (MPOB).\n - Monthly data on the generation of electricity from Tenaga Nasional Berhad (TNB), Sabah Electricity Sdn. Bhd. (SESB) and Sarawak Energy Berhad (SEB).\n\n For a full description of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/ipi-technotes).",
+  "methodology_ms": "Indeks Pengeluaran Perindustrian (IPP) dirangka untuk mengukur pengeluaran komoditi perindustrian di sektor perlombongan, pembuatan dan elektrik dalam istilah sebenar (iaitu dari segi pengeluaran dan bukannya nilai jualan). IPP dirangka berdasarkan data tersebut:\n - Data bulanan pengeluaran minyak mentah dan gas asli daripada PETRONAS.\n - Data bulanan pengeluaran bagi 245 industri terpilih dalam sektor pembuatan melalui Survei Pembuatan Bulanan, yang merangkumi pertubuhan dengan sumbangan signifikan dari segi nilai jualan.\n - Data bulanan pengeluaran minyak kelapa sawit mentah, minyak kelapa sawit bertapis dan minyak isi rong kelapa sawit daripada Lembaga Minyak Sawit Malaysia (MPOB).\n - Data bulanan penjanaan tenaga elektrik daripada Tenaga Nasional Berhad (TNB), Sabah Electricity Sdn Bhd (SESB) dan Sarawak Energy Berhad (SEB).\n\n Untuk mendapat perincian metodologi yang penuh, sila merujuk kepada [Nota Teknikal](https://open.dosm.gov.my/publications/technical-notes/ipi-technotes).",
+  "caveat_en": "Seasonally adjusted data is not provided for this dataset.",
+  "caveat_ms": "Data terlaras secara musim tidak dibekalkan bagi set data ini.",
+  "publication_en": "[Index of Industrial Production, Feb 2024](https://open.dosm.gov.my/publications/ipi_2024-02), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/dashboard/industrial-production).",
+  "publication_ms": "[Indeks Pengeluaran Perindustrian, Feb 2024](https://open.dosm.gov.my/ms-MY/publications/ipi_2024-02), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/ms-MY/dashboard/industrial-production).",
+  "link_parquet": "https://storage.dosm.gov.my/ipi/ipi_domestic.parquet",
+  "link_csv": "https://storage.dosm.gov.my/ipi/ipi_domestic.csv",
+  "link_preview": "https://storage.dosm.gov.my/ipi/ipi_domestic_preview.parquet",
+  "frequency": "MONTHLY",
+  "geography": [
+    "NATIONAL"
+  ],
+  "demography": [],
+  "dataset_begin": 2015,
+  "dataset_end": 2024,
+  "data_source": [
+    "DOSM"
+  ],
+  "site_category": [
+    {
+      "site": "datagovmy",
+      "category_en": "Economic Sectors",
+      "category_ms": "Sektor Ekonomi",
+      "category_sort": 90,
+      "subcategory_en": "Industry",
+      "subcategory_ms": "Industri",
+      "subcategory_sort": 30
+    },
+    {
+      "site": "opendosm",
+      "category_en": "Economic Sectors",
+      "category_ms": "Sektor Ekonomi",
+      "category_sort": 90,
+      "subcategory_en": "Industry",
+      "subcategory_ms": "Industri",
+      "subcategory_sort": 30
+    }
+  ],
+  "fields": [
+    {
+        "name": "series",
+        "title_en": "Series Type",
+        "title_ms": "Jenis Siri",
+        "description_en": "[String] Series type, either absolute values ('abs'), year-on-year growth ('growth_yoy') or month-on-month growth ('growth_mom')",
+        "description_ms": "[Rentetan] Jenis siri, sama ada nilai mutlak ('abs'), pertumbuhan tahunan ('growth_yoy') atau pertumbuhan bulanan ('growth_mom')"
+    },
+    {
+        "name": "date",
+        "title_en": "Date",
+        "title_ms": "Tarikh",
+        "description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01 as the data is at monthly frequency",
+        "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01 kerana data berfrekuensi bulanan"
+    },
+    {
+        "name": "division",
+        "title_en": "Division",
+        "title_ms": "Bahagian",
+        "description_en": "[String] 2 or 3-digit code, to be matched using the 'division' and 'group' columns in the [MSIC Lookup](https://open.dosm.gov.my/data-catalogue/msic), except for the value 'overall' which is not present in the MSIC table, but which reflects the summary performance of domestic-oriented industrial output. Other than 'overall', the MSIC lookup table will give you the English and Malay definitions.",
+        "description_ms": "[Rentetan] Kod 2 atau 3 digit, yang perlu dipadankan dengan medan 'division' dan 'group' dalam [Jadual MSIC](https://open.dosm.gov.my/ms-MY/data-catalogue/msic), kecuali nilai 'overall' yang tidak terkandung dalam jadual MSIC, yang mewakili prestasi pengeluaran industri berorientasikan domestik secara keseluruhan. Selain nilai 'overall', padanan dengan jadual MSIC akan membolehkan anda mendapat keterangan dalam Bahasa Inggeris dan Bahasa Melayu."
+    },
+    {
+        "name": "index",
+        "title_en": "Index",
+        "title_ms": "Indeks",
+        "description_en": "[Float] Quantity of output expressed as an index with base 2015 = 100",
+        "description_ms": "[Apung] Jumlah pengeluaran sebagai indeks dengan asas 2015 = 100"
+    }
+  ],
+  "dataviz": [
+    {
+      "dataviz_id": "table",
+      "title_en": "Table",
+      "title_ms": "Jadual",
+      "chart_type": "TABLE",
+      "config": {
+        "precision": 1,
+        "filter_columns": [
+          "series"
+        ],
+        "freeze_columns": []
+      }
+    }
+  ],
+  "translations_en": {
+      "series": "Series Type",
+      "date": "Date",
+      "section": "Section",
+      "division": "Division",
+      "overall": "Overall",
+      "index": "Index",
+      "index_sa": "index (sa)",
+      "index-sa": "index (sa)",
+      "abs": "Absolute values",
+      "growth-yoy": "Year-on-year growth",
+      "growth-mom": "Month-on-month growth",
+      "x": "Date",
+      "y1": "Value",
+      "b" : "Mining",
+      "c" : "Manufacturing",
+      "d" : "Electricity"
+  },
+  "translations_ms": {
+      "series": "Jenis Siri",
+      "date": "Tarikh",
+      "section": "Seksyen",
+      "division": "Bahagian",
+      "overall": "Keseluruhan",
+      "index": "Indeks",
+      "index_sa": "Indeks (tsm)",
+      "index-sa": "Indeks (tsm)",
+      "abs": "Nilai mutlak",
+      "growth-yoy": "Pertumbuhan tahunan",
+      "growth-mom": "Pertumbuhan bulanan",
+      "x": "Date",
+      "y1": "Value",
+      "b" : "Perlombongan",
+      "c" : "Pembuatan",
+      "d" : "Bekalan elektrik"
+  },
+  "related_datasets": []
+}
