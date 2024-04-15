@@ -99,8 +99,10 @@
 			"config": {
 				"slider": "date",
 				"filter_columns": ["state", "variable"],
-				"x": "percentile",
-				"y": ["income"]
+				"format": {
+					"x": "percentile",
+					"y": ["income"]
+				}
 			}
 		}
 	],
