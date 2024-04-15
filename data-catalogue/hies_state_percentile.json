@@ -95,7 +95,7 @@
 			"dataviz_id": "bar",
 			"title_en": "Bar",
 			"title_ms": "BarMS",
-			"chart_type": "BAR_CHART",
+			"chart_type": "BAR",
 			"config": {
 				"slider": "date",
 				"filter_columns": ["state", "variable"],
