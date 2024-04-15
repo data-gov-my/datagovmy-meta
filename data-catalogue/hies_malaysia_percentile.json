@@ -84,7 +84,7 @@
       "chart_type": "TABLE",
       "config": {
         "precision": 0,
-        "filter_columns": [],
+        "filter_columns": ["variable"],
         "freeze_columns": []
       }
     }
@@ -95,7 +95,11 @@
     "district": "District",
     "percentile": "Percentile",
     "variable": "Variable",
-    "income": "Income"
+    "income": "Income",
+    "mean": "Mean",
+    "median": "Median",
+    "minimum": "Minimum",
+    "maximum": "Maximum"
   },
   "translations_ms": {
     "date": "Tarikh",
@@ -103,7 +107,11 @@
     "district": "Daerah",
     "percentile": "Persentil",
     "variable": "Pembolehubah",
-    "income": "Pendapatan"
+    "income": "Pendapatan",
+    "mean": "Min",
+    "median": "Median",
+    "minimum": "Minimum",
+    "maximum": "Maksimum"
   },
   "related_datasets": []
 }
