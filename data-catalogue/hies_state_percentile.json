@@ -94,7 +94,19 @@
         "filter_columns": ["state","variable"],
         "freeze_columns": []
       }
-    }
+    },
+		{
+			"dataviz_id": "bar",
+			"title_en": "Household Income Distribution",
+			"title_ms": "Taburan Pendapatan Isi Rumah",
+			"chart_type": "BAR_CHART",
+			"config": {
+				"slider": "date",
+				"filter_columns": ["state","variable"],
+				"x": "percentile",
+				"y": ["income"]
+			}
+		}
   ],
   "translations_en": {
     "date": "Date",
