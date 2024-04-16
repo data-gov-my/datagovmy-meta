@@ -5,7 +5,7 @@
     "description_en": "This table provides a complete lookup for 2, 3, 4, and 5-digit codes under Malaysia's COICOP (Classification of Individual Consumption According to Purpose), as applied and used in data publications in Malaysia. The MCOICOP is primarily used by the Department of Statistics Malaysia (DOSM), for instance when categorising and analysing consumer price inflation.",
     "description_ms": "Jadual ini memberi rujukan lengkap bagi kod 2, 3, 4 dan 5 digit dalam COICOP Malaysia (Classification of Individual Consumption According to Purpose), seperti yang digunapakai dalam penerbitan data di Malaysia. MCOICOP digunakan terutamanya oleh Jabatan Perangkaan Malaysia (DOSM), misalnya dalam mengkategorikan dan menganalisa inflasi harga pengguna.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2018",
     "last_updated": "2024-04-16",
     "next_update": "—",
