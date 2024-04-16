@@ -105,6 +105,7 @@
 					"key": "date",
 					"interval": "year"
 				},
+        "precision": 0,
 				"filter_columns": ["state", "variable"],
 				"format": {
 					"x": "percentile",
