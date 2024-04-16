@@ -66,8 +66,8 @@
             "name": "division",
             "title_en": "Division",
             "title_ms": "Bahagian",
-            "description_en": "[String] 2-digit code from 00-13, to be matched using the 'division' column in the [MCOICOP Lookup](https://open.dosm.gov.my/data-catalogue/mcoicop). The MCOICOP lookup table will give you the English and Malay definitions.",
-            "description_ms": "[Rentetan] Kod 2 digit dari 00-13, yang perlu dipadankan dengan medan 'division' dalam [Jadual MCOICOP](https://open.dosm.gov.my/ms-MY/data-catalogue/mcoicop). Padanan tersebut akan membolehkan anda mendapat keterangan dalam Bahasa Inggeris dan Bahasa Melayu."
+            "description_en": "[String] 2-digit code from 01-13 or 'overall', to be matched using the 'division' column in the [MCOICOP Lookup](https://open.dosm.gov.my/data-catalogue/mcoicop). The MCOICOP lookup table will give you the English and Malay definitions.",
+            "description_ms": "[Rentetan] Kod 2 digit dari 01-13 ataupun keseluruhan ('overall'), yang perlu dipadankan dengan medan 'division' dalam [Jadual MCOICOP](https://open.dosm.gov.my/ms-MY/data-catalogue/mcoicop). Padanan tersebut akan membolehkan anda mendapat keterangan dalam Bahasa Inggeris dan Bahasa Melayu."
         },
         {
             "name": "inflation_yoy",
