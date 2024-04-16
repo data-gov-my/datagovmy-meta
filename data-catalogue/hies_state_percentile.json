@@ -97,7 +97,10 @@
 			"title_ms": "BarMS",
 			"chart_type": "BAR",
 			"config": {
-				"slider": "date",
+				"slider": {
+					"key": "date",
+					"interval": "year"
+				},
 				"filter_columns": ["state", "variable"],
 				"format": {
 					"x": "percentile",
