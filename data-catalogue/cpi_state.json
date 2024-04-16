@@ -2,8 +2,8 @@
     "title_en": "CPI by State & Division (2-digit)",
     "title_ms": "IHP mengikut Negeri & Bahagian (2-digit)",
     "title_sort": 5,
-    "description_en": "State-level CPI for 12 main groups of goods and services.",
-    "description_ms": "IHP peringkat negeri bagi 12 kumpulan utama barangan dan perkhidmatan.",
+    "description_en": "State-level CPI for 13 main groups of goods and services.",
+    "description_ms": "IHP peringkat negeri bagi 13 kumpulan utama barangan dan perkhidmatan.",
     "exclude_openapi": false,
     "manual_trigger": "na",
     "data_as_of": "2024-02",
@@ -133,7 +133,7 @@
         "10": "Education",
         "11": "Restaurant & Accommodation Services",
         "12": "Insurance & Financial Services",
-        "13": "Personal Care, Social Protection & Others"
+        "13": "Personal Care, Social Protection & Miscellaneous Goods and Services"
     },
     "translations_ms": {
         "date": "Tarikh",
@@ -153,7 +153,7 @@
         "10": "Pendidikan",
         "11": "Restoran & Perkhidmatan Penginapan",
         "12": "Insurans & Perkhidmatan Kewangan",
-        "13": "Penjagaan Diri, Perlindungan Sosial & Lain-lain"
+        "13": "Penjagaan Diri, Perlindungan Sosial & Pelbagai Barangan dan Perkhidmatan"
     },
     "related_datasets": []
 }

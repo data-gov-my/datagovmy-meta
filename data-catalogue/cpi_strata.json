@@ -2,8 +2,8 @@
     "title_en": "CPI by Strata & Division (2-digit)",
     "title_ms": "IHP mengikut Strata & Bahagian (2-digit)",
     "title_sort": 10,
-    "description_en": "CPI by strata (urban/rural) for 12 main groups of goods and services.",
-    "description_ms": "IHP mengikut strata (bandar/luar bandar) bagi 12 kumpulan utama barangan dan perkhidmatan.",
+    "description_en": "CPI by strata (urban/rural) for 13 main groups of goods and services.",
+    "description_ms": "IHP mengikut strata (bandar/luar bandar) bagi 13 kumpulan utama barangan dan perkhidmatan.",
     "exclude_openapi": false,
     "manual_trigger": "na",
     "data_as_of": "2024-02",
@@ -134,7 +134,7 @@
         "10": "Education",
         "11": "Restaurant & Accommodation Services",
         "12": "Insurance & Financial Services",
-        "13": "Personal Care, Social Protection & Others"
+        "13": "Personal Care, Social Protection & Miscellaneous Goods and Services"
     },
     "translations_ms": {
         "date": "Tarikh",
@@ -155,7 +155,7 @@
         "10": "Pendidikan",
         "11": "Restoran & Perkhidmatan Penginapan",
         "12": "Insurans & Perkhidmatan Kewangan",
-        "13": "Penjagaan Diri, Perlindungan Sosial & Lain-lain"
+        "13": "Penjagaan Diri, Perlindungan Sosial & Pelbagai Barangan dan Perkhidmatan"
     },
     "related_datasets": []
 }
