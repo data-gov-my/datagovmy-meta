@@ -123,7 +123,8 @@
     "mean": "Mean",
     "median": "Median",
     "minimum": "Minimum",
-    "maximum": "Maximum"
+    "maximum": "Maximum",
+    "y1": "Income"
   },
   "translations_ms": {
     "date": "Tarikh",
@@ -135,7 +136,8 @@
     "mean": "Min",
     "median": "Median",
     "minimum": "Minimum",
-    "maximum": "Maksimum"
+    "maximum": "Maksimum",
+    "y1": "Pendapatan"
   },
   "related_datasets": []
 }

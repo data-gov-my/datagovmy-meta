@@ -94,13 +94,15 @@
 			"title_ms": "Taburan Pendapatan Isi Rumah",
 			"chart_type": "BAR",
 			"config": {
-        "slider": {
+				"slider": {
 					"key": "date",
 					"interval": "year"
 				},
 				"filter_columns": ["variable"],
-				"x": "percentile",
-				"y": ["income"]
+				"format": {
+					"x": "percentile",
+					"y": ["income"]
+				}
 			}
 		}
   ],
