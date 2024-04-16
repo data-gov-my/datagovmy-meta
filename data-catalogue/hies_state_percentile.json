@@ -99,12 +99,17 @@
 			"dataviz_id": "bar",
 			"title_en": "Household Income Distribution",
 			"title_ms": "Taburan Pendapatan Isi Rumah",
-			"chart_type": "BAR_CHART",
+			"chart_type": "BAR",
 			"config": {
-				"slider": "date",
-				"filter_columns": ["state","variable"],
-				"x": "percentile",
-				"y": ["income"]
+				"slider": {
+					"key": "date",
+					"interval": "year"
+				},
+				"filter_columns": ["state", "variable"],
+				"format": {
+					"x": "percentile",
+					"y": ["income"]
+				}
 			}
 		}
   ],
