@@ -93,14 +93,15 @@
 		},
 		{
 			"dataviz_id": "bar",
-			"title_en": "Bar",
-			"title_ms": "BarMS",
+			"title_en": "Household Income Distribution",
+			"title_ms": "Taburan Pendapatan Isi Rumah",
 			"chart_type": "BAR",
 			"config": {
 				"slider": {
 					"key": "date",
 					"interval": "year"
 				},
+				"precision": 0,
 				"filter_columns": ["state", "variable"],
 				"format": {
 					"x": "percentile",
@@ -119,7 +120,8 @@
 		"mean": "Mean",
 		"median": "Median",
 		"minimum": "Minimum",
-		"maximum": "Maximum"
+		"maximum": "Maximum",
+		"y1": "Income"
 	},
 	"translations_ms": {
 		"date": "Tarikh",
@@ -131,7 +133,8 @@
 		"mean": "Min",
 		"median": "Median",
 		"minimum": "Minimum",
-		"maximum": "Maksimum"
+		"maximum": "Maksimum",
+		"y1": "Pendapatan"
 	},
 	"related_datasets": []
 }
