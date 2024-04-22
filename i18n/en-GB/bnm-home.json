@@ -7,6 +7,10 @@
     },
     "header": "Open Data on Malaysia's Financial Sector",
     "description": "Freely available rates and statistics from the Kuala Lumpur foreign exchange market, interbank money market, government bond market, and Malaysia's financial sector in general. Data is at the heart of everything we do at Bank Negara; this site is the culmination of our effort to share it as part of a data-driven public sector.",
+    "dashboard-index": {
+      "header": "Open Data Dashboards",
+      "description": "Being an excellent data publisher is not just about providing raw data - it's about telling stories. On this page, you'll find a collection of dashboards that will help you explore and understand our data from the comfort of your device. No need to download or play with the data yourself - we've done the work for you!"
+    },
     "timeseries_opr": {
       "title": "Overnight Policy Rate (OPR)",
       "callout1": "Latest ({{ date }})",
