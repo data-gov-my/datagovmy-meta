@@ -7,8 +7,8 @@
 	"required_params": [],
 	"optional_params": [],
 	"charts": {
-		"databnm_home_opr": {
-			"name": "databnm_home_opr",
+		"timeseries_opr": {
+			"name": "timeseries_opr",
 			"chart_type": "timeseries_chart",
 			"chart_source": "https://storage.data.gov.my/dashboards/databnm_home_opr.parquet",
 			"data_as_of": "2024-04-22 23:59",
@@ -22,8 +22,8 @@
 				"value_columns": ["x", "opr"]
 			}
 		},
-		"databnm_home_reserves_usd": {
-			"name": "databnm_home_reserves_usd",
+		"timeseries_reserves_usd": {
+			"name": "timeseries_reserves_usd",
 			"chart_type": "timeseries_chart",
 			"chart_source": "https://storage.data.gov.my/dashboards/databnm_home_reserves_usd.parquet",
 			"data_as_of": "2024-04-22 23:59",
@@ -37,8 +37,8 @@
 				"value_columns": ["x", "reserves_usd"]
 			}
 		},
-		"databnm_home_myr_usd": {
-			"name": "databnm_home_myr_usd",
+		"timeseries_myr_usd": {
+			"name": "timeseries_myr_usd",
 			"chart_type": "timeseries_chart",
 			"chart_source": "https://storage.data.gov.my/dashboards/databnm_home_myr_usd.parquet",
 			"data_as_of": "2024-04-22 23:59",
@@ -52,8 +52,8 @@
 				"value_columns": ["x", "myr_usd"]
 			}
 		},
-		"databnm_home_gdp_growth": {
-			"name": "databnm_home_gdp_growth",
+		"timeseries_gdp_growth": {
+			"name": "timeseries_gdp_growth",
 			"chart_type": "timeseries_chart",
 			"chart_source": "https://storage.data.gov.my/dashboards/databnm_home_gdp_growth.parquet",
 			"data_as_of": "2024-04-22 23:59",
@@ -67,8 +67,8 @@
 				"value_columns": ["x", "gdp_growth"]
 			}
 		},
-		"databnm_home_inflation": {
-			"name": "databnm_home_inflation",
+		"timeseries_inflation": {
+			"name": "timeseries_inflation",
 			"chart_type": "timeseries_chart",
 			"chart_source": "https://storage.data.gov.my/dashboards/databnm_home_inflation.parquet",
 			"data_as_of": "2024-04-22 23:59",
@@ -82,8 +82,8 @@
 				"value_columns": ["x", "inflation"]
 			}
 		},
-		"databnm_home_unemployment": {
-			"name": "databnm_home_unemployment",
+		"timeseries_unemployment": {
+			"name": "timeseries_unemployment",
 			"chart_type": "timeseries_chart",
 			"chart_source": "https://storage.data.gov.my/dashboards/databnm_home_unemployment.parquet",
 			"data_as_of": "2024-04-22 23:59",
