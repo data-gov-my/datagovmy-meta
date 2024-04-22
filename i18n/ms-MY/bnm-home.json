@@ -1,9 +1,9 @@
 {
   "route": "/",
-  "sites": ["bnm"],
+  "sites": ["databnm"],
   "translation": {
     "site": {
-      "name": "data.bnm.gov.my"
+      "name": "data.databnm.gov.my"
     },
     "header": "Data Terbuka Sektor Kewangan Malaysia",
     "description": "Kadar dan statistik yang tersedia secara percuma daripada pasaran pertukaran asing Kuala Lumpur, pasaran wang antara bank, pasaran bon kerajaan, dan sektor kewangan Malaysia secara amnya. Data adalah teras kepada semua yang kami lakukan di Bank Negara; laman web ini adalah kemuncak usaha kami untuk perkongsian sebagai sebahagian daripada sektor awam yang dipacu data.",

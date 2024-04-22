@@ -1,6 +1,6 @@
 {
   "route": "/",
-  "sites": ["bnm"],
+  "sites": ["databnm"],
   "translation": {
     "site": {
       "name": "data.bnm.gov.my"
