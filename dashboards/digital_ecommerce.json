@@ -51,7 +51,7 @@
 		"timeseries_callout": {
 			"name": "timeseries_callout",
 			"chart_type": "custom_chart",
-			"chart_source": "https://storage.dosm.gov.my/dashboards/iip_timeseries_callout.parquet",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/digital_ecommerce_timeseries_callout.parquet",
 			"data_as_of": "2021",
 			"api_type": "static",
 			"api_params": [],
