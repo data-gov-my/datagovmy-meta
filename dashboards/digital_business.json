@@ -22,16 +22,16 @@
 				"value_columns": ["x", "computer", "internet", "web_presence"]
 			}
 		},
-		"timeseries_callout": {
-			"name": "timeseries_callout",
-			"chart_type": "custom_chart",
-			"chart_source": "https://storage.dosm.gov.my/dashboards/digital_biz_timeseries_callout.parquet",
-			"data_as_of": "2021",
+		"choropleth_state": {
+			"name": "choropleth_state",
+			"chart_type": "choropleth_chart",
+			"chart_source": "http://storage.dosm.gov.my/dashboards/digital_biz_state.parquet",
+			"data_as_of": "2024-01-01 23:59",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
-				"keys": ["sector", "chart"],
-				"value_columns": ["latest"]
+				"x": "state",
+				"y": ["income", "computer", "internet", "web_presence"]
 			}
 		}
 	}
