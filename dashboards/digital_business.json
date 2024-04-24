@@ -31,7 +31,7 @@
 			"api_params": [],
 			"variables": {
 				"x": "state",
-				"y": ["income", "computer", "internet", "web_presence"]
+				"y": ["computer", "internet", "web_presence"]
 			}
 		}
 	}
