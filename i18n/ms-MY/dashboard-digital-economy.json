@@ -1,0 +1,73 @@
+{
+  "route": "/ms-MY/dashboard/digital-economy",
+  "sites": ["opendosm"],
+  "translation": {
+    "header": "Ekonomi & Masyarakat Digital",
+    "description": "",
+    "tab": {
+      "businesses": "Perniagaan",
+      "society": "Masyarakat",
+      "ecommerce": "E-Dagang"
+    },
+    "all_sectors": "Semua Sektor",
+    "businesses": {
+      "usage": "Adakah penggunaan peralatan ICT semakin meningkat dalam konteks perniagaan?",
+      "usage_by_state": "Bagaimanakah kadar penggunaan ICT berbeza di seluruh negara?",
+      "usage_by_state_desc": "Taburan ini adalah berdasarkan lokasi perniagaan, dan bukannya lokasi Pembekal Perkhidmatan Internet (ISP). Sebagai contoh, perniagaan di Perlis yang menggunakan ISP yang berpusat di KL akan dikira di bawah data Perlis."
+    },
+    "computer": "Pengunaan Komputer",
+    "internet": "Pengunaan Internet",
+    "web_presence": "Kehadiran dalam Web",
+    "society": {
+      "access": "Adakah akses kepada peralatan ICT semakin meluas dalam rumah tangga?",
+      "access_by_state": "Bagaimanakah akses kepada ICT berbeza di seluruh negara?",
+      "access_by_state_desc": "Taburan ini adalah berdasarkan lokasi kediaman rumah tangga, dan bukannya lokasi Pembekal Perkhidmatan Internet (ISP). Sebagai contoh, rumah tangga di Perlis yang menggunakan ISP yang berpusat di KL akan dikira di bawah data Perlis."
+    },
+    "access": {
+      "mobile_phone": "Akses kepada Telefon Bimbit",
+      "computer": "Akses kepada Komputer",
+      "internet": "Capaian Internet"
+    },
+    "urban": "Bandar",
+    "rural": "Luar Bandar",
+    "ecommerce": {
+      "header": "Bagaimanakah trend E-Dagang?",
+      "by_state": "Bagaimanakah kadar penggunaan E-Dagang berbeza di seluruh negara?",
+      "by_state_desc": "Taburan ini adalah berdasarkan lokasi kediaman rumah tangga, dan bukannya lokasi Pembekal Perkhidmatan Internet (ISP). Sebagai contoh, rumah tangga di Perlis yang menggunakan ISP yang berpusat di KL akan dikira di bawah data Perlis.",
+      "income": "Pendapatan E-Dagang",
+      "expenditure": "Perbelanjaan E-Dagang",
+      "income_capita": "Pendapatan E-Dagang Per Kapita",
+      "expenditure_capita": "Perbelanjaan E-Dagang Per Kapita",
+      "population": "Populasi"
+    },
+    "total": "Keseluruhan",
+    "domestic": "E-Dagang Domestik",
+    "international": "E-Dagang Antarabangsa",
+    "b2b": "Transaksi B2B",
+    "b2c": "Transaksi B2C",
+    "b2g": "Transaksi B2G",
+    "yoy_growth": "Pertumbuhan Tahunan",
+    "sector": {     
+      "overall": "Semua Sektor",
+      "A": "Pertanian",
+      "B": "Perlombongan & Pengkuarian",
+      "C": "Pembuatan",
+      "F": "Pembinaan",
+      "SS": "Perkhidmatan",
+      "DE": "Perkhidmatan > Utiliti",
+      "G": "Perkhidmatan > Perdagangan Borong & Runcit",
+      "H": "Perkhidmatan > Pengangkutan & Penyimpanan",
+      "IA": "Perkhidmatan > Penginapan",
+      "IF": "Perkhidmatan > Makanan & Minuman",
+      "J": "Perkhidmatan > Maklumat & Komunikasi",
+      "K": "Perkhidmatan > Kewangan & Insurans/Takaful",
+      "L": "Perkhidmatan > Hartanah",
+      "M": "Perkhidmatan > Profesional, Saintifik & Teknikal",
+      "N": "Perkhidmatan > Pentadbiran & Khidmat Sokongan",
+      "P": "Perkhidmatan > Pendidikan",
+      "Q": "Perkhidmatan > Kesihatan Kemanusiaan & Kerja Sosial",
+      "R": "Perkhidmatan > Kesenian, Hiburan & Rekreasi",
+      "S": "Perkhidmatan > Lain-Lain"
+    }
+  }
+}
