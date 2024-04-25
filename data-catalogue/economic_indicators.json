@@ -4,7 +4,7 @@
     "description_en": "Indices for the purpose of monitoring Malaysia's economic situation on a monthly basis, consisting of leading, lagging, and coincidence indicators.",
     "description_ms": "Indeks bagi tujuan memantau kedudukan ekonomi semasa Malaysia. Ia terdiri daripada indeks pelopor, serentak dan susulan.",
     "exclude_openapi": false,
-    "manual_trigger": "na",
+    "manual_trigger": "",
     "data_as_of": "2024-02",
     "last_updated": "2024-04-25 12:00",
     "next_update": "2024-05-24 12:00",
