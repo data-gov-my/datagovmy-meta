@@ -11,7 +11,7 @@
         "timeseries_title": "{{ state }}: Saringan Harian",
         "timeseries_title_monthly": "{{ state }}: Saringan Bulanan",
         "timeseries_title_yearly": "{{ state }}: Saringan Tahunan",
-        "choro_header": "Bagaimanakan kadar saringan berbeza di seluruh negara?",
+        "choro_header": "Bagaimanakah kadar saringan berbeza di seluruh negara?",
         "choro_desc": "Data ini menunjukkan % daripada populasi yang layak untuk saringan kesihatan PeKa B40 yang telah disaring sekurang-kurangnya sekali.",
         "choro_ranking": "Kedudukan (16)",
         "screening": "Saringan",
