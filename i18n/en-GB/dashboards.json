@@ -304,6 +304,10 @@
       "padu-tracker": {
         "name": "Pangkalan Data Utama (PADU)",
         "description": "The first integrated database in Malaysian history"
+      },
+      "digital-economy": {
+        "name": "A Digital Economy & Society",
+        "description": ""
       }
     }
   }

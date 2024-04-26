@@ -279,7 +279,7 @@
       },
       "external-trade": {
         "name": "Statistik Perdagangan Luaran",
-        "description": "Statistik dan indeks perdagangan luar  bulanan, merangkumi eksport, import, imbangan dagangan, dan terma perdagangan."
+        "description": "Statistik dan indeks perdagangan luar bulanan, merangkumi eksport, import, imbangan dagangan, dan terma perdagangan."
       },
       "household-debt": {
         "name": "Hutang Isi Rumah",
@@ -295,7 +295,7 @@
       },
       "life-expectancy": {
         "name": "Jangka Hayat",
-        "description": "Ini papan pemuka merangkumi trend jangka hayat sejak tahun 1957, dengan pecahan mengikut negeri dan kumpulan demografi."
+        "description": "Papan pemuka ini merangkumi trend jangka hayat sejak tahun 1957, dengan pecahan mengikut negeri dan kumpulan demografi."
       },
       "wellbeing": {
         "name": "Kesejahteraan Rakyat",
@@ -304,6 +304,10 @@
       "padu-tracker": {
         "name": "Pangkalan Data Utama (PADU)",
         "description": "Pangkalan data bersepadu yang pertama dalam sejarah Malaysia"
+      },
+      "digital-economy": {
+        "name": "Ekonomi & Masyarakat Digital",
+        "description": ""
       }
     }
   }

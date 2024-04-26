@@ -21,7 +21,7 @@
     "society": {
       "access": "Are households getting greater access to ICT tools?",
       "access_by_state": "How does household access to ICT tools differ across states?",
-      "access_by_state_desc": "This distribution is based on households’ location of residence, rather than the location of their Internet Service Provider (ISP). For example, transactions for a household in Perlis who uses a KL-based ISP will be counted under Perlis."
+      "access_by_state_desc": "This distribution is based on households’ location of residence, rather than the location of their Internet Service Provider (ISP). For example, a household in Perlis who uses a KL-based ISP will be counted under Perlis."
     },
     "access": {
       "mobile_phone": "Access to a Mobile Phone",
@@ -33,7 +33,7 @@
     "ecommerce": {
       "header": "How is E-Commerce trending?",
       "by_state": "How does E-Commerce differ across states?",
-      "by_state_desc": "This distribution is based on households’ location of residence, rather than the location of their Internet Service Provider (ISP). For example, transactions for a household in Perlis who uses a KL-based ISP will be counted under Perlis.",
+      "by_state_desc": "This distribution is based on the location of the business, rather than the location of their Internet Service Provider (ISP). For example, online transactions for a business in Perlis who uses a KL-based ISP will be counted under Perlis.",
       "income": "E-Commerce Income",
       "expenditure": "E-Commerce Expenditure",
       "income_capita": "E-Commerce Income Per Capita",
@@ -46,7 +46,6 @@
     "b2b": "B2B Transactions",
     "b2c": "B2C Transactions",
     "b2g": "B2G Transactions",
-    "yoy_growth": "YoY Growth",
     "income": "Income",
     "expenditure": "Expenditure",
     "sector": {

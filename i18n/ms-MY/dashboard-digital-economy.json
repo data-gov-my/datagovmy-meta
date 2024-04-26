@@ -13,7 +13,7 @@
     "businesses": {
       "usage": "Adakah penggunaan peralatan ICT semakin meningkat dalam konteks perniagaan?",
       "usage_by_state": "Bagaimanakah kadar penggunaan ICT berbeza di seluruh negara?",
-      "usage_by_state_desc": "Taburan ini adalah berdasarkan lokasi perniagaan, dan bukannya lokasi Pembekal Perkhidmatan Internet (ISP). Sebagai contoh, perniagaan di Perlis yang menggunakan ISP yang berpusat di KL akan dikira di bawah data Perlis."
+      "usage_by_state_desc": "Taburan ini adalah berdasarkan lokasi perniagaan, dan bukannya lokasi Pembekal Perkhidmatan Internet (ISP). Sebagai contoh, perniagaan di Perlis yang menggunakan ISP yang berpusat di KL akan dikira sebagai data Perlis."
     },
     "computer": "Pengunaan Komputer",
     "internet": "Pengunaan Internet",
@@ -21,7 +21,7 @@
     "society": {
       "access": "Adakah akses kepada peralatan ICT semakin meluas dalam rumah tangga?",
       "access_by_state": "Bagaimanakah akses kepada ICT berbeza di seluruh negara?",
-      "access_by_state_desc": "Taburan ini adalah berdasarkan lokasi kediaman rumah tangga, dan bukannya lokasi Pembekal Perkhidmatan Internet (ISP). Sebagai contoh, rumah tangga di Perlis yang menggunakan ISP yang berpusat di KL akan dikira di bawah data Perlis."
+      "access_by_state_desc": "Taburan ini adalah berdasarkan lokasi kediaman rumah tangga, dan bukannya lokasi Pembekal Perkhidmatan Internet (ISP). Sebagai contoh, rumah tangga di Perlis yang menggunakan ISP yang berpusat di KL akan dikira sebagai data Perlis."
     },
     "access": {
       "mobile_phone": "Akses kepada Telefon Bimbit",
@@ -33,7 +33,7 @@
     "ecommerce": {
       "header": "Bagaimanakah trend E-Dagang?",
       "by_state": "Bagaimanakah kadar penggunaan E-Dagang berbeza di seluruh negara?",
-      "by_state_desc": "Taburan ini adalah berdasarkan lokasi kediaman rumah tangga, dan bukannya lokasi Pembekal Perkhidmatan Internet (ISP). Sebagai contoh, rumah tangga di Perlis yang menggunakan ISP yang berpusat di KL akan dikira di bawah data Perlis.",
+      "by_state_desc": "Taburan ini adalah berdasarkan lokasi perniagaan, dan bukannya lokasi Pembekal Perkhidmatan Internet (ISP). Sebagai contoh, urus niaga e-dagang bagi sebuah perniagaan di Perlis yang menggunakan ISP yang berpusat di KL akan dikira sebagai data Perlis.",
       "income": "Pendapatan E-Dagang",
       "expenditure": "Perbelanjaan E-Dagang",
       "income_capita": "Pendapatan E-Dagang Per Kapita",
@@ -46,7 +46,6 @@
     "b2b": "Transaksi B2B",
     "b2c": "Transaksi B2C",
     "b2g": "Transaksi B2G",
-    "yoy_growth": "Pertumbuhan Tahunan",
     "sector": {     
       "overall": "Semua Sektor",
       "A": "Pertanian",
