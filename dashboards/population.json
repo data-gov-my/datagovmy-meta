@@ -10,7 +10,7 @@
 		"population_timeseries": {
 			"name": "population_timeseries",
 			"chart_type": "timeseries_chart",
-			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/population_timeseries.parquet",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/population_timeseries.parquet",
 			"data_as_of": "2023-09-01 23:59",
 			"api_type": "dynamic",
 			"api_params": ["state"],
@@ -25,7 +25,7 @@
 		"population_timeseries_callout": {
 			"name": "population_timeseries_callout",
 			"chart_type": "custom_chart",
-			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/population_timeseries_callout.parquet",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/population_timeseries_callout.parquet",
 			"data_as_of": "2023-09-01 23:59",
 			"api_type": "dynamic",
 			"api_params": ["state"],
@@ -37,7 +37,7 @@
 		"vitalstats_timeseries": {
 			"name": "vitalstats_timeseries",
 			"chart_type": "timeseries_chart",
-			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/population_vitalstats_timeseries.parquet",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/population_vitalstats_timeseries.parquet",
 			"data_as_of": "2023-09-01 23:59",
 			"api_type": "dynamic",
 			"api_params": ["state"],
@@ -65,7 +65,7 @@
 		"vitalstats_timeseries_callout": {
 			"name": "vitalstats_timeseries_callout",
 			"chart_type": "custom_chart",
-			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/population_vitalstats_timeseries_callout.parquet",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/population_vitalstats_timeseries_callout.parquet",
 			"data_as_of": "2023-09-01 23:59",
 			"api_type": "dynamic",
 			"api_params": ["state"],
