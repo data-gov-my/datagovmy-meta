@@ -4,7 +4,7 @@
     "data_next_update": "2024-05-13 12:00",
 	"route": "/dashboard/construction-statistics,/ms-MY/dashboard/construction-statistics",
 	"sites": ["opendosm"],
-	"manual_trigger": "",
+	"manual_trigger": "1",
 	"required_params": [],
 	"optional_params": [],
 	"charts": {
