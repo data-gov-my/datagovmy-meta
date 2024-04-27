@@ -2,9 +2,9 @@
 	"dashboard_name": "service_statistics",
 	"data_last_updated": "2024-02-08 12:00",
     "data_next_update": "2024-05-09 12:00",
-	"route": "/dashboard/service-statistics,/ms-MY/dashboard/service-statistics",
+	"route": "/dashboard/services-statistics,/ms-MY/dashboard/services-statistics",
 	"sites": ["opendosm"],
-	"manual_trigger": "0",
+	"manual_trigger": "",
 	"required_params": [],
 	"optional_params": [],
 	"charts": {
