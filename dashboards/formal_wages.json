@@ -12,7 +12,7 @@
 			"name": "bar_bracket",
 			"chart_type": "bar_chart",
 			"chart_source": "http://storage.dosm.gov.my/dashboards/labour_formalwages_snapshot_bracket.parquet",
-			"data_as_of": "2024-03",
+			"data_as_of": "2023-09",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -29,7 +29,7 @@
 			"name": "bar_percentile",
 			"chart_type": "bar_chart",
 			"chart_source": "http://storage.dosm.gov.my/dashboards/labour_formalwages_snapshot_percentile.parquet",
-			"data_as_of": "2024-03",
+			"data_as_of": "2023-09",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -46,7 +46,7 @@
 			"name": "timeseries",
 			"chart_type": "timeseries_chart",
 			"chart_source": "http://storage.dosm.gov.my/dashboards/labour_formalwages_timeseries_state.parquet",
-			"data_as_of": "2024-03",
+			"data_as_of": "2023-09",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -61,7 +61,7 @@
 			"name": "timeseries_callout",
 			"chart_type": "custom_chart",
 			"chart_source": "http://storage.dosm.gov.my/dashboards/labour_formalwages_timeseries_state_callout.parquet",
-			"data_as_of": "2024-03",
+			"data_as_of": "2023-09",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
