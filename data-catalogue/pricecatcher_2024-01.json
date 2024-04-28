@@ -28,6 +28,9 @@
         "KPDN",
         "DOSM"
     ],
+    "data_source_granular": [
+        "BPHPP"
+    ],
     "site_category": [
         {
             "site": "datagovmy",
