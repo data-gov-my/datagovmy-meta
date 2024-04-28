@@ -1,9 +1,9 @@
 {
-    "title_en": "Annual Real GDP & GNI: 1970 to present",
-    "title_ms": "KDNK & PNK Sebenar Tahunan: 1970 sehingga kini",
+    "title_en": "Annual Real GDP & GNI: 1970 to Present",
+    "title_ms": "KDNK & PNK Sebenar Tahunan: 1970 sehingga Kini",
     "title_sort": 1,
     "description_en": "Long time series of annual real gross domestic product (GDP) and gross national income (GNI), including per capita values.",
-    "description_ms": "Siri masa panjang keluaran dalam negeri kasar (KDNK) serta pendapatan nasional kasar (PNK), termasuk nilai per kapita.",
+    "description_ms": "Siri masa panjang keluaran dalam negeri kasar (KDNK) serta pendapatan nasional kasar (PNK) pada harga malar 2015, termasuk nilai per kapita.",
     "exclude_openapi": false,
     "manual_trigger": "",
     "data_as_of": "2022",
@@ -110,8 +110,8 @@
         },
         {
             "dataviz_id": "gdp",
-            "title_en": "GDP",
-            "title_ms": "KDNK",
+            "title_en": "Real GDP",
+            "title_ms": "KDNK Sebenar",
             "chart_type": "TIMESERIES",
             "config": {
                 "filter_columns": [
@@ -129,8 +129,8 @@
         },
         {
             "dataviz_id": "gni",
-            "title_en": "GNI",
-            "title_ms": "PNK",
+            "title_en": "Real GNI",
+            "title_ms": "PNK Sebenar",
             "chart_type": "TIMESERIES",
             "config": {
                 "filter_columns": [
@@ -148,8 +148,8 @@
         },
         {
             "dataviz_id": "gdp_capita",
-            "title_en": "GDP per Capita",
-            "title_ms": "KDNK per Kapita",
+            "title_en": "Real GDP per Capita",
+            "title_ms": "KDNK Sebenar per Kapita",
             "chart_type": "TIMESERIES",
             "config": {
                 "filter_columns": [
@@ -167,8 +167,8 @@
         },
         {
             "dataviz_id": "gni_capita",
-            "title_en": "GNI per Capita",
-            "title_ms": "PNK per Kapita",
+            "title_en": "Real GNI per Capita",
+            "title_ms": "PNK Sebenar per Kapita",
             "chart_type": "TIMESERIES",
             "config": {
                 "filter_columns": [
