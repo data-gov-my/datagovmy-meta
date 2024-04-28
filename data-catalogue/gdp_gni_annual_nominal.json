@@ -1,9 +1,9 @@
 {
-    "title_en": "Annual Real GDP & GNI: 1970 to Present",
-    "title_ms": "KDNK & PNK Sebenar Tahunan: 1970 sehingga Kini",
+    "title_en": "Annual Nominal GDP & GNI: 1947 to Present",
+    "title_ms": "KDNK & PNK Sebenar Tahunan: 1947 sehingga Kini",
     "title_sort": 1,
-    "description_en": "Long time series of annual real gross domestic product (GDP) and gross national income (GNI), including per capita values.",
-    "description_ms": "Siri masa panjang keluaran dalam negeri kasar (KDNK) serta pendapatan nasional kasar (PNK) pada harga malar 2015, termasuk nilai per kapita.",
+    "description_en": "Long time series of annual nominal gross domestic product (GDP) and gross national income (GNI), including per capita values.",
+    "description_ms": "Siri masa panjang keluaran dalam negeri kasar (KDNK) serta pendapatan nasional kasar (PNK) pada harga semasa, termasuk nilai per kapita.",
     "exclude_openapi": false,
     "manual_trigger": "",
     "data_as_of": "2022",
@@ -11,18 +11,18 @@
     "next_update": "2024-05-17 12:00",
     "methodology_en": "Gross domestic product (GDP) is the total value of goods and services produced within that year, after deducting the cost of goods and services used in production, but before deducting the consumption of fixed capital. In Malaysia, GDP is estimated in compliance with the [System of National Accounts (2008)](https://storage.dosm.gov.my/technotes/sna_2008.pdf). Gross national income (GNI) is derived as GDP plus net factor incomes from abroad. For a full description of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/gdp-technotes).",
     "methodology_ms": "Keluaran dalam negeri kasar (KDNK) adalah jumlah nilai barangan dan perkhidmatan yang dihasilkan dalam tahun tersebut, selepas ditolak kos barangan dan perkhidmatan yang digunakan dalam proses pengeluaran, tetapi sebelum ditolak penggunaan modal tetap. Di Malaysia, anggaran KDNK dihasilkan selaras dengan [Sistem Akaun Nasional (2008)](https://storage.dosm.gov.my/technotes/sna_2008.pdf). Pendapatan nasional kasar (PNK) didefinisikan sebagai KDNK tambah pendapatan faktor bersih dari luar negara. Untuk mendapat perincian metodologi yang penuh, sila merujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/gdp-technotes).",
-    "caveat_en": "GDP and GNI values for 2021 and 2022 may be revised in future releases. Furthermore, per capita values will be revised in parallel with any published revisions to [Malaysia's population data](https://open.dosm.gov.my/data-catalogue/population_malaysia).",
-    "caveat_ms": "Angka KDNK dan PNK bagi 2021 dan 2022 mungkin disemak semula dalam penerbitan akan datang. Tambahan, angka per kapita akan disemak semula selaras dengan mana-mana semakan kepada [data penduduk Malaysia](https://open.dosm.gov.my/ms-MY/data-catalogue/population_malaysia).",
+    "caveat_en": "Values for 1954 are not available as data for that year was not collected. GDP and GNI values for 2021 and 2022 may be revised in future releases. Furthermore, per capita values will be revised in parallel with any published revisions to [Malaysia's population data](https://open.dosm.gov.my/data-catalogue/population_malaysia). Finally, it should be noted that the scope of 'national' changes across the time series, as follows:\n - Values for 1947-53 refer to the Federation of Malaya and Singapore.\n - Values for 1955-59 refer to the Federation of Malaya (which included Singapore).\n Values for 1960-62 refer to Peninsular Malaysia only (i.e. excluding Singapore).\n - Values from 1963 onwards refer to Malaysia as currently defined, including Sabah and Sarawak, and excluding Singapore.",
+    "caveat_ms": "Angka bagi 1954 tidak tersedia kerana data bagi tahun tersebut tidak dikumpulkan. Angka KDNK dan PNK bagi 2021 dan 2022 mungkin disemak semula dalam penerbitan akan datang. Tambahan, angka per kapita akan disemak semula selaras dengan mana-mana semakan kepada [data penduduk Malaysia](https://open.dosm.gov.my/ms-MY/data-catalogue/population_malaysia). Akhirnya, harus diambil perhatian bahawa definisi 'nasional' tidak sama sepanjang siri masa ini, khususnya:\n - Angka bagi 1947-53 merujuk kepada Persekutuan Tanah Melayu dan Singapura.\n - Angka bagi 1955-59 merujuk kepada Persekutuan Tanah Melayu (yang merangkumi Singapura pada masa tersebut)\n - Angka bagi 1960-62 merujuk kepada Semenanjung Malaysia sahaja (iaitu tidak termasuk Singapura).\n - Angka dari 1963 dan seterusnya merujuk kepada Malaysia seperti definisi moden, iaitu termasuk Sabah dan Sarawak, dan tidak termasuk Singapura.",
     "publication_en": "\u2014",
     "publication_ms": "\u2014",
-    "link_parquet": "https://storage.dosm.gov.my/gdp/gdp_gni_annual_real.parquet",
-    "link_csv": "https://storage.dosm.gov.my/gdp/gdp_gni_annual_real.csv",
+    "link_parquet": "https://storage.dosm.gov.my/gdp/gdp_gni_annual_nominal.parquet",
+    "link_csv": "https://storage.dosm.gov.my/gdp/gdp_gni_annual_nominal.csv",
     "frequency": "YEARLY",
     "geography": [
         "NATIONAL"
     ],
     "demography": [],
-    "dataset_begin": 1970,
+    "dataset_begin": 1947,
     "dataset_end": 2022,
     "data_source": [
         "DOSM"
@@ -66,15 +66,15 @@
             "name": "gdp",
             "title_en": "GDP",
             "title_ms": "KDNK",
-            "description_en": "[Float, RM mil] The total value of goods and services produced within that year, after deducting the cost of goods and services used in production, but before deducting the consumption of fixed capital. The values are in constant 2015 prices, i.e. with base 2015 = 100.",
-            "description_ms": "[Apung, RM juta] Jumlah nilai barangan dan perkhidmatan yang dihasilkan dalam tahun tersebut, selepas ditolak kos barangan dan perkhidmatan yang digunakan dalam proses pengeluaran, tetapi sebelum ditolak penggunaan modal tetap. Nilai adalah pada harga malar 2015, iaitu dengan nilai asas 2015 = 100."
+            "description_en": "[Float, RM mil] The total value of goods and services produced within that year, after deducting the cost of goods and services used in production, but before deducting the consumption of fixed capital. The values are at current prices.",
+            "description_ms": "[Apung, RM juta] Jumlah nilai barangan dan perkhidmatan yang dihasilkan dalam tahun tersebut, selepas ditolak kos barangan dan perkhidmatan yang digunakan dalam proses pengeluaran, tetapi sebelum ditolak penggunaan modal tetap. Nilai adalah pada harga semasa."
         },
         {
             "name": "gni",
             "title_en": "GNI",
             "title_ms": "PNK",
-            "description_en": "[Float, RM mil] The total value of the production of the nationals of the country, whether they are in residence in Malaysia or not. Mechnically, it is defined as GDP plus net factor incomes from abroad. The values are in constant 2015 prices, i.e. with base 2015 = 100.",
-            "description_ms": "[Apung, RM juta] Jumlah nilai pengeluaran oleh warganegara Malaysia, sama ada mereka bermastautin dalam Malaysia atau tidak. Secara mekanikal, PNK boleh didefinisikan sebagai KDNK tambah pendapatan faktor bersih dari luar negara. Nilai adalah pada harga malar 2015, iaitu dengan nilai asas 2015 = 100."
+            "description_en": "[Float, RM mil] The total value of the production of the nationals of the country, whether they are in residence in Malaysia or not. Mechnically, it is defined as GDP plus net factor incomes from abroad. The values are at current prices for that year.",
+            "description_ms": "[Apung, RM juta] Jumlah nilai pengeluaran oleh warganegara Malaysia, sama ada mereka bermastautin dalam Malaysia atau tidak. Secara mekanikal, PNK boleh didefinisikan sebagai KDNK tambah pendapatan faktor bersih dari luar negara. Nilai adalah pada harga semasa bagi tahun tersebut."
         },
         {
             "name": "gdp_capita",
@@ -110,8 +110,8 @@
         },
         {
             "dataviz_id": "gdp",
-            "title_en": "Real GDP",
-            "title_ms": "KDNK Sebenar",
+            "title_en": "Nominal GDP",
+            "title_ms": "KDNK",
             "chart_type": "TIMESERIES",
             "config": {
                 "filter_columns": [
@@ -129,8 +129,8 @@
         },
         {
             "dataviz_id": "gni",
-            "title_en": "Real GNI",
-            "title_ms": "PNK Sebenar",
+            "title_en": "Nominal GNI",
+            "title_ms": "PNK",
             "chart_type": "TIMESERIES",
             "config": {
                 "filter_columns": [
@@ -148,8 +148,8 @@
         },
         {
             "dataviz_id": "gdp_capita",
-            "title_en": "Real GDP per Capita",
-            "title_ms": "KDNK Sebenar per Kapita",
+            "title_en": "Nominal GDP per Capita",
+            "title_ms": "KDNK per Kapita",
             "chart_type": "TIMESERIES",
             "config": {
                 "filter_columns": [
@@ -167,8 +167,8 @@
         },
         {
             "dataviz_id": "gni_capita",
-            "title_en": "Real GNI per Capita",
-            "title_ms": "PNK Sebenar per Kapita",
+            "title_en": "Nominal GNI per Capita",
+            "title_ms": "PNK per Kapita",
             "chart_type": "TIMESERIES",
             "config": {
                 "filter_columns": [
