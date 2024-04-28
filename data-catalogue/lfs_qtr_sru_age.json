@@ -23,6 +23,7 @@
 	"dataset_begin": 2017,
 	"dataset_end": 2023,
 	"data_source": ["DOSM"],
+	"data_source_granular": ["MBLS"],
 	"site_category": [
 		{
 			"site": "datagovmy",

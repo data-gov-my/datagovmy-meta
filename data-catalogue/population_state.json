@@ -32,6 +32,9 @@
   "data_source": [
     "DOSM"
   ],
+  "data_source_granular": [
+    "BPPD"
+  ],
   "site_category": [
     {
       "site": "datagovmy",

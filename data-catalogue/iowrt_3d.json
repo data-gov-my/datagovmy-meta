@@ -28,6 +28,9 @@
     "data_source": [
         "DOSM"
     ],
+    "data_source_granular": [
+      "BPP"
+    ],
     "site_category": [
         {
             "site": "datagovmy",
