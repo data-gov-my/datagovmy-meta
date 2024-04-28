@@ -26,6 +26,9 @@
     "data_source": [
         "DOSM"
     ],
+    "data_source_granular": [
+      "BPE"
+    ],
     "site_category": [
         {
             "site": "datagovmy",

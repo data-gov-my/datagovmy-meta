@@ -23,6 +23,9 @@
 	"dataset_begin": 2019,
 	"dataset_end": 2022,
 	"data_source": ["DOSM"],
+	"data_source_granular": [
+	  "BPHPP"
+	],
 	"site_category": [
 		{
 			"site": "datagovmy",
