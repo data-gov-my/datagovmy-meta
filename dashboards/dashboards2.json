@@ -16,13 +16,7 @@
 			"api_params": ["site"],
 			"variables": {
 				"keys": ["site"],
-				"value_columns": [
-					"category",
-					"last_updated",
-					"agency",
-					"name",
-					"route"
-				]
+				"value_columns": ["last_updated", "agency", "name", "route"]
 			}
 		}
 	}
