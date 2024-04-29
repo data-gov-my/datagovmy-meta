@@ -2,11 +2,11 @@
   "route": "/ms-MY/dashboard/digital-economy",
   "sites": ["opendosm"],
   "translation": {
-    "header": "Ekonomi & Masyarakat Digital",
-    "description": "",
+    "header": "Ekonomi Digital",
+    "description": "Kehidupan seharian kita saban hari semakin digital, maka menjadi amat penting untuk kerajaan memantau ekonomi digital kita dan memastikan bahawa Malaysia kekal moden dan mampu bersaing di persada antarabangsa. Papan pemuka ini merumuskan trend penting dalam akses dan penggunaan ICT oleh perniagaan dan isi rumah, serta prestasi e-dagang dan sektor ICT. Ia akan diperdalam selaras dengan survei berkenaan ICT pada kadar tahunan.",
     "tab": {
       "businesses": "Perniagaan",
-      "society": "Masyarakat",
+      "society": "Isi Rumah",
       "ecommerce": "E-Dagang"
     },
     "all_sectors": "Semua Sektor",
@@ -17,7 +17,6 @@
     },
     "computer": "Pengunaan Komputer",
     "internet": "Pengunaan Internet",
-    "web_presence": "Kehadiran dalam Web",
     "society": {
       "access": "Adakah akses kepada peralatan ICT semakin meluas dalam rumah tangga?",
       "access_by_state": "Bagaimanakah akses kepada ICT berbeza di seluruh negara?",
@@ -32,7 +31,7 @@
     "rural": "Luar Bandar",
     "ecommerce": {
       "header": "Bagaimanakah trend E-Dagang?",
-      "by_state": "Bagaimanakah kadar penggunaan E-Dagang berbeza di seluruh negara?",
+      "by_state": "Bagaimanakah kadar penggunaan e-dagang berbeza di seluruh negara?",
       "by_state_desc": "Taburan ini adalah berdasarkan lokasi perniagaan, dan bukannya lokasi Pembekal Perkhidmatan Internet (ISP). Sebagai contoh, urus niaga e-dagang bagi sebuah perniagaan di Perlis yang menggunakan ISP yang berpusat di KL akan dikira sebagai data Perlis.",
       "income": "Pendapatan E-Dagang",
       "expenditure": "Perbelanjaan E-Dagang",
@@ -46,6 +45,8 @@
     "b2b": "Transaksi B2B",
     "b2c": "Transaksi B2C",
     "b2g": "Transaksi B2G",
+    "income": "Pendapatan",
+    "expenditure": "Perbelanjaan",
     "sector": {     
       "overall": "Semua Sektor",
       "A": "Pertanian",
