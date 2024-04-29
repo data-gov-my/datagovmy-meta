@@ -1,0 +1,29 @@
+{
+	"dashboard_name": "dashboards2",
+	"data_last_updated": "2024-04-29 00:01",
+	"route": "",
+	"sites": ["datagovmy"],
+	"manual_trigger": "2024-04-29 01:30:40.895927",
+	"required_params": [],
+	"optional_params": [],
+	"charts": {
+		"dashboards": {
+			"name": "dashboards",
+			"chart_type": "metrics_table",
+			"chart_source": "https://storage.data.gov.my/dashboards/dashboards_all2.parquet",
+			"data_as_of": "2024-04-28 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": [],
+				"value_columns": [
+					"category",
+					"last_updated",
+					"agency",
+					"name",
+					"route"
+				]
+			}
+		}
+	}
+}
