@@ -13,7 +13,7 @@
 			"chart_source": "https://storage.data.gov.my/dashboards/dashboards_all2.parquet",
 			"data_as_of": "2024-04-28 23:59",
 			"api_type": "dynamic",
-			"api_params": [],
+			"api_params": ["site"],
 			"variables": {
 				"keys": ["site"],
 				"value_columns": [
