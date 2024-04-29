@@ -11,16 +11,16 @@
     },
     "all_sectors": "Semua Sektor",
     "businesses": {
-      "usage": "Adakah penggunaan peralatan ICT semakin meningkat dalam konteks perniagaan?",
+      "usage": "Adakah penggunaan ICT semakin meningkat dalam konteks perniagaan?",
       "usage_by_state": "Bagaimanakah kadar penggunaan ICT berbeza di seluruh negara?",
       "usage_by_state_desc": "Taburan ini adalah berdasarkan lokasi perniagaan, dan bukannya lokasi Pembekal Perkhidmatan Internet (ISP). Sebagai contoh, perniagaan di Perlis yang menggunakan ISP yang berpusat di KL akan dikira sebagai data Perlis."
     },
     "computer": "Pengunaan Komputer",
     "internet": "Pengunaan Internet",
     "society": {
-      "access": "Adakah akses kepada peralatan ICT semakin meluas dalam rumah tangga?",
+      "access": "Adakah akses kepada ICT semakin meluas dalam konteks isi rumah?",
       "access_by_state": "Bagaimanakah akses kepada ICT berbeza di seluruh negara?",
-      "access_by_state_desc": "Taburan ini adalah berdasarkan lokasi kediaman rumah tangga, dan bukannya lokasi Pembekal Perkhidmatan Internet (ISP). Sebagai contoh, rumah tangga di Perlis yang menggunakan ISP yang berpusat di KL akan dikira sebagai data Perlis."
+      "access_by_state_desc": "Taburan ini adalah berdasarkan lokasi rumah kediaman, dan bukannya lokasi Pembekal Perkhidmatan Internet (ISP). Sebagai contoh, rumah tangga di Perlis yang menggunakan ISP yang berpusat di KL akan dikira sebagai data Perlis."
     },
     "access": {
       "mobile_phone": "Akses kepada Telefon Bimbit",
