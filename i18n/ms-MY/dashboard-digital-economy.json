@@ -6,7 +6,7 @@
     "description": "Kehidupan seharian kita saban hari semakin digital, maka menjadi amat penting untuk kerajaan memantau ekonomi digital kita dan memastikan bahawa Malaysia kekal moden dan mampu bersaing di persada antarabangsa. Papan pemuka ini merumuskan trend penting dalam akses dan penggunaan ICT oleh perniagaan dan isi rumah, serta prestasi e-dagang dan sektor ICT. Ia akan diperdalam selaras dengan survei berkenaan ICT pada kadar tahunan.",
     "tab": {
       "businesses": "Perniagaan",
-      "society": "Isi Rumah",
+      "households": "Isi Rumah",
       "ecommerce": "E-Dagang"
     },
     "all_sectors": "Semua Sektor",
@@ -17,7 +17,7 @@
     },
     "computer": "Pengunaan Komputer",
     "internet": "Pengunaan Internet",
-    "society": {
+    "household": {
       "access": "Adakah akses kepada ICT semakin meluas dalam konteks isi rumah?",
       "access_by_state": "Bagaimanakah akses kepada ICT berbeza di seluruh negara?",
       "access_by_state_desc": "Taburan ini adalah berdasarkan lokasi rumah kediaman, dan bukannya lokasi Pembekal Perkhidmatan Internet (ISP). Sebagai contoh, rumah tangga di Perlis yang menggunakan ISP yang berpusat di KL akan dikira sebagai data Perlis."

@@ -6,7 +6,7 @@
     "description": "With our day-to-day life increasingly digitalised, it is vital for policymakers to track our digital economy and ensure that Malaysia remains modern and internationally competitive. This dashboard summarises key trends in businesses' and households' access to ICT tools, as well as the performance of e-commerce and the ICT sector. It will be deepened in line with the evolution of our ICT-related surveys on an annual basis.",
     "tab": {
       "businesses": "Businesses",
-      "society": "Households",
+      "households": "Households",
       "ecommerce": "E-Commerce"
     },
     "all_sectors": "All Sectors",
@@ -18,7 +18,7 @@
     "computer": "Computer Usage",
     "internet": "Internet Usage",
     "web_presence": "Web Presence",
-    "society": {
+    "household": {
       "access": "Are households getting greater access to ICT tools?",
       "access_by_state": "How does household access to ICT tools differ across states?",
       "access_by_state_desc": "This distribution is based on households’ location of residence, rather than the location of their Internet Service Provider (ISP). For example, a household in Perlis who uses a KL-based ISP will be counted under Perlis."
