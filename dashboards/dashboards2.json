@@ -12,10 +12,10 @@
 			"chart_type": "metrics_table",
 			"chart_source": "https://storage.data.gov.my/dashboards/dashboards_all2.parquet",
 			"data_as_of": "2024-04-28 23:59",
-			"api_type": "static",
+			"api_type": "dynamic",
 			"api_params": [],
 			"variables": {
-				"keys": [],
+				"keys": ["site"],
 				"value_columns": [
 					"category",
 					"last_updated",
