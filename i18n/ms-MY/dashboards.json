@@ -210,6 +210,10 @@
         "name": "Peneroka Bas & Rel Rapid",
         "description": "Penumpang mengikut perkhidmatan, asal, dan destinasi"
       },
+      "rapid-bus-rail": {
+        "name": "Peneroka Bas & Rel Rapid",
+        "description": "Penumpang mengikut perkhidmatan, asal, dan destinasi"
+      },
       "healthcare-facilities": {
         "name": "Fasiliti Kesihatan",
         "description": "Pusat Informatik Kesihatan (PIK) mengendalikan pangkalan data tentang semua fasiliti keshatan di Malaysia"
