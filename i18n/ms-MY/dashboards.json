@@ -169,7 +169,7 @@
         "name": "Sekolahku",
         "description": "Data dan maklumat mengenai sekolah dan pendidikan."
       },
-      "social-security": {
+      "jobless-claims": {
         "name": "Bantuan Hilang Pekerjaan",
         "description": "Pemahaman dan kemas kini mengenai program dan faedah keselamatan sosial."
       },
@@ -201,7 +201,7 @@
         "name": "Peneroka KTMB",
         "description": "Penumpang mengikut perkhidmatan, asal, dan destinasi."
       },
-      "rapid-bus-rail": {
+      "rapid-explorer": {
         "name": "Peneroka Bas & Rel Rapid",
         "description": "Penumpang mengikut perkhidmatan, asal, dan destinasi"
       },

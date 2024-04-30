@@ -169,7 +169,7 @@
         "name": "Sekolahku",
         "description": "Data and information on schools and education."
       },
-      "social-security": {
+      "jobless-claims": {
         "name": "Jobless Claims",
         "description": "Near-real time labour market data."
       },
@@ -201,7 +201,7 @@
         "name": "KTMB Explorer",
         "description": "Explore ridership by service, origins and destination."
       },
-      "rapid-bus-rail": {
+      "rapid-explorer": {
         "name": "Rapid Rail Explorer",
         "description": "Explore ridership by service, origins and destination."
       },
