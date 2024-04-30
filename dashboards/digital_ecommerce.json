@@ -2,7 +2,9 @@
 	"dashboard_name": "digital_ecommerce",
 	"data_last_updated": "2024-04-22 00:01",
 	"route": "/,/ms-MY/",
-	"sites": ["databnm"],
+	"sites": [
+		"opendosm"
+	],
 	"manual_trigger": "2024-04-22 00:16:20.442287",
 	"required_params": [],
 	"optional_params": [],
@@ -33,7 +35,10 @@
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
-				"keys": ["type", "sector"],
+				"keys": [
+					"type",
+					"sector"
+				],
 				"rename_cols": {
 					"date": "x"
 				},
@@ -56,8 +61,15 @@
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
-				"keys": ["type", "sector", "chart"],
-				"value_columns": ["latest", "cagr"]
+				"keys": [
+					"type",
+					"sector",
+					"chart"
+				],
+				"value_columns": [
+					"latest",
+					"cagr"
+				]
 			}
 		}
 	}
