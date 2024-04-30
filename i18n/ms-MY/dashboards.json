@@ -9,6 +9,11 @@
     "search_placeholder": "Cari papan pemuka",
     "section1_title": "Papan Pemuka Paling Popular",
     "section2_title": "Semua papan pemuka",
+    "tabs": {
+      "thematic": "Mengikut Tema",
+      "most_popular": "Paling Popular",
+      "recent_updated": "Baru Dikemaskini"
+    },
     "categories": {
       "healthcare": "Penjagaan Kesihatan",
       "transport": "Pengangkutan",
