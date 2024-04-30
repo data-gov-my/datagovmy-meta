@@ -5,7 +5,7 @@
     "description_en": "Long time series of annual real gross domestic product (GDP) and gross national income (GNI), including per capita values.",
     "description_ms": "Siri masa panjang keluaran dalam negeri kasar (KDNK) serta pendapatan nasional kasar (PNK) pada harga malar 2015, termasuk nilai per kapita.",
     "exclude_openapi": false,
-    "manual_trigger": "1",
+    "manual_trigger": "",
     "data_as_of": "2022",
     "last_updated": "2023-05-17 12:00",
     "next_update": "2024-05-17 12:00",
