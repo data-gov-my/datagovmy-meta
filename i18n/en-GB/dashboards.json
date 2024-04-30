@@ -9,6 +9,11 @@
     "search_placeholder": "Search for dashboards",
     "section1_title": "Most popular Dashboards",
     "section2_title": "All dashboards",
+    "tabs": {
+      "thematic": "By Theme",
+      "most_popular": "Most Popular",
+      "recent_updated": "Recently Updated"
+    },
     "categories": {
       "healthcare": "Healthcare",
       "transport": "Transport",
@@ -169,7 +174,7 @@
         "name": "Sekolahku",
         "description": "Data and information on schools and education."
       },
-      "social-security": {
+      "jobless-claims": {
         "name": "Jobless Claims",
         "description": "Near-real time labour market data."
       },
@@ -201,7 +206,7 @@
         "name": "KTMB Explorer",
         "description": "Explore ridership by service, origins and destination."
       },
-      "rapid-bus-rail": {
+      "rapid-explorer": {
         "name": "Rapid Rail Explorer",
         "description": "Explore ridership by service, origins and destination."
       },
@@ -304,6 +309,10 @@
       "padu-tracker": {
         "name": "Pangkalan Data Utama (PADU)",
         "description": "The first integrated database in Malaysian history"
+      },
+      "digital-economy": {
+        "name": "Digital Economy",
+        "description": "Performance of e-commerce and the ICT sector, as well as businesses' and households' usage of ICT tools."
       }
     }
   }
