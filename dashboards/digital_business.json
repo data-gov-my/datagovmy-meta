@@ -2,7 +2,9 @@
 	"dashboard_name": "digital_business",
 	"data_last_updated": "2024-04-22 00:01",
 	"route": "/,/ms-MY/",
-	"sites": ["databnm"],
+	"sites": [
+		"opendosm"
+	],
 	"manual_trigger": "2024-04-22 00:16:20.442287",
 	"required_params": [],
 	"optional_params": [],
@@ -15,11 +17,18 @@
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
-				"keys": ["sector"],
+				"keys": [
+					"sector"
+				],
 				"rename_cols": {
 					"date": "x"
 				},
-				"value_columns": ["x", "computer", "internet", "web_presence"]
+				"value_columns": [
+					"x",
+					"computer",
+					"internet",
+					"web_presence"
+				]
 			}
 		},
 		"choropleth_state": {
@@ -31,7 +40,11 @@
 			"api_params": [],
 			"variables": {
 				"x": "state",
-				"y": ["computer", "internet", "web_presence"]
+				"y": [
+					"computer",
+					"internet",
+					"web_presence"
+				]
 			}
 		}
 	}
