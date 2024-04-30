@@ -178,6 +178,10 @@
         "name": "Jobless Claims",
         "description": "Near-real time labour market data."
       },
+      "social-security": {
+        "name": "Jobless Claims",
+        "description": "Near-real time labour market data."
+      },
       "weather-and-climate": {
         "name": "Weather and Climate",
         "description": "10 years of rainfall and temperature data."
