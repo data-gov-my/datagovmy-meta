@@ -234,7 +234,15 @@
         "name": "Indeks Komposit",
         "description": "Indikator pelopor, serentak, dan susulan bagi ekonomi Malaysia."
       },
+      "composite-indices": {
+        "name": "Indeks Komposit",
+        "description": "Indikator pelopor, serentak, dan susulan bagi ekonomi Malaysia."
+      },
       "wholesale-retail": {
+        "name": "Perdagangan Borong dan Runcit",
+        "description": "Prestasi bulanan perdagangan borong dan runcit, termasukan prestasi jualan kenderaan bermotor."
+      },
+      "wholesale-retail-trade": {
         "name": "Perdagangan Borong dan Runcit",
         "description": "Prestasi bulanan perdagangan borong dan runcit, termasukan prestasi jualan kenderaan bermotor."
       },
@@ -254,7 +262,15 @@
         "name": "Kedudukan Pelaburan Antarabangsa",
         "description": "Penyata kewangan aset dan liability kewangan luar Malaysia; IIP menunjukkan stok manakala BOP menunjukkan aliran."
       },
+      "international-investment-position": {
+        "name": "Kedudukan Pelaburan Antarabangsa",
+        "description": "Penyata kewangan aset dan liability kewangan luar Malaysia; IIP menunjukkan stok manakala BOP menunjukkan aliran."
+      },
       "bop": {
+        "name": "Imbangan Pembayaran",
+        "description": "Penyata suku tahunan transaksi Malaysia dengan negara lain; BOP menunjukkan aliran manakala IIP menunjukkan stok."
+      },
+      "balance-of-payments": {
         "name": "Imbangan Pembayaran",
         "description": "Penyata suku tahunan transaksi Malaysia dengan negara lain; BOP menunjukkan aliran manakala IIP menunjukkan stok."
       },
