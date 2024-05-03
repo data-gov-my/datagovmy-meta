@@ -232,11 +232,11 @@
       },
       "composite-index": {
         "name": "Composite Indices",
-        "description": "Leading, coincident, and lagging indicators for the Malaysian economy."
+        "description": "Monthly leading, coincident, and lagging indicators for the Malaysian economy's performance."
       },
       "composite-indices": {
         "name": "Composite Indices",
-        "description": "Leading, coincident, and lagging indicators for the Malaysian economy."
+        "description": "Monthly leading, coincident, and lagging indicators of the Malaysian economy's performance."
       },
       "wholesale-retail": {
         "name": "Wholesale & Retail Trade",
@@ -300,11 +300,11 @@
       },
       "household-income-expenditure": {
         "name": "Household Income & Expenditure",
-        "description": "Household income and expenditure at state and district level, updated with the latest data from the 2022 survey."
+        "description": "Household income and expenditure at national, state and district level, updated with the latest data from the 2022 survey."
       },
       "population": {
         "name": "Population of Malaysia",
-        "description": "The population of Malaysia from 1980 to the present, including vital statistics on births and deaths."
+        "description": "Annual population of Malaysia from 1970 to the present, including vital statistics on births and deaths."
       },
       "external-trade": {
         "name": "External Trade Statistics",
@@ -324,19 +324,19 @@
       },
       "life-expectancy": {
         "name": "Life Expectancy",
-        "description": "This dashboard summarises trends in life expectancy since 1957, with breakdowns by state and demographic group."
+        "description": "Annual data on life expectancy from 1957 to the present, with breakdowns by state and demographic group."
       },
       "wellbeing": {
         "name": "Well-Being",
-        "description": "The annual Malaysian Well-being Index (MyWI) Report is published to measure the well-being of Malaysians from an economic and social perspective."
+        "description": "Annual well-being of Malaysians from 2000 to the present, covering key econonomic and social components."
       },
       "padu-tracker": {
         "name": "Pangkalan Data Utama (PADU)",
-        "description": "The first integrated database in Malaysian history"
+        "description": "\u2014"
       },
       "digital-economy": {
         "name": "Digital Economy",
-        "description": "Performance of e-commerce and the ICT sector, as well as businesses' and households' usage of ICT tools."
+        "description": "Annual performance of e-commerce and the ICT sector, as well as businesses' and households' usage of ICT tools."
       }
     }
   }

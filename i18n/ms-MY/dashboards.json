@@ -232,11 +232,11 @@
       },
       "composite-index": {
         "name": "Indeks Komposit",
-        "description": "Indikator pelopor, serentak, dan susulan bagi ekonomi Malaysia."
+        "description": "Indikator pelopor, serentak, dan susulan bulanan bagi mengukur prestasi ekonomi Malaysia."
       },
       "composite-indices": {
         "name": "Indeks Komposit",
-        "description": "Indikator pelopor, serentak, dan susulan bagi ekonomi Malaysia."
+        "description": "Indikator pelopor, serentak, dan susulan bulanan bagi mengukur prestasi ekonomi Malaysia."
       },
       "wholesale-retail": {
         "name": "Perdagangan Borong dan Runcit",
@@ -260,11 +260,11 @@
       },
       "iip": {
         "name": "Kedudukan Pelaburan Antarabangsa",
-        "description": "Penyata kewangan aset dan liability kewangan luar Malaysia; IIP menunjukkan stok manakala BOP menunjukkan aliran."
+        "description": "Penyata suku tahunan aset dan liability kewangan luar Malaysia; IIP menunjukkan stok manakala BOP menunjukkan aliran."
       },
       "international-investment-position": {
         "name": "Kedudukan Pelaburan Antarabangsa",
-        "description": "Penyata kewangan aset dan liability kewangan luar Malaysia; IIP menunjukkan stok manakala BOP menunjukkan aliran."
+        "description": "Penyata suku tahunan aset dan liability kewangan luar Malaysia; IIP menunjukkan stok manakala BOP menunjukkan aliran."
       },
       "bop": {
         "name": "Imbangan Pembayaran",
@@ -300,11 +300,11 @@
       },
       "household-income-expenditure": {
         "name": "Pendapatan & Perbelanjaan Isi Rumah",
-        "description": "Pendapat dan perbelanjaan isi rumah di peringkat negeri dan daerah, dengan data terkini daripada survei 2022."
+        "description": "Pendapat dan perbelanjaan isi rumah di peringkat nasional, negeri dan daerah, dengan data terkini daripada survei 2022."
       },
       "population": {
         "name": "Populasi Penduduk Malaysia",
-        "description": "Populasi Malaysia sejak 1980, termasuk perangkaan penting mengenai kelahiran dan kematian."
+        "description": "Populasi tahunan Malaysia dari 1970 sehingga kini, termasuk perangkaan penting mengenai kelahiran dan kematian."
       },
       "external-trade": {
         "name": "Statistik Perdagangan Luaran",
@@ -324,19 +324,19 @@
       },
       "life-expectancy": {
         "name": "Jangka Hayat",
-        "description": "Papan pemuka ini merangkumi trend jangka hayat sejak tahun 1957, dengan pecahan mengikut negeri dan kumpulan demografi."
+        "description": "Data jangka hayat tahunan dari 1957 sehingga kini, dengan pecahan mengikut negeri dan kumpulan demografi."
       },
       "wellbeing": {
         "name": "Kesejahteraan Rakyat",
-        "description": "Indeks Kesejahteraan Rakyat Malaysia diterbitkan secara tahunan untuk mengukur tahap kesejahteraan rakyat Malaysia daripada perspektif ekonomi dan sosial."
+        "description": "Kesejahteraan tahunan rakyat Malaysia dari 2000 sehingga kini, merangkumi komponen ekonomi dan sosial yang penting."
       },
       "padu-tracker": {
         "name": "Pangkalan Data Utama (PADU)",
-        "description": "Pangkalan data bersepadu yang pertama dalam sejarah Malaysia"
+        "description": "\u2014"
       },
       "digital-economy": {
         "name": "Ekonomi Digital",
-        "description": "Prestasi e-dagang dan sektor ICT, serta kadar penggunaan ICT oleh perniagaan dan isi rumah."
+        "description": "Prestasi tahunan e-dagang dan sektor ICT, serta kadar penggunaan ICT oleh perniagaan dan isi rumah."
       }
     }
   }
