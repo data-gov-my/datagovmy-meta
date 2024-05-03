@@ -10,7 +10,7 @@
 		"query_values": {
 			"name": "agency_dropdown",
 			"chart_type": "query_values",
-			"chart_source": "https://storage.data.gov.my/dashboards/dashboards_all.parquet",
+			"chart_source": "https://storage.data.gov.my/dashboards/dashboards_all_new.parquet",
 			"data_as_of": "2024-04-28 23:59",
 			"api_type": "dynamic",
 			"api_params": [],
@@ -25,7 +25,7 @@
 		"dashboards": {
 			"name": "dashboards",
 			"chart_type": "metrics_table",
-			"chart_source": "https://storage.data.gov.my/dashboards/dashboards_all2.parquet",
+			"chart_source": "https://storage.data.gov.my/dashboards/dashboards_all_new.parquet",
 			"data_as_of": "2024-04-28 23:59",
 			"api_type": "dynamic",
 			"api_params": ["site"],
