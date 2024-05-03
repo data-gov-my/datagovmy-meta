@@ -87,11 +87,11 @@
 				"value_columns": ["latest", "cagr"]
 			}
 		},
-		"society_timeseries": {
+		"household_timeseries": {
 			"name": "timeseries",
 			"chart_type": "timeseries_chart",
 			"chart_source": "https://storage.dosm.gov.my/dashboards/digital_hh_timeseries.parquet",
-			"data_as_of": "2021",
+			"data_as_of": "2023",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -102,11 +102,11 @@
 				"value_columns": ["x", "mobile_phone", "computer", "internet"]
 			}
 		},
-		"society_timeseries_callout": {
+		"household_timeseries_callout": {
 			"name": "timeseries_callout",
 			"chart_type": "custom_chart",
 			"chart_source": "https://storage.dosm.gov.my/dashboards/digital_hh_timeseries_callout.parquet",
-			"data_as_of": "2021",
+			"data_as_of": "2023",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -114,7 +114,7 @@
 				"value_columns": ["latest"]
 			}
 		},
-		"society_choropleth_state": {
+		"household_choropleth_state": {
 			"name": "choropleth_state",
 			"chart_type": "choropleth_chart",
 			"chart_source": "http://storage.dosm.gov.my/dashboards/digital_hh_state.parquet",
