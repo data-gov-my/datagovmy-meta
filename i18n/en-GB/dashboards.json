@@ -234,7 +234,15 @@
         "name": "Composite Indices",
         "description": "Leading, coincident, and lagging indicators for the Malaysian economy."
       },
+      "composite-indices": {
+        "name": "Composite Indices",
+        "description": "Leading, coincident, and lagging indicators for the Malaysian economy."
+      },
       "wholesale-retail": {
+        "name": "Wholesale & Retail Trade",
+        "description": "Monthly wholesale and retail trade performance, including the performance of motor vehicle sales."
+      },
+      "wholesale-retail-trade": {
         "name": "Wholesale & Retail Trade",
         "description": "Monthly wholesale and retail trade performance, including the performance of motor vehicle sales."
       },
@@ -254,7 +262,15 @@
         "name": "International Investment Position (IIP)",
         "description": "Quarterly statement of Malaysia's external financial assets and liabilities; the IIP shows stocks while the BOP shows flows."
       },
+      "international-investment-position": {
+        "name": "International Investment Position (IIP)",
+        "description": "Quarterly statement of Malaysia's external financial assets and liabilities; the IIP shows stocks while the BOP shows flows."
+      },
       "bop": {
+        "name": "Balance of Payments",
+        "description": "Quarterly statement of Malaysia's transactions with other nations; the BOP shows flows while the IIP shows stocks."
+      },
+      "balance-of-payments": {
         "name": "Balance of Payments",
         "description": "Quarterly statement of Malaysia's transactions with other nations; the BOP shows flows while the IIP shows stocks."
       },
