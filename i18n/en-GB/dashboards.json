@@ -56,7 +56,7 @@
       },
       "rapid-explorer": {
         "name": "Rapid Rail Explorer",
-        "description": "Interactive explorer of daily ridership on Rapid Rail services, allowing you to explore ridership from any origin to any destination!"
+        "description": "Interactive explorer of daily Rapid Rail ridership, allowing you to explore any origin-destination pairing!"
       },
       "rapid-bus-rail": {
         "name": "Rapid Rail Explorer",
@@ -112,7 +112,7 @@
       },
       "business-creation-destruction": {
         "name": "Business Creation and Destruction",
-        "description": "Monthly trends in business creation and destruction, derived from SSM's authoritative database of businesses and companies in Malaysia."
+        "description": "Monthly trends in business creation and destruction, derived from SSM's authoritative database of businesses and companies."
       },
       "international-reserves": {
         "name": "International Reserves",
