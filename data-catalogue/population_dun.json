@@ -73,8 +73,8 @@
       "name": "parlimen",
       "title_en": "Parliament",
       "title_ms": "Parlimen",
-      "description_en": "[Categorical] One of 209 parliamentary constituencies; the remaining 13 constituencies in the 3 federal territories are not present in this dataset because are not broken down into state legislative assemblies.",
-      "description_ms": "[Kategori] Satu daripada 209 kawasan parlimen; baki 13 kawasan parlimen di 3 wilayah persekutuan tidak terkandung dalam set data ini kerana tidak pecahkan kepada dewan undangan negeri. "
+      "description_en": "[Categorical] One of 209 parliamentary constituencies; the remaining 13 constituencies in the 3 federal territories are not present in this dataset because they do not contain state legislative assemblies.",
+      "description_ms": "[Kategori] Satu daripada 209 kawasan parlimen; baki 13 kawasan parlimen di 3 wilayah persekutuan tidak terkandung dalam set data ini kerana tidak dipecahkan kepada dewan undangan negeri. "
     },
     {
       "name": "dun",
