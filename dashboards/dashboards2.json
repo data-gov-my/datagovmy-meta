@@ -1,6 +1,6 @@
 {
 	"dashboard_name": "dashboards2",
-	"data_last_updated": "2024-05-04 00:01",
+	"data_last_updated": "2024-05-04 09:00",
 	"route": "",
 	"sites": ["datagovmy"],
 	"manual_trigger": "",
@@ -11,7 +11,7 @@
 			"name": "agency_dropdown",
 			"chart_type": "query_values",
 			"chart_source": "https://storage.data.gov.my/dashboards/dashboards_all_new.parquet",
-			"data_as_of": "2024-04-28 23:59",
+			"data_as_of": "2024-05:04 09:00",
 			"api_type": "dynamic",
 			"api_params": [],
 			"variables": {
@@ -26,7 +26,7 @@
 			"name": "dashboards",
 			"chart_type": "metrics_table",
 			"chart_source": "https://storage.data.gov.my/dashboards/dashboards_all_new.parquet",
-			"data_as_of": "2024-04-28 23:59",
+			"data_as_of": "2024-05-04 09:00",
 			"api_type": "dynamic",
 			"api_params": ["site"],
 			"variables": {
