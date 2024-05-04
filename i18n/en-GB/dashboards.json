@@ -140,7 +140,7 @@
       },
       "electronic-payments": {
         "name": "Electronic Payments",
-        "description": "Monthly surveillance of e-payments in Malaysia, covering key npayment instruments, channels, and systems."
+        "description": "Monthly surveillance of e-payments in Malaysia, covering key payment instruments, channels, and systems."
       },
       "exchange-rates": {
         "name": "Exchange Rates",
@@ -168,7 +168,7 @@
       },
       "name-popularity": {
         "name": "Baby Name Popularity",
-        "description": "\u2014."
+        "description": "\u2014"
       },
       "refugee-situation": {
         "name": "Malaysia's Refugee Situation",
