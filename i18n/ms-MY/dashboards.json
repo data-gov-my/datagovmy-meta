@@ -228,7 +228,7 @@
       },
       "labour-market": {
         "name": "Pasaran Buruh",
-        "description": "Laporan Survei Tenaga Buruh (STB) bulanan, merangkumi pengangguran, penyertaan tenaga buruh, dan kategori pekerjaan."
+        "description": "Laporan Survei Tenaga Buruh (STB) bulanan, merangkumi pengangguran, kadar penyertaan, dan kategori pekerjaan."
       },
       "composite-index": {
         "name": "Indeks Komposit",
