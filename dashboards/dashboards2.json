@@ -11,7 +11,7 @@
 			"name": "agency_dropdown",
 			"chart_type": "query_values",
 			"chart_source": "https://storage.data.gov.my/dashboards/dashboards_all_new.parquet",
-			"data_as_of": "2024-05:04 09:00",
+			"data_as_of": "2024-05-04 09:00",
 			"api_type": "dynamic",
 			"api_params": [],
 			"variables": {
