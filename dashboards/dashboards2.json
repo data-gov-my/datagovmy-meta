@@ -1,9 +1,9 @@
 {
 	"dashboard_name": "dashboards2",
-	"data_last_updated": "2024-04-29 00:01",
+	"data_last_updated": "2024-05-04 00:01",
 	"route": "",
 	"sites": ["datagovmy"],
-	"manual_trigger": "2024-04-29 01:30:40.895927",
+	"manual_trigger": "",
 	"required_params": [],
 	"optional_params": [],
 	"charts": {
