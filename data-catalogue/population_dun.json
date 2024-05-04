@@ -1,23 +1,23 @@
 {
-  "title_en": "Population Table: Parliamentary Constituencies",
-  "title_ms": "Jadual Penduduk: Kawasan Parlimen",
-  "title_sort": 4,
-  "description_en": "Population at parliamentary constituency level from 2020 to 2022, with breakdowns by sex and nationality. The preview table shows data for the latest year only, but you may download the data in full.",
-  "description_ms": "Jumlah penduduk di peringkat kawasan parlimen dari 2020 ke 2022, dengan pecahan mengikut jantina dan kewarganegaraan. Jadual pratonton hanya menunjukkan data bagi tahun terkini, tetapi data penuh boleh dimuat turun.",
+  "title_en": "Population Table: State Legislative Assemblies (DUNs)",
+  "title_ms": "Jadual Penduduk: Dewan Undangan Negeri (DUN)",
+  "title_sort": 5,
+  "description_en": "Population at state legislative assembly (DUN) level from 2020 to 2022, with breakdowns by sex and nationality. The preview table shows data for the latest year only, but you may download the data in full.",
+  "description_ms": "Jumlah penduduk di peringkat dewan undangan negeri (DUN) dari 2020 ke 2022, dengan pecahan mengikut jantina dan kewarganegaraan. Jadual pratonton hanya menunjukkan data bagi tahun terkini, tetapi data penuh boleh dimuat turun.",
   "exclude_openapi": true,
   "manual_trigger": "",
   "data_as_of": "2022",
   "last_updated": "2023-05-23 12:00",
   "next_update": "2024-06-24 12:00",
-  "methodology_en": "The 222 parliamentary constituencies enumerated in this dataset are based on the most recent electoral boundaries per the redelineation exercises in 2015 (Sabah), 2017 (Sarawak) and 2018 (Peninsular Malaysia). Values for 2020 are based on adjusted data from the Population Census conducted in that year. Values for all other years are intercensal mid-year population estimates. The intercensal estimates were generated using the cohort-component method, which estimates the latest year's population by taking the previous year's value, then adding births, subtracting deaths, and adding net migration. For a deeper understanding of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/population-technotes).",
-  "methodology_ms": "222 kawasan parlimen yang diperincikan dalam set data ini adalah berdasarkan sempadan kawasan parlimen yang terkini selaras dengan kajian semula persempadanan yang dilaksanakan pada tahun 2015 (Sabah), 2017 (Sarawak) dan 2018 (Semenanjung Malaysia). Angka bagi 2020 adalah berdasarkan data daripada Banci Penduduk yang dilaksanakan pada tahun tersebut. Angka bagi semua tahun lain adalah anggaran pertengahan tahun antara banci. Anggaran antara banci dihasilkan dengan kaedah komponen kohort, yang menganggarkan angka bagi tahun terkini dengan mengambil angka bagi tahun sebelumnya, kemudian tambah kelahiran, tolak kematian, dan tambah migrasi bersih. Untuk mendapat pemahaman metodologi yang lebih mendalam, sila rujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/population-technotes).",
+  "methodology_en": "The 600 DUNs enumerated in this dataset are based on the most recent electoral boundaries per the redelineation exercises in 2015 (Sabah), 2017 (Sarawak) and 2018 (Peninsular Malaysia). Values for 2020 are based on adjusted data from the Population Census conducted in that year. Values for all other years are intercensal mid-year population estimates. The intercensal estimates were generated using the cohort-component method, which estimates the latest year's population by taking the previous year's value, then adding births, subtracting deaths, and adding net migration. For a deeper understanding of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/population-technotes).",
+  "methodology_ms": "600 DUN yang diperincikan dalam set data ini adalah berdasarkan sempadan kawasan parlimen yang terkini selaras dengan kajian semula persempadanan yang dilaksanakan pada tahun 2015 (Sabah), 2017 (Sarawak) dan 2018 (Semenanjung Malaysia). Angka bagi 2020 adalah berdasarkan data daripada Banci Penduduk yang dilaksanakan pada tahun tersebut. Angka bagi semua tahun lain adalah anggaran pertengahan tahun antara banci. Anggaran antara banci dihasilkan dengan kaedah komponen kohort, yang menganggarkan angka bagi tahun terkini dengan mengambil angka bagi tahun sebelumnya, kemudian tambah kelahiran, tolak kematian, dan tambah migrasi bersih. Untuk mendapat pemahaman metodologi yang lebih mendalam, sila rujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/population-technotes).",
   "caveat_en": "Values for breakdowns may be slightly different to totals when summed, due to rounding to one decimal place.",
   "caveat_ms": "Angka-angka terperinci mungkin sedikit berbeza dengan angka keseluruhan apabila terjumlah, disebabkan oleh penggenapan kepada satu titik perpuluhan.",
-  "publication_en": "OpenDOSM's [Kawasanku dashboard](https://open.dosm.gov.my/dashboard/kawasanku) allows you to explore a wide range of indicators for any parliamentary constituency, including its population.",
-  "publication_ms": "[Papan pemuka Kawasanku](https://open.dosm.gov.my/ms-MY/dashboard/kawasanku) di OpenDOSM membolehkan anda menerokai pelbagai indikator bagi mana-mana kawasan parlimen, termasuk data penduduknya.",
-  "link_parquet": "https://storage.dosm.gov.my/population/population_parlimen.parquet",
-  "link_csv": "https://storage.dosm.gov.my/population/population_parlimen.csv",
-  "link_preview": "https://storage.dosm.gov.my/population/population_parlimen_preview.parquet",
+  "publication_en": "OpenDOSM's [Kawasanku dashboard](https://open.dosm.gov.my/dashboard/kawasanku) allows you to explore a wide range of indicators for any DUN, including its population.",
+  "publication_ms": "[Papan pemuka Kawasanku](https://open.dosm.gov.my/ms-MY/dashboard/kawasanku) di OpenDOSM membolehkan anda menerokai pelbagai indikator bagi mana-mana DUN, termasuk data penduduknya.",
+  "link_parquet": "https://storage.dosm.gov.my/population/population_dun.parquet",
+  "link_csv": "https://storage.dosm.gov.my/population/population_dun.csv",
+  "link_preview": "https://storage.dosm.gov.my/population/population_dun_preview.parquet",
   "frequency": "YEARLY",
   "geography": [
     "PARLIMEN"
@@ -66,15 +66,22 @@
       "name": "state",
       "title_en": "State",
       "title_ms": "Negeri",
-      "description_en": "[Categorical] One of 16 states",
-      "description_ms": "[Kategoril] Satu daripada 16 negeri"
+      "description_en": "[Categorical] One of 13 states; the 3 federal territories are not present in this dataset because they do not have state legislative assemblies.",
+      "description_ms": "[Kategoril] Satu daripada 13 negeri; 3 wilayah persekutuan tidak terkandung dalam set data ini kerana tidak mempunyai dewan undangan negeri."
     },
     {
       "name": "parlimen",
       "title_en": "Parliament",
       "title_ms": "Parlimen",
-      "description_en": "[Categorical] One of 222 parliamentary constituencies",
-      "description_ms": "[Kategori] Satu daripada 222 kawasan parlimen"
+      "description_en": "[Categorical] One of 209 parliamentary constituencies; the remaining 13 constituencies in the 3 federal territories are not present in this dataset because are not broken down into state legislative assemblies.",
+      "description_ms": "[Kategori] Satu daripada 209 kawasan parlimen; baki 13 kawasan parlimen di 3 wilayah persekutuan tidak terkandung dalam set data ini kerana tidak pecahkan kepada dewan undangan negeri. "
+    },
+    {
+      "name": "dun",
+      "title_en": "DUN",
+      "title_ms": "DUN",
+      "description_en": "[Categorical] One of 600 DUNs; for the avoidance of doubt, every DUN is a subset of exactly 1 Parliament (in geographical terms: every DUN is enclaved within a Parliament).",
+      "description_ms": "[Kategori] Satu daripada DUN; harus diambil perhatian bahawa setiap DUN adalah subset daripada 1 Parlimen sahaja (dalam istilah geografi: setiap DUN adalah 'enclave' ataupun berada sepenuhnya dalam satu kawasan Parlimen). "
     },
 		{
 			"name": "sex",
@@ -113,7 +120,7 @@
       "chart_type": "TABLE",
       "config": {
         "precision": 1,
-        "filter_columns": ["state","parlimen"],
+        "filter_columns": ["state","dun"],
         "freeze_columns": []
       }
     }
@@ -122,6 +129,7 @@
     "date": "Date",
     "state": "State",
     "parlimen": "Parliament",
+    "dun": "DUN",
     "sex": "Sex",
     "ethnicity": "Ethnicity",
     "age": "Age",
@@ -145,6 +153,7 @@
     "date": "Tarikh",
     "state": "Negeri",
     "parlimen": "Parlimen",
+    "dun": "DUN",
     "sex": "Jantina",
     "ethnicity": "Etnik",
     "age": "Umur",
