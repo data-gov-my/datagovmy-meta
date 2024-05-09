@@ -1,13 +1,13 @@
 {
-	"data_last_updated": "2024-09-01 11:00",
-	"data_next_update": "2024-05-15 11:00",
+	"data_last_updated": "2023-09-01 11:00",
+	"data_next_update": "2024-06-01 11:00",
 	"sites": ["datagovmy"],
 	"manual_trigger": "",
 	"explorer_name": "car_popularity",
 	"route": "/dashboard/car-popularity,/ms-MY/dashboard/car-popularity",
 	"tables": {
 		"CarPopularityTimeseries": {
-			"data_as_of": "2024-08-31 23:59",
+			"data_as_of": "2023-08-31 23:59",
 			"source": "https://storage.data.gov.my/dashboards/car_popularity_timeseries.parquet",
 			"update": "REBUILD"
 		}
