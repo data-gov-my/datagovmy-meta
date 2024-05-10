@@ -5,7 +5,7 @@
     "description_en": "Real output of the three main industrial sectors for specific MSIC divisions (2 digit) which are critical for Malaysia's export performance. The table provides a preview of the full dataset using the latest month of data only.",
     "description_ms": "Pengeluaran sebenar bagi tiga sektor industri utama bagi bahagian MSIC tertentu (2 digit) yang penting dalam memacu prestasi eksport Malaysia. Jadual memberi pratonton kepada set data penuh dengan menggunakan data bulan terkini sahaja.",
     "exclude_openapi": true,
-    "manual_trigger": "",
+    "manual_trigger": "2024-05-10 18:15:42.704648",
     "data_as_of": "2024-03",
     "last_updated": "2024-05-10 12:00",
     "next_update": "2024-06-10 12:00",

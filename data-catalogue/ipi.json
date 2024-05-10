@@ -5,7 +5,7 @@
     "description_en": "Real output of the three main industrial sectors, namely mining, manufacturing and electricity.",
     "description_ms": "Pengeluaran sebenar bagi tiga sektor industri utama, iaitu perlombongan, pembuatan dan elektrik.",
     "exclude_openapi": false,
-    "manual_trigger": "1",
+    "manual_trigger": "2024-05-10 18:15:42.700981",
     "data_as_of": "2024-03",
     "last_updated": "2024-05-10 12:00",
     "next_update": "2024-06-10 12:00",
