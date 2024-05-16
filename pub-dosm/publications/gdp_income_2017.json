@@ -2,7 +2,7 @@
     "publication": "gdp_income_2017",
     "publication_type": "gdp",
     "release_date": "2018-07-26",
-    "frequency": "QUARTERLY",
+    "frequency": "YEARLY",
     "geography": [
         "NATIONAL"
     ],
@@ -10,7 +10,7 @@
     "en": {
         "title": "[2017] Gross Domestic Product (Income Approach)",
         "publication_type_title": "Gross Domestic Product",
-        "description": "Quarterly gross domestic product (GDP), covering nominal and real GDP by type of expenditure and activity.",
+        "description": "Annual gross domestic product (GDP) by income component, including compensation of employees and gross operating surplus.",
         "resources": [
             {
                 "resource_id": 1,
@@ -29,7 +29,7 @@
     "bm": {
         "title": "[2017] Keluaran Dalam Negeri Kasar (Kaedah Pendapatan)",
         "publication_type_title": "Keluaran Dalam Negeri Kasar",
-        "description": "Keluaran dalam negeri kasar (KDNK) suku tahunan, merangkumi KDNK pada harga semasa dan malar mengikut jenis perbelanjaan dan aktiviti.",
+        "description": "Keluaran dalam negeri kasar (KDNK) tahunan mengikut komponen pendapatan, termasuk pampasan pekerja dan lebihan kendalian kasar.",
         "resources": [
             {
                 "resource_id": 1,
