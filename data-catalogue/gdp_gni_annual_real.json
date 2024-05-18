@@ -34,7 +34,7 @@
         {
             "site": "datagovmy",
             "category_en": "National Accounts",
-            "category_ms": "Akaun Nasional",
+            "category_ms": "Akaun Negara",
             "category_sort": 20,
             "subcategory_en": "Gross Domestic Product",
             "subcategory_ms": "Keluaran Dalam Negeri Kasar",
@@ -43,7 +43,7 @@
         {
             "site": "opendosm",
             "category_en": "National Accounts",
-            "category_ms": "Akaun Nasional",
+            "category_ms": "Akaun Negara",
             "category_sort": 20,
             "subcategory_en": "Gross Domestic Product",
             "subcategory_ms": "Keluaran Dalam Negeri Kasar",
