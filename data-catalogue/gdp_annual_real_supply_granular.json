@@ -1,6 +1,6 @@
 {
-    "title_en": "Annual Real GDP by Economic Subector",
-    "title_ms": "KDNK Sebenar Tahunan mengikut Subektor Ekonomi",
+    "title_en": "Annual Real GDP by Economic Subsector",
+    "title_ms": "KDNK Sebenar Tahunan mengikut Subsektor Ekonomi",
     "title_sort": 10,
     "description_en": "Annual gross domestic product (GDP) at constant 2015 prices by economic subsector. The table provides a preview of the full dataset using the latest year's data only.",
     "description_ms": "Keluaran dalam negeri kasar (KDNK) tahunan pada harga malar 2015 mengikut subsektor ekonomi. Jadual memberi pratonton kepada set data penuh dengan menggunakan data tahun terkini sahaja.",
@@ -90,33 +90,12 @@
             "config": {
                 "precision": 1,
                 "filter_columns": [
-                    "series",
-                    "sector"
+                    "series"
                 ],
                 "freeze_columns": [
                     "series",
                     "date"
                 ]
-            }
-        },
-        {
-            "dataviz_id": "value",
-            "title_en": "Real GDP",
-            "title_ms": "KDNK Sebenar",
-            "chart_type": "TIMESERIES",
-            "config": {
-                "filter_columns": [
-                    "series",
-                    "sector"
-                ],
-                "precision": 1,
-                "operation": "SUM",
-                "format": {
-                    "x": "date",
-                    "y": [
-                        "value"
-                    ]
-                }
             }
         }
     ],
