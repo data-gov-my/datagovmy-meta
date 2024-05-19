@@ -127,13 +127,13 @@
         "gdp": "GDP",
         "x": "Date",
         "y1": "Value",
-        "p0": "Overall",
+        "p0": "Overall GDP",
         "p1": "Agriculture",
-        "p2": "Mining & quarrying",
+        "p2": "Mining & Quarrying",
         "p3": "Manufacturing",
         "p4": "Construction",
         "p5": "Services",
-        "p6": "Import duties"
+        "p6": "Import Duties"
     },
     "translations_ms": {
         "series": "Jenis Siri",
@@ -143,13 +143,13 @@
         "gdp": "KDNK",
         "x": "Tarikh",
         "y1": "Nilai",
-        "p0": "Keseluruhan",
+        "p0": "KDNK Keseluruhan",
         "p1": "Pertanian",
         "p2": "Perlombongan dan pengkuarian",
         "p3": "Pembuatan",
         "p4": "Pembinaan",
         "p5": "Perkhidmatan",
-        "p6": "Duti import"
+        "p6": "Duti Import"
     },
     "related_datasets": []
 }
