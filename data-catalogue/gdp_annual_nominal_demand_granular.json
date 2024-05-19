@@ -4,7 +4,7 @@
     "title_sort": 6,
     "description_en": "Annual gross domestic product (GDP) at current prices, by expenditure type and subtype. The table provides a preview of the full dataset using the latest year's data only.",
     "description_ms": "Keluaran dalam negeri kasar (KDNK) tahunan pada harga semasa, mengikut jenis dan subjenis perbelanjaan. Jadual memberi pratonton kepada set data penuh dengan menggunakan data tahun terkini sahaja.",
-    "exclude_openapi": false,
+    "exclude_openapi": true,
     "manual_trigger": "",
     "data_as_of": "2023",
     "last_updated": "2024-05-17 12:00",
