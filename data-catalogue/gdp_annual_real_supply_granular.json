@@ -15,8 +15,9 @@
     "caveat_ms": "Angka bagi 2022 dan 2023 mungkin disemak semula dalam penerbitan akan datang. Tambahan, hasil tambah nilai KDNK bagi semua sektor mungkin tidak sentiasa sama dengan nilai KDNK keseluruhan kerana pembundaran secara bebas. Walau bagaimanapun, perbezaan ini tidak ketara.",
     "publication_en": "[Gross Domestic Product, 2023](https://open.dosm.gov.my/publications/gdp_2023), the latest edition of the annual GDP statistics published by DOSM. OpenDOSM also features a [dashboard on GDP](https://open.dosm.gov.my/dashboard/gdp) which enables you to explore Malaysia's GDP data interactively.",
     "publication_ms": "[Keluaran Dalam Negeri Kasar, 2023](https://open.dosm.gov.my/ms-MY/publications/gdp_2023), edisi terkini bagi statistik KDNK tahunan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga membekalkan [_dashboard_ KDNK](https://open.dosm.gov.my/ms-MY/dashboard/gdp) yang membolehkan anda menerokai data KDNK Malaysia secara interaktif.",
-    "link_parquet": "https://storage.dosm.gov.my/gdp/gdp_annual_nominal_supply.parquet",
-    "link_csv": "https://storage.dosm.gov.my/gdp/gdp_annual_nominal_supply.csv",
+    "link_parquet": "https://storage.dosm.gov.my/gdp/gdp_annual_real_supply_sub.parquet",
+    "link_csv": "https://storage.dosm.gov.my/gdp/gdp_annual_real_supply_sub.csv",
+    "link_preview": "https://storage.dosm.gov.my/gdp/gdp_annual_real_supply_sub_preview.parquet",
     "frequency": "YEARLY",
     "geography": [
         "NATIONAL"
