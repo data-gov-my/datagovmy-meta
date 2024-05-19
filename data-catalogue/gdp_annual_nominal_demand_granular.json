@@ -1,9 +1,9 @@
 {
-    "title_en": "Annual Nominal GDP by Expenditure Type",
-    "title_ms": "KDNK Nominal Tahunan mengikut Jenis Perbelanjaan",
-    "title_sort": 5,
-    "description_en": "Annual gross domestic product (GDP) at current prices, by expenditure type.",
-    "description_ms": "Keluaran dalam negeri kasar (KDNK) tahunan pada harga semasa, mengikut jenis perbelanjaan.",
+    "title_en": "Annual Nominal GDP by Expenditure Subtype",
+    "title_ms": "KDNK Nominal Tahunan mengikut Subjenis Perbelanjaan",
+    "title_sort": 6,
+    "description_en": "Annual gross domestic product (GDP) at current prices, by expenditure type and subtype. The table provides a preview of the full dataset using the latest year's data only.",
+    "description_ms": "Keluaran dalam negeri kasar (KDNK) tahunan pada harga semasa, mengikut jenis dan subjenis perbelanjaan. Jadual memberi pratonton kepada set data penuh dengan menggunakan data tahun terkini sahaja.",
     "exclude_openapi": false,
     "manual_trigger": "",
     "data_as_of": "2023",
@@ -69,8 +69,8 @@
 			"name": "type",
 			"title_en": "Expenditure Type",
 			"title_ms": "Jenis Perbelanjaan",
-            "description_en": "[String] Code for the expenditure type, to be mapped using the [Lookup Table](https://open.dosm.gov.my/data-catalogue/gdp_lookup). The lookup table will give you the English and Malay definitions.",
-            "description_ms": "[Rentetan] Kod bagi jenis perbelanjaan, yang perlu dipadankan dengan [Jadual Carian](https://open.dosm.gov.my/ms-MY/data-catalogue/gdp_lookup). Jadual carian akan memberi definisi dalam Bahasa Inggeris dan Bahasa Melayu."
+            "description_en": "[String] Code for the expenditure type or subtype, to be mapped using the [Lookup Table](https://open.dosm.gov.my/data-catalogue/gdp_lookup). The lookup table will give you the English and Malay definitions.",
+            "description_ms": "[Rentetan] Kod bagi jenis atau subjenis perbelanjaan, yang perlu dipadankan dengan [Jadual Carian](https://open.dosm.gov.my/ms-MY/data-catalogue/gdp_lookup). Jadual carian akan memberi definisi dalam Bahasa Inggeris dan Bahasa Melayu."
 		},
         {
             "name": "value",
@@ -89,33 +89,12 @@
             "config": {
                 "precision": 1,
                 "filter_columns": [
-                    "series",
-                    "type"
+                    "series"
                 ],
                 "freeze_columns": [
                     "series",
                     "date"
                 ]
-            }
-        },
-        {
-            "dataviz_id": "value",
-            "title_en": "Nominal GDP",
-            "title_ms": "KDNK Nominal",
-            "chart_type": "TIMESERIES",
-            "config": {
-                "filter_columns": [
-                    "series",
-                    "type"
-                ],
-                "precision": 1,
-                "operation": "SUM",
-                "format": {
-                    "x": "date",
-                    "y": [
-                        "value"
-                    ]
-                }
             }
         }
     ],
