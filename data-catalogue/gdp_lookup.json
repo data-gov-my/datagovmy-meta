@@ -1,7 +1,7 @@
 {
   "title_en": "Lookup Table: GDP",
   "title_ms": "Jadual Carian: KDNK",
-  "title_sort": 1,
+  "title_sort": 1000,
   "description_en": "Lookup table, to be left-joined against other GDP datasets if specified.",
   "description_ms": "Jadual carian, untuk dipadankan (left-join) dengan set data KDNK lain sekiranya diperlukan.",
   "exclude_openapi": false,
@@ -30,21 +30,21 @@
   "site_category": [
     {
         "site": "datagovmy",
-        "category_en": "Data Dictionaries",
-        "category_ms": "Dictionary Data",
-        "category_sort": 110,
-        "subcategory_en": "Others",
-        "subcategory_ms": "Lain-lain",
-        "subcategory_sort": 10000
+        "category_en": "National Accounts",
+        "category_ms": "Akaun Negara",
+        "category_sort": 20,
+        "subcategory_en": "Gross Domestic Product",
+        "subcategory_ms": "Keluaran Dalam Negeri Kasar",
+        "subcategory_sort": 10
     },
     {
-      "site": "opendosm",
-      "category_en": "Data Dictionaries",
-      "category_ms": "Dictionary Data",
-      "category_sort": 110,
-      "subcategory_en": "Others",
-      "subcategory_ms": "Lain-lain",
-      "subcategory_sort": 10000
+        "site": "opendosm",
+        "category_en": "National Accounts",
+        "category_ms": "Akaun Negara",
+        "category_sort": 20,
+        "subcategory_en": "Gross Domestic Product",
+        "subcategory_ms": "Keluaran Dalam Negeri Kasar",
+        "subcategory_sort": 10
     }
   ],
   "fields": [
