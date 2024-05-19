@@ -89,7 +89,8 @@
             "config": {
                 "precision": 1,
                 "filter_columns": [
-                    "series"
+                    "series",
+                    "sector"
                 ],
                 "freeze_columns": [
                     "series",
@@ -104,7 +105,8 @@
             "chart_type": "TIMESERIES",
             "config": {
                 "filter_columns": [
-                    "series"
+                    "series",
+                    "sector"
                 ],
                 "precision": 1,
                 "operation": "SUM",
@@ -121,10 +123,17 @@
         "series": "Series Type",
         "date": "Date",
         "abs": "Absolute values",
-        "growth-yoy": "Year-on-year growth",
+        "growth-yoy": "Annual growth",
         "gdp": "GDP",
         "x": "Date",
-        "y1": "Value"
+        "y1": "Value",
+        "p0": "Overall",
+        "p1": "Agriculture",
+        "p2": "Mining & quarrying",
+        "p3": "Manufacturing",
+        "p4": "Construction",
+        "p5": "Services",
+        "p6": "Import duties"
     },
     "translations_ms": {
         "series": "Jenis Siri",
@@ -133,7 +142,14 @@
         "growth-yoy": "Pertumbuhan tahunan",
         "gdp": "KDNK",
         "x": "Tarikh",
-        "y1": "Nilai"
+        "y1": "Nilai",
+        "p0": "Keseluruhan",
+        "p1": "Pertanian",
+        "p2": "Perlombongan dan pengkuarian",
+        "p3": "Pembuatan",
+        "p4": "Pembinaan",
+        "p5": "Perkhidmatan",
+        "p6": "Duti import"
     },
     "related_datasets": []
 }
