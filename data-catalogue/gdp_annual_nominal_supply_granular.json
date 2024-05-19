@@ -102,6 +102,8 @@
     "translations_en": {
         "series": "Series Type",
         "date": "Date",
+        "sector": "Sector",
+        "value": "Value",
         "abs": "Absolute values",
         "growth-yoy": "Annual growth",
         "gdp": "GDP",
@@ -111,6 +113,8 @@
     "translations_ms": {
         "series": "Jenis Siri",
         "date": "Tarikh",
+        "sector": "Sektor",
+        "value": "Nilai",
         "abs": "Nilai mutlak",
         "growth-yoy": "Pertumbuhan tahunan",
         "gdp": "KDNK",
