@@ -1,7 +1,7 @@
 {
     "title_en": "Quarterly Nominal GDP by Economic Subsector",
     "title_ms": "KDNK Nominal Suku Tahunan mengikut Subsektor Ekonomi",
-    "title_sort": 4,
+    "title_sort": 15,
     "description_en": "Quarterly gross domestic product (GDP) at current prices by economic subsector. The table provides a preview of the full dataset using the latest year's data only.",
     "description_ms": "Keluaran dalam negeri kasar (KDNK) suku tahunan pada harga semasa mengikut subsektor ekonomi. Jadual memberi pratonton kepada set data penuh dengan menggunakan data tahun terkini sahaja.",
     "exclude_openapi": true,

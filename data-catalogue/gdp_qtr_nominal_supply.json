@@ -1,7 +1,7 @@
 {
     "title_en": "Quarterly Nominal GDP by Economic Sector",
     "title_ms": "KDNK Nominal Suku Tahunan mengikut Sektor Ekonomi",
-    "title_sort": 3,
+    "title_sort": 14,
     "description_en": "Quarterly gross domestic product (GDP) at current prices for the 5 main economic sectors.",
     "description_ms": "Keluaran dalam negeri kasar (KDNK) suku tahunan pada harga semasa bagi 5 sektor ekonomi utama.",
     "exclude_openapi": false,
