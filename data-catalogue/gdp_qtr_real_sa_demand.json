@@ -1,7 +1,7 @@
 {
     "title_en": "Quarterly Real GDP (Seasonally Adjusted) by Expenditure Type",
     "title_ms": "KDNK Sebenar Suku Tahunan (Terlaras secara Musim) mengikut Jenis Perbelanjaan",
-    "title_sort": 20,
+    "title_sort": 25,
     "description_en": "Seasonally adjusted quarterly gross domestic product (GDP) at constant 2015 prices, by expenditure type.",
     "description_ms": "Keluaran dalam negeri kasar (KDNK) suku tahunan yang terlaras secara musim pada harga malar 2015, mengikut jenis perbelanjaan.",
     "exclude_openapi": false,
