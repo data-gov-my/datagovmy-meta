@@ -1,7 +1,7 @@
 {
     "title_en": "Quarterly Nominal GDP by Expenditure Type",
     "title_ms": "KDNK Nominal Suku Tahunan mengikut Jenis Perbelanjaan",
-    "title_sort": 5,
+    "title_sort": 16,
     "description_en": "Quarterly gross domestic product (GDP) at current prices, by expenditure type.",
     "description_ms": "Keluaran dalam negeri kasar (KDNK) suku tahunan pada harga semasa, mengikut jenis perbelanjaan.",
     "exclude_openapi": false,
