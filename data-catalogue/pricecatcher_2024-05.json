@@ -4,7 +4,7 @@
     "description_en": "The table below provides a preview of the full dataset, which contains over a million prices. We recommend that you download and work with the data in a coding environment. This data should be used in conjuction with the Item Lookup and Premise Lookup tables.",
     "description_ms": "Jadual di bawah memberi pratonton kepada dataset penuh yang mengandungi lebih daripada sejuta harga. Kami sarankan anda memuat turun dan menganalisa data dengan menggunakan kod. Set data ini harus digunakan bersama dengan Jadual Carian Barangan dan Jadual Carian Premis.",
     "exclude_openapi": true,
-    "manual_trigger": "2024-05-20 19:55:39.377441",
+    "manual_trigger": "2024-05-20 20:01:04.713330",
     "data_as_of": "2024-05-17 23:59",
     "last_updated": "2024-05-18 12:00",
     "next_update": "2024-05-19 12:00",
