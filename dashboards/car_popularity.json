@@ -4,7 +4,7 @@
 	"data_next_updated": "2024-06-15 09:00",
 	"route": "/dashboard/car-popularity,/ms-MY/dashboard/car-popularity",
 	"sites": ["datagovmy"],
-	"manual_trigger": "",
+	"manual_trigger": "1",
 	"required_params": [],
 	"optional_params": ["maker", "model"],
 	"charts": {
