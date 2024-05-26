@@ -1,8 +1,8 @@
 {
-    "manual_trigger": "2024-05-25 03:30:25.951110",
-    "data_as_of": "2024-05-24 23:59",
-    "last_updated": "2024-05-25 00:01",
-    "next_update": "2024-05-26 00:01",
+    "manual_trigger": "2024-05-26 09:26:53.817930",
+    "data_as_of": "2024-05-25 23:59",
+    "last_updated": "2024-05-26 00:01",
+    "next_update": "2024-05-27 00:01",
     "link_parquet": "https://storage.data.gov.my/metadata/catalogue.parquet",
     "frequency": "DAILY",
     "data_source": [
