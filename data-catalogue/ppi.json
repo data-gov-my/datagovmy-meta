@@ -5,15 +5,15 @@
     "description_ms": "Harga pengeluar bagi lima sektor utama iaitu pertanian, perhutanan dan perikanan, perlombongan, pembuatan, bekalan elektrik dan gas, dan bekalan air.",
     "exclude_openapi": false,
     "manual_trigger": "2024-02-28 10:49:47.585863",
-    "data_as_of": "2024-03",
-    "last_updated": "2024-04-26 12:00",
-    "next_update": "2024-05-28 12:00",
+    "data_as_of": "2024-04",
+    "last_updated": "2024-05-28 12:00",
+    "next_update": "2024-06-27 12:00",
     "methodology_en": "The index is compiled based on the change in the average price of commodities charged by domestic producers of an industry.",
     "methodology_ms": "Indeks disusun berdasarkan perubahan purata harga komoditi yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
     "caveat_en": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
     "caveat_ms": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa.",
-    "publication_en": "[Producer Price Index, Mar 2024](https://open.dosm.gov.my/publications/ppi_2024-03), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on producer prices](https://open.dosm.gov.my/dashboard/producer-prices).",
-    "publication_ms": "[Indeks Harga Pengeluar, Mac 2024](https://open.dosm.gov.my/ms-MY/publications/ppi_2024-03), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/ms-MY/dashboard/producer-prices).",
+    "publication_en": "[Producer Price Index, Apr 2024](https://open.dosm.gov.my/publications/ppi_2024-04), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on producer prices](https://open.dosm.gov.my/dashboard/producer-prices).",
+    "publication_ms": "[Indeks Harga Pengeluar, Apr 2024](https://open.dosm.gov.my/ms-MY/publications/ppi_2024-04), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/ms-MY/dashboard/producer-prices).",
     "link_parquet": "https://storage.dosm.gov.my/ppi/ppi.parquet",
     "link_csv": "https://storage.dosm.gov.my/ppi/ppi.csv",
     "link_preview": "https://storage.dosm.gov.my/ppi/ppi.parquet",
@@ -28,7 +28,7 @@
         "DOSM"
     ],
     "data_source_granular": [
-      "BPHPP"
+        "BPHPP"
     ],
     "site_category": [
         {
