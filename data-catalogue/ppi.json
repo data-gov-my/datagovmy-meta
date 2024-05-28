@@ -4,7 +4,7 @@
     "description_en": "Producer prices for five main sectors namely agriculture, forestry and fishing, mining, manufacturing, electricity and gas supply, and water supply.",
     "description_ms": "Harga pengeluar bagi lima sektor utama iaitu pertanian, perhutanan dan perikanan, perlombongan, pembuatan, bekalan elektrik dan gas, dan bekalan air.",
     "exclude_openapi": false,
-    "manual_trigger": "2024-02-28 10:49:47.585863",
+    "manual_trigger": "2024-05-28 12:36:14.144592",
     "data_as_of": "2024-04",
     "last_updated": "2024-05-28 12:00",
     "next_update": "2024-06-27 12:00",
