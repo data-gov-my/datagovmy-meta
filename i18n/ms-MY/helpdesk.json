@@ -2,7 +2,7 @@
 	"route": "/ms-MY/helpdesk",
 	"sites": ["datagovmy"],
 	"translation": {
-		"header": "Pusat Bantuan",
+		"header": "Meja Bantuan",
 		"description": "Dapatkan penjelasan tentang soalan lazim atau hubungi kami untuk mendapatkan bantuan yang lebih spesifik.",
 		"faq": "Soalan Lazim (FAQ)",
 		"general": "Umum",
