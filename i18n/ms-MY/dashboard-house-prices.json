@@ -11,7 +11,7 @@
     "choro_desc": "Pengedaran data ini adalah berdasarkan lokasi rumah, bukan alamat pembeli atau penjual.",
     "keys": {
       "all": "Semua Jenis Rumah",
-      "high_rise": "Unit Bertingkat Tinggi",
+      "high_rise": "Unit High-Rise",
       "terrace": "Rumah Teres",
       "detached": "Rumah Terpisah",
       "semi_detached": "Rumah Separuh Berkembar",

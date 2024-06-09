@@ -3,7 +3,7 @@
   "sites": ["datagovmy"],
   "translation": {
     "header": "House Prices",
-    "description": "For many Malaysians, purchasing a house is a milestone - it means putting down roots, starting a family, and having a place to call your own. Given the importance of housing, the government established the National Property Information Centre (NAPIC) to monitor housing affordability and the property market in general. This dashboard uses NAPIC’s authoritative data to give you an easy way to understand house price trends.",
+    "description": "For many Malaysians, purchasing a house is a milestone - it means putting down roots, starting a family, and having a place to call your own. Given the importance of housing, the government established the National Property Information Centre (NAPIC) to monitor housing affordability and the property market in general. This dashboard uses NAPIC's authoritative data to give you an easy way to understand house price trends.",
     "section_1": {
       "title": "How are house prices trending?"
     },
