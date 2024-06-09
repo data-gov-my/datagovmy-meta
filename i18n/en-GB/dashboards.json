@@ -337,6 +337,10 @@
       "digital-economy": {
         "name": "Digital Economy",
         "description": "Annual performance of e-commerce and the ICT sector, as well as businesses' and households' usage of ICT tools."
+      },
+      "house-prices": {
+        "name": "House Prices",
+        "description": "This dashboard uses NAPIC’s authoritative data to give you an easy way to understand house price trends."
       }
     }
   }
