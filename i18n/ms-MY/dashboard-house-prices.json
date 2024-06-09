@@ -8,7 +8,7 @@
       "title": "Bagaimanakah harga rumah trending?"
     },
     "choro_header": "Bagaimanakah harga rumah berbeza di setiap negeri?",
-    "choro_desc": "Pengedaran data ini berdasarkan lokasi rumah, bukan alamat pembeli atau penjual.",
+    "choro_desc": "Pengedaran data ini adalah berdasarkan lokasi rumah, bukan alamat pembeli atau penjual.",
     "keys": {
       "all": "Semua Jenis Rumah",
       "high_rise": "Unit Bertingkat Tinggi",
