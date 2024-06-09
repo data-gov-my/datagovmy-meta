@@ -41,6 +41,24 @@
 				"keys": ["state", "chart_type", "chart"],
 				"value_columns": ["latest"]
 			}
+		},
+		"houseprice_choropleth_state": {
+			"name": "houseprice_choropleth_state",
+			"chart_type": "choropleth_chart",
+			"chart_source": "http://storage.data.gov.my/dashboards/houseprice_choropleth.parquet",
+			"data_as_of": "2024-Q1",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"x": "state",
+				"y": [
+					"all",
+					"terrace",
+					"high_rise",
+					"detatched",
+					"semi_detached"
+				]
+			}
 		}
 	}
 }
