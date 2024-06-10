@@ -82,7 +82,7 @@
             "title_ms": "Jadual",
             "chart_type": "TABLE",
             "config": {
-                "precision": 1,
+                "precision": 2,
                 "filter_columns": [
                     "series_type"
                 ],
