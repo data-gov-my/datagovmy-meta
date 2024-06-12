@@ -5,7 +5,7 @@
     "description_en": "Daily-frequency ridership data for various public transport services across the country.",
     "description_ms": "Data penggunaan pengangkutan awam berfrekuensi harian daripada beberapa perkhidmatan pengangkutan awam di seluruh negara.",
     "exclude_openapi": false,
-    "manual_trigger": "2024-05-13 15:45:47.117260",
+    "manual_trigger": "2024-06-12 05:54:05.477103",
     "data_as_of": "2024-04-30 23:59",
     "last_updated": "2024-05-12 12:00",
     "next_update": "2024-06-12 12:00",
