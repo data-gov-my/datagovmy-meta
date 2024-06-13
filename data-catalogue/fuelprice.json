@@ -4,7 +4,7 @@
     "description_en": "Weekly retail prices of RON95 petrol, RON97 petrol, and diesel in Malaysia.",
     "description_ms": "Harga runcit mingguan bagi petrol RON95, petrol RON97 dan diesel di Malaysia.",
     "exclude_openapi": false,
-    "manual_trigger": "2024-06-13 12:08:16.270879",
+    "manual_trigger": "2024-06-13 12:14:20.595255",
     "data_as_of": "2024-06-13 00:01",
     "last_updated": "2024-06-12 23:59",
     "next_update": "2024-06-19 23:59",
@@ -51,28 +51,35 @@
             "title_en": "Date",
             "title_ms": "Tarikh",
             "description_en": "[Date] The date of effect of the price, in YYYY-MM-DD format",
-            "description_ms": "[Tarikh] Tarikh harga berkuatkuasa, dalam format YYYY-MM-DD."
+            "description_ms": "[Tarikh] Tarikh harga berkuatkuasa, dalam format YYYY-MM-DD"
         },
         {
             "name": "ron95",
             "title_en": "RON95 Petrol Price",
             "title_ms": "Harga Petrol RON95",
-            "description_en": "[Float] Price per litre, in RM.",
-            "description_ms": "[Apung] Harga seliter dalam RM."
+            "description_en": "[Float] Price per litre of RON95 petrol, in RM",
+            "description_ms": "[Apung] Harga seliter petrol RON95, dalam RM"
         },
         {
             "name": "ron97",
             "title_en": "RON97 Petrol Price",
             "title_ms": "Harga Petrol RON97",
-            "description_en": "[Float] Price per litre, in RM.",
-            "description_ms": "[Apung] Harga seliter dalam RM."
+            "description_en": "[Float] Price per litre of RON97 petrol, in RM",
+            "description_ms": "[Apung] Harga seliter petrol RON97, dalam RM"
         },
         {
             "name": "diesel",
-            "title_en": "Diesel Price",
-            "title_ms": "Harga Diesel",
-            "description_en": "[Float] Price per litre, in RM.",
-            "description_ms": "[Apung] Harga seliter dalam RM."
+            "title_en": "Price of Diesel (Peninsular Malaysia)",
+            "title_ms": "Harga Diesel (Semenanjung Malaysia)",
+            "description_en": "[Float] Price per litre of diesel in Peninsular Malaysia, in RM",
+            "description_ms": "[Apung] Harga seliter diesel di Semenanjung Malaysia, dalam RM"
+        },
+        {
+            "name": "diesel",
+            "title_en": "Price of Diesel (East Malaysia)",
+            "title_ms": "Harga Diesel (Malaysia Timur)",
+            "description_en": "[Float] Price per litre of diesel in East Malaysia, in RM",
+            "description_ms": "[Apung] Harga seliter diesel di Malaysia Timur, dalam RM"
         }
     ],
     "dataviz": [
@@ -90,7 +97,7 @@
             }
         },
         {
-            "dataviz_id": "ron95-timeseries",
+            "dataviz_id": "ron95",
             "title_en": "Price of RON95 Petrol",
             "title_ms": "Harga Petrol RON95",
             "chart_type": "TIMESERIES",
@@ -109,7 +116,7 @@
             }
         },
         {
-            "dataviz_id": "ron97-timeseries",
+            "dataviz_id": "ron97",
             "title_en": "Price of RON97 Petrol",
             "title_ms": "Harga Petrol RON97",
             "chart_type": "TIMESERIES",
@@ -128,9 +135,9 @@
             }
         },
         {
-            "dataviz_id": "diesel-timeseries",
-            "title_en": "Price of Diesel",
-            "title_ms": "Harga Diesel",
+            "dataviz_id": "diesel",
+            "title_en": "Price of Diesel (Peninsular Malaysia)",
+            "title_ms": "Harga Diesel (Semenanjung Malaysia)",
             "chart_type": "TIMESERIES",
             "config": {
                 "filter_columns": [
@@ -142,6 +149,25 @@
                     "x": "date",
                     "y": [
                         "diesel"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "diesel-eastmsia",
+            "title_en": "Price of Diesel (East Malaysia)",
+            "title_ms": "Harga Diesel (Malaysia Timur)",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "series_type"
+                ],
+                "precision": 2,
+                "operation": "MEAN",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "diesel_eastmsia"
                     ]
                 }
             }
