@@ -4,7 +4,7 @@
     "description_en": "Weekly retail prices of RON95 petrol, RON97 petrol, and diesel in Malaysia.",
     "description_ms": "Harga runcit mingguan bagi petrol RON95, petrol RON97 dan diesel di Malaysia.",
     "exclude_openapi": false,
-    "manual_trigger": "2024-06-13 12:14:20.595255",
+    "manual_trigger": "2024-06-13 12:16:12.021578",
     "data_as_of": "2024-06-13 00:01",
     "last_updated": "2024-06-12 23:59",
     "next_update": "2024-06-19 23:59",
@@ -75,7 +75,7 @@
             "description_ms": "[Apung] Harga seliter diesel di Semenanjung Malaysia, dalam RM"
         },
         {
-            "name": "diesel",
+            "name": "diesel_eastmsia",
             "title_en": "Price of Diesel (East Malaysia)",
             "title_ms": "Harga Diesel (Malaysia Timur)",
             "description_en": "[Float] Price per litre of diesel in East Malaysia, in RM",
