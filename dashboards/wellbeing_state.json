@@ -93,7 +93,7 @@
       "variables": {
         "keys": ["state"],
         "x": "component",
-        "y": "date",
+        "y": "year",
         "z": "index"
       }
     }
