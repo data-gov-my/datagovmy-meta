@@ -7,11 +7,16 @@
     "section_timeseries": {
       "title": "Bagaimana arah aliran indeks kesejahteraan Malaysia?"
     },
+    "heatmap_title": "Rumusan kesejahteraan rakyat mengikut subkomponen",
+    "wellbeing": {
+      "by_state": "Bagaimanakah kadar kesejahteraan rakyat berbeza mengikut negeri?",
+      "by_state_desc": "Taburan ini adalah berdasarkan lokasi kediaman individu. Contohnya, data individu yang bekerja di Kuala Lumpur tetapi tinggal di Selangor akan dikira bawah Selangor."
+    },
     "section_economy": {
-      "title": "Pembahagian indeks kesejahteraan ekonomi"
+      "title": "Pecahan indeks kesejahteraan ekonomi"
     },
     "section_social": {
-      "title": "Pembahagian indeks kesejahteraan sosial"
+      "title": "Pecahan indeks kesejahteraan sosial"
     },
     "keys": {
       "growth_yoy": "Pertumbuhan Tahunan",

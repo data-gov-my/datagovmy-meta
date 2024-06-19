@@ -7,6 +7,11 @@
     "section_timeseries": {
       "title": "How are Malaysia’s well-being indices trending?"
     },
+    "heatmap_title": "A summary of well-being by sub-component",
+    "wellbeing": {
+      "by_state": "How does well-being differ across states?",
+      "by_state_desc": "This distribution is based on individuals’ location of residence. For example, data for an individual who works in Kuala Lumpur but lives in Selangor will be counted under Selangor."
+    },
     "section_economy": {
       "title": "A breakdown of economic well-being indices"
     },
