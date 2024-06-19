@@ -2,7 +2,7 @@
 	"dashboard_name": "house_prices",
 	"data_last_updated": "2024-04-30 12:00",
 	"data_next_update": "2024-07-30 12:00",
-	"route": "/dashboard/house_prices,/ms-MY/dashboard/house_prices",
+	"route": "/dashboard/house-prices,/ms-MY/dashboard/house-prices",
 	"sites": ["datagovmy"],
 	"manual_trigger": "",
 	"required_params": ["state"],
