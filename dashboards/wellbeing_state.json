@@ -1,6 +1,7 @@
 {
   "dashboard_name": "wellbeing_state",
-  "data_last_updated": "2023-10-24 23:59",
+  "data_last_updated": "2023-12-01 12:00",
+  "data_next_update": "2024-12-05 12:00",
   "route": "/dashboard/wellbeing,/ms-MY/dashboard/wellbeing",
   "sites": ["opendosm"],
   "manual_trigger": "0",
@@ -11,7 +12,7 @@
       "name": "timeseries",
       "chart_type": "timeseries_chart",
       "chart_source": "https://storage.dosm.gov.my/dashboards/wellbeing_state_timeseries.parquet",
-      "data_as_of": "2021",
+      "data_as_of": "2022",
       "api_type": "dynamic",
       "api_params": ["state"],
       "variables": {
@@ -45,7 +46,7 @@
       "name": "timeseries_callout",
       "chart_type": "custom_chart",
       "chart_source": "https://storage.dosm.gov.my/dashboards/wellbeing_state_timeseries_callout.parquet",
-      "data_as_of": "2021",
+      "data_as_of": "2022",
       "api_type": "dynamic",
       "api_params": ["state"],
       "variables": {
@@ -57,7 +58,7 @@
       "name": "choropleth_state",
       "chart_type": "choropleth_chart",
       "chart_source": "https://storage.dosm.gov.my/dashboards/wellbeing_state_choropleth.parquet",
-      "data_as_of": "2023",
+      "data_as_of": "2022",
       "api_type": "static",
       "api_params": [],
       "variables": {
@@ -87,7 +88,7 @@
       "name": "heatmap",
       "chart_type": "heatmap_chart",
       "chart_source": "https://storage.dosm.gov.my/dashboards/wellbeing_state_heattable.parquet",
-      "data_as_of": "2023",
+      "data_as_of": "2022",
       "api_type": "dynamic",
       "api_params": ["state"],
       "variables": {
