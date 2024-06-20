@@ -6,9 +6,14 @@
 	"explorer_name": "car_popularity",
 	"route": "/dashboard/car-popularity,/ms-MY/dashboard/car-popularity",
 	"tables": {
-		"CarPopularityTimeseries": {
+		"CarPopularityTimeseriesModel": {
 			"data_as_of": "2024-04-30 23:59",
-			"source": "https://storage.data.gov.my/dashboards/car_popularity_timeseries.parquet",
+			"source": "https://storage.data.gov.my/dashboards/car_popularity_timeseries_model.parquet",
+			"update": "REBUILD"
+		},
+		"CarPopularityTimeseriesMaker": {
+			"data_as_of": "2024-04-30 23:59",
+			"source": "https://storage.data.gov.my/dashboards/car_popularity_timeseries_maker.parquet",
 			"update": "REBUILD"
 		}
 	}

@@ -337,6 +337,10 @@
       "digital-economy": {
           "name": "Ekonomi Digital",
           "description": "Prestasi tahunan e-dagang dan sektor ICT, serta kadar penggunaan ICT oleh perniagaan dan isi rumah."
+      },
+      "house-prices": {
+        "name": "Harga Rumah",
+        "description": "Papan pemuka ini menggunakan data absah NAPIC untuk membolehkan anda memahami trend harga rumah dengan mudah."
       }
     }
   }

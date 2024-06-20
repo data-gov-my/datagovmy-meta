@@ -1,0 +1,64 @@
+{
+	"dashboard_name": "house_prices",
+	"data_last_updated": "2024-04-30 12:00",
+	"data_next_update": "2024-07-30 12:00",
+	"route": "/dashboard/house-prices,/ms-MY/dashboard/house-prices",
+	"sites": ["datagovmy"],
+	"manual_trigger": "",
+	"required_params": ["state"],
+	"optional_params": [],
+	"charts": {
+		"houseprice_timeseries": {
+			"name": "houseprice_timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/houseprice_timeseries.parquet",
+			"data_as_of": "2024-Q1",
+			"api_type": "dynamic",
+			"api_params": ["state"],
+			"variables": {
+				"keys": ["state", "chart_type"],
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": [
+					"x", 
+					"all",
+					"terrace",
+					"high_rise",
+					"detached",
+					"semi_detached"
+				]
+			}
+		},
+		"houseprice_timeseries_callout": {
+			"name": "houseprice_timeseries_callout",
+			"chart_type": "custom_chart",
+			"chart_source": "https://storage.data.gov.my/dashboards/houseprice_timeseries_callout.parquet",
+			"data_as_of": "2024-Q1",
+			"api_type": "dynamic",
+			"api_params": ["state"],
+			"variables": {
+				"keys": ["state", "chart_type", "chart"],
+				"value_columns": ["latest"]
+			}
+		},
+		"houseprice_choropleth_state": {
+			"name": "houseprice_choropleth_state",
+			"chart_type": "choropleth_chart",
+			"chart_source": "http://storage.data.gov.my/dashboards/houseprice_choropleth.parquet",
+			"data_as_of": "2024-Q1",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"x": "state",
+				"y": [
+					"all",
+					"terrace",
+					"high_rise",
+					"detached",
+					"semi_detached"
+				]
+			}
+		}
+	}
+}
