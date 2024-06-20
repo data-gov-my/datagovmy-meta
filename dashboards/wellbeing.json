@@ -1,5 +1,5 @@
 {
-    "dashboard_name": "wellbeing_state",
+    "dashboard_name": "wellbeing",
     "data_last_updated": "2023-12-01 12:00",
     "data_next_update": "2024-12-05 12:00",
     "route": "/dashboard/wellbeing,/ms-MY/dashboard/wellbeing",
