@@ -66,6 +66,10 @@
         "name": "Car Popularity Explorer",
         "description": "Interactive explorer of car registration data, allowing you to discover trends for any maker or model!"
       },
+      "vehicle-registrations": {
+        "name": "Vehicle Registrations",
+        "description": "Macro view of vehicle registrations for policymakers, with breakdowns by fuel type and vehicle type."
+      },
       "public-transportation": {
         "name": "Public Transportation",
         "description": "Monthly ridership data from all key public transport operators nationwide, with breakdowns by service."

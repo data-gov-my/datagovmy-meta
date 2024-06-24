@@ -66,6 +66,10 @@
           "name": "Populariti Kenderaan",
           "description": "Peneroka interaktif data pendaftaran kereta, terokailah trend untuk mana-mana pengeluar atau model kereta!"
       },
+      "vehicle-registrations": {
+        "name": "Pendaftaran Kenderaan",
+        "description": "Rumusan trend pendaftaran kenderaan bagi penggubal dasar, dengan pecahan mengikut bahan bakar dan jenis kenderaan."
+      },
       "public-transportation": {
           "name": "Pengangkutan Awam",
           "description": "Data penggunaan pengangkutan awam harian daripada semua pengendali utama di seluruh Malaysia, dengan pecahan mengikut perkhidmatan."
