@@ -4,7 +4,7 @@
     "data_next_update": "2024-12-05 12:00",
     "route": "/dashboard/wellbeing,/ms-MY/dashboard/wellbeing",
     "sites": ["opendosm"],
-    "manual_trigger": "0",
+    "manual_trigger": "",
     "required_params": ["state"],
     "optional_params": [],
     "charts": {
