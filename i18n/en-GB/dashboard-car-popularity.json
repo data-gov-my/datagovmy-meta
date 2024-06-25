@@ -15,6 +15,7 @@
         "compare_cars": "Compare up to 3 makers or models!",
         "search_maker": "e.g. Perodua, Proton, Honda",
         "search_model": "e.g. Myvi, Saga, City",
+        "search_prompt": "Search for your car!",
         "max_reached": "Deselect to compare other cars",
         "disclaimer": "We do not store your input - only you can see what you searched for.",
         "cars": "Cars",
