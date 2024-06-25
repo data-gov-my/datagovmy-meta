@@ -1,7 +1,7 @@
 {
 	"dashboard_name": "car_popularity",
 	"data_last_updated": "2024-06-15 12:00",
-	"data_next_updated": "2024-07-15 12:00",
+	"data_next_update": "2024-07-15 12:00",
 	"route": "/dashboard/car-popularity,/ms-MY/dashboard/car-popularity",
 	"sites": ["datagovmy"],
 	"manual_trigger": "1",
