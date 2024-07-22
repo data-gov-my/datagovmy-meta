@@ -87,6 +87,19 @@
             "description_ms": "[Apung] Kadar kemiskinan bawah garisan kemiskinan nasional."
         }
     ],
+    "dataviz": [
+        {
+          "dataviz_id": "table",
+          "title_en": "Table",
+          "title_ms": "Jadual",
+          "chart_type": "TABLE",
+          "config": {
+            "precision": 0,
+            "filter_columns": [],
+            "freeze_columns": []
+          }
+        }
+    ],
     "translations_en": {
         "state": "State",
         "district": "District",
