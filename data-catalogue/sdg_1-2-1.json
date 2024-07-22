@@ -85,7 +85,7 @@
             "title_ms": "Kadar Kemiskinan",
             "description_en": "[Float] Poverty Rate below the national poverty line",
             "description_ms": "[Apung] Kadar kemiskinan bawah garisan kemiskinan nasional."
-        },
+        }
     ],
     "translations_en": {
         "state": "State",
