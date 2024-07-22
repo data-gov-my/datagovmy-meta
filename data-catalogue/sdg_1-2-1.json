@@ -69,7 +69,7 @@
             "name": "sex",
             "title_en": "Sex",
             "title_ms": "Jantina",
-            "description_en": "[Categorial] Either both sexes ('both'), male ('male') or female ('female')",
+            "description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
             "description_ms": "[Kategoril] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
         },
         {
