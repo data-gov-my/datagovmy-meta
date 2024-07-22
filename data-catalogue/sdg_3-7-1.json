@@ -66,10 +66,10 @@
     },
     {
       "name": "percentage",
-      "title_en": "Percentage (%)",
-      "title_ms": "Peratusan (%)",
-      "description_en": "[Float] Percentage of women of reproductive age who have their need for family planning satisfied with modern methods",
-      "description_ms": "[Apung] Peratusan wanita umur reproduktif yang berpuas hati dengan kaedah moden bagi keperluan perancang keluarga"
+      "title_en": "Percentage",
+      "title_ms": "Peratusan",
+      "description_en": "[Float] Percentage (%) of women of reproductive age who have their need for family planning satisfied with modern methods",
+      "description_ms": "[Apung] Peratusan (%) wanita umur reproduktif yang berpuas hati dengan kaedah moden bagi keperluan perancang keluarga"
     }
   ],
   "dataviz": [
@@ -103,12 +103,14 @@
   "translations_en": {
     "date": "Date",
     "state": "State",
-    "district": "District"
+    "district": "District",
+    "percentage": "Percentage (%)"
   },
   "translations_ms": {
     "date": "Tarikh",
     "state": "Negeri",
-    "district": "Daerah"
+    "district": "Daerah",
+    "percentage": "Peratusan (%)"
   },
   "related_datasets": []
 }
