@@ -53,7 +53,7 @@
             "name": "matter_type",
             "title_en": "Type of Fine Particulate Matter",
             "title_ms": "Jenis Zarah Halus",
-            "description_en": "[Categorica;] Type of particulate matter, either PM2.5 or PM10",
+            "description_en": "[Categorical] Type of particulate matter, either PM2.5 or PM10",
             "description_ms": "[Kategoril] Jenis zarah halus, sama ada PM2.5 atau PM10"
         },
         {
