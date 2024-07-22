@@ -32,20 +32,20 @@
   "site_category": [
     {
       "site": "datagovmy",
-      "category_en": "Statistical Indicator",
+      "category_en": "Statistical Indicators",
       "category_ms": "Indikator Statisktik",
       "category_sort": 1,
-      "subcategory_en": "SDG 3.7.1 : Proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods",
-      "subcategory_ms": "SDG 3.7.1 : Peratusan wanita umur reproduktif (15-49 tahun) yang berpuas hati dengan kaedah moden bagi keperluan perancang keluarga",
+      "subcategory_en": "SDG Indicators",
+      "subcategory_ms": "Indikator SDG",
       "subcategory_sort": 2
     },
     {
       "site": "opendosm",
-      "category_en": "Statistical Indicator",
+      "category_en": "Statistical Indicators",
       "category_ms": "Indikator Statisktik",
       "category_sort": 1,
-      "subcategory_en": "SDG 3.7.1 : Proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods",
-      "subcategory_ms": "SDG 3.7.1 : Peratusan wanita umur reproduktif (15-49 tahun) yang berpuas hati dengan kaedah moden bagi keperluan perancang keluarga",
+      "subcategory_en": "SDG Indicators",
+      "subcategory_ms": "Indikator SDG",
       "subcategory_sort": 2
     }
   ],
