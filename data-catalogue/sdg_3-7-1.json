@@ -33,19 +33,19 @@
     {
       "site": "datagovmy",
       "category_en": "Statistical Indicators",
-      "category_ms": "Indikator Statisktik",
-      "category_sort": 1,
+      "category_ms": "Penunjuk SDG",
+      "category_sort": 100,
       "subcategory_en": "SDG Indicators",
-      "subcategory_ms": "Indikator SDG",
+      "subcategory_ms": "Penunjuk SDG",
       "subcategory_sort": 2
     },
     {
       "site": "opendosm",
       "category_en": "Statistical Indicators",
-      "category_ms": "Indikator Statisktik",
-      "category_sort": 1,
+      "category_ms": "Penunjuk SDG",
+      "category_sort": 100,
       "subcategory_en": "SDG Indicators",
-      "subcategory_ms": "Indikator SDG",
+      "subcategory_ms": "Penunjuk SDG",
       "subcategory_sort": 2
     }
   ],
