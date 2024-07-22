@@ -15,8 +15,8 @@
   "caveat_ms": "\u2014",
   "publication_en": "\u2014",
   "publication_ms": "\u2014",
-  "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_3.7.1.parquet",
-  "link_csv": "https://storage.dosm.gov.my/sdg/sdg_3.7.1.csv",
+  "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_3-7-1.parquet",
+  "link_csv": "https://storage.dosm.gov.my/sdg/sdg_3-7-1.csv",
   "frequency": "YEARLY",
   "geography": [
     "NATIONAL",
