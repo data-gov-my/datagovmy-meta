@@ -74,7 +74,7 @@
             "name": "percentage",
             "title_en": "Percentage",
             "title_ms": "Peratusan",
-            "description_en": "[Float] Percentage (%) seats held",
+            "description_en": "[Float] Percentage (%) of seats held",
             "description_ms": "[Apung] Peratusan (%) kerusi yang disandang"
         }
     ],
