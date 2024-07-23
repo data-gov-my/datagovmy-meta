@@ -5,7 +5,7 @@
     "description_en": "Proportion of individuals who have experienced physical or sexual harassment, categorized by state. It is a valuable resource for tracking progress toward Sustainable Development Goal (SDG) 11.7.2, which focuses on making cities and human settlements inclusive, safe, resilient, and sustainable by addressing safety and harassment issues",
     "description_ms": "Perkadaran individu yang mengalami gangguan fizikal atau seksual, dikategorikan mengikut negeri. Ia adalah sumber yang berharga untuk menjejaki kemajuan menuju Sustainable Development Goal (SDG) 11.7.2, yang memberi tumpuan kepada menjadikan bandar dan penempatan manusia inklusif, selamat, berdaya tahan, dan lestari dengan menangani isu keselamatan dan gangguan.",
     "exclude_openapi": false,
-    "manual_trigger": "2024-07-23",
+    "manual_trigger": "2024-07-23 10:45:00",
     "data_as_of": "2022",
     "last_updated": "2024-07-22",
     "next_update": "\u2014",

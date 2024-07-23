@@ -5,7 +5,7 @@
     "description_en": "Proportion of the population living below the national poverty line, disaggregated by sex and district. It serves as a critical resource for monitoring and evaluating progress towards Sustainable Development Goal (SDG) 1.2.1, which aims to reduce the number of people living in poverty in all its dimensions according to national definitions",
     "description_ms": "Perkadaran populasi yang hidup di bawah garis kemiskinan nasional, dipisahkan mengikut jantina dan daerah. Ia berfungsi sebagai sumber penting untuk memantau dan menilai kemajuan menuju Sustainable Development Goal (SDG) 1.2.1, yang bertujuan untuk mengurangkan bilangan orang yang hidup dalam kemiskinan dalam semua dimensinya mengikut definisi nasional.",
     "exclude_openapi": false,
-    "manual_trigger": "2024-07-23",
+    "manual_trigger": "2024-07-23 10:45:00",
     "data_as_of": "2022",
     "last_updated": "2024-07-22",
     "next_update": "\u2014",
