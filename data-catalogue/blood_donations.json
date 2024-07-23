@@ -1,5 +1,5 @@
 {
-    "title_en": "Daily Blood Donation by Blood Group",
+    "title_en": "Daily Blood Donations by Blood Group",
     "title_ms": "Pendermaan Darah Harian mengikut Kumpulan Darah",
     "title_sort": 1,
     "description_en": "Daily blood donations at national level for each of the 4 major blood groups. The table provides a preview of the dataset using the most recent 2 years of data.",
@@ -110,8 +110,8 @@
         "all": "All Groups",
         "a": "Group A",
         "b": "Group B",
-        "AB": "Group AB",
-        "O": "Group O"
+        "ab": "Group AB",
+        "o": "Group O"
     },
     "translations_ms": {
         "date": "Tarikh",
@@ -120,8 +120,8 @@
         "all": "Semua Kumpulan",
         "a": "Kumpulan A",
         "b": "Kumpulan B",
-        "AB": "Kumpulan AB",
-        "O": "Kumpulan O"
+        "ab": "Kumpulan AB",
+        "o": "Kumpulan O"
     },
     "related_datasets": []
 }

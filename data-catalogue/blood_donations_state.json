@@ -1,5 +1,5 @@
 {
-    "title_en": "Daily Blood Donation by Blood Group & State",
+    "title_en": "Daily Blood Donations by Blood Group & State",
     "title_ms": "Pendermaan Darah Harian mengikut Kumpulan Darah & Negeri",
     "title_sort": 2,
     "description_en": "Daily blood donations at state level for each of the 4 major blood groups. The table provides a preview of the dataset using the most recent year of data.",
@@ -120,8 +120,8 @@
         "all": "All Groups",
         "a": "Group A",
         "b": "Group B",
-        "AB": "Group AB",
-        "O": "Group O"
+        "ab": "Group AB",
+        "o": "Group O"
     },
     "translations_ms": {
         "date": "Tarikh",
@@ -131,8 +131,8 @@
         "all": "Semua Kumpulan",
         "a": "Kumpulan A",
         "b": "Kumpulan B",
-        "AB": "Kumpulan AB",
-        "O": "Kumpulan O"
+        "ab": "Kumpulan AB",
+        "o": "Kumpulan O"
     },
     "related_datasets": []
 }
