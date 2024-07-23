@@ -1,0 +1,77 @@
+{
+    "title_en": "SDG 13.2.2: Total greenhouse gas emissions per year",
+    "title_ms": "SDG 13.2.2: Jumlah pelepasan gas rumah hijau setiap tahun",
+    "title_sort": 1,
+    "description_en": "The indicator measures total greenhouse gas (GHG) emissions per year",
+    "description_ms": "Penunjuk ini mengukur jumlah pelepasan gas rumah hijau (GHG) setiap tahun",
+    "exclude_openapi": false,
+    "manual_trigger": "na",
+    "data_as_of": "2019",
+    "last_updated": "2024-07-23 00:00",
+    "next_update": "\u2014",
+    "methodology_en": "Data is collected from Ministry of Environment and Water",
+    "methodology_ms": "Data dikumpul dari Kementerian Alam Sekitar dan Air",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_13-2-2.parquet",
+    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_13-2-2.csv",
+    "frequency": "ANNUAL",
+    "geography": [
+        "NATIONAL"
+    ],
+    "dataset_begin": 2015,
+    "dataset_end": 2019,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG"
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "unit",
+            "title_en": "Unit",
+            "title_ms": "Unit",
+            "description_en": "[Float] Total greenhouse gas emissions (million metric tons)",
+            "description_ms": "[Apung] Jumlah pelepasan gas rumah kaca (juta tan metrik)"
+        }
+    ],
+    "dataviz": [
+    ],
+    "translations_en": {
+        "date": "Date",
+        "unit": "Metric tons (million)"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "unit": "Tan metrik (juta)"
+    },
+    "related_datasets": []
+}
