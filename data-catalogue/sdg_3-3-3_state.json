@@ -1,0 +1,100 @@
+{
+    "title_en": "SDG 3.3.3 : Malaria incidence per 1,000 population by state",
+    "title_ms": "SDG 3.3.3 : Insidens malaria bagi setiap 1,000 penduduk mengikut negeri",
+    "title_sort": 6,
+    "description_en": "Annual incidence of malaria per 1,000 population by state",
+    "description_ms": "Insiden tahunan malaria bagi setiap 1,000 penduduk mengikut negeri",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2022",
+    "last_updated": "2024-07-23 16.00",
+    "next_update": "\u2014",
+    "methodology_en": "",
+    "methodology_ms": "",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_3-3-3_state.parquet",
+    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_3-3-3_state.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2015,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states",
+            "description_ms": "[Kategori] Satu daripada 16 negeri"
+        },
+        {
+            "name": "incidence",
+            "title_en": "Incidence Rate",
+            "title_ms": "Kadar Insidens",
+            "description_en": "[Float] Incidence rate of malaria per 1,000 population",
+            "description_ms": "[Apung] Insidens malaria bagi setiap 1,000 penduduk"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "state": "State",
+        "incidence": "Incidence Rate"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "state": "Negeri",
+        "incidence": "Incidence Rate"
+    },
+    "related_datasets": []
+}

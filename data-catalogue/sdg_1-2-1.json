@@ -1,0 +1,124 @@
+{
+    "title_en": "SDG 1.2.1 : Proportion of population living below the national poverty line by sex and district",
+    "title_ms": "SDG 1.2.1 : Perkadaran populasi yang hidup dibawah the garisan kemiskinan nasional mengikut jantina dan daerah",
+    "title_sort": 1,
+    "description_en": "Proportion of the population living below the national poverty line, disaggregated by sex and district. It serves as a critical resource for monitoring and evaluating progress towards Sustainable Development Goal (SDG) 1.2.1, which aims to reduce the number of people living in poverty in all its dimensions according to national definitions",
+    "description_ms": "Perkadaran populasi yang hidup di bawah garis kemiskinan nasional, dipisahkan mengikut jantina dan daerah. Ia berfungsi sebagai sumber penting untuk memantau dan menilai kemajuan menuju Sustainable Development Goal (SDG) 1.2.1, yang bertujuan untuk mengurangkan bilangan orang yang hidup dalam kemiskinan dalam semua dimensinya mengikut definisi nasional.",
+    "exclude_openapi": false,
+    "manual_trigger": "2024-07-23 10:45:00",
+    "data_as_of": "2022",
+    "last_updated": "2024-07-22",
+    "next_update": "\u2014",
+    "methodology_en": "-",
+    "methodology_ms": "-",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_1-2-1.parquet",
+    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_1-2-1.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "DISTRICT"
+    ],
+    "demography": [],
+    "dataset_begin": 2016,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "-"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of the 16 states of Malaysia",
+            "description_ms": "[Kategoril] Satu daripada 16 negeri di Malaysia"
+        },
+        {
+            "name": "district",
+            "title_en": "District",
+            "title_ms": "Daerah",
+            "description_en": "[Categorical] One of 160 administrative districts, including the 4 states (Perlis and the 3 Federal Territories) which do not have subdivisions",
+            "description_ms": "[Kategoril] Satu daripada 160 daerah pentadbiran, termasuk 4 negeri (Perlis dan 3 Wilayah Persekutuan) yang tidak dipecahkan lagi"
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
+            "description_ms": "[Kategoril] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
+        },
+        {
+            "name": "date",
+			"title_en": "Date",
+			"title_ms": "Tarikh",
+			"description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+			"description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "rate",
+            "title_en": "Poverty Rate",
+            "title_ms": "Kadar Kemiskinan",
+            "description_en": "[Float] Poverty Rate below the national poverty line",
+            "description_ms": "[Apung] Kadar kemiskinan bawah garisan kemiskinan nasional."
+        }
+    ],
+    "dataviz": [
+        {
+          "dataviz_id": "table",
+          "title_en": "Table",
+          "title_ms": "Jadual",
+          "chart_type": "TABLE",
+          "config": {
+            "precision": 0,
+            "filter_columns": [
+                "state",
+                "district",
+                "sex"
+            ],
+            "freeze_columns": [
+                "date"
+            ]
+          }
+        }
+    ],
+    "translations_en": {
+        "state": "State",
+        "district": "District",
+        "sex" : "Sex",
+        "date" : "Date",
+        "rate" : "Poverty Rate"
+    },
+    "translations_ms": {
+        "state": "Negeri",
+        "district": "Daerah",
+        "sex" : "Jantina",
+        "date" : "Tarikh",
+        "rate" : "Kadar Kemiskinan"
+    },
+    "related_datasets": []
+}
