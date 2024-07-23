@@ -15,7 +15,7 @@
     "caveat_ms": "Secara am, data ini adalah berdasarkan tarikh laporan dan bukannya tarikh kejadian.",
     "publication_en": "KKMNOW features a [dashboard on blood donation](https://data.moh.gov.my/ms-MY/dashboard/blood-donation) where you can explore the data in a more interactive manner!",
     "publication_ms": "Portal KKMNOW memaparkan [papan pemuka tentang blood donation](https://data.moh.gov.my/ms-MY/dashboard/blood-donation) di mana anda boleh menerokai data ini dengan lebih interaktif!",
-    "link_parquet": "https://storage.data.gov.my/healthcare/covid_cases.parquet",
+    "link_parquet": "https://storage.data.gov.my/healthcare/blood_donations.parquet",
     "link_csv": "https://storage.data.gov.my/healthcare/blood_donations.csv", 
     "link_preview": "https://storage.data.gov.my/healthcare/blood_donations.parquet",
     "frequency": "DAILY",
