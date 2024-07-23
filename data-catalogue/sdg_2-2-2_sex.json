@@ -5,7 +5,7 @@
     "description_en": "Percentage of overweight or wasting children broken down by sex.",
     "description_ms": "Peratusan kanak-kanak yang berlebihan berat badan atau menyusut dipecahkan mengikuti jantina.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "2024-07-23 10:05",
     "data_as_of": "2022",
     "last_updated": "2024-07-23 10.00",
     "next_update": "\u2014",
@@ -73,6 +73,17 @@
         }
     ],
     "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
     ],
     "translations_en": {
         "date": "Date",
