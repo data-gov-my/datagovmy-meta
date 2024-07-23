@@ -49,6 +49,13 @@
             "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
         },
         {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states, or Malaysia",
+            "description_ms": "[Kategori] Satu daripada 16 negeri, atau Malaysia"
+        },
+        {
             "name": "blood_type",
             "title_en": "Blood Type",
             "title_ms": "Jenis Darah",
@@ -87,7 +94,7 @@
             "chart_type": "TIMESERIES",
             "config": {
                 "filter_columns": [
-                    "blood_type"
+                    "state"
                 ],
                 "precision": 0,
                 "operation": "SUM",
