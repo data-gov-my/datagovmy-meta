@@ -1,11 +1,12 @@
 {
     "dashboard_name": "lifetables",
     "data_last_updated": "2023-09-26 12:00",
+    "data_next_update": "2024-09-30 12:00",
     "route": "/dashboard/life-expectancy,/ms-MY/dashboard/life-expectancy",
     "sites": [
         "opendosm"
     ],
-    "manual_trigger": "2023-09-27 18:40:23.226959",
+    "manual_trigger": "",
     "required_params": [],
     "optional_params": [],
     "charts": {

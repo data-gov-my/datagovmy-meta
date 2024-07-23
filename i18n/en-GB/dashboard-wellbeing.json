@@ -5,7 +5,12 @@
     "header": "Well-Being",
     "description": "The annual Malaysian Well-being Index (MyWI) Report is published to measure the well-being of Malaysians from an economic and social perspective. It provides a holistic synthesis of various economic and social statistics, broken down into 5 economic and 9 social components. This dashboard summarises Malaysia’s well-being indices from 2000 to the present.",
     "section_timeseries": {
-      "title": "How are Malaysia’s well-being indices trending?"
+      "title": "How are {{ state }}’s well-being indices trending?"
+    },
+    "heatmap_title": "A summary of well-being by sub-component",
+    "wellbeing": {
+      "by_state": "How does well-being differ across states?",
+      "by_state_desc": "This distribution is based on individuals’ location of residence. For example, data for an individual who works in Kuala Lumpur but lives in Selangor will be counted under Selangor."
     },
     "section_economy": {
       "title": "A breakdown of economic well-being indices"
@@ -13,6 +18,8 @@
     "section_social": {
       "title": "A breakdown of social well-being indices"
     },
+    "economic": "Economic",
+    "social": "Social",
     "keys": {
       "growth_yoy": "YoY Growth",
       "index": "Index",

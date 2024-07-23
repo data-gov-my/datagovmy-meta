@@ -1,5 +1,5 @@
 {
-  "route": "/publications",
+  "route": null,
   "sites": ["opendosm"],
   "translation": {
     "nso": "Malaysia's National Statistics Organisation",
@@ -11,6 +11,7 @@
     "documentation": "Documentation",
     "browse_publications": "Looking for something specific?",
     "select_publication": "Select a publication type",
+    "search_publication": "Search a publication by title or description",
     "filter_by": "Filter by",
     "new": "New",
     "downloads": "Count",

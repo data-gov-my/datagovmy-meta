@@ -1,0 +1,91 @@
+{
+    "title_en": "SDG 14.7.1: Sustainable fisheries as a proportion of GDP by state",
+    "title_ms": "SDG 14.7.1: Perikanan mampan sebagai peratusan KDNK mengikut negeri",
+    "title_sort": 1,
+    "description_en": "The indicator measures sustainable fisheries as a proportion of GDP in small island developing states, least developed countries and all countries",
+    "description_ms": "Penunjuk ini mengukur perikanan mampan sebagai peratusan KDNK di negara pulau kecil membangun, negara kurang membangun dan negara lain",
+    "exclude_openapi": false,
+    "manual_trigger": "na",
+    "data_as_of": "2022",
+    "last_updated": "2024-07-23 00:00",
+    "next_update": "\u2014",
+    "methodology_en": "Data is collected from Department of Fisheries Malaysia",
+    "methodology_ms": "Data dikumpul dari Jabatan Perikanan Malaysia",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_14-7-1.parquet",
+    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_14-7-1.csv",
+    "frequency": "ANNUAL",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "dataset_begin": 2016,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG"
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states, or Malaysia",
+            "description_ms": "[Kategori] Satu daripada 16 negeri, atau Malaysia"
+        },
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "percentage",
+            "title_en": "Percentage",
+            "title_ms": "Peratusan",
+            "description_en": "[Float] Percentage (%) of the Gross Domestic Product (GDP) attributed to sustainable fisheries for each state, or Malaysia on the specified year",
+            "description_ms": "[Apung] Peratusan (%) Keluaran Dalam Negara Kasar (KDNK) yang disumbangkan oleh perikanan mampan bagi setiap negeri, atau Malaysia mengikut tahun"
+        }
+    ],
+    "dataviz": [
+    ],
+    "translations_en": {
+        "state": "State",
+        "date": "Date",
+        "percentage": "Percentage (%)"
+    },
+    "translations_ms": {
+        "state": "Negeri",
+        "date": "Tarikh",
+        "percentage": "Peratusan (%)"
+    },
+    "related_datasets": []
+}

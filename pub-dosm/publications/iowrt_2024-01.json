@@ -1,0 +1,48 @@
+{
+    "publication": "iowrt_2024-01",
+    "publication_type": "wrt",
+    "release_date": "2024-03-13",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Jan 2024] Index of Wholesale & Retail Trade",
+        "publication_type_title": "Wholesale & Retail Trade",
+        "description": "Monthly wholesale and retail trade performance, including the performance of motor vehicle sales.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Index of Wholesale & Retail Trade: Jan 2024",
+                "resource_link": "https://storage.dosm.gov.my/iowrt/iowrt_2024-01.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Index of Wholesale & Retail Trade: Jan 2024",
+                "resource_link": "https://storage.dosm.gov.my/iowrt/iowrt_2024-01.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Jan 2024] Indeks Perdagangan Borong & Runcit",
+        "publication_type_title": "Perdagangan Borong & Runcit",
+        "description": "Prestasi bulanan perdagangan borong dan runcit, termasukan prestasi jualan kenderaan bermotor.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Indeks Perdagangan Borong & Runcit: Jan 2024",
+                "resource_link": "https://storage.dosm.gov.my/iowrt/iowrt_2024-01.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Indeks Perdagangan Borong & Runcit: Jan 2024",
+                "resource_link": "https://storage.dosm.gov.my/iowrt/iowrt_2024-01.pdf"
+            }
+        ]
+    }
+}

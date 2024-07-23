@@ -1,0 +1,116 @@
+{
+    "title_en": "SDG 3.7.1 : Proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods",
+    "title_ms": "SDG 3.7.1 : Peratusan wanita umur reproduktif (15-49 tahun) yang berpuas hati dengan kaedah moden bagi keperluan perancang keluarga",
+    "title_sort": 4,
+    "description_en": "Annual percentage of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods, by state",
+    "description_ms": "Jumlah peratusan tahunan wanita umur reproduktif (15-49 tahun) yang berpuas hati dengan kaedah moden bagi keperluan perancang keluarga mengikut negeri",
+    "exclude_openapi": false,
+    "manual_trigger": "2024-07-23 01:51:00",
+    "data_as_of": "2022",
+    "last_updated": "2024-07-22 00:00",
+    "next_update": "",
+    "methodology_en": "",
+    "methodology_ms": "",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_3-7-1.parquet",
+    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_3-7-1.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": ["SEX"],
+    "dataset_begin": 2022,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states, or Malaysia",
+            "description_ms": "[Kategori] Satu daripada 16 negeri atau Malaysia"
+        },
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "percentage",
+            "title_en": "Percentage",
+            "title_ms": "Peratusan",
+            "description_en": "[Float] Percentage (%) of women of reproductive age who have their need for family planning satisfied with modern methods",
+            "description_ms": "[Apung] Peratusan (%) wanita umur reproduktif yang berpuas hati dengan kaedah moden bagi keperluan perancang keluarga"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "sdg_3-7-1",
+            "title_en": "SDG 3.7.1",
+            "title_ms": "SDG 3.7.1",
+            "chart_type": "CHOROPLETH",
+            "config": {
+                "format": {
+                    "x": "state",
+                    "y": "percentage"
+                },
+                "precision": 1,
+                "color": "greens",
+                "geojson": "state"
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "state": "State",
+        "district": "District",
+        "percentage": "Percentage (%)"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "state": "Negeri",
+        "district": "Daerah",
+        "percentage": "Peratusan (%)"
+    },
+    "related_datasets": []
+}

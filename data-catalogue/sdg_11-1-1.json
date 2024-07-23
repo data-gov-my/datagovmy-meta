@@ -1,0 +1,95 @@
+{
+    "title_en": "SDG 11.1.1 : Proportion of urban population living in slums, informal settlements or inadequate housing",
+    "title_ms": "SDG 11.1.1 : Perkadaran populasi bandar yang menetap di kawasan kumuh, penempatan tidak rasmi, atau perumahan yang tidak lengkap",
+    "title_sort": 11,
+    "description_en": "Proportion of the urban population living in slums, informal settlements, or inadequate housing. It aligns with Sustainable Development Goal (SDG) 11.1.1, which aims to ensure access to adequate, safe, and affordable housing and basic services for all, and to upgrade slums by 2030.",
+    "description_ms": "Perkadaran populasi bandar yang tinggal di kawasan kumuh, penempatan tidak rasmi, atau perumahan tidak mencukupi. Ini selaras dengan Sustainable Development Goal (SDG) 11.1.1, yang bertujuan untuk memastikan akses kepada perumahan dan perkhidmatan asas yang mencukupi, selamat, dan mampu milik untuk semua, serta untuk menaik taraf kawasan kumuh menjelang 2030.",
+    "exclude_openapi": false,
+    "manual_trigger": "2024-07-23 10:45:00",
+    "data_as_of": "2020",
+    "last_updated": "2024-07-22",
+    "next_update": "\u2014",
+    "methodology_en": "-",
+    "methodology_ms": "-",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_11-1-1.parquet",
+    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_11-1-1.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "DISTRICT"
+    ],
+    "demography": [],
+    "dataset_begin": 2020,
+    "dataset_end": 2020,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "-"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of the 16 states or Malaysia",
+            "description_ms": "[Kategoril] Satu daripada 16 negeri atau Malaysia"
+        },
+        {
+            "name": "percentage",
+            "title_en": "Percentage of Urban Population",
+            "title_ms": "Peratusan Populasi Bandar",
+            "description_en": "[Float] Percentage of urban population living in slums, informal settlements or inadequate housing",
+            "description_ms": "[Apung] Peratusan populasi bandar yang menetap di kawasan kumuh, penempatan tidak rasmi, atau perumahan yang tidak lengkap"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+            "precision": 0,
+            "filter_columns": [
+                "state"
+            ],
+            "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "state": "State",
+        "percentage": "Percentage of Urban Population"
+
+    },
+    "translations_ms": {
+        "state": "Negeri",
+        "percentage": "Peratusan Populasi Bandar"
+    },
+    "related_datasets": []
+}

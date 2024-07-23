@@ -1,0 +1,29 @@
+{
+    "route": "/ms-MY/dashboard/vehicle-registrations",
+    "sites": [
+        "datagovmy"
+    ],
+    "translation": {
+        "header": "Pendaftaran Kenderaan",
+        "description": "Di Malaysia, sesebuah kenderaan mesti didaftarkan dengan JPJ sebelum ia boleh digunakan secara sah di atas jalan. Oleh itu, JPJ mengendalikan pangkalan data absah yang mengandungi rekod pendaftaran setiap kenderaan di Malaysia. Papan pemuka ini menggunakan data tersebut untuk merumuskan trend pendaftaran kenderaan yang penting.",
+        "registration_by_fuel": "Pendaftaran mengikut Jenis Bahan Api",
+        "registrations_not_licenses": "Nota: Data ini menunjukkan pendaftaran kenderaan, bukannya jumlah kenderaan yang mempunyai lesen aktif",
+        "fuel": {
+            "diesel": "Diesel",
+            "electric": "Elektrik",
+            "greendiesel": "Biodiesel",
+            "hybrid": "Hibrid (Petrol atau Diesel)",
+            "other": "Lain-lain (LNG, gas asli, dll)",
+            "petrol": "Petrol"
+          },
+        "since": "Sejak 2000",
+        "registration_by_vehicle": "Pendaftaran mengikut Jenis Kenderaan",
+        "all": "Semua Jenis Kenderaan",
+        "bus": "Bas",
+        "car": "Kereta (Termasuk MPV, Jeep dan Trak)",
+        "lorry": "Lori",
+        "motorcycle": "Motosikal",
+        "other": "Kenderaan Lain (Traktor, Treler, dll)",
+        "van": "Van"
+    }      
+}
