@@ -83,7 +83,7 @@
         {
             "dataviz_id": "blood_type",
             "title_en": "Blood Types",
-            "title_ms": Jenis Darah",
+            "title_ms": "Jenis Darah",
             "chart_type": "TIMESERIES",
             "config": {
                 "filter_columns": [
