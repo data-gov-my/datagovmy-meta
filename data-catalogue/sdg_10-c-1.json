@@ -5,7 +5,7 @@
     "description_en": "Data on remittance costs, essential for tracking progress toward Sustainable Development Goal (SDG) 10.c.1, which aims to reduce transaction costs for remittances to less than 3% by 2030 and to eliminate corridors with costs of 5% or higher.",
     "description_ms": "Data mengenai kos kiriman wang, yang penting untuk menjejaki kemajuan menuju Sustainable Development Goal (SDG) 10.c.1, yang bertujuan mengurangkan kos transaksi untuk kiriman wang kepada kurang daripada 3% menjelang 2030 dan menghapuskan koridor dengan kos 5% atau lebih tinggi.",
     "exclude_openapi": false,
-    "manual_trigger": "na",
+    "manual_trigger": "2024-07-23",
     "data_as_of": "2022",
     "last_updated": "2024-07-22",
     "next_update": "\u2014",
@@ -75,7 +75,9 @@
             "config": {
                 "precision": 0,
                 "filter_columns": [],
-                "freeze_columns": []
+                "freeze_columns": [
+                    "date"
+                ]
                 }
             }
     ],
