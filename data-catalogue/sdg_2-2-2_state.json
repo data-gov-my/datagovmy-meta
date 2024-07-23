@@ -91,8 +91,8 @@
             "chart_type": "CHOROPLETH",
             "config": {
                 "format": {
-                    "x": "state",
-                    "y": "percentage"
+                    "x": "State",
+                    "y": "Percentage"
                 },
             "precision": 1,
             "color": "greens",
