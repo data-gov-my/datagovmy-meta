@@ -1,0 +1,104 @@
+{
+    "title_en": "SDG 11.7.2 : Proportion of persons victim of physical or sexual harassment by sex",
+    "title_ms": "SDG 11.7.2 : Kadar peratusan individu yang menjadi mangsa gangguan fizikal atau seksual mengikut jantina",
+    "title_sort": 14,
+    "description_en": "Proportion of individuals who have experienced physical or sexual harassment, categorized by sex. It is a valuable resource for tracking progress toward Sustainable Development Goal (SDG) 11.7.2, which focuses on making cities and human settlements inclusive, safe, resilient, and sustainable by addressing safety and harassment issues",
+    "description_ms": "Perkadaran individu yang mengalami gangguan fizikal atau seksual, dikategorikan mengikut jantina. Ia adalah sumber yang berharga untuk menjejaki kemajuan menuju Sustainable Development Goal (SDG) 11.7.2, yang memberi tumpuan kepada menjadikan bandar dan penempatan manusia inklusif, selamat, berdaya tahan, dan lestari dengan menangani isu keselamatan dan gangguan.",
+    "exclude_openapi": false,
+    "manual_trigger": "2024-07-23 10:45:00",
+    "data_as_of": "2022",
+    "last_updated": "2024-07-22",
+    "next_update": "\u2014",
+    "methodology_en": "-",
+    "methodology_ms": "-",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_11-7-2_sex.parquet",
+    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_11-7-2_sex.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2016,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "-"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
+            "description_ms": "[Kategoril] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
+        },
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "number",
+            "title_en": "Number of Persons",
+            "title_ms": "Bilangan Individu",
+            "description_en": "[Integer] The mean concentration of fine particulate matter in cities (population weighted)",
+            "description_ms": "[Integer] Purata kepekatan zarah halus di bandar-bandar (berpemberat penduduk)"
+        }
+    ],
+    "dataviz": [
+        {
+          "dataviz_id": "table",
+          "title_en": "Table",
+          "title_ms": "Jadual",
+          "chart_type": "TABLE",
+          "config": {
+            "precision": 0,
+            "filter_columns": [
+                "sex"
+            ],
+            "freeze_columns": [
+                "date"
+            ]
+          }
+        }
+    ],
+    "translations_en": {
+        "sex": "Sex",
+        "date": "Date",
+        "number" : "Number of Persons"
+    },
+    "translations_ms": {
+        "sex": "Jantina",
+        "date": "Tarikh",
+        "number" : "Bilangan Individu"
+    },
+    "related_datasets": []
+}

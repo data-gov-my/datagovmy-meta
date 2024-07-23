@@ -1,0 +1,107 @@
+{
+    "title_en": "SDG 5.5.1(a) : Proportion of seats held by women in national parliaments",
+    "title_ms": "SDG 5.5.1(a) : Peratusan kerusi yang disandang oleh wanita dalam parlimen Negara",
+    "title_sort": 7,
+    "description_en": "Annual propotion of seats held by both sexes in national parliaments",
+    "description_ms": "Peratusan kerusi tahunan yang disandang oleh kedua-dua jantina dalam parlimen Negara mengikut jantina",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2022",
+    "last_updated": "2024-07-22 00:00",
+    "next_update": "",
+    "methodology_en": "",
+    "methodology_ms": "",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_5-5-1-a.parquet",
+    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_5-5-1-a.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": ["SEX"],
+    "dataset_begin": 2016,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "type_of_seat",
+            "title_en": "Type of Seat",
+            "title_ms": "Jenis Kerusi",
+            "description_en": "[Categorical] Either House of Representatives ('House of Representatives') or Senate ('Senate')",
+            "description_ms": "[Kategori] Satu daripada 2 jenis kerusi, Dewan Rakyat ('House of Representatives') atau Dewan Negara ('Senate')"
+        },
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Categorical] Either male ('male') or female ('female')",
+            "description_ms": "[Kategori] Sama ada lelaki ('male') atau perempuan ('female')"
+        },
+        {
+            "name": "percentage",
+            "title_en": "Percentage",
+            "title_ms": "Peratusan",
+            "description_en": "[Float] Percentage (%) of seats held",
+            "description_ms": "[Apung] Peratusan (%) kerusi yang disandang"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "type_of_seat": "Type of Seat",
+        "percentage": "Percentage (%)",
+        "sex": "Sex"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "type_of_seat": "Jenis Kerusi",
+        "percentage": "Peratusan (%)",
+        "sex": "Jantina"
+    },
+    "related_datasets": []
+}
