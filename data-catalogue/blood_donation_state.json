@@ -1,0 +1,117 @@
+{
+    "title_en": "Blood Donations",
+    "title_ms": "Derma Darah",
+    "title_sort": 1,
+    "description_en": "Daily blood donations at national and state level, with details on blood type and total donations.",
+    "description_ms": "Derma darah harian di peringkat kebangsaan dan negeri, dengan butiran mengenai jenis darah dan jumlah pendermaan darah.",
+    "exclude_openapi": false,
+    "manual_trigger": "2024-07-21 08:58:30.299868",
+    "data_as_of": "2024-07-20 23:59",
+    "last_updated": "2024-07-21 12:00",
+    "next_update": "2024-07-28 12:00",
+    "methodology_en": "This dataset is produced by the Blood Bank Information System (BBISv2) at the Ministry of Health, based on daily ground-level surveillance conducted to monitor the evolution of blood donations in Malaysia except for Perlis, Wilayah Persekutuan Putrajaya, dan Wilayah Persekutuan Labuan.",
+    "methodology_ms": "Dataset ini dihasilkan oleh Sistem Informasi Pusat Darah (BBISv2) di Kementerian Kesihatan Malaysia, berdasarkan survelan harian di lapangan yang dilaksanakan untuk memantau evolusi derma darah di Malaysia kecuali di Negeri Perlis, Wilayah Persekutuan Putrajaya, dan Wilayah Persekutuan Labuan.",
+    "caveat_en": "In general, the data presented here is based on the date of report rather than the date of the event.",
+    "caveat_ms": "Secara am, data ini adalah berdasarkan tarikh laporan dan bukannya tarikh kejadian.",
+    "publication_en": "KKMNOW features a [dashboard on blood donation](https://data.moh.gov.my/ms-MY/dashboard/blood-donation) where you can explore the data in a more interactive manner!",
+    "publication_ms": "Portal KKMNOW memaparkan [papan pemuka tentang blood donation](https://data.moh.gov.my/ms-MY/dashboard/blood-donation) di mana anda boleh menerokai data ini dengan lebih interaktif!",
+    "link_parquet": "https://storage.data.gov.my/healthcare/covid_cases.parquet",
+    "link_csv": "https://storage.data.gov.my/healthcare/blood_donations.csv", 
+    "link_preview": "https://storage.data.gov.my/healthcare/blood_donations.parquet",
+    "frequency": "DAILY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2006,
+    "dataset_end": 2024,
+    "data_source": [
+        "MoH"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Healthcare",
+            "category_ms": "Kesihatan",
+            "category_sort": 40,
+            "subcategory_en": "Healthcare Programs",
+            "subcategory_ms": "Program Kesihatan"
+        },
+      
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] Date in YYYY-MM-DD format",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+        },
+        {
+            "name": "blood_type",
+            "title_en": "Blood Type",
+            "title_ms": "Jenis Darah",
+            "description_en": "[Categorical] One of 4 types of blood",
+            "description_ms": "[Kategori] Satu daripada 4 jenis darah"
+        },
+        {
+            "name": "donations",
+            "title_en": "Donations",
+            "title_ms": "Penderma Darah",
+            "description_en": "[Integer] Number of new blood donations reported in the 24 hours since the last report.",
+            "description_ms": "[Integer] Bilangan pendermaan darah baharu yang dilaporkan dalam 24 jam sejak laporan terakhir."
+        }
+        
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "state"
+                ],
+                "freeze_columns": [
+                    "date"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "blood_type",
+            "title_en": "Blood Types",
+            "title_ms": "Jenis Darah",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "blood_type"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+               "format": {
+                    "x": "date",
+                    "y": [
+                        "blood_type"
+                    ]
+                }
+            }
+        }
+        
+       
+        
+    ],
+    "translations_en": {
+        "date": "Date",
+        "blood_type": "Blood Type",
+        "y1": "Total"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "state": "Jenis Darah",
+        "y1": "Jumlah"
+    },
+    "related_datasets": []
+}
