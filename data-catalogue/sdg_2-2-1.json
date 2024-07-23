@@ -1,0 +1,96 @@
+{
+    "title_en": "SDG 2.2.1: Prevalence of stunting among children under 5 years of age",
+    "title_ms": "SDG 2.2.1: Prevalens pembantutan dalam kalangan kanak-kanak di bawah umur 5 tahun",
+    "title_sort": 1,
+    "description_en": "The indicator measures the prevalence of stunting (height for age <-2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age, and categorized by sex and geographic strata for the reference period.",
+    "description_ms": "Penunjuk ini mengukur prevalens pembantutan (ketinggian bagi umur <-2 sisihan piawai daripada median Standard Pertumbuhan Kanak-kanak Pertubuhan Kesihatan Sedunia (World Health Organization, WHO) dalam kalangan kanak-kanak di bawah umur 5 tahun dan dikategorikan mengikut jantina dan strata geografi dalam tempoh rujukan.",
+    "exclude_openapi": false,
+    "manual_trigger": "na",
+    "data_as_of": "2022",
+    "last_updated": "2024-07-23 00:00",
+    "next_update": "\u2014",
+    "methodology_en": "Data is collected from National Health and Morbidity Survey Report, 2015, 2019, Ministry of Health Malaysia",
+    "methodology_ms": "Data dikumpulkan melalui Laporan Tinjauan Kebangsaan Kesihatan dan Morbiditi, 2015, 2019, Kementerian Kesihatan Malaysia",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_2-2-1.parquet",
+    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_2-2-1.csv",
+    "frequency": "TRIANNUAL",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": ["SEX", "STRATA"],
+    "dataset_begin": 2015,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG"
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "dimension",
+            "title_en": "Dimension",
+            "title_ms": "Dimensi",
+            "description_en": "[Categorical] Either categorized by age ('Children under 5 years'), sex ('Sex'), or geographical strata ('Strata')",
+            "description_ms": "[Kategori] Sama ada dikategorikan mengikut umur ('Children under 5 years'), jantina ('Sex'), atau strata geografi ('Strata')"
+        },
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "category",
+            "title_en": "Category",
+            "title_ms": "Kategori",
+            "description_en": "[Categorical] Either categorized by total ('Total'), male ('Male'), female ('Female'), urban ('Urban'), or rural ('Rural')",
+            "description_ms": "[Kategori] Sama ada dikategorikan mengikut jumlah ('Jumlah'), lelaki ('Male'), perempuan ('Female'), bandar ('Urban'), atau luar bandar ('Rural')"
+        },
+        {
+            "name": "percentage",
+            "title_en": "Percentage (%)",
+            "title_ms": "Peratusan (%)",
+            "description_en": "[Float] The percentage of children under 5 years of age experiencing stunting",
+            "description_ms": "[Apung] Peratusan kanak-kanak di bawah umur 5 tahun yang mengalami pembantutan"
+        }
+    ],
+    "dataviz": [
+    ],
+    "translations_en": {
+        "category": "Category",
+        "date": "Date",
+        "dimension": "Dimension",
+        "percentage": "Percentage"
+    },
+    "translations_ms": {
+        "category": "Kategori",
+        "date": "Tarikh",
+        "dimension": "Dimensi",
+        "percentage": "Peratusan"
+    },
+    "related_datasets": []
+}
