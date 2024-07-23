@@ -1,9 +1,9 @@
 {
-    "title_en": "SDG 3.7.1 : Proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods",
-    "title_ms": "SDG 3.7.1 : Peratusan wanita umur reproduktif (15-49 tahun) yang berpuas hati dengan kaedah moden bagi keperluan perancang keluarga",
-    "title_sort": 4,
-    "description_en": "Annual percentage of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods, by state",
-    "description_ms": "Jumlah peratusan tahunan wanita umur reproduktif (15-49 tahun) yang berpuas hati dengan kaedah moden bagi keperluan perancang keluarga mengikut negeri",
+    "title_en": "SDG 5.5.2 : Proportion of women in managerial positions",
+    "title_ms": "SDG 5.5.2 : Peratusan wanita dalam jawatan pengurusan",
+    "title_sort": 9,
+    "description_en": "Proportion of women in managerial positions, by state",
+    "description_ms": "Peratusan wanita dalam jawatan pengurusan mengikut negeri",
     "exclude_openapi": false,
     "manual_trigger": "2024-07-23 01:51:00",
     "data_as_of": "2022",
@@ -15,15 +15,15 @@
     "caveat_ms": "\u2014",
     "publication_en": "\u2014",
     "publication_ms": "\u2014",
-    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_3-7-1.parquet",
-    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_3-7-1.csv",
+    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_5-5-2.parquet",
+    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_5-5-2.csv",
     "frequency": "YEARLY",
     "geography": [
         "NATIONAL",
         "STATE"
     ],
     "demography": ["SEX"],
-    "dataset_begin": 2022,
+    "dataset_begin": 2016,
     "dataset_end": 2022,
     "data_source": [
         "DOSM"
@@ -68,8 +68,8 @@
             "name": "percentage",
             "title_en": "Percentage",
             "title_ms": "Peratusan",
-            "description_en": "[Float] Percentage (%) of women of reproductive age who have their need for family planning satisfied with modern methods",
-            "description_ms": "[Apung] Peratusan (%) wanita umur reproduktif yang berpuas hati dengan kaedah moden bagi keperluan perancang keluarga"
+            "description_en": "[Float] Percentage (%) of women in managerial positions",
+            "description_ms": "[Apung] Peratusan (%) wanita dalam jawatan pengurusan"
         }
     ],
     "dataviz": [
@@ -82,21 +82,6 @@
                 "precision": 0,
                 "filter_columns": [],
                 "freeze_columns": []
-            }
-        },
-        {
-            "dataviz_id": "sdg_3-7-1",
-            "title_en": "SDG 3.7.1",
-            "title_ms": "SDG 3.7.1",
-            "chart_type": "CHOROPLETH",
-            "config": {
-                "format": {
-                    "x": "state",
-                    "y": "percentage"
-                },
-                "precision": 1,
-                "color": "greens",
-                "geojson": "state"
             }
         }
     ],

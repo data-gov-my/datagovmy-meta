@@ -1,11 +1,11 @@
 {
-    "title_en": "SDG 3.7.1 : Proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods",
-    "title_ms": "SDG 3.7.1 : Peratusan wanita umur reproduktif (15-49 tahun) yang berpuas hati dengan kaedah moden bagi keperluan perancang keluarga",
-    "title_sort": 4,
-    "description_en": "Annual percentage of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods, by state",
-    "description_ms": "Jumlah peratusan tahunan wanita umur reproduktif (15-49 tahun) yang berpuas hati dengan kaedah moden bagi keperluan perancang keluarga mengikut negeri",
+    "title_en": "SDG 5.5.1(b) : Proportion of seats held by women in local governments",
+    "title_ms": "SDG 5.5.1(b) : Peratusan kerusi yang disandang oleh wanita dalam kerajaan tempatan",
+    "title_sort": 7,
+    "description_en": "Annual propotion of seats held by both sexes in local governments",
+    "description_ms": "Peratusan kerusi tahunan yang disandang oleh kedua-dua jantina dalam kerajaan tempatan mengikut jantina",
     "exclude_openapi": false,
-    "manual_trigger": "2024-07-23 01:51:00",
+    "manual_trigger": "",
     "data_as_of": "2022",
     "last_updated": "2024-07-22 00:00",
     "next_update": "",
@@ -15,15 +15,14 @@
     "caveat_ms": "\u2014",
     "publication_en": "\u2014",
     "publication_ms": "\u2014",
-    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_3-7-1.parquet",
-    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_3-7-1.csv",
+    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_5-5-1-b.parquet",
+    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_5-5-1-b.csv",
     "frequency": "YEARLY",
     "geography": [
-        "NATIONAL",
-        "STATE"
+        "NATIONAL"
     ],
     "demography": ["SEX"],
-    "dataset_begin": 2022,
+    "dataset_begin": 2019,
     "dataset_end": 2022,
     "data_source": [
         "DOSM"
@@ -54,8 +53,22 @@
             "name": "state",
             "title_en": "State",
             "title_ms": "Negeri",
-            "description_en": "[Categorical] One of 16 states, or Malaysia",
-            "description_ms": "[Kategori] Satu daripada 16 negeri atau Malaysia"
+            "description_en": "[Categorical] One of 16 states",
+            "description_ms": "[Kategori] Satu daripada 16 negeri"
+        },
+        {
+            "name": "local_authority",
+            "title_en": "Local authority",
+            "title_ms": "Kerajaan Tempatan",
+            "description_en": "[Categorical] Name of local authority",
+            "description_ms": "[Kategori] Nama kerajaan tempatan"
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Categorical] Either male ('male') or female ('female')",
+            "description_ms": "[Kategori] Sama ada lelaki ('male') atau perempuan ('female')"
         },
         {
             "name": "date",
@@ -68,8 +81,8 @@
             "name": "percentage",
             "title_en": "Percentage",
             "title_ms": "Peratusan",
-            "description_en": "[Float] Percentage (%) of women of reproductive age who have their need for family planning satisfied with modern methods",
-            "description_ms": "[Apung] Peratusan (%) wanita umur reproduktif yang berpuas hati dengan kaedah moden bagi keperluan perancang keluarga"
+            "description_en": "[Float] Percentage (%) of seats held",
+            "description_ms": "[Apung] Peratusan (%) kerusi yang disandang"
         }
     ],
     "dataviz": [
@@ -80,37 +93,26 @@
             "chart_type": "TABLE",
             "config": {
                 "precision": 0,
-                "filter_columns": [],
+                "filter_columns": [
+                    "state"
+                ],
                 "freeze_columns": []
-            }
-        },
-        {
-            "dataviz_id": "sdg_3-7-1",
-            "title_en": "SDG 3.7.1",
-            "title_ms": "SDG 3.7.1",
-            "chart_type": "CHOROPLETH",
-            "config": {
-                "format": {
-                    "x": "state",
-                    "y": "percentage"
-                },
-                "precision": 1,
-                "color": "greens",
-                "geojson": "state"
             }
         }
     ],
     "translations_en": {
         "date": "Date",
         "state": "State",
-        "district": "District",
-        "percentage": "Percentage (%)"
+        "local_authority": "Type of Seat",
+        "percentage": "Percentage (%)",
+        "sex": "Sex"
     },
     "translations_ms": {
         "date": "Tarikh",
         "state": "Negeri",
-        "district": "Daerah",
-        "percentage": "Peratusan (%)"
+        "local_authority": "Jenis Kerusi",
+        "percentage": "Peratusan (%)",
+        "sex": "Jantina"
     },
     "related_datasets": []
 }

@@ -38,6 +38,15 @@
             "subcategory_en": "SDG Indicators",
             "subcategory_ms": "Penunjuk SDG",
             "subcategory_sort": 20
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
         }
     ],
     "fields": [
