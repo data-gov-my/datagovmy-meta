@@ -61,7 +61,7 @@
             "name": "date",
             "title_en": "Date",
             "title_ms": "Tarikh",
-            "description_en": "[Date]  The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency.",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency.",
             "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01-01 kerana data berfrekuensi tahunan."
         },
         {
