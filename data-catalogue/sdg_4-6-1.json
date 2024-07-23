@@ -22,7 +22,7 @@
         "NATIONAL",
         "STATE"
     ],
-    "demography": [],
+    "demography": ["AGE"],
     "dataset_begin": 2016,
     "dataset_end": 2022,
     "data_source": [

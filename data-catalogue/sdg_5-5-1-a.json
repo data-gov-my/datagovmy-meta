@@ -21,7 +21,7 @@
     "geography": [
         "NATIONAL"
     ],
-    "demography": [],
+    "demography": ["SEX"],
     "dataset_begin": 2016,
     "dataset_end": 2022,
     "data_source": [

@@ -22,7 +22,7 @@
         "NATIONAL",
         "STATE"
     ],
-    "demography": [],
+    "demography": ["SEX"],
     "dataset_begin": 2022,
     "dataset_end": 2022,
     "data_source": [
