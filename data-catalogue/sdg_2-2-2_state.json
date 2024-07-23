@@ -15,8 +15,8 @@
     "caveat_ms": "\u2014",
     "publication_en": "\u2014",
     "publication_ms": "\u2014",
-    "link_parquet": "https://storage.dosm.gov.my/demography/sdg_2-2-2_state.parquet",
-    "link_csv": "https://storage.dosm.gov.my/demography/sdg_2-2-2_state.csv",
+    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_2-2-2_state.parquet",
+    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_2-2-2_state.csv",
     "frequency": "YEARLY",
     "geography": [
         "NATIONAL"
