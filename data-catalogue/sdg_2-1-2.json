@@ -1,0 +1,106 @@
+{
+    "title_en": "SDG 2.1.2: Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale",
+    "title_ms": "SDG 2.1.2: Kelaziman ketidakjaminan makanan yang sederhana atau teruk dalam populasi, berdasarkan Skala Pengalaman Ketidakjaminan Makanan",
+    "title_sort": 1,
+    "description_en": "The indicator measures the percentage of individuals in the population by sex who have experienced food insecurity at moderate or severe levels during the reference period. The severity of food insecurity, defined as a latent trait, is measured on the Food Insecurity Experience Scale (FIES) global reference scale, a measurement standard established by FAO through the application of the Food Insecurity Experience Scale.",
+    "description_ms": "Penunjuk ini mengukur peratusan individu dalam populasi mengikut jantina yang telah mengalami ketidakjaminan makanan pada tahap sederhana atau teruk semasa tempoh rujukan. Keterukan ketidakjaminan makanan, yang ditakrifkan sebagai sifat terpendam, diukur pada skala rujukan global Skala Pengalaman ketidakjaminan Makanan (FIES), satu standard pengukuran yang ditetapkan oleh FAO melalui aplikasi Skala Pengalaman ketidakjaminan Makanan",
+    "exclude_openapi": false,
+    "manual_trigger": "na",
+    "data_as_of": "2016",
+    "last_updated": "2024-07-23 00:00",
+    "next_update": "",
+    "methodology_en": "Data is collected through surveys utilizing the Food Insecurity Experience Scale (FIES), designed to assess the severity of food insecurity based on responses to questions about experiences and conditions typical of food insecurity.",
+    "methodology_ms": "Data dikumpulkan melalui tinjauan yang menggunakan Skala Pengalaman Ketidakjaminan Makanan (FIES), yang direka untuk menilai keterukan ketidakjaminan makanan berdasarkan jawapan kepada soalan mengenai pengalaman dan keadaan yang tipikal bagi ketidakjaminan makanan.",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_2-1-2.parquet",
+    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_2-1-2.csv",
+    "link_preview": "",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": ["SEX"],
+    "dataset_begin": 2016,
+    "dataset_end": 2021,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG"
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Categorical] Either male ('Male') or female ('Female')",
+            "description_ms": "[Kategori] Sama ada lelaki ('Male') atau perempuan ('Female')"
+        },
+        {
+            "name": "indicator",
+            "title_en": "Indicator",
+            "title_ms": "Penunjuk",
+            "description_en": "[Categorical] The title of the SDG indicator",
+            "description_ms": "[Kategori] Tajuk penunjuk SDG"
+        },
+        {
+            "name": "year",
+            "title_en": "Year",
+            "title_ms": "Tahun",
+            "description_en": "[Integer] The year the data was collected",
+            "description_ms": "[Integer] Tahun data dikumpulkan"
+        },
+        {
+            "name": "age",
+            "title_en": "Age Group",
+            "title_ms": "Kumpulan Umur",
+            "description_en": "[Categorical] Age groups categorized by years, such as '15 years and above'",
+            "description_ms": "[Kategori] Kumpulan umur yang dikategorikan mengikut tahun, seperti '15 tahun dan ke atas'"
+        },
+        {
+            "name": "percentage",
+            "title_en": "Percentage (%)",
+            "title_ms": "Peratusan (%)",
+            "description_en": "[Float] The proportion of the indicator group as a percentage of the overall population",
+            "description_ms": "[Apung] Perkadaran kumpulan indikator sebagai peratusan daripada keseluruhan populasi."
+        }
+    ],
+    "dataviz": [
+    ],
+    "translations_en": {
+        "sex": "Sex",
+        "indicator": "Indicator",
+        "year": "Year",
+        "age_group": "Age Group",
+        "percentage": "Percentage"
+    },
+    "translations_ms": {
+        "sex": "Jantina",
+        "indicator": "Penunjuk",
+        "year": "Year",
+        "age_group": "Kumpulan Umur",
+        "percentage": "Peratusan"
+    },
+    "related_datasets": []
+}
