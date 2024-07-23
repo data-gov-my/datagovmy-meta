@@ -1,9 +1,9 @@
 {
-    "title_en": "SDG 4.1.2 : Completion rate (primary education, lower secondary education, upper secondary education)",
-    "title_ms": "SDG 4.1.2 : Kadar tamat persekolahan (pendidikan rendah, pendidikan menengah rendah, pendidikan menegah atas)",
-    "title_sort": 6,
-    "description_en": "Annual completion rate of education, with breakdowns by education level, sex and state",
-    "description_ms": "Kadar tamat persekolahan tahunan, dengan pecahan mengikut peringkat pendidikan, jantina dan negeri",
+    "title_en": "SDG 4.6.1 : Proportion of population in a given age group achieving proficiency in literacy skill by state and sex",
+    "title_ms": "SDG 4.6.1 : Peratusan penduduk dalam kumpulan umur tertentu yang mencapai sekurang-kurangnya tahap kecekapan dalam kemahiran literasi, mengikut jantina",
+    "title_sort": 7,
+    "description_en": "Annual percentage of population achieving proficiency in literacy skills, with breakdowns by sex, age and state",
+    "description_ms": "Peratusan penduduk tahunan yang mencapai tahap kecekapan dalam kemahiran literasi, dengan pecahan mengikut jantina, umur dan negeri",
     "exclude_openapi": false,
     "manual_trigger": "",
     "data_as_of": "2022",
@@ -15,8 +15,8 @@
     "caveat_ms": "\u2014",
     "publication_en": "\u2014",
     "publication_ms": "\u2014",
-    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_4-1-2.parquet",
-    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_4-1-2.csv",
+    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_4-6-1.parquet",
+    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_4-6-1.csv",
     "frequency": "YEARLY",
     "geography": [
         "NATIONAL",
@@ -58,11 +58,11 @@
             "description_ms": "[Kategori] Satu daripada 16 negeri atau Malaysia"
         },
         {
-            "name": "education_level",
-            "title_en": "Level of Education",
-            "title_ms": "Peringkat Pendidikan",
-            "description_en": "[Categorical] One of 3 education levels, primary education ('primary'), lower secondary education ('lower_secondary'), upper secondary education ('upper_secondary')",
-            "description_ms": "[Kategori] Satu daripada 3 peringkat pendidikan, pendidikan rendah ('primary'), pendidikan menengah rendah ('lower_secondary'), pendidikan menegah atas ('upper_secondary')"
+            "name": "age",
+            "title_en": "Age Group",
+            "title_ms": "Kumpulan Umur",
+            "description_en": "[Categorical] Either age group of 15-24 or 15+",
+            "description_ms": "[Kategori] Satu daripada 2 kumpulan umur, 15-25 atau 15+"
         },
         {
             "name": "sex",
@@ -79,11 +79,11 @@
             "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
         },
         {
-            "name": "rate",
-            "title_en": "Completion rate of education",
-            "title_ms": "Kadar tamat persekolahan",
-            "description_en": "[Float] Percentage (%) of the population of students who completed the last grade in a level of education",
-            "description_ms": "[Apung] Peratusan (%) pelajar yang menamatkan darjah terakhir untuk sesuatu peringkat pendidikan"
+            "name": "percentage",
+            "title_en": "Percentage",
+            "title_ms": "Peratusan",
+            "description_en": "[Float] Percentage (%) of the population who achieved proficiency in literacy skill",
+            "description_ms": "[Apung] Peratusan (%) populasi yang mencapai tahap kecekapan dalam kemahiran literasi"
         }
     ],
     "dataviz": [
@@ -104,15 +104,15 @@
     "translations_en": {
         "date": "Date",
         "state": "State",
-        "education_level": "Education Level",
-        "rate": "Completion rate (%)",
+        "age": "Age Group",
+        "percentage": "Percentage (%)",
         "sex": "Sex"
     },
     "translations_ms": {
         "date": "Tarikh",
         "state": "Negeri",
-        "education_level": "Peringkat Pendidikan",
-        "rate": "Kadar Penamatan (%)",
+        "age": "Kumpulan Umur",
+        "percentage": "Peratusan (%)",
         "sex": "Jantina"
     },
     "related_datasets": []
