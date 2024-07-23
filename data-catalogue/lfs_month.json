@@ -3,7 +3,7 @@
     "title_ms": "Statistik Tenaga Buruh Bulanan Utama",
     "title_sort": 1,
     "description_en": "Monthly principal labour force statistics, including unemployment and participation rates.",
-    "description_ms": "Statistik bulanan utama berkaitan tenaga buruh, termasuk kadar pengangguran dan penyertaan.",
+    "description_ms": "Statistik bulanan utama berkaitan tenaga buruh termasuk guna tenaga, pengangguran dan penyertaan.",
     "exclude_openapi": false,
     "manual_trigger": "na",
     "data_as_of": "2024-05",
