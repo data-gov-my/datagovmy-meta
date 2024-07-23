@@ -1,0 +1,38 @@
+{
+    "publication": "icths_2017",
+    "publication_type": "icths",
+    "release_date": "2018-03-19",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE",
+        "DISTRICT"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2017] ICT Use & Access",
+        "publication_type_title": "ICT Use & Access",
+        "description": "Annual survey report on the use of and access to ICT by households and individuals, at national, state, and district level.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "ICT Use & Access: 2017",
+                "resource_link": "https://storage.dosm.gov.my/icths/icths_2017.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2017] Penggunaan & Capaian ICT",
+        "publication_type_title": "enggunaan & Capaian ICT",
+        "description": "Laporan survei tahunan tentang penggunaan dan capaian ICT oleh individu dan isi rumah, pada peringkat nasional, negeri, dan daerah pentadbiran.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "enggunaan & Capaian ICT: 2017",
+                "resource_link": "https://storage.dosm.gov.my/icths/icths_2017.pdf"
+            }
+        ]
+    }
+}

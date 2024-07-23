@@ -1,0 +1,119 @@
+{
+    "title_en": "SDG 4.6.1 : Proportion of population in a given age group achieving proficiency in literacy skill by state and sex",
+    "title_ms": "SDG 4.6.1 : Peratusan penduduk dalam kumpulan umur tertentu yang mencapai sekurang-kurangnya tahap kecekapan dalam kemahiran literasi, mengikut jantina",
+    "title_sort": 7,
+    "description_en": "Annual percentage of population achieving proficiency in literacy skills, with breakdowns by sex, age and state",
+    "description_ms": "Peratusan penduduk tahunan yang mencapai tahap kecekapan dalam kemahiran literasi, dengan pecahan mengikut jantina, umur dan negeri",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2022",
+    "last_updated": "2024-07-22 00:00",
+    "next_update": "",
+    "methodology_en": "",
+    "methodology_ms": "",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_4-6-1.parquet",
+    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_4-6-1.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": ["AGE"],
+    "dataset_begin": 2016,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states, or Malaysia",
+            "description_ms": "[Kategori] Satu daripada 16 negeri atau Malaysia"
+        },
+        {
+            "name": "age",
+            "title_en": "Age Group",
+            "title_ms": "Kumpulan Umur",
+            "description_en": "[Categorical] Either age group of 15-24 or 15+",
+            "description_ms": "[Kategori] Satu daripada 2 kumpulan umur, 15-25 atau 15+"
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
+            "description_ms": "[Kategori] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
+        },
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "percentage",
+            "title_en": "Percentage",
+            "title_ms": "Peratusan",
+            "description_en": "[Float] Percentage (%) of the population who achieved proficiency in literacy skill",
+            "description_ms": "[Apung] Peratusan (%) populasi yang mencapai tahap kecekapan dalam kemahiran literasi"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "state"
+                ],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "state": "State",
+        "age": "Age Group",
+        "percentage": "Percentage (%)",
+        "sex": "Sex"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "state": "Negeri",
+        "age": "Kumpulan Umur",
+        "percentage": "Peratusan (%)",
+        "sex": "Jantina"
+    },
+    "related_datasets": []
+}

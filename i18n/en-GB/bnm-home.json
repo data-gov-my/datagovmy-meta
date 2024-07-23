@@ -1,0 +1,51 @@
+{
+  "route": "/",
+  "sites": ["databnm"],
+  "translation": {
+    "site": {
+      "name": "data.bnm.gov.my"
+    },
+    "header": "Open Data on Malaysia's Financial Sector",
+    "description": "Freely available rates and statistics from the Kuala Lumpur foreign exchange market, interbank money market, government bond market, and Malaysia's financial sector in general. Data is at the heart of everything we do at Bank Negara; this site is the culmination of our effort to share it as part of a data-driven public sector.",
+    "dashboard-index": {
+      "header": "Open Data Dashboards",
+      "description": "Being an excellent data publisher is not just about providing raw data - it's about telling stories. On this page, you'll find a collection of dashboards that will help you explore and understand our data from the comfort of your device. No need to download or play with the data yourself - we've done the work for you!"
+    },
+    "timeseries_opr": {
+      "title": "Overnight Policy Rate (OPR)",
+      "callout1": "Latest ({{ date }})",
+      "callout2": "SRR",
+      "keys": "Overnight Policy Rate (OPR)"
+    },
+    "timeseries_reserves_usd": {
+      "title": "BNM International Reserves",
+      "callout1": "Latest ({{ date }})",
+      "callout2": "Months of Imports",
+      "keys": "International Reserves (USD bil)"
+    },
+    "timeseries_myr_usd": {
+      "title": "USD to MYR",
+      "callout1": "Latest ({{ date }})",
+      "callout2": "5-year Avg",
+      "keys": "$1"
+    },
+    "timeseries_gdp_growth": {
+      "title": "Real GDP Growth (year-on-year)",
+      "callout1": "Latest ({{ date }})",
+      "callout2": "5-year Avg",
+      "keys": "Overall"
+    },
+    "timeseries_inflation": {
+      "title": "Consumer Inflation",
+      "callout1": "Latest ({{ date }})",
+      "callout2": "5-year Avg",
+      "keys": "Overall"
+    },
+    "timeseries_unemployment": {
+      "title": "Unemployment",
+      "callout1": "Latest ({{ date }})",
+      "callout2": "5-year Avg",
+      "keys": "Overall"
+    }
+  }
+}

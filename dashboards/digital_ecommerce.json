@@ -1,0 +1,76 @@
+{
+	"dashboard_name": "digital_ecommerce",
+	"data_last_updated": "2024-04-22 00:01",
+	"route": "/,/ms-MY/",
+	"sites": [
+		"opendosm"
+	],
+	"manual_trigger": "2024-04-22 00:16:20.442287",
+	"required_params": [],
+	"optional_params": [],
+	"charts": {
+		"choropleth_state": {
+			"name": "choropleth_state",
+			"chart_type": "choropleth_chart",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/digital_ecommerce_state.parquet",
+			"data_as_of": "2024-01-01 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"x": "state",
+				"y": [
+					"income",
+					"expenditure",
+					"income_capita",
+					"expenditure_capita",
+					"population"
+				]
+			}
+		},
+		"timeseries": {
+			"name": "timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/digital_ecommerce_timeseries.parquet",
+			"data_as_of": "2021",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": [
+					"type",
+					"sector"
+				],
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": [
+					"x",
+					"total",
+					"domestic",
+					"international",
+					"b2b",
+					"b2c",
+					"b2g"
+				]
+			}
+		},
+		"timeseries_callout": {
+			"name": "timeseries_callout",
+			"chart_type": "custom_chart",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/digital_ecommerce_timeseries_callout.parquet",
+			"data_as_of": "2021",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": [
+					"type",
+					"sector",
+					"chart"
+				],
+				"value_columns": [
+					"latest",
+					"cagr"
+				]
+			}
+		}
+	}
+}
