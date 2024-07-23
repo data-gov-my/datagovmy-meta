@@ -3,29 +3,29 @@
     "title_ms": "Derma Darah",
     "title_sort": 1,
     "description_en": "Daily blood donations at national and state level, with details on blood type and total donations.",
-    "description_ms": "Derma darah harian di peringkat kebangsaan dan negeri, dengan butiran mengenai jenis darah dan jumlah derma darah.",
+    "description_ms": "Derma darah harian di peringkat kebangsaan dan negeri, dengan butiran mengenai jenis darah dan jumlah pendermaan darah.",
     "exclude_openapi": false,
     "manual_trigger": "2024-07-21 08:58:30.299868",
     "data_as_of": "2024-07-20 23:59",
     "last_updated": "2024-07-21 12:00",
     "next_update": "2024-07-28 12:00",
-    "methodology_en": "This dataset is produced by the Blood Bank Information System (BBIS) at the Ministry of Health, based on daily ground-level surveillance conducted to monitor the evolution of blood donations in Malaysia except for Perlis, Wilayah Persekutuan Labuan, dan Wilayah Persekutuan Putrajaya.  ",
-    "methodology_ms": "Dataset ini dihasilkan oleh Sistem Informasi Pusat Darah (BBIS) di Kementerian Kesihatan Malaysia, berdasarkan survelan harian di lapangan yang dilaksanakan untuk memantau evolusi derma darah di Malaysia. Berikutan peralihan Malaysia kepada fasa endemik, kekerapan pelaporan awam telah diubah daripada harian kepada mingguan. Namun begitu, survelan harian masih berlangunsung secara dalaman.",
+    "methodology_en": "This dataset is produced by the Blood Bank Information System (BBISv2) at the Ministry of Health, based on daily ground-level surveillance conducted to monitor the evolution of blood donations in Malaysia except for Perlis, Wilayah Persekutuan Putrajaya, dan Wilayah Persekutuan Labuan.",
+    "methodology_ms": "Dataset ini dihasilkan oleh Sistem Informasi Pusat Darah (BBISv2) di Kementerian Kesihatan Malaysia, berdasarkan survelan harian di lapangan yang dilaksanakan untuk memantau evolusi derma darah di Malaysia kecuali di Negeri Perlis, Wilayah Persekutuan Putrajaya, dan Wilayah Persekutuan Labuan.",
     "caveat_en": "In general, the data presented here is based on the date of report rather than the date of the event.",
     "caveat_ms": "Secara am, data ini adalah berdasarkan tarikh laporan dan bukannya tarikh kejadian.",
-    "publication_en": "KKMNOW features a [dashboard on COVID-19](https://data.moh.gov.my/dashboard/covid-19) where you can explore the data in a more interactive manner!",
-    "publication_ms": "Portal KKMNOW memaparkan [papan pemuka tentang COVID-19](https://data.moh.gov.my/dashboard/covid-19) di mana anda boleh menerokai data ini dengan lebih interaktif!",
+    "publication_en": "KKMNOW features a [dashboard on blood donation](https://data.moh.gov.my/ms-MY/dashboard/blood-donation) where you can explore the data in a more interactive manner!",
+    "publication_ms": "Portal KKMNOW memaparkan [papan pemuka tentang blood donation](https://data.moh.gov.my/ms-MY/dashboard/blood-donation) di mana anda boleh menerokai data ini dengan lebih interaktif!",
     "link_parquet": "https://storage.data.gov.my/healthcare/covid_cases.parquet",
-    "link_csv": "https://storage.data.gov.my/healthcare/covid_cases.csv",
-    "link_preview": "https://storage.data.gov.my/healthcare/covid_cases.parquet",
+    "link_csv": "https://storage.data.gov.my/healthcare/blood_donations.csv", 
+    "link_preview": "https://storage.data.gov.my/healthcare/blood_donations.parquet",
     "frequency": "DAILY",
     "geography": [
         "NATIONAL",
         "STATE"
     ],
     "demography": [],
-    "dataset_begin": 2020,
-    "dataset_end": 2023,
+    "dataset_begin": 2006,
+    "dataset_end": 2024,
     "data_source": [
         "MoH"
     ],
@@ -35,16 +35,10 @@
             "category_en": "Healthcare",
             "category_ms": "Kesihatan",
             "category_sort": 40,
-            "subcategory_en": "Infectious Diseases",
-            "subcategory_ms": "Penyakit Berjangkit"
+            "subcategory_en": "Awareness and Education",
+            "subcategory_ms": "Kesedaran dan Pendidikan"
         },
-        {
-            "site": "kkmnow",
-            "category_en": "Infectious Diseases",
-            "category_ms": "Penyakit Berjangkit",
-            "subcategory_en": "COVID-19",
-            "subcategory_ms": "COVID-19"
-        }
+      
     ],
     "fields": [
         {
@@ -55,47 +49,20 @@
             "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
         },
         {
-            "name": "state",
-            "title_en": "State",
-            "title_ms": "Negeri",
-            "description_en": "[Categorical] One of 16 states, or Malaysia",
-            "description_ms": "[Kategori] Satu daripada 16 negeri, atau Malaysia"
+            "name": "blood_type",
+            "title_en": "Blood Type",
+            "title_ms": "Jenis Darah",
+            "description_en": "[Categorical] One of 4 types of blood",
+            "description_ms": "[Kategori] Satu daripada 4 jenis darah"
         },
         {
-            "name": "cases_new",
-            "title_en": "New Cases",
-            "title_ms": "Kes Baharu",
-            "description_en": "[Integer] Number of new cases reported in the 24 hours since the last report; note that this is based on the date of report and not the date of the test.",
-            "description_ms": "[Integer] Bilangan kes baharu yang dilaporkan dalam 24 jam sejak laporan terakhir; angka ini adalah berdasarkan tarikh laporan dan bukannya tarikh ujian saringan."
-        },
-        {
-            "name": "cases_import",
-            "title_en": "Imported Cases",
-            "title_ms": "Kes Import",
-            "description_en": "[Integer] Number of new cases imported from abroad, i.e. inviduals who were infected outside the country",
-            "description_ms": "[Integer] Bilangan kes baharu yang datang dari luar negara, iaitu individu yang dijangkiti di luar negara"
-        },
-        {
-            "name": "cases_recovered",
-            "title_en": "Recoveries",
-            "title_ms": "Kes Sembuh",
-            "description_en": "[Integer] Number of recoveries from COVID-19 reported in the 24 hours since the last report",
-            "description_ms": "[Integer] Bilangan kes sembuh yang dilaporkan dalam 24 jam sejak laporan terakhir"
-        },
-        {
-            "name": "cases_active",
-            "title_en": "Active Cases",
-            "title_ms": "Kes Aktif",
-            "description_en": "[Integer] Number of COVID-19 cases who have not recovered or died",
-            "description_ms": "[Integer] Bilangan kes COVID-19 yang belum sembuh ataupun mati"
-        },
-        {
-            "name": "cases_cluster",
-            "title_en": "Cluster-related Cases",
-            "title_ms": "Kes Kluster",
-            "description_en": "[Integer] Number of cases attributable to clusters; the difference between new cases and the sum of cases attributable to clusters is the number of sporadic cases",
-            "description_ms": "[Integer] Bilangan kes yang boleh dikaitkan dengan sesebuah kluster; perbezaan antara kes baharu dan jumlah kes yang dikaitkan dengan kluster adalah bilangan kes sporadik"
+            "name": "donations",
+            "title_en": "Donations",
+            "title_ms": "Penderma Darah",
+            "description_en": "[Integer] Number of new blood donations reported in the 24 hours since the last report.",
+            "description_ms": "[Integer] Bilangan pendermaan darah baharu yang dilaporkan dalam 24 jam sejak laporan terakhir."
         }
+        
     ],
     "dataviz": [
         {
@@ -114,110 +81,37 @@
             }
         },
         {
-            "dataviz_id": "cases_new",
-            "title_en": "New Cases",
-            "title_ms": "Kes Baharu",
+            "dataviz_id": "blood_type",
+            "title_en": "Blood Types",
+            "title_ms": Jenis Darah",
             "chart_type": "TIMESERIES",
             "config": {
                 "filter_columns": [
-                    "state"
+                    "blood_type"
                 ],
                 "precision": 0,
                 "operation": "SUM",
-                "format": {
+               "format": {
                     "x": "date",
                     "y": [
-                        "cases_new"
-                    ]
-                }
-            }
-        },
-        {
-            "dataviz_id": "cases_import",
-            "title_en": "Imported Cases",
-            "title_ms": "Kes Import",
-            "chart_type": "TIMESERIES",
-            "config": {
-                "filter_columns": [
-                    "state"
-                ],
-                "precision": 0,
-                "operation": "SUM",
-                "format": {
-                    "x": "date",
-                    "y": [
-                        "cases_import"
-                    ]
-                }
-            }
-        },
-        {
-            "dataviz_id": "cases_recovered",
-            "title_en": "Recoveries",
-            "title_ms": "Kes Sembuh",
-            "chart_type": "TIMESERIES",
-            "config": {
-                "filter_columns": [
-                    "state"
-                ],
-                "precision": 0,
-                "operation": "SUM",
-                "format": {
-                    "x": "date",
-                    "y": [
-                        "cases_recovered"
-                    ]
-                }
-            }
-        },
-        {
-            "dataviz_id": "cases_active",
-            "title_en": "Active Cases",
-            "title_ms": "Kes Aktif",
-            "chart_type": "TIMESERIES",
-            "config": {
-                "filter_columns": [
-                    "state"
-                ],
-                "precision": 0,
-                "operation": "SUM",
-                "format": {
-                    "x": "date",
-                    "y": [
-                        "cases_active"
-                    ]
-                }
-            }
-        },
-        {
-            "dataviz_id": "cases_cluster",
-            "title_en": "Cluster-related Cases",
-            "title_ms": "Kes Kluster",
-            "chart_type": "TIMESERIES",
-            "config": {
-                "filter_columns": [
-                    "state"
-                ],
-                "precision": 0,
-                "operation": "SUM",
-                "format": {
-                    "x": "date",
-                    "y": [
-                        "cases_cluster"
+                        "blood_type"
                     ]
                 }
             }
         }
+        
+       
+        
     ],
     "translations_en": {
         "date": "Date",
-        "state": "State",
-        "y1": "Cases"
+        "blood_type": "Blood Type",
+        "y1": "Total"
     },
     "translations_ms": {
         "date": "Tarikh",
-        "state": "Negeri",
-        "y1": "Kes"
+        "state": "Jenis Darah",
+        "y1": "Jumlah"
     },
     "related_datasets": []
 }
