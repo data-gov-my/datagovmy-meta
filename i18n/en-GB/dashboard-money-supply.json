@@ -5,10 +5,10 @@
     ],
     "translation": {
         "header": "Money Supply",
-        "description": "There are over RM150 billion in coins and notes circulating in the Malaysian economy. This dashboard, which builds on Bank Negara Malaysia's Monthly Highlights and Statistics, provides an overview allowing users to track the composition and growth of currency in circulation. It should be noted that currency in circulation only captures currency which is still valid legal tender, which is a subset of all notes and coins that have ever existed. For instance, the RM1 coin has been discontinued.",
+        "description": "In general, Malaysia's money supply is the total value of ringgit in circulation at a given point in time. However, there are several ways of measuring this value, depending on what assets are included in the definition of 'money'. This dashboard uses the 3 most common empirical measures - M1, M2, and M3 - to analyse Malaysia's money supply on a monthly basis.",
         "section_1": {
             "title": "What are the various ways to measure the supply of money in Malaysia?",
-            "description": "Rather than one single 'correct' method of measurement, there are multiple ways of tracking the money supply. This dashboard tracks 3 measures - M1, M2, and M3.\n\nM1 is comprised of 'narrow money', covering only the most liquid assets.\nM2 is comprised of M1 and narrow quasi-money.\nM3 is comprised of M2 and broad money.\n\nThe table below summarises the definitions:",
+            "description": "M1 is comprised of 'narrow money', covering only the most liquid assets.\nM2 is comprised of M1 and narrow quasi-money.\nM3 is comprised of M2 and broad money.\n\nThe table below summarises the definitions in detail:",
             "component_col_name": "Component",
             "m1_col_name": "% of M1 Money",
             "m2_col_name": "% of M2 Money",

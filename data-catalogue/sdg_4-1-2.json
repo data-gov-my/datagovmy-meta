@@ -1,0 +1,119 @@
+{
+    "title_en": "SDG 4.1.2 : Completion rate (primary education, lower secondary education, upper secondary education)",
+    "title_ms": "SDG 4.1.2 : Kadar tamat persekolahan (pendidikan rendah, pendidikan menengah rendah, pendidikan menegah atas)",
+    "title_sort": 6,
+    "description_en": "Annual completion rate of education, with breakdowns by education level, sex and state",
+    "description_ms": "Kadar tamat persekolahan tahunan, dengan pecahan mengikut peringkat pendidikan, jantina dan negeri",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2022",
+    "last_updated": "2024-07-22 00:00",
+    "next_update": "",
+    "methodology_en": "",
+    "methodology_ms": "",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_4-1-2.parquet",
+    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_4-1-2.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2016,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states, or Malaysia",
+            "description_ms": "[Kategori] Satu daripada 16 negeri atau Malaysia"
+        },
+        {
+            "name": "education_level",
+            "title_en": "Level of Education",
+            "title_ms": "Peringkat Pendidikan",
+            "description_en": "[Categorical] One of 3 education levels, primary education ('primary'), lower secondary education ('lower_secondary'), upper secondary education ('upper_secondary')",
+            "description_ms": "[Kategori] Satu daripada 3 peringkat pendidikan, pendidikan rendah ('primary'), pendidikan menengah rendah ('lower_secondary'), pendidikan menegah atas ('upper_secondary')"
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
+            "description_ms": "[Kategori] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
+        },
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "rate",
+            "title_en": "Completion rate of education",
+            "title_ms": "Kadar tamat persekolahan",
+            "description_en": "[Float] Percentage (%) of the population of students who completed the last grade in a level of education",
+            "description_ms": "[Apung] Peratusan (%) pelajar yang menamatkan darjah terakhir untuk sesuatu peringkat pendidikan"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "state"
+                ],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "state": "State",
+        "education_level": "Education Level",
+        "rate": "Completion rate (%)",
+        "sex": "Sex"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "state": "Negeri",
+        "education_level": "Peringkat Pendidikan",
+        "rate": "Kadar Penamatan (%)",
+        "sex": "Jantina"
+    },
+    "related_datasets": []
+}

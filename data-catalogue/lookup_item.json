@@ -16,7 +16,6 @@
   "publication_ms": "\u2014",
   "link_parquet": "https://storage.data.gov.my/pricecatcher/lookup_item.parquet",
   "link_csv": "https://storage.data.gov.my/pricecatcher/lookup_item.csv",
-  "link_preview": "https://storage.data.gov.my/pricecatcher/lookup_item_preview.parquet",
   "frequency": "INFREQUENT",
   "geography": [
     "DISTRICT"
@@ -32,15 +31,19 @@
       "site": "datagovmy",
       "category_en": "Prices",
       "category_ms": "Harga",
+      "category_sort": 70,
       "subcategory_en": "PriceCatcher",
-      "subcategory_ms": "PriceCatcher"
+      "subcategory_ms": "PriceCatcher",
+      "subcategory_sort": 40
     },
     {
       "site": "opendosm",
       "category_en": "Prices",
       "category_ms": "Harga",
+      "category_sort": 70,
       "subcategory_en": "PriceCatcher",
-      "subcategory_ms": "PriceCatcher"
+      "subcategory_ms": "PriceCatcher",
+      "subcategory_sort": 40
     }
   ],
   "fields": [

@@ -1,0 +1,177 @@
+{
+  "title_en": "Population Table: State Legislative Assemblies (DUNs)",
+  "title_ms": "Jadual Penduduk: Dewan Undangan Negeri (DUN)",
+  "title_sort": 5,
+  "description_en": "Population at state legislative assembly (DUN) level from 2020 to 2022, with breakdowns by sex and nationality. The preview table shows data for the latest year only, but you may download the data in full.",
+  "description_ms": "Jumlah penduduk di peringkat dewan undangan negeri (DUN) dari 2020 ke 2022, dengan pecahan mengikut jantina dan kewarganegaraan. Jadual pratonton hanya menunjukkan data bagi tahun terkini, tetapi data penuh boleh dimuat turun.",
+  "exclude_openapi": true,
+  "manual_trigger": "",
+  "data_as_of": "2022",
+  "last_updated": "2023-05-23 12:00",
+  "next_update": "2024-06-24 12:00",
+  "methodology_en": "The 600 DUNs enumerated in this dataset are based on the most recent electoral boundaries per the redelineation exercises in 2015 (Sabah), 2017 (Sarawak) and 2018 (Peninsular Malaysia). Values for 2020 are based on adjusted data from the Population Census conducted in that year. Values for all other years are intercensal mid-year population estimates. The intercensal estimates were generated using the cohort-component method, which estimates the latest year's population by taking the previous year's value, then adding births, subtracting deaths, and adding net migration. For a deeper understanding of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/population-technotes).",
+  "methodology_ms": "600 DUN yang diperincikan dalam set data ini adalah berdasarkan sempadan kawasan parlimen yang terkini selaras dengan kajian semula persempadanan yang dilaksanakan pada tahun 2015 (Sabah), 2017 (Sarawak) dan 2018 (Semenanjung Malaysia). Angka bagi 2020 adalah berdasarkan data daripada Banci Penduduk yang dilaksanakan pada tahun tersebut. Angka bagi semua tahun lain adalah anggaran pertengahan tahun antara banci. Anggaran antara banci dihasilkan dengan kaedah komponen kohort, yang menganggarkan angka bagi tahun terkini dengan mengambil angka bagi tahun sebelumnya, kemudian tambah kelahiran, tolak kematian, dan tambah migrasi bersih. Untuk mendapat pemahaman metodologi yang lebih mendalam, sila rujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/population-technotes).",
+  "caveat_en": "Values for breakdowns may be slightly different to totals when summed, due to rounding to one decimal place.",
+  "caveat_ms": "Angka-angka terperinci mungkin sedikit berbeza dengan angka keseluruhan apabila terjumlah, disebabkan oleh penggenapan kepada satu titik perpuluhan.",
+  "publication_en": "OpenDOSM's [Kawasanku dashboard](https://open.dosm.gov.my/dashboard/kawasanku) allows you to explore a wide range of indicators for any DUN, including its population.",
+  "publication_ms": "[Papan pemuka Kawasanku](https://open.dosm.gov.my/ms-MY/dashboard/kawasanku) di OpenDOSM membolehkan anda menerokai pelbagai indikator bagi mana-mana DUN, termasuk data penduduknya.",
+  "link_parquet": "https://storage.dosm.gov.my/population/population_dun.parquet",
+  "link_csv": "https://storage.dosm.gov.my/population/population_dun.csv",
+  "link_preview": "https://storage.dosm.gov.my/population/population_dun_preview.parquet",
+  "frequency": "YEARLY",
+  "geography": [
+    "PARLIMEN"
+  ],
+  "demography": [
+    "SEX",
+    "ETHNICITY"
+  ],
+  "dataset_begin": 2020,
+  "dataset_end": 2022,
+  "data_source": [
+    "DOSM"
+  ],
+  "data_source_granular": [
+    "BPPD"
+  ],
+  "site_category": [
+    {
+      "site": "datagovmy",
+      "category_en": "Demography",
+      "category_ms": "Demografi",
+      "category_sort": 1,
+      "subcategory_en": "Population",
+      "subcategory_ms": "Penduduk",
+      "subcategory_sort": 1
+    },
+    {
+      "site": "opendosm",
+      "category_en": "Demography",
+      "category_ms": "Demografi",
+      "category_sort": 1,
+      "subcategory_en": "Population",
+      "subcategory_ms": "Penduduk",
+      "subcategory_sort": 1
+    }
+  ],
+  "fields": [
+    {
+      "name": "date",
+      "title_en": "Date",
+      "title_ms": "Tarikh",
+      "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as this is annual data",
+      "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01 kerana ini adalah data tahunan"
+    },
+    {
+      "name": "state",
+      "title_en": "State",
+      "title_ms": "Negeri",
+      "description_en": "[Categorical] One of 13 states; the 3 federal territories are not present in this dataset because they do not have state legislative assemblies.",
+      "description_ms": "[Kategoril] Satu daripada 13 negeri; 3 wilayah persekutuan tidak terkandung dalam set data ini kerana tidak mempunyai dewan undangan negeri."
+    },
+    {
+      "name": "parlimen",
+      "title_en": "Parliament",
+      "title_ms": "Parlimen",
+      "description_en": "[Categorical] One of 209 parliamentary constituencies; the remaining 13 constituencies in the 3 federal territories are not present in this dataset because they do not contain state legislative assemblies.",
+      "description_ms": "[Kategori] Satu daripada 209 kawasan parlimen; baki 13 kawasan parlimen di 3 wilayah persekutuan tidak terkandung dalam set data ini kerana tidak dipecahkan kepada dewan undangan negeri. "
+    },
+    {
+      "name": "dun",
+      "title_en": "DUN",
+      "title_ms": "DUN",
+      "description_en": "[Categorical] One of 600 DUNs; for the avoidance of doubt, every DUN is a subset of exactly 1 Parliament (in geographical terms: every DUN is enclaved within a Parliament).",
+      "description_ms": "[Kategori] Satu daripada DUN; harus diambil perhatian bahawa setiap DUN adalah subset daripada 1 Parlimen sahaja (dalam istilah geografi: setiap DUN adalah 'enclave' ataupun berada sepenuhnya dalam satu kawasan Parlimen). "
+    },
+		{
+			"name": "sex",
+			"title_en": "Sex",
+			"title_ms": "Jantina",
+			"description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
+			"description_ms": "[Kategori] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
+		},
+    {
+      "name": "age",
+      "title_en": "Age Group",
+      "title_ms": "Kumpulan Umur",
+      "description_en": "[Categorical] Only data for all age groups ('overall') is available for now; the column is included to allow for expansion in future.",
+      "description_ms": "[Kategori] Hanya data bagi semua kumpulan umur ('overall') disediakan buat waktu ini, namun medan ini tetap dimasukkan bagi membolehkan tambahan pada masa depan."
+    },
+		{
+			"name": "ethnicity",
+			"title_en": "Ethnicity",
+			"title_ms": "Kumpulan Etnik",
+			"description_en": "[Categorical] All ethnic groups ('overall'), citizen ('citizen'), or non-citizen residents ('other_noncitizen').",
+			"description_ms": "[Kategori] Semua kumpulan etnik ('overall'), warganegara ('other_citizen'), atau penduduk bukan warganegara ('noncitizen')"
+		},
+    {
+      "name": "population",
+      "title_en": "Population ('000)",
+      "title_ms": "Penduduk ('000)",
+      "description_en": "[Float] Thousands of people ('000 people)",
+      "description_ms": "[Apung] Ribuan orang ('000 orang)"
+    }
+  ],
+  "dataviz": [
+    {
+      "dataviz_id": "table",
+      "title_en": "Table",
+      "title_ms": "Jadual",
+      "chart_type": "TABLE",
+      "config": {
+        "precision": 1,
+        "filter_columns": ["state","dun"],
+        "freeze_columns": []
+      }
+    }
+  ],
+  "translations_en": {
+    "date": "Date",
+    "state": "State",
+    "parlimen": "Parliament",
+    "dun": "DUN",
+    "sex": "Sex",
+    "ethnicity": "Ethnicity",
+    "age": "Age",
+    "population": "Population ('000)",
+    "overall_ethnicity": "All ethnicities",
+    "bumi_malay": "Malay",
+    "chinese": "Chinese",
+    "indian": "Indian",
+    "bumi_other": "Other Bumiputera",
+    "other_citizen": "Other (citizen)",
+    "other_noncitizen": "Other (non-citizen)",
+    "overall_sex": "Both sexes",
+    "male": "Male",
+    "female": "Female",
+    "overall_age": "All ages",
+    "x": "Age",
+    "y1": "Male",
+    "y2": "Female"
+  },
+  "translations_ms": {
+    "date": "Tarikh",
+    "state": "Negeri",
+    "parlimen": "Parlimen",
+    "dun": "DUN",
+    "sex": "Jantina",
+    "ethnicity": "Etnik",
+    "age": "Umur",
+    "population": "Penduduk ('000)",
+    "overall_ethnicity": "Semua etnik",
+    "bumi_malay": "Melayu",
+    "chinese": "Cina",
+    "indian": "India",
+    "bumi_other": "Bumiputera lain",
+    "other_citizen": "Lain-lain (warganegara)",
+    "other_noncitizen": "Lain-lain (bukan warganegara)",
+    "overall_sex": "Kedua-dua jantina",
+    "male": "Lelaki",
+    "female": "Perempuan",
+    "overall_age": "Semua umur",
+    "x": "Negeri",
+    "y1": "Lelaki",
+    "y2": "Perempuan"
+  },
+  "related_datasets": []
+}

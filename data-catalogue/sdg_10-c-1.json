@@ -1,0 +1,93 @@
+{
+    "title_en": "SDG 10.c.1 : Remittance costs as a proportion of the amount remitted",
+    "title_ms": "SDG 10.c.1 : Kos kiriman wang sebagai perkadaran daripada jumlah yang dikirim",
+    "title_sort": 10,
+    "description_en": "Data on remittance costs, essential for tracking progress toward Sustainable Development Goal (SDG) 10.c.1, which aims to reduce transaction costs for remittances to less than 3% by 2030 and to eliminate corridors with costs of 5% or higher.",
+    "description_ms": "Data mengenai kos kiriman wang, yang penting untuk menjejaki kemajuan menuju Sustainable Development Goal (SDG) 10.c.1, yang bertujuan mengurangkan kos transaksi untuk kiriman wang kepada kurang daripada 3% menjelang 2030 dan menghapuskan koridor dengan kos 5% atau lebih tinggi.",
+    "exclude_openapi": false,
+    "manual_trigger": "2024-07-23 10:45:00",
+    "data_as_of": "2022",
+    "last_updated": "2024-07-22",
+    "next_update": "\u2014",
+    "methodology_en": "-",
+    "methodology_ms": "-",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_10-c-1.parquet",
+    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_10-c-1.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2016,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "-"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+			"title_en": "Date",
+			"title_ms": "Tarikh",
+			"description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+			"description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "percentage",
+            "title_en": "Remittance Percentage",
+            "title_ms": "Peratusan Kiriman",
+            "description_en": "[Float] Percentange of earnings sent to other parties",
+            "description_ms": "[Apung] Peratusan pendapatan yang dihantar kepada pihak lain"
+        }
+    ],
+    "dataviz": [
+            {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": [
+                    "date"
+                ]
+                }
+            }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "percentage": "Remittance Percentage"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "percentage": "Peratusan Kiriman"
+    },
+    "related_datasets": []
+}

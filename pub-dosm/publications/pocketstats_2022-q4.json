@@ -1,0 +1,42 @@
+{
+    "publication": "pocketstats_2022-q4",
+    "publication_type": "analysis",
+    "release_date": "2023-02-10",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY",
+        "AGE",
+        "NATIONALITY"
+    ],
+    "en": {
+        "title": "[4Q 2022] Pocket Stats",
+        "publication_type_title": "Reviews & Analysis",
+        "description": "A collection of condensed infographics summarising key indicators and developments for the most recent quarter.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Pocket Stats: 4Q 2022",
+                "resource_link": "https://storage.dosm.gov.my/analysis/pocketstats_2022-q4_en.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST4 2022] Poket Stats",
+        "publication_type_title": "Sorotan & Analisis",
+        "description": "Koleksi infografik padat yang merumuskan indikator dan kemajuan penting bagi suku tahun terkini.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Poket Stats: ST4 2022",
+                "resource_link": "https://storage.dosm.gov.my/analysis/pocketstats_2022-q4_bm.pdf"
+            }
+        ]
+    }
+}
