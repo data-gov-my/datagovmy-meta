@@ -5,7 +5,7 @@
     "description_en": "The mean annual concentration of fine suspended particles of less than 2.5 microns in diameter (PM2.5) and 10 microns in diameter (PM10) across urban populations in cities. It serves as a vital resource for monitoring progress towards Sustainable Development Goal (SDG) 11.6.2, which aims to reduce the environmental impact of cities, with a particular emphasis on improving air quality.",
     "description_ms": "Purata tahunan kepekatan zarah halus yang kurang daripada 2.5 mikron (PM2.5) dan 10 mikron (PM10) dalam populasi bandar di bandar-bandar. Ia berfungsi sebagai sumber penting untuk memantau kemajuan menuju Sustainable Development Goal (SDG) 11.6.2, yang bertujuan mengurangkan impak alam sekitar bandar dengan memberi tumpuan khusus kepada peningkatan kualiti udara.",
     "exclude_openapi": false,
-    "manual_trigger": "na",
+    "manual_trigger": "2024-07-23",
     "data_as_of": "2022",
     "last_updated": "2024-07-22",
     "next_update": "\u2014",
@@ -79,8 +79,12 @@
             "chart_type": "TABLE",
             "config": {
             "precision": 0,
-            "filter_columns": [],
-            "freeze_columns": []
+            "filter_columns": [
+                "matter_type"
+            ],
+            "freeze_columns": [
+                "date"
+            ]
             }
         }
     ],
