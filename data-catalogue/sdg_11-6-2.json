@@ -1,0 +1,102 @@
+{
+    "title_en": "SDG 11.6.2 : Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities",
+    "title_ms": "SDG 11.6.2 : Purata tahunan tahap zarah halus (contoh: PM2.5 dan PM10) di bandar-bandar",
+    "title_sort": 12,
+    "description_en": "The mean annual concentration of fine suspended particles of less than 2.5 microns in diameter (PM2.5) and 10 microns in diameter (PM10) across urban populations in cities. It serves as a vital resource for monitoring progress towards Sustainable Development Goal (SDG) 11.6.2, which aims to reduce the environmental impact of cities, with a particular emphasis on improving air quality.",
+    "description_ms": "Purata tahunan kepekatan zarah halus yang kurang daripada 2.5 mikron (PM2.5) dan 10 mikron (PM10) dalam populasi bandar di bandar-bandar. Ia berfungsi sebagai sumber penting untuk memantau kemajuan menuju Sustainable Development Goal (SDG) 11.6.2, yang bertujuan mengurangkan impak alam sekitar bandar dengan memberi tumpuan khusus kepada peningkatan kualiti udara.",
+    "exclude_openapi": false,
+    "manual_trigger": "2024-07-23 10:45:00",
+    "data_as_of": "2022",
+    "last_updated": "2024-07-22",
+    "next_update": "\u2014",
+    "methodology_en": "-",
+    "methodology_ms": "-",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_11-6-2.parquet",
+    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_11-6-2.csv",
+    "frequency": "YEARLY",
+    "geography": [],
+    "demography": [],
+    "dataset_begin": 2016,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "-"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "matter_type",
+            "title_en": "Type of Fine Particulate Matter",
+            "title_ms": "Jenis Zarah Halus",
+            "description_en": "[Categorical] Type of particulate matter, either PM2.5 or PM10",
+            "description_ms": "[Kategoril] Jenis zarah halus, sama ada PM2.5 atau PM10"
+        },
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "mean",
+            "title_en": "Mean Concentration of Fine Particulate Matter",
+            "title_ms": "Purata Konsetrasi Zarah Halus",
+            "description_en": "[Float] The mean concentration of fine particulate matter in cities (micrograms per cubic meter)",
+            "description_ms": "[Apung] Purata konsentrasi zarah halus di bandar-bandar (mikrogram per kubik meter)"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+            "precision": 0,
+            "filter_columns": [
+                "matter_type"
+            ],
+            "freeze_columns": [
+                "date"
+            ]
+            }
+        }
+    ],
+    "translations_en": {
+        "matter_type": "Type of Fine Particulate Matter",
+        "date": "Date",
+        "mean" : "Mean Concentration of Fine Particulate Matter"
+    },
+    "translations_ms": {
+        "matter_type": "Jenis Zarah Halus",
+        "date": "Tarikh",
+        "mean" : "Purata Konsetrasi Zarah Halus"
+    },
+    "related_datasets": []
+}

@@ -1,17 +1,18 @@
 {
 	"dashboard_name": "population",
-	"data_last_updated": "2023-09-01 23:59",
+	"data_last_updated": "2023-10-17 12:00",
+	"data_next_update": "2024-07-31 12:00",
 	"route": "/dashboard/population,/ms-MY/dashboard/population",
 	"sites": ["opendosm"],
-	"manual_trigger": "0",
+	"manual_trigger": "",
 	"required_params": ["state"],
 	"optional_params": [],
 	"charts": {
 		"population_timeseries": {
 			"name": "population_timeseries",
 			"chart_type": "timeseries_chart",
-			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/population_timeseries.parquet",
-			"data_as_of": "2023-09-01 23:59",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/population_timeseries.parquet",
+			"data_as_of": "2023",
 			"api_type": "dynamic",
 			"api_params": ["state"],
 			"variables": {
@@ -25,8 +26,8 @@
 		"population_timeseries_callout": {
 			"name": "population_timeseries_callout",
 			"chart_type": "custom_chart",
-			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/population_timeseries_callout.parquet",
-			"data_as_of": "2023-09-01 23:59",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/population_timeseries_callout.parquet",
+			"data_as_of": "2023",
 			"api_type": "dynamic",
 			"api_params": ["state"],
 			"variables": {
@@ -37,8 +38,8 @@
 		"vitalstats_timeseries": {
 			"name": "vitalstats_timeseries",
 			"chart_type": "timeseries_chart",
-			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/population_vitalstats_timeseries.parquet",
-			"data_as_of": "2023-09-01 23:59",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/population_vitalstats_timeseries.parquet",
+			"data_as_of": "2022",
 			"api_type": "dynamic",
 			"api_params": ["state"],
 			"variables": {
@@ -65,8 +66,8 @@
 		"vitalstats_timeseries_callout": {
 			"name": "vitalstats_timeseries_callout",
 			"chart_type": "custom_chart",
-			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/population_vitalstats_timeseries_callout.parquet",
-			"data_as_of": "2023-09-01 23:59",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/population_vitalstats_timeseries_callout.parquet",
+			"data_as_of": "2022",
 			"api_type": "dynamic",
 			"api_params": ["state"],
 			"variables": {

@@ -1,0 +1,118 @@
+{
+    "title_en": "SDG 5.5.1(b) : Proportion of seats held by women in local governments",
+    "title_ms": "SDG 5.5.1(b) : Peratusan kerusi yang disandang oleh wanita dalam kerajaan tempatan",
+    "title_sort": 7,
+    "description_en": "Annual propotion of seats held by both sexes in local governments",
+    "description_ms": "Peratusan kerusi tahunan yang disandang oleh kedua-dua jantina dalam kerajaan tempatan mengikut jantina",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2022",
+    "last_updated": "2024-07-22 00:00",
+    "next_update": "",
+    "methodology_en": "",
+    "methodology_ms": "",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_5-5-1-b.parquet",
+    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_5-5-1-b.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": ["SEX"],
+    "dataset_begin": 2019,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states",
+            "description_ms": "[Kategori] Satu daripada 16 negeri"
+        },
+        {
+            "name": "local_authority",
+            "title_en": "Local authority",
+            "title_ms": "Kerajaan Tempatan",
+            "description_en": "[Categorical] Name of local authority",
+            "description_ms": "[Kategori] Nama kerajaan tempatan"
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Categorical] Either male ('male') or female ('female')",
+            "description_ms": "[Kategori] Sama ada lelaki ('male') atau perempuan ('female')"
+        },
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "percentage",
+            "title_en": "Percentage",
+            "title_ms": "Peratusan",
+            "description_en": "[Float] Percentage (%) of seats held",
+            "description_ms": "[Apung] Peratusan (%) kerusi yang disandang"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "state"
+                ],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "state": "State",
+        "local_authority": "Type of Seat",
+        "percentage": "Percentage (%)",
+        "sex": "Sex"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "state": "Negeri",
+        "local_authority": "Jenis Kerusi",
+        "percentage": "Peratusan (%)",
+        "sex": "Jantina"
+    },
+    "related_datasets": []
+}

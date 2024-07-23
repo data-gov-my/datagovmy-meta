@@ -1,7 +1,7 @@
 {
 	"dashboard_name": "kawasanku_electoral",
-	"data_last_updated": "2023-08-30 23:59",
-	"route": "",
+	"data_last_updated": "2023-08-30 12:00",
+	"route": "/dashboard/kawasanku,/ms-MY/dashboard/kawasanku",
 	"sites": ["datagovmy"],
 	"manual_trigger": "1",
 	"required_params": [],

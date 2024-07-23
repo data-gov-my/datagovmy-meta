@@ -1,0 +1,118 @@
+{
+    "title_en": "SDG 2.2.2 : Prevalance of Overweight or Wasting Children by State",
+    "title_ms": "SDG 2.2.2 : Kelaziman Kanak-Kanak Berlebihan Berat Badan atau Menyusut Mengikuti Negeri",
+    "title_sort": 2,
+    "description_en": "Proportion of overweight or wasting children broken down by state.",
+    "description_ms": "Peratusan kanak-kanak yang berlebihan berat badan atau menyusut dipecahkan mengikuti negeri.",
+    "exclude_openapi": false,
+    "manual_trigger": "2024-07-23 11:00",
+    "data_as_of": "2022",
+    "last_updated": "2024-07-23 10.00",
+    "next_update": "\u2014",
+    "methodology_en": "",
+    "methodology_ms": "",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_2-2-2_state.parquet",
+    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_2-2-2_state.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2022,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "indicator",
+            "title_en": "Indicator",
+            "title_ms": "Penunjuk",
+            "description_en": "[Categorical] The title of the SDG indicator.",
+            "description_ms": "[Kategori] Tajuk penunjuk SDG."
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states.",
+            "description_ms": "[Kategori] Satu daripada 16 negeri."
+        },
+        {
+            "name": "percentage",
+            "title_en": "Percentage",
+            "title_ms": "Peratusan",
+            "description_en": "[Float] The proportion of the indicator group as a percentage of the overall population.",
+            "description_ms": "[Apung] Perkadaran kumpulan penunjuk sebagai peratusan daripada keseluruhan populasi."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "sdg_2-2-2",
+            "title_en": "SDG 2.2.2",
+            "title_ms": "SDG 2.2.2",
+            "chart_type": "CHOROPLETH",
+            "config": {
+                "format": {
+                    "x": "State",
+                    "y": "Percentage"
+                },
+            "precision": 1,
+            "color": "greens",
+            "geojson": "state"
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "y1": "Percentage",
+        "indicator": "Indicator",
+        "state": "State",
+        "percentage": "Percentage"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "y1": "Peratusan",
+        "indicator": "Indikator",
+        "state": "Negeri",
+        "percentage": "Peratusan"
+    },
+    "related_datasets": []
+}

@@ -28,20 +28,27 @@
   "data_source": [
     "DOSM"
   ],
+  "data_source_granular": [
+    "BIPD"
+  ],
   "site_category": [
     {
       "site": "datagovmy",
       "category_en": "Data Dictionaries",
       "category_ms": "Dictionary Data",
+      "category_sort": 110,
       "subcategory_en": "Economy",
-      "subcategory_ms": "Ekonomi"
+      "subcategory_ms": "Ekonomi",
+      "subcategory_sort": 1
     },
     {
       "site": "opendosm",
       "category_en": "Data Dictionaries",
       "category_ms": "Dictionary Data",
+      "category_sort": 110,
       "subcategory_en": "Economy",
-      "subcategory_ms": "Ekonomi"
+      "subcategory_ms": "Ekonomi",
+      "subcategory_sort": 1
     }
   ],
   "fields": [

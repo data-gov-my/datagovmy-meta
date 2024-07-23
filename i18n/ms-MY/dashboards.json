@@ -9,6 +9,11 @@
     "search_placeholder": "Cari papan pemuka",
     "section1_title": "Papan Pemuka Paling Popular",
     "section2_title": "Semua papan pemuka",
+    "tabs": {
+      "thematic": "Mengikut Tema",
+      "most_popular": "Paling Popular",
+      "recent_updated": "Baru Dikemaskini"
+    },
     "categories": {
       "healthcare": "Penjagaan Kesihatan",
       "transport": "Pengangkutan",
@@ -33,277 +38,313 @@
       "trade": "Perdagangan"
     },
     "dashboards": {
-      "emergency-response": {
-        "name": "Tindak Balas Kecemasan",
-        "description": "Data masa nyata untuk pengurusan kecemasan yang cekap."
-      },
-      "blood-donation": {
-        "name": "Pendermaan Darah",
-        "description": "Aktiviti pendermaan darah harian serta survelan stok darah, dengan pecahan mengikut demografik utama."
-      },
-      "car-popularity": {
-        "name": "Populariti Kenderaan",
-        "description": "Populariti model kereta dan tren pendaftaran kenderaan."
-      },
-      "circle-of-life": {
-        "name": "Kitaran Kehidupan",
-        "description": "Pemahaman mengenai pelbagai peringkat dan peristiwa kehidupan."
-      },
-      "civil-service": {
-        "name": "Perkhidmatan Awam",
-        "description": "Maklumat tentang pekerjaan kerajaan dan perkhidmatan."
-      },
-      "consumer-prices": {
-        "name": "Harga Pengguna",
-        "description": "Inflasi IHP bulanan di peringkat negara dan negeri, merangkumi IHP keseluruhan, IHP teras, dan IHP mengikut kategory."
-      },
-      "covid-19": {
-        "name": "COVID-19",
-        "description": "Survelan mingguan COVID-19 di Malaysia pada peringkat negeri, merangkumi kes, kemasukan ke hospital, serta kematian disebabkan COVID-19."
-      },
-      "crime": {
-        "name": "Jenayah",
-        "description": "Visualisasikan data jenayah dan corak untuk komuniti yang lebih selamat."
-      },
-      "currency-in-circulation": {
-        "name": "Mata Wang dalam Edaran",
-        "description": "Jejak aliran dan trend edaran mata wang."
-      },
-      "drug-addiction": {
-        "name": "Penagihan Dadah",
-        "description": "Jejak penyalahgunaan dadah dan bahan bahaya di Malaysia."
-      },
-      "election-explorer": {
-        "name": "Keputusan Pilihan Raya",
-        "description": "Terokai keputusan pilihan raya dan trend pengundian."
-      },
-      "exchange-rates": {
-        "name": "Kadar Pertukaran Ringgit",
-        "description": "Kadar pertukaran Ringgit berbanding mata wang 24 rakan dagang utama, termasuk Amerika Syarikat, China, UK, dan Singapura."
-      },
-      "fire-and-rescue": {
-        "name": "Bomba dan Penyelamat",
-        "description": "Data masa nyata untuk operasi pemadam dan penyelamatan yang cekap."
-      },
-      "flood-warning": {
-        "name": "Amaran Banjir",
-        "description": "Terima amaran dan maklumat tepat pada waktunya mengenai banjir."
-      },
-      "gdp": {
-        "name": "Keluaran dalam Negeri Kasar (KDNK)",
-        "description": "Pertumbuhan ekonomi suku tahunan, merangkumi GDP pada harga malar dan semasa mengikut kategori perbelanjaan dan aktiviti ekonomi."
-      },
-      "government-site-tracker": {
-        "name": "Penggunaan Portal Kerajaan",
-        "description": "Pantau prestasi dan ketersediaan laman web kerajaan."
-      },
-      "hospital-bed-utilisation": {
-        "name": "Penggunaan Katil Hospital",
-        "description": "Kadar penggunaan katil di peringkat hospital, merangkumi penggunaan katil ICU dan bukan ICU secara harian."
-      },
-      "immigration": {
-        "name": "Imigresen",
-        "description": "Ketibaan di Malaysia mengikut kewarganegaraan."
-      },
-      "income-taxation": {
-        "name": "Cukai Pendapatan",
-        "description": "Bandingkan diri dengan pembayar cukai lain di Malaysia!"
-      },
-      "interest-rates": {
-        "name": "Kadar Faedah",
-        "description": "Pantau dan analisis fluktuasi kadar faedah."
-      },
-      "international-reserves": {
-        "name": "Rizab Antarabangsa",
-        "description": "Jejak dan urus rizab antarabangsa."
-      },
-      "internet-penetration": {
-        "name": "Capaian Internet",
-        "description": "Ukur dan analisis kadar penggunaan internet."
-      },
-      "money-supply": {
-        "name": "Penawaran Wang",
-        "description": "Jejak dan analisis trend bekalan wang."
-      },
-      "organ-donation": {
-        "name": "Pendermaan Organ",
-        "description": "Ikrar pendermaan organ harian serta kadar pengikraran di seluruh negara, dengan pecahan mengikut demografi utama."
-      },
-      "peka-b40": {
-        "name": "Peka B40",
-        "description": "Saringan kesihatan harian di bawah program PeKa B40, termasuk kadar saringan bagi kumpulan sasaran di seluruh negara."
-      },
-      "ipr": {
-        "name": "Inisiatif Pendapatan Rakyat (IPR)",
-        "description": "Jejak dan analisis impak Inisiatif Pendapatan Rakyat."
-      },
-      "passport-and-passes": {
-        "name": "Pasport dan Pas",
-        "description": "Pantau berapa banyak passport yang dikeluarkan kepada rakyat Malaysia dan visa untuk pelawat asing."
-      },
-      "poverty": {
-        "name": "Kemiskinan",
-        "description": "Pemahaman dan data mengenai kadar kemiskinan dan usaha untuk mengurangkannya."
-      },
-      "public-contracting": {
-        "name": "Kontrak Awam",
-        "description": "Pantau dan pastikan kejelasan dalam proses kontrak awam."
-      },
-      "public-pension": {
-        "name": "Pencen Awam",
-        "description": "Maklumat dan kemas kini mengenai skim pencen awam dan faedah."
-      },
-      "public-transportation": {
-        "name": "Pengangkutan Awam",
-        "description": "Data penggunaan perkhidmatan pengangkutan awam utama."
-      },
-      "reserve-money": {
-        "name": "Wang Rizab",
-        "description": "Jejak dan analisis tahap dan trend wang simpanan."
-      },
-      "retirement-readiness": {
-        "name": "Kesediaan Bersara",
-        "description": "Menilai dan merancang persaraan yang selamat dari segi kewangan."
-      },
-      "sekolahku": {
-        "name": "Sekolahku",
-        "description": "Data dan maklumat mengenai sekolah dan pendidikan."
-      },
-      "social-security": {
-        "name": "Bantuan Hilang Pekerjaan",
-        "description": "Pemahaman dan kemas kini mengenai program dan faedah keselamatan sosial."
-      },
-      "weather-and-climate": {
-        "name": "Cuaca dan Iklim",
-        "description": "Siri masa panjang hujan dan suhu."
-      },
-      "name-popularity": {
-        "name": "Populariti Nama Bayi",
-        "description": "Terokai populariti dan trend nama bayi."
-      },
       "birthday-explorer": {
-        "name": "Populariti Hari Lahir",
-        "description": "Analisa berpacukan data tentang tarikh kelahiran anda!"
-      },
-      "refugee-situation": {
-        "name": "Situasi Pelarian di Malaysia",
-        "description": "Dapatkan gambaran keseluruhan mengenai situasi pelarian di Malaysia, termasuk demografi, cabaran, dan usaha UNHCR untuk memberikan bantuan dan perlindungan."
+          "name": "Populariti Hari Lahir",
+          "description": "Peneroka interaktif data pendaftaran kelahiran sejak 1920; dapatkan fakta menarik mengenai tarikh lahir anda!"
       },
       "orang-asli": {
-        "name": "Orang Asli",
-        "description": "Dapatkan pemahaman mengenai demografi dan petunjuk sosioekonomi komuniti orang asli Malaysia."
+          "name": "Orang Asli",
+          "description": "Banci tahunan Orang Asli di peringkat kampung, dengan pecahan mengikut demografi utama."
       },
-      "covid-vaccination": {
-        "name": "Vaksinasi Covid",
-        "description": "Vaksinasi COVID-19 harian mengikut jenis dos dan kumpulan umur, termasuk kadar vaksinasi di setiap negeri."
+      "immigration": {
+          "name": "Imigresen",
+          "description": "Ketibaan bulanan warga asing di Malaysia mengikut kewarganegaraan."
       },
       "ktmb-explorer": {
-        "name": "Peneroka KTMB",
-        "description": "Penumpang mengikut perkhidmatan, asal, dan destinasi."
+          "name": "Peneroka KTMB",
+          "description": "Peneroka interaktif penumpang harian bagi perkhidmatan KTMB; terokailah data dari stesen ke stesen!"
+      },
+      "rapid-explorer": {
+          "name": "Peneroka Rel Rapid",
+          "description": "Peneroka interaktif penumpang Rel Rapid harian; terokailah data dari mana-mana stesen ke stesen yang lain!"
       },
       "rapid-bus-rail": {
-        "name": "Peneroka Bas & Rel Rapid",
-        "description": "Penumpang mengikut perkhidmatan, asal, dan destinasi"
+          "name": "Peneroka Rel Rapid",
+          "description": "Peneroka interaktif penumpang Rel Rapid harian; terokailah data dari mana-mana stesen ke stesen yang lain!"
       },
-      "healthcare-facilities": {
-        "name": "Fasiliti Kesihatan",
-        "description": "Pusat Informatik Kesihatan (PIK) mengendalikan pangkalan data tentang semua fasiliti keshatan di Malaysia"
+      "car-popularity": {
+          "name": "Populariti Kenderaan",
+          "description": "Peneroka interaktif data pendaftaran kereta, terokailah trend untuk mana-mana pengeluar atau model kereta!"
       },
-      "covidnow-data": {
-        "name": "Data tentang COVIDNOW",
-        "description": "Memaparkan data penting tentang tabiat penggunaan internet rakyat Malaysia ketika menulusuri COVIDNOW."
+      "vehicle-registrations": {
+        "name": "Pendaftaran Kenderaan",
+        "description": "Rumusan trend pendaftaran kenderaan bagi penggubal dasar, dengan pecahan mengikut bahan bakar dan jenis kenderaan."
       },
-      "labour-market": {
-        "name": "Pasaran Buruh",
-        "description": "Laporan Survei Tenaga Buruh (STB) bulanan, merangkumi pengangguran, penyertaan tenaga buruh, dan kategori pekerjaan."
+      "public-transportation": {
+          "name": "Pengangkutan Awam",
+          "description": "Data penggunaan pengangkutan awam harian daripada semua pengendali utama di seluruh Malaysia, dengan pecahan mengikut perkhidmatan."
       },
-      "composite-index": {
-        "name": "Indeks Komposit",
-        "description": "Indikator pelopor, serentak, dan susulan bagi ekonomi Malaysia."
+      "covid-19": {
+          "name": "COVID-19",
+          "description": "Survelan mingguan COVID-19 di Malaysia pada peringkat negeri, merangkumi kes, kemasukan ke hospital, serta kematian disebabkan COVID-19."
       },
-      "wholesale-retail": {
-        "name": "Perdagangan Borong dan Runcit",
-        "description": "Prestasi bulanan perdagangan borong dan runcit, termasukan prestasi jualan kenderaan bermotor."
+      "covid-vaccination": {
+          "name": "Vaksinasi Covid",
+          "description": "Vaksinasi COVID-19 harian mengikut jenis dos dan kumpulan umur, termasuk kadar vaksinasi di setiap negeri."
       },
-      "industrial-production": {
-        "name": "Pengeluaran Perindustrian",
-        "description": "Prestasi pengeluaran perindustrian bulanan, merangkumi perlombongan, pembuatan, dan penjanaan elektrik."
+      "blood-donation": {
+          "name": "Pendermaan Darah",
+          "description": "Aktiviti pendermaan darah harian di peringkat nasional dan negeri, dengan pecahan mengikut demografik utama termasuk jenis darah."
       },
-      "producer-prices": {
-        "name": "Harga Pengeluar",
-        "description": "Inflasi IHPR bulanan, merangkumi harga pengeluar bagi semua sektor ekonomi utama kecuali perkhidmatan dan pembinaan."
+      "organ-donation": {
+          "name": "Pendermaan Organ",
+          "description": "Ikrar pendermaan organ harian serta kadar pengikraran di seluruh negara, dengan pecahan mengikut demografi utama."
       },
-      "kawasanku": {
-        "name": "Kawasanku",
-        "description": "Data Banci 2020 di peringkat negara, negeri, daerah pentadbiran, parlimen, dan DUN."
+      "peka-b40": {
+          "name": "Peka B40",
+          "description": "Saringan kesihatan harian di bawah program PeKa B40, termasuk kadar saringan bagi kumpulan sasaran di seluruh negara."
       },
-      "iip": {
-        "name": "Kedudukan Pelaburan Antarabangsa",
-        "description": "Penyata kewangan aset dan liability kewangan luar Malaysia; IIP menunjukkan stok manakala BOP menunjukkan aliran."
+      "hospital-bed-utilisation": {
+          "name": "Penggunaan Katil Hospital",
+          "description": "Penggunaan katil harian di peringkat hospital, merangkumi penggunaan katil ICU dan bukan ICU secara harian."
       },
-      "bop": {
-        "name": "Imbangan Pembayaran",
-        "description": "Penyata suku tahunan transaksi Malaysia dengan negara lain; BOP menunjukkan aliran manakala IIP menunjukkan stok."
+      "weather-and-climate": {
+          "name": "Cuaca dan Iklim",
+          "description": "Siri masa hujan dan suhu sejak 2013 daripada 42 stesen cuaca utama di Malaysia."
       },
-      "manufacturing-statistics": {
-        "name": "Statistik Pembuatan",
-        "description": "Prestasi bulanan bagi subsektor pembuatan, merangkumi nilai jualan, bilangan pekerja, serta gaji dan upah."
+      "income-taxation": {
+          "name": "Cukai Pendapatan",
+          "description": "Peneroka interaktif data cukai pendapatan terperinci; bandingkan diri anda dengan pembayar cukai lain di Malaysia!"
       },
-      "labour-productivity": {
-        "name": "Produktiviti Buruh",
-        "description": "Produktiviti buruh suku tahunan bagi semua sektor ekonomi utama, merangkumi produktiviti mengikut masa serta pekerja."
+      "jobless-claims": {
+          "name": "Bantuan Hilang Pekerjaan",
+          "description": "Pemahaman dan kemas kini mengenai program dan faedah keselamatan sosial."
       },
-      "formal-sector-wages": {
-        "name": "Gaji Sektor Formal",
-        "description": "Gaji suku tahunan sektor formal di peringkat negara dan negeri, berdasarkan data pentadbiran daripada KWSP dan PERKESO"
-      },
-      "services-statistics": {
-        "name": "Statistik Perkhidmatan",
-        "description": "Prestasi suku tahunan subsektor perkhidmatan, merangkumi nilai jualan, bilangan pekerja, serta gaji dan upah."
-      },
-      "services-producer-prices": {
-        "name": "Harga Pengeluar Perkhidmatan",
-        "description": "Harga pengeluar suku tahunan di sektor perkhidmatan, melengkapkan IHPR yang tidak merangkumi sektor perkhidmatan."
-      },
-      "construction-statistics": {
-        "name": "Statistik Pembinaan",
-        "description": "Survelan suku tahunan projek pembinaan di sektor awam dan swasta."
-      },
-      "household-income-expenditure": {
-        "name": "Pendapatan & Perbelanjaan Isi Rumah",
-        "description": "Pendapat dan perbelanjaan isi rumah di peringkat negeri dan daerah, dengan data terkini daripada survei 2022."
-      },
-      "population": {
-        "name": "Populasi Penduduk Malaysia",
-        "description": "Populasi Malaysia sejak 1980, termasuk perangkaan penting mengenai kelahiran dan kematian."
-      },
-      "external-trade": {
-        "name": "Statistik Perdagangan Luaran",
-        "description": "Statistik dan indeks perdagangan luar  bulanan, merangkumi eksport, import, imbangan dagangan, dan terma perdagangan."
-      },
-      "household-debt": {
-        "name": "Hutang Isi Rumah",
-        "description": "Papan pemuka ini memberikan anda pandangan terhadap trend utama berkaitan hutang isi rumah."
-      },
-      "electronic-payments": {
-        "name": "Pembayaran Elektronik",
-        "description": "Papan pemuka ini memberi gambaran besar arah aliran statistik pembayaran elektronik yang ada di Malaysia."
+      "social-security": {
+          "name": "Bantuan Hilang Pekerjaan",
+          "description": "Tuntutan harian di Sistem Insurans Pekerjaan (SIP, atau EIS), dengan pecahan mengikut demografi utama."
       },
       "business-creation-destruction": {
-        "name": "Penciptaan dan Pemusnahan Perniagaan",
-        "description": "Dikuasai oleh pendaftaran mereka, papan pemuka ini merangkumi trend dalam penciptaan dan pemusnahan perniagaan."
+          "name": "Pendaftaran dan Penutupan Perniagaan",
+          "description": "Trend bulanan pendaftaran perniagaan baru serta penutupan perniagaan, berdasarkan pangkalan data SSM."
+      },
+      "international-reserves": {
+          "name": "Rizab Antarabangsa",
+          "description": "Survelan rizab antarabangsa Bank Negara Malaysia, merangkumi indikator kecukupan utama."
+      },
+      "reserve-money": {
+          "name": "Wang Rizab",
+          "description": "Evolusi bulanan bagi ukuran wang rizab utama, termasuk faktor-faktor yang mempengaruhi wang rizab."
+      },
+      "money-supply": {
+          "name": "Penawaran Wang",
+          "description": "Evolusi bulanan penawaran wang, merangkumi M1, M2, M3 serta komponen-komponennya."
+      },
+      "currency-in-circulation": {
+          "name": "Mata Wang dalam Edaran",
+          "description": "Evolusi bulanan mata wang dalam edaran, dengan pecahan mengikut denominasi nota dan syiling."
+      },
+      "household-debt": {
+          "name": "Hutang Isi Rumah",
+          "description": "Survelan bulanan aktiviti pinjaman, merangkumi pinjaman dimohon, diluluskan, disalurkan dan dibayar balik, dengan pecahan mengikut tujuan."
+      },
+      "interest-rates": {
+          "name": "Kadar Faedah",
+          "description": "Survelan bulanan kadar faedah utama, termasuk OPR, kadar asas, dan kadar deposit tetap."
+      },
+      "electronic-payments": {
+          "name": "Pembayaran Elektronik",
+          "description": "Survelan bulanan pembayaran elektronik di Malaysia, merangkumi instrumen, saluran, dan sistem pembayaran utama."
+      },
+      "exchange-rates": {
+          "name": "Kadar Pertukaran Ringgit",
+          "description": "Kadar pertukaran harian Ringgit berbanding mata wang 24 rakan dagang utama, termasuk Amerika Syarikat, China, UK, dan Singapura."
+      },
+      "drug-addiction": {
+          "name": "Penagihan Dadah",
+          "description": "Data tahunan mengenai kes penyalahgunaan dadah di Malaysia, dengan pecahan mengikut demografi utama dan jenis dadah."
+      },
+      "fire-and-rescue": {
+          "name": "Bomba dan Penyelamat",
+          "description": "Data bulanan operasi bomba dan penyelamat pada peringkat nasional dan negeri, dengan pecahan mengikut jenis insiden."
+      },
+      "internet-penetration": {
+          "name": "Capaian Internet",
+          "description": "Trafik jalur lebar dan kadar pencapaian internet bulanan, dengan pecahan mengikut jenis jalur lebar."
+      },
+      "retirement-readiness": {
+          "name": "Kesediaan Bersara",
+          "description": "\u2014"
+      },
+      "sekolahku": {
+          "name": "Sekolahku",
+          "description": "\u2014"
+      },
+      "name-popularity": {
+          "name": "Populariti Nama Bayi",
+          "description": "\u2014"
+      },
+      "refugee-situation": {
+          "name": "Situasi Pelarian di Malaysia",
+          "description": "\u2014"
+      },
+      "healthcare-facilities": {
+          "name": "Fasiliti Kesihatan",
+          "description": "\u2014"
+      },
+      "covidnow-data": {
+          "name": "Data tentang COVIDNOW",
+          "description": "\u2014"
+      },
+      "emergency-response": {
+          "name": "Tindak Balas Kecemasan",
+          "description": "\u2014"
+      },
+      "circle-of-life": {
+          "name": "Kitaran Kehidupan",
+          "description": "\u2014"
+      },
+      "civil-service": {
+          "name": "Perkhidmatan Awam",
+          "description": "\u2014"
+      },
+      "crime": {
+          "name": "Jenayah",
+          "description": "\u2014"
+      },
+      "election-explorer": {
+          "name": "Keputusan Pilihan Raya",
+          "description": "\u2014"
+      },
+      "flood-warning": {
+          "name": "Amaran Banjir",
+          "description": "\u2014"
+      },
+      "government-site-tracker": {
+          "name": "Penggunaan Portal Kerajaan",
+          "description": "\u2014"
+      },
+      "ipr": {
+          "name": "Inisiatif Pendapatan Rakyat (IPR)",
+          "description": "\u2014"
+      },
+      "passport-and-passes": {
+          "name": "Pasport dan Pas",
+          "description": "\u2014"
+      },
+      "poverty": {
+          "name": "Kemiskinan",
+          "description": "\u2014"
+      },
+      "public-contracting": {
+          "name": "Kontrak Awam",
+          "description": "\u2014"
+      },
+      "public-pension": {
+          "name": "Pencen Awam",
+          "description": "\u2014"
+      },
+      "gdp": {
+          "name": "Keluaran dalam Negeri Kasar (KDNK)",
+          "description": "Pertumbuhan ekonomi suku tahunan, merangkumi GDP pada harga malar dan semasa mengikut kategori perbelanjaan dan aktiviti ekonomi."
+      },
+      "consumer-prices": {
+          "name": "Harga Pengguna",
+          "description": "Inflasi IHP bulanan di peringkat negara dan negeri, merangkumi IHP keseluruhan, IHP teras, dan IHP mengikut kategory."
+      },
+      "labour-market": {
+          "name": "Pasaran Buruh",
+          "description": "Laporan Survei Tenaga Buruh (STB) bulanan, merangkumi pengangguran, kadar penyertaan, dan kategori pekerjaan."
+      },
+      "composite-index": {
+          "name": "Indeks Komposit",
+          "description": "Indikator pelopor, serentak, dan susulan bulanan bagi mengukur prestasi ekonomi Malaysia."
+      },
+      "composite-indices": {
+          "name": "Indeks Komposit",
+          "description": "Indikator pelopor, serentak, dan susulan bulanan bagi mengukur prestasi ekonomi Malaysia."
+      },
+      "wholesale-retail": {
+          "name": "Perdagangan Borong dan Runcit",
+          "description": "Prestasi bulanan perdagangan borong dan runcit, termasukan prestasi jualan kenderaan bermotor."
+      },
+      "wholesale-retail-trade": {
+          "name": "Perdagangan Borong dan Runcit",
+          "description": "Prestasi bulanan perdagangan borong dan runcit, termasukan prestasi jualan kenderaan bermotor."
+      },
+      "industrial-production": {
+          "name": "Pengeluaran Perindustrian",
+          "description": "Prestasi pengeluaran perindustrian bulanan, merangkumi perlombongan, pembuatan, dan penjanaan elektrik."
+      },
+      "producer-prices": {
+          "name": "Harga Pengeluar",
+          "description": "Inflasi IHPR bulanan, merangkumi harga pengeluar bagi semua sektor ekonomi utama kecuali perkhidmatan dan pembinaan."
+      },
+      "kawasanku": {
+          "name": "Kawasanku",
+          "description": "Data Banci 2020 di peringkat negara, negeri, daerah pentadbiran, parlimen, dan DUN."
+      },
+      "iip": {
+          "name": "Kedudukan Pelaburan Antarabangsa",
+          "description": "Penyata suku tahunan aset dan liability kewangan luar Malaysia; IIP menunjukkan stok manakala BOP menunjukkan aliran."
+      },
+      "international-investment-position": {
+          "name": "Kedudukan Pelaburan Antarabangsa",
+          "description": "Penyata suku tahunan aset dan liability kewangan luar Malaysia; IIP menunjukkan stok manakala BOP menunjukkan aliran."
+      },
+      "bop": {
+          "name": "Imbangan Pembayaran",
+          "description": "Penyata suku tahunan transaksi Malaysia dengan negara lain; BOP menunjukkan aliran manakala IIP menunjukkan stok."
+      },
+      "balance-of-payments": {
+          "name": "Imbangan Pembayaran",
+          "description": "Penyata suku tahunan transaksi Malaysia dengan negara lain; BOP menunjukkan aliran manakala IIP menunjukkan stok."
+      },
+      "manufacturing-statistics": {
+          "name": "Statistik Pembuatan",
+          "description": "Prestasi bulanan bagi subsektor pembuatan, merangkumi nilai jualan, bilangan pekerja, serta gaji dan upah."
+      },
+      "labour-productivity": {
+          "name": "Produktiviti Buruh",
+          "description": "Produktiviti buruh suku tahunan bagi semua sektor ekonomi utama, merangkumi produktiviti mengikut masa serta pekerja."
+      },
+      "formal-sector-wages": {
+          "name": "Gaji Sektor Formal",
+          "description": "Gaji suku tahunan sektor formal di peringkat negara dan negeri, berdasarkan data pentadbiran daripada KWSP dan PERKESO"
+      },
+      "services-statistics": {
+          "name": "Statistik Perkhidmatan",
+          "description": "Prestasi suku tahunan subsektor perkhidmatan, merangkumi nilai jualan, bilangan pekerja, serta gaji dan upah."
+      },
+      "services-producer-prices": {
+          "name": "Harga Pengeluar Perkhidmatan",
+          "description": "Harga pengeluar suku tahunan di sektor perkhidmatan, melengkapkan IHPR yang tidak merangkumi sektor perkhidmatan."
+      },
+      "construction-statistics": {
+          "name": "Statistik Pembinaan",
+          "description": "Survelan suku tahunan projek pembinaan di sektor awam dan swasta."
+      },
+      "household-income-expenditure": {
+          "name": "Pendapatan & Perbelanjaan Isi Rumah",
+          "description": "Pendapat dan perbelanjaan isi rumah di peringkat nasional, negeri dan daerah, dengan data terkini daripada survei 2022."
+      },
+      "population": {
+          "name": "Populasi Penduduk Malaysia",
+          "description": "Populasi tahunan Malaysia dari 1970 sehingga kini, termasuk perangkaan penting mengenai kelahiran dan kematian."
+      },
+      "external-trade": {
+          "name": "Statistik Perdagangan Luaran",
+          "description": "Statistik dan indeks perdagangan luar bulanan, merangkumi eksport, import, imbangan dagangan, dan terma perdagangan."
       },
       "life-expectancy": {
-        "name": "Jangka Hayat",
-        "description": "Ini papan pemuka merangkumi trend jangka hayat sejak tahun 1957, dengan pecahan mengikut negeri dan kumpulan demografi."
+          "name": "Jangka Hayat",
+          "description": "Data jangka hayat tahunan dari 1957 sehingga kini, dengan pecahan mengikut negeri dan kumpulan demografi."
       },
       "wellbeing": {
-        "name": "Kesejahteraan Rakyat",
-        "description": "Indeks Kesejahteraan Rakyat Malaysia diterbitkan secara tahunan untuk mengukur tahap kesejahteraan rakyat Malaysia daripada perspektif ekonomi dan sosial."
+          "name": "Kesejahteraan Rakyat",
+          "description": "Kesejahteraan tahunan rakyat Malaysia dari 2000 sehingga kini, merangkumi komponen ekonomi dan sosial yang penting."
       },
       "padu-tracker": {
-        "name": "Pangkalan Data Utama (PADU)",
-        "description": "Pangkalan data bersepadu yang pertama dalam sejarah Malaysia"
+          "name": "Pangkalan Data Utama (PADU)",
+          "description": "\u2014"
+      },
+      "digital-economy": {
+          "name": "Ekonomi Digital",
+          "description": "Prestasi tahunan e-dagang dan sektor ICT, serta kadar penggunaan ICT oleh perniagaan dan isi rumah."
+      },
+      "house-prices": {
+        "name": "Harga Rumah",
+        "description": "Papan pemuka ini menggunakan data absah NAPIC untuk membolehkan anda memahami trend harga rumah dengan mudah."
       }
     }
   }
