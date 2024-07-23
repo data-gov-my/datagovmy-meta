@@ -5,7 +5,7 @@
     "description_en": "Percentage of overweight or wasting children broken down by state.",
     "description_ms": "Peratusan kanak-kanak yang berlebihan berat badan atau menyusut dipecahkan mengikuti negeri.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "2024-07-23 10:05",
     "data_as_of": "2022",
     "last_updated": "2024-07-23 10.00",
     "next_update": "\u2014",
@@ -64,6 +64,32 @@
         }
     ],
     "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "sdg_2-2-2",
+            "title_en": "SDG 2.2.2",
+            "title_ms": "SDG 2.2.2",
+            "chart_type": "CHOROPLETH",
+            "config": {
+                "format": {
+                    "x": "state",
+                    "y": "percentage"
+                },
+            "precision": 1,
+            "color": "greens",
+            "geojson": "state"
+            }
+        }
     ],
     "translations_en": {
         "date": "Date",
