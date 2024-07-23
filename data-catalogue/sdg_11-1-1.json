@@ -5,7 +5,7 @@
     "description_en": "Proportion of the urban population living in slums, informal settlements, or inadequate housing. It aligns with Sustainable Development Goal (SDG) 11.1.1, which aims to ensure access to adequate, safe, and affordable housing and basic services for all, and to upgrade slums by 2030.",
     "description_ms": "Perkadaran populasi bandar yang tinggal di kawasan kumuh, penempatan tidak rasmi, atau perumahan tidak mencukupi. Ini selaras dengan Sustainable Development Goal (SDG) 11.1.1, yang bertujuan untuk memastikan akses kepada perumahan dan perkhidmatan asas yang mencukupi, selamat, dan mampu milik untuk semua, serta untuk menaik taraf kawasan kumuh menjelang 2030.",
     "exclude_openapi": false,
-    "manual_trigger": "na",
+    "manual_trigger": "2024-07-23",
     "data_as_of": "2020",
     "last_updated": "2024-07-22",
     "next_update": "\u2014",
@@ -75,7 +75,9 @@
             "chart_type": "TABLE",
             "config": {
             "precision": 0,
-            "filter_columns": [],
+            "filter_columns": [
+                "state"
+            ],
             "freeze_columns": []
             }
         }
