@@ -53,7 +53,7 @@
             "title_en": "State",
             "title_ms": "Negeri",
             "description_en": "[Categorical] One of 13 states - data for Perlis and W.P. Labuan is not available for now, while data for W.P. Putrajaya is recorded under W.P. Kuala Lumpur.",
-            "description_ms": "[Kategori] Satu daripada 16 negeri - data bagi Perlis dan W.P. Labuan tidak dapat dibekalkan pada waktu ini, manakala data bagi W.P. Putrajaya direkodkan bersama W.P. Kuala Lumpur."
+            "description_ms": "[Kategori] Satu daripada 13 negeri - data bagi Perlis dan W.P. Labuan tidak dapat dibekalkan pada waktu ini, manakala data bagi W.P. Putrajaya direkodkan bersama W.P. Kuala Lumpur."
         },
         {
             "name": "blood_type",
