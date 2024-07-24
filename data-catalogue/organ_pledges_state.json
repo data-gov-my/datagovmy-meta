@@ -15,9 +15,9 @@
     "caveat_ms": "Proses ikrar derma organ digital membenarkan seseorang individu berikrar untuk menderma organ mereka, dan kemudiannya menarik balik ikrar tersebut atas budi bicara sendiri. Oleh itu, set data ini bersifat dinamik; jumlah ikrar bagi sesuatu tarikh mungkin mengurang (tetapi tidak bertambah) pada masa depan sekiranya ikrar ditarik balik.",
     "publication_en": "KKMNOW features a [dashboard on Organ Donation](https://data.moh.gov.my/ms-MY/dashboard/organ-donation) where you can explore the data in a more interactive manner!",
     "publication_ms": "Portal KKMNOW memaparkan [papan pemuka tentang Pendermaan Organ](https://data.moh.gov.my/ms-MY/dashboard/organ-donation) di mana anda boleh meneroka data ini dengan lebih interaktif!",
-    "link_parquet": "https://storage.data.gov.my/healthcare/organ_pledges.parquet",
-    "link_csv": "https://storage.data.gov.my/healthcare/organ_pledges.csv",
-    "link_preview": "https://storage.data.gov.my/healthcare/organ_pledges_preview.parquet",
+    "link_parquet": "https://storage.data.gov.my/healthcare/organ_pledges_state.parquet",
+    "link_csv": "https://storage.data.gov.my/healthcare/organ_pledges_state.csv",
+    "link_preview": "https://storage.data.gov.my/healthcare/organ_pledges_state_preview.parquet",
     "frequency": "DAILY",
     "geography": [
         "STATE"
