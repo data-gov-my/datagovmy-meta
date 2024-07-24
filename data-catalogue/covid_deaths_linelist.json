@@ -155,7 +155,7 @@
             "name": "comorb",
             "title_en": "Comorbidity",
             "title_ms": "komorbiditi",
-            "description_en": "[Integer] BBinary variable indicating whether the deceased had comorbidities (1) or was otherwise healthy (0).",
+            "description_en": "[Integer] Binary variable indicating whether the deceased had comorbidities (1) or was otherwise healthy (0).",
             "description_ms": "[Integer] Pembolehubah binari menunjukkan sama ada si mati menghidapi lain-lain penyakit (1), ataupun sihat selain daripada dijangkiti COVID-19 (0)."
         }
     ],
