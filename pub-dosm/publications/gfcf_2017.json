@@ -22,7 +22,7 @@
                 "resource_id": 2,
                 "resource_type": "pdf",
                 "resource_name": "Gross Fixed Capital Formation (GFCF): 2017",
-                "resource_link": "https://storage.dosm.gov.my/gdp/gfcf_2017.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/gdp/gfcf_2017.pdf"
             }
         ]
     },
@@ -41,7 +41,7 @@
                 "resource_id": 2,
                 "resource_type": "pdf",
                 "resource_name": "Pembentukan Modal Tetap Kasar (PMTK): 2017",
-                "resource_link": "https://storage.dosm.gov.my/gdp/gfcf_2017.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/gdp/gfcf_2017.pdf"
             }
         ]
     }
