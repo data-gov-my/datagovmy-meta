@@ -34,21 +34,24 @@
   ],
   "site_category": [
     {
-      "site": "datagovmy",
-      "category_en": "Healthcare",
-      "category_ms": "Kesihatan",
-      "category_sort": 40,
-      "subcategory_en": "Infectious Diseases",
-      "subcategory_ms": "Penyakit Berjangkit"
+        "site": "datagovmy",
+        "category_en": "Healthcare",
+        "category_ms": "Kesihatan",
+        "category_sort": 40,
+        "subcategory_en": "Infectious Diseases",
+        "subcategory_ms": "Penyakit Berjangkit",
+        "subcategory_sort": 30
     },
     {
-      "site": "kkmnow",
-      "category_en": "Infectious Diseases",
-      "category_ms": "Penyakit Berjangkit",
-      "subcategory_en": "COVID-19",
-      "subcategory_ms": "COVID-19"
+        "site": "kkmnow",
+        "category_en": "Infectious Diseases",
+        "category_ms": "Penyakit Berjangkit",
+        "category_sort": 30,
+        "subcategory_en": "COVID-19",
+        "subcategory_ms": "COVID-19",
+        "subcategory_sort": 10
     }
-  ],
+],
   "fields": [
     {
       "name": "state",
