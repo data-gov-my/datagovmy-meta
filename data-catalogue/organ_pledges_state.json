@@ -71,7 +71,6 @@
             "description_en": "[Integer] Number of pledges received on that date",
             "description_ms": "[Integer] Bilangan ikrar yang diterima pada tarikh tersebut"
         }
-        
     ],
     "dataviz": [
         {
@@ -106,7 +105,6 @@
                 }
             }
         }
-        
     ],
     "translations_en": {
         "date": "Date",
