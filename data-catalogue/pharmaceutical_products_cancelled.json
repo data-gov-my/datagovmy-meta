@@ -55,14 +55,14 @@
             "title_en": "Registration Number",
             "title_ms": "Nombor Pendaftaran",
             "description_en": "[String] Unique identifier for the product's registration",
-            "description_ms": "[String] Pengenalpasti unik bagi pendaftaran produk"
+            "description_ms": "[Rentetan] Pengenalpasti unik bagi pendaftaran produk"
         },
         {
             "name": "product",
             "title_en": "Product Name",
             "title_ms": "Nama Produk",
             "description_en": "[String] Name of the product",
-            "description_ms": "[String] Nama produk"
+            "description_ms": "[Rentetan] Nama produk"
         },
         {
             "name": "description",
@@ -76,14 +76,14 @@
             "title_en": "Holder",
             "title_ms": "Pemegang",
             "description_en": "[String] Company or entity holding the registration",
-            "description_ms": "[String] Syarikat atau entiti yang memegang pendaftaran"
+            "description_ms": "[Rentetan] Syarikat atau entiti yang memegang pendaftaran"
         },
         {
             "name": "manufacturer",
             "title_en": "Manufacturer",
             "title_ms": "Pengilang",
             "description_en": "[String] Name of the manufacturer of the product",
-            "description_ms": "[String] Nama pengilang produk"
+            "description_ms": "[Rentetan] Nama pengilang produk"
         },
         {
             "name": "date_reg",
@@ -96,8 +96,8 @@
             "name": "date_end",
             "title_en": "Expiry Date",
             "title_ms": "Tarikh Tamat",
-            "description_en": "[Date] Date when the product's cancellation came or comes into effect in YYYY-MM-DD format",
-            "description_ms": "[Tarikh] Tarikh kuatkuasa pembatalan pendaftaran dalam format YYYY-MM-DD"
+            "description_en": "[Date] Date when the product's cancellation took or takes effect in YYYY-MM-DD format",
+            "description_ms": "[Tarikh] Tarikh kuatkuasa pembatalan pendaftaran produk dalam format YYYY-MM-DD"
         }
     ],
     "dataviz": [

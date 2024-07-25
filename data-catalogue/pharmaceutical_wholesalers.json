@@ -55,7 +55,7 @@
             "title_en": "Company",
             "title_ms": "Syarikat",
             "description_en": "[String] Name of the company holding the license",
-            "description_ms": "[String] Nama syarikat yang memegang lesen"
+            "description_ms": "[Rentetan] Nama syarikat yang memegang lesen"
         },
         {
             "name": "state",
@@ -69,7 +69,7 @@
             "title_en": "Postcode",
             "title_ms": "Poskod",
             "description_en": "[String] 5-digit postal code for the company's address",
-            "description_ms": "[String] Poskod 5 digit untuk alamat syarikat"
+            "description_ms": "[Rentetan] Poskod 5 digit untuk alamat syarikat"
         },
         {
             "name": "poison",

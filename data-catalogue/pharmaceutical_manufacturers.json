@@ -55,14 +55,14 @@
             "title_en": "License Number",
             "title_ms": "Nombor Lesen",
             "description_en": "[String] Unique identifier for the license",
-            "description_ms": "[String] Pengenalpasti unik untuk lesen"
+            "description_ms": "[Rentetan] Pengenalpasti unik untuk lesen"
         },
         {
             "name": "company",
             "title_en": "Company",
             "title_ms": "Syarikat",
             "description_en": "[String] Name of the company holding the license",
-            "description_ms": "[String] Nama syarikat yang memegang lesen"
+            "description_ms": "[Rentetan] Nama syarikat yang memegang lesen"
         },
         {
             "name": "state",
@@ -76,14 +76,14 @@
             "title_en": "Postcode",
             "title_ms": "Poskod",
             "description_en": "[String] 5-digit postal code for the company's address",
-            "description_ms": "[String] Poskod 5 digit untuk alamat syarikat"
+            "description_ms": "[Rentetan] Poskod 5 digit untuk alamat syarikat"
         },
         {
             "name": "phone",
             "title_en": "Phone Number",
             "title_ms": "Nombor Telefon",
             "description_en": "[String] Contact number for the company",
-            "description_ms": "[String] Nombor kontak untuk syarikat"
+            "description_ms": "[Rentetan] Nombor kontak untuk syarikat"
         },
         {
             "name": "license_year",
@@ -97,7 +97,7 @@
             "title_en": "OSA Code",
             "title_ms": "Kod OSA",
             "description_en": "[String] Code related to the regulatory process",
-            "description_ms": "[String] Kod berkaitan proses pengawalseliaan"
+            "description_ms": "[Rentetan] Kod berkaitan proses pengawalseliaan"
         }
     ],    
     "dataviz": [
