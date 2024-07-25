@@ -1,9 +1,9 @@
 {
-    "title_en": "Approved Manufacturers of Pharmaceutical Products",
-    "title_ms": "Pengilang Produk Farmaseutikal Berlesen",
-    "title_sort": 10,
-    "description_en": "Complete list of approved manufacturers of pharmaceutical products with an active license from NPRA. The table provides a preview of the dataset using 10 records as a sample.",
-    "description_ms": "Senarai penuh pengilang produk farmaseutikal dengan lesen aktif daripada NPRA. Jadual memberi pratonton kepada set data dengan menggunakan 10 rekod sebagai contoh.",
+    "title_en": "Approved Importers of Pharmaceutical Products",
+    "title_ms": "Pengimport Produk Farmaseutikal Berlesen",
+    "title_sort": 20,
+    "description_en": "Complete list of approved importers of pharmaceutical products with an active license from NPRA. The table provides a preview of the dataset using 10 records as a sample.",
+    "description_ms": "Senarai penuh pengimport produk farmaseutikal dengan lesen aktif daripada NPRA. Jadual memberi pratonton kepada set data dengan menggunakan 10 rekod sebagai contoh.",
     "exclude_openapi": true,
     "manual_trigger": "",
     "data_as_of": "2024-07-25 23:59",
@@ -15,9 +15,9 @@
     "caveat_ms": "Walaupun set data ini adalah data pentadbiran, ia masih merupakan set data statik yang dikemaskini sekali sehari dan bukkannya dalam masa sebenar (_real time_). Oleh itu, set data ini tidak harus digunakan sebagai asas untuk sebarang tindakan undang-undang. Sebarang pertanyaan mengenai penguatkuasaan undang-undang Malaysia yang berkaitan harus dirujuk kepada Bahagian Regulatori Farmasi Negara (NPRA).",
     "publication_en": "\u2014",
     "publication_ms": "\u2014",
-    "link_parquet": "https://storage.data.gov.my/healthcare/pharmaceutical_manufacturers.parquet",
-    "link_csv": "https://storage.data.gov.my/healthcare/pharmaceutical_manufacturers.csv", 
-    "link_preview": "https://storage.data.gov.my/healthcare/pharmaceutical_manufacturers_preview.parquet",
+    "link_parquet": "https://storage.data.gov.my/healthcare/pharmaceutical_importers.parquet",
+    "link_csv": "https://storage.data.gov.my/healthcare/pharmaceutical_importers.csv", 
+    "link_preview": "https://storage.data.gov.my/healthcare/pharmaceutical_importers_preview.parquet",
     "frequency": "DAILY",
     "geography": [
         "NATIONAL"

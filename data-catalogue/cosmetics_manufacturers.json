@@ -1,9 +1,9 @@
 {
-    "title_en": "Approved Manufacturers of Pharmaceutical Products",
-    "title_ms": "Pengilang Produk Farmaseutikal Berlesen",
-    "title_sort": 10,
-    "description_en": "Complete list of approved manufacturers of pharmaceutical products with an active license from NPRA. The table provides a preview of the dataset using 10 records as a sample.",
-    "description_ms": "Senarai penuh pengilang produk farmaseutikal dengan lesen aktif daripada NPRA. Jadual memberi pratonton kepada set data dengan menggunakan 10 rekod sebagai contoh.",
+    "title_en": "Approved Manufacturers of Cosmetic Products",
+    "title_ms": "Pengilang Produk Kosmetik Berlesen",
+    "title_sort": 40,
+    "description_en": "Complete list of approved manufacturers of cosmetic products with an active license from NPRA. The table provides a preview of the dataset using 10 records as a sample.",
+    "description_ms": "Senarai penuh pengilang produk kosmetik dengan lesen aktif daripada NPRA. Jadual memberi pratonton kepada set data dengan menggunakan 10 rekod sebagai contoh.",
     "exclude_openapi": true,
     "manual_trigger": "",
     "data_as_of": "2024-07-25 23:59",
@@ -15,9 +15,9 @@
     "caveat_ms": "Walaupun set data ini adalah data pentadbiran, ia masih merupakan set data statik yang dikemaskini sekali sehari dan bukkannya dalam masa sebenar (_real time_). Oleh itu, set data ini tidak harus digunakan sebagai asas untuk sebarang tindakan undang-undang. Sebarang pertanyaan mengenai penguatkuasaan undang-undang Malaysia yang berkaitan harus dirujuk kepada Bahagian Regulatori Farmasi Negara (NPRA).",
     "publication_en": "\u2014",
     "publication_ms": "\u2014",
-    "link_parquet": "https://storage.data.gov.my/healthcare/pharmaceutical_manufacturers.parquet",
-    "link_csv": "https://storage.data.gov.my/healthcare/pharmaceutical_manufacturers.csv", 
-    "link_preview": "https://storage.data.gov.my/healthcare/pharmaceutical_manufacturers_preview.parquet",
+    "link_parquet": "https://storage.data.gov.my/healthcare/cosmetic_manufacturers.parquet",
+    "link_csv": "https://storage.data.gov.my/healthcare/cosmetic_manufacturers.csv", 
+    "link_preview": "https://storage.data.gov.my/healthcare/cosmetic_manufacturers_preview.parquet",
     "frequency": "DAILY",
     "geography": [
         "NATIONAL"
@@ -51,13 +51,6 @@
     ],
     "fields": [
         {
-            "name": "license_no",
-            "title_en": "License Number",
-            "title_ms": "Nombor Lesen",
-            "description_en": "[String] Unique identifier for the license",
-            "description_ms": "[String] Pengenalpasti unik untuk lesen"
-        },
-        {
             "name": "company",
             "title_en": "Company",
             "title_ms": "Syarikat",
@@ -84,20 +77,6 @@
             "title_ms": "Nombor Telefon",
             "description_en": "[String] Contact number for the company",
             "description_ms": "[String] Nombor kontak untuk syarikat"
-        },
-        {
-            "name": "license_year",
-            "title_en": "License Year",
-            "title_ms": "Tahun Lesen",
-            "description_en": "[Integer] The year the license was issued or renewed",
-            "description_ms": "[Integer] Tahun lesen dikeluarkan atau diperbaharui"
-        },
-        {
-            "name": "osa_code",
-            "title_en": "OSA Code",
-            "title_ms": "Kod OSA",
-            "description_en": "[String] Code related to the regulatory process",
-            "description_ms": "[String] Kod berkaitan proses pengawalseliaan"
         }
     ],    
     "dataviz": [
