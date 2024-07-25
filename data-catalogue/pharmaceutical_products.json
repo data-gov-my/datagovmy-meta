@@ -1,7 +1,7 @@
 {
     "title_en": "Approved Pharmaceutical Products",
     "title_ms": "Produk Farmaseutikal Diluluskan",
-    "title_sort": 10,
+    "title_sort": 50,
     "description_en": "Complete list of pharmaceutical products approved by the Drug Control Authority. The table provides a preview of the dataset using 10 records as a sample.",
     "description_ms": "Senarai penuh produk farmaseutikal yang diluluskan pendaftaran oleh Pihak Berkuasa Kawalan Dadah. Jadual memberi pratonton kepada set data dengan menggunakan 10 rekod sebagai contoh.",
     "exclude_openapi": true,
