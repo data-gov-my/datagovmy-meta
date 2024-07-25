@@ -5,7 +5,7 @@
     "description_en": "Complete list of comsetic products notified to and approved by the Drug Control Authority. The table provides a preview of the dataset using 10 records as a sample.",
     "description_ms": "Senarai penuh produk kosmetik yang telah dihantar notifikasi dan diluluskan oleh Pihak Berkuasa Kawalan Dadah. Jadual memberi pratonton kepada set data dengan menggunakan 10 rekod sebagai contoh.",
     "exclude_openapi": true,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2024-07-25 23:59",
     "last_updated": "2024-07-26 01:00",
     "next_update": "2024-07-27 01:00",
