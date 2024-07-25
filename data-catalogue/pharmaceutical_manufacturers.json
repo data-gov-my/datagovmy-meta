@@ -4,7 +4,7 @@
     "title_sort": 10,
     "description_en": "Complete list of approved manufacturers of pharmaceutical products with an active license from NPRA. The table provides a preview of the dataset using 10 records as a sample.",
     "description_ms": "Senarai penuh pengilang produk farmaseutikal dengan lesen aktif daripada NPRA. Jadual memberi pratonton kepada set data dengan menggunakan 10 rekod sebagai contoh.",
-    "exclude_openapi": false,
+    "exclude_openapi": true,
     "manual_trigger": "",
     "data_as_of": "2024-07-25 23:59",
     "last_updated": "2024-07-26 01:00",
