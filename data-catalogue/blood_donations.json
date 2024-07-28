@@ -6,9 +6,9 @@
     "description_ms": "Pendermaan darah harian di peringkat nasional bagi setiap daripada 4 kumpulan darah utama. Jadual memberi pratonton kepada set data dengan menggunakan data daripada 2 tahun terkini.",
     "exclude_openapi": false,
     "manual_trigger": "",
-    "data_as_of": "2024-07-26 23:59",
-    "last_updated": "2024-07-27 05:00",
-    "next_update": "2024-07-28 05:00",
+    "data_as_of": "2024-07-27 23:59",
+    "last_updated": "2024-07-28 10:00",
+    "next_update": "2024-07-29 10:00",
     "methodology_en": "This dataset is produced from transactional data recorded in the Blood Bank Information System (BBISv2), a vein-to-vein blood-tracking system used by 22 main blood collection sites under MoH which covers the majority of blood donations in Malaysia.",
     "methodology_ms": "Dataset ini dihasilkan oleh Sistem Informasi Pusat Darah (BBISv2) di Kementerian Kesihatan Malaysia, berdasarkan survelan harian di lapangan yang dilaksanakan untuk memantau evolusi derma darah di Malaysia kecuali di Negeri Perlis, Wilayah Persekutuan Putrajaya, dan Wilayah Persekutuan Labuan.",
     "caveat_en": "The true number of daily blood donations is higher than the number recorded in this dataset, which does not reflect donations made at locations other than the 22 main sites integrated with BBISv2. However, the 22 main sites cover the large majority of blood donations in Malaysia (~80%), and therefore provide a representative view of blood donation trends.",
@@ -16,7 +16,7 @@
     "publication_en": "KKMNOW features a [dashboard on blood donation](https://data.moh.gov.my/ms-MY/dashboard/blood-donation) where you can explore the data in a more interactive manner!",
     "publication_ms": "Portal KKMNOW memaparkan [papan pemuka tentang blood donation](https://data.moh.gov.my/ms-MY/dashboard/blood-donation) di mana anda boleh menerokai data ini dengan lebih interaktif!",
     "link_parquet": "https://storage.data.gov.my/healthcare/blood_donations.parquet",
-    "link_csv": "https://storage.data.gov.my/healthcare/blood_donations.csv", 
+    "link_csv": "https://storage.data.gov.my/healthcare/blood_donations.csv",
     "link_preview": "https://storage.data.gov.my/healthcare/blood_donations_preview.parquet",
     "frequency": "DAILY",
     "geography": [
@@ -71,7 +71,6 @@
             "description_en": "[Integer] Number of blood donation transactions on that date.",
             "description_ms": "[Integer] Bilangan transaksi pendermaan darah pada tarikh tersebut."
         }
-        
     ],
     "dataviz": [
         {
@@ -100,7 +99,7 @@
                 ],
                 "precision": 0,
                 "operation": "SUM",
-               "format": {
+                "format": {
                     "x": "date",
                     "y": [
                         "donations"
@@ -108,9 +107,6 @@
                 }
             }
         }
-        
-       
-        
     ],
     "translations_en": {
         "date": "Date",

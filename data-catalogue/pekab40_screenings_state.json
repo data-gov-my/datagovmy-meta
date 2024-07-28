@@ -6,13 +6,13 @@
     "description_ms": "Saringan kesihatan harian yang dilaksanakan di bawah program PeKaB40, pada peringkat negeri. Jadual memberi pratonton kepada set data dengan menggunakan data daripada tahun terkini.",
     "exclude_openapi": false,
     "manual_trigger": "",
-    "data_as_of": "2024-07-25 23:59",
-    "last_updated": "2024-07-26 09:00",
-    "next_update": "2024-07-28 09:00",
+    "data_as_of": "2024-07-27 23:59",
+    "last_updated": "2024-07-28 10:00",
+    "next_update": "2024-07-29 10:00",
     "methodology_en": "This dataset is produced from the transactional database operated by Protect Health Corporation to administer the PeKaB40 program. PeKa B40 is a MoH initiative which aims to sustain the healthcare needs of low income groups by focusing on non-communicable diseases (NCDs). Recipients of government cash assistance and their spouses aged 40 and above are automatically eligible for free health screenings.",
     "methodology_ms": "Set data ini dihasilkan daripada pangkalan data transaksi yang dikendalikan oleh Protect Health Corporation bagi tujuan pentadbiran program PeKaB40. PeKa B40 ialah inisiatif KKM yang bertujuan untuk memenuhi keperluan penjagaan kesihatan golongan berpendapatan rendah dengan memberi tumpuan kepada penyakit tidak berjangkit (NCD). Penerima bantuan tunai dan pasangan mereka yang berumur 40 tahun ke atas secara automatik layak mendapat saringan kesihatan percuma.",
-    "caveat_en": "\u2014",
-    "caveat_ms": "\u2014",
+    "caveat_en": "—",
+    "caveat_ms": "—",
     "publication_en": "KKMNOW features a [dashboard on Peka B40](https://data.moh.gov.my/dashboard/peka-b40) where you can explore the data in a more interactive manner!",
     "publication_ms": "Portal KKMNOW memaparkan [papan pemuka tentang Peka B40](https://data.moh.gov.my/dashboard/peka-b40) di mana anda boleh menerokai data ini dengan lebih interaktif!",
     "link_parquet": "https://storage.data.gov.my/healthcare/pekab40_screenings_state.parquet",
@@ -71,7 +71,6 @@
             "description_en": "[Integer] Number of health screenings conducted on that date",
             "description_ms": "[Integer] Bilangan saringan kesihatan yang dilaksanakan pada tarikh tersebut."
         }
-
     ],
     "dataviz": [
         {
@@ -87,15 +86,15 @@
                 "freeze_columns": []
             }
         },
-       {
-          "dataviz_id": "timeseries",
+        {
+            "dataviz_id": "timeseries",
             "title_en": "Daily Screenings",
             "title_ms": "Saringan Harian",
             "chart_type": "TIMESERIES",
             "config": {
-                 "filter_columns": [
+                "filter_columns": [
                     "state"
-                 ],
+                ],
                 "precision": 0,
                 "operation": "SUM",
                 "format": {
@@ -106,7 +105,6 @@
                 }
             }
         }
-       
     ],
     "translations_en": {
         "date": "Date",
