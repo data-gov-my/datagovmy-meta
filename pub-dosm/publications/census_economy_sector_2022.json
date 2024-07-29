@@ -1,0 +1,147 @@
+{
+    "publication": "census_economy_sector_2022",
+    "publication_type": "census_economy",
+    "release_date": "2024-07-29",
+    "frequency": "ONE_OFF",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "SEX"
+    ],
+    "en": {
+        "title": "[2022] Economic Census (Main Sectors)",
+        "publication_type_title": "Economic Census",
+        "description": "Comprehensive enumeration of business organizations and non-profit organizations, for the 5 main economic sectors.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Economic Census (Services): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_services.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Economic Census (Manufacturing): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_manufacturing.pdf"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "pdf",
+                "resource_name": "Economic Census (Construction): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_construction.pdf"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "pdf",
+                "resource_name": "Economic Census (Agriculture): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_agriculture.pdf"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "pdf",
+                "resource_name": "Economic Census (Mining & Quarrying): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_mining.pdf"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "excel",
+                "resource_name": "Economic Census (Services): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_services.xlsx"
+            },
+            {
+                "resource_id": 7,
+                "resource_type": "excel",
+                "resource_name": "Economic Census (Manufacturing): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_manufacturing.xlsx"
+            },
+            {
+                "resource_id": 8,
+                "resource_type": "excel",
+                "resource_name": "Economic Census (Construction): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_construction.xlsx"
+            },
+            {
+                "resource_id": 9,
+                "resource_type": "excel",
+                "resource_name": "Economic Census (Agriculture): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_agriculture.xlsx"
+            },
+            {
+                "resource_id": 10,
+                "resource_type": "excel",
+                "resource_name": "Economic Census (Mining & Quarrying): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_mining.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2022] Banci Ekonomi (Sektor Utama)",
+        "publication_type_title": "Banci Ekonomi",
+        "description": "Penghitungan menyeluruh pertubuhan-pertubuhan perniagaan dan pertubuhan bukan berasaskan keuntungan bagi 5 sektor ekonomi utama.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Banci Ekonomi (Perkhidmatan): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_services.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Banci Ekonomi (Pembuatan): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_manufacturing.pdf"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "pdf",
+                "resource_name": "Banci Ekonomi (Pembinaan): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_construction.pdf"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "pdf",
+                "resource_name": "Banci Ekonomi (Pertanian): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_agriculture.pdf"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "pdf",
+                "resource_name": "Banci Ekonomi (Perlombongan & Pengkuarian): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_mining.pdf"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "excel",
+                "resource_name": "Banci Ekonomi (Perkhidmatan): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_services.xlsx"
+            },
+            {
+                "resource_id": 7,
+                "resource_type": "excel",
+                "resource_name": "Banci Ekonomi (Pembuatan): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_manufacturing.xlsx"
+            },
+            {
+                "resource_id": 8,
+                "resource_type": "excel",
+                "resource_name": "Banci Ekonomi (Pembinaan): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_construction.xlsx"
+            },
+            {
+                "resource_id": 9,
+                "resource_type": "excel",
+                "resource_name": "Banci Ekonomi (Pertanian): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_agriculture.xlsx"
+            },
+            {
+                "resource_id": 10,
+                "resource_type": "excel",
+                "resource_name": "Banci Ekonomi (Perlombongan & Pengkuarian): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_mining.xlsx"
+            }
+        ]
+    }
+}
