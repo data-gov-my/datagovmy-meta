@@ -44,8 +44,20 @@
             {
                 "resource_id": 5,
                 "resource_type": "excel",
+                "resource_name": "Population Tables for Malaysia (revised): 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2023r_malaysia.xlsx"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "excel",
                 "resource_name": "Population Tables by State: 2024",
                 "resource_link": "https://storage.dosm.gov.my/demography/population_2024_state.xlsx"
+            },
+            {
+                "resource_id": 7,
+                "resource_type": "excel",
+                "resource_name": "Population Tables by State (revised): 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2023r_state.xlsx"
             }
         ]
     },
@@ -81,8 +93,20 @@
             {
                 "resource_id": 5,
                 "resource_type": "excel",
+                "resource_name": "Jadual Penduduk Malaysia (disemak): 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2023r_malaysia.xlsx"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "excel",
                 "resource_name": "Jadual Penduduk mengikut Negeri: 2024",
                 "resource_link": "https://storage.dosm.gov.my/demography/population_2024_state.xlsx"
+            },
+            {
+                "resource_id": 7,
+                "resource_type": "excel",
+                "resource_name": "Jadual Penduduk mengikut Negeri (disemak): 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2023r_state.xlsx"
             }
         ]
     }
