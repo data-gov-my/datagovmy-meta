@@ -4,7 +4,7 @@
 	"data_next_update": "2024-10-17 12:00",
 	"route": "/dashboard/population,/ms-MY/dashboard/population",
 	"sites": ["opendosm"],
-	"manual_trigger": "1",
+	"manual_trigger": "",
 	"required_params": ["state"],
 	"optional_params": [],
 	"charts": {
