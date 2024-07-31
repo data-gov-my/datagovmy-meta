@@ -1,0 +1,223 @@
+{
+    "title_en": "Hospital Bed Utilisation",
+    "title_ms": "Penggunaan Katil Hospital",
+    "title_sort": 10,
+    "description_en": "The Ministry of Health constantly monitors that health facilities are optimally supplied to ensure the delivery of effective health services. This data shows the use of hospital beds across the country as reported daily by health personnel.",
+    "description_ms": "Kementerian Kesihatan sentiasa memantau fasiliti kesihatan dibekalkan secara optimum bagi memastikan penyampaian perkhidmatan kesihatan yang berkesan. Data ini ini memaparkan penggunaan katil hospital di seluruh negara yang dilaporkan setiap hari oleh kakitangan kesihatan.",
+    "exclude_openapi": false,
+    "manual_trigger": "2024-07-21 08:58:30.299868",
+    "data_as_of": "2024-07-20 23:59",
+    "last_updated": "2024-07-21 12:00",
+    "next_update": "2024-07-28 12:00",
+    "methodology_en": "This dataset is available from the Medical Program Information System (MPIS) under the supervision of the Medical Development Division, Ministry of Health. ",
+    "methodology_ms": "Dataset ini didapati oleh Sistem Maklumat Program Perubatan (MPIS) dibawah seliaan Bahagian Perkembangan Perubatan, Kementerian Kesihatan Malaysia.",
+    "caveat_en": "The number of bed utilisation may not be the same as the number of hospital admissions taking into account the data of patients transferred from other hospitals.",
+    "caveat_ms": "Bilangan penggunaan katil berkemungkinan tidak sama dengan bilangan kemasukan ke hospital dengan mengambilkira data pesakit yang dipindahkan daripada hospital lain.",
+    "publication_en": "KKMNOW features a [dashboard on Hospital Bed Utilisation](https://data.moh.gov.my/dashboard/hospital-bed-utilisation) where you can explore the data in a more interactive manner!",
+    "publication_ms": "Portal KKMNOW memaparkan [papan pemuka tentang Penggunaan Katil Hospital](https://data.moh.gov.my/dashboard/hospital-bed-utilisation) di mana anda boleh menerokai data ini dengan lebih interaktif!",
+    "link_parquet": "https://storage.data.gov.my/healthcare/hospital_bed_utlisation_state.parquet",
+    "link_csv": "https://storage.data.gov.my/healthcare/chospital_bed_utlisation_state.csv",
+    "link_preview": "https://storage.data.gov.my/healthcare/hospital_bed_utlisation_state.parquet",
+    "frequency": "DAILY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2020,
+    "dataset_end": 2024,
+    "data_source": [
+        "MoH"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Healthcare",
+            "category_ms": "Kesihatan",
+            "category_sort": 40,
+            "subcategory_en": "Healthcare Resources",
+            "subcategory_ms": "Sumber Penjagaan Kesihatan"
+        },
+        {
+            "site": "kkmnow",
+            "category_en": "Infectious Diseases",
+            "category_ms": "Penyakit Berjangkit",
+            "subcategory_en": "COVID-19",
+            "subcategory_ms": "COVID-19"
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] Date in YYYY-MM-DD format",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states, or Malaysia",
+            "description_ms": "[Kategori] Satu daripada 16 negeri, atau Malaysia"
+        },
+        {
+            "name": "beds",
+            "title_en": "Total of Hospital Bed",
+            "title_ms": "Bilangan Katil Hospital",
+            "description_en": "[Integer] Total of hospital beds.",
+            "description_ms": "[Integer] Bilangan penggunaan katil."
+        },
+        {
+            "name": "beds_noncrit",
+            "title_en": "Total of Hospital Bed for Non Critical Cases.",
+            "title_ms": "Bilangan Katil Hospital untuk Penjagaan Kurang Kritikal.",
+            "description_en": "[Integer] Total of hospital beds used for non critical cases.",
+            "description_ms": "[Integer] Bilangan penggunaan katil bagi penjagaan kurang kritikal."
+        },
+        {
+            "name": "admitted",
+            "title_en": "Patient Admitted to Hospital",
+            "title_ms": "Kemasukan Pesakit ke Hospital",
+            "description_en": "[Integer] Number of patients admitted daily to hospital reported in the 24 hours since the last report",
+            "description_ms": "[Integer] Bilangan kemasukan pesakit harian ke hospital yang dilaporkan dalam 24 jam sejak laporan terakhir"
+        },
+        {
+            "name": "discharged",
+            "title_en": "Number of Patients Discharged from Hospitals Daily",
+            "title_ms": "Bilangan Pesakit Discaj dari Hospital Secara Harian",
+            "description_en": "[Integer] Number of patient discharged daily from hospital",
+            "description_ms": "[Integer] Bilangan pesakit telah discaj dari hospital yang dilaporkan dalam 24 jam; angka ini adalah berdasarkan tarikh penggunaan katil dan bukannya tarikh kemasukan ke hospital."
+        },
+        {
+            "name": "hospitalised",
+            "title_en": "Number of Patients in the Ward Daily",
+            "title_ms": "Bilangan Pesakit di Wad Secara Harian",
+            "description_en": "[Integer] Number of patients in ward daily",
+            "description_ms": "[Integer] Bilangan pesakit yang berada di wad secara harian"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "state"
+                ],
+                "freeze_columns": [
+                    "date"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "beds",
+            "title_en": "Total Beds",
+            "title_ms": "Bil. Katil",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "beds"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "beds_noncrit",
+            "title_en": "Total Beds for Non Critical Cases",
+            "title_ms": "Bil. Katil untuk Kes Penjagaan Kurang Kritikal",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "beds_noncrit"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "admitted",
+            "title_en": "Admitted",
+            "title_ms": "Kemasukan ke Hospital",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "admitted"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "discharged",
+            "title_en": "Discharged",
+            "title_ms": "Discaj",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "discharged"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "hospitalised",
+            "title_en": "Patients in Ward",
+            "title_ms": "Pesakit di Wad",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "hospitalised"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "state": "State",
+        "y1": "Cases"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "state": "Negeri",
+        "y1": "Kes"
+    },
+    "related_datasets": []
+}
