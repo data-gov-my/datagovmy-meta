@@ -34,8 +34,8 @@
     "copy_publication_link": "Copy link",
     "cite_button": "Cite",
     "citation": {
-      "title": "Cite this Publication!",
-      "description": "Easily reference OpenDOSM in your academic work.",
+      "title": "Cite this Publication",
+      "description": "Easily reference OpenDOSM in your academic work!",
       "copy_citation": "Copy citation",
       "copy_bibtex": "Copy BibTeX"
     },
