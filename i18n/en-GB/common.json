@@ -70,6 +70,11 @@
       "play": "Play",
       "pause": "Pause",
       "indicator": "Indicator",
+      "available_at": "Available at",
+      "accessed": "Accessed",
+      "last_modified": "Last modified",
+      "cited": "cited",
+      "available_from": "Available from",
       "ranking": "Ranking ({{ count, number }})",
       "charts": {
         "heatmap": "Heatmap",

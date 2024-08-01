@@ -68,6 +68,11 @@
       "play": "Main",
       "pause": "Jeda",
       "indicator": "Penunjuk",
+      "available_at": "Diakses melalui",
+      "accessed": "Diakses",
+      "last_modified": "Kemaskini terakhir",
+      "cited": "dipetik",
+      "available_from": "Tersedia dari",
       "ranking": "Kedudukan ({{ count, number }})",
       "charts": {
         "heatmap": "Peta",
