@@ -74,6 +74,7 @@
       "accessed": "Accessed",
       "last_modified": "Last modified",
       "cited": "cited",
+      "available_from": "Available from",
       "ranking": "Ranking ({{ count, number }})",
       "charts": {
         "heatmap": "Heatmap",
