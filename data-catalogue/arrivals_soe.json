@@ -43,50 +43,44 @@
         "subcategory_sort": 4
       }
     ],
-    "fields": [
-      {
-        "name": "date",
-        "title_en": "Date",
-        "title_ms": "Tarikh",
-        "description_en": "[Date] Date in YYYY-MM-DD format, with DD set to 01 as this is monthly data",
-        "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai DD ditetapkan sebagai 01 bagi data bulanan"
-      },
-      {
-        "name": "country",
-        "title_en": "Nationality",
-        "title_ms": "Kewarganegaraan",
-        "description_en": "[String] Standardised ISO-3 code representing the nationality of individuals entering Malaysia. The code XXX is used to represent arrivals where no nationality was specified, including diplomats, stateless individuals and refugees.",
-        "description_ms": "[Rentetan] Kod ISO-3 piawai yang mewakili kewarganegaraan individu yang masuk ke Malaysia. Kod XXX digunakan bagi ketibaan di mana tiada kewarganegaraan yang direkodkan, termasuk duta, individu tanpa kerakyatan (_stateless_) dan pelarian (_refugee_)."
-      },
-      {
-          "name": "soe",
-          "title_en": "State of Entry",
-          "title_bm": "Negeri Pintu Masuk",
-          "desc_en": "[String] State of the point of entry of the individual; note that this may not be their final destination in Malaysia, and should therefore not be used for inference about tourist destinations.",
-          "desc_bm": "[Rentetan] Negeri pintu masuk antarabangsa bagi individu tersebut; lokasi ini mungkin bukan destinasi terakhir mereka di Malaysia, maka tidak harus digunakan untuk membuat kesimpulan tentang destinasi pelancongan."
-      },
-      {
-        "name": "arrivals",
-        "title_en": "Arrivals",
-        "title_ms": "Kemasukan",
-        "description_en": "[Integer] Number of people, derived as the sum of male and female arrivals",
-        "description_ms": "[Integer] Bilangan orang, bersamaan dengan jumlah lelaki dan perempuan"
-      },
-      {
-        "name": "arrivals_male",
-        "title_en": "Male Arrivals",
-        "title_ms": "Kemasukan Lelaki",
-        "description_en": "[Integer] Number of male arrivals",
-        "description_ms": "[Integer] Bilangan kemasukan lelaki"
-      },
-      {
-        "name": "arrivals_female",
-        "title_en": "Female Arrivals",
-        "title_ms": "Kemasukan Perempuan",
-        "description_en": "[Integer] Number of female arrivals",
-        "description_ms": "[Integer] Bilangan kemasukan perempuan"
-      }
-    ],
+
+  "fields": [
+    {
+      "name": "date",
+      "title_en": "Date",
+      "title_ms": "Tarikh",
+      "description_en": "[Date] Date in YYYY-MM-DD format, with DD set to 01 as this is monthly data",
+      "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai DD ditetapkan sebagai 01 bagi data bulanan"
+    },
+    {
+      "name": "country",
+      "title_en": "Nationality",
+      "title_ms": "Kewarganegaraan",
+      "description_en": "[String] Standardised ISO-3 code representing the nationality of individuals entering Malaysia. The code XXX is used to represent arrivals where no nationality was specified, including diplomats, stateless individuals and refugees.",
+      "description_ms": "[Rentetan] Kod ISO-3 piawai yang mewakili kewarganegaraan individu yang masuk ke Malaysia. Kod XXX digunakan bagi ketibaan di mana tiada kewarganegaraan yang direkodkan, termasuk duta, individu tanpa kerakyatan (_stateless_) dan pelarian (_refugee_)."
+    },
+    {
+      "name": "arrivals",
+      "title_en": "Arrivals",
+      "title_ms": "Kemasukan",
+      "description_en": "[Integer] Number of people, derived as the sum of male and female arrivals",
+      "description_ms": "[Integer] Bilangan orang, bersamaan dengan jumlah lelaki dan perempuan"
+    },
+    {
+      "name": "arrivals_male",
+      "title_en": "Male Arrivals",
+      "title_ms": "Kemasukan Lelaki",
+      "description_en": "[Integer] Number of male arrivals",
+      "description_ms": "[Integer] Bilangan kemasukan lelaki"
+    },
+    {
+      "name": "arrivals_female",
+      "title_en": "Female Arrivals",
+      "title_ms": "Kemasukan Perempuan",
+      "description_en": "[Integer] Number of female arrivals",
+      "description_ms": "[Integer] Bilangan kemasukan perempuan"
+    }
+  ],
     "dataviz": [
       {
         "dataviz_id": "table",
