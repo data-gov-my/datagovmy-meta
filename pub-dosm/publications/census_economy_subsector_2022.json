@@ -1,0 +1,99 @@
+{
+    "publication": "census_economy_subsector_2022",
+    "publication_type": "census_economy",
+    "release_date": "2024-08-01",
+    "frequency": "ONE_OFF",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "SEX"
+    ],
+    "en": {
+        "title": "[2022] Economic Census (Subsectors)",
+        "publication_type_title": "Economic Census",
+        "description": "Comprehensive enumeration of business organizations and non-profit organizations, by MSIC section.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Economic Census (J; Information & Communication Services): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_j.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Economic Census (K; Financial Services): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_k.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Economic Census (Q; Health & Social Work Services): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_q.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "pdf",
+                "resource_name": "Economic Census (J; Information & Communication Services): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_j.pdf"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "pdf",
+                "resource_name": "Economic Census (K; Financial Services): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_k.pdf"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "pdf",
+                "resource_name": "Economic Census (Q; Health & Social Work Servicess): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_q.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2022] Banci Ekonomi (Subsektor)",
+        "publication_type_title": "Banci Ekonomi",
+        "description": "Penghitungan menyeluruh pertubuhan-pertubuhan perniagaan dan pertubuhan bukan berasaskan keuntungan mengikut seksyen MSIC.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Banci Ekonomi (J; Perkhidmatan Maklumat & Komunikasi): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_j.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Banci Ekonomi (K; Perkhidmatan Kewangan): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_k.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Banci Ekonomi (Q; Perkhidmatan Kesihatan & Kerja Sosial): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_q.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "pdf",
+                "resource_name": "Banci Ekonomi (J; Perkhidmatan Maklumat & Komunikasi): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_j.pdf"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "pdf",
+                "resource_name": "Banci Ekonomi (K; Perkhidmatan Kewangan): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_k.pdf"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "pdf",
+                "resource_name": "Banci Ekonomi (Q; Perkhidmatan Kesihatan & Kerja Sosial): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_q.pdf"
+            }            
+        ]
+    }
+}
