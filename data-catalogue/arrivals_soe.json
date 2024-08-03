@@ -95,29 +95,8 @@
         "chart_type": "TABLE",
         "config": {
           "precision": 0,
-          "filter_columns": [
-            "country"
-          ],
+          "filter_columns": [],
           "freeze_columns": []
-        }
-      },
-      {
-        "dataviz_id": "arrivals",
-        "title_en": "Arrivals",
-        "title_ms": "Kemasukan",
-        "chart_type": "TIMESERIES",
-        "config": {
-          "filter_columns": [
-            "country"
-          ],
-          "precision": 0,
-          "operation": "SUM",
-          "format": {
-            "x": "date",
-            "y": [
-              "arrivals"
-            ]
-          }
         }
       }
     ],
