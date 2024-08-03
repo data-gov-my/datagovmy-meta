@@ -5,7 +5,7 @@
     "description_en": "Monthly foreign arrivals in Malaysia by state of entry, nationality and sex. The table shows a preview of the full dataset using the latest month of data only.",
     "description_ms": "Kemasukan warga asing secara bulanan ke Malaysia mengikut negeri pintu masuk, kewarganegaraan dan jantina. Jadual memberi pratonton kepada set data dengan menggunakan data bagi bulan terkini sahaja.",
     "exclude_openapi": true,
-    "manual_trigger": "1",
+    "manual_trigger": "",
     "data_as_of": "2024-05-31 23:59",
     "last_updated": "2023-06-20 16:00",
     "next_update": "2024-07-20 16:00",
