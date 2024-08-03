@@ -60,6 +60,13 @@
       "description_ms": "[Rentetan] Kod ISO-3 piawai yang mewakili kewarganegaraan individu yang masuk ke Malaysia. Kod XXX digunakan bagi ketibaan di mana tiada kewarganegaraan yang direkodkan, termasuk duta, individu tanpa kerakyatan (_stateless_) dan pelarian (_refugee_)."
     },
     {
+      "name": "soe",
+      "title_en": "State of Entry",
+      "title_bm": "Negeri Pintu Masuk",
+      "desc_en": "[String] State of the point of entry of the individual; note that this may not be their final destination in Malaysia, and should therefore not be used for inference about tourist destinations.",
+      "desc_bm": "[Rentetan] Negeri pintu masuk antarabangsa bagi individu tersebut; lokasi ini mungkin bukan destinasi terakhir mereka di Malaysia, maka tidak harus digunakan untuk membuat kesimpulan tentang destinasi pelancongan."
+    },
+    {
       "name": "arrivals",
       "title_en": "Arrivals",
       "title_ms": "Kemasukan",
