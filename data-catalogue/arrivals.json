@@ -5,10 +5,10 @@
   "description_en": "Monthly foreign arrivals in Malaysia by nationality and sex.",
   "description_ms": "Kemasukan warga asing secara bulanan ke Malaysia mengikut kewarganegaraan dan jantina.",
   "exclude_openapi": false,
-  "manual_trigger": "na",
-  "data_as_of": "2023-11-30 23:59",
-  "last_updated": "2023-12-20 16:00",
-  "next_update": "2024-01-31 16:00",
+  "manual_trigger": "",
+  "data_as_of": "2024-05-31 23:59",
+  "last_updated": "2023-06-20 16:00",
+  "next_update": "2024-07-20 16:00",
   "methodology_en": "The Immigration Department of Malaysia operates the Malaysian Immigration System (MyIMMs), which is used to record arrivals and departures by air, land, and sea at all international points of entry to Malaysia. The dataset shown here is aggregated from the transactional data stored in MyIMMs, which is the single source of truth for movement in and out of Malaysia.",
   "methodology_ms": "Jabatan Imigresen Malaysia mengendalikan Sistem Imigresen Malaysia (MyIMMs), yang digunakan untuk merekodkan ketibaan dan pelepasan melalui udara, darat dan laut di semua pintu masuk antarabangsa ke Malaysia. Set data ini diagregatkan daripada data transaksi yang disimpan dalam MyIMMs, iaitu sumber tunggal bagi pergerakan masuk dan keluar dari Malaysia.",
   "caveat_en": "This data is based solely on records in MyIMMS. Furthermore, it should be noted that approximately 0.01% of arrivals do not have a nationality specified, including stateless individuals and refugees.",
@@ -17,7 +17,6 @@
   "publication_ms": "Portal ini memaparkan [papan pemuka tentang imigresen](https://data.gov.my/dashboard/immigration) di mana anda boleh menerokai data ini dengan lebih interaktif.",
   "link_parquet": "https://storage.data.gov.my/demography/arrivals.parquet",
   "link_csv": "https://storage.data.gov.my/demography/arrivals.csv",
-  "link_preview": null,
   "frequency": "MONTHLY",
   "geography": [
     "NATIONAL"
@@ -27,7 +26,7 @@
     "NATIONALITY"
   ],
   "dataset_begin": 2020,
-  "dataset_end": 2023,
+  "dataset_end": 2024,
   "data_source": [
     "Imigresen"
   ],
@@ -47,8 +46,8 @@
       "name": "country",
       "title_en": "Nationality",
       "title_ms": "Kewarganegaraan",
-      "description_en": "[String] Standardised ISO-3 code representing the nationality of individuals entering Malaysia. The code XXX is used to represent arrivals where no nationality was specified, including stateless individuals and refugees.",
-      "description_ms": "[Rentetan] Kod ISO-3 piawai yang mewakili kewarganegaraan individu yang masuk ke Malaysia. Kod XXX digunakan bagi ketibaan di mana tiada kewarganegaraan yang direkodkan, termasuk individu tanpa kerakyatan (stateless) dan pelarian (refugee)."
+      "description_en": "[String] Standardised ISO-3 code representing the nationality of individuals entering Malaysia. The code XXX is used to represent arrivals where no nationality was specified, including diplomats, stateless individuals and refugees.",
+      "description_ms": "[Rentetan] Kod ISO-3 piawai yang mewakili kewarganegaraan individu yang masuk ke Malaysia. Kod XXX digunakan bagi ketibaan di mana tiada kewarganegaraan yang direkodkan, termasuk duta, individu tanpa kerakyatan (_stateless_) dan pelarian (_refugee_)."
     },
     {
       "name": "date",
@@ -68,15 +67,15 @@
       "name": "arrivals_male",
       "title_en": "Male Arrivals",
       "title_ms": "Kemasukan Lelaki",
-      "description_en": "[Integer] Number of males",
-      "description_ms": "[Integer] Bilangan lelaki"
+      "description_en": "[Integer] Number of male arrivals",
+      "description_ms": "[Integer] Bilangan kemasukan lelaki"
     },
     {
       "name": "arrivals_female",
       "title_en": "Female Arrivals",
       "title_ms": "Kemasukan Perempuan",
-      "description_en": "[Integer] Number of females",
-      "description_ms": "[Integer] Bilangan perempuan"
+      "description_en": "[Integer] Number of female arrivals",
+      "description_ms": "[Integer] Bilangan kemasukan perempuan"
     }
   ],
   "dataviz": [
@@ -341,7 +340,10 @@
     "yem": "Yemen",
     "zar": "Zaire",
     "zmb": "Zambia",
-    "zwe": "Zimbabwe"
+    "zwe": "Zimbabwe",
+    "bvt": "Bouvet Island",
+    "pri": "Puerto Rico",
+    "spm": "Saint Pierre and Miquelon"
   },
   "translations_ms": {
     "country": "Kewarganegaraan",
@@ -571,7 +573,10 @@
     "yem": "Yemen",
     "zar": "Zaire",
     "zmb": "Zambia",
-    "zwe": "Zimbabwe"
+    "zwe": "Zimbabwe",
+    "bvt": "Bouvet Island",
+    "pri": "Puerto Rico",
+    "spm": "Saint Pierre and Miquelon"
   },
   "related_datasets": []
 }
