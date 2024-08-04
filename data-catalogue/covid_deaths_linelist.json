@@ -5,7 +5,7 @@
     "description_en": "Transactional records of deaths due to COVID-19, with various demographic and medical dimensions including COVID-19 vaccination records. The preview shows the most recent 200 records.",
     "description_ms": "Rekod transaksi kematian disebabkan oleh COVID-19, dengan pelbagai dimensi demografi dan perubatan termasuk rekod vaksinasi COVID-19. Pratonton menunjukkan 200 rekod terkini.",
     "exclude_openapi": true,
-    "manual_trigger": "2024-08-04 11:33:47.751271",
+    "manual_trigger": "2024-08-05 06:48:38.100190",
     "data_as_of": "2024-08-03 23:59",
     "last_updated": "2024-08-04 12:00",
     "next_update": "2024-08-11 12:00",
