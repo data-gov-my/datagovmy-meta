@@ -19,7 +19,7 @@
                 "resource_id": 13,
                 "resource_type": "excel",
                 "resource_name": "[D] Electricity, Gas, Steam & Air Conditioning: 2022",
-                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_e.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_d.xlsx"
             },
             {
                 "resource_id": 1,
@@ -61,7 +61,7 @@
                 "resource_id": 14,
                 "resource_type": "pdf",
                 "resource_name": "[D] Electricity, Gas, Steam & Air Conditioning: 2022",
-                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_e.pdf"
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_d.pdf"
             },
             {
                 "resource_id": 7,
@@ -107,6 +107,12 @@
         "description": "Penghitungan menyeluruh pertubuhan-pertubuhan perniagaan dan pertubuhan bukan berasaskan keuntungan mengikut seksyen MSIC.",
         "resources": [
             {
+                "resource_id": 13,
+                "resource_type": "excel",
+                "resource_name": "[D] Bekalan Elektrik, Gas, Wap, & Pendingin Udara: 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_d.xlsx"
+            },
+            {
                 "resource_id": 1,
                 "resource_type": "excel",
                 "resource_name": "[E] Pembekalan Air; Pembetungan, Pengurusan Sisa & Pemulihan: 2022",
@@ -141,6 +147,12 @@
                 "resource_type": "excel",
                 "resource_name": "[R] Kesenian, Hiburan & Rekreasi: 2022",
                 "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_r.xlsx"
+            },
+            {
+                "resource_id": 14,
+                "resource_type": "pdf",
+                "resource_name": "[D] Bekalan Elektrik, Gas, Wap, & Pendingin Udara: 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_d.pdf"
             },
             {
                 "resource_id": 7,
