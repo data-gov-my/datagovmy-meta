@@ -16,75 +16,87 @@
         "description": "Comprehensive enumeration of business organizations and non-profit organizations, by MSIC section.",
         "resources": [
             {
+                "resource_id": 13,
+                "resource_type": "excel",
+                "resource_name": "[D] Electricity, Gas, Steam & Air Conditioning: 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_e.xlsx"
+            },
+            {
                 "resource_id": 1,
                 "resource_type": "excel",
-                "resource_name": "Economic Census (E; Water supply; Sewerage, Waste Management & Remediation): 2022",
+                "resource_name": "[E] Water supply; Sewerage, Waste Management & Remediation: 2022",
                 "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_e.xlsx"
             },
             {
                 "resource_id": 2,
                 "resource_type": "excel",
-                "resource_name": "Economic Census (I; Food & Beverage Services): 2022",
+                "resource_name": "[I] Food & Beverage Services: 2022",
                 "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_i_fnb.xlsx"
             },
             {
                 "resource_id": 3,
                 "resource_type": "excel",
-                "resource_name": "Economic Census (J; Information & Communication Services): 2022",
+                "resource_name": "[J] Information & Communication Services: 2022",
                 "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_j.xlsx"
             },
             {
                 "resource_id": 4,
                 "resource_type": "excel",
-                "resource_name": "Economic Census (K; Financial Services): 2022",
+                "resource_name": "[K] Financial Services: 2022",
                 "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_k.xlsx"
             },
             {
                 "resource_id": 5,
                 "resource_type": "excel",
-                "resource_name": "Economic Census (Q; Health & Social Work Services): 2022",
+                "resource_name": "[Q] Health & Social Work Services: 2022",
                 "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_q.xlsx"
             },
             {
                 "resource_id": 6,
                 "resource_type": "excel",
-                "resource_name": "Economic Census (R; Arts, Entertainment & Recreation): 2022",
+                "resource_name": "[R] Arts, Entertainment & Recreation: 2022",
                 "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_r.xlsx"
+            },
+            {
+                "resource_id": 14,
+                "resource_type": "pdf",
+                "resource_name": "[D] Electricity, Gas, Steam & Air Conditioning: 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_e.pdf"
             },
             {
                 "resource_id": 7,
                 "resource_type": "pdf",
-                "resource_name": "Economic Census (E; Water supply; Sewerage, Waste Management & Remediation): 2022",
+                "resource_name": "[E] Water supply; Sewerage, Waste Management & Remediation: 2022",
                 "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_e.pdf"
             },
             {
                 "resource_id": 8,
                 "resource_type": "pdf",
-                "resource_name": "Economic Census (I; Food & Beverage Services): 2022",
+                "resource_name": "[I] Food & Beverage Services: 2022",
                 "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_i_fnb.pdf"
             },
             {
                 "resource_id": 9,
                 "resource_type": "pdf",
-                "resource_name": "Economic Census (J; Information & Communication Services): 2022",
+                "resource_name": "[J] Information & Communication Services: 2022",
                 "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_j.pdf"
             },
             {
                 "resource_id": 10,
                 "resource_type": "pdf",
-                "resource_name": "Economic Census (K; Financial Services): 2022",
+                "resource_name": "[K] Financial Services: 2022",
                 "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_k.pdf"
             },
             {
                 "resource_id": 11,
                 "resource_type": "pdf",
-                "resource_name": "Economic Census (Q; Health & Social Work Services): 2022",
+                "resource_name": "[Q] Health & Social Work Services: 2022",
                 "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_q.pdf"
             },
             {
                 "resource_id": 12,
                 "resource_type": "pdf",
-                "resource_name": "Economic Census (R; Arts, Entertainment & Recreation): 2022",
+                "resource_name": "[R] Arts, Entertainment & Recreation: 2022",
                 "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_r.pdf"
             }
         ]
@@ -97,73 +109,73 @@
             {
                 "resource_id": 1,
                 "resource_type": "excel",
-                "resource_name": "Banci Ekonomi (E; Pembekalan Air; Pembetungan, Pengurusan Sisa & Pemulihan): 2022",
+                "resource_name": "[E] Pembekalan Air; Pembetungan, Pengurusan Sisa & Pemulihan: 2022",
                 "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_e.xlsx"
             },
             {
                 "resource_id": 2,
                 "resource_type": "excel",
-                "resource_name": "Banci Ekonomi (I; Perkhidmatan Makanan & Minuman): 2022",
+                "resource_name": "[I] Perkhidmatan Makanan & Minuman: 2022",
                 "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_i_fnb.xlsx"
             },
             {
                 "resource_id": 3,
                 "resource_type": "excel",
-                "resource_name": "Banci Ekonomi (J; Perkhidmatan Maklumat & Komunikasi): 2022",
+                "resource_name": "[J] Perkhidmatan Maklumat & Komunikasi: 2022",
                 "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_j.xlsx"
             },
             {
                 "resource_id": 4,
                 "resource_type": "excel",
-                "resource_name": "Banci Ekonomi (K; Perkhidmatan Kewangan): 2022",
+                "resource_name": "[K] Perkhidmatan Kewangan: 2022",
                 "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_k.xlsx"
             },
             {
                 "resource_id": 5,
                 "resource_type": "excel",
-                "resource_name": "Banci Ekonomi (Q; Perkhidmatan Kesihatan & Kerja Sosial): 2022",
+                "resource_name": "[Q] Perkhidmatan Kesihatan & Kerja Sosial: 2022",
                 "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_q.xlsx"
             },
             {
                 "resource_id": 6,
                 "resource_type": "excel",
-                "resource_name": "Banci Ekonomi (R; Kesenian, Hiburan & Rekreasi): 2022",
+                "resource_name": "[R] Kesenian, Hiburan & Rekreasi: 2022",
                 "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_r.xlsx"
             },
             {
                 "resource_id": 7,
                 "resource_type": "pdf",
-                "resource_name": "Banci Ekonomi (E; Pembekalan Air; Pembetungan, Pengurusan Sisa & Pemulihan): 2022",
+                "resource_name": "[E] Pembekalan Air; Pembetungan, Pengurusan Sisa & Pemulihan: 2022",
                 "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_e.pdf"
             },
             {
                 "resource_id": 8,
                 "resource_type": "pdf",
-                "resource_name": "Banci Ekonomi (I; Perkhidmatan Makanan & Minuman): 2022",
+                "resource_name": "[I] Perkhidmatan Makanan & Minuman: 2022",
                 "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_i_fnb.pdf"
             },
             {
                 "resource_id": 9,
                 "resource_type": "pdf",
-                "resource_name": "Banci Ekonomi (J; Perkhidmatan Maklumat & Komunikasi): 2022",
+                "resource_name": "[J] Perkhidmatan Maklumat & Komunikasi: 2022",
                 "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_j.pdf"
             },
             {
                 "resource_id": 10,
                 "resource_type": "pdf",
-                "resource_name": "Banci Ekonomi (K; Perkhidmatan Kewangan): 2022",
+                "resource_name": "[K] Perkhidmatan Kewangan: 2022",
                 "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_k.pdf"
             },
             {
                 "resource_id": 11,
                 "resource_type": "pdf",
-                "resource_name": "Banci Ekonomi (Q; Perkhidmatan Kesihatan & Kerja Sosial): 2022",
+                "resource_name": "[Q] Perkhidmatan Kesihatan & Kerja Sosial: 2022",
                 "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_q.pdf"
             },
             {
                 "resource_id": 12,
                 "resource_type": "pdf",
-                "resource_name": "Banci Ekonomi (R; Kesenian, Hiburan & Rekreasi): 2022",
+                "resource_name": "[R] Kesenian, Hiburan & Rekreasi: 2022",
                 "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_subsector_r.pdf"
             }
         ]
