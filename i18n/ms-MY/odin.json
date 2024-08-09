@@ -66,9 +66,9 @@
     },
     "indicator": {
       "overall": "Keseluruhan",
-      "population": "Population data",
-      "birth": "Kadar Kelahiran",
-      "death": "Kadar Kematian",
+      "1_population": "Population data",
+      "2_births": "Kadar Kelahiran",
+      "3_deaths": "Kadar Kematian",
       "": "Number of schools or classrooms",
       "": "Number of teaching staff",
       "": "Education expenditures",
