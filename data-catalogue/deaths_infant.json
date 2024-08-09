@@ -1,7 +1,7 @@
 {
   "title_en": "Annual Infant Deaths",
   "title_ms": "Kematian Bayi Tahunan",
-  "title_sort": 7,
+  "title_sort": 11,
   "description_en": "Annual number of deaths aged less than 1 year old.",
   "description_ms": "Jumlah tahunan kematian yang berumur kurang daripada 1 tahun.",
   "exclude_openapi": false,
