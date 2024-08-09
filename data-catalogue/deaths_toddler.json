@@ -1,7 +1,7 @@
 {
   "title_en": "Annual Toddler Deaths",
   "title_ms": "Kematian Kanak-kanak Tahunan",
-  "title_sort": 9,
+  "title_sort": 13,
   "description_en": "Annual number of deaths aged 1-4 years old.",
   "description_ms": "Jumlah tahunan kematian yang berumur 1-4 tahun.",
   "exclude_openapi": false,

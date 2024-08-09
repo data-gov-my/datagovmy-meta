@@ -1,7 +1,7 @@
 {
   "title_en": "Annual Toddler Deaths by State",
   "title_ms": "Kematian Kanak-kanak Tahunan mengikut Negeri",
-  "title_sort": 10,
+  "title_sort": 14,
   "description_en": "Annual number of deaths aged 1-4 years old by state.",
   "description_ms": "Jumlah tahunan kematian yang berumur 1-4 tahun mengikut negeri.",
   "exclude_openapi": false,
