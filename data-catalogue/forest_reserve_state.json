@@ -22,7 +22,7 @@
     "demography": [],
     "dataset_begin": 2003,
     "dataset_end": 2021,
-    "data_source": ["Jabatan Perhutanan", "DOSM"],
+    "data_source": ["Perhutanan", "DOSM"],
     "data_source_granular": ["BPPAS"],
     "site_category": [
       {
