@@ -5,7 +5,7 @@
     "description_en": "Daily blood donations at national level for each of the 4 major blood groups. The table provides a preview of the dataset using the most recent 2 years of data.",
     "description_ms": "Pendermaan darah harian di peringkat nasional bagi setiap daripada 4 kumpulan darah utama. Jadual memberi pratonton kepada set data dengan menggunakan data daripada 2 tahun terkini.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2024-08-26 23:59",
     "last_updated": "2024-08-27 10:00",
     "next_update": "2024-08-28 10:00",

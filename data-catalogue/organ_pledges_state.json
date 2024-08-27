@@ -5,7 +5,7 @@
     "description_en": "Daily organ donation pledges at state level. The table provides a preview of the dataset using the most recent year of data.",
     "description_ms": "Ikrar penderma organ harian pada peringkat negeri. Jadual memberi pratonton kepada set data dengan menggunakan data daripada tahun terkini.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2024-08-26 23:59",
     "last_updated": "2024-08-27 10:00",
     "next_update": "2024-08-28 10:00",
