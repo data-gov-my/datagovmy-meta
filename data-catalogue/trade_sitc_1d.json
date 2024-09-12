@@ -15,8 +15,8 @@
     "caveat_ms": "Data bagi dua bulan terkini tertakluk kepada semakan semula dalam kemaskini akan datang.",
     "publication_en": "[External Trade, July 2024](https://open.dosm.gov.my/publications/trade_2024-07), the latest edition of the monthly trade statistics published by DOSM. OpenDOSM also features a [dashboard on trade](https://open.dosm.gov.my/dashboard/external-trade).",
     "publication_ms": "[Perdagangan Luar, Julai 2024](https://open.dosm.gov.my/ms-MY/publications/trade_2024-07), edisi terkini bagi statistik perdagangan bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan](https://open.dosm.gov.my/ms-MY/dashboard/external-trade).",
-    "link_parquet": "https://storage.data.gov.my/trade/trade_sitc_1d.parquet",
-    "link_csv": "https://storage.data.gov.my/trade/trade_sitc_1d.csv",
+    "link_parquet": "https://storage.dosm.gov.my/trade/trade_sitc_1d.parquet",
+    "link_csv": "https://storage.dosm.gov.my/trade/trade_sitc_1d.csv",
     "frequency": "MONTHLY",
     "geography": [
         "NATIONAL"
@@ -33,8 +33,8 @@
             "category_en": "Economic Sectors",
             "category_ms": "Sektor Ekonomi",
             "category_sort": 90,
-            "subcategory_en": "Trade",
-            "subcategory_ms": "Perdagangan",
+            "subcategory_en": "External Trade",
+            "subcategory_ms": "Perdagangan Luar",
             "subcategory_sort": 40
         },
         {
@@ -42,8 +42,8 @@
             "category_en": "Economic Sectors",
             "category_ms": "Sektor Ekonomi",
             "category_sort": 90,
-            "subcategory_en": "Trade",
-            "subcategory_ms": "Perdagangan",
+            "subcategory_en": "External Trade",
+            "subcategory_ms": "Perdagangan Luar",
             "subcategory_sort": 40
         }
     ],
