@@ -70,8 +70,8 @@
             "name": "consumption",
             "title_en": "Electricity Consumption",
             "title_ms": "Penggunaan Elektrik",
-            "description_en": "[Float] Electricity consumption in millions of kilowatt-hours (MKWh)",
-            "description_ms": "[Apung] Penggunaan elektrik dalam juta kilowatt-jam (MKWh)"
+            "description_en": "[Float] Amount of electricity consumed in millions of kilowatt-hours (MKWh)",
+            "description_ms": "[Apung] Jumlah penggunaan elektrik dalam juta kilowatt-jam (MKWh)"
         }
     ],
     "dataviz": [

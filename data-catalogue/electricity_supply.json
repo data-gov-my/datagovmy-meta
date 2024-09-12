@@ -69,8 +69,8 @@
             "name": "supply",
             "title_en": "Electricity Supply",
             "title_ms": "Bekalan Elektrik",
-            "description_en": "[Float] Electricity supply in millions of kilowatt-hours (MKWh).",
-            "description_ms": "[Apung] Bekalan elektrik dalam juta kilowatt-jam (MKWh)."
+            "description_en": "[Float] Amount of electricity supplied in millions of kilowatt-hours (MKWh).",
+            "description_ms": "[Apung] Jumlah elektrik dibekalkan dalam juta kilowatt-jam (MKWh)."
         }
     ],
     "dataviz": [
