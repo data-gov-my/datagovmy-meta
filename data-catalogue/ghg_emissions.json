@@ -114,7 +114,7 @@
         "total": "Total Emissions (excluding LULUCF)",
         "net": "Net Emissions (including LULUCF)",
         "energy": "Energy",
-        "industrial_processes": "Industrial Processes",
+        "industrial-processes": "Industrial Processes",
         "agriculture": "Agriculture",
         "waste": "Waste",
         "lulucf": "Land Use, Land-Use Change, and Forestry (LULUCF)"
@@ -128,7 +128,7 @@
         "total": "Pelepasan Keseluruhan (tidak termasuk LULUCF)",
         "net": "Pelepasan Bersih (termasuk LULUCF)",
         "energy": "Tenaga",
-        "industrial_processes": "Pemprosesan Industri",
+        "industrial-processes": "Pemprosesan Industri",
         "agriculture": "Pertanian",
         "waste": "Sisa",
         "lulucf": "Guna Tanah, Perubahan Guna Tanah, dan Perhutanan (LULUCF)"

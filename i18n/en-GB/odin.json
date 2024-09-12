@@ -61,7 +61,7 @@
       "agriculture": "Agriculture and Land Use",
       "": "Resource Use",
       "20_energy": "Energy",
-      "pollution": "Pollution",
+      "21_pollution": "Pollution",
       "": "Built Environment"
     },
     "indicator": {
@@ -124,8 +124,8 @@
       "": "Water consumption",
       "1_energy_consumption": "Energy consumption",
       "2_energy_supply": "Energy supply",
-      "": "Greenhouse gas emissions",
-      "": "Emissions of air or water pollutants",
+      "1_ghg_emissions": "Greenhouse gas emissions",
+      "2_air_pollution": "Air pollution",
       "": "Proportion of households with access to water",
       "": "Proportion of households with access to sanitation",
       "": "Number of rooms or bedrooms",

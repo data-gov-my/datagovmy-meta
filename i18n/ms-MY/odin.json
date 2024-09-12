@@ -61,7 +61,7 @@
       "": "Agriculture and Land Use",
       "": "Resource Use",
       "20_energy": "Tenaga",
-      "": "Pencemaran",
+      "21_pollution": "Pencemaran",
       "": "Built Environment"
     },
     "indicator": {
@@ -124,8 +124,8 @@
       "": "Water consumption",
       "1_energy_consumption": "Penggunaan Tenaga",
       "2_energy_supply": "Penawaran Tenaga",
-      "": "Greenhouse gas emissions",
-      "": "Emissions of air or water pollutants",
+      "1_ghg_emissions": "Pelepasan gas rumah hijau",
+      "2_air_pollution": "Pencemaran udara",
       "": "Proportion of households with access to water",
       "": "Proportion of households with access to sanitation",
       "": "Number of rooms or bedrooms",
