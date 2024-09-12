@@ -1,6 +1,7 @@
 {
     "title_en": "Monthly Air Pollution",
     "title_ms": "Pencemaran Udara Bulanan",
+    "title_sort": 10,
     "description_en": "Average monthly concentration of key air pollutants.",
     "description_ms": "Kepekatan purata bulanan bahan pencemar udara utama.",
     "exclude_openapi": false,
