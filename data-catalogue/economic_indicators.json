@@ -36,7 +36,8 @@
             "category_ms": "Indikator Statistik",
             "category_sort": 100,
             "subcategory_en": "Economic Indicators",
-            "subcategory_ms": "Penunjuk Ekonomi"
+            "subcategory_ms": "Penunjuk Ekonomi",
+            "subcategory_sort": 20
         },
         {
             "site": "opendosm",
@@ -44,7 +45,8 @@
             "category_ms": "Indikator Statistik",
             "category_sort": 100,
             "subcategory_en": "Economic Indicators",
-            "subcategory_ms": "Penunjuk Ekonomi"
+            "subcategory_ms": "Penunjuk Ekonomi",
+            "subcategory_sort": 20
         }
     ],
     "fields": [
