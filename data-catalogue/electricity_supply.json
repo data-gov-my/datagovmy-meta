@@ -109,7 +109,7 @@
     ],
     "translations_en": {
         "x": "Date",
-        "y": "Supply (MWh)",
+        "y1": "Supply (MWh)",
         "date": "Date",
         "sector": "Sector",
         "supply": "Electricity Supply",
@@ -122,7 +122,7 @@
     },
     "translations_ms": {
         "x": "Tarikh",
-        "y": "Bekalan (MWh)",
+        "y1": "Bekalan (MWh)",
         "date": "Tarikh",
         "sector": "Sektor",
         "supply": "Bekalan Elektrik",
