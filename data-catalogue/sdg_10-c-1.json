@@ -5,7 +5,7 @@
     "description_en": "Annual data on remittance costs as a proportion of the amount remitted, as per the specifications of SDG Indicator 10.c.1.",
     "description_ms": "Data tahunan mengenai kos kiriman wang sebagai peratusan jumlah yang dikirim, selaras dengan Indikator SDG 10.c.1.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2022",
     "last_updated": "2024-09-01 12:00",
     "next_update": "-",
