@@ -107,7 +107,7 @@
     ],
     "translations_en": {
         "x": "Date",
-        "y": "Emissions (Gg CO₂e)",
+        "y1": "Emissions (Gg CO₂e)",
         "date": "Date",
         "source": "Source",
         "emissions": "Emissions",
@@ -121,7 +121,7 @@
     },
     "translations_ms": {
         "x": "Tarikh",
-        "y": "Pelepasan (Gg CO₂e)",
+        "y1": "Pelepasan (Gg CO₂e)",
         "date": "Tarikh",
         "source": "Sumber",
         "emissions": "Pelepasan",
