@@ -77,8 +77,8 @@
     "dataviz": [
         {
             "dataviz_id": "table",
-            "title_en": "Electricity Consumption",
-            "title_ms": "Penggunaan Elektrik",
+            "title_en": "Table",
+            "title_ms": "Jadual",
             "chart_type": "TABLE",
             "config": {
                 "precision": 2,
@@ -90,8 +90,8 @@
         },
         {
             "dataviz_id": "consumption",
-            "title_en": "Electricity Consumption Over Time",
-            "title_ms": "Penggunaan Elektrik Mengikut Masa",
+            "title_en": "Electricity Consumption",
+            "title_ms": "Penggunaan Elektrik",
             "chart_type": "TIMESERIES",
             "config": {
                 "filter_columns": [
@@ -116,8 +116,8 @@
         "consumption": " Consumption",
         "total": "Total",
         "local": "Local",
-        "local_commercial": "Local Commercial",
-        "local_domestic": "Local Domestic",
+        "local-commercial": "Local Commercial",
+        "local-domestic": "Local Domestic",
         "exports": "Exports",
         "losses": "Losses"
     },
@@ -129,8 +129,8 @@
         "penggunaan": "Penggunaan",
         "total": "Keseluruhan",
         "local": "Tempatan",
-        "local_commercial": "Komersial Tempatan",
-        "local_domestic": "Domestik Tempatan",
+        "local-commercial": "Komersial Tempatan",
+        "local-domestic": "Domestik Tempatan",
         "exports": "Eksport",
         "losses": "Kerugian"
     },

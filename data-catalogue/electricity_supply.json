@@ -76,8 +76,8 @@
     "dataviz": [
         {
             "dataviz_id": "table",
-            "title_en": "Electricity Supply by Sector",
-            "title_ms": "Bekalan Elektrik Mengikut Sektor",
+            "title_en": "Table",
+            "title_ms": "Jadual",
             "chart_type": "TABLE",
             "config": {
                 "precision": 2,
@@ -115,8 +115,8 @@
         "supply": "Electricity Supply",
         "total": "Total",
         "local": "Local",
-        "local_public": "Local (Public)",
-        "local_private": "Local (Private)",
+        "local-public": "Local (Public)",
+        "local-private": "Local (Private)",
         "imports": "Imports",
         "distribution": "Distribution"
     },
@@ -128,8 +128,8 @@
         "supply": "Bekalan Elektrik",
         "total": "Keseluruhan",
         "local": "Tempatan",
-        "local_public": "Tempatan (Awam)",
-        "local_private": "Tempatan (Swasta)",
+        "local-public": "Tempatan (Awam)",
+        "local-private": "Tempatan (Swasta)",
         "imports": "Import",
         "distribution": "Pengedaran"
     },
