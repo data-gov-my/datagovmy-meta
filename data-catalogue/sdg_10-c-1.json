@@ -1,11 +1,11 @@
 {
-    "title_en": "SDG 10.c.1: Remittance Costs as a % of the Amount Remitted",
-    "title_ms": "SDG 10.c.1: Kos Kiriman Wang sebagai % Jumlah Dikirim",
+    "title_en": "SDG 10-C-1: Remittance Costs as a % of the Amount Remitted",
+    "title_ms": "SDG 10-C-1: Kos Kiriman Wang sebagai % Jumlah Dikirim",
     "title_sort": 50,
-    "description_en": "Annual data on remittance costs as a proportion of the amount remitted, as per the specifications of SDG Indicator 10.c.1.",
-    "description_ms": "Data tahunan mengenai kos kiriman wang sebagai peratusan jumlah yang dikirim, selaras dengan Indikator SDG 10.c.1.",
+    "description_en": "Annual data on remittance costs as a proportion of the amount remitted, as per the specifications of SDG Indicator 10-C-1.",
+    "description_ms": "Data tahunan mengenai kos kiriman wang sebagai peratusan jumlah yang dikirim, selaras dengan Indikator SDG 10-C-1.",
     "exclude_openapi": false,
-    "manual_trigger": "1",
+    "manual_trigger": "",
     "data_as_of": "2022",
     "last_updated": "2024-09-01 12:00",
     "next_update": "-",
@@ -77,9 +77,9 @@
             }
         },
         {
-            "dataviz_id": "remittance_costs_over_time",
-            "title_en": "Remittance Costs Over Time",
-            "title_ms": "Kos Kiriman Wang Mengikut Masa",
+            "dataviz_id": "remittance_costs",
+            "title_en": "Remittance Costs",
+            "title_ms": "Kos Kiriman Wang",
             "chart_type": "TIMESERIES",
             "config": {
                 "filter_columns": [],
