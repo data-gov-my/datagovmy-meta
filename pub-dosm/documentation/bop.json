@@ -1,0 +1,32 @@
+{
+	"publication": "bop-technotes",
+	"documentation_type": "technical-note",
+	"publication_type": "bop",
+	"release_date": "2024-08-17",
+	"en": {
+		"title": "Balance of Payments",
+		"publication_type_title": "Balance of Payments",
+		"description": "Quarterly balance of payments, covering the current account, capital account, and financial account.",
+		"resources": [
+			{
+				"resource_id": 1,
+				"resource_type": "pdf",
+				"resource_name": "Technical Notes: Balance of Payments",
+				"resource_link": "https://storage.dosm.gov.my/technotes/bop.pdf"
+			}
+		]
+	},
+	"bm": {
+		"title": "Imbangan Pembayaran",
+		"publication_type_title": "Imbangan Pembayaran",
+		"description": "Imbangan pembayaran suku tahunan, merangkumi akaun semasa, akaun modal, dan akaun kewangan.",
+		"resources": [
+			{
+				"resource_id": 1,
+				"resource_type": "pdf",
+				"resource_name": "Nota Teknikal: Imbangan Pembayaran",
+				"resource_link": "https://storage.dosm.gov.my/technotes/bop.pdf"
+			}
+		]
+	}
+}
