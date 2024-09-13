@@ -15,8 +15,8 @@
     "caveat_ms": "Angka bagi 8 suku terkini mungkin disemak semula dalam penerbitan akan datang.",
     "publication_en": "[Balance of Payments, 2Q 2024](https://open.dosm.gov.my/publications/bop_2024-q2), the latest edition of the quarterly GDP statistics published by DOSM. OpenDOSM also features a [dashboard on GDP](https://open.dosm.gov.my/dashboard/balance-of-payments) which enables you to explore Malaysia's BOP data interactively.",
     "publication_ms": "[Imbangan Pembayaran, ST2 2024](https://open.dosm.gov.my/ms-MY/publications/bop_2024-q2), edisi terkini bagi statistik KDNK suku tahunan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga membekalkan [_dashboard_ KDNK](https://open.dosm.gov.my/ms-MY/dashboard/balance-of-payments) yang membolehkan anda menerokai data BOP Malaysia secara interaktif.",
-    "link_parquet": "https://storage.data.gov.my/bop/bop_balance.parquet",
-    "link_csv": "https://storage.data.gov.my/bop/bop_balance.csv",
+    "link_parquet": "https://storage.dosm.gov.my/bop/bop_balance.parquet",
+    "link_csv": "https://storage.dosm.gov.my/bop/bop_balance.csv",
     "frequency": "QUARTERLY",
     "geography": [
         "NATIONAL"
