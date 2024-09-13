@@ -59,15 +59,15 @@
             "name": "inflow",
             "title_en": "FDI Inflows",
             "title_ms": "Aliran Masuk FDI",
-            "description_en": "[Float] The foreign direct investment inflows in billions of MYR.",
-            "description_ms": "[Apung] Aliran masuk pelaburan langsung asing dalam rM bilion."
+            "description_en": "[Float, RM bil] Inflows of FDI during the period",
+            "description_ms": "[Apung, RM bil] Aliran masuk FDI semasa tempoh tersebut"
         },
         {
             "name": "outflow",
             "title_en": "FDI Outflows",
             "title_ms": "Aliran Keluar FDI",
-            "description_en": "[Float] Amount of ",
-            "description_ms": "[Apung] Aliran keluar FDI"
+            "description_en": "[Float, RM bil] Outflows of FDI during the period",
+            "description_ms": "[Apung, RM bil] Aliran keluar FDI semasa tempoh tersebut"
         },
         {
             "name": "net",
