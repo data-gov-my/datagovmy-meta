@@ -26,9 +26,9 @@
     "dataset_end": 2024,
     "data_source": [
         "TNB",
-        "Sabah Electricity",
-        "Sarawak Energy",
-        "Suruhanjaya Tenaga",
+        "SESB",
+        "SWK ENERGY",
+        "ST",
         "DOSM"
     ],
     "site_category": [
