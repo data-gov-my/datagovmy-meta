@@ -1,9 +1,9 @@
 {
-	"title_en": "Annual Principal Labour Force Statistics by Sex",
-	"title_ms": "Statistik Tenaga Buruh Tahunan Utama mengikut Jantina",
-	"title_sort": 19,
-	"description_en": "Annual principal labour force statistics by sex, including unemployment and participation rates.",
-	"description_ms": "Statistik tahunan utama berkaitan tenaga buruh mengikut jantina, termasuk kadar pengangguran dan penyertaan.",
+	"title_en": "Annual Principal Labour Force Statistics by District",
+	"title_ms": "Statistik Tenaga Buruh Tahunan Utama mengikut Daerah",
+	"title_sort": 22,
+	"description_en": "Annual principal labour force statistics at district level, including unemployment and participation rates.",
+	"description_ms": "Statistik tahunan utama berkaitan tenaga buruh di peringkat daerah pentadbiran, termasuk kadar pengangguran dan penyertaan.",
 	"exclude_openapi": false,
 	"manual_trigger": "",
 	"data_as_of": "2022",
@@ -11,18 +11,19 @@
 	"next_update": "2025-02-09 12:00",
 	"methodology_en": "This data is produced based on the Labour Force Survey (LFS), which is designed to collect representative data on the labour force at national and state level. Consistency in methodology has been maintained to ensure that the data is comparable over time. Survey findings are a monthly, quarterly and annual basis. For a full description of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/lfs-technotes).",
 	"methodology_ms": "Data ini dihasilkan berdasarkan Survei Tenaga Buruh (STB), yang bertujuan untuk mengumpul data tentang tenaga buruh di peringkat nasional dan negeri. Metodologi survei ini dipastikan konsisten untuk mendapatkan perbandingan statistik siri masa. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Untuk mendapat perincian metodologi yang penuh, sila merujuk kepada [Nota Teknikal](https://open.dosm.gov.my/publications/technical-notes/lfs-technotes).",
-	"caveat_en": "Data for 1991 and 1994 are not available due to limitations in the sample data from those years. Furthermore, the sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
-	"caveat_ms": "Data bagi 1991 dan 1994 tidak dapat dihasilkan akibat kekangan dalam data survei bagi tahun tersebut. Selain itu, hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
+	"caveat_en": "Data for 1991 and 1994 are not available at all due to limitations in the sample data from those years; data for W.P. Labuan and W.P. Putrajaya begin in 1992 and 2011 respectively. Furthermore, the sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
+	"caveat_ms": "Data bagi 1991 dan 1994 tidak dapat dihasilkan akibat kekangan dalam data survei bagi tahun tersebut; data bagi W.P. Labuan dan W.P. Putrajaya hanya bermula pada 1992 dan 2011. Selain itu, hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
 	"publication_en": "The [Labour Force Report, 2023](https://open.dosm.gov.my/publications/labour_annual_2023), the latest edition of the annual labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/dashboard/labour-market).",
 	"publication_ms": "[Laporan Tenaga Buruh, 2023](https://open.dosm.gov.my/ms-MY/publications/labour_annual_2023), edisi terkini bagi statistik tenaga buruh tahunan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/ms-MY/dashboard/labour-market).",
-	"link_parquet": "https://storage.dosm.gov.my/labour/lfs_year_sex.parquet",
-	"link_csv": "https://storage.dosm.gov.my/labour/lfs_year_sex.csv",
+	"link_parquet": "https://storage.dosm.gov.my/labour/lfs_state_sex.parquet",
+	"link_csv": "https://storage.dosm.gov.my/labour/lfs_state_sex.csv",
 	"frequency": "YEARLY",
 	"geography": [
-		"NATIONAL"
+		"STATE",
+		"DISTRICT"
 	],
 	"demography": [],
-	"dataset_begin": 1982,
+	"dataset_begin": 2019,
 	"dataset_end": 2022,
 	"data_source": [
 		"DOSM"
@@ -49,12 +50,19 @@
 		}
 	],
 	"fields": [
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states",
+            "description_ms": "[Kategori] Satu daripada 16 negeri"
+        },
 		{
-			"name": "sex",
-			"title_en": "Sex",
-			"title_ms": "Jantina",
-			"description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
-			"description_ms": "[Kategori] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
+			"name": "district",
+			"title_en": "Administrative District",
+			"title_ms": "Daerah Pentadbiran",
+			"description_en": "[Categorical] One of 160 administrative districts; however, it should be noted that only 140 administrative districts are represented in this dataset due to constraints on data availability at district level for more remote areas.",
+			"description_ms": "[Kategori] Satu daripada 160 daerah pentadbiran; namun, harus diingati bahawa hanya 140 daerah pentadbiran yang diwakili dalam set data ini kerana kekangan data pada peringkat daerah bagi kawasan yang lebih terpencil."
 		},
 		{
 			"name": "date",
@@ -122,135 +130,19 @@
 			"config": {
 				"precision": 1,
 				"filter_columns": [
-					"sex"
+					"state",
+					"district"
 				],
-				"freeze_columns": ["date"]
-			}
-		},
-		{
-			"dataviz_id": "u_rate",
-			"title_en": "Unemployment Rate",
-			"title_ms": "Kadar Pengangguran",
-			"chart_type": "TIMESERIES",
-			"config": {
-				"filter_columns": [
-					"sex"
-				],
-				"precision": 1,
-				"operation": "SUM",
-				"format": {
-					"x": "date",
-					"y": ["u_rate"]
-				}
-			}
-		},
-		{
-			"dataviz_id": "p_rate",
-			"title_en": "Participation Rate",
-			"title_ms": "Kadar Penyertaan",
-			"chart_type": "TIMESERIES",
-			"config": {
-				"filter_columns": [
-					"sex"
-				],
-				"precision": 1,
-				"operation": "SUM",
-				"format": {
-					"x": "date",
-					"y": ["p_rate"]
-				}
-			}
-		},
-		{
-			"dataviz_id": "ep_ratio",
-			"title_en": "Employment-Population Ratio",
-			"title_ms": "Nisbah Guna Tenaga kepada Penduduk",
-			"chart_type": "TIMESERIES",
-			"config": {
-				"filter_columns": [
-					"sex"
-				],
-				"precision": 1,
-				"operation": "SUM",
-				"format": {
-					"x": "date",
-					"y": ["ep_ratio"]
-				}
-			}
-		},
-		{
-			"dataviz_id": "lf",
-			"title_en": "Labour Force Size",
-			"title_ms": "Jumlah Tenaga Buruh",
-			"chart_type": "TIMESERIES",
-			"config": {
-				"filter_columns": [
-					"sex"
-				],
-				"precision": 1,
-				"operation": "SUM",
-				"format": {
-					"x": "date",
-					"y": ["lf"]
-				}
-			}
-		},
-		{
-			"dataviz_id": "lf_employed",
-			"title_en": "Employed Persons",
-			"title_ms": "Orang Bekerja",
-			"chart_type": "TIMESERIES",
-			"config": {
-				"filter_columns": [
-					"sex"
-				],
-				"precision": 1,
-				"operation": "SUM",
-				"format": {
-					"x": "date",
-					"y": ["lf_employed"]
-				}
-			}
-		},
-		{
-			"dataviz_id": "lf_unemployed",
-			"title_en": "Unemployed Persons",
-			"title_ms": "Menganggur",
-			"chart_type": "TIMESERIES",
-			"config": {
-				"filter_columns": [
-					"sex"
-				],
-				"precision": 1,
-				"operation": "SUM",
-				"format": {
-					"x": "date",
-					"y": ["lf_unemployed"]
-				}
-			}
-		},
-		{
-			"dataviz_id": "lf_outside",
-			"title_en": "Outside Labour Force",
-			"title_ms": "Luar Tenaga Buruh",
-			"chart_type": "TIMESERIES",
-			"config": {
-				"filter_columns": [
-					"sex"
-				],
-				"precision": 1,
-				"operation": "SUM",
-				"format": {
-					"x": "date",
-					"y": ["lf_outside"]
-				}
+				"freeze_columns": ["state", "district"]
 			}
 		}
 	],
 	"translations_en": {
 		"y1": "Value",
 		"date": "Date",
-		"sex":"Sex",
+		"state": "State",
+		"district": "District",
+		"sex": "Sex",
 		"lf": "Labour Force Size",
 		"lf_employed": "Employed Persons",
 		"lf_unemployed": "Unemployed Persons",
@@ -265,6 +157,8 @@
 	"translations_ms": {
 		"y1": "Nilai",
 		"date": "Tarikh",
+		"state": "Negeri",
+		"district": "Daerah",
 		"sex": "Jantina",
 		"lf": "Tenaga Buruh",
 		"lf_employed": "Bekerja",
