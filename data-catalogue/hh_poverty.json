@@ -84,6 +84,7 @@
             "title_ms": "Jadual",
             "chart_type": "TABLE",
             "config": {
+                "precision": 0,
                 "filter_columns": []
             }
         },
@@ -94,7 +95,7 @@
             "chart_type": "TIMESERIES",
             "config": {
                 "filter_columns": [],
-                "precision": 0,
+                "precision": 1,
                 "operation": "SUM",
                 "format": {
                     "x": "date",
@@ -111,7 +112,7 @@
             "chart_type": "TIMESERIES",
             "config": {
                 "filter_columns": [],
-                "precision": 0,
+                "precision": 1,
                 "operation": "SUM",
                 "format": {
                     "x": "date",
@@ -128,7 +129,7 @@
             "chart_type": "TIMESERIES",
             "config": {
                 "filter_columns": [],
-                "precision": 0,
+                "precision": 1,
                 "operation": "SUM",
                 "format": {
                     "x": "date",
