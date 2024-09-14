@@ -57,8 +57,8 @@
             "name": "category",
             "title_en": "Revenue Category",
             "title_ms": "Kategori Hasil",
-            "description_en": "[Categorical] The category of expenditure; either development expenditure (DE), operating expenditure (OE), or a more detailed OE breakdown covering Emoluments (oe_10000), Services and Supplies (oe_20000), Assets (oe_30000), Fixed Payments (oe_40000), and Other Expenditures (oe_50000).",
-            "description_ms": "[Kategori] Kategori perbelanjaan; sama ada perbelanjaan pembangunan (DE), perbelanjaan operasi (OE), atau pecahan OE yang lebih terperinci merangkumi Emolumen (oe_10000), Perkhidmatan dan Bekalan (oe_20000), Aset (oe_30000), Bayaran Tetap (oe_40000), dan Perbelanjaan Lain (oe_50000)."
+            "description_en": "[Categorical] Either total revenue ('total') or the category of revenue comprising tax revenue ('revenue_60000'), non-tax revenue ('revenue_70000'), and non-revenue receipts ('revenue_80000')",
+            "description_ms": "[Kategori] Sama ada hasil keseluruhan ('total') atau kategori hasil yang merangkumi hasil cukai ('revenue_60000'), hasil bukan cukai ('revenue_70000'), dan penerimaan bukan hasil ('revenue_80000')"
         },
         {
             "name": "expenditure",
