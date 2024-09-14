@@ -1,7 +1,7 @@
 {
 	"title_en": "State-level Household Income by Percentile",
 	"title_ms": "Pendapatan Isi Rumah mengikut Negeri & Persentil",
-	"title_sort": 4,
+	"title_sort": 20,
 	"description_en": "Percentile-resolution household income data at state level.",
 	"description_ms": "Data pendapatan isi rumah peringkat negeri pada resolusi persentil.",
 	"exclude_openapi": false,
