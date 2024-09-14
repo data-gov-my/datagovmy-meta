@@ -1,7 +1,7 @@
 {
     "title_en": "Household Income",
     "title_ms": "Pendapatan Isi Rumah",
-    "title_sort": 10,
+    "title_sort": 1,
     "description_en": "Mean and median household income in Malaysia from 1970 to 2022.",
     "description_ms": "Purata dan penengah pendapatan isi rumah di Malaysia dari 1970 hingga 2022.",
     "exclude_openapi": false,
@@ -15,8 +15,8 @@
     "caveat_ms": "Data ini menunjukkan nilai nominal, iaitu mereka tidak diselaraskan untuk inflasi. Selain itu, memandangkan bahawa data ini dihasilkan daripada survey yang menjangkau lebih dari setengah abad, perubahan metodologi berikut harus diberi perhatian:\n - Data untuk 1970 dan 1974 merujuk kepada Semenanjung Malaysia sahaja. Tahun 1976 adalah tahun pertama di mana Sabah dan Sarawak disekalikan dalam tinjauan.\n - Mulai 1989, data merujuk kepada warganegara Malaysia sahaja. Walaupun warga asing juga disekalikan dalam tinjauan, statistik rasmi (yang menjadi asas untuk dasar nasional) hanya berdasarkan warganegara sahaja.",
     "publication_en": "The [Household Income Survey Report, 2022](https://open.dosm.gov.my/hies/household_income_2022.pdf), the latest edition of the household income statistics published by DOSM. OpenDOSM also features a [dashboard on household income](https://open.dosm.gov.my/dashboard/household-income-expenditure) which enables you to explore Malaysia's household income data interactively.",
     "publication_ms": "[Laporan Survei Pendapatan Isi Rumah, 2022](https://open.dosm.gov.my/ms-MY/publications/hies/household_income_2022.pdf), edisi terkini bagi statistik pendapatan isi rumah yang diterbitkan oleh DOSM. OpenDOSM juga membekalkan [_dashboard_ pendapatan isi rumah](https://open.dosm.gov.my/ms-MY/dashboard/household-income-expenditure) yang membolehkan anda menerokai data pendapatan isi rumah Malaysia secara interaktif.",
-    "link_parquet": "https://storage.data.gov.my/hies/hh_income.parquet",
-    "link_csv": "https://storage.data.gov.my/hies/hh_income.csv",
+    "link_parquet": "https://storage.dosm.gov.my/hies/hh_income.parquet",
+    "link_csv": "https://storage.dosm.gov.my/hies/hh_income.csv",
     "frequency": "YEARLY",
     "geography": [
         "NATIONAL"
