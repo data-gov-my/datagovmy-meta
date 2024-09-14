@@ -17,7 +17,7 @@
     "publication_ms": "—",
     "link_parquet": "https://storage.data.gov.my/environment/ghg_emissions.parquet",
     "link_csv": "https://storage.data.gov.my/environment/ghg_emissions.csv",
-    "frequency": "ANNUAL",
+    "frequency": "YEARLY",
     "geography": [
         "NATIONAL"
     ],
