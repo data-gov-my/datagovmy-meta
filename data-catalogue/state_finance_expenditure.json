@@ -1,6 +1,7 @@
 {
-    "title_en": "State Government Finance",
-    "title_ms": "Kewangan Kerajaan Negeri",
+    "title_en": "State Government Expenditure",
+    "title_ms": "Perbelanjaan Kerajaan Negeri",
+    "title_sort": 13,
     "description_en": "Annual data on state government expenditure across various categories, including development expenditure (DE) and operating expenditure (OE).",
     "description_ms": "Data tahunan mengenai perbelanjaan kerajaan negeri dalam pelbagai kategori, termasuk perbelanjaan pembangunan (DE) dan perbelanjaan mengurus (OE).",
     "exclude_openapi": false,
