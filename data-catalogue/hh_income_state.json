@@ -84,7 +84,9 @@
             "title_ms": "Jadual",
             "chart_type": "TABLE",
             "config": {
-                "filter_columns": []
+                "filter_columns": [
+                    "state"
+                ]
             }
         },
         {
