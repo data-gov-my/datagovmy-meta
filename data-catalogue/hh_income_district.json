@@ -15,11 +15,11 @@
     "caveat_ms": "Data ini menunjukkan nilai nominal, iaitu mereka tidak diselaraskan untuk inflasi. Selain itu, data daerah hanya diterbitkan mulai 2019 (berbanding dengan [data negeri](https://open.dosm.gov.my/data-catalogue/hh_income_state) yang tersedia dari 1970) kerana sampel HIES sebelumnya tidak mencukupi untuk membolehkan pecahan mengikut daerah.",
     "publication_en": "The [Household Income Survey Report, 2022](https://open.dosm.gov.my/hies/household_income_2022.pdf), the latest edition of the household income statistics published by DOSM. OpenDOSM also features a [dashboard on household income](https://open.dosm.gov.my/dashboard/household-income-expenditure) which enables you to explore Malaysia's household income data interactively.",
     "publication_ms": "[Laporan Survei Pendapatan Isi Rumah, 2022](https://open.dosm.gov.my/ms-MY/publications/hies/household_income_2022.pdf), edisi terkini bagi statistik pendapatan isi rumah yang diterbitkan oleh DOSM. OpenDOSM juga membekalkan [_dashboard_ pendapatan isi rumah](https://open.dosm.gov.my/ms-MY/dashboard/household-income-expenditure) yang membolehkan anda menerokai data pendapatan isi rumah Malaysia secara interaktif.",
-    "link_parquet": "https://storage.dosm.gov.my/hies/hh_income_state.parquet",
-    "link_csv": "https://storage.dosm.gov.my/hies/hh_income_state.csv",
+    "link_parquet": "https://storage.dosm.gov.my/hies/hh_income_district.parquet",
+    "link_csv": "https://storage.dosm.gov.my/hies/hh_income_district.csv",
     "frequency": "YEARLY",
     "geography": [
-        "STATE"
+        "DISTRICT"
     ],
     "demography": [],
     "dataset_begin": 2019,
