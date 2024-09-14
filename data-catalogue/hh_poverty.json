@@ -121,23 +121,6 @@
                     ]
                 }
             }
-        },
-        {
-            "dataviz_id": "poverty_relative",
-            "title_en": "Relative Poverty",
-            "title_ms": "Kemiskinan Relatif",
-            "chart_type": "TIMESERIES",
-            "config": {
-                "filter_columns": [],
-                "precision": 1,
-                "operation": "SUM",
-                "format": {
-                    "x": "date",
-                    "y": [
-                        "poverty_relative"
-                    ]
-                }
-            }
         }
     ],
     "translations_en": {
