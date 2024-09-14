@@ -1,7 +1,7 @@
 {
     "title_en": "Poverty by Administrative District",
     "title_ms": "Kemiskinan mengikut Daerah Pentadbiran",
-    "title_sort": 20,
+    "title_sort": 22,
     "description_en": "Poverty rates by administrative district from 2019 to 2022.",
     "description_ms": "Kadar kemiskinan mengikut daerah pentadbiran dari 2019 hingga 2022.",
     "exclude_openapi": false,
