@@ -158,7 +158,7 @@
         "nh3n": "Ammoniacal Nitrogen (NH₃-N)",
         "ss": "Suspended Solids (SS)",
         "clean": "Clean",
-        "slightly_polluted": "Slightly Polluted",
+        "slightly-polluted": "Slightly Polluted",
         "polluted": "Polluted"
     },
     "translations_ms": {
@@ -174,7 +174,7 @@
         "nh3n": "Nitrogen Ammonia (NH₃-N)",
         "ss": "Zarah Terampai (SS)",
         "clean": "Bersih",
-        "slightly_polluted": "Sedikit Tercemar",
+        "slightly-polluted": "Sedikit Tercemar",
         "polluted": "Tercemar"
     },
     "related_datasets": []
