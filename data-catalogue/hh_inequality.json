@@ -70,7 +70,7 @@
             "title_ms": "Jadual",
             "chart_type": "TABLE",
             "config": {
-                "precision": 0,
+                "precision": 3,
                 "filter_columns": []
             }
         },
@@ -81,7 +81,7 @@
             "chart_type": "TIMESERIES",
             "config": {
                 "filter_columns": [],
-                "precision": 1,
+                "precision": 3,
                 "operation": "SUM",
                 "format": {
                     "x": "date",
