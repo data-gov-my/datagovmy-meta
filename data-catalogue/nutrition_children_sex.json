@@ -32,9 +32,9 @@
     "site_category": [
         {
             "site": "datagovmy",
-            "category_en": "Health",
+            "category_en": "Healthcare",
             "category_ms": "Kesihatan",
-            "category_sort": 20,
+            "category_sort": 40,
             "subcategory_en": "General Health",
             "subcategory_ms": "Kesihatan Umum",
             "subcategory_sort": 10
