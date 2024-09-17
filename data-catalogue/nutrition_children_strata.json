@@ -7,7 +7,7 @@
     "exclude_openapi": false,
     "manual_trigger": "",
     "data_as_of": "2019",
-    "last_updated": "2024-09-01",
+    "last_updated": "2024-09-01 12:00",
     "next_update": "\u2014",
     "methodology_en": "This data is tabulated based on survey records collected via the National Health and Morbidity Survey (NHMS), which is conducted by the Ministry of Health once every 4 years. The NHMS is design to collect representative data on various healthcare outcomes, especially those which cannot be assessed through administrative hospital data. For a fuller description of the methodology, please refer to the [NHMS 2019 report](https://storage.data.gov.my/healthcare/nhms_2019.pdf).\n\nFor this dataset specifically, the distributions of WAZ, HAZ and WHZ for Malaysia were calculated by comparing the weights and heights of children under 5 years old to the World Health Organization Growth Standard 2006 (WHO 2006). Following that, the prevalence of 4 key malnutrition indicators is defined as follows:\n\n- Underweight: Weight-for-age (WAZ) less than 2 standard deviations below the median\n- Stunting: Height-for-age (HAZ) less than 2 standard deviations below the median\n- Wasting: Weight-for-height (WHZ) less than 2 standard deviations below the median\n- Obesity: Weight-for-height (WHZ) more than 2 standard deviations above the median",
     "methodology_ms": "Data ini dihasilkan berdasarkan rekod tinjauan yang dikumpul melalui Tinjauan Kesihatan dan Morbiditi Kebangsaan (NHMS), yang dilaksanakan oleh Kementerian Kesihatan setiap 4 tahun. NHMS dirangka untuk mengumpul data representatif bagi pelbagai indikator kesihatan, terutamanya yang tidak dapat dinilai melalui data pentadbiran. Untuk mendapat perincian metodologi yang penuh, sila rujuk laporan [NHMS 2019](https://storage.data.gov.my/healthcare/nhms_2019.pdf).\n\nBagi set data ini secara khusus, taburan WAZ, HAZ, dan WHZ bagi Malaysia telah dikira dengan membandingkan berat dan umur kanak-kanak bawah 5 tahun di Malaysia kepada _World Health Organization Growth Standard 2006 (WHO 2006)_. Kemudian, prevalen 4 indikator malnutrisi penting dikira seperti berikut:\n\n- Kekurangan berat badan: Berat-untuk-umur (WAZ) kurang daripada 2 sisihan piawai di bawah median\n- Terbantut: Tinggi-untuk-umur (HAZ) kurang daripada 2 sisihan piawai di bawah median\n- Tersusut: Berat-untuk-tinggi (WHZ) kurang daripada 2 sisihan piawai di bawah median\n- Obesiti: Berat-untuk-tinggi (WHZ) lebih daripada 2 sisihan piawai di atas median",
@@ -106,7 +106,10 @@
         "indicator": "Indicator",
         "range": "Range",
         "description": "Description",
-        "prevalence": "Prevalence (%)"
+        "prevalence": "Prevalence (%)",
+        "waz": "Weight-for-age (WAZ)",
+        "haz": "Height-for-age (HAZ)",
+        "whz": "Weight-for-height (WHZ)"    
     },
     "translations_ms": {
         "x": "Keterangan",
@@ -117,7 +120,10 @@
         "indicator": "Indikator",
         "range": "Julat",
         "description": "Keterangan",
-        "prevalence": "Prevalen (%)"
+        "prevalence": "Prevalen (%)",
+        "waz": "Berat-untuk-umur (WAZ)",
+        "haz": "Tinggi-untuk-umur (HAZ)",
+        "whz": "Berat-untuk-tinggi (WHZ)"
     },
     "related_datasets": []
 }
