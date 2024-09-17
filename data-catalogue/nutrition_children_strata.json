@@ -15,8 +15,8 @@
     "caveat_ms": "Angka-angka ini adalah berdasarkan pada NHMS 2019. Perubahan yang disebabkan oleh pandemik hanya akan dicerminkan dalam data berdasarkan NHMS 2023.",
     "publication_en": "—",
     "publication_ms": "—",
-    "link_parquet": "https://storage.data.gov.my/healthcare/nutrition_status_u5_sex.parquet",
-    "link_csv": "https://storage.data.gov.my/healthcare/nutrition_status_u5_sex.csv",
+    "link_parquet": "https://storage.data.gov.my/healthcare/nutrition_status_u5_strata.parquet",
+    "link_csv": "https://storage.data.gov.my/healthcare/nutrition_status_u5_strata.csv",
     "frequency": "YEARLY",
     "geography": [
         "NATIONAL"
