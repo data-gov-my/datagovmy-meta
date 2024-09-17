@@ -1,7 +1,7 @@
 {
-    "title_en": "Nutritional Status of Children Under 5 by Sex",
-    "title_ms": "Status Nutrisi Kanak-Kanak bawah 5 Tahun mengikut Jantina",
-    "title_sort": 10,
+    "title_en": "Nutritional Status of Children Under 5 by Strata",
+    "title_ms": "Status Nutrisi Kanak-Kanak bawah 5 Tahun mengikut Strata",
+    "title_sort": 11,
     "description_en": "Distribution of weight-for-age (WAZ), height-for-age (HAZ), and weight-for-height (WHZ) scores for children under 5 years old based on WHO standards, which are used to assess malnutrition (underweight, stunting, wasting, and obesity).",
     "description_ms": "Taburan skor berat-untuk-umur (WAZ), tinggi-untuk-umur (HAZ), dan berat-untuk-tinggi (WHZ) untuk kanak-kanak bawah 5 tahun berdasarkan piawaian WHO, yang digunakan untuk menilai malnutrisi (kekurangan berat badan, terbantut, tersusut dan obesiti).",
     "exclude_openapi": false,
@@ -15,8 +15,8 @@
     "caveat_ms": "Angka-angka ini adalah berdasarkan pada NHMS 2019. Perubahan yang disebabkan oleh pandemik hanya akan dicerminkan dalam data berdasarkan NHMS 2023.",
     "publication_en": "—",
     "publication_ms": "—",
-    "link_parquet": "https://storage.data.gov.my/healthcare/nutrition_status_u5_sex.parquet",
-    "link_csv": "https://storage.data.gov.my/healthcare/nutrition_status_u5_sex.csv",
+    "link_parquet": "https://storage.data.gov.my/healthcare/nutrition_status_u5_strata.parquet",
+    "link_csv": "https://storage.data.gov.my/healthcare/nutrition_status_u5_strata.csv",
     "frequency": "YEARLY",
     "geography": [
         "NATIONAL"
@@ -49,11 +49,11 @@
           "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01 kerana ini adalah data tahunan"
         },
         {
-            "name": "sex",
-            "title_en": "Sex",
-            "title_ms": "Jantina",
-            "description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
-            "description_ms": "[Kategori] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
+            "name": "strata",
+            "title_en": "Strata",
+            "title_ms": "Strata",
+            "description_en": "[Categorical] Either nationwide ('all'), rural ('rural'), or urban ('urban')",
+            "description_ms": "[Kategori] Sama ada keseluruhan ('all'), luar bandar ('rural'), atau bandar ('urban')"
         },
         {
             "name": "indicator",
@@ -102,6 +102,7 @@
         "y1": "Prevalence",
         "date": "Date",
         "sex": "Sex",
+        "strata": "Strata",
         "indicator": "Indicator",
         "range": "Range",
         "description": "Description",
@@ -109,9 +110,10 @@
     },
     "translations_ms": {
         "x": "Keterangan",
-        "y1": "Keprevalenan",
+        "y1": "Prevalen",
         "date": "Tarikh",
         "sex": "Jantina",
+        "strata": "Strata",
         "indicator": "Indikator",
         "range": "Julat",
         "description": "Keterangan",
