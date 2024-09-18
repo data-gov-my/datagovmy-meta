@@ -1,0 +1,9 @@
+{
+    "manual_trigger": "",
+    "data_as_of": "2024",
+    "last_updated": "2024-08-28 12:00",
+    "next_update": "2025-07-28 12:00",
+    "link_parquet": "https://storage.dosm.gov.my/investor_portal/population.parquet",
+    "frequency": "YEARLY",
+    "data_source": []
+}
