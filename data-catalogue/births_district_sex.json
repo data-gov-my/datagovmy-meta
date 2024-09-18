@@ -1,7 +1,7 @@
 {
   "title_en": "Annual Live Births by District & Sex",
   "title_ms": "Kelahiran Hidup Tahunan mengikut Daerah & Jantina",
-  "title_sort": 6,
+  "title_sort": 5,
   "description_en": "Annual number of births with signs of life upon delivery, by district and sex.",
   "description_ms": "Jumlah kelahiran tahunan yang bernyawa semasa dilahirkan, mengikut daerah dan jantina.",
   "exclude_openapi": false,
