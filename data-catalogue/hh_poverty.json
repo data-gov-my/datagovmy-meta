@@ -5,7 +5,7 @@
     "description_en": "Poverty rates in Malaysia from 1970 to 2022.",
     "description_ms": "Kadar kemiskinan di Malaysia dari 1970 hingga 2022.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2022",
     "last_updated": "2023-07-28 12:00",
     "next_update": "\u2014",
