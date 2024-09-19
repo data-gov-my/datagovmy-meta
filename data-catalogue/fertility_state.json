@@ -2,7 +2,7 @@
     "title_en": "TFR and ASFR by State",
     "title_ms": "TFR dan ASFR mengikut Negeri",
     "title_sort": 2,
-    "description_en": "Total fertility rate (TFR) and Age-Specific Fertility Rates (ASFR) by state.",
+    "description_en": "Total fertility rate (TFR) and age-specific fertility rates (ASFR) by state.",
     "description_ms": "Kadar kesuburan keseluruhan (TFR) dan kadar kesuburan mengikut umur (ASFR) mengikut negeri.",
     "exclude_openapi": false,
     "manual_trigger": "",
