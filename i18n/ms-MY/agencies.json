@@ -8,6 +8,10 @@
             "full": "Agensi Antidadah Kebangsaan",
             "abbr": "AADK"
         },
+        "audit": {
+            "full": "Jabatan Audit Negara",
+            "abbr": "AUDIT"
+        },
         "bnm": {
             "full": "Bank Negara Malaysia",
             "abbr": "BNM"
@@ -47,6 +51,14 @@
         "janm": {
             "full": "Jabatan Akauntan Negara",
             "abbr": "JANM"
+        },
+        "jas": {
+            "full": "Jabatan Alam Sekitar",
+            "abbr": "JAS"
+        },
+        "jdn": {
+            "full": "Jabatan Digital Negara",
+            "abbr": "JDN"
         },
         "jpa": {
             "full": "Jabatan Perkhidmatan Awam",
@@ -112,17 +124,21 @@
             "full": "Kementerian Pengangkutan",
             "abbr": "MoT"
         },
+        "napic": {
+            "full": "Pusat Maklumat Harta Tanah Negara",
+            "abbr": "NAPIC"
+        },
         "npra": {
             "full": "Bahagian Regulatori Farmaseutikal Negara",
             "abbr": "NPRA"
         },
+        "nres": {
+            "full": "Kementerian Sumber Asli dan Kelestarian Alam",
+            "abbr": "NRES"
+        },
         "ntrc": {
             "full": "Pusat Sumber Transplan Nasional",
             "abbr": "NTRC"
-        },
-        "napic": {
-            "full": "Pusat Maklumat Harta Tanah Negara",
-            "abbr": "NAPIC"
         },
         "pdn": {
             "full": "Pusat Darah Negara",
@@ -131,6 +147,10 @@
         "pdrm": {
             "full": "Polis Diraja Malaysia",
             "abbr": "PDRM"
+        },
+        "perhutanan": {
+            "full": "Jabatan Perhutanan Semenanjung Malaysia",
+            "abbr": "Perhutanan"
         },
         "perkeso": {
             "full": "Pertubuhan Keselamatan Sosial",
@@ -144,6 +164,10 @@
             "full": "Prasarana Malaysia Berhad",
             "abbr": "Prasarana"
         },
+        "sesb": {
+            "full": "Sabah Electricity Sdn. Bhd.",
+            "abbr": "SESB"
+        },
         "spr": {
             "full": "Suruhanjaya Pilihan Raya",
             "abbr": "SPR"
@@ -151,7 +175,19 @@
         "ssm": {
           "full": "Suruhanjaya Syarikat Malaysia",
           "abbr": "SSM"
-      },
+        },
+        "st": {
+            "full": "Suruhanjaya Tenaga",
+            "abbr": "ST"
+        },
+        "swk energy": {
+            "full": "Sarawak Energy Berhad",
+            "abbr": "SWK ENERGY"
+        },
+        "tnb": {
+            "full": "Tenaga Nasional Berhad",
+            "abbr": "TNB"
+        },
         "unhcr": {
           "full": "Pesuruhjaya Tinggi Bangsa-Bangsa Bersatu untuk Pelarian",
           "abbr": "UNHCR"
