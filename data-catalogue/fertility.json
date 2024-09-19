@@ -1,6 +1,6 @@
 {
-    "title_en": "Total Fertility Rate (TFR) and Age-Specific Fertility Rates (ASFR)",
-    "title_ms": "Kadar Kesuburan Keseluruhan (TFR) dan Kadar Kesuburan Mengikut Umur (ASFR)",
+    "title_en": "TFR and ASFR",
+    "title_ms": "TFR dan ASFR",
     "title_sort": 1,
     "description_en": "Total fertility rate (TFR) and Age-Specific Fertility Rates (ASFR) from 1958 to the present at national level.",
     "description_ms": "Kadar kesuburan keseluruhan (TFR) dan kadar kesuburan mengikut umur (ASFR) dari 1958 hingga kini di peringkat nasional.",
@@ -9,8 +9,8 @@
     "data_as_of": "2022",
     "last_updated": "2023-10-17 12:00",
     "next_update": "2024-10-17 12:00",
-    "methodology_en": "",
-    "methodology_ms": "",
+    "methodology_en": "An age-specific fertility rate (ASFR) is the average number of births per 1,000 women in a specific age group. The ASFRs shown in this dataset are computed from administrative records of births registered with JPN (which record the age of the mother), as well as population data from DOSM.\n\nThe total fertility rate (TFR)  is the average number of children born to a woman who goes through her child-bearing years experiencing the ASFR of each age group. It is computed by:\n - Summing the ASFRs of all age groups, then\n - Multiplying the number by 5 to account for the size of each age group, and finally\n - Dividing by 1000 (to convert the figure from per 1000 women to per woman.",
+    "methodology_ms": "Kadar kesuburan mengikut umur (ASFR) adalah purata jumlah kelahiran per 1,000 wanita dalam kumpulan umur tertentu. ASFR yang dipaparkan dalam set data ini dihitung berdasarkan rekod pentadbiran kelahiran yang didaftarkan dengan JPN (yang mencatatkan umur ibu), serta data penduduk dari DOSM.\n\nKadar kesuburan keseluruhan (TFR) adalah purata jumlah anak yang dilahirkan kepada seorang wanita yang melalui hidupnya dengan mengalami ASFR setiap kumpulan umur. Ia dihitung dengan:\n - Menjumlahkan ASFR semua kumpulan umur, kemudian\n - Mengalikan jumlah dengan 5 untuk mengambil kira julat setiap kumpulan umur, dan akhirnya\n - Membahagikan dengan 1000 untuk mengubah angka dari angka bagi setiap 1000 wanita kepada angka bagi seorang wanita.",
     "caveat_en": "ASFR values are based on the actual number of live births per 1000 women in each 5-year age group. However, when interpreting TFR values, it is important to note that the TFR is based on a hypothetical woman who goes through her child-bearing years experiencing the ASFR of each age group. This is not equivalent to the average number of children born to currently-living female citizens aged 15-49, as this number would actually be a reflection of past rather than current ASFR values.",
     "caveat_ms": "Nilai ASFR berdasarkan jumlah kelahiran hidup sebenar bagi setiap 1000 wanita dalam setiap kumpulan umur 5 tahun. Walau bagaimanapun, dalam mentafsirkan nilai TFR, perlu diingati bahawa TFR berdasarkan unjuran seorang wanita yang melalui hidupnya dengan mengalami ASFR setiap kumpulan umur. Ini tidak sama dengan purata jumlah anak yang dilahirkan kepada penduduk wanita berumur 15-49 tahun, kerana angka tersebut sebenarnya dipengaruhi oleh nilai ASFR masa lalu dan bukannya nilai ASFR semasa.",
     "publication_en": "OpenDOSM features a dashboard on [Population & Vital Statistics](https://open.dosm.gov.my/dashboard/population) where you can explore this data in a more interactive manner!",
@@ -66,8 +66,8 @@
         "name": "fertility_rate",
         "title_en": "Fertility Rate",
         "title_ms": "Kadar Kesuburan",
-        "description_en": "[Float] Fertility rate for the specific age group or the total fertility rate (TFR).",
-        "description_ms": "[Float] Kadar kesuburan bagi kumpulan umur khusus atau kadar kesuburan jumlah (TFR)."
+        "description_en": "[Float] Fertility rate for the specific age group (ASFRs) or the total fertility rate (TFR). ASFR values are the number of live births per 1000 women in the age group, whereas TFR values are the average number of children born to a woman who goes through her child-bearing years experiencing the ASFR of each age group.",
+        "description_ms": "[Float] Kadar kesuburan bagi kumpulan umur khusus (ASFR) atau kadar kesuburan jumlah (TFR). Nilai ASFR adalah jumlah kelahiran hidup per 1000 wanita dalam kumpulan umur, manakala nilai TFR adalah purata jumlah anak yang dilahirkan kepada seorang wanita yang melalui hidupnya dengan mengalami ASFR setiap kumpulan umur."
       }
     ],
     "dataviz": [
@@ -106,6 +106,8 @@
     ],
     "translations_en": {
       "date": "Date",
+      "x": "Date",
+      "y": "Rate",
       "age_group": "Age Group",
       "fertility_rate": "Fertility Rate",
       "tfr": "Total Fertility Rate"
