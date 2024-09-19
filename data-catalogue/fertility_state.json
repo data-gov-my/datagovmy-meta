@@ -15,8 +15,8 @@
     "caveat_ms": "Nilai ASFR berdasarkan jumlah kelahiran hidup sebenar bagi setiap 1000 wanita dalam setiap kumpulan umur 5 tahun. Walau bagaimanapun, dalam mentafsirkan nilai TFR, perlu diingati bahawa TFR berdasarkan unjuran seorang wanita yang melalui hidupnya dengan mengalami ASFR setiap kumpulan umur. Ini tidak sama dengan purata sebenar jumlah anak yang dilahirkan kepada penduduk wanita berumur 15-49 tahun, kerana angka tersebut sebenarnya dipengaruhi oleh nilai ASFR masa lalu dan bukannya nilai ASFR semasa.",
     "publication_en": "OpenDOSM features a dashboard on [Population & Vital Statistics](https://open.dosm.gov.my/dashboard/population) where you can explore this data in a more interactive manner!",
     "publication_ms": "OpenDOSM memaparkan papan pemuka tentang [Penduduk & Perangkaan Penting](https://open.dosm.gov.my/ms-MY/dashboard/population) yang membolehkan anda menerokai set data ini dengan lebih interaktif!",
-    "link_parquet": "https://storage.dosm.gov.my/demography/fertility.parquet",
-    "link_csv": "https://storage.dosm.gov.my/demography/fertility.csv",
+    "link_parquet": "https://storage.dosm.gov.my/demography/fertility_state.parquet",
+    "link_csv": "https://storage.dosm.gov.my/demography/fertility_state.csv",
     "frequency": "ANNUAL",
     "geography": [
       "NATIONAL"
