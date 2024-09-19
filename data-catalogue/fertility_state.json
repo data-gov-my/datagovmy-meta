@@ -1,16 +1,16 @@
 {
-    "title_en": "TFR and ASFR",
-    "title_ms": "TFR dan ASFR",
-    "title_sort": 1,
-    "description_en": "Total fertility rate (TFR) and Age-Specific Fertility Rates (ASFR) from 1958 to the present at national level.",
-    "description_ms": "Kadar kesuburan keseluruhan (TFR) dan kadar kesuburan mengikut umur (ASFR) dari 1958 hingga kini di peringkat nasional.",
+    "title_en": "TFR and ASFR by State",
+    "title_ms": "TFR dan ASFR mengikut Negeri",
+    "title_sort": 2,
+    "description_en": "Total fertility rate (TFR) and Age-Specific Fertility Rates (ASFR) by state.",
+    "description_ms": "Kadar kesuburan keseluruhan (TFR) dan kadar kesuburan mengikut umur (ASFR) mengikut negeri.",
     "exclude_openapi": false,
     "manual_trigger": "",
     "data_as_of": "2022",
     "last_updated": "2023-10-17 12:00",
     "next_update": "2024-10-17 12:00",
     "methodology_en": "An age-specific fertility rate (ASFR) is the average number of births per 1,000 women in a specific age group. The ASFRs shown in this dataset are computed from administrative records of births registered with JPN (which record the age of the mother), as well as population data from DOSM as the denominator.\n\nThe total fertility rate (TFR)  is the average number of children born to a woman who goes through her child-bearing years experiencing the ASFR of each age group. It is computed by:\n - Summing the ASFRs of all age groups, then\n - Multiplying the number by 5 to account for the size of each age group, and finally\n - Dividing by 1000 (to convert the figure from per 1000 women to per woman.",
-    "methodology_ms": "Kadar kesuburan mengikut umur (ASFR) adalah purata jumlah kelahiran per 1,000 wanita dalam kumpulan umur tertentu. ASFR yang dipaparkan dalam set data ini dihitung berdasarkan rekod pentadbiran kelahiran yang didaftarkan dengan JPN (yang mencatatkan umur ibu), serta data penduduk dari DOSM.\n\nKadar kesuburan keseluruhan (TFR) adalah purata jumlah anak yang dilahirkan kepada seorang wanita yang melalui hidupnya dengan mengalami ASFR setiap kumpulan umur. Ia dihitung dengan:\n - Menjumlahkan ASFR semua kumpulan umur, kemudian\n - Mengalikan jumlah dengan 5 untuk mengambil kira julat setiap kumpulan umur, dan akhirnya\n - Membahagikan dengan 1000 untuk mengubah angka dari angka bagi setiap 1000 wanita kepada angka bagi seorang wanita.",
+    "methodology_ms": "Kadar kesuburan mengikut umur (ASFR) adalah purata jumlah kelahiran per 1,000 wanita dalam kumpulan umur tertentu. ASFR yang dipaparkan dalam set data ini dihitung berdasarkan rekod pentadbiran kelahiran yang didaftarkan dengan JPN (yang mencatatkan umur ibu), serta data penduduk dari DOSM sebagai denominator.\n\nKadar kesuburan keseluruhan (TFR) adalah purata jumlah anak yang dilahirkan kepada seorang wanita yang melalui hidupnya dengan mengalami ASFR setiap kumpulan umur. Ia dihitung dengan:\n - Menjumlahkan ASFR semua kumpulan umur, kemudian\n - Mengalikan jumlah dengan 5 untuk mengambil kira julat setiap kumpulan umur, dan akhirnya\n - Membahagikan dengan 1000 untuk mengubah angka dari angka bagi setiap 1000 wanita kepada angka bagi seorang wanita.",
     "caveat_en": "ASFR values are based on the actual number of live births per 1000 women in each 5-year age group. However, when interpreting TFR values, it is important to note that the TFR is based on a hypothetical woman who goes through her child-bearing years experiencing the ASFR of each age group. This is not equivalent to the actual average number of children born to currently-living female citizens aged 15-49, as this number would be a reflection of past rather than current ASFR values.",
     "caveat_ms": "Nilai ASFR berdasarkan jumlah kelahiran hidup sebenar bagi setiap 1000 wanita dalam setiap kumpulan umur 5 tahun. Walau bagaimanapun, dalam mentafsirkan nilai TFR, perlu diingati bahawa TFR berdasarkan unjuran seorang wanita yang melalui hidupnya dengan mengalami ASFR setiap kumpulan umur. Ini tidak sama dengan purata sebenar jumlah anak yang dilahirkan kepada penduduk wanita berumur 15-49 tahun, kerana angka tersebut sebenarnya dipengaruhi oleh nilai ASFR masa lalu dan bukannya nilai ASFR semasa.",
     "publication_en": "OpenDOSM features a dashboard on [Population & Vital Statistics](https://open.dosm.gov.my/dashboard/population) where you can explore this data in a more interactive manner!",
@@ -49,6 +49,13 @@
     ],
     "fields": [
       {
+          "name": "state",
+          "title_en": "State",
+          "title_ms": "Negeri",
+          "description_en": "[Categorical] One of 16 states",
+          "description_ms": "[Kategori] Satu daripada 16 negeri"
+      },
+      {
         "name": "date",
         "title_en": "Date",
         "title_ms": "Tarikh",
@@ -79,6 +86,7 @@
         "config": {
           "precision": 2,
           "filter_columns": [
+            "state",
             "age_group"
           ],
           "freeze_columns": []
@@ -91,6 +99,7 @@
         "chart_type": "TIMESERIES",
         "config": {
           "filter_columns": [
+            "state",
             "age_group"
           ],
           "precision": 2,
@@ -106,6 +115,7 @@
     ],
     "translations_en": {
       "date": "Date",
+      "state": "State",
       "x": "Date",
       "y1": "Rate",
       "age_group": "Age Group",
@@ -114,6 +124,7 @@
     },
     "translations_ms": {
       "date": "Tarikh",
+      "state": "Negeri",
       "x": "Date",
       "y1": "Kadar",
       "age_group": "Kumpulan Umur",
