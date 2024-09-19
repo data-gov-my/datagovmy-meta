@@ -17,7 +17,7 @@
     "publication_ms": "OpenDOSM memaparkan papan pemuka tentang [Penduduk & Perangkaan Penting](https://open.dosm.gov.my/ms-MY/dashboard/population) yang membolehkan anda menerokai set data ini dengan lebih interaktif!",
     "link_parquet": "https://storage.dosm.gov.my/demography/fertility.parquet",
     "link_csv": "https://storage.dosm.gov.my/demography/fertility.csv",
-    "frequency": "ANNUAL",
+    "frequency": "YEARLY",
     "geography": [
       "NATIONAL"
     ],
