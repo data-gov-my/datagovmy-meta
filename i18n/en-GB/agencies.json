@@ -8,6 +8,10 @@
             "full": "National Anti-Drugs Agency",
             "abbr": "AADK"
         },
+        "audit": {
+            "full": "National Audit Department",
+            "abbr": "AUDIT"
+        },
         "bnm": {
             "full": "Central Bank of Malaysia",
             "abbr": "BNM"
@@ -47,6 +51,14 @@
         "janm": {
             "full": "Accountant-General's Department",
             "abbr": "JANM"
+        },
+        "jas": {
+            "full": "Department of Environment",
+            "abbr": "JAS"
+        },
+        "jdn": {
+            "full": "Jabatan Digital Negara",
+            "abbr": "JDN"
         },
         "jpa": {
             "full": "Public Service Department",
@@ -112,17 +124,21 @@
             "full": "Ministry of Transport",
             "abbr": "MoT"
         },
+        "napic": {
+            "full": "National Property Information Centre",
+            "abbr": "NAPIC"
+        },
         "npra": {
             "full": "National Pharmaceutical Regulatory Agency",
             "abbr": "NPRA"
         },
+        "nres": {
+            "full": "Ministry of Natural Resources & Environmental Sustainability",
+            "abbr": "NRES"
+        },
         "ntrc": {
             "full": "National Transplant Resource Centre",
             "abbr": "NTRC"
-        },
-        "napic": {
-            "full": "National Property Information Centre",
-            "abbr": "NAPIC"
         },
         "pdn": {
             "full": "National Blood Centre",
@@ -131,6 +147,10 @@
         "pdrm": {
             "full": "Royal Malaysia Police",
             "abbr": "PDRM"
+        },
+        "perhutanan": {
+            "full": "Forestry Department of Peninsular Malaysia",
+            "abbr": "Perhutanan"
         },
         "perkeso": {
             "full": "Social Security Organization",
@@ -141,8 +161,12 @@
             "abbr": "PHCorp"
         },
         "prasarana": {
-            "full": "Malaysian Infrastructure Limited",
+            "full": "Prasarana Malaysia",
             "abbr": "Prasarana"
+        },
+        "sesb": {
+            "full": "Sabah Electricity Sdn. Bhd.",
+            "abbr": "SESB"
         },
         "spr": {
             "full": "Election Commission of Malaysia",
@@ -151,6 +175,18 @@
         "ssm": {
             "full": "Companies Commission of Malaysia",
             "abbr": "SSM"
+        },
+        "st": {
+            "full": "Energy Commission of Malaysia",
+            "abbr": "ST"
+        },
+        "swk energy": {
+            "full": "Sarawak Energy",
+            "abbr": "SWK ENERGY"
+        },
+        "tnb": {
+            "full": "Tenaga Nasional",
+            "abbr": "TNB"
         },
         "unhcr": {
             "full": "United Nations High Commissioner for Refugees",
