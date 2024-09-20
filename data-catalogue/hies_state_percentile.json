@@ -27,23 +27,24 @@
 	  "BPHPP"
 	],
 	"site_category": [
-		{
-			"site": "datagovmy",
-			"category_en": "Households",
-			"category_ms": "Isi Rumah",
-			"category_sort": 20,
-			"subcategory_en": "Income & Expenditure",
-			"subcategory_ms": "Pendapatan & Perbelanjaan"
-		},
-		{
-			"site": "opendosm",
-			"category_en": "Households",
-			"category_ms": "Isi Rumah",
-			"category_sort": 20,
-			"subcategory_en": "Income & Expenditure",
-			"subcategory_ms": "Pendapatan & Perbelanjaan",
-			"subcategory_sort": 20
-		}
+        {
+          "site": "datagovmy",
+          "category_en": "Households",
+          "category_ms": "Isi Rumah",
+          "category_sort": 20,
+          "subcategory_en": "Income",
+          "subcategory_ms": "Pendapatan",
+          "subcategory_sort": 20
+        },
+        {
+          "site": "opendosm",
+          "category_en": "Households",
+          "category_ms": "Isi Rumah",
+          "category_sort": 20,
+          "subcategory_en": "Income",
+          "subcategory_ms": "Pendapatan",
+          "subcategory_sort": 20
+        }
 	],
 	"fields": [
 		{
