@@ -31,6 +31,12 @@
 				"resource_type": "pdf",
 				"resource_name": "Technical Notes: Income Inequality",
 				"resource_link": "https://storage.dosm.gov.my/technotes/hies_income_inequality.pdf"
+			},
+			{
+				"resource_id": 5,
+				"resource_type": "pdf",
+				"resource_name": "Technical Notes: Access to Basic Amenities",
+				"resource_link": "https://storage.dosm.gov.my/technotes/hies_ba.pdf"
 			}
 		]
 	},
@@ -62,6 +68,12 @@
 				"resource_type": "pdf",
 				"resource_name": "Nota Teknikal: Ketidaksamarataan Pendapatan",
 				"resource_link": "https://storage.dosm.gov.my/technotes/hies_income_inequality.pdf"
+			},
+			{
+				"resource_id": 5,
+				"resource_type": "pdf",
+				"resource_name": "Nota Teknikal: Akses kepada Kemudahan Asas",
+				"resource_link": "https://storage.dosm.gov.my/technotes/hies_ba.pdf"
 			}
 		]
 	}
