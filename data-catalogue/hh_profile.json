@@ -15,8 +15,8 @@
     "caveat_ms": "Angka-angka terperinci mungkin sedikit berbeza dengan angka keseluruhan apabila terjumlah, disebabkan oleh penggenapan kepada satu titik perpuluhan.",
     "publication_en": "OpenDOSM features a [dashboard on the population of Malaysia](https://open.dosm.gov.my/dashboard/population).",
     "publication_ms": "OpenDOSM memaparkan [papan pemuka khas tentang populasi](https://open.dosm.gov.my/dashboard/population).",
-    "link_parquet": "https://storage.dosm.gov.my/household/hh_lq.parquet",
-    "link_csv": "https://storage.dosm.gov.my/household/hh_lq.csv",
+    "link_parquet": "https://storage.dosm.gov.my/demography/hh_lq.parquet",
+    "link_csv": "https://storage.dosm.gov.my/demography/hh_lq.csv",
     "frequency": "YEARLY",
     "geography": [
         "NATIONAL"
