@@ -5,7 +5,7 @@
     "description_en": "Number of households and living quarters in Malaysia from 1970 to 2024.",
     "description_ms": "Bilangan isi rumah dan tempat kediaman di Malaysia dari 1970 hingga 2024.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2024",
     "last_updated": "2024-07-31 12:00",
     "next_update": "2025-07-31 12:00",
