@@ -72,8 +72,8 @@
             "name": "crop_type",
             "title_en": "Crop Type",
             "title_ms": "Jenis Tanaman",
-            "description_en": "[Categorical] The type of crop, covering cash crops, industrial crops, coconut, paddy, flowers, herbs, spices, fruits and vegetables",
-            "description_ms": "[Kategori] Jenis tanaman, merangkumi tanaman kontan, tanaman industri, kelapa, padi, bunga, herba, rempah, buah-buahan dan sayur-sayuran"
+            "description_en": "[Categorical] The type of crop in snake case, covering cash crops, industrial crops, coconut, paddy, flowers, herbs, spices, fruits and vegetables",
+            "description_ms": "[Kategori] Jenis tanaman dalam _snake case_, merangkumi tanaman kontan, tanaman industri, kelapa, padi, bunga, herba, rempah, buah-buahan dan sayur-sayuran"
         },
         {
             "name": "planted_area",
