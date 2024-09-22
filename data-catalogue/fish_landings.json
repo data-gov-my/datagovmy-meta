@@ -122,7 +122,12 @@
         "date": "Date",
         "coast": "Coast",
         "state": "State",
-        "landings": "Landings"
+        "landings": "Landings",
+        "east": "East Coast",
+        "west": "West Coast",
+        "borneo": "Borneo",
+        "all": "All Coasts",
+        "all-states": "All States"
     },
     "translations_ms": {
         "x": "Tarikh",
@@ -130,7 +135,12 @@
         "date": "Tarikh",
         "coast": "Pantai",
         "state": "Negeri",
-        "landings": "Pendaratan"
+        "landings": "Pendaratan",
+        "east": "Pantai Timur",
+        "west": "Pantai Barat",
+        "borneo": "Borneo",
+        "all": "Semua Pantai",
+        "all-states": "Semua Negeri"
     },
     "related_datasets": []
 }
