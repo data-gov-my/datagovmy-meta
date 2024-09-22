@@ -5,7 +5,7 @@
     "description_en": "Production of major timber products by state from 2000 to 2021, broken down by product type.",
     "description_ms": "Pengeluaran produk utama kayu mengikut negeri dari 2000 hingga 2021, dengan pecahan mengikut jenis produk.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2021",
     "last_updated": "2024-09-01 12:00",
     "next_update": "tbc",
