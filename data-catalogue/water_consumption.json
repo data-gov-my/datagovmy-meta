@@ -73,7 +73,7 @@
             "description_ms": "[Kategori] Sama ada sektor domestik ('domestik') atau bukan domestik ('bukan domestik')."
         },
         {
-            "name": "consumption",
+            "name": "value",
             "title_en": "Water Consumption",
             "title_ms": "Penggunaan Air",
             "description_en": "[Float] Amount of water consumed in millions of litres per day (MLD)",
@@ -110,7 +110,7 @@
                 "format": {
                     "x": "year",
                     "y": [
-                        "consumption"
+                        "value"
                     ]
                 }
             }
@@ -122,7 +122,7 @@
         "year": "Year",
         "state": "State",
         "sector": "Sector",
-        "consumption": "Water Consumption",
+        "value": "Water Consumption",
         "domestic": "Domestic",
         "non-domestic": "Non-Domestic"
     },
@@ -132,7 +132,7 @@
         "year": "Tahun",
         "state": "Negeri",
         "sector": "Sektor",
-        "consumption": "Penggunaan Air",
+        "value": "Penggunaan Air",
         "domestic": "Domestik",
         "non-domestic": "Bukan Domestik"
     },
