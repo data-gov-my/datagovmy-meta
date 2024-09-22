@@ -78,8 +78,8 @@
             "name": "production",
             "title_en": "Production",
             "title_ms": "Pengeluaran",
-            "description_en": "[Float] The total production of the timber product in cubic meters",
-            "description_ms": "[Apung] Jumlah pengeluaran produk kayu dalam meter padu"
+            "description_en": "[Float] The total production of the timber product in cubic meters (m³)",
+            "description_ms": "[Apung] Jumlah pengeluaran produk kayu dalam meter padu (m³)"
         }
     ],
     "dataviz": [
@@ -92,7 +92,7 @@
                 "precision": 0,
                 "filter_columns": [
                     "state",
-                    "product_type"
+                    "product"
                 ]
             }
         },
@@ -104,7 +104,7 @@
             "config": {
                 "filter_columns": [
                     "state",
-                    "product_type"
+                    "product"
                 ],
                 "precision": 0,
                 "operation": "SUM",
