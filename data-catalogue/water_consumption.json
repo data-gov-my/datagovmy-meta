@@ -96,7 +96,7 @@
             }
         },
         {
-            "dataviz_id": "consumption",
+            "dataviz_id": "timeseries",
             "title_en": "Water Consumption",
             "title_ms": "Penggunaan Air",
             "chart_type": "TIMESERIES",

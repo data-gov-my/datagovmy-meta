@@ -88,7 +88,7 @@
             }
         },
         {
-            "dataviz_id": "consumption",
+            "dataviz_id": "timeseries",
             "title_en": "Water Production",
             "title_ms": "Pengeluaran Air",
             "chart_type": "TIMESERIES",
