@@ -38,7 +38,7 @@
             "category_sort": 90,
             "subcategory_en": "Industry",
             "subcategory_ms": "Industri",
-            "subcategory_sort": 30
+            "subcategory_sort": 13
         },
         {
             "site": "opendosm",
@@ -47,7 +47,7 @@
             "category_sort": 90,
             "subcategory_en": "Industry",
             "subcategory_ms": "Industri",
-            "subcategory_sort": 30
+            "subcategory_sort": 13
         }
     ],
     "fields": [
