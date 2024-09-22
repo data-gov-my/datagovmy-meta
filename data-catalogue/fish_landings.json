@@ -5,7 +5,7 @@
     "description_en": "Monthly landings of marine fish by state and coast from 2018 to 2023.",
     "description_ms": "Pendaratan ikan laut bulanan mengikut negeri dan pantai dari 2018 hingga 2023.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2023-12",
     "last_updated": "2024-09-01 12:00",
     "next_update": "tbc",
