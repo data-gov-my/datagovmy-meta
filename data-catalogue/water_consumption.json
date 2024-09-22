@@ -124,7 +124,7 @@
         "sector": "Sector",
         "value": "Water Consumption",
         "domestic": "Domestic",
-        "non-domestic": "Non-Domestic"
+        "nondomestic": "Non-Domestic"
     },
     "translations_ms": {
         "x": "Tahun",
@@ -134,7 +134,7 @@
         "sector": "Sektor",
         "value": "Penggunaan Air",
         "domestic": "Domestik",
-        "non-domestic": "Bukan Domestik"
+        "nondomestic": "Bukan Domestik"
     },
     "related_datasets": []
 }
