@@ -108,7 +108,7 @@
                 "precision": 2,
                 "operation": "SUM",
                 "format": {
-                    "x": "year",
+                    "x": "date",
                     "y": [
                         "value"
                     ]
