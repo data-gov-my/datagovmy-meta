@@ -35,7 +35,7 @@
           "category_sort": 1,
           "subcategory_en": "Fertility",
           "subcategory_ms": "Kesuburan",
-          "subcategory_sort": 4
+          "subcategory_sort": 6
         },
         {
           "site": "opendosm",
@@ -44,7 +44,7 @@
           "category_sort": 1,
           "subcategory_en": "Fertility",
           "subcategory_ms": "Kesuburan",
-          "subcategory_sort": 4
+          "subcategory_sort": 6
         }
     ],
     "fields": [
