@@ -5,7 +5,7 @@
     "description_en": "Number of marriages registered annually in Malaysia, including marriage rates per 1,000 unmarried population",
     "description_ms": "Jumlah perkahwinan yang didaftarkan setiap tahun di Malaysia, termasuk kadar perkahwinan bagi setiap 1,000 penduduk yang tidak berkahwin.",
     "exclude_openapi": false,
-    "manual_trigger": "na",
+    "manual_trigger": "",
     "data_as_of": "2022-12-31 23:59",
     "last_updated": "2023-11-23 12:00",
     "next_update": "2024-11-21 12:00",
@@ -121,7 +121,7 @@
             }
         },
         {
-            "dataviz_id": "marriage_rates",
+            "dataviz_id": "marriage_rate",
             "title_en": "Marriage Rate",
             "title_ms": "Kadar Perkahwinan",
             "chart_type": "TIMESERIES",
