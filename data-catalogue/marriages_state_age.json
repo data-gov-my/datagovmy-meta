@@ -176,6 +176,7 @@
         "female": "Female",
         "all": "All Age Groups",
         "20": "< 20",
+        "65": "65+",
         "y1": "Value"
     },
     "translations_ms": {
@@ -189,6 +190,7 @@
         "female": "Perempuan",
         "all": "Semua Kumpulan Umur",
         "20": "< 20",
+        "65": "65+",
         "y1": "Nilai"
     },
     "related_datasets": []
