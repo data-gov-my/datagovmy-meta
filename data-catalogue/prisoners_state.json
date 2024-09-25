@@ -1,0 +1,141 @@
+{
+    "title_en": "Prisoners by State and Sex",
+    "title_ms": "Banduan mengikut Negeri dan Jantina",
+    "title_sort": 1,
+    "description_en": "Number of prisoners in Malaysia by state and sex from 2017 to 2022.",
+    "description_ms": "Bilangan banduan di Malaysia mengikut negeri dan jantina dari 2017 hingga 2022.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2022-12-31 23:59",
+    "last_updated": "2023-12-31 12:00",
+    "next_update": "2024-12-31 12:00",
+    "methodology_en": "In Malaysia, there are two types of prisoners:\n\n- **Convicted prisoners**: Individuals who have been convicted of a crime and subsequently imprisoned.\n- **Remand prisoners**: Individuals who have been detained and are awaiting trial.\n\nThis data shows the total number of prisoners, both convicted and remand, and is tabulated from the individual-level administrative records of prisoners managed by the Prisons Department, which is the single source of truth for all prison data in Malaysia.",
+    "methodology_ms": "Terdapat dua jenis banduan di Malaysia:\n\n- **Banduan sabitan**: Banduan yang telah disabitkan dengan kesalahan dan dijatuhkan hukuman oleh Mahkamah.\n- **Banduan reman**: Banduan yang ditahan di penjara menunggu perbicaraan di Mahkamah.\n\nData ini menunjukkan jumlah banduan keseluruhan, termasuk banduan sabitan dan tahanan, dan dihasilkan daripada rekod pentadbiran peringkat individu bagi banduan yang diuruskan oleh Jabatan Penjara, iaitu sumber tunggal bagi segala data penjara di Malaysia.",
+    "caveat_en": "This data is intended to provide a snapshot of the prison population as at the end of each reporting year. It should not be used to assess trends in crime, recidivism, or other criminal justice indicators.",
+    "caveat_ms": "Data ini bertujuan untuk menyediakan gambaran populasi banduan setakat akhir tahun pelaporan. Ia tidak harus digunakan untuk menilai tren dalam jenayah, residivisme, atau indikator keadilan lain.",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/publicsafety/prisoners_state.parquet",
+    "link_csv": "https://storage.data.gov.my/publicsafety/prisoners_state.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "SEX"
+    ],
+    "dataset_begin": 2017,
+    "dataset_end": 2022,
+    "data_source": [
+        "Penjara"
+    ],
+    "data_source_granular": [],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Public Safety",
+            "category_ms": "Keselamatan Awam",
+            "category_sort": 42,
+            "subcategory_en": "Justice",
+            "subcategory_ms": "Keadilan",
+            "subcategory_sort": 20
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Public Safety",
+            "category_ms": "Keselamatan Awam",
+            "category_sort": 42,
+            "subcategory_en": "Justice",
+            "subcategory_ms": "Keadilan",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states",
+            "description_ms": "[Kategori] Satu daripada 16 negeri"
+        },
+		{
+			"name": "sex",
+			"title_en": "Sex",
+			"title_ms": "Jantina",
+			"description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
+			"description_ms": "[Kategori] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
+		},
+        {
+            "name": "prisoners",
+            "title_en": "Number of Prisoners",
+            "title_ms": "Bilangan Banduan",
+            "description_en": "[Integer] The number of prisoners as of 31st December in the given year",
+            "description_ms": "[Integer] Bilangan banduan setakat 31 Disember pada tahun tersebut"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "filter_columns": [
+                    "state",
+                    "sex"
+                ]
+            }
+        },
+        {
+          "dataviz_id": "timeseries",
+          "title_en": "Prisoners",
+          "title_ms": "Banduan",
+          "chart_type": "TIMESERIES",
+          "config": {
+            "filter_columns": [
+                "state",
+                "sex"
+            ],
+            "precision": 0,
+            "operation": "SUM",
+            "format": {
+              "x": "date",
+              "y": [
+                "prisoners"
+              ]
+            }
+          }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Prisoners",
+        "date": "Date",
+        "state": "State",
+        "sex": "Sex",
+        "value": "Prisoners",
+        "both": "Both Sexes",
+        "male": "Male",
+        "female": "Female"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Banduan",
+        "date": "Tarikh",
+        "state": "Negeri",
+        "sex": "Jantina",
+        "value": "Banduan",
+        "both": "Kedua-dua Jantina",
+        "male": "Lelaki",
+        "female": "Perempuan"
+    },
+    "related_datasets": []
+}
