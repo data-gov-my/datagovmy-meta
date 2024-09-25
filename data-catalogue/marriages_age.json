@@ -1,25 +1,25 @@
 {
-    "title_en": "Annual Marriages by State",
-    "title_ms": "Perkahwinan Tahunan mengikut Negeri",
-    "title_sort": 30,
-    "description_en": "Number of marriages registered annually by state of residence, including marriage rates per 1,000 unmarried population",
-    "description_ms": "Jumlah perkahwinan yang didaftarkan setiap tahun mengikut negeri kediaman, termasuk kadar perkahwinan bagi setiap 1,000 penduduk yang tidak berkahwin.",
+    "title_en": "Annual Marriage by Age Group",
+    "title_ms": "Perkahwinan Tahunan mengikut Kumpulan Umur",
+    "title_sort": 10,
+    "description_en": "Number of marriages registered annually in Malaysia by age group, including marriage rates per 1,000 unmarried population",
+    "description_ms": "Jumlah perkahwinan yang didaftarkan setiap tahun di Malaysia mengikut kumpulan umur, termasuk kadar perkahwinan bagi setiap 1,000 penduduk yang tidak berkahwin.",
     "exclude_openapi": false,
     "manual_trigger": "",
     "data_as_of": "2022-12-31 23:59",
     "last_updated": "2023-11-23 12:00",
     "next_update": "2024-11-21 12:00",
-    "methodology_en": "In Malaysia, there are two parallel systems for marriage registration; non-Muslim marriages are registered with the National Registration Department (JPN), while Muslim marriages are registered with the Syariah Court. This dataset is tabulated from the transactional administrative data collected by both administrative systems. Classification by state is based on the state of residence of the bride and groom respectively, meaning that the total number of male and female marriages in a state does not necessarily have to be the same (however, the national totals must match).",
-    "methodology_ms": "Di Malaysia, terdapat dua sistem untuk pendaftaran perkahwinan; perkahwinan bagi orang bukan Islam didaftarkan dengan Jabatan Pendaftaran Negara (JPN), manakala perkahwinan bagi orang Islam didaftarkan dengan Mahkamah Syariah. Set data ini dihasilkan daripada rekod pentadbiran yang dikumpulkan oleh kedua-dua sistem administratif tersebut. Klasifikasi mengikut negeri adalah berdasarkan negeri kediaman bagi lelaki dan wanita yang berkahwin; ini bermaksud bahawa jumlah perkahwinan lelaki dan wanita bagi sesuatu negeri tidak semestinya sama (walaupun jumlah di peringkat nasional mesti sepadan).",
+    "methodology_en": "In Malaysia, there are two parallel systems for marriage registration; non-Muslim marriages are registered with the National Registration Department (JPN), while Muslim marriages are registered with the Syariah Court. This dataset is tabulated from the transactional administrative data collected by both administrative systems.",
+    "methodology_ms": "Di Malaysia, terdapat dua sistem untuk pendaftaran perkahwinan; perkahwinan bagi orang bukan Islam didaftarkan dengan Jabatan Pendaftaran Negara (JPN), manakala perkahwinan bagi orang Islam didaftarkan dengan Mahkamah Syariah. Set data ini dihasilkan daripada rekod pentadbiran yang dikumpulkan oleh kedua-dua sistem administratif tersebut.",
     "caveat_en": "The data represents registered marriages only. Unregistered marriages (including couples originally registered outside Malaysia who have not yet registered their marriage with local authorities) are not included in this dataset.",
     "caveat_ms": "Set data ini hanya mewakili perkahwinan yang didaftarkan. Perkahwinan yang tidak didaftarkan (termasuk pasangan yang didaftarkan di luar Malaysia yang belum lagi daftarkan perkahwinan mereka dengan kerajaan Malaysia) tidak terkandung dalam set data ini.",
     "publication_en": "\u2014",
     "publication_ms": "\u2014",
-    "link_parquet": "https://storage.dosm.gov.my/demography/marriages_state.parquet",
-    "link_csv": "https://storage.dosm.gov.my/demography/marriages_state.csv",
+    "link_parquet": "https://storage.dosm.gov.my/demography/marriages_age.parquet",
+    "link_csv": "https://storage.dosm.gov.my/demography/marriages_age.csv",
     "frequency": "YEARLY",
     "geography": [
-        "STATE"
+        "NATIONAL"
     ],
     "demography": [],
     "dataset_begin": 2017,
@@ -48,13 +48,6 @@
         }
     ],
     "fields": [
-		{
-			"name": "state",
-			"title_en": "State",
-			"title_ms": "Negeri",
-			"description_en": "[Categorical] One of 16 states, including the 3 Federal Territories",
-			"description_ms": "[Kategoril] Satu daripada 16 negeri, termasuk 3 Wilayah Persekutuan"
-		},
         {
             "name": "date",
             "title_en": "Date",
@@ -70,6 +63,13 @@
             "description_ms": "[Kategori] Sama ada lelaki ('male') atau perempuan ('female')"
         },
         {
+            "name": "age",
+            "title_en": "Age Group",
+            "title_ms": "Kumpulan Umur",
+            "description_en": "[Categorical] 5 year age groups covering 20-24, 25-29, ..., 55-59, 60-64, except for the categories for individuals less than 20 years old (< 20) or more than 65 years old (65+), which are consolidated due to their small numbers.",
+            "description_ms": "[Kategori] Kelompok umur 5 tahun, merangkumi 20-24, 25-29, ..., 55-59, 60-64, kecuali bagi kategori individu yang berumur kurang dari 20 tahun (< 20) atau lebih dari 65 tahun (65+), yang digabungkan kerana jumlahnya yang kecil."
+        },
+        {
             "name": "abs",
             "title_en": "Number of Marriages",
             "title_ms": "Jumlah Perkahwinan",
@@ -80,8 +80,8 @@
             "name": "rate",
             "title_en": "Marriage Rate",
             "title_ms": "Kadar Perkahwinan",
-            "description_en": "[Float] Number of marriages per 1000 currently unmarried population of the same sex in that state (including widowers and divorcees)",
-            "description_ms": "[Float] Jumlah perkahwinan bagi setiap 1000 penduduk yang tidak berkahwin bagi jantina dan negeri tersebut (termasuk duda dan bercerai)"
+            "description_en": "[Float] Number of marriages per 1000 currently unmarried population of the same sex and age group (including widowers and divorcees)",
+            "description_ms": "[Float] Jumlah perkahwinan bagi setiap 1000 penduduk yang tidak berkahwin bagi jantina dan kumpulan umur tersebut (termasuk duda dan bercerai)"
         }
     ],
     "dataviz": [
@@ -98,8 +98,8 @@
                   }
                 },
                 "filter_columns": [
-                    "state",
-                    "sex"
+                    "sex",
+                    "age"
                 ],
                 "freeze_columns": []
             }
@@ -111,8 +111,8 @@
             "chart_type": "TIMESERIES",
             "config": {
                 "filter_columns": [
-                    "state",
-                    "sex"
+                    "sex",
+                    "age"
                 ],
                 "precision": {
                   "default": 0,
@@ -130,14 +130,14 @@
             }
         },
         {
-            "dataviz_id": "marriage_rate",
+            "dataviz_id": "marriage_rates",
             "title_en": "Marriage Rate",
             "title_ms": "Kadar Perkahwinan",
             "chart_type": "TIMESERIES",
             "config": {
                 "filter_columns": [
-                    "state",
-                    "sex"
+                    "sex",
+                    "age"
                 ],
                 "precision": {
                   "default": 0,
@@ -158,7 +158,7 @@
     "translations_en": {
         "date": "Date",
         "sex": "Sex",
-        "state": "State",
+        "age": "Age Group",
         "abs": "Number",
         "rate": "Rate",
         "male": "Male",
@@ -168,7 +168,7 @@
     "translations_ms": {
         "date": "Tahun",
         "sex": "Jantina",
-        "state": "Negeri",
+        "age": "Kumpulan Umur",
         "abs": "Jumlah",
         "rate": "Kadar",
         "male": "Lelaki",
