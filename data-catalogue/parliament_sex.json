@@ -89,13 +89,17 @@
         "date": "Date",
         "house": "House",
         "female": "Women (%)",
-        "male": "Men (%)"
+        "male": "Men (%)",
+        "house-of-representatives": "House of Representatives",
+        "senate": "Senate"
     },
     "translations_ms": {
         "date": "Tarikh",
         "house": "Dewan",
         "female": "Wanita (%)",
-        "male": "Lelaki (%)"
+        "male": "Lelaki (%)",
+        "house-of-representatives": "Dewan Rakyat",
+        "senate": "Dewan Negara"
     },
     "related_datasets": []
 }
