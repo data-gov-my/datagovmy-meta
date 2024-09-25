@@ -35,7 +35,7 @@
             "site": "datagovmy",
             "category_en": "Households",
             "category_ms": "Isi Rumah",
-            "category_sort": 20,
+            "category_sort": 2,
             "subcategory_en": "Profile",
             "subcategory_ms": "Profil",
             "subcategory_sort": 10
@@ -44,7 +44,7 @@
             "site": "opendosm",
             "category_en": "Households",
             "category_ms": "Isi Rumah",
-            "category_sort": 20,
+            "category_sort": 2,
             "subcategory_en": "Profile",
             "subcategory_ms": "Profil",
             "subcategory_sort": 10
