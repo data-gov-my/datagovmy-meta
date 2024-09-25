@@ -15,8 +15,8 @@
     "caveat_ms": "Data ini bertujuan untuk menyediakan gambaran populasi banduan setakat akhir tahun pelaporan. Ia tidak harus digunakan untuk menilai tren dalam jenayah, residivisme, atau indikator keadilan lain.",
     "publication_en": "\u2014",
     "publication_ms": "\u2014",
-    "link_parquet": "https://storage.dosm.gov.my/publicsafety/prisoners_state.parquet",
-    "link_csv": "https://storage.dosm.gov.my/publicsafety/prisoners_state.csv",
+    "link_parquet": "https://storage.data.gov.my/publicsafety/prisoners_state.parquet",
+    "link_csv": "https://storage.data.gov.my/publicsafety/prisoners_state.csv",
     "frequency": "YEARLY",
     "geography": [
         "NATIONAL",
