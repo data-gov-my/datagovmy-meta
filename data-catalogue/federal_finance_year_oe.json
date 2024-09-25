@@ -34,7 +34,8 @@
       "category_ms": "Pentadbiran Awam",
       "category_sort": 80,
       "subcategory_en": "Public Finance",
-      "subcategory_ms": "Kewangan Awam"
+      "subcategory_ms": "Kewangan Awam",
+      "subcategory_sort": 10
     }
   ],
   "fields": [
