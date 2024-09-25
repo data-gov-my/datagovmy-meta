@@ -2,7 +2,7 @@
     "title_en": "Annual Marriages",
     "title_ms": "Perkahwinan Tahunan",
     "title_sort": 10,
-    "description_en": "Number of marriages registered annually in Malaysia, including marriage rates per 1,000 unmarried population",
+    "description_en": "Number of marriages registered annually in Malaysia, including marriage rates per 1,000 unmarried population.",
     "description_ms": "Jumlah perkahwinan yang didaftarkan setiap tahun di Malaysia, termasuk kadar perkahwinan bagi setiap 1,000 penduduk yang tidak berkahwin.",
     "exclude_openapi": false,
     "manual_trigger": "",
