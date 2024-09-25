@@ -163,6 +163,8 @@
         "rate": "Rate",
         "male": "Male",
         "female": "Female",
+        "all": "All Age Groups",
+        "20": "< 20",
         "y1": "Value"
     },
     "translations_ms": {
@@ -173,6 +175,8 @@
         "rate": "Kadar",
         "male": "Lelaki",
         "female": "Perempuan",
+        "all": "Semua Kumpulan Umur",
+        "20": "< 20",
         "y1": "Nilai"
     },
     "related_datasets": []
