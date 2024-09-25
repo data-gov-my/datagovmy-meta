@@ -2,7 +2,7 @@
     "title_en": "Annual Marriages by State",
     "title_ms": "Perkahwinan Tahunan mengikut Negeri",
     "title_sort": 30,
-    "description_en": "Number of marriages registered annually by state of residence, including marriage rates per 1,000 unmarried population",
+    "description_en": "Number of marriages registered annually by state of residence, including marriage rates per 1,000 unmarried population.",
     "description_ms": "Jumlah perkahwinan yang didaftarkan setiap tahun mengikut negeri kediaman, termasuk kadar perkahwinan bagi setiap 1,000 penduduk yang tidak berkahwin.",
     "exclude_openapi": false,
     "manual_trigger": "",
