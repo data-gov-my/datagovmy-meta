@@ -5,7 +5,7 @@
     "description_en": "Number of victims of human trafficking per 100,000 population by sex, age, and form of exploitation, as per the specifications of SDG Indicator 16-2-2.",
     "description_ms": "Bilangan mangsa pemerdagangan manusia bagi setiap 100,000 penduduk mengikut jantina, umur, dan bentuk pemerdagangan, selaras dengan spesifikasi Indikator SDG 16-2-2.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2022",
     "last_updated": "2024-09-01 12:00",
     "next_update": "-",
