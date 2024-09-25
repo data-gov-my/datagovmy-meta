@@ -1,7 +1,7 @@
 {
     "title_en": "SDG 16-2-2: Victims of Human Trafficking",
     "title_ms": "SDG 16-2-2: Mangsa Pemerdagangan Manusia",
-    "title_sort": 100,
+    "title_sort": 105,
     "description_en": "Number of victims of human trafficking per 100,000 population by sex, age, and form of exploitation, as per the specifications of SDG Indicator 16-2-2.",
     "description_ms": "Bilangan mangsa pemerdagangan manusia bagi setiap 100,000 penduduk mengikut jantina, umur, dan bentuk pemerdagangan, selaras dengan spesifikasi Indikator SDG 16-2-2.",
     "exclude_openapi": false,
@@ -80,8 +80,8 @@
 			"name": "value",
 			"title_en": "Victims per 100,000 Population",
 			"title_ms": "Mangsa per 100,000 Penduduk",
-			"description_en": "[Numeric] The number of victims of human trafficking per 100,000 population of that sex and age group",
-			"description_ms": "[Numerik] Bilangan mangsa pemerdagangan manusia bagi setiap 100,000 penduduk bagi jantina dan kumpulan umur tersebut"
+			"description_en": "[Float] The number of victims of human trafficking per 100,000 population of that sex and age group",
+			"description_ms": "[Apung] Bilangan mangsa pemerdagangan manusia bagi setiap 100,000 penduduk bagi jantina dan kumpulan umur tersebut"
 		}
     ],
     "dataviz": [
