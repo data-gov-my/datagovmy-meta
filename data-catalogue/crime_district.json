@@ -154,9 +154,9 @@
         "robbery-solo-unarmed": "Solo Robbery (Unarmed)",
         "theft-other": "Other Thefts",
         "break-in": "Break-in",
-        "vehicle-theft-lorry": "Vehicle Theft (Lorry)",
-        "vehicle-theft-motorcycle": "Vehicle Theft (Motorcycle)",
-        "vehicle-theft-motorcar": "Vehicle Theft (Motorcar)",
+        "theft-vehicle-lorry": "Vehicle Theft (Lorry)",
+        "theft-vehicle-motorcycle": "Vehicle Theft (Motorcycle)",
+        "theft-vehicle-motorcar": "Vehicle Theft (Motorcar)",
         "burglary": "Burglary"
     },
     "translations_ms": {
@@ -180,9 +180,9 @@
         "robbery-solo-unarmed": "Rompakan Solo (Tanpa Senjata)",
         "theft-other": "Pencurian Lain",
         "break-in": "Pecah dan Masuk",
-        "vehicle-theft-lorry": "Pencurian Kenderaan (Lorry)",
-        "vehicle-theft-motorcycle": "Pencurian Kenderaan (Motosikal)",
-        "vehicle-theft-motorcar": "Pencurian Kenderaan (Motokar)",
+        "theft-vehicle-lorry": "Pencurian Kenderaan (Lorry)",
+        "theft-vehicle-motorcycle": "Pencurian Kenderaan (Motosikal)",
+        "theft-vehicle-motorcar": "Pencurian Kenderaan (Motokar)",
         "burglary": "Pecah Rumah"
     },
     "related_datasets": []
