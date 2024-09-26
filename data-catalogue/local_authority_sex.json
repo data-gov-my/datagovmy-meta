@@ -80,7 +80,7 @@
             "config": {
                 "precision": 1,
                 "filter_columns": [
-                    "position"
+                    "local_authority"
                 ],
                 "freeze_columns": []
             }
