@@ -1,0 +1,185 @@
+{
+    "title_en": "Crimes by District & Crime Type",
+    "title_ms": "Jenayah mengikut Daerah & Jenis Jenayah",
+    "title_sort": 5,
+    "description_en": "Number of crimes in Malaysia by district, crime category, and type of crime.",
+    "description_ms": "Bilangan jenayah di Malaysia mengikut daerah, kategori jenayah, dan jenis jenayah.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2022-12-31 23:59",
+    "last_updated": "2023-11-02 12:00",
+    "next_update": "2024-11-04 12:00",
+    "methodology_en": "This dataset is tabulated from transactional report-level data collected by the Police Reporting System administered by the Royal Malaysian Police. Most importantly, it shows the number of **actual crimes** (i.e. where a conviction has already occurred) rather than the number of **reported crimes**, which may include false reports. For a deeper understanding of the methodology and associated concepts, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/crime-technotes). Finally, it should be noted that Malaysia's national statistics on crime are compiled in accordance with the International Classification of Crime for Statistical Purpose Version 1.0, which was published by the United Nations Office on Drugs and Crime (UNODC), to ensure international comparability.",
+    "methodology_ms": "Set data ini dihasilkan daripada rekod transaksi peringkat laporan yang dikumpulkan oleh Sistem Pelaporan Polis yang dikendali oleh Polis Diraja Malaysia. Ia menunjukkan bilangan **jenayah sebenar** (iaitu di mana pesalah telah disabitkan) dan bukannya bilangan **jenayah dilaporkan**, yang termasuk laporan palsu. Untuk mendapat pemahaman yang lebih mendalam tentang metodologi dan konsep berkaitan, sila rujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/crime-technotes). Akhirnya, pihak kerajaan ingin maklumkan bahawa statistik jenayah Malaysia disusun selaras dengan Klasifikasi Jenayah untuk Tujuan Statistik (versi 1.0) yang diterbitkan oleh *United Nations Office on Drugs and Crime (UNODC)*, bagi memudahkan perbandingan dan penarafan antarabangsa.",
+    "caveat_en": "Unreported crimes are not included in this dataset. In general, it is acknowledged that the true crime rate may exceed the reported crime rate, especially for crimes where there are significant disincentives or barriers to reporting.",
+    "caveat_ms": "Jenayah yang tidak dilaporkan tidak termasuk dalam set data ini. Secara am, kadar jenayah sebenar mungkin melebihi kadar jenayah dilaporkan, terutamanya bagi jenayah di mana mangsa mengalami kesusahan tertentu dalam membuat laporan secara rasmi.",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/publicsafety/crime_district.parquet",
+    "link_csv": "https://storage.data.gov.my/publicsafety/crime_district.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE",
+        "DISTRICT"
+    ],
+    "demography": [],
+    "dataset_begin": 2016,
+    "dataset_end": 2022,
+    "data_source": [
+        "PDRM",
+        "DOSM"
+    ],
+    "data_source_granular": [],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Public Safety",
+            "category_ms": "Keselamatan Awam",
+            "category_sort": 42,
+            "subcategory_en": "Crime",
+            "subcategory_ms": "Jenayah",
+            "subcategory_sort": 10
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Public Safety",
+            "category_ms": "Keselamatan Awam",
+            "category_sort": 42,
+            "subcategory_en": "Crime",
+            "subcategory_ms": "Jenayah",
+            "subcategory_sort": 10
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states, or Malaysia; however, data for W.P. Putrajaya and W.P. Labuan are subsumed under W.P. Kuala Lumpur and Sabah respectively.",
+            "description_ms": "[Kategori] Satu dari 16 negeri, atau Malaysia; namun, data bagi W.P. Putrajaya dan W.P. Labuan disekalikan bersama W.P. Kuala Lumpur dan Sabah masing-masing."
+        },
+        {
+            "name": "district",
+            "title_en": "Police District",
+            "title_ms": "Daerah Polis",
+            "description_en": "[Categorical] Name of the police district; note that this is different from the administrative district.",
+            "description_ms": "[Kategori] Nama daerah polis; perlu diingati bahawa ini berbeza daripada daerah pentadbiran"
+        },
+        {
+            "name": "category",
+            "title_en": "Crime Category",
+            "title_ms": "Kategori Jenayah",
+            "description_en": "[Categorical] Either violent crime ('assault') or property crime ('property')",
+            "description_ms": "[Kategori] Jenayah kekerasan ('assault') atau jenayah harta benda ('property')"
+        },
+        {
+            "name": "type",
+            "title_en": "Crime Type",
+            "title_ms": "Jenis Jenayah",
+            "description_en": "[Categorical] The specific type of crime in snake case",
+            "description_ms": "[Kategori] Jenis khusus jenayah dalam format 'snake case'"
+        },
+        {
+            "name": "crimes",
+            "title_en": "Number of Crimes",
+            "title_ms": "Bilangan Jenayah",
+            "description_en": "[Integer] The number of actual crimes where a conviction was secured",
+            "description_ms": "[Integer] Bilangan jenayah sebenar di mana pesalah telah disabitkan"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "filter_columns": [
+                    "state",
+                    "district",
+                    "category",
+                    "type"
+                ]
+            }
+        },
+        {
+          "dataviz_id": "timeseries",
+          "title_en": "Crimes",
+          "title_ms": "Jenayah",
+          "chart_type": "TIMESERIES",
+          "config": {
+            "filter_columns": [
+                "state",
+                "district",
+                "category",
+                "type"
+            ],
+            "precision": 0,
+            "operation": "SUM",
+            "format": {
+              "x": "date",
+              "y": [
+                "crimes"
+              ]
+            }
+          }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Crimes",
+        "date": "Date",
+        "state": "State",
+        "district": "District",
+        "category": "Category",
+        "type": "Type",
+        "value": "Crimes",
+        "all": "All",
+        "violent": "Violent",
+        "property": "Property",
+        "causing_injury": "Causing Injury",
+        "robbery_gang_armed": "Gang Robbery (Armed)",
+        "robbery_gang_unarmed": "Gang Robbery (Unarmed)",
+        "robbery_solo_armed": "Solo Robbery (Armed)",
+        "robbery_solo_unarmed": "Solo Robbery (Unarmed)",
+        "theft_other": "Other Thefts",
+        "break_in": "Break-in",
+        "vehicle_theft_lorry": "Vehicle Theft (Lorry)",
+        "vehicle_theft_motorcycle": "Vehicle Theft (Motorcycle)",
+        "vehicle_theft_motorcar": "Vehicle Theft (Motorcar)",
+        "burglary": "Burglary"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Jenayah",
+        "date": "Tarikh",
+        "state": "Negeri",
+        "district": "Daerah",
+        "category": "Kategori",
+        "type": "Jenis",
+        "value": "Jenayah",
+        "all": "Semua",
+        "violent": "Kekerasan",
+        "property": "Harta Benda",
+        "causing_injury": "Menyebabkan Kecederaan",
+        "robbery_gang_armed": "Rompakan Berkumpulan (Bersenjata)",
+        "robbery_gang_unarmed": "Rompakan Berkumpulan (Tanpa Senjata)",
+        "robbery_solo_armed": "Rompakan Solo (Bersenjata)",
+        "robbery_solo_unarmed": "Rompakan Solo (Tanpa Senjata)",
+        "theft_other": "Pencurian Lain",
+        "break_in": "Pecah dan Masuk",
+        "vehicle_theft_lorry": "Pencurian Kenderaan (Lorry)",
+        "vehicle_theft_motorcycle": "Pencurian Kenderaan (Motosikal)",
+        "vehicle_theft_motorcar": "Pencurian Kenderaan (Motokar)",
+        "burglary": "Pecah Rumah"
+    },
+    "related_datasets": []
+}
