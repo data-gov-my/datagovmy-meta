@@ -5,7 +5,7 @@
     "description_en": "Number and incidence of sexually transmitted diseases (STDs) by state, covering HIV, AIDS, chancroid, gonorrhea, and syphilis.",
     "description_ms": "Bilangan dan kadar insiden jangkitan transmisi seksual (STD) mengikut negeri, meliputi HIV, AIDS, chancroid, gonorrhea, dan sifilis.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2022",
     "last_updated": "2024-09-01 12:00",
     "next_update": "tbc",
