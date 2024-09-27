@@ -70,6 +70,25 @@
                 "filter_columns": [],
                 "freeze_columns": []
             }
+        },
+        {
+          "dataviz_id": "timeseries",
+          "title_en": "Allocation",
+          "title_ms": "Peruntukan",
+          "chart_type": "TIMESERIES",
+          "config": {
+            "filter_columns": [
+              "category"
+            ],
+            "precision": 0,
+            "operation": "SUM",
+            "format": {
+              "x": "date",
+              "y": [
+                "allocation"
+              ]
+            }
+          }
         }
     ],
     "translations_en": {
@@ -78,11 +97,11 @@
         "allocation": "Allocation",
         "de": "Development Expenditure (DE)",
         "oe": "Operating Expenditure (OE)",
-        "oe_10000": "OE > Emoluments",
-        "oe_20000": "OE > Services and Supplies",
-        "oe_30000": "OE > Assets",
-        "oe_40000": "OE > Fixed Payments",
-        "oe_50000": "OE > Other Expenditures",
+        "oe-10000": "OE > Emoluments",
+        "oe-20000": "OE > Services and Supplies",
+        "oe-30000": "OE > Assets",
+        "oe-40000": "OE > Fixed Payments",
+        "oe-50000": "OE > Other Expenditures",
         "total": "Total Allocation"
     },
     "translations_ms": {
@@ -91,11 +110,11 @@
         "total": "Peruntukan Keseluruhan",
         "de": "Perbelanjaan Pembangunan (DE)",
         "oe": "Perbelanjaan Operasi (OE)",
-        "oe_10000": "OE > Emolumen",
-        "oe_20000": "OE > Perkhidmatan dan Bekalan",
-        "oe_30000": "OE > Aset",
-        "oe_40000": "OE > Pemberian dan Bayaran Tetap",
-        "oe_50000": "OE > Perbelanjaan-perbelanjaan Lain"
+        "oe-10000": "OE > Emolumen",
+        "oe-20000": "OE > Perkhidmatan dan Bekalan",
+        "oe-30000": "OE > Aset",
+        "oe-40000": "OE > Pemberian dan Bayaran Tetap",
+        "oe-50000": "OE > Perbelanjaan-perbelanjaan Lain"
     },
     "related_datasets": []
 }
