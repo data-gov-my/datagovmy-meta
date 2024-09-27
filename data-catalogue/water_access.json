@@ -6,7 +6,7 @@
     "description_ms": "Akses isi rumah kepada sumber air paip dirawat mengikut negeri dan strata.",
     "exclude_openapi": false,
     "manual_trigger": "",
-    "data_as_of": "2022-12-31 23:59",
+    "data_as_of": "2022",
     "last_updated": "2024-09-01 12:00",
     "next_update": "tbc",
     "methodology_en": "In Malaysia, all public and private operators of water provision services must be licensed by the National Water Services Commission (SPAN), and must report key performance indicators as specified in the terms of the license issued by SPAN. This dataset represents part of that reporting, and is compiled from the transactional operational records of water supply companies across Malaysia. Official data on the [number of households](https://data.gov.my/data-catalogue/hh_profile_state) from the Department of Statistics (DOSM) is used as the target population, or the denominator for calculating percentage coverage.\n\nIt should be noted that:\n- Data for Sarawak includes LAKU Management Sdn. Bhd. (Bintulu, Miri & Limbang, Sibu Water Board, Kuching Water Board and Sarawak Rural Water Supply Department (JBALB). Figures for the rural areas of Sarawak exclude partly treated portable water supplied by the other agencies such as Ministry of Rural and Regional Development, Ministry of Health and private water supply.\n- Data for W.P. Kuala Lumpur and W.P. Putrajaya are subsumed under Selangor.",
