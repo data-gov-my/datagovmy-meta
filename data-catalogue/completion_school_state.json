@@ -5,7 +5,7 @@
     "description_en": "Proportion of students who complete primary, lower secondary, and upper secondary education at national and state level.",
     "description_ms": "Peratusan pelajar yang menamatkan pendidikan rendah, menengah rendah, dan menengah atas di peringkat nasional dan negeri.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2022",
     "last_updated": "2024-09-01 12:00",
     "next_update": "tbc",
