@@ -116,6 +116,8 @@
         }
     ],
     "translations_en": {
+        "x": "Date",
+        "y": "Beds",
         "date": "Date",
         "state": "State",
         "district": "District",
@@ -128,6 +130,8 @@
         "special-medical-institution": "Special Medical Institutions (MOH)"
     },
     "translations_ms": {
+        "x": "Date",
+        "y": "Katil",
         "date": "Tarikh",
         "state": "Negeri",
         "district": "Daerah",
