@@ -80,8 +80,8 @@
         },
         {
             "dataviz_id": "consumption",
-            "title_en": "Electricity Consumption",
-            "title_ms": "Penggunaan Elektrik",
+            "title_en": "Households with Electricity Access",
+            "title_ms": "Isi Rumah dengan Bekalan Elektrik",
             "chart_type": "TIMESERIES",
             "config": {
                 "filter_columns": [
