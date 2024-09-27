@@ -113,7 +113,7 @@
         "all": "All Staff",
         "doctor": "Doctors",
         "nurse": "Nurses",
-        "nurse_community": "Community Nurses",
+        "nurse-community": "Community Nurses",
         "dentist": "Dentists"
     },
     "translations_ms": {
@@ -124,7 +124,7 @@
         "all": "Semua Kakitangan",
         "doctor": "Doktor",
         "nurse": "Jururawat",
-        "nurse_community": "Jururawat Komuniti",
+        "nurse-community": "Jururawat Komuniti",
         "dentist": "Doktor Gigi"
     },
     "related_datasets": []
