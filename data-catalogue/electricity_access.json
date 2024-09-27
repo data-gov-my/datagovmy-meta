@@ -39,15 +39,6 @@
           "subcategory_en": "Energy",
           "subcategory_ms": "Tenaga",
           "subcategory_sort": 20
-        },
-        {
-          "site": "opendosm",
-          "category_en": "Environment",
-          "category_ms": "Alam Sekitar",
-          "category_sort": 95,
-          "subcategory_en": "Energy",
-          "subcategory_ms": "Tenaga",
-          "subcategory_sort": 20
         }
     ],
     "fields": [
