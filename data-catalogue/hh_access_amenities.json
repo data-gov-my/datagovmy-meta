@@ -115,7 +115,8 @@
         "date": "Date",
         "piped_water": "Piped Water (%)",
         "sanitation": "Sanitary Latrines (%)",
-        "electricity": "Electricity (%)"
+        "electricity": "Electricity (%)",
+        "all-districts": "All Districts"
     },
     "translations_ms": {
         "x": "Tarikh",
@@ -125,7 +126,8 @@
         "date": "Tarikh",
         "piped_water": "Air Paip (%)",
         "sanitation": "Tandas Sempurna (%)",
-        "electricity": "Bekalan Elektrik (%)"
+        "electricity": "Bekalan Elektrik (%)",
+        "all-districts": "Semua Daerah"
     },
     "related_datasets": []
 }
