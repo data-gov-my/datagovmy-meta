@@ -103,7 +103,12 @@
         "state": "State",
         "disease": "Disease",
         "cases": "Cases",
-        "incidence": "Incidence"
+        "incidence": "Incidence",
+        "aids": "AIDS",
+        "chancroid": "Chancroid",
+        "gonorrhea": "Gonorrhea",
+        "hiv": "HIV",
+        "syphilis": "Syphilis"
     },
     "translations_ms": {
         "x": "Tarikh",
@@ -111,7 +116,12 @@
         "state": "Negeri",
         "disease": "Penyakit",
         "cases": "Kes",
-        "incidence": "Insiden"
+        "incidence": "Insiden",
+        "aids": "AIDS",
+        "chancroid": "Chancroid",
+        "gonorrhea": "Gonorrhea",
+        "hiv": "HIV",
+        "syphilis": "Sifilis"
     },
     "related_datasets": []
 }
