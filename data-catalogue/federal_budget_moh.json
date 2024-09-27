@@ -5,7 +5,7 @@
     "description_en": "Annual federal budget allocated to the Ministry of Health (B/P.42) with a breakdown by expenditure categories, including development expenditure (DE) and operating expenditure (OE).",
     "description_ms": "Belanjawan persekutuan tahunan yang diperuntukkan kepada Kementerian Kesihatan (B/P.42), dengan pecahan mengikut kategori perbelanjaan, termasuk perbelanjaan pembangunan (DE) dan perbelanjaan mengurus (OE).",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2022",
     "last_updated": "2024-09-01 12:00",
     "next_update": "\u2014",
