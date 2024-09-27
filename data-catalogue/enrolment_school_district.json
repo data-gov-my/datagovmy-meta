@@ -5,7 +5,7 @@
     "description_en": "Number of students enrolled in primary, secondary, and post-secondary government schools at national, state, and district level.",
     "description_ms": "Bilangan pelajar yang berdaftar bagi pendidikan rendah, menengah, dan pasca menengah di sekolah kerajaan di peringkat nasional, negeri, dan daerah.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2022",
     "last_updated": "2024-09-01 12:00",
     "next_update": "tbc",
