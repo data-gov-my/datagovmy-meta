@@ -15,8 +15,8 @@
     "caveat_ms": "Secara am, data ini adalah berdasarkan tarikh laporan dan bukannya tarikh dijangkiti. Selain itu, sebilangan kes mungkin tidak dilaporkan kepada Kementerian Kesihatan, dan fenomena ini akan berbeza mengikut penyakit dan negeri.",
     "publication_en": "\u2014",
     "publication_ms": "\u2014",
-    "link_parquet": "https://storage.dosm.gov.my/healthcare/std_state.parquet",
-    "link_csv": "https://storage.dosm.gov.my/healthcare/std_state.csv",
+    "link_parquet": "https://storage.data.gov.my/healthcare/std_state.parquet",
+    "link_csv": "https://storage.data.gov.my/healthcare/std_state.csv",
     "frequency": "YEARLY",
     "geography": [
         "NATIONAL",
