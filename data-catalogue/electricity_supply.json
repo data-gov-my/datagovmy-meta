@@ -1,6 +1,7 @@
 {
     "title_en": "Electricity Supply",
     "title_ms": "Bekalan Elektrik",
+    "title_sort": 11,
     "description_en": "Monthly electricity supply by sector.",
     "description_ms": "Bekalan elektrik bulanan mengikut sektor.",
     "exclude_openapi": false,
