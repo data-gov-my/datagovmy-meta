@@ -6,7 +6,7 @@
     "description_ms": "Bilangan katil hospital tahunan di peringkat nasional, negeri, dan daerah, dengan pecahan mengikut jenis hospital.",
     "exclude_openapi": false,
     "manual_trigger": "`",
-    "data_as_of": "2022-12-31",
+    "data_as_of": "2022-12-31 23:59",
     "last_updated": "2024-09-01 12:00",
     "next_update": "tbc",
     "methodology_en": "This dataset is tabulated from the operational hospital-level records maintained by the Health Informatics Centre (PIK) of the Ministry of Health. The data reflects the number of active hospital beds as at 31 December each year.",
@@ -123,9 +123,9 @@
         "beds": "Number of Beds",
         "all-districts": "All Districts",
         "all": "All Hospitals",
-        "hospital_moh": "MOH Hospitals",
-        "hospital_non_moh": "Non-MOH Hospitals",
-        "special_medical_institution": "Special Medical Institutions"
+        "hospital-moh": "MOH Hospitals",
+        "hospital-non-moh": "Non-MOH Hospitals",
+        "special-medical-institution": "Special Medical Institutions (MOH)"
     },
     "translations_ms": {
         "date": "Tarikh",
@@ -135,9 +135,9 @@
         "beds": "Bilangan Katil",
         "all-districts": "Semua Daerah",
         "all": "Semua Hospital",
-        "hospital_moh": "Hospital KKM",
-        "hospital_non_moh": "Hospital Bukan KKM",
-        "special_medical_institution": "Institusi Perubatan Khas"
+        "hospital-moh": "Hospital KKM",
+        "hospital-non-moh": "Hospital Bukan KKM",
+        "special-medical_institution": "Institusi Perubatan Khas (KKM)"
     },
     "related_datasets": []
 }
