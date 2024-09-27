@@ -5,7 +5,7 @@
     "description_en": "Proportion of households with access to basic amenities such as electricity, piped water, and sanitary latrines by state and district.",
     "description_ms": "Nisbah isi rumah dengan akses kepada kemudahan asas seperti elektrik, air paip, dan tandas sempurna mengikut negeri dan daerah.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2022",
     "last_updated": "2023-07-28 12:00",
     "next_update": "—",
