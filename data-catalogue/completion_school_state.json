@@ -120,7 +120,7 @@
                 "format": {
                     "x": "date",
                     "y": [
-                        "completion_rate"
+                        "completion"
                     ]
                 }
             }
