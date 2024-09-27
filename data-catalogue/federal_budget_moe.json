@@ -67,7 +67,9 @@
             "chart_type": "TABLE",
             "config": {
                 "precision": 0,
-                "filter_columns": [],
+                "filter_columns": [
+                  "category"
+                ],
                 "freeze_columns": []
             }
         },
