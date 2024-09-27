@@ -86,7 +86,7 @@
             "title_ms": "Jadual",
             "chart_type": "TABLE",
             "config": {
-                "precision": 0,
+                "precision": 1,
                 "filter_columns": [
                     "state",
                     "strata"
@@ -104,7 +104,7 @@
                     "state",
                     "strata"
                 ],
-                "precision": 0,
+                "precision": 1,
                 "operation": "SUM",
                 "format": {
                     "x": "date",
