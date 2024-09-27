@@ -17,8 +17,10 @@
     "publication_ms": "\u2014",
     "link_parquet": "https://storage.data.gov.my/publicadmin/budget_allocation_moh.parquet",
     "link_csv": "https://storage.data.gov.my/publicadmin/budget_allocation_moh.csv",
-    "frequency": "ANNUAL",
-    "geography": [],
+    "frequency": "YEARLY",
+    "geography": [
+      "NATIONAL"
+    ],
     "demography": [],
     "dataset_begin": 2015,
     "dataset_end": 2024,
@@ -94,6 +96,8 @@
         }
     ],
     "translations_en": {
+        "x": "Date",
+        "y1": "Allocation",
         "date": "Date",
         "category": "Category",
         "allocation": "Allocation",
@@ -107,6 +111,8 @@
         "total": "Total Allocation"
     },
     "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Peruntukan",
         "date": "Tarikh",
         "category": "Kategori",
         "total": "Peruntukan Keseluruhan",
