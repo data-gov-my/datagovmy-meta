@@ -5,7 +5,7 @@
     "description_en": "Number of primary, secondary, and tertiary public education institutions at national, state, and district level.",
     "description_ms": "Bilangan institusi awam pendidikan rendah, menengah, dan tinggi di peringkat nasional, negeri, dan daerah.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2022",
     "last_updated": "2024-09-01 12:00",
     "next_update": "tbc",
