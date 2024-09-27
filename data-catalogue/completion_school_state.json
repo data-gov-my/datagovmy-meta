@@ -135,8 +135,8 @@
         "sex": "Sex",
         "completion": "Completion Rate",
         "primary": "Primary",
-        "secondary_lower": "Lower Secondary",
-        "secondary_upper": "Upper Secondary",
+        "secondary-lower": "Lower Secondary",
+        "secondary-upper": "Upper Secondary",
         "both": "Both Sexes",
         "male": "Male",
         "female": "Female"
@@ -150,8 +150,8 @@
         "sex": "Jantina",
         "completion": "Kadar Tamat Pengajian",
         "primary": "Rendah",
-        "secondary_lower": "Menengah Rendah",
-        "secondary_upper": "Menengah Atas",
+        "secondary-lower": "Menengah Rendah",
+        "secondary-upper": "Menengah Atas",
         "both": "Kedua-dua Jantina",
         "male": "Lelaki",
         "female": "Perempuan"
