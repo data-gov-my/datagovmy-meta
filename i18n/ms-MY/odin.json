@@ -61,7 +61,7 @@
       "19_resource_use": "Resource Use",
       "20_energy": "Tenaga",
       "21_pollution": "Pencemaran",
-      "": "Built Environment"
+      "22_built_environment": "Built Environment"
     },
     "indicator": {
       "overall": "Overall",
@@ -122,11 +122,9 @@
       "1_ghg_emissions": "Greenhouse Gas Emissions",
       "2_air_pollution": "Air Pollution",
       "3_water_pollution": "Water Pollution",
-      "": "Proportion of households with access to water",
-      "": "Proportion of households with access to sanitation",
-      "": "Number of rooms or bedrooms",
-      "": "Access to electricity",
-      "": "Data on housing construction materials"
+      "1_improved_water": "Access to Improved Water",
+      "2_sanitation": "Access to Improved Sanitation",
+      "4_electricity": "Access to Electricity"
     }
   }
 }
