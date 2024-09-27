@@ -15,8 +15,8 @@
     "caveat_ms": "\u2014",
     "publication_en": "\u2014",
     "publication_ms": "\u2014",
-    "link_parquet": "https://storage.data.gov.my/water/sanitation_access.parquet",
-    "link_csv": "https://storage.data.gov.my/water/sanitation_access.csv",
+    "link_parquet": "https://storage.data.gov.my/healthcare/sanitation_access.parquet",
+    "link_csv": "https://storage.data.gov.my/healthcare/sanitation_access.csv",
     "frequency": "YEARLY",
     "geography": [
         "NATIONAL",
