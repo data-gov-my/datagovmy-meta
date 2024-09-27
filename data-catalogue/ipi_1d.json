@@ -36,8 +36,8 @@
             "category_en": "Economic Sectors",
             "category_ms": "Sektor Ekonomi",
             "category_sort": 90,
-            "subcategory_en": "Industry",
-            "subcategory_ms": "Industri",
+            "subcategory_en": "Manufacturing",
+            "subcategory_ms": "Pembuatan",
             "subcategory_sort": 13
         },
         {
@@ -45,8 +45,8 @@
             "category_en": "Economic Sectors",
             "category_ms": "Sektor Ekonomi",
             "category_sort": 90,
-            "subcategory_en": "Industry",
-            "subcategory_ms": "Industri",
+            "subcategory_en": "Manufacturing",
+            "subcategory_ms": "Pembuatan",
             "subcategory_sort": 13
         }
     ],
