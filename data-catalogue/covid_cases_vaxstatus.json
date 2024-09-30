@@ -5,7 +5,7 @@
     "description_en": "Daily COVID-19 cases at national and state level, broken down by vaccination status.",
     "description_ms": "Kes COVID-19 harian di peringkat kebangsaan dan negeri, dengan pecahan mengikut status vaksinasi.",
     "exclude_openapi": false,
-    "manual_trigger": "2024-09-22 16:50:23.115255",
+    "manual_trigger": "2024-09-30 16:10:44.527206",
     "data_as_of": "2024-09-21 23:59",
     "last_updated": "2024-09-22 12:00",
     "next_update": "2024-09-29 12:00",
