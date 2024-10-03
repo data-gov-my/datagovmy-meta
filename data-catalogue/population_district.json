@@ -2,13 +2,13 @@
   "title_en": "Population Table: Administrative Districts",
   "title_ms": "Jadual Penduduk: Daerah Pentadbiran",
   "title_sort": 3,
-  "description_en": "Population at district level from 2020 to 2023, by sex, age group and ethnicity. The preview table shows data for the latest year only, but you may download the data in full.",
-  "description_ms": "Jumlah penduduk di peringkat daerah dari 2020 ke 2023, mengikut jantina, kumpulan umur dan kumpulan etnik. Jadual pratonton hanya menunjukkan data bagi tahun terkini, tetapi data penuh boleh dimuat turun.",
+  "description_en": "Population at district level from 2020 to 2024, by sex, age group and ethnicity. The preview table shows data for the latest year only, but you may download the data in full.",
+  "description_ms": "Jumlah penduduk di peringkat daerah dari 2020 ke 2024, mengikut jantina, kumpulan umur dan kumpulan etnik. Jadual pratonton hanya menunjukkan data bagi tahun terkini, tetapi data penuh boleh dimuat turun.",
   "exclude_openapi": false,
   "manual_trigger": "",
-  "data_as_of": "2023",
-  "last_updated": "2023-08-29 12:00",
-  "next_update": "2024-08-31 12:00",
+  "data_as_of": "2024",
+  "last_updated": "2024-08-31 12:00",
+  "next_update": "2025-08-31 12:00",
   "methodology_en": "Values for 2020 are based on adjusted data from the Population Censuses conducted in that year. Values for all other years are intercensal mid-year population estimates. The intercensal estimates were generated using the cohort-component method, which estimates the latest year's population by taking the previous year's value, then adding births, subtracting deaths, and adding net migration. For a deeper understanding of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/population-technotes).",
   "methodology_ms": "Angka bagi 2020 adalah berdasarkan data daripada Banci Penduduk yang dilaksanakan pada tahun tersebut. Angka bagi semua tahun lain adalah anggaran pertengahan tahun antara banci. Anggaran antara banci dihasilkan dengan kaedah komponen kohort, yang menganggarkan angka bagi tahun terkini dengan mengambil angka bagi tahun sebelumnya, kemudian tambah kelahiran, tolak kematian, dan tambah migrasi bersih. Untuk mendapat pemahaman metodologi yang lebih mendalam, sila rujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/population-technotes).",
   "caveat_en": "Values for breakdowns may be slightly different to totals when summed, due to rounding to one decimal place.",
@@ -28,7 +28,7 @@
     "AGE"
   ],
   "dataset_begin": 2020,
-  "dataset_end": 2023,
+  "dataset_end": 2024,
   "data_source": [
     "DOSM"
   ],
