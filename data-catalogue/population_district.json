@@ -17,7 +17,7 @@
   "publication_ms": "OpenDOSM memaparkan [papan pemuka khas tentang populasi](https://open.dosm.gov.my/dashboard/population).",
   "link_parquet": "https://storage.dosm.gov.my/population/population_district.parquet",
   "link_csv": "https://storage.dosm.gov.my/population/population_district.csv",
-  "link_preview": "https://storage.dosm.gov.my/population/population_district_preview.parquet",
+  "link_preview": "https://storage.dosm.gov.my/population/population_district_latest.parquet",
   "frequency": "YEARLY",
   "geography": [
     "DISTRICT"
