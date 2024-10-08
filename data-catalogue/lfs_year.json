@@ -21,7 +21,7 @@
 	"geography": ["NATIONAL"],
 	"demography": [],
 	"dataset_begin": 1982,
-	"dataset_end": 2022,
+	"dataset_end": 2023,
 	"data_source": ["DOSM"],
 	"data_source_granular": ["MBLS"],
 	"site_category": [
