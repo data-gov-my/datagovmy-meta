@@ -6,9 +6,9 @@
     "description_ms": "Kadar kesuburan keseluruhan (TFR) dan kadar kesuburan mengikut umur (ASFR) dari 1958 hingga kini di peringkat nasional.",
     "exclude_openapi": false,
     "manual_trigger": "",
-    "data_as_of": "2022",
-    "last_updated": "2023-10-17 12:00",
-    "next_update": "2024-10-17 12:00",
+    "data_as_of": "2023",
+    "last_updated": "2024-10-17 12:00",
+    "next_update": "2025-11-01 12:00",
     "methodology_en": "An age-specific fertility rate (ASFR) is the average number of births per 1,000 women in a specific age group. The ASFRs shown in this dataset are computed from administrative records of births registered with JPN (which record the age of the mother), as well as population data from DOSM as the denominator.\n\nThe total fertility rate (TFR)  is the average number of children born to a woman who goes through her child-bearing years experiencing the ASFR of each age group. It is computed by:\n - Summing the ASFRs of all age groups, then\n - Multiplying the number by 5 to account for the size of each age group, and finally\n - Dividing by 1000 (to convert the figure from per 1000 women to per woman.",
     "methodology_ms": "Kadar kesuburan mengikut umur (ASFR) adalah purata jumlah kelahiran per 1,000 wanita dalam kumpulan umur tertentu. ASFR yang dipaparkan dalam set data ini dihitung berdasarkan rekod pentadbiran kelahiran yang didaftarkan dengan JPN (yang mencatatkan umur ibu), serta data penduduk dari DOSM.\n\nKadar kesuburan keseluruhan (TFR) adalah purata jumlah anak yang dilahirkan kepada seorang wanita yang melalui hidupnya dengan mengalami ASFR setiap kumpulan umur. Ia dihitung dengan:\n - Menjumlahkan ASFR semua kumpulan umur, kemudian\n - Mengalikan jumlah dengan 5 untuk mengambil kira julat setiap kumpulan umur, dan akhirnya\n - Membahagikan dengan 1000 untuk mengubah angka dari angka bagi setiap 1000 wanita kepada angka bagi seorang wanita.",
     "caveat_en": "ASFR values are based on the actual number of live births per 1000 women in each 5-year age group. However, when interpreting TFR values, it is important to note that the TFR is based on a hypothetical woman who goes through her child-bearing years experiencing the ASFR of each age group. This is not equivalent to the actual average number of children born to currently-living female citizens aged 15-49, as this number would be a reflection of past rather than current ASFR values.",
@@ -23,7 +23,7 @@
     ],
     "demography": [],
     "dataset_begin": 1958,
-    "dataset_end": 2022,
+    "dataset_end": 2023,
     "data_source": [
       "DOSM"
     ],
