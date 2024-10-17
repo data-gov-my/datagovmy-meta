@@ -6,9 +6,9 @@
   "description_ms": "Jumlah tahunan kematian yang berumur kurang daripada 5 tahun mengikut negeri, diperincikan ke dalam kematian perinatal, neonatal, bayi dan kanak-kanak kecil.",
   "exclude_openapi": false,
   "manual_trigger": "",
-  "data_as_of": "2022",
-  "last_updated": "2023-10-17 12:00",
-  "next_update": "2024-10-17 12:00",
+  "data_as_of": "2023",
+  "last_updated": "2024-10-17 12:00",
+  "next_update": "2025-11-01 12:00",
   "methodology_en": "This data is a subset of the data on [deaths](https://data.gov.my/data-catalogue/deaths_state), for which the following definitions should be noted:\n - **Toddler Death**: Death of a person aged 1 to 4 years old.\n- **Infant Death**: Death of a person less than 1 year old.\n - **Neonatal Death**: Death of a infant aged  less than 28 days old (subset of infant deaths).\n - **Perinatal Death**: Death of an infant less than 7 days old (subset of infant deaths), and [stillbirths](https://data.gov.my/data-catalogue/stillbirths).\n\n For a deeper understanding of the methodology and associated definitions, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/vitalstats-technotes).",
   "methodology_ms": "Data ini adalah subset kepada data [kematian](https://data.gov.my/ms-MY/data-catalogue/deaths_state), di mana definisi berikut perlu diperhatikan:\n - **Kematian Kanak-Kanak Kecil**: Kematian seseorang yang berumur 1 hingga 4 tahun.\n- **Kematian Bayi**: Kematian seseorang yang berumur kurang daripada 1 tahun.\n - **Kematian Neonatal**: Kematian bayi yang berumur kurang daripada 28 hari (subset daripada kematian bayi).\n - **Kematian Perinatal**: Kematian bayi yang berumur kurang daripada 7 hari (subset daripada kematian bayi), serta [kelahiran mati](https://data.gov.my/ms-MY/data-catalogue/stillbirths).\n\n Untuk memahami metodologi dengan lebih terperinci, sila rujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/vitalstats-technotes).",
   "caveat_en": "This data is derived based on deaths registered with JPN. Therefore, if an early childhood death is not registered with JPN (for instance, if the death of a foreign child is registered in their home country, or the death of a citizen in a remote area is not registered), it will generally not count in this dataset. However, adjustment has been made to the number of deaths in Sabah to account for the under-reporting of deaths detected based on the 'Study of Under Reporting of Deaths in Sabah', which was conducted by DOSM and approved by the Steering Committee on Implementation of Civil Registration and Vital Statistics in 2016.",
@@ -23,7 +23,7 @@
   ],
   "demography": [],
   "dataset_begin": 2000,
-  "dataset_end": 2022,
+  "dataset_end": 2023,
   "data_source": [
     "JPN","DOSM"
   ],
