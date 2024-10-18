@@ -25,7 +25,8 @@
     "dataset_begin": 2000,
     "dataset_end": 2024,
     "data_source": [
-        "DOSM"
+        "DOSM",
+        "BNM"
     ],
     "site_category": [
         {

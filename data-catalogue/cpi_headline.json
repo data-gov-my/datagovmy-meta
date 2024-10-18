@@ -25,7 +25,8 @@
     "dataset_begin": 2010,
     "dataset_end": 2024,
     "data_source": [
-        "DOSM"
+        "DOSM",
+        "BNM"
     ],
     "data_source_granular": [
         "BPHPP"
