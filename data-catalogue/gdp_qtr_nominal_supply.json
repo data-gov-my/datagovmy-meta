@@ -25,10 +25,11 @@
     "dataset_begin": 2015,
     "dataset_end": 2024,
     "data_source": [
-        "DOSM"
+        "DOSM",
+        "BNM"
     ],
     "data_source_granular": [
-      "BPAN"
+        "BPAN"
     ],
     "site_category": [
         {
@@ -65,13 +66,13 @@
             "description_en": "[Date] The date in YYYY-MM-DD format. The earliest date in the quarter is chosen, e.g. YYYY-01-01 for the 1st quarter and YYYY-04-01 for the 2nd quarter.",
             "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD. Tarikh yang dipilih adalah tarikh terawal dalam suku tahun, contohnya YYYY-01-01 bagi suku tahun pertama dan YYYY-04-01 bagi suku tahun kedua."
         },
-		{
-			"name": "sector",
-			"title_en": "Economic Sector",
-			"title_ms": "Sektor Ekonomi",
+        {
+            "name": "sector",
+            "title_en": "Economic Sector",
+            "title_ms": "Sektor Ekonomi",
             "description_en": "[String] Code for the economic sector, to be mapped using the [Lookup Table](https://open.dosm.gov.my/data-catalogue/gdp_lookup). The lookup table will give you the English and Malay definitions.",
             "description_ms": "[Rentetan] Kod bagi sektor ekonomi, yang perlu dipadankan dengan [Jadual Carian](https://open.dosm.gov.my/ms-MY/data-catalogue/gdp_lookup). Jadual carian akan memberi definisi dalam Bahasa Inggeris dan Bahasa Melayu."
-		},
+        },
         {
             "name": "value",
             "title_en": "Value",

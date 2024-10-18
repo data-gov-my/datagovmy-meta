@@ -25,10 +25,11 @@
     "dataset_begin": 2015,
     "dataset_end": 2023,
     "data_source": [
-        "DOSM"
+        "DOSM",
+        "BNM"
     ],
     "data_source_granular": [
-      "BPAN"
+        "BPAN"
     ],
     "site_category": [
         {
@@ -72,13 +73,13 @@
             "description_en": "[Categorical] One of 15 states (W.P. Putrajaya is subsumed under W.P. Kuala Lumpur), or 'Supranational', which is a catch-all category for GDP data that cannot be attributed to a specific state, especially in the mining and quarrying sector.",
             "description_ms": "[Kategori] Satu daripada 15 negeri (W.P. Putrajaya dimasukkan bawah W.P. Kuala Lumpur), atau 'Supranational', yang merupakan kategori umum bagi data KDNK yang tidak boleh dikhususnya kepada negeri tertentu, terutamanya dalam sektor perlombongan dan pengkuarian."
         },
-		{
-			"name": "sector",
-			"title_en": "Economic Sector",
-			"title_ms": "Sektor Ekonomi",
+        {
+            "name": "sector",
+            "title_en": "Economic Sector",
+            "title_ms": "Sektor Ekonomi",
             "description_en": "[String] Code for the economic sector, to be mapped using the [Lookup Table](https://open.dosm.gov.my/data-catalogue/gdp_lookup). The lookup table will give you the English and Malay definitions.",
             "description_ms": "[Rentetan] Kod bagi sektor ekonomi, yang perlu dipadankan dengan [Jadual Carian](https://open.dosm.gov.my/ms-MY/data-catalogue/gdp_lookup). Jadual carian akan memberi definisi dalam Bahasa Inggeris dan Bahasa Melayu."
-		},
+        },
         {
             "name": "value",
             "title_en": "Value",
