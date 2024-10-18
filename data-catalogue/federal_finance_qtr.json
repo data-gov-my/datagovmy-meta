@@ -25,7 +25,8 @@
   "dataset_begin": 1996,
   "dataset_end": 2023,
   "data_source": [
-    "JANM"
+    "JANM",
+    "BNM"
   ],
   "site_category": [
     {
