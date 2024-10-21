@@ -40,7 +40,7 @@
             "full": "Kerajaan Malaysia",
             "abbr": "GOVT"
         },
-        "icu-jpm": {
+        "icujpm": {
             "full": "Unit Penyelarasan Pelaksanaan",
             "abbr": "ICU-JPM"
         },
@@ -220,7 +220,7 @@
             "full": "Suruhanjaya Tenaga",
             "abbr": "ST"
         },
-        "swk-energy": {
+        "swkenergy": {
             "full": "Sarawak Energy Berhad",
             "abbr": "SWK-ENERGY"
         },
