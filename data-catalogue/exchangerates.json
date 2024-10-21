@@ -1,8 +1,8 @@
 {
     "title_en": "Exchange Rates",
     "title_ms": "Kadar Pertukaran Wang Asing",
-    "description_en": "Rates of exchange of the Malaysian Ringgit vis-à-vis major trading partners. The table and charts show a preview using the most recent 2 years of data only, but you may download complete datasetcontaining data since 2003.",
-    "description_ms": "Kadar pertukaran ringgit Malaysia berbanding rakan dagang utama. Jadual dan carta memberi pratonton dengan menggunakan data bagi 2 tahun terkini sahaja, tetapi anda boleh memuat turun set data penuh yang mengandungi data sejak 2003.",
+    "description_en": "Rates of exchange of the Malaysian Ringgit vis-à-vis major trading partners. The table and charts show a preview using the most recent 2 years of data only, but you may download the complete dataset containing daily data since 2003.",
+    "description_ms": "Kadar pertukaran ringgit Malaysia berbanding rakan dagang utama. Jadual dan carta memberi pratonton dengan menggunakan data bagi 2 tahun terkini sahaja, tetapi anda boleh memuat turun set data penuh yang mengandungi data harian sejak 2003.",
     "exclude_openapi": false,
     "manual_trigger": "2024-10-21 08:59:23.533827",
     "data_as_of": "2024-10-20 23:59",
