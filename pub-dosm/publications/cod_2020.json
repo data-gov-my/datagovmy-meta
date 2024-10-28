@@ -1,0 +1,54 @@
+{
+    "publication": "cod_2020",
+    "publication_type": "demography",
+    "release_date": "2021-11-16",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE",
+        "DISTRICT"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY",
+        "AGE"
+    ],
+    "en": {
+        "title": "[2020] Causes of Death",
+        "publication_type_title": "Demography",
+        "description": "Annual causes of death, covering both medically and non-medically certified deaths at national, state, and district level.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Causes of Death: 2020",
+                "resource_link": "https://storage.dosm.gov.my/cod/cod_2020.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Causes of Death: 2020",
+                "resource_link": "https://storage.dosm.gov.my/cod/cod_2020.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2020] Sebab Kematian",
+        "publication_type_title": "Demografi",
+        "description": "Sebab kematian tahunan, merangkumi kematian yang disahkan dan tidak disahkan secara perubatan di peringkat nasional, negeri, dan daerah.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Sebab Kematian: 2020",
+                "resource_link": "https://storage.dosm.gov.my/cod/cod_2020.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Sebab Kematian: 2020",
+                "resource_link": "https://storage.dosm.gov.my/cod/cod_2020.xlsx"
+            }
+        ]
+    }
+}
