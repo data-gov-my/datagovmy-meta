@@ -40,9 +40,9 @@
             "full": "Kerajaan Malaysia",
             "abbr": "GOVT"
         },
-        "icu-jpm": {
+        "icujpm": {
             "full": "Unit Penyelarasan Pelaksanaan",
-            "abbr": "ICU JPM"
+            "abbr": "ICUJPM"
         },
         "imigresen": {
             "full": "Jabatan Imigresen Malaysia",
@@ -59,6 +59,10 @@
         "jas": {
             "full": "Jabatan Alam Sekitar",
             "abbr": "JAS"
+        },
+        "jmg": {
+            "full": "Jabatan Mineral dan Geosains",
+            "abbr": "JMG"
         },
         "jdn": {
             "full": "Jabatan Digital Negara",
@@ -80,6 +84,10 @@
             "full": "Jabatan Pengairan dan Saliran",
             "abbr": "JPS"
         },
+        "kdn": {
+            "full": "Kementerian Dalam Negeri",
+            "abbr": "KDN"
+        },
         "ktmb": {
             "full": "Keretapi Tanah Melayu Berhad",
             "abbr": "KTMB"
@@ -95,6 +103,14 @@
         "kpdn": {
             "full": "Kementerian Perdagangan Dalam Negeri",
             "abbr": "KPDN"
+        },
+        "kpkt": {
+            "full": "Kementerian Perumahan dan Kerajaan Tempatan",
+            "abbr": "KPKT"
+        },
+        "mafs": {
+            "full": "Kementerian Pertanian dan Keterjaminan Makanan",
+            "abbr": "MAFS"
         },
         "mampu": {
             "full": "Unit Pemodenan Tadbiran dan Perancangan Pengurusan Malaysia",
@@ -124,6 +140,10 @@
             "full": "Kementerian Kesihatan Malaysia",
             "abbr": "KKM"
         },
+        "mohe": {
+            "full": "Kementerian Pendidikan Tinggi",
+            "abbr": "MOHE"
+        },
         "mot": {
             "full": "Kementerian Pengangkutan",
             "abbr": "MoT"
@@ -144,6 +164,14 @@
             "full": "Pusat Sumber Transplan Nasional",
             "abbr": "NTRC"
         },
+        "parlimen": {
+            "full": "Parlimen Malaysia",
+            "abbr": "PARLIMEN"
+        },
+        "penjara": {
+            "full": "Jabatan Penjara Malaysia",
+            "abbr": "PENJARA"
+        },
         "pdn": {
             "full": "Pusat Darah Negara",
             "abbr": "PDN"
@@ -155,6 +183,10 @@
         "perhutanan": {
             "full": "Jabatan Perhutanan Semenanjung Malaysia",
             "abbr": "Perhutanan"
+        },
+        "perikanan": {
+            "full": "Jabatan Perikanan Malaysia",
+            "abbr": "Perikanan"
         },
         "perkeso": {
             "full": "Pertubuhan Keselamatan Sosial",
@@ -172,6 +204,10 @@
             "full": "Sabah Electricity Sdn. Bhd.",
             "abbr": "SESB"
         },
+        "span": {
+            "full": "Suruhanjaya Perkhidmatan Air Negara",
+            "abbr": "SPAN"
+        },
         "spr": {
             "full": "Suruhanjaya Pilihan Raya",
             "abbr": "SPR"
@@ -184,9 +220,9 @@
             "full": "Suruhanjaya Tenaga",
             "abbr": "ST"
         },
-        "swk energy": {
+        "swk-energy": {
             "full": "Sarawak Energy Berhad",
-            "abbr": "SWK ENERGY"
+            "abbr": "SWK-ENERGY"
         },
         "tnb": {
             "full": "Tenaga Nasional Berhad",

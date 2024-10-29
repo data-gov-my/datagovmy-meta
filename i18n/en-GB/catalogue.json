@@ -6,7 +6,7 @@
     "header_category_govt": "Malaysia's official open data portal",
     "header_category_agency": "{{ agency }}'s official open data portal",
     "description": "Your one-stop interface to browse Malaysia's wealth of open data. This page will consistently grow in depth and breadth with high-quality data from federal and state agencies in Malaysia.",
-    "description_agency": "Your one-stop interface to browse {{ agency }}'s wealth of open data. This page will consistently will grow in depth and breadth, providing richer and more varied data from {{ agency }}.",
+    "description_agency": "Your one-stop interface to browse open data from {{ agency }}. This page will grow over time as we expand the quality and quantity of our open data.",
     "description_opendosm": "Your one-stop interface to browse our wealth of open data. This page will consistently grow in depth and breadth, providing richer and more varied data from the various divisions of DOSM.",
     "description_databnm": "Multi-format downloads, exploratory dataviz, and programmatic access - pick your preferred method of freely using our data. Pay particular attention to the metadata to gain a deeper understanding of a dataset's scope, use, and limitations, and write to data@bnm.gov.my if you want to discuss or request anything further!",
     "dataset_count": "{{ count }} data series, and counting",
