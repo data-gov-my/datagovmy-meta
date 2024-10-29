@@ -1,0 +1,54 @@
+{
+  "route": null,
+  "sites": ["opendosm"],
+  "translation": {
+    "select_all": "Pilih semua",
+    "continue": "Teruskan",
+    "cancel": "Batal",
+    "done": "Selesai",
+    "save": "Simpan",
+    "changes_saved": "Siap disimpan.",
+    "subscribe": "Langgan Sekarang",
+    "view_subscription": "Urus langganan",
+    "new": {
+      "header": "Langganilah penerbitan kami",
+      "step1": "Masukkan Emel",
+      "step1_desc": "Isikan emel anda untuk mulakan pendaftaran",
+      "step2": "Pengesahan",
+      "step2_desc": "Masukkan token yang dihantar ke emel anda bagi tujuan pengesahan",
+      "step3": "Langgan",
+      "step3_desc": "Pilih penerbitan yang anda ingin melanggan",
+      "success": "Selesai!",
+      "success_desc": "Anda akan dimaklumkan melalui emel apabila terdapat penerbitan baru dikeluarkan."
+    },
+    "manage": {
+      "header": "Uruskan langganan anda",
+      "step1": "Log masuk",
+      "step1_desc": "Isikan emel dan token untuk teruskan",
+      "step2": "Langganan",
+      "step2_desc": "Uruskan senarai langganan anda"
+    },
+    "recover": {
+      "header": "Dapat balik token anda yang hilang",
+      "step1": "Masukkan Emel",
+      "step1_desc": "Isikan emel anda yang digunakan semasa pendaftaran",
+      "step2": "Pengesahan",
+      "step2_desc": "Isikan token baharu yang dihantar ke emel anda bagi tujuan pengesahan",
+      "your_token": "Token baharu anda",
+      "success": "Berjaya!",
+      "success_desc": "Token baharu ini akan digunakan untuk mengurus langganan anda. Pastikan ia disimpan secara selamat."
+    },
+    "email": "Emel",
+    "sent_verification": "Emel pengesahan telah dihantar ke ",
+    "check_inbox": ". Sila semak peti masuk anda terlebih dahulu untuk teruskan.",
+    "token": "Token",
+    "resend": "Hantar semula",
+    "resend_in": "Hantar semula dalam",
+    "choose_publication": "Senarai langganan yang boleh dipilih",
+    "choose_publication_desc": "Tandakan mana-mana penerbitan untuk melanggannya!",
+    "lost_token": "Hilang Token",
+    "email_required": "Sila isikan emel anda.",
+    "token_required": "Sila isikan token anda.",
+    "email_invalid": "Sila isikan emel anda secara lengkap."
+  }
+}

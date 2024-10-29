@@ -1,0 +1,54 @@
+{
+  "route": null,
+  "sites": ["opendosm"],
+  "translation": {
+    "select_all": "Select all",
+    "continue": "Continue",
+    "cancel": "Cancel",
+    "done": "Done",
+    "save": "Save changes",
+    "changes_saved": "Changes saved",
+    "subscribe": "Subscribe",
+    "view_subscription": "View subscription",
+    "new": {
+      "header": "Subscribe to our publications",
+      "step1": "Enter Email",
+      "step1_desc": "Enter the email that you want to subscribe with",
+      "step2": "Authenticate",
+      "step2_desc": "Enter the token sent to your email to verify it's you",
+      "step3": "Subscribe",
+      "step3_desc": "Choose any publication(s) that you want to subscribe to from the list",
+      "success": "Subscription confirmed!",
+      "success_desc": "You're all set! You will now receive email updates based on your subscription."
+    },
+    "manage": {
+      "header": "Manage your subscription",
+      "step1": "Sign In",
+      "step1_desc": "Enter your email and token to verify",
+      "step2": "Subscription",
+      "step2_desc": "Manage your list of subscription"
+    },
+    "recover": {
+      "header": "Recover your lost token",
+      "step1": "Enter Email",
+      "step1_desc": "Enter the email that you subscribed with previously",
+      "step2": "Authenticate",
+      "step2_desc": "Enter the new token sent to your email to verify it's you",
+      "your_token": "Your new token",
+      "success": "Token recovered!",
+      "success_desc": "Here's your new token for managing your subscriptions. Keep it safe for future reference."
+    },
+    "email": "Email Address",
+    "sent_verification": "An email with a verification token was sent to ",
+    "check_inbox": ". Please check your inbox for the token to complete your subscription.",
+    "token": "Enter Token",
+    "resend": "Resend",
+    "resend_in": "Resend in",
+    "choose_publication": "List of available publications",
+    "choose_publication_desc": "Check the publication(s) that you want to subscribe to",
+    "lost_token": "Lost Token",
+    "email_required": "Please fill in your email address.",
+    "token_required": "Please fill in your token.",
+    "email_invalid": "Please fill in a valid email address."
+  }
+}
