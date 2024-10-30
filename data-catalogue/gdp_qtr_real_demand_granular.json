@@ -26,8 +26,7 @@
     "dataset_begin": 2015,
     "dataset_end": 2024,
     "data_source": [
-        "DOSM",
-        "BNM"
+        "DOSM"
     ],
     "data_source_granular": [
         "BPAN"
