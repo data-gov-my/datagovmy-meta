@@ -19,6 +19,12 @@
         "description": "Annual cost of living, covering the expenditure required for a decent standard of living at national, state and district levels.",
         "resources": [
             {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Cost of Living: 2023",
+                "resource_link": "https://storage.dosm.gov.my/col/col_2023.pdf"
+            },
+            {
                 "resource_id": 2,
                 "resource_type": "excel",
                 "resource_name": "Cost of Living: 2023",
@@ -115,6 +121,12 @@
         "publication_type_title": "Kos Sara Hidup",
         "description": "Kos sara hidup tahunan, merangkumi perbelanjaan asas bagi kehidupan wajar di peringkat nasional, negeri, dan daerah.",
         "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Kos Sara Hidup: 2023",
+                "resource_link": "https://storage.dosm.gov.my/col/col_2023.pdf"
+            },
             {
                 "resource_id": 2,
                 "resource_type": "excel",
