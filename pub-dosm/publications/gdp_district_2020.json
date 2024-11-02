@@ -1,0 +1,170 @@
+{
+    "publication": "gdp_district_2020",
+    "publication_type": "gdp", 
+    "release_date": "2024-11-02",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE", 
+        "DISTRICT"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2020] Gross Domestic Product by District",
+        "publication_type_title": "Gross Domestic Product",
+        "description": "Annual gross domestic product (GDP) by district, covering nominal and real GDP by type of economic activity.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Johor GDP by District: 2020",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_district_2020_johor.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel", 
+                "resource_name": "Kedah GDP by District: 2020",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_district_2020_kedah.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Kelantan GDP by District: 2020", 
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_district_2020_kelantan.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Melaka GDP by District: 2020",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_district_2020_melaka.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Negeri Sembilan GDP by District: 2020",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_district_2020_negerisembilan.xlsx"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "excel",
+                "resource_name": "Pahang GDP by District: 2020",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_district_2020_pahang.xlsx"
+            },
+            {
+                "resource_id": 7,
+                "resource_type": "excel",
+                "resource_name": "Perak GDP by District: 2020",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_district_2020_perak.xlsx"
+            },
+            {
+                "resource_id": 8,
+                "resource_type": "excel",
+                "resource_name": "Pulau Pinang GDP by District: 2020",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_district_2020_pulaupinang.xlsx"
+            },
+            {
+                "resource_id": 9,
+                "resource_type": "excel",
+                "resource_name": "Terengganu GDP by District: 2020",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_district_2020_terengganu.xlsx"
+            },
+            {
+                "resource_id": 10,
+                "resource_type": "excel",
+                "resource_name": "Selangor GDP by District: 2020",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_district_2020_selangor.xlsx"
+            },
+            {
+                "resource_id": 11,
+                "resource_type": "excel",
+                "resource_name": "Sabah GDP by District: 2020",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_district_2020_sabah.xlsx"
+            },
+            {
+                "resource_id": 12,
+                "resource_type": "excel",
+                "resource_name": "Sarawak GDP by District: 2020",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_district_2020_sarawak.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2020] Keluaran Dalam Negeri Kasar mengikut Daerah",
+        "publication_type_title": "Keluaran Dalam Negeri Kasar",
+        "description": "Keluaran dalam negeri kasar (KDNK) tahunan mengikut daerah, merangkumi KDNK pada harga semasa dan malar mengikut jenis aktiviti ekonomi.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "KDNK Johor mengikut Daerah: 2020",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_district_2020_johor.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "KDNK Kedah mengikut Daerah: 2020",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_district_2020_kedah.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "KDNK Kelantan mengikut Daerah: 2020",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_district_2020_kelantan.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "KDNK Melaka mengikut Daerah: 2020",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_district_2020_melaka.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "KDNK Negeri Sembilan mengikut Daerah: 2020",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_district_2020_negerisembilan.xlsx"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "excel",
+                "resource_name": "KDNK Pahang mengikut Daerah: 2020",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_district_2020_pahang.xlsx"
+            },
+            {
+                "resource_id": 7,
+                "resource_type": "excel",
+                "resource_name": "KDNK Perak mengikut Daerah: 2020",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_district_2020_perak.xlsx"
+            },
+            {
+                "resource_id": 8,
+                "resource_type": "excel",
+                "resource_name": "KDNK Pulau Pinang mengikut Daerah: 2020",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_district_2020_pulaupinang.xlsx"
+            },
+            {
+                "resource_id": 9,
+                "resource_type": "excel",
+                "resource_name": "KDNK Terengganu mengikut Daerah: 2020",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_district_2020_terengganu.xlsx"
+            },
+            {
+                "resource_id": 10,
+                "resource_type": "excel",
+                "resource_name": "KDNK Selangor mengikut Daerah: 2020",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_district_2020_selangor.xlsx"
+            },
+            {
+                "resource_id": 11,
+                "resource_type": "excel",
+                "resource_name": "KDNK Sabah mengikut Daerah: 2020",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_district_2020_sabah.xlsx"
+            },
+            {
+                "resource_id": 12,
+                "resource_type": "excel",
+                "resource_name": "KDNK Sarawak mengikut Daerah: 2020",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_district_2020_sarawak.xlsx"
+            }
+        ]
+    }
+}
