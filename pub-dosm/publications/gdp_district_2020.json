@@ -15,6 +15,12 @@
         "description": "Annual gross domestic product (GDP) by district, covering nominal and real GDP by type of economic activity.",
         "resources": [
             {
+                "resource_id": 0,
+                "resource_type": "pdf",
+                "resource_name": "GDP by District: 2020",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_district_2020.pdf"
+            },
+            {
                 "resource_id": 1,
                 "resource_type": "excel",
                 "resource_name": "Johor GDP by District: 2020",
@@ -93,6 +99,12 @@
         "publication_type_title": "Keluaran Dalam Negeri Kasar",
         "description": "Keluaran dalam negeri kasar (KDNK) tahunan mengikut daerah, merangkumi KDNK pada harga semasa dan malar mengikut jenis aktiviti ekonomi.",
         "resources": [
+            {
+                "resource_id": 0,
+                "resource_type": "pdf",
+                "resource_name": "KDNK mengikut Daerah: 2020",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_district_2020.pdf"
+            },
             {
                 "resource_id": 1,
                 "resource_type": "excel",
