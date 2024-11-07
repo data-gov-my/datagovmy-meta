@@ -1,7 +1,7 @@
 {
-    "title_en": "[1.1.1] GDP by Economic Activity",
-    "title_ms": "[1.1.1] GDP by Economic Activity",
-    "title_sort": 1,
+    "title_en": "[1.3.2] Wholesale & Retail Trade and Restaurants & Hotels & Financial Services (% Change)",
+    "title_ms": "[1.3.2] Wholesale & Retail Trade and Restaurants & Hotels & Financial Services (% Change)",
+    "title_sort": 4,
     "description_en": "Description of the dataset.",
     "description_ms": "Description of the dataset.",
     "exclude_openapi": false,
@@ -34,9 +34,9 @@
             "category_en": "[1] Domestic Indicators",
             "category_ms": "[1] Domestic Indicators",
             "category_sort": 1,
-            "subcategory_en": "[1.1] GDP",
-            "subcategory_ms": "[1.1] GDP",
-            "subcategory_sort": 1
+            "subcategory_en": "[1.2] Supply",
+            "subcategory_ms": "[1.2] Supply",
+            "subcategory_sort": 2
         }
     ],
     "fields": [

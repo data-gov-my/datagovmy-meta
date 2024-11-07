@@ -1,7 +1,7 @@
 {
-    "title_en": "[1.1.1] GDP by Economic Activity",
-    "title_ms": "[1.1.1] GDP by Economic Activity",
-    "title_sort": 1,
+    "title_en": "[2.5.1] Imports by End-Use",
+    "title_ms": "[2.5.1] Imports by End-Use",
+    "title_sort": 25,
     "description_en": "Description of the dataset.",
     "description_ms": "Description of the dataset.",
     "exclude_openapi": false,
@@ -31,12 +31,12 @@
     "site_category": [
         {
             "site": "datagovmy",
-            "category_en": "[1] Domestic Indicators",
-            "category_ms": "[1] Domestic Indicators",
-            "category_sort": 1,
-            "subcategory_en": "[1.1] GDP",
-            "subcategory_ms": "[1.1] GDP",
-            "subcategory_sort": 1
+            "category_en": "[2] External Indicators",
+            "category_ms": "[2] External Indicators",
+            "category_sort": 2,
+            "subcategory_en": "[2.1] External Sector",
+            "subcategory_ms": "[2.1] External Sector",
+            "subcategory_sort": 6
         }
     ],
     "fields": [

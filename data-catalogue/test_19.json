@@ -1,7 +1,7 @@
 {
-    "title_en": "[1.1.1] GDP by Economic Activity",
-    "title_ms": "[1.1.1] GDP by Economic Activity",
-    "title_sort": 1,
+    "title_en": "[1.6.6] Employment by Skill and Share of Foreign Worker Employment to Total Employment",
+    "title_ms": "[1.6.6] Employment by Skill and Share of Foreign Worker Employment to Total Employment",
+    "title_sort": 19,
     "description_en": "Description of the dataset.",
     "description_ms": "Description of the dataset.",
     "exclude_openapi": false,
@@ -34,9 +34,9 @@
             "category_en": "[1] Domestic Indicators",
             "category_ms": "[1] Domestic Indicators",
             "category_sort": 1,
-            "subcategory_en": "[1.1] GDP",
-            "subcategory_ms": "[1.1] GDP",
-            "subcategory_sort": 1
+            "subcategory_en": "[1.5] Labour",
+            "subcategory_ms": "[1.5] Labour",
+            "subcategory_sort": 5
         }
     ],
     "fields": [

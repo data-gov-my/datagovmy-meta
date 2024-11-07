@@ -1,7 +1,7 @@
 {
-    "title_en": "[1.1.1] GDP by Economic Activity",
-    "title_ms": "[1.1.1] GDP by Economic Activity",
-    "title_sort": 1,
+    "title_en": "[3.1.6] Loan Applications, Approvals, Disbursement",
+    "title_ms": "[3.1.6] Loan Applications, Approvals, Disbursement",
+    "title_sort": 34,
     "description_en": "Description of the dataset.",
     "description_ms": "Description of the dataset.",
     "exclude_openapi": false,
@@ -31,12 +31,12 @@
     "site_category": [
         {
             "site": "datagovmy",
-            "category_en": "[1] Domestic Indicators",
-            "category_ms": "[1] Domestic Indicators",
-            "category_sort": 1,
-            "subcategory_en": "[1.1] GDP",
-            "subcategory_ms": "[1.1] GDP",
-            "subcategory_sort": 1
+            "category_en": "[3] Financial Indicators",
+            "category_ms": "[3] Financial Indicators",
+            "category_sort": 3,
+            "subcategory_en": "[3.1] Financial System",
+            "subcategory_ms": "[3.1] Financial System",
+            "subcategory_sort": 7
         }
     ],
     "fields": [

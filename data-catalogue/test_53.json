@@ -1,7 +1,7 @@
 {
-    "title_en": "[1.1.1] GDP by Economic Activity",
-    "title_ms": "[1.1.1] GDP by Economic Activity",
-    "title_sort": 1,
+    "title_en": "[6.1.1] GDP (Current Prices in USD billion)",
+    "title_ms": "[6.1.1] GDP (Current Prices in USD billion)",
+    "title_sort": 53,
     "description_en": "Description of the dataset.",
     "description_ms": "Description of the dataset.",
     "exclude_openapi": false,
@@ -31,12 +31,12 @@
     "site_category": [
         {
             "site": "datagovmy",
-            "category_en": "[1] Domestic Indicators",
-            "category_ms": "[1] Domestic Indicators",
-            "category_sort": 1,
-            "subcategory_en": "[1.1] GDP",
-            "subcategory_ms": "[1.1] GDP",
-            "subcategory_sort": 1
+            "category_en": "[6] Global Economy",
+            "category_ms": "[6] Global Economy",
+            "category_sort": 6,
+            "subcategory_en": "[6.1] Major and Regional",
+            "subcategory_ms": "[6.1] Major and Regional",
+            "subcategory_sort": 10
         }
     ],
     "fields": [

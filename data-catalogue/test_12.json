@@ -1,7 +1,7 @@
 {
-    "title_en": "[1.1.1] GDP by Economic Activity",
-    "title_ms": "[1.1.1] GDP by Economic Activity",
-    "title_sort": 1,
+    "title_en": "[1.5.1] Consumer Price Index",
+    "title_ms": "[1.5.1] Consumer Price Index",
+    "title_sort": 12,
     "description_en": "Description of the dataset.",
     "description_ms": "Description of the dataset.",
     "exclude_openapi": false,
@@ -34,9 +34,9 @@
             "category_en": "[1] Domestic Indicators",
             "category_ms": "[1] Domestic Indicators",
             "category_sort": 1,
-            "subcategory_en": "[1.1] GDP",
-            "subcategory_ms": "[1.1] GDP",
-            "subcategory_sort": 1
+            "subcategory_en": "[1.4] Prices",
+            "subcategory_ms": "[1.4] Prices",
+            "subcategory_sort": 4
         }
     ],
     "fields": [

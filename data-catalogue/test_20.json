@@ -1,7 +1,7 @@
 {
-    "title_en": "[1.1.1] GDP by Economic Activity",
-    "title_ms": "[1.1.1] GDP by Economic Activity",
-    "title_sort": 1,
+    "title_en": "[1.6.7] Labour Market Statistics of the Financial Services Sector",
+    "title_ms": "[1.6.7] Labour Market Statistics of the Financial Services Sector",
+    "title_sort": 20,
     "description_en": "Description of the dataset.",
     "description_ms": "Description of the dataset.",
     "exclude_openapi": false,
@@ -34,9 +34,9 @@
             "category_en": "[1] Domestic Indicators",
             "category_ms": "[1] Domestic Indicators",
             "category_sort": 1,
-            "subcategory_en": "[1.1] GDP",
-            "subcategory_ms": "[1.1] GDP",
-            "subcategory_sort": 1
+            "subcategory_en": "[1.5] Labour",
+            "subcategory_ms": "[1.5] Labour",
+            "subcategory_sort": 5
         }
     ],
     "fields": [
