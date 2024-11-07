@@ -30,8 +30,8 @@
     "site_category": [
         {
             "site": "datagovmy",
-            "category_en": "[1] Key Domestic Statistics",
-            "category_ms": "[1] Key Domestic Statistics",
+            "category_en": "[1] Domestic Sector Indicators",
+            "category_ms": "[1] Domestic Sector Indicators",
             "category_sort": 1000,
             "subcategory_en": "[1.1] GDP",
             "subcategory_ms": "[1.1] GDP",
