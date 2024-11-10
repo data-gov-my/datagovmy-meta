@@ -1,20 +1,22 @@
 {
-	"data_last_updated": "2024-11-10 16:00",
-	"data_next_update": "2024-12-10 16:00",
-	"sites": ["datagovmy"],
-	"manual_trigger": "1",
-	"explorer_name": "car_popularity",
-	"route": "/dashboard/car-popularity,/ms-MY/dashboard/car-popularity",
-	"tables": {
-		"CarPopularityTimeseriesModel": {
-			"data_as_of": "2024-10-31 23:59",
-			"source": "https://storage.data.gov.my/dashboards/car_popularity_timeseries_model.parquet",
-			"update": "REBUILD"
-		},
-		"CarPopularityTimeseriesMaker": {
-			"data_as_of": "2024-10-31 23:59",
-			"source": "https://storage.data.gov.my/dashboards/car_popularity_timeseries_maker.parquet",
-			"update": "REBUILD"
-		}
-	}
+    "data_last_updated": "2024-11-10 16:00",
+    "data_next_update": "2024-12-10 16:00",
+    "sites": [
+        "datagovmy"
+    ],
+    "manual_trigger": "2024-11-10 22:28:51.603791",
+    "explorer_name": "car_popularity",
+    "route": "/dashboard/car-popularity,/ms-MY/dashboard/car-popularity",
+    "tables": {
+        "CarPopularityTimeseriesModel": {
+            "data_as_of": "2024-10-31 23:59",
+            "source": "https://storage.data.gov.my/dashboards/car_popularity_timeseries_model.parquet",
+            "update": "REBUILD"
+        },
+        "CarPopularityTimeseriesMaker": {
+            "data_as_of": "2024-10-31 23:59",
+            "source": "https://storage.data.gov.my/dashboards/car_popularity_timeseries_maker.parquet",
+            "update": "REBUILD"
+        }
+    }
 }
