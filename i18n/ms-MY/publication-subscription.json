@@ -10,6 +10,9 @@
     "changes_saved": "Siap disimpan.",
     "subscribe": "Langgan Sekarang",
     "view_subscription": "Urus langganan",
+    "email_present": "Anda sudah menjadi pelanggan penerbitan kami. Uruskannya di",
+    "email_absent": "Anda belum lagi melanggani penerbitan kami. Mula melanggani di",
+    "here": "sini",
     "new": {
       "header": "Langganilah penerbitan kami",
       "step1": "Masukkan Emel",
@@ -23,10 +26,12 @@
     },
     "manage": {
       "header": "Uruskan langganan anda",
-      "step1": "Log masuk",
-      "step1_desc": "Isikan emel dan token untuk teruskan",
-      "step2": "Langganan",
-      "step2_desc": "Uruskan senarai langganan anda"
+      "step1": "Masukkan Emel",
+      "step1_desc": "Isikan emel anda untuk dapatkan token",
+      "step2": "Pengesahan",
+      "step2_desc": "Masukkan token yang dihantar ke emel anda bagi tujuan pengesahan",
+      "step3": "Langganan",
+      "step3_desc": "Uruskan senarai langganan anda"
     },
     "recover": {
       "header": "Dapat balik token anda yang hilang",

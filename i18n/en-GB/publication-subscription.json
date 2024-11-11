@@ -10,6 +10,9 @@
     "changes_saved": "Changes saved",
     "subscribe": "Subscribe",
     "view_subscription": "View subscription",
+    "email_present": "You have a subscription with this email. Manage it ",
+    "email_absent": "You don't have a subscription with this email. Start subscribing ",
+    "here": "here",
     "new": {
       "header": "Subscribe to our publications",
       "step1": "Enter Email",
@@ -23,10 +26,12 @@
     },
     "manage": {
       "header": "Manage your subscription",
-      "step1": "Sign In",
-      "step1_desc": "Enter your email and token to verify",
-      "step2": "Subscription",
-      "step2_desc": "Manage your list of subscription"
+      "step1": "Enter Email",
+      "step1_desc": "Enter the email that you subscribed with",
+      "step2":"Authenticate",
+      "step2_desc": "Enter the token sent to your email to verify it's you",
+      "step3": "Subscription",
+      "step3_desc": "Manage your list of subscription"
     },
     "recover": {
       "header": "Recover your lost token",
