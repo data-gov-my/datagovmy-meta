@@ -4,7 +4,7 @@
     "sites": [
         "datagovmy"
     ],
-    "manual_trigger": "2024-11-10 22:49:11.837222",
+    "manual_trigger": "2024-11-11 19:56:42.560052",
     "explorer_name": "car_popularity",
     "route": "/dashboard/car-popularity,/ms-MY/dashboard/car-popularity",
     "tables": {
