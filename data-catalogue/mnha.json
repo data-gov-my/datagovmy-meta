@@ -53,8 +53,8 @@
             "name": "date",
             "title_en": "Date",
             "title_ms": "Tarikh",
-            "description_en": "[Date] The year of the expenditure data.",
-            "description_ms": "[Tarikh] Tahun data perbelanjaan."
+            "description_en": "[Date] The year of the expenditure in YYYY-MM-DD format, with MM-DD set to 01-01 because the data is an annual frequency.",
+            "description_ms": "[Tarikh] Tahun perbelanjaan dalam format YYYY-MM-DD, dengan MM-DD ditetapkan ke 01-01 kerana data pada frekuensi tahunan."
         },
         {
             "name": "variable",
