@@ -47,7 +47,7 @@
     "email": "Emel",
     "sent_verification": "Emel pengesahan telah dihantar daripada ",
     "to": " ke ",
-    "check_inbox": ". Sila semak peti masuk anda terlebih dahulu untuk teruskan.",
+    "check_inbox": " bersama token. Sila semak peti masuk anda untuk mendapatkan token tersebut sebelum anda teruskan.",
     "token": "Token",
     "resend": "Hantar semula",
     "resend_in": "Hantar semula dalam",
