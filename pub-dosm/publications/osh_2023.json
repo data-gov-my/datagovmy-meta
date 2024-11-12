@@ -1,7 +1,6 @@
 {
     "publication": "osh_2023",
     "publication_type": "osh",
-    "abort_email": true,
     "release_date": "2024-11-12",
     "frequency": "YEARLY",
     "geography": [
