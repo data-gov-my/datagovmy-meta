@@ -47,7 +47,7 @@
     "email": "Email Address",
     "sent_verification": "An email with a verification token was sent from ",
     "to": " to ",
-    "check_inbox": ". Please check your inbox for the token to complete your subscription.",
+    "check_inbox": ". Please check your inbox for the token to continue.",
     "token": "Enter Token",
     "resend": "Resend",
     "resend_in": "Resend in",
