@@ -72,12 +72,8 @@
             "chart_type": "TABLE",
             "config": {
                 "precision": 1,
-                "filter_columns": [
-                    "variable"
-                ],
-                "freeze_columns": [
-                    "date"
-                ]
+                "filter_columns": [],
+                "freeze_columns": []
             }
         },
         {
@@ -86,9 +82,7 @@
             "title_ms": "Perbelanjaan Kesihatan",
             "chart_type": "TIMESERIES",
             "config": {
-                "filter_columns": [
-                    "variable"
-                ],
+                "filter_columns": [],
                 "precision": 0,
                 "operation": "SUM",
                 "format": {
