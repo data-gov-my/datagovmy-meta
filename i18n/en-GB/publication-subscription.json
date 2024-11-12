@@ -10,9 +10,10 @@
     "changes_saved": "Changes saved",
     "subscribe": "Subscribe",
     "view_subscription": "View subscription",
-    "email_present": "You have a subscription with this email. Manage it ",
-    "email_absent": "You don't have a subscription with this email. Start subscribing ",
-    "here": "here",
+    "email_present": "You have a subscription with this email.",
+    "email_absent": "You don't have a subscription with this email.",
+    "manage_here": "Manage it here",
+    "subscribe_now": "Subscribe now",
     "new": {
       "header": "Subscribe to our publications",
       "step1": "Enter Email",
@@ -44,7 +45,8 @@
       "success_desc": "Here's your new token for managing your subscriptions. Keep it safe for future reference."
     },
     "email": "Email Address",
-    "sent_verification": "An email with a verification token was sent to ",
+    "sent_verification": "An email with a verification token was sent from ",
+    "to": " to ",
     "check_inbox": ". Please check your inbox for the token to complete your subscription.",
     "token": "Enter Token",
     "resend": "Resend",

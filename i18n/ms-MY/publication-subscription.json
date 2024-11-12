@@ -10,9 +10,10 @@
     "changes_saved": "Siap disimpan.",
     "subscribe": "Langgan Sekarang",
     "view_subscription": "Urus langganan",
-    "email_present": "Anda sudah menjadi pelanggan penerbitan kami. Uruskannya di",
-    "email_absent": "Anda belum lagi melanggani penerbitan kami. Mula melanggani di",
-    "here": "sini",
+    "email_present": "Anda sudah melanggani penerbitan kami dengan emel ini.",
+    "email_absent": "Anda belum lagi melanggani penerbitan kami dengan emel ini.",
+    "manage_here": "Uruskannya di sini",
+    "subscribe_now": "Melanggani sekarang",
     "new": {
       "header": "Langganilah penerbitan kami",
       "step1": "Masukkan Emel",
@@ -44,7 +45,8 @@
       "success_desc": "Token baharu ini akan digunakan untuk mengurus langganan anda. Pastikan ia disimpan secara selamat."
     },
     "email": "Emel",
-    "sent_verification": "Emel pengesahan telah dihantar ke ",
+    "sent_verification": "Emel pengesahan telah dihantar daripada ",
+    "to": " ke ",
     "check_inbox": ". Sila semak peti masuk anda terlebih dahulu untuk teruskan.",
     "token": "Token",
     "resend": "Hantar semula",
