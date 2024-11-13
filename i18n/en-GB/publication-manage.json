@@ -1,20 +1,20 @@
 {
-  "route": "/publications/subscribe",
+  "route": "/publications/manage-subscription",
   "sites": ["opendosm"],
   "translation": {
-    "header": "Subscribe to our publications",
+    "header": "Manage your subscription",
     "step1": "Enter Email",
-    "step1_desc": "Enter the email that you want to subscribe with",
-    "step2": "Authenticate",
+    "step1_desc": "Enter the email that you have subscribed with",
+    "step2":"Authenticate",
     "step2_desc": "Enter the token sent to your email to verify it's you",
-    "step3": "Subscribe",
-    "step3_desc": "Choose the publications that you want to subscribe to",
+    "step3": "Subscription",
+    "step3_desc": "Manage your list of subscription",
     "cancel": "Cancel",
     "email": "Email Address",
     "email_required": "Please fill in your email address.",
     "email_invalid": "Please fill in a valid email address.",
-    "email_present": "You have a subscription with this email.",
-    "manage_here": "Manage it here",
+    "email_absent": "You don't have a subscription with this email.",
+    "subscribe_now": "Subscribe now",
     "continue": "Continue",
     "sent_verification": "An email with a verification token was sent from ",
     "to": " to ",
@@ -26,9 +26,8 @@
     "choose_publication": "List of available publications",
     "choose_publication_desc": "Tick the publication(s) that you want to subscribe to from the list",
     "select_all": "Select all",
-    "subscribe": "Subscribe",
-    "success": "Subscription confirmed!",
-    "success_desc": "You're all set! You will now receive updates on your selected publications via ",
-    "done": "Done"
+    "save": "Save changes",
+    "exit": "Exit",
+    "changes_saved": "Changes saved"
   }
 }

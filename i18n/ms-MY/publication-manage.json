@@ -1,20 +1,20 @@
 {
-  "route": "/ms-MY/publications/subscribe",
+  "route": "/ms-MY/publications/manage-subscription",
   "sites": ["opendosm"],
   "translation": {
-    "header": "Langganilah penerbitan kami",
+    "header": "Uruskan langganan anda",
     "step1": "Masukkan Emel",
-    "step1_desc": "Isikan emel anda untuk mulakan pendaftaran",
+    "step1_desc": "Isikan emel anda untuk dapatkan token",
     "step2": "Pengesahan",
     "step2_desc": "Masukkan token yang dihantar ke emel anda bagi tujuan pengesahan",
-    "step3": "Langgan",
-    "step3_desc": "Pilih penerbitan yang anda ingin melanggan",
+    "step3": "Langganan",
+    "step3_desc": "Uruskan senarai langganan anda",
     "cancel": "Batal",
     "email": "Emel",
     "email_required": "Sila isikan emel anda.",
     "email_invalid": "Sila isikan emel anda secara lengkap.",
-    "email_present": "Anda sudah melanggani penerbitan kami dengan emel ini.",
-    "manage_here": "Uruskannya di sini",
+    "email_absent": "Anda belum lagi melanggani penerbitan kami dengan emel ini.",
+    "subscribe_now": "Melanggani sekarang",
     "continue": "Teruskan",
     "sent_verification": "Emel pengesahan telah dihantar daripada ",
     "to": " ke ",
@@ -25,10 +25,9 @@
     "resend_in": "Hantar semula dalam",
     "choose_publication": "Senarai langganan yang boleh dipilih",
     "choose_publication_desc": "Tandakan mana-mana penerbitan untuk melangganinya!",
-    "subscribe": "Langgan Sekarang",
     "select_all": "Pilih semua",
-    "success": "Selesai!",
-    "success_desc": "Apabila langganan anda mengeluarkan penerbitan baru, anda akan dimaklumkan melalui emel daripada",
-    "done": "Selesai"
+    "save": "Simpan",
+    "exit": "Kembali",
+    "changes_saved": "Siap disimpan."
   }
 }
