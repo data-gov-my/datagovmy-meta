@@ -21,7 +21,7 @@
     "choose_publication_desc": "Tick the publication(s) that you want to subscribe to from the list",
     "select_all": "Select all",
     "save": "Save changes",
-    "exit": "Exit",
+    "log_out": "Log out",
     "changes_saved": "Changes saved"
   }
 }
