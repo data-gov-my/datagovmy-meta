@@ -4,7 +4,7 @@
 	"data_next_update": "2025-10-16 12:00",
 	"route": "/dashboard/drug-addiction,/ms-MY/dashboard/drug-addiction",
 	"sites": ["datagovmy"],
-	"manual_trigger": "0",
+	"manual_trigger": "",
 	"required_params": [],
 	"optional_params": [],
 	"charts": {
