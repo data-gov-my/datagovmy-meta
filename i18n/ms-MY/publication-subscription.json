@@ -3,6 +3,7 @@
   "sites": ["opendosm"],
   "translation": {
     "header": "Langganilah penerbitan kami",
+    "description": "Langgani sekarang untuk dimaklumkan melalui emel apabila penerbitan baru dikeluarkan!",
     "step1": "Masukkan Emel",
     "step1_desc": "Isikan emel anda untuk mulakan pendaftaran",
     "step2": "Pengesahan",
@@ -16,19 +17,19 @@
     "email_present": "Anda sudah melanggani penerbitan kami dengan emel ini.",
     "manage_here": "Uruskannya di sini",
     "continue": "Teruskan",
-    "sent_verification": "Emel pengesahan telah dihantar daripada ",
+    "sent_verification": "Emel pengesahan telah dihantar bersama token daripada ",
     "to": " ke ",
-    "check_inbox": " bersama token. Sila semak peti masuk anda untuk mendapatkan token tersebut sebelum anda teruskan.",
+    "check_inbox": ". Sila semak peti masuk anda untuk mendapatkan token sebelum meneruskan langkah seterusnya.",
     "token": "Token",
     "token_required": "Sila isikan token anda.",
     "resend": "Hantar semula",
     "resend_in": "Hantar semula dalam",
     "choose_publication": "Senarai langganan yang boleh dipilih",
     "choose_publication_desc": "Tandakan mana-mana penerbitan untuk melangganinya!",
-    "subscribe": "Langgan Sekarang",
+    "subscribe": "Langgani Sekarang",
     "select_all": "Pilih semua",
     "success": "Selesai!",
-    "success_desc": "Apabila langganan anda mengeluarkan penerbitan baru, anda akan dimaklumkan melalui emel daripada",
-    "done": "Selesai"
+    "success_desc": "Apabila penerbitan baru dikeluarkan, anda akan dimaklumkan melalui emel daripada",
+    "return": "Kembali"
   }
 }

@@ -3,6 +3,7 @@
   "sites": ["opendosm"],
   "translation": {
     "header": "Subscribe to our publications",
+    "description": "Subscribe now to receive updates whenever a new DOSM publication is released!",
     "step1": "Enter Email",
     "step1_desc": "Enter the email that you want to subscribe with",
     "step2": "Authenticate",
@@ -29,6 +30,6 @@
     "subscribe": "Subscribe",
     "success": "Subscription confirmed!",
     "success_desc": "You're all set! You will now receive updates on your selected publications via ",
-    "done": "Done"
+    "return": "Return"
   }
 }
