@@ -1,7 +1,7 @@
 {
     "publication": "gdp_2024-q2",
     "publication_type": "gdp",
-    "release_date": "2024-08-16",
+    "release_date": "2024-11-17",
     "frequency": "QUARTERLY",
     "geography": [
         "NATIONAL"
@@ -11,6 +11,7 @@
         "title": "[2Q 2024] Gross Domestic Product",
         "publication_type_title": "Gross Domestic Product",
         "description": "Quarterly gross domestic product (GDP), covering nominal and real GDP by type of expenditure and activity.",
+        "description_email": "DOSM has just released the latest GDP data, covering nominal and real GDP by type of expenditure and activity.",
         "resources": [
             {
                 "resource_id": 1,
@@ -30,6 +31,7 @@
         "title": "[ST2 2024] Keluaran Dalam Negeri Kasar",
         "publication_type_title": "Keluaran Dalam Negeri Kasar",
         "description": "Keluaran dalam negeri kasar (KDNK) suku tahunan, merangkumi KDNK pada harga semasa dan malar mengikut jenis perbelanjaan dan aktiviti.",
+        "description_email": "DOSM baru sahaja menerbitkan data KDNK terkini, yang merangkumi KDNK pada harga semasa dan malar mengikut jenis perbelanjaan dan aktiviti.",
         "resources": [
             {
                 "resource_id": 1,
