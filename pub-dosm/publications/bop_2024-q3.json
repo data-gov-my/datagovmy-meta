@@ -1,7 +1,7 @@
 {
     "publication": "bop_2024-q3",
     "publication_type": "bop",
-    "release_date": "2024-11-15",
+    "release_date": "2024-11-17",
     "frequency": "QUARTERLY",
     "geography": [
         "NATIONAL"
@@ -11,6 +11,7 @@
         "title": "[3Q 2024] Balance of Payments",
         "publication_type_title": "Balance of Payments",
         "description": "Quarterly balance of payments, covering the current account, capital account, and financial account.",
+        "description_email": "DOSM has just released the latest balance of payments data, covering the current account, capital account, and financial account.",
         "resources": [
             {
                 "resource_id": 1,
@@ -30,6 +31,7 @@
         "title": "[ST3 2024] Imbangan Pembayaran",
         "publication_type_title": "Imbangan Pembayaran",
         "description": "Imbangan pembayaran suku tahunan, merangkumi akaun semasa, akaun modal, dan akaun kewangan.",
+        "description_email": "DOSM baru sahaja menerbitkan data imbangan pembayaran terkini, merangkumi akaun semasa, akaun modal, dan akaun kewangan.",
         "resources": [
             {
                 "resource_id": 1,
