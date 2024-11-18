@@ -5,7 +5,7 @@
     "description_en": "Production and planted area of crops by state from 2017 to 2022, broken down by crop type.",
     "description_ms": "Pengeluaran dan keluasan kawasan tanaman mengikut negeri dari 2017 hingga 2022, dengan pecahan mengikut jenis tanaman.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2022",
     "last_updated": "2023-12-31 12:00",
     "next_update": "2024-12-31 12:00",
