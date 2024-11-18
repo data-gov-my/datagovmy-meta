@@ -5,7 +5,7 @@
     "description_en": "Production of crops by district, broken down by crop type and species. The table shows a preview of the dataset using the first 100 rows only, as the full dataset is over 10,000 rows in size.",
     "description_ms": "Pengeluaran tanaman mengikut daerah, dengan pecahan mengikut jenis dan spesies tanaman. Jadual menunjukkan pratonton set data dengan menggunakan 100 baris pertama sahaja, kerana set data penuh melebihi 10,000 baris.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2022",
     "last_updated": "2023-12-31 12:00",
     "next_update": "2024-12-31 12:00",
