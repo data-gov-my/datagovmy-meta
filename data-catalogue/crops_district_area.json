@@ -16,7 +16,7 @@
     "publication_en": "This data was also published as part of the Ministry of Agriculture and Food Security's [annual Agrofood Statistics report](https://storage.data.gov.my/agriculture/pub/agrofood_2022.pdf).",
     "publication_ms": "Data ini juga diterbitkan sebagai bagian dari [laporan Perangkaan Agromakanan tahunan](https://storage.data.gov.my/agriculture/pub/agrofood_2022.pdf) oleh Kementerian Pertanian dan Keterjaminan Makanan.",
     "link_parquet": "https://storage.data.gov.my/agriculture/crops_district_area.parquet",
-    "link_csv": "https://storage.datagov.my/agriculture/crops_district_area.csv",
+    "link_csv": "https://storage.data.gov.my/agriculture/crops_district_area.csv",
     "link_preview": "https://storage.data.gov.my/agriculture/crops_district_area_preview.parquet",
     "frequency": "YEARLY",
     "geography": [
