@@ -29,6 +29,8 @@
     "select_all": "Select all",
     "save": "Save changes",
     "log_out": "Log out",
+    "token_expired": "Your token has expired.",
+    "request_again": "Please request a new token to manage your subscription.",
     "changes_saved": "Changes saved"
   }
 }

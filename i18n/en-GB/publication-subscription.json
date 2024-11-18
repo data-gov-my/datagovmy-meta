@@ -28,6 +28,8 @@
     "choose_publication_desc": "Tick the publication(s) that you want to subscribe to from the list",
     "select_all": "Select all",
     "subscribe": "Subscribe",
+    "token_expired": "Your token has expired.",
+    "request_again": "Please request a new token to manage your subscription.",
     "success": "Subscription confirmed!",
     "success_desc": "You're all set! You will now receive updates on your selected publications via ",
     "return": "Return"
