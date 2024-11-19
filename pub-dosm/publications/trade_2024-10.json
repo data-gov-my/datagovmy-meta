@@ -1,0 +1,50 @@
+{
+    "publication": "trade_2024-10",
+    "publication_type": "trade",
+    "release_date": "2024-11-19",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Oct 2024] External Trade",
+        "publication_type_title": "External Trade",
+        "description": "Monthly external trade activity, covering exports, imports, and the balance of trade by trading partner and commodity.",
+        "description_email": "DOSM has just released the latest monthly external trade data, covering exports, imports, and the balance of trade by trading partner and commodity.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "External Trade: Oct 2024",
+                "resource_link": "https://storage.dosm.gov.my/trade/trade_2024-10.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "External Trade: Oct 2024",
+                "resource_link": "https://storage.dosm.gov.my/trade/trade_2024-10.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Okt 2024] Perdagangan Luar Negeri",
+        "publication_type_title": "Perdagangan Luar Negeri",
+        "description": "Aktiviti perdagangan luar bulanan, merangkumi eksport, import, dan imbangan perdagangan mengikut rakan dagang dan komoditi.",
+        "description_email": "DOSM baru sahaja terbitkan data perdagangan luar bulanan terkini, yang merangkumi eksport, impor, dan imbangan perdagangan mengikut rakan dagang dan komoditi.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Perdagangan Luar Negeri: Okt 2024",
+                "resource_link": "https://storage.dosm.gov.my/trade/trade_2024-10.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Perdagangan Luar Negeri: Okt 2024",
+                "resource_link": "https://storage.dosm.gov.my/trade/trade_2024-10.pdf"
+            }
+        ]
+    }
+}
