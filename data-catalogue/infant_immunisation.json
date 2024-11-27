@@ -110,20 +110,22 @@
         "date": "Date",
         "disease": "Disease",
         "rate": "Coverage Rate (%)",
+        "y1": "Coverage (%)",
         "measles": "Measles",
         "mmr": "MMR",
         "dpt": "DPT",
-        "hep_b": "Hepatitis B",
+        "hep-b": "Hepatitis B",
         "polio": "Polio"
     },
     "translations_ms": {
         "date": "Tarikh",
         "disease": "Penyakit",
         "rate": "Kadar Liputan (%)",
+        "y1": "Liputan (%)",
         "measles": "Campak",
         "mmr": "MMR",
         "dpt": "DPT",
-        "hep_b": "Hepatitis B",
+        "hep-b": "Hepatitis B",
         "polio": "Polio"
     },
     "related_datasets": []
