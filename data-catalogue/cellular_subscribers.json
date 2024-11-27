@@ -1,0 +1,119 @@
+{
+  "title_en": "Cellular Subscribers by Plan Type",
+  "title_ms": "Pelanggan Selular Mengikut Jenis Pelan",
+  "title_sort": 1,
+  "description_en": "Annual data on the number of postpaid and prepaid cellular subscribers in Malaysia.",
+  "description_ms": "Data tahunan mengenai bilangan pelanggan selular pascabayar dan prabayar di Malaysia.",
+  "exclude_openapi": false,
+  "manual_trigger": "na",
+  "data_as_of": "2021",
+  "last_updated": "2024-11-26 12:00",
+  "next_update": "2025-12-31 12:00",
+  "methodology_en": "This dataset is compiled from the data provided by all telecommunications service providers in Malaysia to the Malaysian Communications and Multimedia Commission (MCMC). As the regulator of the telecommunications industry, MCMC compiles data from all telecommunications service providers in Malaysia in order to track and monitor the implementation of government policies and regulations pertaining to communications.",
+  "methodology_ms": "Dataset ini dirangka daripada data yang dilaporkan oleh semua pembekal perkhidmatan telekomunikasi di Malaysia kepada Suruhanjaya Komunikasi dan Multimedia Malaysia (MCMC). Sebagai penyelia industri telekomunikasi, MCMC mengumpul data dari semua pembekal perkhidmatan telekomunikasi di Malaysia untuk memantau pelaksanaan dasar kerajaan yang berkaitan dengan komunikasi.",
+  "caveat_en": "This dataset shows the number of subscriptions, not the number of unique subscribers. As such, the number of subscriptions may exceed the population size, as a subscriber may purchase multiple cellular subscriptions.",
+  "caveat_ms": "Dataset ini menunjukkan bilangan langganan, bukan bilangan pelanggan unik. Oleh itu, bilangan langganan boleh melebihi jumlah penduduk, kerana seorang pelanggan boleh membeli beberapa langganan selular.",
+  "publication_en": "\u2014",
+  "publication_ms": "\u2014",
+  "link_parquet": "https://storage.data.gov.my/communications/cellular_subscribers.parquet",
+  "link_csv": "https://storage.data.gov.my/communications/cellular_subscribers.csv",
+  "frequency": "ANNUAL",
+  "geography": [
+    "NATIONAL"
+  ],
+  "demography": [],
+  "dataset_begin": 2000,
+  "dataset_end": 2021,
+  "data_source": [
+    "MCMC"
+  ],
+  "site_category": [
+    {
+      "site": "datagovmy",
+      "category_en": "Communications",
+      "category_ms": "Komunikasi",
+      "category_sort": 48,
+      "subcategory_en": "Telecommunications",
+      "subcategory_ms": "Telekomunikasi",
+      "subcategory_sort": 20
+    }
+  ],
+  "fields": [
+    {
+      "name": "date",
+      "title_en": "Date",
+      "title_ms": "Tarikh",
+      "description_en": "[Date] The year of the data in YYYY-MM-DD format, with MM-DD set to 01-01 because the data is annual.",
+      "description_ms": "[Tarikh] Tahun data dalam format YYYY-MM-DD, dengan MM-DD ditetapkan ke 01-01 kerana data adalah tahunan."
+    },
+    {
+      "name": "plan",
+      "title_en": "Plan Type",
+      "title_ms": "Jenis Pelan",
+      "description_en": "[Categorical] The type of cellular plan: total, postpaid, or prepaid.",
+      "description_ms": "[Kategori] Jenis pelan selular: jumlah, pascabayar, atau prabayar."
+    },
+    {
+      "name": "subscriptions",
+      "title_en": "Number of Subscriptions",
+      "title_ms": "Bilangan Langganan",
+      "description_en": "[Integer] The number of cellular subscriptions.",
+      "description_ms": "[Integer] Bilangan langganan selular."
+    }
+  ],
+  "dataviz": [
+    {
+      "dataviz_id": "table",
+      "title_en": "Table",
+      "title_ms": "Jadual",
+      "chart_type": "TABLE",
+      "config": {
+        "precision": 0,
+        "filter_columns": [
+          "plan"
+        ],
+        "freeze_columns": [
+          "date"
+        ]
+      }
+    },
+    {
+      "dataviz_id": "timeseries",
+      "title_en": "Subscriptions",
+      "title_ms": "Langganan",
+      "chart_type": "TIMESERIES",
+      "config": {
+        "filter_columns": [
+          "plan"
+        ],
+        "precision": 0,
+        "operation": "SUM",
+        "format": {
+          "x": "date",
+          "y": [
+            "subscriptions"
+          ]
+        }
+      }
+    }
+  ],
+  "translations_en": {
+    "date": "Date",
+    "plan": "Plan Type",
+    "subscriptions": "Subscriptions",
+    "y1": "Subscriptions",
+    "total": "All Plans",
+    "postpaid": "Postpaid",
+    "prepaid": "Prepaid"
+  },
+  "translations_ms": {
+    "date": "Tarikh",
+    "plan": "Jenis Pelan",
+    "subscriptions": "Langganan",
+    "y1": "Langganan",
+    "total": "Semua Pelan",
+    "postpaid": "Pascabayar",
+    "prepaid": "Prabayar"
+  },
+  "related_datasets": []
+}
