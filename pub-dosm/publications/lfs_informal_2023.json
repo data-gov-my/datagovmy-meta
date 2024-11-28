@@ -1,0 +1,55 @@
+{
+    "publication": "lfs_informal",
+    "publication_type": "lfs_informal",
+    "abort_email": true,
+    "release_date": "2024-11-28",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "SEX",
+        "AGE"
+    ],
+    "en": {
+        "title": "[2023] Informal Sector Workforce",
+        "publication_type_title": "Informal Sector Workforce",
+        "description": "Biennial profile of employment in the informal sector, with breakdowns by key demographic and socioeconomic variables.",
+        "description_email": "DOSM has just released the latest biennial profile of employment in the informal sector, with breakdowns by key demographic and socioeconomic variables.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Informal Sector Workforce: 2023",
+                "resource_link": "https://storage.dosm.gov.my/labour/lfs_informal_2023.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Informal Sector Workforce: 2023",
+                "resource_link": "https://storage.dosm.gov.my/labour/lfs_informal_2023.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2023] Tenaga Buruh Sektor Informal",
+        "publication_type_title": "Tenaga Buruh Sektor Informal",
+        "description": "Profil dwi-tahunan tenaga buruh di sektor informal, dengan pecahan mengikut ciri demografi dan sosioekonomi penting.",
+        "description_email": "DOSM telah menerbitkan profil dwi-tahunan tenaga buruh di sektor informal yang terkini, dengan pecahan mengikut ciri demografi dan sosioekonomi penting.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Tenaga Buruh Sektor Informal: 2023",
+                "resource_link": "https://storage.dosm.gov.my/labour/lfs_informal_2023.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Tenaga Buruh Sektor Informal: 2023",
+                "resource_link": "https://storage.dosm.gov.my/labour/lfs_informal_2023.xlsx"
+            }
+        ]
+    }
+}
