@@ -6,9 +6,9 @@
   "description_ms": "Kemasukan warga asing secara bulanan ke Malaysia mengikut kewarganegaraan dan jantina.",
   "exclude_openapi": false,
   "manual_trigger": "",
-  "data_as_of": "2024-08-31 23:59",
-  "last_updated": "2024-10-28 16:00",
-  "next_update": "2024-11-25 16:00",
+  "data_as_of": "2024-10-31 23:59",
+  "last_updated": "2024-11-25 16:00",
+  "next_update": "2024-12-25 16:00",
   "methodology_en": "The Immigration Department of Malaysia operates the Malaysian Immigration System (MyIMMs), which is used to record arrivals and departures by air, land, and sea at all international points of entry to Malaysia. The dataset shown here is aggregated from the transactional data stored in MyIMMs, which is the single source of truth for movement in and out of Malaysia.",
   "methodology_ms": "Jabatan Imigresen Malaysia mengendalikan Sistem Imigresen Malaysia (MyIMMs), yang digunakan untuk merekodkan ketibaan dan pelepasan melalui udara, darat dan laut di semua pintu masuk antarabangsa ke Malaysia. Set data ini diagregatkan daripada data transaksi yang disimpan dalam MyIMMs, iaitu sumber tunggal bagi pergerakan masuk dan keluar dari Malaysia.",
   "caveat_en": "This data is based solely on records in MyIMMS. Furthermore, it should be noted that approximately 0.01% of arrivals do not have a nationality specified, including stateless individuals and refugees.",
@@ -343,7 +343,8 @@
     "zwe": "Zimbabwe",
     "bvt": "Bouvet Island",
     "pri": "Puerto Rico",
-    "spm": "Saint Pierre and Miquelon"
+    "spm": "Saint Pierre and Miquelon",
+    "gum": "Guam"
   },
   "translations_ms": {
     "country": "Kewarganegaraan",
@@ -576,7 +577,8 @@
     "zwe": "Zimbabwe",
     "bvt": "Bouvet Island",
     "pri": "Puerto Rico",
-    "spm": "Saint Pierre and Miquelon"
+    "spm": "Saint Pierre and Miquelon",
+    "gum": "Guam"
   },
   "related_datasets": []
 }
