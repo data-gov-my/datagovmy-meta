@@ -1,9 +1,9 @@
 {
-  "title_en": "Monthly Passport Issuances by State and Office",
-  "title_ms": "Pengeluaran Pasport Bulanan mengikut Negeri dan Pejabat",
+  "title_en": "Monthly Passport Issuances by State and Branch",
+  "title_ms": "Pengeluaran Pasport Bulanan mengikut Negeri dan Cawangan",
   "title_sort": 10,
   "description_en": "Monthly issuances of Malaysian passports by state and office.",
-  "description_ms": "Pengeluaran pasport Malaysia secara bulanan mengikut negeri dan pejabat.",
+  "description_ms": "Pengeluaran pasport Malaysia secara bulanan mengikut negeri dan cawangan.",
   "exclude_openapi": false,
   "manual_trigger": "",
   "data_as_of": "2024-10-31 23:59",
