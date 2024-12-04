@@ -1,5 +1,6 @@
 {
     "publication": "mywi_2023",
+    "abort_email": true,
     "publication_type": "mywi",
     "release_date": "2024-12-04",
     "frequency": "YEARLY",
@@ -25,6 +26,12 @@
                 "resource_type": "pdf",
                 "resource_name": "Well-Being by State: 2023",
                 "resource_link": "https://storage.dosm.gov.my/mywi/mywi_2023_state.pdf"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Well-Being: 2023",
+                "resource_link": "https://storage.dosm.gov.my/mywi/mywi_2023.xlsx"
             }
         ]
     },
@@ -45,6 +52,12 @@
                 "resource_type": "pdf",
                 "resource_name": "Kesejahteraan mengikut Negeri: 2023",
                 "resource_link": "https://storage.dosm.gov.my/mywi/mywi_2023_state.pdf"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Kesejahteraan: 2023",
+                "resource_link": "https://storage.dosm.gov.my/mywi/mywi_2023.xlsx"
             }
         ]
     }
