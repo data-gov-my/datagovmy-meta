@@ -1,12 +1,12 @@
 {
     "dashboard_name": "bop",
-    "data_last_updated": "2024-11-15 12:00",
+    "data_last_updated": "2024-12-04 12:00",
     "data_next_update": "2025-02-14 12:00",
     "route": "/dashboard/balance-of-payments,/ms-MY/dashboard/balance-of-payments",
     "sites": [
         "opendosm"
     ],
-    "manual_trigger": "2024-11-15 11:58:58.466247",
+    "manual_trigger": "2024-12-04 11:19:51.447610",
     "required_params": [],
     "optional_params": [],
     "charts": {
