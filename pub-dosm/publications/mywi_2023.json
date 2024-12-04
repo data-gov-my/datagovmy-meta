@@ -1,0 +1,51 @@
+{
+    "publication": "mywi_2023",
+    "publication_type": "mywi",
+    "release_date": "2024-12-04",
+    "frequency": "YEARLY",
+    "geography": [
+        "STATE",
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2023] Well-Being",
+        "publication_type_title": "Well-Being",
+        "description": "Well-being indices at national and state level, covering various components of economic and social well-being.",
+        "description_email": "DOSM has just released the latest edition of Malaysia's Well-Being Index, covering various components of economic and social well-being at national and state level.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Well-Being: 2023",
+                "resource_link": "https://storage.dosm.gov.my/mywi/mywi_2023.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Well-Being by State: 2023",
+                "resource_link": "https://storage.dosm.gov.my/mywi/mywi_2023_state.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2023] Kesejahteraan",
+        "publication_type_title": "Kesejahteraan",
+        "description": "Indeks kesejahteraan pada peringkat nasional dan negeri, merangkumi pelbagai komponen kesejahteraan ekonomi dan sosial.",
+        "description_email": "DOSM baru sahaja menerbitkan Indeks Kesejahteraan Rakyat Malaysia terkini, merangkumi pelbagai komponen kesejahteraan ekonomi dan sosial pada peringkat nasional dan negeri.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Kesejahteraan: 2023",
+                "resource_link": "https://storage.dosm.gov.my/mywi/mywi_2023.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Kesejahteraan mengikut Negeri: 2023",
+                "resource_link": "https://storage.dosm.gov.my/mywi/mywi_2023_state.pdf"
+            }
+        ]
+    }
+}
