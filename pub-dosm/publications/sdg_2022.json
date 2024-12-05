@@ -19,7 +19,7 @@
         "resources": [
             {
                 "resource_id": 1,
-                "resource_type": "excel",
+                "resource_type": "pdf",
                 "resource_name": "SDGs (Executive Summary): 2022",
                 "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022.pdf"
             },
