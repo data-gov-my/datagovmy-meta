@@ -1,7 +1,7 @@
 {
 	"dashboard_name": "services_ppi",
-	"data_last_updated": "2024-08-06 12:00",
-    "data_next_update": "2024-11-06 12:00",
+	"data_last_updated": "2024-11-06 12:00",
+    "data_next_update": "2025-02-06 12:00",
 	"route": "/dashboard/services-producer-prices,/ms-MY/dashboard/services-producer-prices",
 	"sites": ["opendosm"],
 	"manual_trigger": "",
@@ -12,7 +12,7 @@
 			"name": "timeseries",
 			"chart_type": "timeseries_chart",
 			"chart_source": "http://storage.dosm.gov.my/dashboards/services_ppi_timeseries.parquet",
-			"data_as_of": "2024-Q2",
+			"data_as_of": "2024-Q3",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -39,7 +39,7 @@
 			"name": "timeseries_callout",
 			"chart_type": "custom_chart",
 			"chart_source": "http://storage.dosm.gov.my/dashboards/services_ppi_timeseries_callout.parquet",
-			"data_as_of": "2024-Q2",
+			"data_as_of": "2024-Q3",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
