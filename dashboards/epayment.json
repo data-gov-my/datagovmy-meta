@@ -1,12 +1,12 @@
 {
     "dashboard_name": "epayment",
-    "data_last_updated": "2024-11-12 15:00",
-    "data_next_update": "2024-12-12 15:00",
+    "data_last_updated": "2024-12-12 15:00",
+    "data_next_update": "2025-01-12 15:00",
     "route": "/dashboard/electronic-payments,/ms-MY/dashboard/electronic-payments",
     "sites": [
         "datagovmy"
     ],
-    "manual_trigger": "2024-11-11 20:12:12.613427",
+    "manual_trigger": "2024-12-05 21:32:15.847190",
     "required_params": [],
     "optional_params": [],
     "charts": {
@@ -14,7 +14,7 @@
             "name": "epayment_instruments_timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/epayment_instruments_timeseries.parquet",
-            "data_as_of": "2024-09",
+            "data_as_of": "2024-10",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -42,7 +42,7 @@
             "name": "epayment_instruments_timeseries_callout",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/epayment_instruments_timeseries_callout.parquet",
-            "data_as_of": "2024-09",
+            "data_as_of": "2024-10",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -59,7 +59,7 @@
             "name": "epayment_systems_timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/epayment_systems_timeseries.parquet",
-            "data_as_of": "2024-09",
+            "data_as_of": "2024-10",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -85,7 +85,7 @@
             "name": "epayment_systems_timeseries_callout",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/epayment_systems_timeseries_callout.parquet",
-            "data_as_of": "2024-09",
+            "data_as_of": "2024-10",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -102,7 +102,7 @@
             "name": "epayment_channels_timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/epayment_channels_timeseries.parquet",
-            "data_as_of": "2024-09",
+            "data_as_of": "2024-10",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -127,7 +127,7 @@
             "name": "epayment_channels_timeseries_callout",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/epayment_channels_timeseries_callout.parquet",
-            "data_as_of": "2024-09",
+            "data_as_of": "2024-10",
             "api_type": "static",
             "api_params": [],
             "variables": {
