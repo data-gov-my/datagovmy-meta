@@ -1,12 +1,12 @@
 {
     "dashboard_name": "epayment",
-    "data_last_updated": "2024-12-12 15:00",
-    "data_next_update": "2025-01-12 15:00",
+    "data_last_updated": "2024-12-06 15:00",
+    "data_next_update": "2025-01-06 15:00",
     "route": "/dashboard/electronic-payments,/ms-MY/dashboard/electronic-payments",
     "sites": [
         "datagovmy"
     ],
-    "manual_trigger": "2024-12-05 21:32:15.847190",
+    "manual_trigger": "2024-12-05 23:56:48.597182",
     "required_params": [],
     "optional_params": [],
     "charts": {
