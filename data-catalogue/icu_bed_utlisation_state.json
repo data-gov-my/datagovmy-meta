@@ -1,0 +1,268 @@
+{
+    "title_en": "Number of ICU Bed Capacity by State",
+    "title_ms": "Bilangan Kapasiti Katil ICU mengikut Negeri",
+    "title_sort": 1,
+    "description_en": "The Ministry of Health constantly monitors that health facilities are optimally supplied to ensure the delivery of effective health services. This data shows the capacity of critical case beds or Intensive Care Units (ICU) of hospitals across the country that are reported daily by health personnel.",
+    "description_ms": "Kementerian Kesihatan sentiasa memantau fasiliti kesihatan dibekalkan secara optimum bagi memastikan penyampaian perkhidmatan kesihatan yang berkesan. Data ini ini memaparkan kapasiti katil kes kritikal atau Unit Rawatan Rapi (ICU) hospital di seluruh negara yang dilaporkan setiap hari oleh kakitangan kesihatan.",
+    "exclude_openapi": false,
+    "manual_trigger": "2024-07-21 08:58:30.299868",
+    "data_as_of": "2024-07-20 23:59",
+    "last_updated": "2024-07-21 12:00",
+    "next_update": "2024-07-28 12:00",
+    "methodology_en": "This dataset is available from the Medical Program Information System (MPIS) under the supervision of the Medical Development Division, Ministry of Health Malaysia.",
+    "methodology_ms": "Dataset ini didapati oleh Sistem Maklumat Program Perubatan (MPIS) dibawah seliaan Bahagian Perkembangan Perubatan, Kementerian Kesihatan Malaysia.",
+    "caveat_en": "The number of ICU bed capacity may not be the same as the number of ICU case patients admitted to the hospital taking into account the data of other ICU case patients transferred from different hospitals.",
+    "caveat_ms": "Bilangan kapasiti katil ICU berkemungkinan tidak sama dengan bilangan kemasukan pesakit kes ICU ke hospital dengan mengambilkira data pesakit kes ICU lain yang dipindahkan daripada hospital berlainan.",
+    "publication_en": "KKMNOW features a [dashboard on Hospital Bed Utilisation](https://data.moh.gov.my/dashboard/hospital-bed-utilisation) where you can explore the data in a more interactive manner!",
+    "publication_ms": "Portal KKMNOW memaparkan [papan pemuka tentang Penggunaan Katil Hospital](https://data.moh.gov.my/dashboard/hospital-bed-utilisation) di mana anda boleh menerokai data ini dengan lebih interaktif!",
+    "link_parquet": "https://storage.data.gov.my/healthcare/hospital_bed_utlisation_state.parquet",
+    "link_csv": "https://storage.data.gov.my/healthcare/chospital_bed_utlisation_state.csv",
+    "link_preview": "https://storage.data.gov.my/healthcare/hospital_bed_utlisation_state.parquet",
+    "frequency": "DAILY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2020,
+    "dataset_end": 2024,
+    "data_source": [
+        "MoH"
+    ],
+    "site_category": [
+        {
+             "site": "datagovmy",
+            "category_en": "Healthcare",
+            "category_ms": "Kesihatan",
+            "category_sort": 40,
+            "subcategory_en": "Healthcare Resources",
+            "subcategory_ms": "Sumber Penjagaan Kesihatan"
+        },
+        {
+            "site": "kkmnow",
+            "category_en": "Infectious Diseases",
+            "category_ms": "Penyakit Berjangkit",
+            "subcategory_en": "COVID-19",
+            "subcategory_ms": "COVID-19"
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] Date in YYYY-MM-DD format",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states, or Malaysia",
+            "description_ms": "[Kategori] Satu daripada 16 negeri, atau Malaysia"
+        },
+        {
+            "name": "beds_icu",
+            "title_en": "Total of Hospital Bed for ICU Cases.",
+            "title_ms": "Bilangan Katil Hospital untuk Kes ICU.",
+            "description_en": "[Integer] Total of hospital beds for ICU cases.",
+            "description_ms": "[Integer] Bilangan penggunaan katil untuk kes ICU."
+        },
+        {
+            "name": "beds_icu_rep",
+            "title_en": "Number of Typical Hospital Beds Reporpuses for ICU Cases.",
+            "title_ms": "Bilangan Katil Hospital Biasa Yang Digunakan untuk Kes ICU.",
+            "description_en": "[Integer] Number of Typical Hospital Beds Reporpuses for ICU Cases.",
+            "description_ms": "[Integer] Bilangan Katil Hospital Biasa Yang Digunakan untuk Kes ICU."
+        },
+        {
+            "name": "ventilators",
+            "title_en": "Ventilators",
+            "title_ms": "Ventilator",
+            "description_en": "[Integer] Number of ventilators in Hospitals across Country.",
+            "description_ms": "[Integer] Bilangan alatan ventilator di Hospital di seluruh negara."
+        },
+       {
+            "name": "ventilators_portable",
+            "title_en": "Portable Ventilators",
+            "title_ms": "Ventilator Mudah Alih",
+            "description_en": "[Integer] Number of portable ventilators in Hospitals across Country.",
+            "description_ms": "[Integer] Bilangan alatan ventilator mudah alih di Hospital di seluruh negara."
+        },
+        {
+            "name": "in_icu",
+            "title_en": "Number of Patients in Ward for ICU Cases",
+            "title_ms": "Bilangan Pesakit di Wad bagi Kes ICU",
+            "description_en": "[Integer] Number of Patients in the ICU Ward",
+            "description_ms": "[Integer] Bilangan pesakit yang telah dimasukkan ke wad ICU."
+        },
+        {
+            "name": "ventilated",
+            "title_en": "Number of Patients in the Ward for ICU Cases Using Ventilators",
+            "title_ms": "Bilangan Pesakit di Wad bagi Kes ICU yang Menggunakan Ventilator",
+            "description_en": "[Integer] Number of Patients in the Ward for ICU Cases Using Ventilators",
+            "description_ms": "[Integer] Bilangan Pesakit di Wad bagi Kes ICU yang Menggunakan Ventilator"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "state"
+                ],
+                "freeze_columns": [
+                    "date"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "beds_icu",
+            "title_en": "Beds for ICU Cases",
+            "title_ms": "Katil bagi Kes ICU",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "beds_icu"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "beds_icu_rep",
+            "title_en": "Total Beds Repurpose for Treating Patients in ICU Cases",
+            "title_ms": "Bilangan Katil Hospital Biasa Yang Digunakan untuk Kes ICU",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "beds_icu_rep"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "ventilators",
+            "title_en": "Ventilator",
+            "title_ms": "Ventilator",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "ventilators"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "ventilators_portable",
+            "title_en": "Active Cases",
+            "title_ms": "Kes Aktif",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "ventilators_portable"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "in_icu",
+            "title_en": "Number of Patients in Ward for ICU Cases",
+            "title_ms": "Bilangan Pesakit di Wad bagi Kes ICU",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "in_icu"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "ventilated",
+            "title_en": "Number of Patients in Ward for ICU Cases",
+            "title_ms": "Bilangan Pesakit di Wad bagi Kes ICU",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        ",
+        {
+            "dataviz_id": "in_icu",
+            "title_en": "Number of Patients in the Ward for ICU Cases Using Ventilators",
+            "title_ms": "Bilangan Pesakit di Wad bagi Kes ICU yang Menggunakan Ventilator",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "in_icu"
+                    ]
+                }
+            }
+        }"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "state": "State",
+        "y1": "Cases"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "state": "Negeri",
+        "y1": "Kes"
+    },
+    "related_datasets": []
+}
