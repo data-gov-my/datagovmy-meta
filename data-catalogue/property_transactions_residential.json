@@ -141,14 +141,9 @@
             "title_ms": "Jadual",
             "chart_type": "TABLE",
             "config": {
-                "precision": 1,
-                "filter_columns": [
-                    "strata",
-                    "division"
-                ],
-                "freeze_columns": [
-                    "date"
-                ]
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
             }
         }
     ],
