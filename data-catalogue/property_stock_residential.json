@@ -17,7 +17,7 @@
     "publication_ms": "\u2014",
     "link_parquet": "https://storage.data.gov.my/property/property_stock_residential.parquet",
     "link_csv": "https://storage.data.gov.my/property/property_stock_residential.csv",
-    "link_preview": "https://storage.data.gov.my/property/property_stock_residential_preview.csv",
+    "link_preview": "https://storage.data.gov.my/property/property_stock_residential_preview.parquet",
     "frequency": "QUARTERLY",
     "geography": [
         "NATIONAL",
