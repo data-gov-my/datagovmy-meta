@@ -2,8 +2,8 @@
     "title_en": "Residential Property Stock",
     "title_ms": "Stok Harta Tanah Kediaman",
     "title_sort": 1,
-    "description_en": "Quarterly data on the stock of residential properties, with a breakdown by property type and stage of development.",
-    "description_ms": "Data kuartalan stok harta tanah kediaman, dengan pecahan mengikut jenis kediaman dan tahap pembangunan.",
+    "description_en": "Quarterly data on the stock of residential properties, with a breakdown by property type and stage of development. The table and chart use data for Petaling as a preview, but you may download the dataset in full.",
+    "description_ms": "Data kuartalan stok harta tanah kediaman, dengan pecahan mengikut jenis kediaman dan tahap pembangunan. Jadual dan carta menggunakan data untuk Petaling sebagai pratonton, tetapi anda boleh memuat turun set data penuh.",
     "exclude_openapi": true,
     "manual_trigger": "",
     "data_as_of": "2024-Q3",
@@ -17,6 +17,7 @@
     "publication_ms": "\u2014",
     "link_parquet": "https://storage.data.gov.my/property/property_stock_residential.parquet",
     "link_csv": "https://storage.data.gov.my/property/property_stock_residential.csv",
+    "link_preview": "https://storage.data.gov.my/property/property_stock_residential_preview.csv",
     "frequency": "QUARTERLY",
     "geography": [
         "NATIONAL",
