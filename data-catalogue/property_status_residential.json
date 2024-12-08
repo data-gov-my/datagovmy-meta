@@ -5,7 +5,7 @@
     "description_en": "Quarterly data on residential properties are unsold, with a breakdown by completion status. Completed but unsold properties are classified as overhang.",
     "description_ms": "Data kuartalan harta tanah kediaman yang tidak dijual, dengan pecahan mengikut status siap dibina. Harta tanah yang telah siap dibina tetapi tidak dijual diklasifikasikan sebagai 'overhang'.",
     "exclude_openapi": true,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2024-Q3",
     "last_updated": "2024-12-01 12:00",
     "next_update": "2025-01-01 12:00",
