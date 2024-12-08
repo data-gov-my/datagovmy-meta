@@ -15,8 +15,8 @@
     "caveat_ms": "Data ini mungkin disemak semula dalam penerbitan akan datang.",
     "publication_en": "\u2014",
     "publication_ms": "\u2014",
-    "link_parquet": "https://storage.data.gov.my/property/property_stock_residential.parquet",
-    "link_csv": "https://storage.data.gov.my/property/property_stock_residential.csv",
+    "link_parquet": "https://storage.data.gov.my/property/property_status_residential.parquet",
+    "link_csv": "https://storage.data.gov.my/property/property_status_residential.csv",
     "frequency": "QUARTERLY",
     "geography": [
         "NATIONAL",
