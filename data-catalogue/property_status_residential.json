@@ -123,11 +123,5 @@
         "unsold-not-constructed": "Belum Terjual Belum Dibina",
         "unsold-under-construction": "Belum Terjual Dalam Pembinaan"
     },
-    "related_datasets": [
-        {
-            "title_en": "Residential Property Transactions",
-            "title_ms": "Transaksi Harta Tanah Kediaman",
-            "link": "https://storage.data.gov.my/property/property_transactions_residential.csv"
-        }
-    ]
+    "related_datasets": []
 }
