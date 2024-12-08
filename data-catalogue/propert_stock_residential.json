@@ -1,9 +1,9 @@
 {
-    "title_en": "Residential Property Status",
-    "title_ms": "Status Harta Tanah Kediaman",
+    "title_en": "Residential Property Stock",
+    "title_ms": "Stok Harta Tanah Kediaman",
     "title_sort": 1,
-    "description_en": "Quarterly data on the unsold residential properties, with a breakdown by completion status. Completed but unsold properties are classified as overhang.",
-    "description_ms": "Data kuartalan harta tanah kediaman yang tidak dijual, dengan pecahan mengikut status siap dibina. Harta tanah yang telah siap dibina tetapi tidak dijual diklasifikasikan sebagai 'overhang'.",
+    "description_en": "Quarterly data on the stock of residential properties, with a breakdown by property type and stage of development.",
+    "description_ms": "Data kuartalan stok harta tanah kediaman, dengan pecahan mengikut jenis kediaman dan tahap pembangunan.",
     "exclude_openapi": true,
     "manual_trigger": "",
     "data_as_of": "2024-Q3",
@@ -15,8 +15,8 @@
     "caveat_ms": "Data ini mungkin disemak semula dalam penerbitan akan datang.",
     "publication_en": "\u2014",
     "publication_ms": "\u2014",
-    "link_parquet": "https://storage.data.gov.my/property/property_status_residential.parquet",
-    "link_csv": "https://storage.data.gov.my/property/property_status_residential.csv",
+    "link_parquet": "https://storage.data.gov.my/property/property_stock_residential.parquet",
+    "link_csv": "https://storage.data.gov.my/property/property_stock_residential.csv",
     "frequency": "QUARTERLY",
     "geography": [
         "NATIONAL",
@@ -24,7 +24,7 @@
         "DISTRICT"
     ],
     "demography": [],
-    "dataset_begin": 2024,
+    "dataset_begin": 2018,
     "dataset_end": 2024,
     "data_source": [
         "NAPIC"
@@ -35,9 +35,9 @@
             "category_en": "Property Markets",
             "category_ms": "Pasaran Harta Tanah",
             "category_sort": 70,
-            "subcategory_en": "Status",
-            "subcategory_ms": "Status",
-            "subcategory_sort": 30
+            "subcategory_en": "Stock",
+            "subcategory_ms": "Stok",
+            "subcategory_sort": 20
         }
     ],
     "fields": [
@@ -47,13 +47,6 @@
             "title_ms": "Tarikh",
             "description_en": "[Date] Data as of this date, in YYYY-MM-DD format. The earliest date in the period is chosen, e.g. YYYY-04-01 for 2nd quarter data.",
             "description_ms": "[Tarikh] Data sekatat tarikh ini, dalam format YYYY-MM-DD. Tarikh yang dipilih adalah tarikh terawal dalam tempoh, contohnya YYYY-04-01 bagi data suku tahun kedua."
-        },
-        {
-            "name": "type",
-            "title_en": "Status",
-            "title_ms": "Status",
-            "description_en": "[Kategori] Status harta tanah, either completed but not sold (overhang), unsold but not constructed, or unsold under construction.",
-            "description_ms": "[Kategori] Status harta tanah, sama ada siap dibina belum dijual (overhang), belum terjual belum dibina, atau belum terjual dalam pembinaan."
         },
         {
             "name": "state",
@@ -68,6 +61,13 @@
             "title_ms": "Daerah",
             "description_en": "[String] The district in which the property is located.",
             "description_ms": "[Rentetan] Daerah di mana harta tanah berada."
+        },
+        {
+            "name": "stage",
+            "title_en": "Stage of Development",
+            "title_ms": "Tahap Pembangunan",
+            "description_en": "[Categorical] The stage of development of the property: completions, existing, starts, supply-incoming, supply-newly-planned, or supply-planned.",
+            "description_ms": "[Kategori] Tahap pembangunan harta tanah: siap, sedia ada, mula, bekalan-masuk, bekalan-baru-dirancang, atau bekalan-dirancang."
         },
         {
             "name": "property_type",
@@ -93,7 +93,7 @@
             "config": {
                 "precision": 0,
                 "filter_columns": [
-                    "type",
+                    "stage",
                     "state",
                     "district"
                 ],
@@ -103,26 +103,32 @@
     ],
     "translations_en": {
         "date": "Date",
-        "type": "Status",
         "state": "State",
         "district": "District",
+        "stage": "Stage of Development",
         "property_type": "Property Type",
         "properties": "Number of Properties",
-        "overhang": "Overhang",
-        "unsold-not-constructed": "Unsold Not Constructed",
-        "unsold-under-construction": "Unsold Under Construction",
+        "completions": "Completions",
+        "existing": "Existing",
+        "starts": "Starts",
+        "supply-incoming": "Supply Incoming",
+        "supply-newly-planned": "Supply Newly Planned",
+        "supply-planned": "Supply Planned",
         "all": "All Districts"
     },
     "translations_ms": {
         "date": "Tarikh",
-        "type": "Status",
         "state": "Negeri",
         "district": "Daerah",
+        "stage": "Tahap Pembangunan",
         "property_type": "Jenis Harta",
         "properties": "Bilangan Harta",
-        "overhang": "Overhang",
-        "unsold-not-constructed": "Belum Terjual Belum Dibina",
-        "unsold-under-construction": "Belum Terjual Dalam Pembinaan",
+        "completions": "Siap",
+        "existing": "Sedia Ada",
+        "starts": "Mula",
+        "supply-incoming": "Bekalan Masuk",
+        "supply-newly-planned": "Bekalan Baru Dirancang",
+        "supply-planned": "Bekalan Dirancang",
         "all": "Semua Daerah"
     },
     "related_datasets": []
