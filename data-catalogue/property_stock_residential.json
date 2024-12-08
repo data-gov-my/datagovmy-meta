@@ -93,11 +93,34 @@
             "config": {
                 "precision": 0,
                 "filter_columns": [
-                    "stage",
                     "state",
-                    "district"
+                    "district",
+                    "stage",
+                    "property_type"
                 ],
                 "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "index",
+            "title_en": "CPI",
+            "title_ms": "IHP",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state",
+                    "district",
+                    "stage",
+                    "property_type"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "properties"
+                    ]
+                }
             }
         }
     ],
@@ -114,7 +137,18 @@
         "supply-incoming": "Supply Incoming",
         "supply-newly-planned": "Supply Newly Planned",
         "supply-planned": "Supply Planned",
-        "all": "All Districts"
+        "all": "All Districts",
+        "cluster": "Cluster",
+        "condominium": "Condominium",
+        "detached": "Detached",
+        "flat": "Flat",
+        "flat-lowcost": "Low-Cost Flat",
+        "house-lowcost": "Low-Cost House",
+        "semidetached-1-storey": "Semi-Detached (1 Storey)",
+        "semidetached-2-3-storey": "Semi-Detached (2-3 Storey)",
+        "terrace-1-storey": "Terrace (1 Storey)",
+        "terrace-2-3-storey": "Terrace (2-3 Storey)",
+        "townhouse": "Townhouse"
     },
     "translations_ms": {
         "date": "Tarikh",
@@ -129,7 +163,18 @@
         "supply-incoming": "Bekalan Masuk",
         "supply-newly-planned": "Bekalan Baru Dirancang",
         "supply-planned": "Bekalan Dirancang",
-        "all": "Semua Daerah"
+        "all": "Semua Daerah",
+        "cluster": "Kluster",
+        "condominium": "Kondominium",
+        "detached": "Terpisah",
+        "flat": "Pangsapuri",
+        "flat-lowcost": "Pangsapuri Mampu Milik",
+        "house-lowcost": "Rumah Mampu Milik",
+        "semidetached-1-storey": "Separuh Terpisah (1 Tingkat)",
+        "semidetached-2-3-storey": "Separuh Terpisah (2-3 Tingkat)",
+        "terrace-1-storey": "Teres (1 Tingkat)",
+        "terrace-2-3-storey": "Teres (2-3 Tingkat)",
+        "townhouse": "Townhouse"
     },
     "related_datasets": []
 }
