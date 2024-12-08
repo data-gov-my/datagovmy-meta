@@ -104,8 +104,8 @@
         },
         {
             "dataviz_id": "index",
-            "title_en": "CPI",
-            "title_ms": "IHP",
+            "title_en": "Timeseries",
+            "title_ms": "Siri Masa",
             "chart_type": "TIMESERIES",
             "config": {
                 "filter_columns": [
