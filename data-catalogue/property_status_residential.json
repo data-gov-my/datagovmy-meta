@@ -1,6 +1,6 @@
 {
-    "title_en": "Unsold Residential Properties",
-    "title_ms": "Harta Tanah Kediaman Tidak Dijual",
+    "title_en": "Residential Property Status",
+    "title_ms": "Status Harta Tanah Kediaman",
     "title_sort": 1,
     "description_en": "Quarterly data on residential properties are unsold, with a breakdown by completion status. Completed but unsold properties are classified as overhang.",
     "description_ms": "Data kuartalan harta tanah kediaman yang tidak dijual, dengan pecahan mengikut status siap dibina. Harta tanah yang telah siap dibina tetapi tidak dijual diklasifikasikan sebagai 'overhang'.",
