@@ -5,7 +5,7 @@
     "description_en": "Transactional records of residential property sales from 2021 to the present. The table below provides a preview of the full dataset, which contains tens of thousands of transactions per year.",
     "description_ms": "Rekod transaksi harta tanah kediaman dari 2021 sehingga kini. Jadual di bawah memberi pratonton kepada dataset penuh yang mengandungi berpuluh ribu transaksi bagi setiap tahun.",
     "exclude_openapi": true,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2024-06",
     "last_updated": "2024-12-01 12:00",
     "next_update": "2025-01-01 12:00",
