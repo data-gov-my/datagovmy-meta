@@ -1,6 +1,7 @@
 {
     "publication": "hdi_2023",
     "publication_type": "hdi",
+    "abort_email": true,
     "release_date": "2024-12-11",
     "frequency": "YEARLY",
     "geography": [
@@ -21,6 +22,12 @@
                 "resource_type": "pdf",
                 "resource_name": "Human Development Index: 2023",
                 "resource_link": "https://storage.dosm.gov.my/mhdi/hdi_2023.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Human Development Index: 2023",
+                "resource_link": "https://storage.dosm.gov.my/mhdi/hdi_2023.xlsx"
             }
         ]
     },
@@ -35,6 +42,12 @@
                 "resource_type": "pdf",
                 "resource_name": "Indeks Pembangunan Manusia: 2023",
                 "resource_link": "https://storage.dosm.gov.my/mhdi/hdi_2023.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Indeks Pembangunan Manusia: 2023",
+                "resource_link": "https://storage.dosm.gov.my/mhdi/hdi_2023.xlsx"
             }
         ]
     }
