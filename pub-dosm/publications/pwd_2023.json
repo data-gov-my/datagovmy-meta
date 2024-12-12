@@ -1,0 +1,140 @@
+{
+    "publication": "pwd_2023",
+    "publication_type": "pwd",
+    "release_date": "2024-12-12",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY",
+        "AGE",
+        "DISABILITY"
+    ],
+    "en": {
+        "title": "[2023] Persons with Disabilities",
+        "publication_type_title": "Persons with Disabilities",
+        "description": "Annual data on persons with disabilities (PWD), with breakdowns by category of disability.",
+        "description_email": "DOSM has just released the latest annual data on persons with disabilities (PWD), with a breakdown by category of disability and other key sociodemographic variables.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Persons with Disabilities: 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/oku_2023.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Persons with Disabilities (Population): 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/oku_2023_population.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Persons with Disabilities (Health): 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/oku_2023_health.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Persons with Disabilities (Education): 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/oku_2023_education.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Persons with Disabilities (Employment): 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/oku_2023_employment.xlsx"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "excel",
+                "resource_name": "Persons with Disabilities (Income & Expenditure): 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/oku_2023_hies.xlsx"
+            },
+            {
+                "resource_id": 7,
+                "resource_type": "excel",
+                "resource_name": "Persons with Disabilities (Welfare): 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/oku_2023_welfare.xlsx"
+            },
+            {
+                "resource_id": 8,
+                "resource_type": "excel",
+                "resource_name": "Persons with Disabilities (Sport): 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/oku_2023_sport.xlsx"
+            },
+            {
+                "resource_id": 9,
+                "resource_type": "excel",
+                "resource_name": "Persons with Disabilities (SDG): 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/oku_2023_sdg.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2023] Orang Kurang Upaya",
+        "publication_type_title": "Orang Kurang Upaya",
+        "description": "Data tahunan mengenai orang kurang upaya (OKU), dengan pecahan mengikut kategori ketidakupayaan.",
+        "description_email": "DOSM baru sahaja menerbitkan data tahunan terkini mengenai orang kurang upaya (OKU), dengan pecahan mengikut kategori ketidakupayaan dan ciri-ciri sosiodemografi penting.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Orang Kurang Upaya: 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/oku_2023.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Orang Kurang Upaya (Penduduk): 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/oku_2023_population.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Orang Kurang Upaya (Pendidikan): 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/oku_2023_education.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Orang Kurang Upaya (Kesihatan): 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/oku_2023_health.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Orang Kurang Upaya (Pekerjaan): 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/oku_2023_employment.xlsx"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "excel",
+                "resource_name": "Orang Kurang Upaya (Pendapatan & Perbelanjaan): 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/oku_2023_hies.xlsx"
+            },
+            {
+                "resource_id": 7,
+                "resource_type": "excel",
+                "resource_name": "Orang Kurang Upaya (Kebajikan): 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/oku_2023_welfare.xlsx"
+            },
+            {
+                "resource_id": 8,
+                "resource_type": "excel",
+                "resource_name": "Orang Kurang Upaya (Sukan): 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/oku_2023_sport.xlsx"
+            },
+            {
+                "resource_id": 9,
+                "resource_type": "excel",
+                "resource_name": "Orang Kurang Upaya (SDG): 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/oku_2023_sdg.xlsx"
+            }
+        ]
+    }
+}
