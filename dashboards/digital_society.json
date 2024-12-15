@@ -1,0 +1,68 @@
+{
+	"dashboard_name": "digital_society",
+	"data_last_updated": "2024-04-22 00:01",
+	"route": "/,/ms-MY/",
+	"sites": [
+		"opendosm"
+	],
+	"manual_trigger": "2024-04-22 00:16:20.442287",
+	"required_params": [],
+	"optional_params": [],
+	"charts": {
+		"timeseries": {
+			"name": "timeseries",
+			"chart_type": "timeseries_chart",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/digital_hh_timeseries.parquet",
+			"data_as_of": "2021",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": [
+					"state"
+				],
+				"rename_cols": {
+					"date": "x"
+				},
+				"value_columns": [
+					"x",
+					"mobile_phone",
+					"computer",
+					"internet"
+				]
+			}
+		},
+		"timeseries_callout": {
+			"name": "timeseries_callout",
+			"chart_type": "custom_chart",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/digital_hh_timeseries_callout.parquet",
+			"data_as_of": "2021",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"keys": [
+					"state",
+					"chart"
+				],
+				"value_columns": [
+					"latest"
+				]
+			}
+		},
+		"choropleth_state": {
+			"name": "choropleth_state",
+			"chart_type": "choropleth_chart",
+			"chart_source": "http://storage.dosm.gov.my/dashboards/digital_hh_state.parquet",
+			"data_as_of": "2024-01-01 23:59",
+			"api_type": "static",
+			"api_params": [],
+			"variables": {
+				"x": "state",
+				"y": [
+					"mobile_phone",
+					"computer",
+					"internet"
+				]
+			}
+		}
+	}
+}

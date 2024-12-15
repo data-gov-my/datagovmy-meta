@@ -1,0 +1,185 @@
+{
+    "title_en": "Annual Marriage by Age Group",
+    "title_ms": "Perkahwinan Tahunan mengikut Kumpulan Umur",
+    "title_sort": 15,
+    "description_en": "Number of marriages registered annually in Malaysia by age group, including marriage rates per 1,000 unmarried population.",
+    "description_ms": "Jumlah perkahwinan yang didaftarkan setiap tahun di Malaysia mengikut kumpulan umur, termasuk kadar perkahwinan bagi setiap 1,000 penduduk yang tidak berkahwin.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2022-12-31 23:59",
+    "last_updated": "2023-11-23 12:00",
+    "next_update": "2024-11-21 12:00",
+    "methodology_en": "In Malaysia, there are two parallel systems for marriage registration; non-Muslim marriages are registered with the National Registration Department (JPN), while Muslim marriages are registered with the Syariah Court. This dataset is tabulated from the transactional administrative data collected by both administrative systems.",
+    "methodology_ms": "Di Malaysia, terdapat dua sistem untuk pendaftaran perkahwinan; perkahwinan bagi orang bukan Islam didaftarkan dengan Jabatan Pendaftaran Negara (JPN), manakala perkahwinan bagi orang Islam didaftarkan dengan Mahkamah Syariah. Set data ini dihasilkan daripada rekod pentadbiran yang dikumpulkan oleh kedua-dua sistem administratif tersebut.",
+    "caveat_en": "The data represents registered marriages only. Unregistered marriages (including couples originally registered outside Malaysia who have not yet registered their marriage with local authorities) are not included in this dataset.",
+    "caveat_ms": "Set data ini hanya mewakili perkahwinan yang didaftarkan. Perkahwinan yang tidak didaftarkan (termasuk pasangan yang didaftarkan di luar Malaysia yang belum lagi daftarkan perkahwinan mereka dengan kerajaan Malaysia) tidak terkandung dalam set data ini.",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/demography/marriages_age.parquet",
+    "link_csv": "https://storage.dosm.gov.my/demography/marriages_age.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2017,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Demography",
+            "category_ms": "Demografi",
+            "category_sort": 1,
+            "subcategory_en": "Marriage",
+            "subcategory_ms": "Perkahwinan",
+            "subcategory_sort": 4
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Demography",
+            "category_ms": "Demografi",
+            "category_sort": 1,
+            "subcategory_en": "Marriage",
+            "subcategory_ms": "Perkahwinan",
+            "subcategory_sort": 4
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date of marriage registration in YYYY-MM-DD format, with MM-DD set to 01-01 as this is annual data",
+            "description_ms": "[Tarikh] Tarikh pendaftaran perkahwinan dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01 kerana ini adalah data tahunan"
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Categorical] Either male ('male') or female ('female')",
+            "description_ms": "[Kategori] Sama ada lelaki ('male') atau perempuan ('female')"
+        },
+        {
+            "name": "age",
+            "title_en": "Age Group",
+            "title_ms": "Kumpulan Umur",
+            "description_en": "[Categorical] 5 year age groups covering 20-24, 25-29, ..., 55-59, 60-64, except for the categories for individuals less than 20 years old (< 20) or more than 65 years old (65+), which are consolidated due to their small numbers.",
+            "description_ms": "[Kategori] Kelompok umur 5 tahun, merangkumi 20-24, 25-29, ..., 55-59, 60-64, kecuali bagi kategori individu yang berumur kurang dari 20 tahun (< 20) atau lebih dari 65 tahun (65+), yang digabungkan kerana jumlahnya yang kecil."
+        },
+        {
+            "name": "abs",
+            "title_en": "Number of Marriages",
+            "title_ms": "Jumlah Perkahwinan",
+            "description_en": "[Integer] Number of marriages registered in that year",
+            "description_ms": "[Integer] Jumlah perkahwinan yang didaftarkan pada tahun itu"
+        },
+        {
+            "name": "rate",
+            "title_en": "Marriage Rate",
+            "title_ms": "Kadar Perkahwinan",
+            "description_en": "[Float] Number of marriages per 1000 currently unmarried population of the same sex and age group (including widowers and divorcees)",
+            "description_ms": "[Float] Jumlah perkahwinan bagi setiap 1000 penduduk yang tidak berkahwin bagi jantina dan kumpulan umur tersebut (termasuk duda dan bercerai)"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": {
+                  "default": 2,
+                  "columns": {
+                    "abs": 0
+                  }
+                },
+                "filter_columns": [
+                    "sex",
+                    "age"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "marriages",
+            "title_en": "Marriages",
+            "title_ms": "Perkahwinan",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "sex",
+                    "age"
+                ],
+                "precision": {
+                  "default": 0,
+                  "columns": {
+                    "rate": 2
+                  }
+                },
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "abs"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "marriage_rates",
+            "title_en": "Marriage Rate",
+            "title_ms": "Kadar Perkahwinan",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "sex",
+                    "age"
+                ],
+                "precision": {
+                  "default": 0,
+                  "columns": {
+                    "rate": 2
+                  }
+                },
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "rate"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "sex": "Sex",
+        "age": "Age Group",
+        "abs": "Number",
+        "rate": "Rate",
+        "male": "Male",
+        "female": "Female",
+        "all": "All Age Groups",
+        "20": "< 20",
+        "65": "65+",
+        "y1": "Value"
+    },
+    "translations_ms": {
+        "date": "Tahun",
+        "sex": "Jantina",
+        "age": "Kumpulan Umur",
+        "abs": "Jumlah",
+        "rate": "Kadar",
+        "male": "Lelaki",
+        "female": "Perempuan",
+        "all": "Semua Kumpulan Umur",
+        "20": "< 20",
+        "65": "65+",
+        "y1": "Nilai"
+    },
+    "related_datasets": []
+}

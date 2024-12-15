@@ -1,0 +1,135 @@
+{
+    "title_en": "Monthly Air Pollution",
+    "title_ms": "Pencemaran Udara Bulanan",
+    "title_sort": 10,
+    "description_en": "Average monthly concentration of key air pollutants.",
+    "description_ms": "Kepekatan purata bulanan bahan pencemar udara utama.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2022-12-31 23:59",
+    "last_updated": "2023-11-27 12:00",
+    "next_update": "2024-11-27 12:00",
+    "methodology_en": "This dataset presents monthly concentrations of various air pollutants, including carbon monoxide (CO), nitrogen dioxide (NO²), ozone (O³), particulate matter (PM₁₀, PM₂.₅), and sulfur dioxide (SO²). The data is tabulated from hourly observational data collected from monitoring stations across Malaysia.",
+    "methodology_ms": "Set data ini mengandungi kepekatan bulanan pelbagai bahan pencemar udara, termasuk karbon monoksida (CO), nitrogen dioksida (NO²), ozon (O³), zarah terampai (PM₁₀, PM₂.₅), dan sulfur dioksida (SO²). Data ini dihasilkan daripada data pengawasan secara jam yang dikumpulkan dari stesen pemantauan di seluruh Malaysia.",
+    "caveat_en": "A small minority of values in 2017 are null due to inavailability of data.",
+    "caveat_ms": "Sebahagian kecil nilai bagi tahun 2017 tidak dapat dibekalkan disebabkan ketiadaan data.",
+    "publication_en": "—",
+    "publication_ms": "—",
+    "link_parquet": "https://storage.data.gov.my/environment/air_pollution.parquet",
+    "link_csv": "https://storage.data.gov.my/environment/air_pollution.csv",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2017,
+    "dataset_end": 2022,
+    "data_source": [
+        "JAS",
+        "DOSM"
+    ],
+    "site_category": [
+        {
+          "site": "datagovmy",
+          "category_en": "Environment",
+          "category_ms": "Alam Sekitar",
+          "category_sort": 45,
+          "subcategory_en": "Pollution",
+          "subcategory_ms": "Pencemaran",
+          "subcategory_sort": 30
+        },
+        {
+          "site": "opendosm",
+          "category_en": "Environment",
+          "category_ms": "Alam Sekitar",
+          "category_sort": 95,
+          "subcategory_en": "Pollution",
+          "subcategory_ms": "Pencemaran",
+          "subcategory_sort": 30
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01 as the data is at monthly frequency.",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01 kerana data berfrekuensi bulanan."
+        },
+        {
+            "name": "pollutant",
+            "title_en": "Pollutant",
+            "title_ms": "Bahan Pencemar",
+            "description_en": "[Categorical] The type of air pollutant ('CO', 'NO²', 'O³', 'PM₁₀', 'PM₂.₅', 'SO²').",
+            "description_ms": "[Kategori] Jenis bahan pencemar udara ('CO', 'NO²', 'O³', 'PM₁₀', 'PM₂.₅', 'SO²')."
+        },
+        {
+            "name": "concentration",
+            "title_en": "Concentration",
+            "title_ms": "Kepekatan",
+            "description_en": "[Float] The concentration of the pollutant in parts per million (ppm) or micrograms per cubic meter (µg/m³). All pollutants are measured in ppm except for PM₁₀ and PM₂.₅, which are measured in µg/m³.",
+            "description_ms": "[Apung] Kepekatan bahan pencemar dalam bahagian per juta (ppm) atau mikrogram per meter padu (µg/m³). Semua bahan pencemar diukur dalam ppm kecuali PM₁₀ dan PM₂.₅, yang diukur dalam µg/m³."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 4,
+                "filter_columns": [
+                    "pollutant"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "concentration",
+            "title_en": "Concentration of Air Pollutants",
+            "title_ms": "Kepekatan Bahan Pencemar Udara",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "pollutant"
+                ],
+                "precision": 4,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "concentration"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Concentration",
+        "date": "Date",
+        "pollutant": "Pollutant",
+        "concentration": "Concentration",
+        "co": "Carbon Monoxide (CO)",
+        "no2": "Nitrogen Dioxide (NO²)",
+        "o3": "Ozone (O³)",
+        "pm-10": "Particulate Matter (PM₁₀)",
+        "pm-2-5": "Particulate Matter (PM₂.₅)",
+        "so2": "Sulfur Dioxide (SO²)"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Kepekatan",
+        "date": "Tarikh",
+        "pollutant": "Bahan Pencemar",
+        "concentration": "Kepekatan",
+        "co": "Karbon Monoksida (CO)",
+        "no2": "Nitrogen Dioksida (NO²)",
+        "o3": "Ozon (O³)",
+        "pm-10": "Zarah Terampai (PM₁₀)",
+        "pm-2-5": "Zarah Terampai (PM₂.₅)",
+        "so2": "Sulfur Dioksida (SO²)"
+    },
+    "related_datasets": []
+}

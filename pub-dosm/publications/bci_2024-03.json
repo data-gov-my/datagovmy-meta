@@ -1,0 +1,145 @@
+{
+    "publication": "bc_2024-03",
+    "publication_type": "bc",
+    "release_date": "2024-04-04",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Mar 2024] Building Costs",
+        "publication_type_title": "Building Costs",
+        "description": "Monthly cost of building materials, covering civil engineering, structural, building, mechanical and electrical works.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Cost of Civil Engineering Works (Peninsular Msia): Mar 2024",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-03_civileng_semenanjung.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Cost of Civil Engineering Works (Sabah & Sarawak): Mar 2024",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-03_civileng_ss.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Cost of Building & Structural Works (Peninsular Msia): Mar 2024",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-03_structure_semenanjung.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Cost of Building & Structural Works (Sabah & Sarawak): Mar 2024",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-03_structure_ss.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Cost of Mechanical & Electrical Works: Mar 2024",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-03_mechelec.xlsx"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "pdf",
+                "resource_name": "Cost of Civil Engineering Works (Peninsular Msia): Mar 2024",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-03_civileng_semenanjung.pdf"
+            },
+            {
+                "resource_id": 7,
+                "resource_type": "pdf",
+                "resource_name": "Cost of Civil Engineering Works (Sabah & Sarawak): Mar 2024",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-03_civileng_ss.pdf"
+            },
+            {
+                "resource_id": 8,
+                "resource_type": "pdf",
+                "resource_name": "Cost of Building & Structural Works (Peninsular Msia): Mar 2024",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-03_structure_semenanjung.pdf"
+            },
+            {
+                "resource_id": 9,
+                "resource_type": "pdf",
+                "resource_name": "Cost of Building & Structural Works (Sabah & Sarawak): Mar 2024",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-03_structure_ss.pdf"
+            },
+            {
+                "resource_id": 10,
+                "resource_type": "pdf",
+                "resource_name": "Cost of Mechanical & Electrical Works: Mar 2024",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-03_mechelec.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Mac 2024] Harga Pembinaan",
+        "publication_type_title": "Harga Pembinaan",
+        "description": "Harga bulanan bahan binaan, merangkumi kerja kejuruteraan sivil, bangunan, struktur, mekanikal dan elektrik.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Harga Kerja Kejuruteraan Sivil (Semenanjung Msia): Mac 2024",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-03_civileng_semenanjung.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Harga Kerja Kejuruteraan Sivil (Sabah & Sarawak): Mac 2024",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-03_civileng_ss.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Harga Kerja Bangunan & Struktur (Semenanjung Msia): Mac 2024",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-03_structure_semenanjung.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Harga Kerja Bangunan & Struktur (Sabah & Sarawak): Mac 2024",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-03_structure_ss.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Harga Kerja Mekanikal & Elektrik: Mac 2024",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-03_mechelec.xlsx"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "pdf",
+                "resource_name": "Harga Kerja Kejuruteraan Sivil (Semenanjung Msia): Mac 2024",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-03_civileng_semenanjung.pdf"
+            },
+            {
+                "resource_id": 7,
+                "resource_type": "pdf",
+                "resource_name": "Harga Kerja Kejuruteraan Sivil (Sabah & Sarawak): Mac 2024",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-03_civileng_ss.pdf"
+            },
+            {
+                "resource_id": 8,
+                "resource_type": "pdf",
+                "resource_name": "Harga Kerja Bangunan & Struktur (Semenanjung Msia): Mac 2024",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-03_structure_semenanjung.pdf"
+            },
+            {
+                "resource_id": 9,
+                "resource_type": "pdf",
+                "resource_name": "Harga Kerja Bangunan & Struktur (Sabah & Sarawak): Mac 2024",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-03_structure_ss.pdf"
+            },
+            {
+                "resource_id": 10,
+                "resource_type": "pdf",
+                "resource_name": "Harga Kerja Mekanikal & Elektrik: Mac 2024",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2024-03_mechelec.pdf"
+            }
+        ]
+    }
+}

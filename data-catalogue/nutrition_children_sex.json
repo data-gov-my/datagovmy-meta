@@ -1,0 +1,127 @@
+{
+    "title_en": "Nutritional Status of Children Under 5 by Sex",
+    "title_ms": "Status Nutrisi Kanak-Kanak bawah 5 Tahun mengikut Jantina",
+    "title_sort": 10,
+    "description_en": "Distribution of weight-for-age (WAZ), height-for-age (HAZ), and weight-for-height (WHZ) scores for children under 5 years old based on WHO standards, which are used to assess malnutrition (underweight, stunting, wasting, and obesity).",
+    "description_ms": "Taburan skor berat-untuk-umur (WAZ), tinggi-untuk-umur (HAZ), dan berat-untuk-tinggi (WHZ) untuk kanak-kanak bawah 5 tahun berdasarkan piawaian WHO, yang digunakan untuk menilai malnutrisi (kekurangan berat badan, terbantut, tersusut dan obesiti).",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2019",
+    "last_updated": "2024-09-01 12:00",
+    "next_update": "\u2014",
+    "methodology_en": "This data is tabulated based on survey records collected via the National Health and Morbidity Survey (NHMS), which is conducted by the Ministry of Health once every 4 years. The NHMS is design to collect representative data on various healthcare outcomes, especially those which cannot be assessed through administrative hospital data. For a fuller description of the methodology, please refer to the [NHMS 2019 report](https://storage.data.gov.my/healthcare/nhms_2019.pdf).\n\nFor this dataset specifically, the distributions of WAZ, HAZ and WHZ for Malaysia were calculated by comparing the weights and heights of children under 5 years old to the World Health Organization Growth Standard 2006 (WHO 2006). Following that, the prevalence of 4 key malnutrition indicators is defined as follows:\n\n- Underweight: Weight-for-age (WAZ) less than 2 standard deviations below the median\n- Stunting: Height-for-age (HAZ) less than 2 standard deviations below the median\n- Wasting: Weight-for-height (WHZ) less than 2 standard deviations below the median\n- Obesity: Weight-for-height (WHZ) more than 2 standard deviations above the median",
+    "methodology_ms": "Data ini dihasilkan berdasarkan rekod tinjauan yang dikumpul melalui Tinjauan Kesihatan dan Morbiditi Kebangsaan (NHMS), yang dilaksanakan oleh Kementerian Kesihatan setiap 4 tahun. NHMS dirangka untuk mengumpul data representatif bagi pelbagai indikator kesihatan, terutamanya yang tidak dapat dinilai melalui data pentadbiran. Untuk mendapat perincian metodologi yang penuh, sila rujuk laporan [NHMS 2019](https://storage.data.gov.my/healthcare/nhms_2019.pdf).\n\nBagi set data ini secara khusus, taburan WAZ, HAZ, dan WHZ bagi Malaysia telah dikira dengan membandingkan berat dan umur kanak-kanak bawah 5 tahun di Malaysia kepada _World Health Organization Growth Standard 2006 (WHO 2006)_. Kemudian, prevalen 4 indikator malnutrisi penting dikira seperti berikut:\n\n- Kekurangan berat badan: Berat-untuk-umur (WAZ) kurang daripada 2 sisihan piawai di bawah median\n- Terbantut: Tinggi-untuk-umur (HAZ) kurang daripada 2 sisihan piawai di bawah median\n- Tersusut: Berat-untuk-tinggi (WHZ) kurang daripada 2 sisihan piawai di bawah median\n- Obesiti: Berat-untuk-tinggi (WHZ) lebih daripada 2 sisihan piawai di atas median",
+    "caveat_en": "These figures are based on the 2019 NHMS. Changes due to the pandemic will only be reflected in data based on the 2023 NHMS.",
+    "caveat_ms": "Angka-angka ini adalah berdasarkan pada NHMS 2019. Perubahan yang disebabkan oleh pandemik hanya akan dicerminkan dalam data berdasarkan NHMS 2023.",
+    "publication_en": "—",
+    "publication_ms": "—",
+    "link_parquet": "https://storage.data.gov.my/healthcare/nutrition_status_u5_sex.parquet",
+    "link_csv": "https://storage.data.gov.my/healthcare/nutrition_status_u5_sex.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [
+        "SEX"
+    ],
+    "dataset_begin": 2019,
+    "dataset_end": 2019,
+    "data_source": [
+        "MOH"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Healthcare",
+            "category_ms": "Kesihatan",
+            "category_sort": 40,
+            "subcategory_en": "General Health",
+            "subcategory_ms": "Kesihatan Umum",
+            "subcategory_sort": 10
+        }
+    ],
+    "fields": [
+        {
+          "name": "date",
+          "title_en": "Date",
+          "title_ms": "Tarikh",
+          "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as this is annual data",
+          "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01 kerana ini adalah data tahunan"
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
+            "description_ms": "[Kategori] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
+        },
+        {
+            "name": "indicator",
+            "title_en": "Indicator",
+            "title_ms": "Indikator",
+            "description_en": "[Categorical] Either weight-for-age (WAZ), height-for-age (HAZ), or weight-for-height (WHZ)",
+            "description_ms": "[Kategori] Sama ada berat-untuk-umur (WAZ), tinggi-untuk-umur (HAZ), atau berat-untuk-tinggi (WHZ)"
+        },
+        {
+            "name": "range",
+            "title_en": "Range",
+            "title_ms": "Julat",
+            "description_en": "[String] The range for the indicator (e.g., < -2SD, -2SD to 2SD, > 2SD).",
+            "description_ms": "[Rentetan] Julat untuk penunjuk (contoh, < -2SD, -2SD ke 2SD, > 2SD)."
+        },
+        {
+            "name": "description",
+            "title_en": "Description",
+            "title_ms": "Keterangan",
+            "description_en": "[String] The interpretation of the range (e.g., Underweight, Normal, Overweight).",
+            "description_ms": "[Rentetan] Keterangan tentang julat indikator (contohnya Kekurangan berat badan, Normal, Berlebihan berat badan)."
+        },
+        {
+            "name": "prevalence",
+            "title_en": "Prevalence (%)",
+            "title_ms": "Prevalen (%)",
+            "description_en": "[Float, %] The proportion of the population in the range, expressed as a percentage.",
+            "description_ms": "[Apung, %] Nisbah populasi dalam julat tersebut, dinyatakan sebagai peratusan."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "filter_columns": [
+                    "indicator"
+                ]
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Description",
+        "y1": "Prevalence",
+        "date": "Date",
+        "sex": "Sex",
+        "indicator": "Indicator",
+        "range": "Range",
+        "description": "Description",
+        "prevalence": "Prevalence (%)",
+        "waz": "Weight-for-age (WAZ)",
+        "haz": "Height-for-age (HAZ)",
+        "whz": "Weight-for-height (WHZ)"   
+    },
+    "translations_ms": {
+        "x": "Keterangan",
+        "y1": "Keprevalenan",
+        "date": "Tarikh",
+        "sex": "Jantina",
+        "indicator": "Indikator",
+        "range": "Julat",
+        "description": "Keterangan",
+        "prevalence": "Prevalen (%)",
+        "waz": "Berat-untuk-umur (WAZ)",
+        "haz": "Tinggi-untuk-umur (HAZ)",
+        "whz": "Berat-untuk-tinggi (WHZ)"
+    },
+    "related_datasets": []
+}

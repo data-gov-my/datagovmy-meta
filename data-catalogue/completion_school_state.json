@@ -1,0 +1,160 @@
+{
+    "title_en": "School Completion Rates by State",
+    "title_ms": "Kadar Tamat Pengajian Sekolah mengikut Negeri",
+    "title_sort": 15,
+    "description_en": "Proportion of students who complete primary, lower secondary, and upper secondary education at national and state level.",
+    "description_ms": "Peratusan pelajar yang menamatkan pendidikan rendah, menengah rendah, dan menengah atas di peringkat nasional dan negeri.",
+    "exclude_openapi": false,
+    "manual_trigger": "1",
+    "data_as_of": "2022",
+    "last_updated": "2024-09-01 12:00",
+    "next_update": "tbc",
+    "methodology_en": "This dataset is derived from administrative records maintained by the Ministry of Education Malaysia via the Education Management Information System (EMIS). Completion rates are calculated by comparing the number of students who complete a given education level with the total cohort that started that level.",
+    "methodology_ms": "Dataset ini diperolehi daripada rekod pentadbiran yang dikendalikan oleh Kementerian Pendidikan Malaysia melalui Sistem Pengurusan Maklumat Pendidikan (EMIS). Kadar tamat pengajian dikira dengan membandingkan bilangan pelajar yang selesai bagi tahap pendidikan tertentu dengan jumlah kohort yang memulakan tahap tersebut.",
+    "caveat_en": "Because Malaysia's dropout rates are extremely low, completion rates may exceed 100% due to a small number of students repeating grades or transferring between states. Furthermore, it should be noted that the data refers to government schools only.",
+    "caveat_ms": "Oleh sebab kadar 'dropout' di Malaysia amat rendah, kadar tamat pengajian mungkin melebihi 100% disebabkan sebilangan kecil pelajar yang mengulang gredi atau berpindah antara negeri. Tambahan, data ini merujuk kepada sekolah kerajaan sahaja.",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/education/completion_school_state.parquet",
+    "link_csv": "https://storage.data.gov.my/education/completion_school_state.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "SEX"
+    ],
+    "dataset_begin": 2016,
+    "dataset_end": 2022,
+    "data_source": [
+        "MOE"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Education",
+            "category_ms": "Pendidikan",
+            "category_sort": 39,
+            "subcategory_en": "Education Outcomes",
+            "subcategory_ms": "Prestasi Pendidikan",
+            "subcategory_sort": 10
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Education",
+            "category_ms": "Pendidikan",
+            "category_sort": 39,
+            "subcategory_en": "Education Outcomes",
+            "subcategory_ms": "Prestasi Pendidikan",
+            "subcategory_sort": 10
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] Date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data pada frekuensi tahunan"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states, or Malaysia for national-level data",
+            "description_ms": "[Kategori] Salah satu daripada 16 negeri, atau Malaysia untuk data peringkat nasional"
+        },
+        {
+            "name": "stage",
+            "title_en": "School Stage",
+            "title_ms": "Tahap Pendidikan",
+            "description_en": "[Categorical] Either primary (Standards 1 to 6), lower secondary (Form 1 to 3), or upper secondary (Form 4 to 5)",
+            "description_ms": "[Kategori] Sama ada pendidikan rendah (Darjah 1 hingga 6), menengah rendah (Tingkatan 1 hingga 3), atau menengah atas (Tingkatan 4 hingga 5)"
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Categorical] Either both sexes, male, or female",
+            "description_ms": "[Kategori] Sama ada kedua-dua jantina, lelaki, atau perempuan"
+        },
+        {
+            "name": "completion",
+            "title_en": "Completion Rate",
+            "title_ms": "Kadar Tamat Pengajian",
+            "description_en": "[Float] Proportion of students who complete that stage of education, relative to the total cohort that started that stage",
+            "description_ms": "[Float] Peratusan pelajar yang selesai peringkat pendidikan tersebut, berbanding jumlah kohort yang memulakan peringkat tersebut"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 2,
+                "filter_columns": [
+                    "state",
+                    "stage",
+                    "sex"
+                ],
+                "freeze_columns": [
+                    "date"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "timeseries",
+            "title_en": "School Completion Rates",
+            "title_ms": "Kadar Tamat Pengajian Sekolah",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state",
+                    "stage",
+                    "sex"
+                ],
+                "precision": 2,
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "completion"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Completion Rate",
+        "date": "Date",
+        "state": "State",
+        "stage": "Education Stage",
+        "sex": "Sex",
+        "completion": "Completion Rate",
+        "primary": "Primary",
+        "secondary-lower": "Lower Secondary",
+        "secondary-upper": "Upper Secondary",
+        "both": "Both Sexes",
+        "male": "Male",
+        "female": "Female"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Kadar Tamat Pengajian",
+        "date": "Tarikh",
+        "state": "Negeri",
+        "stage": "Peringkat Pendidikan",
+        "sex": "Jantina",
+        "completion": "Kadar Tamat Pengajian",
+        "primary": "Rendah",
+        "secondary-lower": "Menengah Rendah",
+        "secondary-upper": "Menengah Atas",
+        "both": "Kedua-dua Jantina",
+        "male": "Lelaki",
+        "female": "Perempuan"
+    },
+    "related_datasets": []
+}

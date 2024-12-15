@@ -1,7 +1,7 @@
 {
 	"dashboard_name": "immigration_country",
 	"data_last_updated": "2023-08-01 23:59",
-	"route": "/dashboard/immigration,/ms-MY/dashboard/immigration",
+	"route": "/dashboard/immigration-not,/ms-MY/dashboard/immigration-not",
 	"sites": ["datagovmy"],
 	"manual_trigger": "",
 	"required_params": ["country"],

@@ -1,0 +1,181 @@
+{
+    "title_en": "River Basin Pollution Monitoring",
+    "title_ms": "Pemantauan Pencemaran Lembangan Sungai",
+    "title_sort": 20,
+    "description_en": "Proportion of river basins classified as clean, slightly polluted, or polluted based on 3 primary indicators of water pollution.",
+    "description_ms": "Nisbah lembangan sungai yang dikelaskan sebagai bersih, tercemar sedikit, atau tercemar berdasarkan 3 indikator utama pencemaran air.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2021",
+    "last_updated": "2024-09-01 12:00",
+    "next_update": "2024-12-31 12:00",
+    "methodology_en": "The Department of Environment (DOE) is mandated to monitor the quality of environmental resources in Malaysia. As part of this mandate, the DOE monitors the water quality of rivers in Malaysia via a combination of manual and automated monitoring at over 1300 stations, covering nearly 700 rivers and 150 river basins. This dataset presents the results of this monitoring on an annual basis.\n\n There are 3 primary water pollution indicators monitored by the DOE presented in this dataset:\n - *Biochemical Oxygen Demand (BOD)*, which measures the amount of oxygen that microorganisms require to decompose organic matter in the water. High BOD levels indicate the presence of a large amount of organic pollution, which can deplete oxygen in the water, harming aquatic life.\n - Ammoniacal *Nitrogen (NH₃-N)*, which is a measure of ammonia in the water primarily coming from agricultural runoff, sewage, and industrial discharges. High levels of ammoniacal nitrogen are toxic to fish and other aquatic organisms and can lead to the depletion of dissolved oxygen as it is broken down.\n - *Suspended Solids (SS)*, which are tiny particles suspended in the water, including soil, silt, organic matter, and industrial waste. High concentrations of suspended solids can reduce water clarity, block sunlight for aquatic plants, and clog the gills of fish.\n\n River basins are classified as clean, slightly polluted, or polluted based on Water Quality Index (WQI) values for each of these 3 indicators. For a deeper understanding of the methodology, please refer to the DOE's [Environmental Quality Report](https://storage.data.gov.my/environment/eqr_2023.pdf).",
+    "methodology_ms": "Jabatan Alam Sekitar (JAS) diberi mandat untuk memantau kualiti sumber alam sekitar di Malaysia. Dalam melaksanakan tugas ini, JAS memantau kualiti air sungai di Malaysia melalui pemantauan manual dan automatik di lebih 1300 stesen, meliputi hampir 700 sungai dan 150 lembangan sungai. Set data ini memaparkan hasil pemantauan ini secara tahunan.\n\n Terdapat 3 penunjuk utama pencemaran air yang dipantau oleh JAS yang dipaparkan dalam set data ini:\n - *Keperluan Oksigen Biokimia (BOD)*, yang mengukur jumlah oksigen yang diperlukan oleh mikroorganisma untuk menguraikan bahan organik dalam air. Tahap BOD yang tinggi menunjukkan kehadiran sejumlah besar pencemaran organik, yang boleh mengurangkan oksigen dalam air, membahayakan hidupan akuatik.\n - *Nitrogen Ammonia (NH₃-N)*, yang merupakan ukuran ammonia dalam air yang terutamanya berasal dari larian pertanian, kumbahan, dan pelepasan industri. Tahap nitrogen ammonia yang tinggi adalah toksik kepada ikan dan organisma akuatik lain dan boleh menyebabkan pengurangan oksigen terlarut apabila ia diuraikan.\n - *Pepejal Terampai (SS)*, yang merupakan zarah-zarah kecil yang terampai dalam air, termasuk tanah, kelodak, bahan organik, dan sisa industri. Kepekatan pepejal terampai yang tinggi boleh mengurangkan kejernihan air, menghalang cahaya matahari untuk tumbuhan akuatik, dan menyumbat insang ikan.\n\n Lembangan sungai diklasifikasikan sebagai bersih, sedikit tercemar, atau tercemar berdasarkan nilai Indeks Kualiti Air (WQI) untuk setiap 3 penunjuk ini. Untuk pemahaman yang lebih mendalam tentang metodologi, sila rujuk [Laporan Kualiti Alam Sekitar](https://storage.data.gov.my/environment/eqr_2023.pdf) JAS.",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/environment/water_pollution_basin.parquet",
+    "link_csv": "https://storage.data.gov.my/environment/water_pollution_basin.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2000,
+    "dataset_end": 2021,
+    "data_source": [
+        "JAS"
+    ],
+    "site_category": [
+        {
+          "site": "datagovmy",
+          "category_en": "Environment",
+          "category_ms": "Alam Sekitar",
+          "category_sort": 45,
+          "subcategory_en": "Pollution",
+          "subcategory_ms": "Pencemaran",
+          "subcategory_sort": 30
+        },
+        {
+          "site": "opendosm",
+          "category_en": "Environment",
+          "category_ms": "Alam Sekitar",
+          "category_sort": 95,
+          "subcategory_en": "Pollution",
+          "subcategory_ms": "Pencemaran",
+          "subcategory_sort": 30
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at yearly frequency.",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai MM-DD ditetapkan kepada 01-01 kerana data berfrekuensi tahunan."
+        },
+        {
+            "name": "basins_monitored",
+            "title_en": "Basins Monitored",
+            "title_ms": "Lembangan Dipantau",
+            "description_en": "[Integer] The number of river basins monitored during the year.",
+            "description_ms": "[Integer] Bilangan lembangan sungai yang dipantau sepanjang tahun."
+        },
+        {
+            "name": "measure",
+            "title_en": "Pollution Indicator",
+            "title_ms": "Penunjuk Pencemaran",
+            "description_en": "[Categorical] The pollution indicator measured, either Biochemical Oxygen Demand ('bod5'), Ammoniacal Nitrogen ('nh3n'), or Suspended Solids ('ss').",
+            "description_ms": "[Kategori] Penunjuk pencemaran yang diukur, iaitu Permintaan Oksigen Biokimia ('bod5'), Nitrogen Ammonia ('nh3n'), atau Zarah Terampai ('ss')."
+        },
+        {
+            "name": "status",
+            "title_en": "Pollution Status",
+            "title_ms": "Status Pencemaran",
+            "description_en": "[Categorical] The classification of the river basins based on pollution levels, either Clean ('clean'), Slightly Polluted ('slightly_polluted'), or Polluted ('polluted').",
+            "description_ms": "[Kategori] Pengelasan lembangan sungai berdasarkan tahap pencemaran, iaitu Bersih ('bersih'), Sedikit Tercemar ('sedikit_tercemar'), atau Tercemar ('tercemar')."
+        },
+        {
+            "name": "n_basins",
+            "title_en": "Number of Basins",
+            "title_ms": "Bilangan Lembangan",
+            "description_en": "[Integer] The number of basins that fall under each pollution classification.",
+            "description_ms": "[Integer] Bilangan lembangan sungai yang diklasifikasikan mengikut tahap pencemaran."
+        },
+        {
+            "name": "proportion",
+            "title_en": "Proportion",
+            "title_ms": "Nisbah",
+            "description_en": "[Float] The number of basins divided by the total number of basins monitored, expressed as a percentage.",
+            "description_ms": "[Apung] Bilangan lembangan sungai dibahagikan dengan jumlah lembangan sungai yang dipantau, dinyatakan sebagai peratusan."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "filter_columns": [
+                    "measure",
+                    "status"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "pollution_status",
+            "title_en": "River Basis by Status",
+            "title_ms": "Lembangan Sungai Berdasarkan Status",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "measure",
+                    "status"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "n_basins"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "pollution_status",
+            "title_en": "Proportion of River Basis by Status",
+            "title_ms": "Nisbah Lembangan Sungai Berdasarkan Status",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "measure",
+                    "status"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "proportion"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Proportion",
+        "date": "Date",
+        "basins_monitored": "Basins Monitored",
+        "measure": "Pollution Indicator",
+        "status": "Pollution Status",
+        "n_basins": "Number of Basins",
+        "proportion": "Proportion",
+        "bod5": "Biochemical Oxygen Demand (BOD5)",
+        "nh3n": "Ammoniacal Nitrogen (NH₃-N)",
+        "ss": "Suspended Solids (SS)",
+        "clean": "Clean",
+        "slightly-polluted": "Slightly Polluted",
+        "polluted": "Polluted"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Nisbah",
+        "date": "Tarikh",
+        "basins_monitored": "Lembangan Dipantau",
+        "measure": "Penunjuk Pencemaran",
+        "status": "Status Pencemaran",
+        "n_basins": "Bilangan Lembangan",
+        "proportion": "Nisbah",
+        "bod5": "Permintaan Oksigen Biokimia (BOD5)",
+        "nh3n": "Nitrogen Ammonia (NH₃-N)",
+        "ss": "Zarah Terampai (SS)",
+        "clean": "Bersih",
+        "slightly-polluted": "Sedikit Tercemar",
+        "polluted": "Tercemar"
+    },
+    "related_datasets": []
+}

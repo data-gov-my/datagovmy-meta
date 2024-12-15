@@ -1,0 +1,127 @@
+{
+    "title_en": "Water Production by State",
+    "title_ms": "Pengeluaran Air Mengikut Negeri",
+    "title_sort": 2,
+    "description_en": "Annual water production by state.",
+    "description_ms": "Pengeluaran air tahunan mengikut negeri.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2022-12-31 23:59",
+    "last_updated": "2024-09-01 12:00",
+    "next_update": "tbc",
+    "methodology_en": "In Malaysia, all public and private operators of water provision services must be licensed by the National Water Services Commission (SPAN), and must report key performance indicators as specified in the terms of the license issued by SPAN. This dataset represents part of that reporting, and is compiled from the transactional operational records of water supply companies across Malaysia. It should be noted that:\n- Data for Sarawak includes LAKU Management Sdn. Bhd. (Bintulu, Miri & Limbang, Sibu Water Board, Kuching Water Board and Sarawak Rural Water Supply Department (JBALB).\n- Data for W.P. Kuala Lumpur and W.P. Putrajaya are subsumed under Selangor.",
+    "methodology_ms": "Di Malaysia, semua pengendali perkhidmatan air awam dan swasta mesti didaftarkan dan dilesen oleh Suruhanjaya Perkhidmatan Air Negara (SPAN), dan perlu melaporkan indikator prestasi utama seperti yang ditentukan dalam syarat-syarat lesen yang diberikan oleh SPAN. Set data ini mewakili sebahagian daripada pelaporan tersebut, dan dirangka daripada rekod transaksi operasi syarikat-syarikat bekalan air di seluruh Malaysia. Perlu diingat bahawa:\n- Data untuk Sarawak termasuk LAKU Management Sdn. Bhd. (Bintulu, Miri & Limbang, Lembaga Air Sibu, Lembaga Air Kuching dan Jabatan Bekalan Air Luar Bandar (JBALB) Sarawak.\n- Data bagi W.P. Kuala Lumpur dan W.P. Putrajaya disekalikan bersama data Selangor.",
+    "caveat_en": "Data for the most recent year is provisional and may be revised in future updates.",
+    "caveat_ms": "Data bagi tahun terkini adalah sementara dan mungkin disemak dalam kemaskini akan datang.",
+    "publication_en": "—",
+    "publication_ms": "—",
+    "link_parquet": "https://storage.data.gov.my/water/water_production.parquet",
+    "link_csv": "https://storage.data.gov.my/water/water_production.csv",
+    "frequency": "ANNUAL",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2000,
+    "dataset_end": 2022,
+    "data_source": [
+        "SPAN",
+        "NRES",
+        "DOSM"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Environment",
+            "category_ms": "Alam Sekitar",
+            "category_sort": 45,
+            "subcategory_en": "Water",
+            "subcategory_ms": "Air",
+            "subcategory_sort": 23
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Environment",
+            "category_ms": "Alam Sekitar",
+            "category_sort": 95,
+            "subcategory_en": "Water",
+            "subcategory_ms": "Air",
+            "subcategory_sort": 23
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at monthly frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai MM-DD ditetapkan kepada 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states, or Malaysia, which has been included for ease of analysis",
+            "description_ms": "[Kategori] Satu daripada 16 negeri, atau Malaysia, yang telah disertakan untuk memudahkan analisis"
+        },
+        {
+            "name": "value",
+            "title_en": "Water Consumption",
+            "title_ms": "Penggunaan Air",
+            "description_en": "[Float] Amount of water produced in millions of litres per day (MLD)",
+            "description_ms": "[Apung] Jumlah air yang dikeluarkan dalam juta liter per hari (MLD)"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "state"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "timeseries",
+            "title_en": "Water Production",
+            "title_ms": "Pengeluaran Air",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "value"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Production (MLD)",
+        "date": "Date",
+        "state": "State",
+        "value": "Water Production"
+    },
+    "translations_ms": {
+        "x": "Tahun",
+        "y1": "Pengeluaran (MLD)",
+        "date": "Tarikh",
+        "state": "Negeri",
+        "value": "Pengeluaran Air"
+    },
+    "related_datasets": []
+}
+
+

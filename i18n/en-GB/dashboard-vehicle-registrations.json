@@ -1,0 +1,29 @@
+{
+    "route": "/dashboard/vehicle-registrations",
+    "sites": [
+        "datagovmy"
+    ],
+    "translation": {
+        "header": "Vehicle Registrations",
+        "description": "In Malaysia, a vehicle must be registered with the Road Transport Department (JPJ) before it can legally be driven on the road. JPJ therefore maintains an authoritative database of every vehicle ever used in Malaysia. This dashboard draws on that data to provide insights into key vehicle registration trends.",
+        "registration_by_fuel": "Registrations by Fuel Type",
+        "registrations_not_licenses": "Note: This data show vehicle registrations, not the number of vehicles with an active license",
+        "fuel": {
+          "diesel": "Diesel",
+          "electric": "Electric",
+          "greendiesel": "Green Diesel",
+          "hybrid": "Hybrid (Petrol or Diesel)",
+          "other": "Others (LNG, natural gas, etc)",
+          "petrol": "Petrol"
+        },
+        "since": "Since 2000",
+        "registration_by_vehicle": "Registrations by Vehicle Type",
+        "all": "All Vehicle Type",
+        "bus": "Bus",
+        "car": "Cars (including MPVs, Jeeps, and Trucks)",
+        "lorry": "Lorries",
+        "motorcycle": "Motorcycles",
+        "other": "Other Vehicles (Tractors, Trailers, etc)",
+        "van": "Vans"
+    }      
+}

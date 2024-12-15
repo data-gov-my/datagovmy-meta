@@ -1,0 +1,220 @@
+{
+    "title_en": "Prisoners by Prison Centre and Sex",
+    "title_ms": "Banduan mengikut Penjara dan Jantina",
+    "title_sort": 2,
+    "description_en": "Number of prisoners in Malaysia by prison centre and sex from 2017 to 2022.",
+    "description_ms": "Bilangan banduan di Malaysia mengikut penjara dan jantina dari 2017 hingga 2022.",
+    "exclude_openapi": false,
+    "manual_trigger": "1",
+    "data_as_of": "2022-12-31 23:59",
+    "last_updated": "2023-12-31 12:00",
+    "next_update": "2024-12-31 12:00",
+    "methodology_en": "In Malaysia, there are two types of prisoners:\n\n- **Convicted prisoners**: Individuals who have been convicted of a crime and subsequently imprisoned.\n- **Remand prisoners**: Individuals who have been detained and are awaiting trial.\n\nThis data shows the total number of prisoners, both convicted and remand, and is tabulated from the individual-level administrative records of prisoners managed by the Prisons Department, which is the single source of truth for all prison data in Malaysia.",
+    "methodology_ms": "Terdapat dua jenis banduan di Malaysia:\n\n- **Banduan sabitan**: Banduan yang telah disabitkan dengan kesalahan dan dijatuhkan hukuman oleh Mahkamah.\n- **Banduan reman**: Banduan yang ditahan di penjara menunggu perbicaraan di Mahkamah.\n\nData ini menunjukkan jumlah banduan keseluruhan, termasuk banduan sabitan dan tahanan, dan dihasilkan daripada rekod pentadbiran peringkat individu bagi banduan yang diuruskan oleh Jabatan Penjara, iaitu sumber tunggal bagi segala data penjara di Malaysia.",
+    "caveat_en": "This data is intended to provide a snapshot of the prison population as at the end of each reporting year. It should not be used to assess trends in crime, recidivism, or other criminal justice indicators.",
+    "caveat_ms": "Data ini bertujuan untuk menyediakan gambaran populasi banduan setakat akhir tahun pelaporan. Ia tidak harus digunakan untuk menilai tren dalam jenayah, residivisme, atau indikator keadilan lain.",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/publicsafety/prisoners_prison.parquet",
+    "link_csv": "https://storage.data.gov.my/publicsafety/prisoners_prison.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "STATE",
+        "DISTRICT"
+    ],
+    "demography": [
+        "SEX"
+    ],
+    "dataset_begin": 2017,
+    "dataset_end": 2022,
+    "data_source": [
+        "Penjara"
+    ],
+    "data_source_granular": [],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Public Safety",
+            "category_ms": "Keselamatan Awam",
+            "category_sort": 42,
+            "subcategory_en": "Justice",
+            "subcategory_ms": "Keadilan",
+            "subcategory_sort": 20
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Public Safety",
+            "category_ms": "Keselamatan Awam",
+            "category_sort": 42,
+            "subcategory_en": "Justice",
+            "subcategory_ms": "Keadilan",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states",
+            "description_ms": "[Kategori] Satu daripada 16 negeri"
+        },
+        {
+            "name": "prison",
+            "title_en": "Prison Centre",
+            "title_ms": "Penjara",
+            "description_en": "[Categorical] Name of the prison centre",
+            "description_ms": "[Kategori] Nama penjara"
+        },
+		{
+			"name": "sex",
+			"title_en": "Sex",
+			"title_ms": "Jantina",
+			"description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
+			"description_ms": "[Kategori] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
+		},
+        {
+            "name": "prisoners",
+            "title_en": "Number of Prisoners",
+            "title_ms": "Bilangan Banduan",
+            "description_en": "[Integer] The number of prisoners as of 31st December in the given year",
+            "description_ms": "[Integer] Bilangan banduan setakat 31 Disember pada tahun tersebut"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "filter_columns": [
+                    "prison",
+                    "sex"
+                ]
+            }
+        },
+        {
+          "dataviz_id": "timeseries",
+          "title_en": "Prisoners",
+          "title_ms": "Banduan",
+          "chart_type": "TIMESERIES",
+          "config": {
+            "filter_columns": [
+                "prison",
+                "sex"
+            ],
+            "precision": 0,
+            "operation": "SUM",
+            "format": {
+              "x": "date",
+              "y": [
+                "prisoners"
+              ]
+            }
+          }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Prisoners",
+        "date": "Date",
+        "state": "State",
+        "sex": "Sex",
+        "value": "Prisoners",
+        "both": "Both Sexes",
+        "male": "Male",
+        "female": "Female",
+        "penjara-kluang": "Kluang Prison",
+        "penjara-simpang-renggam": "Simpang Renggam Prison",
+        "pusat-koreksional-johor-bahru": "Johor Bahru Correctional Facility",
+        "pusat-koreksional-muar": "Muar Correctional Facility",
+        "penjara-alor-setar": "Alor Setar Prison",
+        "penjara-pokok-sena": "Pokok Sena Prison",
+        "penjara-sungai-petani": "Sungai Petani Prison",
+        "penjara-pengkalan-chepa": "Pengkalan Chepa Prison",
+        "pusat-koreksional-machang": "Machang Correctional Facility",
+        "penjara-pra-bebas-dusun-dato-murad": "Dusun Dato Murad Pre-Release Prison",
+        "penjara-sungai-udang": "Sungai Udang Prison",
+        "pusat-koreksional-jasin": "Jasin Correctional Facility",
+        "institut-pemulihan-dadah-jelebu": "Jelebu Drug Rehabilitation Centre",
+        "penjara-seremban": "Seremban Prison",
+        "penjara-bentong": "Bentong Prison",
+        "penjara-penor": "Penor Prison",
+        "penjara-taiping": "Taiping Prison",
+        "penjara-tapah": "Tapah Prison",
+        "pusat-koreksional-kamunting": "Kamunting Correctional Facility",
+        "penjara-reman-pulau-pinang": "Pulau Pinang Remand Prison",
+        "penjara-seberang-perai": "Seberang Perai Prison",
+        "penjara-kota-kinabalu": "Kota Kinabalu Prison",
+        "penjara-sandakan": "Sandakan Prison",
+        "penjara-tawau": "Tawau Prison",
+        "pusat-koreksional-labuan": "Labuan Correctional Facility",
+        "penjara-limbang": "Limbang Prison",
+        "penjara-miri": "Miri Prison",
+        "penjara-puncak-borneo": "Puncak Borneo Prison",
+        "penjara-sibu": "Sibu Prison",
+        "penjara-sri-aman": "Sri Aman Prison",
+        "pusat-koreksional-bintulu": "Bintulu Correctional Facility",
+        "penjara-kajang": "Kajang Prison",
+        "penjara-sungai-buloh": "Sungai Buloh Prison",
+        "pusat-koreksional-puncak-alam": "Puncak Alam Correctional Facility",
+        "penjara-marang": "Marang Prison",
+        "pusat-koreksional-dungun": "Dungun Correctional Facility"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Banduan",
+        "date": "Tarikh",
+        "state": "Negeri",
+        "sex": "Jantina",
+        "value": "Banduan",
+        "both": "Kedua-dua Jantina",
+        "male": "Lelaki",
+        "female": "Perempuan",
+        "penjara-kluang": "Penjara Kluang",
+        "penjara-simpang-renggam": "Penjara Simpang Renggam",
+        "pusat-koreksional-johor-bahru": "Pusat Koreksional Johor Bahru",
+        "pusat-koreksional-muar": "Pusat Koreksional Muar",
+        "penjara-alor-setar": "Penjara Alor Setar",
+        "penjara-pokok-sena": "Penjara Pokok Sena",
+        "penjara-sungai-petani": "Penjara Sungai Petani",
+        "penjara-pengkalan-chepa": "Penjara Pengkalan Chepa",
+        "pusat-koreksional-machang": "Pusat Koreksional Machang",
+        "penjara-pra-bebas-dusun-dato-murad": "Penjara Pra Bebas Dusun Dato Murad",
+        "penjara-sungai-udang": "Penjara Sungai Udang",
+        "pusat-koreksional-jasin": "Pusat Koreksional Jasin",
+        "institut-pemulihan-dadah-jelebu": "Institut Pemulihan Dadah Jelebu",
+        "penjara-seremban": "Penjara Seremban",
+        "penjara-bentong": "Penjara Bentong",
+        "penjara-penor": "Penjara Penor",
+        "penjara-taiping": "Penjara Taiping",
+        "penjara-tapah": "Penjara Tapah",
+        "pusat-koreksional-kamunting": "Pusat Koreksional Kamunting",
+        "penjara-reman-pulau-pinang": "Penjara Reman Pulau Pinang",
+        "penjara-seberang-perai": "Penjara Seberang Perai",
+        "penjara-kota-kinabalu": "Penjara Kota Kinabalu",
+        "penjara-sandakan": "Penjara Sandakan",
+        "penjara-tawau": "Penjara Tawau",
+        "pusat-koreksional-labuan": "Pusat Koreksional Labuan",
+        "penjara-limbang": "Penjara Limbang",
+        "penjara-miri": "Penjara Miri",
+        "penjara-puncak-borneo": "Penjara Puncak Borneo",
+        "penjara-sibu": "Penjara Sibu",
+        "penjara-sri-aman": "Penjara Sri Aman",
+        "pusat-koreksional-bintulu": "Pusat Koreksional Bintulu",
+        "penjara-kajang": "Penjara Kajang",
+        "penjara-sungai-buloh": "Penjara Sungai Buloh",
+        "pusat-koreksional-puncak-alam": "Pusat Koreksional Puncak Alam",
+        "penjara-marang": "Penjara Marang",
+        "pusat-koreksional-dungun": "Pusat Koreksional Dungun"
+    },
+    "related_datasets": []
+}

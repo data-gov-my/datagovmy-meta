@@ -1,0 +1,119 @@
+{
+    "title_en": "State Government Expenditure",
+    "title_ms": "Perbelanjaan Kerajaan Negeri",
+    "title_sort": 13,
+    "description_en": "Annual data on state government expenditure across various categories, including development expenditure (DE) and operating expenditure (OE).",
+    "description_ms": "Data tahunan mengenai perbelanjaan kerajaan negeri dalam pelbagai kategori, termasuk perbelanjaan pembangunan (DE) dan perbelanjaan mengurus (OE).",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2022",
+    "last_updated": "2024-09-01 12:00",
+    "next_update": "\u2014",
+    "methodology_en": "This dataset is produced from the financial statements of state governments in Malaysia, as published by the National Audit Department in the Auditor General's Report. Categorisation of expenditure is based on the [Classification Codes for Revenue and Expenditure](https://storage.data.gov.my/publicadmin/penjenisan_kod.pdf) published by the Federal Treasury.",
+    "methodology_ms": "Set data in disediakan berdasarkan penyata kewangan kerajaan negeri di Malaysia, seperti yang diterbitkan oleh Jabatan Audit Negara dalam Laporan Ketua Audit Negara. Pengkelasan perbelanjaan adalah berdasarkan [Penjenisan Kod Bagi Hasil Dan Perbelanjaan](https://storage.data.gov.my/publicadmin/penjenisan_kod.pdf) yang diterbitkan oleh Perbendaharaan Persekutuan.",
+    "caveat_en": "The latest actual expenditure data (rather than budgeted expenditure) is as of 2022, except for Sarawak which is as of 2020. Values for Sarawak will be updated to 2022 when available. Furthermore, it should be noted that because this dataset shows the expenditure of state governments, it does not include the Federal Territories of Kuala Lumpur, Labuan, and Putrajaya, which do not have their own State Legislative Assemblies.",
+    "caveat_ms": "Data perbelanjaan sebenar terkini (dan bukannya anggaran diperuntukkan) adalah setakat 2022, kecuali untuk Sarawak yang adalah setakat 2020. Nilai untuk Sarawak akan dikemaskini ke 2022 apabila tersedia. Selain itu, perlu diingati bahawa set data ini menunjukkan perbelanjaan kerajaan negeri, maka tidak mengangundi data bagi Wilayah Persekutuan Kuala Lumpur, Labuan, dan Putrajaya, yang tidak mempunyai Dewan Undangan Negeri sendiri.",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/publicadmin/state_finance_expenditure.parquet",
+    "link_csv": "https://storage.data.gov.my/publicadmin/state_finance_expenditure.csv",
+    "frequency": "ANNUAL",
+    "geography": [
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2022,
+    "dataset_end": 2022,
+    "data_source": [
+        "AUDIT"
+    ],
+    "site_category": [
+        {
+          "site": "datagovmy",
+          "category_en": "Public Administration",
+          "category_ms": "Pentadbiran Awam",
+          "category_sort": 80,
+          "subcategory_en": "Public Finance",
+          "subcategory_ms": "Kewangan Awam",
+          "subcategory_sort": 10
+        }
+    ],
+    "fields": [
+		{
+			"name": "date",
+			"title_en": "Date",
+			"title_ms": "Tarikh",
+			"description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+			"description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+		},
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 13 states with their own State Legislative Assembly (does not include Federal Territories)",
+            "description_ms": "[Kategori] Satu daripada 13 negeri dengan Dewan Undangan Negeri sendiri (tidak termasuk Wilayah Persekutuan)"
+        },
+        {
+            "name": "category",
+            "title_en": "Expenditure Category",
+            "title_ms": "Kategori Perbelanjaan",
+            "description_en": "[Categorical] The category of expenditure; either development expenditure (DE), operating expenditure (OE), or a more detailed OE breakdown covering Emoluments (oe_10000), Services and Supplies (oe_20000), Assets (oe_30000), Fixed Payments (oe_40000), and Other Expenditures (oe_50000).",
+            "description_ms": "[Kategori] Kategori perbelanjaan; sama ada perbelanjaan pembangunan (DE), perbelanjaan operasi (OE), atau pecahan OE yang lebih terperinci merangkumi Emolumen (oe_10000), Perkhidmatan dan Bekalan (oe_20000), Aset (oe_30000), Bayaran Tetap (oe_40000), dan Perbelanjaan Lain (oe_50000)."
+        },
+        {
+            "name": "expenditure",
+            "title_en": "Acutal Expenditure",
+            "title_ms": "Perbelanjaan Sebenar",
+            "description_en": "[Float, RM mil] Actual expenditure for the given category; note that this may be different from the originally budgeted amount",
+            "description_ms": "[Apun, RM juta] Perbelanjaan sebenar untuk kategori yang diberikan; angka ini mungkin berbeza daripada jumlah yang asalnya diperuntukkan"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 2,
+                "filter_columns": [
+                    "state"
+                ],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Expenditure (RM mil)",
+        "date": "Date",
+        "state": "State",
+        "category": "Category",
+        "expenditure": "Expenditure",
+        "de": "Development Expenditure (DE)",
+        "oe": "Operating Expenditure (OE)",
+        "oe_10000": "OE > Emoluments",
+        "oe_20000": "OE > Services and Supplies",
+        "oe_30000": "OE > Assets",
+        "oe_40000": "OE > Fixed Payments",
+        "oe_50000": "OE > Other Expenditures",
+        "total": "Total Expenditure"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Perbelanjaan (RM juta)",
+        "date": "Tarikh",
+        "state": "Negeri",
+        "category": "Kategori",
+        "expenditure": "Perbelanjaan",
+        "de": "Perbelanjaan Pembangunan (DE)",
+        "oe": "Perbelanjaan Operasi (OE)",
+        "oe_10000": "OE > Emolumen",
+        "oe_20000": "OE > Perkhidmatan dan Bekalan",
+        "oe_30000": "OE > Aset",
+        "oe_40000": "OE > Pemberian dan Bayaran Tetap",
+        "oe_50000": "OE > Perbelanjaan-perbelanjaan Lain",
+        "total": "Jumlah Perbelanjaan"
+    },
+    "related_datasets": []
+}

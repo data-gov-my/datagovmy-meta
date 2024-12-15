@@ -1,0 +1,125 @@
+{
+    "title_en": "Annual Real GDP by Economic Subsector",
+    "title_ms": "KDNK Sebenar Tahunan mengikut Subsektor Ekonomi",
+    "title_sort": 10,
+    "description_en": "Annual gross domestic product (GDP) at constant 2015 prices by economic subsector. The table provides a preview of the full dataset using the latest year's data only.",
+    "description_ms": "Keluaran dalam negeri kasar (KDNK) tahunan pada harga malar 2015 mengikut subsektor ekonomi. Jadual memberi pratonton kepada set data penuh dengan menggunakan data tahun terkini sahaja.",
+    "exclude_openapi": true,
+    "manual_trigger": "",
+    "data_as_of": "2023",
+    "last_updated": "2024-05-17 12:00",
+    "next_update": "2025-05-16 12:00",
+    "methodology_en": "Gross domestic product (GDP) is the total value of goods and services produced within that year, after deducting the cost of goods and services used in production, but before deducting the consumption of fixed capital. In Malaysia, GDP is estimated in compliance with the [System of National Accounts (2008)](https://storage.dosm.gov.my/technotes/sna_2008.pdf).\n\nIn general, GDP can be measured via 3 approaches, namely production, expenditure, and income. Because the measurement employs double entry accounting, the overall value must be the same across all 3 approaches. However, the different approaches allow GDP to be analysed in different ways. The GDP estimates in this dataset were produced using the production method (also known as the value added approach), which allows insight into the specific contribution of each economic sector. For that reason, the results of the production approach are often referenced in economic writing as supply-side GDP. The values are measured at constant 2015 prices, i.e. with price effects removed relative to a base year (2015 = 100). For a full description of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/gdp-technotes).",
+    "methodology_ms": "Keluaran dalam negeri kasar (KDNK) adalah jumlah nilai barangan dan perkhidmatan yang dihasilkan dalam tahun tersebut, selepas ditolak kos barangan dan perkhidmatan yang digunakan dalam proses pengeluaran, tetapi sebelum ditolak penggunaan modal tetap. Di Malaysia, anggaran KDNK dihasilkan selaras dengan [Sistem Akaun Nasional (2008)](https://storage.dosm.gov.my/technotes/sna_2008.pdf).\n\nSecara am, KDNK boleh diukur melalui 3 kaedah, iaitu pengeluaran, perbelanjaan, dan pendapatan. Memandangkan bahawa pengukurannya menggunakan sistem perakaunan catatan bergu, angka keseluruhan mesti sama bagi ketiga-tiga kaedah tersebut. Namun, kaedah yang berbeza itu membolehkan analisis KDNK yang berlainan. Anggaran KDNK dalam set data ini dihasilkan melalui kaedah pengeluaran (juga dikenali sebagai kaedah nilai ditambah), yang membolehkan perincian sumbangan setiap sektor ekonomi kepada KDNK keseluruhan. Oleh itu, hasil daripada kaedah pengeluaran juga dirujuk dalam tulisan ekonomi sebagai KDNK dari segi penawaran (_supply-side GDP_). Angka-angka diukur pada harga malar 2015, iaitu dengan mengeluarkan kesan harga berbanding tahun asas (2015 = 100). Untuk mendapat perincian metodologi yang penuh, sila merujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/gdp-technotes).",
+    "caveat_en": "Values for 2022 and 2023 may be revised in future releases. Furthermore, the sum of GDP for all sectors may not always equal to the values for overall GDP because of independent rounding to one decimal place. However, the differences are not obvious.",
+    "caveat_ms": "Angka bagi 2022 dan 2023 mungkin disemak semula dalam penerbitan akan datang. Tambahan, hasil tambah nilai KDNK bagi semua sektor mungkin tidak sentiasa sama dengan nilai KDNK keseluruhan kerana pembundaran secara bebas. Walau bagaimanapun, perbezaan ini tidak ketara.",
+    "publication_en": "[Gross Domestic Product, 2023](https://open.dosm.gov.my/publications/gdp_2023), the latest edition of the annual GDP statistics published by DOSM. OpenDOSM also features a [dashboard on GDP](https://open.dosm.gov.my/dashboard/gdp) which enables you to explore Malaysia's GDP data interactively.",
+    "publication_ms": "[Keluaran Dalam Negeri Kasar, 2023](https://open.dosm.gov.my/ms-MY/publications/gdp_2023), edisi terkini bagi statistik KDNK tahunan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga membekalkan [_dashboard_ KDNK](https://open.dosm.gov.my/ms-MY/dashboard/gdp) yang membolehkan anda menerokai data KDNK Malaysia secara interaktif.",
+    "link_parquet": "https://storage.dosm.gov.my/gdp/gdp_annual_real_supply_sub.parquet",
+    "link_csv": "https://storage.dosm.gov.my/gdp/gdp_annual_real_supply_sub.csv",
+    "link_preview": "https://storage.dosm.gov.my/gdp/gdp_annual_real_supply_sub_preview.parquet",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2015,
+    "dataset_end": 2023,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "BPAN"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "National Accounts",
+            "category_ms": "Akaun Negara",
+            "category_sort": 20,
+            "subcategory_en": "Gross Domestic Product",
+            "subcategory_ms": "Keluaran Dalam Negeri Kasar",
+            "subcategory_sort": 10
+        },
+        {
+            "site": "opendosm",
+            "category_en": "National Accounts",
+            "category_ms": "Akaun Negara",
+            "category_sort": 20,
+            "subcategory_en": "Gross Domestic Product",
+            "subcategory_ms": "Keluaran Dalam Negeri Kasar",
+            "subcategory_sort": 10
+        }
+    ],
+    "fields": [
+        {
+            "name": "series",
+            "title_en": "Series Type",
+            "title_ms": "Jenis Siri",
+            "description_en": "[String] Series type, either absolute values ('abs') or annual growth ('growth_yoy')",
+            "description_ms": "[Rentetan] Jenis siri, sama ada nilai mutlak ('abs') atau pertumbuhan tahunan ('growth_yoy')"
+        },
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "sector",
+            "title_en": "Economic Sector",
+            "title_ms": "Sektor Ekonomi",
+            "description_en": "[String] Code for the economic sector or subsector, to be mapped using the [Lookup Table](https://open.dosm.gov.my/data-catalogue/gdp_lookup). The lookup table will give you the English and Malay definitions.",
+            "description_ms": "[Rentetan] Kod bagi sektor atau subsektor ekonomi, yang perlu dipadankan dengan [Jadual Carian](https://open.dosm.gov.my/ms-MY/data-catalogue/gdp_lookup). Jadual carian akan memberi definisi dalam Bahasa Inggeris dan Bahasa Melayu."
+        },
+        {
+            "name": "value",
+            "title_en": "Value",
+            "title_ms": "Nilai",
+            "description_en": "[Float] Either the value of GDP in RM millions (for rows with series type 'abs') or GDP growth as a percentage (for rows with series type 'growth_yoy')",
+            "description_ms": "[Apung] Sama ada nilai KDNK dalam RM juta (bagi baris dengan jenis siri 'abs') ataupun kadar pertumbuhan KDNK sebagai peratus (bagi baris dengan jenis siri 'growth_yoy')"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 1,
+                "filter_columns": [
+                    "series"
+                ],
+                "freeze_columns": [
+                    "series",
+                    "date"
+                ]
+            }
+        }
+    ],
+    "translations_en": {
+        "series": "Series Type",
+        "date": "Date",
+        "sector": "Sector",
+        "value": "Value",
+        "abs": "RM million",
+        "growth-yoy": "Annual growth (%)",
+        "gdp": "GDP",
+        "x": "Date",
+        "y1": "Value"
+    },
+    "translations_ms": {
+        "series": "Jenis Siri",
+        "date": "Tarikh",
+        "sector": "Sektor",
+        "value": "Nilai",
+        "abs": "RM juta",
+        "growth-yoy": "Pertumbuhan tahunan (%)",
+        "gdp": "KDNK",
+        "x": "Tarikh",
+        "y1": "Nilai"
+    },
+    "related_datasets": []
+}

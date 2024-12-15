@@ -1,11 +1,11 @@
 {
-  "title_en": "Lookup Table",
-  "title_ms": "Jadual Carian",
+  "title_en": "Lookup Table: Federal Finance",
+  "title_ms": "Jadual Carian: Kewangan Persekutuan",
   "title_sort": 9999,
   "description_en": "Lookup table, to be left-joined against category and variable name in the other Federal Government Finance datasets if specified.",
   "description_ms": "Jadual carian, untuk dipadankan (left-join) dengan kategori dan nama pembolehubah dalam set data Kewangan Kerajaan Persekutuan sekiranya diperlukan.",
   "exclude_openapi": false,
-  "manual_trigger": "",
+  "manual_trigger": "1",
   "data_as_of": "2024-01",
   "last_updated": "2024-02-13 00:01",
   "next_update": "-",
@@ -29,11 +29,13 @@
   ],
   "site_category": [
     {
-      "site": "datagovmy",
-      "category_en": "Public Administration",
-      "category_ms": "Pentadbiran Awam",
-      "subcategory_en": "Public Finance",
-      "subcategory_ms": "Kewangan Awam"
+        "site": "datagovmy",
+        "category_en": "Data Dictionaries",
+        "category_ms": "Dictionary Data",
+        "category_sort": 110,
+        "subcategory_en": "Others",
+        "subcategory_ms": "Lain-lain",
+        "subcategory_sort": 10000
     }
   ],
   "fields": [

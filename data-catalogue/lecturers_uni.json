@@ -1,0 +1,215 @@
+{
+    "title_en": "Lecturers in Public Universities by Citizenship & Sex",
+    "title_ms": "Pensyarah di Universiti Awam mengikut Kewarganegaraan & Jantina",
+    "title_sort": 11,
+    "description_en": "Number of lecturers in public universities at national and state level, broken down by citizenship and sex.",
+    "description_ms": "Bilangan pensyarah di universiti awam di peringkat nasional dan negeri, dengan pecahan mengikut kewarganegaraan dan jantina.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2023",
+    "last_updated": "2024-09-01 12:00",
+    "next_update": "tbc",
+    "methodology_en": "This dataset is tabulated from administrative records maintained by the Ministry of Higher Education.",
+    "methodology_ms": "Dataset ini disusun daripada rekod pentadbiran yang dikawalselia oleh Kementerian Pengajian Tinggi.",
+    "caveat_en": "—",
+    "caveat_ms": "—",
+    "publication_en": "—",
+    "publication_ms": "—",
+    "link_parquet": "https://storage.data.gov.my/education/lecturers_uni.parquet",
+    "link_csv": "https://storage.data.gov.my/education/lecturers_uni.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "SEX",
+        "NATIONALITY"
+    ],
+    "dataset_begin": 2014,
+    "dataset_end": 2023,
+    "data_source": [
+        "MOHE"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Education",
+            "category_ms": "Pendidikan",
+            "category_sort": 39,
+            "subcategory_en": "Education Infrastructure",
+            "subcategory_ms": "Infrastruktur Pendidikan",
+            "subcategory_sort": 5
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Education",
+            "category_ms": "Pendidikan",
+            "category_sort": 39,
+            "subcategory_en": "Education Infrastructure",
+            "subcategory_ms": "Infrastruktur Pendidikan",
+            "subcategory_sort": 5
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] Date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data pada frekuensi tahunan"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states, or Malaysia for national-level data",
+            "description_ms": "[Kategori] Salah satu daripada 16 negeri, atau Malaysia untuk data peringkat nasional"
+        },
+        {
+            "name": "university",
+            "title_en": "University",
+            "title_ms": "Universiti",
+            "description_en": "[Categorical] Name of the university, or 'All Universities' for state-level data (for states with more than 1 public university)",
+            "description_ms": "[Kategori] Nama universiti, atau 'Semua Universiti' untuk data agregat di peringkat negeri (untuk negeri yang mempunyai lebih daripada 1 universiti awam)"
+        },
+        {
+            "name": "citizenship",
+            "title_en": "Citizenship",
+            "title_ms": "Kewarganegaraan",
+            "description_en": "[Categorical] Either all nationalities ('all'), citizens ('citizen'), or non-citizens ('non_citizen')",
+            "description_ms": "[Kategori] Sama ada semua kewarganegaraan ('all'), warganegara ('citizen'), atau bukan warganegara ('non_citizen')"
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Categorical] Either both sexes ('both'), male ('male'), or female ('female')",
+            "description_ms": "[Kategori] Sama ada kedua-dua jantina ('both'), lelaki ('male'), atau perempuan ('female')"
+        },
+        {
+            "name": "staff",
+            "title_en": "Academic Staff",
+            "title_ms": "Staf Akademik",
+            "description_en": "[Integer] Number of academic staff",
+            "description_ms": "[Integer] Bilangan staf akademik"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "state",
+                    "university",
+                    "citizenship",
+                    "sex"
+                ],
+                "freeze_columns": [
+                    "date"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "timeseries",
+            "title_en": "Academic Staff",
+            "title_ms": "Staf Akademik",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state",
+                    "university",
+                    "citizenship",
+                    "sex"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "staff"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Academic Staff",
+        "date": "Date",
+        "state": "State",
+        "university": "University",
+        "citizenship": "Citizenship",
+        "sex": "Sex",
+        "staff": "Academic Staff",
+        "all-universities": "All Universities",
+        "all": "All Nationalities",
+        "both": "Both Sexes",
+        "citizen": "Citizen",
+        "non-citizen": "Non-Citizen",
+        "male": "Male",
+        "female": "Female",
+        "universiti-teknologi-malaysia-utm": "Universiti Teknologi Malaysia (UTM)",
+        "universiti-tun-hussein-onn-malaysia-uthm": "Universiti Tun Hussein Onn Malaysia (UTHM)",
+        "universiti-utara-malaysia-uum": "Universiti Utara Malaysia (UUM)",
+        "universiti-malaysia-kelantan-umk": "Universiti Malaysia Kelantan (UMK)",
+        "universiti-teknikal-malaysia-melaka-utem": "Universiti Teknikal Malaysia Melaka (UTeM)",
+        "universiti-sains-islam-malaysia-usim": "Universiti Sains Islam Malaysia (USIM)",
+        "universiti-malaysia-pahang-umpsa": "Universiti Malaysia Pahang (UMPSA)",
+        "universiti-pendidikan-sultan-idris-upsi": "Universiti Pendidikan Sultan Idris (UPSI)",
+        "universiti-malaysia-perlis-unimap": "Universiti Malaysia Perlis (UNIMAP)",
+        "universiti-sains-malaysia-usm": "Universiti Sains Malaysia (USM)",
+        "universiti-malaysia-sabah-ums": "Universiti Malaysia Sabah (UMS)",
+        "universiti-malaysia-sarawak-unimas": "Universiti Malaysia Sarawak (UNIMAS)",
+        "universiti-islam-antarabangsa-malaysia-uiam": "Universiti Islam Antarabangsa Malaysia (UIAM)",
+        "universiti-kebangsaan-malaysia-ukm": "Universiti Kebangsaan Malaysia (UKM)",
+        "universiti-putra-malaysia-upm": "Universiti Putra Malaysia (UPM)",
+        "universiti-teknologi-mara-uitm": "Universiti Teknologi MARA (UiTM)",
+        "universiti-malaysia-terengganu-umt": "Universiti Malaysia Terengganu (UMT)",
+        "universiti-sultan-zainal-abidin-unisza": "Universiti Sultan Zainal Abidin (UniSZA)",
+        "universiti-malaya-um": "Universiti Malaya (UM)",
+        "universiti-pertahanan-nasional-malaysia-upnm": "Universiti Pertahanan Nasional Malaysia (UPNM)"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Staf Akademik",
+        "date": "Tarikh",
+        "state": "Negeri",
+        "university": "Universiti",
+        "citizenship": "Kewarganegaraan",
+        "sex": "Jantina",
+        "staff": "Staf Akademik",
+        "all-universities": "Semua Universiti",
+        "both": "Kedua-dua Jantina",
+        "all": "Semua Kewarganegaraan",
+        "citizen": "Warganegara",
+        "non-citizen": "Bukan Warganegara",
+        "male": "Lelaki",
+        "female": "Perempuan",
+        "universiti-teknologi-malaysia-utm": "Universiti Teknologi Malaysia (UTM)",
+        "universiti-tun-hussein-onn-malaysia-uthm": "Universiti Tun Hussein Onn Malaysia (UTHM)",
+        "universiti-utara-malaysia-uum": "Universiti Utara Malaysia (UUM)",
+        "universiti-malaysia-kelantan-umk": "Universiti Malaysia Kelantan (UMK)",
+        "universiti-teknikal-malaysia-melaka-utem": "Universiti Teknikal Malaysia Melaka (UTeM)",
+        "universiti-sains-islam-malaysia-usim": "Universiti Sains Islam Malaysia (USIM)",
+        "universiti-malaysia-pahang-umpsa": "Universiti Malaysia Pahang (UMPSA)",
+        "universiti-pendidikan-sultan-idris-upsi": "Universiti Pendidikan Sultan Idris (UPSI)",
+        "universiti-malaysia-perlis-unimap": "Universiti Malaysia Perlis (UNIMAP)",
+        "universiti-sains-malaysia-usm": "Universiti Sains Malaysia (USM)",
+        "universiti-malaysia-sabah-ums": "Universiti Malaysia Sabah (UMS)",
+        "universiti-malaysia-sarawak-unimas": "Universiti Malaysia Sarawak (UNIMAS)",
+        "universiti-islam-antarabangsa-malaysia-uiam": "Universiti Islam Antarabangsa Malaysia (UIAM)",
+        "universiti-kebangsaan-malaysia-ukm": "Universiti Kebangsaan Malaysia (UKM)",
+        "universiti-putra-malaysia-upm": "Universiti Putra Malaysia (UPM)",
+        "universiti-teknologi-mara-uitm": "Universiti Teknologi MARA (UiTM)",
+        "universiti-malaysia-terengganu-umt": "Universiti Malaysia Terengganu (UMT)",
+        "universiti-sultan-zainal-abidin-unisza": "Universiti Sultan Zainal Abidin (UniSZA)",
+        "universiti-malaya-um": "Universiti Malaya (UM)",
+        "universiti-pertahanan-nasional-malaysia-upnm": "Universiti Pertahanan Nasional Malaysia (UPNM)"
+    },
+    "related_datasets": []
+}

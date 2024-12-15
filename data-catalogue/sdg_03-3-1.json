@@ -1,0 +1,109 @@
+{
+    "title_en": "SDG 03-3-1: HIV Incidence per 1,000 Uninfected Population",
+    "title_ms": "SDG 03-3-1: Insiden HIV per 1,000 Penduduk Tidak dijangkiti",
+    "title_sort": 4,
+    "description_en": "Number of new HIV infections per 1,000 uninfected population by sex, as per the specifications of SDG Indicator 3-3-1.",
+    "description_ms": "Bilangan jangkitan HIV baharu bagi setiap 1,000 penduduk yang tidak dijangkiti mengikut jantina, selaras dengan spesifikasi Indikator SDG 3-3-1.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2022",
+    "last_updated": "2024-09-01 12:00",
+    "next_update": "tbc",
+    "methodology_en": "This dataset is tabulated from administrative data on the notifications of infectious diseases collected by the Ministry of Health. The total number of new cases per year is subsequently divided by the estimated uninfected population for that year to calculate the incidence rate. Although this data is primarily collected as part of Malaysia's general healthcare operations, it is specifically reported as part of Malaysia's monitoring of the Sustainable Development Goals (SDGs), in line with the most recent [SDG Global Indicator Framework](https://storage.dosm.gov.my/technotes/sdg.pdf).",
+    "methodology_ms": "Set data ini dihasilkan daripada data pentadbiran mengenai notifikasi penyakit berjangkit yang dikumpulkan oleh Kementerian Kesihatan Malaysia. Jumlah kes baharu setiap tahun dibahagikan dengan anggaran jumlah penduduk yang tidak dijangkiti bagi tahun tersebut untuk mengira kadar jangkitan. Walaupun data ini dikumpulkan terutamanya bagi tujuan operasi kesihatan, ia juga dilaporan khususnya sebagai sebahagian daripada pemantauan Malaysia terhadap Matlamat Pembangunan Lestari (SDG), selaras dengan [Kerangka Indikator Global SDG](https://storage.dosm.gov.my/technotes/sdg.pdf) yang terkini.",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_03-3-1.parquet",
+    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_03-3-1.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [
+        "SEX"
+    ],
+    "dataset_begin": 2016,
+    "dataset_end": 2022,
+    "data_source": [
+        "MOH"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Indikator SDG",
+            "subcategory_sort": 10
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Indikator SDG",
+            "subcategory_sort": 10
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency.",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai MM-DD ditetapkan kepada 01-01 kerana data pada frekuensi tahunan."
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
+            "description_ms": "[Kategori] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
+        },
+        {
+            "name": "incidence",
+            "title_en": "Incidence",
+            "title_ms": "Insiden",
+            "description_en": "[Numeric] Number of new HIV infections per 1,000 uninfected population",
+            "description_ms": "[Numerik] Bilangan jangkitan HIV baharu bagi setiap 1,000 penduduk yang tidak dijangkiti"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 2,
+                "filter_columns": [
+                    "sex"
+                ],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "date": "Date",
+        "sex": "Sex",
+        "incidence": "Incidence",
+        "both": "Both Sexes",
+        "male": "Male",
+        "female": "Female"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "date": "Tarikh",
+        "sex": "Jantina",
+        "incidence": "Insiden",
+        "both": "Kedua-dua Jantina",
+        "male": "Lelaki",
+        "female": "Perempuan"
+    },
+    "related_datasets": []
+}

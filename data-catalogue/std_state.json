@@ -1,0 +1,127 @@
+{
+    "title_en": "Sexually Transmitted Diseases (STDs) by State",
+    "title_ms": "Jangkitan Transmisi Seksual (STD) mengikut Negeri",
+    "title_sort": 200,
+    "description_en": "Number and incidence of sexually transmitted diseases (STDs) by state, covering HIV, AIDS, chancroid, gonorrhea, and syphilis.",
+    "description_ms": "Bilangan dan kadar insiden jangkitan transmisi seksual (STD) mengikut negeri, meliputi HIV, AIDS, chancroid, gonorrhea, dan sifilis.",
+    "exclude_openapi": false,
+    "manual_trigger": "1",
+    "data_as_of": "2022",
+    "last_updated": "2024-09-01 12:00",
+    "next_update": "tbc",
+    "methodology_en": "This dataset is tabulated from administrative records on the notifications of infectious diseases collected by the Ministry of Health. The incidence is calculated as the number of new cases per 100,000 population, based on the [most recent population estimates](https://open.dosm.gov.my/data-catalogue/population_state).",
+    "methodology_ms": "Set data ini dihasilkan daripada data pentadbiran mengenai notifikasi penyakit berjangkit yang dikumpulkan oleh Kementerian Kesihatan Malaysia. Insiden dikira sebagai bilangan kes baharu per 100,000 penduduk bagi setiap penyakit, berdasarkan [anggaran penduduk terkini](https://open.dosm.gov.my/ms-MY/data-catalogue/population_state).",
+    "caveat_en": "In general, the data presented here is based on the date of report rather than the date of the event. Furthermore, there may be underreporting of cases to varying degrees depending on the disease and state.",
+    "caveat_ms": "Secara am, data ini adalah berdasarkan tarikh laporan dan bukannya tarikh dijangkiti. Selain itu, sebilangan kes mungkin tidak dilaporkan kepada Kementerian Kesihatan, dan fenomena ini akan berbeza mengikut penyakit dan negeri.",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/healthcare/std_state.parquet",
+    "link_csv": "https://storage.data.gov.my/healthcare/std_state.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2017,
+    "dataset_end": 2022,
+    "data_source": [
+        "MOH"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Healthcare",
+            "category_ms": "Kesihatan",
+            "category_sort": 40,
+            "subcategory_en": "Infectious Diseases",
+            "subcategory_ms": "Penyakit Berjangkit",
+            "subcategory_sort": 30
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai MM-DD ditetapkan kepada 01-01 kerana data pada frekuensi tahunan"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states, or Malaysia; data for W.P. Putrajaya is subsumed under W.P. Kuala Lumpur.",
+            "description_ms": "[Kategori] Satu daripada 16 negeri, atau Malaysia; data untuk W.P. Putrajaya disekalikan dengan data bagi W.P. Kuala Lumpur."
+        },
+        {
+            "name": "disease",
+            "title_en": "Disease",
+            "title_ms": "Penyakit",
+            "description_en": "[Categorical] The type of sexually transmitted disease (STD)",
+            "description_ms": "[Kategori] Jenis jangkitan transmisi seksual (STD)"
+        },
+        {
+            "name": "cases",
+            "title_en": "Cases",
+            "title_ms": "Kes",
+            "description_en": "[Integer] Number of reported cases, classified based on the date of report",
+            "description_ms": "[Integer] Bilangan kes yang dilaporkan, dengan tarikh berdasarkan tarikh laporan"
+        },
+        {
+            "name": "incidence",
+            "title_en": "Incidence",
+            "title_ms": "Insiden",
+            "description_en": "[Numeric] Incidence rate per 100,000 population in the state",
+            "description_ms": "[Numerik] Kadar insiden per 100,000 penduduk di negeri tersebut"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": {
+                    "default": 2,
+                    "columns": {
+                        "cases": 0
+                    }
+                },
+                "filter_columns": [
+                    "state",
+                    "disease"
+                ],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "date": "Date",
+        "state": "State",
+        "disease": "Disease",
+        "cases": "Cases",
+        "incidence": "Incidence",
+        "aids": "AIDS",
+        "chancroid": "Chancroid",
+        "gonorrhea": "Gonorrhea",
+        "hiv": "HIV",
+        "syphilis": "Syphilis"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "date": "Tarikh",
+        "state": "Negeri",
+        "disease": "Penyakit",
+        "cases": "Kes",
+        "incidence": "Insiden",
+        "aids": "AIDS",
+        "chancroid": "Chancroid",
+        "gonorrhea": "Gonorrhea",
+        "hiv": "HIV",
+        "syphilis": "Sifilis"
+    },
+    "related_datasets": []
+}

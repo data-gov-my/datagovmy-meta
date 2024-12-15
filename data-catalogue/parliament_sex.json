@@ -1,0 +1,105 @@
+{
+    "title_en": "Female Representation in Parliament",
+    "title_ms": "Peratus Wanita dalam Parlimen",
+    "title_sort": 10,
+    "description_en": "Proportion of women and men in Malaysian Parliament, covering both the House of Representatives (Dewan Rakyat) and the Senate (Dewan Negara).",
+    "description_ms": "Peratusan wanita dan lelaki dalam Parlimen Malaysia, merangkumi Dewan Rakyat dan Dewan Negara.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2022",
+    "last_updated": "2024-09-01 12:00",
+    "next_update": "-",
+    "methodology_en": "This dataset is compiled from official records of the Malaysian Parliament as of January 1st each year. The proportions of women and men are computed using the total number of filled seats as the denominator, meaning that vacancies are not included.",
+    "methodology_ms": "Set data ini disusun daripada rekod rasmi Parlimen Malaysia setakat 1 Januari setiap tahun. Peratusan wanita dan lelaki dikira menggunakan jumlah kerusi yang diisi, maka kerusi yang kosong tidak diambil kira dalam pengiraan.",
+    "caveat_en": "The data reflects the composition of Parliament at the start of the year. Therefore, it does not capture any changes in composition that occur during the year. However, the proportions usually do not fluctuate significantly.",
+    "caveat_ms": "Data ini mencerminkan komposisi pada satu titik masa tertentu maka tidak memperlihat mana-mana perubahan komposisi yang berlaku sehingga permulaan tahun seterusnya. Namun, peratusan biasanya tidak berubah secara signifikan.",
+    "publication_en": "—",
+    "publication_ms": "—",
+    "link_parquet": "https://storage.data.gov.my/publicadmin/parliament_sex.parquet",
+    "link_csv": "https://storage.data.gov.my/publicadmin/parliament_sex.csv",
+    "frequency": "ANNUAL",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [
+        "SEX"
+    ],
+    "dataset_begin": 2016,
+    "dataset_end": 2022,
+    "data_source": [
+        "Parlimen"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Public Administration",
+            "category_ms": "Pentadbiran Awam",
+            "category_sort": 80,
+            "subcategory_en": "Public Service",
+            "subcategory_ms": "Perkhidmatan Awam",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency.",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai MM-DD ditetapkan kepada 01-01 kerana data pada frekuensi tahunan."
+        },
+        {
+            "name": "house",
+            "title_en": "House of Parliament",
+            "title_ms": "Dewan Parlimen",
+            "description_en": "[Categorical] Either House of Representatives (Dewan Rakyat) or Senate (Dewan Negara)",
+            "description_ms": "[Kategori] Sama ada Dewan Rakyat ('House of Representatives') atau Dewan Negara 'Senate'"
+        },
+        {
+            "name": "female",
+            "title_en": "Women",
+            "title_ms": "Wanita",
+            "description_en": "[Float, %] Women as a percentage of total filled seats",
+            "description_ms": "[Apung, %] Wanita sebagai peratusan daripada jumlah kerusi yang diisi"
+        },
+        {
+            "name": "male",
+            "title_en": "Men",
+            "title_ms": "Lelaki",
+            "description_en": "[Float, %] Men as a percentage of total filled seats",
+            "description_ms": "[Apung, %] Lelaki sebagai peratusan daripada jumlah kerusi yang diisi"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 1,
+                "filter_columns": [
+                    "house"
+                ],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "house": "House",
+        "female": "Women (%)",
+        "male": "Men (%)",
+        "house-of-representatives": "House of Representatives",
+        "senate": "Senate"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "house": "Dewan",
+        "female": "Wanita (%)",
+        "male": "Lelaki (%)",
+        "house-of-representatives": "Dewan Rakyat",
+        "senate": "Dewan Negara"
+    },
+    "related_datasets": []
+}

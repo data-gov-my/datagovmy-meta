@@ -6,9 +6,9 @@
   "description_ms": "Pecahan perbelanjaan mengurus tahunan Kerajaan Persekutuan kepada kategori utama.",
   "exclude_openapi": false,
   "manual_trigger": "",
-  "data_as_of": "2022",
-  "last_updated": "2023-11-30 15:00",
-  "next_update": "2024-02-29 15:00",
+  "data_as_of": "2023",
+  "last_updated": "2024-05-31 15:00",
+  "next_update": "2025-05-31 15:00",
   "methodology_en": "This data is produced by the Accountant-General's Department in compliance with the [Malaysian Public Sector Accounting Standards](https://www2.anm.gov.my/akruan/Pages/MPSAS.aspx) and the IMF's Dissemination Standards. Within this dataset, operating expenditure includes grants and transfers (including refunds and write-offs) to state governments, public agencies and public enterprises.",
   "methodology_ms": "Data ini dihasilkan oleh Jabatan Akauntan Negara berdasarkan [Piawaian Perakaunan Sektor Awam Malaysia](https://www2.anm.gov.my/akruan/Pages/MPSAS.aspx) dan _IMF Dissemination Standards_. Dalam set data ini, perbelanjaan mengurus termasuk pemberian dan pindahan (termasuk bayaran balik dan hapus kira) kepada kerajaan negeri, agensi awam dan perusahaan awam.",
   "caveat_en": "Numbers may not add up due to rounding during derivation.",
@@ -32,8 +32,10 @@
       "site": "datagovmy",
       "category_en": "Public Administration",
       "category_ms": "Pentadbiran Awam",
+      "category_sort": 80,
       "subcategory_en": "Public Finance",
-      "subcategory_ms": "Kewangan Awam"
+      "subcategory_ms": "Kewangan Awam",
+      "subcategory_sort": 10
     }
   ],
   "fields": [

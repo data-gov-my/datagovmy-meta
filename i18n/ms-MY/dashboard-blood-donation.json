@@ -24,7 +24,7 @@
         "timeseries_title_yearly": "{{ state }}: Pendermaan Tahunan",
         "area1_title": "Pendermaan mengikut jenis derma",
         "relative": "Relatif",
-        "choro_header": "Bagaimanakan kadar pendermaan darah berbeza di seluruh negara?",
+        "choro_header": "Bagaimanakah kadar pendermaan darah berbeza di seluruh negara?",
         "choro_desc": "Data ini menunjukkan % populasi berumur 17-65 di setiap negeri yang telah menderma sekurang-kurangnya sekali dalam tahun yang lepas. Data untuk W.P. Kuala Lumpur mungkin lebih tinggi daripada kadar pendermaan sebenar (di samping data untuk Selangor lebih rendah) disebabkan data daripada kempen bergerak yang kerap dilaksanakan oleh Pusat Darah Negara di sekitar Selangor dan W.P. Putrajaya direkodkan sebagai data untuk W.P. Kuala Lumpur.",
         "type_wholeblood_perc": "Darah utuh",
         "type_apheresis_perc": "Aferesis",

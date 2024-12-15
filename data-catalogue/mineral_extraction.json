@@ -1,0 +1,198 @@
+{
+    "title_en": "Extraction of Minerals by State and Commodity",
+    "title_ms": "Pengeluaran Mineral mengikut Negeri dan Komoditi",
+    "title_sort": 10,
+    "description_en": "Annual extraction of mineral commodities by state from 2016 to 2021.",
+    "description_ms": "Pengeluaran mineral komoditi tahunan mengikut negeri dari 2016 hingga 2021.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2021",
+    "last_updated": "2024-09-01 12:00",
+    "next_update": "tbc",
+    "methodology_en": "Data on mineral extraction in Malaysia is produced by the Mineral Intelligence Unit based on data collected via establishment-level surveys and censuses conducted by the Department of Mineral and Geoscience (JMG), in collaboration with the Department of Statistics Malaysia (DOSM). Accordingly, this data reflects the extractive activities of establishments registered with the DMG only. The data shown here is also used for the production of Malaysia's official GDP statistics.\n\nFrom a definitional perspective, it should be noted that:\n- The production of non-metallic aggregates in Sabah and Sarawak includes gravel.\n- Silica production includes silica sand, as well as sand as a by-product of tin mining and crushed quartz rock.",
+    "methodology_ms": "Data pengeluaran komoditi mineral di Malaysia dihasilkan oleh Unit Perisikan Mineral berdasarkan data yang dikumpulkan melalui survei dan banci perusahaan yang dilaksanakan oleh Jabatan Mineral dan Geosains Malaysia (JMG), dengan kerjasama Jabatan Statistik Malaysia (DOSM). Oleh itu, data ini merujuk kepada data syarikat yang berdaftar dengan JMG sahaja. Data yang ditunjukkan di sini juga digunakan untuk pengeluaran statistik KDNK rasmi Malaysia. \n\nDari segi definisi, perlu diambil perhatian bahawa:\n- Pengeluaran agregat bukan logam di Sabah dan Sarawak termasuk batu kasar.\n- Pengeluaran silika termasuk pasir silika, serta pasir yang wujud sebagai produk sampingan dalam perlombongan timah dan batu kuarsa yang diperbuat daripada batu keras.",
+    "caveat_en": "National totals may be slightly different to the sum of state values due to rounding.",
+    "caveat_ms": "Angka-angka di peringkat nasional mungkin sedikit berbeza dengan angka peringkat negeri apabila dijumlahkan disebabkan oleh penggenapan.",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/mining/mineral_extraction.parquet",
+    "link_csv": "https://storage.data.gov.my/mining/mineral_extraction.csv",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2016,
+    "dataset_end": 2021,
+    "data_source": [
+        "JMG",
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "BPTAS"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "Mining & Quarrying",
+            "subcategory_ms": "Perlombongan & Pengkuarian",
+            "subcategory_sort": 16
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "Mining & Quarrying",
+            "subcategory_ms": "Perlombongan & Pengkuarian",
+            "subcategory_sort": 16
+        }
+    ],
+    "fields": [
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states, or Malaysia; note that W.P. Labuan is not present in the dataset due to an absence of mineral extraction activitiy in the state.",
+            "description_ms": "[Kategori] Satu dari 16 negeri, atau Malaysia; W.P. Labuan tidak terkandung dalam set data kerana tiada aktiviti pengeluaran mineral di negeri tersebut."
+        },
+        {
+			"name": "date",
+			"title_en": "Date",
+			"title_ms": "Tarikh",
+			"description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+			"description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+		},
+        {
+            "name": "type",
+            "title_en": "Commodity Type",
+            "title_ms": "Jenis Komoditi",
+            "description_en": "[Categorical] The type of commodity in snake case; either energy ('energy'), metallic ('metallic') or non-metallic ('non_metallic').",
+            "description_ms": "[Kategori] Jenis komoditi dalam format 'snake case'; sama ada tenaga ('tenaga'), logam ('metallic') atau bukan logam ('non_metallic')."
+        },
+        {
+            "name": "commodity",
+            "title_en": "Commodity",
+            "title_ms": "Komoditi",
+            "description_en": "[Categorical] The mineral commodity extracted in snake case, such as coal, bauxite, gold, feldspare, limestone, etc.",
+            "description_ms": "[Kategori] Komoditi mineral yang dikeluarkan dalam format 'snake case', seperti batu arang, bauksit, emas, feldspar, batu kapur, dll."
+        },
+        {
+            "name": "production",
+            "title_en": "Extraction",
+            "title_ms": "Pengeluaran",
+            "description_en": "[Float] The quantity of the commodity extracted; all values are in metric tonnes except for gold and silver, which are denominated in grammes",
+            "description_ms": "[Apung] Jumlah pengeluaran komoditi mineral; semua nilai adalah dalam tan metrik kecuali emas dan perak yang dinilai dalam gram"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "state",
+                    "type",
+                    "commodity"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "timeseries",
+            "title_en": "Mineral Production",
+            "title_ms": "Pengeluaran Mineral",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state",
+                    "type",
+                    "commodity"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "production"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Extraction",
+        "date": "Date",
+        "state": "State",
+        "type": "Commodity Type",
+        "commodity": "Commodity",
+        "production": "Production",
+        "energy": "Energy",
+        "metallic": "Metallic",
+        "non-metallic": "Non-metallic",
+        "coal": "Coal",
+        "bauxite": "Bauxite",
+        "gold": "Gold",
+        "ilmenite": "Ilmenite",
+        "iron-ore": "Iron Ore",
+        "manganese": "Manganese",
+        "monazite": "Monazite (Rare Earth)",
+        "rutile": "Rutile",
+        "silver": "Silver",
+        "struverite": "Struverite",
+        "tin-ore": "Tin Ore",
+        "xenotime": "Xenotime (Rare Earth)",
+        "zircon": "Zircon",
+        "aggregates": "Aggregates",
+        "clay": "Clay",
+        "earth-materials": "Earth Materials",
+        "feldspar": "Feldspar",
+        "kaolin": "Kaolin",
+        "limestone": "Limestone",
+        "mica": "Mica",
+        "sand-and-gravel": "Sand and Gravel",
+        "silica": "Silica"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Pengeluaran",
+        "date": "Tarikh",
+        "state": "Negeri",
+        "type": "Jenis Komoditi",
+        "commodity": "Komoditi",
+        "production": "Pengeluaran",
+        "energy": "Tenaga",
+        "metallic": "Logam",
+        "non-metallic": "Bukan Logam",
+        "coal": "Batu Arang",
+        "bauxite": "Bauksit",
+        "gold": "Emas",
+        "ilmenite": "Ilmenite",
+        "iron-ore": "Besi Oxide",
+        "manganese": "Mangan",
+        "monazite": "Monazite (Rare Earth)",
+        "rutile": "Rutile",
+        "silver": "Perak",
+        "struverite": "Struverite",
+        "tin_ore": "Tin Ore",
+        "xenotime": "Xenotime (Rare Earth)",
+        "zircon": "Zircon",
+        "aggregates": "Agregat",
+        "clay": "Tanah Liat",
+        "earth-materials": "Bahan Bumi",
+        "feldspar": "Feldspar",
+        "kaolin": "Kaolin",
+        "limestone": "Batu Kapur",
+        "mica": "Mika",
+        "sand-and-gravel": "Pasir dan Kerikil",
+        "silica": "Silika"
+    },
+    "related_datasets": []
+}

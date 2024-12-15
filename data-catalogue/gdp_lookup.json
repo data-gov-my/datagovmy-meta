@@ -1,0 +1,109 @@
+{
+    "title_en": "Lookup Table: GDP",
+    "title_ms": "Jadual Carian: KDNK",
+    "title_sort": 1000,
+    "description_en": "Lookup table, to be left-joined against other GDP datasets if specified.",
+    "description_ms": "Jadual carian, untuk dipadankan (left-join) dengan set data KDNK lain sekiranya diperlukan.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2024-Q1",
+    "last_updated": "2024-05-17 12:00",
+    "next_update": "—",
+    "methodology_en": "This lookup table is not part of any standardised data dictionary; it was custom-made to serve the GDP datasets made available via data.gov.my and OpenDOSM only. Furthermore, the coding employed here is similar to (but not the same as) the coding used in DOSM's GDP publications, because it has been calibrated to ensure consistency across annual and quarterly GDP publications, as well as national and state GDP publications.",
+    "methodology_ms": "Jadual carian ini bukan sebahagian daripada mana-mana _dictionary_ data; ia dihasilkan khas untuk memenuhi keperluan set data GDP yang dibekalkan melalui data.gov.my dan OpenDOSM sahaja. Tambahan, kod yang terkandung dalam jadual carian ini tidak sama dengan kod yang digunakan dalam penerbitan KDNK oleh DOSM, kerana ia telah disesuaikan untuk memastikan penggunaan secara konsisten merentas penerbitan KDNK tahunan dan suku tahunan, serta penerbitan KDNK negara dan negeri.",
+    "caveat_en": "—",
+    "caveat_ms": "—",
+    "publication_en": "—",
+    "publication_ms": "—",
+    "link_parquet": "https://storage.dosm.gov.my/gdp/gdp_lookup.parquet",
+    "link_csv": "https://storage.dosm.gov.my/gdp/gdp_lookup.csv",
+    "frequency": "INFREQUENT",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2024,
+    "dataset_end": 2024,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "BPAN"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "National Accounts",
+            "category_ms": "Akaun Negara",
+            "category_sort": 20,
+            "subcategory_en": "Gross Domestic Product",
+            "subcategory_ms": "Keluaran Dalam Negeri Kasar",
+            "subcategory_sort": 10
+        },
+        {
+            "site": "opendosm",
+            "category_en": "National Accounts",
+            "category_ms": "Akaun Negara",
+            "category_sort": 20,
+            "subcategory_en": "Gross Domestic Product",
+            "subcategory_ms": "Keluaran Dalam Negeri Kasar",
+            "subcategory_sort": 10
+        }
+    ],
+    "fields": [
+        {
+            "name": "method",
+            "title_en": "Method",
+            "title_ms": "Kaedah",
+            "description_en": "[Categorical] Either the production approach ('production'), expenditure approach ('expenditure'), or income approach ('income')",
+            "description_ms": "[Integer] Sama ada kaedah pengeluaran ('production'), perbelanjaan ('expenditure'), atau pendapatan ('income')"
+        },
+        {
+            "name": "code",
+            "title_en": "Code",
+            "title_ms": "Kod",
+            "description_en": "[String] Reference for the variable as contained within the dataset",
+            "description_ms": "[Rentetan] Rujukan bagi pembolehubah seperti yang terkandung dalam set data"
+        },
+        {
+            "name": "variable_en",
+            "title_en": "Variable Definition (EN)",
+            "title_ms": "Definisi Pembolehubah (BI)",
+            "description_en": "[String] Definition of the variable in English",
+            "description_ms": "[Rentetan] Definisi pembolehubah dalam Bahasa Inggeris"
+        },
+        {
+            "name": "variable_bm",
+            "title_en": "Variable Definition (MS)",
+            "title_ms": "Definisi Pembolehubah (BM)",
+            "description_en": "[String] Definition of the variable in Malay",
+            "description_ms": "[Rentetan] Definisi pembolehubah dalam Bahasa Melayu"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "method": "Method",
+        "code": "Code",
+        "variable_en": "Variable Definition (EN)",
+        "variable_bm": "Variable Definition (MS)"
+    },
+    "translations_ms": {
+        "method": "Kaedah",
+        "code": "Kod",
+        "variable_en": "Definisi Pembolehubah (BI)",
+        "variable_bm": "Definisi Pembolehubah (BM)"
+    },
+    "related_datasets": []
+}

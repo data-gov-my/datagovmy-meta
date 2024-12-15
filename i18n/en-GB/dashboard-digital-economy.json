@@ -1,0 +1,74 @@
+{
+  "route": "/dashboard/digital-economy",
+  "sites": ["opendosm"],
+  "translation": {
+    "header": "Digital Economy",
+    "description": "With our day-to-day life increasingly digitalised, it is vital for policymakers to track our digital economy and ensure that Malaysia remains modern and internationally competitive. This dashboard summarises key trends in businesses' and households' access to ICT tools, as well as the performance of e-commerce and the ICT sector. It will be deepened in line with the evolution of our ICT-related surveys on an annual basis.",
+    "tab": {
+      "businesses": "Businesses",
+      "households": "Households",
+      "ecommerce": "E-Commerce"
+    },
+    "all_sectors": "All Sectors",
+    "businesses": {
+      "usage": "Are businesses increasing their use of ICT tools?",
+      "usage_by_state": "How does the use of ICT tools differ across states?",
+      "usage_by_state_desc": "This distribution is based on the location of the business, rather than the location of their Internet Service Provider (ISP). For example, transactions for a business in Perlis who uses a KL-based ISP will be counted under Perlis."
+    },
+    "computer": "Computer Usage",
+    "internet": "Internet Usage",
+    "web_presence": "Web Presence",
+    "household": {
+      "access": "Are households getting greater access to ICT tools?",
+      "access_by_state": "How does household access to ICT tools differ across states?",
+      "access_by_state_desc": "This distribution is based on households’ location of residence, rather than the location of their Internet Service Provider (ISP). For example, a household in Perlis who uses a KL-based ISP will be counted under Perlis."
+    },
+    "access": {
+      "mobile_phone": "Access to a Mobile Phone",
+      "computer": "Access to a Computer",
+      "internet": "Access to the Internet"
+    },
+    "urban": "Urban",
+    "rural": "Rural",
+    "ecommerce": {
+      "header": "How is E-Commerce trending?",
+      "by_state": "How does E-Commerce differ across states?",
+      "by_state_desc": "This distribution is based on the location of the business, rather than the location of their Internet Service Provider (ISP). For example, online transactions for a business in Perlis who uses a KL-based ISP will be counted under Perlis.",
+      "income": "E-Commerce Income",
+      "expenditure": "E-Commerce Expenditure",
+      "income_capita": "E-Commerce Income Per Capita",
+      "expenditure_capita": "E-Commerce Expenditure Per Capita",
+      "population": "Population"
+    },
+    "total": "Overall",
+    "domestic": "Domestic E-Commerce",
+    "international": "International E-Commerce",
+    "b2b": "B2B Transactions",
+    "b2c": "B2C Transactions",
+    "b2g": "B2G Transactions",
+    "income": "Income",
+    "expenditure": "Expenditure",
+    "sector": {
+      "overall": "All Sectors",
+      "A": "Agriculture",
+      "B": "Mining & Quarrying",
+      "C": "Manufacturing",
+      "F": "Construction",
+      "SS": "Services",
+      "DE": "Services > Utilities",
+      "G": "Services > Wholesale & Retail Trade",
+      "H": "Services > Transportation & Storage",
+      "IA": "Services > Accommodation",
+      "IF": "Services > Food & Beverages",
+      "J": "Services > Information & Communication",
+      "K": "Services > Financial & Insurance/Takaful",
+      "L": "Services > Real Estate",
+      "M": "Services > Professional, Scientific & Technical",
+      "N": "Services > Administrative & Support Service",
+      "P": "Services > Education",
+      "Q": "Services > Human Health & Social Work",
+      "R": "Services > Arts, Entertainment & Recreation",
+      "S": "Services > Others"
+    }
+  }
+}

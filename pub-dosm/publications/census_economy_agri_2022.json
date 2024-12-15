@@ -1,0 +1,73 @@
+{
+    "publication": "census_economy_agri_2022",
+    "publication_type": "census_economy",
+    "release_date": "2024-07-29",
+    "frequency": "ONE_OFF",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "en": {
+        "title": "Economic Census (Agricultural Subsectors): 2022",
+        "publication_type_title": "Economic Census",
+        "description": "Comprehensive enumeration of business organizations and non-profit organizations in agricultural subsectors.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Economic Census (Crops): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_agriculture_crops.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Economic Census (Fisheries): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_agriculture_fisheries.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Economic Census (Forestry): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_agriculture_forestry.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Economic Census (Livestock): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_agriculture_livestock.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "Banci Ekonomi (Subsektor Pertanian): 2022",
+        "publication_type_title": "Banci Ekonomi",
+        "description": "Penghitungan menyeluruh pertubuhan-pertubuhan perniagaan dan pertubuhan bukan berasaskan keuntungan bagi subsektor pertanian.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Banci Ekonomi (Tanaman): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_agriculture_crops.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Banci Ekonomi (Perikanan): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_agriculture_fisheries.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Banci Ekonomi (Perhutanan): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_agriculture_forestry.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Banci Ekonomi (Ternakan): 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022_agriculture_livestock.xlsx"
+            }
+        ]
+    }
+}

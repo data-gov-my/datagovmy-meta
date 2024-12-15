@@ -1,17 +1,18 @@
 {
 	"dashboard_name": "construction",
-	"data_last_updated": "2023-08-28 23:59",
-	"route": "/dashboard/construction,/ms-MY/dashboard/construction",
+    "data_last_updated": "2024-11-11 12:00",
+    "data_next_update": "2025-02-10 12:00",
+	"route": "/dashboard/construction-statistics,/ms-MY/dashboard/construction-statistics",
 	"sites": ["opendosm"],
-	"manual_trigger": "0",
+	"manual_trigger": "",
 	"required_params": [],
 	"optional_params": [],
 	"charts": {
 		"timeseries": {
 			"name": "timeseries",
 			"chart_type": "timeseries_chart",
-			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/construction_timeseries.parquet",
-			"data_as_of": "2023-08-28 23:59",
+			"chart_source": "http://storage.dosm.gov.my/dashboards/construction_timeseries.parquet",
+			"data_as_of": "2024-Q3",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -25,8 +26,8 @@
 		"timeseries_callout": {
 			"name": "timeseries_callout",
 			"chart_type": "custom_chart",
-			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/construction_timeseries_callout.parquet",
-			"data_as_of": "2023-08-28 23:59",
+			"chart_source": "http://storage.dosm.gov.my/dashboards/construction_timeseries_callout.parquet",
+			"data_as_of": "2024-Q3",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -37,8 +38,8 @@
 		"timeseries_projowner": {
 			"name": "timeseries_projowner",
 			"chart_type": "timeseries_chart",
-			"chart_source": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/dashboards/construction_projowner_timeseries.parquet",
-			"data_as_of": "2023-08-28 23:59",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/construction_projowner_timeseries.parquet",
+			"data_as_of": "2024-Q3",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -60,8 +61,8 @@
 		"timeseries_projowner_callout": {
 			"name": "timeseries_projowner_callout",
 			"chart_type": "custom_chart",
-			"chart_source": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/dashboards/construction_projowner_timeseries_callout.parquet",
-			"data_as_of": "2023-08-28 23:59",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/construction_projowner_timeseries_callout.parquet",
+			"data_as_of": "2024-Q3",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {

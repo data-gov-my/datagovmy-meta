@@ -1,0 +1,89 @@
+{
+    "publication": "population_projection",
+    "publication_type": "demography",
+    "release_date": "2016-11-09",
+    "frequency": "ONE_OFF",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY",
+        "AGE"
+    ],
+    "en": {
+        "title": "Population Projections: 2010-2040",
+        "publication_type_title": "Demography",
+        "description": "Projections of Malaysia's population from 2010-2040 at national and state level, with breakdowns by sex, age, and ethnicity.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Population Projections: 2010-2040",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_projection_2010-2040.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Population Projections by State: 2010-2040",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_projection_2010-2040_state.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Population Projections by Sex & Age: 2010-2040",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_projection_2010-2040_sex_age.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Population Projections by Sex & Ethnicity: 2010-2040",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_projection_2010-2040_sex_ethnicity.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Population Projections by Sex, Age & Ethnicity: 2010-2040",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_projection_2010-2040_sex_age_ethnicity.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "Unjuran Penduduk: 2010-2040",
+        "publication_type_title": "Demografi",
+        "description": "Unjuran penduduk Malaysia dari 2010-2040 di peringkat nasional dan negeri, dengan pecahan mengikut jantina, umur, dan etnik.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Unjuran Penduduk: 2010-2040",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_projection_2010-2040.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Unjuran Penduduk mengikut Negeri: 2010-2040",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_projection_2010-2040_state.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Unjuran Penduduk mengikut Jantina & Umur: 2010-2040",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_projection_2010-2040_sex_age.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Unjuran Penduduk mengikut Jantina & Etnik: 2010-2040",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_projection_2010-2040_sex_ethnicity.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Unjuran Penduduk mengikut Jantina, Umur & Etnik: 2010-2040",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_projection_2010-2040_sex_age_ethnicity.xlsx"
+            }
+        ]
+    }
+}

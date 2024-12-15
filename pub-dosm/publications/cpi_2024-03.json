@@ -1,0 +1,73 @@
+{
+    "publication": "cpi_2024-03",
+    "publication_type": "cpi",
+    "release_date": "2024-04-25",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Mar 2024] Consumer Price Index",
+        "publication_type_title": "Consumer Price Index (CPI)",
+        "description": "Official consumer price data, covering headline, core, and state-level inflation",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Consumer Price Index Report: Mar 2024",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2024-03.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "CPI Main Tables: Mar 2024",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2024-03_main.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "CPI Tables by State: Mar 2024",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2024-03_state.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Core CPI Tables: Mar 2024",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2024-03_core.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Mac 2024] Indeks Harga Pengguna",
+        "publication_type_title": "Indeks Harga Pengguna (IHP)",
+        "description": "Data harga pengguna rasmi, merangkumi inflasi, inflasi teras, dan inflasi mengikut negeri",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Laporan Indeks Harga Pengguna: Mac 2024",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2024-03.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Jadual Utama IHP: Mac 2024",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2024-03_main.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Jadual IHP mengikut Negeri: Mac 2024",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2024-03_state.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Jadual IHP Teras: Mac 2024",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2024-03_core.xlsx"
+            }
+        ]
+    }
+}

@@ -1,14 +1,14 @@
 {
   "title_en": "Annual Maternal Deaths",
   "title_ms": "Kematian Ibu Bersalin Tahunan",
-  "title_sort": 11,
+  "title_sort": 15,
   "description_en": "Annual number of deaths of women during pregnancy or childbirth.",
   "description_ms": "Jumlah tahunan kematian wanita semasa mengandung atau melahirkan anak.",
   "exclude_openapi": false,
   "manual_trigger": "",
-  "data_as_of": "2022",
-  "last_updated": "2023-10-17 12:00",
-  "next_update": "2024-10-17 12:00",
+  "data_as_of": "2023",
+  "last_updated": "2024-10-17 12:00",
+  "next_update": "2025-11-01 12:00",
   "methodology_en": "- A maternal death refers to the death of a woman during pregnancy or childbirth, or within 42 days after the termination of pregnancy, irrespective of the duration and site of the pregnancy. Furthermore, the death must have been from a cause related to or aggravated by the pregnancy or its management, not an accidental or unrelated cause.\n - This data is derived based on deaths registered with JPN which have been certified as a maternal death by the Ministry of Health. Data prior to 1963 refers to Peninsular Malaysia only (excluding Singapore). Data from 1963 onwards refers to the entirety of Malaysia (i.e. including Sabah and Sarawak). For a deeper understanding of the methodology and associated definition, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/vitalstats-technotes).",
   "methodology_ms": "- Kematian ibu bersalin merujuk kepada kematian seorang wanita ketika mengandung atau melahirkan anak, atau dalam tempoh 42 hari selepas melahirkan anak atau keguguran. Tambahan, kematian tersebut mestilah akibat daripada proses kehamilan dan pengendaliannya atau penyakit-penyakit yang menjejaskan kesihatan ibu, dan bukannya daripada kemalangan atau sebab yang tidak berkaitan dengan kehamilan.\n - Data ini dihasilkan berdasarkan kematian yang didaftarkan dengan JPN, yang telah disahkan oleh Kementerian Kesihatan sebagai kematian ibu bersalin. Data sebelum 1963 merujuk kepada Semenanjung Malaysia sahaja (tidak termasuk Singapura). Data dari 1963 dan seterusnya merujuk kepada keseluruhan Malaysia (iaitu termasuk Sabah dan Sarawak). Untuk memahami metodologi dengan lebih terperinci, sila rujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/vitalstats-technotes).",
   "caveat_en": "This data is derived based on deaths registered with JPN. Therefore, if a maternal death is not registered with JPN (for instance, if a foreign maternal death is registered only in their home country, or a maternal death in a remote area is not registered), it will generally not count in this dataset. However, adjustment has been made to the number of deaths in Sabah to account for the under-reporting of deaths detected based on the 'Study of Under Reporting of Deaths in Sabah', which was conducted by DOSM and approved by the Steering Committee on Implementation of Civil Registration and Vital Statistics in 2016.",
@@ -23,9 +23,12 @@
   ],
   "demography": [],
   "dataset_begin": 1933,
-  "dataset_end": 2022,
+  "dataset_end": 2023,
   "data_source": [
     "JPN","DOSM"
+  ],
+  "data_source_granular": [
+    "BPPD"
   ],
   "site_category": [
     {

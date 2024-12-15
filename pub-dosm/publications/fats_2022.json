@@ -1,0 +1,74 @@
+{
+    "publication": "fats_2022",
+    "publication_type": "businesses",
+    "release_date": "2024-11-27",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2022] Foreign Affiliates",
+        "publication_type_title": "Businesses",
+        "description": "Annual economic data on the operations of Malaysian-affiliated companies abroad, and foreign-affiliated companies in Malaysia.",
+        "description_email": "DOSM has just released the latest data on foreign affiliates, covering the operations of Malaysian-affiliated companies abroad and foreign-affiliated companies in Malaysia.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Malaysia's Affiliates Abroad: 2022",
+                "resource_link": "https://storage.dosm.gov.my/businesses/fats_outward_2022.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Foreign Affiliates in Malaysia: 2022",
+                "resource_link": "https://storage.dosm.gov.my/businesses/fats_inward_2022.pdf"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Malaysia's Affiliates Abroad: 2022",
+                "resource_link": "https://storage.dosm.gov.my/businesses/fats_outward_2022.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Foreign Affiliates in Malaysia: 2022",
+                "resource_link": "https://storage.dosm.gov.my/businesses/fats_inward_2022.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2022] Affiliate Asing",
+        "publication_type_title": "Perniagaan",
+        "description": "Data ekonomi tahunan mengenai operasi syarikat milikan Malaysia di luar negeri, serta syarikat milikan asing di Malaysia.",
+        "description_email": "DOSM telah menerbitkan data afiliasi asing terkini, meliputi operasi syarikat milikan Malaysia di luar negeri dan syarikat milikan asing di Malaysia.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Affiliate Malaysia di Luar Negeri: 2022",
+                "resource_link": "https://storage.dosm.gov.my/businesses/fats_outward_2022.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Affiliate Asing di Malaysia: 2022",
+                "resource_link": "https://storage.dosm.gov.my/businesses/fats_inward_2022.pdf"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Affiliate Malaysia di Luar Negeri: 2022",
+                "resource_link": "https://storage.dosm.gov.my/businesses/fats_outward_2022.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Affiliate Asing di Malaysia: 2022",
+                "resource_link": "https://storage.dosm.gov.my/businesses/fats_inward_2022.xlsx"
+            }
+        ]
+    }
+}

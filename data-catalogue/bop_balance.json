@@ -1,0 +1,132 @@
+{
+    "title_en": "Balance of Key BOP Components",
+    "title_ms": "Baki Komponen Utama BOP",
+    "title_sort": 2,
+    "description_en": "Overall balance of the 4 main components of Malaysia's balance of payments (BOP).",
+    "description_ms": "Baki keseluruhan 4 komponen utama dalam imbangan pembayaran (BOP) Malaysia.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2024-Q3",
+    "last_updated": "2024-11-15 12:00",
+    "next_update": "2025-02-14 12:00",
+    "methodology_en": "In general, Malaysia's balance of payments (BOP) record all international economic transactions between Malaysia and other nations. This dataset presents the overall balance of the main components of Malaysia's BOP, that is the current account, capital account, financial account, and official reserve account. It is compiled based on the IMF's BPM6 guidelines. For a full description of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/bop-technotes).",
+    "methodology_ms": "Secara am, imbangan pembayaran (BOP) Malaysia memaparkan transaksi ekonomi antarabangsa antara Malaysia dengan negara lain di dunia. Set data ini memaparkan baki keselurun bagi komponen utama BOP, iaitu akaun semasa, akaun modal, akaun kewangan, serta akaun rizab rasmi. Segala statistik BOP disusun berdasarkan garis panduan BMP6 yang diterbitkan oleh IMF. Untuk mendapat perincian metodologi yang penuh, sila merujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/bop-technotes).",
+    "caveat_en": "Values for the most recent 8 quarters may be revised in future releases.",
+    "caveat_ms": "Angka bagi 8 suku terkini mungkin disemak semula dalam penerbitan akan datang.",
+    "publication_en": "[Balance of Payments, 2Q 2024](https://open.dosm.gov.my/publications/bop_2024-q2), the latest edition of the quarterly BOP statistics published by DOSM. OpenDOSM also features a [dashboard on BOP](https://open.dosm.gov.my/dashboard/balance-of-payments) which enables you to explore Malaysia's BOP data interactively.",
+    "publication_ms": "[Imbangan Pembayaran, ST2 2024](https://open.dosm.gov.my/ms-MY/publications/bop_2024-q2), edisi terkini bagi statistik BOP suku tahunan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga membekalkan [_dashboard_ BOP](https://open.dosm.gov.my/ms-MY/dashboard/balance-of-payments) yang membolehkan anda menerokai data BOP Malaysia secara interaktif.",
+    "link_parquet": "https://storage.dosm.gov.my/bop/bop_balance.parquet",
+    "link_csv": "https://storage.dosm.gov.my/bop/bop_balance.csv",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2010,
+    "dataset_end": 2024,
+    "data_source": [
+        "DOSM"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "National Accounts",
+            "category_ms": "Akaun Negara",
+            "category_sort": 20,
+            "subcategory_en": "Balance of Payments",
+            "subcategory_ms": "Imbangan Pembayaran",
+            "subcategory_sort": 20
+        },
+        {
+            "site": "opendosm",
+            "category_en": "National Accounts",
+            "category_ms": "Akaun Negara",
+            "category_sort": 20,
+            "subcategory_en": "Balance of Payments",
+            "subcategory_ms": "Imbangan Pembayaran",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format. The earliest date in the quarter is chosen, e.g. YYYY-01-01 for the 1st quarter and YYYY-04-01 for the 2nd quarter.",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD. Tarikh yang dipilih adalah tarikh terawal dalam suku tahun, contohnya YYYY-01-01 bagi suku tahun pertama dan YYYY-04-01 bagi suku tahun kedua."
+        },
+        {
+            "name": "account",
+            "title_en": "Component",
+            "title_ms": "Komponen",
+            "description_en": "[Categorical] The type of account in the balance of payments: Current Account ('ca'), Capital Account ('ka'), Financial Account ('fa'),  Official Reserve Account ('reserves'), or Net Errors and Omissions ('neo').",
+            "description_ms": "[Kategori] Jenis akaun dalam imbangan pembayaran: Akaun Semasa ('ca'), Akaun Modal ('ka'), Akaun Kewangan ('fa'), Akaun Rizab Rasmi ('reserves'), atau Kesilapan dan Ketinggalan Bersih ('neo')."
+        },
+        {
+            "name": "balance",
+            "title_en": "Balance (RM mil)",
+            "title_ms": "Baki (RM juta)",
+            "description_en": "[Float] The balance in RM millions. These are net values, derived by subtracting debits from credits for that account.",
+            "description_ms": "[Apung] Baki dalam RM juta. Angka-angka tersebut adalah angka bersih, yang dihasilkan dengan mengurangkan debet daripada kredit bagi akaun tersebut."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 3,
+                "filter_columns": [
+                    "account"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "bop_over_time",
+            "title_en": "Balance of Main Components",
+            "title_ms": "Baki Komponen Utama",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "account"
+                ],
+                "precision": 3,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y1": [
+                        "balance"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Balance (RM mil)",
+        "date": "Date",
+        "account": "Account Type",
+        "balance": "Balance (RM mil)",
+        "reserves": "Reserves",
+        "ca": "Current Account",
+        "ka": "Capital Account",
+        "fa": "Financial Account",
+        "neo": "Net Errors and Omissions"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Baki (jutaan MYR)",
+        "date": "Tarikh",
+        "account": "Akaun",
+        "balance": "Baki (RM juta)",
+        "reserves": "Rizab",
+        "ca": "Akaun Semasa",
+        "ka": "Akaun Modal",
+        "fa": "Akaun Kewangan",
+        "neo": "Kesilapan dan Ketinggalan Bersih"
+    },
+    "related_datasets": []
+}

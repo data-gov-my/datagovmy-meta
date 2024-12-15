@@ -1,0 +1,114 @@
+{
+    "title_en": "Access to Sanitary Latrines by State",
+    "title_ms": "Akses kepada Tandas Sempurna mengikut Negeri",
+    "title_sort": 3,
+    "description_en": "Proportion of households in rural areas covered by sanitary latrines by state.",
+    "description_ms": "Peratusan isi rumah di kawasan luar bandar yang diliputi oleh tandas sempurna mengikut negeri.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2022",
+    "last_updated": "2024-09-01 12:00",
+    "next_update": "tbc",
+    "methodology_en": "This data shows the proportion of households in rural areas covered by sanitary latrines, and is tabulated from annual ground-level surveillance conducted by the Water Supply and Environmental Sanitation (BAKAS) unit at the Ministry of Health. The reason that the survey focuses on rural areas is for cost effectiveness, since data from the Department of Statistics' surveys on household access to basic amenities shows that urban access to improved sanitation has been stable at or near 100% throughout the country.",
+    "methodology_ms": "Data ini menunjukkan peratusan isi rumah di kawasan luar bandar yang diliputi oleh tandas sempurna, dan dirangka daripada pemantauan lapangan tahunan yang dilakukan oleh Unit Bekalan Air dan Kesihatan Alam Sekitar (BAKAS) di Kementerian Kesihatan Malaysia. Pemantauan BAKAS dikhususkan kepada kawasan luar bandar untuk menjimatkan kos, memandangkan data daripada survei kemudahan ases oleh Jabatan Perangkaan (DOSM) menunjukkan bahawa akses kepada tandas sempurna di kawasan bandar telah stabil di tahap 100% (atau hampir 100%) di seluruh negara.",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/healthcare/sanitation_access.parquet",
+    "link_csv": "https://storage.data.gov.my/healthcare/sanitation_access.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2000,
+    "dataset_end": 2022,
+    "data_source": [
+        "MOH"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Healthcare",
+            "category_ms": "Kesihatan",
+            "category_sort": 40,
+            "subcategory_en": "Healthcare Infrastructure",
+            "subcategory_ms": "Infrastruktur Kesihatan",
+            "subcategory_sort": 15
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states, or Malaysia",
+            "description_ms": "[Kategori] Satu daripada 16 negeri, atau Malaysia"
+        },
+        {
+            "name": "proportion",
+            "title_en": "Access (%)",
+            "title_ms": "Akses (%)",
+            "description_en": "[Float] Proportion of households with access to sanitary latrines, expressed as a percentage",
+            "description_ms": "[Apung] Peratusan isi rumah yang mempunyai akses kepada tandas sempurna, dinyatakan sebagai peratusan"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 1,
+                "filter_columns": [
+                    "state"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "timeseries",
+            "title_en": "Access to Sanitary Latrines",
+            "title_ms": "Akses kepada Tandas Sempurna",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state"
+                ],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "proportion"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Access (%)",
+        "date": "Date",
+        "state": "State",
+        "proportion": "Access (%)"
+    },
+    "translations_ms": {
+        "x": "Tahun",
+        "y1": "Akses (%)",
+        "date": "Tarikh",
+        "state": "Negeri",
+        "proportion": "Akses (%)"
+    },
+    "related_datasets": []
+}

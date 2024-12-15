@@ -1,0 +1,189 @@
+{
+    "title_en": "Transactional Records: Deaths due to COVID-19",
+    "title_ms": "Rekod Transaksi: Kematian disebabkan oleh COVID-19",
+    "title_sort": 5,
+    "description_en": "Transactional records of deaths due to COVID-19, with various demographic and medical dimensions including COVID-19 vaccination records. The preview shows the most recent 200 records.",
+    "description_ms": "Rekod transaksi kematian disebabkan oleh COVID-19, dengan pelbagai dimensi demografi dan perubatan termasuk rekod vaksinasi COVID-19. Pratonton menunjukkan 200 rekod terkini.",
+    "exclude_openapi": true,
+    "manual_trigger": "2024-12-08 00:56:35.228807",
+    "data_as_of": "2024-12-07 23:59",
+    "last_updated": "2024-12-08 12:00",
+    "next_update": "2024-12-15 12:00",
+    "methodology_en": "This dataset is produced by the Crisis Preparedness and Response Centre (CPRC) at the Ministry of Health, based on daily ground-level surveillance conducted to monitor the evolution of COVID-19 in Malaysia. Following Malaysia's transition to endemicity, the public reporting frequency was altered from daily to weekly. Nevertheless, internal surveillance is still conducted on a daily basis.",
+    "methodology_ms": "Dataset ini dihasilkan oleh Pusat Kesiapsiagaan dan Tindak Cepat Krisis (CPRC) di Kementerian Kesihatan Malaysia, berdasarkan survelan harian di lapangan yang dilaksanakan untuk memantau evolusi COVID-19 di Malaysia. Berikutan peralihan Malaysia kepada fasa endemik, kekerapan pelaporan awam telah diubah daripada harian kepada mingguan. Namun begitu, survelan harian masih berlangunsung secara dalaman.",
+    "caveat_en": "As a general rule, deaths due to COVID-19 are not announced on the day that the death occurs. This is because it takes time to medically verify cause of death (via autopsy), as well as to register the death in accordance with the laws of Malaysia. Therefore, there may be future records where the date of death is prior to records already in the dataset. Phrased differently, aggregation based on the date of death will produce a dynamic dataset, where the number of deaths for a certain date may increase in future.",
+    "caveat_ms": "Secara am, kematian disebabkan oleh COVID-19 tidak diumumkan pada tarikh kematian tersebut berlaku. Ini kerana ia memerlukan masa untuk mengesahkan sebab kematian (melalui bedah siasat), serta untuk mendaftarkan kematian tersebut selaras dengan undang-undang Malaysia. Oleh itu, terdapat kemungkinan di mana rekod yang dimasukkan pada masa depan mempunyai tarikh kematian sebelum rekod yang sudah ada dalam set data. Dalam erti kata lain, pengagretan berdasarkan tarikh kematian akan menghasilkan set data yang dinamik, di mana bilangan kematian pada sesuatu tarikh mungkin meningkat pada masa depan.",
+    "publication_en": "KKMNOW features a [dashboard on COVID-19](https://data.moh.gov.my/dashboard/covid-19) where you can explore the data in a more interactive manner!",
+    "publication_ms": "Portal KKMNOW memaparkan [papan pemuka tentang COVID-19](https://data.moh.gov.my/dashboard/covid-19) di mana anda boleh menerokai data ini dengan lebih interaktif!",
+    "link_parquet": "https://storage.data.gov.my/healthcare/covid_deaths_linelist.parquet",
+    "link_csv": "https://storage.data.gov.my/healthcare/covid_deaths_linelist.csv",
+    "link_preview": "https://storage.data.gov.my/healthcare/covid_deaths_linelist_preview.parquet",
+    "frequency": "DAILY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "SEX",
+        "AGE"
+    ],
+    "dataset_begin": 2020,
+    "dataset_end": 2024,
+    "data_source": [
+        "MOH"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Healthcare",
+            "category_ms": "Kesihatan",
+            "category_sort": 40,
+            "subcategory_en": "Infectious Diseases",
+            "subcategory_ms": "Penyakit Berjangkit",
+            "subcategory_sort": 30
+        },
+        {
+            "site": "kkmnow",
+            "category_en": "Infectious Diseases",
+            "category_ms": "Penyakit Berjangkit",
+            "category_sort": 30,
+            "subcategory_en": "COVID-19",
+            "subcategory_ms": "COVID-19",
+            "subcategory_sort": 10
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date of Death",
+            "title_ms": "Tarikh Kematian",
+            "description_en": "[Date] Date on which the deceased was pronunced dead, in YYYY-MM-DD format",
+            "description_ms": "[Tarikh] Tarikh pada mana si mati disahkan meninggal dunia, dalam format YYYY-MM-DD"
+        },
+        {
+            "name": "date_announced",
+            "title_en": "Date of Announcement",
+            "title_ms": "Tarikh Dilaporkan",
+            "description_en": "[Date] Date on which the death was registered into the COVID-19 deaths database, in YYYY-MM-DD format",
+            "description_ms": "[Tarikh] Tarikh pada mana kematian tersebut dimasukkan ke pangkalan data kematian COVID-19, dalam format YYYY-MM-DD"
+        },
+        {
+            "name": "date_positive",
+            "title_en": "Date of Positive Test",
+            "title_ms": "Tarikh Ujian Positif",
+            "description_en": "[Date] Date on which the deceased was confirmed to be COVID-19 positive, in YYYY-MM-DD format",
+            "description_ms": "[Tarikh] Tarikh pada mana si mati disahkan positif COVID-19, dalam format YYYY-MM-DD"
+        },
+        {
+            "name": "date_dose1",
+            "title_en": "Date of Vaccination (1st dose)",
+            "title_ms": "Tarikh Vaksinasi (dos pertama)",
+            "description_en": "[Date] Date of the deceased's first COVID-19 vaccination, if any, in YYYY-MM-DD format",
+            "description_ms": "[Tarikh] Tarikh dos pertama vaksinasi COVID-19, sekiranya ada, dalam format YYYY-MM-DD"
+        },
+        {
+            "name": "date_dose2",
+            "title_en": "Date of Vaccination (1st dose)",
+            "title_ms": "Tarikh Vaksinasi (dos kedua)",
+            "description_en": "[Date] Date of the deceased's second COVID-19 vaccination, if any, in YYYY-MM-DD format. This field is intentionally nulled for individuals who received a single-dose COVID-19 vaccine such as Cansino.",
+            "description_ms": "[Tarikh] Tarikh dos kedua vaksinasi COVID-19, sekiranya ada, dalam format YYYY-MM-DD. Medan ini dikosongkan bagi individu yang telah menerima vaksin COVID-19 dos tunggal seperti Cansino."
+        },
+        {
+            "name": "date_dose3",
+            "title_en": "Date of Vaccination (booster dose)",
+            "title_ms": "Tarikh Vaksinasi (dos penggalak)",
+            "description_en": "[Date] Date of the deceased's booster COVID-19 vaccination, if any, in YYYY-MM-DD format",
+            "description_ms": "[Tarikh] Tarikh dos penggalak vaksinasi COVID-19, sekiranya ada, dalam format YYYY-MM-DD"
+        },
+        {
+            "name": "brand1",
+            "title_en": "Vaccine Brand (1st dose)",
+            "title_ms": "Jenama Vaksin (dos pertama)",
+            "description_en": "[Categorical] Either Pfizer, Sinovac, AstraZeneca, Cansino, Sinopharm, or Moderna. Values of 'Pending VMS sync' reflect issues with retrieving the vaccine brand from the Malaysia Vaccine Administration System (MyVAS).",
+            "description_ms": "[Kategori] Sama ada Pfizer, Sinovac, AstraZeneca, Cansino, Sinopharm, atau Moderna. Nilai 'Pending VMS sync' bermaksud terdapat masalah mendapatkan jenama vaksin daripada Sistem Pentadbiran Vaksin Malaysia (MyVAS)."
+        },
+        {
+            "name": "brand2",
+            "title_en": "Vaccine Brand (2nd dose)",
+            "title_ms": "Jenama Vaksin (dos kedua)",
+            "description_en": "[Categorical] Either Pfizer, Sinovac, AstraZeneca, Cansino, Sinopharm, or Moderna. Values of 'Pending VMS sync' reflect issues with retrieving the vaccine brand from the Malaysia Vaccine Administration System (MyVAS). This field is intentionally nulled for individuals who received a single-dose COVID-19 vaccine such as Cansino.",
+            "description_ms": "[Kategori] Sama ada Pfizer, Sinovac, AstraZeneca, Cansino, Sinopharm, atau Moderna. Nilai 'Pending VMS sync' bermaksud terdapat masalah mendapatkan jenama vaksin daripada Sistem Pentadbiran Vaksin Malaysia (MyVAS). Medan ini dikosongkan bagi individu yang telah menerima vaksin COVID-19 dos tunggal seperti Cansino."
+        },
+        {
+            "name": "brand3",
+            "title_en": "Vaccine Brand (booster dose)",
+            "title_ms": "Jenama Vaksin (dos penggalak)",
+            "description_en": "[Categorical] Either Pfizer, Sinovac, AstraZeneca, Cansino, Sinopharm, or Moderna. Values of 'Pending VMS sync' reflect issues with retrieving the vaccine brand from the Malaysia Vaccine Administration System (MyVAS).",
+            "description_ms": "[Kategori] Sama ada Pfizer, Sinovac, AstraZeneca, Cansino, Sinopharm, atau Moderna. Nilai 'Pending VMS sync' bermaksud terdapat masalah mendapatkan jenama vaksin daripada Sistem Pentadbiran Vaksin Malaysia (MyVAS)."
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states",
+            "description_ms": "[Kategori] Satu daripada 16 negeri"
+        },
+        {
+            "name": "age",
+            "title_en": "Age",
+            "title_ms": "Umur",
+            "description_en": "[Integer] Age at the time of death, rounded to the nearest integer.",
+            "description_ms": "[Integer] Umur pada tarikh kematian, dibundarkan kepada integer terdekat."
+        },
+        {
+            "name": "male",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Integer] Binary variable indicating the deceased's sex, either male (1) or female (0)",
+            "description_ms": "[Integer] Pembolehubah binari bagi jantina si mati, sama ada lelaki (1) atau perempuan (0)"
+        },
+        {
+            "name": "bid",
+            "title_en": "Brought In Dead",
+            "title_ms": "BID",
+            "description_en": "[Integer] Binary variable indicating whether the deceased died in a hospital (0), or was brought in dead (1).",
+            "description_ms": "[Integer] Pembolehubah binari menunjukkan sama ada si mati telah meninggal dunia di hospital (0), ataupun sudah meninggal dunia sebelum dimasukkan ke hospital (1)."
+        },
+        {
+            "name": "malaysian",
+            "title_en": "Citizenship",
+            "title_ms": "Kewarganegaraan",
+            "description_en": "[Integer] Binary variable indicating whether the deceased was Malaysian (1) or non-Malaysian (0)",
+            "description_ms": "[Integer] Pembolehubah binari menunjukkan sama ada si mati adalah warganegara Malaysia (1) atau bukan warganegara (0)"
+        },
+        {
+            "name": "comorb",
+            "title_en": "Comorbidity",
+            "title_ms": "komorbiditi",
+            "description_en": "[Integer] Binary variable indicating whether the deceased had comorbidities (1) or was otherwise healthy (0).",
+            "description_ms": "[Integer] Pembolehubah binari menunjukkan sama ada si mati menghidapi lain-lain penyakit (1), ataupun sihat selain daripada dijangkiti COVID-19 (0)."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": [
+                    "date",
+                    "date_announced"
+                ]
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "state": "State",
+        "y1": "Cases"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "state": "Negeri",
+        "y1": "Kes"
+    },
+    "related_datasets": []
+}

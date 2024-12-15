@@ -1,0 +1,122 @@
+{
+    "title_en": "Households with Access to Electricity",
+    "title_ms": "Isi Rumah dengan Akses ke Bekalan Elektrik",
+    "title_sort": 20,
+    "description_en": "Number of households with access to electricity at home.",
+    "description_ms": "Bilangan isi rumah yang mempunyai akses kepada bekalan elektrik di rumah.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2022",
+    "last_updated": "2024-09-01 12:00",
+    "next_update": "tbc",
+    "methodology_en": "In Malaysia, the electrical grid is operated by various parties, primarily Tenaga Nasional Berhad (for Peninsular Malaysia), Sabah Electricity Sdn. Bhd., and Sarawak Energy Berhad. Independent power producers also contribute to the grid. This dataset is tabulated from the operational records of these providers, and shows the number of households (i.e. domestic consumers) with access to electricity at home.",
+    "methodology_ms": "Di Malaysia, grid elektrik dioperasikan oleh pelbagai pihak, terutamanya Tenaga Nasional Berhad (untuk Semenanjung Malaysia), Sabah Electricity Sdn. Bhd., dan Sarawak Energy Berhad. Pengeluar kuasa bebas juga menyumbang kepada grid elektrik. Set data ini dihasilkan daripada rekod operasi pengendali tersebut, dan menunjukkan bilangan isi rumah (iaitu pengguna domestik) yang mempunyai akses kepada bekalan elektrik di rumah.",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/energy/electricity_access.parquet",
+    "link_csv": "https://storage.data.gov.my/energy/electricity_access.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2011,
+    "dataset_end": 2021,
+    "data_source": [
+        "TNB",
+        "SESB",
+        "SWK-ENERGY",
+        "ST"
+    ],
+    "site_category": [
+        {
+          "site": "datagovmy",
+          "category_en": "Environment",
+          "category_ms": "Alam Sekitar",
+          "category_sort": 45,
+          "subcategory_en": "Energy",
+          "subcategory_ms": "Tenaga",
+          "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at yearly frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] Either Malaysia, Semenanjung Malaysia (supplied by Tenaga Nasional Berhad), Sabah (supplied by Sabah Electricity Sdn. Bhd.), or Sarawak (supplied by Sarawak Energy Berhad)",
+            "description_ms": "[Kategori] Sama ada Malaysia, Semenanjung Malaysia (dibekalkan oleh Tenaga Nasional Berhad), Sabah (dibekalkan oleh Sabah Electricity Sdn. Bhd.), atau Sarawak (dibekalkan oleh Sarawak Energy Berhad)"
+        },
+        {
+            "name": "households",
+            "title_en": "Households",
+            "title_ms": "Isi Rumah",
+            "description_en": "[Float] Number of households with access to electricity at home",
+            "description_ms": "[Apung] Bilangan isi rumah yang mempunyai akses kepada bekalan elektrik di rumah"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "state"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "consumption",
+            "title_en": "Households with Electricity Access",
+            "title_ms": "Isi Rumah dengan Bekalan Elektrik",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "households"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Households",
+        "date": "Date",
+        "households": "Households",
+        "malaysia": "Malaysia",
+        "semenanjung-malaysia": "Semenanjung Malaysia",
+        "sabah": "Sabah",
+        "sarawak": "Sarawak"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Isi Rumah",
+        "tarikh": "Tarikh",
+        "households": "Isi Rumah",
+        "malaysia": "Malaysia",
+        "semenanjung-malaysia": "Semenanjung Malaysia",
+        "sabah": "Sabah",
+        "sarawak": "Sarawak"
+    },
+    "related_datasets": []
+}

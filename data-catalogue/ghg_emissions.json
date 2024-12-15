@@ -1,0 +1,137 @@
+{
+    "title_en": "Greenhouse Gas Emissions",
+    "title_ms": "Pelepasan Gas Rumah Hijau",
+    "title_sort": 20,
+    "description_en": "Annual greenhouse gas (GHG) emissions by source.",
+    "description_ms": "Pelepasan gas rumah hijau (GHG) tahunan mengikut sumber.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2021",
+    "last_updated": "2024-09-01",
+    "next_update": "-",
+    "methodology_en": "Official data on GHG emissions is compiled by the Ministry of Natural Resources and Environmental Sustainbility (NRES), following the Intergovernmental Panel on Climate Change (IPCC) guidelines for national greenhouse gas inventories. The GHG emissions data is derived from multiple sectors including energy, industrial processes, agriculture, waste, as well as land use, land-use change, and forestry (LULUCF). LULUCF data reflects both emissions and removals based on land management practices, contributing to the net emissions calculations.",
+    "methodology_ms": "Statistik rasmi pelepasan GHG dirangka oleh Kementerian Sumber Asli dan Kelestarian Alam Sekitar (NRES) mengikut garis panduan Panel Antara Kerajaan Mengenai Perubahan Iklim (IPCC) untuk inventori pelepasan gas rumah hijau nasional. Data pelepasan GHG berpunca dari pelbagai sektor termasuk tenaga, pemprosesan industri, pertanian, sisa, serta guna tanah, perubahan guna tanah, dan perhutanan (LULUCF). Data LULUCF mencerminkan pelepasan dan penyingkiran berdasarkan amalan pengurusan tanah, menyumbang kepada pengiraan pelepasan bersih.",
+    "caveat_en": "Data for 2020 and 2021 is provisional and subject to revision. Furthermore, no breakdown is provided for those years, i.e. only values for total emissions are provided.",
+    "caveat_ms": "Data bagi 2020 dan 2021 belum lagi muktamat dan tertakluk kepada semakan semula. Selain itu, tiada pecahan disediakan untuk tahun-tahun tersebut, bermakna hanya nilai bagi pelepasan keseluruhan disediakan.",
+    "publication_en": "—",
+    "publication_ms": "—",
+    "link_parquet": "https://storage.data.gov.my/environment/ghg_emissions.parquet",
+    "link_csv": "https://storage.data.gov.my/environment/ghg_emissions.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2014,
+    "dataset_end": 2021,
+    "data_source": [
+        "NRES",
+        "DOSM"
+    ],
+    "site_category": [
+        {
+          "site": "datagovmy",
+          "category_en": "Environment",
+          "category_ms": "Alam Sekitar",
+          "category_sort": 45,
+          "subcategory_en": "Pollution",
+          "subcategory_ms": "Pencemaran",
+          "subcategory_sort": 30
+        },
+        {
+          "site": "opendosm",
+          "category_en": "Environment",
+          "category_ms": "Alam Sekitar",
+          "category_sort": 95,
+          "subcategory_en": "Pollution",
+          "subcategory_ms": "Pencemaran",
+          "subcategory_sort": 30
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01-01 kerana data pada frekuensi tahunan"
+        },
+        {
+            "name": "source",
+            "title_en": "Source",
+            "title_ms": "Sumber",
+            "description_en": "[Categorical] Either total emissions excluding LULUCF ('total'), net emissions including LULUCF ('net'), or the source of emissions ('industrial_processes', 'agriculture', 'waste', 'lulucf'). It should be noted that although LULUCF values can, in principle, be positive (representing emissions) or negative (representing removals), the values for Malaysia are all negative.",
+            "description_ms": "[Kategori] Sama ada pelepasan keseluruhan tidak termasuk LULUCF ('total'), pelepasan bersih termasuk LULUCF ('net'), atau sumber pelepasan ('industrial_processes', 'agriculture', 'waste', 'lulucf'). Harus diingati bahawa walaupun nilai LULUCF secara prinsipnya boleh positif (mewakili pelepasan) atau negatif (mewakili penyingkiran), nilai bagi Malaysia adalah semua negatif."
+        },
+        {
+            "name": "emissions",
+            "title_en": "Emissions",
+            "title_ms": "Pelepasan",
+            "description_en": "[Float] The amount of GHG emissions in gigagrams (Gg) of CO₂ equivalent (CO₂e).",
+            "description_ms": "[Apung] Jumlah pelepasan GHG dalam gigagram (Gg) CO₂ setara (CO₂e)."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 2,
+                "filter_columns": [
+                    "source"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "emissions",
+            "title_en": "GHG Emissions",
+            "title_ms": "Pelepasan Gas Rumah Hijau",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "source"
+                ],
+                "precision": 2,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "emissions"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Emissions (Gg CO₂e)",
+        "date": "Date",
+        "source": "Source",
+        "emissions": "Emissions",
+        "total": "Total Emissions (excluding LULUCF)",
+        "net": "Net Emissions (including LULUCF)",
+        "energy": "Energy",
+        "industrial-processes": "Industrial Processes",
+        "agriculture": "Agriculture",
+        "waste": "Waste",
+        "lulucf": "Land Use, Land-Use Change, and Forestry (LULUCF)"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Pelepasan (Gg CO₂e)",
+        "date": "Tarikh",
+        "source": "Sumber",
+        "emissions": "Pelepasan",
+        "total": "Pelepasan Keseluruhan (tidak termasuk LULUCF)",
+        "net": "Pelepasan Bersih (termasuk LULUCF)",
+        "energy": "Tenaga",
+        "industrial-processes": "Pemprosesan Industri",
+        "agriculture": "Pertanian",
+        "waste": "Sisa",
+        "lulucf": "Guna Tanah, Perubahan Guna Tanah, dan Perhutanan (LULUCF)"
+    },
+    "related_datasets": []
+}

@@ -1,0 +1,113 @@
+{
+    "publication": "population_2023",
+    "publication_type": "demography",
+    "release_date": "2023-07-31",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY",
+        "AGE"
+    ],
+    "en": {
+        "title": "Current Population Estimates: 2023",
+        "publication_type_title": "Demography",
+        "description": "Annual population estimates at national and state level, with breakdowns by sex, age, and ethnicity.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Current Population Estimates: 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2023.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Current Population Estimates (Infographic): 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2023_infographic.pdf"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Principal Population Statistics: 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2023.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Population Tables for Malaysia: 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2023_malaysia.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Population Tables for Malaysia (revised): 2022",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2022r_malaysia.xlsx"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "excel",
+                "resource_name": "Population Tables by State: 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2023_state.xlsx"
+            },
+            {
+                "resource_id": 7,
+                "resource_type": "excel",
+                "resource_name": "Population Tables by State (revised): 2022",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2022r_state.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "Anggaran Penduduk Semasa: 2023",
+        "publication_type_title": "Demografi",
+        "description": "Anggaran penduduk tahunan di peringkat nasional dan negeri, dengan pecahan mengikut jantina, umur, dan etnik.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Anggaran Penduduk Semasa: 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2023.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Anggaran Penduduk Semasa (Infografik): 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2023_infographic.pdf"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Statistik Utama Penduduk: 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2023.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Jadual Penduduk Malaysia: 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2023_malaysia.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Jadual Penduduk Malaysia (disemak): 2022",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2022r_malaysia.xlsx"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "excel",
+                "resource_name": "Jadual Penduduk mengikut Negeri: 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2023_state.xlsx"
+            },
+            {
+                "resource_id": 7,
+                "resource_type": "excel",
+                "resource_name": "Jadual Penduduk mengikut Negeri (disemak): 2022",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2022r_state.xlsx"
+            }
+        ]
+    }
+}

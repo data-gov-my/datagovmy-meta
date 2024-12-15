@@ -1,17 +1,18 @@
 {
 	"dashboard_name": "service_statistics",
-	"data_last_updated": "2023-08-25 23:59",
-	"route": "/dashboard/service-statistics,/ms-MY/dashboard/service-statistics",
+	"data_last_updated": "2024-11-07 12:00",
+    "data_next_update": "2025-02-12 12:00",
+	"route": "/dashboard/services-statistics,/ms-MY/dashboard/services-statistics",
 	"sites": ["opendosm"],
-	"manual_trigger": "0",
+	"manual_trigger": "",
 	"required_params": [],
 	"optional_params": [],
 	"charts": {
 		"timeseries": {
 			"name": "timeseries",
 			"chart_type": "timeseries_chart",
-			"chart_source": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/dashboards/services_timeseries.parquet",
-			"data_as_of": "2023-08-25 23:59",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/services_timeseries.parquet",
+			"data_as_of": "2024-Q3",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -31,8 +32,8 @@
 		"timeseries_callout": {
 			"name": "timeseries_callout",
 			"chart_type": "custom_chart",
-			"chart_source": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/dashboards/services_timeseries_callout.parquet",
-			"data_as_of": "2023-08-25 23:59",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/services_timeseries_callout.parquet",
+			"data_as_of": "2024-Q3",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {

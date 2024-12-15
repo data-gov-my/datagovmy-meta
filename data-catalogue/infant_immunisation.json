@@ -1,0 +1,132 @@
+{
+    "title_en": "Infant Immunisation Coverage",
+    "title_ms": "Liputan Imunisasi Bayi",
+    "title_sort": 50,
+    "description_en": "Annual infant immunisation coverage rates at national level.",
+    "description_ms": "Kadar liputan imunisasi bayi di peringkat nasional.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2023",
+    "last_updated": "2024-11-20 12:00",
+    "next_update": "2025-11-30 12:00",
+    "methodology_en": "This data is derived by comparing aggregate records showing the number of infants immunised against each disease against official population estimates from the Department of Statistics Malaysia.",
+    "methodology_ms": "Data ini dihasilkan dengan membandingkan rekod agregat yang menunjukkan jumlah bayi yang telah diimunisasi bagi setiap penyakit, berbanding dengan anggaran penduduk rasmi dari Jabatan Perangkaan Malaysia.",
+    "caveat_en": "Coverage data for measles after 2015 is not provided as Malaysia transitioned fully to vaccination against MMR (measles, mumps, rubella). The declining coverage against measles should therefore be interpreted together with the rising coverage for MMR in order to obtain a holistic picture, rather than as a decline in measles coverage. Furthermore, because the coverage rates are derived from aggregated data rather than individual records indexed by birth certificate number, coverage rates may exceed 100% if the number of infants immunised is greater than the official population estimates.",
+    "caveat_ms": "Data liputan untuk campak selepas 2015 tidak disediakan kerana Malaysia telah beralih sepenuhnya kepada imunisasi MMR (campak, mumps, rubella). Oleh itu, penurunan liputan untuk campak harus ditafsirkan bersama dengan peningkatan liputan untuk MMR untuk memperoleh gambaran keseluruhan, bukan sebagai penurunan liputan untuk campak. Tambahan, oleh sebab kadar liputan dikira berdasarkan data agregat dan bukannya rekod individu yang diindeks dengan nombor sijil kelahiran, kadar liputan boleh melebihi 100% jika jumlah bayi yang telah diimunisasi melebihi anggaran penduduk rasmi.",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/healthcare/infant_immunisation.parquet",
+    "link_csv": "https://storage.data.gov.my/healthcare/infant_immunisation.csv",
+    "frequency": "ANNUAL",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2000,
+    "dataset_end": 2023,
+    "data_source": [
+        "MOH"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Healthcare",
+            "category_ms": "Kesihatan",
+            "category_sort": 40,
+            "subcategory_en": "Healthcare Programs",
+            "subcategory_ms": "Program Kesihatan",
+            "subcategory_sort": 20
+        },
+        {
+            "site": "kkmnow",
+            "category_en": "Healthcare Programs",
+            "category_ms": "Program Kesihatan",
+            "category_sort": 20,
+            "subcategory_en": "Blood Donation",
+            "subcategory_ms": "Pendermaan Darah",
+            "subcategory_sort": 10
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The year of the immunisation data in YYYY-MM-DD format, with MM-DD set to 01-01 because the data is annual.",
+            "description_ms": "[Tarikh] Tahun data imunisasi dalam format YYYY-MM-DD, dengan MM-DD ditetapkan ke 01-01 kerana data adalah tahunan."
+        },
+        {
+            "name": "disease",
+            "title_en": "Disease",
+            "title_ms": "Penyakit",
+            "description_en": "[Categorical] The disease for which immunisation coverage is reported, such as measles, MMR, DPT, Hepatitis B, or polio.",
+            "description_ms": "[Kategori] Penyakit yang mana liputan imunisasi dilaporkan, seperti campak, MMR, DPT, Hepatitis B, atau polio."
+        },
+        {
+            "name": "rate",
+            "title_en": "Coverage Rate (%)",
+            "title_ms": "Kadar Liputan (%)",
+            "description_en": "[Float] The immunisation coverage rate as a percentage.",
+            "description_ms": "[Apung] Kadar liputan imunisasi sebagai peratusan."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 1,
+                "filter_columns": [
+                    "disease"
+                ],
+                "freeze_columns": [
+                    "date"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "timeseries",
+            "title_en": "Immunisation Coverage",
+            "title_ms": "Liputan Imunisasi",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "disease"
+                ],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "rate"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "disease": "Disease",
+        "rate": "Coverage Rate (%)",
+        "y1": "Coverage (%)",
+        "measles": "Measles",
+        "mmr": "MMR",
+        "dpt": "DPT",
+        "hep-b": "Hepatitis B",
+        "polio": "Polio"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "disease": "Penyakit",
+        "rate": "Kadar Liputan (%)",
+        "y1": "Liputan (%)",
+        "measles": "Campak",
+        "mmr": "MMR",
+        "dpt": "DPT",
+        "hep-b": "Hepatitis B",
+        "polio": "Polio"
+    },
+    "related_datasets": []
+}

@@ -1,0 +1,51 @@
+{
+    "publication": "census_economy_2022",
+    "publication_type": "census_economy",
+    "release_date": "2024-07-29",
+    "frequency": "ONE_OFF",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "SEX"
+    ],
+    "en": {
+        "title": "[2022] Economic Census",
+        "publication_type_title": "Economic Census",
+        "description": "Comprehensive enumeration of business organizations and non-profit organizations in Malaysia, conducted once every 5 years.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Economic Census: 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Economic Census: 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2022] Banci Ekonomi",
+        "publication_type_title": "Banci Ekonomi",
+        "description": "Penghitungan menyeluruh pertubuhan-pertubuhan perniagaan dan pertubuhan bukan berasaskan keuntungan di Malaysia, yang dilaksanakan sekali setiap 5 tahun.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Banci Ekonomi: 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Banci Ekonomi: 2022",
+                "resource_link": "https://storage.dosm.gov.my/census/census_economy_2022.xlsx"
+            }
+        ]
+    }
+}

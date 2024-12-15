@@ -1,0 +1,105 @@
+{
+    "title_en": "MNHA: MOH Expenditure on Health",
+    "title_ms": "MNHA: Perbelanjaan Kesihatan oleh KKM", 
+    "title_sort": 11,
+    "description_en": "Annual total expenditure on health by the Ministry of Health Malaysia.",
+    "description_ms": "Perbelanjaan kesihatan keseluruhan tahunan oleh Kementerian Kesihatan Malaysia.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2022",
+    "last_updated": "2024-11-11",
+    "next_update": "-",
+    "methodology_en": "In general, national health accounts (NHA) seek to answer 4 questions pertaining to healthcare spending:\n1. How much is spent?\n2. Who spent it? (sources of financing)\n3. Where was it spent? (providers of healthcare)\n4. What was it spent for?(functions)\n\nMalaysia's national health accounts are based on the Malaysian National Health Accounts (MNHA) framework, which is consistent with international NHA classifications but with minor modifications to suit local policy needs.\n\nThis dataset zooms into sources of financing, focusing specifically on expenditure by the Ministry of Health Malaysia (MOH), which is an important policy variable. For a fuller description of the MNHA framework, you may refer to Chapter 2 of the [most recent MNHA publication](https://storage.data.gov.my/healthcare/pub/mnha_2022.pdf).",
+    "methodology_ms": "Secara umum, akaun kesihatan nasional (NHA) bertujuan untuk menjawab 4 persoalan berkaitan perbelanjaan kesihatan:\n1. Berapa banyak yang dibelanjakan?\n2. Siapa yang membelanjakan? (sumber pembiayaan)\n3. Di mana ia dibelanjakan? (pembekal kesihatan)\n4. Apakah tujuan ia dibelanjakan? (fungsi)\n\nAkaun kesihatan nasional Malaysia adalah berdasarkan kerangka Akaun Kesihatan Nasional Malaysia (MNHA), yang selaras dengan klasifikasi NHA antarabangsa tetapi dengan pengubahsuaian untuk memenuhi keperluan dasar tempatan.\n\nSet data memberi perincian sumber perbelanjaan, dengan fokus khusus kepada perbelanjaan oleh Kementerian Kesihatan Malaysia (KKM), iaitu salah satu indikator penting bagi tujuan penggubalan dasar. Untuk penerangan yang lebih lengkap tentang kerangka MNHA, anda boleh rujuk kepada Bab 2 [penerbitan MNHA terkini](https://storage.data.gov.my/healthcare/pub/mnha_2022.pdf).",
+    "caveat_en": "The data may be revised in future updates, in accordance with the latest methodologies.",
+    "caveat_ms": "Data mungkin disemak semula dalam kemaskini akan datang, selaras dengan metodologi terkini.",
+    "publication_en": "[MNHA 2022](https://storage.data.gov.my/healthcare/pub/mnha_2022.pdf), the latest edition of the Malaysian National Health Accounts published by the Ministry of Health Malaysia.",
+    "publication_ms": "[MNHA 2022](https://storage.data.gov.my/healthcare/pub/mnha_2022.pdf), edisi terkini Akaun Kesihatan Nasional Malaysia yang diterbitkan oleh Kementerian Kesihatan Malaysia.",
+    "link_parquet": "https://storage.data.gov.my/healthcare/mnha_moh.parquet",
+    "link_csv": "https://storage.data.gov.my/healthcare/mnha_moh.csv",
+    "frequency": "ANNUAL",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2013,
+    "dataset_end": 2022,
+    "data_source": [
+        "MOH"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Healthcare",
+            "category_ms": "Kesihatan",
+            "category_sort": 40,
+            "subcategory_en": "Healthcare Accounts",
+            "subcategory_ms": "Akaun Kesihatan",
+            "subcategory_sort": 50
+        },
+        {
+            "site": "kkmnow",
+            "category_en": "Healthcare Accounts",
+            "category_ms": "Akaun Kesihatan",
+            "category_sort": 50,
+            "subcategory_en": "Sources of Financing",
+            "subcategory_ms": "Sumber Pembiayaan",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The year of the expenditure in YYYY-MM-DD format, with MM-DD set to 01-01 because the data is an annual frequency.",
+            "description_ms": "[Tarikh] Tahun perbelanjaan dalam format YYYY-MM-DD, dengan MM-DD ditetapkan ke 01-01 kerana data pada frekuensi tahunan."
+        },
+        {
+            "name": "expenditure",
+            "title_en": "Expenditure (RM)",
+            "title_ms": "Perbelanjaan (RM)",
+            "description_en": "[Float] The amount of expenditure in Malaysian Ringgit.",
+            "description_ms": "[Apung] Jumlah perbelanjaan dalam Ringgit Malaysia."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 1,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "timeseries",
+            "title_en": "Health Expenditure",
+            "title_ms": "Perbelanjaan Kesihatan",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "expenditure"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "expenditure": "Expenditure (RM)"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "expenditure": "Perbelanjaan (RM)"
+    },
+    "related_datasets": []
+}

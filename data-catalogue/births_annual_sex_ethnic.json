@@ -1,0 +1,189 @@
+{
+    "title_en": "Annual Live Births by Sex & Ethnicity",
+    "title_ms": "Kelahiran Hidup Tahunan mengikut Jantina & Etnik",
+    "title_sort": 4,
+    "description_en": "Annual number of births with signs of life upon delivery, with breakdowns by sex and ethnic group.",
+    "description_ms": "Jumlah kelahiran tahunan yang bernyawa semasa dilahirkan, dengan pecahan mengikut jantina dan kumpulan etnik.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2023",
+    "last_updated": "2024-10-17 12:00",
+    "next_update": "2025-11-01 12:00",
+    "methodology_en": "A live birth is a birth with signs of life upon delivery, even if only for a short while. The data on live births in Malaysia is tabulated based on information reported during the births registration process, specifically in the in Register of Birth Form (JPN.LM01). For a deeper understanding of the methodology and associated definition, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/vitalstats-technotes).",
+    "methodology_ms": "Kelahiran hidup adalah kelahiran yang bernyawa semasa dilahirkan, walaupun hanya untuk seketika. Data mengenai kelahiran hidup di Malaysia dihasilkan berdasarkan maklumat yang dilaporkan semasa proses pendaftaran kelahiran, khususnya dalam Borang Pendaftaran Kelahiran (JPN.LM01). Untuk memahami metodologi dengan lebih terperinci, sila rujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/vitalstats-technotes).",
+    "caveat_en": "This data is derived based on births registered with JPN. Accordingly, if a birth is not registered with JPN (for instance, if a foreigner chooses to register their child in their home country, or if a resident in a remote area does not register the birth of their child), it will not count in this dataset.",
+    "caveat_ms": "Data ini dihasilkan berdasarkan kelahiran yang didaftarkan dengan JPN. Oleh itu, sekiranya kelahiran itu tidak didaftarkan dengan JPN (contohnya sekiranya rakyat asing hanya mendaftar kelahiran anaknya di negara asal, ataupun penduduk di kawasan yang sangat terpencil belum mendaftarkan anaknya) maka ia tidak terkandung dalam set data ini.",
+    "publication_en": "There are two dashboards where you can explore this (and related) data more interactively:\n - data.gov.my features a dashboard on [Birthday Popularity](https://data.gov.my/dashboard/birthday-explorer)\n - OpenDOSM features a dashboard on [Population & Vital Statistics](https://open.dosm.gov.my/dashboard/population)",
+    "publication_ms": "Terdapat dua papan pemuka yang membolehkan anda menerokai set data ini (bersekali dengan data lain) dengan lebih interaktif:\n - data.gov.my memaparkan papan pemuka tentang [Populariti Tarikh Lahir](https://data.gov.my/ms-MY/dashboard/birthday-explorer)\n - OpenDOSM memaparkan papan pemuka tentang [Penduduk & Perangkaan Penting](https://open.dosm.gov.my/ms-MY/dashboard/population)",
+    "link_parquet": "https://storage.dosm.gov.my/demography/birth_sex_ethnic.parquet",
+    "link_csv": "https://storage.dosm.gov.my/demography/birth_sex_ethnic.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY"
+    ],
+    "dataset_begin": 2000,
+    "dataset_end": 2023,
+    "data_source": [
+        "JPN",
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "BPPD"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Demography",
+            "category_ms": "Demografi",
+            "category_sort": 1,
+            "subcategory_en": "Births",
+            "subcategory_ms": "Kelahiran",
+            "subcategory_sort": 2
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Demography",
+            "category_ms": "Demografi",
+            "category_sort": 1,
+            "subcategory_en": "Births",
+            "subcategory_ms": "Kelahiran",
+            "subcategory_sort": 2
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
+            "description_ms": "[Kategori] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
+        },
+        {
+            "name": "ethnicity",
+            "title_en": "Ethnicity",
+            "title_ms": "Kumpulan Etnik",
+            "description_en": "[Categorical] All ethnic groups ('overall'), Malay ('bumi_malay'), other Bumiputera ('bumi_other'), Chinese ('chinese'), Indian ('indian'), other citizens ('other_citizen'), or non-citizen residents ('other_noncitizen')",
+            "description_ms": "[Kategori] Semua kumpulan etnik ('overall'), Melayu ('bumi_malay'), Bumiputera lain ('bumi_other'), Cina ('chinese'), India ('indian'), lain-lain warganegara ('other_citizen'), atau penduduk bukan warganegara ('other_noncitizen')"
+        },
+        {
+            "name": "abs",
+            "title_en": "Live Births",
+            "title_ms": "Kelahiran Hidup",
+            "description_en": "[Integer] Number of live births in that year",
+            "description_ms": "[Integer] Jumlah kelahiran hidup dalam tahun tersebut"
+        },
+        {
+            "name": "rate",
+            "title_en": "Crude Birth Rate",
+            "title_ms": "Kadar Kelahiran Kasar",
+            "description_en": "[Float] Number of live births per 1000 population",
+            "description_ms": "[Integer] Jumlah kelahiran hidup bagi setiap 1000 penduduk"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "sex",
+                    "ethnicity"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "abs",
+            "title_en": "Live Births",
+            "title_ms": "Kelahiran Hidup",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "sex",
+                    "ethnicity"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "abs"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "rate",
+            "title_en": "Crude Birth Rate",
+            "title_ms": "Kadar Kelahiran Kasar",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "sex",
+                    "ethnicity"
+                ],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "rate"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "y1": "Value",
+        "date": "Year",
+        "state": "State",
+        "sex": "Sex",
+        "ethnicity": "Ethnicity",
+        "abs": "Live Births",
+        "rate": "Crude Birth Rate",
+        "both": "Both Sexes",
+        "male": "Male",
+        "female": "Female",
+        "overall": "All Ethnicities",
+        "bumi-malay": "Malay",
+        "bumi-other": "Other Bumiputera",
+        "chinese": "Chinese",
+        "indian": "Indian",
+        "other-citizen": "Other Citizen",
+        "other-noncitizen": "Non-Citizen"
+    },
+    "translations_ms": {
+        "y1": "Nilai",
+        "date": "Tahun",
+        "state": "Negeri",
+        "sex": "Jantina",
+        "ethnicity": "Kumpulan Etnik",
+        "abs": "Kelahiran Hidup",
+        "rate": "Kadar Kelahiran Kasar",
+        "both": "Kedua-dua Jantina",
+        "male": "Lelaki",
+        "female": "Perempuan",
+        "overall": "Semua Etnik",
+        "bumi-malay": "Melayu",
+        "bumi-other": "Bumiputera Lain",
+        "chinese": "Cina",
+        "indian": "India",
+        "other-citizen": "Lain-lain Warganegara",
+        "other-noncitizen": "Bukan Warganegara"
+    },
+    "related_datasets": []
+}

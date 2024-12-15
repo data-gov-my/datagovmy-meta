@@ -1,0 +1,149 @@
+{
+    "title_en": "Production of Major Timber Products by State",
+    "title_ms": "Pengeluaran Produk Utama Kayu mengikut Negeri",
+    "title_sort": 110,
+    "description_en": "Production of major timber products by state from 2000 to 2021, broken down by product type.",
+    "description_ms": "Pengeluaran produk utama kayu mengikut negeri dari 2000 hingga 2021, dengan pecahan mengikut jenis produk.",
+    "exclude_openapi": false,
+    "manual_trigger": "1",
+    "data_as_of": "2021",
+    "last_updated": "2024-09-01 12:00",
+    "next_update": "tbc",
+    "methodology_en": "Data on timber production in Malaysia is collected via establishment-level surveys and censuses conducted by the Forestry Department. Accordingly, this data reflects the production of establishments registered with Forestry Department of Peninsular Malaysia, Forestry Department of Sabah, Forestry Department of Sarawak, and Sarawak Timber Industry Development Corporation only. From a definitional perspective, it should be noted that:\n- The data on timber logs excludes the production of hevea logs, poles, coconut trunks and oil palm trunks.\n- Data for W.P. Kuala Lumpur is subsumed under Selangor. Logging activity is not conducted in W.P. Putrajaya.\n- Blockboard data was discontinued in 2013.",
+    "methodology_ms": "Data pengeluaran kayu di Malaysia dikumpulkan melalui survei dan banci perusahaan pembalakan yang dilaksanakan oleh Jabatan Perhutanan. Oleh itu, data ini merujuk kepada data syarikat yang berdaftar dengan Jabatan Perhutanan Semenanjung Malaysia, Jabatan Perhutanan Sabah, Jabatan Hutan Sarawak dan Perbadanan Kemajuan Perusahaan Kayu Sarawak sahaja. Dari segi definisi, harus diambil perhatian bahawa:\n- Data kayu balak tidak termasuk pengeluaran kayu getah, kayu jaras, batang kelapa dan batang kelapa sawit.\n- Data untuk W.P. Kuala Lumpur disekalikan bersama data untuk Selangor. Aktiviti pembalakan tidak dilaksanakan di W.P. Putrajaya.\n- Data papan blok telah dihentikan pada tahun 2013.",
+    "caveat_en": "National totals may be slightly different to the sum of state values due to rounding.",
+    "caveat_ms": "Angka-angka di peringkat nasional mungkin sedikit berbeza dengan angka peringkat negeri apabila dijumlahkan disebabkan oleh penggenapan.",
+    "publication_en": "—",
+    "publication_ms": "—",
+    "link_parquet": "https://storage.data.gov.my/agriculture/timber_products.parquet",
+    "link_csv": "https://storage.data.gov.my/agriculture/timber_products.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2000,
+    "dataset_end": 2021,
+    "data_source": [
+        "Perhutanan",
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "BPTAS"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "Agriculture",
+            "subcategory_ms": "Pertanian",
+            "subcategory_sort": 14
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "Agriculture",
+            "subcategory_ms": "Pertanian",
+            "subcategory_sort": 14
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states, or Malaysia (included for ease of analysis). Note that there is no data for W.P. Putrajaya, due to the lack of commercial logging in the state.",
+            "description_ms": "[Kategori] Satu dari 16 negeri, atau Malaysia (dibekalkan untuk memudahkan analisis). Tidak ada data untuk W.P. Putrajaya, kerana tidak ada pembalakan komersil di negeri tersebut."
+        },
+        {
+            "name": "product",
+            "title_en": "Product Type",
+            "title_ms": "Jenis Produk",
+            "description_en": "[Categorical] The type of timber product in snake case; the 6 major products covered are logs, sawn timber, plywood, veneer, blockboard (discontinued since 2013), and moulding.",
+            "description_ms": "[Kategori] Jenis produk kayu dalam 'snake case'; 6 produk utama yang diliputi adalah kayu balak, kayu gergaji, papan lapis, venir, papan blok (tidak diterbitkan lagi sejak 2013), dan kayu kumal."
+        },
+        {
+            "name": "production",
+            "title_en": "Production",
+            "title_ms": "Pengeluaran",
+            "description_en": "[Float] The total production of the timber product in cubic meters (m³)",
+            "description_ms": "[Apung] Jumlah pengeluaran produk kayu dalam meter padu (m³)"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "state",
+                    "product"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "timeseries",
+            "title_en": "Timber Production (m³)",
+            "title_ms": "Pengeluaran Kayu (m³)",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state",
+                    "product"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "production"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Production (m³)",
+        "date": "Date",
+        "state": "State",
+        "product": "Product Type",
+        "production": "Production",
+        "logs": "Logs",
+        "sawn-timber": "Sawn Timber",
+        "plywood": "Plywood",
+        "veneer": "Veneer",
+        "blockboard": "Blockboard",
+        "moulding": "Moulding"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Pengeluaran (m³)",
+        "date": "Tarikh",
+        "state": "Negeri",
+        "product": "Jenis Produk",
+        "production": "Pengeluaran",
+        "logs": "Kayu Balak",
+        "sawn-timber": "Kayu Gergaji",
+        "plywood": "Papan Lapis",
+        "veneer": "Venir",
+        "blockboard": "Papan Blok",
+        "moulding": "Kayu Kumal"
+    },
+    "related_datasets": []
+}
