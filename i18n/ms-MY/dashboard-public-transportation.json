@@ -3,9 +3,9 @@
   "sites": ["datagovmy"],
   "translation": {
     "header": "Pengangkutan Awam",
-    "description": "Datuk Bandar (Mayor) Bogota, Colombia pernah berkata \"Negara maju bukannya tempat di mana golongan miskin memiliki kereta, tetapi di mana golongan berada pun menggunakan pengangkutan awam.\" Sememangnya, akses kepada perkhidmatan pengangkutan awam yang menyeluruh adalah indikator penting kemajuan negara Malaysia. Dengan menggunakan data berfrekuensi tinggi daripada pengendali perkhidmatan pengangkutan awam Malaysia (seperti Prasarana, KTMB, dan MyBAS), papan pemuka ini memaparkan tren terkini penggunaan pengangkutan awam.",
-    "title": "Bagaimana tren jumlah penumpang perkhidmatan pengangkutan awam?",
-    "timeseries_desc": "Data ini bertujuan untuk menangkap tren secara meluas dalam jumlah penumpang pengangkutan awam. Anda boleh meneroka lebih banyak data berbutir pada papan pemuka khusus perkhidmatan.",
+    "description": "Datuk Bandar (Mayor) Bogota, Colombia pernah berkata \"Negara maju bukannya tempat di mana golongan miskin memiliki kereta tetapi di mana golongan berada pun menggunakan pengangkutan awam.\" Sememangnya, akses kepada perkhidmatan pengangkutan awam yang menyeluruh adalah indikator penting kemajuan negara Malaysia. Dengan menggunakan data berfrekuensi tinggi daripada pengendali perkhidmatan pengangkutan awam Malaysia (seperti Prasarana, KTMB, dan MyBAS), papan pemuka ini memaparkan trend terkini penggunaan pengangkutan awam.",
+    "title": "Bagaimanakah trend jumlah penumpang perkhidmatan pengangkutan awam?",
+    "timeseries_desc": "Data ini bertujuan untuk melihat trend secara menyeluruh dalam aspek jumlah penumpang pengangkutan awam. Anda boleh meneroka lebih banyak data terperinci pada papan pemuka khusus setiap perkhidmatan.",
     "trend_weekly": "Tren (mingguan)",
     "trend_monthly": "Tren (bulanan)",
     "ridership_overall": "Semua Perkhidmatan",
