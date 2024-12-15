@@ -1,0 +1,49 @@
+{
+    "publication": "sports_sa_2022",
+    "publication_type": "gdp",
+    "release_date": "2024-05-31",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2022] Sports Satellite Account",
+        "publication_type_title": "Gross Domestic Product",
+        "description": "Annual performance of sports-related sectors, covering key indicators measuring their economic performance.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Sports Satellite Account: 2022",
+                "resource_link": "https://storage.dosm.gov.my/gdp/sports_sa_2022.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Sports Satellite Account: 2022",
+                "resource_link": "https://storage.dosm.gov.my/gdp/sports_sa_2022.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2022] Akaun Satelit Sukan",
+        "publication_type_title": "Keluaran Dalam Negeri Kasar",
+        "description": "Prestasi tahunan sektor berkaitan sukan, merangkumi indikator penting bagi mengukur prestasi ekonominya.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Akaun Satelit Sukan: 2022",
+                "resource_link": "https://storage.dosm.gov.my/gdp/sports_sa_2022.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Akaun Satelit Sukann: 2022",
+                "resource_link": "https://storage.dosm.gov.my/gdp/sports_sa_2022.pdf"
+            }
+        ]
+    }
+}

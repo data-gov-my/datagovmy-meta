@@ -5,7 +5,7 @@
 	"description_en": "Annual principal labour force statistics, including unemployment and participation rates.",
 	"description_ms": "Statistik tahunan utama berkaitan tenaga buruh, termasuk kadar pengangguran dan penyertaan.",
 	"exclude_openapi": false,
-	"manual_trigger": "na",
+	"manual_trigger": "",
 	"data_as_of": "2023",
 	"last_updated": "2024-02-09 12:00",
 	"next_update": "2025-02-09 12:00",
@@ -21,13 +21,15 @@
 	"geography": ["NATIONAL"],
 	"demography": [],
 	"dataset_begin": 1982,
-	"dataset_end": 2022,
+	"dataset_end": 2023,
 	"data_source": ["DOSM"],
+	"data_source_granular": ["MBLS"],
 	"site_category": [
 		{
 			"site": "datagovmy",
 			"category_en": "Labour Markets",
 			"category_ms": "Pasaran Buruh",
+            "category_sort": 50,
 			"subcategory_en": "Labour Force Survey",
 			"subcategory_ms": "Survei Tenaga Buruh"
 		},
@@ -35,6 +37,7 @@
 			"site": "opendosm",
 			"category_en": "Labour Markets",
 			"category_ms": "Pasaran Buruh",
+            "category_sort": 50,
 			"subcategory_en": "Labour Force Survey",
 			"subcategory_ms": "Survei Tenaga Buruh"
 		}

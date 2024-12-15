@@ -1,0 +1,24 @@
+{
+  "route": "/dashboard/house-prices",
+  "sites": ["datagovmy"],
+  "translation": {
+    "header": "House Prices",
+    "description": "For many Malaysians, purchasing a house is a milestone - it means putting down roots, starting a family, and having a place to call your own. Given the importance of housing, the government established the National Property Information Centre (NAPIC) to monitor housing affordability and the property market in general. This dashboard uses NAPIC's authoritative data to give you an easy way to understand house price trends.",
+    "section_1": {
+      "title": "How are house prices trending?"
+    },
+    "choro_header": "How do house prices differ across states?",
+    "choro_desc": "This distribution is based on the location of the house, not the address of the buyer or seller.",
+    "keys": {
+      "all": "All House Types",
+      "high_rise": "High-Rise Units",
+      "terrace": "Terraced Houses",
+      "detached": "Detached Houses",
+      "semi_detached": "Semi-Detached Houses",
+      "avg_price": "Average Price",
+      "growth_yoy": "YoY Growth",
+      "growth_qoq": "QoQ Growth",
+      "index": "Index"
+    }
+  }
+}

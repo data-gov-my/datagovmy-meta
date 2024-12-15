@@ -1,0 +1,175 @@
+{
+    "title_en": "Enrolment in Government Schools by District",
+    "title_ms": "Enrolmen di Sekolah Kerajaan mengikut Daerah",
+    "title_sort": 10,
+    "description_en": "Number of students enrolled in primary, secondary, and post-secondary government schools at national, state, and district level.",
+    "description_ms": "Bilangan pelajar yang berdaftar bagi pendidikan rendah, menengah, dan pasca menengah di sekolah kerajaan di peringkat nasional, negeri, dan daerah.",
+    "exclude_openapi": false,
+    "manual_trigger": "1",
+    "data_as_of": "2022",
+    "last_updated": "2024-09-01 12:00",
+    "next_update": "tbc",
+    "methodology_en": "This dataset is tabulated from individual-level administrative records maintained by the Ministry of Education Malaysia via the Education Management Information System (EMIS).",
+    "methodology_ms": "Dataset ini disusun daripada rekod pentadbiran peringkat individu yang dikawalselia oleh Kementerian Pendidikan Malaysia melalui Sistem Pengurusan Maklumat Pendidikan (EMIS).",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/education/enrolment_school_district.parquet",
+    "link_csv": "https://storage.data.gov.my/education/enrolment_school_district.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE",
+        "DISTRICT"
+    ],
+    "demography": [
+        "SEX"
+    ],
+    "dataset_begin": 2017,
+    "dataset_end": 2022,
+    "data_source": [
+        "MOE"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Education",
+            "category_ms": "Pendidikan",
+            "category_sort": 39,
+            "subcategory_en": "Education Outcomes",
+            "subcategory_ms": "Prestasi Pendidikan",
+            "subcategory_sort": 10
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Education",
+            "category_ms": "Pendidikan",
+            "category_sort": 39,
+            "subcategory_en": "Education Outcomes",
+            "subcategory_ms": "Prestasi Pendidikan",
+            "subcategory_sort": 10
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] Date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data pada frekuensi tahunan"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states, or Malaysia for national-level data",
+            "description_ms": "[Kategori] Salah satu daripada 16 negeri, atau Malaysia untuk data peringkat nasional"
+        },
+        {
+            "name": "district",
+            "title_en": "District",
+            "title_ms": "Daerah",
+            "description_en": "[Categorical] One of the administrative districts, or 'All Districts' for state-level data",
+            "description_ms": "[Kategori] Salah satu daerah pentadbiran, atau 'Semua Daerah' untuk data peringkat negeri"
+        },
+        {
+            "name": "stage",
+            "title_en": "School Stage",
+            "title_ms": "Tahap Pendidikan",
+            "description_en": "[Categorical] Either primary (Standards 1 to 6), secondary (Form 1 to 5), or post-secondary education (Form 6)",
+            "description_ms": "[Kategori] Sama ada pendidikan rendah (Darjah 1 hingga 6), menengah (Tingkatan 1 hingga 5), atau pasca menengah (Tingkatan 6)"
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Categorical] Either both sexes, male, or female",
+            "description_ms": "[Kategori] Sama ada kedua-dua jantina, lelaki, atau perempuan"
+        },
+        {
+            "name": "students",
+            "title_en": "Number of Students",
+            "title_ms": "Bilangan Pelajar",
+            "description_en": "[Integer] Number of students enrolled",
+            "description_ms": "[Integer] Bilangan pelajar yang berdaftar"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "state",
+                    "district",
+                    "stage",
+                    "sex"
+                ],
+                "freeze_columns": [
+                    "date"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "timeseries",
+            "title_en": "Student Enrolment",
+            "title_ms": "Enrolmen Pelajar",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state",
+                    "district",
+                    "stage",
+                    "sex"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "students"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Students",
+        "date": "Date",
+        "state": "State",
+        "district": "District",
+        "stage": "Education Stage",
+        "sex": "Sex",
+        "students": "Number of Students",
+        "all-districts": "All Districts",
+        "primary": "Primary",
+        "secondary": "Secondary",
+        "post-secondary": "Post-Secondary",
+        "both": "Both Sexes",
+        "male": "Male",
+        "female": "Female"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Pelajar",
+        "date": "Tarikh",
+        "state": "Negeri",
+        "district": "Daerah",
+        "stage": "Peringkat Pendidikan",
+        "sex": "Jantina",
+        "students": "Bilangan Pelajar",
+        "all-districts": "Semua Daerah",
+        "primary": "Rendah",
+        "secondary": "Menengah",
+        "post-secondary": "Pasca Menengah",
+        "both": "Kedua-dua Jantina",
+        "male": "Lelaki",
+        "female": "Perempuan"
+    },
+    "related_datasets": []
+}

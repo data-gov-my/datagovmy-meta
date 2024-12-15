@@ -1,0 +1,9 @@
+{
+    "manual_trigger": "",
+    "data_as_of": "2022",
+    "last_updated": "2023-07-28 12:00",
+    "next_update": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/investor_portal/hies.parquet",
+    "frequency": "YEARLY",
+    "data_source": []
+}

@@ -1,0 +1,110 @@
+{
+    "title_en": "SDG 10-C-1: Remittance Costs as a % of the Amount Remitted",
+    "title_ms": "SDG 10-C-1: Kos Kiriman Wang sebagai % Jumlah Dikirim",
+    "title_sort": 50,
+    "description_en": "Annual data on remittance costs as a proportion of the amount remitted, as per the specifications of SDG Indicator 10-C-1.",
+    "description_ms": "Data tahunan mengenai kos kiriman wang sebagai peratusan jumlah yang dikirim, selaras dengan Indikator SDG 10-C-1.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2022",
+    "last_updated": "2024-09-01 12:00",
+    "next_update": "-",
+    "methodology_en": "This dataset is tabulated from administrative records of cross-border transactions collected by the Central Bank of Malaysia, and subsequently reported to DOSM in aggregated form. It is collected as part of Malaysia's monitoring of the Sustainable Development Goals (SDGs), in line with the most recent [SDG Global Indicator Framework](https://storage.dosm.gov.my/technotes/sdg.pdf).",
+    "methodology_ms": "Set data ini dihasilkan berdasarkan rekod pentadbiran mengenai transaksi merentas sempadan yang dikumpulkan oleh Bank Negara Malaysia, dan kemudiannya dilaporkan kepada DOSM dalam bentuk agregat. Ia dikumpulkan sebagai sebahagian daripada pemantauan Malaysia terhadap Matlamat Pembangunan Lestari (SDG), selaras dengan [Kerangka Indikator Global SDG](https://storage.dosm.gov.my/technotes/sdg.pdf) yang terkini.",
+    "caveat_en": "The data is subject to revision in future updates.",
+    "caveat_ms": "Data ini mungkin akan disemak semula dalam kemaskini akan datang.",
+    "publication_en": "—",
+    "publication_ms": "—",
+    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_10-c-1.parquet",
+    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_10-c-1.csv",
+    "frequency": "ANNUAL",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2016,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM", 
+        "BNM"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Indikator SDG",
+            "subcategory_sort": 10
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Indikator SDG",
+            "subcategory_sort": 10
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency.",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai MM-DD ditetapkan kepada 01-01 kerana data pada frekuensi tahunan."
+        },
+        {
+            "name": "value",
+            "title_en": "Remittance Costs (%)",
+            "title_ms": "Kos Kiriman Wang (%)",
+            "description_en": "[Float] The cost of remittance as a percentage of the amount remitted.",
+            "description_ms": "[Apung] Kos kiriman wang sebagai peratusan daripada jumlah yang dikirim."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 2,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "remittance_costs",
+            "title_en": "Remittance Costs",
+            "title_ms": "Kos Kiriman Wang",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [],
+                "precision": 2,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y1": [
+                        "value"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Remittance Costs (%)",
+        "date": "Date",
+        "value": "Remittance Costs (%)"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Kos Kiriman Wang (%)",
+        "date": "Tarikh",
+        "value": "Kos Kiriman Wang (%)"
+    },
+    "related_datasets": []
+}

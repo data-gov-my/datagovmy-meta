@@ -1,0 +1,184 @@
+{
+    "title_en": "Crop Area and Production by State",
+    "title_ms": "Keluasan dan Pengeluaran Tanaman mengikut Negeri",
+    "title_sort": 10,
+    "description_en": "Production and planted area of crops by state from 2017 to 2022, broken down by crop type.",
+    "description_ms": "Pengeluaran dan keluasan kawasan tanaman mengikut negeri dari 2017 hingga 2022, dengan pecahan mengikut jenis tanaman.",
+    "exclude_openapi": false,
+    "manual_trigger": "1",
+    "data_as_of": "2022",
+    "last_updated": "2023-12-31 12:00",
+    "next_update": "2024-12-31 12:00",
+    "methodology_en": "Data on crops in Malaysia is collected via establishment-level surveys and censuses conducted by the Department of Statistics Malaysia (DOSM) in collaboration with the Department of Agriculture (DOA). This data is then used both for the production of agricultural statistics, as well as in the compilation of Malaysia's Gross Domestic Product (GDP) data.\n\nFor this dataset specifically, the following classifications are helpful to understand (note: paddy, coconut, and flowers are considered self-explanatory):\n- **Cash crops** are crops that can provide quick return (within 1 year) to farmers. They include sweet corn, groundnuts, cassava, yam, sweet potato and sugarcane (juice).\n- **Industrial crops** are crops grown to manufacture raw industrial materials. They are divided into several groups such as fats (coconut), and groups that produce fresheners (coffee and tea). Industrial crops are grown in large quantities with a relatively long period of planting, ranging from one year to many years.\n- **Herbs** refer to shrubs that usually have soft stems and contain plenty of water. This generally means all plants which have value to medicine, food (health and supplements), perfumes, fragrance and cosmetics. \n- **Spices** are aromatic crops used as coloring and flavoring for culinary purposes such as nutmeg and ginger.\n- **Fruits and Vegetables** refer specifically to the tropical species grown in Malaysia, which has an equatorial climate. Examples of tropical fruits are banana, mango, papaya, pineapple, durian, rambutan and jackfruit, while examples of tropical vegetables are spinach, okra, eggplant, water spinach, long beans, loofah and bitter gourd.",
+    "methodology_ms": "Data dikumpulkan melalui survei dan banci di peringkat perusahaan yang dilaksanakan oleh Jabatan Perangkaan Malaysia (DOSM) dengan kerjasama Jabatan Pertanian (DOA). Data ini kemudian digunakan untuk menghasilkan bukan sahaja statistik rasmi pertanian, tetapi juga statistik Keluaran Dalam Negeri Kasar (KDNK) Malaysia.\n\nBagi set data ini secara khusus, pengkelasan yang digunakan adalah seperti berikut (nota: padi, kokonut, dan bunga-bunga dianggap tidak perlu didefinisikan selanjutnya):\n- **Tanaman kontan** adalah tanaman yang boleh memberikan pulangan cepat (dalam tempoh 1 tahun) kepada petani. Ia termasuk jagung manis, kacang tanah, ubi kayu, keladi, ubi keledek dan tebu (jus).\n- **Tanaman industri** adalah tanaman yang ditanam untuk menghasilkan bahan mentah industri. Ia dibahagikan kepada beberapa kumpulan seperti lemak (kelapa), dan kumpulan yang menghasilkan penyegar (kopi dan teh). Tanaman industri ditanam dalam kuantiti yang besar dengan tempoh penanaman yang agak lama, bermula dari satu tahun hingga bertahun-tahun.\n- **Herba** merujuk kepada tumbuhan renek yang biasanya mempunyai batang lembut dan mengandungi banyak air. Secara umumnya, ini bermaksud semua tumbuhan yang mempunyai nilai untuk perubatan, makanan (kesihatan dan suplemen), minyak wangi, wangian dan kosmetik.\n- **Rempah** adalah tanaman aromatik yang digunakan sebagai pewarna dan perisa untuk tujuan masakan seperti buah pala dan halia.\n- **Buah-buahan** dan Sayur-sayuran merujuk khusus kepada spesies tropika yang ditanam di Malaysia, yang mempunyai iklim khatulistiwa. Contoh buah-buahan tropika adalah pisang, mangga, betik, nanas, durian, rambutan dan nangka, manakala contoh sayur-sayuran tropika adalah bayam, bendi, terung, kangkung, kacang panjang, petola dan peria.",
+    "caveat_en": "Values for breakdowns may be slightly different to totals when summed, due to rounding.",
+    "caveat_ms": "Angka-angka terperinci mungkin sedikit berbeza dengan angka keseluruhan apabila dijumlahkan, disebabkan oleh penggenapan.",
+    "publication_en": "This data was also published as part of the Ministry of Agriculture and Food Security's [annual Agrofood Statistics report](https://storage.data.gov.my/agriculture/pub/agrofood_2022.pdf).",
+    "publication_ms": "Data ini juga diterbitkan sebagai bagian dari [laporan Perangkaan Agromakanan tahunan](https://storage.data.gov.my/agriculture/pub/agrofood_2022.pdf) oleh Kementerian Pertanian dan Keterjaminan Makanan.",
+    "link_parquet": "https://storage.data.gov.my/agriculture/crops_state.parquet",
+    "link_csv": "https://storage.data.gov.my/agriculture/crops_state.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2017,
+    "dataset_end": 2022,
+    "data_source": [
+        "MAFS",
+        "DOA",
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "BPTAS"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "Agriculture",
+            "subcategory_ms": "Pertanian",
+            "subcategory_sort": 14
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "Agriculture",
+            "subcategory_ms": "Pertanian",
+            "subcategory_sort": 14
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states, or Malaysia. Note that there is no data for W.P. Putrajaya, due to the lack of commercial agriculture in the state.",
+            "description_ms": "[Kategori] Satu dari 16 negeri, atau Malaysia. Tidak ada data untuk W.P. Putrajaya, kerana tidak ada pertanian komersil di negeri tersebut."
+        },
+        {
+            "name": "crop_type",
+            "title_en": "Crop Type",
+            "title_ms": "Jenis Tanaman",
+            "description_en": "[Categorical] The type of crop in snake case, covering cash crops, industrial crops, coconut, paddy, flowers, herbs, spices, fruits and vegetables",
+            "description_ms": "[Kategori] Jenis tanaman dalam _snake case_, merangkumi tanaman kontan, tanaman industri, kelapa, padi, bunga, herba, rempah, buah-buahan dan sayur-sayuran"
+        },
+        {
+            "name": "planted_area",
+            "title_en": "Planted Area",
+            "title_ms": "Kawasan Tanaman",
+            "description_en": "[Float] The total planted area of the crop in hectares",
+            "description_ms": "[Apung] Jumlah kawasan tanaman tersebut dalam hektar"
+        },
+        {
+            "name": "production",
+            "title_en": "Production",
+            "title_ms": "Pengeluaran",
+            "description_en": "[Float] The total production of the crop in metric tonnes",
+            "description_ms": "[Apung] Jumlah pengeluaran tanaman tersebut dalam tan metrik"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "filter_columns": [
+                    "state",
+                    "crop_type"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "planted_area",
+            "title_en": "Planted Area (Ha)",
+            "title_ms": "Kawasan Tanaman (Ha)",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state",
+                    "crop_type"
+                ],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "planted_area"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "production",
+            "title_en": "Crop Production (Mt)",
+            "title_ms": "Pengeluaran Tanaman (Mt)",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state",
+                    "crop_type"
+                ],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "production"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Value",
+        "date": "Date",
+        "state": "State",
+        "crop_type": "Crop Type",
+        "planted_area": "Planted Area",
+        "production": "Production",
+        "cash-crops": "Cash Crops",
+        "coconut": "Coconut",
+        "flower": "Flower",
+        "fruits": "Fruits",
+        "herbs": "Herbs",
+        "industrial-crops": "Industrial Crops",
+        "paddy": "Paddy",
+        "spices": "Spices",
+        "vegetables": "Vegetables"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Nilai",
+        "date": "Tarikh",
+        "state": "Negeri",
+        "crop_type": "Jenis Tanaman",
+        "planted_area": "Kawasan Tanaman",
+        "production": "Pengeluaran",
+        "cash-crops": "Tanaman Kontan",
+        "coconut": "Kelapa",
+        "flower": "Bunga",
+        "fruits": "Buah-buahan",
+        "herbs": "Herba",
+        "industrial-crops": "Tanaman Industri",
+        "paddy": "Padi",
+        "spices": "Rempah",
+        "vegetables": "Sayur-sayuran"
+    },
+    "related_datasets": []
+}

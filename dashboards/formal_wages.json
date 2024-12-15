@@ -1,17 +1,18 @@
 {
 	"dashboard_name": "formal_wages",
-	"data_last_updated": "2023-08-28 23:59",
+    "data_last_updated": "2024-10-25 12:00",
+    "data_next_update": "2025-01-24 12:00",
 	"route": "/dashboard/formal-sector-wages,/ms-MY/dashboard/formal-sector-wages",
 	"sites": ["opendosm"],
-	"manual_trigger": "0",
+	"manual_trigger": "1",
 	"required_params": [],
 	"optional_params": [],
 	"charts": {
 		"bar_bracket": {
 			"name": "bar_bracket",
 			"chart_type": "bar_chart",
-			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/labour_formalwages_snapshot_bracket.parquet",
-			"data_as_of": "2023-08-28 23:59",
+			"chart_source": "http://storage.dosm.gov.my/dashboards/labour_formalwages_snapshot_bracket.parquet",
+			"data_as_of": "2024-06",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -27,8 +28,8 @@
 		"bar_percentile": {
 			"name": "bar_percentile",
 			"chart_type": "bar_chart",
-			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/labour_formalwages_snapshot_percentile.parquet",
-			"data_as_of": "2023-08-28 23:59",
+			"chart_source": "http://storage.dosm.gov.my/dashboards/labour_formalwages_snapshot_percentile.parquet",
+			"data_as_of": "2024-06",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -44,8 +45,8 @@
 		"timeseries": {
 			"name": "timeseries",
 			"chart_type": "timeseries_chart",
-			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/labour_formalwages_timeseries_state.parquet",
-			"data_as_of": "2023-08-28 23:59",
+			"chart_source": "http://storage.dosm.gov.my/dashboards/labour_formalwages_timeseries_state.parquet",
+			"data_as_of": "2024-06",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -59,8 +60,8 @@
 		"timeseries_callout": {
 			"name": "timeseries_callout",
 			"chart_type": "custom_chart",
-			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/labour_formalwages_timeseries_state_callout.parquet",
-			"data_as_of": "2023-08-28 23:59",
+			"chart_source": "http://storage.dosm.gov.my/dashboards/labour_formalwages_timeseries_state_callout.parquet",
+			"data_as_of": "2024-06",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {

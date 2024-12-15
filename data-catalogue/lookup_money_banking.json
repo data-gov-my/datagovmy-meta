@@ -1,0 +1,98 @@
+{
+  "title_en": "Lookup Table: Money & Banking",
+  "title_ms": "Jadual Carian: Wang & Perbankan",
+  "description_en": "Lookup table, to be left-joined against variable name in the other Money and Banking datasets if specified.",
+  "description_ms": "Jadual carian, untuk dipadankan (left-join) dengan nama pembolehubah dalam set data Wang dan Perbankan sekiranya diperlukan.",
+  "exclude_openapi": false,
+  "manual_trigger": "",
+  "data_as_of": "2024-01",
+  "last_updated": "2024-02-13 00:01",
+  "next_update": "\u2014",
+  "methodology_en": "This lookup table is not part of any standardised data dictionary; it was custom-made to serve the datasets on money and banking made available via data.gov.my only.",
+  "methodology_ms": "Jadual carian ini bukan sebahagian daripada mana-mana _dictionary_ data; ia dihasilkan khas untuk memenuhi keperluan set data tentang wang dan perbankan yang dibekalkan melalui data.gov.my sahaja.",
+  "caveat_en": "\u2014",
+  "caveat_ms": "\u2014",
+  "publication_en": "\u2014",
+  "publication_ms": "\u2014",
+  "link_parquet": "https://storage.data.gov.my/finsector/money_banking_lookup.parquet",
+  "link_csv": "https://storage.data.gov.my/finsector/money_banking_lookup.csv",
+  "frequency": "INFREQUENT",
+  "geography": [
+    "NATIONAL"
+  ],
+  "demography": [],
+  "dataset_begin": 2024,
+  "dataset_end": 2024,
+  "data_source": [
+    "BNM"
+  ],
+  "site_category": [
+    {
+        "site": "datagovmy",
+        "category_en": "Data Dictionaries",
+        "category_ms": "Dictionary Data",
+        "category_sort": 110,
+        "subcategory_en": "Others",
+        "subcategory_ms": "Lain-lain",
+        "subcategory_sort": 10000
+    }
+  ],
+  "fields": [
+    {
+      "name": "file",
+      "title_en": "Dataset",
+      "title_ms": "Set Data",
+      "description_en": "[Categorical] Referenced dataset",
+      "description_ms": "[Integer] Set data yang dirujuk"
+    },
+    {
+      "name": "variable",
+      "title_en": "Variable",
+      "title_ms": "Pembolehubah",
+      "description_en": "[String] Name of the variable as contained within the dataset",
+      "description_ms": "[Rentetan] Nama pembolehubah seperti yang terkandung dalam set data"
+    },
+    {
+      "name": "variable_en",
+      "title_en": "Variable Definition (EN)",
+      "title_ms": "Definisi Pembolehubah (BI)",
+      "description_en": "[String] Definition of the variable in English",
+      "description_ms": "[Rentetan] Definisi pembolehubah dalam Bahasa Inggeris"
+    },
+    {
+      "name": "variable_bm",
+      "title_en": "Variable Definition (MS)",
+      "title_ms": "Definisi Pembolehubah (BM)",
+      "description_en": "[String] Definition of the variable in Malay",
+      "description_ms": "[Rentetan] Definisi pembolehubah dalam Bahasa Melayu"
+    }
+  ],
+  "dataviz": [
+    {
+      "dataviz_id": "table",
+      "title_en": "Table",
+      "title_ms": "Jadual",
+      "chart_type": "TABLE",
+      "config": {
+        "precision": 0,
+        "filter_columns": [],
+        "freeze_columns": []
+      }
+    }
+  ],
+  "translations_en": {
+    "file": "Dataset",
+    "category": "Category",
+    "variable": "Variable",
+    "variable_en": "Variable Definition (EN)",
+    "variable_bm": "Variable Definition (MS)"
+  },
+  "translations_ms": {
+    "file": "Set Data",
+    "category": "Kategori",
+    "variable": "Pembolehubah",
+    "variable_en": "Definisi Pembolehubah (BI)",
+    "variable_bm": "Definisi Pembolehubah (BM)"
+  },
+  "related_datasets": []
+}

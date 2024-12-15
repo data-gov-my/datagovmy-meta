@@ -1,9 +1,9 @@
 {
 	"dashboard_name": "business_creation",
 	"data_last_updated": "2023-08-21 23:59",
-	"route": "/dashboard/business-creation,/ms-MY/dashboard/business-creation",
+	"route": "/dashboard/business-creation-destruction,/ms-MY/dashboard/business-creation-destruction",
 	"sites": ["datagovmy"],
-	"manual_trigger": "0",
+	"manual_trigger": "",
 	"required_params": ["state"],
 	"optional_params": [],
 	"charts": {

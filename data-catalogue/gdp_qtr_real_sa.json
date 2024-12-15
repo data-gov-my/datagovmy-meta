@@ -1,0 +1,136 @@
+{
+    "title_en": "Quarterly Real GDP (Seasonally Adjusted)",
+    "title_ms": "KDNK Sebenar Suku Tahunan (Terlaras secara Musim)",
+    "title_sort": 23,
+    "description_en": "Seasonally adjusted quarterly gross domestic product (GDP) at constant 2015 prices.",
+    "description_ms": "Keluaran dalam negeri kasar (KDNK) suku tahunan yang terlaras secara musim, pada harga malar 2015.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2024-Q3",
+    "last_updated": "2024-11-15 12:00",
+    "next_update": "2025-02-14 12:00",
+    "methodology_en": "Gross domestic product (GDP) is the total value of goods and services produced within that year, after deducting the cost of goods and services used in production, but before deducting the consumption of fixed capital. In Malaysia, GDP is estimated in compliance with the [System of National Accounts (2008)](https://storage.dosm.gov.my/technotes/sna_2008.pdf).\n\nThe values in this dataset are measured at constant 2015 prices, i.e. with price effects removed relative to a base year (2015 = 100). Seasonal adjustment was conducted using X-12-ARIMA, augmented with the Seasonal Adjustment for Malaysia (SEAM) procedure to account for moving holiday effects specific to Malaysia's unique multicultural national calendar. For a full description of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/gdp-technotes).",
+    "methodology_ms": "Keluaran dalam negeri kasar (KDNK) adalah jumlah nilai barangan dan perkhidmatan yang dihasilkan dalam tahun tersebut, selepas ditolak kos barangan dan perkhidmatan yang digunakan dalam proses pengeluaran, tetapi sebelum ditolak penggunaan modal tetap. Di Malaysia, anggaran KDNK dihasilkan selaras dengan [Sistem Akaun Nasional (2008)](https://storage.dosm.gov.my/technotes/sna_2008.pdf).\n\nAngka-angka dalam set data ini diukur pada harga malar 2015, iaitu dengan mengeluarkan kesan harga berbanding tahun asas (2015 = 100). Pelarasan musim dilaksanakan dengan menggunakan X-12-ARIMA, bersekali dengan prosedur _Seasonal Adjustment for Malaysia (SEAM)_ untuk menyingkirkan kesan cuti bergerak yang wujud akibat kalendar nasional Malaysia yang unik. Untuk mendapat perincian metodologi yang penuh, sila merujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/gdp-technotes).",
+    "caveat_en": "Values for 2022, 2023 and 2024 may be revised in future releases.",
+    "caveat_ms": "Angka bagi 2022, 2023 dan 2024 mungkin disemak semula dalam penerbitan akan datang.",
+    "publication_en": "[Gross Domestic Product, 3Q 2024](https://open.dosm.gov.my/publications/gdp_2024-q3), the latest edition of the quarterly GDP statistics published by DOSM. OpenDOSM also features a [dashboard on GDP](https://open.dosm.gov.my/dashboard/gdp) which enables you to explore Malaysia's GDP data interactively.",
+    "publication_ms": "[Keluaran Dalam Negeri Kasar, ST3 2024](https://open.dosm.gov.my/ms-MY/publications/gdp_2024-q3), edisi terkini bagi statistik KDNK suku tahunan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga membekalkan [_dashboard_ KDNK](https://open.dosm.gov.my/ms-MY/dashboard/gdp) yang membolehkan anda menerokai data KDNK Malaysia secara interaktif.",
+    "link_parquet": "https://storage.dosm.gov.my/gdp/gdp_qtr_real_sa.parquet",
+    "link_csv": "https://storage.dosm.gov.my/gdp/gdp_qtr_real_sa.csv",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2015,
+    "dataset_end": 2024,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "BPAN"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "National Accounts",
+            "category_ms": "Akaun Negara",
+            "category_sort": 20,
+            "subcategory_en": "Gross Domestic Product",
+            "subcategory_ms": "Keluaran Dalam Negeri Kasar",
+            "subcategory_sort": 10
+        },
+        {
+            "site": "opendosm",
+            "category_en": "National Accounts",
+            "category_ms": "Akaun Negara",
+            "category_sort": 20,
+            "subcategory_en": "Gross Domestic Product",
+            "subcategory_ms": "Keluaran Dalam Negeri Kasar",
+            "subcategory_sort": 10
+        }
+    ],
+    "fields": [
+        {
+            "name": "series",
+            "title_en": "Series Type",
+            "title_ms": "Jenis Siri",
+            "description_en": "[String] Series type, either absolute values ('abs') or quarter-on-quarter growth ('growth_qoq')",
+            "description_ms": "[Rentetan] Jenis siri, sama ada nilai mutlak ('abs') atau pertumbuhan suku tahunan ('growth_qoq')"
+        },
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format. The earliest date in the quarter is chosen, e.g. YYYY-01-01 for the 1st quarter and YYYY-04-01 for the 2nd quarter.",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD. Tarikh yang dipilih adalah tarikh terawal dalam suku tahun, contohnya YYYY-01-01 bagi suku tahun pertama dan YYYY-04-01 bagi suku tahun kedua."
+        },
+        {
+            "name": "value",
+            "title_en": "Value",
+            "title_ms": "Nilai",
+            "description_en": "[Float] Either the value of GDP in RM millions (for rows with series type 'abs') or GDP growth as a percentage (for rows with series type 'growth_qoq')",
+            "description_ms": "[Apung] Sama ada nilai KDNK dalam RM juta (bagi baris dengan jenis siri 'abs') ataupun kadar pertumbuhan KDNK sebagai peratus (bagi baris dengan jenis siri 'growth_qoq')"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 1,
+                "filter_columns": [
+                    "series"
+                ],
+                "freeze_columns": [
+                    "series",
+                    "date"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "value",
+            "title_en": "Real GDP (sa)",
+            "title_ms": "KDNK Sebenar (tsm)",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "series"
+                ],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "value"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "series": "Series Type",
+        "date": "Date",
+        "value": "Value",
+        "abs": "RM million",
+        "growth-yoy": "Year-on-year growth",
+        "growth-qoq": "Quarter-on-quarter growth",
+        "gdp": "GDP",
+        "x": "Date",
+        "y1": "Value"
+    },
+    "translations_ms": {
+        "series": "Jenis Siri",
+        "date": "Tarikh",
+        "value": "Nilai",
+        "abs": "RM juta",
+        "growth-yoy": "Pertumbuhan tahunan",
+        "growth-qoq": "Pertumbuhan suku tahunan",
+        "gdp": "KDNK",
+        "x": "Tarikh",
+        "y1": "Nilai"
+    },
+    "related_datasets": []
+}

@@ -1,0 +1,146 @@
+{
+    "title_en": "Monthly Landings of Marine Fish by State",
+    "title_ms": "Pendaratan Ikan Laut Bulanan mengikut Negeri",
+    "title_sort": 210,
+    "description_en": "Monthly landings of marine fish by state and coast from 2018 to 2023.",
+    "description_ms": "Pendaratan ikan laut bulanan mengikut negeri dan pantai dari 2018 hingga 2023.",
+    "exclude_openapi": false,
+    "manual_trigger": "1",
+    "data_as_of": "2023-12",
+    "last_updated": "2024-09-01 12:00",
+    "next_update": "tbc",
+    "methodology_en": "Data on landings of marine fish in Malaysia is collected via establishment-level surveys and censuses conducted by the Department of Fisheries (DOF). Accordingly, this data reflects the production of establishments registered with the DOF only. In layperson terms, this means that the fish caught by individuals fishing for personal consumption are not included in this data.\n\nIt should be noted that W.P. Kuala Lumpur and W.P. Putrajaya are excluded from the data as they do not have coastlines. Classification by coast and state is conducted based on the location of where the fish was landed, not where it was caught or the registered address of the establishment. In general, fisheries data for Malaysia is published based on landings, not catches.",
+    "methodology_ms": "Data pendaratan ikan laut di Malaysia dikumpulkan melalui survei dan banci perusahaan perikanan yang dilaksanakan oleh Jabatan Perikanan. Oleh itu, data ini merujuk kepada data syarikat yang berdaftar dengan Jabatan Perikanan sahaja. Dalam bahasa mudah, ini bermaksud bahawa ikan yang ditangkap oleh individu untuk tujuan peribadi tidak termasuk dalam data ini.\n\nW.P. Kuala Lumpur dan W.P. Putrajaya tidak terkandung dalam set data ini kerana tiada pantai di negeri tersebut. Tambahan lagi, pengkelasan berdasarkan pantai dan negeri adalah berdasarkan lokasi pendaratan iakn, bukan lokasi tangkapan atau alamat berdaftar syarikat. Secara am, data perikanan di Malaysia diterbitkan berdasarkan pendaratan, bukan tangkapan.",
+    "caveat_en": "National totals may be slightly different to the sum of state values due to rounding.",
+    "caveat_ms": "Angka-angka di peringkat nasional mungkin sedikit berbeza dengan angka peringkat negeri apabila dijumlahkan disebabkan oleh penggenapan.",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/agriculture/fish_landings.parquet",
+    "link_csv": "https://storage.data.gov.my/agriculture/fish_landings.csv",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2018,
+    "dataset_end": 2023,
+    "data_source": [
+        "Perikanan"
+    ],
+    "data_source_granular": [
+        "BPTAS"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "Agriculture",
+            "subcategory_ms": "Pertanian",
+            "subcategory_sort": 14
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "Agriculture",
+            "subcategory_ms": "Pertanian",
+            "subcategory_sort": 14
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01 as the data is at monthly frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01 kerana data berfrekuensi bulanan"
+        },
+        {
+            "name": "coast",
+            "title_en": "Coast",
+            "title_ms": "Pantai",
+            "description_en": "[Categorical] The coast where the fish was landed; either all coasts ('all'), the east coast of Peninsular Malaysia ('east'), west coast of Peninsular Malaysia ('west') or Borneo ('borneo')",
+            "description_ms": "[Kategori] Pantai di mana ikan mendarat; sama ada semua pantai ('semua'), pantai timur Semenanjung Malaysia ('timur'), pantai barat Semenanjung Malaysia ('barat') atau Borneo ('borneo')"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] The state where the fish was landed; one of 14 states (excludiing W.P. Kuala Lumpur and W.P. Putrajaya, which do not have coastlines) or Malaysia (included for ease of analysis). It should be noted that Johor is a part of both the east and west coast data.",
+            "description_ms": "[Kategori] Negeri di mana ikan mendarat; satu daripada 14 negeri (tidak termasuk W.P. Kuala Lumpur dan W.P. Putrajaya, yang tidak mempunyai pantai) atau Malaysia (disekalikan untuk memudahkan analisis). Johor adalah sebahagian daripada data pantai timur dan juga pantai barat."
+        },
+        {
+            "name": "landings",
+            "title_en": "Landings",
+            "title_ms": "Pendaratan",
+            "description_en": "[Float] The total landings of marine fish in metric tonnes",
+            "description_ms": "[Apung] Jumlah pendaratan ikan laut dalam tan metrik"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "coast",
+                    "state"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "timeseries",
+            "title_en": "Fish Landings (mt)",
+            "title_ms": "Pendaratan Ikan (mt)",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "coast",
+                    "state"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "landings"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Landings (mt)",
+        "date": "Date",
+        "coast": "Coast",
+        "state": "State",
+        "landings": "Landings",
+        "east": "East Coast",
+        "west": "West Coast",
+        "borneo": "Borneo",
+        "all": "All Coasts",
+        "all-states": "All States"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Pendaratan (mt)",
+        "date": "Tarikh",
+        "coast": "Pantai",
+        "state": "Negeri",
+        "landings": "Pendaratan",
+        "east": "Pantai Timur",
+        "west": "Pantai Barat",
+        "borneo": "Borneo",
+        "all": "Semua Pantai",
+        "all-states": "Semua Negeri"
+    },
+    "related_datasets": []
+}

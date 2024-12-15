@@ -5,10 +5,10 @@
     ],
     "translation": {
         "header": "Penawaran Wang",
-        "description": "Terdapat lebih RM150 bilion nilai syiling dan mata wang dalam edaran ekonomi Malaysia. Papan pemuka ini, dibina berdasarkan Sorotan dan Statistik Bulanan (MHS) terbitan Bank Negara Malaysia yang memberi gambaran menyeluruh yang, membolehkan pengguna meneliti komposisi dan pertumbuhan mata wang dalam edaran. Mata wang dalam edaran hanya mengambil kira mata wang yang sah sahaja. Sebagai contoh, duit syiling RM1 yang sudah dihentikan pengedarannya tidak termasuk dalam data dan papan pemuka ini.",
+        "description": "Secara amnya, penawaran wang di Malaysia merujuk kepada jumlah nilai ringgit dalam edaran pada satu masa. Namun begitu, terdapat beberapa cara untuk mengukur nilai ini, bergantung pada aset yang termasuk dalam definisi 'wang'. Papan pemuka ini mengggunakan tiga definisi empirikal paling standard - M1, M2 dan M3 - untuk menganalisa penawaran wang di Malaysia secara bulanan.",
         "section_1": {
-            "title": "Apakah kaedah pengukuran kadar penawaran wang di Malaysia?",
-            "description": "Terdapat pelbagai kaedah pengukuran bagi penawaran wang. Papan pemuka ini memaparkan 3 jenis kayu ukur iaitu M1, M2 dan M3.\n\nM1 ialah wang secara kecil ataupun aset yang paling cair.\nM2 terdiri daripada M1 dan separuh wang secara kecil.\nM3 terdiri daripada M2 dan wang secara luas.\n\nJadual di bawah merumuskan definisi kayu ukur tersebut:",
+            "title": "Apakah kaedah mengukur penawaran wang di Malaysia?",
+            "description": "M1 ialah 'wang sempit' ataupun <i>narrow money</i>, iaitu aset yang paling cair.\nM2 terdiri daripada M1 dan 'wang separuh sempit' ataupun <i>narrow quasi-money</i>.\nM3 terdiri daripada M2 dan 'wang luas' ataupun <i>broad money</i>.\n\nJadual di bawah merumuskan definisi M1, M2 dan M3 secara terperinci:",
             "component_col_name": "Komponen",
             "m1_col_name": "% Wang M1",
             "m2_col_name": "% Wang M2",

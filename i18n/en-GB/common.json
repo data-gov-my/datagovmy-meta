@@ -70,12 +70,18 @@
       "play": "Play",
       "pause": "Pause",
       "indicator": "Indicator",
+      "available_at": "Available at",
+      "accessed": "Accessed",
+      "last_modified": "Last modified",
+      "cited": "cited",
+      "available_from": "Available from",
       "ranking": "Ranking ({{ count, number }})",
       "charts": {
         "heatmap": "Heatmap",
         "table": "Table"
       },
-      "banner": ""
+      "banner": "",
+      "opendosm_banner": "🚀  New Feature: Get DOSM's latest releases delivered straight to your email! Click [here](/publications/subscribe) to subscribe."
     },
     "time": {
       "daily_7d": "Daily (7d avg)",
@@ -103,6 +109,7 @@
       "data_request": "Data Request",
       "community": "Community",
       "helpdesk": "Helpdesk",
+      "progress": "Progress",
       "legacy": "Legacy Site",
       "publications": "Publications",
       "pmo": "Prime Minister's Department",
@@ -115,6 +122,7 @@
       "mampu": "MAMPU",
       "open_data": "Open Data",
       "public_open_data": "Public Sector Open Data",
+      "bond_sukuk": " Bond & Sukuk Info (BIX)",
       "guiding_principles": "Guiding Principles",
       "terms_of_use": "Terms of Use",
       "ai": "AI Helper: OpenAI",

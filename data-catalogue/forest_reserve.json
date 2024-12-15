@@ -1,0 +1,105 @@
+{
+    "title_en": "Area of Permanent Forest Reserves",
+    "title_ms": "Keluasan Hutan Simpan Kekal",
+    "title_sort": 10,
+    "description_en": "The area of permanent forest reserves as of year-end.",
+    "description_ms": "Keluasan tahunan hutan simpan setakat hujung tahun.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2021",
+    "last_updated": "2024-08-13 12:00",
+    "next_update": "n/a",
+    "methodology_en": "Permanent Reserved Forests (PRFs) are government lands that have been gazetted under the National Forestry Act 1984. Under the National Forestry Policy 1978 (Amendment 1992), PRFs must be managed and classified under four main functions: protection, production, recreation, and research. This dataset records the area of land gazetted as PRFs in Malaysia, with the area is calculated directly from the gazetted PRF maps. For a richer understanding of the definition and purposes of PRFs, please refer to [this policy document](https://storage.data.gov.my/environment/hsk_2021-04-29.pdf).",
+    "methodology_ms": "Hutan Simpan Kekal (HSK) ialah kawasan-kawasan tanah kerajaan yang telah diwartakan di bawah Akta Perhutanan Negara 1984. Di bawah Dasar Perhutanan Negara 1978 (Pindaan 1992), HSK perlu diurus dan dikelaskan di bawah empat fungsi utama iaitu hutan perlindungan, hutan berhasil, hutan lipur dan hutan penyelidikan. Set data ini merekodkan keluasan kawasan yang diwartakan sebagai HSK di Malaysia, di mana keluasan tersebut dikira secara terus daripada peta HSK yang diwartakan. Untuk mendapat pemahaman yang lebih mendalam mengenai definisi dan tujuan HSK, sila rujuk kepada [dokumen dasar ini](https://storage.data.gov.my/environment/hsk_2021-04-29.pdf)",
+    "caveat_en": "Data prior to 2017 includes the area of included proposed PRFs in Peninsular Malaysia which had not yet been gazetted. Data from 2017 is based only on the area of gazetted PRFs. Furthermore, data for 2010 and 2011 is not available at present and will be updated at a later date.",
+    "caveat_ms": "Data sebelum 2017 termasuk cadangan HSK di Semenanjung Malaysia yang belum diwartakan. Mulai 2017, data adalah berdasarkan keluasan HSK yang diwartakan sahaja. Tambahan lagi, data bagi tahun 2010 dan 2011 tidak tersedia buat masa ini, dan akan dikemaskini nanti.",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/environment/forest_reserve.parquet",
+    "link_csv": "https://storage.data.gov.my/environment/forest_reserve.csv",
+    "frequency": "YEARLY",
+    "geography": ["NATIONAL"],
+    "demography": [],
+    "dataset_begin": 2003,
+    "dataset_end": 2021,
+    "data_source": ["Perhutanan", "DOSM"],
+    "data_source_granular": ["BPPAS"],
+    "site_category": [
+      {
+        "site": "datagovmy",
+        "category_en": "Environment",
+        "category_ms": "Alam Sekitar",
+        "category_sort": 45,
+        "subcategory_en": "Land Use",
+        "subcategory_ms": "Penggunaan Tanah",
+        "subcategory_sort": 10
+      },
+      {
+        "site": "opendosm",
+        "category_en": "Environment",
+        "category_ms": "Alam Sekitar",
+        "category_sort": 95,
+        "subcategory_en": "Land Use",
+        "subcategory_ms": "Penggunaan Tanah",
+        "subcategory_sort": 10
+      }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "area",
+            "title_en": "Forest Reserve Area",
+            "title_ms": "Keluasan Hutan Simpan",
+            "description_en": "[Float, Hectares] The area of permanent forest reserves in that state, as of 31st December in the year recorded.",
+            "description_ms": "[Float, Hektar] Keluasan hutan simpan kekal di negeri tersebut, setakat 31 Disember dalam tahun pelaporan ."
+        }
+    ],
+    "dataviz": [
+      {
+        "dataviz_id": "table",
+        "title_en": "Table",
+        "title_ms": "Jadual",
+        "chart_type": "TABLE",
+        "config": {
+          "precision": 0,
+          "filter_columns": [],
+          "freeze_columns": []
+        }
+      },
+      {
+        "dataviz_id": "area",
+        "title_en": "Permanent Forest Reserve Area",
+        "title_ms": "Keluasan Hutan Simpan Kekal",
+        "chart_type": "TIMESERIES",
+        "config": {
+          "filter_columns": [],
+          "precision": 0,
+          "operation": "SUM",
+          "format": {
+            "x": "date",
+            "y": ["area"]
+          }
+        }
+      }
+    ],
+    "translations_en": {
+      "y1": "Value",
+      "date": "Date",
+      "state": "State",
+      "area": "Area"
+    },
+    "translations_ms": {
+      "y1": "Nilai",
+      "date": "Tarikh",
+      "state": "Negeri",
+      "area": "Keluasan"
+    },
+    "related_datasets": []
+  }
+  

@@ -1,0 +1,11 @@
+{
+    "manual_trigger": "2024-07-31 07:18:07.739590",
+    "data_as_of": "2024-07-30 23:59",
+    "last_updated": "2024-07-31 00:01",
+    "next_update": "2024-08-01 00:01",
+    "link_parquet": "https://storage.data.gov.my/metadata/catalogue.parquet",
+    "frequency": "DAILY",
+    "data_source": [
+        "data.gov.my"
+    ]
+}

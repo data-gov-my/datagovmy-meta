@@ -1,0 +1,125 @@
+{
+    "title_en": "TFR and ASFR",
+    "title_ms": "TFR dan ASFR",
+    "title_sort": 1,
+    "description_en": "Total fertility rate (TFR) and age-specific fertility rates (ASFR) from 1958 to the present at national level.",
+    "description_ms": "Kadar kesuburan keseluruhan (TFR) dan kadar kesuburan mengikut umur (ASFR) dari 1958 hingga kini di peringkat nasional.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2023",
+    "last_updated": "2024-10-17 12:00",
+    "next_update": "2025-11-01 12:00",
+    "methodology_en": "An age-specific fertility rate (ASFR) is the average number of births per 1,000 women in a specific age group. The ASFRs shown in this dataset are computed from administrative records of births registered with JPN (which record the age of the mother), as well as population data from DOSM as the denominator.\n\nThe total fertility rate (TFR)  is the average number of children born to a woman who goes through her child-bearing years experiencing the ASFR of each age group. It is computed by:\n - Summing the ASFRs of all age groups, then\n - Multiplying the number by 5 to account for the size of each age group, and finally\n - Dividing by 1000 (to convert the figure from per 1000 women to per woman.",
+    "methodology_ms": "Kadar kesuburan mengikut umur (ASFR) adalah purata jumlah kelahiran per 1,000 wanita dalam kumpulan umur tertentu. ASFR yang dipaparkan dalam set data ini dihitung berdasarkan rekod pentadbiran kelahiran yang didaftarkan dengan JPN (yang mencatatkan umur ibu), serta data penduduk dari DOSM.\n\nKadar kesuburan keseluruhan (TFR) adalah purata jumlah anak yang dilahirkan kepada seorang wanita yang melalui hidupnya dengan mengalami ASFR setiap kumpulan umur. Ia dihitung dengan:\n - Menjumlahkan ASFR semua kumpulan umur, kemudian\n - Mengalikan jumlah dengan 5 untuk mengambil kira julat setiap kumpulan umur, dan akhirnya\n - Membahagikan dengan 1000 untuk mengubah angka dari angka bagi setiap 1000 wanita kepada angka bagi seorang wanita.",
+    "caveat_en": "ASFR values are based on the actual number of live births per 1000 women in each 5-year age group. However, when interpreting TFR values, it is important to note that the TFR is based on a hypothetical woman who goes through her child-bearing years experiencing the ASFR of each age group. This is not equivalent to the actual average number of children born to currently-living female citizens aged 15-49, as this number would be a reflection of past rather than current ASFR values.",
+    "caveat_ms": "Nilai ASFR berdasarkan jumlah kelahiran hidup sebenar bagi setiap 1000 wanita dalam setiap kumpulan umur 5 tahun. Walau bagaimanapun, dalam mentafsirkan nilai TFR, perlu diingati bahawa TFR berdasarkan unjuran seorang wanita yang melalui hidupnya dengan mengalami ASFR setiap kumpulan umur. Ini tidak sama dengan purata sebenar jumlah anak yang dilahirkan kepada penduduk wanita berumur 15-49 tahun, kerana angka tersebut sebenarnya dipengaruhi oleh nilai ASFR masa lalu dan bukannya nilai ASFR semasa.",
+    "publication_en": "OpenDOSM features a dashboard on [Population & Vital Statistics](https://open.dosm.gov.my/dashboard/population) where you can explore this data in a more interactive manner!",
+    "publication_ms": "OpenDOSM memaparkan papan pemuka tentang [Penduduk & Perangkaan Penting](https://open.dosm.gov.my/ms-MY/dashboard/population) yang membolehkan anda menerokai set data ini dengan lebih interaktif!",
+    "link_parquet": "https://storage.dosm.gov.my/demography/fertility.parquet",
+    "link_csv": "https://storage.dosm.gov.my/demography/fertility.csv",
+    "frequency": "YEARLY",
+    "geography": [
+      "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 1958,
+    "dataset_end": 2023,
+    "data_source": [
+      "DOSM"
+    ],
+    "site_category": [
+        {
+          "site": "datagovmy",
+          "category_en": "Demography",
+          "category_ms": "Demografi",
+          "category_sort": 1,
+          "subcategory_en": "Fertility",
+          "subcategory_ms": "Kesuburan",
+          "subcategory_sort": 6
+        },
+        {
+          "site": "opendosm",
+          "category_en": "Demography",
+          "category_ms": "Demografi",
+          "category_sort": 1,
+          "subcategory_en": "Fertility",
+          "subcategory_ms": "Kesuburan",
+          "subcategory_sort": 6
+        }
+    ],
+    "fields": [
+      {
+        "name": "date",
+        "title_en": "Date",
+        "title_ms": "Tarikh",
+        "description_en": "[Date] The year of the recorded fertility rate in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency.",
+        "description_ms": "[Tarikh] Tahun kadar kesuburan yang direkodkan dalam format YYYY-MM-DD, dengan nilai MM-DD ditetapkan pada 01-01 kerana data berfrekuensi tahunan."
+      },
+      {
+        "name": "age_group",
+        "title_en": "Age Group",
+        "title_ms": "Kumpulan Umur",
+        "description_en": "[Categorical] 5-year age group for fertility rates (15-19, 20-24,...,45-49), or the Total Fertility Rate ('tfr').",
+        "description_ms": "[Kategori] Kumpulan umur 5 tahun bagi kadar kesuburan (15-19, 20-24,...,45-49), atau Kadar Kesuburan Keseluruhan ('tfr')."
+      },
+      {
+        "name": "fertility_rate",
+        "title_en": "Fertility Rate",
+        "title_ms": "Kadar Kesuburan",
+        "description_en": "[Float] Fertility rate for the specific age group (ASFRs) or the total fertility rate (TFR). ASFR values are the number of live births per 1000 women in the age group, whereas TFR values are the average number of children born to a woman who goes through her child-bearing years experiencing the ASFR of each age group.",
+        "description_ms": "[Float] Kadar kesuburan bagi kumpulan umur khusus (ASFR) atau kadar kesuburan jumlah (TFR). Nilai ASFR adalah jumlah kelahiran hidup per 1000 wanita dalam kumpulan umur, manakala nilai TFR adalah purata jumlah anak yang dilahirkan kepada seorang wanita yang melalui hidupnya dengan mengalami ASFR setiap kumpulan umur."
+      }
+    ],
+    "dataviz": [
+      {
+        "dataviz_id": "table",
+        "title_en": "Table",
+        "title_ms": "Jadual",
+        "chart_type": "TABLE",
+        "config": {
+          "precision": 2,
+          "filter_columns": [
+            "age_group"
+          ],
+          "freeze_columns": []
+        }
+      },
+      {
+        "dataviz_id": "fertility_rate",
+        "title_en": "Fertility Rate",
+        "title_ms": "Kadar Kesuburan",
+        "chart_type": "TIMESERIES",
+        "config": {
+          "filter_columns": [
+            "age_group"
+          ],
+          "precision": 2,
+          "operation": "SUM",
+          "format": {
+            "x": "date",
+            "y": [
+              "fertility_rate"
+            ]
+          }
+        }
+      }
+    ],
+    "translations_en": {
+      "date": "Date",
+      "x": "Date",
+      "y1": "Rate",
+      "age_group": "Age Group",
+      "fertility_rate": "Fertility Rate",
+      "tfr": "Total Fertility Rate"
+    },
+    "translations_ms": {
+      "date": "Tarikh",
+      "x": "Date",
+      "y1": "Kadar",
+      "age_group": "Kumpulan Umur",
+      "fertility_rate": "Kadar Kesuburan",
+      "tfr": "Kadar Kesuburan Keseluruhan"
+    },
+    "related_datasets": []
+  }
+  

@@ -6,9 +6,9 @@
   "description_ms": "Hasil, perbelanjaan mengurus dan pembangunan, lebihan/kurangan keseluruhan, serta sumber kewangan secara tahunan bagi Kerajaan Persekutuan Malaysia.",
   "exclude_openapi": false,
   "manual_trigger": "",
-  "data_as_of": "2022",
-  "last_updated": "2023-11-30 15:00",
-  "next_update": "2024-02-29 15:00",
+  "data_as_of": "2023",
+  "last_updated": "2024-05-31 15:00",
+  "next_update": "2025-05-31 15:00",
   "methodology_en": "This data is produced by the Accountant-General's Department in compliance with the [Malaysian Public Sector Accounting Standards](https://www2.anm.gov.my/akruan/Pages/MPSAS.aspx) and the IMF's Dissemination Standards. A few key relationships should be noted:\n- Net development expenditure is gross development expenditure less loan recoveries.\n- Net borrowing is gross borrowing less repayments, for both the domestic and foreign sectors.\n- The overall balance is revenue less operating expenditure less net development expenditure.\n- For stock values (such as use of assets), a positive value indicates the disposal of assets while a negative value indicates the acquisition of assets.",
   "methodology_ms": "Data ini dihasilkan oleh Jabatan Akauntan Negara berdasarkan [Piawaian Perakaunan Sektor Awam Malaysia](https://www2.anm.gov.my/akruan/Pages/MPSAS.aspx) dan _IMF Dissemination Standards_. Beberapa hubungan penting perlu diambil perhatian:\n- Perbelanjaan pembangunan bersih adalah perbelanjaan pembangunan kasar tolak terimaan balik pinjaman.\n- Pinjaman bersih adalah pinjaman kasar tolak pembayaran balik, untuk kedua-dua sektor dalam negeri dan luar negeri.\n- Imbangan keseluruhan adalah hasil tolak perbelanjaan mengurus tolak perbelanjaan pembangunan bersih.\n- Untuk nilai stok (seperti penggunaan aset), nilai positif mewakili pelupusan aset manakala nilai negatif mewakili penimbuhan aset.",
   "caveat_en": "Numbers may not add up due to rounding during derivation.",
@@ -32,8 +32,10 @@
       "site": "datagovmy",
       "category_en": "Public Administration",
       "category_ms": "Pentadbiran Awam",
+      "category_sort": 80,
       "subcategory_en": "Public Finance",
-      "subcategory_ms": "Kewangan Awam"
+      "subcategory_ms": "Kewangan Awam",
+      "subcategory_sort": 10
     }
   ],
   "fields": [

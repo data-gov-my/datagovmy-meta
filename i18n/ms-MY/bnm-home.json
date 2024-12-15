@@ -1,0 +1,51 @@
+{
+  "route": "/",
+  "sites": ["databnm"],
+  "translation": {
+    "site": {
+      "name": "data.databnm.gov.my"
+    },
+    "header": "Data Terbuka Sektor Kewangan Malaysia",
+    "description": "Kadar dan statistik yang tersedia secara percuma daripada pasaran pertukaran asing Kuala Lumpur, pasaran wang antara bank, pasaran bon kerajaan, dan sektor kewangan Malaysia secara amnya. Data adalah teras kepada semua yang kami lakukan di Bank Negara; laman web ini adalah kemuncak usaha kami untuk perkongsian sebagai sebahagian daripada sektor awam yang dipacu data.",
+    "dashboard-index": {
+      "header": "Papan Pemuka Data Terbuka",
+      "description": "Menjadi penerbit data yang cemerlang bukan hanya tentang menyediakan data mentah - ia tentang menyampaikan cerita. Dalam halaman ini, anda akan menemui koleksi papan pemuka yang akan membantu anda meneroka dan memahami data kami dari keselesaan peranti anda. Tidak perlu memuat turun atau bermain dengan data sendiri - kami telah melakukan kerja tersebut untuk anda!"
+    },
+    "timeseries_opr": {
+      "title": "Kadar Dasar Semalaman (OPR)",
+      "callout1": "Terkini ({{ date }})",
+      "callout2": "SRR",
+      "keys": "Kadar Dasar Semalaman (OPR)"
+    },
+    "timeseries_reserves_usd": {
+      "title": "Rizab Antarabangsa BNM",
+      "callout1": "Terkini ({{ date }})",
+      "callout2": "Bulan Liputan Import",
+      "keys": "Rizab Antarabangsa (USD bil)"
+    },
+    "timeseries_myr_usd": {
+      "title": "USD kepada MYR",
+      "callout1": "Terkini ({{ date }})",
+      "callout2": "Purata 5-tahun",
+      "keys": "$1"
+    },
+    "timeseries_gdp_growth": {
+      "title": "Pertumbuhan GDP Sebenar (Tahunan)",
+      "callout1": "Terkini ({{ date }})",
+      "callout2": "Purata 5-tahun",
+      "keys": "Keseluruhan"
+    },
+    "timeseries_inflation": {
+      "title": "Inflasi Pengguna",
+      "callout1": "Terkini ({{ date }})",
+      "callout2": "Purata 5-tahun",
+      "keys": "Keseluruhan"
+    },
+    "timeseries_unemployment": {
+      "title": "Pengangguran",
+      "callout1": "Terkini ({{ date }})",
+      "callout2": "Purata 5-tahun",
+      "keys": "Keseluruhan"
+    }
+  }
+}

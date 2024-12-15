@@ -1,0 +1,111 @@
+{
+    "title_en": "State Government Revenue",
+    "title_ms": "Hasil Kerajaan Negeri",
+    "title_sort": 14,
+    "description_en": "Annual data on state government revenue by source, covering tax, non-tax, and non-revenue receipts.",
+    "description_ms": "Data tahunan mengenai hasil kerajaan negeri mengikut sumber, merangkumi cukai, bukan cukai, dan penerimaan bukan hasil.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2022",
+    "last_updated": "2024-09-01 12:00",
+    "next_update": "\u2014",
+    "methodology_en": "This dataset is produced from the financial statements of state governments in Malaysia, as published by the National Audit Department in the Auditor General's Report. Categorisation of revenue is based on the [Classification Codes for Revenue and Expenditure](https://storage.data.gov.my/publicadmin/penjenisan_kod.pdf) published by the Federal Treasury.",
+    "methodology_ms": "Set data in disediakan berdasarkan penyata kewangan kerajaan negeri di Malaysia, seperti yang diterbitkan oleh Jabatan Audit Negara dalam Laporan Ketua Audit Negara. Pengkelasan hasil adalah berdasarkan [Penjenisan Kod Bagi Hasil Dan Perbelanjaan](https://storage.data.gov.my/publicadmin/penjenisan_kod.pdf) yang diterbitkan oleh Perbendaharaan Persekutuan.",
+    "caveat_en": "The latest actual revenue data (rather than projected revenue) is as of 2022, except for Sarawak which is as of 2020. Values for Sarawak will be updated to 2022 when available. Furthermore, it should be noted that because this dataset shows the revenue of state governments, it does not include the Federal Territories of Kuala Lumpur, Labuan, and Putrajaya, which do not have their own State Legislative Assemblies.",
+    "caveat_ms": "Data hasil sebenar terkini (dan bukannya anggaran) adalah setakat 2022, kecuali untuk Sarawak yang adalah setakat 2020. Nilai untuk Sarawak akan dikemaskini ke 2022 apabila tersedia. Selain itu, perlu diingati bahawa set data ini menunjukkan hasil kerajaan negeri, maka tidak mengangundi data bagi Wilayah Persekutuan Kuala Lumpur, Labuan, dan Putrajaya, yang tidak mempunyai Dewan Undangan Negeri sendiri.",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/publicadmin/state_finance_revenue.parquet",
+    "link_csv": "https://storage.data.gov.my/publicadmin/state_finance_revenue.csv",
+    "frequency": "ANNUAL",
+    "geography": [
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2022,
+    "dataset_end": 2022,
+    "data_source": [
+        "AUDIT"
+    ],
+    "site_category": [
+        {
+          "site": "datagovmy",
+          "category_en": "Public Administration",
+          "category_ms": "Pentadbiran Awam",
+          "category_sort": 80,
+          "subcategory_en": "Public Finance",
+          "subcategory_ms": "Kewangan Awam",
+          "subcategory_sort": 10
+        }
+    ],
+    "fields": [
+		{
+			"name": "date",
+			"title_en": "Date",
+			"title_ms": "Tarikh",
+			"description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+			"description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+		},
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 13 states with their own State Legislative Assembly (does not include Federal Territories)",
+            "description_ms": "[Kategori] Satu daripada 13 negeri dengan Dewan Undangan Negeri sendiri (tidak termasuk Wilayah Persekutuan)"
+        },
+        {
+            "name": "category",
+            "title_en": "Revenue Category",
+            "title_ms": "Kategori Hasil",
+            "description_en": "[Categorical] Either total revenue ('total') or the category of revenue comprising tax revenue ('revenue_60000'), non-tax revenue ('revenue_70000'), and non-revenue receipts ('revenue_80000')",
+            "description_ms": "[Kategori] Sama ada hasil keseluruhan ('total') atau kategori hasil yang merangkumi hasil cukai ('revenue_60000'), hasil bukan cukai ('revenue_70000'), dan penerimaan bukan hasil ('revenue_80000')"
+        },
+        {
+            "name": "expenditure",
+            "title_en": "Acutal Revenue",
+            "title_ms": "Hasil Sebenar",
+            "description_en": "[Float, RM mil] Actual revenue for the given category; note that this may be different from the original projection presented in the state budget",
+            "description_ms": "[Apun, RM juta] Hasil sebenar untuk kategori yang diberikan; angka ini mungkin berbeza daripada anggaran asal yang diterbitkan dalam belanjawan negeri"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 2,
+                "filter_columns": [
+                    "state"
+                ],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Revenue (RM mil)",
+        "date": "Date",
+        "state": "State",
+        "category": "Category",
+        "revenue": "Revenue",
+        "total": "Total Expenditure",
+        "revenue_60000": "Tax Revenue",
+        "revenue_70000": "Non-Tax Revenue",
+        "revenue_80000": "Non-Revenue Receipts"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Hasil (RM juta)",
+        "date": "Tarikh",
+        "state": "Negeri",
+        "category": "Kategori",
+        "revenue": "Hasil",
+        "total": "Jumlah Hasil",
+        "revenue_60000": "Hasil Cukai",
+        "revenue_70000": "Hasil Bukan Cukai",
+        "revenue_80000": "Penerimaan Bukan Hasil"
+    },
+    "related_datasets": []
+}

@@ -1,0 +1,138 @@
+{
+    "title_en": "Electricity Supply",
+    "title_ms": "Bekalan Elektrik",
+    "title_sort": 11,
+    "description_en": "Monthly electricity supply by sector.",
+    "description_ms": "Bekalan elektrik bulanan mengikut sektor.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2024-09-30 23:59",
+    "last_updated": "2024-09-01 12:00",
+    "next_update": "2024-10-01 12:00",
+    "methodology_en": "The Malaysian electrical grid is managed by Tenaga Nasional Berhad (for Peninsular Malaysia), Sabah Electricity Sdn. Bhd., and Sarawak Energy Berhad. Independent power producers also supply electricity. This dataset includes monthly electricity supply data categorized by sector, compiled from the operational records of these providers.",
+    "methodology_ms": "Grid elektrik di Malaysia dikendalikan oleh Tenaga Nasional Berhad (untuk Semenanjung Malaysia), Sabah Electricity Sdn. Bhd., dan Sarawak Energy Berhad. Pengeluar kuasa bebas juga menyumbang bekalan elektrik. Dataset ini mengandungi data bekalan elektrik bulanan mengikut sektor, yang disusun berdasarkan rekod operasi pengendali tersebut.",
+    "caveat_en": "Data for the most recent 6 months is provisional and subject to revision in future updates.",
+    "caveat_ms": "Data bagi 6 bulan terkini belum dimuktamadkan dan mungkin akan disemak dalam kemaskini seterusnya.",
+    "publication_en": "—",
+    "publication_ms": "—",
+    "link_parquet": "https://storage.data.gov.my/energy/electricity_supply.parquet",
+    "link_csv": "https://storage.data.gov.my/energy/electricity_supply.csv",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2018,
+    "dataset_end": 2024,
+    "data_source": [
+        "TNB",
+        "SESB",
+        "SWK-ENERGY",
+        "ST",
+        "DOSM"
+    ],
+    "site_category": [
+        {
+          "site": "datagovmy",
+          "category_en": "Environment",
+          "category_ms": "Alam Sekitar",
+          "category_sort": 45,
+          "subcategory_en": "Energy",
+          "subcategory_ms": "Tenaga",
+          "subcategory_sort": 20
+        },
+        {
+          "site": "opendosm",
+          "category_en": "Environment",
+          "category_ms": "Alam Sekitar",
+          "category_sort": 95,
+          "subcategory_en": "Energy",
+          "subcategory_ms": "Tenaga",
+          "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01 as the data is at monthly frequency.",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01 kerana data berfrekuensi bulanan."
+        },
+        {
+            "name": "sector",
+            "title_en": "Sector",
+            "title_ms": "Sektor",
+            "description_en": "[Categorical] All sectors ('total'), local ('local') with breakdown into public (local_public') and private ('local_private') installations, imports ('imports'), or distribution ('distribution').",
+            "description_ms": "[Kategori] Semua sektor ('total'), tempatan ('local') dengan pecahan kepada pemasangan awam ('local_public') dan swasta ('local_private'), import ('imports'), atau pengedaran ('distribution')."
+        },
+        {
+            "name": "supply",
+            "title_en": "Electricity Supply",
+            "title_ms": "Bekalan Elektrik",
+            "description_en": "[Float] Amount of electricity supplied in millions of kilowatt-hours (MKWh).",
+            "description_ms": "[Apung] Jumlah elektrik dibekalkan dalam juta kilowatt-jam (MKWh)."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 2,
+                "filter_columns": [
+                    "sector"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "supply",
+            "title_en": "Electricity Supply",
+            "title_ms": "Bekalan Elektrik",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "sector"
+                ],
+                "precision": 2,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "supply"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Supply (MWh)",
+        "date": "Date",
+        "sector": "Sector",
+        "supply": "Electricity Supply",
+        "total": "Total",
+        "local": "Local",
+        "local-public": "Local (Public)",
+        "local-private": "Local (Private)",
+        "imports": "Imports",
+        "distribution": "Distribution"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Bekalan (MWh)",
+        "date": "Tarikh",
+        "sector": "Sektor",
+        "supply": "Bekalan Elektrik",
+        "total": "Keseluruhan",
+        "local": "Tempatan",
+        "local-public": "Tempatan (Awam)",
+        "local-private": "Tempatan (Swasta)",
+        "imports": "Import",
+        "distribution": "Pengedaran"
+    },
+    "related_datasets": []
+}

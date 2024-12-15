@@ -1,0 +1,158 @@
+{
+    "title_en": "Poverty by State",
+    "title_ms": "Kemiskinan Mengikut Negeri",
+    "title_sort": 21,
+    "description_en": "Poverty rates by state from 1970 to 2022.",
+    "description_ms": "Kadar kemiskinan mengikut negeri dari 1970 hingga 2022.",
+    "exclude_openapi": false,
+    "manual_trigger": "1",
+    "data_as_of": "2022",
+    "last_updated": "2023-07-28 12:00",
+    "next_update": "—",
+    "methodology_en": "In general, poverty is defined as having household income below a specific benchmark. Accordingly, statistics on poverty in Malaysia are produced and published together with statistics on household income derived from the Household Income and Expenditure Survey (HIES), which is conducted at least twice within any 5-year period. This dataset presents 3 definitions of poverty:\n 1. **Absolute Poverty**: A household is considered to be in absolute poverty if their gross monthly household income is below the Poverty Line Income (PLI). This indicates that the household does not earn sufficient income to meet basic needs for a dignified life. \n 2. **Hardcore Poverty**: A household is considered to be in hardcore poverty if their gross monthly household income is below the Food Poverty Line Income (Food PLI). This indicates that the household does not earn sufficient income to meet basic calorie requirements. It should be noted that hardcore poverty is a subset of absolute poverty. \n 3. **Relative Poverty**: A household is considered to be in relative poverty if their gross monthly household income is below half the state median income. This measure is used to assess relative deprivation within the country, especially as absolute and hardcore poverty rates approach 0, as is the case for Malaysia.\n\n For full details on the methodology, especially the computation of the PLI and its evolution and nuances, please refer to the [technical notes](https://open.dosm.gov.my/publications/technical-notes/hies-technotes).",
+    "methodology_ms": "Secara am, definisi kemiskinan adalah pendapatan isi rumah di bawah sesuatu aras pendapatan. Oleh itu, statistik mengenai kemiskinan di Malaysia dihasilkan dan diterbitkan bersama dengan statistik pendapatan isi rumah yang dihasilkan daripada Survei Pendapatan dan Perbelanjaan Isi Rumah (HIES), yang dilaksanakan sekurang-kurangnya dua kali dalam mana-mana tempoh 5 tahun. Set data ini memaparkan 3 definisi kemiskinan:\n 1. **Kemiskinan Mutlak**: Sebuah isi rumah dianggap berada dalam kemiskinan mutlak jika pendapatan kasar bulanan isi rumah mereka berada di bawah Pendapatan Garis Kemiskinan (PGK). Ini menunjukkan bahawa isi rumah tersebut tidak mempunyai pendapatan yang cukup untuk memenuhi keperluan asas.\n 2. **Kemiskinan Tegar**: Sebuah isi rumah dianggap berada dalam kemiskinan tegar jika pendapatan kasar bulanan isi rumah mereka berada di bawah Pendapatan Garis Kemiskinan Makanan (PGK Makanan). Ini menunjukkan bahawa isi rumah tersebut tidak mempunyai pendapatan yang cukup untuk memenuhi keperluan kalorie asas. Kemiskinan tegar adalah subset kepada kemiskinan mutlak.\n 3. **Kemiskinan Relatif**: Sebuah isi rumah dianggap berada dalam kemiskinan relasif jika pendapatan kasar bulanan isi rumah mereka berada di bawah separuh pendapatan penengah negeri. Indikator ini digunakan untuk menganalisis ketersisihan relatif dalam negara, terutamanya apabila kadar kemiskinan mutlak dan tegar semakin mendekati kosong seperti mana yang berlaku di Malaysia.\n\n Untuk mendapat perincian metodologi yang penuh, terutamanya mengenai pengiraan PGK serta evolusi dan nuansanya, sila rujuk kepada [nota teknikal](https://open.dosm.gov.my/publications/technical-notes/hies-technotes).",
+    "caveat_en": "Given that the data is produced from surveys spanning over half a century, the following methodological changes should be noted:\n - Data for 1970 and 1974 refers to Peninsular Malaysia only. 1976 was the first year in which Sabah and Sarawak were included in the survey.\n - Data from 1989 onwards refers to Malaysian citizens only. Although non-citizens are also included in the surveys, the official statistics (which form the basis for national welfare policy) are based on citizens only\n - Kuala Lumpur was gazzeted as a Federal Territory on 1 February 1974. Accordingly, data for W.P. Kuala Lumpur is only available from 1976. Prior to that, data for residents of W.P. Kuala Lumpur was included under Selangor.\n - Labuan was gazetted as a Federal Territory on 16 April 1984. However, due to limitations in sampling, data for W.P. Labuan is only available from 2004. Prior to that, data for residents of W.P. Labuan was included under Sabah.\n - Putrajaya was gazzeted as a Federal Territory on 1 February 2001. However, due to limitations in sampling, data for W.P. Putrajaya is only available from 2007. Prior to that, data for residents of W.P. Putrajaya was included under Selangor.",
+    "caveat_ms": "Memandangkan bahawa data ini dihasilkan daripada survey yang menjangkau lebih dari setengah abad, perubahan metodologi berikut harus diberi perhatian:\n - Data untuk 1970 dan 1974 merujuk kepada Semenanjung Malaysia sahaja. Tahun 1976 adalah tahun pertama di mana Sabah dan Sarawak disekalikan dalam tinjauan.\n - Mulai 1989, data merujuk kepada warganegara Malaysia sahaja. Walaupun warga asing juga disekalikan dalam tinjauan, statistik rasmi (yang menjadi asas untuk dasar nasional) hanya berdasarkan warganegara sahaja.\n - Kuala Lumpur diwartakan sebagai Wilayah Persekutuan pada 1 Februari 1974. Oleh itu, data untuk W.P. Kuala Lumpur hanya tersedia mulai 1976. Sebelum itu, data untuk penduduk W.P. Kuala Lumpur adalah sebahagian daripada Selangor.\n Labuan diwartakan sebagai Wilayah Persekutuan pada 16 April 1984. Namun, disebabkan oleh kekangan dalam pengsampelan, data bagi W.P. Labuan hanya tersedia mulai 2004. Sebelum itu, data untuk penduduk W.P. Labuan adalah sebahagian daripada Sabah.\n - Putrajaya diwartakan sebagai Wilayah Persekutuan pada 1 Februari 2001. Namun, disebabkan oleh kekangan dalam pengsampelan, data bagi W.P. Putrajaya hanya tersedia mulai 2007. Sebelum itu, data untuk penduduk W.P. Putrajaya adalah sebahagian daripada Selangor.",
+    "publication_en": "The [Household Income Survey Report, 2022](https://open.dosm.gov.my/hies/household_income_2022.pdf), the latest edition of the household income statistics published by DOSM. OpenDOSM also features a [dashboard on household income](https://open.dosm.gov.my/dashboard/household-income-expenditure) which enables you to explore Malaysia's household income data interactively.",
+    "publication_ms": "[Laporan Survei Pendapatan Isi Rumah, 2022](https://open.dosm.gov.my/ms-MY/publications/hies/household_income_2022.pdf), edisi terkini bagi statistik pendapatan isi rumah yang diterbitkan oleh DOSM. OpenDOSM juga membekalkan [_dashboard_ pendapatan isi rumah](https://open.dosm.gov.my/ms-MY/dashboard/household-income-expenditure) yang membolehkan anda menerokai data pendapatan isi rumah Malaysia secara interaktif.",
+    "link_parquet": "https://storage.dosm.gov.my/hies/hh_poverty_state.parquet",
+    "link_csv": "https://storage.dosm.gov.my/hies/hh_poverty_state.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 1970,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM"
+    ],
+    "site_category": [
+        {
+          "site": "datagovmy",
+          "category_en": "Households",
+          "category_ms": "Isi Rumah",
+          "category_sort": 2,
+          "subcategory_en": "Poverty",
+          "subcategory_ms": "Kemiskinan",
+          "subcategory_sort": 22
+        },
+        {
+          "site": "opendosm",
+          "category_en": "Households",
+          "category_ms": "Isi Rumah",
+          "category_sort": 2,
+          "subcategory_en": "Poverty",
+          "subcategory_ms": "Kemiskinan",
+          "subcategory_sort": 22
+        }
+    ],
+    "fields": [
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states, including the 3 Federal Territories",
+            "description_ms": "[Kategoril] Satu daripada 16 negeri, termasuk 3 Wilayah Persekutuan"
+        },
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "poverty_absolute",
+            "title_en": "Absolute Poverty Rate",
+            "title_ms": "Kadar Kemiskinan Mutlak",
+            "description_en": "[Float] Proportion of households with monthly income below the Poverty Line Income (PLI)",
+            "description_ms": "[Apung] Nisbah isi rumah dengan pendapatan bulanan yang rendah daripada Pendapatan Garis Kemiskinan (PGK)"
+        },
+        {
+            "name": "poverty_hardcore",
+            "title_en": "Hardcore Poverty Rate",
+            "title_ms": "Kadar Kemiskinan Tegar",
+            "description_en": "[Float] Proportion of households with monthly income below the Food Poverty Line Income (Food PLI)",
+            "description_ms": "[Apung] Nisbah isi rumah dengan pendapatan bulanan yang rendah daripada Pendapatan Garis Kemiskinan Makanan (PGK Makanan)"
+        },
+        {
+            "name": "poverty_relative",
+            "title_en": "Relative Poverty Rate",
+            "title_ms": "Kadar Kemiskinan Relatif",
+            "description_en": "[Float] Proportion of households with monthly income below half the state median income",
+            "description_ms": "[Apung] Nisbah isi rumah dengan pendapatan bulanan yang rendah daripada separuh pendapatan penengah negeri"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "state"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "poverty_absolute",
+            "title_en": "Absolute Poverty",
+            "title_ms": "Kemiskinan Mutlak",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state"
+                ],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "poverty_absolute"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "poverty_hardcore",
+            "title_en": "Hardcore Poverty",
+            "title_ms": "Kemiskinan Tegar",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state"
+                ],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "poverty_hardcore"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Rate (%)",
+        "state": "State",
+        "date": "Date",
+        "poverty_absolute": "Absolute Poverty (%)",
+        "poverty_hardcore": "Hardcore Poverty (%)",
+        "poverty_relative": "Relative Poverty (%)"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Nisbah (%)",
+        "state": "Negeri",
+        "date": "Tarikh",
+        "poverty_absolute": "Kemiskinan Mutlak (%)",
+        "poverty_hardcore": "Kemiskinan Tegar (%)",
+        "poverty_relative": "Kemiskinan Relatif (%)"
+    },
+    "related_datasets": []
+}

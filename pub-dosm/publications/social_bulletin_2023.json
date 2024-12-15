@@ -1,0 +1,127 @@
+{
+    "publication": "social_bulletin_2023",
+    "publication_type": "review_annual",
+    "release_date": "2024-11-25",
+    "frequency": "ANNUAL",
+    "geography": [
+        "NATIONAL",
+        "STATE",
+        "DISTRICT"
+    ],
+    "demography": [
+        "SEX",
+        "AGE"
+    ],
+    "en": {
+        "title": "[2023] Social Bulletin",
+        "publication_type_title": "Annual Reviews",
+        "description": "Annual review of key social indicators, covering population, housing, health, education, employment, welfare, public safety, and recreation.",
+        "description_email": "DOSM has just released the latest annual social bulletin, covering a comprehensive range of indicators on population, housing, health, education, employment, welfare, public safety, and recreation.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Social Bulleting (Population): 2023",
+                "resource_link": "https://storage.dosm.gov.my/reviews/social_bulletin_2023_population.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel", 
+                "resource_name": "Social Bulletin (Housing): 2023",
+                "resource_link": "https://storage.dosm.gov.my/reviews/social_bulletin_2023_housing.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Social Bulletin (Health): 2023", 
+                "resource_link": "https://storage.dosm.gov.my/reviews/social_bulletin_2023_health.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Social Bulletin (Education): 2023",
+                "resource_link": "https://storage.dosm.gov.my/reviews/social_bulletin_2023_education.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Social Bulletin (Employment): 2023",
+                "resource_link": "https://storage.dosm.gov.my/reviews/social_bulletin_2023_employment.xlsx"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "excel",
+                "resource_name": "Social Bulletin (Welfare): 2023",
+                "resource_link": "https://storage.dosm.gov.my/reviews/social_bulletin_2023_welfare.xlsx"
+            },
+            {
+                "resource_id": 7,
+                "resource_type": "excel",
+                "resource_name": "Social Bulletin (Public Safety): 2023",
+                "resource_link": "https://storage.dosm.gov.my/reviews/social_bulletin_2023_public_safety.xlsx"
+            },
+            {
+                "resource_id": 8,
+                "resource_type": "excel",
+                "resource_name": "Social Bulletin (Recreation & Communication): 2023",
+                "resource_link": "https://storage.dosm.gov.my/reviews/social_bulletin_2023_reccomm.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2023] Buletin Sosial",
+        "publication_type_title": "Sorotan Tahunan",
+        "description": "Sorotan tahunan indikator sosial penting, merangkumi penduduk, perumahan, kesihatan, pendidikan, guna tenaga, kebajikan, keselamatan awam, dan rekreasi.",
+        "description_email": "DOSM baru sahaja menerbitkan buletin sosial tahunan terkini, merangkumi pelbagai indikator penting tentang penduduk, perumahan, kesihatan, pendidikan, guna tenaga, kebajikan, keselamatan awam, dan rekreasi.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Buletin Sosial (Penduduk): 2023",
+                "resource_link": "https://storage.dosm.gov.my/reviews/social_bulletin_2023_population.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Buletin Sosial (Perumahan): 2023",
+                "resource_link": "https://storage.dosm.gov.my/reviews/social_bulletin_2023_housing.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Buletin Sosial (Kesihatan): 2023",
+                "resource_link": "https://storage.dosm.gov.my/reviews/social_bulletin_2023_health.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Buletin Sosial (Pendidikan): 2023",
+                "resource_link": "https://storage.dosm.gov.my/reviews/social_bulletin_2023_education.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Buletin Sosial (Guna Tenaga): 2023",
+                "resource_link": "https://storage.dosm.gov.my/reviews/social_bulletin_2023_employment.xlsx"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "excel",
+                "resource_name": "Buletin Sosial (Kebajikan): 2023",
+                "resource_link": "https://storage.dosm.gov.my/reviews/social_bulletin_2023_welfare.xlsx"
+            },
+            {
+                "resource_id": 7,
+                "resource_type": "excel",
+                "resource_name": "Buletin Sosial (Keselamatan Awam): 2023",
+                "resource_link": "https://storage.dosm.gov.my/reviews/social_bulletin_2023_public_safety.xlsx"
+            },
+            {
+                "resource_id": 8,
+                "resource_type": "excel",
+                "resource_name": "Buletin Sosial (Rekreasi & Komunikasi): 2023",
+                "resource_link": "https://storage.dosm.gov.my/reviews/social_bulletin_2023_reccomm.xlsx"
+            }
+        ]
+    }
+}

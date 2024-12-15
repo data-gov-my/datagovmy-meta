@@ -1,0 +1,161 @@
+{
+    "title_en": "Foreign Direct Investment (FDI) Flows",
+    "title_ms": "Aliran Pelaburan Langsung Asing (FDI)",
+    "title_sort": 20,
+    "description_en": "Inflows, outflows, and net flows of foreign direct investment (FDI) Flows into Malaysia.",
+    "description_ms": "Aliran masuk, aliran keluar, dan aliran bersih pelaburan langsung asing (FDI) ke Malaysia.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2024-Q3",
+    "last_updated": "2024-11-15 12:00",
+    "next_update": "2025-02-14 12:00",
+    "methodology_en": "FDI into Malaysia is a category of investment by non-residents that reflects the objective of obtaining a lasting interest in Malaysia. Financial instruments covered under direct investment include equity, reinvestment of earnings and debt instruments (such as inter-company loans and advances, trade credits). FDI statistics for Malaysia are compiled as part of the balance of payments, which is compiled based on the IMF's BPM6 guidelines. For a full description of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/bop-technotes), particularly the definitions relating to FDI.",
+    "methodology_ms": "FDI ke Malaysia adalah kategori pelaburan oleh bukan penduduk yang mencerminkan objektif untuk mendapatkan kepentingan yang berterusan di Malaysia. Instrumen kewangan yang diliputi di bawah pelaburan langsung termasuklah ekuiti, perolehan dilabur semula dan instrumen hutang (seperti pinjaman dan pendahuluan antara syarikat, kredit perdagangan). Statistik FDI bagi Malaysia dikumpulkan sebagai sebahagian daripada imbangan pembayaran, yang dirangka berdasarkan garis panduan BPM6 IMF. Untuk penerangan penuh mengenai metodologi, sila rujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/bop-technotes), terutamanya definisi yang berkaitan dengan FDI.",
+    "caveat_en": "Values for the most recent 8 quarters may be revised in future releases.",
+    "caveat_ms": "Angka bagi 8 suku terkini mungkin disemak semula dalam penerbitan akan datang.",
+    "publication_en": "[Balance of Payments, 2Q 2024](https://open.dosm.gov.my/publications/bop_2024-q2), the latest edition of the quarterly BOP statistics published by DOSM. OpenDOSM also features a [dashboard on BOP](https://open.dosm.gov.my/dashboard/balance-of-payments) which enables you to explore Malaysia's BOP data interactively.",
+    "publication_ms": "[Imbangan Pembayaran, ST2 2024](https://open.dosm.gov.my/ms-MY/publications/bop_2024-q2), edisi terkini bagi statistik BOP suku tahunan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga membekalkan [_dashboard_ BOP](https://open.dosm.gov.my/ms-MY/dashboard/balance-of-payments) yang membolehkan anda menerokai data BOP Malaysia secara interaktif.",
+    "link_parquet": "https://storage.dosm.gov.my/bop/fdi_flows.parquet",
+    "link_csv": "https://storage.dosm.gov.my/bop/fdi_flows.csv",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2008,
+    "dataset_end": 2024,
+    "data_source": [
+        "DOSM"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "National Accounts",
+            "category_ms": "Akaun Negara",
+            "category_sort": 20,
+            "subcategory_en": "Balance of Payments",
+            "subcategory_ms": "Imbangan Pembayaran",
+            "subcategory_sort": 20
+        },
+        {
+            "site": "opendosm",
+            "category_en": "National Accounts",
+            "category_ms": "Akaun Negara",
+            "category_sort": 20,
+            "subcategory_en": "Balance of Payments",
+            "subcategory_ms": "Imbangan Pembayaran",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format. The earliest date in the quarter is chosen, e.g. YYYY-01-01 for the 1st quarter and YYYY-04-01 for the 2nd quarter.",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD. Tarikh yang dipilih adalah tarikh terawal dalam suku tahun, contohnya YYYY-01-01 bagi suku tahun pertama dan YYYY-04-01 bagi suku tahun kedua."
+        },
+        {
+            "name": "inflow",
+            "title_en": "FDI Inflows",
+            "title_ms": "Aliran Masuk FDI",
+            "description_en": "[Float, RM bil] Inflows of FDI during the period",
+            "description_ms": "[Apung, RM bil] Aliran masuk FDI semasa tempoh tersebut"
+        },
+        {
+            "name": "outflow",
+            "title_en": "FDI Outflows",
+            "title_ms": "Aliran Keluar FDI",
+            "description_en": "[Float, RM bil] Outflows of FDI during the period",
+            "description_ms": "[Apung, RM bil] Aliran keluar FDI semasa tempoh tersebut"
+        },
+        {
+            "name": "net",
+            "title_en": "Net FDI Flows",
+            "title_ms": "Aliran FDI Bersih",
+            "description_en": "[Float, RM bil] Net flows of FDI, calculated as inflows minus outflows",
+            "description_ms": "[Apung, RM bil] FDI bersih, dikira sebagai aliran masuk tolak aliran keluar"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 2,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "inflows",
+            "title_en": "FDI Inflows",
+            "title_ms": "Aliran Masuk FDI",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [],
+                "precision": 3,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y1": [
+                        "inflow"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "outflows",
+            "title_en": "FDI Outflows",
+            "title_ms": "Aliran Keluar FDI",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [],
+                "precision": 3,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y1": [
+                        "outflow"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "net_flows",
+            "title_en": "Net FDI Flows",
+            "title_ms": "Aliran Bersih FDI",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [],
+                "precision": 3,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y1": [
+                        "net"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Value (RM bil)",
+        "date": "Date",
+        "inflow": "Inflows",
+        "outflow": "Outflows",
+        "net": "Net FDI Flows"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Nilai (RM bilion)",
+        "date": "Tarikh",
+        "inflow": "Aliran Masuk",
+        "outflow": "Aliran Keluar",
+        "net": "Aliran FDI Bersih"
+    },
+    "related_datasets": []
+}

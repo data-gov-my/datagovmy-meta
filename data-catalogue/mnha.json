@@ -1,0 +1,141 @@
+{
+    "title_en": "MNHA: Total (TEH) and Current (CHE) Expenditure on Health",
+    "title_ms": "MNHA: Perbelanjaan Kesihatan Keseluruhan (TEH) dan Semasa (CHE)", 
+    "title_sort": 1,
+    "description_en": "Total and current expenditure on health in Malaysia, with a breakdown into public and private sectors.",
+    "description_ms": "Perbelanjaan keseluruhan dan semasa untuk kesihatan di Malaysia, dengan pecahan mengikut sektor awam dan swasta.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2022",
+    "last_updated": "2024-11-11",
+    "next_update": "-",
+    "methodology_en": "In general, national health accounts (NHA) seek to answer 4 questions pertaining to healthcare spending:\n1. How much is spent?\n2. Who spent it? (sources of financing)\n3. Where was it spent? (providers of healthcare)\n4. What was it spent for?(functions)\n\nMalaysia's national health accounts are based on the Malaysian National Health Accounts (MNHA) framework, which is consistent with international NHA classifications but with minor modifications to suit local policy needs.\n\nFor this dataset specifically, **total expenditure on health (TEH)** comprises 'health expenditure' and 'health-related' expenditure from both public and private sectors.\n- *Health expenditure* consists of all expenditures or outlays of medical care, prevention, promotion, rehabilitation, community health activities, health administration and regulation with the predominant objective to improve health.\n- *Health-related expenditure* covers capital formation of healthcare provider institutions, education and training of health personnel, research and development, and all other health-related expenditures.\n\n**Current expenditure on health (CEH)** is conceptually similar, but covers only health expenditure, i.e. it excludes *health-related* expenditure. The reason for publication of both TEH and CHE is that TEH (which has a broader scope) is used for domestic policy planning, while CHE is published for international comparability, as practiced by OECD and WHO countries since 2017. For a fuller description of the MNHA framework, you may refer to Chapter 2 of the [most recent MNHA publication](https://storage.data.gov.my/healthcare/pub/mnha_2022.pdf).",
+    "methodology_ms": "Secara umum, akaun kesihatan nasional (NHA) bertujuan untuk menjawab 4 persoalan berkaitan perbelanjaan kesihatan:\n1. Berapa banyak yang dibelanjakan?\n2. Siapa yang membelanjakan? (sumber pembiayaan)\n3. Di mana ia dibelanjakan? (pembekal kesihatan)\n4. Apakah tujuan ia dibelanjakan? (fungsi)\n\nAkaun kesihatan nasional Malaysia adalah berdasarkan kerangka Akaun Kesihatan Nasional Malaysia (MNHA), yang selaras dengan klasifikasi NHA antarabangsa tetapi dengan pengubahsuaian untuk memenuhi keperluan dasar tempatan.\n\nBagi set data ini khususnya, **perbelanjaan kesihatan keseluruhan (TEH)** merangkumi 'perbelanjaan kesihatan' dan perbelanjaan 'berkaitan kesihatan' daripada kedua-dua sektor awam dan swasta.\n- *Perbelanjaan kesihatan* terdiri daripada semua perbelanjaan atau pembayaran untuk penjagaan perubatan, pencegahan, promosi, pemulihan, aktiviti kesihatan komuniti, pentadbiran kesihatan dan peraturan dengan objektif utama untuk meningkatkan kesihatan.\n- *Perbelanjaan berkaitan kesihatan* merangkumi pembentukan modal institusi pembekal penjagaan kesihatan, pendidikan dan latihan kakitangan kesihatan, penyelidikan dan pembangunan, dan semua perbelanjaan lain yang berkaitan dengan kesihatan.\n\n**Perbelanjaan kesihatan semasa (CEH)** secara konsepnya adalah serupa, tetapi hanya merangkumi perbelanjaan kesihatan, iaitu tidak termasuk perbelanjaan *berkaitan kesihatan*. Tujuan penerbitan kedua-dua TEH dan CHE adalah kerana TEH (yang mempunyai skop lebih luas) digunakan untuk perancangan dasar Malaysia, manakala CHE diterbitkan untuk perbandingan antarabangsa, seperti yang diamalkan oleh negara-negara OECD dan WHO sejak 2017. Untuk penerangan yang lebih lengkap tentang kerangka MNHA, anda boleh rujuk kepada Bab 2 [penerbitan MNHA terkini](https://storage.data.gov.my/healthcare/pub/mnha_2022.pdf).",
+    "caveat_en": "The data may be revised in future updates, in accordance with the latest methodologies.",
+    "caveat_ms": "Data mungkin disemak semula dalam kemaskini akan datang, selaras dengan metodologi terkini.",
+    "publication_en": "[MNHA 2022](https://storage.data.gov.my/healthcare/pub/mnha_2022.pdf), the latest edition of the Malaysian National Health Accounts published by the Ministry of Health Malaysia.",
+    "publication_ms": "[MNHA 2022](https://storage.data.gov.my/healthcare/pub/mnha_2022.pdf), edisi terkini Akaun Kesihatan Nasional Malaysia yang diterbitkan oleh Kementerian Kesihatan Malaysia.",
+    "link_parquet": "https://storage.data.gov.my/healthcare/mnha.parquet",
+    "link_csv": "https://storage.data.gov.my/healthcare/mnha.csv",
+    "frequency": "ANNUAL",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2013,
+    "dataset_end": 2022,
+    "data_source": [
+        "MOH"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Healthcare",
+            "category_ms": "Kesihatan",
+            "category_sort": 40,
+            "subcategory_en": "Healthcare Accounts",
+            "subcategory_ms": "Akaun Kesihatan",
+            "subcategory_sort": 50
+        },
+        {
+            "site": "kkmnow",
+            "category_en": "Healthcare Accounts",
+            "category_ms": "Akaun Kesihatan",
+            "category_sort": 50,
+            "subcategory_en": "Overall",
+            "subcategory_ms": "Keseluruhan",
+            "subcategory_sort": 10
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The year of the expenditure in YYYY-MM-DD format, with MM-DD set to 01-01 because the data is an annual frequency.",
+            "description_ms": "[Tarikh] Tahun perbelanjaan dalam format YYYY-MM-DD, dengan MM-DD ditetapkan ke 01-01 kerana data pada frekuensi tahunan."
+        },
+        {
+            "name": "variable",
+            "title_en": "Variable",
+            "title_ms": "Pembolehubah",
+            "description_en": "[Categorical] Type of expenditure: Total Expenditure on Health (TEH) or Current Expenditure on Health (CEH).",
+            "description_ms": "[Kategori] Jenis perbelanjaan: Perbelanjaan Keseluruhan Kesihatan (TEH) atau Perbelanjaan Semasa Kesihatan (CEH)."
+        },
+        {
+            "name": "sector",
+            "title_en": "Sector",
+            "title_ms": "Sektor",
+            "description_en": "[Categorical] Sector of expenditure: total, private, or public.",
+            "description_ms": "[Kategori] Sektor perbelanjaan: keseluruhan, swasta, atau awam."
+        },
+        {
+            "name": "expenditure",
+            "title_en": "Expenditure (RM)",
+            "title_ms": "Perbelanjaan (RM)",
+            "description_en": "[Float] The amount of expenditure in Malaysian Ringgit.",
+            "description_ms": "[Apung] Jumlah perbelanjaan dalam Ringgit Malaysia."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 1,
+                "filter_columns": [
+                    "variable",
+                    "sector"
+                ],
+                "freeze_columns": [
+                    "date"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "timeseries",
+            "title_en": "Health Expenditure",
+            "title_ms": "Perbelanjaan Kesihatan",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "variable",
+                    "sector"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "expenditure"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "variable": "Variable", 
+        "sector": "Sector",
+        "expenditure": "Ependiture (RM)",
+        "teh": "Total Expenditure (TEH)",
+        "ceh": "Current Expenditure (CEH)",
+        "total": "All Sectors",
+        "private": "Private Sector",
+        "public": "Public Sector"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "variable": "Pembolehubah",
+        "sector": "Sektor", 
+        "expenditure": "Perbelanjaan (RM)",
+        "teh": "Perbelanjaan Keseluruhan (TEH)",
+        "ceh": "Perbelanjaan Semasa (CEH)",
+        "total": "Semua Sektor",
+        "private": "Sektor Swasta",
+        "public": "Sektor Awam"
+    },
+    "related_datasets": []
+}

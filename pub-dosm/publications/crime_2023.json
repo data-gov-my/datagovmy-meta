@@ -1,0 +1,150 @@
+{
+    "publication": "crime_2023",
+    "publication_type": "crime",
+    "release_date": "2024-10-16",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE",
+        "DISTRICT"
+    ],
+    "demography": [
+        "SEX",
+        "AGE",
+        "ETHNICITY"
+    ],
+    "en": {
+        "title": "[2023] Crime",
+        "publication_type_title": "Crime",
+        "description": "Annual crime and correctional facilities data at national, state, and district level, with breakdowns by type of crime and demographic groups.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Crime: 2023",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2023.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Crime: 2023",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2023.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Violent Crimes: 2023",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2023_violent.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Drug Crimes: 2023",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2023_drugs.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Corruption Crimes: 2023",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2023_corruption.xlsx"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "excel",
+                "resource_name": "Environmental Crimes: 2023",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2023_environment.xlsx"
+            },
+            {
+                "resource_id": 7,
+                "resource_type": "excel",
+                "resource_name": "Traffic Offences: 2023",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2023_traffic.xlsx"
+            },
+            {
+                "resource_id": 8,
+                "resource_type": "excel",
+                "resource_name": "Commercial Crimes: 2023",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2023_commercial.xlsx"
+            },
+            {
+                "resource_id": 9,
+                "resource_type": "excel",
+                "resource_name": "Maritime Crimes: 2023",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2023_maritime.xlsx"
+            },
+            {
+                "resource_id": 10,
+                "resource_type": "excel",
+                "resource_name": "Corrections: 2023",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2023_corrections.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2023] Jenayah",
+        "publication_type_title": "Jenayah",
+        "description": "Data jenayah dan fasiliti pemulihan tahunan di peringkat nasional, negeri, dan daerah, dengan pecahan mengikut jenis jenayah dan kumpulan demografi.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Jenayah: 2023",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2023.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Jenayah: 2023",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2023.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Jenayah Keganasan: 2023",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2023_violent.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Jenayah Dadah: 2023",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2023_drugs.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Jenayah Rasuah: 2023",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2023_corruption.xlsx"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "excel",
+                "resource_name": "Jenayah Alam Sekitar: 2023",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2023_environment.xlsx"
+            },
+            {
+                "resource_id": 7,
+                "resource_type": "excel",
+                "resource_name": "Kesalahan Lalu Lintas: 2023",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2023_traffic.xlsx"
+            },
+            {
+                "resource_id": 8,
+                "resource_type": "excel",
+                "resource_name": "Jenayah Komersil: 2023",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2023_commercial.xlsx"
+            },
+            {
+                "resource_id": 9,
+                "resource_type": "excel",
+                "resource_name": "Jenayah Maritim: 2023",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2023_maritime.xlsx"
+            },
+            {
+                "resource_id": 10,
+                "resource_type": "excel",
+                "resource_name": "Pemulihan: 2023",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2023_corrections.xlsx"
+            }
+        ]
+    }
+}

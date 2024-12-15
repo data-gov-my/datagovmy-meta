@@ -1,0 +1,172 @@
+{
+    "title_en": "Monthly Trade by SITC Section",
+    "title_ms": "Perdagangan Bulanan mengikut Seksyen SITC",
+    "title_sort": 50,
+    "description_en": "Monthly exports and imports by SITC commodity sections.",
+    "description_ms": "Eksport dan import bulanan mengikut seksyen komoditi SITC.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2024-07",
+    "last_updated": "2024-08-28 12:00",
+    "next_update": "2024-09-27 12:00",
+    "methodology_en": "This dataset presents monthly trade data for Malaysia, broken down by SITC section. The SITC classification is a widely used international system for classifying traded goods and services. For a full description of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/trade-technotes).",
+    "methodology_ms": "Dataset ini memaparkan data perdagangan bulanan Malaysia yang dipecahkan mengikut seksyen SITC. Klasifikasi SITC ialah sistem antarabangsa yang digunakan secara meluas untuk mengklasifikasikan barangan dan perkhidmatan yang diperdagangkan. Untuk mendapat perincian metodologi yang penuh, sila merujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/trade-technotes).",
+    "caveat_en": "Data for the most recent two months is provisional and subject to revision in future updates.",
+    "caveat_ms": "Data bagi dua bulan terkini tertakluk kepada semakan semula dalam kemaskini akan datang.",
+    "publication_en": "[External Trade, July 2024](https://open.dosm.gov.my/publications/trade_2024-07), the latest edition of the monthly trade statistics published by DOSM. OpenDOSM also features a [dashboard on trade](https://open.dosm.gov.my/dashboard/external-trade).",
+    "publication_ms": "[Perdagangan Luar, Julai 2024](https://open.dosm.gov.my/ms-MY/publications/trade_2024-07), edisi terkini bagi statistik perdagangan bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan](https://open.dosm.gov.my/ms-MY/dashboard/external-trade).",
+    "link_parquet": "https://storage.dosm.gov.my/trade/trade_sitc_1d.parquet",
+    "link_csv": "https://storage.dosm.gov.my/trade/trade_sitc_1d.csv",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2000,
+    "dataset_end": 2024,
+    "data_source": [
+        "DOSM"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "External Trade",
+            "subcategory_ms": "Perdagangan Luar",
+            "subcategory_sort": 40
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "External Trade",
+            "subcategory_ms": "Perdagangan Luar",
+            "subcategory_sort": 40
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01 since the data is at monthly frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD ditetapkan sebagai 01 kerana data berfrekuensi bulanan"
+        },
+        {
+            "name": "section",
+            "title_en": "SITC Section",
+            "title_ms": "Seksysen SITC",
+            "description_en": "[Categorical] SITC section (from 0 to 9) or 'overall'",
+            "description_ms": "[Kategori] Seksysen SITC (dari 0 hingga 9) atau 'keseluruhan'"
+        },
+        {
+            "name": "exports",
+            "title_en": "Exports",
+            "title_ms": "Eksport",
+            "description_en": "[Float] The value of exports in RM millions.",
+            "description_ms": "[Apung] Nilai eksport dalam RM juta."
+        },
+        {
+            "name": "imports",
+            "title_en": "Imports",
+            "title_ms": "Import",
+            "description_en": "[Float] The value of imports in RM millions.",
+            "description_ms": "[Apung] Nilai import dalam RM juta."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "section"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "exports",
+            "title_en": "Exports",
+            "title_ms": "Eksport",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "section"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "exports"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "imports",
+            "title_en": "Imports",
+            "title_ms": "Import",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "section"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "imports"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Value (RM mil)",
+        "date": "Date",
+        "section": "SITC Section",
+        "exports": "Exports",
+        "imports": "Imports",
+        "0": "Food & Live Animals",
+        "1": "Beverages & Tobacco",
+        "2": "Crude Materials, Inedible, Except Fuels",
+        "3": "Mineral Fuels, Lubricants & Related Materials",
+        "4": "Animal and Vegetable Oils, Fats & Waxes",
+        "5": "Chemicals & Related Products N.E.C.",
+        "6": "Manufactured Goods Classified Chiefly by Material",
+        "7": "Machinery & Transport Equipment",
+        "8": "Miscellaneous Manufactured Articles",
+        "9": "Other Commodities & Transactions N.E.C.",
+        "overall": "Overall"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Nilai (RM juta)",
+        "date": "Tarikh",
+        "section": "Seksysen SITC",
+        "exports": "Eksport",
+        "imports": "Import",
+        "0": "Makanan & Binatang Hidup",
+        "1": "Minuman & Tembakau",
+        "2": "Bahan Mentah tidak boleh Dimakan, Kecuali Bahan Api",
+        "3": "Bahan Api Galian, Pelincir & Bahan Berkaitan",
+        "4": "Minyak, Lemak dan Minyak Tepu Binatang & Sayuran",
+        "5": "Bahan Kimia & Keluaran Berkaitan T.T.T.L.",
+        "6": "Barang-Barang Keluaran Kilang Mengikut Jenis Bahan",
+        "7": "Jentera & Kelengkapan Pengangkutan",
+        "8": "Pelbagai Barang Keluaran Kilang",
+        "9": "Urus Niaga & Barangan Lain T.T.T.L.",
+        "overall": "Keseluruhan"
+    },
+    "related_datasets": []
+}

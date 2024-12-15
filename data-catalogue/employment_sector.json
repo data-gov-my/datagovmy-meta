@@ -1,0 +1,143 @@
+{
+    "title_en": "Employment by MSIC Sector and Sex",
+    "title_ms": "Pekerjaan Mengikut Sektor MSIC dan Jantina",
+    "title_sort": 50,
+    "description_en": "Annual distribution of employment by MSIC sector and sex.",
+    "description_ms": "Taburan pekerjaan tahunan mengikut sektor MSIC dan jantina.",
+    "exclude_openapi": false,
+    "manual_trigger": "na",
+    "data_as_of": "2022",
+    "last_updated": "2024-11-08 12:00",
+    "next_update": "2025-01-01 12:00",
+    "methodology_en": "This data is produced based on the Labour Force Survey (LFS), which is designed to collect representative data on the labour force at national and state level. Consistency in methodology has been maintained to ensure that the data is comparable over time. Survey findings are a monthly, quarterly and annual basis. For a full description of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/lfs-technotes).",
+    "methodology_ms": "Data ini dihasilkan berdasarkan Survei Tenaga Buruh (STB), yang bertujuan untuk mengumpul data tentang tenaga buruh di peringkat nasional dan negeri. Metodologi survei ini dipastikan konsisten untuk mendapatkan perbandingan statistik siri masa. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Untuk mendapat perincian metodologi yang penuh, sila merujuk kepada [Nota Teknikal](https://open.dosm.gov.my/publications/technical-notes/lfs-technotes).",
+    "caveat_en": "The proportions may not sum to 100% due to rounding.",
+    "caveat_ms": "Peratusan mungkin tidak berjumlah 100% disebabkan pembundaran.",
+    "publication_en": "The [Labour Force Report](https://open.dosm.gov.my/publications/labour_month_2024-09), providing detailed insights into employment trends.",
+    "publication_ms": "[Laporan Tenaga Buruh](https://open.dosm.gov.my/ms-MY/publications/labour_month_2024-09), memberikan pandangan terperinci tentang trend pekerjaan.",
+    "link_parquet": "https://storage.dosm.gov.my/labour/employment_sector.parquet",
+    "link_csv": "https://storage.dosm.gov.my/labour/employment_sector.csv",
+    "frequency": "ANNUAL",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2001,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Labour Markets",
+            "category_ms": "Pasaran Buruh",
+            "category_sort": 50,
+            "subcategory_en": "Labour Force Survey",
+            "subcategory_ms": "Survei Tenaga Buruh"
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Labour Markets",
+            "category_ms": "Pasaran Buruh",
+            "category_sort": 50,
+            "subcategory_en": "Labour Force Survey",
+            "subcategory_ms": "Survei Tenaga Buruh"
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The year of the data in YYYY format, with MM-DD set to 01-01 because the data is at annual frequency.",
+            "description_ms": "[Tarikh] Tahun data dalam format YYYY, dengan MM-DD ditetapkan ke 01-01 kerana data berfrekuensi tahunan."
+        },
+        {
+            "name": "sector",
+            "title_en": "Sector",
+            "title_ms": "Sektor",
+            "description_en": "[Kategori] Sektor pekerjaan: pertanian (MSIC sections A and B), industri (C,D,E,F) atau perkhidmatan (G,H,I,J,K,L,M,N,O,P,Q).",
+            "description_ms": "[Kategori] Sektor pekerjaan: pertanian (Seksyen MSIC A and B), industri (C,D,E,F) atau perkhidmatan (G,H,I,J,K,L,M,N,O,P,Q)."
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Categorical] The sex of the employed individuals: male, female, or both.",
+            "description_ms": "[Kategori] Jantina individu yang bekerja: lelaki, perempuan, atau kedua-duanya."
+        },
+        {
+            "name": "proportion",
+            "title_en": "Proportion (%)",
+            "title_ms": "Peratusan (%)",
+            "description_en": "[Float] The proportion of employment in the sector as a percentage.",
+            "description_ms": "[Apung] Peratusan pekerjaan dalam sektor sebagai peratusan."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 1,
+                "filter_columns": [
+                    "sector",
+                    "sex"
+                ],
+                "freeze_columns": [
+                    "date"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "timeseries",
+            "title_en": "Proportion Employed",
+            "title_ms": "Taburan Pekerja",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "sector",
+                    "sex"
+                ],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "proportion"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "sector": "Sector",
+        "sex": "Sex",
+        "proportion": "Proportion (%)",
+        "y1": "Proportion (%)",
+        "agriculture": "Agriculture",
+        "industry": "Industry",
+        "services": "Services",
+        "male": "Male",
+        "female": "Female",
+        "both": "Both Sexes"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "sector": "Sektor",
+        "sex": "Jantina",
+        "proportion": "Peratusan (%)",
+        "y1": "Peratusan (%)",
+        "agriculture": "Pertanian",
+        "industry": "Industri",
+        "services": "Perkhidmatan",
+        "male": "Lelaki",
+        "female": "Perempuan",
+        "both": "Kedua-dua Jantina"
+    },
+    "related_datasets": []
+}

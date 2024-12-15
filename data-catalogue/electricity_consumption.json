@@ -1,0 +1,138 @@
+{
+    "title_en": "Monthly Electricity Consumption",
+    "title_ms": "Penggunaan Elektrik Bulanan",
+    "title_sort": 10,
+    "description_en": "Monthly electricity consumption by sector.",
+    "description_ms": "Penggunaan elektrik bulanan mengikut sektor.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2024-09-30 23:59",
+    "last_updated": "2024-09-01 12:00",
+    "next_update": "2024-10-01 12:00",
+    "methodology_en": "In Malaysia, the electrical grid is operated by various parties, primarily Tenaga Nasional Berhad (for Peninsular Malaysia), Sabah Electricity Sdn. Bhd., and Sarawak Energy Berhad. Independent power producers also contribute to the grid. This dataset is tabulated from the operational records of these providers, and shows monthly electricity consumption in Malaysia, categorized by the sector in which it is consumed.",
+    "methodology_ms": "Di Malaysia, grid elektrik dioperasikan oleh pelbagai pihak, terutamanya Tenaga Nasional Berhad (untuk Semenanjung Malaysia), Sabah Electricity Sdn. Bhd., dan Sarawak Energy Berhad. Pengeluar kuasa bebas juga menyumbang kepada grid elektrik. Set data ini dihasilkan daripada rekod operasi pengendali tersebut, dan menunjukkan penggunaan elektrik bulanan di Malaysia, dengan pecahan mengikut sektor.",
+    "caveat_en": "Data for the most recent 6 months is still provisional and may be revised in future updates.",
+    "caveat_ms": "Data bagi 6 bulan terkini belum lagi dimuktamadkan dan mungkin disemak dalam kemaskini akan datang.",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/energy/electricity_consumption.parquet",
+    "link_csv": "https://storage.data.gov.my/energy/electricity_consumption.csv",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2018,
+    "dataset_end": 2024,
+    "data_source": [
+        "TNB",
+        "SESB",
+        "SWK-ENERGY",
+        "ST",
+        "DOSM"
+    ],
+    "site_category": [
+        {
+          "site": "datagovmy",
+          "category_en": "Environment",
+          "category_ms": "Alam Sekitar",
+          "category_sort": 45,
+          "subcategory_en": "Energy",
+          "subcategory_ms": "Tenaga",
+          "subcategory_sort": 20
+        },
+        {
+          "site": "opendosm",
+          "category_en": "Environment",
+          "category_ms": "Alam Sekitar",
+          "category_sort": 95,
+          "subcategory_en": "Energy",
+          "subcategory_ms": "Tenaga",
+          "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01 as the data is at monthly frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan` DD diberi nilai 01 kerana data berfrekuensi bulanan"
+        },
+        {
+            "name": "sector",
+            "title_en": "Sector",
+            "title_ms": "Sektor",
+            "description_en": "[Categorical] All sectors ('total'), local ('local') with breakdowns into commercial ('local_commercial') and domestic ('local_domestic') use, exports ('exports'), or losses ('losses'). Commercial usage includes the industrial and mining sectors, while domestic usage includes public lighting.",
+            "description_ms": "[Kategori] Semua sektor ('total'), tempatan ('local') dengan pecahan kepada penggunaan komersial ('local_commercial') dan domestik ('local_domestic'), eksport ('exports'), atau kerugian ('losses'). Penggunaan komersial merangkumi sektor industri dan perlombongan, manakala penggunaan domestik merangkumi lampu awam."
+        },
+        {
+            "name": "consumption",
+            "title_en": "Electricity Consumption",
+            "title_ms": "Penggunaan Elektrik",
+            "description_en": "[Float] Amount of electricity consumed in millions of kilowatt-hours (MKWh)",
+            "description_ms": "[Apung] Jumlah penggunaan elektrik dalam juta kilowatt-jam (MKWh)"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 2,
+                "filter_columns": [
+                    "sector"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "consumption",
+            "title_en": "Electricity Consumption",
+            "title_ms": "Penggunaan Elektrik",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "sector"
+                ],
+                "precision": 2,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "consumption"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Consumption (MWh)",
+        "date": "Date",
+        "sector": "Sector",
+        "consumption": " Consumption",
+        "total": "Total",
+        "local": "Local",
+        "local-commercial": "Local Commercial",
+        "local-domestic": "Local Domestic",
+        "exports": "Exports",
+        "losses": "Losses"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Penggunaan (MWh)",
+        "tarikh": "Tarikh",
+        "sektor": "Sektor",
+        "penggunaan": "Penggunaan",
+        "total": "Keseluruhan",
+        "local": "Tempatan",
+        "local-commercial": "Komersial Tempatan",
+        "local-domestic": "Domestik Tempatan",
+        "exports": "Eksport",
+        "losses": "Kerugian"
+    },
+    "related_datasets": []
+}

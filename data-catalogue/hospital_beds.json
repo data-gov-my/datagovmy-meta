@@ -1,0 +1,147 @@
+{
+    "title_en": "Hospital Beds by State and Hospital Type",
+    "title_ms": "Katil Hospital mengikut Negeri dan Jenis Hospital",
+    "title_sort": 10,
+    "description_en": "Number of public sector hospital beds at national, state, and district level, with a breakdown by hospital type.",
+    "description_ms": "Bilangan katil hospital sektor awam di peringkat nasional, negeri, dan daerah, dengan pecahan mengikut jenis hospital.",
+    "exclude_openapi": false,
+    "manual_trigger": "`",
+    "data_as_of": "2022-12-31 23:59",
+    "last_updated": "2024-09-01 12:00",
+    "next_update": "tbc",
+    "methodology_en": "This dataset is tabulated from the operational hospital-level records maintained by the Health Informatics Centre (PIK) of the Ministry of Health. The data reflects the number of active hospital beds as at 31 December each year.",
+    "methodology_ms": "Dataset ini disusun daripada rekod pentadbiran peringkat hospital yang dikawalselia oleh Pusat Informatik Kesihatan (PIK) di Kementerian Kesihatan Malaysia. Data ini mencerminkan bilangan katil hospital yang aktif setakat 31 Disember setiap tahun.",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/healthcare/hospital_beds.parquet",
+    "link_csv": "https://storage.data.gov.my/healthcare/hospital_beds.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE",
+        "DISTRICT"
+    ],
+    "demography": [],
+    "dataset_begin": 2015,
+    "dataset_end": 2022,
+    "data_source": [
+        "MOH"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Healthcare",
+            "category_ms": "Kesihatan",
+            "category_sort": 40,
+            "subcategory_en": "Healthcare Infrastructure",
+            "subcategory_ms": "Infrastruktur Kesihatan",
+            "subcategory_sort": 15
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] Date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data pada frekuensi tahunan"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states, or Malaysia for national-level data",
+            "description_ms": "[Kategori] Salah satu daripada 16 negeri, atau Malaysia untuk data peringkat nasional"
+        },
+        {
+            "name": "district",
+            "title_en": "District",
+            "title_ms": "Daerah",
+            "description_en": "[Categorical] One of 160 administrative districts, or 'All Districts' for state-level data",
+            "description_ms": "[Kategori] Satu daripada 160 daerah administratif, atau 'Semua Daerah' untuk data peringkat negeri"
+        },
+        {
+            "name": "type",
+            "title_en": "Hospital Type",
+            "title_ms": "Jenis Hospital",
+            "description_en": "[Categorical] Either an MoH-administered hospital ('hospital_moh'), MoH-administered special medical institution ('special_medical_institution'), or non-MoH hospital ('hospital_non_moh'). Special medical institutions refer to institutions with a specific focus, such as on cancer, heart disease, etc. Non-MoH hospitals refer to government hospitals under the purview of other agencies, such as army hospitals.",
+            "description_ms": "[Kategori] Sama ada hospital KKM ('hospital_moh'), institusi perubatan khas KKM ('special_medical_institution'), atau hospital bukan KKM ('hospital_non_moh'). Institusi perubatan khas merujuk kepada institusi dengan fokus khusus, seperti pada penyakit kanser, penyakit jantung, dsb. Hospital bukan KKM merujuk kepada hospital kerajaan di bawah kawalselia agensi lain, seperti hospital tentera."
+        },
+        {
+            "name": "beds",
+            "title_en": "Number of Beds",
+            "title_ms": "Bilangan Katil",
+            "description_en": "[Integer] Number of hospital beds",
+            "description_ms": "[Integer] Bilangan katil hospital"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "state",
+                    "type"
+                ],
+                "freeze_columns": [
+                    "date"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "timeseries",
+            "title_en": "Hospital Beds",
+            "title_ms": "Katil Hospital",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state",
+                    "type"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "beds"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y": "Beds",
+        "date": "Date",
+        "state": "State",
+        "district": "District",
+        "type": "Hospital Type",
+        "beds": "Number of Beds",
+        "all-districts": "All Districts",
+        "all": "All Hospitals",
+        "hospital-moh": "MOH Hospitals",
+        "hospital-non-moh": "Non-MOH Hospitals",
+        "special-medical-institution": "Special Medical Institutions (MOH)"
+    },
+    "translations_ms": {
+        "x": "Date",
+        "y": "Katil",
+        "date": "Tarikh",
+        "state": "Negeri",
+        "district": "Daerah",
+        "type": "Jenis Hospital",
+        "beds": "Bilangan Katil",
+        "all-districts": "Semua Daerah",
+        "all": "Semua Hospital",
+        "hospital-moh": "Hospital KKM",
+        "hospital-non-moh": "Hospital Bukan KKM",
+        "special-medical_institution": "Institusi Perubatan Khas (KKM)"
+    },
+    "related_datasets": []
+}

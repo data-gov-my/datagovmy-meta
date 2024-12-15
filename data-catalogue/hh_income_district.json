@@ -1,0 +1,155 @@
+{
+    "title_en": "Household Income by Administrative District",
+    "title_ms": "Pendapatan Isi Rumah Mengikut Daerah Pentadbiran",
+    "title_sort": 3,
+    "description_en": "Mean and median gross monthly household income by administrative district from 2019 to 2022.",
+    "description_ms": "Purata dan penengah pendapatan kasar bulanan isi rumah mengikut daerah pentadbiran dari 2019 hingga 2022.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2022",
+    "last_updated": "2023-07-28 12:00",
+    "next_update": "—",
+    "methodology_en": "Data on individual salaries and wages [in the formal economy](https://open.dosm.gov.my/dashboard/formal-sector-wages) is easy to obtain from administrative records. However, data on household income is more difficult to tabulate, as it requires the correct definition of a statistical household, as well as the inclusion of non-salary sources of income such as property income, dividends, and interest. For this reason, it requires the use of a representative survey or census.\n\n In Malaysia, data on household income (as well as expenditure and access to basic amenities) is collected through the Household Income and Expenditure Survey (HIES), which is conducted at least twice within any 5-year period. The data shown here was tabulated from household-level HIES records spanning 1970 to 2022 (the latest edition). For a full description of the methodology, please refer to the [technical notes](https://open.dosm.gov.my/publications/technical-notes/hies-technotes).",
+    "methodology_ms": "Data mengenai gaji dan upah individu [dalam ekonomi formal](https://open.dosm.gov.my/ms-MY/dashboard/formal-sector-wages) mudah diperoleh daripada rekod pentadbiran. Sebaliknya, data mengenai pendapatan isi rumah lebih sukar untuk dihasilkan, kerana ia memerlukan definisi statistik yang tepat bagi isi rumah, serta sumber pendapatan bukan gaji seperti pendapatan hartanah, dividen, dan faedah. Oleh itu, ia memerlukan penggunaan survei atau banci.\n\nDi Malaysia, data mengenai pendapatan isi rumah (serta perbelanjaan dan akses kepada kemudahan asas) dikumpul melalui Survei Pendapatan dan Perbelanjaan Isi Rumah (HIES), yang dilaksanakan sekurang-kurangnya dua kali dalam mana-mana tempoh 5 tahun. Data yang dipaparkan di sini telah dihasilkan daripada rekod HIES peringkat isi rumah dari tahun 1970 hingga 2022 (edisi terkini). Untuk mendapat perincian metodologi yang penuh, sila rujuk kepada [nota teknikal](https://open.dosm.gov.my/publications/technical-notes/hies-technotes).",
+    "caveat_en": "This data presents nominal values, i.e. they have not been adjusted for inflation. Furthermore, district-level data is only published from 2019 (relative to [state-level data](https://open.dosm.gov.my/data-catalogue/hh_income_state) which is available from 1970) as prior HIES samples were not sufficient to support district-level granularity.",
+    "caveat_ms": "Data ini menunjukkan nilai nominal, iaitu mereka tidak diselaraskan untuk inflasi. Selain itu, data daerah hanya diterbitkan mulai 2019 (berbanding dengan [data negeri](https://open.dosm.gov.my/data-catalogue/hh_income_state) yang tersedia dari 1970) kerana sampel HIES sebelumnya tidak mencukupi untuk membolehkan pecahan mengikut daerah.",
+    "publication_en": "The [Household Income Survey Report, 2022](https://open.dosm.gov.my/hies/household_income_2022.pdf), the latest edition of the household income statistics published by DOSM. OpenDOSM also features a [dashboard on household income](https://open.dosm.gov.my/dashboard/household-income-expenditure) which enables you to explore Malaysia's household income data interactively.",
+    "publication_ms": "[Laporan Survei Pendapatan Isi Rumah, 2022](https://open.dosm.gov.my/ms-MY/publications/hies/household_income_2022.pdf), edisi terkini bagi statistik pendapatan isi rumah yang diterbitkan oleh DOSM. OpenDOSM juga membekalkan [_dashboard_ pendapatan isi rumah](https://open.dosm.gov.my/ms-MY/dashboard/household-income-expenditure) yang membolehkan anda menerokai data pendapatan isi rumah Malaysia secara interaktif.",
+    "link_parquet": "https://storage.dosm.gov.my/hies/hh_income_district.parquet",
+    "link_csv": "https://storage.dosm.gov.my/hies/hh_income_district.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "DISTRICT"
+    ],
+    "demography": [],
+    "dataset_begin": 2019,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM"
+    ],
+    "site_category": [
+        {
+          "site": "datagovmy",
+          "category_en": "Households",
+          "category_ms": "Isi Rumah",
+          "category_sort": 2,
+          "subcategory_en": "Income",
+          "subcategory_ms": "Pendapatan",
+          "subcategory_sort": 20
+        },
+        {
+          "site": "opendosm",
+          "category_en": "Households",
+          "category_ms": "Isi Rumah",
+          "category_sort": 2,
+          "subcategory_en": "Income",
+          "subcategory_ms": "Pendapatan",
+          "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states, including the 3 Federal Territories",
+            "description_ms": "[Kategoril] Satu daripada 16 negeri, termasuk 3 Wilayah Persekutuan"
+        },
+        {
+          "name": "district",
+          "title_en": "District",
+          "title_ms": "Daerah",
+          "description_en": "[Categorical] One of 160 administrative districts, including the 4 states (Perlis and the 3 Federal Territories) which do not have subdivisions",
+          "description_ms": "[Kategori] Satu daripada 160 daerah pentadbiran, termasuk 4 negeri (Perlis dan 3 Wilayah Persekutuan) yang tidak dipecahkan lagi"
+        },
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "income_mean",
+            "title_en": "Mean Income",
+            "title_ms": "Pendapatan Purata",
+            "description_en": "[Integer, RM] Average gross monthly household income",
+            "description_ms": "[Integer, RM] Purata pendapatan kasar bulanan isi rumah"
+        },
+        {
+            "name": "income_median",
+            "title_en": "Median Income",
+            "title_ms": "Pendapatan Penengah",
+            "description_en": "[Integer, RM] Median gross monthly household income; this is generally less than the mean income due to the right-skewed distribution of income",
+            "description_ms": "[Integer, RM] Penengah pendapatan kasar bulanan isi rumah; ini biasanya kurang daripada pendapatan purata kerana taburan pendapatan yang condong ke kanan"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "filter_columns": [
+                    "date"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "income_median",
+            "title_en": "Median Income",
+            "title_ms": "Pendapatan Penengah",
+            "chart_type": "CHOROPLETH",
+            "config": {
+                "filter_columns": [
+                    "date"
+                ],
+                "format": {
+                    "x": "district",
+                    "y": "income_median"
+                },
+                "precision": 0,
+                "color": "blues",
+                "geojson": "district"
+            }
+        },
+        {
+            "dataviz_id": "income_mean",
+            "title_en": "Mean Income",
+            "title_ms": "Pendapatan Purata",
+            "chart_type": "CHOROPLETH",
+            "config": {
+                "filter_columns": [
+                    "date"
+                ],
+                "format": {
+                    "x": "district",
+                    "y": "income_mean"
+                },
+                "precision": 0,
+                "color": "purples",
+                "geojson": "district"
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Income",
+        "state": "State",
+        "district": "District",
+        "date": "Date",
+        "income_mean": "Mean Income",
+        "income_median": "Median Income"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Pendapatan",
+        "date": "Tarikh",
+        "state": "Negeri",
+        "district": "Daerah",
+        "income_mean": "Pendapatan Purata",
+        "income_median": "Pendapatan Median"
+    },
+    "related_datasets": []
+}

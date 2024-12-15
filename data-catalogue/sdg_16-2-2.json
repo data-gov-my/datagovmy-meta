@@ -1,0 +1,115 @@
+{
+    "title_en": "SDG 16-2-2: Victims of Human Trafficking",
+    "title_ms": "SDG 16-2-2: Mangsa Pemerdagangan Manusia",
+    "title_sort": 105,
+    "description_en": "Number of victims of human trafficking per 100,000 population by sex, age, and form of exploitation, as per the specifications of SDG Indicator 16-2-2.",
+    "description_ms": "Bilangan mangsa pemerdagangan manusia bagi setiap 100,000 penduduk mengikut jantina, umur, dan bentuk pemerdagangan, selaras dengan spesifikasi Indikator SDG 16-2-2.",
+    "exclude_openapi": false,
+    "manual_trigger": "1",
+    "data_as_of": "2022",
+    "last_updated": "2024-09-01 12:00",
+    "next_update": "-",
+    "methodology_en": "This dataset is produced based on ground-level surveillance coordinated by the Council for Anti-Trafficking in Persons and Anti-Smuggling of Migrants, which is tasked with implementing and coordinating national security policies and programmes on the aspects of trafficking in persons and smuggling of migrants. Besides for operational purposes, this data is reported as part of Malaysia's monitoring of the Sustainable Development Goals (SDGs), in line with the most recent [SDG Global Indicator Framework](https://storage.dosm.gov.my/technotes/sdg.pdf).",
+    "methodology_ms": "Set data ini dihasilkan melalui risikan di lapangan yang diselaraskan oleh Majlis Anti Pemerdagangan Orang dan Anti Penyeludupan Migran, iaitu Majlis yang dipertanggungjawabkan untuk melaksanakan dan menyelaraskan dasar dan program urus keselamatan Negara mengenai aspek pemerdagangan orang dan penyeludupan migrant. Selain tujuan operasi, data ini juga dilaporkan sebagai sebahagian daripada pemantauan Malaysia terhadap Matlamat Pembangunan Lestari (SDG), selaras dengan [Kerangka Indikator Global SDG](https://storage.dosm.gov.my/technotes/sdg.pdf) yang terkini.",
+    "caveat_en": "The data is subject to revision in future updates.",
+    "caveat_ms": "Data ini mungkin akan disemak semula dalam kemaskini akan datang.",
+    "publication_en": "—",
+    "publication_ms": "—",
+    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_16-2-2.parquet",
+    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_16-2-2.csv",
+    "frequency": "ANNUAL",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2016,
+    "dataset_end": 2022,
+    "data_source": [
+        "KDN"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Indikator SDG",
+            "subcategory_sort": 10
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Indikator SDG",
+            "subcategory_sort": 10
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency.",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai MM-DD ditetapkan kepada 01-01 kerana data pada frekuensi tahunan."
+        },
+		{
+			"name": "type",
+			"title_en": "Type of Exploitation",
+			"title_ms": "Bentuk Pemerdagangan",
+			"description_en": "[Categorical] All forms of trafficking ('all'), human trafficking for forced labour, servitude and slavery ('forced_labour'), or human trafficking for sexual exploitation ('sexual_exploitation')",
+			"description_ms": "[Kategori] Semua jenis pemerdagangan ('all'), pemerdagangan orang untuk tujuan buruh paksa ('forced_labour'), atau pemerdagangan orang untuk kegunaan seksual ('sexual_exploitation')"
+		},
+		{
+			"name": "sex",
+			"title_en": "Sex",
+			"title_ms": "Jantina",
+			"description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
+			"description_ms": "[Kategori] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
+		},
+		{
+			"name": "age",
+			"title_en": "Age Group",
+			"title_ms": "Kumpulan Umur",
+			"description_en": "[Categorical] Either all ages ('all'), individuals less than 18 years old ('18_below'), or individuals aged 18 and above ('18_and_above')",
+			"description_ms": "[Kategori] Sama ada semua umur ('all'), individu yang berumur kurang daripada 18 tahun ('18_below'), atau individu yang berumur 18 tahun ke atas ('18_and_above')"
+		},
+		{
+			"name": "value",
+			"title_en": "Victims per 100,000 Population",
+			"title_ms": "Mangsa per 100,000 Penduduk",
+			"description_en": "[Float] The number of victims of human trafficking per 100,000 population of that sex and age group",
+			"description_ms": "[Apung] Bilangan mangsa pemerdagangan manusia bagi setiap 100,000 penduduk bagi jantina dan kumpulan umur tersebut"
+		}
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 2,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "type": "Type of Exploitation",
+        "sex": "Sex",
+        "age": "Age Group",
+        "value": "Victims per 100,000 Population"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "type": "Bentuk Pemerdagangan",
+        "sex": "Jantina",
+        "age": "Kumpulan Umur",
+        "value": "Mangsa per 100,000 Penduduk"
+    },
+    "related_datasets": []
+}

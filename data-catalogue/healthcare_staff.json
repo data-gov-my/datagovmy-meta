@@ -1,0 +1,135 @@
+{
+    "title_en": "Healthcare Staff by State and Staff Type",
+    "title_ms": "Kakitangan Kesihatan mengikut Negeri dan Jenis Kakitangan",
+    "title_sort": 15,
+    "description_en": "Number of public sector healthcare staff at national and state level, with a breakdown by staff type.",
+    "description_ms": "Bilangan kakitangan kesihatan sektor awam di peringkat nasional dan negeri, dengan pecahan mengikut jenis kakitangan.",
+    "exclude_openapi": false,
+    "manual_trigger": "`",
+    "data_as_of": "2022-12-31 23:59",
+    "last_updated": "2024-09-01 12:00",
+    "next_update": "tbc",
+    "methodology_en": "This dataset is tabulated from the operational individual-level records maintained by the Health Informatics Centre (PIK) of the Ministry of Health. The data reflects the number of active healthcare staff as at 31 December each year.",
+    "methodology_ms": "Dataset ini disusun daripada rekod pentadbiran peringkat individu yang dikawalselia oleh Pusat Informatik Kesihatan (PIK) di Kementerian Kesihatan Malaysia. Data ini mencerminkan bilangan kakitangan kesihatan yang aktif setakat 31 Disember setiap tahun.",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/healthcare/healthcare_staff.parquet",
+    "link_csv": "https://storage.data.gov.my/healthcare/healthcare_staff.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2014,
+    "dataset_end": 2022,
+    "data_source": [
+        "MOH"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Healthcare",
+            "category_ms": "Kesihatan",
+            "category_sort": 40,
+            "subcategory_en": "Healthcare Infrastructure",
+            "subcategory_ms": "Infrastruktur Kesihatan",
+            "subcategory_sort": 15
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] Date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data pada frekuensi tahunan"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states, or Malaysia for national-level data",
+            "description_ms": "[Kategori] Salah satu daripada 16 negeri, atau Malaysia untuk data peringkat nasional"
+        },
+        {
+            "name": "staff_type",
+            "title_en": "Staff Type",
+            "title_ms": "Jenis Kakitangan",
+            "description_en": "[Categorical] Either doctors ('doctor'), nurses ('nurse'), community nurses ('nurse_community'), dentists ('dentist'), or all staff ('all')",
+            "description_ms": "[Kategori] Sama ada doktor ('doctor'), jururawat ('nurse'), jururawat komuniti ('nurse_community'), doktor gigi ('dentist'), atau semua kakitangan ('all')"
+        },
+        {
+            "name": "staff",
+            "title_en": "Staff Count",
+            "title_ms": "Bilangan Kakitangan",
+            "description_en": "[Integer] Number of active staff",
+            "description_ms": "[Integer] Bilangan kakitangan yang aktif"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "state",
+                    "type"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "timeseries",
+            "title_en": "Healthcare Staff",
+            "title_ms": "Kakitangan Kesihatan",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state",
+                    "type"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "staff"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y": "Staff Count",
+        "date": "Date",
+        "state": "State",
+        "type": "Staff Type",
+        "staff": "Staff Count",
+        "all": "All Staff",
+        "doctor": "Doctors",
+        "nurse": "Nurses",
+        "nurse-community": "Community Nurses",
+        "dentist": "Dentists"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y": "Bilangan Kakitangan",
+        "date": "Tarikh",
+        "state": "Negeri",
+        "type": "Jenis Kakitangan",
+        "staff": "Bilangan Kakitangan",
+        "all": "Semua Kakitangan",
+        "doctor": "Doktor",
+        "nurse": "Jururawat",
+        "nurse-community": "Jururawat Komuniti",
+        "dentist": "Doktor Gigi"
+    },
+    "related_datasets": []
+}

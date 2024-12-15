@@ -68,12 +68,18 @@
       "play": "Main",
       "pause": "Jeda",
       "indicator": "Penunjuk",
+      "available_at": "Diakses melalui",
+      "accessed": "Diakses",
+      "last_modified": "Kemaskini terakhir",
+      "cited": "dipetik",
+      "available_from": "Tersedia dari",
       "ranking": "Kedudukan ({{ count, number }})",
       "charts": {
         "heatmap": "Peta",
         "table": "Jadual"
       },
-      "banner": ""
+      "banner": "",
+      "opendosm_banner": "🚀 Perkhidmatan Baharu: Dapatkan penerbitan terkini DOSM terus di emel anda. Klik di [sini](/ms-MY/publications/subscribe) untuk memulakan langganan."
     },
     "time": {
       "daily_7d": "Purata 7 hari",
@@ -103,6 +109,7 @@
       "legacy": "Portal Lama",
       "publications": "Penerbitan",
       "about": "Tentang",
+      "progress": "Perkembangan",
       "pmo": "Jabatan Perdana Menteri",
       "gov": "Kerajaan Malaysia",
       "open_source": "Sumber Terbuka",
@@ -115,6 +122,7 @@
       "public_open_data": "Data Terbuka Sektor Awam",
       "guiding_principles": "Prinsip Panduan",
       "terms_of_use": "Syarat Penggunaan",
+      "bond_sukuk": "Info Bond & Sukuk (BIX)",
       "ai": "Penolong AI: OpenAI",
       "moh_github": "GitHub MoH",
       "jc3_climate": "Data Iklim (JC3)",

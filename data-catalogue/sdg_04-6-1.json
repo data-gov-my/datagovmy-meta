@@ -1,0 +1,118 @@
+{
+    "title_en": "SDG 04-6-1: Proficiency in Functional Literacy and Numeracy",
+    "title_ms": "SDG 04-6-1: Kemahiran Literasi dan Numerasi",
+    "title_sort": 5,
+    "description_en": "Proportion of population in a given age group achieving at least a fixed level of proficiency in functional literacy and numeracy skills by state and sex, as per the specifications of SDG Indicator 4-6-1.",
+    "description_ms": "Peratusan penduduk dalam kumpulan umur tertentu yang mencapai sekurang-kurangnya tahap kecekapan tetap dalam kemahiran literasi dan numerasi, mengikut negeri dan jantina, selaras dengan spesifikasi Indikator SDG 4-6-1.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2022",
+    "last_updated": "2024-09-01 12:00",
+    "next_update": "-",
+    "methodology_en": "This dataset is tabulated from survey data collected via the Labour Force Survey (LFS) conducted on a monthly basis by the Department of Statistics Malaysia (DOSM). It is collected as part of Malaysia's monitoring of the Sustainable Development Goals (SDGs), in line with the most recent [SDG Global Indicator Framework](https://storage.dosm.gov.my/technotes/sdg.pdf).",
+    "methodology_ms": "Set data ini dihasilkan berdasarkan data survei yang dikumpulkan melalui Survei Tenaga Buruh (STB) yang dilaksanakan secara bulanan oleh Jabatan Perangkaan Malaysia. Ia dikumpulkan sebagai sebahagian daripada pemantauan Malaysia terhadap Matlamat Pembangunan Lestari (SDG), selaras dengan [Kerangka Indikator Global SDG](https://storage.dosm.gov.my/technotes/sdg.pdf) yang terkini.",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_04-6-1.parquet",
+    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_04-6-1.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2016,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Indikator SDG",
+            "subcategory_sort": 10
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Indikator SDG",
+            "subcategory_sort": 10
+        }
+    ],
+    "fields": [
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states, or Malaysia",
+            "description_ms": "[Kategori] Satu daripada 16 negeri, atau Malaysia"
+        },
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency.",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai MM-DD ditetapkan kepada 01-01 kerana data pada frekuensi tahunan."
+        },
+		{
+			"name": "sex",
+			"title_en": "Sex",
+			"title_ms": "Jantina",
+			"description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
+			"description_ms": "[Kategori] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
+		},
+		{
+			"name": "age",
+			"title_en": "Age",
+			"title_ms": "Umur",
+			"description_en": "[Categorical] Either above 15 (15+) or 15-24 years old (15-24)",
+			"description_ms": "[Kategori] Sama ada lebih dari 15 tahun (15+) atau 15-24 tahun (15-24)"
+		},
+		{
+			"name": "proportion",
+			"title_en": "Proportion (%)",
+			"title_ms": "Peratusan (%)",
+			"description_en": "[Categorical] Proportion of the population achieving at least a fixed level of proficiency in functional literacy and numeracy skills.",
+			"description_ms": "[Kategori] Peratusan penduduk yang mencapai sekurang-kurangnya tahap kecekapan tetap dalam kemahiran literasi dan numerasi."
+		}		
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 2,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "date": "Date",
+        "state": "State",
+        "sex": "Sex",
+        "age": "Age",
+        "proportion": "Proportion (%)"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "date": "Tarikh",
+        "state": "Negeri",
+        "sex": "Jantina",
+        "age": "Umur",
+        "proportion": "Peratusan (%)"
+    },
+    "related_datasets": []
+}

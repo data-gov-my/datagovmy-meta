@@ -1,0 +1,128 @@
+{
+    "title_en": "Annual Budget Allocation for the Ministry of Health",
+    "title_ms": "Peruntukan Belanjawan Tahunan bagi Kementerian Kesihatan",
+    "title_sort": 90,
+    "description_en": "Annual federal budget allocated to the Ministry of Health (B/P.42) with a breakdown by expenditure categories, including development expenditure (DE) and operating expenditure (OE).",
+    "description_ms": "Belanjawan persekutuan tahunan yang diperuntukkan kepada Kementerian Kesihatan (B/P.42), dengan pecahan mengikut kategori perbelanjaan, termasuk perbelanjaan pembangunan (DE) dan perbelanjaan mengurus (OE).",
+    "exclude_openapi": false,
+    "manual_trigger": "1",
+    "data_as_of": "2022",
+    "last_updated": "2024-09-01 12:00",
+    "next_update": "\u2014",
+    "methodology_en": "This dataset is produced from the [Budget Book tabled in Parliament](https://belanjawan.mof.gov.my/pdf/belanjawan2024/perbelanjaan/BP.42.pdf) and subsequently published by the Ministry of Finance. Categorisation of expenditure is based on the [Classification Codes for Revenue and Expenditure](https://storage.data.gov.my/publicadmin/penjenisan_kod.pdf) published by the Federal Treasury.",
+    "methodology_ms": "Set data in disediakan berdasarkan [Buku Belanjawan yang dibentangkan di Parlimen](https://belanjawan.mof.gov.my/pdf/belanjawan2024/perbelanjaan/BP.42.pdf) dan seterusnya diterbitkan oleh Kementerian Kewangan. Pengkelasan perbelanjaan adalah berdasarkan [Penjenisan Kod Bagi Hasil Dan Perbelanjaan](https://storage.data.gov.my/publicadmin/penjenisan_kod.pdf) yang diterbitkan oleh Perbendaharaan Persekutuan.",
+    "caveat_en": "This data reflects budgeted rather than actual expenditures.",
+    "caveat_ms": "Data ini menunjukkan anggaran yang diperuntukkan, dan bukannya perbelanjaan sebenar.",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/publicadmin/budget_allocation_moh.parquet",
+    "link_csv": "https://storage.data.gov.my/publicadmin/budget_allocation_moh.csv",
+    "frequency": "YEARLY",
+    "geography": [
+      "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2015,
+    "dataset_end": 2024,
+    "data_source": [
+        "MOF"
+    ],
+    "site_category": [
+        {
+          "site": "datagovmy",
+          "category_en": "Public Administration",
+          "category_ms": "Pentadbiran Awam",
+          "category_sort": 80,
+          "subcategory_en": "Public Finance",
+          "subcategory_ms": "Kewangan Awam",
+          "subcategory_sort": 10
+        }
+    ],
+    "fields": [
+		{
+			"name": "date",
+			"title_en": "Date",
+			"title_ms": "Tarikh",
+			"description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+			"description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+		},
+        {
+            "name": "category",
+            "title_en": "Expenditure Category",
+            "title_ms": "Kategori Perbelanjaan",
+            "description_en": "[Categorical] The category of expenditure; either development expenditure (DE), operating expenditure (OE), or a more detailed OE breakdown covering Emoluments (oe_10000), Services and Supplies (oe_20000), Assets (oe_30000), Fixed Payments (oe_40000), and Other Expenditures (oe_50000).",
+            "description_ms": "[Kategori] Kategori perbelanjaan; sama ada perbelanjaan pembangunan (DE), perbelanjaan operasi (OE), atau pecahan OE yang lebih terperinci merangkumi Emolumen (oe_10000), Perkhidmatan dan Bekalan (oe_20000), Aset (oe_30000), Bayaran Tetap (oe_40000), dan Perbelanjaan Lain (oe_50000)."
+        },
+        {
+            "name": "allocation",
+            "title_en": "Allocation",
+            "title_ms": "Peruntukan",
+            "description_en": "[Integer] Budgeted expenditure for the given category",
+            "description_ms": "[Integer] Perbelanjaan yang diperuntukkan untuk kategori tersebut"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                  "category"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+          "dataviz_id": "timeseries",
+          "title_en": "Allocation",
+          "title_ms": "Peruntukan",
+          "chart_type": "TIMESERIES",
+          "config": {
+            "filter_columns": [
+              "category"
+            ],
+            "precision": 0,
+            "operation": "SUM",
+            "format": {
+              "x": "date",
+              "y": [
+                "allocation"
+              ]
+            }
+          }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Allocation",
+        "date": "Date",
+        "category": "Category",
+        "allocation": "Allocation",
+        "de": "Development Expenditure (DE)",
+        "oe": "Operating Expenditure (OE)",
+        "oe-10000": "OE > Emoluments",
+        "oe-20000": "OE > Services and Supplies",
+        "oe-30000": "OE > Assets",
+        "oe-40000": "OE > Fixed Payments",
+        "oe-50000": "OE > Other Expenditures",
+        "total": "Total Allocation"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Peruntukan",
+        "date": "Tarikh",
+        "category": "Kategori",
+        "total": "Peruntukan Keseluruhan",
+        "de": "Perbelanjaan Pembangunan (DE)",
+        "oe": "Perbelanjaan Operasi (OE)",
+        "oe-10000": "OE > Emolumen",
+        "oe-20000": "OE > Perkhidmatan dan Bekalan",
+        "oe-30000": "OE > Aset",
+        "oe-40000": "OE > Pemberian dan Bayaran Tetap",
+        "oe-50000": "OE > Perbelanjaan-perbelanjaan Lain"
+    },
+    "related_datasets": []
+}

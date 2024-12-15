@@ -1,0 +1,173 @@
+{
+  "title_en": "Annual Early Childhood Deaths by State",
+  "title_ms": "Kematian Kanak-Kanak Tahunan mengikut Negeri",
+  "title_sort": 9,
+  "description_en": "Annual number of deaths aged less than 5 year old by state, broken down into perinatal, neonatal, infant and toddler deaths.",
+  "description_ms": "Jumlah tahunan kematian yang berumur kurang daripada 5 tahun mengikut negeri, diperincikan ke dalam kematian perinatal, neonatal, bayi dan kanak-kanak kecil.",
+  "exclude_openapi": false,
+  "manual_trigger": "",
+  "data_as_of": "2023",
+  "last_updated": "2024-10-17 12:00",
+  "next_update": "2025-11-01 12:00",
+  "methodology_en": "This data is a subset of the data on [deaths](https://data.gov.my/data-catalogue/deaths_state), for which the following definitions should be noted:\n - **Toddler Death**: Death of a person aged 1 to 4 years old.\n- **Infant Death**: Death of a person less than 1 year old.\n - **Neonatal Death**: Death of a infant aged  less than 28 days old (subset of infant deaths).\n - **Perinatal Death**: Death of an infant less than 7 days old (subset of infant deaths), and [stillbirths](https://data.gov.my/data-catalogue/stillbirths).\n\n For a deeper understanding of the methodology and associated definitions, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/vitalstats-technotes).",
+  "methodology_ms": "Data ini adalah subset kepada data [kematian](https://data.gov.my/ms-MY/data-catalogue/deaths_state), di mana definisi berikut perlu diperhatikan:\n - **Kematian Kanak-Kanak Kecil**: Kematian seseorang yang berumur 1 hingga 4 tahun.\n- **Kematian Bayi**: Kematian seseorang yang berumur kurang daripada 1 tahun.\n - **Kematian Neonatal**: Kematian bayi yang berumur kurang daripada 28 hari (subset daripada kematian bayi).\n - **Kematian Perinatal**: Kematian bayi yang berumur kurang daripada 7 hari (subset daripada kematian bayi), serta [kelahiran mati](https://data.gov.my/ms-MY/data-catalogue/stillbirths).\n\n Untuk memahami metodologi dengan lebih terperinci, sila rujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/vitalstats-technotes).",
+  "caveat_en": "This data is derived based on deaths registered with JPN. Therefore, if an early childhood death is not registered with JPN (for instance, if the death of a foreign child is registered in their home country, or the death of a citizen in a remote area is not registered), it will generally not count in this dataset. However, adjustment has been made to the number of deaths in Sabah to account for the under-reporting of deaths detected based on the 'Study of Under Reporting of Deaths in Sabah', which was conducted by DOSM and approved by the Steering Committee on Implementation of Civil Registration and Vital Statistics in 2016.",
+  "caveat_ms": "Data ini dihasilkan berdasarkan kematian yang didaftarkan dengan JPN. Oleh itu, sekiranya kematian kanak-kanak kecil itu tidak didaftarkan dengan JPN (contohnya sekiranya kematian bayi bukan warganegara hanya didaftarkan di negara asal, ataupun kematian bayi di kawasan yang sangat terpencil tidak didaftarkan) maka ia secara am tidak terkandung dalam set data ini. Namun, penyesuaian data kematian di Sabah telah dilaksanakan kerana kurang liputan pendaftaran yang didapati berdasarkan 'Kajian Kurang Liputan Pendaftaran Kematian di Sabah' yang telah dijalankan oleh DOSM dan diluluskan oleh Jawatankuasa Induk Pelaksanaan _Civil Registration and Vital Statistics_ pada tahun 2016.",
+  "publication_en": "OpenDOSM features a dashboard on [Population & Vital Statistics](https://open.dosm.gov.my/dashboard/population) where you can explore this data in a more interactive manner.",
+  "publication_ms": "OpenDOSM memaparkan papan pemuka tentang [Penduduk & Perangkaan Penting](https://open.dosm.gov.my/ms-MY/dashboard/population) yang membolehkan anda menerokai data ini dengan lebih interaktif.",
+  "link_parquet": "https://storage.dosm.gov.my/demography/deaths_early_childhood_state.parquet",
+  "link_csv": "https://storage.dosm.gov.my/demography/deaths_early_childhood_state.csv",
+  "frequency": "YEARLY",
+  "geography": [
+    "STATE"
+  ],
+  "demography": [],
+  "dataset_begin": 2000,
+  "dataset_end": 2023,
+  "data_source": [
+    "JPN","DOSM"
+  ],
+  "data_source_granular": [
+    "BPPD"
+  ],
+  "site_category": [
+    {
+      "site": "datagovmy",
+      "category_en": "Demography",
+      "category_ms": "Demografi",
+      "category_sort": 1,
+      "subcategory_en": "Deaths",
+      "subcategory_ms": "Kematian",
+      "subcategory_sort": 3
+    },
+    {
+      "site": "opendosm",
+      "category_en": "Demography",
+      "category_ms": "Demografi",
+      "category_sort": 1,
+      "subcategory_en": "Deaths",
+      "subcategory_ms": "Kematian",
+      "subcategory_sort": 3
+    }
+  ],
+  "fields": [
+    {
+        "name": "state",
+        "title_en": "State",
+        "title_ms": "Negeri",
+        "description_en": "[Categorical] One of 16 states",
+        "description_ms": "[Kategori] Satu daripada 16 negeri"
+    },
+		{
+			"name": "type",
+			"title_en": "Type",
+			"title_ms": "Jenis",
+			"description_en": "[Categorical] The type of early childhood death, either total under-5 deaths ('total'), toddler ('toddler'), infant ('infant'), neonatal ('neonatal'), or perinatal ('perinatal').",
+			"description_ms": "[Kategori] Jenis kematian kanak-kanak kecil, sama ada jumlah kematian di bawah 5 tahun ('total'), kematian kanak-kanak kecil ('toddler'), kematian bayi ('infant'), kematian neonatal ('neonatal'), atau kematian perinatal ('perinatal')."
+		},
+		{
+			"name": "date",
+			"title_en": "Date",
+			"title_ms": "Tarikh",
+			"description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+			"description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+		},
+    {
+      "name": "abs",
+      "title_en": "Deaths",
+      "title_ms": "Kematian",
+      "description_en": "[Integer] Number of deaths in that year",
+      "description_ms": "[Integer] Jumlah kematian dalam tahun tersebut"
+    },
+    {
+      "name": "rate",
+      "title_en": "Mortality Rate",
+      "title_ms": "Kadar Mortaliti",
+      "description_en": "[Float] Number of deaths per 1000 births (for perinatal deaths), 1000 live births (for neonatal and infant deaths), or 1000 population aged 1-4 years (for toddler deaths)",
+      "description_ms": "[Integer] Jumlah kematian bagi setiap 1000 kelahiran (untuk kematian perinatal), 1000 kelahiran hidup (untuk kematian neonatal dan bayi), atau 1000 penduduk berumur 1-4 tahun (untuk kematian kanak-kanak kecil)"
+    }
+  ],
+  "dataviz": [
+    {
+      "dataviz_id": "table",
+      "title_en": "Table",
+      "title_ms": "Jadual",
+      "chart_type": "TABLE",
+      "config": {
+        "precision": 0,
+        "filter_columns": [
+          "state",
+          "type"
+        ],
+        "freeze_columns": []
+      }
+    },
+    {
+      "dataviz_id": "abs",
+      "title_en": "Deaths",
+      "title_ms": "Kematian",
+      "chart_type": "TIMESERIES",
+      "config": {
+        "filter_columns": [
+          "state",
+          "type"
+        ],
+        "precision": 0,
+        "operation": "SUM",
+        "format": {
+          "x": "date",
+          "y": [
+            "abs"
+          ]
+        }
+      }
+    },
+    {
+      "dataviz_id": "rate",
+      "title_en": "Mortality Rate",
+      "title_ms": "Kadar Mortaliti",
+      "chart_type": "TIMESERIES",
+      "config": {
+        "filter_columns": [
+          "state",
+          "type"
+        ],
+        "precision": 1,
+        "operation": "SUM",
+        "format": {
+          "x": "date",
+          "y": [
+            "rate"
+          ]
+        }
+      }
+    }
+  ],
+  "translations_en": {
+    "y1": "Value",
+    "date": "Year",
+    "state": "State",
+    "abs": "Deaths",
+    "rate": "Mortality Rate",
+    "type": "Type",
+    "total": "Total Under-5",
+    "toddler": "Toddler",
+    "infant": "Infant",
+    "neonatal": "Neonatal",
+    "perinatal": "Perinatal"
+  },
+  "translations_ms": {
+    "y1": "Nilai",
+    "date": "Tahun",
+    "state": "Negeri",
+    "abs": "Kematian",
+    "rate": "Kadar Mortaliti",
+    "type": "Jenis",
+    "total": "Keseluruhan Bawah 5 Tahun",
+    "toddler": "Kanak-Kanak Kecil",
+    "infant": "Bayi",
+    "neonatal": "Neonatal",
+    "perinatal": "Perinatal"
+  },
+  "related_datasets": []
+}

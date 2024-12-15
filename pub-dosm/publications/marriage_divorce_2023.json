@@ -1,0 +1,67 @@
+{
+    "publication": "marriage_divorce_2023",
+    "publication_type": "demography",
+    "release_date": "2024-11-21",
+    "frequency": "YEARLY",
+    "geography": [
+        "STATE",
+        "NATIONAL"
+    ],
+    "demography": [
+        "SEX",
+        "AGE",
+        "MARITAL"
+    ],
+    "en": {
+        "title": "[2023] Marriage & Divorce",
+        "publication_type_title": "Demography",
+        "description": "Annual number & rate of marriages and divorces for both civil and Muslim marriages.",
+        "description_email": "DOSM has just released the latest annual data on marriage and divorce, covering civil and Muslim marriage and divorce at national, state, and district level.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Marriage: 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/marriage_2023.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Divorce: 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/divorce_2023.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "pdf",
+                "resource_name": "Marriage & Divorce: 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/marriage_divorce_2023.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2023] [2022] Perkahwinan & Penceraian",
+        "publication_type_title": "Demografi",
+        "description": "Jumlah & kadar perkahwinan dan penceraian tahunan bagi perkahwinan sivil dan Islam.",
+        "description_email": "DOSM telah menerbitkan data perkahwinan dan penceraian tahunan terkini, merangkumi perkahwinan dan penceraian sivil dan Islam di peringkat nasional, negeri, dan daerah.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Perkahwinan: 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/marriage_2023.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Penceraian: 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/divorce_2023.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "pdf",
+                "resource_name": "Perkahwinan & Penceraian: 2023",
+                "resource_link": "https://storage.dosm.gov.my/demography/marriage_divorce_2023.pdf"
+            }
+        ]
+    }
+}

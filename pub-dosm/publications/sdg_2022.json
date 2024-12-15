@@ -1,0 +1,341 @@
+{
+    "publication": "sdg_2022",
+    "abort_email": true,
+    "publication_type": "sdg",
+    "release_date": "2023-12-07",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE",
+        "DISTRICT"
+    ],
+    "demography": [
+        "SEX"
+    ],
+    "en": {
+        "title": "[2022] Sustainable Development Goals (SDGs)",
+        "publication_type_title": "Sustainable Development Goals",
+        "description": "Indicators of Malaysia's progress towards the 17 Sustainable Development Goals (SDGs) at national, state and district levels.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "SDGs (Executive Summary): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "SDGs (People): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_people.pdf"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "pdf",
+                "resource_name": "SDGs (Prosperity): 2022", 
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_prosperity.pdf"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "pdf",
+                "resource_name": "SDGs (Planet): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_planet.pdf"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "pdf",
+                "resource_name": "SDGs (Peace & Partnership): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_peace.pdf"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Goal 1: No Poverty): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_01.xlsx"
+            },
+            {
+                "resource_id": 7,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Goal 2: Zero Hunger): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_02.xlsx"
+            },
+            {
+                "resource_id": 8,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Goal 3: Good Health and Well-being): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_03.xlsx"
+            },
+            {
+                "resource_id": 9,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Goal 4: Quality Education): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_04.xlsx"
+            },
+            {
+                "resource_id": 10,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Goal 5: Gender Equality): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_05.xlsx"
+            },
+            {
+                "resource_id": 11,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Goal 6: Clean Water and Sanitation): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_06.xlsx"
+            },
+            {
+                "resource_id": 12,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Goal 7: Affordable and Clean Energy): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_07.xlsx"
+            },
+            {
+                "resource_id": 13,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Goal 8: Decent Work and Economic Growth): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_08.xlsx"
+            },
+            {
+                "resource_id": 14,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Goal 9: Industry, Innovation and Infrastructure): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_09.xlsx"
+            },
+            {
+                "resource_id": 15,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Goal 10: Reduced Inequalities): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_10.xlsx"
+            },
+            {
+                "resource_id": 16,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Goal 11: Sustainable Cities and Communities): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_11.xlsx"
+            },
+            {
+                "resource_id": 17,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Goal 12: Responsible Consumption and Production): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_12.xlsx"
+            },
+            {
+                "resource_id": 18,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Goal 13: Climate Action): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_13.xlsx"
+            },
+            {
+                "resource_id": 19,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Goal 14: Life Below Water): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_14.xlsx"
+            },
+            {
+                "resource_id": 20,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Goal 15: Life on Land): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_15.xlsx"
+            },
+            {
+                "resource_id": 21,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Goal 16: Peace, Justice and Strong Institutions): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_16.xlsx"
+            },
+            {
+                "resource_id": 22,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Goal 17: Partnerships for the Goals): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_17.xlsx"
+            },
+            {
+                "resource_id": 23,
+                "resource_type": "excel",
+                "resource_name": "SDGs by District (People): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_people.xlsx"
+            },
+            {
+                "resource_id": 24,
+                "resource_type": "excel",
+                "resource_name": "SDGs by District (Prosperity): 2022", 
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_prosperity.xlsx"
+            },
+            {
+                "resource_id": 25,
+                "resource_type": "excel",
+                "resource_name": "SDGs by District (Planet): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_planet.xlsx"
+            },
+            {
+                "resource_id": 26,
+                "resource_type": "excel",
+                "resource_name": "SDGs by District (Peace & Partnership): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_peace.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2022] Matlamat Pembangunan Mampan (SDG)",
+        "publication_type_title": "Matlamat Pembangunan Mampan",
+        "description": "Indikator kemajuan Malaysia menuju 17 Matlamat Pembangunan Mampan (SDGs) pada peringkat nasional, negeri dan daerah.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "SDG (Ringkasan Eksekutif): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "SDG (Masyarakat): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_people.pdf"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "pdf",
+                "resource_name": "SDG (Kemakmuran): 2022", 
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_prosperity.pdf"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "pdf",
+                "resource_name": "SDGs (Penjagaan Bumi): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_planet.pdf"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "pdf",
+                "resource_name": "SDGs (Keamanan & Kerjasama): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_peace.pdf"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Matlamat 1: Tiada Kemiskinan): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_01.xlsx"
+            },
+            {
+                "resource_id": 7,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Matlamat 2: Kebuluran Sifar): 2022", 
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_02.xlsx"
+            },
+            {
+                "resource_id": 8,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Matlamat 3: Kesihatan dan Kesejahteraan yang Baik): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_03.xlsx"
+            },
+            {
+                "resource_id": 9,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Matlamat 4: Pendidikan Berkualiti): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_04.xlsx"
+            },
+            {
+                "resource_id": 10,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Matlamat 5: Kesaksamaan Gender): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_05.xlsx"
+            },
+            {
+                "resource_id": 11,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Matlamat 6: Air Bersih dan Sanitasi): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_06.xlsx"
+            },
+            {
+                "resource_id": 12,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Matlamat 7: Tenaga Mampu Bayar dan Bersih): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_07.xlsx"
+            },
+            {
+                "resource_id": 13,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Matlamat 8: Kerja Wajar dan Pertumbuhan Ekonomi): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_08.xlsx"
+            },
+            {
+                "resource_id": 14,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Matlamat 9: Industri, Inovasi dan Infrastruktur): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_09.xlsx"
+            },
+            {
+                "resource_id": 15,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Matlamat 10: Pengurangan Ketidaksamarataan): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_10.xlsx"
+            },
+            {
+                "resource_id": 16,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Matlamat 11: Bandar dan Komuniti Mampan): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_11.xlsx"
+            },
+            {
+                "resource_id": 17,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Matlamat 12: Penggunaan dan Pengeluaran Bertanggungjawab): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_12.xlsx"
+            },
+            {
+                "resource_id": 18,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Matlamat 13: Tindakan Iklim): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_13.xlsx"
+            },
+            {
+                "resource_id": 19,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Matlamat 14: Kehidupan Dalam Air): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_14.xlsx"
+            },
+            {
+                "resource_id": 20,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Matlamat 15: Hidupan di Daratan): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_15.xlsx"
+            },
+            {
+                "resource_id": 21,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Matlamat 16: Keamanan, Keadilan dan Keutuhan Institusi): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_16.xlsx"
+            },
+            {
+                "resource_id": 22,
+                "resource_type": "excel",
+                "resource_name": "SDGs (Matlamat 17: Kerjasama Demi Matlamat): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_17.xlsx"
+            },
+            {
+                "resource_id": 23,
+                "resource_type": "excel",
+                "resource_name": "SDG mengikut Daerah (Masyarakat): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_people.xlsx"
+            },
+            {
+                "resource_id": 24,
+                "resource_type": "excel",
+                "resource_name": "SDG mengikut Daerah (Kemakmuran): 2022", 
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_prosperity.xlsx"
+            },
+            {
+                "resource_id": 25,
+                "resource_type": "excel",
+                "resource_name": "SDG mengikut Daerah (Penjagaan Bumi): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_planet.xlsx"
+            },
+            {
+                "resource_id": 26,
+                "resource_type": "excel",
+                "resource_name": "SDG mengikut Daerah (Keamanan & Kerjasama): 2022",
+                "resource_link": "https://storage.dosm.gov.my/sdg/sdg_2022_peace.xlsx"
+            }
+        ]
+    }
+}

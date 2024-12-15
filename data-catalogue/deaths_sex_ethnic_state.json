@@ -1,0 +1,172 @@
+{
+    "title_en": "Annual Deaths by State, Sex, & Ethnicity",
+    "title_ms": "Kematian Tahunan mengikut Negeri, Jantina & Etnik",
+    "title_sort": 3,
+    "description_en": "Annual number of deaths, with breakdowns by sex, ethnic group and state.",
+    "description_ms": "Jumlah kematian tahunan, dengan pecahan mengikut jantina, kumpulan etnik dan negeri.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2023",
+    "last_updated": "2024-10-17 12:00",
+    "next_update": "2025-11-01 12:00",
+    "methodology_en": "The data on deaths in Malaysia is tabulated based on information reported during the deaths registration process, specifically in the in Register of Death Form (JPN.LM02). The 'state' reported in this dataset is based on the place of usual residence of the deceased, not the geographical location in which the deceased passed away. For example, a person who passes away at a hospital in Kuala Lumpur but resided in Selangor will be recorded as a death for Selangor. For a deeper understanding of the methodology and associated definition, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/vitalstats-technotes).",
+    "methodology_ms": "Data mengenai kematian di Malaysia dihasilkan berdasarkan maklumat yang dilaporkan semasa proses pendaftaran kelahiran, khususnya dalam Borang Daftar Kematian (JPN.LM02). Medan 'negeri' yang dilaporan dalam set data ini adalah berdasarkan tempat kediaman biasa simati dan bukannya lokasi geografi di mana simati telah meninggal dunia. Sebagai contoh, jika seseorang itu telah meninggal dunia di sebuah hospital di Kuala Lumpur tetapi telah menetap di Selangor, maka kematian tersebut akan direkodkan sebagai kematian bagi Selangor. Untuk memahami metodologi dengan lebih terperinci, sila rujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/vitalstats-technotes).",
+    "caveat_en": "This data is derived based on deaths registered with JPN. Therefore, if a death is not registered with JPN (for instance, if the death of a foreigner is registered in their home country, or the death of resident in a remote area is not registered), it will generally not count in this dataset. However, adjustment has been made to the number of deaths in Sabah to account for the under-reporting of deaths detected based on the 'Study of Under Reporting of Deaths in Sabah', which was conducted by DOSM and approved by the Steering Committee on Implementation of Civil Registration and Vital Statistics in 2016.",
+    "caveat_ms": "Data ini dihasilkan berdasarkan kematian yang didaftarkan dengan JPN. Oleh itu, sekiranya kematian itu tidak didaftarkan dengan JPN (contohnya sekiranya kematian rakyat asing hanya didaftarkan di negara asal, ataupun kematian penduduk di kawasan yang sangat terpencil tidak didaftarkan) maka ia secara am tidak terkandung dalam set data ini. Namun, penyesuaian data kematian di Sabah telah dilaksanakan kerana kurang liputan pendaftaran yang didapati berdasarkan 'Kajian Kurang Liputan Pendaftaran Kematian di Sabah' yang telah dijalankan oleh DOSM dan diluluskan oleh Jawatankuasa Induk Pelaksanaan _Civil Registration and Vital Statistics_ pada tahun 2016.",
+    "publication_en": "OpenDOSM features a dashboard on [Population & Vital Statistics](https://open.dosm.gov.my/dashboard/population) where you can explore this data in a more interactive manner!",
+    "publication_ms": "OpenDOSM memaparkan papan pemuka tentang [Penduduk & Perangkaan Penting](https://open.dosm.gov.my/ms-MY/dashboard/population) yang membolehkan anda menerokai data ini dengan lebih interaktif!",
+    "link_parquet": "https://storage.dosm.gov.my/demography/death_sex_ethnic_state.parquet",
+    "link_csv": "https://storage.dosm.gov.my/demography/death_sex_ethnic_state.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY"
+    ],
+    "dataset_begin": 2000,
+    "dataset_end": 2023,
+    "data_source": [
+        "JPN",
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "BPPD"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Demography",
+            "category_ms": "Demografi",
+            "category_sort": 1,
+            "subcategory_en": "Deaths",
+            "subcategory_ms": "Kematian",
+            "subcategory_sort": 3
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Demography",
+            "category_ms": "Demografi",
+            "category_sort": 1,
+            "subcategory_en": "Deaths",
+            "subcategory_ms": "Kematian",
+            "subcategory_sort": 3
+        }
+    ],
+    "fields": [
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states",
+            "description_ms": "[Kategori] Satu daripada 16 negeri"
+        },
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
+            "description_ms": "[Kategori] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
+        },
+        {
+            "name": "ethnicity",
+            "title_en": "Ethnicity",
+            "title_ms": "Kumpulan Etnik",
+            "description_en": "[Categorical] All ethnic groups ('overall'), Malay ('bumi_malay'), other Bumiputera ('bumi_other'), Chinese ('chinese'), Indian ('indian'), other citizens ('other_citizen'), or non-citizen residents ('other_noncitizen')",
+            "description_ms": "[Kategori] Semua kumpulan etnik ('overall'), Melayu ('bumi_malay'), Bumiputera lain ('bumi_other'), Cina ('chinese'), India ('indian'), lain-lain warganegara ('other_citizen'), atau penduduk bukan warganegara ('other_noncitizen')"
+        },
+        {
+            "name": "abs",
+            "title_en": "Deaths",
+            "title_ms": "Kematian",
+            "description_en": "[Integer] Number of deaths in that year",
+            "description_ms": "[Integer] Jumlah kematian dalam tahun tersebut"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "state",
+                    "sex",
+                    "ethnicity"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "abs",
+            "title_en": "Deaths",
+            "title_ms": "Kematian",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state",
+                    "sex",
+                    "ethnicity"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "abs"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "y1": "Value",
+        "date": "Year",
+        "state": "State",
+        "sex": "Sex",
+        "ethnicity": "Ethnicity",
+        "abs": "Deaths",
+        "rate": "Crude Death Rate",
+        "both": "Both Sexes",
+        "male": "Male",
+        "female": "Female",
+        "overall": "All Ethnicities",
+        "bumi-malay": "Malay",
+        "bumi-other": "Other Bumiputera",
+        "chinese": "Chinese",
+        "indian": "Indian",
+        "other-citizen": "Other Citizen",
+        "other-noncitizen": "Non-Citizen"
+    },
+    "translations_ms": {
+        "y1": "Nilai",
+        "date": "Tahun",
+        "state": "Negeri",
+        "sex": "Jantina",
+        "ethnicity": "Kumpulan Etnik",
+        "abs": "Kematian",
+        "rate": "Kadar Kematian Kasar",
+        "both": "Kedua-dua Jantina",
+        "male": "Lelaki",
+        "female": "Perempuan",
+        "overall": "Semua Etnik",
+        "bumi-malay": "Melayu",
+        "bumi-other": "Bumiputera Lain",
+        "chinese": "Cina",
+        "indian": "India",
+        "other-citizen": "Lain-lain Warganegara",
+        "other-noncitizen": "Bukan Warganegara"
+    },
+    "related_datasets": []
+}

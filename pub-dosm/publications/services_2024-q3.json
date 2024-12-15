@@ -1,0 +1,72 @@
+{
+    "publication": "services_2024-q3",
+    "publication_type": "services",
+    "release_date": "2024-11-07",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[3Q 2024] Services",
+        "publication_type_title": "Services",
+        "description": "Quarterly performance of the services sector, covering revenue, employment, wages, and volume by subsector.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Services: 3Q 2024",
+                "resource_link": "https://storage.dosm.gov.my/services/services_2024-q3.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Services (Volume Index): 3Q 2024",
+                "resource_link": "https://storage.dosm.gov.my/services/services_2024-q3_volume.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "pdf",
+                "resource_name": "Services: 3Q 2024",
+                "resource_link": "https://storage.dosm.gov.my/services/services_2024-q3.pdf"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "pdf",
+                "resource_name": "Services (Volume Index): 3Q 2024",
+                "resource_link": "https://storage.dosm.gov.my/services/services_2024-q3_volume.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST3 2024] Perkhidmatan",
+        "publication_type_title": "Perkhidmatan",
+        "description": "Prestasi suku tahunan sektor perkhidmatan, merangkumi hasil, guna tenaga, gaji, serta volum mengikut subsektor.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Perkhidmatan: ST3 2024",
+                "resource_link": "https://storage.dosm.gov.my/services/services_2024-q3.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Perkhidmatan (Indeks Volum): ST3 2024",
+                "resource_link": "https://storage.dosm.gov.my/services/services_2024-q3_volume.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "pdf",
+                "resource_name": "Perkhidmatan: ST3 2024",
+                "resource_link": "https://storage.dosm.gov.my/services/services_2024-q3.pdf"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "pdf",
+                "resource_name": "Perkhidmatan (Indeks Volum): ST3 2024",
+                "resource_link": "https://storage.dosm.gov.my/services/services_2024-q3_volume.pdf"
+            }
+        ]
+    }
+}

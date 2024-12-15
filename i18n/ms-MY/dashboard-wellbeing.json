@@ -5,14 +5,21 @@
     "header": "Kesejahteraan Rakyat",
     "description": "Indeks Kesejahteraan Rakyat Malaysia diterbitkan secara tahunan untuk mengukur tahap kesejahteraan rakyat Malaysia daripada perspektif ekonomi dan sosial. Ia merumuskan perangkaan ekonomi dan sosial secara holistik, dengan 5 komponen ekonomi dan 9 komponen sosial. Papan pemuka ini memaparkan indeks kesejahteraan rakyat Malaysia dari tahun 2000 sehingga kini.",
     "section_timeseries": {
-      "title": "Bagaimana arah aliran indeks kesejahteraan Malaysia?"
+      "title": "Bagaimana arah aliran indeks kesejahteraan {{ state }}?"
+    },
+    "heatmap_title": "Rumusan kesejahteraan rakyat mengikut subkomponen",
+    "wellbeing": {
+      "by_state": "Bagaimanakah kadar kesejahteraan rakyat berbeza mengikut negeri?",
+      "by_state_desc": "Taburan ini adalah berdasarkan lokasi kediaman individu. Contohnya, data individu yang bekerja di Kuala Lumpur tetapi tinggal di Selangor akan dikira bawah Selangor."
     },
     "section_economy": {
-      "title": "Pembahagian indeks kesejahteraan ekonomi"
+      "title": "Pecahan indeks kesejahteraan ekonomi"
     },
     "section_social": {
-      "title": "Pembahagian indeks kesejahteraan sosial"
+      "title": "Pecahan indeks kesejahteraan sosial"
     },
+    "economic": "Ekonomi",
+    "social": "Sosial",
     "keys": {
       "growth_yoy": "Pertumbuhan Tahunan",
       "index": "Indeks",
