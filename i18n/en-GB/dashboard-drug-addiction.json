@@ -5,7 +5,7 @@
     ],
     "translation": {
         "header": "Drug Addiction",
-        "description": "Every year, DOSM works with the National Anti-Drugs Agency (NADA) to release statistics on drug addiction as part of the annual crime statistics release. This dashboard, which presents data on drug addiction at national and state level, provides critical insights on drug addiction trends, as well as demographic breakdowns to facilitate a deeper understanding of drug addiction in Malaysia.",
+        "description": "The National Anti-Drugs Agency (NADA) is the lead agency under the purview of the Ministry of Home Affairs in combating drugs and substance abuse in Malaysia. Every year, Department Statistics of Malaysia (DOSM) works with (NADA) to release statistics on drug addiction as part of the annual crime statistics release. This dashboard, which presents data on drug addiction at national and state level, provides critical insights on drug addiction trends, as well as demographic breakdowns to facilitate a deeper understanding of drug addiction in Malaysia.",
         "section_1": {
             "title": "How has drug addiction in {{ state }} changed over time?",
             "description": "The National Anti-Drugs Agency (NADA) is the lead agency under the purview of the Ministry of Home Affairs in combating drugs and substance abuse in Malaysia. The data below is collected via the various treatment and rehabilitation centres run by NADA."

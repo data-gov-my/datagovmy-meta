@@ -5,7 +5,7 @@
     ],
     "translation": {
         "header": "Penagihan Dadah",
-        "description": "Agensi Antidadah Kebangsaan (AADK) merupakan sebuah agensi di bawah Kementerian Dalam Negeri yang menjadi agensi peneraju membanteras penyalahgunaan dadah di Malaysia. Setiap tahun, Jabatan Perangkaan Malaysia (DOSM) bekerjasama dengan AADK untuk menerbitkan statistik berkenaan penagihan dadah yang merupakan sebahagian daripada penerbitan statistik jenayah tahunan. Papan pemuka ini memaparkan data penagihan dadah di peringkat kebangsaan dan negeri. Ia bertujuan untuk meneliti trend penagihan dadah mengikut demografi bagi meningkatkan kesedaran orang awam terhadap masalah dadah di Malaysia.",
+        "description": "Agensi Antidadah Kebangsaan (AADK) merupakan sebuah agensi di bawah Kementerian Dalam Negeri yang menjadi agensi peneraju membanteras penyalahgunaan dadah di Malaysia. Setiap tahun, Jabatan Perangkaan Malaysia (DOSM) bekerjasama dengan (AADK) untuk menerbitkan statistik berkenaan penagihan dadah yang merupakan sebahagian daripada penerbitan statistik jenayah tahunan. Papan pemuka ini memaparkan data penagihan dadah di peringkat kebangsaan dan negeri. Ia bertujuan untuk meneliti trend penagihan dadah mengikut demografi bagi meningkatkan kesedaran orang awam terhadap masalah dadah di Malaysia.",
         "section_1": {
             "title": "Bagaimanakah penagihan dadah di {{ state }} berubah dari semasa ke semasa?",
             "description": "Data berikut diperolehi dari pusat rawatan dan rehabilitasi di bawah pengendalian AADK."
