@@ -9,8 +9,8 @@
     ],
     "demography": [],
     "en": {
-        "title": "[Dec 2023] Building Costs",
-        "publication_type_title": "Building Costs",
+        "title": "[Dec 2023] Building Materials Cost Index",
+        "publication_type_title": "Building Materials Cost Index",
         "description": "Monthly cost of building materials, covering civil engineering, structural, building, mechanical & electrical works.",
         "resources": [
             {
@@ -76,8 +76,8 @@
         ]
     },
     "bm": {
-        "title": "[Dis 2023] Harga Pembinaan",
-        "publication_type_title": "Harga Pembinaan",
+        "title": "[Dis 2023] Indeks Kos Bahan Binaan",
+        "publication_type_title": "Indeks Kos Bahan Binaan",
         "description": "Harga bulanan bahan binaan, merangkumi kerja kejuruteraan sivil, bangunan, struktur, mekanikal dan elektrik.",
         "resources": [
             {
