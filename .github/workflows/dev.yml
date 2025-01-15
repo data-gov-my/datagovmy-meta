@@ -27,10 +27,10 @@ jobs:
                   method: "POST"
                   customHeaders: '{"Authorization": "${{ secrets.WORKFLOW_TOKEN_STAGING }}"}'
                   timeout: 30000
-            - name: POST call openapi staging
-              uses: fjogeleit/http-request-action@v1
-              with:
-                  url: "https://seahorse-app-b46yq.ondigitalocean.app/data-catalogue/update/"
-                  method: "POST"
-                  customHeaders: '{"Authorization": "${{ secrets.DATA_CATALOGUE_TOKEN_STAGING }}"}'
-                  timeout: 30000
+#            - name: POST call openapi staging
+#              uses: fjogeleit/http-request-action@v1
+#              with:
+#                  url: "https://seahorse-app-b46yq.ondigitalocean.app/data-catalogue/update/"
+#                  method: "POST"
+#                  customHeaders: '{"Authorization": "${{ secrets.DATA_CATALOGUE_TOKEN_STAGING }}"}'
+#                  timeout: 30000
