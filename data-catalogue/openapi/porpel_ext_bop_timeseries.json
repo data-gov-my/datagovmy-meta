@@ -1,9 +1,0 @@
-{
-    "manual_trigger": "",
-    "data_as_of": "2024-Q2",
-    "last_updated": "2024-08-16 12:00",
-    "next_update": "2024-11-15 12:00",
-    "link_parquet": "https://storage.dosm.gov.my/dashboards/bop_timeseries.parquet",
-    "frequency": "QUARTERLY",
-    "data_source": []
-}

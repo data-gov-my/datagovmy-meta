@@ -1,9 +1,0 @@
-{
-    "manual_trigger": "",
-    "data_as_of": "2024-Q1",
-    "last_updated": "2024-07-26 12:00",
-    "next_update": "2024-10-25 12:00",
-    "link_parquet": "https://storage.dosm.gov.my/dashboards/labour_formalwages_timeseries_state.parquet",
-    "frequency": "QUARTERLY",
-    "data_source": []
-}
