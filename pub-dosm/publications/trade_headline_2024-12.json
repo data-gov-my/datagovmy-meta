@@ -1,0 +1,51 @@
+{
+    "publication": "trade_headline_2024-12",
+    "publication_type": "trade",
+    "release_date": "2025-01-20",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Dec 2024] External Trade (Headline)",
+        "publication_type_title": "External Trade",
+        "description": "Initial release of monthly external trade data, covering exports and imports by sector and trading partner.",
+        "description_email": "DOSM has published initial monthly external trade data for December 2024, covering exports and imports by sector and trading partner. In year-on-year terms, exports grew by 16.9% (Nov 2024: 3.9%), while imports grew by 11.9% (Nov 2024: 1.6%). The overall trade balance rose to RM19.2 bil (Nov 2024: RM15.1 bil). More granular data will be available in the full release on 28th January 2025.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "External Trade (Headline): Dec 2024",
+                "resource_link": "https://storage.dosm.gov.my/trade/trade_2024-12_headline_en.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "External Trade (Headline): Dec 2024",
+                "resource_link": "https://storage.dosm.gov.my/trade/trade_2024-12_headline_en.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Dis 2024] Perdagangan Luar (Ringkasan)",
+        "publication_type_title": "Perdagangan Luar Negeri",
+        "description": "Aktiviti perdagangan luar bulanan, merangkumi eksport, import, dan imbangan perdagangan mengikut rakan dagang dan komoditi.",
+        "description_email": "DOSM telah menerbitkan data perdagangan luar bagi bulan Disember 2024 secara ringkas, merangkumi eksport dan import mengikut sektor dan rakan dagang. Dari tahun ke tahun, eksport telah meningkat sebanyak 16.9% (Nov 2024: 3.9%), manakala import meningkat sebanyak 11.9% (Nov 2024: 1.6%). Imbangan perdagangan telah meningkat kepada RM19.2 bilion (Nov 2024: RM15.1 bilion). Data yang lebih terperinci akan diterbitkan dalam penerbitan penuh pada 28 Januari 2025.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Perdagangan Luar (Ringkasan): Dis 2024",
+                "resource_link": "https://storage.dosm.gov.my/trade/trade_2024-12_headline_bm.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Perdagangan Luar (Ringkasan): Dis 2024",
+                "resource_link": "https://storage.dosm.gov.my/trade/trade_2024-12_headline_bm.pdf"
+            }
+        ]
+    }
+}
