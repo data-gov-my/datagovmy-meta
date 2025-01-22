@@ -1,0 +1,75 @@
+{
+    "publication": "cpi_2024-12",
+    "publication_type": "cpi",
+    "release_date": "2025-01-22",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Dec 2024] Consumer Price Index",
+        "publication_type_title": "Consumer Price Index (CPI)",
+        "description": "Official consumer price data, covering headline, core, and state-level inflation",
+        "description_email": "DOSM has just released the latest monthly CPI data, covering headline, core, and state-level inflation. CPI inflation came in at 1.7% year-on-year in Dec 2024 (Nov 2024: 1.8%), thus bringing inflation for the full year 2024 to 1.8% (2023: 2.5%).",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Consumer Price Index Report: Dec 2024",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2024-12.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "CPI Main Tables: Dec 2024",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2024-12_main.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "CPI Tables by State: Dec 2024",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2024-12_state.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Core CPI Tables: Dec 2024",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2024-12_core.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Dis 2024] Indeks Harga Pengguna",
+        "publication_type_title": "Indeks Harga Pengguna (IHP)",
+        "description": "Data harga pengguna rasmi, merangkumi inflasi, inflasi teras, dan inflasi mengikut negeri",
+        "description_email": "DOSM telah menerbitkan data IHP bulanan terkini, merangkumi inflasi, inflasi teras, dan inflasi mengikut negeri. Inflasi tahun ke tahun adalah sebanyak 1.7% pada Dis 2024 (Nov 2024: 1.8%), bermaksud inflasi bagi tahun 2024 secara keseluruhan adalah 1.8% (2023: 2.5%).",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Laporan Indeks Harga Pengguna: Dis 2024",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2024-12.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Jadual Utama IHP: Dis 2024",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2024-12_main.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Jadual IHP mengikut Negeri: Dis 2024",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2024-12_state.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Jadual IHP Teras: Dis 2024",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2024-12_core.xlsx"
+            }
+        ]
+    }
+}
