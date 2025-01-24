@@ -84,9 +84,21 @@
             "full": "Department of Mineral and Geoscience",
             "abbr": "JMG"
         },
+        "kd": {
+            "full": "Ministry of Digital",
+            "abbr": "MOD"
+        },  
         "kdn": {
             "full": "Ministry of Home Affairs",
             "abbr": "KDN"
+        },
+        "kpdn": {
+            "full": "Ministry of Domestic Trade",
+            "abbr": "KPDN"
+        },
+        "kpkt": {
+            "full": "Ministry of Housing & Local Government",
+            "abbr": "KPKT"
         },
         "ktmb": {
             "full": "Malayan Railways Limited",
@@ -99,14 +111,6 @@
         "lhdn": {
             "full": "Inland Revenue Board of Malaysia",
             "abbr": "LHDN"
-        },
-        "kpdn": {
-            "full": "Ministry of Domestic Trade",
-            "abbr": "KPDN"
-        },
-        "kpkt": {
-            "full": "Ministry of Housing & Local Government",
-            "abbr": "KPKT"
         },
         "mafs": {
             "full": "Ministry of Agriculture and Food Security",
@@ -130,15 +134,15 @@
         },
         "moe": {
             "full": "Ministry of Education",
-            "abbr": "MoE"
+            "abbr": "MOE"
         },
         "mof": {
             "full": "Ministry of Finance",
-            "abbr": "MoF"
+            "abbr": "MOF"
         },
         "moh": {
             "full": "Ministry of Health Malaysia",
-            "abbr": "MoH"
+            "abbr": "MOH"
         },
         "mohe": {
             "full": "Ministry of Higher Education",
@@ -146,7 +150,11 @@
         },
         "mot": {
             "full": "Ministry of Transport",
-            "abbr": "MoT"
+            "abbr": "MOT"
+        },
+        "mynic": {
+            "full": "Malaysian Network Information Centre Berhad",
+            "abbr": "MYNIC"
         },
         "napic": {
             "full": "National Property Information Centre",
