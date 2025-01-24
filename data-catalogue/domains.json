@@ -2,7 +2,7 @@
   "title_en": "Number of Registered .MY Domains",
   "title_ms": "Bilangan Pendaftaran Domain .MY",
   "title_sort": 10,
-  "description_en": "Number of registered .MY domains registered with MYNIC Berhad.",
+  "description_en": "Number of .MY domains registered with MYNIC Berhad.",
   "description_ms": "Bilangan domain .MY yang didaftarkan dengan MYNIC Berhad.",
   "exclude_openapi": false,
   "manual_trigger": "",
@@ -44,8 +44,8 @@
       "name": "series",
       "title_en": "Series Type",
       "title_ms": "Jenis Siri",
-      "description_en": "[String] Either cumulative ('cumulative') or net new registrations ('net_new'). Note that net new registrations is the sum of new domain registrations minus domain deletions.",
-      "description_ms": "[Rentetan] Sama ada kumulatif ('cumulative') atau pendaftaran baru bersih ('net_new'). Catatan: Pendaftaran baru bersih adalah jumlah pendaftaran domain baru ditolak penghapusan domain."
+      "description_en": "[String] Either cumulative ('cumulative') or net new registrations ('new_net'). Note that net new registrations is the sum of new domain registrations minus domain deletions.",
+      "description_ms": "[Rentetan] Sama ada kumulatif ('cumulative') atau pendaftaran baru bersih ('new_net'). Catatan: Pendaftaran baru bersih adalah jumlah pendaftaran domain baru ditolak penghapusan domain."
     },
     {
       "name": "date",
@@ -111,7 +111,19 @@
     "domain": "Domain Category",
     "registrations": "Number of Registrations",
     "y1": "Registrations",
-    "overall": "Overall"
+    "overall": "Overall",
+    "cumulative": "Cumulative Registrations",
+    "new-net": "Net New Registrations",
+    "my": ".my",
+    "com-my": ".com.my",
+    "biz-my": ".biz.my",
+    "net-my": ".net.my",
+    "org-my": ".org.my",
+    "edu-my": ".edu.my",
+    "gov-my": ".gov.my",
+    "mil-my": ".mil.my",
+    "name-my": ".name.my",
+    "coop-my": ".coop.my"
   },
   "translations_ms": {
     "series": "Jenis Siri",
@@ -119,7 +131,19 @@
     "domain": "Kategori Domain",
     "registrations": "Bilangan Pendaftaran",
     "y1": "Pendaftaran",
-    "overall": "Keseluruhan"
+    "overall": "Keseluruhan",
+    "cumulative": "Pendaftaran Kumulatif",
+    "new-net": "Pendaftaran Baru Bersih",
+    "my": ".my",
+    "com-my": ".com.my",
+    "biz-my": ".biz.my",
+    "net-my": ".net.my",
+    "org-my": ".org.my",
+    "edu-my": ".edu.my",
+    "gov-my": ".gov.my",
+    "mil-my": ".mil.my",
+    "name-my": ".name.my",
+    "coop-my": ".coop.my"
   },
   "related_datasets": []
 }
