@@ -96,9 +96,9 @@
             "full": "Kumpulan Wang Persaraan",
             "abbr": "KWAP"
         },
-        "lhdn": {
-            "full": "Lembaga Hasil Dalam Negeri",
-            "abbr": "LHDN"
+        "kd": {
+            "full": "Kementerian Digital",
+            "abbr": "KD"
         },
         "kpdn": {
             "full": "Kementerian Perdagangan Dalam Negeri",
@@ -107,6 +107,10 @@
         "kpkt": {
             "full": "Kementerian Perumahan dan Kerajaan Tempatan",
             "abbr": "KPKT"
+        },
+        "lhdn": {
+            "full": "Lembaga Hasil Dalam Negeri",
+            "abbr": "LHDN"
         },
         "mafs": {
             "full": "Kementerian Pertanian dan Keterjaminan Makanan",
@@ -147,6 +151,10 @@
         "mot": {
             "full": "Kementerian Pengangkutan",
             "abbr": "MoT"
+        },
+        "mynic": {
+            "full": "MYNIC Berhad",
+            "abbr": "MYNIC"
         },
         "napic": {
             "full": "Pusat Maklumat Harta Tanah Negara",

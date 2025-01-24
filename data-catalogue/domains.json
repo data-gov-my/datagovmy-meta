@@ -1,0 +1,125 @@
+{
+  "title_en": "Number of Registered .MY Domains",
+  "title_ms": "Bilangan Pendaftaran Domain .MY",
+  "title_sort": 10,
+  "description_en": "Number of registered .MY domains registered with MYNIC Berhad.",
+  "description_ms": "Bilangan domain .MY yang didaftarkan dengan MYNIC Berhad.",
+  "exclude_openapi": false,
+  "manual_trigger": "",
+  "data_as_of": "2024-12",
+  "last_updated": "2025-01-20 12:00",
+  "next_update": "2025-02-20 12:00",
+  "methodology_en": "MYNIC Berhad is the sole official .MY domain registry recognised by the ICANN (Internet Corporation for Assigned Names and Numbers). As such, MYNIC stores transactional records on all .MY domain registrations. This dataset leverages those transactional records to produce aggregated statistics on the number of registered .MY domains, with a breakdown into the following domain categories:\n- .my : For all individuals, companies and organisations from any country\n- .com.my : For commercial organisations/activities\n- .biz.my : For commercial organisations/activities and MSMEs\n- .net.my : For network-related organisations/activities\n- .org.my : For other organisations/activitie registered under the Registrar of Societies\n- .edu.my : For registered Malaysian educational institutions/organisations\n- .gov.my : For official Malaysian government agencies/organisations\n- .mil.my : For official Malaysian military agencies/organisations\n- .name.my : For the personal use of Malaysian citizens\n- .coop.my : For Malaysian cooperatives registered under the Cooperative Commission of Malaysia",
+  "methodology_ms": "MYNIC Berhad adalah satu-satunya pendaftar domain .MY yang disahkan oleh ICANN (_Internet Corporation for Assigned Names and Numbers_). Oleh itu, MYNIC menyimpan rekod transaksi bagi semua pendaftaran domain .MY. Set data ini menggunakan rekod transaksi tersebut untuk menghasilkan statistik agregat tentang bilangan domain .MY yang didaftarkan, dengan pecahan kepada kategori tersebut:\n- .my : Untuk semua individu, syarikat dan organisasi dari mana-mana negara\n- .com.my : Untuk organisasi/aktiviti komersial\n- .biz.my : Untuk organisasi/aktiviti komersial dan PMKS\n- .net.my : Untuk organisasi/aktiviti berkaitan rangkaian\n- .org.my : Untuk organisasi/aktiviti lain yang berdaftar di bawah Jabatan Pendaftaran Pertubuhan\n- .edu.my : Untuk institusi/organisasi pendidikan Malaysia yang berdaftar\n- .gov.my : Untuk agensi/organisasi kerajaan Malaysia yang rasmi\n- .mil.my : Untuk agensi/organisasi tentera Malaysia yang rasmi\n- .name.my : Untuk kegunaan peribadi warganegara Malaysia\n- .coop.my : Untuk koperasi Malaysia yang berdaftar di bawah Suruhanjaya Koperasi Malaysia",
+  "caveat_en": "\u2013",
+  "caveat_ms": "\u2013",
+  "publication_en": "This data is fully consistent with the data published on [MYNIC's official statistics page](https://mynic.my/media/statistics).",
+  "publication_ms": "Data ini selaras dengan data yang diterbitkan di [halaman statistik rasmi MYNIC](https://mynic.my/media/statistics).",
+  "link_parquet": "https://storage.data.gov.my/publicadmin/domains.parquet",
+  "link_csv": "https://storage.data.gov.my/publicadmin/domains.csv",
+  "frequency": "MONTHLY",
+  "geography": [
+    "NATIONAL"
+  ],
+  "demography": [],
+  "dataset_begin": 2007,
+  "dataset_end": 2024,
+  "data_source": [
+    "MYNIC",
+    "KD"
+  ],
+  "site_category": [
+    {
+      "site": "datagovmy",
+      "category_en": "Public Administration",
+      "category_ms": "Pentadbiran Awam",
+      "category_sort": 80,
+      "subcategory_en": "Digital Infrastructure",
+      "subcategory_ms": "Infrastruktur Digital",
+      "subcategory_sort": 80
+    }
+  ],
+  "fields": [
+    {
+      "name": "series",
+      "title_en": "Series Type",
+      "title_ms": "Jenis Siri",
+      "description_en": "[String] Either cumulative ('cumulative') or net new registrations ('net_new'). Note that net new registrations is the sum of new domain registrations minus domain deletions.",
+      "description_ms": "[Rentetan] Sama ada kumulatif ('cumulative') atau pendaftaran baru bersih ('net_new'). Catatan: Pendaftaran baru bersih adalah jumlah pendaftaran domain baru ditolak penghapusan domain."
+    },
+    {
+      "name": "date",
+      "title_en": "Date",
+      "title_ms": "Tarikh",
+      "description_en": "[Date] Date in YYYY-MM-DD format, with DD set to 01 as this is monthly data.",
+      "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai DD ditetapkan sebagai 01 bagi data bulanan."
+    },
+    {
+      "name": "domain",
+      "title_en": "Domain Category",
+      "title_ms": "Kategori Domain",
+      "description_en": "[String] The category of .MY domain (such as .com.my, .edu.my, etc.), or total ('overall').",
+      "description_ms": "[Rentetan] Kategori domain .MY (seperti .com.my, .edu.my, dll.) atau keseluruhan ('overall')."
+    },
+    {
+      "name": "registrations",
+      "title_en": "Number of Registrations",
+      "title_ms": "Bilangan Pendaftaran",
+      "description_en": "[Integer] The number of domain registrations.",
+      "description_ms": "[Integer] Bilangan pendaftaran domain."
+    }
+  ],
+  "dataviz": [
+    {
+      "dataviz_id": "table",
+      "title_en": "Table",
+      "title_ms": "Jadual",
+      "chart_type": "TABLE",
+      "config": {
+        "precision": 0,
+        "filter_columns": [
+          "series",
+          "domain"
+        ],
+        "freeze_columns": []
+      }
+    },
+    {
+      "dataviz_id": "registrations",
+      "title_en": "Domain Registrations",
+      "title_ms": "Pendaftaran Domain",
+      "chart_type": "TIMESERIES",
+      "config": {
+        "filter_columns": [
+          "series",
+          "domain"
+        ],
+        "precision": 0,
+        "operation": "SUM",
+        "format": {
+          "x": "date",
+          "y": [
+            "registrations"
+          ]
+        }
+      }
+    }
+  ],
+  "translations_en": {
+    "series": "Series Type",
+    "date": "Date",
+    "domain": "Domain Category",
+    "registrations": "Number of Registrations",
+    "y1": "Registrations",
+    "overall": "Overall"
+  },
+  "translations_ms": {
+    "series": "Jenis Siri",
+    "date": "Tarikh",
+    "domain": "Kategori Domain",
+    "registrations": "Bilangan Pendaftaran",
+    "y1": "Pendaftaran",
+    "overall": "Keseluruhan"
+  },
+  "related_datasets": []
+}
