@@ -1,0 +1,50 @@
+{
+    "publication": "mei_2024-11",
+    "publication_type": "indicators",
+    "release_date": "2025-01-24",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Nov 2024] Malaysian Economic Indicators",
+        "publication_type_title": "Economic Indicators",
+        "description": "Leading, lagging, and coincident composite indices (with diffusion) showing overall economic direction.",
+        "description_email": "DOSM has released the latest leading, coincident, and lagging economic indicators. The Leading Index increased by 2.5% year-on-year in Nov 2024 (Oct 2024: 1.7%), albeit with diffusion of only 28.6%, indicating that the increase was driven by just 2 out of the 7 components of the index.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Malaysian Economic Indicators: Nov 2024",
+                "resource_link": "https://storage.dosm.gov.my/mei/mei_2024-11.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Malaysian Economic Indicators: Nov 2024",
+                "resource_link": "https://storage.dosm.gov.my/mei/mei_2024-11.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Nov 2024] Penunjuk Ekonomi Malaysia",
+        "publication_type_title": "Penunjuk Ekonomi",
+        "description": "Indeks komposit pelopor, serentak, dan susulan (termasuk difusi) menunjuk prestasi ekonomi secara am.",
+        "description_email": "DOSM telah menerbitkan indikator ekonomi pelopor, serentak, dan susulan terkini. Indeks Pelopor telah meningkat sebanyak 2.5% tahun ke tahun pada Nov 2024 (Okt 2024: 1.7%), tetapi dengan nilai difusi 28.6% sahaja, menunjukkan bahawa peningkatan tersebut didorong oleh hanya 2 daripada 7 komponen indeks tersebut.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Penunjuk Ekonomi Malaysia: Nov 2024",
+                "resource_link": "https://storage.dosm.gov.my/mei/mei_2024-11.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Penunjuk Ekonomi Malaysia: Nov 2024",
+                "resource_link": "https://storage.dosm.gov.my/mei/mei_2024-11.pdf"
+            }
+        ]
+    }
+}
