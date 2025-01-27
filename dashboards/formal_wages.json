@@ -1,7 +1,7 @@
 {
 	"dashboard_name": "formal_wages",
-    "data_last_updated": "2024-10-25 12:00",
-    "data_next_update": "2025-01-24 12:00",
+    "data_last_updated": "2024-01-27 12:00",
+    "data_next_update": "2025-04-29 12:00",
 	"route": "/dashboard/formal-sector-wages,/ms-MY/dashboard/formal-sector-wages",
 	"sites": ["opendosm"],
 	"manual_trigger": "1",
@@ -12,7 +12,7 @@
 			"name": "bar_bracket",
 			"chart_type": "bar_chart",
 			"chart_source": "http://storage.dosm.gov.my/dashboards/labour_formalwages_snapshot_bracket.parquet",
-			"data_as_of": "2024-06",
+			"data_as_of": "2024-09",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -29,7 +29,7 @@
 			"name": "bar_percentile",
 			"chart_type": "bar_chart",
 			"chart_source": "http://storage.dosm.gov.my/dashboards/labour_formalwages_snapshot_percentile.parquet",
-			"data_as_of": "2024-06",
+			"data_as_of": "2024-09",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -46,7 +46,7 @@
 			"name": "timeseries",
 			"chart_type": "timeseries_chart",
 			"chart_source": "http://storage.dosm.gov.my/dashboards/labour_formalwages_timeseries_state.parquet",
-			"data_as_of": "2024-06",
+			"data_as_of": "2024-09",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -61,7 +61,7 @@
 			"name": "timeseries_callout",
 			"chart_type": "custom_chart",
 			"chart_source": "http://storage.dosm.gov.my/dashboards/labour_formalwages_timeseries_state_callout.parquet",
-			"data_as_of": "2024-06",
+			"data_as_of": "2024-09",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
