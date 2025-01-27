@@ -1,6 +1,7 @@
 {
     "publication": "formal_wages_2024-q3",
     "publication_type": "labour",
+    "abort_email": true,
     "release_date": "2025-01-27",
     "frequency": "QUARTERLY",
     "geography": [
@@ -16,7 +17,6 @@
         "title": "[3Q 2024] Formal Sector Wages",
         "publication_type_title": "Labour",
         "description": "Number and wages of employees in the formal sector, with breakdowns by demographic group, state, and sector.",
-        "description": "DOSM has released the latest data on formal sector wages, covering the number of employees and wages in the formal sector, with breakdowns by demographic group, state, and sector.",
         "resources": [
             {
                 "resource_id": 1,
@@ -36,7 +36,6 @@
         "title": "[ST3 2024] Gaji Sektor Formal",
         "publication_type_title": "Tenaga Buruh",
         "description": "Jumlah dan gaji pekerja sektor formal, dengan pecahan mengikut kumpulan demografi, negeri, dan sektor.",
-        "description": "DOSM telah menerbitkan data gaji sektor formal terkini, merangkumi jumlah pekerja formal serta gajinya, dengan pecahan mengikut kumpulan demografi, negeri, dan sektor.",
         "resources": [
             {
                 "resource_id": 1,
