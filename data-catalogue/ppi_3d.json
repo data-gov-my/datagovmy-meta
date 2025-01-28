@@ -90,8 +90,7 @@
             "config": {
                 "precision": 1,
                 "filter_columns": [
-                    "series",
-                    "group"
+                    "series"
                 ],
                 "freeze_columns": []
             }
