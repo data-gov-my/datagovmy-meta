@@ -1,0 +1,172 @@
+{
+    "title_en": "PPI by SITC Section (1 digit)",
+    "title_ms": "IHPR mengikut Seksyen SITC (1 digit)",
+    "title_sort": 5,
+    "description_en": "Producer price index (PPI) by SITC section (1 digit).",
+    "description_ms": "Indeks harga pengeluar (IHPR) mengikut seksyen SITC (1 digit).",
+    "exclude_openapi": false,
+    "manual_trigger": "2025-01-28 07:18:09.953626",
+    "data_as_of": "2024-11",
+    "last_updated": "2024-12-24 12:00",
+    "next_update": "2025-01-27 12:00",
+    "methodology_en": "The Producer Price Index (PPI) measures the level of prices received by the producer at the first stage of commercialisation (also known as the ex-factory price), relative to a base year (2010 = 100). Ex-factory prices exclude indirect taxes and any transport charges invoiced separately by the producer, unless the transport charges are too difficult to segregate (usually because the firm utilises their own transport facilities rather than hiring transport services). For a deeper understanding of the PPI compilation methodology and related concepts, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/ppi).",
+    "methodology_ms": "Indeks Harga Pengeluar (IHPR) mengukur tahap harga yang diterima oleh pengeluar pada peringkat pertama pengkomersilan (juga dikenali sebagai harga di kilang), berbanding dengan tahun asas (2010 = 100). Harga di kilang tidak termasuk cukai tidak langsung dan bayaran pengangkutan yang dikenakan berasingan oleh pengeluar, kecuali kos pengangkutan terlalu sukar untuk diasingkan (biasanya kerana sesuatu pertubuhan menggunakan kemudahan pengangkutan sendiri berbanding menyewa perkhidmatan pengangkutan). Untuk memahami metodologi pengiraan IHPR dengan lebih mendalam, sila rujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/ppi).",
+    "caveat_en": "Data for the most recent 3 months may be revised in subsequent releases.",
+    "caveat_ms": "Data bagi 3 bulan terkini mungkin disemak semula dalam penerbitan berikutnya.",
+    "publication_en": "[Producer Price Index, Nov 2024](https://open.dosm.gov.my/publications/ppi_2024-11), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on producer prices](https://open.dosm.gov.my/dashboard/producer-prices) where you can explore this data in a more interactive manner.",
+    "publication_ms": "[Indeks Harga Pengeluar, Nov 2024](https://open.dosm.gov.my/ms-MY/publications/ppi_2024-11), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/ms-MY/dashboard/producer-prices) yang membolehkan anda menerokai set data ini dengan lebih interaktif.",
+    "link_parquet": "https://storage.dosm.gov.my/ppi/ppi_sitc.parquet",
+    "link_csv": "https://storage.dosm.gov.my/ppi/ppi_sitc.csv",
+    "link_preview": "https://storage.dosm.gov.my/ppi/ppi_sitc.parquet",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2010,
+    "dataset_end": 2024,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "BPHPP"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Prices",
+            "category_ms": "Harga",
+            "category_sort": 70,
+            "subcategory_en": "Producer Prices",
+            "subcategory_ms": "Harga Pengeluar",
+            "subcategory_sort": 20
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Prices",
+            "category_ms": "Harga",
+            "category_sort": 70,
+            "subcategory_en": "Producer Prices",
+            "subcategory_ms": "Harga Pengeluar",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "series",
+            "title_en": "Series Type",
+            "title_ms": "Jenis Siri",
+            "description_en": "[String] Series type, either absolute values ('abs'), year-on-year growth ('growth_yoy') or month-on-month growth ('growth_mom'). It should be noted that year-on-year growth values are not provided for the seasonally adjusted series, as they should be derived from the unadjusted series.",
+            "description_ms": "[Rentetan] Jenis siri, sama ada nilai mutlak ('abs'), pertumbuhan tahunan ('growth_yoy') atau pertumbuhan bulanan ('growth_mom'). Perlu diingat bahawa nilai pertumbuhan tahunan tidak disediakan untuk siri yang terlaras secara musim, kerana nilai ini harus dikira berdasarkan siri yang tidak terlaras."
+        },
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01 as the data is at monthly frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01 kerana data berfrekuensi bulanan"
+        },
+        {
+            "name": "section",
+            "title_en": "Section",
+            "title_ms": "Seksyen",
+            "description_en": "[String] 1-digit SITC code, to be matched using the 'section' column in the [SITC Lookup](https://open.dosm.gov.my/data-catalogue/sitc). The SITC lookup table will give you the English and Malay definitions.",
+            "description_ms": "[Rentetan] Kod SITC 1 digit, yang perlu dipadankan dengan medan 'section' dalam [Jadual SITC](https://open.dosm.gov.my/ms-MY/data-catalogue/sitc). Padanan tersebut akan membolehkan anda mendapat keterangan dalam Bahasa Inggeris dan Bahasa Melayu."
+        },
+        {
+            "name": "index",
+            "title_en": "Index",
+            "title_ms": "Indeks",
+            "description_en": "[Float] Level of producer prices, expressed as an index with base 2010 = 100",
+            "description_ms": "[Apung] Tahap harga pengeluar, dinyatakan sebagai indeks dengan asas 2010 = 100"
+        },
+        {
+            "name": "index_sa",
+            "title_en": "Index (sa)",
+            "title_ms": "Indeks (tsm)",
+            "description_en": "[Float] Level of producer prices, expressed as a seasonally adjusted index with base 2010 = 100",
+            "description_ms": "[Apung] Tahap harga pengeluar, dinyatakan sebagai indeks terlaras secara musim dengan asas 2010 = 100"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 1,
+                "filter_columns": [
+                    "series",
+                    "section"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "index",
+            "title_en": "Index",
+            "title_ms": "Indeks",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "series",
+                    "section"
+                ],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "index"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "series": "Series Type",
+        "section": "Section",
+        "date": "Date",
+        "overall": "Overall",
+        "index": "Index",
+        "index-sa": "index (sa)",
+        "abs": "Absolute values",
+        "growth-yoy": "Year-on-year growth",
+        "growth-mom": "Month-on-month growth",
+        "x": "Date",
+        "y1": "Value",
+        "0": "Food & Live Animals",
+        "1": "Beverages & Tobacco",
+        "2": "Crude Materials, Inedible, Except Fuels",
+        "3": "Mineral Fuels, Lubricants & Related Materials",
+        "4": "Animal and Vegetable Oils, Fats & Waxes",
+        "5": "Chemicals & Related Products N.E.C.",
+        "6": "Manufactured Goods Classified Chiefly by Material",
+        "7": "Machinery & Transport Equipment",
+        "8": "Miscellaneous Manufactured Articles"
+    },
+    "translations_ms": {
+        "series": "Jenis Siri",
+        "section": "Seksyen",
+        "date": "Tarikh",
+        "overall": "Keseluruhan",
+        "index": "Indeks",
+        "index-sa": "Indeks (tsm)",
+        "abs": "Nilai mutlak",
+        "growth-yoy": "Pertumbuhan tahunan",
+        "growth-mom": "Pertumbuhan bulanan",
+        "x": "Tarikh",
+        "y1": "Nilai",
+        "0": "Makanan & Binatang Hidup",
+        "1": "Minuman & Tembakau",
+        "2": "Bahan Mentah tidak boleh Dimakan, Kecuali Bahan Api",
+        "3": "Bahan Api Galian, Pelincir & Bahan Berkaitan",
+        "4": "Minyak, Lemak dan Minyak Tepu Binatang & Sayuran",
+        "5": "Bahan Kimia & Keluaran Berkaitan T.T.T.L.",
+        "6": "Barang-Barang Keluaran Kilang Mengikut Jenis Bahan",
+        "7": "Jentera & Kelengkapan Pengangkutan",
+        "8": "Pelbagai Barang Keluaran Kilang"
+    },
+    "related_datasets": []
+}
