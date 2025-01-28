@@ -1,10 +1,10 @@
 {
-    "title_en": "Headline Producer Price Index (PPI)",
-    "title_ms": "Indeks Harga Pengeluar (IHPR)",
-    "title_sort": 1,
-    "description_en": "Headline producer price index (PPI), with and without seasonal adjustment.",
-    "description_ms": "Indeks harga pengeluar (IHPR) keseluruhan, dengan dan tanpa pelarasan secara musim.",
-    "exclude_openapi": false,
+    "title_en": "PPI by Division (2 digit)",
+    "title_ms": "IHPR mengikut Bahagian (2 digit)",
+    "title_sort": 3,
+    "description_en": "Producer price index (PPI) by MSIC division (2 digit). The table provides a preview of the full dataset using the latest month of data only.",
+    "description_ms": "Indeks harga pengeluar (IHPR) mengikut bahagian MSIC (2 digit). Jadual memberi pratonton kepada set data penuh dengan menggunakan data bulan terkini sahaja.",
+    "exclude_openapi": true,
     "manual_trigger": "2025-01-28 07:18:09.953626",
     "data_as_of": "2024-11",
     "last_updated": "2024-12-24 12:00",
@@ -15,9 +15,9 @@
     "caveat_ms": "Data bagi 3 bulan terkini mungkin disemak semula dalam penerbitan berikutnya.",
     "publication_en": "[Producer Price Index, Nov 2024](https://open.dosm.gov.my/publications/ppi_2024-11), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on producer prices](https://open.dosm.gov.my/dashboard/producer-prices) where you can explore this data in a more interactive manner.",
     "publication_ms": "[Indeks Harga Pengeluar, Nov 2024](https://open.dosm.gov.my/ms-MY/publications/ppi_2024-11), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/ms-MY/dashboard/producer-prices) yang membolehkan anda menerokai set data ini dengan lebih interaktif.",
-    "link_parquet": "https://storage.dosm.gov.my/ppi/ppi.parquet",
-    "link_csv": "https://storage.dosm.gov.my/ppi/ppi.csv",
-    "link_preview": "https://storage.dosm.gov.my/ppi/ppi.parquet",
+    "link_parquet": "https://storage.dosm.gov.my/ppi/ppi_2d.parquet",
+    "link_csv": "https://storage.dosm.gov.my/ppi/ppi_2d.csv",
+    "link_preview": "https://storage.dosm.gov.my/ppi/ppi_2d_preview.parquet",
     "frequency": "MONTHLY",
     "geography": [
         "NATIONAL"
@@ -67,18 +67,18 @@
             "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01 kerana data berfrekuensi bulanan"
         },
         {
+            "name": "division",
+            "title_en": "Division",
+            "title_ms": "Bahagian",
+            "description_en": "[String] 2-digit code, to be matched using the 'division' column in the [MSIC Lookup](https://open.dosm.gov.my/data-catalogue/msic). The MSIC lookup table will give you the English and Malay definitions.",
+            "description_ms": "[Rentetan] Kod 2 digit, yang perlu dipadankan dengan medan 'division' dalam [Jadual MSIC](https://open.dosm.gov.my/ms-MY/data-catalogue/msic). Padanan tersebut akan membolehkan anda mendapat keterangan dalam Bahasa Inggeris dan Bahasa Melayu."
+        },
+        {
             "name": "index",
             "title_en": "Index",
             "title_ms": "Indeks",
             "description_en": "[Float] Level of producer prices, expressed as an index with base 2010 = 100",
             "description_ms": "[Apung] Tahap harga pengeluar, dinyatakan sebagai indeks dengan asas 2010 = 100"
-        },
-        {
-            "name": "index_sa",
-            "title_en": "Index (sa)",
-            "title_ms": "Indeks (tsm)",
-            "description_en": "[Float] Level of producer prices, expressed as a seasonally adjusted index with base 2010 = 100",
-            "description_ms": "[Apung] Tahap harga pengeluar, dinyatakan sebagai indeks terlaras secara musim dengan asas 2010 = 100"
         }
     ],
     "dataviz": [
@@ -90,52 +90,16 @@
             "config": {
                 "precision": 1,
                 "filter_columns": [
-                    "series"
+                    "series",
+                    "section"
                 ],
                 "freeze_columns": []
-            }
-        },
-        {
-            "dataviz_id": "index",
-            "title_en": "Index",
-            "title_ms": "Indeks",
-            "chart_type": "TIMESERIES",
-            "config": {
-                "filter_columns": [
-                    "series"
-                ],
-                "precision": 1,
-                "operation": "SUM",
-                "format": {
-                    "x": "date",
-                    "y": [
-                        "index"
-                    ]
-                }
-            }
-        },
-        {
-            "dataviz_id": "index_sa",
-            "title_en": "Index (sa)",
-            "title_ms": "Indeks (tsm)",
-            "chart_type": "TIMESERIES",
-            "config": {
-                "filter_columns": [
-                    "series"
-                ],
-                "precision": 1,
-                "operation": "SUM",
-                "format": {
-                    "x": "date",
-                    "y": [
-                        "index_sa"
-                    ]
-                }
             }
         }
     ],
     "translations_en": {
         "series": "Series Type",
+        "section": "Section",
         "date": "Date",
         "overall": "Overall",
         "index": "Index",
@@ -148,6 +112,7 @@
     },
     "translations_ms": {
         "series": "Jenis Siri",
+        "section": "Seksyen",
         "date": "Tarikh",
         "overall": "Keseluruhan",
         "index": "Indeks",
