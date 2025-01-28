@@ -91,7 +91,7 @@
                 "precision": 1,
                 "filter_columns": [
                     "series",
-                    "section"
+                    "division"
                 ],
                 "freeze_columns": []
             }
