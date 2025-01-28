@@ -3,14 +3,14 @@
     "title_ms": "Indeks Harga Pengeluar (IHPR)",
     "title_sort": 1,
     "description_en": "Headline producer price index (PPI), with and without seasonal adjustment.",
-    "description_ms": "Indeks harga pengeluar (IHPR), dengan dan tanpa pelarasan secara musim.",
+    "description_ms": "Indeks harga pengeluar (IHPR) keseluruhan, dengan dan tanpa pelarasan secara musim.",
     "exclude_openapi": false,
     "manual_trigger": "2025-01-28 07:18:09.953626",
     "data_as_of": "2024-11",
-    "last_updated": "2025-01-22 12:00",
-    "next_update": "2025-02-21 12:00",
-    "methodology_en": "The Producer Price Index (PPI) is compiled based on the change in the average price of commodities charged by domestic producers of an industry.",
-    "methodology_ms": "Indeks Harga Pengeluar (IHPR) disusun berdasarkan perubahan purata harga komoditi yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
+    "last_updated": "2024-12-24 12:00",
+    "next_update": "2025-01-27 12:00",
+    "methodology_en": "The Producer Price Index (PPI) measures the level of prices received by the producer at the first stage of commercialisation (also known as the ex-factory price), relative to a base year (2010 = 100). Ex-factory prices exclude indirect taxes and any transport charges invoiced separately by the producer, unless the transport charges are too difficult to segregate (usually because the firm utilises their own transport facilities rather than hiring transport services). For a deeper understanding of the PPI compilation methodology and related concepts, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/ppi).",
+    "methodology_ms": "Indeks Harga Pengeluar (IHPR) mengukur tahap harga yang diterima oleh pengeluar pada peringkat pertama pengkomersilan (juga dikenali sebagai harga di kilang), berbanding dengan tahun asas (2010 = 100). Harga di kilang tidak termasuk cukai tidak langsung dan bayaran pengangkutan yang dikenakan berasingan oleh pengeluar, kecuali kos pengangkutan terlalu sukar untuk diasingkan (biasanya kerana sesuatu pertubuhan menggunakan kemudahan pengangkutan sendiri berbanding menyewa perkhidmatan pengangkutan). Untuk memahami metodologi pengiraan IHPR dengan lebih mendalam, sila rujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/ppi).",
     "caveat_en": "Data for the most recent 3 months may be revised in subsequent releases.",
     "caveat_ms": "Data bagi 3 bulan terkini mungkin disemak semula dalam penerbitan berikutnya.",
     "publication_en": "[Producer Price Index, Nov 2024](https://open.dosm.gov.my/publications/ppi_2024-11), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on producer prices](https://open.dosm.gov.my/dashboard/producer-prices) where you can explore this data in a more interactive manner.",
@@ -24,7 +24,7 @@
     ],
     "demography": [],
     "dataset_begin": 2010,
-    "dataset_end": 2023,
+    "dataset_end": 2024,
     "data_source": [
         "DOSM"
     ],
@@ -53,53 +53,32 @@
     ],
     "fields": [
         {
+            "name": "series",
+            "title_en": "Series Type",
+            "title_ms": "Jenis Siri",
+            "description_en": "[String] Series type, either absolute values ('abs'), year-on-year growth ('growth_yoy') or month-on-month growth ('growth_mom'). It should be noted that year-on-year growth values are not provided for the seasonally adjusted series, as they should be derived from the unadjusted series.",
+            "description_ms": "[Rentetan] Jenis siri, sama ada nilai mutlak ('abs'), pertumbuhan tahunan ('growth_yoy') atau pertumbuhan bulanan ('growth_mom'). Perlu diingat bahawa nilai pertumbuhan tahunan tidak disediakan untuk siri yang terlaras secara musim, kerana nilai ini harus dikira berdasarkan siri yang tidak terlaras."
+        },
+        {
             "name": "date",
             "title_en": "Date",
             "title_ms": "Tarikh",
-            "description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01",
-            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01"
+            "description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01 as the data is at monthly frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01 kerana data berfrekuensi bulanan"
         },
         {
-            "name": "overall",
-            "title_en": "PPI (Producer Price Index)",
-            "title_ms": "IHPR (Indeks Harga Pengeluar)",
-            "description_en": "[Float] Index, with base 2010 = 100",
-            "description_ms": "[Apung] Indeks, dengan asas 2010 = 100"
+            "name": "index",
+            "title_en": "Index",
+            "title_ms": "Indeks",
+            "description_en": "[Float] Level of producer prices, expressed as an index with base 2010 = 100",
+            "description_ms": "[Apung] Tahap harga pengeluar, dinyatakan sebagai indeks dengan asas 2010 = 100"
         },
         {
-            "name": "agriculture",
-            "title_en": "Agriculture, Forestry & Fishing",
-            "title_ms": "Pertanian, Perhutanan & Perikanan",
-            "description_en": "[Float] Index, with base 2010 = 100",
-            "description_ms": "[Apung] Indeks, dengan asas 2010 = 100"
-        },
-        {
-            "name": "mining",
-            "title_en": "Mining",
-            "title_ms": "Perlombongan",
-            "description_en": "[Float] Index, with base 2010 = 100",
-            "description_ms": "[Apung] Indeks, dengan asas 2010 = 100"
-        },
-        {
-            "name": "manufacturing",
-            "title_en": "Manufacturing",
-            "title_ms": "Pembuatan",
-            "description_en": "[Float] Index, with base 2010 = 100",
-            "description_ms": "[Apung] Indeks, dengan asas 2010 = 100"
-        },
-        {
-            "name": "electricity",
-            "title_en": "Electricity & Gas Supply",
-            "title_ms": "Bekalan Elektrik & Gas",
-            "description_en": "[Float] Index, with base 2010 = 100",
-            "description_ms": "[Apung] Indeks, dengan asas 2010 = 100"
-        },
-        {
-            "name": "water",
-            "title_en": "Water Supply",
-            "title_ms": "Bekalan Air",
-            "description_en": "[Float] Index, with base 2010 = 100",
-            "description_ms": "[Apung] Indeks, dengan asas 2010 = 100"
+            "name": "index_sa",
+            "title_en": "Index (sa)",
+            "title_ms": "Indeks (tsm)",
+            "description_en": "[Float] Level of producer prices, expressed as a seasonally adjusted index with base 2010 = 100",
+            "description_ms": "[Apung] Tahap harga pengeluar, dinyatakan sebagai indeks terlaras secara musim dengan asas 2010 = 100"
         }
     ],
     "dataviz": [
@@ -183,59 +162,69 @@
             }
         },
         {
-            "dataviz_id": "electricity",
-            "title_en": "Electricity",
-            "title_ms": "Bekalan Elektrik",
+            "dataviz_id": "index",
+            "title_en": "Index",
+            "title_ms": "Indeks",
             "chart_type": "TIMESERIES",
             "config": {
-                "filter_columns": [],
-                "precision": 0,
+                "filter_columns": [
+                    "series"
+                ],
+                "precision": 1,
                 "operation": "SUM",
                 "format": {
                     "x": "date",
                     "y": [
-                        "electricity"
+                        "index"
                     ]
                 }
             }
         },
         {
-            "dataviz_id": "water",
-            "title_en": "Water Supply",
-            "title_ms": "Bekalan Air",
+            "dataviz_id": "index_sa",
+            "title_en": "Index (sa)",
+            "title_ms": "Indeks (tsm)",
             "chart_type": "TIMESERIES",
             "config": {
-                "filter_columns": [],
-                "precision": 0,
+                "filter_columns": [
+                    "series"
+                ],
+                "precision": 1,
                 "operation": "SUM",
                 "format": {
                     "x": "date",
                     "y": [
-                        "water"
+                        "index_sa"
                     ]
                 }
             }
         }
     ],
     "translations_en": {
-        "y1": "Value",
+        "series": "Series Type",
         "date": "Date",
         "overall": "Overall",
-        "agriculture": "Agriculture",
-        "mining": "Mining",
-        "manufacturing": "Manufacturing",
-        "electricity": "Electricity",
-        "water": "Water Supply"
+        "index": "Index",
+        "index_sa": "index (sa)",
+        "index-sa": "index (sa)",
+        "abs": "Absolute values",
+        "growth-yoy": "Year-on-year growth",
+        "growth-mom": "Month-on-month growth",
+        "x": "Date",
+        "y1": "Value"
     },
     "translations_ms": {
-        "y1": "Nilai",
+        "series": "Jenis Siri",
         "date": "Tarikh",
         "overall": "Keseluruhan",
-        "agriculture": "Pertanian",
-        "mining": "Perlombongan",
-        "manufacturing": "Pembuatan",
-        "electricity": "Bekalan Elektrik",
-        "water": "Bekalan Air"
+        "index": "Indeks",
+        "index_sa": "Indeks (tsm)",
+        "index-sa": "Indeks (tsm)",
+        "abs": "Nilai mutlak",
+        "growth-yoy": "Pertumbuhan tahunan",
+        "growth-mom": "Pertumbuhan bulanan",
+        "x": "Date",
+        "y1": "Value"
     },
     "related_datasets": []
 }
