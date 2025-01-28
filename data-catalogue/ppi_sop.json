@@ -1,9 +1,9 @@
 {
-    "title_en": "PPI by SITC Section (1 digit)",
-    "title_ms": "IHPR mengikut Seksyen SITC (1 digit)",
-    "title_sort": 5,
-    "description_en": "Producer price index (PPI) by SITC section (1 digit).",
-    "description_ms": "Indeks harga pengeluar (IHPR) mengikut seksyen SITC (1 digit).",
+    "title_en": "PPI by Stage of Processing",
+    "title_ms": "IHPR mengikut Tahap Pemprosesan",
+    "title_sort": 6,
+    "description_en": "Producer price index (PPI) by stage of processing, per the SITC classification.",
+    "description_ms": "Indeks harga pengeluar (IHPR) mengikut tahap pengeluaran, mengikut klasifikasi SITC.",
     "exclude_openapi": false,
     "manual_trigger": "2025-01-28 07:18:09.953626",
     "data_as_of": "2024-11",
@@ -15,9 +15,9 @@
     "caveat_ms": "Data bagi 3 bulan terkini mungkin disemak semula dalam penerbitan berikutnya.",
     "publication_en": "[Producer Price Index, Nov 2024](https://open.dosm.gov.my/publications/ppi_2024-11), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on producer prices](https://open.dosm.gov.my/dashboard/producer-prices) where you can explore this data in a more interactive manner.",
     "publication_ms": "[Indeks Harga Pengeluar, Nov 2024](https://open.dosm.gov.my/ms-MY/publications/ppi_2024-11), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/ms-MY/dashboard/producer-prices) yang membolehkan anda menerokai set data ini dengan lebih interaktif.",
-    "link_parquet": "https://storage.dosm.gov.my/ppi/ppi_sitc.parquet",
-    "link_csv": "https://storage.dosm.gov.my/ppi/ppi_sitc.csv",
-    "link_preview": "https://storage.dosm.gov.my/ppi/ppi_sitc.parquet",
+    "link_parquet": "https://storage.dosm.gov.my/ppi/ppi_sop.parquet",
+    "link_csv": "https://storage.dosm.gov.my/ppi/ppi_sop.csv",
+    "link_preview": "https://storage.dosm.gov.my/ppi/ppi_sop.parquet",
     "frequency": "MONTHLY",
     "geography": [
         "NATIONAL"
@@ -67,11 +67,11 @@
             "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01 kerana data berfrekuensi bulanan"
         },
         {
-            "name": "section",
-            "title_en": "Section",
-            "title_ms": "Seksyen",
-            "description_en": "[String] 1-digit SITC code, to be matched using the 'section' column in the [SITC Lookup](https://open.dosm.gov.my/data-catalogue/sitc). The SITC lookup table will give you the English and Malay definitions.",
-            "description_ms": "[Rentetan] Kod SITC 1 digit, yang perlu dipadankan dengan medan 'section' dalam [Jadual SITC](https://open.dosm.gov.my/ms-MY/data-catalogue/sitc). Padanan tersebut akan membolehkan anda mendapat keterangan dalam Bahasa Inggeris dan Bahasa Melayu."
+            "name": "stage",
+            "title_en": "Stage of Processing",
+            "title_ms": "Tahap Pemprosesan",
+            "description_en": "[String] Stage-of-processing code, to be matched using the 'code' column in the [Stage of Processing Lookup](https://open.dosm.gov.my/data-catalogue/sitc_sop). The lookup table will give you the English and Malay definitions.",
+            "description_ms": "[Rentetan] Kod tahap pemprosesan, yang perlu dipadankan dengan medan 'code' dalam [Jadual Tahap Pemprosesan](https://open.dosm.gov.my/ms-MY/data-catalogue/sitc_sop). Padanan tersebut akan membolehkan anda mendapat keterangan dalam Bahasa Inggeris dan Bahasa Melayu."
         },
         {
             "name": "index",
@@ -98,7 +98,7 @@
                 "precision": 1,
                 "filter_columns": [
                     "series",
-                    "section"
+                    "stage"
                 ],
                 "freeze_columns": []
             }
@@ -111,7 +111,7 @@
             "config": {
                 "filter_columns": [
                     "series",
-                    "section"
+                    "stage"
                 ],
                 "precision": 1,
                 "operation": "SUM",
@@ -126,7 +126,7 @@
     ],
     "translations_en": {
         "series": "Series Type",
-        "section": "Section",
+        "stage": "Stage of Processing",
         "date": "Date",
         "overall": "Overall",
         "index": "Index",
@@ -136,19 +136,13 @@
         "growth-mom": "Month-on-month growth",
         "x": "Date",
         "y1": "Value",
-        "0": "Food & Live Animals",
-        "1": "Beverages & Tobacco",
-        "2": "Crude Materials, Inedible, Except Fuels",
-        "3": "Mineral Fuels, Lubricants & Related Materials",
-        "4": "Animal and Vegetable Oils, Fats & Waxes",
-        "5": "Chemicals & Related Products N.E.C.",
-        "6": "Manufactured Goods Classified Chiefly by Material",
-        "7": "Machinery & Transport Equipment",
-        "8": "Miscellaneous Manufactured Articles"
+        "1": "Crude Materials",
+        "2": "Intermediate Materials",
+        "3": "Finished Goods"
     },
     "translations_ms": {
         "series": "Jenis Siri",
-        "section": "Seksyen",
+        "stage": "Tahap Pemprosesan",
         "date": "Tarikh",
         "overall": "Keseluruhan",
         "index": "Indeks",
@@ -158,15 +152,9 @@
         "growth-mom": "Pertumbuhan bulanan",
         "x": "Tarikh",
         "y1": "Nilai",
-        "0": "Makanan & Binatang Hidup",
-        "1": "Minuman & Tembakau",
-        "2": "Bahan Mentah tidak boleh Dimakan, Kecuali Bahan Api",
-        "3": "Bahan Api Galian, Pelincir & Bahan Berkaitan",
-        "4": "Minyak, Lemak dan Minyak Tepu Binatang & Sayuran",
-        "5": "Bahan Kimia & Keluaran Berkaitan T.T.T.L.",
-        "6": "Barang-Barang Keluaran Kilang Mengikut Jenis Bahan",
-        "7": "Jentera & Kelengkapan Pengangkutan",
-        "8": "Pelbagai Barang Keluaran Kilang"
+        "1": "Bahan Mentah",
+        "2": "Bahan Perantaraan",
+        "3": "Barang Siap"
     },
     "related_datasets": []
 }
