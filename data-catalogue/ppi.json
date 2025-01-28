@@ -5,7 +5,7 @@
     "description_en": "Headline producer price index (PPI), with and without seasonal adjustment.",
     "description_ms": "Indeks harga pengeluar (IHPR) keseluruhan, dengan dan tanpa pelarasan secara musim.",
     "exclude_openapi": false,
-    "manual_trigger": "2025-01-28 12:02:48.226083",
+    "manual_trigger": "2025-01-28 12:03:21.212826",
     "data_as_of": "2024-12",
     "last_updated": "2025-01-22 12:00",
     "next_update": "2025-02-21 12:00",
