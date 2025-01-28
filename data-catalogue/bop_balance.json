@@ -5,7 +5,7 @@
     "description_en": "Overall balance of the 4 main components of Malaysia's balance of payments (BOP).",
     "description_ms": "Baki keseluruhan 4 komponen utama dalam imbangan pembayaran (BOP) Malaysia.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2024-Q3",
     "last_updated": "2024-11-15 12:00",
     "next_update": "2025-02-14 12:00",
