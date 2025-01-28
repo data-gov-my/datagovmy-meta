@@ -89,7 +89,9 @@
             "chart_type": "TABLE",
             "config": {
                 "precision": 1,
-                "filter_columns": [],
+                "filter_columns": [
+                    "series"
+                ],
                 "freeze_columns": []
             }
         },
