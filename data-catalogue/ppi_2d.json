@@ -56,8 +56,8 @@
             "name": "series",
             "title_en": "Series Type",
             "title_ms": "Jenis Siri",
-            "description_en": "[String] Series type, either absolute values ('abs'), year-on-year growth ('growth_yoy') or month-on-month growth ('growth_mom'). It should be noted that year-on-year growth values are not provided for the seasonally adjusted series, as they should be derived from the unadjusted series.",
-            "description_ms": "[Rentetan] Jenis siri, sama ada nilai mutlak ('abs'), pertumbuhan tahunan ('growth_yoy') atau pertumbuhan bulanan ('growth_mom'). Perlu diingat bahawa nilai pertumbuhan tahunan tidak disediakan untuk siri yang terlaras secara musim, kerana nilai ini harus dikira berdasarkan siri yang tidak terlaras."
+            "description_en": "[String] Series type, either absolute values ('abs'), year-on-year growth ('growth_yoy') or month-on-month growth ('growth_mom')",
+            "description_ms": "[Rentetan] Jenis siri, sama ada nilai mutlak ('abs'), pertumbuhan tahunan ('growth_yoy') atau pertumbuhan bulanan ('growth_mom')"
         },
         {
             "name": "date",
