@@ -5,7 +5,7 @@
     "description_en": "Quarterly principal labour force statistics, including unemployment and participation rates.",
     "description_ms": "Statistik suku tahunan utama berkaitan tenaga buruh, termasuk kadar pengangguran dan penyertaan.",
     "exclude_openapi": false,
-    "manual_trigger": "2024-12-02 13:35:17.870477",
+    "manual_trigger": "2025-01-30 23:00:31.486239",
     "data_as_of": "2024-Q3",
     "last_updated": "2024-11-08 12:00",
     "next_update": "2025-02-10 12:00",
