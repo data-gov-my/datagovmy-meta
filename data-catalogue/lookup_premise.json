@@ -1,6 +1,7 @@
 {
-    "title_en": "Premise Lookup",
-    "title_ms": "Jadual Carian Premis",
+    "title_en": "PriceCatcher: Premise Lookup",
+    "title_ms": "PriceCatcher: Jadual Carian Premis",
+    "title_sort": 21,
     "description_en": "Lookup table, to be left-joined against premise code in the main PriceCatcher data.",
     "description_ms": "Jadual carian, untuk dipadankan (left-join) dengan kod premis (premise code) dalam dataset PriceCatcher utama.",
     "exclude_openapi": true,
@@ -21,10 +22,14 @@
         "DISTRICT"
     ],
     "demography": [],
-    "dataset_begin": 2023,
-    "dataset_end": 2023,
+    "dataset_begin": 2022,
+    "dataset_end": 2025,
     "data_source": [
-        "KPDN"
+        "KPDN",
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "BPHPP"
     ],
     "site_category": [
         {
@@ -32,16 +37,18 @@
             "category_en": "Prices",
             "category_ms": "Harga",
             "category_sort": 70,
-            "subcategory_en": "PriceCatcher",
-            "subcategory_ms": "PriceCatcher"
+            "subcategory_en": "Consumer Prices",
+            "subcategory_ms": "Harga Pengguna",
+            "subcategory_sort": 10
         },
         {
             "site": "opendosm",
             "category_en": "Prices",
             "category_ms": "Harga",
             "category_sort": 70,
-            "subcategory_en": "PriceCatcher",
-            "subcategory_ms": "PriceCatcher"
+            "subcategory_en": "Consumer Prices",
+            "subcategory_ms": "Harga Pengguna",
+            "subcategory_sort": 10
         }
     ],
     "fields": [
