@@ -2,8 +2,8 @@
     "title_en": "PriceCatcher: Transactional Records",
     "title_ms": "PriceCatcher: Rekod Transaksi",
     "title_sort": 20,
-    "description_en": "The table below provides a preview using the latest day of data only. The full dataset contains over a million price records per month. We recommend that you download and work with the data in your preferred coding environment - Microsoft Excel will likely be insufficient due to the size of the dataset. This data should be used in conjuction with the Item Lookup and Premise Lookup tables.",
-    "description_ms": "Jadual di bawah memberi pratonton menggunakan data hari terkini sahaja. Dataset penuh mengandungi lebih daripada sejuta rekod harga bagi setiap bulan. Kami sarankan anda memuat turun dan menganalisa data dengan menggunakan kod - Microsoft Excel mungkin tidak memadai kerana saiz set data ini. Set data ini harus digunakan bersama dengan Jadual Carian Barangan dan Jadual Carian Premis.",
+    "description_en": "The table below provides a preview of the full dataset, which contains over a million price records per month. We recommend that you download and work with the data in your preferred coding environment - Microsoft Excel will likely be insufficient due to the size of the dataset. This data should be used in conjuction with the Item Lookup and Premise Lookup tables.",
+    "description_ms": "Jadual di bawah memberi pratonton kepada set data penuh, yang mengandungi lebih daripada sejuta rekod harga bagi setiap bulan. Kami sarankan anda memuat turun dan menganalisa data dengan menggunakan kod - Microsoft Excel mungkin tidak memadai kerana saiz set data ini. Set data ini harus digunakan bersama dengan Jadual Carian Barangan dan Jadual Carian Premis.",
     "exclude_openapi": true,
     "manual_trigger": "2025-01-30 20:00:29.269203",
     "data_as_of": "2025-01-30 23:59",
@@ -86,8 +86,9 @@
             "category_en": "Prices",
             "category_ms": "Harga",
             "category_sort": 70,
-            "subcategory_en": "PriceCatcher",
-            "subcategory_ms": "PriceCatcher"
+            "subcategory_en": "Consumer Prices",
+            "subcategory_ms": "Harga Pengguna",
+            "subcategory_sort": 10
         }
     ],
     "fields": [
