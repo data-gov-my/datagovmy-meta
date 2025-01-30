@@ -1,6 +1,7 @@
 {
-  "title_en": "Item Lookup",
-  "title_ms": "Jadual Carian Barangan",
+  "title_en": "PriceCatcher: Item Lookup",
+  "title_ms": "PriceCatcher: Jadual Carian Barangan",
+  "title_sort": 22,
   "description_en": "Lookup table, to be left-joined against item code in the main PriceCatcher data.",
   "description_ms": "Jadual carian, untuk dipadankan (left-join) dengan kod barang (item code) dalam dataset PriceCatcher utama.",
   "exclude_openapi": true,
@@ -21,29 +22,33 @@
     "DISTRICT"
   ],
   "demography": [],
-  "dataset_begin": 2023,
-  "dataset_end": 2023,
+  "dataset_begin": 2022,
+  "dataset_end": 2025,
   "data_source": [
-    "KPDN"
+      "KPDN",
+      "DOSM"
+  ],
+  "data_source_granular": [
+      "BPHPP"
   ],
   "site_category": [
     {
-      "site": "datagovmy",
-      "category_en": "Prices",
-      "category_ms": "Harga",
-      "category_sort": 70,
-      "subcategory_en": "PriceCatcher",
-      "subcategory_ms": "PriceCatcher",
-      "subcategory_sort": 40
+        "site": "datagovmy",
+        "category_en": "Prices",
+        "category_ms": "Harga",
+        "category_sort": 70,
+        "subcategory_en": "Consumer Prices",
+        "subcategory_ms": "Harga Pengguna",
+        "subcategory_sort": 10
     },
     {
-      "site": "opendosm",
-      "category_en": "Prices",
-      "category_ms": "Harga",
-      "category_sort": 70,
-      "subcategory_en": "PriceCatcher",
-      "subcategory_ms": "PriceCatcher",
-      "subcategory_sort": 40
+        "site": "opendosm",
+        "category_en": "Prices",
+        "category_ms": "Harga",
+        "category_sort": 70,
+        "subcategory_en": "Consumer Prices",
+        "subcategory_ms": "Harga Pengguna",
+        "subcategory_sort": 10
     }
   ],
   "fields": [
