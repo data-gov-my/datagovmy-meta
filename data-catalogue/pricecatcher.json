@@ -19,6 +19,7 @@
     "link_csv": "https://storage.data.gov.my/pricecatcher/pricecatcher_YYYY-MM-DD.csv",
     "link_preview": "https://storage.data.gov.my/pricecatcher/pricecatcher_preview.parquet",
     "link_editions": [
+        "2025-02",
         "2025-01",
         "2024-12",
         "2024-11",
