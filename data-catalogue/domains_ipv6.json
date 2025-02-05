@@ -15,8 +15,8 @@
   "caveat_ms": "\u2013",
   "publication_en": "This data is fully consistent with the data published on [MYNIC's official statistics page](https://mynic.my/media/statistics).",
   "publication_ms": "Data ini selaras dengan data yang diterbitkan di [halaman statistik rasmi MYNIC](https://mynic.my/media/statistics).",
-  "link_parquet": "https://storage.data.gov.my/publicadmin/domains.parquet",
-  "link_csv": "https://storage.data.gov.my/publicadmin/domains.csv",
+  "link_parquet": "https://storage.data.gov.my/publicadmin/domains_ipv6.parquet",
+  "link_csv": "https://storage.data.gov.my/publicadmin/domains_ipv6.csv",
   "frequency": "MONTHLY",
   "geography": [
     "NATIONAL"
