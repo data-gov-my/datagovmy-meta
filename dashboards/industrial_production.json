@@ -14,7 +14,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/ipi_timeseries.parquet",
-            "data_as_of": "2024-11",
+            "data_as_of": "2024-12",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -45,7 +45,7 @@
             "name": "statistics",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/ipi_timeseries_callout.parquet",
-            "data_as_of": "2024-11",
+            "data_as_of": "2024-12",
             "api_type": "static",
             "api_params": [],
             "variables": {

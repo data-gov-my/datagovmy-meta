@@ -6,7 +6,7 @@
     "description_ms": "Pengeluaran sebenar bagi tiga sektor industri utama, iaitu perlombongan, pembuatan dan elektrik.",
     "exclude_openapi": false,
     "manual_trigger": "2024-05-10 18:15:42.700981",
-    "data_as_of": "2024-11",
+    "data_as_of": "2024-12",
     "last_updated": "2025-02-07 12:00",
     "next_update": "2025-03-12 12:00",
     "methodology_en": "The Industrial Production Index (IPI) is designed to measure the production of industrial commodities in the mining, manufacturing, and electricity sectors in real terms (i.e. in terms of output, not sales value). The IPI is produced using the following data:\n - Monthly data on the production of crude oil and natural gas from PETRONAS.\n - Monthly production data for 245 selected industries in the manufacturing sector from the Monthly Manufacturing Survey, which covers establishments with significant sales.\n - Monthly data on the production of crude palm oil, refined palm kernel oil and palm kernel oil from the Malaysian Palm Oil Board (MPOB).\n - Monthly data on the generation of electricity from Tenaga Nasional Berhad (TNB), Sabah Electricity Sdn. Bhd. (SESB) and Sarawak Energy Berhad (SEB).\n\n For a full description of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/ipi-technotes).",
