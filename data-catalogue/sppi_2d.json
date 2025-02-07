@@ -1,9 +1,9 @@
 {
-    "title_en": "SPPI by Section (1 digit)",
-    "title_ms": "IHPR mengikut Seksyen (1 digit)",
-    "title_sort": 21,
-    "description_en": "Services producer price index (SPPI) by MSIC section (1 digit).",
-    "description_ms": "Indeks harga pengeluar perkhidmatan (IHPRP) mengikut seksyen MSIC (1 digit).",
+    "title_en": "SPPI by Division (2 digits)",
+    "title_ms": "IHPR mengikut Bahagian (2 digit)",
+    "title_sort": 22,
+    "description_en": "Services producer price index (SPPI) by MSIC division (2 digits).",
+    "description_ms": "Indeks harga pengeluar perkhidmatan (IHPRP) mengikut bahagian MSIC (2 digit).",
     "exclude_openapi": false,
     "manual_trigger": "",
     "data_as_of": "2024-Q4",
@@ -15,9 +15,9 @@
     "caveat_ms": "Data bagi 4 suku tahun terkini mungkin disemak semula dalam penerbitan berikutnya.",
     "publication_en": "[Services Producer Price Index, 4Q 2024](https://open.dosm.gov.my/publications/sppi_2024-q4), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on services producer prices](https://open.dosm.gov.my/dashboard/services-producer-prices) where you can explore this data in a more interactive manner.",
     "publication_ms": "[Indeks Harga Pengeluar Perkhidmatan, 4Q 2024](https://open.dosm.gov.my/ms-MY/publications/sppi_2024-q4), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/ms-MY/dashboard/services-producer-prices) yang membolehkan anda menerokai set data ini dengan lebih interaktif.",
-    "link_parquet": "https://storage.dosm.gov.my/ppi/sppi_1d.parquet",
-    "link_csv": "https://storage.dosm.gov.my/ppi/sppi_1d.csv",
-    "link_preview": "https://storage.dosm.gov.my/ppi/sppi_1d.parquet",
+    "link_parquet": "https://storage.dosm.gov.my/ppi/sppi_2d.parquet",
+    "link_csv": "https://storage.dosm.gov.my/ppi/sppi_2d.csv",
+    "link_preview": "https://storage.dosm.gov.my/ppi/sppi_2d.parquet",
     "frequency": "QUARTERLY",
     "geography": [
         "NATIONAL"
@@ -67,11 +67,11 @@
             "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD. Tarikh yang dipilih adalah tarikh terawal dalam suku tahun, contohnya YYYY-01-01 bagi suku tahun pertama dan YYYY-04-01 bagi suku tahun kedua."
         },
         {
-            "name": "section",
-            "title_en": "Section",
-            "title_ms": "Seksyen",
-            "description_en": "[String] 1-letter code, to be matched using the 'section' column in the [MSIC Lookup](https://open.dosm.gov.my/data-catalogue/msic). The MSIC lookup table will give you the English and Malay definitions.",
-            "description_ms": "[Rentetan] Kod 1 huruf, yang perlu dipadankan dengan medan 'section' dalam [Jadual MSIC](https://open.dosm.gov.my/ms-MY/data-catalogue/msic). Padanan tersebut akan membolehkan anda mendapat keterangan dalam Bahasa Inggeris dan Bahasa Melayu."
+            "name": "division",
+            "title_en": "Division",
+            "title_ms": "Bahagian",
+            "description_en": "[String] 2-digit code, to be matched using the 'division' column in the [MSIC Lookup](https://open.dosm.gov.my/data-catalogue/msic). The MSIC lookup table will give you the English and Malay definitions.",
+            "description_ms": "[Rentetan] Kod 2 digit, yang perlu dipadankan dengan medan 'division' dalam [Jadual MSIC](https://open.dosm.gov.my/ms-MY/data-catalogue/msic). Padanan tersebut akan membolehkan anda mendapat keterangan dalam Bahasa Inggeris dan Bahasa Melayu."
         },
         {
             "name": "index",
@@ -91,7 +91,7 @@
                 "precision": 1,
                 "filter_columns": [
                     "series",
-                    "section"
+                    "division"
                 ],
                 "freeze_columns": []
             }
@@ -104,7 +104,7 @@
             "config": {
                 "filter_columns": [
                     "series",
-                    "section"
+                    "division"
                 ],
                 "precision": 1,
                 "operation": "SUM",
@@ -120,7 +120,7 @@
     "translations_en": {
         "series": "Series Type",
         "date": "Date",
-        "section": "Section",
+        "division": "Division",
         "overall": "Overall",
         "index": "Index",
         "abs": "Absolute values",
@@ -128,19 +128,28 @@
         "growth-qoq": "Quarter-on-Quarter Growth",
         "x": "Date",
         "y1": "Value",
-        "h":"Transportation",
-        "i":"Accommodation and F&B",
-        "j":"Information & Communication",
-        "l":"Real Estate Activities",
-        "m":"Professional",
-        "p":"Education",
-        "q":"Health",
-        "r":"Arts, Entertainment & Recreation"
+        "49": "Land Transport",
+        "50": "Water Transport",
+        "51": "Air Transport",
+        "52": "Warehousing & Transportation Support",
+        "53": "Postal & Courier",
+        "55": "Accommodation",
+        "56": "Food & Beverage",
+        "61": "Telecommunications",
+        "62": "Computer Programming & Consultancy",
+        "63": "Information Services",
+        "68": "Real Estate Activities",
+        "69": "Legal & Accounting",
+        "71": "Architecture & Engineering",
+        "85": "Education",
+        "86": "Health",
+        "92": "Gambling & Betting",
+        "93": "Sports & Amusement & Recreation"
     },
     "translations_ms": {
         "series": "Jenis Siri",
         "date": "Tarikh",
-        "section": "Seksyen",
+        "division": "Bahagian",
         "overall": "Keseluruhan",
         "index": "Indeks",
         "abs": "Nilai Mutlak",
@@ -148,14 +157,23 @@
         "growth-qoq": "Pertumbuhan Suku Tahunan",
         "x": "Tarikh",
         "y1": "Nilai",
-        "h":"Pengangkutan",
-        "i":"Penginapan dan Makanan & Minuman",
-        "j":"Informatik & Komunikasi",
-        "l":"Aktiviti Hartanah",
-        "m":"Profesional",
-        "p":"Pendidikan",
-        "q":"Kesihatan",
-        "r":"Kesenian, Hiburan & Rekreasi"
+        "49": "Pengangkutan Darat",
+        "50": "Pengangkutan Air",
+        "51": "Pengangkutan Udara",
+        "52": "Penggudangan & Sokongan Pengangkutan",
+        "53": "Pos & Kurier",
+        "55": "Penginapan",
+        "56": "Makanan & Minuman",
+        "61": "Telekomunikasi",
+        "62": "Pengaturcaraan komputer, perundingan dan aktiviti yang berkaitan",
+        "63": "Perkhidmatan Maklumat",
+        "68": "Aktiviti Hartanah",
+        "69": "Guaman & Perakaunan",
+        "71": "Arkitek & Kejuruteraan",
+        "85": "Pendidikan",
+        "86": "Kesihatan",
+        "92": "Perjudian & Pertaruhan",
+        "93": "Sukan & Hiburan & Rekreasi"
     },
     "related_datasets": []
 }
