@@ -1,9 +1,9 @@
 {
-    "title_en": "Headline Services Producer Price Index (SPPI)",
-    "title_ms": "Indeks Harga Pengeluar Perkhidmatan (IHPRP) Keseluruhan",
-    "title_sort": 20,
-    "description_en": "Headline services producer price index (SPPI), covering 8 key services sub-sectors.",
-    "description_ms": "Indeks harga pengeluar perkhidmatan (IHPRP), meliputi 8 sub-sektor perkhidmatan penting.",
+    "title_en": "SPPI by Section (1 digit)",
+    "title_ms": "IHPR mengikut Seksyen (1 digit)",
+    "title_sort": 21,
+    "description_en": "Services producer price index (SPPI) by MSIC section (1 digit).",
+    "description_ms": "Indeks harga pengeluar perkhidmatan (IHPRP) mengikut seksyen MSIC (1 digit).",
     "exclude_openapi": false,
     "manual_trigger": "",
     "data_as_of": "2024-Q4",
@@ -15,9 +15,9 @@
     "caveat_ms": "Data bagi 4 suku tahun terkini mungkin disemak semula dalam penerbitan berikutnya.",
     "publication_en": "[Services Producer Price Index, 4Q 2024](https://open.dosm.gov.my/publications/sppi_2024-q4), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on services producer prices](https://open.dosm.gov.my/dashboard/services-producer-prices) where you can explore this data in a more interactive manner.",
     "publication_ms": "[Indeks Harga Pengeluar Perkhidmatan, 4Q 2024](https://open.dosm.gov.my/ms-MY/publications/sppi_2024-q4), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/ms-MY/dashboard/services-producer-prices) yang membolehkan anda menerokai set data ini dengan lebih interaktif.",
-    "link_parquet": "https://storage.dosm.gov.my/ppi/sppi.parquet",
-    "link_csv": "https://storage.dosm.gov.my/ppi/sppi.csv",
-    "link_preview": "https://storage.dosm.gov.my/ppi/sppi.parquet",
+    "link_parquet": "https://storage.dosm.gov.my/ppi/sppi_1d.parquet",
+    "link_csv": "https://storage.dosm.gov.my/ppi/sppi_1d.csv",
+    "link_preview": "https://storage.dosm.gov.my/ppi/sppi_1d.parquet",
     "frequency": "MONTHLY",
     "geography": [
         "NATIONAL"
@@ -67,6 +67,13 @@
             "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD. Tarikh yang dipilih adalah tarikh terawal dalam suku tahun, contohnya YYYY-01-01 bagi suku tahun pertama dan YYYY-04-01 bagi suku tahun kedua."
         },
         {
+            "name": "section",
+            "title_en": "Section",
+            "title_ms": "Seksyen",
+            "description_en": "[String] 1-letter code, to be matched using the 'section' column in the [MSIC Lookup](https://open.dosm.gov.my/data-catalogue/msic). The MSIC lookup table will give you the English and Malay definitions.",
+            "description_ms": "[Rentetan] Kod 1 huruf, yang perlu dipadankan dengan medan 'section' dalam [Jadual MSIC](https://open.dosm.gov.my/ms-MY/data-catalogue/msic). Padanan tersebut akan membolehkan anda mendapat keterangan dalam Bahasa Inggeris dan Bahasa Melayu."
+        },
+        {
             "name": "index",
             "title_en": "Index",
             "title_ms": "Indeks",
@@ -83,7 +90,8 @@
             "config": {
                 "precision": 1,
                 "filter_columns": [
-                    "series"
+                    "series",
+                    "section"
                 ],
                 "freeze_columns": []
             }
@@ -95,7 +103,8 @@
             "chart_type": "TIMESERIES",
             "config": {
                 "filter_columns": [
-                    "series"
+                    "series",
+                    "section"
                 ],
                 "precision": 1,
                 "operation": "SUM",
@@ -117,7 +126,15 @@
         "growth-yoy": "Year-on-Year Growth",
         "growth-qoq": "Quarter-on-Quarter Growth",
         "x": "Date",
-        "y1": "Value"
+        "y1": "Value",
+        "H":"Transportation",
+        "I":"Accommodation and F&B",
+        "J":"Information & Communication",
+        "L":"Real Estate Activities",
+        "M":"Professional",
+        "P":"Education",
+        "Q":"Health",
+        "R":"Arts, Entertainment & Recreation"
     },
     "translations_ms": {
         "series": "Jenis Siri",
@@ -128,7 +145,15 @@
         "growth-yoy": "Pertumbuhan Tahunan",
         "growth-qoq": "Pertumbuhan Suku Tahunan",
         "x": "Tarikh",
-        "y1": "Nilai"
+        "y1": "Nilai",
+        "H":"Pengangkutan",
+        "I":"Penginapan dan Makanan & Minuman",
+        "J":"Informatik & Komunikasi",
+        "L":"Aktiviti Hartanah",
+        "M":"Profesional",
+        "P":"Pendidikan",
+        "Q":"Kesihatan",
+        "R":"Kesenian, Hiburan & Rekreasi"
     },
     "related_datasets": []
 }
