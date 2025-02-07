@@ -5,7 +5,7 @@
     "description_en": "Headline services producer price index (SPPI), covering 8 key services sub-sectors.",
     "description_ms": "Indeks harga pengeluar perkhidmatan (IHPRP), meliputi 8 sub-sektor perkhidmatan penting.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2024-Q4",
 	"last_updated": "2025-02-06 12:00",
     "next_update": "2025-05-08 12:00",
