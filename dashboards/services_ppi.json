@@ -11,7 +11,7 @@
 		"timeseries": {
 			"name": "timeseries",
 			"chart_type": "timeseries_chart",
-			"chart_source": "http://storage.dosm.gov.my/dashboards/services_ppi_timeseries.parquet",
+			"chart_source": "http://storage.dosm.gov.my/dashboards/sppi_timeseries.parquet",
 			"data_as_of": "2024-Q4",
 			"api_type": "static",
 			"api_params": [],
@@ -38,7 +38,7 @@
 		"timeseries_callout": {
 			"name": "timeseries_callout",
 			"chart_type": "custom_chart",
-			"chart_source": "http://storage.dosm.gov.my/dashboards/services_ppi_timeseries_callout.parquet",
+			"chart_source": "http://storage.dosm.gov.my/dashboards/sppi_timeseries_callout.parquet",
 			"data_as_of": "2024-Q4",
 			"api_type": "static",
 			"api_params": [],
