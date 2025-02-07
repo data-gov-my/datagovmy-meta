@@ -1,10 +1,10 @@
 {
-    "title_en": "Headline Services Producer Price Index (SPPI)",
-    "title_ms": "Indeks Harga Pengeluar Perkhidmatan (IHPRP) Keseluruhan",
-    "title_sort": 20,
-    "description_en": "Headline services producer price index (SPPI), covering 8 key services sub-sectors.",
-    "description_ms": "Indeks harga pengeluar perkhidmatan (IHPRP), meliputi 8 sub-sektor perkhidmatan penting.",
-    "exclude_openapi": false,
+    "title_en": "SPPI by Group (3 digits)",
+    "title_ms": "IHPR mengikut Kumpulan (3 digit)",
+    "title_sort": 23,
+    "description_en": "Services producer price index (SPPI) by MSIC group (3 digits). The table provides a preview of the full dataset using the most recent 4 quarters of data.",
+    "description_ms": "Indeks harga pengeluar perkhidmatan (IHPRP) mengikut kumpulan MSIC (3 digit). Jadual memberi pratonton kepada set data penuh menggunakan data bagi 4 suku tahun terkini.",
+    "exclude_openapi": true,
     "manual_trigger": "",
     "data_as_of": "2024-Q4",
 	"last_updated": "2025-02-06 12:00",
@@ -15,9 +15,9 @@
     "caveat_ms": "Data bagi 4 suku tahun terkini mungkin disemak semula dalam penerbitan berikutnya.",
     "publication_en": "[Services Producer Price Index, 4Q 2024](https://open.dosm.gov.my/publications/sppi_2024-q4), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on services producer prices](https://open.dosm.gov.my/dashboard/services-producer-prices) where you can explore this data in a more interactive manner.",
     "publication_ms": "[Indeks Harga Pengeluar Perkhidmatan, 4Q 2024](https://open.dosm.gov.my/ms-MY/publications/sppi_2024-q4), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/ms-MY/dashboard/services-producer-prices) yang membolehkan anda menerokai set data ini dengan lebih interaktif.",
-    "link_parquet": "https://storage.dosm.gov.my/ppi/sppi.parquet",
-    "link_csv": "https://storage.dosm.gov.my/ppi/sppi.csv",
-    "link_preview": "https://storage.dosm.gov.my/ppi/sppi.parquet",
+    "link_parquet": "https://storage.dosm.gov.my/ppi/sppi_3d.parquet",
+    "link_csv": "https://storage.dosm.gov.my/ppi/sppi_3d.csv",
+    "link_preview": "https://storage.dosm.gov.my/ppi/sppi_3d_preview.parquet",
     "frequency": "QUARTERLY",
     "geography": [
         "NATIONAL"
@@ -67,6 +67,13 @@
             "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD. Tarikh yang dipilih adalah tarikh terawal dalam suku tahun, contohnya YYYY-01-01 bagi suku tahun pertama dan YYYY-04-01 bagi suku tahun kedua."
         },
         {
+            "name": "group",
+            "title_en": "Group",
+            "title_ms": "Kumpulan",
+            "description_en": "[String] 3-digit code, to be matched using the 'group' column in the [MSIC Lookup](https://open.dosm.gov.my/data-catalogue/msic). The MSIC lookup table will give you the English and Malay definitions.",
+            "description_ms": "[Rentetan] Kod 3 digit, yang perlu dipadankan dengan medan 'group' dalam [Jadual MSIC](https://open.dosm.gov.my/ms-MY/data-catalogue/msic). Padanan tersebut akan membolehkan anda mendapat keterangan dalam Bahasa Inggeris dan Bahasa Melayu."
+        },
+        {
             "name": "index",
             "title_en": "Index",
             "title_ms": "Indeks",
@@ -87,30 +94,12 @@
                 ],
                 "freeze_columns": []
             }
-        },
-        {
-            "dataviz_id": "index",
-            "title_en": "Index",
-            "title_ms": "Indeks",
-            "chart_type": "TIMESERIES",
-            "config": {
-                "filter_columns": [
-                    "series"
-                ],
-                "precision": 1,
-                "operation": "SUM",
-                "format": {
-                    "x": "date",
-                    "y": [
-                        "index"
-                    ]
-                }
-            }
         }
     ],
     "translations_en": {
         "series": "Series Type",
         "date": "Date",
+        "group": "Group",
         "overall": "Overall",
         "index": "Index",
         "abs": "Index (2010 = 100)",
@@ -122,6 +111,7 @@
     "translations_ms": {
         "series": "Jenis Siri",
         "date": "Tarikh",
+        "group": "Kumpulan",
         "overall": "Keseluruhan",
         "index": "Indeks",
         "abs": "Indeks (2010 = 100)",
