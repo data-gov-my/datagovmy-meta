@@ -18,7 +18,7 @@
     "link_parquet": "https://storage.dosm.gov.my/ppi/sppi.parquet",
     "link_csv": "https://storage.dosm.gov.my/ppi/sppi.csv",
     "link_preview": "https://storage.dosm.gov.my/ppi/sppi.parquet",
-    "frequency": "MONTHLY",
+    "frequency": "QUARTERLY",
     "geography": [
         "NATIONAL"
     ],
@@ -56,8 +56,8 @@
             "name": "series",
             "title_en": "Series Type",
             "title_ms": "Jenis Siri",
-            "description_en": "[String] Series type, either absolute values ('abs'), year-on-year growth ('growth_yoy') or month-on-month growth ('growth_mom')",
-            "description_ms": "[Rentetan] Jenis siri, sama ada nilai mutlak ('abs'), pertumbuhan tahunan ('growth_yoy') atau pertumbuhan bulanan ('growth_mom')"
+            "description_en": "[String] Series type, either absolute values ('abs'), year-on-year growth ('growth_yoy') or quarter-on-quarter growth ('growth_qoq')",
+            "description_ms": "[Rentetan] Jenis siri, sama ada nilai mutlak ('abs'), pertumbuhan tahunan ('growth_yoy') atau pertumbuhan suku tahunan ('growth_qoq')"
         },
         {
             "name": "date",
@@ -70,8 +70,8 @@
             "name": "index",
             "title_en": "Index",
             "title_ms": "Indeks",
-            "description_en": "[Float] Level of producer prices, expressed as an index with base 2010 = 100",
-            "description_ms": "[Apung] Tahap harga pengeluar, dinyatakan sebagai indeks dengan asas 2010 = 100"
+            "description_en": "[Float] Level of services producer prices, expressed as an index with base 2010 = 100",
+            "description_ms": "[Apung] Tahap harga pengeluar perkhidmatan, dinyatakan sebagai indeks dengan asas 2010 = 100"
         }
     ],
     "dataviz": [
