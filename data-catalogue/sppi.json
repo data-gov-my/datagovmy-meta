@@ -114,8 +114,8 @@
         "overall": "Overall",
         "index": "Index",
         "abs": "Absolute values",
-        "growth-yoy": "Year-on-year Growth",
-        "growth-mom": "Month-on-month Growth",
+        "growth-yoy": "Year-on-Year Growth",
+        "growth-qoq": "Quarter-on-Quarter Growth",
         "x": "Date",
         "y1": "Value"
     },
@@ -126,7 +126,7 @@
         "index": "Indeks",
         "abs": "Nilai Mutlak",
         "growth-yoy": "Pertumbuhan Tahunan",
-        "growth-mom": "Pertumbuhan Bulanan",
+        "growth-qoq": "Pertumbuhan Suku Tahunan",
         "x": "Tarikh",
         "y1": "Nilai"
     },
