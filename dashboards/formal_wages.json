@@ -1,6 +1,6 @@
 {
 	"dashboard_name": "formal_wages",
-    "data_last_updated": "2024-01-27 12:00",
+    "data_last_updated": "2025-01-27 12:00",
     "data_next_update": "2025-04-29 12:00",
 	"route": "/dashboard/formal-sector-wages,/ms-MY/dashboard/formal-sector-wages",
 	"sites": ["opendosm"],
