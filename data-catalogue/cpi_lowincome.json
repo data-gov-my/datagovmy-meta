@@ -1,7 +1,7 @@
 {
-    "title_en": "CPI for Low-Income Households by Division (2-digit)",
-    "title_ms": "IHP bagi Isi Rumah Berpendapat Rendah mengikut Bahagian (2-digit)",
-    "title_sort": 11,
+    "title_en": "Monthly CPI for Low-Income Households",
+    "title_ms": "IHP Bulanan bagi Isi Rumah Berpendapatan Rendah",
+    "title_sort": 13,
     "description_en": "National-level CPI for low-income households (< RM3000 per month) across 13 main groups of goods and services.",
     "description_ms": "IHP peringkat nasional bagi isi rumah berpendapatan rendah (< RM3000 sebulan) meliputi 13 kumpulan utama barangan dan perkhidmatan.",
     "exclude_openapi": false,

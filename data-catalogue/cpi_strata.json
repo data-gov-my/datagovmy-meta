@@ -1,7 +1,7 @@
 {
-    "title_en": "CPI by Strata & Division (2-digit)",
-    "title_ms": "IHP mengikut Strata & Bahagian (2-digit)",
-    "title_sort": 10,
+    "title_en": "Monthly CPI by Strata & Division (2-digit)",
+    "title_ms": "IHP Bulanan mengikut Strata & Bahagian (2-digit)",
+    "title_sort": 12,
     "description_en": "CPI by strata (urban/rural) for 13 main groups of goods and services.",
     "description_ms": "IHP mengikut strata (bandar/luar bandar) bagi 13 kumpulan utama barangan dan perkhidmatan.",
     "exclude_openapi": false,

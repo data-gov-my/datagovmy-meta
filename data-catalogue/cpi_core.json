@@ -1,7 +1,7 @@
 {
-    "title_en": "Core CPI by Division (2-digit)",
-    "title_ms": "IHP Teras mengikut Bahagian (2-digit)",
-    "title_sort": 3,
+    "title_en": "Monthly Core CPI by Division (2-digit)",
+    "title_ms": "IHP Teras Bulanan mengikut Bahagian (2-digit)",
+    "title_sort": 5,
     "description_en": "National-level core CPI for 13 main groups of goods and services.",
     "description_ms": "IHP teras peringkat nasional bagi 13 kumpulan utama barangan dan perkhidmatan.",
     "exclude_openapi": false,

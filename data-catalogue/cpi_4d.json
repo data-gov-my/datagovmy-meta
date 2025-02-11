@@ -1,7 +1,7 @@
 {
-    "title_en": "CPI by Class (4-digit)",
-    "title_ms": "IHP mengikut Kelas (4-digit)",
-    "title_sort": 8,
+    "title_en": "Monthly CPI by Class (4-digit)",
+    "title_ms": "IHP Bulanan mengikut Kelas (4-digit)",
+    "title_sort": 10,
     "description_en": "National-level CPI at class granularity. The table below provides a preview of the full dataset using the latest month of data only.",
     "description_ms": "IHP peringkat nasional dengan perincian tahap kelas. Jadual di bawah memberi pratonton kepada set data penuh dengan menggunakan data bulan terkini sahaja.",
     "exclude_openapi": true,

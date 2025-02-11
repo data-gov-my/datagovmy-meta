@@ -1,7 +1,7 @@
 {
-    "title_en": "CPI by Subclass (5-digit)",
-    "title_ms": "IHP mengikut Subkelas (5-digit)",
-    "title_sort": 9,
+    "title_en": "Monthly CPI by Subclass (5-digit)",
+    "title_ms": "IHP Bulanan mengikut Subkelas (5-digit)",
+    "title_sort": 11,
     "description_en": "National-level CPI at subclass granularity. The table below provides a preview of the full dataset using the latest month of data only.",
     "description_ms": "IHP peringkat nasional dengan perincian tahap subkelas. Jadual di bawah memberi pratonton kepada set data penuh dengan menggunakan data bulan terkini sahaja.",
     "exclude_openapi": true,
