@@ -1,7 +1,7 @@
 {
-    "title_en": "CPI by Group (3-digit)",
-    "title_ms": "IHP mengikut Kumpulan (3-digit)",
-    "title_sort": 7,
+    "title_en": "Monthly CPI by Group (3-digit)",
+    "title_ms": "IHP Bulanan mengikut Kumpulan (3-digit)",
+    "title_sort": 9,
     "description_en": "National-level CPI at group granularity. The table below provides a preview of the full dataset using the latest month of data only.",
     "description_ms": "IHP peringkat nasional dengan perincian tahap kumpulan. Jadual di bawah memberi pratonton kepada set data penuh dengan menggunakan data bulan terkini sahaja.",
     "exclude_openapi": true,

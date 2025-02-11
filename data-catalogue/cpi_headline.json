@@ -1,7 +1,7 @@
 {
-    "title_en": "CPI by Division (2-digit)",
-    "title_ms": "IHP mengikut Bahagian (2-digit)",
-    "title_sort": 1,
+    "title_en": "Monthly CPI by Division (2-digit)",
+    "title_ms": "IHP Bulanan mengikut Bahagian (2-digit)",
+    "title_sort": 3,
     "description_en": "National-level CPI for 13 main groups of goods and services.",
     "description_ms": "IHP peringkat nasional bagi 13 kumpulan utama barangan dan perkhidmatan.",
     "exclude_openapi": false,
