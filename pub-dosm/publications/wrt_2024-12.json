@@ -1,0 +1,50 @@
+{
+    "publication": "iowrt_2024-12",
+    "publication_type": "services",
+    "release_date": "2025-02-12",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Dec 2024] Index of Wholesale & Retail Trade",
+        "publication_type_title": "Wholesale & Retail Trade",
+        "description": "Monthly wholesale and retail trade performance, including the performance of motor vehicle sales.",
+        "description_email": "DOSM has just released the latest monthly wholesale and retail trade data, covering sales turnover and volume. Wholesale and retail sales turnover grew by 5.7% year-on-year (Nov 2024: 4.7%), while sales volume grew by 4.4% (Nov 2024: 3.9%). ",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Index of Wholesale & Retail Trade: Dec 2024",
+                "resource_link": "https://storage.dosm.gov.my/iowrt/iowrt_2024-12.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Index of Wholesale & Retail Trade: Dec 2024",
+                "resource_link": "https://storage.dosm.gov.my/iowrt/iowrt_2024-12.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Dis 2024] Indeks Perdagangan Borong & Runcit",
+        "publication_type_title": "Perdagangan Borong & Runcit",
+        "description": "Prestasi bulanan perdagangan borong dan runcit, termasukan prestasi jualan kenderaan bermotor.",
+        "description_email": "DOSM telah menerbitkan data perdagangan borong dan runcit bulanan terkini, merangkumi nilai dan volum penjualan. Nilai penjualan borong dan runcit meningkat sebanyak 5.7% secara tahunan (Nov 2024: 4.7%), manakala volum penjualan meningkat sebanyak 4.4% (Nov 2024: 3.9%).",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Indeks Perdagangan Borong & Runcit: Dis 2024",
+                "resource_link": "https://storage.dosm.gov.my/iowrt/iowrt_2024-12.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Indeks Perdagangan Borong & Runcit: Dis 2024",
+                "resource_link": "https://storage.dosm.gov.my/iowrt/iowrt_2024-12.pdf"
+            }
+        ]
+    }
+}
