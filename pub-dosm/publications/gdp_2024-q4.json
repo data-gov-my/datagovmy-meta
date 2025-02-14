@@ -1,0 +1,50 @@
+{
+    "publication": "gdp_2024-q4",
+    "publication_type": "gdp",
+    "release_date": "2025-02-14",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[4Q 2024] Gross Domestic Product",
+        "publication_type_title": "Gross Domestic Product",
+        "description": "Quarterly gross domestic product (GDP), covering nominal and real GDP by type of expenditure and activity.",
+        "description_email": "DOSM has just released the latest quarterly GDP data, covering nominal and real GDP by type of expenditure and activity. Malaysia's real GDP grew by 5.0% (3Q 2024: 5.4%), bringing economic growth for the full year 2024 to 5.1% (2023: 3.6%).",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Gross Domestic Product: 4Q 2024",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_2024-q4.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Gross Domestic Product: 4Q 2024",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_2024-q4.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST4 2024] Keluaran Dalam Negeri Kasar",
+        "publication_type_title": "Keluaran Dalam Negeri Kasar",
+        "description": "Keluaran dalam negeri kasar (KDNK) suku tahunan, merangkumi KDNK pada harga semasa dan malar mengikut jenis perbelanjaan dan aktiviti.",
+        "description_email": "DOSM telah menerbitkan data KDNK suku tahunan terkini, merangkumi KDNK pada harga semasa dan malar mengikut jenis perbelanjaan dan aktiviti. KDNK sebenar Malaysia telah meningkat sebanyak 5.0% (ST3 2024: 5.4%), bermaksud pertumbuhan ekonomi bagi 2024 secara keseluruhan adalah 5.1% (2023: 3.6%).",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Keluaran Dalam Negeri Kasar: ST4 2024",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_2024-q4.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Keluaran Dalam Negeri Kasar: ST4 2024",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_2024-q4.xlsx"
+            }
+        ]
+    }
+}

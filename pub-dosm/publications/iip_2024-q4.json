@@ -1,0 +1,50 @@
+{
+    "publication": "iip_2024-q4",
+    "publication_type": "iip",
+    "release_date": "2025-02-14",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[4Q 2024] International Investment Position",
+        "publication_type_title": "International Investment Position",
+        "description": "Quarterly international investment position, covering assets and liabilities by economic sector and country.",
+        "description_email": "DOSM has just released the latest quarterly international investment position data, covering assets and liabilities by economic sector and country. Overall, Malaysia's IIP recorded lower net liabilities of RM6.7 bil as at the end of 4Q (end-3Q 2024: RM38.6 bil).",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "International Investment Position: 4Q 2024",
+                "resource_link": "https://storage.dosm.gov.my/iip/iip_2024-q4.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "International Investment Position: 4Q 2024",
+                "resource_link": "https://storage.dosm.gov.my/iip/iip_2024-q4.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST4 2024] Kedudukan Pelaburan Antarabangsa",
+        "publication_type_title": "Kedudukan Pelaburan Antarabangsa",
+        "description": "Kedudukan pelaburan antarabangsa suku tahunan, merangkumi aset dan liabiliti mengikut sektor ekonomi dan negara.",
+        "description_email": "DOSM telah menerbitkan data kedudukan pelaburan antarabangsa suku tahunan terkini, merangkumi aset dan liabiliti mengikut sektor ekonomi dan negara. Secara keseluruhan, IIP Malaysia mencatatkan liabiliti bersih yang lebih rendah sebanyak RM6.7 bil pada akhir ST4 (akhir ST3 2024: RM38.6 bil).",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Kedudukan Pelaburan Antarabangsa: ST4 2024",
+                "resource_link": "https://storage.dosm.gov.my/iip/iip_2024-q4.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Kedudukan Pelaburan Antarabangsa: ST4 2024",
+                "resource_link": "https://storage.dosm.gov.my/iip/iip_2024-q4.pdf"
+            }
+        ]
+    }
+}
