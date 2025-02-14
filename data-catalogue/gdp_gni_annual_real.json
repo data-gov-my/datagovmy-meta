@@ -6,9 +6,9 @@
     "description_ms": "Siri masa panjang keluaran dalam negeri kasar (KDNK) serta pendapatan nasional kasar (PNK) pada harga malar 2015, termasuk nilai per kapita.",
     "exclude_openapi": false,
     "manual_trigger": "",
-    "data_as_of": "2023",
-    "last_updated": "2024-05-17 12:00",
-    "next_update": "2025-05-16 12:00",
+    "data_as_of": "2024",
+    "last_updated": "2025-02-14 12:00",
+    "next_update": "2026-02-13 12:00",
     "methodology_en": "Gross domestic product (GDP) is the total value of goods and services produced within that year, after deducting the cost of goods and services used in production, but before deducting the consumption of fixed capital. In Malaysia, GDP is estimated in compliance with the [System of National Accounts (2008)](https://storage.dosm.gov.my/technotes/sna_2008.pdf). Gross national income (GNI) is derived as GDP plus net factor incomes from abroad. For a full description of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/gdp-technotes).",
     "methodology_ms": "Keluaran dalam negeri kasar (KDNK) adalah jumlah nilai barangan dan perkhidmatan yang dihasilkan dalam tahun tersebut, selepas ditolak kos barangan dan perkhidmatan yang digunakan dalam proses pengeluaran, tetapi sebelum ditolak penggunaan modal tetap. Di Malaysia, anggaran KDNK dihasilkan selaras dengan [Sistem Akaun Nasional (2008)](https://storage.dosm.gov.my/technotes/sna_2008.pdf). Pendapatan nasional kasar (PNK) didefinisikan sebagai KDNK tambah pendapatan faktor bersih dari luar negara. Untuk mendapat perincian metodologi yang penuh, sila merujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/gdp-technotes).",
     "caveat_en": "GDP and GNI values for 2022 and 2023 may be revised in future releases. Furthermore, per capita values will be revised in parallel with any published revisions to [Malaysia's population data](https://open.dosm.gov.my/data-catalogue/population_malaysia).",
@@ -23,7 +23,7 @@
     ],
     "demography": [],
     "dataset_begin": 1970,
-    "dataset_end": 2023,
+    "dataset_end": 2024,
     "data_source": [
         "DOSM"
     ],
