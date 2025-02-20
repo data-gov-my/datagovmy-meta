@@ -323,7 +323,7 @@
         "description": "Annual population of Malaysia from 1970 to the present, including vital statistics on births and deaths."
       },
       "external-trade": {
-        "name": "External Trade Statistics",
+        "name": "External Trade",
         "description": "Monthly external trade statistics and indices, covering exports, imports, the trade balance, and terms of trade."
       },
       "life-expectancy": {

@@ -323,7 +323,7 @@
           "description": "Populasi tahunan Malaysia dari 1970 sehingga kini, termasuk perangkaan penting mengenai kelahiran dan kematian."
       },
       "external-trade": {
-          "name": "Statistik Perdagangan Luaran",
+          "name": "Perdagangan Luar Negeri",
           "description": "Statistik dan indeks perdagangan luar bulanan, merangkumi eksport, import, imbangan dagangan, dan terma perdagangan."
       },
       "life-expectancy": {
