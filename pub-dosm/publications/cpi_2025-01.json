@@ -1,0 +1,75 @@
+{
+    "publication": "cpi_2025-01",
+    "publication_type": "cpi",
+    "release_date": "2025-02-21",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Jan 2025] Consumer Price Index",
+        "publication_type_title": "Consumer Price Index (CPI)",
+        "description": "Official consumer price data, covering headline, core, and state-level inflation",
+        "description_email": "DOSM has just released the latest monthly CPI data, covering headline, core, and state-level inflation. CPI inflation came in at 1.7% year-on-year (Dec 2024: 1.7%).",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Consumer Price Index Report: Jan 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-01.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "CPI Main Tables: Jan 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-01_main.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "CPI Tables by State: Jan 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-01_state.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Core CPI Tables: Jan 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-01_core.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Jan 2025] Indeks Harga Pengguna",
+        "publication_type_title": "Indeks Harga Pengguna (IHP)",
+        "description": "Data harga pengguna rasmi, merangkumi inflasi, inflasi teras, dan inflasi mengikut negeri",
+        "description_email": "DOSM telah menerbitkan data IHP bulanan terkini, merangkumi inflasi, inflasi teras, dan inflasi mengikut negeri. Inflasi IHP adalah sebanyak 1.7% secara tahun ke tahun (Dis 2025: 1.7%).",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Laporan Indeks Harga Pengguna: Jan 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-01.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Jadual Utama IHP: Jan 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-01_main.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Jadual IHP mengikut Negeri: Jan 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-01_state.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Jadual IHP Teras: Jan 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-01_core.xlsx"
+            }
+        ]
+    }
+}
