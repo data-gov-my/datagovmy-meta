@@ -1,19 +1,19 @@
 {
     "dashboard_name": "labour_productivity",
+    "manual_trigger": "0",
     "data_last_updated": "2025-02-20 12:00",
     "data_next_update": "2025-05-22 12:00",
     "route": "/dashboard/labour-productivity,/ms-MY/dashboard/labour-productivity",
     "sites": [
         "opendosm"
     ],
-    "manual_trigger": "0",
     "required_params": [],
     "optional_params": [],
     "charts": {
         "timeseries": {
             "name": "timeseries",
             "chart_type": "timeseries_chart",
-            "chart_source": "https://storage.dosm.gov.my/dashboards/labour_productivity_timeseries.parquet",
+            "chart_source": "https://storage.dosm.gov.my/dashboards/productivity_timeseries.parquet",
             "data_as_of": "2024-Q4",
             "api_type": "static",
             "api_params": [],
@@ -39,7 +39,7 @@
         "timeseries_callout": {
             "name": "timeseries_callout",
             "chart_type": "custom_chart",
-            "chart_source": "https://storage.dosm.gov.my/dashboards/labour_productivity_timeseries_callout.parquet",
+            "chart_source": "https://storage.dosm.gov.my/dashboards/productivity_timeseries_callout.parquet",
             "data_as_of": "2024-Q4",
             "api_type": "static",
             "api_params": [],
