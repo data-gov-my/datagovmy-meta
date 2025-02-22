@@ -38,7 +38,8 @@
             "category_ms": "Pasaran Buruh",
             "category_sort": 50,
             "subcategory_en": "Labour Force Survey",
-            "subcategory_ms": "Survei Tenaga Buruh"
+            "subcategory_ms": "Survei Tenaga Buruh",
+            "subcategory_sort": 10
         },
         {
             "site": "opendosm",
@@ -46,7 +47,8 @@
             "category_ms": "Pasaran Buruh",
             "category_sort": 50,
             "subcategory_en": "Labour Force Survey",
-            "subcategory_ms": "Survei Tenaga Buruh"
+            "subcategory_ms": "Survei Tenaga Buruh",
+            "subcategory_sort": 10
         }
     ],
     "fields": [
