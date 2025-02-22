@@ -60,7 +60,7 @@
             "description_ms": "[Rentetan] Jenis siri, sama ada nilai mutlak ('abs') atau pertumbuhan tahunan ('growth_yoy')"
         },
         {
-            "name": "sector",
+            "name": "subsector",
             "title_en": "Priority Subsector",
             "title_ms": "Subsektor Penting",
             "description_en": "[String] Code for the priority subsector, to be mapped using the [Lookup Table](https://open.dosm.gov.my/data-catalogue/productivity_lookup). The lookup table will give you the English and Malay definitions.",
@@ -98,7 +98,7 @@
                 "precision": 1,
                 "filter_columns": [
                     "series",
-                    "sector"
+                    "subsector"
                 ],
                 "freeze_columns": []
             }
@@ -111,7 +111,7 @@
             "config": {
                 "filter_columns": [
                     "series",
-                    "sector"
+                    "subsector"
                 ],
                 "precision": 1,
                 "operation": "SUM",
@@ -131,7 +131,7 @@
             "config": {
                 "filter_columns": [
                     "series",
-                    "sector"
+                    "subsector"
                 ],
                 "precision": 1,
                 "operation": "SUM",
@@ -147,7 +147,7 @@
     "translations_en": {
         "date": "Date",
         "series": "Series Type",
-        "sector": "Priority Subsector",
+        "subsector": "Priority Subsector",
         "output_hours": "Output per Hour",
         "output_employment": "Output per Worker",
         "overall": "Overall",
@@ -170,7 +170,7 @@
     "translations_ms": {
         "series": "Jenis Siri",
         "date": "Tarikh",
-        "sector": "Subsektor Penting",
+        "subsector": "Subsektor Penting",
         "output_hours": "Output per Jam Bekerja",
         "output_employment": "Output per Pekerja",
         "overall": "Keseluruhan",
