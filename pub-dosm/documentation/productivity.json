@@ -1,0 +1,32 @@
+{
+	"publication": "productivity",
+	"documentation_type": "technical-note",
+	"publication_type": "productivity",
+	"release_date": "2024-01-22",
+	"en": {
+		"title": "Labour Productivity",
+		"publication_type_title": "Labour Force",
+		"description": "Quarterly labour productivity, covering value added per hour worked or per worker, by economic activity.",
+		"resources": [
+			{
+				"resource_id": 1,
+				"resource_type": "pdf",
+				"resource_name": "Technical Notes",
+				"resource_link": "https://storage.dosm.gov.my/technotes/productivity.pdf"
+			}
+		]
+	},
+	"bm": {
+		"title": "Produktiviti Buruh",
+        "publication_type_title": "Tenaga Buruh",
+        "description": "Produktiviti buruh suku tahunan, merangkumi nilai ditambah per jam bekerja ataupun per pekerja, mengikut aktiviti ekonomi.",
+		"resources": [
+			{
+				"resource_id": 1,
+				"resource_type": "pdf",
+				"resource_name": "Nota Teknikal",
+				"resource_link": "https://storage.dosm.gov.my/technotes/ms-MY/produktiviti.pdf"
+			}
+		]
+	}
+}
