@@ -1,0 +1,148 @@
+{
+    "title_en": "Quarterly Productivity by Economic Sector",
+    "title_ms": "Produktiviti Suku Tahunan mengikut Sektor Ekonomi",
+    "title_sort": 3,
+    "description_en": "Quarterly labour productivity by economic sector, with metrics on value added per worker, value added per hour worked, and total hours worked.",
+    "description_ms": "Produktiviti tenaga buruh mengikut sektor ekonomi, dengan metrik pada nilai tambah per pekerja, nilai tambah per jam bekerja, dan jumlah jam bekerja.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2024-Q4",
+    "last_updated": "2025-02-20 12:00",
+    "next_update": "2025-05-22 12:00",
+    "methodology_en": "Labour productivity is primarily measured using two metrics:\n\n- **Value added per worker**: Calculated by dividing GDP at constant prices (to strip out the effects of inflation) for a particular time period, by the number of workers in that period.\n- **Value added per hour worked**: Calculated by dividing GDP at constant prices for a particular time period, by the total hours worked by all workers employed in that period.",
+    "methodology_ms": "Produktiviti tenaga buruh diukur menggunakan dua metrik utama:\n\n- **Nilai tambah per pekerja**: Dikira dengan membahagikan KDNK pada harga malar (untuk mengecualikan kesan inflasi) bagi suatu tempoh tertentu, dengan bilangan pekerja dalam tempoh tersebut.\n- **Nilai tambah per jam bekerja**: Dikira dengan membahagikan KDNK pada harga malar untuk suatu tempoh tertentu, dengan jumlah jam bekerja bagi semua pekerja dalam tempoh tersebut.",
+    "caveat_en": "Data for the most recent 3 years (12 quarters) may be revised in subsequent releases. This is especially to ensure consistency with revisions to GDP data, since GDP serves as the numerator in calculation of labour productivity metrics.",
+    "caveat_ms": "Data bagi 3 tahun terkini (12 suku tahun) mungkin disemak semula dalam penerbitan berikutnya. Semakan ini terutamanya untuk memastikan data adalah selaras dengan semakan data KDNK, yang digunakan secara terus dalam pengiraan metrik produktiviti tenaga buruh.",
+    "publication_en": "[Labour Productivity, 4Q 2024](https://open.dosm.gov.my/publications/productivity_2024-q4), the latest edition of the quarterly labour productivity statistics published by DOSM. OpenDOSM also features a [dashboard on labour productivity](https://open.dosm.gov.my/dashboard/labour-productivity) where you can explore this data in a more interactive manner.",
+    "publication_ms": "[Produktiviti Tenaga Buruh, 4Q 2024](https://open.dosm.gov.my/ms-MY/publications/productivity_2024-q4), edisi terkini bagi statistik produktiviti tenaga buruh yang diterbitkan oleh DOSM. OpenDOSM juga memaparkan [papan pemuka khas tentang produktiviti tenaga buruh](https://open.dosm.gov.my/ms-MY/dashboard/labour-productivity) yang membolehkan anda menerokai set data ini dengan lebih interaktif.",
+    "link_parquet": "https://storage.dosm.gov.my/labour/productivity_qtr.parquet",
+    "link_csv": "https://storage.dosm.gov.my/labour/productivity_qtr.csv",
+    "link_preview": "https://storage.dosm.gov.my/labour/productivity_qtr.parquet",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2015,
+    "dataset_end": 2024,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "MBLS"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Labour Markets",
+            "category_ms": "Pasaran Buruh",
+            "category_sort": 50,
+            "subcategory_en": "Labour Force Survey",
+            "subcategory_ms": "Survei Tenaga Buruh",
+            "subcategory_sort": 10
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Labour Markets",
+            "category_ms": "Pasaran Buruh",
+            "category_sort": 50,
+            "subcategory_en": "Labour Force Survey",
+            "subcategory_ms": "Survei Tenaga Buruh",
+            "subcategory_sort": 10
+        }
+    ],
+    "fields": [
+        {
+            "name": "series",
+            "title_en": "Series Type",
+            "title_ms": "Jenis Siri",
+            "description_en": "[String] Series type, either absolute values ('abs'), year-on-year growth ('growth_yoy') or month-on-month growth ('growth_mom'). It should be noted that year-on-year growth values are not provided for the seasonally adjusted series, as they should be derived from the unadjusted series.",
+            "description_ms": "[Rentetan] Jenis siri, sama ada nilai mutlak ('abs'), pertumbuhan tahunan ('growth_yoy') atau pertumbuhan bulanan ('growth_mom'). Perlu diingat bahawa nilai pertumbuhan tahunan tidak disediakan untuk siri yang terlaras secara musim, kerana nilai ini harus dikira berdasarkan siri yang tidak terlaras."
+        },
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format. The earliest date in the quarter is chosen, e.g. YYYY-01-01 for the 1st quarter and YYYY-04-01 for the 2nd quarter.",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD. Tarikh yang dipilih adalah tarikh terawal dalam suku tahun, contohnya YYYY-01-01 bagi suku tahun pertama dan YYYY-04-01 bagi suku tahun kedua."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 1,
+                "filter_columns": [
+                    "series"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "index",
+            "title_en": "Index",
+            "title_ms": "Indeks",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "series"
+                ],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "index"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "index_sa",
+            "title_en": "Index (sa)",
+            "title_ms": "Indeks (tsm)",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "series"
+                ],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "index_sa"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "series": "Series Type",
+        "date": "Date",
+        "overall": "Overall",
+        "index": "Index",
+        "index-sa": "index (sa)",
+        "abs": "Absolute values",
+        "growth-yoy": "Year-on-year growth",
+        "growth-mom": "Month-on-month growth",
+        "x": "Date",
+        "y1": "Value"
+    },
+    "translations_ms": {
+        "series": "Jenis Siri",
+        "date": "Tarikh",
+        "overall": "Keseluruhan",
+        "index": "Indeks",
+        "index-sa": "Indeks (tsm)",
+        "abs": "Nilai mutlak",
+        "growth-yoy": "Pertumbuhan tahunan",
+        "growth-mom": "Pertumbuhan bulanan",
+        "x": "Tarikh",
+        "y1": "Nilai"
+    },
+    "related_datasets": []
+}
