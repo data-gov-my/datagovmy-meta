@@ -95,7 +95,7 @@
             "description_ms": "[Apung, ribu] Bilangan orang bekerja dalam sektor"
         },
         {
-            "name": "output_hours",
+            "name": "output_hour",
             "title_en": "Output per Hour",
             "title_ms": "Output per Jam",
             "description_en": "[Float, RM] The ratio of GDP to hours worked",
@@ -125,7 +125,7 @@
             }
         },
         {
-            "dataviz_id": "output_hours",
+            "dataviz_id": "output_hour",
             "title_en": "Output per Hour Worked",
             "title_ms": "Output per Jam Bekerja",
             "chart_type": "TIMESERIES",
@@ -139,7 +139,7 @@
                 "format": {
                     "x": "date",
                     "y": [
-                        "output_hours"
+                        "output_hour"
                     ]
                 }
             }
@@ -172,7 +172,7 @@
         "gdp": "GDP",
         "hours": "Hours Worked",
         "employment": "Employment",
-        "output_hours": "Output per Hour",
+        "output_hour": "Output per Hour",
         "output_employment": "Output per Worker",
         "overall": "Overall",
         "abs": "Absolute Values",
@@ -209,7 +209,7 @@
         "gdp": "KDNK",
         "hours": "Jam Bekerja",
         "employment": "Guna Tenaga",
-        "output_hours": "Output per Jam Bekerja",
+        "output_hour": "Output per Jam Bekerja",
         "output_employment": "Output per Pekerja",
         "overall": "Keseluruhan",
         "abs": "Nilai mutlak",
