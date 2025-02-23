@@ -74,7 +74,7 @@
             "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan kepada 01-01 kerana data adalah pada frekuensi tahunan."
         },
         {
-            "name": "output_hours",
+            "name": "output_hour",
             "title_en": "Output per Hour",
             "title_ms": "Output per Jam",
             "description_en": "[Float, RM] The ratio of GDP to hours worked",
@@ -104,7 +104,7 @@
             }
         },
         {
-            "dataviz_id": "output_hours",
+            "dataviz_id": "output_hour",
             "title_en": "Output per Hour Worked",
             "title_ms": "Output per Jam Bekerja",
             "chart_type": "TIMESERIES",
@@ -118,7 +118,7 @@
                 "format": {
                     "x": "date",
                     "y": [
-                        "output_hours"
+                        "output_hour"
                     ]
                 }
             }
@@ -148,7 +148,7 @@
         "date": "Date",
         "series": "Series Type",
         "subsector": "Priority Subsector",
-        "output_hours": "Output per Hour",
+        "output_hour": "Output per Hour",
         "output_employment": "Output per Worker",
         "overall": "Overall",
         "abs": "Absolute Values",
@@ -171,7 +171,7 @@
         "series": "Jenis Siri",
         "date": "Tarikh",
         "subsector": "Subsektor Penting",
-        "output_hours": "Output per Jam Bekerja",
+        "output_hour": "Output per Jam Bekerja",
         "output_employment": "Output per Pekerja",
         "overall": "Keseluruhan",
         "abs": "Nilai Mutlak",
