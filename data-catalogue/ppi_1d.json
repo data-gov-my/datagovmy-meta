@@ -5,7 +5,7 @@
     "description_en": "Producer price index (PPI) by MSIC section (1 digit), with and without seasonal adjustment.",
     "description_ms": "Indeks harga pengeluar (IHPR) mengikut seksyen MSIC (1 digit), dengan dan tanpa pelarasan secara musim.",
     "exclude_openapi": false,
-    "manual_trigger": "2025-02-27 21:00:45.189842",
+    "manual_trigger": "2025-02-27 21:12:50.271769",
     "data_as_of": "2025-01",
     "last_updated": "2025-02-27 12:00",
     "next_update": "2025-03-27 12:00",

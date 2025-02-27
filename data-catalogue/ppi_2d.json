@@ -5,7 +5,7 @@
     "description_en": "Producer price index (PPI) by MSIC division (2 digit). The table provides a preview of the full dataset using the latest month of data only.",
     "description_ms": "Indeks harga pengeluar (IHPR) mengikut bahagian MSIC (2 digit). Jadual memberi pratonton kepada set data penuh dengan menggunakan data bulan terkini sahaja.",
     "exclude_openapi": true,
-    "manual_trigger": "2025-02-27 21:00:45.190338",
+    "manual_trigger": "2025-02-27 21:12:50.272485",
     "data_as_of": "2025-01",
     "last_updated": "2025-02-27 12:00",
     "next_update": "2025-03-27 12:00",
