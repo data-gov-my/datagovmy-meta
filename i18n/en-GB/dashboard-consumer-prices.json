@@ -5,7 +5,7 @@
     ],
     "translation": {
         "header": "Consumer Prices",
-        "description": "The Consumer Price Index (CPI) is a monthly publication by DOSM which presents statistics on the cost of purchasing 13 main groups of goods and services. This is consistent with the classification according to the United Nations \"Classification of Individual Consumption According to Purpose\" (COICOP). Malaysia's CPI is compiled based on prices that are collected on either on a monthly basis (for all items) or weekly basis (for perishable food items). Rents are collected once in a quarter.",
+        "description": "The Consumer Price Index (CPI) tracks the cost of 13 main groups of goods and services purchased by Malaysians, updated weekly (perishables), monthly (non-perishables), or quarterly (rents). The CPI is used to measure how living costs are changing, making it one of the most important indicators monitored by the government.",
         "section_1": {
             "title": "A snapshot of inflation in Malaysia",
             "description": "The time series charts below this section show trends; these bar charts summarise the latest inflation data at a glance. \nClick the bar for any state to get more granular inflation data for that state!",
