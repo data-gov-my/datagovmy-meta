@@ -5,7 +5,7 @@
     "description_en": "Producer price index (PPI) by SITC section (1 digit).",
     "description_ms": "Indeks harga pengeluar (IHPR) mengikut seksyen SITC (1 digit).",
     "exclude_openapi": false,
-    "manual_trigger": "2025-02-27 20:52:59.506730",
+    "manual_trigger": "2025-02-27 21:00:45.190816",
     "data_as_of": "2025-01",
     "last_updated": "2025-02-27 12:00",
     "next_update": "2025-03-27 12:00",
