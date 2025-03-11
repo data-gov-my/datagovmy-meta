@@ -1,0 +1,50 @@
+{
+    "publication": "labour_month_2025-01",
+    "publication_type": "lfs",
+    "release_date": "2025-03-11",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Jan 2025] Labour Force",
+        "publication_type_title": "Labour Force",
+        "description": "Monthly labour force report, covering statistics on unemployment, employment, and labour force participation.",
+        "description_email": "DOSM has just released the latest monthly Labour Force Survey report, covering statistics on unemployment, employment, and labour force participation. The unemployment rate remained constant at 3.2% (no change since Aug 2024), while the labour force participation rate increased to 70.6%% (Nov 2024: 70.5%).",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Labour Force: Jan 2025",
+                "resource_link": "https://storage.dosm.gov.my/labour/lfs_month_2025-01_en.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Labour Force: Jan 2025",
+                "resource_link": "https://storage.dosm.gov.my/labour/lfs_month_2025-01_en.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Jan 2025] Tenaga Buruh",
+        "publication_type_title": "Tenaga Buruh",
+        "description": "Laporan tenaga buruh bulanan, merangkumi statistik pengangguran, penduduk bekerja, dan penyertaan tenaga buruh.",
+        "description_email": "DOSM telah menerbitkan laporan Survei Tenaga Buruh bulanan terkini, merangkumi statistik pengangguran, penduduk bekerja, dan penyertaan tenaga buruh. Kadar pengangguran kekal pada 3.2% (tiada perubahan sejak Ogo 2024), manakala kadar penyertaan tenaga buruh meningkat kepada 70.6% (Nov 2024: 70.5%).",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Tenaga Buruh: Jan 2025",
+                "resource_link": "https://storage.dosm.gov.my/labour/lfs_month_2025-01_bm.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Tenaga Buruh: Jan 2025",
+                "resource_link": "https://storage.dosm.gov.my/labour/lfs_month_2025-01_bm.pdf"
+            }
+        ]
+    }
+}
