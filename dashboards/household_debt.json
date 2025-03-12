@@ -1,12 +1,12 @@
 {
     "dashboard_name": "household_debt",
-    "data_last_updated": "2025-01-31 15:00",
-    "data_next_update": "2025-02-28 15:00",
+    "data_last_updated": "2025-02-28 15:00",
+    "data_next_update": "2025-03-31 15:00",
     "route": "/dashboard/household-debt,/ms-MY/dashboard/household-debt",
     "sites": [
         "datagovmy"
     ],
-    "manual_trigger": "2025-01-31 15:33:42.104396",
+    "manual_trigger": "2025-03-13 06:04:23.405170",
     "required_params": [],
     "optional_params": [],
     "charts": {
@@ -14,7 +14,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "http://storage.data.gov.my/dashboards/hhdebt_timeseries.parquet",
-            "data_as_of": "2024-12",
+            "data_as_of": "2025-01",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -40,7 +40,7 @@
             "name": "timeseries_callout",
             "chart_type": "custom_chart",
             "chart_source": "http://storage.data.gov.my/dashboards/hhdebt_timeseries_callout.parquet",
-            "data_as_of": "2024-12",
+            "data_as_of": "2025-01",
             "api_type": "static",
             "api_params": [],
             "variables": {
