@@ -1,10 +1,10 @@
 {
     "data_last_updated": "2025-03-16 03:30",
     "data_next_update": "2025-03-17 03:30",
+    "manual_trigger": "2025-03-16 20:31:22.945563",
     "sites": [
         "datagovmy"
     ],
-    "manual_trigger": "2025-03-16 20:26:55.750769",
     "explorer_name": "KTMB",
     "route": "/dashboard/ktmb-explorer,/ms-MY/dashboard/ktmb-explorer",
     "tables": {
