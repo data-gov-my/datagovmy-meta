@@ -15,6 +15,7 @@
         "ets": "ETS",
         "intercity": "Intercity",
         "komuter": "Komuter",
+        "komuter_utara": "Komuter Utara",
         "tebrau": "Shuttle Tebrau",
         "select_origin": "Pilih Permulaan",
         "select_destination": "Pilih Destinasi",
