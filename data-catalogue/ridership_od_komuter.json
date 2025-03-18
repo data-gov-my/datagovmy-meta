@@ -14,7 +14,7 @@
     "caveat_en": "Because the size of the complete dataset from 2020 onwards exceeds the row limit of Microsoft Excel (1,048,576), we recommend working with the data programatically, preferably using the parquet files provided.",
     "caveat_ms": "Oleh sebab saiz set data penuh sejak 2020 melebihi had baris Microsoft Excel (1,048,576), kami syorkan anda menggunakan data ini secara programatik, khususnya dengan menggunakan fail parquet yang disediakan.",
     "publication_en": "Our site features a [dashboard on KTMB ridership](https://data.gov.my/dashboard/ktmb-explorer) where you can explore this data in a more interactive manner.",
-    "publication_ms": "Portal ini menyediakan [dashboard penggunaan perkhidmatan KTMB](https://data.gov.my/dashboard/ktmb-explorer) yang membolehkan anda menerokai set data ini dalam bentuk yang lebih interaktif.",
+    "publication_ms": "Portal ini menyediakan [dashboard penggunaan perkhidmatan KTMB](https://data.gov.my/ms-MY/dashboard/ktmb-explorer) yang membolehkan anda menerokai set data ini dalam bentuk yang lebih interaktif.",
     "link_parquet": "https://storage.data.gov.my/transportation/ktmb/komuter_YYYY-MM-DD.parquet",
     "link_csv": "https://storage.data.gov.my/transportation/ktmb/komuter_YYYY-MM-DD.csv",
     "link_preview": "https://storage.data.gov.my/transportation/ktmb/komuter_preview.parquet",
