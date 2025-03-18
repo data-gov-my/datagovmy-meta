@@ -2,7 +2,7 @@
     "title_en": "Hourly Origin-Destination Ridership: ETS",
     "title_ms": "Penumpang Asal-Destinasi secara Jam: ETS",
     "title_sort": 6,
-    "description_en": "Hourly origin-destination ridership data for the ETS service. The table a brief preview of the data, but you may download the data in full.",
+    "description_en": "Hourly origin-destination ridership data for the ETS service. The table provides a brief preview of the data, but you may download the data in full.",
     "description_ms": "Data penumpang asal-destinasi secara jam untuk perkhidmatan ETS. Jadual memberikan pratonton kepada set data, tetapi anda boleh memuat turun set data penuh.",
     "exclude_openapi": true,
     "manual_trigger": "",
