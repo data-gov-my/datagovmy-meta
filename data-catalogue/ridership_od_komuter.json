@@ -1,7 +1,7 @@
 {
     "title_en": "Hourly Origin-Destination Ridership: Komuter",
     "title_ms": "Penumpang Asal-Destinasi secara Jam: Komuter",
-    "title_sort": 6,
+    "title_sort": 3,
     "description_en": "Hourly origin-destination ridership data for the Komuter service. The table provides a brief preview of the data, but you may download the data in full.",
     "description_ms": "Data penumpang asal-destinasi secara jam untuk perkhidmatan Komuter. Jadual memberikan pratonton kepada set data, tetapi anda boleh memuat turun set data penuh.",
     "exclude_openapi": true,
@@ -15,16 +15,13 @@
     "caveat_ms": "Oleh sebab saiz set data penuh sejak 2020 melebihi had baris Microsoft Excel (1,048,576), kami syorkan anda menggunakan data ini secara programatik, khususnya dengan menggunakan fail parquet yang disediakan.",
     "publication_en": "Our site features a [dashboard on KTMB ridership](https://data.gov.my/dashboard/ktmb-explorer) where you can explore this data in a more interactive manner.",
     "publication_ms": "Portal ini menyediakan [dashboard penggunaan perkhidmatan KTMB](https://data.gov.my/dashboard/ktmb-explorer) yang membolehkan anda menerokai set data ini dalam bentuk yang lebih interaktif.",
-    "link_parquet": "https://storage.data.gov.my/transportation/ktmb/Komuter_YYYY-MM-DD.parquet",
-    "link_csv": "https://storage.data.gov.my/transportation/ktmb/Komuter_YYYY-MM-DD.csv",
-    "link_preview": "https://storage.data.gov.my/transportation/ktmb/Komuter_preview.parquet",
+    "link_parquet": "https://storage.data.gov.my/transportation/ktmb/komuter_YYYY-MM-DD.parquet",
+    "link_csv": "https://storage.data.gov.my/transportation/ktmb/komuter_YYYY-MM-DD.csv",
+    "link_preview": "https://storage.data.gov.my/transportation/ktmb/komuter_preview.parquet",
     "link_editions": [
         "2025",
         "2024",
-        "2023",
-        "2022",
-        "2021",
-        "2020"
+        "2023"
     ],
     "frequency": "DAILY",
     "geography": [
@@ -33,7 +30,7 @@
         "DISTRICT"
     ],
     "demography": [],
-    "dataset_begin": 2020,
+    "dataset_begin": 2023,
     "dataset_end": 2025,
     "data_source": [
         "KTMB",
