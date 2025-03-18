@@ -5,7 +5,7 @@
     "description_en": "Hourly origin-destination ridership data for the Komuter service. The table provides a brief preview of the data, but you may download the data in full.",
     "description_ms": "Data penumpang asal-destinasi secara jam untuk perkhidmatan Komuter. Jadual memberikan pratonton kepada set data, tetapi anda boleh memuat turun set data penuh.",
     "exclude_openapi": true,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2025-03-17 23:59",
     "last_updated": "2025-03-18 03:30",
     "next_update": "2025-03-19 03:30",
