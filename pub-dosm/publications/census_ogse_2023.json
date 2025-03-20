@@ -1,5 +1,6 @@
 {
-    "publication": "census_ogse",
+    "publication": "census_ogse_2023",
+    "abort_email": true,
     "publication_type": "census_ong",
     "release_date": "2025-03-20",
     "frequency": "ONE_OFF",
