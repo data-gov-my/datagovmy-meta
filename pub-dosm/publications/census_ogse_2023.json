@@ -1,0 +1,51 @@
+{
+    "publication": "census_ogse",
+    "publication_type": "census_ong",
+    "release_date": "2025-03-20",
+    "frequency": "ONE_OFF",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "en": {
+        "title": "Oil & Gas Services and Equipment Census: 2023",
+        "publication_type_title": "Oil & Gas Census",
+        "description": "Census of all registered establishments engaged in OGSE activities, covering key statistics on inputs, outputs and employment.",
+        "description_email": "DOSM has just released data from the inaugural Oil & Gas Services and Equipment Census of all registered establishments engaged in OGSE activities, covering key statistics on inputs, outputs and employment.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Oil & Gas Services and Equipment Census: 2023",
+                "resource_link": "https://storage.dosm.gov.my/mining/osge_2023.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Oil & Gas Services and Equipment Census: 2023",
+                "resource_link": "https://storage.dosm.gov.my/mining/osge_2023.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "Banci Perkhidmatan dan Peralatan Minyak & Gas",
+        "publication_type_title": "Banci Minyak & Gas",
+        "description": "Banci bagi semua pertubuhan berdaftar yang terlibat dalam aktiviti OGSE, merangkumi statistik penting input, pengeluaran, dan guna tenaga.",
+        "description_email": "DOSM telah menerbitkan data dari Banci Perkhidmatan dan Peralatan Minyak & Gas (OSGE) buat pertama kali, merangkumi statistik penting input, pengeluaran, dan guna tenaga bagi semua pertubuhan berdaftar yang terlibat dalam aktiviti OGSE.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Banci Perkhidmatan dan Peralatan Minyak & Gas: 2023",
+                "resource_link": "https://storage.dosm.gov.my/mining/osge_2023.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Banci Perkhidmatan dan Peralatan Minyak & Gas: 2023",
+                "resource_link": "https://storage.dosm.gov.my/mining/osge_2023.xlsx"
+            }
+        ]
+    }
+}
