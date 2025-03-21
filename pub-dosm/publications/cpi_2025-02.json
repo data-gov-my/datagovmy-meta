@@ -1,0 +1,75 @@
+{
+    "publication": "cpi_2025-02",
+    "publication_type": "cpi",
+    "release_date": "2025-03-21",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Feb 2025] Consumer Price Index",
+        "publication_type_title": "Consumer Price Index (CPI)",
+        "description": "Official consumer price data, covering headline, core, and state-level inflation",
+        "description_email": "DOSM has just released the latest monthly CPI data, covering headline, core, and state-level inflation. CPI inflation fell to 1.5% year-on-year (Jan 2025: 1.7%), the lowest level since Feb 2021.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Consumer Price Index Report: Feb 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-02.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "CPI Main Tables: Feb 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-02_main.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "CPI Tables by State: Feb 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-02_state.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Core CPI Tables: Feb 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-02_core.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Feb 2025] Indeks Harga Pengguna",
+        "publication_type_title": "Indeks Harga Pengguna (IHP)",
+        "description": "Data harga pengguna rasmi, merangkumi inflasi, inflasi teras, dan inflasi mengikut negeri",
+        "description_email": "DOSM telah menerbitkan data IHP bulanan terkini, merangkumi inflasi, inflasi teras, dan inflasi mengikut negeri. Inflasi IHP adalah sebanyak 1.5% secara tahun ke tahun (Jan 2025: 1.7%), iaitu paras paling rendah sejak Feb 2021.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Laporan Indeks Harga Pengguna: Feb 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-02.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Jadual Utama IHP: Feb 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-02_main.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Jadual IHP mengikut Negeri: Feb 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-02_state.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Jadual IHP Teras: Feb 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-02_core.xlsx"
+            }
+        ]
+    }
+}
