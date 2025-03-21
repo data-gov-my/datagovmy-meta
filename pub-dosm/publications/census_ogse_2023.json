@@ -19,13 +19,13 @@
                 "resource_id": 1,
                 "resource_type": "pdf",
                 "resource_name": "Oil & Gas Services and Equipment Census: 2023",
-                "resource_link": "https://storage.dosm.gov.my/mining/osge_2023.pdf"
+                "resource_link": "https://storage.dosm.gov.my/mining/ogse_2023.pdf"
             },
             {
                 "resource_id": 2,
                 "resource_type": "excel",
                 "resource_name": "Oil & Gas Services and Equipment Census: 2023",
-                "resource_link": "https://storage.dosm.gov.my/mining/osge_2023.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/mining/ogse_2023.xlsx"
             }
         ]
     },
@@ -39,13 +39,13 @@
                 "resource_id": 1,
                 "resource_type": "pdf",
                 "resource_name": "Banci Perkhidmatan dan Peralatan Minyak & Gas: 2023",
-                "resource_link": "https://storage.dosm.gov.my/mining/osge_2023.pdf"
+                "resource_link": "https://storage.dosm.gov.my/mining/ogse_2023.pdf"
             },
             {
                 "resource_id": 2,
                 "resource_type": "excel",
                 "resource_name": "Banci Perkhidmatan dan Peralatan Minyak & Gas: 2023",
-                "resource_link": "https://storage.dosm.gov.my/mining/osge_2023.xlsx"
+                "resource_link": "https://storage.dosm.gov.my/mining/ogse_2023.xlsx"
             }
         ]
     }
