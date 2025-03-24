@@ -16,6 +16,12 @@
                 "resource_type": "pdf",
                 "resource_name": "Domestic Tourism: 4Q 2024",
                 "resource_link": "https://storage.dosm.gov.my/tourism/tourism_domestic_2024-q4_en.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Domestic Tourism: 4Q 2024",
+                "resource_link": "https://storage.dosm.gov.my/tourism/tourism_domestic_2024-q4.xlsx"
             }
         ]
     },
@@ -30,6 +36,12 @@
                 "resource_type": "pdf",
                 "resource_name": "Pelancongan Domestik: ST4 2024",
                 "resource_link": "https://storage.dosm.gov.my/tourism/tourism_domestic_2024-q4_bm.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Pelancongan Domestik: ST4 2024",
+                "resource_link": "https://storage.dosm.gov.my/tourism/tourism_domestic_2024-q4.xlsx"
             }
         ]
     }
