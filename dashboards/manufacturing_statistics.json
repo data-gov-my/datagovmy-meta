@@ -14,7 +14,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/dashboards/mfg_timeseries.parquet",
-            "data_as_of": "2019-02",
+            "data_as_of": "2025-02",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -37,7 +37,7 @@
             "name": "timeseries_callout",
             "chart_type": "custom_chart",
             "chart_source": "https://s3.ap-southeast-1.amazonaws.com/storage.dosm.gov.my/dashboards/mfg_timeseries_callout.parquet",
-            "data_as_of": "2019-02",
+            "data_as_of": "2025-02",
             "api_type": "static",
             "api_params": [],
             "variables": {
