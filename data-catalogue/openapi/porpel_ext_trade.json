@@ -1,10 +1,6 @@
 {
     "manual_trigger": "1",
-<<<<<<< Updated upstream
-    "data_as_of": "2025-04",
-=======
     "data_as_of": "2025-03",
->>>>>>> Stashed changes
     "last_updated": "2025-04-28 12:00",
     "next_update": "2025-05-28 12:00",
     "link_parquet": "https://storage.dosm.gov.my/investor_portal/trade.parquet",
