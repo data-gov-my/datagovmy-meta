@@ -1,20 +1,20 @@
 {
-    "data_last_updated": "2025-04-10 16:13",
-    "data_next_update": "2025-05-10 16:00",
+    "data_last_updated": "2025-05-12 16:13",
+    "data_next_update": "2025-06-10 16:00",
     "sites": [
         "datagovmy"
     ],
-    "manual_trigger": "2025-04-10 16:14:45.204683",
+    "manual_trigger": "2025-05-12 15:33:09.240935",
     "explorer_name": "car_popularity",
     "route": "/dashboard/car-popularity,/ms-MY/dashboard/car-popularity",
     "tables": {
         "CarPopularityTimeseriesModel": {
-            "data_as_of": "2025-03-31 23:59",
+            "data_as_of": "2025-04-30 23:59",
             "source": "https://storage.data.gov.my/dashboards/car_popularity_timeseries_model.parquet",
             "update": "REBUILD"
         },
         "CarPopularityTimeseriesMaker": {
-            "data_as_of": "2025-03-31 23:59",
+            "data_as_of": "2025-04-30 23:59",
             "source": "https://storage.data.gov.my/dashboards/car_popularity_timeseries_maker.parquet",
             "update": "REBUILD"
         }
