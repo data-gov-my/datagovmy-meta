@@ -1,0 +1,50 @@
+{
+    "publication": "bop_2025-q1",
+    "publication_type": "bop",
+    "release_date": "2025-05-16",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[1Q 2025] Balance of Payments",
+        "publication_type_title": "Balance of Payments",
+        "description": "Quarterly balance of payments, covering the current account, capital account, and financial account.",
+        "description_email": "DOSM has just released the latest quarterly balance of payments data, covering the current account (CA), capital account (KA), and financial account (FA). The CA balance rose to RM16.7 bil (4Q 2024: RM12.9 bil), while the KA and FA recorded higher net outflows of RM20.2 bil (4Q 2024: RM9.4 bil). Consequently, reserve assets fell by RM3.1 bil during the first quarter of 2025.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Balance of Payments: 1Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/bop/bop_2025-q1.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Balance of Payments: 1Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/bop/bop_2025-q1.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST1 2025] Imbangan Pembayaran",
+        "publication_type_title": "Imbangan Pembayaran",
+        "description": "Imbangan pembayaran suku tahunan, merangkumi akaun semasa, akaun modal, dan akaun kewangan.",
+        "description_email": "DOSM telah menerbitkan data imbangan pembayaran suku tahunan terkini, merangkumi akaun semasa (CA), akaun modal (KA), dan akaun kewangan (FA). Baki CA meningkat kepada RM16.7 bil (ST4 2024: RM12.9 bil), manakala KA dan FA mencatatkan aliran keluar bersih yang lebih rendah sebanyak RM20.2 bil (ST4 2024: RM9.4 bil). Aset rizab menurun sebanyak RM3.1 bil pada suku tahun pertama 2025.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Imbangan Pembayaran: ST1 2025",
+                "resource_link": "https://storage.dosm.gov.my/bop/bop_2025-q1.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Imbangan Pembayaran: ST1 2025",
+                "resource_link": "https://storage.dosm.gov.my/bop/bop_2025-q1.pdf"
+            }
+        ]
+    }
+}
