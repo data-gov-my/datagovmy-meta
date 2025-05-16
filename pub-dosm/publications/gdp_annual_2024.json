@@ -1,0 +1,50 @@
+{
+    "publication": "gdp_2024",
+    "publication_type": "gdp",
+    "release_date": "2025-05-16",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2024] Gross Domestic Product",
+        "publication_type_title": "Gross Domestic Product",
+        "description": "Annual gross domestic product (GDP), covering nominal and real GDP by type of expenditure and activity.",
+        "description_email": "DOSM has just released the latest annual GDP data, covering nominal and real GDP by type of expenditure and activity. Malaysia's real GDP grew by 5.1% in 2024 (2023: 3.5%).",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Gross Domestic Product: 2024",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_2024.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Gross Domestic Product: 2024",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_2024.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2024] Keluaran Dalam Negeri Kasar",
+        "publication_type_title": "Keluaran Dalam Negeri Kasar",
+        "description": "Keluaran dalam negeri kasar (KDNK) tahunan, merangkumi KDNK pada harga semasa dan malar mengikut jenis perbelanjaan dan aktiviti.",
+        "description_email": "DOSM telah menerbitkan data KDNK tahunan terkini, merangkumi KDNK pada harga semasa dan malar mengikut jenis perbelanjaan dan aktiviti. KDNK sebenar Malaysia telah meningkat sebanyak 5.1% pada tahun 2024 (2023: 3.5%).",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Keluaran Dalam Negeri Kasar: 2024",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_2024.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Keluaran Dalam Negeri Kasar: 2024",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_2024.xlsx"
+            }
+        ]
+    }
+}
