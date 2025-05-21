@@ -6,17 +6,17 @@
     "description_ms": "Senarai penuh pengimport produk farmaseutikal dengan lesen aktif daripada NPRA. Jadual memberi pratonton kepada set data dengan menggunakan 10 rekod sebagai contoh.",
     "exclude_openapi": true,
     "manual_trigger": "",
-    "data_as_of": "2024-07-25 23:59",
-    "last_updated": "2024-07-26 01:00",
-    "next_update": "2024-08-02 01:00",
+    "data_as_of": "2025-05-21 23:59",
+    "last_updated": "2025-05-22 12:00",
+    "next_update": "2025-05-23 12:00",
     "methodology_en": "This dataset represents an exact copy of the administrative records managed by the National Pharmaceutical Regulatory Agency (NPRA) using the QUEST3+ system, with any columns containing personal data excluded. QUEST3+ is the administrative system used by NPRA to enable the online management of product registrations, variations, licensing, market sampling, renewal and others.",
     "methodology_ms": "Set data ini adalah salinan rekod pentadbiran yang diuruskan oleh Bahagian Regulatori Farmaseutikal Negara (NPRA) dengan menggunakan sistem QUEST3+, dengan mana-mana medan yang mengandungi data peribadi dikecualikan. QUEST3+ adalah sistem pentadbiran yang digunakan oleh NPRA untuk membolehkan pengurusan dalam talian bagi pendaftaran produk, variasi, pelesenan, pensampelan pasaran, pembaharuan, dan lain-lain.",
     "caveat_en": "Although this data represents administrative records, it nevertheless remains a static dataset which is updated once per day, rather than in real time. As such, this dataset should not be used as the basis for any legal action. Any queries on enforcement of the relevant laws of Malaysia should always be referred to the National Pharmaceutical Regulatory Agency (NPRA).",
     "caveat_ms": "Walaupun set data ini adalah data pentadbiran, ia masih merupakan set data statik yang dikemaskini sekali sehari dan bukkannya dalam masa sebenar (_real time_). Oleh itu, set data ini tidak harus digunakan sebagai asas untuk sebarang tindakan undang-undang. Sebarang pertanyaan mengenai penguatkuasaan undang-undang Malaysia yang berkaitan harus dirujuk kepada Bahagian Regulatori Farmasi Negara (NPRA).",
-    "publication_en": "\u2014",
-    "publication_ms": "\u2014",
+    "publication_en": "—",
+    "publication_ms": "—",
     "link_parquet": "https://storage.data.gov.my/healthcare/pharmaceutical_wholesalers.parquet",
-    "link_csv": "https://storage.data.gov.my/healthcare/pharmaceutical_wholesalers.csv", 
+    "link_csv": "https://storage.data.gov.my/healthcare/pharmaceutical_wholesalers.csv",
     "link_preview": "https://storage.data.gov.my/healthcare/pharmaceutical_wholesalers_preview.parquet",
     "frequency": "DAILY",
     "geography": [
@@ -113,7 +113,7 @@
             "description_en": "[Integer] Binary variable indicating whether the company is approved (1) to sell veterinary non-poison products or not (0)",
             "description_ms": "[Integer] Pembolehubah binari menunjukkan sama ada syarikat dibenarkan (1) menjual produk bukan racun veterinar atau tidak (0)"
         }
-    ],    
+    ],
     "dataviz": [
         {
             "dataviz_id": "table",
@@ -127,9 +127,7 @@
             }
         }
     ],
-    "translations_en": {
-    },
-    "translations_ms": {
-    },
+    "translations_en": {},
+    "translations_ms": {},
     "related_datasets": []
 }

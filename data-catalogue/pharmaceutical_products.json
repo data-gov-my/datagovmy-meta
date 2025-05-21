@@ -6,17 +6,17 @@
     "description_ms": "Senarai penuh produk farmaseutikal yang diluluskan pendaftaran oleh Pihak Berkuasa Kawalan Dadah. Jadual memberi pratonton kepada set data dengan menggunakan 10 rekod sebagai contoh.",
     "exclude_openapi": true,
     "manual_trigger": "1",
-    "data_as_of": "2024-07-25 23:59",
-    "last_updated": "2024-07-26 01:00",
-    "next_update": "2024-08-02 01:00",
+    "data_as_of": "2025-05-21 23:59",
+    "last_updated": "2025-05-22 12:00",
+    "next_update": "2025-05-23 12:00",
     "methodology_en": "In accordance with the Control of Drugs and Cosmetics Regulations 1984, all pharmaceutical, health and personal care products marketed in Malaysia must be registered and approved by the Drug Control Authority (DCA). In the present day, registrations are conducted using the QUEST3+ system, which is the administrative system used by NPRA to enable the online management of product registrations, variations, licensing, market sampling, renewal and others. This dataset is an exact copy of the administrative record of approved products, with any columns containing personal data excluded.",
     "methodology_ms": "Selaras dengan Peraturan Kawalan Dadah dan Kosmetik 1984, semua produk farmaseutikal, kesihatan, dan penjagaan peribadi yang dipasarkan di Malaysia mesti didaftarkan dan diluluskan oleh Pihak Berkuasa Kawalan Dadah. Kini, proses pendaftaran dilaksanakan melalui sistem QUEST3+, iaitu sistem pentadbiran yang digunakan oleh NPRA untuk membolehkan pengurusan dalam talian bagi pendaftaran produk, variasi, pelesenan, pensampelan pasaran, pembaharuan, dan lain-lain. Set data ini adalah salinan rekod pentadbiran produk yang diluluskan, dengan mana-mana medan yang mengandungi data peribadi dikecualikan.",
     "caveat_en": "Although this data represents administrative records, it nevertheless remains a static dataset which is updated once per day, rather than in real time. As such, this dataset should not be used as the basis for any legal action. Any queries on enforcement of the relevant laws of Malaysia should always be referred to the National Pharmaceutical Regulatory Agency (NPRA).",
     "caveat_ms": "Walaupun set data ini adalah data pentadbiran, ia masih merupakan set data statik yang dikemaskini sekali sehari dan bukkannya dalam masa sebenar (_real time_). Oleh itu, set data ini tidak harus digunakan sebagai asas untuk sebarang tindakan undang-undang. Sebarang pertanyaan mengenai penguatkuasaan undang-undang Malaysia yang berkaitan harus dirujuk kepada Bahagian Regulatori Farmasi Negara (NPRA).",
-    "publication_en": "\u2014",
-    "publication_ms": "\u2014",
+    "publication_en": "—",
+    "publication_ms": "—",
     "link_parquet": "https://storage.data.gov.my/healthcare/pharmaceutical_products.parquet",
-    "link_csv": "https://storage.data.gov.my/healthcare/pharmaceutical_products.csv", 
+    "link_csv": "https://storage.data.gov.my/healthcare/pharmaceutical_products.csv",
     "link_preview": "https://storage.data.gov.my/healthcare/pharmaceutical_products_preview.parquet",
     "frequency": "DAILY",
     "geography": [
@@ -176,9 +176,7 @@
             }
         }
     ],
-    "translations_en": {
-    },
-    "translations_ms": {
-    },
+    "translations_en": {},
+    "translations_ms": {},
     "related_datasets": []
 }
