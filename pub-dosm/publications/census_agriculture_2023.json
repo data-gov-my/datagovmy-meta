@@ -1,6 +1,7 @@
 {
     "publication": "census_agriculture_2023",
     "publication_type": "census_agriculture",
+    "abort_email": true,
     "release_date": "2025-05-29",
     "frequency": "YEARLY",
     "geography": [
