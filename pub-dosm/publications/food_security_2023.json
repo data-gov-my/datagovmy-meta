@@ -1,0 +1,39 @@
+{
+    "publication": "food_security_2023",
+    "publication_type": "agriculture",
+    "release_date": "2025-05-29",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2023] Food Security",
+        "publication_type_title": "Agriculture",
+        "description": "Preliminary food security indicators for selected items, covering per capita usage, import dependency, and self-sufficiency.",
+        "description_email": "DOSM has just released preliminary food security indicators up to 2023, based on the Agricultural Census conducted in 2024. The report presents food security indicators for selected items, covering per capita usage, as well as import dependency and self-sufficiency ratios.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Food Security (Preliminary): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/food_security_2023.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2023] Keterjaminan Makanan",
+        "publication_type_title": "Keterjaminan Makanan",
+        "description": "Indikator awalan keterjaminan makanan, iaitu penggunaan per kapita, kebergantungan import, dan kadar sara diri bagi item terpilih.",
+        "description_email": "DOSM telah menerbitkan indikator awalan keterjaminan makanan bagi tahun 2023, berdasarkan Banci Pertanian yang telah dilaksanakan pada tahun 2024. Laporan ini membekalkan indikator keterjaminan makanan untuk item terpilih, merangkumi penggunaan per kapita, serta kadar kebergantungan import dan kadar sara diri.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Keterjaminan Makanan (Awalan): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/food_security_2023.pdf"
+            }
+        ]
+    }
+}
