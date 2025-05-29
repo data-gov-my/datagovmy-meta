@@ -1,0 +1,254 @@
+{
+    "publication": "agri_vc_2023",
+    "publication_type": "agriculture",
+    "release_date": "2025-05-29",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2023] Agriculture Value Chains",
+        "publication_type_title": "Agriculture",
+        "description": "Overview of value chains in the agricultural sector, covering upstream, intermediate, and downstream activity.",
+        "description_email": "DOSM has just released a flagship publication on value chains in the agricultural sector, based on data gathered from the Agricultural Census carried out in 2024.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Agriculture Value Chains: 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Agriculture Value Chains (Labour): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_labour.pdf"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "pdf",
+                "resource_name": "Agriculture Value Chains (Market Margins): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_margins.pdf"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "pdf",
+                "resource_name": "Agriculture Value Chains (Imports): 2023", 
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_imports.pdf"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "pdf",
+                "resource_name": "Agriculture Value Chains (Multiplier Effects): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_multiplier.pdf"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "pdf",
+                "resource_name": "Agriculture Value Chains (Oil Palm): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_oilpalm.pdf"
+            },
+            {
+                "resource_id": 7,
+                "resource_type": "pdf",
+                "resource_name": "Agriculture Value Chains (Rubber): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_rubber.pdf"
+            },
+            {
+                "resource_id": 8,
+                "resource_type": "pdf",
+                "resource_name": "Agriculture Value Chains (Cocoa): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_cocoa.pdf"
+            },
+            {
+                "resource_id": 9,
+                "resource_type": "pdf",
+                "resource_name": "Agriculture Value Chains (Pepper): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_pepper.pdf"
+            },
+            {
+                "resource_id": 10,
+                "resource_type": "pdf",
+                "resource_name": "Agriculture Value Chains (Wood): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_wood.pdf"
+            },
+            {
+                "resource_id": 11,
+                "resource_type": "pdf",
+                "resource_name": "Agriculture Value Chains (Paddy): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_paddy.pdf"
+            },
+            {
+                "resource_id": 12,
+                "resource_type": "pdf",
+                "resource_name": "Agriculture Value Chains (Chicken & Egg): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_chicken_egg.pdf"
+            },
+            {
+                "resource_id": 13,
+                "resource_type": "pdf",
+                "resource_name": "Agriculture Value Chains (Cattle & Goat): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_cattle_goat.pdf"
+            },
+            {
+                "resource_id": 14,
+                "resource_type": "pdf",
+                "resource_name": "Agriculture Value Chains (Fisheries): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_fisheries.pdf"
+            },
+            {
+                "resource_id": 15,
+                "resource_type": "pdf",
+                "resource_name": "Agriculture Value Chains (Vegetables): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_vegetables.pdf"
+            },
+            {
+                "resource_id": 16,
+                "resource_type": "pdf",
+                "resource_name": "Agriculture Value Chains (Fruits): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_fruits.pdf"
+            },
+            {
+                "resource_id": 17,
+                "resource_type": "pdf",
+                "resource_name": "Agriculture Value Chains (Coconut): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_coconut.pdf"
+            },
+            {
+                "resource_id": 18,
+                "resource_type": "pdf",
+                "resource_name": "Agriculture Value Chains (Coffee): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_coffee.pdf"
+            },
+            {
+                "resource_id": 19,
+                "resource_type": "pdf",
+                "resource_name": "Agriculture Value Chains (Cassava): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_cassava.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2023] Rantaian Nilai Pertanian",
+        "publication_type_title": "Pertanian",
+        "description": "Ringkasan rantaian nilai di sektor pertanian, merangkumi aktiviti huluan, perantaraan, dan hiliran.",
+        "description_email": "DOSM telah mengeluarkan penerbitan ulang tentang rantaian nilai di sektor pertanian, berdasarkan data yang dikumpulkan melalui Banci Pertanian yang telah dilaksanakan pada tahun 2024.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Rantaian Nilai Pertanian: 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Rantaian Nilai Pertanian (Buruh): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_labour.pdf"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "pdf",
+                "resource_name": "Rantaian Nilai Pertanian (Margin Pasaran): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_margins.pdf"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "pdf",
+                "resource_name": "Rantaian Nilai Pertanian (Import): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_imports.pdf"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "pdf",
+                "resource_name": "Rantaian Nilai Pertanian (Kesan Pengganda): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_multiplier.pdf"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "pdf",
+                "resource_name": "Rantaian Nilai Pertanian (Kelapa Sawit): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_oilpalm.pdf"
+            },
+            {
+                "resource_id": 7,
+                "resource_type": "pdf",
+                "resource_name": "Rantaian Nilai Pertanian (Getah): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_rubber.pdf"
+            },
+            {
+                "resource_id": 8,
+                "resource_type": "pdf",
+                "resource_name": "Rantaian Nilai Pertanian (Koko): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_cocoa.pdf"
+            },
+            {
+                "resource_id": 9,
+                "resource_type": "pdf",
+                "resource_name": "Rantaian Nilai Pertanian (Lada): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_pepper.pdf"
+            },
+            {
+                "resource_id": 10,
+                "resource_type": "pdf",
+                "resource_name": "Rantaian Nilai Pertanian (Kayu): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_wood.pdf"
+            },
+            {
+                "resource_id": 11,
+                "resource_type": "pdf",
+                "resource_name": "Rantaian Nilai Pertanian (Padi): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_paddy.pdf"
+            },
+            {
+                "resource_id": 12,
+                "resource_type": "pdf",
+                "resource_name": "Rantaian Nilai Pertanian (Ayam & Telur): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_chicken_egg.pdf"
+            },
+            {
+                "resource_id": 13,
+                "resource_type": "pdf",
+                "resource_name": "Rantaian Nilai Pertanian (Lembu & Kambing): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_cattle_goat.pdf"
+            },
+            {
+                "resource_id": 14,
+                "resource_type": "pdf",
+                "resource_name": "Rantaian Nilai Pertanian (Perikanan): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_fisheries.pdf"
+            },
+            {
+                "resource_id": 15,
+                "resource_type": "pdf",
+                "resource_name": "Rantaian Nilai Pertanian (Sayur-Sayuran): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_vegetables.pdf"
+            },
+            {
+                "resource_id": 16,
+                "resource_type": "pdf",
+                "resource_name": "Rantaian Nilai Pertanian (Buah-Buahan): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_fruits.pdf"
+            },
+            {
+                "resource_id": 17,
+                "resource_type": "pdf",
+                "resource_name": "Rantaian Nilai Pertanian (Kelapa): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_coconut.pdf"
+            },
+            {
+                "resource_id": 18,
+                "resource_type": "pdf",
+                "resource_name": "Rantaian Nilai Pertanian (Kopi): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_coffee.pdf"
+            },
+            {
+                "resource_id": 19,
+                "resource_type": "pdf",
+                "resource_name": "Rantaian Nilai Pertanian (Ubi Kayu): 2023",
+                "resource_link": "https://storage.dosm.gov.my/agriculture/agri_vc_2023_cassava.pdf"
+            }       
+        ]
+    }
+}
