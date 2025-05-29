@@ -1,6 +1,7 @@
 {
     "publication": "census_agriculture_2023",
     "publication_type": "census_agriculture",
+    "abort_email": true,
     "release_date": "2025-05-29",
     "frequency": "YEARLY",
     "geography": [
@@ -9,7 +10,7 @@
     ],
     "demography": [],
     "en": {
-        "title": "[2024] Agricultural Census (Interim)",
+        "title": "[2023] Agricultural Census (Interim)",
         "publication_type_title": "Agricultural Census",
         "description": "Interim report of key findings from the Agricultural Census conducted in 2024.",
         "description_email": "DOSM has just released an interim report of the Agricultural Census conducted in 2024. The report provides a preliminary overview key findings from the census, with a breakdown by agricultural subsector.",
@@ -17,97 +18,97 @@
             {
                 "resource_id": 1,
                 "resource_type": "pdf",
-                "resource_name": "Agricultural Census",
+                "resource_name": "Agricultural Census: 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023.pdf"
             },
             {
                 "resource_id": 2,
                 "resource_type": "pdf",
-                "resource_name": "Agricultural Census (Aquaculture)",
+                "resource_name": "Agricultural Census (Aquaculture): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_aquaculture.pdf"
             },
             {
                 "resource_id": 3,
                 "resource_type": "pdf", 
-                "resource_name": "Agricultural Census (Forestry and Logging)",
+                "resource_name": "Agricultural Census (Forestry and Logging): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_forestry_logging.pdf"
             },
             {
                 "resource_id": 4,
                 "resource_type": "pdf",
-                "resource_name": "Agricultural Census (Fisheries)",
+                "resource_name": "Agricultural Census (Fisheries): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_fisheries.pdf"
             },
             {
                 "resource_id": 5,
                 "resource_type": "pdf",
-                "resource_name": "Agricultural Census (Livestock)",
+                "resource_name": "Agricultural Census (Livestock): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_livestock.pdf"
             },
             {
                 "resource_id": 6,
                 "resource_type": "pdf",
-                "resource_name": "Agricultural Census (Oil Palm)",
+                "resource_name": "Agricultural Census (Oil Palm): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_oilpalm.pdf"
             },
             {
                 "resource_id": 7,
                 "resource_type": "pdf",
-                "resource_name": "Agricultural Census (Rubber)",
+                "resource_name": "Agricultural Census (Rubber): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_rubber.pdf"
             },
             {
                 "resource_id": 8,
                 "resource_type": "pdf",
-                "resource_name": "Agricultural Census (Paddy)",
+                "resource_name": "Agricultural Census (Paddy): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_paddy.pdf"
             },
             {
                 "resource_id": 9,
                 "resource_type": "pdf",
-                "resource_name": "Agricultural Census (Fruits)",
+                "resource_name": "Agricultural Census (Fruits): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_fruits.pdf"
             },
             {
                 "resource_id": 10,
                 "resource_type": "pdf",
-                "resource_name": "Agricultural Census (Vegetables)",
+                "resource_name": "Agricultural Census (Vegetables): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_vegetables.pdf"
             },
             {
                 "resource_id": 11,
                 "resource_type": "pdf",
-                "resource_name": "Agricultural Census (Kenaf)",
+                "resource_name": "Agricultural Census (Kenaf): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_kenaf.pdf"
             },
             {
                 "resource_id": 12,
                 "resource_type": "pdf",
-                "resource_name": "Agricultural Census (Cocoa)",
+                "resource_name": "Agricultural Census (Cocoa): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_cocoa.pdf"
             },
             {
                 "resource_id": 13,
                 "resource_type": "pdf",
-                "resource_name": "Agricultural Census (Pepper)",
+                "resource_name": "Agricultural Census (Pepper): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_pepper.pdf"
             },
             {
                 "resource_id": 14,
                 "resource_type": "pdf",
-                "resource_name": "Agricultural Census (Pineapple)",
+                "resource_name": "Agricultural Census (Pineapple): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_pineapple.pdf"
             },
             {
                 "resource_id": 15,
                 "resource_type": "pdf",
-                "resource_name": "Agricultural Census (Other)",
+                "resource_name": "Agricultural Census (Other): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_other.pdf"
             }
         ]
     },
     "bm": {
-        "title": "[2024] Banci Pertanian (Interim)",
+        "title": "[2023] Banci Pertanian (Interim)",
         "publication_type_title": "Banci Pertanian",
         "description": "Laporan interim penemuan penting berdasarkan Banci Pertanian yang dilaksanakan pada tahun 2024.",
         "description_email": "DOSM telah menerbitkan laporan interim Banci Pertanian yang dilaksanakan pada tahun 2024. Laporan ini memberikan gambaran awal penemuan penting berdasarkan banci, dengan pecahan mengikut subsektor pertanian.",
@@ -115,91 +116,91 @@
             {
                 "resource_id": 1,
                 "resource_type": "pdf",
-                "resource_name": "Banci Pertanian",
+                "resource_name": "Banci Pertanian: 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023.pdf"
             },
             {
                 "resource_id": 2,
                 "resource_type": "pdf",
-                "resource_name": "Banci Pertanian (Akuakultur)",
+                "resource_name": "Banci Pertanian (Akuakultur): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_aquaculture.pdf"
             },
             {
                 "resource_id": 3,
                 "resource_type": "pdf", 
-                "resource_name": "Banci Pertanian (Perhutanan dan Pembalakan)",
+                "resource_name": "Banci Pertanian (Perhutanan dan Pembalakan): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_forestry_logging.pdf"
             },
             {
                 "resource_id": 4,
                 "resource_type": "pdf",
-                "resource_name": "Banci Pertanian (Perikanan)",
+                "resource_name": "Banci Pertanian (Perikanan): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_fisheries.pdf"
             },
             {
                 "resource_id": 5,
                 "resource_type": "pdf",
-                "resource_name": "Banci Pertanian (Ternakan)",
+                "resource_name": "Banci Pertanian (Ternakan): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_livestock.pdf"
             },
             {
                 "resource_id": 6,
                 "resource_type": "pdf",
-                "resource_name": "Banci Pertanian (Kelapa Sawit)",
+                "resource_name": "Banci Pertanian (Kelapa Sawit): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_oilpalm.pdf"
             },
             {
                 "resource_id": 7,
                 "resource_type": "pdf",
-                "resource_name": "Banci Pertanian (Getah)",
+                "resource_name": "Banci Pertanian (Getah): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_rubber.pdf"
             },
             {
                 "resource_id": 8,
                 "resource_type": "pdf",
-                "resource_name": "Banci Pertanian (Padi)",
+                "resource_name": "Banci Pertanian (Padi): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_paddy.pdf"
             },
             {
                 "resource_id": 9,
                 "resource_type": "pdf",
-                "resource_name": "Banci Pertanian (Buah-Buahan)",
+                "resource_name": "Banci Pertanian (Buah-Buahan): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_fruits.pdf"
             },
             {
                 "resource_id": 10,
                 "resource_type": "pdf",
-                "resource_name": "Banci Pertanian (Sayur-Sayuran)",
+                "resource_name": "Banci Pertanian (Sayur-Sayuran): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_vegetables.pdf"
             },
             {
                 "resource_id": 11,
                 "resource_type": "pdf",
-                "resource_name": "Banci Pertanian (Kenaf)",
+                "resource_name": "Banci Pertanian (Kenaf): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_kenaf.pdf"
             },
             {
                 "resource_id": 12,
                 "resource_type": "pdf",
-                "resource_name": "Banci Pertanian (Koko)",
+                "resource_name": "Banci Pertanian (Koko): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_cocoa.pdf"
             },
             {
                 "resource_id": 13,
                 "resource_type": "pdf",
-                "resource_name": "Banci Pertanian (Lada)",
+                "resource_name": "Banci Pertanian (Lada): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_pepper.pdf"
             },
             {
                 "resource_id": 14,
                 "resource_type": "pdf",
-                "resource_name": "Banci Pertanian (Nanas)",
+                "resource_name": "Banci Pertanian (Nanas): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_pineapple.pdf"
             },
             {
                 "resource_id": 15,
                 "resource_type": "pdf",
-                "resource_name": "Banci Pertanian (Tanaman Lain)",
+                "resource_name": "Banci Pertanian (Tanaman Lain): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_other.pdf"
             }
         ]
