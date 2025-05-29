@@ -1,0 +1,38 @@
+{
+    "publication": "mesr_2025_special_landscape",
+    "publication_type": "review_monthly",
+    "release_date": "2025-05-29",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2025] Economic Statistics Review: Special Edition",
+        "publication_type_title": "Monthly Reviews",
+        "description": "Special edition of the Economic Statistics Review, focusing on 'Navigating Economic Landscapes'.",
+        "description_email": "DOSM has just released a special edition of its economic statistics review ahead of the regular monthly release tomorrow. The special edition focuses on 'Navigating Economic Landscapes', and provides a comprehensive overview of Malaysia's economic evolution.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Economic Statistics Review: Special Edition",
+                "resource_link": "https://storage.dosm.gov.my/analysis/mesr_2025_special_landscape_en.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2025] Sorotan Statistik Ekonomi: Edisi Khas",
+        "publication_type_title": "Sorotan Bulanan",
+        "description": "Edisi khas Sorotan Statistik Ekonomi, memberi tumpuan kepada 'Menelusuri Landskap Ekonomi'.",
+        "description_email": "DOSM baru sahaja menerbitkan edisi khas sorotan statistik ekonomi, sehari sebelum penerbitan bulanan berkala esok. Edisi khas ini memberi tumpuan kepada 'Menelusuri Landskap Ekonomi', dan memberikan gambaran menyeluruh tentang evolusi ekonomi Malaysia.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Sorotan Statistik Ekonomi: Edisi Khas",
+                "resource_link": "https://storage.dosm.gov.my/analysis/mesr_2025_special_landscape_bm.pdf"
+            }
+        ]
+    }
+}
