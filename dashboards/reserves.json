@@ -1,12 +1,12 @@
 {
     "dashboard_name": "reserves",
-    "data_last_updated": "2025-03-31 15:00",
-    "data_next_update": "2025-04-30 15:00",
+    "data_last_updated": "2025-05-31 15:00",
+    "data_next_update": "2025-06-30 15:00",
     "route": "/dashboard/reserve-money,/ms-MY/dashboard/reserve-money",
     "sites": [
         "datagovmy"
     ],
-    "manual_trigger": "2025-04-08 21:32:59.004433",
+    "manual_trigger": "2025-05-31 08:40:21.400022",
     "required_params": [],
     "optional_params": [],
     "charts": {
@@ -14,7 +14,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/reserves_timeseries.parquet",
-            "data_as_of": "2025-02",
+            "data_as_of": "2025-04",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -44,7 +44,7 @@
             "name": "statistics",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/reserves_timeseries_callout.parquet",
-            "data_as_of": "2025-02",
+            "data_as_of": "2025-04",
             "api_type": "static",
             "api_params": [],
             "variables": {
