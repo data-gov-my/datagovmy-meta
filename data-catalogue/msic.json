@@ -6,7 +6,7 @@
   "description_ms": "Jadual ini memberi rujukan lengkap bagi MSIC (Piawaian Klasifikasi Industri Malaysia) 2008, seperti yang digunapakai dalam penerbitan data di Malaysia. MCOICOP digunakan terutamanya oleh Jabatan Perangkaan Malaysia (DOSM) bagi tujuan pengkelasan data ekonomi, misalnya dalam penghasilan data KDNK.",
   "exclude_openapi": false,
   "manual_trigger": "na",
-  "data_as_of": "2008-12-31 23:59",
+  "data_as_of": "2008",
   "last_updated": "2008-12-31 23:59",
   "next_update": "-",
   "methodology_en": "The MSIC was adapted from the [ISIC published by the United Nations Statistics Division](https://unstats.un.org/unsd/classifications/Econ/isic), which is used as a global reference for the classification of economic activities.",
