@@ -3,6 +3,7 @@
     "publication_type": "mining",
     "release_date": "2025-06-04",
     "frequency": "QUARTERLY",
+    "abort_email": true,
     "geography": [
         "NATIONAL"
     ],
