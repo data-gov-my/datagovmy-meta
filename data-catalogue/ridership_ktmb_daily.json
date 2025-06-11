@@ -5,7 +5,7 @@
     "description_en": "Daily-frequency ridership data for the 5 main KTMB services, namely Komuter, Komuter Utara, Intercity, ETS and Shuttle Tebrau. The table and charts provide a preview of the data using the most recent 1 year of data, but you may download the data in full.",
     "description_ms": "Data penggunaan perkhidmatan KTMB berfrekuensi harian untuk 5 perkhidmatan utama KTMB, iaitu Komuter, Komuter Utara, Antarabandar, ETS dan Shuttle Tebrau. Jadual dan carta memberi pratonton kepada set data menggunakan data bagi 1 tahun terkini, tetapi anda boleh memuat turun set data penuh.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2025-06-10 23:59",
     "last_updated": "2025-06-11 03:31",
     "next_update": "2025-06-12 03:45",

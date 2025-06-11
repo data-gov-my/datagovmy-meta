@@ -5,7 +5,7 @@
     "description_en": "Hourly origin-destination ridership data for the Intercity service. The table provides a brief preview of the data, but you may download the data in full.",
     "description_ms": "Data penumpang asal-destinasi secara jam untuk perkhidmatan Antarabandar. Jadual memberikan pratonton kepada set data, tetapi anda boleh memuat turun set data penuh.",
     "exclude_openapi": true,
-    "manual_trigger": "1",
+    "manual_trigger": "",
     "data_as_of": "2025-06-10 23:59",
     "last_updated": "2025-06-11 03:31",
     "next_update": "2025-06-12 03:45",
