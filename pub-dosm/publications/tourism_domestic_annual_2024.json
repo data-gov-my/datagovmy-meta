@@ -1,0 +1,46 @@
+{
+    "publication": "tourism_domestic_annual_2024",
+    "publication_type": "tourism",
+    "release_date": "2025-06-19",
+    "frequency": "YEARLY",
+    "geography": [],
+    "demography": [],
+    "en": {
+        "title": "[2024] Domestic Tourism",
+        "publication_type_title": "Tourism",
+        "description": "Annual performance of domestic tourism, covering key statistics of domestic visits.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Domestic Tourism: 2024",
+                "resource_link": "https://storage.dosm.gov.my/tourism/tourism_domestic_2024.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Domestic Tourism: 2024",
+                "resource_link": "https://storage.dosm.gov.my/tourism/tourism_domestic_2024.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2024] Pelancongan Domestik",
+        "publication_type_title": "Pelancongan",
+        "description": "Prestasi tahunan pelancongan domestik, merangkumi statistik penting pelancong domestik.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Pelancongan Domestik: 2024",
+                "resource_link": "https://storage.dosm.gov.my/tourism/tourism_domestic_2024.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Pelancongan Domestik: 2024",
+                "resource_link": "https://storage.dosm.gov.my/tourism/tourism_domestic_2024.pdf"
+            }
+        ]
+    }
+}
