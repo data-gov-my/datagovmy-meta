@@ -1,0 +1,51 @@
+{
+    "publication": "trade_headline_2025-05",
+    "publication_type": "trade",
+    "release_date": "2025-06-20",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[May 2025] External Trade (Headline)",
+        "publication_type_title": "External Trade",
+        "description": "Initial release of monthly external trade data, covering exports and imports by sector and trading partner.",
+        "description_email": "DOSM has published initial monthly external trade data for January 2025, covering exports and imports by sector and trading partner. In year-on-year terms, exports grew by 0.3% (Dec 2024: 16.9%), while imports grew by 6.2% (Dec 2024: 11.9%). The overall trade balance fell from RM19.1 billion in Dec 2024 to RM3.6 billion in Jan 2025. More granular data will be available in the full release on 28th February 2025.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "External Trade (Headline): May 2025",
+                "resource_link": "https://storage.dosm.gov.my/trade/trade_2025-05_headline_en.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "External Trade (Headline): May 2025",
+                "resource_link": "https://storage.dosm.gov.my/trade/trade_2025-05_headline_en.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Mei 2025] Perdagangan Luar (Ringkasan)",
+        "publication_type_title": "Perdagangan Luar Negeri",
+        "description": "Aktiviti perdagangan luar bulanan, merangkumi eksport, import, dan imbangan perdagangan mengikut rakan dagang dan komoditi.",
+        "description_email": "DOSM telah menerbitkan data perdagangan luar bagi Januari 2025 secara ringkas, merangkumi eksport dan import mengikut sektor dan rakan dagang. Dari tahun ke tahun, eksport telah meningkat sebanyak 0.3% (Dis 2024: 16.9%), manakala import meningkat sebanyak 6.2% (Dis 2024: 11.9%). Imbangan perdagangan meningkat dari RM19.1 bilion pada Dis 2024 kepada RM3.6 bilion pada Jan 2025. Data yang lebih terperinci akan diterbitkan dalam penerbitan penuh pada 28 Februari 2025.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Perdagangan Luar (Ringkasan): Mei 2025",
+                "resource_link": "https://storage.dosm.gov.my/trade/trade_2025-05_headline_bm.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Perdagangan Luar (Ringkasan): Mei 2025",
+                "resource_link": "https://storage.dosm.gov.my/trade/trade_2025-05_headline_bm.pdf"
+            }
+        ]
+    }
+}
