@@ -15,9 +15,9 @@
     "caveat_ms": "Data ini mewakili aplikasi yang dijejaki melalui Galeri Aplikasi Mudah Alih Kerajaan Malaysia (GAMMA) sahaja. Oleh itu, aplikasi rasmi yang belum didaftarkan dalam GAMMA mungkin tidak wujud dalam set data ini.",
     "publication_en": "\u2014",
     "publication_ms": "\u2014",
-    "link_parquet": "https://storage.data.gov.my/publicadmin/government_apps_ratings.parquet",
-    "link_csv": "https://storage.data.gov.my/publicadmin/government_apps_ratings.csv",
-    "link_preview": "https://storage.data.gov.my/publicadmin/government_apps_ratings_preview.parquet",
+    "link_parquet": "https://storage.data.gov.my/publicadmin/government_apps_reviews.parquet",
+    "link_csv": "https://storage.data.gov.my/publicadmin/government_apps_reviews.csv",
+    "link_preview": "https://storage.data.gov.my/publicadmin/government_apps_reviews_preview.parquet",
     "frequency": "MONTHLY",
     "geography": [
         "NATIONAL"
