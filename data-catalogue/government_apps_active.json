@@ -17,7 +17,6 @@
     "publication_ms": "\u2014",
     "link_parquet": "https://storage.data.gov.my/publicadm/government_apps_active.parquet",
     "link_csv": "https://storage.data.gov.my/publicadm/government_apps_active.csv",
-    "link_preview": "https://storage.data.gov.my/publicadm/government_apps_active_preview.parquet",
     "frequency": "MONTHLY",
     "geography": [
         "NATIONAL"
