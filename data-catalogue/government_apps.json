@@ -5,7 +5,7 @@
     "description_en": "List of official government mobile applications registered with GAMMA, including their names, platforms, date of publication and purpose.",
     "description_ms": "Senarai aplikasi mudah alih rasmi kerajaan yang didaftarkan dalam GAMMA, termasuk nama, platform, tarikh penerbitan dan tujuan.",
     "exclude_openapi": false,
-    "manual_trigger": "1",
+    "manual_trigger": "",
     "data_as_of": "2025-06-22 23:59",
     "last_updated": "2025-06-23 00:10",
     "next_update": "2025-06-24 00:10",
@@ -123,11 +123,5 @@
         "ios": "iOS",
         "huawei": "Huawei"
     },
-    "related_datasets": [
-        {
-            "title_en": "Number of Active Government Mobile Applications",
-            "title_ms": "Jumlah Aplikasi Mudah Alih Rasmi Kerajaan Aktif",
-            "link": "https://storage.data.gov.my/publicadm/government_apps_active.csv"
-        }
-    ]
+    "related_datasets": []
 }

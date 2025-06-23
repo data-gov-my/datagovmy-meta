@@ -1,22 +1,22 @@
 {
-    "title_en": "Number of Active Government Mobile Applications",
-    "title_ms": "Jumlah Aplikasi Mudah Alih Rasmi Kerajaan yang Aktif",
-    "title_sort": 22,
-    "description_en": "Monthly data on the number of active government mobile applications, including data on the number of apps published and shut down.",
-    "description_ms": "Data bulanan mengenai bilangan aplikasi mudah alih rasmi kerajaan yang aktif, termasuk bilangan aplikasi yang diterbitkan dan ditutup.",
+    "title_en": "Transactional Data: Official Government Mobile Applications",
+    "title_ms": "Data Transaksi: Aplikasi Mudah Alih Rasmi Kerajaan",
+    "title_sort": 20,
+    "description_en": "List of official government mobile applications registered with GAMMA, including their names, platforms, date of publication and purpose.",
+    "description_ms": "Senarai aplikasi mudah alih rasmi kerajaan yang didaftarkan dalam GAMMA, termasuk nama, platform, tarikh penerbitan dan tujuan.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2025-06-22 23:59",
     "last_updated": "2025-06-23 00:10",
     "next_update": "2025-06-24 00:10",
-    "methodology_en": "This data is aggregated from the transactional data on government mobile applications made available [here](https://data.gov.my/data-catalogue/government_apps).",
-    "methodology_ms": "Data ini adalah agregat berdasarkan data aplikasi mudah alih rasmi berbentuk transaksi yang tersedia [di sini](https://data.gov.my/data-catalogue/government_apps).",
+    "methodology_en": "Under the standards specified by the National Digital Department (JDN), all government mobile applications must be registered with the Malaysia Government Mobile Applications Gallery (GAMMA). This dataset represents an exact copy of the transactional data stored in the GAMMA database.",
+    "methodology_ms": "Mengikut standard yang ditetapkan oleh Jabatan Digital Nasional (JDN), semua aplikasi mudah alih kerajaan mesti didaftarkan dalam Galeri Aplikasi Mudah Alih Kerajaan Malaysia (GAMMA). Set data ini adalah salinan tepat data transaksi yang disimpan dalam pangkalan data GAMMA.",
     "caveat_en": "The data represents applications tracked via the Malaysia Government Mobile Applications Gallery (GAMMA) only. As such, official applications not yet registered in GAMMA may be absent from this dataset.",
     "caveat_ms": "Data ini mewakili aplikasi yang dijejaki melalui Galeri Aplikasi Mudah Alih Kerajaan Malaysia (GAMMA) sahaja. Oleh itu, aplikasi rasmi yang belum didaftarkan dalam GAMMA mungkin tidak wujud dalam set data ini.",
     "publication_en": "\u2014",
     "publication_ms": "\u2014",
-    "link_parquet": "https://storage.data.gov.my/publicadmin/government_apps_active.parquet",
-    "link_csv": "https://storage.data.gov.my/publicadmin/government_apps_active.csv",
+    "link_parquet": "https://storage.data.gov.my/publicadmin/government_apps.parquet",
+    "link_csv": "https://storage.data.gov.my/publicadmin/government_apps.csv",
     "frequency": "MONTHLY",
     "geography": [
         "NATIONAL"
@@ -41,32 +41,46 @@
     ],
     "fields": [
         {
-            "name": "date",
-            "title_en": "Date",
-            "title_ms": "Tarikh",
-            "description_en": "[Date] Date in YYYY-MM-DD format, with DD set to 01 as this is monthly data.",
-            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai DD ditetapkan sebagai 01 bagi data bulanan."
+            "name": "app_id",
+            "title_en": "Application ID",
+            "title_ms": "ID Aplikasi",
+            "description_en": "[Integer] Unique identifier for each government mobile application; this is intended as a lookup reference only, and has no external meaning.",
+            "description_ms": "[Integer] ID unik bagi setiap aplikasi mudah alih kerajaan; ini bertujuan sebagai rujukan pencarian sahaja, dan tidak mempunyai apa jua makna yang merujuk kepada sistem lain."
         },
         {
-            "name": "published",
-            "title_en": "Published",
-            "title_ms": "Diterbitkan",
-            "description_en": "[Integer] Number of new government mobile applications published in that month.",
-            "description_ms": "[Integer] Bilangan aplikasi mudah alih kerajaan baru yang diterbitkan pada bulan tersebut."
+            "name": "app_name",
+            "title_en": "Application Name",
+            "title_ms": "Nama Aplikasi",
+            "description_en": "[String] The official name of the government mobile application.",
+            "description_ms": "[Rentetan] Nama rasmi aplikasi mudah alih kerajaan."
         },
         {
-            "name": "shutdown",
-            "title_en": "Shut Down",
-            "title_ms": "Ditutup",
-            "description_en": "[Integer] Number of government mobile applications that were shut down in that month.",
-            "description_ms": "[Integer] Bilangan aplikasi mudah alih kerajaan yang ditutup pada bulan tersebut."
+            "name": "app_os_platform",
+            "title_en": "Operating System Platform",
+            "title_ms": "Platform Sistem Operasi",
+            "description_en": "[Categorical] The operating system platform for the application: Android, iOS, or Huawei.",
+            "description_ms": "[Kategori] Platform sistem operasi untuk aplikasi: Android, iOS, atau Huawei."
         },
         {
-            "name": "active",
-            "title_en": "Active",
-            "title_ms": "Aktif",
-            "description_en": "[Integer] Total number of active government mobile applications as of that month, derived as the number of published applications minus the number of shut down applications.",
-            "description_ms": "[Integer] Jumlah bilangan aplikasi mudah alih kerajaan yang aktif sehingga bulan tersebut, dikira sebagai bilangan aplikasi yang diterbitkan tolak bilangan aplikasi yang ditutup."
+            "name": "published_date",
+            "title_en": "Published Date",
+            "title_ms": "Tarikh Diterbitkan",
+            "description_en": "[Date] The date when the application was first published to the app store for that OS.",
+            "description_ms": "[Tarikh] Tarikh apabila aplikasi pertama kali diterbitkan ke platform aplikasi untuk OS tersebut."
+        },
+        {
+            "name": "shutdown_date",
+            "title_en": "Shutdown Date",
+            "title_ms": "Tarikh Ditutup",
+            "description_en": "[Date] The date when the application was shutdown or removed from the app store. Null if still active.",
+            "description_ms": "[Tarikh] Tarikh apabila aplikasi ditutup atau dikeluarkan dari kedai aplikasi. Null jika masih aktif."
+        },
+        {
+            "name": "purpose",
+            "title_en": "Purpose",
+            "title_ms": "Tujuan",
+            "description_en": "[String] Description of the application's purpose and functionality.",
+            "description_ms": "[Rentetan] Penerangan tentang tujuan dan fungsi aplikasi."
         }
     ],
     "dataviz": [
@@ -77,77 +91,43 @@
             "chart_type": "TABLE",
             "config": {
                 "precision": 0,
-                "filter_columns": [],
+                "filter_columns": [
+                    "app_os_platform"
+                ],
                 "freeze_columns": [
-                    "date"
+                    "app_id",
+                    "app_name"
                 ]
-            }
-        },
-        {
-            "dataviz_id": "applications",
-            "title_en": "Active Applications",
-            "title_ms": "Aplikasi Aktif",
-            "chart_type": "TIMESERIES",
-            "config": {
-                "filter_columns": [],
-                "precision": 0,
-                "operation": "SUM",
-                "format": {
-                    "x": "date",
-                    "y": [
-                        "active"
-                    ]
-                }
-            }
-        },
-        {
-            "dataviz_id": "published",
-            "title_en": "Published Applications",
-            "title_ms": "Aplikasi Diterbitkan",
-            "chart_type": "TIMESERIES",
-            "config": {
-                "filter_columns": [],
-                "precision": 0,
-                "operation": "SUM",
-                "format": {
-                    "x": "date",
-                    "y": [
-                        "published"
-                    ]
-                }
-            }
-        },
-        {
-            "dataviz_id": "shutdown",
-            "title_en": "Shut Down Applications",
-            "title_ms": "Aplikasi Ditutup",
-            "chart_type": "TIMESERIES",
-            "config": {
-                "filter_columns": [],
-                "precision": 0,
-                "operation": "SUM",
-                "format": {
-                    "x": "date",
-                    "y": [
-                        "shutdown"
-                    ]
-                }
             }
         }
     ],
     "translations_en": {
-        "date": "Date",
-        "published": "Published",
-        "shutdown": "Shut Down",
-        "active": "Active",
-        "y1": "Applications"
+        "app_id": "App ID",
+        "app_name": "App Name",
+        "app_os_platform": "Platform",
+        "published_date": "Date Published",
+        "shutdown_date": "Date Shut Down",
+        "purpose": "Purpose",
+        "android": "Android",
+        "ios": "iOS",
+        "huawei": "Huawei"
     },
     "translations_ms": {
-        "date": "Tarikh",
-        "published": "Diterbitkan",
-        "shutdown": "Ditutup",
-        "active": "Aktif",
-        "y1": "Aplikasi"
+        "app_id": "ID Aplikasi",
+        "app_name": "Nama Aplikasi",
+        "app_os_platform": "Platform",
+        "published_date": "Tarikh Diterbitkan",
+        "shutdown_date": "Tarikh Ditutup",
+        "purpose": "Tujuan",
+        "android": "Android",
+        "ios": "iOS",
+        "huawei": "Huawei"
     },
-    "related_datasets": []
+    "related_datasets": [
+        {
+            "title_en": "Number of Active Government Mobile Applications",
+            "title_ms": "Jumlah Aplikasi Mudah Alih Rasmi Kerajaan Aktif",
+            "link": "https://storage.data.gov.my/publicadm/government_apps_active.csv"
+        }
+    ]
 }
