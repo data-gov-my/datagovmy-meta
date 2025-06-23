@@ -11,8 +11,8 @@
 		"general_q3": "Adakah saya boleh menjemput Pasukan DTSA untuk memberikan taklimat?",
 		"general_q4": "Adakah kandungan portal ini dikongsikan secara rasmi di mana-mana tempat lain?",
 		"general_q5": "Adakah akan ada set data baru pada masa depan?",
-		"general_a1": "[Sertai MODCom](https://data.gov.my/community) atau hantarkan emel kepada [help.dtsa@jdn.gov.my](mailto:help.dtsa@jdn.gov.my)",
-		"general_a2": "[Sertai MODCom](https://data.gov.my/community) atau hantarkan emel kepada [help.dtsa@jdn.gov.my](mailto:help.dtsa@jdn.gov.my)",
+		"general_a1": "[Sertai MODCom](https://data.gov.my/community) atau hantarkan emel kepada [dataterbuka@jdn.gov.my](mailto:dataterbuka@jdn.gov.my)",
+		"general_a2": "[Sertai MODCom](https://data.gov.my/community) atau hantarkan emel kepada [dataterbuka@jdn.gov.my](mailto:dataterbuka@jdn.gov.my)",
 		"general_a3": "Boleh. Kami sentiasa sudi kongsikan pengalaman kami. Undangan rasmi boleh dihantar ke dataterbuka@jdn.gov.my",
 		"general_a4": "Tidak. Kami tidak kongsikan kandungan portal ini kepada mana-mana pihak ketiga secara rasmi. Sekiranya anda melihat sesiapa menyatakan secara rasmi bekerjasama dengan data.gov.my, ia mungkin tidak benar. Walau bagaimanapun, data dan maklumat yang dipaparkan dalam Portal ini adalah terbuka dan boleh digunakan oleh sesiapa sahaja.",
 		"general_a5": "Ya. Hala tuju data terbuka Malaysia adalah berterusan dan sentiasa ditambah baik untuk memastikan ia memenuhi keperluan sektor awam dan masyarakat secara am.",
@@ -41,6 +41,6 @@
 		"feedback_required": "Sila isikan maklum balas anda.",
 		"email_invalid": "Sila isikan emel anda secara lengkap.",
 		"thank_you": "Terima kasih!",
-		"received": "Maklum balas anda sudah diterima.\nAnda akan menerima respons melalui emel daripada help.dtsa@jdn.gov.my dalam tempoh 14 hari bekerja."
+		"received": "Maklum balas anda sudah diterima.\nAnda akan menerima respons melalui emel daripada dataterbuka@jdn.gov.my dalam tempoh 14 hari bekerja."
 	}
 }

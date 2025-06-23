@@ -11,9 +11,9 @@
 		"general_q3": "Can I invite the data.gov.my team to give a talk?",
 		"general_q4": "Is the site's content officially shared anywhere else?",
 		"general_q5": "Will there be new content in future?",
-		"general_a1": "Either [join the MODCom](https://data.gov.my/community) or write to [help.dtsa@jdn.gov.my](mailto:help.dtsa@jdn.gov.my)",
-		"general_a2": "Either [join the MODCom](https://data.gov.my/community) or write to [help.dtsa@jdn.gov.my](mailto:help.dtsa@jdn.gov.my)",
-		"general_a3": "Yes. We are always happy to share our journey. Write in to data.dtsa@jdn.gov.my with your invitation!",
+		"general_a1": "Either [join the MODCom](https://data.gov.my/community) or write to [dataterbuka@jdn.gov.my](mailto:dataterbuka@jdn.gov.my)",
+		"general_a2": "Either [join the MODCom](https://data.gov.my/community) or write to [dataterbuka@jdn.gov.my](mailto:dataterbuka@jdn.gov.my)",
+		"general_a3": "Yes. We are always happy to share our journey. Write in to dataterbuka@jdn.gov.my with your invitation!",
 		"general_a4": "No. We do not engage in any 3rd-party content sharing, or endorse any external sites displaying our data or visualisations. Any embeds from data.gov.my will bear our logo and URL. If you see someone claiming to be an affiliate of data.gov.my, it is likely a scam.",
 		"general_a5": "Yes. Malaysia's open data is never 'finished'. We see this as a continuous work-in-progress, and are dedicated to ensuring that the site continually serves the most critical data needs of the day.",
 		"data-tech": "Data & Tech",
@@ -25,7 +25,7 @@
 		"data-tech_a1": "Because we anticipate that most requests will be organically catered for as we implement our current roadmap for improvement and new data. In the first quarter of 2024, when we are satisfied that all important bases have been covered, we will launch a ticketing system for data requests.",
 		"data-tech_a2": "Yes. It is all licensed as CC-BY 4.0.",
 		"data-tech_a3": "Even better - you can see it for yourself. The entire codebase and design for the site is open-sourced - all links are in the footer.",
-		"data-tech_a4": "Yes, actually. If you are a private sector organisation who believes that your data can support the country's open data infrastructure, get in touch by writing to data.dtsa@jdn.gov.my.",
+		"data-tech_a4": "Yes, actually. If you are a private sector organisation who believes that your data can support the country's open data infrastructure, get in touch by writing to dataterbuka@jdn.gov.my.",
 		"data-tech_a5": "We never work with de-anonymised data, period. All data on this site is produced either from already-aggregated sources, or from fully anonymised transactional data. We firmly believe that high frequency and granularity can and should be achieved without compromising on privacy.",
 		"form_title": "Can't find what you're looking for?",
 		"ping": "Give us a ping!",
@@ -41,6 +41,6 @@
 		"feedback_required": "Please fill in your feedback.",
 		"email_invalid": "Please fill in a valid email address.",
 		"thank_you": "Thank you!",
-		"received": "We have received your submission.\nYou will receive a response via email from help.dtsa@jdn.gov.my within 14 working days."
+		"received": "We have received your submission.\nYou will receive a response via email from dataterbuka@jdn.gov.my within 14 working days."
 	}
 }
