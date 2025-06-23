@@ -1,0 +1,128 @@
+{
+    "title_en": "Transactional Data: User Reviews of Government Mobile Applications",
+    "title_ms": "Data Transaksi: Ulasan Pengguna bagi Aplikasi Mudah Alih Kerajaan",
+    "title_sort": 21,
+    "description_en": "Transactional data on the user reviews of government mobile applications",
+    "description_ms": "Data transaksi mengenai ulasan pengguna bagi aplikasi mudah alih kerajaan",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2025-06-22 23:59",
+    "last_updated": "2025-06-23 00:10",
+    "next_update": "2025-06-24 00:10",
+    "methodology_en": "Under the standards specified by the National Digital Department (JDN), all government mobile applications must be registered with the Malaysia Government Mobile Applications Gallery (GAMMA). This dataset represents an exact copy of the transactional data on user reviews stored in the GAMMA database.",
+    "methodology_ms": "Mengikut standard yang ditetapkan oleh Jabatan Digital Nasional (JDN), semua aplikasi mudah alih kerajaan mesti didaftarkan dalam Galeri Aplikasi Mudah Alih Kerajaan Malaysia (GAMMA). Set data ini adalah salinan tepat data transaksi mengenai ulasan pengguna yang disimpan dalam pangkalan data GAMMA.",
+    "caveat_en": "The data represents applications tracked via the Malaysia Government Mobile Applications Gallery (GAMMA) only. As such, official applications not yet registered in GAMMA may be absent from this dataset.",
+    "caveat_ms": "Data ini mewakili aplikasi yang dijejaki melalui Galeri Aplikasi Mudah Alih Kerajaan Malaysia (GAMMA) sahaja. Oleh itu, aplikasi rasmi yang belum didaftarkan dalam GAMMA mungkin tidak wujud dalam set data ini.",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/publicadmin/government_apps_ratings.parquet",
+    "link_csv": "https://storage.data.gov.my/publicadmin/government_apps_ratings.csv",
+    "link_preview": "https://storage.data.gov.my/publicadmin/government_apps_ratings_preview.parquet",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2015,
+    "dataset_end": 2025,
+    "data_source": [
+        "JDN",
+        "KD"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Public Administration",
+            "category_ms": "Pentadbiran Awam",
+            "category_sort": 80,
+            "subcategory_en": "Digital Services",
+            "subcategory_ms": "Perkhidmatan Digital",
+            "subcategory_sort": 30
+        }
+    ],
+    "fields": [
+        {
+            "name": "id",
+            "title_en": "Application ID",
+            "title_ms": "ID Aplikasi",
+            "description_en": "[Integer] Unique identifier for each government mobile application; this can be matched against the app_id field in the main dataset.",
+            "description_ms": "[Integer] ID unik bagi setiap aplikasi mudah alih kerajaan; ini boleh disamakan dengan field app_id dalam set data utama."
+        },
+        {
+            "name": "app_name",
+            "title_en": "Application Name",
+            "title_ms": "Nama Aplikasi",
+            "description_en": "[String] The official name of the government mobile application.",
+            "description_ms": "[Rentetan] Nama rasmi aplikasi mudah alih kerajaan."
+        },
+        {
+            "name": "app_os_platform",
+            "title_en": "Operating System Platform",
+            "title_ms": "Platform Sistem Operasi",
+            "description_en": "[Categorical] The OS platform on which the review was submitted: Android, iOS, or Huawei.",
+            "description_ms": "[Kategori] Platform sistem operasi di mana ulasan dihantar: Android, iOS, atau Huawei."
+        },
+        {
+            "name": "review",
+            "title_en": "User Review",
+            "title_ms": "Ulasan Pengguna",
+            "description_en": "[String] User-submitted review text for the application. May be empty if no review was provided.",
+            "description_ms": "[Rentetan] Teks ulasan yang dihantar oleh pengguna untuk aplikasi. Mungkin kosong jika tiada ulasan diberikan."
+        },
+        {
+            "name": "created_date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Timestamp] The timestamp when the review was submitted.",
+            "description_ms": "[Masa] Masa apabila ulasan dihantar."
+        },
+        {
+            "name": "star_rating",
+            "title_en": "Star Rating",
+            "title_ms": "Penilaian Bintang",
+            "description_en": "[Integer] The star rating given by the user, ranging from 1 to 5 stars. -1 indicates ratings without a star value.",
+            "description_ms": "[Integer] Penilaian bintang yang diberikan oleh pengguna, dari 1 hingga 5 bintang. -1 menunjukkan penilaian tanpa nilai bintang."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "app_os_platform"
+                ],
+                "freeze_columns": [
+                    "app_id",
+                    "app_name"
+                ]
+            }
+        }
+    ],
+    "translations_en": {
+        "id": "App ID",
+        "app_name": "App Name",
+        "app_os_platform": "Platform",
+        "review": "User Review",
+        "created_date": "Review Date",
+        "star_rating": "Star Rating",
+        "android": "Android",
+        "ios": "iOS",
+        "huawei": "Huawei"
+    },
+    "translations_ms": {
+        "id": "ID Aplikasi",
+        "app_name": "Nama Aplikasi",
+        "app_os_platform": "Platform",
+        "review": "Ulasan Pengguna",
+        "created_date": "Tarikh Ulasan",
+        "star_rating": "Penilaian Bintang",
+        "android": "Android",
+        "ios": "iOS",
+        "huawei": "Huawei"
+    },
+    "related_datasets": []
+}
