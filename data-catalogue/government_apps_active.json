@@ -1,9 +1,9 @@
 {
     "title_en": "Number of Active Government Mobile Applications",
-    "title_ms": "Jumlah Aplikasi Mudah Alih Rasmi Kerajaan Aktif",
+    "title_ms": "Jumlah Aplikasi Mudah Alih Rasmi Kerajaan yang Aktif",
     "title_sort": 22,
-    "description_en": "Monthly data on the number of active government mobile applications, tracking published, shutdown, and active applications over time.",
-    "description_ms": "Data bulanan mengenai bilangan aplikasi mudah alih rasmi kerajaan yang aktif, menjejaki aplikasi yang diterbitkan, ditutup, dan aktif mengikut masa.",
+    "description_en": "Monthly data on the number of active government mobile applications, including data on the number of apps published and shut down.",
+    "description_ms": "Data bulanan mengenai bilangan aplikasi mudah alih rasmi kerajaan yang aktif, termasuk bilangan aplikasi yang diterbitkan dan ditutup.",
     "exclude_openapi": false,
     "manual_trigger": "",
     "data_as_of": "2025-06-22 23:59",
