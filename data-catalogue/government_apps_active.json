@@ -1,52 +1,43 @@
 {
     "title_en": "Number of Active Government Mobile Applications",
     "title_ms": "Jumlah Aplikasi Mudah Alih Rasmi Kerajaan Aktif",
-    "title_sort": 1,
-    "description_en": "Daily blood donations at national level for each of the 4 major blood groups. The table provides a preview of the dataset using the most recent 2 years of data.",
-    "description_ms": "Pendermaan darah harian di peringkat nasional bagi setiap daripada 4 kumpulan darah utama. Jadual memberi pratonton kepada set data dengan menggunakan data daripada 2 tahun terkini.",
+    "title_sort": 22,
+    "description_en": "Monthly data on the number of active government mobile applications, tracking published, shutdown, and active applications over time.",
+    "description_ms": "Data bulanan mengenai bilangan aplikasi mudah alih rasmi kerajaan yang aktif, menjejaki aplikasi yang diterbitkan, ditutup, dan aktif mengikut masa.",
     "exclude_openapi": false,
-    "manual_trigger": "1",
+    "manual_trigger": "",
     "data_as_of": "2025-06-22 23:59",
-    "last_updated": "2025-06-23 10:00",
-    "next_update": "2025-06-24 10:00",
-    "methodology_en": "This dataset is produced from transactional data recorded in the Blood Bank Information System (BBISv2), a vein-to-vein blood-tracking system used by 22 main blood collection sites under MoH which covers the majority of blood donations in Malaysia.",
-    "methodology_ms": "Dataset ini dihasilkan oleh Sistem Informasi Pusat Darah (BBISv2) di Kementerian Kesihatan Malaysia, berdasarkan survelan harian di lapangan yang dilaksanakan untuk memantau evolusi derma darah di Malaysia kecuali di Negeri Perlis, Wilayah Persekutuan Putrajaya, dan Wilayah Persekutuan Labuan.",
-    "caveat_en": "The true number of daily blood donations is higher than the number recorded in this dataset, which does not reflect donations made at locations other than the 22 main sites integrated with BBISv2. However, the 22 main sites cover the large majority of blood donations in Malaysia (~80%), and therefore provide a representative view of blood donation trends.",
-    "caveat_ms": "Bilangan sebenar derma darah harian adalah lebih tinggi daripada bilangan yang direkodkan dalam set data ini, kerana set data ini tidak mengambil kira pendermaan yang dibuat di lokasi selain daripada 22 pusat pungutan darah utama yang disepadukan dengan BBISv2. Walau bagaimanapun, 22 pusat utama meliputi majoriti pendermaan darah di Malaysia (~80%), maka memberi gambaran yang tepat mengenai trend pendermaan darah.",
-    "publication_en": "KKMNOW features a [dashboard on blood donation](https://data.moh.gov.my/ms-MY/dashboard/blood-donation) where you can explore the data in a more interactive manner!",
-    "publication_ms": "Portal KKMNOW memaparkan [papan pemuka tentang blood donation](https://data.moh.gov.my/ms-MY/dashboard/blood-donation) di mana anda boleh menerokai data ini dengan lebih interaktif!",
-    "link_parquet": "https://storage.data.gov.my/healthcare/blood_donations.parquet",
-    "link_csv": "https://storage.data.gov.my/healthcare/blood_donations.csv",
-    "link_preview": "https://storage.data.gov.my/healthcare/blood_donations_preview.parquet",
-    "frequency": "DAILY",
+    "last_updated": "2025-06-23 00:10",
+    "next_update": "2025-06-24 00:10",
+    "methodology_en": "This data is aggregated from the transactional data on government mobile applications made available [here](https://data.gov.my/data-catalogue/government_apps).",
+    "methodology_ms": "Data ini adalah agregat berdasarkan data aplikasi mudah alih rasmi berbentuk transaksi yang tersedia [di sini](https://data.gov.my/data-catalogue/government_apps).",
+    "caveat_en": "The data represents applications tracked via the Malaysia Government Mobile Applications Gallery (GAMMA) only. As such, official applications not yet registered in GAMMA may be absent from this dataset.",
+    "caveat_ms": "Data ini mewakili aplikasi yang dijejaki melalui Galeri Aplikasi Mudah Alih Kerajaan Malaysia (GAMMA) sahaja. Oleh itu, aplikasi rasmi yang belum didaftarkan dalam GAMMA mungkin tidak wujud dalam set data ini.",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/publicadm/government_apps_active.parquet",
+    "link_csv": "https://storage.data.gov.my/publicadm/government_apps_active.csv",
+    "link_preview": "https://storage.data.gov.my/publicadm/government_apps_active_preview.parquet",
+    "frequency": "MONTHLY",
     "geography": [
         "NATIONAL"
     ],
     "demography": [],
-    "dataset_begin": 2006,
-    "dataset_end": 2024,
+    "dataset_begin": 2015,
+    "dataset_end": 2025,
     "data_source": [
-        "PDN",
-        "MOH"
+        "MAMPU",
+        "KD"
     ],
     "site_category": [
         {
             "site": "datagovmy",
-            "category_en": "Healthcare",
-            "category_ms": "Kesihatan",
-            "category_sort": 40,
-            "subcategory_en": "Healthcare Programs",
-            "subcategory_ms": "Program Kesihatan",
-            "subcategory_sort": 20
-        },
-        {
-            "site": "kkmnow",
-            "category_en": "Healthcare Programs",
-            "category_ms": "Program Kesihatan",
-            "category_sort": 20,
-            "subcategory_en": "Blood Donation",
-            "subcategory_ms": "Pendermaan Darah",
-            "subcategory_sort": 10
+            "category_en": "Public Administration",
+            "category_ms": "Pentadbiran Awam",
+            "category_sort": 80,
+            "subcategory_en": "Digital Services",
+            "subcategory_ms": "Perkhidmatan Digital",
+            "subcategory_sort": 30
         }
     ],
     "fields": [
@@ -54,22 +45,29 @@
             "name": "date",
             "title_en": "Date",
             "title_ms": "Tarikh",
-            "description_en": "[Date] Date in YYYY-MM-DD format",
-            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+            "description_en": "[Date] Date in YYYY-MM-DD format, with DD set to 01 as this is monthly data.",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai DD ditetapkan sebagai 01 bagi data bulanan."
         },
         {
-            "name": "blood_type",
-            "title_en": "Blood Type",
-            "title_ms": "Jenis Darah",
-            "description_en": "[Categorical] One of 4 major blood groups (A, B, AB, O) or all groups ('all')",
-            "description_ms": "[Kategori] Satu daripada 4 kumpulan darah utama (A, B, AB, O) atau semua kumpulan ('all')"
+            "name": "published",
+            "title_en": "Published",
+            "title_ms": "Diterbitkan",
+            "description_en": "[Integer] Number of new government mobile applications published in that month.",
+            "description_ms": "[Integer] Bilangan aplikasi mudah alih kerajaan baru yang diterbitkan pada bulan tersebut."
         },
         {
-            "name": "donations",
-            "title_en": "Blood Donations",
-            "title_ms": "Pendermaan Darah",
-            "description_en": "[Integer] Number of blood donation transactions on that date.",
-            "description_ms": "[Integer] Bilangan transaksi pendermaan darah pada tarikh tersebut."
+            "name": "shutdown",
+            "title_en": "Shut Down",
+            "title_ms": "Ditutup",
+            "description_en": "[Integer] Number of government mobile applications that were shut down in that month.",
+            "description_ms": "[Integer] Bilangan aplikasi mudah alih kerajaan yang ditutup pada bulan tersebut."
+        },
+        {
+            "name": "active",
+            "title_en": "Active",
+            "title_ms": "Aktif",
+            "description_en": "[Integer] Total number of active government mobile applications as of that month, derived as the number of published applications minus the number of shut down applications.",
+            "description_ms": "[Integer] Jumlah bilangan aplikasi mudah alih kerajaan yang aktif sehingga bulan tersebut, dikira sebagai bilangan aplikasi yang diterbitkan tolak bilangan aplikasi yang ditutup."
         }
     ],
     "dataviz": [
@@ -80,29 +78,59 @@
             "chart_type": "TABLE",
             "config": {
                 "precision": 0,
-                "filter_columns": [
-                    "blood_type"
-                ],
+                "filter_columns": [],
                 "freeze_columns": [
                     "date"
                 ]
             }
         },
         {
-            "dataviz_id": "timeseries",
-            "title_en": "Daily Donations",
-            "title_ms": "Pendermaan Harian",
+            "dataviz_id": "applications",
+            "title_en": "Active Applications",
+            "title_ms": "Aplikasi Aktif",
             "chart_type": "TIMESERIES",
             "config": {
-                "filter_columns": [
-                    "blood_type"
-                ],
+                "filter_columns": [],
                 "precision": 0,
                 "operation": "SUM",
                 "format": {
                     "x": "date",
                     "y": [
-                        "donations"
+                        "active"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "published",
+            "title_en": "Published Applications",
+            "title_ms": "Aplikasi Diterbitkan",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "published"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "shutdown",
+            "title_en": "Shut Down Applications",
+            "title_ms": "Aplikasi Ditutup",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "shutdown"
                     ]
                 }
             }
@@ -110,23 +138,17 @@
     ],
     "translations_en": {
         "date": "Date",
-        "blood_type": "Blood Group",
-        "y1": "Donations",
-        "all": "All Groups",
-        "a": "Group A",
-        "b": "Group B",
-        "ab": "Group AB",
-        "o": "Group O"
+        "published": "Published",
+        "shutdown": "Shut Down",
+        "active": "Active",
+        "y1": "Applications"
     },
     "translations_ms": {
         "date": "Tarikh",
-        "blood_type": "Kumpulan Darah",
-        "y1": "Pendermaan",
-        "all": "Semua Kumpulan",
-        "a": "Kumpulan A",
-        "b": "Kumpulan B",
-        "ab": "Kumpulan AB",
-        "o": "Kumpulan O"
+        "published": "Diterbitkan",
+        "shutdown": "Ditutup",
+        "active": "Aktif",
+        "y1": "Aplikasi"
     },
     "related_datasets": []
 }
