@@ -1,0 +1,75 @@
+{
+    "publication": "cpi_2025-05",
+    "publication_type": "cpi",
+    "release_date": "2025-06-24",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[May 2025] Consumer Price Index",
+        "publication_type_title": "Consumer Price Index (CPI)",
+        "description": "Official consumer price data, covering headline, core, and state-level inflation",
+        "description_email": "DOSM has just released the latest monthly CPI data, covering headline, core, and state-level inflation. CPI inflation came in at XX% year-on-year in December 2024, thus bringing inflation for the full year 2024 to YY%.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Consumer Price Index Report: May 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-05.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "CPI Main Tables: May 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-05_main.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "CPI Tables by State: May 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-05_state.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Core CPI Tables: May 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-05_core.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Mei 2025] Indeks Harga Pengguna",
+        "publication_type_title": "Indeks Harga Pengguna (IHP)",
+        "description": "Data harga pengguna rasmi, merangkumi inflasi, inflasi teras, dan inflasi mengikut negeri",
+        "description_email": "DOSM telah menerbitkan data IHP bulanan terkini, merangkumi inflasi, inflasi teras, dan inflasi mengikut negeri. Inflasi IHP adalah sebanyak XX% secara tahun ke tahun pada bulan Disember 2024, bermaksud inflasi bagi tahun 2024 secara keseluruhan adalah YY%.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Laporan Indeks Harga Pengguna: Mei 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-05.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Jadual Utama IHP: Mei 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-05_main.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Jadual IHP mengikut Negeri: Mei 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-05_state.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Jadual IHP Teras: Mei 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-05_core.xlsx"
+            }
+        ]
+    }
+}
