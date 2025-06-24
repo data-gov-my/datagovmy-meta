@@ -12,7 +12,7 @@
         "title": "[May 2025] Consumer Price Index",
         "publication_type_title": "Consumer Price Index (CPI)",
         "description": "Official consumer price data, covering headline, core, and state-level inflation",
-        "description_email": "DOSM has just released the latest monthly CPI data, covering headline, core, and state-level inflation. CPI inflation came in at XX% year-on-year in December 2024, thus bringing inflation for the full year 2024 to YY%.",
+        "description_email": "DOSM has just released the latest monthly CPI data, covering headline, core, and state-level inflation. CPI inflation came in at 1.2% year-on-year in May 2025, the lowest rate in over 4 years (51 months).",
         "resources": [
             {
                 "resource_id": 1,
@@ -44,7 +44,7 @@
         "title": "[Mei 2025] Indeks Harga Pengguna",
         "publication_type_title": "Indeks Harga Pengguna (IHP)",
         "description": "Data harga pengguna rasmi, merangkumi inflasi, inflasi teras, dan inflasi mengikut negeri",
-        "description_email": "DOSM telah menerbitkan data IHP bulanan terkini, merangkumi inflasi, inflasi teras, dan inflasi mengikut negeri. Inflasi IHP adalah sebanyak XX% secara tahun ke tahun pada bulan Disember 2024, bermaksud inflasi bagi tahun 2024 secara keseluruhan adalah YY%.",
+        "description_email": "DOSM telah menerbitkan data IHP bulanan terkini, merangkumi inflasi, inflasi teras, dan inflasi mengikut negeri. Inflasi IHP adalah sebanyak 1.2% secara tahun ke tahun pada bulan Mei 2025, iaitu kadar paling rendah dalam tempoh lebih 4 tahun (51 bulan).",
         "resources": [
             {
                 "resource_id": 1,
