@@ -1,0 +1,48 @@
+{
+    "publication": "trade_annual_services_2024",
+    "publication_type": "trade",
+    "release_date": "2025-06-25",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2024] External Trade in Services",
+        "publication_type_title": "External Trade",
+        "description": "Annual external trade in services, covering exports and imports of services by component and trading partner.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "External Trade in Services: 2024",
+                "resource_link": "https://storage.dosm.gov.my/trade/trade_services_2024.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "External Trade in Services: 2024",
+                "resource_link": "https://storage.dosm.gov.my/trade/trade_services_2024.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2024] Perdagangan Luar Perkhidmatan",
+        "publication_type_title": "Perdagangan Luar Negeri",
+        "description": "Perdagangan luar perkhidmatan tahunan, merangkumi eksport dan import perkhidmatan mengikut komponen dan rakan dagang.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Perdagangan Luar Perkhidmatan: 2024",
+                "resource_link": "https://storage.dosm.gov.my/trade/trade_services_2024.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Perdagangan Luar Perkhidmatan: 2024",
+                "resource_link": "https://storage.dosm.gov.my/trade/trade_services_2024.pdf"
+            }
+        ]
+    }
+}

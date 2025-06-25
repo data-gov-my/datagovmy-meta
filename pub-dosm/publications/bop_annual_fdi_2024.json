@@ -1,0 +1,48 @@
+{
+    "publication": "bop_annual_fdi_2024",
+    "publication_type": "bop",
+    "release_date": "2025-06-25",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2024] Foreign Direct Investment",
+        "publication_type_title": "Balance of Payments",
+        "description": "Annual foreign direct investment (FDI), covering the stock and flow of FDI by instrument, sector, and region.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Foreign Direct Investment: 2024",
+                "resource_link": "https://storage.dosm.gov.my/bop/fdi_2024.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Foreign Direct Investment: 2024",
+                "resource_link": "https://storage.dosm.gov.my/bop/fdi_2024.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2024] Pelaburan Langsung Asing",
+        "publication_type_title": "Imbangan Pembayaran",
+        "description": "Pelaburan langsung asing (FDI) tahunan, merangkumi stok dan aliran FDI mengikut instrumen, sektor, dan rantau.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Pelaburan Langsung Asing: 2024",
+                "resource_link": "https://storage.dosm.gov.my/bop/fdi_2024.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Pelaburan Langsung Asing: 2024",
+                "resource_link": "https://storage.dosm.gov.my/bop/fdi_2024.pdf"
+            }
+        ]
+    }
+}

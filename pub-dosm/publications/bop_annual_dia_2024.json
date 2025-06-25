@@ -1,0 +1,48 @@
+{
+    "publication": "bop_annual_dia_2024",
+    "publication_type": "bop",
+    "release_date": "2025-06-25",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2024] Direct Investment Abroad",
+        "publication_type_title": "Balance of Payments",
+        "description": "Annual direct investment of Malaysia abroad (DDI), covering the stock and flow of DDI by instrument, sector, and region.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Direct Investment Abroad: 2024",
+                "resource_link": "https://storage.dosm.gov.my/bop/ddi_2024.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Direct Investment Abroad: 2024",
+                "resource_link": "https://storage.dosm.gov.my/bop/ddi_2024.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2024] Pelaburan Langsung di Luar Negeri",
+        "publication_type_title": "Imbangan Pembayaran",
+        "description": "Pelaburan langsung Malaysia di luar negeri (DDI) tahunan, merangkumi stok dan aliran DDI mengikut instrumen, sektor, dan rantau.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Pelaburan Langsung di Luar Negeri: 2024",
+                "resource_link": "https://storage.dosm.gov.my/bop/ddi_2024.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Pelaburan Langsung di Luar Negeri: 2024",
+                "resource_link": "https://storage.dosm.gov.my/bop/ddi_2024.pdf"
+            }
+        ]
+    }
+}
