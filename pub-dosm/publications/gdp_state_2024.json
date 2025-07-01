@@ -1,0 +1,48 @@
+{
+    "publication": "gdp_state_2024",
+    "publication_type": "gdp",
+    "release_date": "2025-07-01",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2024] Gross Domestic Product by State",
+        "publication_type_title": "Gross Domestic Product",
+        "description": "Annual gross domestic product (GDP) by state, covering nominal and real GDP by type of economic activity.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "GDP by State: 2024",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_state_2024.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "GDP by State (Infographic): 2024",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_state_2024_infographic.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2024] Keluaran Dalam Negeri Kasar mengikut Negeri",
+        "publication_type_title": "Keluaran Dalam Negeri Kasar",
+        "description": "Keluaran dalam negeri kasar (KDNK) tahunan mengikut negeri, merangkumi KDNK pada harga semasa dan malar mengikut jenis aktiviti ekonomi.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "KDNK mengikut Negeri: 2024",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_state_2024.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "KDNK mengikut Negeri (Infografik): 2024",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_state_2024_infographic.pdf"
+            }
+        ]
+    }
+}
