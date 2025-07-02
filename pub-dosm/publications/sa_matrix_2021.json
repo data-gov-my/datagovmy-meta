@@ -1,0 +1,48 @@
+{
+    "publication": "sa_matrix_2021",
+    "publication_type": "analysis",
+    "release_date": "2025-07-02",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2021] Social Accounting Matrix",
+        "publication_type_title": "Reviews & Analysis",
+        "description": "Flow of all economic transactions in Malaysia, allowing further application of Malaysia's national accounting structure in other models.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Social Accounting Matrix: 2021",
+                "resource_link": "https://storage.dosm.gov.my/analysis/sa_matrix_2021_en.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Social Accounting Matrix: 2021",
+                "resource_link": "https://storage.dosm.gov.my/analysis/sa_matrix_2021.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2021] Matriks Perakaunan Sosial",
+        "publication_type_title": "Sorotan & Analisis",
+        "description": "Aliran semua transaksi ekonomi di Malaysia yang membolehkan penggunaan lanjut struktur akaun negara Malaysia dalam model lain.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Matriks Perakaunan Sosial: 2021",
+                "resource_link": "https://storage.dosm.gov.my/analysis/sa_matrix_2021_bm.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Matriks Perakaunan Sosial: 2021",
+                "resource_link": "https://storage.dosm.gov.my/analysis/sa_matrix_2021.pdf"
+            }
+        ]
+    }
+}
