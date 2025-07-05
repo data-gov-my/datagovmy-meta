@@ -1,7 +1,7 @@
 {
     "dashboard_name": "blood_donation",
-    "data_last_updated": "2025-07-04 05:00",
-    "data_next_update": "2025-07-05 05:00",
+    "data_last_updated": "2025-07-05 05:00",
+    "data_next_update": "2025-07-06 05:00",
     "route": "/dashboard/blood-donation,/ms-MY/dashboard/blood-donation",
     "sites": [
         "kkmnow"
@@ -16,7 +16,7 @@
             "name": "bar_chart_age",
             "chart_type": "bar_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/blood_barchart_age.parquet",
-            "data_as_of": "2025-07-03 23:59",
+            "data_as_of": "2025-07-04 23:59",
             "api_type": "dynamic",
             "api_params": [
                 "state"
@@ -40,7 +40,7 @@
             "name": "bar_chart_time",
             "chart_type": "bar_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/blood_barchart_time.parquet",
-            "data_as_of": "2025-07-03 23:59",
+            "data_as_of": "2025-07-04 23:59",
             "api_type": "dynamic",
             "api_params": [
                 "state"
@@ -64,7 +64,7 @@
             "name": "timeseries_all",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/blood_timeseries.parquet",
-            "data_as_of": "2025-07-03 23:59",
+            "data_as_of": "2025-07-04 23:59",
             "api_type": "dynamic",
             "api_params": [
                 "state"
@@ -88,7 +88,7 @@
             "name": "barchart_key_variables",
             "chart_type": "bar_meter",
             "chart_source": "https://storage.data.gov.my/dashboards/blood_barcharts.parquet",
-            "data_as_of": "2025-07-03 23:59",
+            "data_as_of": "2025-07-04 23:59",
             "api_type": "dynamic",
             "api_params": [
                 "state"
@@ -110,7 +110,7 @@
             "name": "choropleth_malaysia",
             "chart_type": "choropleth_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/blood_choropleth_msia.parquet",
-            "data_as_of": "2025-07-03 23:59",
+            "data_as_of": "2025-07-04 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
