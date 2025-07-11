@@ -1,0 +1,91 @@
+{
+    "publication": "population_projection_2060",
+    "publication_type": "demography",
+    "release_date": "2025-07-11",
+    "frequency": "ONE_OFF",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY",
+        "AGE"
+    ],
+    "en": {
+        "title": "[2060] Population Projection",
+        "publication_type_title": "Demography",
+        "description": "Projections of Malaysia's population at national and state level, with breakdowns by sex, age, and ethnicity.",
+        "description_email": "DOSM has just released the latest population projections for Malaysia, containing projections up to 2060 with breakdowns by sex, age, and ethnicity.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Population Projections: 2060",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_projection_2060.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Population Projections by State: 2060",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_projection_2060_state.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Population Projections by Sex & Age: 2060",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_projection_2060_sex_age.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Population Projections by Sex & Ethnicity: 2060",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_projection_2060_sex_ethnicity.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Population Projections by Sex, Age & Ethnicity: 2060",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_projection_2060_sex_age_ethnicity.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2060] Unjuran Penduduk",
+        "publication_type_title": "Demografi",
+        "description": "Unjuran penduduk Malaysia di peringkat nasional dan negeri, dengan pecahan mengikut jantina, umur, dan etnik.",
+        "description_email": "DOSM telah menerbitkan unjuran penduduk Malaysia terkini, mengandungi unjuran sehingga 2060 dengan pecahan mengikut jantina, umur, dan etnik.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Unjuran Penduduk: 2060",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_projection_2060.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Unjuran Penduduk mengikut Negeri: 2060",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_projection_2060_state.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Unjuran Penduduk mengikut Jantina & Umur: 2060",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_projection_2060_sex_age.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Unjuran Penduduk mengikut Jantina & Etnik: 2060",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_projection_2060_sex_ethnicity.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Unjuran Penduduk mengikut Jantina, Umur & Etnik: 2060",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_projection_2060_sex_age_ethnicity.xlsx"
+            }
+        ]
+    }
+}
