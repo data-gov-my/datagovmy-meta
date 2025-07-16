@@ -1,7 +1,7 @@
 {
     "dashboard_name": "industrial_production",
-    "data_last_updated": "2025-06-11 12:00",
-    "data_next_update": "2025-07-11 12:00",
+    "data_last_updated": "2025-07-11 12:00",
+    "data_next_update": "2025-08-07 12:00",
     "route": "/dashboard/industrial-production,/ms-MY/dashboard/industrial-production",
     "sites": [
         "opendosm"
@@ -14,7 +14,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/ipi_timeseries.parquet",
-            "data_as_of": "2025-04",
+            "data_as_of": "2025-05",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -45,7 +45,7 @@
             "name": "statistics",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/ipi_timeseries_callout.parquet",
-            "data_as_of": "2025-04",
+            "data_as_of": "2025-05",
             "api_type": "static",
             "api_params": [],
             "variables": {
