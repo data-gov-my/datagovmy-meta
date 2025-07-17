@@ -1,9 +1,9 @@
 {
-    "title_en": "PPI by Division (2 digit)",
-    "title_ms": "IHPR mengikut Bahagian (2 digit)",
+    "title_en": "Monthly PPI by Division (2 digit)",
+    "title_ms": "IHPR Bulanan mengikut Bahagian (2 digit)",
     "title_sort": 3,
-    "description_en": "Producer price index (PPI) by MSIC division (2 digit). The table provides a preview of the full dataset using the latest month of data only.",
-    "description_ms": "Indeks harga pengeluar (IHPR) mengikut bahagian MSIC (2 digit). Jadual memberi pratonton kepada set data penuh dengan menggunakan data bulan terkini sahaja.",
+    "description_en": "Monthly producer price index (PPI) by MSIC division (2 digit). The table provides a preview of the full dataset using the latest month of data only.",
+    "description_ms": "Indeks harga pengeluar (IHPR) bulanan mengikut bahagian MSIC (2 digit). Jadual memberi pratonton kepada set data penuh dengan menggunakan data bulan terkini sahaja.",
     "exclude_openapi": true,
     "manual_trigger": "2025-07-10 11:36:19.915017",
     "data_as_of": "2025-05",

@@ -1,9 +1,9 @@
 {
-    "title_en": "PPI by Group (3 digit)",
-    "title_ms": "IHPR mengikut Kumpulan (3 digit)",
+    "title_en": "Monthly PPI by Group (3 digit)",
+    "title_ms": "IHPR Bulanan mengikut Kumpulan (3 digit)",
     "title_sort": 4,
-    "description_en": "Producer price index (PPI) by MSIC group (3 digit). The table provides a preview of the full dataset using the latest month of data only.",
-    "description_ms": "Indeks harga pengeluar (IHPR) mengikut kumpulan MSIC (3 digit). Jadual memberi pratonton kepada set data penuh dengan menggunakan data bulan terkini sahaja.",
+    "description_en": "Monthly producer price index (PPI) by MSIC group (3 digit). The table provides a preview of the full dataset using the latest month of data only.",
+    "description_ms": "Indeks harga pengeluar (IHPR) bulanan mengikut kumpulan MSIC (3 digit). Jadual memberi pratonton kepada set data penuh dengan menggunakan data bulan terkini sahaja.",
     "exclude_openapi": true,
     "manual_trigger": "2025-07-10 11:36:19.915727",
     "data_as_of": "2025-05",

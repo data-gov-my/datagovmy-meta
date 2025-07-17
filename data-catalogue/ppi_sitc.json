@@ -1,9 +1,9 @@
 {
-    "title_en": "PPI by SITC Section (1 digit)",
-    "title_ms": "IHPR mengikut Seksyen SITC (1 digit)",
+    "title_en": "Monthly PPI by SITC Section (1 digit)",
+    "title_ms": "IHPR Bulanan mengikut Seksyen SITC (1 digit)",
     "title_sort": 5,
-    "description_en": "Producer price index (PPI) by SITC section (1 digit).",
-    "description_ms": "Indeks harga pengeluar (IHPR) mengikut seksyen SITC (1 digit).",
+    "description_en": "Monthly producer price index (PPI) by SITC section (1 digit).",
+    "description_ms": "Indeks harga pengeluar (IHPR) bulanan mengikut seksyen SITC (1 digit).",
     "exclude_openapi": false,
     "manual_trigger": "2025-07-10 11:36:19.916401",
     "data_as_of": "2025-05",
