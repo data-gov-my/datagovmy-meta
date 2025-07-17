@@ -1,9 +1,9 @@
 {
-    "title_en": "PPI by Stage of Processing",
-    "title_ms": "IHPR mengikut Tahap Pemprosesan",
+    "title_en": "Monthly PPI by Stage of Processing",
+    "title_ms": "IHPR Bulanan mengikut Tahap Pemprosesan",
     "title_sort": 6,
-    "description_en": "Producer price index (PPI) by stage of processing, per the SITC classification.",
-    "description_ms": "Indeks harga pengeluar (IHPR) mengikut tahap pengeluaran, mengikut klasifikasi SITC.",
+    "description_en": "Monthly producer price index (PPI) by stage of processing, per the SITC classification.",
+    "description_ms": "Indeks harga pengeluar (IHPR) bulanan mengikut tahap pemprosesan, mengikut klasifikasi SITC.",
     "exclude_openapi": false,
     "manual_trigger": "2025-07-10 11:36:19.917285",
     "data_as_of": "2025-05",

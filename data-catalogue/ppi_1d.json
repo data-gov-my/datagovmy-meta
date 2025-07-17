@@ -1,9 +1,9 @@
 {
-    "title_en": "PPI by Section (1 digit)",
-    "title_ms": "IHPR mengikut Seksyen (1 digit)",
+    "title_en": "Monthly PPI by Section (1 digit)",
+    "title_ms": "IHPR Bulanan mengikut Seksyen (1 digit)",
     "title_sort": 2,
-    "description_en": "Producer price index (PPI) by MSIC section (1 digit), with and without seasonal adjustment.",
-    "description_ms": "Indeks harga pengeluar (IHPR) mengikut seksyen MSIC (1 digit), dengan dan tanpa pelarasan secara musim.",
+    "description_en": "Monthly producer price index (PPI) by MSIC section (1 digit), with and without seasonal adjustment.",
+    "description_ms": "Indeks harga pengeluar (IHPR) bulanan mengikut seksyen MSIC (1 digit), dengan dan tanpa pelarasan secara musim.",
     "exclude_openapi": false,
     "manual_trigger": "2025-07-10 11:36:19.914041",
     "data_as_of": "2025-05",

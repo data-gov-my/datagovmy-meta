@@ -1,9 +1,9 @@
 {
-    "title_en": "Headline Producer Price Index (PPI)",
-    "title_ms": "Indeks Harga Pengeluar (IHPR)",
+    "title_en": "Monthly Producer Price Index (PPI)",
+    "title_ms": "Indeks Harga Pengeluar (IHPR) Bulanan",
     "title_sort": 1,
-    "description_en": "Headline producer price index (PPI), with and without seasonal adjustment.",
-    "description_ms": "Indeks harga pengeluar (IHPR) keseluruhan, dengan dan tanpa pelarasan secara musim.",
+    "description_en": "Monthly headline producer price index (PPI), with and without seasonal adjustment.",
+    "description_ms": "Indeks harga pengeluar (IHPR) bulanan keseluruhan, dengan dan tanpa pelarasan secara musim.",
     "exclude_openapi": false,
     "manual_trigger": "2025-07-10 11:36:19.912592",
     "data_as_of": "2025-05",
