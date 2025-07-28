@@ -16,6 +16,7 @@
         "title": "[1Q 2025] Formal Sector Wages",
         "publication_type_title": "Labour",
         "description": "Number and wages of employees in the formal sector, with breakdowns by demographic group, state, and sector.",
+        "description_email": "DOSM has just released the latest data on formal sector wages, with breakdowns by demographic group, state, and sector.",
         "resources": [
             {
                 "resource_id": 1,
@@ -35,6 +36,7 @@
         "title": "[ST1 2025] Gaji Sektor Formal",
         "publication_type_title": "Tenaga Buruh",
         "description": "Jumlah dan gaji pekerja sektor formal, dengan pecahan mengikut kumpulan demografi, negeri, dan sektor.",
+        "description_email": "DOSM telah menerbitkan data gaji sektor formal terkini, dengan pecahan mengikut kumpulan demografi, negeri, dan sektor.",
         "resources": [
             {
                 "resource_id": 1,
