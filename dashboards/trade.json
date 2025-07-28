@@ -1,6 +1,6 @@
 {
     "dashboard_name": "trade",
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_last_updated": "2025-04-28 12:00",
     "data_next_update": "2025-05-28 12:00",
     "route": "/dashboard/external-trade,/ms-MY/dashboard/external-trade",
