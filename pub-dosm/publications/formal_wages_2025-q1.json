@@ -1,0 +1,53 @@
+{
+    "publication": "formal_wages_2025-q1",
+    "publication_type": "labour",
+    "release_date": "2025-07-28",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY",
+        "AGE"
+    ],
+    "en": {
+        "title": "[1Q 2025] Formal Sector Wages",
+        "publication_type_title": "Labour",
+        "description": "Number and wages of employees in the formal sector, with breakdowns by demographic group, state, and sector.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Formal Sector Wages: 1Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/labour/formal_wages_2025-q1.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Formal Sector Wages: 1Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/labour/formal_wages_2025-q1.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST1 2025] Gaji Sektor Formal",
+        "publication_type_title": "Tenaga Buruh",
+        "description": "Jumlah dan gaji pekerja sektor formal, dengan pecahan mengikut kumpulan demografi, negeri, dan sektor.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Gaji Sektor Formal: ST1 2025",
+                "resource_link": "https://storage.dosm.gov.my/labour/formal_wages_2025-q1.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Gaji Sektor Formal: ST1 2025",
+                "resource_link": "https://storage.dosm.gov.my/labour/formal_wages_2025-q1.pdf"
+            }
+        ]
+    }
+}
