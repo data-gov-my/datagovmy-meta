@@ -1,0 +1,51 @@
+{
+    "publication": "trade_2025-06",
+    "publication_type": "trade",
+    "release_date": "2025-07-28",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Jun 2025] External Trade",
+        "publication_type_title": "External Trade",
+        "description": "Monthly external trade activity, covering exports, imports, and the balance of trade by trading partner and commodity.",
+        "description_email": "DOSM has published the latest monthly external trade data, covering exports, imports, and the balance of trade by trading partner and commodity.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "External Trade: Jun 2025",
+                "resource_link": "https://storage.dosm.gov.my/trade/trade_2025-06.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "External Trade: Jun 2025",
+                "resource_link": "https://storage.dosm.gov.my/trade/trade_2025-06.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Jun 2025] Perdagangan Luar Negeri",
+        "publication_type_title": "Perdagangan Luar Negeri",
+        "description": "Aktiviti perdagangan luar bulanan, merangkumi eksport, import, dan imbangan perdagangan mengikut rakan dagang dan komoditi.",
+        "description_email": "DOSM telah menerbitkan data perdagangan luar bulanan terkini, merangkumi eksport, import, dan imbangan perdagangan mengikut rakan dagang dan komoditi.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Perdagangan Luar Negeri: Jun 2025",
+                "resource_link": "https://storage.dosm.gov.my/trade/trade_2025-06.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Perdagangan Luar Negeri: Jun 2025",
+                "resource_link": "https://storage.dosm.gov.my/trade/trade_2025-06.pdf"
+            }
+        ]
+    }
+}
