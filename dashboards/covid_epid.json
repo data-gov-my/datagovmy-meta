@@ -1,6 +1,6 @@
 {
     "dashboard_name": "covid_epid",
-    "manual_trigger": "",
+    "manual_trigger": "2025-07-29 12:49:00.599563",
     "data_last_updated": "2025-06-01 12:00",
     "data_next_update": "2025-06-08 12:00",
     "route": "/dashboard/covid-19,/ms-MY/dashboard/covid-19",
