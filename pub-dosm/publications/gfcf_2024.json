@@ -1,0 +1,50 @@
+{
+    "publication": "gfcf_2024",
+    "publication_type": "gdp",
+    "release_date": "2025-07-29",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2024] Gross Fixed Capital Formation",
+        "publication_type_title": "Gross Domestic Product",
+        "description": "Annual GFCF for the public and private sectors, with breakdowns by type of economic activity and asset type.",
+        "description_email": "DOSM has just released the latest annual data on gross fixed capital formation (GFCF) for the public and private sectors, with breakdowns by type of economic activity and asset type.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Gross Fixed Capital Formation (GFCF): 2024",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gfcf_2024.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Gross Fixed Capital Formation (GFCF): 2024",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gfcf_2024.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2024] Pembentukan Modal Tetap Kasar",
+        "publication_type_title": "Keluaran Dalam Negeri Kasar",
+        "description": "PMTK tahunan bagi sektor awam dan swasta, dengan pecahan mengikut jenis aktiviti ekonomi dan jenis aset.",
+        "description_email": "DOSM telah menerbitkan data tahunan terkini mengenai pembentukan modal tetap kasar (PMTK) bagi sektor awam dan swasta, dengan pecahan mengikut jenis aktiviti ekonomi dan jenis aset.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Pembentukan Modal Tetap Kasar (PMTK): 2024",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gfcf_2024.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Pembentukan Modal Tetap Kasar (PMTK): 2024",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gfcf_2024.pdf"
+            }
+        ]
+    }
+}
