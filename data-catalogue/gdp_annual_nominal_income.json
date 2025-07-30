@@ -133,8 +133,8 @@
         "i1": "Compensation of Employees",
         "i2": "Gross Operating Surplus",
         "i3": "Net Taxes",
-        "i3.1": "Taxes",
-        "i3.2": "Subsidies"
+        "i3-1": "Taxes",
+        "i3-2": "Subsidies"
     },
     "translations_ms": {
         "series": "Jenis Siri",
@@ -150,8 +150,8 @@
         "i1": "Pampasan Pekerja",
         "i2": "Lebihan Kendalian Kasar",
         "i3": "Cukai Bersih",
-        "i3.1": "Cukai",
-        "i3.2": "Subsidi"
+        "i3-1": "Cukai",
+        "i3-2": "Subsidi"
     },
     "related_datasets": []
 }
