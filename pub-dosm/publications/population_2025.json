@@ -46,6 +46,12 @@
                 "resource_type": "excel",
                 "resource_name": "Population Tables by State: 2025",
                 "resource_link": "https://storage.dosm.gov.my/demography/population_2025_state.xlsx"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "excel",
+                "resource_name": "Population Tables by State: 2024 (revised)",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2024r_state.xlsx"
             }
         ]
     },
@@ -83,6 +89,12 @@
                 "resource_type": "excel",
                 "resource_name": "Jadual Penduduk mengikut Negeri: 2025",
                 "resource_link": "https://storage.dosm.gov.my/demography/population_2025_state.xlsx"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "excel",
+                "resource_name": "Jadual Penduduk mengikut Negeri: 2024 (disemak)",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2024r_state.xlsx"
             }
         ]
     }
