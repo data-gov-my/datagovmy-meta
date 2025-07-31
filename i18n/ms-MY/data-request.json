@@ -6,9 +6,9 @@
       "title": "Permohonan Data",
       "description": "Gunakan halaman ini untuk meminta data dan mendapatkan kemas kini yang telus pada tiket anda!"
     },
-    "header": "Beritahu kami apa yang anda perlukan",
-    "description_line1": "Kerja kami tidak pernah selesai, dan kami mahu arah tuju kami dibimbing oleh pengguna kami.",
-    "description_line2": "Gunakan halaman ini untuk meminta data dan mendapatkan kemas kini yang telus pada tiket anda!",
+    "header": "Beritahu kami data apa yang anda perlukan",    
+    "description_line1": "Kami sentiasa komited untuk memenuhi keperluan data pengguna portal kami.",
+    "description_line2": "Gunakan halaman ini untuk meminta data dan mendapatkan kemaskini yang telus pada tiket anda!",
     "request_data": "Mohon data",
     "data_request_tickets": "Tiket Permohonan data",
     "search_query_placeholder": "Carian berdasarkan tajuk atau ID tiket 'id:1'",
