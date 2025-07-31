@@ -1,0 +1,89 @@
+{
+    "publication": "population_2025",
+    "publication_type": "demography",
+    "release_date": "2025-07-31",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY",
+        "AGE"
+    ],
+    "en": {
+        "title": "[2025] Current Population Estimates",
+        "publication_type_title": "Demography",
+        "description": "Annual population estimates at national and state level, with breakdowns by sex, age, and ethnicity.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Current Population Estimates: 2025",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2025.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Current Population Estimates (Infographic): 2025",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2025_infographic.pdf"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Principal Population Statistics: 2025",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2025.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Population Tables for Malaysia: 2025",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2025_malaysia.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Population Tables by State: 2025",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2025_state.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2025] Anggaran Penduduk Semasa",
+        "publication_type_title": "Demografi",
+        "description": "Anggaran penduduk tahunan di peringkat nasional dan negeri, dengan pecahan mengikut jantina, umur, dan etnik.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Anggaran Penduduk Semasa: 2025",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2025.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Anggaran Penduduk Semasa (Infografik): 2025",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2025_infographic.pdf"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Statistik Utama Penduduk: 2025",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2025.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Jadual Penduduk Malaysia: 2025",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2025_malaysia.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Jadual Penduduk mengikut Negeri: 2025",
+                "resource_link": "https://storage.dosm.gov.my/demography/population_2025_state.xlsx"
+            }
+        ]
+    }
+}
