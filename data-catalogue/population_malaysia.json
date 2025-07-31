@@ -2,13 +2,13 @@
   "title_en": "Population Table: Malaysia",
   "title_ms": "Jadual Penduduk: Malaysia",
   "title_sort": 1,
-  "description_en": "Population at national level from 1970 to 2024, by sex, age group and ethnicity. The preview table shows data for the latest year only, but you may download the data in full.",
-  "description_ms": "Jumlah penduduk di peringkat nasional dari 1970 ke 2024, mengikut jantina, kumpulan umur dan kumpulan etnik. Jadual pratonton hanya menunjukkan data bagi tahun terkini, tetapi data penuh boleh dimuat turun.",
+  "description_en": "Population at national level from 1970 to 2025, by sex, age group and ethnicity. The preview table shows data for the latest year only, but you may download the data in full.",
+  "description_ms": "Jumlah penduduk di peringkat nasional dari 1970 ke 2025, mengikut jantina, kumpulan umur dan kumpulan etnik. Jadual pratonton hanya menunjukkan data bagi tahun terkini, tetapi data penuh boleh dimuat turun.",
   "exclude_openapi": false,
   "manual_trigger": "",
-  "data_as_of": "2024",
-  "last_updated": "2024-07-31 12:00",
-  "next_update": "2025-07-31 12:00",
+  "data_as_of": "2025",
+  "last_updated": "2025-07-31 12:00",
+  "next_update": "2026-07-31 12:00",
   "methodology_en": "Values for 1970, 1980, 1991, 2000, 2010 and 2020 are based on adjusted data from the Population Censuses conducted in those years. Values for all other years are intercensal mid-year population estimates. The intercensal estimates were generated using the cohort-component method, which estimates the latest year's population by taking the previous year's value, then adding births, subtracting deaths, and adding net migration. For a deeper understanding of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/population-technotes).",
   "methodology_ms": "Angka bagi 1970, 1980, 1991, 2000, 2010 dan 2020 adalah berdasarkan data daripada Banci Penduduk yang dilaksanakan pada tahun tersebut. Angka bagi semua tahun lain adalah anggaran pertengahan tahun antara banci. Anggaran antara banci dihasilkan dengan kaedah komponen kohort, yang menganggarkan angka bagi tahun terkini dengan mengambil angka bagi tahun sebelumnya, kemudian tambah kelahiran, tolak kematian, dan tambah migrasi bersih. Untuk mendapat pemahaman metodologi yang lebih mendalam, sila rujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/population-technotes).",
   "caveat_en": "Values for breakdowns may be slightly different to totals when summed, due to rounding to one decimal place. Furthermore, caution should be exercised when using the dataset in full because the granularity of Malaysia's population data has been deepened over the years. Specficially, there are 3 differing ranges of granularity as follows:\n - The data from 1991 onwards is the most granular, with ethnic group breakdowns providing differentiation between Malay and Other Bumiputera, as well as Other Citizen and Other Non-Citizen. Furthermore, the oldest age category is 85+, i.e. 85 years and above.\n - The data from 1980-1990 contains a breakdown by ethnic group, but without differentiation between Malay and Other Bumiputera (i.e. there is only one Bumiputera category), or Other Citizen and Other Non-Citizen (i.e. there is only one residual category, Other). Furthermore, the 85+ age group is not present; the oldest age category is 80+. \n - For data from 1970-1979, there is no breakdown by ethnic group. Furthermore, the 75+, 80+ and 85+ age groups are not present; the oldest age category is 70+.",
@@ -28,7 +28,7 @@
     "AGE"
   ],
   "dataset_begin": 1970,
-  "dataset_end": 2024,
+  "dataset_end": 2025,
   "data_source": [
     "DOSM"
   ],
