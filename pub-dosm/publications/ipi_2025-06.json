@@ -1,0 +1,50 @@
+{
+    "publication": "ipi_2025-06",
+    "publication_type": "mfg",
+    "release_date": "2025-08-07",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Jun 2025] Industrial Production Index",
+        "publication_type_title": "Industrial Production Index",
+        "description": "Monthly industrial production indices for the manufacturing, mining, and electricity production sectors.",
+        "description_email": "DOSM has just released the latest monthly Industrial Production Index, including breakdowns for the manufacturing, mining, and electricity production sectors.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Industrial Production Index: Jun 2025",
+                "resource_link": "https://storage.dosm.gov.my/ipi/ipi_2025-06.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Industrial Production Index: Jun 2025",
+                "resource_link": "https://storage.dosm.gov.my/ipi/ipi_2025-06.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Jun 2025] Indeks Pengeluaran Perindustrian",
+        "publication_type_title": "Indeks Pengeluaran Perindustrian",
+        "description": "Indeks pengeluaran perindustrian bulanan bagi sektor pembuatan, pelombongan dan penjanaan elektrik.",
+        "description_email": "DOSM baru sahaja menerbitkan Indeks Pengeluaran Perindustrian bulanan terkini, termasuk perincian bagi sektor pembuatan, pelombongan dan penjanaan elektrik.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Indeks Pengeluaran Perindustrian: Jun 2025",
+                "resource_link": "https://storage.dosm.gov.my/ipi/ipi_2025-06.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Indeks Pengeluaran Perindustrian: Jun 2025",
+                "resource_link": "https://storage.dosm.gov.my/ipi/ipi_2025-06.pdf"
+            }
+        ]
+    }
+}
