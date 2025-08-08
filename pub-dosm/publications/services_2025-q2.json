@@ -1,0 +1,74 @@
+{
+    "publication": "services_2025-q2",
+    "publication_type": "services",
+    "release_date": "2025-08-08",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2Q 2025] Services",
+        "publication_type_title": "Services",
+        "description": "Quarterly performance of the services sector, covering revenue, employment, wages, and volume by subsector.",
+        "description_email": "DOSM has just released the latest quarterly data on performance of the services sector, covering revenue, employment, wages, and volume by subsector.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Services: 2Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/services/services_2025-q2.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Services (Volume Index): 2Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/services/services_2025-q2_volume.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "pdf",
+                "resource_name": "Services: 2Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/services/services_2025-q2.pdf"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "pdf",
+                "resource_name": "Services (Volume Index): 2Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/services/services_2025-q2_volume.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST2 2025] Perkhidmatan",
+        "publication_type_title": "Perkhidmatan",
+        "description": "Prestasi suku tahunan sektor perkhidmatan, merangkumi hasil, guna tenaga, gaji, serta volum mengikut subsektor.",
+        "description_email": "DOSM telah menerbitkan prestasi sektor perkhidmatan suku tahunan terkini, merangkumi hasil, guna tenaga, gaji, serta volum mengikut subsektor.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Perkhidmatan: ST2 2025",
+                "resource_link": "https://storage.dosm.gov.my/services/services_2025-q2.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Perkhidmatan (Indeks Volum): ST2 2025",
+                "resource_link": "https://storage.dosm.gov.my/services/services_2025-q2_volume.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "pdf",
+                "resource_name": "Perkhidmatan: ST2 2025",
+                "resource_link": "https://storage.dosm.gov.my/services/services_2025-q2.pdf"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "pdf",
+                "resource_name": "Perkhidmatan (Indeks Volum): ST2 2025",
+                "resource_link": "https://storage.dosm.gov.my/services/services_2025-q2_volume.pdf"
+            }
+        ]
+    }
+}
