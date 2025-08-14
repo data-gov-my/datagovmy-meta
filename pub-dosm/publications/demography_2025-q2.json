@@ -1,0 +1,44 @@
+{
+    "publication": "demography_2025-q2",
+    "publication_type": "demography",
+    "release_date": "2025-08-14",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "STATE",
+        "NATIONAL"
+    ],
+    "demography": [
+        "SEX",
+        "AGE",
+        "ETHNICITY",
+        "NATIONALITY"
+    ],
+    "en": {
+        "title": "[2Q 2025] Demography",
+        "publication_type_title": "Demography",
+        "description": "Quarterly summary of the current population and its structure, including live births and deaths for the latest quarter.",
+        "description_email": "DOSM has just released the latest quarterly demographic data, covering the current population and its structure, as well as live births and deaths in the latest quarter.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Demography: 2Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/demography/demography_2025-q2.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST2 2025] Demografi",
+        "publication_type_title": "Demografi",
+        "description": "Ringkasan suku tahunan penduduk semasa dan strukturnya, termasuk kelahiran hidup dan kematian bagi suku tahun terkini.",
+        "description_email": "DOSM telah menerbitkan data demografi suku tahunan terkini, merangkumi penduduk semasa dan strukturnya, serta kelahiran hidup dan kematian pada suku tahun terkini.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Demografi: ST2 2025",
+                "resource_link": "https://storage.dosm.gov.my/demography/demography_2025-q2.pdf"
+            }
+        ]
+    }
+}
