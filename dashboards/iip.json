@@ -1,12 +1,12 @@
 {
     "dashboard_name": "iip",
-    "data_last_updated": "2025-05-16 12:00",
-    "data_next_update": "2025-08-15 12:00",
+    "data_last_updated": "2025-08-15 12:00",
+    "data_next_update": "2025-11-14 12:00",
     "route": "/dashboard/international-investment-position,/ms-MY/dashboard/international-investment-position",
     "sites": [
         "opendosm"
     ],
-    "manual_trigger": "2025-05-16 11:58:23.104319",
+    "manual_trigger": "2025-08-15 12:04:37.277642",
     "required_params": [],
     "optional_params": [],
     "charts": {
@@ -14,7 +14,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/iip_timeseries.parquet",
-            "data_as_of": "2025-Q1",
+            "data_as_of": "2025-Q2",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -44,7 +44,7 @@
             "name": "timeseries_callout",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/iip_timeseries_callout.parquet",
-            "data_as_of": "2025-Q1",
+            "data_as_of": "2025-Q2",
             "api_type": "static",
             "api_params": [],
             "variables": {
