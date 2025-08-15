@@ -1,0 +1,50 @@
+{
+    "publication": "iip_2025-q2",
+    "publication_type": "iip",
+    "release_date": "2025-08-15",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2Q 2025] International Investment Position",
+        "publication_type_title": "International Investment Position",
+        "description": "Quarterly international investment position, covering assets and liabilities by economic sector and country.",
+        "description_email": "DOSM has just released the latest quarterly international investment position data, covering assets and liabilities by economic sector and country.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "International Investment Position: 2Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/iip/iip_2025-q2.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "International Investment Position: 2Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/iip/iip_2025-q2.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST2 2025] Kedudukan Pelaburan Antarabangsa",
+        "publication_type_title": "Kedudukan Pelaburan Antarabangsa",
+        "description": "Kedudukan pelaburan antarabangsa suku tahunan, merangkumi aset dan liabiliti mengikut sektor ekonomi dan negara.",
+        "description_email": "DOSM telah menerbitkan data kedudukan pelaburan antarabangsa suku tahunan terkini, merangkumi aset dan liabiliti mengikut sektor ekonomi dan negara.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Kedudukan Pelaburan Antarabangsa: ST2 2025",
+                "resource_link": "https://storage.dosm.gov.my/iip/iip_2025-q2.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Kedudukan Pelaburan Antarabangsa: ST2 2025",
+                "resource_link": "https://storage.dosm.gov.my/iip/iip_2025-q2.pdf"
+            }
+        ]
+    }
+}

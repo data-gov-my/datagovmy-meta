@@ -1,0 +1,44 @@
+{
+    "publication": "pocketstats_2025-q2",
+    "publication_type": "analysis",
+    "release_date": "2025-08-15",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY",
+        "AGE",
+        "NATIONALITY"
+    ],
+    "en": {
+        "title": "[2Q 2025] Pocket Stats",
+        "publication_type_title": "Reviews & Analysis",
+        "description": "A collection of condensed infographics summarising key indicators and developments for the most recent quarter.",
+        "description_email": "DOSM has just released the latest quarterly Pocket Stats, covering key indicators and developments for the most fourth quarter.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Pocket Stats: 2Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/analysis/pocketstats_2025-q2_en.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST2 2025] Poket Stats",
+        "publication_type_title": "Sorotan & Analisis",
+        "description": "Koleksi infografik padat yang merumuskan indikator dan kemajuan penting bagi suku tahun terkini.",
+        "description_email": "DOSM telah menerbitkan Poket Stats suku tahunan terkini, merangkumi indikator dan kemajuan penting bagi suku tahun keempat.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Poket Stats: ST2 2025",
+                "resource_link": "https://storage.dosm.gov.my/analysis/pocketstats_2025-q2_bm.pdf"
+            }
+        ]
+    }
+}

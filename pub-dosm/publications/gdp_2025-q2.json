@@ -1,0 +1,50 @@
+{
+    "publication": "gdp_2025-q2",
+    "publication_type": "gdp",
+    "release_date": "2025-08-15",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2Q 2025] Gross Domestic Product",
+        "publication_type_title": "Gross Domestic Product",
+        "description": "Quarterly gross domestic product (GDP), covering nominal and real GDP by type of expenditure and activity.",
+        "description_email": "DOSM has just released the latest quarterly GDP data, covering nominal and real GDP by type of expenditure and activity. Malaysia's real GDP grew by 4.4% year-on-year in the second quarter of 2025 (1Q 2025: 4.4%).",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Gross Domestic Product: 2Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_2025-q2.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Gross Domestic Product: 2Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_2025-q2.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST2 2025] Keluaran Dalam Negeri Kasar",
+        "publication_type_title": "Keluaran Dalam Negeri Kasar",
+        "description": "Keluaran dalam negeri kasar (KDNK) suku tahunan, merangkumi KDNK pada harga semasa dan malar mengikut jenis perbelanjaan dan aktiviti.",
+        "description_email": "DOSM telah menerbitkan data KDNK suku tahunan terkini, merangkumi KDNK pada harga semasa dan malar mengikut jenis perbelanjaan dan aktiviti. KDNK sebenar Malaysia telah meningkat sebanyak 4.4% dari tahun ke tahun pada suku kedua 2025 (ST1 2025: 4.4%).",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Keluaran Dalam Negeri Kasar: ST2 2025",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_2025-q2.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Keluaran Dalam Negeri Kasar: ST2 2025",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_2025-q2.xlsx"
+            }
+        ]
+    }
+}
