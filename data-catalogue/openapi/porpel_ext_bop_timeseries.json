@@ -1,8 +1,8 @@
 {
     "manual_trigger": "",
-    "data_as_of": "2025-Q1",
-    "last_updated": "2025-05-16 12:00",
-    "next_update": "2025-08-15 12:00",
+    "data_as_of": "2025-Q2",
+    "last_updated": "2025-08-15 12:00",
+    "next_update": "2025-11-14 12:00",
     "link_parquet": "https://storage.dosm.gov.my/dashboards/bop_timeseries.parquet",
     "frequency": "QUARTERLY",
     "data_source": []
