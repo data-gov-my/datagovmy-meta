@@ -6,7 +6,7 @@
     "sites": [
         "opendosm"
     ],
-    "manual_trigger": "2025-08-15 12:03:43.366562",
+    "manual_trigger": "2025-08-15 12:18:01.622866",
     "required_params": [],
     "optional_params": [],
     "charts": {
@@ -14,7 +14,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/gdp_timeseries.parquet",
-            "data_as_of": "2025-Q1",
+            "data_as_of": "2025-Q2",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -48,7 +48,7 @@
             "name": "statistics",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/gdp_timeseries_callout.parquet",
-            "data_as_of": "2025-Q1",
+            "data_as_of": "2025-Q2",
             "api_type": "static",
             "api_params": [],
             "variables": {
