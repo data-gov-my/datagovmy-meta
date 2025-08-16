@@ -1,7 +1,7 @@
 {
     "dashboard_name": "organ_donation",
-    "data_last_updated": "2025-08-15 09:00",
-    "data_next_update": "2025-08-16 09:00",
+    "data_last_updated": "2025-08-16 09:00",
+    "data_next_update": "2025-08-17 09:00",
     "route": "/dashboard/organ-donation,/ms-MY/dashboard/organ-donation",
     "sites": [
         "kkmnow"
@@ -16,7 +16,7 @@
             "name": "barchart_age",
             "chart_type": "bar_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/organ_barchart_age.parquet",
-            "data_as_of": "2025-08-14 23:59",
+            "data_as_of": "2025-08-15 23:59",
             "api_type": "dynamic",
             "api_params": [
                 "state"
@@ -40,7 +40,7 @@
             "name": "barchart_time",
             "chart_type": "bar_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/organ_barchart_time.parquet",
-            "data_as_of": "2025-08-14 23:59",
+            "data_as_of": "2025-08-15 23:59",
             "api_type": "dynamic",
             "api_params": [
                 "state"
@@ -64,7 +64,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/organ_timeseries.parquet",
-            "data_as_of": "2025-08-14 23:59",
+            "data_as_of": "2025-08-15 23:59",
             "api_type": "dynamic",
             "api_params": [
                 "state"
@@ -88,7 +88,7 @@
             "name": "choropleth_malaysia",
             "chart_type": "choropleth_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/organ_choropleth_msia.parquet",
-            "data_as_of": "2025-08-14 23:59",
+            "data_as_of": "2025-08-15 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
