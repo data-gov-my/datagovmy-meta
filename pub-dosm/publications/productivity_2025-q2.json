@@ -1,0 +1,50 @@
+{
+    "publication": "productivity_2025-q2",
+    "publication_type": "labour",
+    "release_date": "2025-08-21",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2Q 2025] Labour Productivity",
+        "publication_type_title": "Labour Force",
+        "description": "Quarterly labour productivity, covering value added per hour worked or per worker, by economic activity.",
+        "description_email": "DOSM has just released the latest quarterly labour productivity metrics, with disaggregation by economic sector.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Labour Productivity: 2Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/labour/productivity_2025-q2.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Labour Productivity: 2Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/labour/productivity_2025-q2.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST2 2025] Produktiviti Buruh",
+        "publication_type_title": "Tenaga Buruh",
+        "description": "Produktiviti buruh suku tahunan, merangkumi nilai ditambah per jam bekerja ataupun per pekerja, mengikut aktiviti ekonomi.",
+        "description_email": "DOSM baru sahaja menerbitkan indikator produktiviti buruh suku tahunan terkini, dengan pecahan mengikut sektor ekonomi.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Produktiviti Buruh: ST2 2025",
+                "resource_link": "https://storage.dosm.gov.my/labour/productivity_2025-q2.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Produktiviti Buruh: ST2 2025",
+                "resource_link": "https://storage.dosm.gov.my/labour/productivity_2025-q2.pdf"
+            }
+        ]
+    }
+}
