@@ -1,8 +1,8 @@
 {
     "dashboard_name": "labour_productivity",
     "manual_trigger": "2025-02-23 00:49:34.633346",
-    "data_last_updated": "2025-05-22 12:00",
-    "data_next_update": "2025-08-21 12:00",
+    "data_last_updated": "2025-08-21 12:00",
+    "data_next_update": "2025-11-20 12:00",
     "route": "/dashboard/labour-productivity,/ms-MY/dashboard/labour-productivity",
     "sites": [
         "opendosm"
@@ -14,7 +14,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/productivity_timeseries.parquet",
-            "data_as_of": "2025-Q1",
+            "data_as_of": "2025-Q2",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -40,7 +40,7 @@
             "name": "timeseries_callout",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/productivity_timeseries_callout.parquet",
-            "data_as_of": "2025-Q1",
+            "data_as_of": "2025-Q2",
             "api_type": "static",
             "api_params": [],
             "variables": {
