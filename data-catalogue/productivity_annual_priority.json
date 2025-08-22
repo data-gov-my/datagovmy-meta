@@ -5,7 +5,7 @@
     "description_en": "Annual labour productivity for 14 priority subsectors, with metrics on value added per worker, value added per hour worked, and total hours worked.",
     "description_ms": "Produktiviti tenaga buruh tahunan bagi 14 subsektor penting, dengan metrik pada nilai tambah per pekerja, nilai tambah per jam bekerja, dan jumlah jam bekerja.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2024",
     "last_updated": "2025-02-20 12:00",
     "next_update": "2026-02-20 12:00",

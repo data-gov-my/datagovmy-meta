@@ -6,7 +6,7 @@
     "description_ms": "Jadual carian, untuk dipadankan (left-join) dengan set data produktiviti lain sekiranya diperlukan.",
     "exclude_openapi": false,
     "manual_trigger": "",
-    "data_as_of": "2024-Q4",
+    "data_as_of": "2025-Q2",
     "last_updated": "2025-02-20 12:00",
     "next_update": "—",
     "methodology_en": "This lookup table is not part of any standardised data dictionary; it was custom-made to serve the productivity datasets made available via data.gov.my and OpenDOSM only. Furthermore, it should be noted that the coding employed here is the same as the [coding used in](https://open.dosm.gov.my/data-catalogue/gdp_lookup) DOSM's GDP publications, except for the manufacturing and services subsectors. This is because the groupings have been calibrated to ensure optimal suitability for the productivity datasets.",
