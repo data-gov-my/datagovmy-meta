@@ -1,0 +1,51 @@
+{
+    "publication": "mfg_util_2025-q2",
+    "publication_type": "mfg",
+    "release_date": "2025-08-22",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2Q 2025] Manufacturing Capacity Utilisation",
+        "publication_type_title": "Manufacturing",
+        "description": "Quarterly utilisation of production capacity in the manufacturing sector, with breakdowns by industry and state.",
+        "description_email": "DOSM has just released the latest data on capacity utilisation in the manufacturing sector, with disaggregation by manufacturing subsector and state.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Manufacturing Capacity Utilisation: 2Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/mfg/mfg_util_2025-q2.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Manufacturing Capacity Utilisation: 2Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/mfg/mfg_util_2025-q2.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST2 2025] Penggunaan Kapasiti Pembuatan",
+        "publication_type_title": "Pembuatan",
+        "description": "Penggunaan suku tahunan kapasiti pengeluaran di sektor pembuatan, dengan pecahan mengikut industri dan negeri.",
+        "description_email": "DOSM baru sahaja menerbitkan data terkini tentang penggunaan kapasiti di sektor pembuatan, dengan pecahan mengikut subsektor pembuatan dan negeri.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Penggunaan Kapasiti Pembuatan: ST2 2025",
+                "resource_link": "https://storage.dosm.gov.my/mfg/mfg_util_2025-q2.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Penggunaan Kapasiti Pembuatan: ST2 2025",
+                "resource_link": "https://storage.dosm.gov.my/mfg/mfg_util_2025-q2.pdf"
+            }
+        ]
+    }
+}
