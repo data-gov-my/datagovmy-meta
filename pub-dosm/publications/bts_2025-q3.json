@@ -1,0 +1,50 @@
+{
+    "publication": "bts_2025-q3",
+    "publication_type": "businesses",
+    "release_date": "2025-08-27",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[3Q 2025] Business Tendency",
+        "publication_type_title": "Businesses",
+        "description": "Quarterly business expectations for their performance 1 to 2 quarters ahead, including for revenue, employment, and demand.",
+        "description_email": "DOSM has just released the latest quarterly business expectations, covering firms' projections for their revenue, employment, and demand over the next 1 to 2 quarters.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Business Tendency: 3Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/bts/bts_2025-q3.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Business Tendency: 3Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/bts/bts_2025-q3.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST3 2025] Kecenderungan Perniagaan",
+        "publication_type_title": "Perniagaan",
+        "description": "Jangkaan suku tahunan perniagaan bagi prestasi mereka 1 ke 2 suku tahun ke hadapan, termasuk hasil, pekerja, dan permintaan.",
+        "description_email": "DOSM baru sahaja menerbitkan jangkaan perniagaan suku tahunan terkini, merangkumi anggaran perniagaan untuk hasil, guna tenaga, dan permintaan pada 1 ke 2 suku tahun akan datang.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Kecenderungan Perniagaan: ST3 2025",
+                "resource_link": "https://storage.dosm.gov.my/bts/bts_2025-q3.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Kecenderungan Perniagaan: ST3 2025",
+                "resource_link": "https://storage.dosm.gov.my/bts/bts_2025-q3.pdf"
+            }
+        ]
+    }
+}
