@@ -1,7 +1,7 @@
 {
-    "title_en": "Download of Government Mobile Applications",
+    "title_en": "Downloads of Government Mobile Applications",
     "title_ms": "Muat Turun bagi Aplikasi Mudah Alih Kerajaan",
-    "title_sort": 20,
+    "title_sort": 23,
     "description_en": "Download statistics for official government mobile applications across different platforms (Android, Huawei, iOS), including platform-specific counts.",
     "description_ms": "Statistik muat turun untuk aplikasi mudah alih rasmi kerajaan merentasi platform berbeza (Android, Huawei, iOS), termasuk jumlah muat turun bagi setiap platform.",
     "exclude_openapi": false,
