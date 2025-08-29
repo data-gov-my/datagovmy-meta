@@ -5,7 +5,7 @@
     "description_en": "List of official government mobile applications registered with GAMMA, including their names, platforms, date of publication and purpose.",
     "description_ms": "Senarai aplikasi mudah alih rasmi kerajaan yang didaftarkan dalam GAMMA, termasuk nama, platform, tarikh penerbitan dan tujuan.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2025-08-28 23:59",
     "last_updated": "2025-08-29 00:10",
     "next_update": "2025-08-30 00:10",

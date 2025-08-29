@@ -5,7 +5,7 @@
     "description_en": "Monthly data on the number of active government mobile applications, including data on the number of apps published and shut down.",
     "description_ms": "Data bulanan mengenai bilangan aplikasi mudah alih rasmi kerajaan yang aktif, termasuk bilangan aplikasi yang diterbitkan dan ditutup.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2025-08-28 23:59",
     "last_updated": "2025-08-29 00:10",
     "next_update": "2025-08-30 00:10",
