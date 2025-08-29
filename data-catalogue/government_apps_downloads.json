@@ -1,0 +1,119 @@
+{
+    "title_en": "Download of Government Mobile Applications",
+    "title_ms": "Muat Turun bagi Aplikasi Mudah Alih Kerajaan",
+    "title_sort": 20,
+    "description_en": "Download statistics for official government mobile applications across different platforms (Android, Huawei, iOS), including platform-specific counts.",
+    "description_ms": "Statistik muat turun untuk aplikasi mudah alih rasmi kerajaan merentasi platform berbeza (Android, Huawei, iOS), termasuk jumlah muat turun bagi setiap platform.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2025-08-28 23:59",
+    "last_updated": "2025-08-29 00:10",
+    "next_update": "2025-08-30 00:10",
+    "methodology_en": "Under the standards specified by the National Digital Department (JDN), all government mobile applications must be registered with the Malaysia Government Mobile Applications Gallery (GAMMA). This dataset represents download statistics collected from app stores and platform analytics for registered government applications.",
+    "methodology_ms": "Mengikut standard yang ditetapkan oleh Jabatan Digital Nasional (JDN), semua aplikasi mudah alih kerajaan mesti didaftarkan dalam Galeri Aplikasi Mudah Alih Kerajaan Malaysia (GAMMA). Set data ini mewakili statistik muat turun yang dikumpul dari kedai aplikasi dan analitik platform untuk aplikasi kerajaan yang berdaftar.",
+    "caveat_en": "The data represents download statistics for applications published via GAMMA only. As a result, the number of applications with tracked download statistics is smaller than the [total number of applications](https://data.gov.my/data-catalogue/government_apps).",
+    "caveat_ms": "Data ini mewakili statistik muat turun untuk aplikasi yang diterbitkan melalui Galeri Aplikasi Mudah Alih Kerajaan Malaysia (GAMMA) sahaja. Oleh itu, bilangan aplikasi dengan statistik muat turun dijejaki adalah lebih kecil daripada [jumlah aplikasi](https://data.gov.my/data-catalogue/government_apps).",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/publicadmin/government_apps_downloads.parquet",
+    "link_csv": "https://storage.data.gov.my/publicadmin/government_apps_downloads.csv",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2015,
+    "dataset_end": 2025,
+    "data_source": [
+        "JDN",
+        "KD"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Public Administration",
+            "category_ms": "Pentadbiran Awam",
+            "category_sort": 80,
+            "subcategory_en": "Digital Services",
+            "subcategory_ms": "Perkhidmatan Digital",
+            "subcategory_sort": 30
+        }
+    ],
+    "fields": [
+        {
+            "name": "app_id",
+            "title_en": "Application ID",
+            "title_ms": "ID Aplikasi",
+            "description_en": "[Integer] Unique identifier for each government mobile application; this is intended as a lookup reference only, and has no external meaning.",
+            "description_ms": "[Integer] ID unik bagi setiap aplikasi mudah alih kerajaan; ini bertujuan sebagai rujukan pencarian sahaja, dan tidak mempunyai apa jua makna yang merujuk kepada sistem lain."
+        },
+        {
+            "name": "app_name",
+            "title_en": "Application Name",
+            "title_ms": "Nama Aplikasi",
+            "description_en": "[String] The official name of the government mobile application.",
+            "description_ms": "[Rentetan] Nama rasmi aplikasi mudah alih kerajaan."
+        },
+        {
+            "name": "android",
+            "title_en": "Android",
+            "title_ms": "Android",
+            "description_en": "[Integer] Total number of downloads from Google Play Store used on Android devices.",
+            "description_ms": "[Integer] Jumlah muat turun dari Google Play Store bagi peranti Android."
+        },
+        {
+            "name": "huawei",
+            "title_en": "Huawei",
+            "title_ms": "Huawei",
+            "description_en": "[Integer] Total number of downloads from Huawei AppGallery.",
+            "description_ms": "[Integer] Jumlah muat turun dari Huawei AppGallery."
+        },
+        {
+            "name": "ios",
+            "title_en": "iOS",
+            "title_ms": "iOS",
+            "description_en": "[Integer] Total number of downloads from Apple App Store used on iOS devices.",
+            "description_ms": "[Integer] Jumlah muat turun dari Apple App Store bagi peranti iOS."
+        },
+        {
+            "name": "total",
+            "title_en": "Total",
+            "title_ms": "Jumlah",
+            "description_en": "[Integer] Total downloads across all platforms.",
+            "description_ms": "[Integer] Jumlah muat turun merentasi semua platform."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": [
+                    "app_id",
+                    "app_name"
+                ]
+            }
+        }
+    ],
+    "translations_en": {
+        "app_id": "App ID",
+        "app_name": "App Name",
+        "android": "Android",
+        "huawei": "Huawei",
+        "ios": "iOS",
+        "total": "Total"
+    },
+    "translations_ms": {
+        "app_id": "ID Aplikasi",
+        "app_name": "Nama Aplikasi",
+        "android": "Android",
+        "huawei": "Huawei",
+        "ios": "iOS",
+        "total": "Jumlah"
+    },
+    "related_datasets": []
+}
