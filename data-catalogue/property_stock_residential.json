@@ -1,0 +1,183 @@
+{
+    "title_en": "Residential Property Stock",
+    "title_ms": "Stok Harta Tanah Kediaman",
+    "title_sort": 1,
+    "description_en": "Quarterly data on the stock of residential properties, with a breakdown by property type and stage of development. The table and chart use data for Petaling as a preview, but you may download the dataset in full.",
+    "description_ms": "Data kuartalan stok harta tanah kediaman, dengan pecahan mengikut jenis kediaman dan tahap pembangunan. Jadual dan carta menggunakan data untuk Petaling sebagai pratonton, tetapi anda boleh memuat turun set data penuh.",
+    "exclude_openapi": true,
+    "manual_trigger": "1",
+    "data_as_of": "2024-Q3",
+    "last_updated": "2024-12-01 12:00",
+    "next_update": "2025-01-01 12:00",
+    "methodology_en": "This dataset is compiled based on transactional property data provided by public and private-sector property developers to the National Property Information Centre (NAPIC). The data is collected and compiled in accordance with NAPIC's mandate, which is to provide accurate, comprehensive and timely information on the demand and supply of the property market in Malaysia.",
+    "methodology_ms": "Data ini dihasilkan daripada data transaksi harta tanah yang dibekalkan oleh pemaju hartanah sektor awam dan swasta kepada Pusat Maklumat Harta Tanah Negara (NAPIC). Data tersebut dirangka selaras dengan mandat NAPIC, iaitu untuk menyediakan maklumat yang tepat, komprehensif dan menepati masa berkaitan dengan permintaan dan penawaran pasaran harta tanah dalam negara.",
+    "caveat_en": "This data may be updated or revised in future releases.",
+    "caveat_ms": "Data ini mungkin disemak semula dalam penerbitan akan datang.",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/property/property_stock_residential.parquet",
+    "link_csv": "https://storage.data.gov.my/property/property_stock_residential.csv",
+    "link_preview": "https://storage.data.gov.my/property/property_stock_residential_preview.parquet",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL",
+        "STATE",
+        "DISTRICT"
+    ],
+    "demography": [],
+    "dataset_begin": 2018,
+    "dataset_end": 2024,
+    "data_source": [
+        "NAPIC"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Property Markets",
+            "category_ms": "Pasaran Harta Tanah",
+            "category_sort": 70,
+            "subcategory_en": "Stock",
+            "subcategory_ms": "Stok",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] Data as of this date, in YYYY-MM-DD format. The earliest date in the period is chosen, e.g. YYYY-04-01 for 2nd quarter data.",
+            "description_ms": "[Tarikh] Data sekatat tarikh ini, dalam format YYYY-MM-DD. Tarikh yang dipilih adalah tarikh terawal dalam tempoh, contohnya YYYY-04-01 bagi data suku tahun kedua."
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[String] The state in which the property is located.",
+            "description_ms": "[Rentetan] Negeri di mana harta tanah berada."
+        },
+        {
+            "name": "district",
+            "title_en": "District",
+            "title_ms": "Daerah",
+            "description_en": "[String] The district in which the property is located.",
+            "description_ms": "[Rentetan] Daerah di mana harta tanah berada."
+        },
+        {
+            "name": "stage",
+            "title_en": "Stage of Development",
+            "title_ms": "Tahap Pembangunan",
+            "description_en": "[Categorical] The stage of development of the property: completions, existing, starts, supply-incoming, supply-newly-planned, or supply-planned.",
+            "description_ms": "[Kategori] Tahap pembangunan harta tanah: siap, sedia ada, mula, bekalan-masuk, bekalan-baru-dirancang, atau bekalan-dirancang."
+        },
+        {
+            "name": "property_type",
+            "title_en": "Property Type",
+            "title_ms": "Jenis Harta",
+            "description_en": "[Categorical] The type of residential property, such as cluster, condominium, detached, etc.",
+            "description_ms": "[Kategori] Jenis harta tanah kediaman, seperti kluster, kondominium, terpisah, dll."
+        },
+        {
+            "name": "properties",
+            "title_en": "Number of Properties",
+            "title_ms": "Bilangan Harta Tanah",
+            "description_en": "[Integer] The number of properties in the specified category.",
+            "description_ms": "[Integer] Bilangan harta dalam kategori yang dinyatakan."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "state",
+                    "district",
+                    "stage",
+                    "property_type"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "index",
+            "title_en": "Timeseries",
+            "title_ms": "Siri Masa",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state",
+                    "district",
+                    "stage",
+                    "property_type"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "properties"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "state": "State",
+        "district": "District",
+        "stage": "Stage of Development",
+        "property_type": "Property Type",
+        "properties": "Properties",
+        "y1": "Properties",
+        "completions": "Completions",
+        "existing": "Existing",
+        "starts": "Starts",
+        "supply-incoming": "Supply Incoming",
+        "supply-newly-planned": "Supply Newly Planned",
+        "supply-planned": "Supply Planned",
+        "all": "All Districts",
+        "cluster": "Cluster",
+        "condominium": "Condominium",
+        "detached": "Detached",
+        "flat": "Flat",
+        "flat-lowcost": "Low-Cost Flat",
+        "house-lowcost": "Low-Cost House",
+        "semidetached-1-storey": "Semi-Detached (1 Storey)",
+        "semidetached-2-3-storey": "Semi-Detached (2-3 Storey)",
+        "terrace-1-storey": "Terrace (1 Storey)",
+        "terrace-2-3-storey": "Terrace (2-3 Storey)",
+        "townhouse": "Townhouse"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "state": "Negeri",
+        "district": "Daerah",
+        "stage": "Tahap Pembangunan",
+        "property_type": "Jenis Harta Tanah",
+        "properties": "Harta Tanah",
+        "y1": "Harta Tanah",
+        "completions": "Siap",
+        "existing": "Sedia Ada",
+        "starts": "Mula",
+        "supply-incoming": "Bekalan Masuk",
+        "supply-newly-planned": "Bekalan Baru Dirancang",
+        "supply-planned": "Bekalan Dirancang",
+        "all": "Semua Daerah",
+        "cluster": "Kluster",
+        "condominium": "Kondominium",
+        "detached": "Terpisah",
+        "flat": "Pangsapuri",
+        "flat-lowcost": "Pangsapuri Mampu Milik",
+        "house-lowcost": "Rumah Mampu Milik",
+        "semidetached-1-storey": "Separuh Terpisah (1 Tingkat)",
+        "semidetached-2-3-storey": "Separuh Terpisah (2-3 Tingkat)",
+        "terrace-1-storey": "Teres (1 Tingkat)",
+        "terrace-2-3-storey": "Teres (2-3 Tingkat)",
+        "townhouse": "Townhouse"
+    },
+    "related_datasets": []
+}
