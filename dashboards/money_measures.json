@@ -1,7 +1,7 @@
 {
     "dashboard_name": "money_measures",
-    "data_last_updated": "2025-07-31 15:00",
-    "data_next_update": "2025-08-31 15:00",
+    "data_last_updated": "2025-08-31 15:00",
+    "data_next_update": "2025-09-30 15:00",
     "route": "/dashboard/money-supply,/ms-MY/dashboard/money-supply",
     "sites": [
         "datagovmy"
@@ -14,7 +14,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/moneymeasures_timeseries.parquet",
-            "data_as_of": "2025-06",
+            "data_as_of": "2025-07",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -46,7 +46,7 @@
             "name": "statistics",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/moneymeasures_timeseries_callout.parquet",
-            "data_as_of": "2025-06",
+            "data_as_of": "2025-07",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -63,7 +63,7 @@
             "name": "table_summary",
             "chart_type": "snapshot_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/moneymeasures_table_summary.parquet",
-            "data_as_of": "2025-06",
+            "data_as_of": "2025-07",
             "api_type": "static",
             "api_params": [],
             "variables": {
