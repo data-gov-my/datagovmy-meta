@@ -74,22 +74,22 @@
 			"name": "sex",
 			"title_en": "Sex",
 			"title_ms": "Jantina",
-			"description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
-			"description_ms": "[Kategori] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
+			"description_en": "[Categorical] Either both sexes ('overall_sex'), male ('male') or female ('female')",
+			"description_ms": "[Kategori] Sama ada kedua-dua jantina ('overall_sex'), lelaki ('male') atau perempuan ('female')"
 		},
     {
       "name": "age",
       "title_en": "Age Group",
       "title_ms": "Kumpulan Umur",
-      "description_en": "[Categorical] Either all age groups ('overall') or five-year age groups e.g. 0-4, 5-9, 10-14, etc. 85+ is the oldest category.",
-      "description_ms": "[Kategori] Sama ada semua kumpulan umur ('overall') atau kumpulan umur dengan julat 5 tahun, contohnya 0-4, 5-9, 10-14, dsb. 85+ adalah kumpulan yang tertua."
+      "description_en": "[Categorical] Either all age groups ('overall_age') or five-year age groups e.g. 0-4, 5-9, 10-14, etc. 85+ is the oldest category.",
+      "description_ms": "[Kategori] Sama ada semua kumpulan umur ('overall_age') atau kumpulan umur dengan julat 5 tahun, contohnya 0-4, 5-9, 10-14, dsb. 85+ adalah kumpulan yang tertua."
     },
 		{
 			"name": "ethnicity",
 			"title_en": "Ethnicity",
 			"title_ms": "Kumpulan Etnik",
-			"description_en": "[Categorical] All ethnic groups ('overall'), Malay ('bumi_malay'), other Bumiputera ('bumi_other'), Chinese ('chinese'), Indian ('indian'), other citizens ('other_citizen'), or non-citizen residents ('other_noncitizen').",
-			"description_ms": "[Kategori] Semua kumpulan etnik ('overall'), Melayu ('bumi_malay'), Bumiputera lain ('bumi_other'), Cina ('chinese'), India ('indian'), lain-lain warganegara ('other_citizen'), atau penduduk bukan warganegara ('other_noncitizen')"
+			"description_en": "[Categorical] All ethnic groups ('overall_ethnicity'), Malay ('bumi_malay'), other Bumiputera ('bumi_other'), Chinese ('chinese'), Indian ('indian'), other citizens ('other_citizen'), or non-citizen residents ('other_noncitizen').",
+			"description_ms": "[Kategori] Semua kumpulan etnik ('overall_ethnicity'), Melayu ('bumi_malay'), Bumiputera lain ('bumi_other'), Cina ('chinese'), India ('indian'), lain-lain warganegara ('other_citizen'), atau penduduk bukan warganegara ('other_noncitizen')"
 		},
     {
       "name": "population",
