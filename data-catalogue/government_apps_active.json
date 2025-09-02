@@ -1,0 +1,153 @@
+{
+    "title_en": "Number of Active Government Mobile Applications",
+    "title_ms": "Jumlah Aplikasi Mudah Alih Rasmi Kerajaan yang Aktif",
+    "title_sort": 22,
+    "description_en": "Monthly data on the number of active government mobile applications, including data on the number of apps published and shut down.",
+    "description_ms": "Data bulanan mengenai bilangan aplikasi mudah alih rasmi kerajaan yang aktif, termasuk bilangan aplikasi yang diterbitkan dan ditutup.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2025-09-01 23:59",
+    "last_updated": "2025-09-02 00:10",
+    "next_update": "2025-09-03 00:10",
+    "methodology_en": "This data is aggregated from the transactional data on government mobile applications made available [here](https://data.gov.my/data-catalogue/government_apps).",
+    "methodology_ms": "Data ini adalah agregat berdasarkan data aplikasi mudah alih rasmi berbentuk transaksi yang tersedia [di sini](https://data.gov.my/data-catalogue/government_apps).",
+    "caveat_en": "The data represents applications tracked via the Malaysia Government Mobile Applications Gallery (GAMMA) only. As such, official applications not yet registered in GAMMA may be absent from this dataset.",
+    "caveat_ms": "Data ini mewakili aplikasi yang dijejaki melalui Galeri Aplikasi Mudah Alih Kerajaan Malaysia (GAMMA) sahaja. Oleh itu, aplikasi rasmi yang belum didaftarkan dalam GAMMA mungkin tidak wujud dalam set data ini.",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/publicadmin/government_apps_active.parquet",
+    "link_csv": "https://storage.data.gov.my/publicadmin/government_apps_active.csv",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2015,
+    "dataset_end": 2025,
+    "data_source": [
+        "JDN",
+        "KD"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Public Administration",
+            "category_ms": "Pentadbiran Awam",
+            "category_sort": 80,
+            "subcategory_en": "Digital Services",
+            "subcategory_ms": "Perkhidmatan Digital",
+            "subcategory_sort": 30
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] Date in YYYY-MM-DD format, with DD set to 01 as this is monthly data.",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai DD ditetapkan sebagai 01 bagi data bulanan."
+        },
+        {
+            "name": "published",
+            "title_en": "Published",
+            "title_ms": "Diterbitkan",
+            "description_en": "[Integer] Number of new government mobile applications published in that month.",
+            "description_ms": "[Integer] Bilangan aplikasi mudah alih kerajaan baru yang diterbitkan pada bulan tersebut."
+        },
+        {
+            "name": "shutdown",
+            "title_en": "Shut Down",
+            "title_ms": "Ditutup",
+            "description_en": "[Integer] Number of government mobile applications that were shut down in that month.",
+            "description_ms": "[Integer] Bilangan aplikasi mudah alih kerajaan yang ditutup pada bulan tersebut."
+        },
+        {
+            "name": "active",
+            "title_en": "Active",
+            "title_ms": "Aktif",
+            "description_en": "[Integer] Total number of active government mobile applications as of that month, derived as the number of published applications minus the number of shut down applications.",
+            "description_ms": "[Integer] Jumlah bilangan aplikasi mudah alih kerajaan yang aktif sehingga bulan tersebut, dikira sebagai bilangan aplikasi yang diterbitkan tolak bilangan aplikasi yang ditutup."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": [
+                    "date"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "applications",
+            "title_en": "Active Applications",
+            "title_ms": "Aplikasi Aktif",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "active"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "published",
+            "title_en": "Published Applications",
+            "title_ms": "Aplikasi Diterbitkan",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "published"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "shutdown",
+            "title_en": "Shut Down Applications",
+            "title_ms": "Aplikasi Ditutup",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "shutdown"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "published": "Published",
+        "shutdown": "Shut Down",
+        "active": "Active",
+        "y1": "Applications"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "published": "Diterbitkan",
+        "shutdown": "Ditutup",
+        "active": "Aktif",
+        "y1": "Aplikasi"
+    },
+    "related_datasets": []
+}
