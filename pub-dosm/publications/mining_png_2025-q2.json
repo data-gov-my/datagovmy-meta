@@ -1,0 +1,50 @@
+{
+    "publication": "mining_png_2025-q2",
+    "publication_type": "mining",
+    "release_date": "2025-09-03",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2Q 2025] Mining of Petroleum & Natural Gas",
+        "publication_type_title": "Mining",
+        "description": "Quarterly performance of petroleum and natural gas mining, covering prices, production, sales, and employment.",
+        "description_email": "DOSM has just released the latest quarterly mining data, covering prices, production, sales, and employment in the petroleum and natural gas sector.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Mining of Petroleum & Natural Gas: 2Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/mining/mining_png_2025-q2.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Mining of Petroleum & Natural Gas: 2Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/mining/mining_png_2025-q2.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST2 2025] Perlombongan Petroleum & Gas Asli",
+        "publication_type_title": "Perlombongan",
+        "description": "Prestasi suku tahunan perlombongan petroleum dan gas asli, merangkumi harga, pengeluaran, jualan dan guna tenaga.",
+        "description_email": "DOSM baru sahaja menerbitkan data perlombongan suku tahunan terkini, merangkumi harga, pengeluaran, jualan, dan guna tenaga dalam sektor petroleum dan gas asli.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Perlombongan Petroleum & Gas Asli: ST2 2025",
+                "resource_link": "https://storage.dosm.gov.my/mining/mining_png_2025-q2.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Perlombongan Petroleum & Gas Asli: ST2 2025",
+                "resource_link": "https://storage.dosm.gov.my/mining/mining_png_2025-q2.pdf"
+            }
+        ]
+    }
+}
