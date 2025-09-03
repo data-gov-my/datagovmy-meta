@@ -5,7 +5,7 @@
     "description_en": "The table below provides a preview of the full dataset, which contains over a million price records per month. We recommend that you download and work with the data in your preferred coding environment - Microsoft Excel will likely be insufficient due to the size of the dataset. This data should be used in conjuction with the Item Lookup and Premise Lookup tables.",
     "description_ms": "Jadual di bawah memberi pratonton kepada set data penuh, yang mengandungi lebih daripada sejuta rekod harga bagi setiap bulan. Kami sarankan anda memuat turun dan menganalisa data dengan menggunakan kod - Microsoft Excel mungkin tidak memadai kerana saiz set data ini. Set data ini harus digunakan bersama dengan Jadual Carian Barangan dan Jadual Carian Premis.",
     "exclude_openapi": true,
-    "manual_trigger": "2025-09-02 20:00:18.638230",
+    "manual_trigger": "",
     "data_as_of": "2025-09-02 23:59",
     "last_updated": "2025-09-03 12:00",
     "next_update": "2025-09-04 12:00",
