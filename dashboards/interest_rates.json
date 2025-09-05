@@ -36,7 +36,7 @@
             "name": "timeseries_opr",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/interestrates_timeseries_opr.parquet",
-            "data_as_of": "2025-07",
+            "data_as_of": "2025-09-04 15:00",
             "api_type": "static",
             "api_params": [],
             "variables": {
