@@ -1,25 +1,24 @@
 {
-    "route": "/ms-MY/dashboard/rapid-explorer",
-    "sites": [
-        "datagovmy"
-    ],
-    "translation": {
-        "header": "Peneroka Rel Rapid",
-        "description": "Prasarana adalah pemilik dan pengendali perkhidmatan rel negara, termasuk jaringan LRT, Monorel KL, dan laluan MRT. Mereka juga memiliki dan mengendalikan perkhidmatan bas di Kuala Lumpur, Selangor, Pulau Pinang dan Pahang. Perkhidmatan tersebut kebiasaannya dirujuk sebagai Bas dan Rel Rapid. Papan pemuka ini menggunakan data daripada infrastruktur bersepadu mereka untuk membekalkan data terperinci tentang penggunan perkhidmatan Rel Rapid, dan akan diperluas pada masa depan dengan data Bas Rapid.",
-        "title": "Terokailah data penumpang antara mana-mana stesen Rel Rapid!",
-        "disclaimer": "Nota: Apabila menganalisa data stesen ke stesen, perlu diingati bahawa penunggang dapat menukar perkhidmatan dalam perjalanan. Contohnya, anda boleh bermula perjalanan dari stesen laluan Kelana Jaya, tetapi tamat di stesen laluan Ampang. Oleh itu, tapisan mengikut laluan tidak disediakan.",
-        "filters": "Penapis",
-        "origin": "Asal",
-        "destination": "Destinasi",
-        "apply_filter": "Tapis",
-        "service": "Perkhidmatan",
-        "bus": "Bas Rapid",
-        "rail": "Rel Rapid",
-        "select_origin": "Pilih Permulaan",
-        "select_destination": "Pilih Destinasi",
-        "all_stations": "A0: Semua Stesen",
-        "ridership": "Penumpang dari {{ from }} ke {{ to }}",
-        "this_month": "Bulan Ini ({{ date }})",
-        "no_trips": "Tiada perjalanan di laluan ini; data bagi 'tap-out' bagi stesen tertentu di laluan Putrajaya belum lagi selesai proses integrasi."
-    }
+  "route": "/ms-MY/dashboard/rapid-explorer",
+  "sites": ["datagovmy"],
+  "translation": {
+    "header": "Peneroka Rel Rapid",
+    "description": "Prasarana adalah pemilik dan pengendali perkhidmatan rel negara, termasuk jaringan LRT, Monorel KL, dan laluan MRT. Mereka juga memiliki dan mengendalikan perkhidmatan bas di Kuala Lumpur, Selangor, Pulau Pinang dan Pahang. Perkhidmatan tersebut kebiasaannya dirujuk sebagai Bas dan Rel Rapid. Papan pemuka ini menggunakan data daripada infrastruktur bersepadu mereka untuk membekalkan data terperinci tentang penggunan perkhidmatan Rel Rapid, dan akan diperluas pada masa depan dengan data Bas Rapid.",
+    "title": "Terokailah data penumpang antara mana-mana stesen Rel Rapid!",
+    "disclaimer": "Nota: Apabila menganalisa data stesen ke stesen, perlu diingati bahawa penunggang dapat menukar perkhidmatan dalam perjalanan. Contohnya, anda boleh bermula perjalanan dari stesen laluan Kelana Jaya, tetapi tamat di stesen laluan Ampang. Oleh itu, tapisan mengikut laluan tidak disediakan.",
+    "filters": "Penapis",
+    "origin": "Asal",
+    "destination": "Destinasi",
+    "apply_filter": "Tapis",
+    "service": "Perkhidmatan",
+    "bus": "Bas Rapid",
+    "rail": "Rel Rapid",
+    "select_origin": "Pilih Permulaan",
+    "select_destination": "Pilih Destinasi",
+    "all_stations": "A0: Semua Stesen",
+    "ridership": "Penumpang dari {{ from }} ke {{ to }}",
+    "this_month": "Bulan Ini ({{ date }})",
+    "no_trips": "Tiada perjalanan di laluan ini; data bagi 'tap-out' bagi stesen tertentu di laluan Putrajaya belum lagi selesai proses integrasi.",
+    "caveats": "Bagi angka keseluruhan, sila rujuk kepada papan pemuka [Pengangkutan Awam](/dashboard/public-transportation) dashboard. Angka keseluruhan tidak boleh dihasilkan terus daripada data asal-destinasi ('origin-destination') kerana metodologi untuk mengira penumpang bagi laluan tertentu (khususnya di stesen pertukaran) adalah rumit."
+  }
 }
