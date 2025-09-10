@@ -4,14 +4,14 @@
   "email_template": [
     {
       "name": "community_product_submitted",
-      "subject": "Community Product Submission for Public Sector Open Data Portal",
+      "subject": "[data.gov.my] Submission of {{product_name}} as Community Product",
       "content": "Dear {{name}},\n\nYour submission of the community product **{{product_name}}** has been received for showcasing on <https://data.gov.my>. If it passes moderation checks (for spam, abuse, violence, etc.), it will be published on our [Community Products page](https://data.gov.my/community-products).\n\nIf the community product is approved/rejected, you will be notified at this email.\n\nThank you for contributing to our community showcase.\n\nWarm regards,\n\n ** _Public Sector Open Data Team  \nJabatan Digital Negara, Kementerian Digital_**",
       "html_content": "<html><head><title>Community Product Submission for Public Sector Open Data Portal</title></head><body><p>Dear {{name}},</p><p>Your submission of the community product <b>{{product_name}}</b> has been received for showcasing on <a href=\"https://data.gov.my\">https://data.gov.my</a>. If it passes moderation checks (for spam, abuse, violence, etc.), it will be published on our <a href=\"https://data.gov.my/community-products\">Community Products page</a>.</p><p>If the community product is approved/rejected, you will be notified at this email.</p><p>Thank you for contributing to our community showcase.</p><p>Warm regards,<p><strong><em>Public Sector Open Data Team<br />Jabatan Digital Negara, Kementerian Digital</em></strong></p></body></html>",
       "language": "en"
     },
     {
       "name": "community_product_submitted",
-      "subject": "Pendaftaran Produk Komuniti untuk Portal Data Terbuka Sektor Awam",
+      "subject": "[data.gov.my] Permohonan {{product_name}} sebagai Produk Komuniti",
       "content": "Salam sejahtera {{name}},\n\nPendaftaran produk komuniti **{{product_name}}** anda telah diterima untuk\ndipaparkan di <https://data.gov.my/ms-MY>. Produk anda akan diterbitkan di [halaman Produk Komuniti](https://data.gov.my/ms-MY/community-products) kami setelah disemak dan mendapat kelulusan.\n\nPemakluman berkenaan status permohonan ini **(diluluskan/ditolak)** akan dihantar kepada anda menerusi e-mel.\n\nTerima kasih kerana menyumbang kepada halaman Produk Komuniti kami.\n\nSekian, terima kasih.\n\n**_Admin Portal Data Terbuka Sektor Awam  \nJabatan Digital Negara, Kementerian Digital_**",
       "html_content": "<!DOCTYPE html><html><head><title>Pendaftaran Produk Komuniti untuk Portal Data Terbuka Sektor Awam</title></head><body><p>Salam sejahtera {{name}},</p><p>Pendaftaran produk komuniti <b>{{product_name}}</b> anda telah diterima untuk dipaparkan di <a href=\"https://data.gov.my/ms-MY\">https://data.gov.my/ms-MY</a>. Produk anda akan diterbitkan di <a href=\"https://data.gov.my/ms-MY/community-products\">halaman Produk Komuniti</a> kami setelah disemak dan mendapat kelulusan.</p><p>Pemakluman berkenaan status permohonan ini <b>(diluluskan/ditolak)</b> akan dihantar kepada anda menerusi e-mel.</p><p>Terima kasih kerana menyumbang kepada halaman Produk Komuniti kami.</p><p>Sekian, terima kasih.<p><strong><em>Admin Portal Data Terbuka Sektor Awam<br />Jabatan Digital Negara, Kementerian Digital</em></strong></p></p></body></html>",
       "language": "ms"

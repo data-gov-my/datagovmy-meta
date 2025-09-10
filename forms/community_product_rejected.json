@@ -1,20 +1,20 @@
 {
-	"send_email": true,
-	"validate_fields": ["name", "product_name", "reason"],
-	"email_template": [
-		{
-			"name": "community_product_rejected",
-			"subject": "Community Product Rejected for Public Sector Open Data Portal",
-			"content": "Dear {{name}},\n\nUnfortunately, we have decided not to feature your product at this time,\nbecause of the following reason(s):\n\n _{{reason}}_\n\nIf you wish, you may incorporate the comments above and open a new submission!\n\nWarm regards,\n\n ** _Public Sector Open Data Team  \nJabatan Digital Negara, Kementerian Digital_**\n\n",
-			"html_content": "<html><head><title>Community Product Rejected</title></head><body><p>Dear {{name}},</p><p>Unfortunately, we have decided not to feature your product at this time, because of the following reason(s):</p><p><i>{{reason}}</i></p><p>If you wish, you may incorporate the comments above and open a new submission!</p><p>Warm regards,<p><strong><em>Public Sector Open Data Team<br />Jabatan Digital Negara, Kementerian Digital</em></strong></p></body></html>",
-			"language": "en"
-		},
-		{
-			"name": "community_product_rejected",
-			"subject": "Pemakluman Penolakan Pendaftaran Produk Komuniti untuk Portal Data Terbuka Sektor Awam",
-			"content": "Salam sejahtera {{name}},\n\nDimaklumkan bahawa permohonan anda bagi pendaftaran produk komuniti\n**{{product_name}}** tidak diluluskan atas sebab berikut:\n\n_{{reason}}_\n\nSila semak komen di atas sebelum anda membuat permohonan baharu.\n\nSekian, terima kasih.\n\n**_Admin Portal Data Terbuka Sektor Awam  \nJabatan Digital Negara, Kementerian Digital_**\n\n",
-			"html_content": "<html><head><title>Tolakan Produk Komuniti</title></head><body><p>Salam sejahtera {{name}},</p><p>Dimaklumkan bahawa permohonan anda bagi pendaftaran produk komuniti <b>{{product_name}}</b> tidak diluluskan atas sebab berikut:</p><p><i>{{reason}}</i></p><p>Sila semak komen di atas sebelum anda membuat permohonan baharu.</p><p>Sekian, terima kasih.<p><strong><em>Admin Portal Data Terbuka Sektor Awam<br />Jabatan Digital Negara, Kementerian Digital</em></strong></p></p></body></html>",
-			"language": "ms"
-		}
-	]
+  "send_email": true,
+  "validate_fields": ["name", "product_name", "reason"],
+  "email_template": [
+    {
+      "name": "community_product_rejected",
+      "subject": "[data.gov.my] Submission of {{product_name}} as Community Product",
+      "content": "Dear {{name}},\n\nUnfortunately, we have decided not to feature your product at this time,\nbecause of the following reason(s):\n\n _{{reason}}_\n\nIf you wish, you may incorporate the comments above and open a new submission!\n\nWarm regards,\n\n ** _Public Sector Open Data Team  \nJabatan Digital Negara, Kementerian Digital_**\n\n",
+      "html_content": "<html><head><title>Community Product Rejected</title></head><body><p>Dear {{name}},</p><p>Unfortunately, we have decided not to feature your product at this time, because of the following reason(s):</p><p><i>{{reason}}</i></p><p>If you wish, you may incorporate the comments above and open a new submission!</p><p>Warm regards,<p><strong><em>Public Sector Open Data Team<br />Jabatan Digital Negara, Kementerian Digital</em></strong></p></body></html>",
+      "language": "en"
+    },
+    {
+      "name": "community_product_rejected",
+      "subject": "[data.gov.my] Permohonan {{product_name}} sebagai Produk Komuniti",
+      "content": "Salam sejahtera {{name}},\n\nDimaklumkan bahawa permohonan anda bagi pendaftaran produk komuniti\n**{{product_name}}** tidak diluluskan atas sebab berikut:\n\n_{{reason}}_\n\nSila semak komen di atas sebelum anda membuat permohonan baharu.\n\nSekian, terima kasih.\n\n**_Admin Portal Data Terbuka Sektor Awam  \nJabatan Digital Negara, Kementerian Digital_**\n\n",
+      "html_content": "<html><head><title>Tolakan Produk Komuniti</title></head><body><p>Salam sejahtera {{name}},</p><p>Dimaklumkan bahawa permohonan anda bagi pendaftaran produk komuniti <b>{{product_name}}</b> tidak diluluskan atas sebab berikut:</p><p><i>{{reason}}</i></p><p>Sila semak komen di atas sebelum anda membuat permohonan baharu.</p><p>Sekian, terima kasih.<p><strong><em>Admin Portal Data Terbuka Sektor Awam<br />Jabatan Digital Negara, Kementerian Digital</em></strong></p></p></body></html>",
+      "language": "ms"
+    }
+  ]
 }
