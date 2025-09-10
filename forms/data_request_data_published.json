@@ -1,20 +1,26 @@
 {
-	"send_email": true,
-	"validate_fields": ["ticket_id", "dataset_title", "agency", "remark"],
-	"email_template": [
-		{
-			"name": "data_request_data_published",
-			"subject": "[Ticket ID: {{ticket_id}}] Data Request from Public Sector Open Data Portal",
-			"content": "Salam Sejahtera,\n\nYour request for data on **{{dataset_title}}** from {{agency}} has been accepted; the datasets you requested are now live on the site.\n\nPlease check [your ticket on the Data Request page](https://data.gov.my/data-request?ticket_id={{ticket_id}}) to view the published datasets.\n\nThank you for helping to improve data.gov.my!\n\nWarm regards,\n\n ** _Public Sector Open Data Team  \nJabatan Digital Negara, Kementerian Digital_**\n\n",
-			"html_content": "<html><head><title>[Ticket ID: {{ticket_id}}] Data Request from Public Sector Open Data Portal</title></head><body><p>Salam Sejahtera,</p><p>Your request for data on <b>{{dataset_title}}</b> from {{agency}} has been accepted; the datasets you requested are now live on the site.</p><p>Please check <a href=\"https://data.gov.my/data-request?ticket_id={{ticket_id}}\">your ticket on the Data Request page</a> to view the published datasets.</p><p>Thank you for helping to improve data.gov.my!</p><p>Warm regards,<p><strong><em>Public Sector Open Data Team<br />Jabatan Digital Negara, Kementerian Digital</em></strong></p></body></html>",
-			"language": "en-GB"
-		},
-		{
-			"name": "data_request_data_published",
-			"subject": "[Tiket ID: {{ticket_id}}] Permohonan Set Data dari Portal Data Terbuka Sektor Awam",
-			"content": "Salam sejahtera,\n\nPermohonan anda untuk data bertajuk **{{dataset_title}}** telah diluluskan oleh agensi {{agency}} dan diterbitkan di portal [https://data.gov.my](https://data.gov.my/ms-MY/).\n\nPermohonan anda juga telah dikemaskini di dalam [halaman Permohonan Data](https://data.gov.my/ms-MY/data-request?ticket_id={{ticket_id}}) kami\nsebagai tiket “Diterbitkan”. Sila semak permohonan anda menggunakan kata kunci “id:84” untuk melihat status terkini tiket permohonan anda.\n\nSekian, terima kasih.\n\n**_Admin Portal Data Terbuka Sektor Awam  \nJabatan Digital Negara, Kementerian Digital_**\n\n",
-			"html_content": "<html><head><title>[Tiket ID: {{ticket_id}}] Permohonan Set Data dari Portal Data Terbuka Sektor Awam</title></head><body><p>Salam sejahtera,</p><p>Permohonan anda untuk data bertajuk <b>{{dataset_title}}</b> telah diluluskan oleh agensi {{agency}} dan diterbitkan di portal <a href=\"https://data.gov.my/ms-MY/\">https://data.gov.my</a>.</p><p>Permohonan anda juga telah dikemaskini di dalam <a href=\"https://data.gov.my/ms-MY/data-request?ticket_id={{ticket_id}}\">halaman Permohonan Data</a> kami sebagai tiket “Diterbitkan”. Sila semak permohonan anda menggunakan kata kunci “id:84” untuk melihat status terkini tiket permohonan anda.</p><p>Sekian, terima kasih.<p><strong><em>Admin Portal Data Terbuka Sektor Awam<br />Jabatan Digital Negara, Kementerian Digital</em></strong></p></p></body></html>",
-			"language": "ms-MY"
-		}
-	]
+  "send_email": true,
+  "validate_fields": [
+    "ticket_id",
+    "dataset_title",
+    "agency",
+    "remark",
+    "live_remark"
+  ],
+  "email_template": [
+    {
+      "name": "data_request_data_published",
+      "subject": "[Ticket ID: {{ticket_id}}] Data Request from Public Sector Open Data Portal",
+      "content": "Salam Sejahtera,\n\nYour request for data on **{{dataset_title}}** from {{agency}} has been accepted; the datasets you requested are now live on the site.\n\nPlease check [your ticket on the Data Request page](https://data.gov.my/data-request?ticket_id={{ticket_id}}) to view the published datasets.\n\n{{live_remark}}\n\nThank you for helping to improve data.gov.my!\n\nWarm regards,\n\n ** _Public Sector Open Data Team  \nJabatan Digital Negara, Kementerian Digital_**\n\n",
+      "html_content": "<html><head><title>[Ticket ID: {{ticket_id}}] Data Request from Public Sector Open Data Portal</title></head><body><p>Salam Sejahtera,</p><p>Your request for data on <b>{{dataset_title}}</b> from {{agency}} has been accepted; the datasets you requested are now live on the site.</p><p>Please check <a href=\"https://data.gov.my/data-request?ticket_id={{ticket_id}}\">your ticket on the Data Request page</a> to view the published datasets.</p><p>{{live_remark}}</p><p>Thank you for helping to improve data.gov.my!</p><p>Warm regards,<p><strong><em>Public Sector Open Data Team<br />Jabatan Digital Negara, Kementerian Digital</em></strong></p></body></html>",
+      "language": "en-GB"
+    },
+    {
+      "name": "data_request_data_published",
+      "subject": "[Tiket ID: {{ticket_id}}] Permohonan Set Data dari Portal Data Terbuka Sektor Awam",
+      "content": "Salam sejahtera,\n\nPermohonan anda untuk data bertajuk **{{dataset_title}}** telah diluluskan oleh agensi {{agency}} dan diterbitkan di portal kami.\n\nAnda juga boleh menyemak [tikey and di halaman Permohonan Data](https://data.gov.my/ms-MY/data-request?ticket_id={{ticket_id}}) kami untuk melihat set data yang telah diterbitkan.\n\n{{live_remark}}\n\nTerima kasih kerana membantu meningkatkan data.gov.my!\n\nSekian, terima kasih.\n\n**_Admin Portal Data Terbuka Sektor Awam  \nJabatan Digital Negara, Kementerian Digital_**\n\n",
+      "html_content": "<html><head><title>[Tiket ID: {{ticket_id}}] Permohonan Set Data dari Portal Data Terbuka Sektor Awam</title></head><body><p>Salam sejahtera,</p><p>Permohonan anda untuk data bertajuk <b>{{dataset_title}}</b> telah diluluskan oleh agensi {{agency}} dan diterbitkan di portal kami.</p><p>Anda juga boleh menyemak <a href=\"https://data.gov.my/ms-MY/data-request?ticket_id={{ticket_id}}\">tiket anda di halaman Permohonan Data</a> kami untuk melihat set data yang telah diterbitkan.</p><p>{{live_remark}}</p><p>Terima kasih kerana membantu meningkatkan data.gov.my!</p><p>Sekian, terima kasih.</p><p><strong><em>Admin Portal Data Terbuka Sektor Awam<br />Jabatan Digital Negara, Kementerian Digital</em></strong></p></body></html>",
+      "language": "ms-MY"
+    }
+  ]
 }

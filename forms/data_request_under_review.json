@@ -1,20 +1,20 @@
 {
-	"send_email": true,
-	"validate_fields": ["ticket_id", "name", "dataset_title", "agency"],
-	"email_template": [
-		{
-			"name": "data_request_under_review",
-			"subject": "[Ticket ID: {{ticket_id}}] Data Request from Public Sector Open Data Portal",
-			"content": "Dear {{name}},\n\nYour request for data on **{{dataset_title}}** from {{agency}} has been reviewed by our moderators and is now live on our [Data Request page](https://data.gov.my/data-request) as a ticket Under Review.\n\nTo access it quickly, you may search for id:{{ticket_id}} on our [Data Request page](https://data.gov.my/data-request?ticket_id={{ticket_id}}).\n\nWarm regards,\n\n ** _Public Sector Open Data Team  \nJabatan Digital Negara, Kementerian Digital_**\n\n",
-			"html_content": "<html><head><title>[Ticket ID: {{ticket_id}}] Data Request from Public Sector Open Data Portal</title></head><body><p>Dear {{name}},</p><p>Your request for data on <b>{{dataset_title}}</b> from {{agency}} has been reviewed by our moderators and is now live on our <a href=\"https://data.gov.my/data-request\">Data Request page</a> as a ticket Under Review.</p><p>To access it quickly, you may search for id:{{ticket_id}} on our <a href=\"https://data.gov.my/data-request?ticket_id={{ticket_id}}\">Data Request page</a>.</p><p>Warm regards,<p><strong><em>Public Sector Open Data Team<br />Jabatan Digital Negara, Kementerian Digital</em></strong></p></body></html>",
-			"language": "en-GB"
-		},
-		{
-			"name": "data_request_under_review",
-			"subject": "[Tiket ID: {{ticket_id}}] Permohonan Set Data dari Portal Data Terbuka Sektor Awam",
-			"content": "Salam sejahtera {{name}},\n\nPermohonan anda untuk data bertajuk **{{dataset_title}}** telah lulus semakan awal dan dikemukakan kepada agensi penyedia data bagi keputusan peringkat akhir.\n\nPermohonan anda juga telah disenaraikan di dalam [halaman Permohonan Data](https://data.gov.my/ms-MY/data-request) kami sebagai tiket “Dalam Tindakan”. Sila semak permohonan anda menggunakan kata kunci “id:84” untuk melihat status terkini tiket permohonan anda.\n\nSekian, terima kasih.\n\n**_Admin Portal Data Terbuka Sektor Awam  \nJabatan Digital Negara, Kementerian Digital_**\n\n",
-			"html_content": "<html><head><title>[Tiket ID: {{ticket_id}}] Permohonan Data dari Portal Data Terbuka Sektor Awam</title></head><body><p>Salam sejahtera {{name}},</p><p>Permohonan anda untuk data bertajuk <b>{{dataset_title}}</b> telah lulus semakan awal dan dikemukakan kepada agensi penyedia data bagi keputusan peringkat akhir.</p><p>Permohonan anda juga telah disenaraikan di dalam <a href=\"https://data.gov.my/ms-MY/data-request\">halaman Permohonan Data</a> kami sebagai tiket “Dalam Tindakan”. Sila semak permohonan anda menggunakan kata kunci “id:84” untuk melihat status terkini tiket permohonan anda.</p><p>Sekian, terima kasih.<p><strong><em>Admin Portal Data Terbuka Sektor Awam<br />Jabatan Digital Negara, Kementerian Digital</em></strong></p></p></body></html>",
-			"language": "ms-MY"
-		}
-	]
+  "send_email": true,
+  "validate_fields": ["ticket_id", "name", "dataset_title", "agency"],
+  "email_template": [
+    {
+      "name": "data_request_under_review",
+      "subject": "[Ticket ID: {{ticket_id}}] Data Request from Public Sector Open Data Portal",
+      "content": "Dear {{name}},\n\nYour request for data on **{{dataset_title}}** from {{agency}} has been reviewed by our moderators and is now live on our [Data Request page](https://data.gov.my/data-request) as a ticket Under Review.\n\nTo access it quickly, you may search for id:{{ticket_id}} on our [Data Request page](https://data.gov.my/data-request?ticket_id={{ticket_id}}).\n\nWarm regards,\n\n ** _Public Sector Open Data Team  \nJabatan Digital Negara, Kementerian Digital_**\n\n",
+      "html_content": "<html><head><title>[Ticket ID: {{ticket_id}}] Data Request from Public Sector Open Data Portal</title></head><body><p>Dear {{name}},</p><p>Your request for data on <b>{{dataset_title}}</b> from {{agency}} has been reviewed by our moderators and is now live on our <a href=\"https://data.gov.my/data-request\">Data Request page</a> as a ticket Under Review.</p><p>To access it quickly, you may search for id:{{ticket_id}} on our <a href=\"https://data.gov.my/data-request?ticket_id={{ticket_id}}\">Data Request page</a>.</p><p>Warm regards,<p><strong><em>Public Sector Open Data Team<br />Jabatan Digital Negara, Kementerian Digital</em></strong></p></body></html>",
+      "language": "en-GB"
+    },
+    {
+      "name": "data_request_under_review",
+      "subject": "[Tiket ID: {{ticket_id}}] Permohonan Set Data dari Portal Data Terbuka Sektor Awam",
+      "content": "Salam sejahtera {{name}},\n\nPermohonan anda untuk data bertajuk **{{dataset_title}}** telah lulus semakan awal oleh moderator kami dan telah disenaraikan di [halaman Permohonan Data](https://data.gov.my/ms-MY/data-request) kami sebagai tiket “Dalam Tindakan”.\n\nSila semak permohonan anda menggunakan kata kunci id:{{ticket_id}} di [halaman Permohonan Data](https://data.gov.my/data-request?ticket_id={{ticket_id}}).\n\nSekian, terima kasih.\n\n**_Admin Portal Data Terbuka Sektor Awam  \nJabatan Digital Negara, Kementerian Digital_**\n\n",
+      "html_content": "<html><head><title>[Tiket ID: {{ticket_id}}] Permohonan Data dari Portal Data Terbuka Sektor Awam</title></head><body><p>Salam sejahtera {{name}},</p><p>Permohonan anda untuk data bertajuk <b>{{dataset_title}}</b> telah lulus semakan awal oleh moderator kami dan dan telah disenaraikan di <a href=\"https://data.gov.my/ms-MY/data-request\">halaman Permohonan Data</a> kami sebagai tiket “Dalam Tindakan”.</p><p>Sila semak permohonan anda menggunakan kata kunci id:{{ticket_id}} di <a href=href=\"https://data.gov.my/data-request?ticket_id={{ticket_id}}\">halaman Permohonan Data</a>.</p><p>Sekian, terima kasih.<p><strong><em>Admin Portal Data Terbuka Sektor Awam<br />Jabatan Digital Negara, Kementerian Digital</em></strong></p></p></body></html>",
+      "language": "ms-MY"
+    }
+  ]
 }
