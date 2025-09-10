@@ -1,8 +1,8 @@
 {
     "dashboard_name": "labour",
     "manual_trigger": "2024-02-09 12:48:39.645687",
-    "data_last_updated": "2025-08-11 12:00",
-    "data_next_update": "2025-09-10 12:00",
+    "data_last_updated": "2025-09-10 12:00",
+    "data_next_update": "2025-10-10 12:00",
     "route": "/dashboard/labour-market,/ms-MY/dashboard/labour-market",
     "sites": [
         "opendosm"
@@ -14,7 +14,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/labour_timeseries.parquet",
-            "data_as_of": "2025-06",
+            "data_as_of": "2025-07",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -45,7 +45,7 @@
             "name": "bar_chart",
             "chart_type": "bar_meter",
             "chart_source": "https://storage.dosm.gov.my/dashboards/labour_barmeter.parquet",
-            "data_as_of": "2025-06",
+            "data_as_of": "2025-07",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -64,7 +64,7 @@
             "name": "choropleth_malaysia",
             "chart_type": "choropleth_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/labour_choropleth.parquet",
-            "data_as_of": "2025-06",
+            "data_as_of": "2025-07",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -81,7 +81,7 @@
             "name": "statistics",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/labour_timeseries_callout.parquet",
-            "data_as_of": "2025-06",
+            "data_as_of": "2025-07",
             "api_type": "static",
             "api_params": [],
             "variables": {
