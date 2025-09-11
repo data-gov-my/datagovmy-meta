@@ -1,0 +1,50 @@
+{
+    "publication": "mms_2025-07",
+    "publication_type": "mfg",
+    "release_date": "2025-09-11",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Jul 2025] Manufacturing",
+        "publication_type_title": "Manufacturing",
+        "description": "Monthly manufacturing statistics, covering sales, employees, and wages for manufacturing subsectors.",
+        "description_email": "DOSM has just released the latest monthly manufacturing statistics, covering sales, employees, and wages for manufacturing subsectors.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Monthly Manufacturing Statistics: Jul 2025",
+                "resource_link": "https://storage.dosm.gov.my/mfg/mms_2025-07.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Monthly Manufacturing Statistics: Jul 2025",
+                "resource_link": "https://storage.dosm.gov.my/mfg/mms_2025-07.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Jul 2025] Pembuatan",
+        "publication_type_title": "Pembuatan",
+        "description": "Statistik pembuatan bulanan, merangkumi jualan, guna tenaga, dan gaji bagi subsektor pembuatan.",
+        "description_email": "DOSM baru sahaja menerbitkan statistik pembuatan bulanan terkini, merangkumi jualan, guna tenaga, dan gaji bagi subsektor pembuatan.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Statistik Pembuatan Bulanan: Jul 2025",
+                "resource_link": "https://storage.dosm.gov.my/mfg/mms_2025-07.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Statistik Pembuatan Bulanan: Jul 2025",
+                "resource_link": "https://storage.dosm.gov.my/mfg/mms_2025-07.pdf"
+            }
+        ]
+    }
+}
