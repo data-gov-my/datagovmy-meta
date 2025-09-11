@@ -1,12 +1,12 @@
 {
     "dashboard_name": "car_popularity",
-    "data_last_updated": "2025-08-10 21:39",
-    "data_next_update": "2025-09-10 16:00",
+    "data_last_updated": "2025-09-11 18:09",
+    "data_next_update": "2025-10-10 16:00",
     "route": "/dashboard/car-popularity,/ms-MY/dashboard/car-popularity",
     "sites": [
         "datagovmy"
     ],
-    "manual_trigger": "2025-08-10 21:41:48.103908",
+    "manual_trigger": "2025-09-11 18:08:28.318939",
     "required_params": [],
     "optional_params": [
         "maker",
@@ -17,7 +17,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/vehicles_timeseries.parquet",
-            "data_as_of": "2025-07-31 23:59",
+            "data_as_of": "2025-08-31 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -42,7 +42,7 @@
             "name": "timeseries_callout",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/vehicles_timeseries_callout.parquet",
-            "data_as_of": "2025-07-31 23:59",
+            "data_as_of": "2025-08-31 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -59,7 +59,7 @@
             "name": "top_makers",
             "chart_type": "metrics_table",
             "chart_source": "https://storage.data.gov.my/dashboards/car_popularity_makers.parquet",
-            "data_as_of": "2025-07-31 23:59",
+            "data_as_of": "2025-08-31 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -76,7 +76,7 @@
             "name": "top_models",
             "chart_type": "metrics_table",
             "chart_source": "https://storage.data.gov.my/dashboards/car_popularity_models.parquet",
-            "data_as_of": "2025-07-31 23:59",
+            "data_as_of": "2025-08-31 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -94,7 +94,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/car_popularity_timeseries.parquet",
-            "data_as_of": "2025-07-31 23:59",
+            "data_as_of": "2025-08-31 23:59",
             "api_type": "individual_chart",
             "api_params": [
                 "maker",
@@ -120,7 +120,7 @@
             "name": "query_values",
             "chart_type": "query_values",
             "chart_source": "https://storage.data.gov.my/dashboards/car_popularity_timeseries.parquet",
-            "data_as_of": "2025-07-31 23:59",
+            "data_as_of": "2025-08-31 23:59",
             "api_type": "dynamic",
             "api_params": [],
             "variables": {
