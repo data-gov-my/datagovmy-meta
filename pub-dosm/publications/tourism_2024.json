@@ -1,0 +1,49 @@
+{
+    "publication": "tourism_2024",
+    "publication_type": "tourism",
+    "release_date": "2025-09-12",
+    "frequency": "YEARLY",
+    "geography": [
+        "STATE",
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2024] Tourism Satellite Account",
+        "publication_type_title": "Tourism",
+        "description": "Annual performance of the tourism sector, covering inbound, domestic, and outbound tourism.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Tourism: 2024",
+                "resource_link": "https://storage.dosm.gov.my/tourism/tourism_2024.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Tourism: 2024",
+                "resource_link": "https://storage.dosm.gov.my/tourism/tourism_2024.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2024] Akaun Satelit Pelancongan",
+        "publication_type_title": "Pelancongan",
+        "description": "Prestasi tahunan sektor pelancongan, merangkumi pelancongan inbound, domestik, dan outbound.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Pelancongan: 2024",
+                "resource_link": "https://storage.dosm.gov.my/tourism/tourism_2024.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Pelancongan: 2024",
+                "resource_link": "https://storage.dosm.gov.my/tourism/tourism_2024.pdf"
+            }
+        ]
+    }
+}
