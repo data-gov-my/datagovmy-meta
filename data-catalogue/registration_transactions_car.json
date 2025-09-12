@@ -5,7 +5,7 @@
     "description_en": "Car registration transactions from 2000 to the present. The table below provides a preview of the full dataset, which contains hundreds of thousands of transactions per year.",
     "description_ms": "Transaksi pendaftaran kereta dari 2000 sehingga kini. Jadual di bawah memberi pratonton kepada dataset penuh yang mengandungi beratus ribu transaksi bagi setiap tahun.",
     "exclude_openapi": true,
-    "manual_trigger": "2025-09-12 08:20:43.032463",
+    "manual_trigger": "2025-09-12 08:24:44.770570",
     "data_as_of": "2025-08-31 23:59",
     "last_updated": "2025-09-12 08:21",
     "next_update": "2025-10-10 16:00",
