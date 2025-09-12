@@ -1,10 +1,10 @@
 {
-    "data_last_updated": "2025-09-12 08:21",
+    "data_last_updated": "2025-09-12 08:32",
     "data_next_update": "2025-10-10 16:00",
     "sites": [
         "datagovmy"
     ],
-    "manual_trigger": "2025-09-12 08:24:44.770250",
+    "manual_trigger": "2025-09-12 08:34:36.707041",
     "explorer_name": "car_popularity",
     "route": "/dashboard/car-popularity,/ms-MY/dashboard/car-popularity",
     "tables": {
