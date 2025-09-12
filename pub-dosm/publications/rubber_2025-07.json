@@ -1,0 +1,50 @@
+{
+    "publication": "rubber_2025-07",
+    "publication_type": "agriculture",
+    "release_date": "2025-09-12",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Jul 2025] Rubber",
+        "publication_type_title": "Agriculture",
+        "description": "Monthly performance of the rubber sector, covering supply, demand, production and consumption of rubber.",
+        "description_email": "DOSM has just released the latest monthly data on the rubber sector, covering supply, demand, production and consumption of rubber.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Rubber: Jul 2025",
+                "resource_link": "https://storage.dosm.gov.my/rubber/rubber_2025-07.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Rubber: Jul 2025",
+                "resource_link": "https://storage.dosm.gov.my/rubber/rubber_2025-07.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Jul 2025] Getah",
+        "publication_type_title": "Pertanian",
+        "description": "Prestasi bulanan sektor getah, merangkumi penawaran, permintaan, pengeluaran, dan penggunaan getah.",
+        "description_email": "DOSM baru sahaja menerbitkan data bulanan terkini bagi sektor getah, merangkumi penawaran, permintaan, pengeluaran, dan penggunaan getah.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Getah: Jul 2025",
+                "resource_link": "https://storage.dosm.gov.my/rubber/rubber_2025-07.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Getah: Jul 2025",
+                "resource_link": "https://storage.dosm.gov.my/rubber/rubber_2025-07.pdf"
+            }
+        ]
+    }
+}
