@@ -9,6 +9,7 @@
       "name": "Login via GitHub",
       "desc": "Connect your account",
       "connect_to_continue": "Connect your account via GitHub to continue",
+      "github_authenticated": "You have successfully authenticate your GitHub account",
       "access_is_limited": "Access is limited to approved collaborators on the meta repository",
       "logging_in": "Logging in GitHub",
       "login_failed": "Login failed. Please try again",
@@ -36,8 +37,9 @@
       "link_csv": "CSV file link",
       "link_parquet": "Parquet file link",
       "link_preview": "Preview file link",
-      "link_placeholder": "eg. https://storage.data.gov.my/[category]/[filename].[csv|parquet]",
+      "link_placeholder": "eg. https://storage.data.gov.my/{category}/{filename}.{csv|parquet}",
       "test_link": "Test Link",
+      "fetching": "Fetching",
       "success": "Success",
       "error": "Error",
       "title_en": "Enter name (English)",
@@ -61,7 +63,9 @@
     },
     "validations": {
       "required": "Required",
-      "ensure_has_upload": "Ensure that the file has been uploaded",
+      "404": "404 Not Found. Please ensure that the file has been uploaded",
+      "403": "404 Forbidden. Please try again",
+      "failed_to_retrieve": "Failed to retrieve link. Please try again",
       "not_valid_url": "Not a valid url"
     }
   }
