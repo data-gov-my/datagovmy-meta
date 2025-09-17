@@ -70,6 +70,8 @@
       "500": "500 Internal Server Error",
       "try_again": "Please try again",
       "ensure_upload": "Please ensure that the file has been uploaded",
+      "invalid_file_format_csv": "Invalid file format. Ensure the file is in .csv",
+      "invalid_file_format_parquet": "Invalid file format. Ensure the file is in .parquet",
       "failed_to_retrieve": "Failed to retrieve link. Please try again",
       "not_valid_url": "Not a valid url",
       "network_error": "Network Error",
