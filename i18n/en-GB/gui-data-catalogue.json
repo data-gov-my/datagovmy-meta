@@ -63,10 +63,17 @@
     },
     "validations": {
       "required": "Required",
-      "404": "404 Not Found. Please ensure that the file has been uploaded",
-      "403": "404 Forbidden. Please try again",
+      "link_required": "Link is required. Provide a link to continue",
+      "400": "400 Bad Request",
+      "404": "404 Not Found",
+      "403": "403 Forbidden",
+      "500": "500 Internal Server Error",
+      "try_again": "Please try again",
+      "ensure_upload": "Please ensure that the file has been uploaded",
       "failed_to_retrieve": "Failed to retrieve link. Please try again",
-      "not_valid_url": "Not a valid url"
+      "not_valid_url": "Not a valid url",
+      "network_error": "Network Error",
+      "not_allowed": "Method not allowed"
     }
   }
 }

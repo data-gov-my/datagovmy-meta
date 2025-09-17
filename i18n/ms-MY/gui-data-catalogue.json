@@ -63,10 +63,17 @@
     },
     "validations": {
       "required": "Diperlukan",
-      "404": "404 Tidak Dijumpai. Sila pastikan fail telah dimuat naik",
-      "403": "404 Dilarang. Sila cuba lagi",
+      "link_required": "Pautan diperlukan. Isi pautan untuk meneruskan",
+      "400": "400 Ralat Permintaan",
+      "404": "404 Tidak Dijumpai. ",
+      "403": "403 Dilarang",
+      "500": "500 Ralat Server",
+      "try_again": "Sila cuba lagi",
+      "ensure_upload": "Sila pastikan fail telah dimuat naik",
       "failed_to_retrieve": "Gagal mendapatkan semula pautan. Sila cuba lagi",
-      "not_valid_url": "Bukan URL yang sah"
+      "not_valid_url": "Bukan URL yang sah",
+      "network_error": "Ralat Rangkaian",
+      "not_allowed": "Kaedah tidak dibenarkan"
     }
   }
 }
