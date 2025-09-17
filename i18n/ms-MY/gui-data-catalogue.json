@@ -1,0 +1,68 @@
+{
+  "route": "/gui/catalogue",
+  "sites": ["datagovmy"],
+  "translation": {
+    "header": "GUI Admin: Katalog Data",
+    "description": "GUI ini menghasilkan templat yang disahkan dan khusus untuk katalog data.",
+    "create_new": "Buat katalog data baru",
+    "step_auth": {
+      "name": "Log masuk melalui GitHub",
+      "desc": "Sambungkan akaun anda",
+      "connect_to_continue": "Sambungkan akaun anda melalui GitHub untuk meneruskan",
+      "access_is_limited": "Akses terhad kepada kolaborator yang diluluskan pada repositori meta",
+      "logging_in": "Log masuk GitHub",
+      "login_failed": "Log masuk gagal. Sila cuba lagi",
+      "login_successful": "Log Masuk Berjaya",
+      "logged_in": "Anda telah log masuk dengan GitHub",
+      "currently_logged_in": "Anda telah log masuk. Klik di bawah untuk log keluar jika perlu.",
+      "logout": "Log Keluar"
+    },
+    "step_basic": {
+      "name": "Metadata Asas",
+      "desc": "Semak pautan metadata",
+      "links": "Pautan Set Data Katalog",
+      "links_desc": "Masukkan dan sahkan pautan set data untuk bermula.",
+      "baseline_info": "Maklumat Asas",
+      "baseline_info_desc": "Masukkan metadata asas tentang set data ini. Maklumat ini diperlukan.",
+      "continue": "Teruskan",
+      "validate_and_continue": "Sah dan teruskan"
+    },
+    "step_catalogue": {
+      "name": "Persediaan Katalog",
+      "desc": "Namakan & konfigurasikan katalog"
+    },
+    "reset": "Tetapkan Semula",
+    "forms": {
+      "link_csv": "Pautan fail CSV",
+      "link_parquet": "Pautan fail Parquet",
+      "link_preview": "Pautan fail Pratonton",
+      "link_placeholder": "cth. https://storage.data.gov.my/[kategori]/[namafail].[csv|parquet]",
+      "test_link": "Uji Pautan",
+      "success": "Berjaya",
+      "error": "Ralat",
+      "title_en": "Masukkan nama (English)",
+      "title_ms": "Masukkan nama (Malay)",
+      "title_en_placeholder": "cth. Annual Live Birth",
+      "title_ms_placeholder": "cth. Kelahiran Hidup Tahunan",
+      "description_en": "Masukkan penerangan (English)",
+      "description_ms": "Masukkan penerangan (Malay)",
+      "description_en_placeholder": "cth. Description of the dataset content and purpose",
+      "description_ms_placeholder": "cth. Penerangan tentang kandungan dan tujuan set data",
+      "file_name": "Masukkan nama fail",
+      "file_name_placeholder": "Masukkan nama fail tanpa format, cth. births atau annual_births",
+      "choose_attributes": "Pilih Atribut",
+      "frequency": "Kekerapan",
+      "demography": "Demografi",
+      "geography": "Geografi",
+      "dataset_date": "Masukkan tarikh set data",
+      "dataset_start": "Tarikh mula",
+      "dataset_end": "Tarikh tamat",
+      "select_data_sources": "Pilih sumber data"
+    },
+    "validations": {
+      "required": "Diperlukan",
+      "ensure_has_upload": "Pastikan fail telah dimuat naik",
+      "not_valid_url": "Bukan URL yang sah"
+    }
+  }
+}

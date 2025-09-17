@@ -1,0 +1,68 @@
+{
+  "route": "/gui/catalogue",
+  "sites": ["datagovmy"],
+  "translation": {
+    "header": "Admin GUI: Data Catalogue",
+    "description": "This GUI generates validated, fully-specified templates for data catalogue.",
+    "create_new": "Create a new data catalogue",
+    "step_auth": {
+      "name": "Login via GitHub",
+      "desc": "Connect your account",
+      "connect_to_continue": "Connect your account via GitHub to continue",
+      "access_is_limited": "Access is limited to approved collaborators on the meta repository",
+      "logging_in": "Logging in GitHub",
+      "login_failed": "Login failed. Please try again",
+      "login_successful": "Login Successful",
+      "logged_in": "You're logged in with GitHub",
+      "currently_logged_in": "You are currently signed in. Click below to log out if needed.",
+      "logout": "Logout"
+    },
+    "step_basic": {
+      "name": "Baseline Metadata",
+      "desc": "Check metadata link",
+      "links": "Catalogue Dataset Link",
+      "links_desc": "Enter and validate links of the dataset to get started.",
+      "baseline_info": "Baseline Information",
+      "baseline_info_desc": "Enter baseline metadata about this dataset. This information is required.",
+      "continue": "Continue",
+      "validate_and_continue": "Validate and continue"
+    },
+    "step_catalogue": {
+      "name": "Catalogue Setup",
+      "desc": "Name & configure the catalogue"
+    },
+    "reset": "Reset",
+    "forms": {
+      "link_csv": "CSV file link",
+      "link_parquet": "Parquet file link",
+      "link_preview": "Preview file link",
+      "link_placeholder": "eg. https://storage.data.gov.my/[category]/[filename].[csv|parquet]",
+      "test_link": "Test Link",
+      "success": "Success",
+      "error": "Error",
+      "title_en": "Enter name (English)",
+      "title_ms": "Enter name (Malay)",
+      "title_en_placeholder": "eg. Annual Live Birth",
+      "title_ms_placeholder": "eg. Kelahiran Hidup Tahunan",
+      "description_en": "Enter description (English)",
+      "description_ms": "Enter description (Malay)",
+      "description_en_placeholder": "eg. Description of the dataset content and purpose",
+      "description_ms_placeholder": "eg. Penerangan tentang kandungan dan tujuan set data",
+      "file_name": "Enter file name",
+      "file_name_placeholder": "Enter filename without format, eg. births or annual_births",
+      "choose_attributes": "Choose Attributes",
+      "frequency": "Frequency",
+      "demography": "Demography",
+      "geography": "Geography",
+      "dataset_date": "Enter dataset date",
+      "dataset_start": "Begin date",
+      "dataset_end": "End date",
+      "select_data_sources": "Select data sources"
+    },
+    "validations": {
+      "required": "Required",
+      "ensure_has_upload": "Ensure that the file has been uploaded",
+      "not_valid_url": "Not a valid url"
+    }
+  }
+}
