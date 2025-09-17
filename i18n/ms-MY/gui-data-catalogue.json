@@ -26,7 +26,8 @@
       "baseline_info": "Maklumat Asas",
       "baseline_info_desc": "Masukkan metadata asas tentang set data ini. Maklumat ini diperlukan.",
       "continue": "Teruskan",
-      "validate_and_continue": "Sah dan teruskan"
+      "validate_and_continue": "Sah dan teruskan",
+      "fill_all": "Isikan maklumat yang diperlukan untuk meneruskan"
     },
     "step_catalogue": {
       "name": "Persediaan Katalog",

@@ -26,7 +26,8 @@
       "baseline_info": "Baseline Information",
       "baseline_info_desc": "Enter baseline metadata about this dataset. This information is required.",
       "continue": "Continue",
-      "validate_and_continue": "Validate and continue"
+      "validate_and_continue": "Validate and continue",
+      "fill_all": "Fill up the required info to continue"
     },
     "step_catalogue": {
       "name": "Catalogue Setup",
