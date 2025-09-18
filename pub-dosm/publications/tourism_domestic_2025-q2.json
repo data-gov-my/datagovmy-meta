@@ -1,0 +1,48 @@
+{
+    "publication": "tourism_domestic_2025-q2",
+    "publication_type": "tourism",
+    "release_date": "2025-09-18",
+    "frequency": "QUARTERLY",
+    "geography": [],
+    "demography": [],
+    "en": {
+        "title": "[2Q 2025] Domestic Tourism",
+        "publication_type_title": "Tourism",
+        "description": "Quarterly performance of domestic tourism, covering key statistics of domestic visits.",
+        "description_email": "DOSM has just released the latest quarterly domestic tourism data, covering key statistics of domestic visits.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Domestic Tourism: 2Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/tourism/tourism_domestic_2025-q2_en.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Domestic Tourism: 2Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/tourism/tourism_domestic_2025-q2.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST2 2025] Pelancongan Domestik",
+        "publication_type_title": "Pelancongan",
+        "description": "Prestasi suku tahunan pelancongan domestik, merangkumi statistik penting pelancongan domestik.",
+        "description_email": "DOSM telah menerbitkan data pelancongan domestik suku tahunan terkini, merangkumi statistik penting pelancongan domestik.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Pelancongan Domestik: ST2 2025",
+                "resource_link": "https://storage.dosm.gov.my/tourism/tourism_domestic_2025-q2_bm.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Pelancongan Domestik: ST2 2025",
+                "resource_link": "https://storage.dosm.gov.my/tourism/tourism_domestic_2025-q2.xlsx"
+            }
+        ]
+    }
+}
