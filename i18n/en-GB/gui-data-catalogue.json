@@ -31,7 +31,8 @@
     },
     "step_catalogue": {
       "name": "Catalogue Setup",
-      "desc": "Name & configure the catalogue"
+      "desc": "Name & configure the catalogue",
+      "section_explanation": "Sections with the edit icon can be updated. Please fill in both English and Malay, and ensure all details are correct before saving."
     },
     "reset": "Reset",
     "forms": {
@@ -58,7 +59,7 @@
       "demography": "Demography",
       "geography": "Geography",
       "dataset_date": "Enter dataset date",
-      "dataset_start": "Begin date",
+      "dataset_begin": "Begin date",
       "dataset_end": "End date",
       "select_data_sources": "Select data sources"
     },
