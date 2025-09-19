@@ -1,0 +1,83 @@
+{
+    "link_csv": "https://storage.data.gov.my/demography/births.csv",
+    "link_parquet": "https://storage.data.gov.my/demography/births.parquet",
+    "link_preview": "",
+    "title_en": "Test Data",
+    "title_ms": "Data Cuba",
+    "description_en": "ddadas",
+    "description_ms": "gasa",
+    "title_sort": 1,
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2025-09-20 19:26:00.000 +08:00",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [
+        "ETHNICITY"
+    ],
+    "dataset_begin": 2025,
+    "dataset_end": 2025,
+    "data_source": [
+        "DOSM"
+    ],
+    "methodology_en": "das",
+    "methodology_ms": "fafaf",
+    "caveat_en": "wdqr",
+    "caveat_ms": "fafasq",
+    "publication_en": "N/A",
+    "publication_ms": "N/A",
+    "related_datasets": [],
+    "last_updated": "2025-09-19 19:26:28.352 +08:00",
+    "next_update": "-",
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "eqwe",
+            "title_ms": "da",
+            "description_en": "da",
+            "description_ms": "dsa"
+        },
+        {
+            "name": "state",
+            "title_en": "faq",
+            "title_ms": "dsa",
+            "description_en": "dasf",
+            "description_ms": "da"
+        },
+        {
+            "name": "births",
+            "title_en": "saf",
+            "title_ms": "eqw",
+            "description_en": "ga",
+            "description_ms": "eq"
+        }
+    ],
+    "translations_en": {},
+    "translations_ms": {},
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Demography",
+            "category_ms": "Demografi",
+            "category_sort": 1,
+            "subcategory_en": "Births",
+            "subcategory_ms": "Kelahiran",
+            "subcategory_sort": 2
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ]
+}
