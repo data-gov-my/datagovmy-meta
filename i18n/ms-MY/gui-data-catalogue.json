@@ -58,9 +58,10 @@
       "frequency": "Kekerapan",
       "demography": "Demografi",
       "geography": "Geografi",
-      "dataset_date": "Masukkan tarikh set data",
-      "dataset_begin": "Tarikh mula",
-      "dataset_end": "Tarikh tamat",
+      "dataset_date": "Masukkan tahun set data",
+      "dataset_begin": "Tahun mula",
+      "dataset_end": "Tahun tamat",
+      "data_as_of": "Data pada",
       "select_data_sources": "Pilih sumber data"
     },
     "validations": {

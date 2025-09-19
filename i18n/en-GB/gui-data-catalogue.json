@@ -58,9 +58,10 @@
       "frequency": "Frequency",
       "demography": "Demography",
       "geography": "Geography",
-      "dataset_date": "Enter dataset date",
-      "dataset_begin": "Begin date",
-      "dataset_end": "End date",
+      "dataset_date": "Enter dataset year",
+      "dataset_begin": "Begin year",
+      "dataset_end": "End year",
+      "data_as_of": "Data as of",
       "select_data_sources": "Select data sources"
     },
     "validations": {
