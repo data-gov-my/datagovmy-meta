@@ -1,0 +1,84 @@
+{
+    "link_csv": "https://storage.data.gov.my/demography/births.csv",
+    "link_parquet": "https://storage.data.gov.my/demography/births.parquet",
+    "link_preview": "",
+    "title_en": "title",
+    "title_ms": "tajuk",
+    "description_en": "desc",
+    "description_ms": "kete",
+    "title_sort": 1,
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2025-09-19 18:19:42.025 +08:00",
+    "frequency": "YEARLY",
+    "geography": [
+        "STATE"
+    ],
+    "demography": [
+        "AGE",
+        "SEX"
+    ],
+    "dataset_begin": 2025,
+    "dataset_end": 2025,
+    "data_source": [
+        "BNM"
+    ],
+    "methodology_en": "wtv",
+    "methodology_ms": "apa",
+    "caveat_en": "wtv",
+    "caveat_ms": "apa",
+    "publication_en": "here",
+    "publication_ms": "sini",
+    "related_datasets": [],
+    "last_updated": "2025-09-19 18:19:42.026 +08:00",
+    "next_update": "-",
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "here",
+            "title_ms": "sini",
+            "description_en": "[Date] helloworld",
+            "description_ms": "[Tarikh] hidunia"
+        },
+        {
+            "name": "state",
+            "title_en": "here",
+            "title_ms": "sini",
+            "description_en": "[Date] helloworld",
+            "description_ms": "[Tarikh] hidunia"
+        },
+        {
+            "name": "births",
+            "title_en": "here",
+            "title_ms": "sini",
+            "description_en": "[Date] helloworld",
+            "description_ms": "[Tarikh] hidunia"
+        }
+    ],
+    "translations_en": {},
+    "translations_ms": {},
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Demography",
+            "category_ms": "Demografi",
+            "category_sort": 1,
+            "subcategory_en": "Births",
+            "subcategory_ms": "Kelahiran",
+            "subcategory_sort": 2
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ]
+}
