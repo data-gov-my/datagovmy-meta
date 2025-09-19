@@ -1,0 +1,83 @@
+{
+    "link_csv": "https://storage.data.gov.my/demography/births.csv",
+    "link_parquet": "https://storage.data.gov.my/demography/births.parquet",
+    "link_preview": "",
+    "title_en": "Test Data",
+    "title_ms": "Data Cuba",
+    "description_en": "my description here",
+    "description_ms": "description saya disini",
+    "title_sort": 1,
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2025-09-04 19:08:00.000 +08:00",
+    "frequency": "ONE_OFF",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [
+        "ETHNICITY"
+    ],
+    "dataset_begin": 2025,
+    "dataset_end": 2025,
+    "data_source": [
+        "JAS"
+    ],
+    "methodology_en": "yeah here",
+    "methodology_ms": "huhu",
+    "caveat_en": "text text text",
+    "caveat_ms": "perkataan perkataan perkataan",
+    "publication_en": "N/A",
+    "publication_ms": "N/A",
+    "related_datasets": [],
+    "last_updated": "2025-09-19 19:07:15.937 +08:00",
+    "next_update": "-",
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "date",
+            "title_ms": "tarikh",
+            "description_en": "dsadsasad",
+            "description_ms": "sgasfsf"
+        },
+        {
+            "name": "state",
+            "title_en": "state",
+            "title_ms": "negeri",
+            "description_en": "dsadasdsa",
+            "description_ms": "dsadasdsa"
+        },
+        {
+            "name": "births",
+            "title_en": "births",
+            "title_ms": "kelahiran",
+            "description_en": "sksksksksks",
+            "description_ms": "asdasdasd"
+        }
+    ],
+    "translations_en": {},
+    "translations_ms": {},
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Households",
+            "category_ms": "Isi Rumah",
+            "category_sort": 2,
+            "subcategory_en": "Income",
+            "subcategory_ms": "Pendapatan",
+            "subcategory_sort": 20
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ]
+}
