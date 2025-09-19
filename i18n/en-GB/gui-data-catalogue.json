@@ -39,7 +39,19 @@
       "desc": "Name & configure the catalogue",
       "section_explanation": "Sections with the edit icon can be updated. Please fill in both English and Malay, and ensure all details are correct before saving."
     },
+    "publish": {
+      "success": {
+        "heading": "Data Catalogue Submitted for Review",
+        "subheading": "A pull request has been created for this data catalogue entry. You may check the PR status in GitHub"
+      },
+      "error": {
+        "heading": "Failed to publish",
+        "subheading": "Your catalogue is not published to meta repository due to an error. Please try again"
+      },
+      "create_another_page": "Create another page"
+    },
     "reset": "Reset",
+    "retry": "Retry",
     "forms": {
       "link_csv": "CSV file link",
       "link_parquet": "Parquet file link",

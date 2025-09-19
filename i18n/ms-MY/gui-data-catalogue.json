@@ -39,7 +39,19 @@
       "desc": "Namakan & konfigurasikan katalog",
       "section_explanation": "Bahagian dengan butang edit boleh dikemas kini. Sila isi kedua-dua bahasa Inggeris dan bahasa Melayu, dan pastikan semua butiran adalah betul sebelum menyimpan."
     },
+    "publish": {
+      "success": {
+        "heading": "Katalog Data Dihantar untuk Semakan",
+        "subheading": "Permintaan tarik telah dibuat untuk entri katalog data ini. Anda boleh menyemak status PR di GitHub"
+      },
+      "error": {
+        "heading": "Gagal menerbitkan",
+        "subheading": "Katalog anda tidak diterbitkan ke repositori meta kerana terdapat ralat. Sila cuba lagi"
+      },
+      "create_another_page": "Create another page"
+    },
     "reset": "Tetapkan Semula",
+    "retry": "Cuba lagi",
     "forms": {
       "link_csv": "Pautan fail CSV",
       "link_parquet": "Pautan fail Parquet",
