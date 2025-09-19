@@ -16,7 +16,12 @@
       "login_successful": "Login Successful",
       "logged_in": "You're logged in with GitHub",
       "currently_logged_in": "You are currently signed in. Click below to log out if needed.",
-      "logout": "Logout"
+      "logout": "Logout",
+      "continue": "Continue",
+      "error": {
+        "unauthorized": "Insufficient permissions. (You are not a collaborator in the meta repo)",
+        "unknown": "Failed to sign-in. Try again."
+      }
     },
     "step_basic": {
       "name": "Baseline Metadata",
@@ -62,7 +67,8 @@
       "dataset_begin": "Begin year",
       "dataset_end": "End year",
       "data_as_of": "Data as of",
-      "select_data_sources": "Select data sources"
+      "select_data_sources": "Select data sources",
+      "category_sorting": "Add category and subcategory sorting"
     },
     "validations": {
       "required": "Required",

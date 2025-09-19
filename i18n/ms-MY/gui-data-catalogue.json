@@ -16,7 +16,12 @@
       "login_successful": "Log Masuk Berjaya",
       "logged_in": "Anda telah log masuk dengan GitHub",
       "currently_logged_in": "Anda telah log masuk. Klik di bawah untuk log keluar jika perlu.",
-      "logout": "Log Keluar"
+      "logout": "Log Keluar",
+      "continue": "Teruskan",
+      "error": {
+        "unauthorized": "Tiada dibenarkan. (Anda bukan kolaborator dalam meta repo)",
+        "unknown": "Gagal untuk log masuk. Cuba lagi."
+      }
     },
     "step_basic": {
       "name": "Metadata Asas",
@@ -62,7 +67,8 @@
       "dataset_begin": "Tahun mula",
       "dataset_end": "Tahun tamat",
       "data_as_of": "Data pada",
-      "select_data_sources": "Pilih sumber data"
+      "select_data_sources": "Pilih sumber data",
+      "category_sorting": "Tambah pengisihan kategori dan subkategori"
     },
     "validations": {
       "required": "Diperlukan",
