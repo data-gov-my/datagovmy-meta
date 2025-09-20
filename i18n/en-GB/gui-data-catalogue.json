@@ -80,7 +80,8 @@
       "dataset_end": "End year",
       "data_as_of": "Data as of",
       "select_data_sources": "Select data sources",
-      "category_sorting": "Add category and subcategory sorting"
+      "category_sorting": "Add category and subcategory sorting",
+      "title_sort": "Title sort"
     },
     "validations": {
       "required": "Required",

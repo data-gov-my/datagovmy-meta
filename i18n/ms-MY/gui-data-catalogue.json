@@ -80,7 +80,8 @@
       "dataset_end": "Tahun tamat",
       "data_as_of": "Data pada",
       "select_data_sources": "Pilih sumber data",
-      "category_sorting": "Tambah pengisihan kategori dan subkategori"
+      "category_sorting": "Tambah pengisihan kategori dan subkategori",
+      "title_sort": "Pengisihan tajuk"
     },
     "validations": {
       "required": "Diperlukan",
