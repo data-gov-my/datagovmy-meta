@@ -1,7 +1,7 @@
 {
     "link_csv": "https://storage.data.gov.my/demography/births.csv",
-    "link_parquet": "https://storage.data.gov.my/demography/arrivals.parquet",
-    "link_preview": "",
+    "link_parquet": "https://storage.data.gov.my/demography/births.parquet",
+    "link_preview": "https://storage.data.gov.my/demography/births_preview.parquet",
     "title_en": "Birth Statistics in Malaysia",
     "title_ms": "Statistik Kelahiran di Malaysia",
     "description_en": "This dataset provides historical records of the number of births in Malaysia, categorized by date and state. The data covers several decades, offering insights into birth trends over time.",
