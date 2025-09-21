@@ -37,7 +37,14 @@
     "step_catalogue": {
       "name": "Catalogue Setup",
       "desc": "Name & configure the catalogue",
-      "section_explanation": "Sections with the edit icon can be updated. Please fill in both English and Malay, and ensure all details are correct before saving."
+      "section_explanation": "Sections with the edit icon can be updated. Please fill in both English and Malay, and ensure all details are correct before saving.",
+      "draft_with_ai": "Draft with AI?",
+      "draft_with_ai_desc": "Your text will be replaced with an AI-generated draft. You can still edit it afterwards.",
+      "cancel": "Cancel",
+      "continue": "Continue",
+      "revert": "Revert",
+      "revert_draft": "Revert AI Draft?",
+      "revert_draft_desc": "This will undo all AI changes and restore your previous text"
     },
     "publish": {
       "success": {

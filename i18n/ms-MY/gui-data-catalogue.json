@@ -37,7 +37,14 @@
     "step_catalogue": {
       "name": "Persediaan Katalog",
       "desc": "Namakan & konfigurasikan katalog",
-      "section_explanation": "Bahagian dengan butang edit boleh dikemas kini. Sila isi kedua-dua bahasa Inggeris dan bahasa Melayu, dan pastikan semua butiran adalah betul sebelum menyimpan."
+      "section_explanation": "Bahagian dengan butang edit boleh dikemas kini. Sila isi kedua-dua bahasa Inggeris dan bahasa Melayu, dan pastikan semua butiran adalah betul sebelum menyimpan.",
+      "draft_with_ai": "Draf dengan AI?",
+      "draft_with_ai_desc": "Teks anda akan digantikan dengan draf yang dijana AI. Anda masih boleh mengubah teks anda selepas itu.",
+      "cancel": "Batal",
+      "continue": "Sambung",
+      "revert": "Kembalikan",
+      "revert_draft": "Kembalikan Draf AI?",
+      "revert_draft_desc": "Segala perubahan dari draf AI akan dikembalikan kepada text asal anda"
     },
     "publish": {
       "success": {
