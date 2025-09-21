@@ -1,0 +1,110 @@
+{
+  "route": "/gui/catalogue",
+  "sites": ["datagovmy"],
+  "translation": {
+    "header": "GUI Admin: Katalog Data",
+    "description": "GUI ini menghasilkan templat yang disahkan dan khusus untuk katalog data.",
+    "create_new": "Buat katalog data baru",
+    "step_auth": {
+      "name": "Log masuk melalui GitHub",
+      "desc": "Sambungkan akaun anda",
+      "connect_to_continue": "Sambungkan akaun anda melalui GitHub untuk meneruskan",
+      "github_authenticated": "Anda telah berjaya mengesahkan akaun GitHub anda",
+      "access_is_limited": "Akses terhad kepada kolaborator yang diluluskan pada repositori meta",
+      "logging_in": "Log masuk GitHub",
+      "login_failed": "Log masuk gagal. Sila cuba lagi",
+      "login_successful": "Log Masuk Berjaya",
+      "logged_in": "Anda telah log masuk dengan GitHub",
+      "currently_logged_in": "Anda telah log masuk. Klik di bawah untuk log keluar jika perlu.",
+      "logout": "Log Keluar",
+      "continue": "Teruskan",
+      "error": {
+        "unauthorized": "Tiada dibenarkan. (Anda bukan kolaborator dalam meta repo)",
+        "unknown": "Gagal untuk log masuk. Cuba lagi."
+      }
+    },
+    "step_basic": {
+      "name": "Metadata Asas",
+      "desc": "Semak pautan metadata",
+      "links": "Pautan Set Data Katalog",
+      "links_desc": "Masukkan dan sahkan pautan set data untuk bermula.",
+      "baseline_info": "Maklumat Asas",
+      "baseline_info_desc": "Masukkan metadata asas tentang set data ini. Maklumat ini diperlukan.",
+      "continue": "Teruskan",
+      "validate_and_continue": "Sah dan teruskan",
+      "fill_all": "Isikan maklumat yang diperlukan untuk meneruskan"
+    },
+    "step_catalogue": {
+      "name": "Persediaan Katalog",
+      "desc": "Namakan & konfigurasikan katalog",
+      "section_explanation": "Bahagian dengan butang edit boleh dikemas kini. Sila isi kedua-dua bahasa Inggeris dan bahasa Melayu, dan pastikan semua butiran adalah betul sebelum menyimpan.",
+      "draft_with_ai": "Draf dengan AI?",
+      "draft_with_ai_desc": "Teks anda akan digantikan dengan draf yang dijana AI. Anda masih boleh mengubah teks anda selepas itu.",
+      "cancel": "Batal",
+      "continue": "Sambung",
+      "revert": "Kembalikan",
+      "revert_draft": "Kembalikan Draf AI?",
+      "revert_draft_desc": "Segala perubahan dari draf AI akan dikembalikan kepada text asal anda"
+    },
+    "publish": {
+      "success": {
+        "heading": "Katalog Data Dihantar untuk Semakan",
+        "subheading": "Permintaan tarik telah dibuat untuk entri katalog data ini. Anda boleh menyemak status PR di GitHub"
+      },
+      "error": {
+        "heading": "Gagal menerbitkan",
+        "subheading": "Katalog anda tidak diterbitkan ke repositori meta kerana terdapat ralat. Sila cuba lagi"
+      },
+      "create_another_page": "Create another page"
+    },
+    "reset": "Tetapkan Semula",
+    "retry": "Cuba lagi",
+    "forms": {
+      "link_csv": "Pautan fail CSV",
+      "link_parquet": "Pautan fail Parquet",
+      "link_preview": "Pautan fail Pratonton",
+      "link_placeholder": "cth. https://storage.data.gov.my/{category}/{filename}.{csv|parquet}",
+      "test_link": "Uji Pautan",
+      "fetching": "Mengambil",
+      "success": "Berjaya",
+      "error": "Ralat",
+      "title_en": "Masukkan nama (English)",
+      "title_ms": "Masukkan nama (Malay)",
+      "title_en_placeholder": "cth. Annual Live Birth",
+      "title_ms_placeholder": "cth. Kelahiran Hidup Tahunan",
+      "description_en": "Masukkan penerangan (English)",
+      "description_ms": "Masukkan penerangan (Malay)",
+      "description_en_placeholder": "cth. Description of the dataset content and purpose",
+      "description_ms_placeholder": "cth. Penerangan tentang kandungan dan tujuan set data",
+      "file_name": "Masukkan nama fail",
+      "file_name_placeholder": "Masukkan nama fail tanpa format, cth. births atau annual_births",
+      "choose_attributes": "Pilih Atribut",
+      "frequency": "Kekerapan",
+      "demography": "Demografi",
+      "geography": "Geografi",
+      "dataset_date": "Masukkan tahun set data",
+      "dataset_begin": "Tahun mula",
+      "dataset_end": "Tahun tamat",
+      "data_as_of": "Data pada",
+      "select_data_sources": "Pilih sumber data",
+      "category_sorting": "Tambah pengisihan kategori dan subkategori",
+      "title_sort": "Pengisihan tajuk"
+    },
+    "validations": {
+      "required": "Diperlukan",
+      "link_required": "Pautan diperlukan. Isi pautan untuk meneruskan",
+      "400": "400 Ralat Permintaan",
+      "404": "404 Tidak Dijumpai. ",
+      "403": "403 Dilarang",
+      "500": "500 Ralat Server",
+      "try_again": "Sila cuba lagi",
+      "ensure_upload": "Sila pastikan fail telah dimuat naik",
+      "invalid_file_format_csv": "Format fail tidak sah. Pastikan fail di dalam format .csv",
+      "invalid_file_format_parquet": "Format fail tidak sah. Pastikan fail di dalam format .parquet",
+      "failed_to_retrieve": "Gagal mendapatkan semula pautan. Sila cuba lagi",
+      "not_valid_url": "Bukan URL yang sah",
+      "network_error": "Ralat Rangkaian",
+      "not_allowed": "Kaedah tidak dibenarkan"
+    }
+  }
+}

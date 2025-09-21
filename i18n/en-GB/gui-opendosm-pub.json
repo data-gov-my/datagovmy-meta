@@ -1,6 +1,6 @@
 {
   "route": "/gui/opendosm-pub",
-  "sites": ["datagovmy"],
+  "sites": ["opendosm"],
   "translation": {
     "header": "Admin GUI: OpenDOSM Publications",
     "description": "This GUI generates validated, fully-specified templates for OpenDOSM publications. For now, the workflow to upload these templates to S3 and use them to push a publication live is still manual, but will be automated from this GUI in future.",

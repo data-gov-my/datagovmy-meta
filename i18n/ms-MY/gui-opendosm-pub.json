@@ -1,6 +1,6 @@
 {
   "route": "/ms-MY/gui/opendosm-pub",
-  "sites": ["datagovmy"],
+  "sites": ["opendosm"],
   "translation": {
     "header": "GUI Admin: Penerbitan OpenDOSM",
     "description": "GUI ini menghasilkan templat yang disahkan dan khusus untuk penerbitan OpenDOSM. Buat masa ini, aliran kerja untuk memuat naik templat ini ke S3 dan proses memuat naik penerbitan ini secara langsung adalah masih manual, tetapi proses ini akan menjadi automatik pada masa hadapan",
