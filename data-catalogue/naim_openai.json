@@ -2,8 +2,8 @@
     "link_csv": "https://storage.data.gov.my/metrics/metrics_agg.csv",
     "link_parquet": "https://storage.data.gov.my/metrics/metrics_agg.parquet",
     "link_preview": "https://storage.data.gov.my/metrics/metrics_agg.parquet",
-    "title_en": "Open AI Hits",
-    "title_ms": "Open AI Hits",
+    "title_en": "Naim: Open API Hits",
+    "title_ms": "Naim: Open API Hits",
     "description_en": "This dataset contains monthly records of Open AI platform interactions, including the number of views, API hits, and downloads. It is designed to provide insights into the usage patterns of Open AI services over time.",
     "description_ms": "Set data ini mengandungi rekod bulanan interaksi platform Open AI, termasuk jumlah tontonan, hits API, dan muat turun. Ia direka untuk memberikan pandangan tentang corak penggunaan perkhidmatan Open AI dari masa ke masa.",
     "title_sort": "10",
@@ -77,12 +77,12 @@
     "site_category": [
         {
             "site": "datagovmy",
-            "category_en": "Demography",
-            "category_ms": "Demografi",
-            "category_sort": 1,
-            "subcategory_en": "Births",
-            "subcategory_ms": "Kelahiran",
-            "subcategory_sort": 2
+            "category_en": "Metadata",
+            "category_ms": "Metadata",
+            "category_sort": 120,
+            "subcategory_en": "Site Metrics",
+            "subcategory_ms": "Metrik Portal",
+            "subcategory_sort": 5
         }
     ],
     "dataviz": [
