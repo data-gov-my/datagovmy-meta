@@ -6,9 +6,9 @@
     "title_ms": "Razif: Metrik Trafik Laman Web",
     "description_en": "This dataset provides metrics related to website traffic, including views, API hits, and downloads. The data is collected on a yearly basis and represents national-level statistics.",
     "description_ms": "Set data ini menyediakan metrik berkaitan trafik laman web, termasuk paparan, hits API, dan muat turun. Data dikumpulkan secara tahunan dan mewakili statistik peringkat kebangsaan.",
-    "title_sort": "-2",
+    "title_sort": "1",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2025-09-22 11:51:00.000 +08:00",
     "frequency": "YEARLY",
     "geography": [
