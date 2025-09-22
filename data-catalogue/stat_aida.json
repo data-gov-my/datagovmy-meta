@@ -3,7 +3,7 @@
     "link_parquet": "https://storage.data.gov.my/metrics/metrics_agg.parquet",
     "link_preview": "https://storage.data.gov.my/metrics/metrics_agg.parquet",
     "title_en": "Aida: Usage Metrics for data.gov.my",
-    "title_ms": "Aida: Metrik Penggunaan untuk data.gov.my",
+    "title_ms": "Aida: Metrik Penggunaan untuk data.gov.m",
     "description_en": "This dataset provides monthly statistics on the usage of the data.gov.my portal, including the number of views, API hits, and downloads.",
     "description_ms": "Set data ini menyediakan statistik bulanan mengenai penggunaan portal data.gov.my, termasuk bilangan paparan, hits API, dan muat turun.",
     "title_sort": 1,
