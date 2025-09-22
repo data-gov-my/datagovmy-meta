@@ -1,0 +1,100 @@
+{
+    "link_csv": "https://storage.data.gov.my/metrics/metrics_agg.csv",
+    "link_parquet": "https://storage.data.gov.my/metrics/metrics_agg.parquet",
+    "link_preview": "https://storage.data.gov.my/metrics/metrics_agg.parquet",
+    "title_en": "Salina: Orang Asli Community Dataset",
+    "title_ms": "Salina: Set Data Komuniti Orang Asli",
+    "description_en": "This dataset provides information on the Orang Asli community, focusing on their demographics, including ethnicity and state distribution. It includes data on the number of views, API hits, and downloads of the dataset over time.",
+    "description_ms": "Set data ini menyediakan maklumat mengenai komuniti Orang Asli, dengan tumpuan kepada demografi mereka, termasuk pengagihan etnik dan negeri. Ia merangkumi data mengenai jumlah tontonan, hits API, dan muat turun set data sepanjang masa.",
+    "title_sort": "10",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2025-08-31 00:00:00.000 +08:00",
+    "frequency": "YEARLY",
+    "geography": [
+        "STATE"
+    ],
+    "demography": [
+        "ETHNICITY"
+    ],
+    "dataset_begin": "2000",
+    "dataset_end": 2025,
+    "data_source": [
+        "JAKOA"
+    ],
+    "methodology_en": "The data is collected annually and includes metrics such as views, API hits, and downloads. The data is aggregated at the state level and categorized by ethnicity, focusing on the Orang Asli community.",
+    "methodology_ms": "Data dikumpul setiap tahun dan merangkumi metrik seperti tontonan, hits API, dan muat turun. Data ini dikumpulkan di peringkat negeri dan dikategorikan mengikut etnik, dengan tumpuan kepada komuniti Orang Asli.",
+    "caveat_en": "The dataset is focused on the Orang Asli community, and the data may not represent other ethnic groups comprehensively. The figures are subject to changes based on data collection methods and may not reflect real-time data.",
+    "caveat_ms": "Set data ini tertumpu kepada komuniti Orang Asli, dan data mungkin tidak mewakili kumpulan etnik lain secara menyeluruh. Angka-angka tersebut tertakluk kepada perubahan berdasarkan kaedah pengumpulan data dan mungkin tidak mencerminkan data masa nyata.",
+    "publication_en": "N/A",
+    "publication_ms": "N/A",
+    "related_datasets": [],
+    "last_updated": "2025-09-22 11:46:03.396 +08:00",
+    "next_update": "-",
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "The date when the data was recorded, in YYYY-MM-DD format.",
+            "description_ms": "Tarikh apabila data direkodkan, dalam format YYYY-MM-DD."
+        },
+        {
+            "name": "views",
+            "title_en": "Views",
+            "title_ms": "Tontonan",
+            "description_en": "The number of views the dataset received on the specified date.",
+            "description_ms": "Bilangan tontonan yang diterima oleh set data pada tarikh yang ditentukan."
+        },
+        {
+            "name": "api_hits",
+            "title_en": "API Hits",
+            "title_ms": "Hits API",
+            "description_en": "The number of API requests made to access the dataset on the specified date.",
+            "description_ms": "Bilangan permintaan API yang dibuat untuk mengakses set data pada tarikh yang ditentukan."
+        },
+        {
+            "name": "downloads",
+            "title_en": "Downloads",
+            "title_ms": "Muat Turun",
+            "description_en": "The number of times the dataset was downloaded on the specified date.",
+            "description_ms": "Bilangan kali set data dimuat turun pada tarikh yang ditentukan."
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "views": "Views",
+        "api_hits": "API Hits",
+        "downloads": "Downloads"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "views": "Tontonan",
+        "api_hits": "Hits API",
+        "downloads": "Muat Turun"
+    },
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Demography",
+            "category_ms": "Demografi",
+            "category_sort": 1,
+            "subcategory_en": "Population",
+            "subcategory_ms": "Penduduk",
+            "subcategory_sort": 1
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ]
+}
