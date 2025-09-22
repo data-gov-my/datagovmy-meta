@@ -1,7 +1,7 @@
 {
     "dashboard_name": "peka_b40",
-    "data_last_updated": "2025-09-21 09:00",
-    "data_next_update": "2025-09-22 09:00",
+    "data_last_updated": "2025-09-22 09:00",
+    "data_next_update": "2025-09-23 09:00",
     "route": "/dashboard/peka-b40,/ms-MY/dashboard/peka-b40",
     "sites": [
         "kkmnow"
@@ -16,7 +16,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/pekab40_timeseries.parquet",
-            "data_as_of": "2025-09-20 23:59",
+            "data_as_of": "2025-09-21 23:59",
             "api_type": "dynamic",
             "api_params": [
                 "state"
@@ -40,7 +40,7 @@
             "name": "choropleth_malaysia",
             "chart_type": "choropleth_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/pekab40_choropleth_msia.parquet",
-            "data_as_of": "2025-09-20 23:59",
+            "data_as_of": "2025-09-21 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
