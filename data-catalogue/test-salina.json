@@ -8,7 +8,7 @@
     "description_ms": "Set data ini menyediakan maklumat mengenai komuniti Orang Asli, dengan tumpuan kepada demografi mereka, termasuk pengagihan etnik dan negeri. Ia merangkumi data mengenai jumlah tontonan, hits API, dan muat turun set data sepanjang masa.",
     "title_sort": "10",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2025-08-31 00:00:00.000 +08:00",
     "frequency": "YEARLY",
     "geography": [
