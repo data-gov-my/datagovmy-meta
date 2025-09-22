@@ -1,0 +1,102 @@
+{
+    "link_csv": "https://storage.data.gov.my/metrics/metrics_agg.csv",
+    "link_parquet": "https://storage.data.gov.my/metrics/metrics_agg.parquet",
+    "link_preview": "https://storage.data.gov.my/metrics/metrics_agg.parquet",
+    "title_en": "Usage Metrics for data.gov.my",
+    "title_ms": "Metrik Penggunaan untuk data.gov.my",
+    "description_en": "This dataset provides the total number of views, OpenAPI hits, and downloads for the Malaysian government open data portal, data.gov.my. It is updated monthly and offers insights into the usage patterns of the portal.",
+    "description_ms": "Dataset ini menyediakan jumlah keseluruhan pandangan, hits OpenAPI, dan muat turun untuk portal data terbuka kerajaan Malaysia, data.gov.my. Ia dikemas kini setiap bulan dan menawarkan pandangan mengenai corak penggunaan portal.",
+    "title_sort": "10",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2025-09-22 11:49:00.000 +08:00",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [
+        "AGE"
+    ],
+    "dataset_begin": 2025,
+    "dataset_end": 2025,
+    "data_source": [
+        "AADK",
+        "BNM",
+        "DOSM"
+    ],
+    "methodology_en": "The dataset is compiled from server logs of the data.gov.my portal, capturing the total number of page views, API calls, and file downloads each month. The data is collected automatically and processed to ensure accuracy and consistency before publication.",
+    "methodology_ms": "Dataset ini disusun daripada log pelayan portal data.gov.my, yang merekodkan jumlah keseluruhan pandangan halaman, panggilan API, dan muat turun fail setiap bulan. Data dikumpulkan secara automatik dan diproses untuk memastikan ketepatan dan konsistensi sebelum diterbitkan.",
+    "caveat_en": "The dataset reflects only the interactions that occur through the data.gov.my portal and does not account for any offline data distribution or third-party access that might occur outside of the portal's tracking capabilities.",
+    "caveat_ms": "Dataset ini hanya mencerminkan interaksi yang berlaku melalui portal data.gov.my dan tidak mengambil kira sebarang pengedaran data luar talian atau akses pihak ketiga yang mungkin berlaku di luar keupayaan penjejakan portal.",
+    "publication_en": "*Test*\n\n**Publish Data**\n- Data 1",
+    "publication_ms": "*Cubaan*\n\n**Publish Data**\n- Data 1",
+    "related_datasets": [],
+    "last_updated": "2025-09-22 09:41:29.665 +08:00",
+    "next_update": "-",
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "The date when the data was recorded, in YYYY-MM-DD format.",
+            "description_ms": "Tarikh apabila data direkodkan, dalam format YYYY-MM-DD."
+        },
+        {
+            "name": "views",
+            "title_en": "Views",
+            "title_ms": "Pandangan",
+            "description_en": "The total number of page views on data.gov.my for the given date.",
+            "description_ms": "Jumlah keseluruhan pandangan halaman di data.gov.my untuk tarikh yang diberikan."
+        },
+        {
+            "name": "api_hits",
+            "title_en": "API Hits",
+            "title_ms": "Hits API",
+            "description_en": "The total number of OpenAPI calls made to data.gov.my for the given date.",
+            "description_ms": "Jumlah keseluruhan panggilan OpenAPI yang dibuat ke data.gov.my untuk tarikh yang diberikan."
+        },
+        {
+            "name": "downloads",
+            "title_en": "Downloads",
+            "title_ms": "Muat Turun",
+            "description_en": "The total number of file downloads from data.gov.my for the given date.",
+            "description_ms": "Jumlah keseluruhan muat turun fail dari data.gov.my untuk tarikh yang diberikan."
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "views": "Views",
+        "api_hits": "API Hits",
+        "downloads": "Downloads"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "views": "Pandangan",
+        "api_hits": "Hits API",
+        "downloads": "Muat Turun"
+    },
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Metadata",
+            "category_ms": "Metadata",
+            "category_sort": 120,
+            "subcategory_en": "Site Metrics",
+            "subcategory_ms": "Metrik Portal",
+            "subcategory_sort": 5
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ]
+}
