@@ -1,0 +1,91 @@
+{
+    "link_csv": "https://storage.data.gov.my/dev/hazira_epf_dividend_rate_nan.csv",
+    "link_parquet": "https://storage.data.gov.my/dev/hazira_epf_dividend_rate_nan.parquet",
+    "link_preview": "https://storage.data.gov.my/dev/hazira_epf_dividend_rate_nan.parquet",
+    "title_en": "EPF Dividend Per Annum",
+    "title_ms": "Dividen KWSP Setiap Tahun",
+    "description_en": "This dataset provides the annual dividend rates declared by the Employees Provident Fund (EPF) in Malaysia. It includes both conventional and Shariah-compliant dividend rates from the year 1957 onwards.",
+    "description_ms": "Dataset ini menyediakan kadar dividen tahunan yang diisytiharkan oleh Kumpulan Wang Simpanan Pekerja (KWSP) di Malaysia. Ia merangkumi kadar dividen konvensional dan patuh Syariah dari tahun 1957 dan seterusnya.",
+    "title_sort": 1,
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2025-09-23 11:17:00.000 +08:00",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [
+        "NATIONALITY"
+    ],
+    "dataset_begin": "1952",
+    "dataset_end": "2024",
+    "data_source": [
+        "EPF"
+    ],
+    "methodology_en": "The dividend rates are declared annually by the Employees Provident Fund (EPF) based on the financial performance of the fund. The dataset records the rates for both conventional and Shariah-compliant schemes. The data is collected from official EPF announcements and is updated yearly to reflect the latest declared rates.",
+    "methodology_ms": "Kadar dividen diisytiharkan setiap tahun oleh Kumpulan Wang Simpanan Pekerja (KWSP) berdasarkan prestasi kewangan dana tersebut. Dataset ini merekodkan kadar untuk skim konvensional dan patuh Syariah. Data dikumpulkan daripada pengumuman rasmi KWSP dan dikemas kini setiap tahun untuk mencerminkan kadar terbaru yang diisytiharkan.",
+    "caveat_en": "The data may not include provisional or estimated dividends. Historical data may be revised if there are any changes in the official announcements by EPF.",
+    "caveat_ms": "Data mungkin tidak termasuk dividen sementara atau anggaran. Data sejarah mungkin disemak semula jika terdapat sebarang perubahan dalam pengumuman rasmi oleh KWSP.",
+    "publication_en": "N/A",
+    "publication_ms": "N/A",
+    "related_datasets": [],
+    "last_updated": "2025-09-23 11:14:29.899 +08:00",
+    "next_update": "-",
+    "fields": [
+        {
+            "name": "YEAR",
+            "title_en": "Year",
+            "title_ms": "Tahun",
+            "description_en": "The year for which the dividend rate is declared. The date is formatted as YYYY-MM-DD, with DD set to 01 to represent the annual frequency.",
+            "description_ms": "Tahun di mana kadar dividen diisytiharkan. Tarikh diformatkan sebagai YYYY-MM-DD, dengan DD ditetapkan kepada 01 untuk mewakili kekerapan tahunan."
+        },
+        {
+            "name": "CONVENSIONAL",
+            "title_en": "Conventional Dividend Rate",
+            "title_ms": "Kadar Dividen Konvensional",
+            "description_en": "The annual dividend rate declared for the conventional EPF scheme, expressed as a percentage.",
+            "description_ms": "Kadar dividen tahunan yang diisytiharkan untuk skim KWSP konvensional, dinyatakan sebagai peratusan."
+        },
+        {
+            "name": "SYARIAH",
+            "title_en": "Shariah Dividend Rate",
+            "title_ms": "Kadar Dividen Syariah",
+            "description_en": "The annual dividend rate declared for the Shariah-compliant EPF scheme, expressed as a percentage. This field may contain 'nan' for years before the Shariah scheme was introduced.",
+            "description_ms": "Kadar dividen tahunan yang diisytiharkan untuk skim KWSP patuh Syariah, dinyatakan sebagai peratusan. Medan ini mungkin mengandungi 'nan' untuk tahun-tahun sebelum skim Syariah diperkenalkan."
+        }
+    ],
+    "translations_en": {
+        "YEAR": "Year",
+        "CONVENSIONAL": "Conventional Dividend Rate",
+        "SYARIAH": "Shariah Dividend Rate"
+    },
+    "translations_ms": {
+        "YEAR": "Tahun",
+        "CONVENSIONAL": "Kadar Dividen Konvensional",
+        "SYARIAH": "Kadar Dividen Syariah"
+    },
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Public Welfare",
+            "category_ms": "Kebajikan Awam",
+            "category_sort": 43,
+            "subcategory_en": "Retirement",
+            "subcategory_ms": "Persaraan",
+            "subcategory_sort": 10
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ]
+}
