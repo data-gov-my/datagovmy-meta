@@ -56,6 +56,7 @@
         "subheading": "Katalog anda tidak diterbitkan ke repositori meta kerana terdapat ralat. Sila cuba lagi",
         "download": "Muat turun"
       },
+      "save_output": "Save output as JSON",
       "create_another_page": "Create another page"
     },
     "reset": "Tetapkan Semula",
