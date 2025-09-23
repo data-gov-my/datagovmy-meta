@@ -11,7 +11,7 @@
       "connect_to_continue": "Connect your account via GitHub to continue",
       "github_authenticated": "You have successfully authenticate your GitHub account",
       "access_is_limited": "Access is limited to approved collaborators on the meta repository",
-      "logging_in": "Logging in GitHub",
+      "logging_in": "Logging in to GitHub",
       "login_failed": "Login failed. Please try again",
       "login_successful": "Login Successful",
       "logged_in": "You're logged in with GitHub",
@@ -19,7 +19,7 @@
       "logout": "Logout",
       "continue": "Continue",
       "error": {
-        "unauthorized": "Insufficient permissions. (You are not a collaborator in the meta repo)",
+        "unauthorized": "Insufficient permissions (you are not an authorised collaborator).",
         "unknown": "Failed to sign-in. Try again."
       }
     },
@@ -56,6 +56,7 @@
         "subheading": "Your catalogue is not published to meta repository due to an error. Please try again",
         "download": "Download"
       },
+      "save_output": "Save output as JSON",
       "create_another_page": "Create another page"
     },
     "reset": "Reset",
