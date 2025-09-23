@@ -1,0 +1,89 @@
+{
+    "link_csv": "https://storage.data.gov.my/dev/naim_kwsp_dividend_rates.csv",
+    "link_parquet": "https://storage.data.gov.my/dev/naim_kwsp_dividend_rates.parquet",
+    "link_preview": "https://storage.data.gov.my/dev/naim_kwsp_dividend_rates.parquet",
+    "title_en": "EPF Annual Dividend Rate",
+    "title_ms": "Kadar Dividen Tahunan KWSP",
+    "description_en": "This dataset provides the annual dividend rates for Conventional Savings and Shariah Savings in the Employees Provident Fund (EPF) from 1959 to 2024. It includes yearly data on the dividend rates declared for both types of savings accounts.",
+    "description_ms": "Dataset ini menyediakan kadar dividen tahunan untuk Simpanan Konvensional dan Simpanan Shariah dalam Kumpulan Wang Simpanan Pekerja (KWSP) dari tahun 1959 hingga 2024. Ia merangkumi data tahunan mengenai kadar dividen yang diisytiharkan untuk kedua-dua jenis akaun simpanan.",
+    "title_sort": "10",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2025-09-23 10:28:00.000 +08:00",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": "1959",
+    "dataset_end": "2024",
+    "data_source": [
+        "EPF"
+    ],
+    "methodology_en": "The EPF Annual Dividend Rate dataset is compiled from official declarations by the Employees Provident Fund (EPF) of Malaysia. The data includes annual dividend rates for both Conventional and Shariah Savings accounts. The rates are declared at the end of each financial year based on the EPF's investment performance and other economic factors influencing returns.",
+    "methodology_ms": "Dataset Kadar Dividen Tahunan KWSP disusun daripada pengisytiharan rasmi oleh Kumpulan Wang Simpanan Pekerja (KWSP) Malaysia. Data ini merangkumi kadar dividen tahunan untuk akaun Simpanan Konvensional dan Shariah. Kadar ini diisytiharkan pada akhir setiap tahun kewangan berdasarkan prestasi pelaburan KWSP dan faktor ekonomi lain yang mempengaruhi pulangan.",
+    "caveat_en": "The data may not reflect interim changes or adjustments made by EPF during the financial year. Shariah Savings rates are available only from the year they were introduced.",
+    "caveat_ms": "Data mungkin tidak menggambarkan perubahan interim atau pelarasan yang dibuat oleh KWSP sepanjang tahun kewangan. Kadar Simpanan Shariah hanya tersedia dari tahun ia diperkenalkan.",
+    "publication_en": "N/A",
+    "publication_ms": "N/A",
+    "related_datasets": [],
+    "last_updated": "2025-09-23 10:21:12.986 +08:00",
+    "next_update": "-",
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "The date in YYYY-MM-DD format, representing the year for which the dividend rate is declared.",
+            "description_ms": "Tarikh dalam format YYYY-MM-DD, mewakili tahun di mana kadar dividen diisytiharkan."
+        },
+        {
+            "name": "conventional_rate",
+            "title_en": "Conventional Rate",
+            "title_ms": "Kadar Konvensional",
+            "description_en": "The annual dividend rate for Conventional Savings in percentage.",
+            "description_ms": "Kadar dividen tahunan untuk Simpanan Konvensional dalam peratusan."
+        },
+        {
+            "name": "shariah_rate",
+            "title_en": "Shariah Rate",
+            "title_ms": "Kadar Shariah",
+            "description_en": "The annual dividend rate for Shariah Savings in percentage. Available only from the year Shariah Savings were introduced.",
+            "description_ms": "Kadar dividen tahunan untuk Simpanan Shariah dalam peratusan. Hanya tersedia dari tahun Simpanan Shariah diperkenalkan."
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "conventional_rate": "Conventional Rate",
+        "shariah_rate": "Shariah Rate"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "conventional_rate": "Kadar Konvensional",
+        "shariah_rate": "Kadar Shariah"
+    },
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Public Administration",
+            "category_ms": "Pentadbiran Awam",
+            "category_sort": 80,
+            "subcategory_en": "Public Finance",
+            "subcategory_ms": "Kewangan Awam",
+            "subcategory_sort": 10
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ]
+}
