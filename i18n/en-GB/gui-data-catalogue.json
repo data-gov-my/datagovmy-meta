@@ -56,6 +56,7 @@
         "subheading": "Your catalogue is not published to meta repository due to an error. Please try again",
         "download": "Download"
       },
+      "save_output": "Save output as JSON",
       "create_another_page": "Create another page"
     },
     "reset": "Reset",
