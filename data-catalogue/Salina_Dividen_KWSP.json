@@ -1,0 +1,91 @@
+{
+    "link_csv": "https://storage.data.gov.my/dev/Salina_Dividen_KWSP.csv",
+    "link_parquet": "https://storage.data.gov.my/dev/Salina_Dividen_KWSP.parquet",
+    "link_preview": "https://storage.data.gov.my/dev/Salina_Dividen_KWSP.parquet",
+    "title_en": "Salina: EPF Dividend Rate",
+    "title_ms": "Salina: Kadar Dividen KWSP",
+    "description_en": "This dataset provides the annual dividend rates for the Employees Provident Fund (EPF) in Malaysia, including both Conventional and Shariah savings. The data spans several decades, offering insights into the historical performance of EPF investments.",
+    "description_ms": "Set data ini menyediakan kadar dividen tahunan untuk Kumpulan Wang Simpanan Pekerja (KWSP) di Malaysia, termasuk simpanan Konvensional dan Syariah. Data ini merangkumi beberapa dekad, memberikan pandangan tentang prestasi sejarah pelaburan KWSP.",
+    "title_sort": "10",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2025-09-23 00:00:00.000 +08:00",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [
+        "NATIONALITY"
+    ],
+    "dataset_begin": "1952",
+    "dataset_end": "2024",
+    "data_source": [
+        "EPF"
+    ],
+    "methodology_en": "The dataset is compiled from official EPF annual reports and records, detailing the dividend rates declared for both Conventional and Shariah savings. The data is collected on a yearly basis and reflects the performance of EPF investments over time.",
+    "methodology_ms": "Set data ini disusun daripada laporan tahunan rasmi KWSP dan rekod, yang memperincikan kadar dividen yang diumumkan untuk simpanan Konvensional dan Syariah. Data dikumpulkan setiap tahun dan mencerminkan prestasi pelaburan KWSP dari masa ke masa.",
+    "caveat_en": "The dataset may contain 'nan' values for Shariah savings in years before the Shariah scheme was introduced. Users should be aware that historical data for Shariah savings is limited to the years after its introduction.",
+    "caveat_ms": "Set data mungkin mengandungi nilai 'nan' untuk simpanan Syariah pada tahun-tahun sebelum skim Syariah diperkenalkan. Pengguna harus sedar bahawa data sejarah untuk simpanan Syariah terhad kepada tahun-tahun selepas pengenalannya.",
+    "publication_en": "N/A",
+    "publication_ms": "N/A",
+    "related_datasets": [],
+    "last_updated": "2025-09-23 11:10:45.357 +08:00",
+    "next_update": "-",
+    "fields": [
+        {
+            "name": "Year",
+            "title_en": "Year",
+            "title_ms": "Tahun",
+            "description_en": "The year in which the dividend rate was declared, formatted as YYYY-MM-DD with MM-DD set to 01-01 to indicate annual data.",
+            "description_ms": "Tahun di mana kadar dividen diumumkan, diformatkan sebagai YYYY-MM-DD dengan MM-DD ditetapkan kepada 01-01 untuk menunjukkan data tahunan."
+        },
+        {
+            "name": "Simpanan Konvensional(Tahunan)",
+            "title_en": "Conventional Savings (Annual)",
+            "title_ms": "Simpanan Konvensional (Tahunan)",
+            "description_en": "The annual dividend rate for Conventional savings in percentage.",
+            "description_ms": "Kadar dividen tahunan untuk simpanan Konvensional dalam peratusan."
+        },
+        {
+            "name": "Simpanan Syariah(Tahunan)",
+            "title_en": "Shariah Savings (Annual)",
+            "title_ms": "Simpanan Syariah (Tahunan)",
+            "description_en": "The annual dividend rate for Shariah savings in percentage. 'nan' indicates data not available for years before the introduction of Shariah savings.",
+            "description_ms": "Kadar dividen tahunan untuk simpanan Syariah dalam peratusan. 'nan' menunjukkan data tidak tersedia untuk tahun-tahun sebelum pengenalan simpanan Syariah."
+        }
+    ],
+    "translations_en": {
+        "Year": "Year",
+        "Simpanan Konvensional(Tahunan)": "Conventional Savings (Annual)",
+        "Simpanan Syariah(Tahunan)": "Shariah Savings (Annual)"
+    },
+    "translations_ms": {
+        "Year": "Tahun",
+        "Simpanan Konvensional(Tahunan)": "Simpanan Konvensional (Tahunan)",
+        "Simpanan Syariah(Tahunan)": "Simpanan Syariah (Tahunan)"
+    },
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Public Welfare",
+            "category_ms": "Kebajikan Awam",
+            "category_sort": 43,
+            "subcategory_en": "Retirement",
+            "subcategory_ms": "Persaraan",
+            "subcategory_sort": 10
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ]
+}
