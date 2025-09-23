@@ -54,7 +54,7 @@
       "error": {
         "heading": "Gagal menerbitkan",
         "subheading": "Katalog anda tidak diterbitkan ke repositori meta kerana terdapat ralat. Sila cuba lagi",
-        "save_output": "Simpan output sebagai JSON"
+        "save_output": "Simpan sebagai JSON"
       },
       "create_another_page": "Create another page"
     },
