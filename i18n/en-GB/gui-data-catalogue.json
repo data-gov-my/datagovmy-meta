@@ -53,7 +53,8 @@
       },
       "error": {
         "heading": "Failed to publish",
-        "subheading": "Your catalogue is not published to meta repository due to an error. Please try again"
+        "subheading": "Your catalogue is not published to meta repository due to an error. Please try again",
+        "download": "Download"
       },
       "create_another_page": "Create another page"
     },
