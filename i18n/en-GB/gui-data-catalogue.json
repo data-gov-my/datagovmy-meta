@@ -54,7 +54,7 @@
       "error": {
         "heading": "Failed to publish",
         "subheading": "Your catalogue is not published to meta repository due to an error. Please try again",
-        "save_output": "Save output as JSON"
+        "save_as_JSON": "Save output as JSON"
       },
       "create_another_page": "Create another page"
     },
