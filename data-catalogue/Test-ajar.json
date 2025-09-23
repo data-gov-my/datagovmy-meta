@@ -1,0 +1,108 @@
+{
+    "link_csv": " https://storage.dosm.gov.my/population/population_malaysia.csv",
+    "link_parquet": "https://storage.dosm.gov.my/population/population_malaysia.parquet",
+    "link_preview": "https://storage.dosm.gov.my/population/population_malaysia.parquet",
+    "title_en": "Population of Malaysia",
+    "title_ms": "Penduduk Malaysia",
+    "description_en": "The dataset provides the total population at the national level from 1970 to 2025, categorized by gender, age group, and ethnic group. The preview table shows data for the latest year only, but the full dataset can be downloaded.",
+    "description_ms": "Dataset ini menyediakan jumlah penduduk di peringkat nasional dari tahun 1970 hingga 2025, dikategorikan mengikut jantina, kumpulan umur, dan kumpulan etnik. Jadual pratonton hanya menunjukkan data bagi tahun terkini, tetapi dataset penuh boleh dimuat turun.",
+    "title_sort": 1,
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2025-09-23 10:05:00.000 +08:00",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2025,
+    "dataset_end": 2025,
+    "data_source": [
+        "DOSM"
+    ],
+    "methodology_en": "The population data from 1970, 1980, 1991, 2000, 2010, and 2020 are based on adjusted data from the Population Censuses conducted in those years. For other years, the data represents intercensal mid-year population estimates, calculated using the cohort-component method. This method estimates the population by adding births, subtracting deaths, and accounting for net migration, based on the previous year's data. For detailed methodology, refer to the Technical Notes provided by the Department of Statistics Malaysia.",
+    "methodology_ms": "Data penduduk dari tahun 1970, 1980, 1991, 2000, 2010, dan 2020 adalah berdasarkan data yang diselaraskan dari Banci Penduduk yang dijalankan pada tahun-tahun tersebut. Bagi tahun-tahun lain, data mewakili anggaran penduduk pertengahan tahun antara banci, yang dikira menggunakan kaedah komponen kohort. Kaedah ini menganggarkan populasi dengan menambah kelahiran, menolak kematian, dan mengambil kira migrasi bersih, berdasarkan data tahun sebelumnya. Untuk metodologi terperinci, rujuk Nota Teknikal yang disediakan oleh Jabatan Perangkaan Malaysia.",
+    "caveat_en": "The dataset may show slight discrepancies in breakdown totals due to rounding to one decimal place. Users should exercise caution when using the dataset in full due to varying levels of granularity over the years. Specifically, the data from 1991 onwards is more granular, providing detailed ethnic group breakdowns and includes the 85+ age category. Data from 1980-1990 includes less detailed ethnic group breakdowns and lacks the 85+ age category. Data from 1970-1979 does not include ethnic group breakdowns and lacks age categories beyond 70+.",
+    "caveat_ms": "Dataset ini mungkin menunjukkan perbezaan kecil dalam jumlah pecahan disebabkan oleh pembulatan kepada satu tempat perpuluhan. Pengguna harus berhati-hati apabila menggunakan dataset secara penuh disebabkan oleh tahap keterperincian yang berbeza-beza sepanjang tahun. Khususnya, data dari 1991 dan seterusnya adalah lebih terperinci, menyediakan pecahan kumpulan etnik yang lebih mendalam dan termasuk kategori umur 85+. Data dari 1980-1990 termasuk pecahan kumpulan etnik yang kurang terperinci dan tidak termasuk kategori umur 85+. Data dari 1970-1979 tidak termasuk pecahan kumpulan etnik dan tidak termasuk kategori umur melebihi 70+.",
+    "publication_en": "Test",
+    "publication_ms": "Test",
+    "related_datasets": [],
+    "last_updated": "2025-09-23 09:59:59.349 +08:00",
+    "next_update": "-",
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "The date in YYYY-MM-DD format, with MM-DD set to 01-01 as this is annual data.",
+            "description_ms": "Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan kepada 01-01 kerana ini adalah data tahunan."
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "Gender category, either both sexes ('both'), male ('male') or female ('female').",
+            "description_ms": "Kategori jantina, sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')."
+        },
+        {
+            "name": "age",
+            "title_en": "Age Group",
+            "title_ms": "Kumpulan Umur",
+            "description_en": "Age group category, either all age groups ('overall') or five-year age groups e.g. 0-4, 5-9, 10-14, etc. The oldest category is 85+.",
+            "description_ms": "Kategori kumpulan umur, sama ada semua kumpulan umur ('overall') atau kumpulan umur lima tahun seperti 0-4, 5-9, 10-14, dll. Kategori tertua ialah 85+."
+        },
+        {
+            "name": "ethnicity",
+            "title_en": "Ethnicity",
+            "title_ms": "Etnik",
+            "description_en": "Ethnic group category, including all ethnic groups ('overall'), Malay ('bumi_malay'), other Bumiputera ('bumi_other'), Chinese ('chinese'), Indian ('indian'), other citizens ('other_citizen'), or non-citizen residents ('other_noncitizen').",
+            "description_ms": "Kategori kumpulan etnik, termasuk semua kumpulan etnik ('overall'), Melayu ('bumi_malay'), Bumiputera lain ('bumi_other'), Cina ('chinese'), India ('indian'), warganegara lain ('other_citizen'), atau penduduk bukan warganegara ('other_noncitizen')."
+        },
+        {
+            "name": "population",
+            "title_en": "Population ('000)",
+            "title_ms": "Penduduk ('000)",
+            "description_en": "Population in thousands ('000 people).",
+            "description_ms": "Penduduk dalam ribuan ('000 orang)."
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "sex": "Sex",
+        "age": "Age Group",
+        "ethnicity": "Ethnicity",
+        "population": "Population ('000)"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "sex": "Jantina",
+        "age": "Kumpulan Umur",
+        "ethnicity": "Etnik",
+        "population": "Penduduk ('000)"
+    },
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Demography",
+            "category_ms": "Demografi",
+            "category_sort": 1,
+            "subcategory_en": "Population",
+            "subcategory_ms": "Penduduk",
+            "subcategory_sort": 1
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ]
+}
