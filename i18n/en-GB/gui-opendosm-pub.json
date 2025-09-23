@@ -13,6 +13,7 @@
     "add_more": "Add more",
     "no_resource_added": "No resources added",
     "generate_json": "Generate JSON",
+    "download": "Download",
     "forms": {
       "publication": "Publication ID",
       "publication_type": "Publication Type",
