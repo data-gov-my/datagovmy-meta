@@ -1,0 +1,99 @@
+{
+    "link_csv": "https://storage.data.gov.my/dev/aadk_negeri_pekerjaan.csv",
+    "link_parquet": "https://storage.data.gov.my/dev/aadk_negeri_pekerjaan.parquet",
+    "link_preview": "https://storage.data.gov.my/dev/aadk_negeri_pekerjaan.parquet",
+    "title_en": "Drug Addicts by State & Occupation",
+    "title_ms": "Penagih Dadah mengikut Negeri & Pekerjaan",
+    "description_en": "This dataset managed by the National Anti-Drugs Agency (NADA) in collaboration with the Department of Statistics Malaysia (DOSM), provides annual statistics on drug addiction in Malaysia. It presents data at both the national and state levels, offering insights into trends and demographic breakdowns of drug addiction by occupation. This information is crucial for understanding the impact of drug addiction across different occupational sectors and aids in policy-making and intervention strategies.",
+    "description_ms": "Dataset ini diuruskan oleh Agensi Anti Dadah Kebangsaan (AADK) dengan kerjasama Jabatan Perangkaan Malaysia (DOSM), menyediakan statistik tahunan mengenai ketagihan dadah di Malaysia. Ia memaparkan data di peringkat nasional dan negeri, memberikan pandangan tentang trend dan pecahan demografi ketagihan dadah mengikut pekerjaan. Maklumat ini penting untuk memahami impak ketagihan dadah di pelbagai sektor pekerjaan dan membantu dalam pembuatan dasar dan strategi intervensi.",
+    "title_sort": 1,
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2023-12-31 00:00:00.000 +08:00",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": "2016",
+    "dataset_end": "2023",
+    "data_source": [
+        "AADK"
+    ],
+    "methodology_en": "The data is collected and compiled annually by the National Anti-Drugs Agency (NADA) and the Department of Statistics Malaysia (DOSM). It includes information on the number of drug addicts categorized by their occupation, covering both national and state levels. The dataset is updated yearly to reflect current trends and demographic shifts in drug addiction across different occupational groups.",
+    "methodology_ms": "Data dikumpul dan disusun setiap tahun oleh Agensi Anti Dadah Kebangsaan (AADK) dan Jabatan Perangkaan Malaysia (DOSM). Ia merangkumi maklumat mengenai bilangan penagih dadah yang dikategorikan mengikut pekerjaan mereka, meliputi peringkat nasional dan negeri. Dataset ini dikemas kini setiap tahun untuk mencerminkan trend semasa dan perubahan demografi dalam ketagihan dadah di pelbagai kumpulan pekerjaan.",
+    "caveat_en": "The dataset may contain missing values for certain occupations or states due to data collection limitations. Additionally, the occupation categories are not exhaustive and may not cover all possible job roles. Users should exercise caution when interpreting trends or making comparisons across different regions or years.",
+    "caveat_ms": "Dataset ini mungkin mengandungi nilai yang hilang untuk pekerjaan atau negeri tertentu disebabkan oleh batasan pengumpulan data. Selain itu, kategori pekerjaan tidak menyeluruh dan mungkin tidak merangkumi semua peranan kerja yang mungkin. Pengguna harus berhati-hati ketika mentafsirkan trend atau membuat perbandingan merentasi pelbagai wilayah atau tahun.",
+    "publication_en": "N/A",
+    "publication_ms": "N/A",
+    "related_datasets": [],
+    "last_updated": "2023-12-31 11:21:17.330 +08:00",
+    "next_update": "-",
+    "fields": [
+        {
+            "name": "year",
+            "title_en": "Year",
+            "title_ms": "Tahun",
+            "description_en": "The year in which the data was recorded, formatted as YYYY-MM-DD.",
+            "description_ms": "Tahun di mana data direkodkan, diformatkan sebagai YYYY-MM-DD."
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "The state in Malaysia where the data was collected. This includes all states and federal territories.",
+            "description_ms": "Negeri di Malaysia di mana data dikumpulkan. Ini termasuk semua negeri dan wilayah persekutuan."
+        },
+        {
+            "name": "jobs",
+            "title_en": "Occupation",
+            "title_ms": "Pekerjaan",
+            "description_en": "The occupation category of the drug addicts. It includes various job roles and also indicates if the person is unemployed.",
+            "description_ms": "Kategori pekerjaan penagih dadah. Ia merangkumi pelbagai peranan kerja dan juga menunjukkan jika seseorang itu menganggur."
+        },
+        {
+            "name": "addicts",
+            "title_en": "Number of Addicts",
+            "title_ms": "Bilangan Penagih",
+            "description_en": "The number of drug addicts recorded in the given year and state for the specified occupation. May contain null values if data is unavailable.",
+            "description_ms": "Bilangan penagih dadah yang direkodkan pada tahun dan negeri tertentu untuk pekerjaan yang dinyatakan. Mungkin mengandungi nilai null jika data tidak tersedia."
+        }
+    ],
+    "translations_en": {
+        "year": "Year",
+        "state": "State",
+        "jobs": "Occupation",
+        "addicts": "Number of Addicts"
+    },
+    "translations_ms": {
+        "year": "Tahun",
+        "state": "Negeri",
+        "jobs": "Pekerjaan",
+        "addicts": "Bilangan Penagih"
+    },
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Public Safety",
+            "category_ms": "Keselamatan Awam",
+            "category_sort": 42,
+            "subcategory_en": "Crime",
+            "subcategory_ms": "Jenayah",
+            "subcategory_sort": 10
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ]
+}
