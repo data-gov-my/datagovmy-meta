@@ -1,0 +1,99 @@
+{
+    "link_csv": "https://storage.data.gov.my/dev/test_aadk_education_clean.csv",
+    "link_parquet": "https://storage.data.gov.my/dev/test_aadk_education_clean.parquet",
+    "link_preview": "https://storage.data.gov.my/dev/test_aadk_education_clean.parquet",
+    "title_en": "Drug Addicts by Highest Education Level",
+    "title_ms": "Penagih Dadah Mengikut Tahap Pendidikan Tertinggi",
+    "description_en": "The dataset provides information on drug addicts categorized by their highest level of education. The data is collected by the National Anti-Drugs Agency (NADA) through various treatment and rehabilitation centers across Malaysia. It includes yearly data at both national and state levels.",
+    "description_ms": "Set data ini menyediakan maklumat mengenai penagih dadah yang dikategorikan mengikut tahap pendidikan tertinggi mereka. Data ini dikumpulkan oleh Agensi Anti Dadah Kebangsaan (AADK) melalui pelbagai pusat rawatan dan pemulihan di seluruh Malaysia. Ia merangkumi data tahunan di peringkat kebangsaan dan negeri.",
+    "title_sort": 1,
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2024-01-01 00:00:00.000 +08:00",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": "2015",
+    "dataset_end": "2023",
+    "data_source": [
+        "AADK"
+    ],
+    "methodology_en": "The data is compiled annually by the National Anti-Drugs Agency (NADA) from records at various treatment and rehabilitation centers throughout Malaysia. Each entry in the dataset represents the number of drug addicts identified within a given year, categorized by their highest level of education and the state in which they were recorded.",
+    "methodology_ms": "Data ini dikumpulkan setiap tahun oleh Agensi Anti Dadah Kebangsaan (AADK) dari rekod di pelbagai pusat rawatan dan pemulihan di seluruh Malaysia. Setiap entri dalam set data ini mewakili bilangan penagih dadah yang dikenal pasti dalam tahun tertentu, dikategorikan mengikut tahap pendidikan tertinggi mereka dan negeri di mana mereka direkodkan.",
+    "caveat_en": "The dataset is based on administrative records from NADA's treatment centers and may not capture all cases of drug addiction within the community. The education level is self-reported by the individuals and may not be verified. Additionally, the data does not account for individuals who may have relapsed or those who have not sought treatment.",
+    "caveat_ms": "Set data ini berdasarkan rekod pentadbiran dari pusat rawatan AADK dan mungkin tidak merekodkan semua kes ketagihan dadah dalam komuniti. Tahap pendidikan dilaporkan sendiri oleh individu dan mungkin tidak disahkan. Selain itu, data ini tidak mengambil kira individu dengan rawatan berulang atau mereka yang tidak mendapatkan rawatan.",
+    "publication_en": "N/A",
+    "publication_ms": "N/A",
+    "related_datasets": [],
+    "last_updated": "2024-01-01 00:00:00.000 +08:00",
+    "next_update": "-",
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "The date representing the year of data collection, formatted as YYYY-MM-DD.",
+            "description_ms": "Tarikh yang mewakili tahun pengumpulan data, diformatkan sebagai YYYY-MM-DD."
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "The state in Malaysia where the data was collected. It includes individual states and the national level (Malaysia).",
+            "description_ms": "Negeri di Malaysia di mana data dikumpulkan. Ia termasuk negeri individu dan peringkat kebangsaan (Malaysia)."
+        },
+        {
+            "name": "education",
+            "title_en": "Education Level",
+            "title_ms": "Tahap Pendidikan",
+            "description_en": "The highest level of education attained by the drug addicts. Categories include 'none', 'primary', 'pmr', 'spm', 'stpm', 'tertiary', and 'others'.",
+            "description_ms": "Tahap pendidikan tertinggi yang dicapai oleh penagih dadah. Kategori termasuk 'tiada', 'rendah', 'pmr', 'spm', 'stpm', 'tinggi', dan 'lain-lain'."
+        },
+        {
+            "name": "addicts",
+            "title_en": "Number of Addicts",
+            "title_ms": "Bilangan Penagih",
+            "description_en": "The total number of drug addicts recorded for each education level and state.",
+            "description_ms": "Jumlah penagih dadah yang direkodkan untuk setiap tahap pendidikan dan negeri."
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "state": "State",
+        "education": "Education Level",
+        "addicts": "Number of Addicts"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "state": "Negeri",
+        "education": "Tahap Pendidikan",
+        "addicts": "Bilangan Penagih"
+    },
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Public Safety",
+            "category_ms": "Keselamatan Awam",
+            "category_sort": 42,
+            "subcategory_en": "Crime",
+            "subcategory_ms": "Jenayah",
+            "subcategory_sort": 10
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ]
+}
