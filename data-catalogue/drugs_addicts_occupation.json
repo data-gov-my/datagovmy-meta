@@ -2,14 +2,14 @@
     "link_csv": "https://storage.data.gov.my/dev/aadk_negeri_pekerjaan.csv",
     "link_parquet": "https://storage.data.gov.my/dev/aadk_negeri_pekerjaan.parquet",
     "link_preview": "https://storage.data.gov.my/dev/aadk_negeri_pekerjaan.parquet",
-    "title_en": "Drug Addicts By Occupation",
-    "title_ms": "Penagih Dadah Mengikut Pekerjaan",
+    "title_en": "Drug Addicts by State & Occupation",
+    "title_ms": "Penagih Dadah mengikut Negeri & Pekerjaan",
     "description_en": "This dataset managed by the National Anti-Drugs Agency (NADA) in collaboration with the Department of Statistics Malaysia (DOSM), provides annual statistics on drug addiction in Malaysia. It presents data at both the national and state levels, offering insights into trends and demographic breakdowns of drug addiction by occupation. This information is crucial for understanding the impact of drug addiction across different occupational sectors and aids in policy-making and intervention strategies.",
     "description_ms": "Dataset ini diuruskan oleh Agensi Anti Dadah Kebangsaan (AADK) dengan kerjasama Jabatan Perangkaan Malaysia (DOSM), menyediakan statistik tahunan mengenai ketagihan dadah di Malaysia. Ia memaparkan data di peringkat nasional dan negeri, memberikan pandangan tentang trend dan pecahan demografi ketagihan dadah mengikut pekerjaan. Maklumat ini penting untuk memahami impak ketagihan dadah di pelbagai sektor pekerjaan dan membantu dalam pembuatan dasar dan strategi intervensi.",
     "title_sort": 1,
     "exclude_openapi": false,
     "manual_trigger": "",
-    "data_as_of": "2025-09-24 00:00:00.000 +08:00",
+    "data_as_of": "2023-12-31 00:00:00.000 +08:00",
     "frequency": "YEARLY",
     "geography": [
         "NATIONAL",
@@ -28,7 +28,7 @@
     "publication_en": "N/A",
     "publication_ms": "N/A",
     "related_datasets": [],
-    "last_updated": "2025-09-24 11:21:17.330 +08:00",
+    "last_updated": "2023-12-31 11:21:17.330 +08:00",
     "next_update": "-",
     "fields": [
         {
