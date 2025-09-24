@@ -2,7 +2,7 @@
     "link_csv": "https://storage.data.gov.my/dev/aadk_state_age.csv",
     "link_parquet": "https://storage.data.gov.my/dev/aadk_state_age.parquet",
     "link_preview": "https://storage.data.gov.my/dev/aadk_state_age.parquet",
-    "title_en": "Drug Addicts by State & Age Group in Malaysia",
+    "title_en": "Drug Addicts by State & Age Group",
     "title_ms": "Penagih Dadah mengikut Negeri & Kumpulan Umur",
     "description_en": "This dataset provides yearly statistics on the number of drug addicts in Malaysia, broken down by state and age group. It offers insights into the demographic distribution of drug addiction across different regions and age categories in the country.",
     "description_ms": "Set data ini menyediakan statistik tahunan mengenai bilangan penagih dadah di Malaysia, yang dipecahkan mengikut negeri dan kumpulan umur. Ia menawarkan pandangan tentang taburan demografi penagihan dadah di pelbagai kawasan dan kategori umur di negara ini.",
