@@ -19,12 +19,12 @@
     "data_source": [
         "EPF"
     ],
-    "methodology_en": "Under the Employees Provident Fund (EPF) Act 1991, the EPF is required to declare a minimum dividend of 2.5% for conventional investments; there is no specified minimum for Shariah-compliant investments. This dataset tabulates the actual dividend rates declared by the EPF for both conventional and Shariah-compliant investments.",
-    "methodology_ms": "Selaras dengan Akta Kumpulan Wang Simpanan Pekerja (EPF) 1991, KWSP diwajibkan mengisytiharkan kadar dividen minimum sebanyak 2.5% untuk pelaburan konvensional, manakala tidak ada kadar minimum yang ditetapkan untuk pelaburan patuh Syariah. Set data ini memaparkan kadar dividen sebenar yang diisytiharkan oleh EPF untuk kedua-dua pelaburan konvensional dan patuh Syariah.",
+    "methodology_en": "Under the Employees Provident Fund (EPF) Act 1991, the EPF is required to declare a minimum dividend of 2.5% for conventional investments; there is no specified minimum for Shariah-compliant investments. This dataset tabulates the actual dividend rates [declared by the EPF](https://www.kwsp.gov.my/en/others/resource-centre/dividend) for both conventional and Shariah-compliant investments.",
+    "methodology_ms": "Selaras dengan Akta Kumpulan Wang Simpanan Pekerja (EPF) 1991, KWSP diwajibkan mengisytiharkan kadar dividen minimum sebanyak 2.5% untuk pelaburan konvensional, manakala tidak ada kadar minimum yang ditetapkan untuk pelaburan patuh Syariah. Set data ini memaparkan kadar dividen sebenar [yang diisytiharkan oleh KWSP](https://www.kwsp.gov.my/en/others/resource-centre/dividend) untuk kedua-dua pelaburan konvensional dan patuh Syariah.",
     "caveat_en": "The EPF's Simpanan Shariah was [launched in January 2017](https://www.kwsp.gov.my/en/w/registration-for-simpanan-shariah-opens-today) in response to high demand from EPF members during the Members' Consultation exercise. Consequently, the series for Shariah-compliant investments begins in 2017.",
     "caveat_ms": "Simpanan Shariah KWSP [dilancarkan pada Januari 2017](https://www.kwsp.gov.my/en/w/registration-for-simpanan-shariah-opens-today) susulan permintaan tinggi daripada ahli KWSP semasa Rundingan Awam. Oleh itu, siri untuk pelaburan patuh Syariah bermula pada 2017.",
-    "publication_en": "This data is fully consistent with [EPF's latest annual dividend announcement](https://www.kwsp.gov.my/en/others/resource-centre/dividend).",
-    "publication_ms": "Set data ini konsisten sepenuhnya dengan [pengumuman dividen tahunan terkini oleh KWSP](https://www.kwsp.gov.my/en/others/resource-centre/dividend).",
+    "publication_en": "N/A",
+    "publication_ms": "N/A",
     "related_datasets": [],
     "last_updated": "2025-09-24 10:50",
     "next_update": "2026-03-31 12:00",
