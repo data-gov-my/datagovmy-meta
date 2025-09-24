@@ -1,0 +1,101 @@
+{
+    "link_csv": "https://storage.data.gov.my/dev/aadk_drugs.csv",
+    "link_parquet": "https://storage.data.gov.my/dev/aadk_drugs.parquet",
+    "link_preview": "https://storage.data.gov.my/dev/aadk_drugs.parquet",
+    "title_en": "Drugs by State",
+    "title_ms": "Dadah Mengikut Negeri",
+    "description_en": "This dataset provides information on the types of drugs reported by each state in Malaysia, as recorded by the National Anti-Drugs Agency (AADK). The data is categorized based on the type of drug as defined by relevant acts, and includes the number of addicts associated with each drug type per state.",
+    "description_ms": "Set data ini menyediakan maklumat mengenai jenis-jenis dadah yang dilaporkan oleh setiap negeri di Malaysia, seperti yang direkodkan oleh Agensi Anti Dadah Kebangsaan (AADK). Data dikategorikan berdasarkan jenis dadah seperti yang ditentukan oleh akta berkaitan, dan termasuk bilangan penagih yang dikaitkan dengan setiap jenis dadah mengikut negeri.",
+    "title_sort": 1,
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2023-12-31 09:41:00.000 +08:00",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "NATIONALITY"
+    ],
+    "dataset_begin": "2015",
+    "dataset_end": "2023",
+    "data_source": [
+        "AADK"
+    ],
+    "methodology_en": "The data is collected annually from records maintained by the National Anti-Drugs Agency (AADK). Each entry in the dataset corresponds to a specific state and includes the type of drug and the number of addicts reported for that drug type. The categorization of drugs is based on existing legal definitions and classifications.",
+    "methodology_ms": "Data dikumpulkan setiap tahun daripada rekod yang diselenggara oleh Agensi Anti Dadah Kebangsaan (AADK). Setiap entri dalam set data ini merujuk kepada negeri tertentu dan termasuk jenis dadah serta bilangan penagih yang dilaporkan untuk jenis dadah tersebut. Pengkategorian dadah adalah berdasarkan definisi dan klasifikasi undang-undang sedia ada.",
+    "caveat_en": "The data represents annual records and may not reflect real-time changes or updates. Additionally, the number of addicts is reported as recorded and may not account for unreported cases or discrepancies in data collection methods across different states.",
+    "caveat_ms": "Data ini mewakili rekod tahunan dan mungkin tidak mencerminkan perubahan atau kemas kini masa nyata. Selain itu, bilangan penagih dilaporkan seperti yang direkodkan dan mungkin tidak mengambil kira kes yang tidak dilaporkan atau perbezaan dalam kaedah pengumpulan data di negeri-negeri yang berbeza.",
+    "publication_en": "N/A",
+    "publication_ms": "N/A",
+    "related_datasets": [],
+    "last_updated": "2023-12-31 09:22:58.510 +08:00",
+    "next_update": "-",
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "The date when the data was recorded, typically representing the start of the year for annual data.",
+            "description_ms": "Tarikh apabila data direkodkan, biasanya mewakili permulaan tahun untuk data tahunan."
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "The state in Malaysia where the data was collected, covering all states and federal territories.",
+            "description_ms": "Negeri di Malaysia di mana data dikumpulkan, meliputi semua negeri dan wilayah persekutuan."
+        },
+        {
+            "name": "drugs",
+            "title_en": "Drugs",
+            "title_ms": "Dadah",
+            "description_en": "The type of drug reported, categorized based on legal definitions and classifications.",
+            "description_ms": "Jenis dadah yang dilaporkan, dikategorikan berdasarkan definisi dan klasifikasi undang-undang."
+        },
+        {
+            "name": "addicts",
+            "title_en": "Addicts",
+            "title_ms": "Penagih",
+            "description_en": "The number of addicts associated with the reported type of drug in the respective state.",
+            "description_ms": "Bilangan penagih yang dikaitkan dengan jenis dadah yang dilaporkan di negeri berkenaan."
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "state": "State",
+        "drugs": "Drugs",
+        "addicts": "Addicts"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "state": "Negeri",
+        "drugs": "Dadah",
+        "addicts": "Penagih"
+    },
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Public Safety",
+            "category_ms": "Keselamatan Awam",
+            "category_sort": 42,
+            "subcategory_en": "Crime",
+            "subcategory_ms": "Jenayah",
+            "subcategory_sort": 10
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ]
+}
