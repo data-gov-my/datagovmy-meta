@@ -1,0 +1,145 @@
+{
+    "link_csv": "https://storage.data.gov.my/dev/drugs_negeri_etnik_dirty.csv",
+    "link_parquet": "https://storage.data.gov.my/dev/drugs_negeri_etnik_dirty.parquet",
+    "link_preview": "https://storage.data.gov.my/dev/drugs_negeri_etnik_dirty.parquet",
+    "title_en": "Drug Addicts by State and Ethnicity",
+    "title_ms": "Penagih Dadah Mengikut Negeri dan Etnik",
+    "description_en": "This dataset provides annual data on the number of drug addicts in Malaysia, categorized by state and ethnicity. It includes total counts as well as breakdowns by Malay, Chinese, Indian, Indigenous people of Sabah, Indigenous people of Sarawak, and other ethnicities.",
+    "description_ms": "Dataset ini menyediakan data tahunan mengenai bilangan penagih dadah di Malaysia, dikategorikan mengikut negeri dan etnik. Ia termasuk jumlah keseluruhan serta pecahan mengikut Melayu, Cina, India, Peribumi Sabah, Peribumi Sarawak, dan etnik lain-lain.",
+    "title_sort": 1,
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2025-09-24 09:56:00.000 +08:00",
+    "frequency": "YEARLY",
+    "geography": [
+        "STATE"
+    ],
+    "demography": [
+        "ETHNICITY"
+    ],
+    "dataset_begin": "2016",
+    "dataset_end": "2023",
+    "data_source": [
+        "AADK"
+    ],
+    "methodology_en": "The data is compiled from records maintained by relevant authorities on drug addiction cases across various states in Malaysia. The counts are aggregated annually and categorized by ethnicity to provide insights into demographic patterns of drug addiction.",
+    "methodology_ms": "Data dikumpulkan daripada rekod yang diselenggarakan oleh pihak berkuasa berkaitan mengenai kes penagihan dadah di pelbagai negeri di Malaysia. Bilangan ini dikumpulkan setiap tahun dan dikategorikan mengikut etnik untuk memberikan gambaran mengenai corak demografi penagihan dadah.",
+    "caveat_en": "The dataset relies on records from official sources, which may not capture all cases of drug addiction due to underreporting or unreported cases. Additionally, the ethnic categorization may not fully reflect the complex ethnic identities in Malaysia.",
+    "caveat_ms": "Dataset ini bergantung kepada rekod dari sumber rasmi, yang mungkin tidak menangkap semua kes penagihan dadah disebabkan oleh laporan yang kurang atau kes yang tidak dilaporkan. Selain itu, pengkategorian etnik mungkin tidak sepenuhnya mencerminkan identiti etnik yang kompleks di Malaysia.",
+    "publication_en": "N/A",
+    "publication_ms": "N/A",
+    "related_datasets": [],
+    "last_updated": "2025-09-24 09:55:00.507 +08:00",
+    "next_update": "-",
+    "fields": [
+        {
+            "name": "Negeri",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "The state in Malaysia where the data is recorded.",
+            "description_ms": "Negeri di Malaysia di mana data direkodkan."
+        },
+        {
+            "name": "Tahun",
+            "title_en": "Year",
+            "title_ms": "Tahun",
+            "description_en": "The year the data pertains to, formatted as YYYY-MM-DD with the date set to January 1st.",
+            "description_ms": "Tahun yang mana data berkaitan, diformatkan sebagai YYYY-MM-DD dengan tarikh ditetapkan pada 1 Januari."
+        },
+        {
+            "name": "Jumlah",
+            "title_en": "Total",
+            "title_ms": "Jumlah",
+            "description_en": "The total number of drug addicts recorded for the given state and year.",
+            "description_ms": "Jumlah keseluruhan penagih dadah yang direkodkan untuk negeri dan tahun tertentu."
+        },
+        {
+            "name": "Melayu",
+            "title_en": "Malay",
+            "title_ms": "Melayu",
+            "description_en": "The number of drug addicts identified as Malay ethnicity.",
+            "description_ms": "Bilangan penagih dadah yang dikenalpasti sebagai etnik Melayu."
+        },
+        {
+            "name": "Cina",
+            "title_en": "Chinese",
+            "title_ms": "Cina",
+            "description_en": "The number of drug addicts identified as Chinese ethnicity.",
+            "description_ms": "Bilangan penagih dadah yang dikenalpasti sebagai etnik Cina."
+        },
+        {
+            "name": "India",
+            "title_en": "Indian",
+            "title_ms": "India",
+            "description_en": "The number of drug addicts identified as Indian ethnicity.",
+            "description_ms": "Bilangan penagih dadah yang dikenalpasti sebagai etnik India."
+        },
+        {
+            "name": "Peribumi Sabah",
+            "title_en": "Indigenous People of Sabah",
+            "title_ms": "Peribumi Sabah",
+            "description_en": "The number of drug addicts identified as Indigenous people of Sabah.",
+            "description_ms": "Bilangan penagih dadah yang dikenalpasti sebagai Peribumi Sabah."
+        },
+        {
+            "name": "Peribumi Sarawak",
+            "title_en": "Indigenous People of Sarawak",
+            "title_ms": "Peribumi Sarawak",
+            "description_en": "The number of drug addicts identified as Indigenous people of Sarawak.",
+            "description_ms": "Bilangan penagih dadah yang dikenalpasti sebagai Peribumi Sarawak."
+        },
+        {
+            "name": "lain-lain",
+            "title_en": "Others",
+            "title_ms": "lain-lain",
+            "description_en": "The number of drug addicts identified as other ethnicities.",
+            "description_ms": "Bilangan penagih dadah yang dikenalpasti sebagai etnik lain-lain."
+        }
+    ],
+    "translations_en": {
+        "Negeri": "State",
+        "Tahun": "Year",
+        "Jumlah": "Total",
+        "Melayu": "Malay",
+        "Cina": "Chinese",
+        "India": "Indian",
+        "Peribumi Sabah": "Indigenous People of Sabah",
+        "Peribumi Sarawak": "Indigenous People of Sarawak",
+        "lain-lain": "Others"
+    },
+    "translations_ms": {
+        "Negeri": "Negeri",
+        "Tahun": "Tahun",
+        "Jumlah": "Jumlah",
+        "Melayu": "Melayu",
+        "Cina": "Cina",
+        "India": "India",
+        "Peribumi Sabah": "Peribumi Sabah",
+        "Peribumi Sarawak": "Peribumi Sarawak",
+        "lain-lain": "lain-lain"
+    },
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Public Safety",
+            "category_ms": "Keselamatan Awam",
+            "category_sort": 42,
+            "subcategory_en": "Crime",
+            "subcategory_ms": "Jenayah",
+            "subcategory_sort": 10
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ]
+}
