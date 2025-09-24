@@ -1,0 +1,126 @@
+{
+    "link_csv": "https://storage.data.gov.my/welfare/epf_dividend.csv",
+    "link_parquet": "https://storage.data.gov.my/welfare/epf_dividend.parquet",
+    "title_en": "Annual EPF Dividend",
+    "title_ms": "Dividen KWSP Tahunan",
+    "description_en": "Annual dividend rates declared by the EPF for conventional and Shariah-compliant investments.",
+    "description_ms": "Kadar dividen tahunan yang diisytiharkan oleh EPF bagi pelaburan konvensional serta patuh Syariah.",
+    "title_sort": 1,
+    "exclude_openapi": false,
+    "manual_trigger": "1",
+    "data_as_of": "2024",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 1952,
+    "dataset_end": 2024,
+    "data_source": [
+        "EPF"
+    ],
+    "methodology_en": "Under the Employees Provident Fund (EPF) Act 1991, the EPF is required to declare a minimum dividend of 2.5% for conventional investments; there is no specified minimum for Shariah-compliant investments. This dataset tabulates the actual dividend rates declared by the EPF for both conventional and Shariah-compliant investments.",
+    "methodology_ms": "Selaras dengan Akta Kumpulan Wang Simpanan Pekerja (EPF) 1991, KWSP diwajibkan mengisytiharkan kadar dividen minimum sebanyak 2.5% untuk pelaburan konvensional, manakala tidak ada kadar minimum yang ditetapkan untuk pelaburan patuh Syariah. Set data ini memaparkan kadar dividen sebenar yang diisytiharkan oleh EPF untuk kedua-dua pelaburan konvensional dan patuh Syariah.",
+    "caveat_en": "The EPF's Simpanan Shariah was launched in January 2017 as a Shariah-compliant investment option in response to high demand from EPF members.",
+    "caveat_ms": "Simpanan Shariah KWSP dilancarkan pada Januari 2017 sebagai pilihan pelaburan patuh Syariah, susulan permintaan tinggi daripada ahli KWSP.",
+    "publication_en": "This data is fully consistent with [EPF's latest annual dividend announcement](https://www.kwsp.gov.my/en/others/resource-centre/dividend).",
+    "publication_ms": "Set data ini konsisten sepenuhnya dengan [pengumuman dividen tahunan terkini oleh KWSP](https://www.kwsp.gov.my/en/others/resource-centre/dividend).",
+    "related_datasets": [],
+    "last_updated": "2025-09-24 10:50",
+    "next_update": "2026-03-31 12:00",
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is a yearly series",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan kepada 01-01 kerana data pada frekuensi tahunan"
+        },
+        {
+            "name": "conventional",
+            "title_en": "Conventional Dividend Rate",
+            "title_ms": "Kadar Dividen Konvensional",
+            "description_en": "[Float] The annual dividend rate declared for the conventional EPF scheme, expressed as a percentage",
+            "description_ms": "[Apung] Kadar dividen tahunan yang diisytiharkan untuk skim KWSP konvensional, dinyatakan sebagai peratusan"
+        },
+        {
+            "name": "shariah",
+            "title_en": "Shariah Dividend Rate",
+            "title_ms": "Kadar Dividen Syariah",
+            "description_en": "[Float] The annual dividend rate declared for the Shariah-compliant EPF scheme, expressed as a percentage",
+            "description_ms": "[Apung] Kadar dividen tahunan yang diisytiharkan untuk skim KWSP patuh Syariah, dinyatakan sebagai peratusan"
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "conventional": "Conventional",
+        "shariah": "Shariah",
+        "x": "Date",
+        "y1": "Dividend"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "conventional": "Konvensional",
+        "shariah": "Syariah",
+        "x": "Tarikh",
+        "y1": "Dividen"
+    },
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Public Welfare",
+            "category_ms": "Kebajikan Awam",
+            "category_sort": 43,
+            "subcategory_en": "Retirement",
+            "subcategory_ms": "Persaraan",
+            "subcategory_sort": 10
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 2,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "timeseries_conventional",
+            "title_en": "Conventional Dividend",
+            "title_ms": "Dividen Konvensional",
+            "chart_type": "TIMESERIES",
+            "config": {
+            "filter_columns": [],
+            "precision": 2,
+            "operation": "SUM",
+            "format": {
+                "x": "date",
+                "y": [
+                "conventional"
+                ]
+            }
+            }
+        },
+        {
+            "dataviz_id": "timeseries_shariah",
+            "title_en": "Shariah Dividend",
+            "title_ms": "Dividen Syariah",
+            "chart_type": "TIMESERIES",
+            "config": {
+            "filter_columns": [],
+            "precision": 2,
+            "operation": "SUM",
+            "format": {
+                "x": "date",
+                "y": [
+                "shariah"
+                ]
+            }
+            }
+        }
+    ]
+}
