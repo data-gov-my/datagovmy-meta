@@ -27,7 +27,7 @@
     "publication_ms": "Set data ini konsisten sepenuhnya dengan [pengumuman dividen tahunan terkini oleh KWSP](https://www.kwsp.gov.my/en/others/resource-centre/dividend).",
     "related_datasets": [],
     "last_updated": "2025-09-24 10:50",
-    "next_update": "2026-03-31",
+    "next_update": "2026-03-31 12:00",
     "fields": [
         {
             "name": "date",
@@ -79,9 +79,43 @@
             "title_ms": "Jadual",
             "chart_type": "TABLE",
             "config": {
-                "precision": 0,
+                "precision": 2,
                 "filter_columns": [],
                 "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "timeseries_conventional",
+            "title_en": "Conventional Dividend",
+            "title_ms": "Dividen Konvensional",
+            "chart_type": "TIMESERIES",
+            "config": {
+            "filter_columns": [],
+            "precision": 2,
+            "operation": "SUM",
+            "format": {
+                "x": "date",
+                "y": [
+                "conventional"
+                ]
+            }
+            }
+        },
+        {
+            "dataviz_id": "timeseries_shariah",
+            "title_en": "Shariah Dividend",
+            "title_ms": "Dividen Syariah",
+            "chart_type": "TIMESERIES",
+            "config": {
+            "filter_columns": [],
+            "precision": 2,
+            "operation": "SUM",
+            "format": {
+                "x": "date",
+                "y": [
+                "shariah"
+                ]
+            }
             }
         }
     ]
