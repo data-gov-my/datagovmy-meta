@@ -9,7 +9,7 @@
     "title_sort": 1,
     "exclude_openapi": false,
     "manual_trigger": "",
-    "data_as_of": "2025-09-24 09:41:00.000 +08:00",
+    "data_as_of": "2023-12-31 09:41:00.000 +08:00",
     "frequency": "YEARLY",
     "geography": [
         "NATIONAL",
@@ -30,7 +30,7 @@
     "publication_en": "N/A",
     "publication_ms": "N/A",
     "related_datasets": [],
-    "last_updated": "2025-09-24 09:22:58.510 +08:00",
+    "last_updated": "2023-12-31 09:22:58.510 +08:00",
     "next_update": "-",
     "fields": [
         {
