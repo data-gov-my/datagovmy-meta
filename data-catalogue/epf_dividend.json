@@ -7,7 +7,7 @@
     "description_ms": "Kadar dividen tahunan yang diisytiharkan oleh EPF bagi pelaburan konvensional serta patuh Syariah.",
     "title_sort": 1,
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2024",
     "frequency": "YEARLY",
     "geography": [
