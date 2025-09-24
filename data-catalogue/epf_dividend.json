@@ -54,12 +54,16 @@
     "translations_en": {
         "date": "Date",
         "conventional": "Conventional",
-        "shariah": "Shariah"
+        "shariah": "Shariah",
+        "x": "Date",
+        "y1": "Dividend"
     },
     "translations_ms": {
         "date": "Tarikh",
         "conventional": "Konvensional",
-        "shariah": "Syariah"
+        "shariah": "Syariah",
+        "x": "Tarikh",
+        "y1": "Dividen"
     },
     "site_category": [
         {
