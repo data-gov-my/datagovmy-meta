@@ -1,7 +1,7 @@
 {
-    "link_csv": "https://storage.data.gov.my/dev/test_aadk_education_clean.csv",
-    "link_parquet": "https://storage.data.gov.my/dev/test_aadk_education_clean.parquet",
-    "link_preview": "https://storage.data.gov.my/dev/test_aadk_education_clean.parquet",
+    "link_csv": "https://storage.data.gov.my/dev/drug_addicts_education.csv",
+    "link_parquet": "https://storage.data.gov.my/dev/drug_addicts_education.parquet",
+    "link_preview": "https://storage.data.gov.my/dev/drug_addicts_education.parquet",
     "title_en": "Drug Addicts by Highest Education Level",
     "title_ms": "Penagih Dadah Mengikut Tahap Pendidikan Tertinggi",
     "description_en": "The dataset provides information on drug addicts categorized by their highest level of education. The data is collected by the National Anti-Drugs Agency (NADA) through various treatment and rehabilitation centers across Malaysia. It includes yearly data at both national and state levels.",
