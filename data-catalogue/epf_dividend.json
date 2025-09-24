@@ -1,6 +1,6 @@
 {
-    "link_csv": "https://storage.data.gov.my/welfare/hazira_epf_dividend.csv",
-    "link_parquet": "https://storage.data.gov.my/dev/hazira_epf_dividend.parquet",
+    "link_csv": "https://storage.data.gov.my/welfare/epf_dividend.csv",
+    "link_parquet": "https://storage.data.gov.my/welfare/epf_dividend.parquet",
     "title_en": "Annual EPF Dividend",
     "title_ms": "Dividen KWSP Tahunan",
     "description_en": "Annual dividend rates declared by the EPF for conventional and Shariah-compliant investments.",
