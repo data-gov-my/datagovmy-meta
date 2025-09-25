@@ -1,0 +1,110 @@
+{
+    "link_csv": "https://storage.data.gov.my/dev/drug_arrest_sex_ethnic.csv",
+    "link_parquet": "https://storage.data.gov.my/dev/drug_arrest_sex_ethnic.parquet",
+    "link_preview": "https://storage.data.gov.my/dev/drug_arrest_sex_ethnic.parquet",
+    "title_en": "Drug Arrests by Sex & Ethnicity",
+    "title_ms": "Tangkapan Jenayah Dadah Mengikut Jantina & Etnik",
+    "description_en": "This dataset provides information on drug-related arrests in Malaysia, categorized by sex and ethnicity. It includes annual data on various types of drug arrests, offering insights into demographic trends in drug-related offenses.",
+    "description_ms": "Dataset ini menyediakan maklumat mengenai tangkapan berkaitan dadah di Malaysia, dikategorikan mengikut jantina dan etnik. Ia merangkumi data tahunan mengenai pelbagai jenis penangkapan dadah, memberikan pandangan mengenai trend demografi dalam kesalahan berkaitan dadah.",
+    "title_sort": 1,
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2023-12-31 17:15:00.000 +08:00",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY"
+    ],
+    "dataset_begin": "2019",
+    "dataset_end": "2023",
+    "data_source": [
+        "AADK"
+    ],
+    "methodology_en": "The dataset compiles annual records of drug-related arrests in Malaysia, categorized by sex and ethnicity. The data is collected from law enforcement agencies and reflects arrests made throughout the year. Arrest types include possession, supply, and positive urine tests for drugs. The data is aggregated to provide national-level insights into drug arrest trends.",
+    "methodology_ms": "Dataset ini menyusun rekod tahunan penangkapan berkaitan dadah di Malaysia, dikategorikan mengikut jantina dan etnik. Data dikumpulkan daripada agensi penguatkuasaan undang-undang dan mencerminkan penangkapan yang dibuat sepanjang tahun. Jenis penangkapan termasuk pemilikan, pengedaran, dan ujian air kencing positif untuk dadah. Data ini diagregatkan untuk memberikan pandangan mengenai trend penangkapan dadah di peringkat nasional.",
+    "caveat_en": "The dataset represents aggregated annual data and may not capture all nuances of individual cases. Rounding may cause slight discrepancies in totals. Data accuracy depends on reporting by law enforcement agencies.",
+    "caveat_ms": "Dataset ini mewakili data tahunan yang diagregatkan dan mungkin tidak menangkap semua perincian kes individu. Pembulatan mungkin menyebabkan sedikit perbezaan dalam jumlah keseluruhan. Ketepatan data bergantung kepada pelaporan oleh agensi penguatkuasaan undang-undang.",
+    "publication_en": "N/A",
+    "publication_ms": "N/A",
+    "related_datasets": [],
+    "last_updated": "2023-12-31 17:12:00.000 +08:00",
+    "next_update": "-",
+    "fields": [
+        {
+            "name": "arrest_types",
+            "title_en": "Arrest Types",
+            "title_ms": "Jenis Penangkapan",
+            "description_en": "The type of drug-related arrest, such as possession, supply, or positive urine test.",
+            "description_ms": "Jenis penangkapan berkaitan dadah, seperti pemilikan, pengedaran, atau ujian air kencing positif."
+        },
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "The date of the data entry, formatted as YYYY-MM-DD, representing the year of record.",
+            "description_ms": "Tarikh data dimasukkan, diformatkan sebagai YYYY-MM-DD, mewakili tahun rekod."
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "The sex of individuals involved in drug arrests, categorized as male, female, or both.",
+            "description_ms": "Jantina individu yang terlibat dalam penangkapan dadah, dikategorikan sebagai lelaki, perempuan, atau kedua-duanya."
+        },
+        {
+            "name": "ethnicity",
+            "title_en": "Ethnicity",
+            "title_ms": "Etnik",
+            "description_en": "The ethnicity of individuals involved in drug arrests, including categories such as Malay, Chinese, Indian, non-citizens, and others.",
+            "description_ms": "Etnik individu yang terlibat dalam penangkapan dadah, termasuk kategori seperti Melayu, Cina, India, bukan warganegara, dan lain-lain."
+        },
+        {
+            "name": "drug_arrests",
+            "title_en": "Drug Arrests",
+            "title_ms": "Penangkapan Dadah",
+            "description_en": "The number of drug-related arrests recorded for the specified category.",
+            "description_ms": "Bilangan penangkapan berkaitan dadah yang direkodkan untuk kategori yang ditentukan."
+        }
+    ],
+    "translations_en": {
+        "arrest_types": "Arrest Types",
+        "date": "Date",
+        "sex": "Sex",
+        "ethnicity": "Ethnicity",
+        "drug_arrests": "Drug Arrests"
+    },
+    "translations_ms": {
+        "arrest_types": "Jenis Penangkapan",
+        "date": "Tarikh",
+        "sex": "Jantina",
+        "ethnicity": "Etnik",
+        "drug_arrests": "Penangkapan Dadah"
+    },
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Public Safety",
+            "category_ms": "Keselamatan Awam",
+            "category_sort": 42,
+            "subcategory_en": "Crime",
+            "subcategory_ms": "Jenayah",
+            "subcategory_sort": 10
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ]
+}
