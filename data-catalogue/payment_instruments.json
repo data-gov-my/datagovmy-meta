@@ -1,0 +1,100 @@
+{
+    "link_csv": "https://storage.data.gov.my/dev/payment_instruments.csv",
+    "link_parquet": "https://storage.data.gov.my/dev/payment_instruments.parquet",
+    "link_preview": "https://storage.data.gov.my/dev/payment_instruments.parquet",
+    "title_en": "Electronic Payments: Instruments",
+    "title_ms": "Pembayaran Elektronik: Instrumen",
+    "description_en": "The shift to a digital economy has placed payment instruments at the forefront of economic monitoring. Every transaction from a daily coffee purchase to a massive corporate transfer is mediated by a specific instrument, which acts as a real-time signal of economic activity. These instruments, be they credit cards, debit cards, e-money, or traditional methods like cheques, are not just tools for payment; they are distinct channels of economic flow. By disaggregating high-frequency data from Bank Negara Malaysia based on the instrument used, policy makers gain granular visibility into how consumers and businesses operate.",
+    "description_ms": "Peralihan kepada ekonomi digital telah meletakkan instrumen pembayaran di barisan hadapan pemantauan ekonomi. Setiap transaksi, dari pembelian kopi harian hingga pemindahan korporat besar, dimediasi oleh instrumen tertentu, yang bertindak sebagai isyarat masa nyata bagi aktiviti ekonomi. Instrumen-instrumen ini, sama ada kad kredit, kad debit, e-wang, atau kaedah tradisional seperti cek, bukan sahaja alat untuk pembayaran; mereka adalah saluran aliran ekonomi yang berbeza. Dengan mengasingkan data frekuensi tinggi dari Bank Negara Malaysia berdasarkan instrumen yang digunakan, pembuat dasar memperoleh pandangan terperinci tentang bagaimana pengguna dan perniagaan beroperasi.",
+    "title_sort": 1,
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2025-08-01 00:01:00.000 +08:00",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [
+        "NATIONALITY"
+    ],
+    "dataset_begin": "2019",
+    "dataset_end": 2025,
+    "data_source": [
+        "BNM"
+    ],
+    "methodology_en": "The dataset is compiled by disaggregating high-frequency data from Bank Negara Malaysia. The data is collected monthly and provides insights into the usage of various payment instruments such as credit cards, debit cards, e-money, and cheques across Malaysia.",
+    "methodology_ms": "Set data ini disusun dengan mengasingkan data frekuensi tinggi dari Bank Negara Malaysia. Data dikumpulkan setiap bulan dan memberikan pandangan tentang penggunaan pelbagai instrumen pembayaran seperti kad kredit, kad debit, e-wang, dan cek di seluruh Malaysia.",
+    "caveat_en": "The dataset does not account for transactions that occur outside the formal financial system, such as cash transactions between individuals. Additionally, data accuracy is dependent on the reporting mechanisms of financial institutions and may be subject to revisions.",
+    "caveat_ms": "Set data ini tidak mengambil kira transaksi yang berlaku di luar sistem kewangan formal, seperti transaksi tunai antara individu. Selain itu, ketepatan data bergantung kepada mekanisme pelaporan institusi kewangan dan mungkin tertakluk kepada semakan semula.",
+    "publication_en": "N/A",
+    "publication_ms": "N/A",
+    "related_datasets": [],
+    "last_updated": "2025-09-25 17:57:17.678 +08:00",
+    "next_update": "-",
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "The date of the transaction data, formatted as YYYY-MM-DD, with DD set to 01 since the data is at monthly frequency.",
+            "description_ms": "Tarikh data transaksi, diformatkan sebagai YYYY-MM-DD, dengan DD ditetapkan kepada 01 kerana data adalah pada frekuensi bulanan."
+        },
+        {
+            "name": "instruments",
+            "title_en": "Instruments",
+            "title_ms": "Instrumen",
+            "description_en": "The type of payment instrument used for the transactions, such as credit cards, debit cards, e-money, etc.",
+            "description_ms": "Jenis instrumen pembayaran yang digunakan untuk transaksi, seperti kad kredit, kad debit, e-wang, dan lain-lain."
+        },
+        {
+            "name": "value",
+            "title_en": "Transaction Value",
+            "title_ms": "Nilai Transaksi",
+            "description_en": "The total value of transactions conducted using the specified instrument, measured in Malaysian Ringgit (RM).",
+            "description_ms": "Jumlah nilai transaksi yang dilakukan menggunakan instrumen yang ditentukan, diukur dalam Ringgit Malaysia (RM)."
+        },
+        {
+            "name": "volume",
+            "title_en": "Transaction Volume",
+            "title_ms": "Jumlah Transaksi",
+            "description_en": "The total number of transactions conducted using the specified instrument.",
+            "description_ms": "Jumlah keseluruhan transaksi yang dilakukan menggunakan instrumen yang ditentukan."
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "instruments": "Instruments",
+        "value": "Transaction Value",
+        "volume": "Transaction Volume"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "instruments": "Instrumen",
+        "value": "Nilai Transaksi",
+        "volume": "Jumlah Transaksi"
+    },
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Financial Markets",
+            "category_ms": "Pasaran Kewangan",
+            "category_sort": 60,
+            "subcategory_en": "Banking System",
+            "subcategory_ms": "Sistem Perbankan",
+            "subcategory_sort": 20
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ]
+}
