@@ -1,0 +1,56 @@
+{
+    "publication": "salaries_wages_2024",
+    "publication_type": "wages",
+    "release_date": "2025-09-29",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY",
+        "AGE",
+        "NATIONALITY"
+    ],
+    "en": {
+        "title": "[2024] Salaries & Wages",
+        "publication_type_title": "Salaries & Wages",
+        "description": "Annual salary and wage statistics, with breakdowns by key demographic and socioeconomic dimensions.",
+        "description_email": "DOSM has just released the latest annual salary and wage data, with breakdowns by key demographic (sex, age, ethnicity) and socioeconomic (occupation, skill level, industry, sector) dimensions.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Salaries & Wages: 2024",
+                "resource_link": "https://storage.dosm.gov.my/labour/salaries_wages_2024.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Salaries & Wages: 2024",
+                "resource_link": "https://storage.dosm.gov.my/labour/salaries_wages_2024.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2024] Gaji & Upah",
+        "publication_type_title": "Gaji & Upah",
+        "description": "Statistik gaji dan upah tahunan, dengan pecahan mengikut ciri-ciri demografi dan sosioekonomi utama.",
+        "description_email": "DOSM baru sahaja menerbitkan statistik gaji dan upah tahunan terkini, dengan pecahan mengikut ciri-ciri demografi (jantina, umur, etnik) dan sosioekonomi (jenis pekerjaan, tahap kemahiran, industri, sektor) utama.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Salaries & Wages: 2024",
+                "resource_link": "https://storage.dosm.gov.my/labour/salaries_wages_2024.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Salaries & Wages: 2024",
+                "resource_link": "https://storage.dosm.gov.my/labour/salaries_wages_2024.xlsx"
+            }
+        ]
+    }
+}
