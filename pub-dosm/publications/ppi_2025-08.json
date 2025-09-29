@@ -1,0 +1,50 @@
+{
+    "publication": "ppi_2025-08",
+    "publication_type": "ppi",
+    "release_date": "2025-09-29",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Aug 2025] Producer Price Index",
+        "publication_type_title": "Producer Price Indices",
+        "description": "Monthly producer prices broken down by MSIC section, division and group, as well as SITC section and stage of processing.",
+        "description_email": "DOSM has just released the latest monthly PPI data, with disaggregation by MSIC section, division and group, as well as SITC section and stage of processing.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Producer Price Index: Aug 2025",
+                "resource_link": "https://storage.dosm.gov.my/ppi/ppi_2025-08.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Producer Price Index: Aug 2025",
+                "resource_link": "https://storage.dosm.gov.my/ppi/ppi_2025-08.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Ogo 2025] Indeks Harga Pengeluar",
+        "publication_type_title": "Indeks Harga Pengeluar",
+        "description": "Harga pengeluar bulanan mengikut seksyen, bahagian dan kumpulan MSIC, serta seksyen dan peringkat pemprosesan SITC.",
+        "description_email": "DOSM telah menerbitkan data IHPR bulanan terkini, dengan pecahan mengikut seksyen, bahagian dan kumpulan MSIC, serta seksyen dan peringkat pemprosesan SITC.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Indeks Harga Pengeluar: Ogo 2025",
+                "resource_link": "https://storage.dosm.gov.my/ppi/ppi_2025-08.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Indeks Harga Pengeluar: Ogo 2025",
+                "resource_link": "https://storage.dosm.gov.my/ppi/ppi_2025-08.pdf"
+            }
+        ]
+    }
+}
