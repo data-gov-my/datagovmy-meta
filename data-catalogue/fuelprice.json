@@ -5,13 +5,13 @@
     "description_ms": "Harga runcit mingguan bagi petrol RON95, petrol RON97 dan diesel di Malaysia.",
     "exclude_openapi": false,
     "manual_trigger": "2025-09-25 00:00:32.192727",
-    "data_as_of": "2025-09-25 00:01",
-    "last_updated": "2025-09-24 23:59",
-    "next_update": "2025-10-01 23:59",
+    "data_as_of": "2025-09-30 00:01",
+    "last_updated": "2025-09-29 23:59",
+    "next_update": "2025-10-08 23:59",
     "methodology_en": "This dataset presents the weekly retail price of RON95 petrol, RON97 petrol, and diesel in Malaysia. Since April 2017, the retail price of fuel in Malaysia has been set on a weekly basis (except for a short period at the end of 2018 where it was announced monthly) using the Automatic Pricing Mechanism (APM). The APM is designed to allow the government to monitor the effects of changes in global crude oil prices and adjust retail fuel prices to ensure the continued welfare of the rakyat.",
     "methodology_ms": "Data ini memaparkan harga runcit mingguan bagi petrol RON95, petrol RON97 dan diesel di Malaysia. Sejak April 2017, harga runcit petrol di Malaysia telah ditetapkan pada kadar mingguan (kecuali setempoh di hujung tahun 2018 ketika harga diumumkan secara bulanan) dengan menggunakan formula Mekanisme Harga Automatik (APM). Formula APM dikhususkan untuk memboleh kerajaan memantau kesan perubahan harga minyak mentah global dan mengambil langkah bersesuaian bagi memastikan kebajikan rakyat terus terpelihara.",
-    "caveat_en": "The following information should be incorporated into any analysis of fuel prices in Malaysia:\n\n- Malaysia's goods and services tax (GST) was zero-rated on 1 June 2018, with the sales and services tax (SST) subsequently implemented on 1 September 2018. However, because petrol and diesel prices are controlled by the government, they were not affected by this.\n- Beginning 3 March 2021, the announcement of fuel prices was changed from Fridays to Wednesdays.\n- On 10 June 2024, diesel subsidies were removed in Peninsular Malaysia, leading to a discontinuous jump from RM2.15 to RM3.35 per litre. Therefore, beginning 13 June 2024, the weekly price of diesel was announced separately for Peninsular Malaysia and East Malaysia (Sarawak, Sabah, W.P. Labuan).",
-    "caveat_ms": "Maklumat tersebut harus diambil kira dalam mana-mana analisis harga bahan api di Malaysia:\n\n- Kadar cukai perkhidmatan dan barangan (GST) di Malaysia disifarkan pada 1 Jun 2018, dengan pelaksanaan cukai jualan dan perkhidmatan (SST) berkuatkuasa pada 1 September 2018. Namun, oleh kerana harga petrol dan diesel di Malaysia dikawal oleh kerajaan, maka harganya tidak terkesan oleh pertukaran tersebut.\n- Bermula 3 Mac 2021, pengumuman harga petrol dan diesel diubah dari hari Jumaat ke hari Rabu.\n- Pada 10 Jun 2024, subsidi diesel dimansuhkan di Semenanjung Malaysia, menyebabkan harga diesel meningkat dari RM2.15 ke RM3.35 seliter. Oleh itu, bermula 13 Jun 2024, pengumuman mingguan harga diesel dibuat secara berasingan bagi Semenanjung Malaysia dan Malaysia Timur (Sarawak, Sabah, W.P. Labuan).",
+    "caveat_en": "The following information should be incorporated into any analysis of fuel prices in Malaysia:\n\n- Malaysia's goods and services tax (GST) was zero-rated on 1 June 2018, with the sales and services tax (SST) subsequently implemented on 1 September 2018. However, because petrol and diesel prices are controlled by the government, they were not affected by this.\n- Beginning 3 March 2021, the announcement of fuel prices was changed from Fridays to Wednesdays.\n- On 10 June 2024, diesel subsidies were removed in Peninsular Malaysia, leading to a discontinuous jump from RM2.15 to RM3.35 per litre. Therefore, beginning 13 June 2024, the weekly price of diesel was announced separately for Peninsular Malaysia and East Malaysia (Sarawak, Sabah, W.P. Labuan).\n- On 30 Sep 2025, the price of RON95 petrol was increased to RM2.60 for the general market, lowered to RM1.99 (up to a maximum of 300 litres per month) for eligibles individuals under the BUDI 95 subsidy, and maintained at RM2.05 for commercial vehicles eligible under the Subsidised Petrol Control System (SPCS).",
+    "caveat_ms": "Maklumat tersebut harus diambil kira dalam mana-mana analisis harga bahan api di Malaysia:\n\n- Kadar cukai perkhidmatan dan barangan (GST) di Malaysia disifarkan pada 1 Jun 2018, dengan pelaksanaan cukai jualan dan perkhidmatan (SST) berkuatkuasa pada 1 September 2018. Namun, oleh kerana harga petrol dan diesel di Malaysia dikawal oleh kerajaan, maka harganya tidak terkesan oleh pertukaran tersebut.\n- Bermula 3 Mac 2021, pengumuman harga petrol dan diesel diubah dari hari Jumaat ke hari Rabu.\n- Pada 10 Jun 2024, subsidi diesel dimansuhkan di Semenanjung Malaysia, menyebabkan harga diesel meningkat dari RM2.15 ke RM3.35 seliter. Oleh itu, bermula 13 Jun 2024, pengumuman mingguan harga diesel dibuat secara berasingan bagi Semenanjung Malaysia dan Malaysia Timur (Sarawak, Sabah, W.P. Labuan).\n- Pada 30 Sep 2025, harga petrol RON95 dinaikkan kepada RM2.60 bagi pasaran umum, diturunkan kepada RM1.99 (dengan had 300 liter sebulan) bagi individu yang layak di bawah subsidi BUDI 95, dan dikekalkan pada RM2.05 bagi kenderaan komersial yang layak di bawah Sistem Kawalan Petrol Bersubsidi (SKPS).",
     "publication_en": "[MoF's weekly press statement](https://www.mof.gov.my/portal/en/component/tags/tag/price-of-petroleum) on the retail price of petroleum products.",
     "publication_ms": "[Kenyataan akhbar mingguan MoF](https://www.mof.gov.my/portal/ms/component/tags/tag/price-of-petroleum) mengenai harga runcit produk petroleum.",
     "link_parquet": "https://storage.data.gov.my/commodities/fuelprice.parquet",
@@ -22,7 +22,7 @@
     ],
     "demography": [],
     "dataset_begin": 2017,
-    "dataset_end": 2023,
+    "dataset_end": 2025,
     "data_source": [
         "MOF"
     ],
@@ -79,6 +79,20 @@
             "title_ms": "Harga Diesel (Malaysia Timur)",
             "description_en": "[Float] Price per litre of diesel in East Malaysia, in RM",
             "description_ms": "[Apung] Harga seliter diesel di Malaysia Timur, dalam RM"
+        },
+        {
+            "name": "ron95_budi95",
+            "title_en": "RON95 Petrol Price (BUDI 95)",
+            "title_ms": "Harga Petrol RON95 (BUDI 95)",
+            "description_en": "[Float] Price per litre of RON95 petrol under BUDI 95 subsidy, in RM",
+            "description_ms": "[Apung] Harga seliter petrol RON95 di bawah subsidi BUDI 95, dalam RM"
+        },
+        {
+            "name": "ron95_skps",
+            "title_en": "RON95 Petrol Price (SKPS)",
+            "title_ms": "Harga Petrol RON95 (SKPS)",
+            "description_en": "[Float] Price per litre of RON95 petrol under Subsidised Petrol Control System (SPCS), in RM",
+            "description_ms": "[Apung] Harga seliter petrol RON95 di bawah Sistem Kawalan Petrol Bersubsidi (SKPS), dalam RM"
         }
     ],
     "dataviz": [
