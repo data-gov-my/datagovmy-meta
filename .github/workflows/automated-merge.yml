@@ -1,39 +1,46 @@
 name: Auto-Merge Main to Staging
 
 on:
-    push:
-        branches:
-            - main
+  push:
+    branches:
+      - main
 
 jobs:
-    automated_merge:
-        if: startsWith(github.event.head_commit.message, 'Automated:')
-        runs-on: ubuntu-latest
+  automated_merge:
+    if: startsWith(github.event.head_commit.message, 'Automated:')
+    runs-on: ubuntu-latest
 
-        steps:
-            - uses: actions/checkout@master
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.ACTIONS_PAT }}
 
-            - name: Automated merge (staging -> main)
-              uses: devmasx/merge-branch@master
-              with:
-                  type: now
-                  from_branch: main
-                  target_branch: staging
-                  message: Automated merge from main
-                  github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Configure git author as github-actions[bot]
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-            - name: POST call datagovmy staging
-              uses: fjogeleit/http-request-action@v1
-              with:
-                  url: "https://staging.datagovmy.app/update/"
-                  method: "POST"
-                  customHeaders: '{"Authorization": "${{ secrets.WORKFLOW_TOKEN_STAGING }}"}'
-                  timeout: 30000
+      - name: Automated merge (main -> staging)
+        uses: devmasx/merge-branch@master
+        with:
+          type: now
+          from_branch: main
+          target_branch: staging
+          message: Automated merge from main
+          github_token: ${{ secrets.ACTIONS_PAT }}
 
-            - name: POST call openapi staging
-              uses: fjogeleit/http-request-action@v1
-              with:
-                  url: "https://staging.datagovmy.dev/data-catalogue/update/"
-                  method: "POST"
-                  customHeaders: '{"Authorization": "${{ secrets.DATA_CATALOGUE_TOKEN_STAGING }}"}'
-                  timeout: 30000
+      - name: POST call datagovmy staging
+        uses: fjogeleit/http-request-action@v1
+        with:
+          url: "https://staging.datagovmy.app/update/"
+          method: "POST"
+          customHeaders: '{"Authorization": "${{ secrets.WORKFLOW_TOKEN_STAGING }}"}'
+          timeout: 30000
+
+      - name: POST call openapi staging
+        uses: fjogeleit/http-request-action@v1
+        with:
+          url: "https://staging.datagovmy.dev/data-catalogue/update/"
+          method: "POST"
+          customHeaders: '{"Authorization": "${{ secrets.DATA_CATALOGUE_TOKEN_STAGING }}"}'
+          timeout: 30000
