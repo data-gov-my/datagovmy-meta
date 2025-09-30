@@ -5,10 +5,10 @@
     "description_en": "Daily GET requests made to api.data.gov.my, disaggregated by endpoint.",
     "description_ms": "Permintaan GET harian kepada api.data.gov.my, dengan pecahan mengikut endpoint.",
     "exclude_openapi": false,
-    "manual_trigger": "2025-09-30 07:38:07.326223",
-    "data_as_of": "2025-09-29 23:59",
-    "last_updated": "2025-09-30 00:10",
-    "next_update": "2025-10-01 00:10",
+    "manual_trigger": "",
+    "data_as_of": "2025-09-30 23:59",
+    "last_updated": "2025-10-01 00:02",
+    "next_update": "2025-10-02 00:10",
     "methodology_en": "This data is aggregated from transactional records produced by web analytics tools which monitor user interactions across the data.gov.my platform in real time. The data does not contain any personally identifiable information, as there is no component of data.gov.my which requires an authenticated login to access.",
     "methodology_ms": "Data ini dihasilkan daripada rekod transaksi yang dijana oleh alat analitik yang memantau interaksi pengguna di platform data.gov.my dalam masa nyata. Data ini tidak mengandungi sebarang data peribadi, kerana penggunaan data.gov.my tidak memerlukan log masuk.",
     "caveat_en": "Although the OpenAPI was live from 13 Sep 2023, disaggregated usage data is only available from 15 Dec 2023.",
@@ -91,7 +91,9 @@
             "title_ms": "Hit",
             "chart_type": "TIMESERIES",
             "config": {
-                "filter_columns": ["endpoint"],
+                "filter_columns": [
+                    "endpoint"
+                ],
                 "precision": 0,
                 "operation": "SUM",
                 "format": {
