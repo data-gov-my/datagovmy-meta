@@ -1,0 +1,50 @@
+{
+    "publication": "mesr_2025-09",
+    "publication_type": "review_monthly",
+    "release_date": "2025-09-30",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Sep 2025] Economic Statistics Review",
+        "publication_type_title": "Monthly Reviews",
+        "description": "Review and analysis of key economic statistics, covering the domestic sector, external sector, labour markets, and prices.",
+        "description_email": "DOSM has just released the latest monthly economic statistics review., covering the domestic sector, external sector, labour markets, and prices.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Economic Statistics Review: Sep 2025",
+                "resource_link": "https://storage.dosm.gov.my/analysis/mesr_2025-09.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Economic Statistics Review: Sep 2025",
+                "resource_link": "https://storage.dosm.gov.my/analysis/mesr_2025-09_en.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Sep 2025] Sorotan Statistik Ekonomi",
+        "publication_type_title": "Sorotan Bulanan",
+        "description": "Sorotan dan analisis statistik ekonomi penting, merangkumi sektor domestik, sektor luaran, pasarah buruh, dan harga.",
+        "description_email": "DOSM telah menerbitkan sorotan statistik ekonomi bulanan terkini, merangkumi sektor domestik, sektor luaran, pasarah buruh, dan harga.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Sorotan Statistik Ekonomi: Sep 2025",
+                "resource_link": "https://storage.dosm.gov.my/analysis/mesr_2025-09.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Sorotan Statistik Ekonomi: Sep 2025",
+                "resource_link": "https://storage.dosm.gov.my/analysis/mesr_2025-09_bm.pdf"
+            }
+        ]
+    }
+}

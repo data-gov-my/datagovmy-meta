@@ -1,0 +1,43 @@
+{
+    "publication": "msb_2025-07",
+    "publication_type": "review_monthly",
+    "release_date": "2025-09-30",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY",
+        "AGE"
+    ],
+    "en": {
+        "title": "[Jul 2025] Statistical Bulletin",
+        "publication_type_title": "Monthly Reviews",
+        "description": "Review of key publications during the month, covering demographic, economic, social, and environmental statistics.",
+        "description_email": "DOSM has just released the latest Monthly Statistical Bulletin, covering demographic, economic, social, and environmental statistics.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Statistical Bulletin: Jul 2025",
+                "resource_link": "https://storage.dosm.gov.my/analysis/msb_2025-07.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Jul 2025] Buletin Statistik",
+        "publication_type_title": "Sorotan Bulanan",
+        "description": "Sorotan penerbitan penting semasa bulan tersebut, merangkumi statistik demografi, ekonomi, sosial, dan alam sekitar.",
+        "description_email": "DOSM telah menerbitkan Buletin Statistik Bulanan terkini, merangkumi statistik demografi, ekonomi, sosial, dan alam sekitar.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Buletin Statistik: Jul 2025",
+                "resource_link": "https://storage.dosm.gov.my/analysis/msb_2025-07.pdf"
+            }
+        ]
+    }
+}
