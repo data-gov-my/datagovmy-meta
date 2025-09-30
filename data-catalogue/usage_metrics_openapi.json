@@ -77,7 +77,9 @@
             "chart_type": "TABLE",
             "config": {
                 "precision": 0,
-                "filter_columns": [],
+                "filter_columns": [
+                    "endpoint"
+                ],
                 "freeze_columns": [
                     "date"
                 ]
@@ -116,7 +118,9 @@
         "weather-warning-earthquake": "Earthquake Warning",
         "data-catalogue": "Data Catalogue",
         "flood-warning": "Flood Warning",
-        "invalid": "Invalid Endpoint"
+        "invalid": "Invalid Endpoint",
+        "x": "Date",
+        "y1": "Hits"
     },
     "translations_ms": {
         "date": "Tarikh",
@@ -133,7 +137,9 @@
         "weather-warning-earthquake": "Amaran Gempa Bumi",
         "data-catalogue": "Data Catalogue",
         "flood-warning": "Amaran Banjir",
-        "invalid": "Endpoint Tidak Sah"
+        "invalid": "Endpoint Tidak Sah",
+        "x": "Tarikh",
+        "y1": "Hit"
     },
     "related_datasets": []
 }
