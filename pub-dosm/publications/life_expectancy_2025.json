@@ -1,0 +1,93 @@
+{
+    "publication": "life_expectancy_2025",
+    "publication_type": "demography",
+    "release_date": "2025-09-30",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE",
+        "DISTRICT"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY",
+        "AGE",
+        "NATIONALITY"
+    ],
+    "en": {
+        "title": "[2025] Life Expectancy",
+        "publication_type_title": "Demography",
+        "description": "Life expectancy at birth at national, state and district level, with breakdowns by sex and ethnic group.",
+        "description_email": "DOSM has just released the latest abridged life tables, covering life expectancy (at birth) at national, state and district level, with breakdowns by sex and ethnic group.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Life Expectancy: 2025",
+                "resource_link": "https://storage.dosm.gov.my/demography/life_expectancy_2025.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Life Expectancy: 2025",
+                "resource_link": "https://storage.dosm.gov.my/demography/life_expectancy_2025.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Life Expectancy by District: 2025",
+                "resource_link": "https://storage.dosm.gov.my/demography/life_expectancy_2025_district.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Life Tables: 2025",
+                "resource_link": "https://storage.dosm.gov.my/demography/life_tables_2025.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Life Tables by State: 2025",
+                "resource_link": "https://storage.dosm.gov.my/demography/life_tables_2025_state.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2025] Jangkaan Hayat",
+        "publication_type_title": "Demografi",
+        "description": "Jangkaan hayat ketika lahir di peringkat nasional, negeri, dan daerah, dengan pecahan mengikut jantina dan etnik.",
+        "description_email": "DOSM telah menerbitkan jadual hayat ringkas terkini, merangkumi jangkaan hayat (ketika lahir) di peringkat nasional, negeri, dan daerah, dengan pecahan mengikut jantina dan etnik.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Jangkaan Hayat: 2025",
+                "resource_link": "https://storage.dosm.gov.my/demography/life_expectancy_2025.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Jangkaan Hayat: 2025",
+                "resource_link": "https://storage.dosm.gov.my/demography/life_expectancy_2025.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Jangkaan Hayat mengikut Daerah: 2025",
+                "resource_link": "https://storage.dosm.gov.my/demography/life_expectancy_2025_district.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Jadual Hayat: 2025",
+                "resource_link": "https://storage.dosm.gov.my/demography/life_tables_2025.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Jadual Hayat mengikut Negeri: 2025",
+                "resource_link": "https://storage.dosm.gov.my/demography/life_tables_2025_state.xlsx"
+            }
+        ]
+    }
+}
