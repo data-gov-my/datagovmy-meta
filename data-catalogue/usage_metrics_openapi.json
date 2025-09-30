@@ -1,0 +1,139 @@
+{
+    "title_en": "Daily OpenAPI Hits by Endpoint",
+    "title_ms": "Penggunaan OpenAPI Harian mengikut Endpoint",
+    "title_sort": 2,
+    "description_en": "Total GET requests made to api.data.gov.my, disaggregated by endpoint.",
+    "description_ms": "Jumlah permintaan GET kepada api.data.gov.my, dengan pecahan mengikut endpoint.",
+    "exclude_openapi": false,
+    "manual_trigger": "2025-09-30 07:38:07.326223",
+    "data_as_of": "2025-09-29 23:59",
+    "last_updated": "2025-09-30 00:10",
+    "next_update": "2025-10-01 00:10",
+    "methodology_en": "This data is aggregated from transactional records produced by web analytics tools which monitor user interactions across the data.gov.my platform in real time. The data does not contain any personally identifiable information, as there is no component of data.gov.my which requires an authenticated login to access.",
+    "methodology_ms": "Data ini dihasilkan daripada rekod transaksi yang dijana oleh alat analitik yang memantau interaksi pengguna di platform data.gov.my dalam masa nyata. Data ini tidak mengandungi sebarang data peribadi, kerana penggunaan data.gov.my tidak memerlukan log masuk.",
+    "caveat_en": "Although the OpenAPI was live from 13 Sep 2023, disaggregated usage data is only available from 15 Dec 2023.",
+    "caveat_ms": "Walaupun OpenAPI dilancarkan pada 13 Sep 2023, metrik penggunaan dengan pecahan mengikut endpoint hanya tersedia dari 15 Dis 2023.",
+    "publication_en": "When aggregated on a daily basis, the data shown here is consistent with the OpenAPI hits displayed on the site's [homepage](https://data.gov.my/).",
+    "publication_ms": "Sekiranya dijumlahkan secara harian, data yang dipaparkan di sini adalah konsisten dengan penggunaan OpenAPI yang dipaparkan di [halaman utama](https://data.gov.my/).",
+    "link_parquet": "https://storage.data.gov.my/metrics/metrics_openapi.parquet",
+    "link_csv": "https://storage.data.gov.my/metrics/metrics_openapi.csv",
+    "frequency": "DAILY",
+    "geography": [],
+    "demography": [],
+    "dataset_begin": 2023,
+    "dataset_end": 2025,
+    "data_source": [
+        "JDN",
+        "KD"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Metadata",
+            "category_ms": "Metadata",
+            "category_sort": 120,
+            "subcategory_en": "Site Metrics",
+            "subcategory_ms": "Metrik Portal",
+            "subcategory_sort": 5
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Metadata",
+            "category_ms": "Metadata",
+            "category_sort": 120,
+            "subcategory_en": "Site Metrics",
+            "subcategory_ms": "Metrik Portal",
+            "subcategory_sort": 5
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] Date in YYYY-MM-DD format",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+        },
+        {
+            "name": "endpoint",
+            "title_en": "Endpoint",
+            "title_ms": "Endpoint",
+            "description_en": "[String] The endpoint being requested; full documentation of available endpoints is available via the [Developer Portal](https://developer.data.gov.my/)",
+            "description_ms": "[String] Endpoint yang diminta; senarai penuh endpoint yang disediakan boleh didapati melalui [Portal Pembangun](https://developer.data.gov.my/)"
+        },
+        {
+            "name": "hits",
+            "title_en": "Hits",
+            "title_ms": "Hit",
+            "description_en": "[Integer] Number of requests made to the specific endpoint for the given date.",
+            "description_ms": "[Integer] Bilangan permintaan yang dibuat ke endpoint tertentu bagi tarikh tersebut."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": [
+                    "date"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "timeseries_hits",
+            "title_en": "Hits",
+            "title_ms": "Hit",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": ["endpoint"],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "hits"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "endpoint": "Endpoint",
+        "hits": "Hits",
+        "gtfsr-prasarana": "GTFS-R: Prasarana",
+        "gtfsr-ktmb": "GTFS-R: KTMB",
+        "gtfsr-mybas-johor": "GTFS-R: MyBas Johor",
+        "gtfs-prasarana": "GTFS-R: Prasarana",
+        "gtfs-ktmb": "GTFS: KTMB",
+        "gtfs-mybas-johor": "GTFS: MyBas Johor",
+        "weather-forecast": "Weather Forecast",
+        "weather-warning": "Bad Weather Warnings",
+        "weather-warning-earthquake": "Earthquake Warning",
+        "data-catalogue": "Data Catalogue",
+        "flood-warning": "Flood Warning",
+        "invalid": "Invalid Endpoint"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "endpoint": "Endpoint",
+        "hits": "Hit",
+        "gtfsr-prasarana": "GTFS-R: Prasarana",
+        "gtfsr-ktmb": "GTFS-R: KTMB",
+        "gtfsr-mybas-johor": "GTFS-R: MyBas Johor",
+        "gtfs-prasarana": "GTFS-R: Prasarana",
+        "gtfs-ktmb": "GTFS: KTMB",
+        "gtfs-mybas-johor": "GTFS: MyBas Johor",
+        "weather-forecast": "Ramalan Cuaca",
+        "weather-warning": "Amaran Cuaca Buruk",
+        "weather-warning-earthquake": "Amaran Gempa Bumi",
+        "data-catalogue": "Data Catalogue",
+        "flood-warning": "Amaran Banjir",
+        "invalid": "Endpoint Tidak Sah"
+    },
+    "related_datasets": []
+}
