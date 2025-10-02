@@ -1,0 +1,110 @@
+{
+    "link_csv": "https://storage.data.gov.my/dev/drug_arrest_age_sex.csv",
+    "link_parquet": "https://storage.data.gov.my/dev/drug_arrest_age_sex.parquet",
+    "link_preview": "https://storage.data.gov.my/dev/drug_arrest_age_sex.parquet",
+    "title_en": "Drug Arrests by Sex & Age",
+    "title_ms": "Tangkapan Dadah Mengikut Jantina & Umur",
+    "description_en": "This dataset provides information on drug-related arrests categorized by sex and age group. It includes data on the type of arrest, whether for possession, supply, or positive urine tests, and is compiled on a yearly basis at the national level.",
+    "description_ms": "Set data ini menyediakan maklumat mengenai penangkapan berkaitan dadah yang dikategorikan mengikut jantina dan kumpulan umur. Ia merangkumi data mengenai jenis penangkapan, sama ada untuk pemilikan, pembekalan, atau ujian air kencing positif, dan dikumpulkan setiap tahun di peringkat nasional.",
+    "title_sort": "4",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2023-12-31 16:35:00.000 +08:00",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [
+        "SEX",
+        "AGE"
+    ],
+    "dataset_begin": "2019",
+    "dataset_end": "2023",
+    "data_source": [
+        "AADK"
+    ],
+    "methodology_en": "The dataset is compiled annually and includes data on drug-related arrests at the national level. The data is categorized by sex and age group, and the types of arrests include possession, supply, and positive urine tests. Data is collected from law enforcement records and is intended to provide insights into drug-related offenses across different demographics.",
+    "methodology_ms": "Set data ini dikumpulkan setiap tahun dan merangkumi data mengenai penangkapan berkaitan dadah di peringkat nasional. Data ini dikategorikan mengikut jantina dan kumpulan umur, dan jenis penangkapan termasuk pemilikan, pembekalan, dan ujian air kencing positif. Data dikumpulkan dari rekod penguatkuasaan undang-undang dan bertujuan untuk memberikan pandangan mengenai kesalahan berkaitan dadah di pelbagai demografi.",
+    "caveat_en": "The dataset represents annual data and may not reflect real-time changes in drug-related arrest patterns. Additionally, some age groups or sex categories may have small sample sizes, which could affect the reliability of trends over time. Users should exercise caution when interpreting trends from this dataset.",
+    "caveat_ms": "Set data ini mewakili data tahunan dan mungkin tidak mencerminkan perubahan masa nyata dalam corak penangkapan berkaitan dadah. Selain itu, beberapa kumpulan umur atau kategori jantina mungkin mempunyai saiz sampel yang kecil, yang boleh menjejaskan kebolehpercayaan trend dari semasa ke semasa. Pengguna harus berhati-hati ketika mentafsirkan trend dari set data ini.",
+    "publication_en": "N/A",
+    "publication_ms": "N/A",
+    "related_datasets": [],
+    "last_updated": "2025-10-02 16:32:18.484 +08:00",
+    "next_update": "-",
+    "fields": [
+        {
+            "name": "arrest_type",
+            "title_en": "Arrest Type",
+            "title_ms": "Jenis Penangkapan",
+            "description_en": "The type of drug-related arrest, such as possession, supply, or urine positive.",
+            "description_ms": "Jenis penangkapan berkaitan dadah, seperti pemilikan, pembekalan, atau ujian air kencing positif."
+        },
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "The date of the arrest record, formatted as YYYY-MM-DD.",
+            "description_ms": "Tarikh rekod penangkapan, diformatkan sebagai YYYY-MM-DD."
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "The sex of the individuals involved in the arrests, categorized as male, female, or both.",
+            "description_ms": "Jantina individu yang terlibat dalam penangkapan, dikategorikan sebagai lelaki, perempuan, atau kedua-duanya."
+        },
+        {
+            "name": "age",
+            "title_en": "Age Group",
+            "title_ms": "Kumpulan Umur",
+            "description_en": "The age group of individuals involved in the arrests, categorized into ranges such as <13, 14-18, 19-24, etc.",
+            "description_ms": "Kumpulan umur individu yang terlibat dalam penangkapan, dikategorikan ke dalam julat seperti <13, 14-18, 19-24, dan sebagainya."
+        },
+        {
+            "name": "drug_arrests",
+            "title_en": "Drug Arrests",
+            "title_ms": "Penangkapan Dadah",
+            "description_en": "The number of drug-related arrests recorded for the specified category.",
+            "description_ms": "Bilangan penangkapan berkaitan dadah yang direkodkan untuk kategori yang dinyatakan."
+        }
+    ],
+    "translations_en": {
+        "arrest_type": "Arrest Type",
+        "date": "Date",
+        "sex": "Sex",
+        "age": "Age Group",
+        "drug_arrests": "Drug Arrests"
+    },
+    "translations_ms": {
+        "arrest_type": "Jenis Penangkapan",
+        "date": "Tarikh",
+        "sex": "Jantina",
+        "age": "Kumpulan Umur",
+        "drug_arrests": "Penangkapan Dadah"
+    },
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Public Safety",
+            "category_ms": "Keselamatan Awam",
+            "category_sort": 42,
+            "subcategory_en": "Crime",
+            "subcategory_ms": "Jenayah",
+            "subcategory_sort": 10
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ]
+}
