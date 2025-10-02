@@ -48,15 +48,15 @@
         },
         {
             "name": "value",
-            "title_en": "Transaction Value",
-            "title_ms": "Nilai Transaksi",
+            "title_en": "Value",
+            "title_ms": "Nilai",
             "description_en": "The total value of transactions conducted using the specified instrument, measured in Malaysian Ringgit (RM).",
             "description_ms": "Jumlah nilai transaksi yang dilakukan menggunakan instrumen yang ditentukan, diukur dalam Ringgit Malaysia (RM)."
         },
         {
             "name": "volume",
-            "title_en": "Transaction Volume",
-            "title_ms": "Jumlah Transaksi",
+            "title_en": "Volume",
+            "title_ms": "Jumlah",
             "description_en": "The total number of transactions conducted using the specified instrument.",
             "description_ms": "Jumlah keseluruhan transaksi yang dilakukan menggunakan instrumen yang ditentukan."
         }
@@ -64,14 +64,14 @@
     "translations_en": {
         "date": "Date",
         "instruments": "Instruments",
-        "value": "Transaction Value",
-        "volume": "Transaction Volume"
+        "value": "Value",
+        "volume": "Volume"
     },
     "translations_ms": {
         "date": "Tarikh",
         "instruments": "Instrumen",
-        "value": "Nilai Transaksi",
-        "volume": "Jumlah Transaksi"
+        "value": "Nilai",
+        "volume": "Jumlah"
     },
     "site_category": [
         {
