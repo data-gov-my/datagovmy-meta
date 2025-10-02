@@ -1,0 +1,98 @@
+{
+    "link_csv": "https://storage.data.gov.my/dev/payment_systems.csv",
+    "link_parquet": "https://storage.data.gov.my/dev/payment_systems.parquet",
+    "link_preview": "https://storage.data.gov.my/dev/payment_systems.parquet",
+    "title_en": "Electronic Payments: Systems",
+    "title_ms": "Pembayaran Elektronik: Sistem",
+    "description_en": "This dataset provides a detailed overview of various electronic payment systems in Malaysia, which serve as the high-speed infrastructure for digital transactions. It includes key platforms such as FPX, Interbank Giro (IBG), JomPAY, and RENTAS, which are integral to processing, clearing and settling funds across the financial landscape. The dataset captures monthly data on the value and volume of transactions processed by these systems, offering insights into the velocity and efficiency of commerce.",
+    "description_ms": "Set data ini menyediakan gambaran terperinci mengenai pelbagai sistem pembayaran elektronik di Malaysia, yang berfungsi sebagai infrastruktur berkelajuan tinggi untuk transaksi digital. Ia merangkumi platform utama seperti FPX, Interbank Giro (IBG), JomPAY, dan RENTAS, yang penting untuk memproses, membersihkan dan menyelesaikan dana di seluruh landskap kewangan. Set data ini adalah data bulanan bagi nilai dan jumlah transaksi yang diproses, memberi pandangan mengenai kepantasan dan kecekapan perdagangan.",
+    "title_sort": 1,
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2025-08-01 00:01:00.000 +08:00",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": "2019",
+    "dataset_end": 2025,
+    "data_source": [
+        "BNM"
+    ],
+    "methodology_en": "The data is collected on a monthly basis and includes information on the value and volume of transactions processed by various electronic payment systems in Malaysia. The systems covered include FPX, Interbank Giro (IBG), JomPAY, and RENTAS. The data is sourced from the respective financial institutions and payment service providers, ensuring accuracy and reliability.",
+    "methodology_ms": "Data dikumpulkan setiap bulan dan merangkumi maklumat mengenai nilai dan jumlah transaksi yang diproses oleh pelbagai sistem pembayaran elektronik di Malaysia. Sistem yang diliputi termasuk FPX, Interbank Giro (IBG), JomPAY, dan RENTAS. Data ini diperoleh daripada institusi kewangan dan penyedia perkhidmatan pembayaran yang berkenaan, memastikan ketepatan dan kebolehpercayaan.",
+    "caveat_en": "Users should be aware that the dataset reflects only the transactions processed through the specified electronic payment systems and does not account for other types of transactions or payment methods. Additionally, data accuracy is contingent upon the reporting standards of the financial institutions involved.",
+    "caveat_ms": "Set data ini hanya mencerminkan transaksi yang diproses melalui sistem pembayaran elektronik yang dinyatakan dan tidak mengambil kira jenis transaksi atau kaedah pembayaran lain. Selain itu, ketepatan data bergantung kepada piawaian pelaporan institusi kewangan yang terlibat.",
+    "publication_en": "N/A",
+    "publication_ms": "N/A",
+    "related_datasets": [],
+    "last_updated": "2025-10-02 10:52:02.416 +08:00",
+    "next_update": "-",
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "The date of the transaction in YYYY-MM-DD format.",
+            "description_ms": "Tarikh transaksi dalam format YYYY-MM-DD."
+        },
+        {
+            "name": "systems",
+            "title_en": "Systems",
+            "title_ms": "Sistem",
+            "description_en": "The electronic payment system used for the transaction, such as FPX, IBG, JomPAY, or RENTAS.",
+            "description_ms": "Sistem pembayaran elektronik yang digunakan untuk transaksi, seperti FPX, IBG, JomPAY, atau RENTAS."
+        },
+        {
+            "name": "value",
+            "title_en": "Value",
+            "title_ms": "Nilai",
+            "description_en": "The total monetary value of the transactions processed, expressed in Malaysian Ringgit (MYR).",
+            "description_ms": "Jumlah nilai kewangan transaksi yang diproses, dinyatakan dalam Ringgit Malaysia (MYR)."
+        },
+        {
+            "name": "volume",
+            "title_en": "Volume",
+            "title_ms": "Jumlah",
+            "description_en": "The total number of transactions processed by the electronic payment system.",
+            "description_ms": "Jumlah bilangan transaksi yang diproses oleh sistem pembayaran elektronik."
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "systems": "Systems",
+        "value": "Value",
+        "volume": "Volume"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "systems": "Sistem",
+        "value": "Nilai",
+        "volume": "Isipadu"
+    },
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Financial Markets",
+            "category_ms": "Pasaran Kewangan",
+            "category_sort": 60,
+            "subcategory_en": "Banking System",
+            "subcategory_ms": "Sistem Perbankan",
+            "subcategory_sort": 20
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ]
+}
