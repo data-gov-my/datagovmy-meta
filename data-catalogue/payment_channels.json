@@ -1,0 +1,100 @@
+{
+    "link_csv": "https://storage.data.gov.my/dev/payment_channels.csv",
+    "link_parquet": "https://storage.data.gov.my/dev/payment_channels.parquet",
+    "link_preview": "https://storage.data.gov.my/dev/payment_channels.parquet",
+    "title_en": "Electronic Payments: Channels",
+    "title_ms": "Pembayaran Elektronik: Saluran",
+    "description_en": "Payment channels are vital interaction points where every electronic transaction originates. They represent the medium connecting consumers and businesses to the broader payment infrastructure. These channels, including mobile phones, the Internet, and Automated Teller Machines (ATMs), are digital gateways determining how, when, and where commercial activity occurs.",
+    "description_ms": "Saluran pembayaran adalah titik interaksi penting di mana setiap transaksi elektronik bermula. Mereka mewakili medium yang menghubungkan pengguna dan perniagaan kepada infrastruktur pembayaran yang lebih luas. Saluran ini termasuk telefon bimbit, Internet, dan Mesin Juruwang Automatik (ATM), adalah pintu masuk digital yang menentukan bagaimana, bila, dan di mana aktiviti komersial berlaku.",
+    "title_sort": 1,
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2025-07-01 00:01:00.000 +08:00",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [
+        "NATIONALITY"
+    ],
+    "dataset_begin": "2019",
+    "dataset_end": 2025,
+    "data_source": [
+        "BNM"
+    ],
+    "methodology_en": "The dataset is compiled from various electronic payment channels on a monthly basis, capturing the total value and volume of transactions processed through each channel. Data is aggregated nationally and represents a comprehensive overview of electronic payment activities across different platforms.",
+    "methodology_ms": "Set data ini disusun dari pelbagai saluran pembayaran elektronik secara bulanan, merangkumi nilai dan jumlah transaksi yang diproses melalui setiap saluran. Data dikumpul secara nasional dan mewakili gambaran menyeluruh mengenai aktiviti pembayaran elektronik di pelbagai platform.",
+    "caveat_en": "Users should note that the dataset reflects only the transactions processed through the recorded channels and may not include all electronic payment activities, especially those processed through emerging or less common channels. Additionally, data is subject to revisions as more accurate information becomes available.",
+    "caveat_ms": "Pengguna harus ambil perhatian bahawa set data ini hanya mencerminkan transaksi yang diproses melalui saluran yang direkodkan dan mungkin tidak termasuk semua aktiviti pembayaran elektronik, terutamanya yang diproses melalui saluran yang baru muncul atau kurang biasa. Selain itu, data tertakluk kepada semakan semula apabila maklumat yang lebih tepat tersedia.",
+    "publication_en": "N/A",
+    "publication_ms": "N/A",
+    "related_datasets": [],
+    "last_updated": "2025-10-03 11:21:00.876 +08:00",
+    "next_update": "-",
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "The date of the transaction, formatted as YYYY-MM-DD, with DD set to 01 as the data is at monthly frequency.",
+            "description_ms": "Tarikh transaksi, diformatkan sebagai YYYY-MM-DD, dengan DD ditetapkan ke 01 kerana data adalah pada kekerapan bulanan."
+        },
+        {
+            "name": "channels",
+            "title_en": "Channels",
+            "title_ms": "Saluran",
+            "description_en": "The type of electronic payment channel, such as ATM, internet, or mobile.",
+            "description_ms": "Jenis saluran pembayaran elektronik, seperti ATM, internet, atau mudah alih."
+        },
+        {
+            "name": "value",
+            "title_en": "Value",
+            "title_ms": "Nilai",
+            "description_en": "The total monetary value of transactions processed through the channel, expressed in local currency.",
+            "description_ms": "Jumlah nilai wang transaksi yang diproses melalui saluran tersebut, dinyatakan dalam mata wang tempatan."
+        },
+        {
+            "name": "volume",
+            "title_en": "Volume",
+            "title_ms": "Volum",
+            "description_en": "The total number of transactions processed through the channel.",
+            "description_ms": "Jumlah bilangan transaksi yang diproses melalui saluran tersebut."
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "channels": "Channels",
+        "value": "Value",
+        "volume": "Volume"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "channels": "Saluran",
+        "value": "Nilai",
+        "volume": "Volum"
+    },
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Financial Markets",
+            "category_ms": "Pasaran Kewangan",
+            "category_sort": 60,
+            "subcategory_en": "Banking System",
+            "subcategory_ms": "Sistem Perbankan",
+            "subcategory_sort": 20
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ]
+}
