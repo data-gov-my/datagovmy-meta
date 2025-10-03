@@ -1,12 +1,12 @@
 {
     "dashboard_name": "dashboards2",
-    "data_last_updated": "2025-09-18 04:00",
+    "data_last_updated": "2025-10-04 02:00",
     "route": "/dashboard,/ms-MY/dashboard",
     "sites": [
         "datagovmy",
         "opendosm"
     ],
-    "manual_trigger": "2025-09-18 04:43:38.755875",
+    "manual_trigger": "2025-10-04 02:21:52.191971",
     "required_params": [],
     "optional_params": [],
     "charts": {
@@ -14,7 +14,7 @@
             "name": "agency_dropdown",
             "chart_type": "query_values",
             "chart_source": "https://storage.data.gov.my/dashboards/dashboards_all_new.parquet",
-            "data_as_of": "2025-09-18 04:00",
+            "data_as_of": "2025-10-04 02:00",
             "api_type": "dynamic",
             "api_params": [],
             "variables": {
@@ -35,7 +35,7 @@
             "name": "dashboards",
             "chart_type": "metrics_table",
             "chart_source": "https://storage.data.gov.my/dashboards/dashboards_all_new.parquet",
-            "data_as_of": "2025-09-18 04:00",
+            "data_as_of": "2025-10-04 02:00",
             "api_type": "dynamic",
             "api_params": [
                 "site"
