@@ -56,7 +56,7 @@
         {
             "name": "volume",
             "title_en": "Volume",
-            "title_ms": "Volum",
+            "title_ms": "Jumlah",
             "description_en": "The total number of transactions processed through the channel.",
             "description_ms": "Jumlah bilangan transaksi yang diproses melalui saluran tersebut."
         }
@@ -71,7 +71,7 @@
         "date": "Tarikh",
         "channels": "Saluran",
         "value": "Nilai",
-        "volume": "Volum"
+        "volume": "Jumlah"
     },
     "site_category": [
         {
