@@ -1,0 +1,180 @@
+{
+    "link_csv": "https://storage.data.gov.my/dev/orang_asli_etnik.csv",
+    "link_parquet": "https://storage.data.gov.my/dev/orang_asli_etnik.parquet",
+    "link_preview": "https://storage.data.gov.my/dev/orang_asli_etnik.parquet",
+    "title_en": "Orang Asli by State & Village",
+    "title_ms": "Orang Asli mengikut Negeri dan Kampung",
+    "description_en": "This dataset provides information on the population of Orang Asli, the indigenous people of Peninsular Malaysia, by state and village. The data includes details on age, sex, religion, ethnicity, and marital status, covering the three main ethnic groups (Negrito, Proto-Malay, and Senoi) and their 18 sub-ethnic groups. The dataset is managed by the Department of Orang Asli Development (JAKOA), which is responsible for the welfare of the Orang Asli communities.",
+    "description_ms": "Dataset ini menyediakan maklumat mengenai populasi Orang Asli, penduduk asal Semenanjung Malaysia, mengikut negeri dan kampung. Data ini merangkumi butiran mengenai umur, jantina, agama, etnik, dan status perkahwinan, meliputi tiga kumpulan etnik utama (Negrito, Proto-Melayu, dan Senoi) dan 18 sub-etnik mereka. Dataset ini diuruskan oleh Jabatan Kemajuan Orang Asli (JAKOA), yang bertanggungjawab untuk kebajikan komuniti Orang Asli.",
+    "title_sort": "10",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2025-09-24 00:00:00.000 +08:00",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE",
+        "DISTRICT",
+        "PARLIMEN",
+        "DUN"
+    ],
+    "demography": [
+        "ETHNICITY",
+        "AGE",
+        "RELIGION",
+        "NATIONALITY",
+        "MARITAL"
+    ],
+    "dataset_begin": "2022",
+    "dataset_end": 2025,
+    "data_source": [
+        "JAKOA"
+    ],
+    "methodology_en": "The dataset is compiled through fieldwork conducted by the Department of Orang Asli Development (JAKOA) across various Orang Asli villages in Malaysia. The data is collected annually and provides a snapshot of the demographic composition of the Orang Asli population, categorized by state, district, mukim, and village.",
+    "methodology_ms": "Dataset ini disusun hasil tinjauan yang dijalankan oleh Jabatan Kemajuan Orang Asli (JAKOA) di pelbagai kampung Orang Asli di Malaysia. Ia dikumpulkan setiap tahun dan memberikan gambaran demografi populasi Orang Asli, yang dikategorikan mengikut negeri, daerah, mukim, dan kampung.",
+    "caveat_en": "The dataset may not capture all Orang Asli individuals, especially those who are mobile or reside outside of traditional villages. Additionally, the accuracy of sub-ethnic categorization relies on self-identification and may not reflect genetic lineage.",
+    "caveat_ms": "Dataset ini mungkin tidak merangkumi semua individu Orang Asli, terutamanya mereka yang berpindah-randah atau tinggal di luar kampung tradisional. Selain itu, ketepatan pengkategorian sub-etnik bergantung kepada pengenalan diri dan mungkin tidak mencerminkan keturunan genetik.",
+    "publication_en": "N/A",
+    "publication_ms": "N/A",
+    "related_datasets": [],
+    "last_updated": "2025-09-24 15:44:54.312 +08:00",
+    "next_update": "-",
+    "fields": [
+        {
+            "name": "State",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "The state in Malaysia where the Orang Asli community resides.",
+            "description_ms": "Negeri di Malaysia di mana komuniti Orang Asli tinggal."
+        },
+        {
+            "name": "district",
+            "title_en": "District",
+            "title_ms": "Daerah",
+            "description_en": "The administrative district within the state where the Orang Asli village is located.",
+            "description_ms": "Daerah pentadbiran dalam negeri di mana kampung Orang Asli terletak."
+        },
+        {
+            "name": "mukim",
+            "title_en": "Mukim",
+            "title_ms": "Mukim",
+            "description_en": "The sub-district or mukim within the district where the Orang Asli village is located.",
+            "description_ms": "Mukim dalam daerah di mana kampung Orang Asli terletak."
+        },
+        {
+            "name": "parlimen",
+            "title_en": "Parliament",
+            "title_ms": "Parlimen",
+            "description_en": "The parliamentary constituency where the Orang Asli village is located.",
+            "description_ms": "Kawasan parlimen di mana kampung Orang Asli terletak."
+        },
+        {
+            "name": "dun",
+            "title_en": "State Assembly",
+            "title_ms": "Dewan Undangan Negeri",
+            "description_en": "The state assembly constituency where the Orang Asli village is located.",
+            "description_ms": "Kawasan Dewan Undangan Negeri di mana kampung Orang Asli terletak."
+        },
+        {
+            "name": "village",
+            "title_en": "Village",
+            "title_ms": "Kampung",
+            "description_en": "The name of the village where the Orang Asli community resides.",
+            "description_ms": "Nama kampung di mana komuniti Orang Asli tinggal."
+        },
+        {
+            "name": "age",
+            "title_en": "Age",
+            "title_ms": "Umur",
+            "description_en": "The age of the individual from the Orang Asli community.",
+            "description_ms": "Umur individu dari komuniti Orang Asli."
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "The sex of the individual, either male or female.",
+            "description_ms": "Jantina individu, sama ada lelaki atau perempuan."
+        },
+        {
+            "name": "religion",
+            "title_en": "Religion",
+            "title_ms": "Agama",
+            "description_en": "The religion practiced by the individual from the Orang Asli community.",
+            "description_ms": "Agama yang dianuti oleh individu dari komuniti Orang Asli."
+        },
+        {
+            "name": "ethnicity",
+            "title_en": "Ethnicity",
+            "title_ms": "Etnik",
+            "description_en": "The main ethnic group of the individual, either Negrito, Proto-Malay, or Senoi.",
+            "description_ms": "Kumpulan etnik utama individu, sama ada Negrito, Proto-Melayu, atau Senoi."
+        },
+        {
+            "name": "sub_ethnicity",
+            "title_en": "Sub-Ethnicity",
+            "title_ms": "Sub-Etnik",
+            "description_en": "The specific sub-ethnic group of the individual within the main ethnic category.",
+            "description_ms": "Kumpulan sub-etnik spesifik individu dalam kategori etnik utama."
+        },
+        {
+            "name": "marital_status",
+            "title_en": "Marital Status",
+            "title_ms": "Status Perkahwinan",
+            "description_en": "The marital status of the individual, such as never married, married, etc.",
+            "description_ms": "Status perkahwinan individu, seperti tidak pernah berkahwin, berkahwin, dan sebagainya."
+        }
+    ],
+    "translations_en": {
+        "State": "State",
+        "district": "District",
+        "mukim": "Mukim",
+        "parlimen": "Parliament",
+        "dun": "State Assembly",
+        "village": "Village",
+        "age": "Age",
+        "sex": "Sex",
+        "religion": "Religion",
+        "ethnicity": "Ethnicity",
+        "sub_ethnicity": "Sub-Ethnicity",
+        "marital_status": "Marital Status"
+    },
+    "translations_ms": {
+        "State": "Negeri",
+        "district": "Daerah",
+        "mukim": "Mukim",
+        "parlimen": "Parlimen",
+        "dun": "Dewan Undangan Negeri",
+        "village": "Kampung",
+        "age": "Umur",
+        "sex": "Jantina",
+        "religion": "Agama",
+        "ethnicity": "Etnik",
+        "sub_ethnicity": "Sub-Etnik",
+        "marital_status": "Status Perkahwinan"
+    },
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Demography",
+            "category_ms": "Demografi",
+            "category_sort": 1,
+            "subcategory_en": "Population",
+            "subcategory_ms": "Penduduk",
+            "subcategory_sort": 1
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ]
+}
