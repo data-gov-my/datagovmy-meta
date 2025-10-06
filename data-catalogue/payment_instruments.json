@@ -2,10 +2,10 @@
     "link_csv": "https://storage.data.gov.my/dev/payment_instruments.csv",
     "link_parquet": "https://storage.data.gov.my/dev/payment_instruments.parquet",
     "link_preview": "https://storage.data.gov.my/dev/payment_instruments.parquet",
-    "title_en": "Electronic Payments: Instruments",
-    "title_ms": "Pembayaran Elektronik: Instrumen",
+    "title_en": "Monthly Usage of Payment Instruments",
+    "title_ms": "Penggunaan Instrument Bayaran Bulanan",
     "description_en": "The shift to a digital economy has placed payment instruments at the forefront of economic monitoring. Every transaction from a daily coffee purchase to a massive corporate transfer is mediated by a specific instrument, which acts as a real-time signal of economic activity. These instruments, be they credit cards, debit cards, e-money, or traditional methods like cheques, are not just tools for payment; they are distinct channels of economic flow. By disaggregating high-frequency data from Bank Negara Malaysia based on the instrument used, policy makers gain granular visibility into how consumers and businesses operate.",
-    "description_ms": "Peralihan kepada ekonomi digital telah meletakkan instrumen pembayaran di barisan hadapan pemantauan ekonomi. Setiap transaksi, dari pembelian kopi harian hingga pemindahan korporat besar, dimediasi oleh instrumen tertentu, yang bertindak sebagai isyarat masa nyata bagi aktiviti ekonomi. Instrumen-instrumen ini, sama ada kad kredit, kad debit, e-wang, atau kaedah tradisional seperti cek, bukan sahaja alat untuk pembayaran; mereka adalah saluran aliran ekonomi yang berbeza. Dengan mengasingkan data frekuensi tinggi dari Bank Negara Malaysia berdasarkan instrumen yang digunakan, pembuat dasar memperoleh pandangan terperinci tentang bagaimana pengguna dan perniagaan beroperasi.",
+    "description_ms": "Peralihan kepada ekonomi digital telah meletakkan instrumen pembayaran di barisan hadapan pemantauan ekonomi. Setiap transaksi, dari pembelian kopi harian hingga pemindahan dana oleh korporat besar, menerusi instrumen digital tertentu sebagai perantara yang bertindak sebagai isyarat masa nyata bagi aktiviti ekonomi. Instrumen-instrumen ini, sama ada kad kredit, kad debit, e-wang, atau kaedah tradisional seperti cek, bukan sahaja sebagai alat untuk pembayaran bagi saluran aliran ekonomi yang berbeza. Dengan mengasingkan data frekuensi tinggi dari Bank Negara Malaysia berdasarkan instrumen yang digunakan, pembuat dasar dapat melihat secara terperinci tentang bagaimana pengguna dan perniagaan beroperasi.",
     "title_sort": 1,
     "exclude_openapi": false,
     "manual_trigger": "",
@@ -48,15 +48,15 @@
         },
         {
             "name": "value",
-            "title_en": "Transaction Value",
-            "title_ms": "Nilai Transaksi",
+            "title_en": "Value",
+            "title_ms": "Nilai",
             "description_en": "The total value of transactions conducted using the specified instrument, measured in Malaysian Ringgit (RM).",
             "description_ms": "Jumlah nilai transaksi yang dilakukan menggunakan instrumen yang ditentukan, diukur dalam Ringgit Malaysia (RM)."
         },
         {
             "name": "volume",
-            "title_en": "Transaction Volume",
-            "title_ms": "Jumlah Transaksi",
+            "title_en": "Volume",
+            "title_ms": "Jumlah",
             "description_en": "The total number of transactions conducted using the specified instrument.",
             "description_ms": "Jumlah keseluruhan transaksi yang dilakukan menggunakan instrumen yang ditentukan."
         }
@@ -64,14 +64,14 @@
     "translations_en": {
         "date": "Date",
         "instruments": "Instruments",
-        "value": "Transaction Value",
-        "volume": "Transaction Volume"
+        "value": "Value",
+        "volume": "Volume"
     },
     "translations_ms": {
         "date": "Tarikh",
         "instruments": "Instrumen",
-        "value": "Nilai Transaksi",
-        "volume": "Jumlah Transaksi"
+        "value": "Nilai",
+        "volume": "Jumlah"
     },
     "site_category": [
         {
