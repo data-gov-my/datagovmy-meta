@@ -1,7 +1,7 @@
 {
-    "link_csv": "https://storage.data.gov.my/dev/Etnik_Orang_Asli.csv",
-    "link_parquet": "https://storage.data.gov.my/dev/Etnik_Orang_Asli.parquet",
-    "link_preview": "https://storage.data.gov.my/dev/Etnik_Orang_Asli.parquet",
+    "link_csv": "https://storage.data.gov.my/dev/orang_asli_etnik.csv",
+    "link_parquet": "https://storage.data.gov.my/dev/orang_asli_etnik.parquet",
+    "link_preview": "https://storage.data.gov.my/dev/orang_asli_etnik.parquet",
     "title_en": "Orang Asli by State & Village",
     "title_ms": "Orang Asli mengikut Negeri dan Kampung",
     "description_en": "This dataset provides information on the population of Orang Asli, the indigenous people of Peninsular Malaysia, by state and village. The data includes details on age, sex, religion, ethnicity, and marital status, covering the three main ethnic groups (Negrito, Proto-Malay, and Senoi) and their 18 sub-ethnic groups. The dataset is managed by the Department of Orang Asli Development (JAKOA), which is responsible for the welfare of the Orang Asli communities.",
