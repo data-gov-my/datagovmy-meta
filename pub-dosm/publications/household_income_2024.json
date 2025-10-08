@@ -1,0 +1,55 @@
+{
+    "publication": "household_income_2024",
+    "publication_type": "hies",
+    "release_date": "2024-10-08",
+    "frequency": "ONE_OFF",
+    "geography": [
+        "NATIONAL",
+        "STATE",
+        "DISTRICT"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY"
+    ],
+    "en": {
+        "title": "[2024] Household Income",
+        "publication_type_title": "Household Income",
+        "description": "Latest data on household income, covering gross and disposable household income at national, state, and district level.",
+        "description_email": "DOSM has just released the latest data on household income, covering gross and disposable household income at national, state, and district level.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Household Income: 2024",
+                "resource_link": "https://storage.dosm.gov.my/hies/household_income_2024.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Pendapatan Isi Rumah: 2024",
+                "resource_link": "https://storage.dosm.gov.my/hies/household_income_2024.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2024] Pendapatan Isi Rumah",
+        "publication_type_title": "Pendapatan Isi Rumah",
+        "description": "Data terkini merangkumi pendapatan isi rumah kasar dan boleh guna di peringkat nasional, negeri, dan daerah.",
+        "description_email": "DOSM telah menerbitkan data terkini pendapatan isi rumah, merangkumi pendapatan isi rumah kasar dan boleh guna di peringkat nasional, negeri, dan daerah.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Pendapatan Isi Rumah: 2024",
+                "resource_link": "https://storage.dosm.gov.my/hies/household_income_2024.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Pendapatan Isi Rumah: 2024",
+                "resource_link": "https://storage.dosm.gov.my/hies/household_income_2024.xlsx"
+            }
+        ]
+    }
+}
