@@ -1,0 +1,55 @@
+{
+    "publication": "household_expenditure_2024",
+    "publication_type": "hies",
+    "release_date": "2024-10-08",
+    "frequency": "ONE_OFF",
+    "geography": [
+        "NATIONAL",
+        "STATE",
+        "DISTRICT"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY"
+    ],
+    "en": {
+        "title": "[2024] Household Expenditure",
+        "publication_type_title": "Household Expenditure",
+        "description": "Latest data on household expenditure, disaggregated by expenditure category, at national, state, and district level.",
+        "description_email": "DOSM has just released the latest data on household expenditure, disaggregated by expenditure category at national, state, and district level.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Household Expenditure: 2024",
+                "resource_link": "https://storage.dosm.gov.my/hies/household_expenditure_2024.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Perbelanjaan Isi Rumah: 2024",
+                "resource_link": "https://storage.dosm.gov.my/hies/household_expenditure_2024.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2024] Perbelanjaan Isi Rumah",
+        "publication_type_title": "Perbelanjaan Isi Rumah",
+        "description": "Data terkini merangkumi perbelanjaan isi rumah mengikut kumpulan perbelanjaan di peringkat nasional, negeri, dan daerah.",
+        "description_email": "DOSM telah menerbitkan data terkini perbelanjaan isi rumah, merangkumi perbelanjaan isi rumah mengikut kumpulan perbelanjaan di peringkat nasional, negeri, dan daerah.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Perbelanjaan Isi Rumah: 2024",
+                "resource_link": "https://storage.dosm.gov.my/hies/household_expenditure_2024.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Perbelanjaan Isi Rumah: 2024",
+                "resource_link": "https://storage.dosm.gov.my/hies/household_expenditure_2024.xlsx"
+            }
+        ]
+    }
+}
