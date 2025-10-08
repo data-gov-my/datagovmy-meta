@@ -1,5 +1,6 @@
 {
     "publication": "income_inequality_2024",
+    "abort_email": true,
     "publication_type": "hies",
     "release_date": "2025-10-08",
     "frequency": "ONE_OFF",
@@ -13,8 +14,8 @@
         "ETHNICITY"
     ],
     "en": {
-        "title": "[2024] Income inequality",
-        "publication_type_title": "Income inequality",
+        "title": "[2024] Income Inequality",
+        "publication_type_title": "Income Inequality",
         "description": "Latest data on income inequality, presenting the Gini coefficient by strata at national, state, and district level.",
         "description_email": "DOSM has just released the latest data on income inequality, presenting the Gini coefficient by strata at national, state, and district level.",
         "resources": [
