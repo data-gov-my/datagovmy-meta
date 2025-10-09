@@ -191,14 +191,30 @@
         "y": "Price (RM)",
         "y1": "Price (RM)",
         "change-weekly": "Weekly Change",
-        "level": "Price"
+        "level": "Price",
+        "series_type": "Series",
+        "date": "Date",
+        "ron95": "RON95",
+        "ron97": "RON97",
+        "diesel": "Diesel (Peninsular)",
+        "diesel_eastmsia": "Diesel (Sbh/Swk)",
+        "ron95_budi95": "RON95 (BUDI 95)",
+        "ron95_skps": "RON95 (SKPS)"
     },
     "translations_ms": {
         "x": "Tarikh",
         "y": "Harga (RM)",
         "y1": "Harga (RM)",
         "change-weekly": "Perubahan Mingguan",
-        "level": "Harga"
+        "level": "Harga",
+        "series_type": "Siri",
+        "date": "Tarikh",
+        "ron95": "RON95",
+        "ron97": "RON97",
+        "diesel": "Diesel (Semenanjung)",
+        "diesel_eastmsia": "Diesel (Sbh/Swk)",
+        "ron95_budi95": "RON95 (BUDI 95)",
+        "ron95_skps": "RON95 (SKPS)"
     },
     "related_datasets": []
 }
