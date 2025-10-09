@@ -5,7 +5,7 @@
 	"description_en": "Percentile-resolution household income data at state level.",
 	"description_ms": "Data pendapatan isi rumah peringkat negeri pada resolusi persentil.",
 	"exclude_openapi": false,
-	"manual_trigger": "",
+	"manual_trigger": "1",
 	"data_as_of": "2024",
 	"last_updated": "2025-10-08 12:00",
 	"next_update": "TBC",
