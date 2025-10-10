@@ -5,7 +5,7 @@
     "title_en": "Legal Advisory Services",
     "title_ms": "Perkhidmatan Nasihat Undang-Undang",
     "description_en": "This dataset presents records of legal advisory sessions registered through the Sistem Pengurusan Kes Jabatan Bantuan Guaman (SPK-JBG), managed by the Legal Aid Department under the Prime Minister’s Department. It includes consultations across all branches in Malaysia, classified by branch, main category (Shariah, Crime, or Civil), subcategory, and type of case such as family, property, and other legal matters. The dataset aims to support transparency, research, and analysis related to the accessibility and scope of legal aid services in Malaysia.",
-    "description_ms": "Dataset ini memaparkan rekod sesi nasihat undang-undang yang didaftarkan melalui Sistem Pengurusan Kes Jabatan Bantuan Guaman (SPK-JBG), yang diuruskan oleh Jabatan Bantuan Guaman di bawah Jabatan Perdana Menteri. Ia merangkumi konsultasi di semua cawangan di Malaysia, diklasifikasikan mengikut cawangan, kategori utama (Syariah, Jenayah, atau Sivil), subkategori, dan jenis kes seperti keluarga, harta, dan hal-hal undang-undang lain. Dataset ini bertujuan untuk menyokong ketelusan, penyelidikan, dan analisis berkaitan aksesibiliti dan skop perkhidmatan bantuan guaman di Malaysia.",
+    "description_ms": "Dataset ini memaparkan rekod sesi nasihat undang-undang yang didaftarkan melalui Sistem Pengurusan Kes Jabatan Bantuan Guaman (SPK-JBG), yang diuruskan oleh Jabatan Bantuan Guaman di bawah Jabatan Perdana Menteri. Ia merangkumi konsultasi di semua cawangan di Malaysia, diklasifikasikan mengikut cawangan, kategori utama (Syariah, Jenayah, atau Sivil), sub kategori, dan jenis kes seperti keluarga, harta, dan hal-hal undang-undang lain. Dataset ini bertujuan untuk menyokong ketelusan, penyelidikan, dan analisis berkaitan aksesibiliti dan skop perkhidmatan bantuan guaman di Malaysia.",
     "title_sort": 1,
     "exclude_openapi": false,
     "manual_trigger": "",
@@ -54,9 +54,9 @@
         {
             "name": "sub kategori",
             "title_en": "Subcategory",
-            "title_ms": "Subkategori",
+            "title_ms": "Sub kategori",
             "description_en": "The subcategory of the legal issue, providing more detailed classification.",
-            "description_ms": "Subkategori isu undang-undang, memberikan klasifikasi yang lebih terperinci."
+            "description_ms": "Sub kategori isu undang-undang, memberikan klasifikasi yang lebih terperinci."
         },
         {
             "name": "jenis kes",
@@ -85,7 +85,7 @@
         "tarikh": "Tarikh",
         "cawangan": "Cawangan",
         "kategori utama": "Kategori Utama",
-        "sub kategori": "Subkategori",
+        "sub kategori": "Sub kategori",
         "jenis kes": "Jenis Kes",
         "jumlah": "Jumlah Sesi"
     },
