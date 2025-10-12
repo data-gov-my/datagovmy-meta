@@ -1,7 +1,7 @@
 {
 	"dashboard_name": "hies",
-	"data_last_updated": "2023-07-28 12:00",
-	"data_next_update": "2025-08-29 12:00",
+	"data_last_updated": "2025-10-08 12:00",
+	"data_next_update": "2027-10-31 12:00",
 	"route": "/dashboard/household-income-expenditure,/ms-MY/dashboard/household-income-expenditure",
 	"sites": ["opendosm"],
 	"manual_trigger": "",
@@ -12,7 +12,7 @@
 			"name": "timeseries",
 			"chart_type": "timeseries_chart",
 			"chart_source": "http://storage.dosm.gov.my/dashboards/hies_timeseries.parquet",
-			"data_as_of": "2022-12-31 23:59",
+			"data_as_of": "2024",
 			"api_type": "dynamic",
 			"api_params": ["state"],
 			"variables": {
@@ -27,7 +27,7 @@
 			"name": "timeseries_callout",
 			"chart_type": "custom_chart",
 			"chart_source": "http://storage.dosm.gov.my/dashboards/hies_timeseries_callout.parquet",
-			"data_as_of": "2022-12-31 23:59",
+			"data_as_of": "2024",
 			"api_type": "dynamic",
 			"api_params": ["state"],
 			"variables": {
@@ -39,7 +39,7 @@
 			"name": "choropleth_state",
 			"chart_type": "choropleth_chart",
 			"chart_source": "http://storage.dosm.gov.my/dashboards/hies_choropleth_state.parquet",
-			"data_as_of": "2022-12-31 23:59",
+			"data_as_of": "2024",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -60,7 +60,7 @@
 			"name": "choropleth_district",
 			"chart_type": "choropleth_chart",
 			"chart_source": "http://storage.dosm.gov.my/dashboards/hies_choropleth_district.parquet",
-			"data_as_of": "2022-12-31 23:59",
+			"data_as_of": "2024",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
