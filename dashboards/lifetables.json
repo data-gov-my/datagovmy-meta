@@ -1,12 +1,12 @@
 {
     "dashboard_name": "lifetables",
-    "data_last_updated": "2024-09-30 12:00",
-    "data_next_update": "2025-09-30 12:00",
+    "data_last_updated": "2025-09-30 12:00",
+    "data_next_update": "2026-09-30 12:00",
     "route": "/dashboard/life-expectancy,/ms-MY/dashboard/life-expectancy",
     "sites": [
         "opendosm"
     ],
-    "manual_trigger": "2024-09-30 13:30:29.493354",
+    "manual_trigger": "2025-10-12 08:14:30.588051",
     "required_params": [],
     "optional_params": [],
     "charts": {
@@ -14,7 +14,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/lifetables_timeseries.parquet",
-            "data_as_of": "2024",
+            "data_as_of": "2025",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -40,7 +40,7 @@
             "name": "timeseries_callout",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/lifetables_timeseries_callout.parquet",
-            "data_as_of": "2024",
+            "data_as_of": "2025",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -58,7 +58,7 @@
             "name": "heatmap",
             "chart_type": "heatmap_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/lifetables_heattable.parquet",
-            "data_as_of": "2024",
+            "data_as_of": "2025",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -72,7 +72,7 @@
             "name": "choropleth_state",
             "chart_type": "choropleth_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/lifetables_state.parquet",
-            "data_as_of": "2024",
+            "data_as_of": "2025",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -89,7 +89,7 @@
             "name": "choropleth_district",
             "chart_type": "choropleth_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/lifetables_district.parquet",
-            "data_as_of": "2024",
+            "data_as_of": "2025",
             "api_type": "static",
             "api_params": [],
             "variables": {
