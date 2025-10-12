@@ -5,7 +5,11 @@
     "description_en": "Release date and metadata for all DOSM's publications in 2025.",
     "description_ms": "Tarikh penerbitan serta metadata bagi semua penerbitan DOSM dalam tahun 2025.",
     "exclude_openapi": false,
+<<<<<<< Updated upstream
     "manual_trigger": "2025-09-30 13:59:39.600374",
+=======
+    "manual_trigger": "2025-10-12 08:04:35.230124",
+>>>>>>> Stashed changes
     "data_as_of": "2025-10-12 08:00",
     "last_updated": "2025-10-12 08:00",
     "next_update": "2025-10-13 08:00",
