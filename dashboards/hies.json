@@ -4,7 +4,7 @@
 	"data_next_update": "2027-10-31 12:00",
 	"route": "/dashboard/household-income-expenditure,/ms-MY/dashboard/household-income-expenditure",
 	"sites": ["opendosm"],
-	"manual_trigger": "",
+	"manual_trigger": "1",
 	"required_params": [],
 	"optional_params": ["state"],
 	"charts": {
