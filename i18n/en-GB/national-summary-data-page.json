@@ -1,0 +1,33 @@
+{
+  "route": "/national-summary-data-page",
+  "sites": ["opendosm"],
+  "translation": {
+    "header": "National Summary Data Page",
+    "description": "As Malaysia's official national statistics organisation (NSO), DOSM's role goes far beyond just releasing datasets like the ones you can explore and download from our Data Catalogue. Every year, we release over 1000 publications slicing, dicing, and analysing the data we publish - to help people make sense of it. This page catalogues all of those publications, together with technical documentation, in a seamless interface for you to explore. Enjoy!",
+    "keys": {
+      "download": "Download",
+      "real": "Real Sector",
+      "fiscal": "Fiscal Sector",
+      "financial": "Financial Sector",
+      "external": "External",
+      "socio": "Socio-Demographic Data",
+      "arc": "ARC"
+    },
+    "section_download": {
+      "title": "Download All Available Data in Malaysia",
+      "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+    },
+    "table": {
+      "title": "Title",
+      "as_of": "Date as Of",
+      "last_updated": "Last Updated",
+      "next_update": "Next Update",
+      "sdmx": "SDMX",
+      "sdmx_xml": "XML",
+      "sdmx_json": "JSON",
+      "sdmx_csv": "CSV",
+      "sdmx_parquet": "Parquet",
+      "sdmx_excel": "Excel"
+    }
+  }
+}
