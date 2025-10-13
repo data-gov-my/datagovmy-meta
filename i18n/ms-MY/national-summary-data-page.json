@@ -2,24 +2,24 @@
   "route": "/national-summary-data-page",
   "sites": ["opendosm"],
   "translation": {
-    "header": "Halaman Data Ringkasan Kebangsaan",
-    "description": "Sebagai organisasi perangkaan kebangsaan (NSO) rasmi Malaysia, peranan DOSM menjangkau lebih daripada sekadar mengeluarkan set data seperti yang anda boleh terokai dan muat turun daripada Katalog Data kami. Setiap tahun, kami mengeluarkan lebih 1000 penerbitan yang menghiris, memotong dadu dan menganalisis data yang kami terbitkan - untuk membantu orang ramai memahaminya. Halaman ini mengkatalogkan semua penerbitan tersebut, bersama-sama dengan dokumentasi teknikal, dalam antara muka yang lancar untuk anda terokai. Nikmati!",
+    "header": "Halaman Data Ringkas Nasional (NSDP)",
+    "description": "Papan pemuka interaktif dan endpoint SDMX bagi data ekonomi dan kewangan utama Malaysia. Data di NSDP adalah selaras dengan data yang diterbitkan di Papan Buletin Piawaian Penerbitan (DSBB) yang dikendalikan oelh Tabung Kewangan Antarabangsa (IMF). Sejak tahun 2000, Malaysia telah mematuhi sepenuhnya Piawaian Penyebaran Data Khas (SDDS) IMF, iaitu penarafan kedua tertinggi dalam Inisiatif Piawaian Data. Untuk maklumat lanjut mengenai DSBB, sila layari laman utama DSBB.",
     "keys": {
       "download": "Muat turun",
       "real": "Sektor Sebenar",
       "fiscal": "Sektor Fiscal",
       "financial": "Sektor Kewangan",
-      "external": "Luaran",
+      "external": "Sektor Luar Negeri",
       "socio": "Data Sosio-Demografi",
       "arc": "ARC"
     },
     "section_download": {
-      "title": "Muat Turun Semua Data Tersedia di Malaysia",
-      "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+      "title": "Data ekonomi dan kewangan penting bagi Malaysia",
+      "description": "Semua set data akan dikemaskini secara automatik mengikut Kalendar Awalan Keluaran yang dipaparkan di tab ARC"
     },
     "table": {
       "title": "Tajuk",
-      "as_of": "Tarikh Setakat",
+      "as_of": "Data Setakat",
       "last_updated": "Kemaskini Terakhir",
       "next_update": "Kemaskini Seterusnya",
       "sdmx": "SDMX",

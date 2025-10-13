@@ -2,20 +2,20 @@
   "route": "/national-summary-data-page",
   "sites": ["opendosm"],
   "translation": {
-    "header": "National Summary Data Page",
-    "description": "As Malaysia's official national statistics organisation (NSO), DOSM's role goes far beyond just releasing datasets like the ones you can explore and download from our Data Catalogue. Every year, we release over 1000 publications slicing, dicing, and analysing the data we publish - to help people make sense of it. This page catalogues all of those publications, together with technical documentation, in a seamless interface for you to explore. Enjoy!",
+    "header": "National Summary Data Page (NSDP)",
+    "description": "Interactive dashboards and SDMX-compliant endpoints for Malaysia's key economic and financial data. The data on the NSDP correspond to the data described on the International Monetary Fund (IMF) Dissemination Standards Bulletin Board (DSBB). Malaysia has fully adhered - since 2000 - to the IMF's Special Data Dissemination Standard (SDDS), the second-highest tier of the Data Standards Initiatives. For more information about the DSBB, please visit the DSBB home page.",
     "keys": {
       "download": "Download",
       "real": "Real Sector",
       "fiscal": "Fiscal Sector",
       "financial": "Financial Sector",
-      "external": "External",
+      "external": "External Sector",
       "socio": "Socio-Demographic Data",
       "arc": "ARC"
     },
     "section_download": {
-      "title": "Download All Available Data in Malaysia",
-      "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+      "title": "Key economic and financial data for Malaysia",
+      "description": "All datasets are automatically updated per the Advance Release Calendar available on the ARC tab"
     },
     "table": {
       "title": "Title",
