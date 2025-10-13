@@ -3,9 +3,9 @@
     "link_parquet": "https://storage.data.gov.my/dev/khidmat_nasihat_jbg_sub_kategori.parquet",
     "link_preview": "https://storage.data.gov.my/dev/khidmat_nasihat_jbg_sub_kategori.parquet",
     "title_en": "Legal Advisory Services by Subcategory",
-    "title_ms": "Perkhidmatan Nasihat Undang-Undang Mengikut Subkategori",
+    "title_ms": "Perkhidmatan Nasihat Undang-Undang Mengikut Sub kategori",
     "description_en": "This dataset presents records of legal advisory sessions registered through the Sistem Pengurusan Kes Jabatan Bantuan Guaman (SPK-JBG), managed by the Legal Aid Department under the Prime Minister’s Department. It includes consultations across all branches in Malaysia, classified by subcategory. The dataset aims to support transparency, research, and analysis related to the accessibility and scope of legal aid services in Malaysia.",
-    "description_ms": "Set data ini mengandungi rekod sesi nasihat undang-undang yang didaftarkan melalui Sistem Pengurusan Kes Jabatan Bantuan Guaman (SPK-JBG), yang dikendalikan oleh Jabatan Bantuan Guaman di bawah Jabatan Perdana Menteri. Ia merangkumi konsultasi di semua cawangan di Malaysia, yang diklasifikasikan mengikut subkategori. Set data ini bertujuan untuk menyokong ketelusan, penyelidikan, dan analisis berkaitan aksesibiliti dan skop perkhidmatan bantuan guaman di Malaysia.",
+    "description_ms": "Set data ini mengandungi rekod sesi nasihat undang-undang yang didaftarkan melalui Sistem Pengurusan Kes Jabatan Bantuan Guaman (SPK-JBG), yang dikendalikan oleh Jabatan Bantuan Guaman di bawah Jabatan Perdana Menteri. Ia merangkumi konsultasi di semua cawangan di Malaysia, yang diklasifikasikan mengikut sub kategori. Set data ini bertujuan untuk menyokong ketelusan, penyelidikan, dan analisis berkaitan aksesibiliti dan skop perkhidmatan bantuan guaman di Malaysia.",
     "title_sort": "2",
     "exclude_openapi": false,
     "manual_trigger": "",
@@ -21,7 +21,7 @@
         "JBG"
     ],
     "methodology_en": "The dataset is compiled from records maintained by the Sistem Pengurusan Kes Jabatan Bantuan Guaman (SPK-JBG). It includes yearly data of registered legal advisory sessions across various branches in Malaysia. Each record is categorized by the main category and subcategory of legal issues addressed during the advisory session.",
-    "methodology_ms": "Set data ini disusun daripada rekod yang diselenggara oleh Sistem Pengurusan Kes Jabatan Bantuan Guaman (SPK-JBG). Ia merangkumi data tahunan sesi nasihat undang-undang yang didaftarkan di pelbagai cawangan di Malaysia. Setiap rekod dikategorikan mengikut kategori utama dan subkategori isu undang-undang yang dibincangkan semasa sesi nasihat.",
+    "methodology_ms": "Set data ini disusun daripada rekod yang diselenggara oleh Sistem Pengurusan Kes Jabatan Bantuan Guaman (SPK-JBG). Ia merangkumi data tahunan sesi nasihat undang-undang yang didaftarkan di pelbagai cawangan di Malaysia. Setiap rekod dikategorikan mengikut kategori utama dan sub kategori isu undang-undang yang dibincangkan semasa sesi nasihat.",
     "caveat_en": "The dataset only includes legal advisory sessions registered through the SPK-JBG system. It may not capture all legal aid activities, especially those not registered or recorded in the system. Additionally, the data does not include detailed outcomes of the sessions, focusing solely on the categorization and number of cases.",
     "caveat_ms": "Set data ini hanya memaparkan sesi nasihat undang-undang yang didaftarkan melalui sistem SPK-JBG. Ia mungkin tidak merangkumi semua aktiviti bantuan guaman, terutamanya yang tidak didaftarkan atau direkodkan dalam sistem. Selain itu, data ini tidak termasuk hasil terperinci sesi, tetapi hanya memfokuskan pada pengkategorian dan jumlah kes.",
     "publication_en": "N/A",
@@ -54,9 +54,9 @@
         {
             "name": "sub kategori",
             "title_en": "Subcategory",
-            "title_ms": "Subkategori",
+            "title_ms": "Sub kategori",
             "description_en": "The subcategory of the legal issue addressed during the advisory session.",
-            "description_ms": "Subkategori isu undang-undang yang dibincangkan semasa sesi nasihat."
+            "description_ms": "Sub kategori isu undang-undang yang dibincangkan semasa sesi nasihat."
         },
         {
             "name": "Jumlah Kes",
@@ -77,7 +77,7 @@
         "tarikh": "Tarikh",
         "cawangan": "Cawangan",
         "kategori utama": "Kategori Utama",
-        "sub kategori": "Subkategori",
+        "sub kategori": "Sub kategori",
         "Jumlah Kes": "Jumlah Kes"
     },
     "site_category": [
