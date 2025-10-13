@@ -1,0 +1,33 @@
+{
+  "route": "/national-summary-data-page",
+  "sites": ["opendosm"],
+  "translation": {
+    "header": "Halaman Data Ringkasan Kebangsaan",
+    "description": "Sebagai organisasi perangkaan kebangsaan (NSO) rasmi Malaysia, peranan DOSM menjangkau lebih daripada sekadar mengeluarkan set data seperti yang anda boleh terokai dan muat turun daripada Katalog Data kami. Setiap tahun, kami mengeluarkan lebih 1000 penerbitan yang menghiris, memotong dadu dan menganalisis data yang kami terbitkan - untuk membantu orang ramai memahaminya. Halaman ini mengkatalogkan semua penerbitan tersebut, bersama-sama dengan dokumentasi teknikal, dalam antara muka yang lancar untuk anda terokai. Nikmati!",
+    "keys": {
+      "download": "Muat turun",
+      "real": "Sektor Sebenar",
+      "fiscal": "Sektor Fiscal",
+      "financial": "Sektor Kewangan",
+      "external": "Luaran",
+      "socio": "Data Sosio-Demografi",
+      "arc": "ARC"
+    },
+    "section_download": {
+      "title": "Muat Turun Semua Data Tersedia di Malaysia",
+      "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+    },
+    "table": {
+      "title": "Tajuk",
+      "as_of": "Tarikh Setakat",
+      "last_updated": "Kemaskini Terakhir",
+      "next_update": "Kemaskini Seterusnya",
+      "sdmx": "SDMX",
+      "sdmx_xml": "XML",
+      "sdmx_json": "JSON",
+      "sdmx_csv": "CSV",
+      "sdmx_parquet": "Parquet",
+      "sdmx_excel": "Excel"
+    }
+  }
+}
