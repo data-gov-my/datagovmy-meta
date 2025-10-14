@@ -1,5 +1,5 @@
 {
-  "route": "/national-summary-data-page",
+  "route": "/nsdp",
   "sites": ["opendosm"],
   "translation": {
     "header": "Halaman Data Ringkas Nasional (NSDP)",
@@ -26,7 +26,7 @@
       "sdmx_xml": "XML",
       "sdmx_json": "JSON",
       "sdmx_csv": "CSV",
-      "sdmx_parquet": "Parquet",
+      "sdmx_parquet_tooltip": "Kami memperkenalkan format data baharu. Klik pautan di bawah untuk melihat [Dokumentasi Teknikal](https://storage.dosm.gov.my/sdmx/sdmx-parquet.pdf)",
       "sdmx_excel": "Excel"
     }
   }
