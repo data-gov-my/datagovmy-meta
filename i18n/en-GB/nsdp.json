@@ -29,6 +29,30 @@
       "sdmx_parquet": "Parquet",
       "sdmx_parquet_tooltip": "We're introducing a new data format. Click the link below to view the [Technical Documentations](https://storage.dosm.gov.my/sdmx/sdmx-parquet.pdf)",
       "sdmx_excel": "Excel"
+    },
+    "section_real": {
+      "title": "Real sector",
+      "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+    },
+    "section_fiscal": {
+      "title": "Fiscal sector",
+      "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+    },
+    "section_financial": {
+      "title": "Financial sector",
+      "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+    },
+    "section_external": {
+      "title": "External sector",
+      "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+    },
+    "section_socio": {
+      "title": "Socio-demographic Data",
+      "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+    },
+    "section_arc": {
+      "title": "ARC",
+      "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
     }
   }
 }

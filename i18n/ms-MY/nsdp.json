@@ -28,6 +28,30 @@
       "sdmx_csv": "CSV",
       "sdmx_parquet_tooltip": "Kami memperkenalkan format data baharu. Klik pautan di bawah untuk melihat [Dokumentasi Teknikal](https://storage.dosm.gov.my/sdmx/sdmx-parquet.pdf)",
       "sdmx_excel": "Excel"
+    },
+    "section_real": {
+      "title": "Sektor Sebenar",
+      "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+    },
+    "section_fiscal": {
+      "title": "Sektor Fiscal",
+      "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+    },
+    "section_financial": {
+      "title": "Sektor Kewangan",
+      "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+    },
+    "section_external": {
+      "title": "Sektor Luar Negeri",
+      "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+    },
+    "section_socio": {
+      "title": "Data Sosio-Demografi",
+      "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+    },
+    "section_arc": {
+      "title": "ARC",
+      "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
     }
   }
 }
