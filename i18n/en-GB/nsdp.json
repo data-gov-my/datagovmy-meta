@@ -1,5 +1,5 @@
 {
-  "route": "/national-summary-data-page",
+  "route": "/nsdp",
   "sites": ["opendosm"],
   "translation": {
     "header": "National Summary Data Page (NSDP)",
@@ -27,6 +27,7 @@
       "sdmx_json": "JSON",
       "sdmx_csv": "CSV",
       "sdmx_parquet": "Parquet",
+      "sdmx_parquet_tooltip": "We're introducing a new data format. Click the link below to view the [Technical Documentations](https://storage.dosm.gov.my/sdmx/sdmx-parquet.pdf)",
       "sdmx_excel": "Excel"
     }
   }
