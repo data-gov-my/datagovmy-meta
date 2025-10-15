@@ -32,6 +32,19 @@
       "sdmx_excel": "Excel"
     },
     "section_real": {
+      "ipi": {
+        "title": "Industrial Production Index",
+        "description": "",
+        "keys": {
+          "growth_yoy": "YoY Growth (%)",
+          "growth_mom": "MoM Growth (%)",
+          "index": "Index",
+          "overall": "Overall",
+          "mining": "Mining",
+          "manufacturing": "Manufacturing",
+          "electricity": "Electricity"
+        }
+      },
       "cpi": {
         "title": "Consumer Price Index",
         "description": "",
@@ -40,8 +53,8 @@
           "growth_yoy_core": "Core Inflation (% YoY)",
           "growth_mom": "Headline Inflation (% MoM)",
           "growth_mom_core": "Core Inflation (% MoM)",
-          "index": "Index",
-          "index_core": "Core Index",
+          "index": "Headline CPI (index)",
+          "index_core": "Core CPI (index)",
           "overall": "Overall",
           "food": "Food",
           "housing_fuel": "Housing, Water, Electricity, Gas & Other Fuels",

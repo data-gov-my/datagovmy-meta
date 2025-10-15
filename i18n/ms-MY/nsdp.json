@@ -31,6 +31,19 @@
       "sdmx_excel": "Excel"
     },
     "section_real": {
+      "ipi": {
+        "title": "Indeks Pengeluaran Perindustrian",
+        "description": "",
+        "keys": {
+          "growth_yoy": "Pertumbuhan Tahunan (%)",
+          "growth_mom": "Pertumbuhan Bulanan (%)",
+          "index": "Indeks",
+          "overall": "Keseluruhan",
+          "mining": "Perlombongan",
+          "manufacturing": "Pembuatan",
+          "electricity": "Elektrik"
+        }
+      },
       "cpi": {
         "title": "Indeks Harga Pengguna",
         "description": "",
@@ -39,8 +52,8 @@
           "growth_yoy_core": "Inflasi Teras (% tahunan)",
           "growth_mom": "Inflasi Keseluruhan (% bulanan)",
           "growth_mom_core": "Inflasi Teras (% bulanan)",
-          "index": "Indeks",
-          "index_core": "Indeks Teras",
+          "index": "IHP Keseluruhan (indeks)",
+          "index_core": "IHP Teras (indeks)",
           "overall": "Keseluruhan",
           "food": "Makanan",
           "housing_fuel": "Perumahan, Air, Elektrik, Gas & Bahan Api Lain",
