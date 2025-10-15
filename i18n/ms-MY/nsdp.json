@@ -13,6 +13,7 @@
       "socio": "Data Sosio-Demografi",
       "arc": "ARC"
     },
+    "on_this_page": "Pada halaman ini",
     "section_download": {
       "title": "Data ekonomi dan kewangan penting bagi Malaysia",
       "description": "Semua set data akan dikemaskini secara automatik mengikut Kalendar Awalan Keluaran yang dipaparkan di tab ARC"
@@ -30,8 +31,37 @@
       "sdmx_excel": "Excel"
     },
     "section_real": {
-      "title": "Sektor Sebenar",
-      "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+      "cpi": {
+        "title": "CPI",
+        "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+        "keys": {
+          "growth_yoy": "Pertumbuhan Tahunan",
+          "growth_yoy_core": "Pertumbuhan Tahunan Teras",
+          "growth_mom": "Pertumbuhan Bulanan",
+          "growth_mom_core": "Pertumbuhan Bulanan Teras",
+          "growth_index": "Indeks",
+          "growth_index_core": "Indeks Teras",
+          "overall": "Keseluruhan",
+          "food": "Makanan",
+          "housing_fuel": "Perumahan dan Bahan Api",
+          "transportation": "Pengangkutan"
+        }
+      },
+      "ppi": {
+        "title": "PPI",
+        "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+        "keys": {
+          "growth_yoy": "Pertumbuhan Tahunan",
+          "growth_mom": "Pertumbuhan Bulanan",
+          "growth_index": "Indeks",
+          "overall": "Keseluruhan",
+          "agriculture": "Pertanian",
+          "mining": "Perlombongan",
+          "manufacturing": "Pembuatan",
+          "electricity": "Elektrik",
+          "water": "Air"
+        }
+      }
     },
     "section_fiscal": {
       "title": "Sektor Fiscal",
