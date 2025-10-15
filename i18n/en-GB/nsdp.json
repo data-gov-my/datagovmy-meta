@@ -13,6 +13,7 @@
       "socio": "Socio-Demographic Data",
       "arc": "ARC"
     },
+    "on_this_page": "On this page",
     "section_download": {
       "title": "Key economic and financial data for Malaysia",
       "description": "All datasets are automatically updated per the Advance Release Calendar available on the ARC tab"
@@ -31,8 +32,37 @@
       "sdmx_excel": "Excel"
     },
     "section_real": {
-      "title": "Real sector",
-      "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+      "cpi": {
+        "title": "CPI",
+        "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+        "keys": {
+          "growth_yoy": "YoY Growth",
+          "growth_yoy_core": "YoY Growth Core",
+          "growth_mom": "MoM Growth",
+          "growth_mom_core": "MoM Growth Core",
+          "growth_index": "Index",
+          "growth_index_core": "Index Core",
+          "overall": "Overall",
+          "food": "Food",
+          "housing_fuel": "Housing and Fuel",
+          "transportation": "Transportation"
+        }
+      },
+      "ppi": {
+        "title": "PPI",
+        "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+        "keys": {
+          "growth_yoy": "YoY Growth",
+          "growth_mom": "MoM Growth",
+          "growth_index": "Index",
+          "overall": "Overall",
+          "agriculture": "Agriculture",
+          "mining": "Mining",
+          "manufacturing": "Manufacturing",
+          "electricity": "Electricity",
+          "water": "Water"
+        }
+      }
     },
     "section_fiscal": {
       "title": "Fiscal sector",
