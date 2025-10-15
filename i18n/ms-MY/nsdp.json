@@ -32,27 +32,27 @@
     },
     "section_real": {
       "cpi": {
-        "title": "CPI",
-        "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+        "title": "Indeks Harga Pengguna",
+        "description": "",
         "keys": {
-          "growth_yoy": "Pertumbuhan Tahunan",
-          "growth_yoy_core": "Pertumbuhan Tahunan Teras",
-          "growth_mom": "Pertumbuhan Bulanan",
-          "growth_mom_core": "Pertumbuhan Bulanan Teras",
+          "growth_yoy": "Inflasi Keseluruhan (% tahunan)",
+          "growth_yoy_core": "Inflasi Teras (% tahunan)",
+          "growth_mom": "Inflasi Keseluruhan (% bulanan)",
+          "growth_mom_core": "Inflasi Teras (% bulanan)",
           "index": "Indeks",
           "index_core": "Indeks Teras",
           "overall": "Keseluruhan",
           "food": "Makanan",
-          "housing_fuel": "Perumahan dan Bahan Api",
+          "housing_fuel": "Perumahan, Air, Elektrik, Gas & Bahan Api Lain",
           "transportation": "Pengangkutan"
         }
       },
       "ppi": {
-        "title": "PPI",
-        "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+        "title": "Indeks Harga Pengeluar",
+        "description": "",
         "keys": {
-          "growth_yoy": "Pertumbuhan Tahunan",
-          "growth_mom": "Pertumbuhan Bulanan",
+          "growth_yoy": "Pertumbuhan Tahunan (%)",
+          "growth_mom": "Pertumbuhan Bulanan (%)",
           "index": "Indeks",
           "overall": "Keseluruhan",
           "agriculture": "Pertanian",
@@ -64,24 +64,24 @@
       }
     },
     "section_fiscal": {
-      "title": "Sektor Fiscal",
-      "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+      "title": "Sektor Fiskal",
+      "description": ""
     },
     "section_financial": {
       "title": "Sektor Kewangan",
-      "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+      "description": ""
     },
     "section_external": {
       "title": "Sektor Luar Negeri",
-      "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+      "description": ""
     },
     "section_socio": {
       "title": "Data Sosio-Demografi",
-      "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+      "description": ""
     },
     "section_arc": {
       "title": "ARC",
-      "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+      "description": ""
     }
   }
 }

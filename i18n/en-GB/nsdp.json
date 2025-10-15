@@ -33,27 +33,27 @@
     },
     "section_real": {
       "cpi": {
-        "title": "CPI",
-        "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+        "title": "Consumer Price Index",
+        "description": "",
         "keys": {
-          "growth_yoy": "YoY Growth",
-          "growth_yoy_core": "YoY Growth Core",
-          "growth_mom": "MoM Growth",
-          "growth_mom_core": "MoM Growth Core",
+          "growth_yoy": "Headline Inflation (% YoY)",
+          "growth_yoy_core": "Core Inflation (% YoY)",
+          "growth_mom": "Headline Inflation (% MoM)",
+          "growth_mom_core": "Core Inflation (% MoM)",
           "index": "Index",
-          "index_core": "Index Core",
+          "index_core": "Core Index",
           "overall": "Overall",
           "food": "Food",
-          "housing_fuel": "Housing and Fuel",
+          "housing_fuel": "Housing, Water, Electricity, Gas & Other Fuels",
           "transportation": "Transportation"
         }
       },
       "ppi": {
-        "title": "PPI",
-        "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+        "title": "Producer Price Index",
+        "description": "",
         "keys": {
-          "growth_yoy": "YoY Growth",
-          "growth_mom": "MoM Growth",
+          "growth_yoy": "YoY Growth (%)",
+          "growth_mom": "MoM Growth (%)",
           "index": "Index",
           "overall": "Overall",
           "agriculture": "Agriculture",
@@ -65,24 +65,24 @@
       }
     },
     "section_fiscal": {
-      "title": "Fiscal sector",
-      "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+      "title": "Fiscal Sector",
+      "description": ""
     },
     "section_financial": {
-      "title": "Financial sector",
-      "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+      "title": "Financial Sector",
+      "description": ""
     },
     "section_external": {
-      "title": "External sector",
-      "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+      "title": "External Sector",
+      "description": ""
     },
     "section_socio": {
       "title": "Socio-demographic Data",
-      "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+      "description": ""
     },
     "section_arc": {
       "title": "ARC",
-      "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+      "description": ""
     }
   }
 }
