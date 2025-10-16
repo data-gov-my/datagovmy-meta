@@ -3,7 +3,7 @@
   "sites": ["opendosm"],
   "translation": {
     "header": "National Summary Data Page (NSDP)",
-    "description": "Interactive dashboards and SDMX-compliant endpoints for Malaysia's key economic and financial data. The data on the NSDP correspond to the data described on the International Monetary Fund (IMF) Dissemination Standards Bulletin Board (DSBB). Malaysia has fully adhered - since 2000 - to the IMF's Special Data Dissemination Standard (SDDS), the second-highest tier of the Data Standards Initiatives. For more information about the DSBB, please visit the [DSBB home page](https://dsbb.imf.org/).",
+    "description": "Interactive dashboards and SDMX-compliant endpoints for Malaysia's key economic and financial data, as released to the IMF's Dissemination Standards Bulletin Board (DSBB). Since 2000, Malaysia has fully adhered to the Special Data Dissemination Standard (SDDS), the second-highest tier of the Data Standards Initiatives. For more information, please visit the [DSBB home page](https://dsbb.imf.org/).",
     "keys": {
       "download": "Download",
       "real": "Real Sector",
