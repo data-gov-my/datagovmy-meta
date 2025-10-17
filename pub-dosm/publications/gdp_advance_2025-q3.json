@@ -1,0 +1,50 @@
+{
+    "publication": "gdp_advance_2025-q3",
+    "publication_type": "gdp",
+    "release_date": "2025-10-17",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[3Q 2025] Advance Gross Domestic Product",
+        "publication_type_title": "Gross Domestic Product",
+        "description": "Advance estimate of quarterly gross domestic product (GDP), covering real GDP by type of activity.",
+        "description_email": "DOSM has just released advance GDP data for the 4th quarter of 2024, with estimates of real GDP by type of activity. The advance data estimates place year-on-year GDP growth at 4.8% in the 4th quarter. This implies overall GDP growth of 5.1% for the year 2024, compared to 3.6% in 2023.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Advance Gross Domestic Product: 3Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_advance_2025-q3.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Advance Gross Domestic Product: 3Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_advance_2025-q3.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST3 2025] Keluaran Dalam Negeri Kasar Awalan",
+        "publication_type_title": "Keluaran Dalam Negeri Kasar",
+        "description": "Anggaran awalan keluaran dalam negeri kasar (KDNK) suku tahunan, merangkumi KDNK pada harga malar mengikut jenis aktiviti.",
+        "description_email": "DOSM telah menerbitkan data KDNK awalan untuk suku tahun keempat 2024, merangkumi anggaran KDNK pada harga malar mengikut jenis aktiviti. Data awalan ini menunjukkan pertumbuhan KDNK tahunan sebanyak 4.8% pada suku tahun keempat. Ini bermaksud pertumbuhan KDNK sebanyak 5.1% untuk tahun 2024 secara keseluruhan, berbanding dengan 3.6% pada tahun 2023.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Keluaran Dalam Negeri Kasar Awalan: ST3 2025",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_advance_2025-q3.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Keluaran Dalam Negeri Kasar Awalan: ST3 2025",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_advance_2025-q3.xlsx"
+            }
+        ]
+    }
+}
