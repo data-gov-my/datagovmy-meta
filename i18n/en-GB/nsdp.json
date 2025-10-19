@@ -91,8 +91,16 @@
       "description": ""
     },
     "section_socio": {
-      "title": "Socio-demographic Data",
-      "description": ""
+      "title": "Socio-Demographic Data",
+      "lfpr": {
+        "title": "Labour Force Participation Rate (LFPR)",
+        "description": "",
+        "keys": {
+          "both": "LFPR for Both Sexes",
+          "male": "Male LFPR",
+          "female": "Female LFPR"
+        }
+      }
     },
     "section_arc": {
       "title": "ARC",

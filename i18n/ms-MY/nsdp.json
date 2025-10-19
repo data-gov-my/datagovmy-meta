@@ -91,7 +91,15 @@
     },
     "section_socio": {
       "title": "Data Sosio-Demografi",
-      "description": ""
+      "lfpr": {
+        "title": "Kadar Penyertaan Tenaga Buruh (KPTB)",
+        "description": "",
+        "keys": {
+          "both": "KPTB Keseluruhan",
+          "male": "KPTB Lelaki",
+          "female": "KPTB Perempuan"
+        }
+      }
     },
     "section_arc": {
       "title": "ARC",
