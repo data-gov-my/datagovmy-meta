@@ -97,7 +97,9 @@
         "keys": {
           "both": "KPTB Keseluruhan",
           "male": "KPTB Lelaki",
-          "female": "KPTB Perempuan"
+          "female": "KPTB Perempuan",
+          "abs": "KPTB (%)",
+          "change": "Perubahan KPTB (mata peratusan)"
         }
       }
     },

@@ -98,7 +98,9 @@
         "keys": {
           "both": "LFPR for Both Sexes",
           "male": "Male LFPR",
-          "female": "Female LFPR"
+          "female": "Female LFPR",
+          "abs": "LFPR (%)",
+          "change": "Change in LFPR (ppt)"
         }
       }
     },
