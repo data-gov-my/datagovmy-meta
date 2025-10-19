@@ -58,7 +58,7 @@
           "index_core": "Core CPI (index)",
           "overall": "Overall",
           "food": "Food",
-          "housing_fuel": "Housing, Water, Electricity, Gas & Other Fuels",
+          "housing_fuel": "Housing, Water, Electricity & Gas",
           "transportation": "Transportation"
         }
       },
