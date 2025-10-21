@@ -79,7 +79,22 @@
     },
     "section_fiscal": {
       "title": "Sektor Fiskal",
-      "description": ""
+      "ggo": {
+        "title": "Operasi Sektor Awam",
+        "description": "",
+        "keys": {
+          "rm": "RM",
+          "balance": "Imbangan Keseluruhan",
+          "ca": "Akaun Semasa",
+          "nfpc_opsup": "Lebihan Operasi NFPC",
+          "revenue": "Hasil",
+          "opex": "Perbelanjaan Mengurus",
+          "devex_net": "Perbelanjaan Pembangunan Bersih",
+          "fin_dom_bank": "Pembiayaan Domestik (Bank)",
+          "fin_dom_nonbank": "Pembiayaan Domestik (Bukan Bank)",
+          "fin_foreign": "Pembiayaan Luar Negeri"
+        }
+      }
     },
     "section_financial": {
       "title": "Sektor Kewangan",

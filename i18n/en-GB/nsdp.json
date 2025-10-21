@@ -80,7 +80,22 @@
     },
     "section_fiscal": {
       "title": "Fiscal Sector",
-      "description": ""
+      "ggo": {
+        "title": "General Government Operations",
+        "description": "",
+        "keys": {
+          "rm": "RM",
+          "balance": "Overall Balance",
+          "ca": "Current Account",
+          "nfpc_opsup": "NFPC Operating Surplus",
+          "revenue": "Revenue",
+          "opex": "Operating Expenditure",
+          "devex_net": "Net Development Expenditure",
+          "fin_dom_bank": "Domestic Financing (Bank)",
+          "fin_dom_nonbank": "Domestic Financing (Non-Bank)",
+          "fin_foreign": "Foreign Financing"
+        }
+      }
     },
     "section_financial": {
       "title": "Financial Sector",
