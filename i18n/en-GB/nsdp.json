@@ -92,6 +92,7 @@
         "title": "Balance of Payments",
         "description": "",
         "keys": {
+          "net_rm": "Net (RM)",
           "overall": "Overall",
           "ca": "Current Account",
           "ka": "Capital Account",

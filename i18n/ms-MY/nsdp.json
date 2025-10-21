@@ -91,6 +91,7 @@
         "title": "Imbangan Pembayaran",
         "description": "",
         "keys": {
+          "net_rm": "Bersih (RM)",
           "overall": "Keseluruhan",
           "ca": "Akaun Semasa",
           "ka": "Akaun Modal",
