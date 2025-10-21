@@ -88,7 +88,16 @@
     },
     "section_external": {
       "title": "External Sector",
-      "description": ""
+      "bop": {
+        "title": "Balance of Payments",
+        "description": "",
+        "keys": {
+          "overall": "Overall",
+          "ca": "Current Account",
+          "ka": "Capital Account",
+          "fa": "Financial Account"
+        }
+      }
     },
     "section_socio": {
       "title": "Socio-Demographic Data",

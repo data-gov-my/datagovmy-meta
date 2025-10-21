@@ -87,7 +87,16 @@
     },
     "section_external": {
       "title": "Sektor Luar Negeri",
-      "description": ""
+      "bop": {
+        "title": "Imbangan Pembayaran",
+        "description": "",
+        "keys": {
+          "overall": "Keseluruhan",
+          "ca": "Akaun Semasa",
+          "ka": "Akaun Modal",
+          "fa": "Akaun Kewangan"
+        }
+      }
     },
     "section_socio": {
       "title": "Data Sosio-Demografi",
