@@ -83,7 +83,17 @@
     },
     "section_financial": {
       "title": "Sektor Kewangan",
-      "description": ""
+      "dcs": {
+        "title": "Survei Syarikat Penerima Deposit",
+        "description": "",
+        "keys": {
+          "rm": "RM",
+          "growth_yoy": "Pertumbuhan Tahunan (%)",
+          "m1": "M1 (Wang Sempit)",
+          "m2": "M2 (M1 + Wang Separuh Sempit)",
+          "m3": "M3 (M2 + Wang Luas)"
+        }
+      }
     },
     "section_external": {
       "title": "Sektor Luar Negeri",

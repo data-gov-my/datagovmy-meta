@@ -84,7 +84,17 @@
     },
     "section_financial": {
       "title": "Financial Sector",
-      "description": ""
+      "dcs": {
+        "title": "Depository Corporations Survey",
+        "description": "",
+        "keys": {
+          "rm": "RM",
+          "growth_yoy": "YoY Growth (%)",
+          "m1": "M1 (Narrow Money)",
+          "m2": "M2 (M1 + Quasi-Money)",
+          "m3": "M3 (M2 + Broad Money)"
+        }
+      }
     },
     "section_external": {
       "title": "External Sector",
