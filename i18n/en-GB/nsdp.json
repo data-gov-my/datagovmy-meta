@@ -109,7 +109,7 @@
           "both": "LFPR for Both Sexes",
           "male": "Male LFPR",
           "female": "Female LFPR",
-          "abs_perc": "LFPR (%)",
+          "perc": "LFPR (%)",
           "change": "Change in LFPR (ppt)"
         }
       }
