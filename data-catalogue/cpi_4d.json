@@ -5,7 +5,7 @@
     "description_en": "National-level CPI at class granularity. The table below provides a preview of the full dataset using the latest month of data only.",
     "description_ms": "IHP peringkat nasional dengan perincian tahap kelas. Jadual di bawah memberi pratonton kepada set data penuh dengan menggunakan data bulan terkini sahaja.",
     "exclude_openapi": true,
-    "manual_trigger": "",
+    "manual_trigger": "2025-10-22 12:37:14.612508",
     "data_as_of": "2025-09",
     "last_updated": "2025-10-22 12:00",
     "next_update": "2025-11-21 12:00",
