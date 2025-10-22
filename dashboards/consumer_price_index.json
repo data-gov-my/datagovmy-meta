@@ -1,7 +1,7 @@
 {
     "dashboard_name": "consumer_price_index",
-    "data_last_updated": "2025-09-23 12:00",
-    "data_next_update": "2025-10-22 12:00",
+    "data_last_updated": "2025-10-22 12:00",
+    "data_next_update": "2025-11-21 12:00",
     "route": "/dashboard/consumer-prices,/ms-MY/dashboard/consumer-prices",
     "sites": [
         "opendosm"
@@ -14,7 +14,7 @@
             "name": "bar_chart",
             "chart_type": "bar_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/cpi_main_barchart.parquet",
-            "data_as_of": "2025-08",
+            "data_as_of": "2025-09",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -36,7 +36,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/cpi_main_timeseries.parquet",
-            "data_as_of": "2025-08",
+            "data_as_of": "2025-09",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -71,7 +71,7 @@
             "name": "statistics",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/cpi_main_timeseries_callout.parquet",
-            "data_as_of": "2025-08",
+            "data_as_of": "2025-09",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -89,7 +89,7 @@
             "name": "timeseries_6d",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/cpi_query_timeseries_4d.parquet",
-            "data_as_of": "2025-08",
+            "data_as_of": "2025-09",
             "api_type": "individual_chart",
             "api_params": [
                 "lang",
@@ -117,7 +117,7 @@
             "name": "snapshot_4d",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/cpi_query_snapshot_4d.parquet?ignoreCache=0",
-            "data_as_of": "2025-08",
+            "data_as_of": "2025-09",
             "api_type": "individual_chart",
             "api_params": [
                 "lang",
@@ -153,7 +153,7 @@
             "name": "choropleth_district",
             "chart_type": "choropleth_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/cpi_district.parquet",
-            "data_as_of": "2025-08",
+            "data_as_of": "2025-09",
             "api_type": "static",
             "api_params": [],
             "variables": {
