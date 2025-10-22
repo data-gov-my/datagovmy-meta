@@ -5,7 +5,7 @@
     "description_en": "CPI by strata (urban/rural) for 13 main groups of goods and services.",
     "description_ms": "IHP mengikut strata (bandar/luar bandar) bagi 13 kumpulan utama barangan dan perkhidmatan.",
     "exclude_openapi": false,
-    "manual_trigger": "na",
+    "manual_trigger": "2025-10-22 12:37:14.613499",
     "data_as_of": "2025-09",
     "last_updated": "2025-10-22 12:00",
     "next_update": "2025-11-21 12:00",
