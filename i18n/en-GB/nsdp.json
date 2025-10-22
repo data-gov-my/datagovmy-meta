@@ -1,0 +1,147 @@
+{
+  "route": "/nsdp",
+  "sites": ["opendosm"],
+  "translation": {
+    "header": "National Summary Data Page (NSDP)",
+    "description": "Interactive dashboards and SDMX-compliant endpoints for Malaysia's key economic and financial data, as released to the IMF's Dissemination Standards Bulletin Board (DSBB). Since 2000, Malaysia has fully adhered to the Special Data Dissemination Standard (SDDS), the second-highest tier of the Data Standards Initiatives. For more information, visit the [DSBB home page](https://dsbb.imf.org/).",
+    "description_og": "Interactive dashboards and SDMX-compliant endpoints for Malaysia's key economic and financial data, as released to the IMF's Dissemination Standards Bulletin Board (DSBB).",
+    "keys": {
+      "download": "Download",
+      "real": "Real Sector",
+      "fiscal": "Fiscal Sector",
+      "financial": "Financial Sector",
+      "external": "External Sector",
+      "socio": "Socio-Demographic Data",
+      "arc": "ARC"
+    },
+    "on_this_page": "On this page",
+    "section_download": {
+      "title": "Key economic and financial data for Malaysia",
+      "description": "All datasets are automatically updated per the Advance Release Calendar available on the ARC tab"
+    },
+    "table": {
+      "title": "Title",
+      "as_of": "Date as Of",
+      "last_updated": "Last Updated",
+      "next_update": "Next Update",
+      "sdmx": "SDMX",
+      "sdmx_xml": "XML",
+      "sdmx_json": "JSON",
+      "sdmx_csv": "CSV",
+      "sdmx_parquet": "Parquet",
+      "sdmx_parquet_tooltip": "We're introducing a new data format. Click the link below to view the [Technical Documentations](https://storage.dosm.gov.my/sdmx/sdmx-parquet.pdf)",
+      "sdmx_excel": "Excel"
+    },
+    "section_real": {
+      "ipi": {
+        "title": "Industrial Production Index",
+        "description": "",
+        "keys": {
+          "growth_yoy": "YoY Growth (%)",
+          "growth_mom": "MoM Growth (%)",
+          "index": "Index",
+          "overall": "Overall",
+          "mining": "Mining",
+          "manufacturing": "Manufacturing",
+          "electricity": "Electricity"
+        }
+      },
+      "cpi": {
+        "title": "Consumer Price Index",
+        "description": "",
+        "keys": {
+          "growth_yoy": "Headline Inflation (% YoY)",
+          "growth_yoy_core": "Core Inflation (% YoY)",
+          "growth_mom": "Headline Inflation (% MoM)",
+          "growth_mom_core": "Core Inflation (% MoM)",
+          "index": "Headline CPI (index)",
+          "index_core": "Core CPI (index)",
+          "overall": "Overall",
+          "food": "Food",
+          "housing_fuel": "Housing, Water, Electricity & Gas",
+          "transportation": "Transportation"
+        }
+      },
+      "ppi": {
+        "title": "Producer Price Index",
+        "description": "",
+        "keys": {
+          "growth_yoy": "YoY Growth (%)",
+          "growth_mom": "MoM Growth (%)",
+          "index": "Index",
+          "overall": "Overall",
+          "agriculture": "Agriculture",
+          "mining": "Mining",
+          "manufacturing": "Manufacturing",
+          "electricity": "Electricity",
+          "water": "Water"
+        }
+      }
+    },
+    "section_fiscal": {
+      "title": "Fiscal Sector",
+      "ggo": {
+        "title": "General Government Operations",
+        "description": "",
+        "keys": {
+          "rm": "RM",
+          "balance": "Overall Balance",
+          "ca": "Current Account",
+          "nfpc_opsup": "NFPC Operating Surplus",
+          "revenue": "Revenue",
+          "opex": "Operating Expenditure",
+          "devex_net": "Net Development Expenditure",
+          "fin_dom_bank": "Domestic Financing (Bank)",
+          "fin_dom_nonbank": "Domestic Financing (Non-Bank)",
+          "fin_foreign": "Foreign Financing"
+        }
+      }
+    },
+    "section_financial": {
+      "title": "Financial Sector",
+      "dcs": {
+        "title": "Depository Corporations Survey",
+        "description": "",
+        "keys": {
+          "rm": "RM",
+          "growth_yoy": "YoY Growth (%)",
+          "m1": "M1 (Narrow Money)",
+          "m2": "M2 (M1 + Quasi-Money)",
+          "m3": "M3 (M2 + Broad Money)"
+        }
+      }
+    },
+    "section_external": {
+      "title": "External Sector",
+      "bop": {
+        "title": "Balance of Payments",
+        "description": "",
+        "keys": {
+          "net_rm": "Net (RM)",
+          "overall": "Overall",
+          "ca": "Current Account",
+          "ka": "Capital Account",
+          "fa": "Financial Account"
+        }
+      }
+    },
+    "section_socio": {
+      "title": "Socio-Demographic Data",
+      "lfpr": {
+        "title": "Labour Force Participation Rate (LFPR)",
+        "description": "",
+        "keys": {
+          "both": "LFPR for Both Sexes",
+          "male": "Male LFPR",
+          "female": "Female LFPR",
+          "perc": "LFPR (%)",
+          "change": "Change in LFPR (ppt)"
+        }
+      }
+    },
+    "section_arc": {
+      "title": "ARC",
+      "description": ""
+    }
+  }
+}

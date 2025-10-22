@@ -79,7 +79,7 @@
         "table": "Jadual"
       },
       "banner": "",
-      "opendosm_banner": "🚀 Perkhidmatan Baharu: Dapatkan penerbitan terkini DOSM terus di emel anda. Klik di [sini](/ms-MY/publications/subscribe) untuk memulakan langganan."
+      "opendosm_banner": ""
     },
     "time": {
       "daily_7d": "Purata 7 hari",
@@ -108,6 +108,7 @@
       "helpdesk": "Meja Bantuan",
       "legacy": "Portal Lama",
       "publications": "Penerbitan",
+      "national_summary_data_page": "NSDP",
       "about": "Tentang",
       "progress": "Perkembangan",
       "pmo": "Jabatan Perdana Menteri",
@@ -156,6 +157,7 @@
       "transportation": "Pengangkutan",
       "national_accounts": "Akaun Kebangsaan",
       "services": "Perkhidmatan",
+      "summary": "Halaman Ringkasan",
       "public_administration": "Pentadbiran Awam",
       "labour_markets": "Pasaran Buruh",
       "producer_price": "Harga Pengeluar",

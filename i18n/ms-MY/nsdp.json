@@ -1,0 +1,146 @@
+{
+  "route": "/nsdp",
+  "sites": ["opendosm"],
+  "translation": {
+    "header": "Halaman Data Ringkas Nasional (NSDP)",
+    "description": "Papan pemuka interaktif dan endpoint SDMX bagi data ekonomi dan kewangan utama Malaysia, seperti yang diterbitkan di Dissemination Standards Bulletin Board (DSBB) IMF. Sejak tahun 2000, Malaysia telah mematuhi sepenuhnya Special Data Dissemination Standard (SDDS), iaitu penarafan kedua tertinggi dalam Inisiatif Piawaian Data. Untuk maklumat lanjut, sila layari [laman utama DSBB](https://dsbb.imf.org/).",
+    "description_og": "Papan pemuka interaktif dan endpoint SDMX bagi data ekonomi dan kewangan utama Malaysia, seperti yang diterbitkan di Dissemination Standards Bulletin Board (DSBB) IMF.",
+    "keys": {
+      "download": "Muat turun",
+      "real": "Sektor Sebenar",
+      "fiscal": "Sektor Fiscal",
+      "financial": "Sektor Kewangan",
+      "external": "Sektor Luar Negeri",
+      "socio": "Data Sosio-Demografi",
+      "arc": "ARC"
+    },
+    "on_this_page": "Pada halaman ini",
+    "section_download": {
+      "title": "Data ekonomi dan kewangan penting bagi Malaysia",
+      "description": "Semua set data akan dikemaskini secara automatik mengikut Kalendar Awalan Keluaran yang dipaparkan di tab ARC"
+    },
+    "table": {
+      "title": "Tajuk",
+      "as_of": "Data Setakat",
+      "last_updated": "Kemaskini Terakhir",
+      "next_update": "Kemaskini Seterusnya",
+      "sdmx": "SDMX",
+      "sdmx_xml": "XML",
+      "sdmx_json": "JSON",
+      "sdmx_csv": "CSV",
+      "sdmx_parquet_tooltip": "Kami memperkenalkan format data baharu. Klik pautan di bawah untuk melihat [Dokumentasi Teknikal](https://storage.dosm.gov.my/sdmx/sdmx-parquet.pdf)",
+      "sdmx_excel": "Excel"
+    },
+    "section_real": {
+      "ipi": {
+        "title": "Indeks Pengeluaran Perindustrian",
+        "description": "",
+        "keys": {
+          "growth_yoy": "Pertumbuhan Tahunan (%)",
+          "growth_mom": "Pertumbuhan Bulanan (%)",
+          "index": "Indeks",
+          "overall": "Keseluruhan",
+          "mining": "Perlombongan",
+          "manufacturing": "Pembuatan",
+          "electricity": "Elektrik"
+        }
+      },
+      "cpi": {
+        "title": "Indeks Harga Pengguna",
+        "description": "",
+        "keys": {
+          "growth_yoy": "Inflasi Keseluruhan (% tahunan)",
+          "growth_yoy_core": "Inflasi Teras (% tahunan)",
+          "growth_mom": "Inflasi Keseluruhan (% bulanan)",
+          "growth_mom_core": "Inflasi Teras (% bulanan)",
+          "index": "IHP Keseluruhan (indeks)",
+          "index_core": "IHP Teras (indeks)",
+          "overall": "Keseluruhan",
+          "food": "Makanan",
+          "housing_fuel": "Perumahan, Air, Elektrik & Gas",
+          "transportation": "Pengangkutan"
+        }
+      },
+      "ppi": {
+        "title": "Indeks Harga Pengeluar",
+        "description": "",
+        "keys": {
+          "growth_yoy": "Pertumbuhan Tahunan (%)",
+          "growth_mom": "Pertumbuhan Bulanan (%)",
+          "index": "Indeks",
+          "overall": "Keseluruhan",
+          "agriculture": "Pertanian",
+          "mining": "Perlombongan",
+          "manufacturing": "Pembuatan",
+          "electricity": "Elektrik",
+          "water": "Air"
+        }
+      }
+    },
+    "section_fiscal": {
+      "title": "Sektor Fiskal",
+      "ggo": {
+        "title": "Operasi Sektor Awam",
+        "description": "",
+        "keys": {
+          "rm": "RM",
+          "balance": "Imbangan Keseluruhan",
+          "ca": "Akaun Semasa",
+          "nfpc_opsup": "Lebihan Operasi NFPC",
+          "revenue": "Hasil",
+          "opex": "Perbelanjaan Mengurus",
+          "devex_net": "Perbelanjaan Pembangunan Bersih",
+          "fin_dom_bank": "Pembiayaan Domestik (Bank)",
+          "fin_dom_nonbank": "Pembiayaan Domestik (Bukan Bank)",
+          "fin_foreign": "Pembiayaan Luar Negeri"
+        }
+      }
+    },
+    "section_financial": {
+      "title": "Sektor Kewangan",
+      "dcs": {
+        "title": "Survei Syarikat Penerima Deposit",
+        "description": "",
+        "keys": {
+          "rm": "RM",
+          "growth_yoy": "Pertumbuhan Tahunan (%)",
+          "m1": "M1 (Wang Sempit)",
+          "m2": "M2 (M1 + Wang Separuh Sempit)",
+          "m3": "M3 (M2 + Wang Luas)"
+        }
+      }
+    },
+    "section_external": {
+      "title": "Sektor Luar Negeri",
+      "bop": {
+        "title": "Imbangan Pembayaran",
+        "description": "",
+        "keys": {
+          "net_rm": "Bersih (RM)",
+          "overall": "Keseluruhan",
+          "ca": "Akaun Semasa",
+          "ka": "Akaun Modal",
+          "fa": "Akaun Kewangan"
+        }
+      }
+    },
+    "section_socio": {
+      "title": "Data Sosio-Demografi",
+      "lfpr": {
+        "title": "Kadar Penyertaan Tenaga Buruh (KPTB)",
+        "description": "",
+        "keys": {
+          "both": "KPTB Keseluruhan",
+          "male": "KPTB Lelaki",
+          "female": "KPTB Perempuan",
+          "perc": "KPTB (%)",
+          "change": "Perubahan KPTB (mata peratusan)"
+        }
+      }
+    },
+    "section_arc": {
+      "title": "ARC",
+      "description": ""
+    }
+  }
+}

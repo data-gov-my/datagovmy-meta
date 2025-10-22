@@ -81,7 +81,7 @@
         "table": "Table"
       },
       "banner": "",
-      "opendosm_banner": "🚀  New Feature: Get DOSM's latest releases delivered straight to your email! Click [here](/publications/subscribe) to subscribe."
+      "opendosm_banner": ""
     },
     "time": {
       "daily_7d": "Daily (7d avg)",
@@ -112,6 +112,7 @@
       "progress": "Progress",
       "legacy": "Legacy Site",
       "publications": "Publications",
+      "national_summary_data_page": "NSDP",
       "pmo": "Prime Minister's Department",
       "gov": "Government of Malaysia",
       "open_source": "Open Source",
@@ -158,6 +159,7 @@
       "transportation": "Transportation",
       "national_accounts": "National Accounts",
       "services": "Services",
+      "summary": "Summary Page",
       "public_administration": "Public Administration",
       "labour_markets": "Labour Market",
       "producer_price": "Producer Prices",
