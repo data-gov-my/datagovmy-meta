@@ -1,23 +1,23 @@
 {
-    "title_en": "Daily Exchange Rates (0900)",
-    "title_ms": "Kadar Pertukaran Wang Asing Harian (0900)",
-    "title_sort": 1,
-    "description_en": "Daily rates of exchange of the Malaysian ringgit vis-à-vis selected currencies at 0900, acting as a start-of-day reference. The table and charts provide a preview using the latest 1 year of data, but you may download the full dataset containing daily rates since 2003.",
-    "description_ms": "Kadar pertukaran ringgit Malaysia berbanding mata wang asing terpilih pada 0900, sebagai rujukan permulaan hari. Jadual dan carta memberikan pratonton menggunakan data bagi 1 tahun terkini, tetapi anda boleh memuat turun set data penuh yang mengandungi kadar pertukaran harian sejak 2003.",
+    "title_en": "Daily Exchange Rates (1130)",
+    "title_ms": "Kadar Pertukaran Wang Asing Harian (1130)",
+    "title_sort": 2,
+    "description_en": "Daily rates of exchange of the Malaysian ringgit vis-à-vis selected currencies at 1130, which are the best counter rates offered by selected commercial banks. The table and charts provide a preview using the latest 1 year of data, but you may download the full dataset containing daily rates since 2003.",
+    "description_ms": "Kadar pertukaran ringgit Malaysia berbanding mata wang asing terpilih pada 1130, iaitu kadar terbaik yang ditawarkan oleh bank komersial terpilih. Jadual dan carta memberikan pratonton menggunakan data bagi 1 tahun terkini, tetapi anda boleh memuat turun set data penuh yang mengandungi kadar pertukaran harian sejak 2003.",
     "exclude_openapi": false,
     "manual_trigger": "",
     "data_as_of": "2025-10-24 09:00",
     "last_updated": "2025-10-24 13:01",
-    "next_update": "2025-10-27 09:30",
+    "next_update": "2025-10-27 12:30",
     "methodology_en": "The Malaysian ringgit (MYR) is a non-internationalised currency, meaning it can only be traded and settled within Malaysia under the regulation of Bank Negara Malaysia (BNM). To combat speculation, offshore trading of the ringgit is not permitted, and any foreign market activity — such as non-deliverable forwards (NDFs) — is purely indicative and settled in foreign currencies rather than MYR.\n\nConsequently, BNM has full oversight over trading over the ringgit, and compiles official exchange rate data based on buy and sell quotations at set times on all trading days:\n- 0900: Reference rate for start of day\n- 1130: Best counter rates offered by selected commercial banks\n- 1200: Reference rate for mid-day\n- 1700: Reference rate for end of day",
     "methodology_ms": "Ringgit Malaysia (MYR) adalah mata wang bukan antarabangsa. Ini bermaksud ia hanya boleh diperdagangkan di Malaysia di bawah pengawalseliaan Bank Negara Malaysia (BNM). Untuk membanteras spekulasi, perdagangan ringgit secara _offshore_ tidak dibenarkan, maka segala aktiviti perdagangan di pasaran asing — seperti _non-deliverable forwards (NDFs)_ — hanya bersifat indikatif dan diselesaikan dalam mata wang asing, bukan MYR.\n\nAkibatnya, BNM mempunyai pengawasan menyeluruh terhadap perdagangan ringgit, dan menerbitkan data kadar pertukaran rasmi berdasarkan harga beli dan jual pada masa tertentu pada semua hari perdagangan:\n- 0900: Kadar rujukan untuk permulaan hari\n- 1130: Kadar terbaik yang ditawarkan oleh bank komersial yang dipilih\n- 1200: Kadar rujukan untuk pertengahan hari\n- 1700: Kadar rujukan untuk akhir hari",
     "caveat_en": "N/A",
     "caveat_ms": "N/A",
     "publication_en": "N/A",
     "publication_ms": "N/A",
-    "link_parquet": "https://storage.data.gov.my/finsector/exr/daily_0900.parquet",
-    "link_csv": "https://storage.data.gov.my/finsector/exr/daily_0900.csv",
-    "link_preview": "https://storage.data.gov.my/finsector/exr/daily_0900_preview.parquet",
+    "link_parquet": "https://storage.data.gov.my/finsector/exr/daily_1130.parquet",
+    "link_csv": "https://storage.data.gov.my/finsector/exr/daily_1130.csv",
+    "link_preview": "https://storage.data.gov.my/finsector/exr/daily_1130_preview.parquet",
     "frequency": "DAILY",
     "geography": [
         "NATIONAL"
@@ -51,8 +51,8 @@
             "name": "rate_type",
             "title_en": "Rate Type",
             "title_ms": "Jenis Kadar",
-            "description_en": "[String] Rate for buying the ringgit using foreign currency ('buying'), selling the ringgit for foreign currency ('selling'), or the midpoint of the two ('middle'). In general, the selling rate is higher than the buying rate, as the opposite would imply that you could profit from arbitrage.",
-            "description_ms": "[Rentetan] Kadar untuk membeli ringgit menggunakan mata wang asing ('buying'), menjual ringgit untuk mata wang asing ('selling'), atau titik tengah kedua-dua kadar tersebut ('middle'). Secara am, kadar menjual lebih tinggi daripada kadar membeli, kerana situasi sebaliknya membolehkan untuk daripada arbitraj."
+            "description_en": "[String] Rate for buying the ringgit using foreign currency ('buying'), or selling the ringgit for foreign currency ('selling'). In general, the selling rate is higher than the buying rate, as the opposite would imply that you could profit from arbitrage. Middle rates are not provided for rates at 1130.",
+            "description_ms": "[Rentetan] Kadar untuk membeli ringgit menggunakan mata wang asing ('buying'), atau menjual ringgit untuk mata wang asing ('selling'). Secara am, kadar menjual lebih tinggi daripada kadar membeli, kerana situasi sebaliknya membolehkan untuk daripada arbitraj. Kadar pertengahan tidak disenaraikan bagi kadar pada 1130."
         },
         {
             "name": "<currency_code>",
