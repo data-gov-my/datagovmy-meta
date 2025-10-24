@@ -1,0 +1,105 @@
+{
+  "title_en": "Currency Codes (ISO 4217)",
+  "title_ms": "Kod Mata Wang (ISO 4217)",
+  "title_sort": 50,
+  "description_en": "ISO 4127-compliant lookup for currency codes used on the site.",
+  "description_ms": "Rujukan standard untuk kod mata wang yang diguna dalam portal, yang mematuhi ISO 4217.",
+  "exclude_openapi": false,
+  "manual_trigger": "",
+  "data_as_of": "2025",
+  "last_updated": "2025-10-24 11:32",
+  "next_update": "-",
+  "methodology_en": "Alpha codes, numeric codes, and currency names are fully compliant with the [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) standard. Symbols and suffix indicators were added by the open data team to assist with internal operations.",
+  "methodology_ms": "Kod abjad, kod angka, dan nama mata wang mematuhi standard [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) sepenuhnya. Simbol dan indikator akhiran telah ditambah oleh pasukan data terbuka untuk membantu operasi dalaman.",
+  "caveat_en": "N/A",
+  "caveat_ms": "N/A",
+  "publication_en": "N/A",
+  "publication_ms": "N/A",
+  "link_parquet": "https://storage.data.gov.my/finsector/exr/currency_codes.parquet",
+  "link_csv": "https://storage.dosm.gov.my/dictionaries/currency_codes.csv",
+  "frequency": "ONE-OFF",
+  "geography": [],
+  "demography": [],
+  "dataset_begin": 2025,
+  "dataset_end": 2025,
+  "data_source": [
+    "JDN"
+  ],
+  "data_source_granular": [],
+  "site_category": [
+    {
+      "site": "datagovmy",
+      "category_en": "Data Dictionaries",
+      "category_ms": "Kamus Data",
+      "category_sort": 110,
+      "subcategory_en": "Reference",
+      "subcategory_ms": "Rujukan",
+      "subcategory_sort": 1
+    }
+  ],
+  "fields": [
+    {
+      "name": "code",
+      "title_en": "Currency Code",
+      "title_ms": "Kod Mata Wang",
+      "description_en": "[String] Standard currency alphabetic code according to ISO 4217 (e.g. 'MYR', 'USD')",
+      "description_ms": "[Rentetan] Kod abjad mata wang standard mengikut ISO 4217 (cth: 'MYR', 'USD')"
+    },
+    {
+      "name": "code_numeric",
+      "title_en": "Numeric Code",
+      "title_ms": "Kod Angka",
+      "description_en": "[Integer] Standard currency numeric code according to ISO 4217 (e.g. 458 for MYR, 840 for USD)",
+      "description_ms": "[Integer] Kod angka mata wang standard mengikut ISO 4217 (cth: 458 untuk MYR, 840 untuk USD)"
+    },
+    {
+      "name": "currency",
+      "title_en": "Currency Name",
+      "title_ms": "Nama Mata Wang",
+      "description_en": "[String] Full name of the currency",
+      "description_ms": "[Rentetan] Nama penuh mata wang"
+    },
+    {
+      "name": "symbol",
+      "title_en": "Symbol",
+      "title_ms": "Simbol",
+      "description_en": "[String] Most common symbol used for the currency",
+      "description_ms": "[Rentetan] Simbol paling biasa digunakan untuk mata wang"
+    },
+    {
+      "name": "suffix",
+      "title_en": "Suffix Indicator",
+      "title_ms": "Penunjuk Akhiran",
+      "description_en": "[Integer] 1 if the symbol is a suffix (i.e. after the monetary value), 0 if the symbol is a prefix.",
+      "description_ms": "[Integer] 1 sekiranya simbol adalah akhiran (selepas nilai wang), 0 sekiranya simbol adalah awalan."
+    }
+  ],
+  "dataviz": [
+    {
+      "dataviz_id": "table",
+      "title_en": "Table",
+      "title_ms": "Jadual",
+      "chart_type": "TABLE",
+      "config": {
+        "precision": 0,
+        "filter_columns": [],
+        "freeze_columns": []
+      }
+    }
+  ],
+  "translations_en": {
+    "code": "Currency Code",
+    "code_numeric": "Numeric Code",
+    "currency": "Currency Name",
+    "symbol": "Symbol",
+    "suffix": "Suffix Indicator"
+  },
+  "translations_ms": {
+    "code": "Kod Mata Wang",
+    "code_numeric": "Kod Angka",
+    "currency": "Nama Mata Wang",
+    "symbol": "Simbol",
+    "suffix": "Penunjuk Akhiran"
+  },
+  "related_datasets": []
+}
