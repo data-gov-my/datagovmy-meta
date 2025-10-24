@@ -69,10 +69,11 @@
             "chart_type": "TABLE",
             "config": {
                 "precision": 4,
-                "filter_columns": [],
-                "freeze_columns": [
-                    "date",
+                "filter_columns": [
                     "indicator"
+                ],
+                "freeze_columns": [
+                    "date"
                 ]
             }
         },
@@ -82,13 +83,53 @@
             "title_ms": "MYR per USD",
             "chart_type": "TIMESERIES",
             "config": {
-                "filter_columns": [],
-                "precision": 2,
+                "filter_columns": [
+                    "indicator"
+                ],
+                "precision": 4,
                 "operation": "SUM",
                 "format": {
                     "x": "date",
                     "y": [
                         "USD"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "EUR",
+            "title_en": "MYR per Euro",
+            "title_ms": "MYR per Euro",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "indicator"
+                ],
+                "precision": 4,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "EUR"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "JPY",
+            "title_en": "MYR per Yen",
+            "title_ms": "MYR per Yen",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "indicator"
+                ],
+                "precision": 4,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "JPY"
                     ]
                 }
             }
