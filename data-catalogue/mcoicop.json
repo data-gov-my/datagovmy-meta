@@ -28,7 +28,7 @@
         "DOSM"
     ],
     "data_source_granular": [
-      "BIPD"
+        "BIPD"
     ],
     "site_category": [
         {
@@ -36,8 +36,8 @@
             "category_en": "Data Dictionaries",
             "category_ms": "Dictionary Data",
             "category_sort": 110,
-            "subcategory_en": "Economy",
-            "subcategory_ms": "Ekonomi",
+            "subcategory_en": "Standard",
+            "subcategory_ms": "Piawaian",
             "subcategory_sort": 1
         },
         {
@@ -45,8 +45,8 @@
             "category_en": "Data Dictionaries",
             "category_ms": "Dictionary Data",
             "category_sort": 110,
-            "subcategory_en": "Economy",
-            "subcategory_ms": "Ekonomi",
+            "subcategory_en": "Standard",
+            "subcategory_ms": "Piawaian",
             "subcategory_sort": 1
         }
     ],

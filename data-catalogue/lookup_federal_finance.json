@@ -29,13 +29,13 @@
   ],
   "site_category": [
     {
-        "site": "datagovmy",
-        "category_en": "Data Dictionaries",
-        "category_ms": "Dictionary Data",
-        "category_sort": 110,
-        "subcategory_en": "Others",
-        "subcategory_ms": "Lain-lain",
-        "subcategory_sort": 10000
+      "site": "datagovmy",
+      "category_en": "Data Dictionaries",
+      "category_ms": "Dictionary Data",
+      "category_sort": 110,
+      "subcategory_en": "Internal",
+      "subcategory_ms": "Dalaman",
+      "subcategory_sort": 10000
     }
   ],
   "fields": [
