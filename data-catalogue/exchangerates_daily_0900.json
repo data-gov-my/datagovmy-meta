@@ -1,0 +1,149 @@
+{
+    "title_en": "Daily Exchange Rates (0900)",
+    "title_ms": "Kadar Pertukaran Wang Asing Harian (0900)",
+    "title_sort": 1,
+    "description_en": "Daily rates of exchange of the Malaysian ringgit vis-à-vis selected currencies at 0900, acting as a start-of-day reference. The table and charts provide a preview using the latest 1 year of data, but you may download the full dataset containing daily rates since 2003.",
+    "description_ms": "Kadar pertukaran ringgit Malaysia berbanding mata wang asing terpilih pada 0900, sebagai rujukan permulaan hari. Jadual dan carta memberikan gambaran menggunakan data bagi 1 tahun terkini, tetapi anda boleh memuat turun set data penuh yang mengandungi kadar pertukaran harian sejak 2003.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2025-10-24 09:00",
+    "last_updated": "2025-10-24 13:01",
+    "next_update": "2025-10-27 09:30",
+    "methodology_en": "The Malaysian ringgit (MYR) is a non-internationalised currency, meaning it can only be traded and settled within Malaysia under the regulation of Bank Negara Malaysia (BNM). To combat speculation, offshore trading of the ringgit is not permitted, and any foreign market activity — such as non-deliverable forwards (NDFs) — is purely indicative and settled in foreign currencies rather than MYR.\n\nConsequently, BNM has full oversight over trading over the ringgit, and compiles official exchange rate data based on buy and sell quotations at set times on all trading days:\n- 0900: Reference rate for start of day\n- 1130: Best counter rates offered by selected commercial banks\n- 1200: Reference rate for mid-day\n- 1700: Reference rate for end of day",
+    "methodology_ms": "Ringgit Malaysia (MYR) adalah mata wang bukan antarabangsa. Ini bermaksud ia hanya boleh diperdagangkan di Malaysia di bawah pengawalseliaan Bank Negara Malaysia (BNM). Untuk membanteras spekulasi, perdagangan ringgit secara _offshore_ tidak dibenarkan, maka segala aktiviti perdagangan di pasaran asing — seperti _non-deliverable forwards (NDFs)_ — hanya bersifat indikatif dan diselesaikan dalam mata wang asing, bukan MYR.\n\nAkibatnya, BNM mempunyai pengawasan menyeluruh terhadap perdagangan ringgit, dan menerbitkan data kadar pertukaran rasmi berdasarkan harga beli dan jual pada masa tertentu pada semua hari perdagangan:\n- 0900: Kadar rujukan untuk permulaan hari\n- 1130: Kadar terbaik yang ditawarkan oleh bank komersial yang dipilih\n- 1200: Kadar rujukan untuk pertengahan hari\n- 1700: Kadar rujukan untuk akhir hari",
+    "caveat_en": "N/A",
+    "caveat_ms": "N/A",
+    "publication_en": "N/A",
+    "publication_ms": "N/A",
+    "link_parquet": "https://storage.data.gov.my/finsector/exr/daily_0900.parquet",
+    "link_csv": "https://storage.data.gov.my/finsector/exr/daily_0900.csv",
+    "link_preview": "https://storage.data.gov.my/finsector/exr/daily_0900_preview.parquet",
+    "frequency": "DAILY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2003,
+    "dataset_end": 2025,
+    "data_source": [
+        "BNM"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Financial Markets",
+            "category_ms": "Pasaran Kewangan",
+            "category_sort": 60,
+            "subcategory_en": "Foreign Exchange",
+            "subcategory_ms": "Pertukaran Asing (FX)",
+            "subcategory_sort": 30
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01 to indicate monthly-frequency data",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD ditetapkan sebagai 01 kerana data berfrekuensi bulanan"
+        },
+        {
+            "name": "rate_type",
+            "title_en": "Rate Type",
+            "title_ms": "Jenis Kadar",
+            "description_en": "[String] Rate for buying the ringgit using foreign currency ('buying'), selling the ringgit for foreign currency ('selling'), or the midpoint of the two ('middle'). In general, the selling rate is higher than the buying rate, as the opposite would imply that you could profit from arbitrage.",
+            "description_ms": "[Rentetan] Kadar untuk membeli ringgit menggunakan mata wang asing ('buying'), menjual ringgit untuk mata wang asing ('selling'), atau titik tengah kedua-dua kadar tersebut ('middle'). Secara am, kadar menjual lebih tinggi daripada kadar membeli, kerana situasi sebaliknya membolehkan untuk daripada arbitraj."
+        },
+        {
+            "name": "<currency_code>",
+            "title_en": "Currency",
+            "title_ms": "Mata Wang",
+            "description_en": "[Float] One of 27 columns indicating the rate of exchange of MYR to that currency (3-letter code), for that day and rate type. The currency name can be derived from the [currency code lookup table](https://data.gov.my/data-catalogue/currency_codes). It should be noted that the ringgit is the numerator, so higher values indicate a depreciation while lower values indicate an appreciation.",
+            "description_ms": "[Apung] Salah satu daripada 27 lajur yang menunjukkan kadar pertukaran ringgit Malaysia kepada mata wang asing (kod 3 abjad), untuk hari dan jenis kadar tersebut. Nama mata wang boleh didapati daripada [jadual rujukan mata wang](https://data.gov.my/ms-MY/data-catalogue/currency_codes). Ringgit digunakan sebagai pengangka, maka nilai yang lebih tinggi menunjukkan penyusutan sementara nilai yang lebih rendah menunjukkan peningkatan."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 4,
+                "filter_columns": [],
+                "freeze_columns": [
+                    "date",
+                    "rate_type"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "USD",
+            "title_en": "MYR per USD",
+            "title_ms": "MYR per USD",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [],
+                "precision": 2,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "USD"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "EUR",
+            "title_en": "MYR per Euro",
+            "title_ms": "MYR per Euro",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [],
+                "precision": 2,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "EUR"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "JPY",
+            "title_en": "MYR per Yen",
+            "title_ms": "MYR per Yen",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [],
+                "precision": 2,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "JPY"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "y1": "Rate",
+        "rate_type": "Rate Type",
+        "buying": "Buying MYR",
+        "selling": "Selling MYR",
+        "middle": "Middle Rate"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "y1": "Kadar",
+        "rate_type": "Jenis Kadar",
+        "buying": "Membeli MYR",
+        "selling": "Menjual MYR",
+        "middle": "Kadar Pertengahan"
+    },
+    "related_datasets": []
+}
