@@ -1,8 +1,8 @@
 {
     "manual_trigger": "",
-    "data_as_of": "2025-Q1",
-    "last_updated": "2025-07-28 12:00",
-    "next_update": "2025-10-27 12:00",
+    "data_as_of": "2025-Q2",
+    "last_updated": "2025-10-27 12:00",
+    "next_update": "2026-01-27 12:00",
     "link_parquet": "https://storage.dosm.gov.my/dashboards/labour_formalwages_snapshot_bracket.parquet",
     "frequency": "QUARTERLY",
     "data_source": []
