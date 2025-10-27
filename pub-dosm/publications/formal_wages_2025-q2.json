@@ -1,0 +1,55 @@
+{
+    "publication": "formal_wages_2025-q2",
+    "publication_type": "labour",
+    "release_date": "2025-10-27",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY",
+        "AGE"
+    ],
+    "en": {
+        "title": "[2Q 2025] Formal Sector Wages",
+        "publication_type_title": "Labour",
+        "description": "Number and wages of employees in the formal sector, with breakdowns by demographic group, state, and sector.",
+        "description_email": "DOSM has just released the latest data on formal sector wages, with breakdowns by demographic group, state, and sector.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Formal Sector Wages: 2Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/labour/formal_wages_2025-q2.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Formal Sector Wages: 2Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/labour/formal_wages_2025-q2.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST2 2025] Gaji Sektor Formal",
+        "publication_type_title": "Tenaga Buruh",
+        "description": "Jumlah dan gaji pekerja sektor formal, dengan pecahan mengikut kumpulan demografi, negeri, dan sektor.",
+        "description_email": "DOSM telah menerbitkan data gaji sektor formal terkini, dengan pecahan mengikut kumpulan demografi, negeri, dan sektor.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Gaji Sektor Formal: ST2 2025",
+                "resource_link": "https://storage.dosm.gov.my/labour/formal_wages_2025-q2.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Gaji Sektor Formal: ST2 2025",
+                "resource_link": "https://storage.dosm.gov.my/labour/formal_wages_2025-q2.pdf"
+            }
+        ]
+    }
+}
