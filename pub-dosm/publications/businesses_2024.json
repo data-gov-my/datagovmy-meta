@@ -1,0 +1,39 @@
+{
+    "publication": "businesses_2024",
+    "publication_type": "businesses",
+    "release_date": "2025-10-28",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2024] Businesses",
+        "publication_type_title": "Businesses",
+        "description": "Profile, startup rate, and shutdown rate of businesses, with disaggregation by sector and state.",
+        "description_email": "DOSM has just released the latest data on businesses in Malaysia, covering the profile, startup rate, and shutdown rate of businesses, with disaggregation by sector and state.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Businesses: 2024",
+                "resource_link": "https://storage.dosm.gov.my/businesses/businesses_2024.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2024] Perniagaan",
+        "publication_type_title": "Perniagaan",
+        "description": "Profil, kadar penubuhan, dan kadar penutupan perniagaan, dengan pecahan mengikut sektor dan negeri.",
+        "description_email": "DOSM telah menerbitkan data terkini bagi perniagaan di Malaysia, meliputi profil, kadar penubuhan, dan kadar penutupan perniagaan, dengan pecahan mengikut sektor dan negeri.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Perniagaan: 2024",
+                "resource_link": "https://storage.dosm.gov.my/businesses/businesses_2024.pdf"
+            }
+        ]
+    }
+}
