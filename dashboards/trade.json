@@ -14,7 +14,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "http://storage.dosm.gov.my/dashboards/trade_timeseries.parquet",
-            "data_as_of": "2025-08",
+            "data_as_of": "2025-09",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -38,7 +38,7 @@
             "name": "timeseries_callout",
             "chart_type": "custom_chart",
             "chart_source": "http://storage.dosm.gov.my/dashboards/trade_timeseries_callout.parquet",
-            "data_as_of": "2025-08",
+            "data_as_of": "2025-09",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -55,7 +55,7 @@
             "name": "indices_timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "http://storage.dosm.gov.my/dashboards/trade_indices_timeseries.parquet",
-            "data_as_of": "2025-08",
+            "data_as_of": "2025-09",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -87,7 +87,7 @@
             "name": "indices_timeseries_callout",
             "chart_type": "custom_chart",
             "chart_source": "http://storage.dosm.gov.my/dashboards/trade_indices_timeseries_callout.parquet",
-            "data_as_of": "2025-08",
+            "data_as_of": "2025-09",
             "api_type": "static",
             "api_params": [],
             "variables": {
