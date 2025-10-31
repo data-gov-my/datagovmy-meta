@@ -1,0 +1,55 @@
+{
+    "publication": "graduates_2024",
+    "publication_type": "graduates",
+    "release_date": "2025-10-31",
+    "frequency": "YEARLY",
+    "geography": [
+        "STATE",
+        "NATIONAL"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY",
+        "AGE"
+    ],
+    "en": {
+        "title": "[2024] Graduates",
+        "publication_type_title": "Graduates",
+        "description": "Annual graduate statistics, covering key labour market outcomes by sex, ethnicity, age, state, sector, etc.",
+        "description_email": "DOSM has just released the latest annual graduate statistics, covering key labour market outcomes of graduates, with breakdowns by sex, ethnicity, age, state, sector, and other socio-economic characteristics.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Graduates: 2024",
+                "resource_link": "https://storage.dosm.gov.my/labour/graduates_2024.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Graduates: 2024",
+                "resource_link": "https://storage.dosm.gov.my/labour/graduates_2024.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2024] Siswazah",
+        "publication_type_title": "Siswazah",
+        "description": "Statistik siswazah tahunan, merangkumi statistik pasaran buruh utama mengikut jantina, etnik, umur, negeri, sektor, dsb.",
+        "description_email": "DOSM telah menerbitkan statistik siswazah tahunan terkini, merangkumi statistik pasaran buruh bagi siswazah, dengan pecahan mengikut jantina, etnik, umur, negeri, sektor, dan ciri-ciri sosioekonomi lain.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Siswazah: 2024",
+                "resource_link": "https://storage.dosm.gov.my/labour/graduates_2024.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Siswazah: 2024",
+                "resource_link": "https://storage.dosm.gov.my/labour/graduates_2024.pdf"
+            }
+        ]
+    }
+}
