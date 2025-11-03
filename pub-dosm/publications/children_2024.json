@@ -1,0 +1,56 @@
+{
+    "publication": "children",
+    "publication_type": "children",
+    "release_date": "2025-11-03",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE",
+        "DISTRICT"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY",
+        "AGE"
+    ],
+    "en": {
+        "title": "[2024] Children",
+        "publication_type_title": "Children",
+        "description": "Annual selection of key statistics on children, covering population, health, education, child protection, and juvenile crime.",
+        "description_email": "DOSM has just released the latest annual data on children, covering the population of children, child health, education, child protection, and juvenile crime.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Children: 2024",
+                "resource_link": "https://storage.dosm.gov.my/children/children_2024.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Children: 2024",
+                "resource_link": "https://storage.dosm.gov.my/children/children_2024.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2024] Kanak-Kanak",
+        "publication_type_title": "Kanak-Kanak",
+        "description": "Statistik tahunan mengenai kanak-kanak, merangkumi penduduk, kesihatan, pendidikan, perlindungan, dan jenayah juvana.",
+        "description_email": "DOSM telah menerbitkan data tahunan terkini mengenai kanak-kanak, merangkumi penduduk, kesihatan, pendidikan, perlindungan, dan jenayah juvana.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Kanak-Kanak: 2024",
+                "resource_link": "https://storage.dosm.gov.my/children/children_2024.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Kanak-Kanak: 2024",
+                "resource_link": "https://storage.dosm.gov.my/children/children_2024.xlsx"
+            }
+        ]
+    }
+}
