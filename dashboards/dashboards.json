@@ -1,11 +1,11 @@
 {
     "dashboard_name": "dashboards",
-    "data_last_updated": "2025-11-04 00:01",
+    "data_last_updated": "2025-11-05 00:01",
     "route": "",
     "sites": [
         "datagovmy"
     ],
-    "manual_trigger": "2025-11-04 00:03:41.526869",
+    "manual_trigger": "2025-11-05 00:02:29.544307",
     "required_params": [],
     "optional_params": [],
     "charts": {
@@ -13,7 +13,7 @@
             "name": "agency_dropdown",
             "chart_type": "query_values",
             "chart_source": "https://storage.data.gov.my/dashboards/dashboards_all.parquet",
-            "data_as_of": "2025-11-03 23:59",
+            "data_as_of": "2025-11-04 23:59",
             "api_type": "dynamic",
             "api_params": [],
             "variables": {
@@ -34,7 +34,7 @@
             "name": "dashboards_top",
             "chart_type": "metrics_table",
             "chart_source": "https://storage.data.gov.my/dashboards/dashboards_top.parquet",
-            "data_as_of": "2025-11-03 23:59",
+            "data_as_of": "2025-11-04 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -52,7 +52,7 @@
             "name": "dashboards_all",
             "chart_type": "metrics_table",
             "chart_source": "https://storage.data.gov.my/dashboards/dashboards_all.parquet",
-            "data_as_of": "2025-11-03 23:59",
+            "data_as_of": "2025-11-04 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -70,7 +70,7 @@
             "name": "dashboards_route",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/dashboards_all.parquet",
-            "data_as_of": "2025-11-03 23:59",
+            "data_as_of": "2025-11-04 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
