@@ -1,0 +1,50 @@
+{
+    "publication": "sppi_2025-q3",
+    "publication_type": "ppi",
+    "release_date": "2025-11-06",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[3Q 2025] Services Producer Price Index",
+        "publication_type_title": "Producer Price Indices",
+        "description": "Quarterly producer prices in the services sector, broken down by MSIC section, division, and group.",
+        "description_email": "DOSM has released the latest quarterly Services Producer Price Index (SPPI), covering producer prices in the services sector, broken down by MSIC section, division, and group.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Services Producer Price Index: 3Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/ppi/sppi_2025-q3.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Services Producer Price Index: 3Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/ppi/sppi_2025-q3.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST3 2025] Indeks Harga Pengeluar Perkhidmatan",
+        "publication_type_title": "Indeks Harga Pengeluar",
+        "description": "Harga pengeluar suku tahunan bagi sektor perkhidmatan, mengikut seksyen, bahagian, dan kumpulan MSIC.",
+        "description_email": "DOSM telah menerbitkan Indeks Harga Pengeluar Perkhidmatan suku tahunan terkini, merangkumi harga pengeluar dalam sektor perkhidmatan, dengan pecahan mengikut seksyen, bahagian, dan kumpulan MSIC.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Indeks Harga Pengeluar Perkhidmatan: ST3 2025",
+                "resource_link": "https://storage.dosm.gov.my/ppi/sppi_2025-q3.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Indeks Harga Pengeluar Perkhidmatan: ST3 2025",
+                "resource_link": "https://storage.dosm.gov.my/ppi/sppi_2025-q3.pdf"
+            }
+        ]
+    }
+}
