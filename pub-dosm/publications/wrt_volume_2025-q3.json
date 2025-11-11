@@ -1,0 +1,50 @@
+{
+    "publication": "iowrt_volume_2025-q3",
+    "publication_type": "wrt",
+    "release_date": "2025-11-11",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[3Q 2025] Volume Index of Wholesale & Retail Trade",
+        "publication_type_title": "Wholesale & Retail Trade",
+        "description": "Quarterly wholesale and retail trade volume, including seasonally adjusted series.",
+        "description_email": "DOSM has just released the latest quarterly volume indices for wholesale and retail trade subsectors, including seasonally adjusted series.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Volume Index of Wholesale & Retail Trade: 3Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/iowrt/iowrt_volume_2025-q3.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Volume Index of Wholesale & Retail Trade: 3Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/iowrt/iowrt_volume_2025-q3.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST3 2025] Indeks Volum Perdagangan Borong & Runcit",
+        "publication_type_title": "Perdagangan Borong & Runcit",
+        "description": "Volum perdagangan borong dan runcit suku tahunan, termasukan siri terlaras secara musim.",
+        "description_email": "DOSM telah menerbitkan indeks volum perdagangan borong dan runcit suku tahunan terkini, termasuk siri terlaras secara musim.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Indeks Volum Perdagangan Borong & Runcit: ST3 2025",
+                "resource_link": "https://storage.dosm.gov.my/iowrt/iowrt_volume_2025-q3.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Indeks Volum Perdagangan Borong & Runcit: ST3 2025",
+                "resource_link": "https://storage.dosm.gov.my/iowrt/iowrt_volume_2025-q3.pdf"
+            }
+        ]
+    }
+}
