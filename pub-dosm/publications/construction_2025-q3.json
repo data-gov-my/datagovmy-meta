@@ -1,0 +1,51 @@
+{
+    "publication": "construction_2025-q3",
+    "publication_type": "construction",
+    "release_date": "2025-11-12",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[3Q 2025] Construction",
+        "publication_type_title": "Construction",
+        "description": "Quarterly performance of the construction sector, covering the number of projects and value of work done, by project owner and subsector.",
+        "description_email": "DOSM has just released the latest quarterly construction data, covering the number of projects and value of work done, with breakdowns by location of project, subsector, and project owner. The number of construction projects grew XX% year-on-year (3Q 2024: 14.9%), while the value of work done grew XX% (3Q 2024: 22.9%).",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Construction: 3Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/construction/construction_2025-q3.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Construction: 3Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/construction/construction_2025-q3.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST3 2025] Pembinaan",
+        "publication_type_title": "Pembinaan",
+        "description": "Prestasi suku tahunan sektor pembinaan, merangkumi jumlah projek dan nilai kerja mengikut pemilik projek dan subsektor.",
+        "description_email": "DOSM telah menerbitkan data pembinaan suku tahunan terkini, merangkumi jumlah projek dan nilai kerja, dengan pecahan mengikut lokasi projek, subsektor dan pemilik projek. Jumlah projek pembinaan telah meningkat sebanyak XX% (3Q 2024: 14.9%), manakala nilai kerja meningkat sebanyak XX% (3Q 2024: 22.9%).",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Pembinaan: ST3 2025",
+                "resource_link": "https://storage.dosm.gov.my/construction/construction_2025-q3.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Pembinaan: ST3 2025",
+                "resource_link": "https://storage.dosm.gov.my/construction/construction_2025-q3.pdf"
+            }
+        ]
+    }
+}
