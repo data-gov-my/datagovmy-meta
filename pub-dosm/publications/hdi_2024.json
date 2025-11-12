@@ -1,0 +1,41 @@
+{
+    "publication": "hdi_2024",
+    "publication_type": "hdi",
+    "release_date": "2025-11-12",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "NATIONALITY"
+    ],
+    "en": {
+        "title": "[2024] Human Development Index",
+        "publication_type_title": "Human Development Index",
+        "description": "Annual HDI indices for Malaysia, including sub-indices for life expectancy, years of schooling, and GNI per capita.",
+        "description_email": "DOSM has just released the latest Human Development Index (HDI) for Malaysia, including sub-indices for life expectancy, years of schooling, and GNI per capita.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Human Development Index: 2024",
+                "resource_link": "https://storage.dosm.gov.my/mhdi/hdi_2024.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2024] Indeks Pembangunan Manusia",
+        "publication_type_title": "Indeks Pembangunan Manusia",
+        "description": "Indeks HDI tahunan bagi Malaysia, termasuk subindeks bagi jangkaan hayat, tahun persekolahan, serta PNK per kapita.",
+        "description_email": "DOSM baru sahaja menerbitkan Indeks Pembangunan Manusia (HDI) terkini bagi Malaysia, termasuk subindeks bagi jangkaan hayat, tahun persekolahan, serta PNK per kapita.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Indeks Pembangunan Manusia: 2024",
+                "resource_link": "https://storage.dosm.gov.my/mhdi/hdi_2024.pdf"
+            }
+        ]
+    }
+}
