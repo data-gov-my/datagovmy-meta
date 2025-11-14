@@ -1,9 +1,11 @@
 {
 	"dashboard_name": "service_statistics",
-	"data_last_updated": "2024-11-07 12:00",
-    "data_next_update": "2025-02-12 12:00",
+	"data_last_updated": "2025-11-13 12:00",
+	"data_next_update": "2026-02-12 12:00",
 	"route": "/dashboard/services-statistics,/ms-MY/dashboard/services-statistics",
-	"sites": ["opendosm"],
+	"sites": [
+		"opendosm"
+	],
 	"manual_trigger": "",
 	"required_params": [],
 	"optional_params": [],
@@ -12,11 +14,14 @@
 			"name": "timeseries",
 			"chart_type": "timeseries_chart",
 			"chart_source": "https://storage.dosm.gov.my/dashboards/services_timeseries.parquet",
-			"data_as_of": "2024-Q3",
+			"data_as_of": "2025-Q3",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
-				"keys": ["sector", "chart_type"],
+				"keys": [
+					"sector",
+					"chart_type"
+				],
 				"rename_cols": {
 					"date": "x"
 				},
@@ -33,12 +38,18 @@
 			"name": "timeseries_callout",
 			"chart_type": "custom_chart",
 			"chart_source": "https://storage.dosm.gov.my/dashboards/services_timeseries_callout.parquet",
-			"data_as_of": "2024-Q3",
+			"data_as_of": "2025-Q3",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
-				"keys": ["sector", "chart_type", "chart"],
-				"value_columns": ["latest"]
+				"keys": [
+					"sector",
+					"chart_type",
+					"chart"
+				],
+				"value_columns": [
+					"latest"
+				]
 			}
 		}
 	}
