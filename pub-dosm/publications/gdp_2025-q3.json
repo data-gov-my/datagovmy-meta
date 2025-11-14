@@ -1,0 +1,50 @@
+{
+    "publication": "gdp_2025-q3",
+    "publication_type": "gdp",
+    "release_date": "2025-11-14",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[3Q 2025] Gross Domestic Product",
+        "publication_type_title": "Gross Domestic Product",
+        "description": "Quarterly gross domestic product (GDP), covering nominal and real GDP by type of expenditure and activity.",
+        "description_email": "DOSM has just released the latest quarterly GDP data, covering nominal and real GDP by type of expenditure and activity.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Gross Domestic Product: 3Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_2025-q3.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Gross Domestic Product: 3Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_2025-q3.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST3 2025] Keluaran Dalam Negeri Kasar",
+        "publication_type_title": "Keluaran Dalam Negeri Kasar",
+        "description": "Keluaran dalam negeri kasar (KDNK) suku tahunan, merangkumi KDNK pada harga semasa dan malar mengikut jenis perbelanjaan dan aktiviti.",
+        "description_email": "DOSM telah menerbitkan data KDNK suku tahunan terkini, merangkumi KDNK pada harga semasa dan malar mengikut jenis perbelanjaan dan aktiviti.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Keluaran Dalam Negeri Kasar: ST3 2025",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_2025-q3.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Keluaran Dalam Negeri Kasar: ST3 2025",
+                "resource_link": "https://storage.dosm.gov.my/gdp/gdp_2025-q3.xlsx"
+            }
+        ]
+    }
+}

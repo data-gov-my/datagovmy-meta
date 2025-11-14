@@ -1,0 +1,50 @@
+{
+    "publication": "bop_2025-q3",
+    "publication_type": "bop",
+    "release_date": "2025-11-14",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[3Q 2025] Balance of Payments",
+        "publication_type_title": "Balance of Payments",
+        "description": "Quarterly balance of payments, covering the current account, capital account, and financial account.",
+        "description_email": "DOSM has just released the latest quarterly balance of payments data, covering the current account (CA), capital account (KA), and financial account (FA).",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Balance of Payments: 3Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/bop/bop_2025-q3.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Balance of Payments: 3Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/bop/bop_2025-q3.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST3 2025] Imbangan Pembayaran",
+        "publication_type_title": "Imbangan Pembayaran",
+        "description": "Imbangan pembayaran suku tahunan, merangkumi akaun semasa, akaun modal, dan akaun kewangan.",
+        "description_email": "DOSM telah menerbitkan data imbangan pembayaran suku tahunan terkini, merangkumi akaun semasa (CA), akaun modal (KA), dan akaun kewangan (FA).",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Imbangan Pembayaran: ST3 2025",
+                "resource_link": "https://storage.dosm.gov.my/bop/bop_2025-q3.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Imbangan Pembayaran: ST3 2025",
+                "resource_link": "https://storage.dosm.gov.my/bop/bop_2025-q3.pdf"
+            }
+        ]
+    }
+}
