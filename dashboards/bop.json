@@ -1,12 +1,12 @@
 {
     "dashboard_name": "bop",
-    "data_last_updated": "2025-08-15 12:00",
-    "data_next_update": "2025-11-14 12:00",
+    "data_last_updated": "2025-11-14 12:00",
+    "data_next_update": "2026-02-13 12:00",
     "route": "/dashboard/balance-of-payments,/ms-MY/dashboard/balance-of-payments",
     "sites": [
         "opendosm"
     ],
-    "manual_trigger": "2025-08-15 12:22:10.112649",
+    "manual_trigger": "2025-11-14 12:21:00.864547",
     "required_params": [],
     "optional_params": [],
     "charts": {
@@ -14,7 +14,7 @@
             "name": "bop_snapshot",
             "chart_type": "snapshot_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/bop_snapshot.parquet",
-            "data_as_of": "2025-Q2",
+            "data_as_of": "2025-Q3",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -36,7 +36,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/bop_timeseries.parquet",
-            "data_as_of": "2025-Q2",
+            "data_as_of": "2025-Q3",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -69,7 +69,7 @@
             "name": "timeseries_callout",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/bop_timeseries_callout.parquet",
-            "data_as_of": "2025-Q2",
+            "data_as_of": "2025-Q3",
             "api_type": "static",
             "api_params": [],
             "variables": {
