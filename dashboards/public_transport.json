@@ -1,12 +1,12 @@
 {
     "dashboard_name": "public_transport",
-    "data_last_updated": "2025-10-12 12:00",
-    "data_next_update": "2025-11-12 12:00",
+    "data_last_updated": "2025-11-12 12:00",
+    "data_next_update": "2025-12-12 12:00",
     "route": "/dashboard/public-transportation,/ms-MY/dashboard/public-transportation",
     "sites": [
         "datagovmy"
     ],
-    "manual_trigger": "2025-10-15 16:58:29.877196",
+    "manual_trigger": "2025-11-14 15:34:07.067884",
     "required_params": [],
     "optional_params": [],
     "charts": {
@@ -14,7 +14,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/public_transport_timeseries.parquet",
-            "data_as_of": "2025-09-30 23:59",
+            "data_as_of": "2025-10-31 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -49,7 +49,7 @@
             "name": "timeseries_callout",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/public_transport_timeseries_callout.parquet",
-            "data_as_of": "2025-09-30 23:59",
+            "data_as_of": "2025-10-31 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
