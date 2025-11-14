@@ -1,12 +1,12 @@
 {
     "dashboard_name": "construction",
-    "data_last_updated": "2025-08-11 12:00",
-    "data_next_update": "2025-11-11 12:00",
+    "data_last_updated": "2025-11-12 12:00",
+    "data_next_update": "2026-02-11 12:00",
     "route": "/dashboard/construction-statistics,/ms-MY/dashboard/construction-statistics",
     "sites": [
         "opendosm"
     ],
-    "manual_trigger": "2025-08-11 13:18:11.550188",
+    "manual_trigger": "2025-11-14 09:23:43.526725",
     "required_params": [],
     "optional_params": [],
     "charts": {
@@ -14,7 +14,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "http://storage.dosm.gov.my/dashboards/construction_timeseries.parquet",
-            "data_as_of": "2025-Q2",
+            "data_as_of": "2025-Q3",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -36,7 +36,7 @@
             "name": "timeseries_callout",
             "chart_type": "custom_chart",
             "chart_source": "http://storage.dosm.gov.my/dashboards/construction_timeseries_callout.parquet",
-            "data_as_of": "2025-Q2",
+            "data_as_of": "2025-Q3",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -53,7 +53,7 @@
             "name": "timeseries_projowner",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/construction_projowner_timeseries.parquet",
-            "data_as_of": "2025-Q2",
+            "data_as_of": "2025-Q3",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -79,7 +79,7 @@
             "name": "timeseries_projowner_callout",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/construction_projowner_timeseries_callout.parquet",
-            "data_as_of": "2025-Q2",
+            "data_as_of": "2025-Q3",
             "api_type": "static",
             "api_params": [],
             "variables": {
