@@ -1,19 +1,26 @@
 {
 	"dashboard_name": "kawasanku_electoral",
-	"data_last_updated": "2023-08-30 12:00",
+	"data_last_updated": "2025-10-31 12:00",
 	"route": "/dashboard/kawasanku,/ms-MY/dashboard/kawasanku",
-	"sites": ["datagovmy"],
+	"sites": [
+		"datagovmy"
+	],
 	"manual_trigger": "1",
 	"required_params": [],
-	"optional_params": ["area", "area_type"],
+	"optional_params": [
+		"area",
+		"area_type"
+	],
 	"charts": {
 		"jitter_chart": {
 			"name": "jitter_chart",
 			"chart_type": "jitter_chart",
 			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/kawasanku_electoral_jitter.parquet",
-			"data_as_of": "2022-11-25 23:59",
+			"data_as_of": "2024",
 			"api_type": "dynamic",
-			"api_params": ["area_type"],
+			"api_params": [
+				"area_type"
+			],
 			"variables": {
 				"keys": "area_type",
 				"id": "area",
@@ -64,56 +71,81 @@
 			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/kawasanku_electoral_pyramid.parquet",
 			"data_as_of": "2023-06-26 23:59",
 			"api_type": "dynamic",
-			"api_params": ["area_type", "area"],
+			"api_params": [
+				"area_type",
+				"area"
+			],
 			"variables": {
-				"keys": ["area_type", "area"]
+				"keys": [
+					"area_type",
+					"area"
+				]
 			}
 		},
 		"bar_chart": {
 			"name": "bar_chart",
 			"chart_type": "bar_meter",
 			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/kawasanku_electoral_barmeter.parquet?ignoreCache=1",
-			"data_as_of": "2022-11-25 23:59",
+			"data_as_of": "2024",
 			"api_type": "dynamic",
-			"api_params": ["area"],
+			"api_params": [
+				"area"
+			],
 			"variables": {
 				"axis_values": [
 					{
 						"variable": "value"
 					}
 				],
-				"keys": ["area", "chart"]
+				"keys": [
+					"area",
+					"chart"
+				]
 			}
 		},
 		"bar_chart_callout": {
 			"name": "bar_chart_callout",
 			"chart_type": "bar_meter",
 			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/kawasanku_electoral_barmeter_callout.parquet?ignoreCache=1",
-			"data_as_of": "2022-11-25 23:59",
+			"data_as_of": "2024",
 			"api_type": "dynamic",
-			"api_params": ["area"],
+			"api_params": [
+				"area"
+			],
 			"variables": {
 				"axis_values": [
 					{
 						"variable": "value"
 					}
 				],
-				"keys": ["area", "chart"]
+				"keys": [
+					"area",
+					"chart"
+				]
 			}
 		},
 		"query_values": {
 			"name": "query_values",
-			"data_as_of": "2022-11-25 23:59",
+			"data_as_of": "2024",
 			"chart_type": "query_values",
 			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/kawasanku_electoral_barmeter_callout.parquet?ignoreCache=1",
 			"api_type": "dynamic",
 			"api_params": [],
 			"variables": {
 				"flat": true,
-				"columns": ["area_type", "area"],
+				"columns": [
+					"area_type",
+					"area"
+				],
 				"sort_values": {
-					"by": ["area_type", "area"],
-					"ascending": [true, true]
+					"by": [
+						"area_type",
+						"area"
+					],
+					"ascending": [
+						true,
+						true
+					]
 				}
 			}
 		},
@@ -121,7 +153,7 @@
 			"name": "choropleth_parlimen",
 			"chart_type": "choropleth_chart",
 			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/kawasanku_electoral_choropleth_parlimen.parquet",
-			"data_as_of": "2020-01-01 00:00",
+			"data_as_of": "2024",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
@@ -144,7 +176,7 @@
 			"name": "choropleth_dun",
 			"chart_type": "choropleth_chart",
 			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/kawasanku_electoral_choropleth_dun.parquet",
-			"data_as_of": "2020-01-01 00:00",
+			"data_as_of": "2024",
 			"api_type": "static",
 			"api_params": [],
 			"variables": {
