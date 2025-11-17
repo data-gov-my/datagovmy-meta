@@ -25,15 +25,6 @@
 				"keys": "area_type",
 				"id": "area",
 				"columns": {
-					"geography": [
-						"total_area",
-						"max_elevation",
-						"ruggedness",
-						"watercover",
-						"treecover",
-						"treeloss",
-						"nightlights"
-					],
 					"population": [
 						"population_density",
 						"female_male",
@@ -42,6 +33,21 @@
 						"death_rate",
 						"dep_young",
 						"dep_old"
+					],
+					"voting": [
+						"voters_total",
+						"voter_density",
+						"constituency_size",
+						"voter_turnout"
+					],
+					"geography": [
+						"total_area",
+						"max_elevation",
+						"ruggedness",
+						"watercover",
+						"treecover",
+						"treeloss",
+						"nightlights"
 					],
 					"economy": [
 						"income_mean",
