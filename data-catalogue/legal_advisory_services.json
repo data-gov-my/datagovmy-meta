@@ -69,8 +69,8 @@
         },
         {
             "name": "jumlah",
-            "title_en": "Number of Cases",
-            "title_ms": "Bilangan Kes",
+            "title_en": "Total of Cases",
+            "title_ms": "Jumlah Kes",
             "description_en": "The number of cases or instances of legal advice provided for the specified category and subcategory.",
             "description_ms": "Bilangan kes atau kejadian nasihat undang-undang yang diberikan untuk kategori dan subkategori yang ditentukan."
         }
@@ -81,7 +81,7 @@
         "kategori utama": "Main Category",
         "sub kategori": "Subcategory",
         "jenis kes": "Case Type",
-        "jumlah": "Number of Cases"
+        "jumlah": "Total of Cases"
     },
     "translations_ms": {
         "tarikh": "Tarikh",
@@ -89,7 +89,7 @@
         "kategori utama": "Kategori Utama",
         "sub kategori": "Sub Kategori",
         "jenis kes": "Jenis Kes",
-        "jumlah": "Bilangan Kes"
+        "jumlah": "Jumlah Kes"
     },
     "site_category": [
         {
