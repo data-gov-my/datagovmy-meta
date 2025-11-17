@@ -1,0 +1,118 @@
+{
+    "link_csv": "https://storage.data.gov.my/dev/legal_advisory_services.csv",
+    "link_parquet": "https://storage.data.gov.my/dev/legal_advisory_services.parquet",
+    "link_preview": "https://storage.data.gov.my/dev/legal_advisory_services.parquet",
+    "title_en": "Legal Advisory Services",
+    "title_ms": "Perkhidmatan Nasihat Undang-Undang",
+    "description_en": "This data refers to the records of legal advice services that has been registered via the Sistem Pengurusan Kes Jabatan Bantuan Guaman (SPK-JBG), handled by the Legal Aid Department (JBG). The numbers include legal advice services given all across Malaysia by JBG as shown below. The data shared aims to support the transparency, research and analysis pertaining to the accessibility of legal aid services in Malaysia.",
+    "description_ms": "Data ini mengandungi rekod sesi nasihat undang-undang yang didaftarkan melalui Sistem Pengurusan Kes Jabatan Bantuan Guaman (SPK-JBG), yang dikendalikan oleh Jabatan Bantuan Guaman (JBG). Ia merangkumi perkhidmatan nasihat undang-undang yang diberikan di seluruh Malaysia. Set data ini bertujuan untuk menyokong ketelusan, penyelidikan, dan analisis berkaitan aksesibiliti dan skop perkhidmatan bantuan guaman di Malaysia.",
+    "title_sort": 1,
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2025-01-06 00:01:00.000 +08:00",
+    "frequency": "MONTHLY",
+    "geography": [
+        "STATE",
+        "NATIONAL",
+        "DISTRICT"
+    ],
+    "demography": [],
+    "dataset_begin": "2022",
+    "dataset_end": "2024",
+    "data_source": [
+        "JBG"
+    ],
+    "methodology_en": "The dataset is compiled from records managed by the Legal Aid Department of Malaysia (JBG) through the Sistem Pengurusan Kes Jabatan Bantuan Guaman (SPK-JBG). The data is collected monthly and includes all registered legal advisory services across Malaysia, categorized by main and subcategories of legal issues. Each record represents a unique instance of legal advice provided.",
+    "methodology_ms": "Set data ini disusun daripada rekod yang diuruskan oleh Jabatan Bantuan Guaman Malaysia (JBG) melalui Sistem Pengurusan Kes Jabatan Bantuan Guaman (SPK-JBG). Data dikumpulkan secara bulanan dan merangkumi semua perkhidmatan nasihat undang-undang yang didaftarkan di seluruh Malaysia, dikategorikan mengikut kategori utama dan subkategori isu undang-undang. Setiap rekod mewakili satu kejadian unik nasihat undang-undang yang diberikan.",
+    "caveat_en": "The dataset includes only those legal advisory services that have been registered through the SPK-JBG system. It may not capture all informal or unregistered advisory services. Additionally, the categorization of cases might vary slightly due to differences in interpretation of legal issues.",
+    "caveat_ms": "Set data ini hanya merangkumi perkhidmatan nasihat undang-undang yang telah didaftarkan melalui sistem SPK-JBG. Ia mungkin tidak menangkap semua perkhidmatan nasihat yang tidak formal atau tidak berdaftar. Selain itu, pengkategorian kes mungkin berbeza sedikit kerana perbezaan dalam tafsiran isu undang-undang.",
+    "publication_en": "N/A",
+    "publication_ms": "N/A",
+    "related_datasets": [],
+    "last_updated": "2025-11-17 14:36:15.134 +08:00",
+    "next_update": "-",
+    "fields": [
+        {
+            "name": "tarikh",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "The date on which the legal advice service was registered, in YYYY-MM-DD format.",
+            "description_ms": "Tarikh perkhidmatan nasihat undang-undang didaftarkan, dalam format YYYY-MM-DD."
+        },
+        {
+            "name": "cawangan",
+            "title_en": "Branch",
+            "title_ms": "Cawangan",
+            "description_en": "The branch or location of the Legal Aid Department where the service was provided.",
+            "description_ms": "Cawangan atau lokasi Jabatan Bantuan Guaman di mana perkhidmatan diberikan."
+        },
+        {
+            "name": "kategori utama",
+            "title_en": "Main Category",
+            "title_ms": "Kategori Utama",
+            "description_en": "The main category of the legal issue for which advice was sought, such as Civil or Syariah.",
+            "description_ms": "Kategori utama isu undang-undang yang mana nasihat diminta, seperti Sivil atau Syariah."
+        },
+        {
+            "name": "sub kategori",
+            "title_en": "Subcategory",
+            "title_ms": "Sub Kategori",
+            "description_en": "The subcategory of the legal issue, providing more specific classification within the main category.",
+            "description_ms": "Subkategori isu undang-undang, memberikan pengelasan yang lebih spesifik dalam kategori utama."
+        },
+        {
+            "name": "jenis kes",
+            "title_en": "Case Type",
+            "title_ms": "Jenis Kes",
+            "description_en": "The specific type of case or legal issue for which advice was provided.",
+            "description_ms": "Jenis kes atau isu undang-undang tertentu yang mana nasihat diberikan."
+        },
+        {
+            "name": "jumlah",
+            "title_en": "Number of Cases",
+            "title_ms": "Bilangan Kes",
+            "description_en": "The number of cases or instances of legal advice provided for the specified category and subcategory.",
+            "description_ms": "Bilangan kes atau kejadian nasihat undang-undang yang diberikan untuk kategori dan subkategori yang ditentukan."
+        }
+    ],
+    "translations_en": {
+        "tarikh": "Date",
+        "cawangan": "Branch",
+        "kategori utama": "Main Category",
+        "sub kategori": "Subcategory",
+        "jenis kes": "Case Type",
+        "jumlah": "Number of Cases"
+    },
+    "translations_ms": {
+        "tarikh": "Tarikh",
+        "cawangan": "Cawangan",
+        "kategori utama": "Kategori Utama",
+        "sub kategori": "Sub Kategori",
+        "jenis kes": "Jenis Kes",
+        "jumlah": "Bilangan Kes"
+    },
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Public Safety",
+            "category_ms": "Keselamatan Awam",
+            "category_sort": 42,
+            "subcategory_en": "Justice",
+            "subcategory_ms": "Keadilan",
+            "subcategory_sort": 20
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ]
+}
