@@ -15,7 +15,7 @@
 		"jitter_chart": {
 			"name": "jitter_chart",
 			"chart_type": "jitter_chart",
-			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/kawasanku_electoral_jitter.parquet",
+			"chart_source": "http://storage.dosm.gov.my/dashboards/kawasanku_electoral_jitter.parquet",
 			"data_as_of": "2024",
 			"api_type": "dynamic",
 			"api_params": [
