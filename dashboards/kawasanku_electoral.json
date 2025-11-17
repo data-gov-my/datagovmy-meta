@@ -65,7 +65,11 @@
 						"clinic",
 						"school",
 						"police_fire",
-						"grocery"
+						"grocery",
+						"atm",
+						"petrol",
+						"libraries",
+						"worship"
 					]
 				},
 				"tooltip": true
