@@ -18,6 +18,9 @@
     "section_3": {
       "title": "A geographic visualisation of selected indicators."
     },
+    "section_4": {
+      "title": "Selected timeseries indicators for {{ area }}"
+    },
     "geofilter": "Geofilter",
     "area_types": {
       "district": "District",
@@ -108,7 +111,15 @@
       "atm": "ATM per 1000 people",
       "petrol": "Petrol stations per 1000 people",
       "libraries": "Libraries per 1000 people",
-      "worship": "Houses of worship per 1000 people"
+      "worship": "Houses of worship per 1000 people",
+      "population": "Population",
+      "births": "Births",
+      "deaths": "Deaths",
+      "income": "Income",
+      "expenditure": "Expenditure",
+      "inequality": "Inequality",
+      "u_rate": "Unemployment rate",
+      "p_rate": "Labour force participation rate"
     },
     "tips": {
       "total_area": "",
