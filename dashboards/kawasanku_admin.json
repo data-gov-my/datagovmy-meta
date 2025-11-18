@@ -132,6 +132,37 @@
 				]
 			}
 		},
+        "timeseries": {
+            "name": "timeseries",
+            "chart_type": "timeseries_chart",
+            "chart_source": "https://storage.dosm.gov.my/dashboards/kawasanku_admin_timeseries.parquet",
+            "data_as_of": "2025",
+            "api_type": "dynamic",
+            "api_params": [
+                "area_type",
+                "area"
+            ],
+            "variables": {
+                "keys": [
+                    "area"
+                ],
+                "rename_cols": {
+                    "date": "x"
+                },
+                "value_columns": [
+                    "x",
+                    "population",
+					"births",
+					"deaths",
+					"income",
+					"expenditure",
+					"poverty",
+					"inequality",
+					"u_rate",
+					"p_rate"
+                ]
+            }
+        },
 		"query_values": {
 			"name": "query_values",
 			"data_as_of": "2024",
