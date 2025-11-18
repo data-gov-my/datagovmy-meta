@@ -15,7 +15,7 @@
 		"jitter_chart": {
 			"name": "jitter_chart",
 			"chart_type": "jitter_chart",
-			"chart_source": "http://storage.dosm.gov.my/dashboards/kawasanku_electoral_jitter.parquet",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/kawasanku_electoral_jitter.parquet",
 			"data_as_of": "2024",
 			"api_type": "dynamic",
 			"api_params": [
@@ -78,7 +78,7 @@
 		"pyramid_data": {
 			"name": "pyramid_data",
 			"chart_type": "pyramid_chart",
-			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/kawasanku_electoral_pyramid.parquet",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/kawasanku_electoral_pyramid.parquet",
 			"data_as_of": "2023-06-26 23:59",
 			"api_type": "dynamic",
 			"api_params": [
@@ -95,7 +95,7 @@
 		"bar_chart": {
 			"name": "bar_chart",
 			"chart_type": "bar_meter",
-			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/kawasanku_electoral_barmeter.parquet?ignoreCache=1",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/kawasanku_electoral_barmeter.parquet?ignoreCache=1",
 			"data_as_of": "2024",
 			"api_type": "dynamic",
 			"api_params": [
@@ -116,7 +116,7 @@
 		"bar_chart_callout": {
 			"name": "bar_chart_callout",
 			"chart_type": "bar_meter",
-			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/kawasanku_electoral_barmeter_callout.parquet?ignoreCache=1",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/kawasanku_electoral_barmeter_callout.parquet?ignoreCache=1",
 			"data_as_of": "2024",
 			"api_type": "dynamic",
 			"api_params": [
@@ -134,11 +134,42 @@
 				]
 			}
 		},
+        "timeseries": {
+            "name": "timeseries",
+            "chart_type": "timeseries_chart",
+            "chart_source": "https://storage.dosm.gov.my/dashboards/kawasanku_electoral_timeseries.parquet",
+            "data_as_of": "2024",
+            "api_type": "dynamic",
+            "api_params": [
+                "area_type",
+                "area"
+            ],
+            "variables": {
+                "keys": [
+                    "area"
+                ],
+                "rename_cols": {
+                    "date": "x"
+                },
+                "value_columns": [
+                    "x",
+                    "population",
+					"births",
+					"deaths",
+					"income",
+					"expenditure",
+					"poverty",
+					"inequality",
+					"u_rate",
+					"p_rate"
+                ]
+            }
+        },
 		"query_values": {
 			"name": "query_values",
 			"data_as_of": "2024",
 			"chart_type": "query_values",
-			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/kawasanku_electoral_barmeter_callout.parquet?ignoreCache=1",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/kawasanku_electoral_barmeter_callout.parquet?ignoreCache=1",
 			"api_type": "dynamic",
 			"api_params": [],
 			"variables": {
@@ -162,7 +193,7 @@
 		"choropleth_parlimen": {
 			"name": "choropleth_parlimen",
 			"chart_type": "choropleth_chart",
-			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/kawasanku_electoral_choropleth_parlimen.parquet",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/kawasanku_electoral_choropleth_parlimen.parquet",
 			"data_as_of": "2024",
 			"api_type": "static",
 			"api_params": [],
@@ -185,7 +216,7 @@
 		"choropleth_dun": {
 			"name": "choropleth_dun",
 			"chart_type": "choropleth_chart",
-			"chart_source": "http://storage.dosm.gov.my.s3.ap-southeast-1.amazonaws.com/dashboards/kawasanku_electoral_choropleth_dun.parquet",
+			"chart_source": "https://storage.dosm.gov.my/dashboards/kawasanku_electoral_choropleth_dun.parquet",
 			"data_as_of": "2024",
 			"api_type": "static",
 			"api_params": [],
