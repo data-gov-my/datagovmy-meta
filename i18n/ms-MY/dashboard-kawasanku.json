@@ -18,6 +18,9 @@
     "section_3": {
       "title": "Gambaran geografi berdasarkan penunjuk aras yang dipilih."
     },
+    "section_4": {
+      "title": "Penunjuk siri masa yang terpilih untuk {{ area }}"
+    },
     "geofilter": "Jenis kawasan",
     "area_types": {
       "district": "Daerah",
@@ -108,7 +111,15 @@
       "atm": "ATM bagi setiap 1000 penduduk",
       "petrol": "Stesen minyak bagi setiap 1000 penduduk",
       "libraries": "Perpustakaan bagi setiap 1000 penduduk",
-      "worship": "Rumah ibadat bagi setiap 1000 penduduk"
+      "worship": "Rumah ibadat bagi setiap 1000 penduduk",
+      "population": "Penduduk dan Demografi",
+      "births": "Kelahiran",
+      "deaths": "Kematian",
+      "income": "Pendapatan",
+      "expenditure": "Perbelanjaan",
+      "inequality": "Ketidaksamaan",
+      "u_rate": "Kadar pengangguran",
+      "p_rate": "Kadar penyertaan tenaga buruh"
     },
     "tips": {
       "total_area": "",
