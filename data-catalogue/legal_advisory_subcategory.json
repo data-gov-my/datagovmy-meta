@@ -4,7 +4,7 @@
     "link_preview": "https://storage.data.gov.my/dev/legal_advisory_subcategory.parquet",
     "title_en": "Legal Advisory Services by Subcategory",
     "title_ms": "Perkhidmatan Nasihat Undang-Undang Mengikut Sub Kategori",
-    "description_en": "This data refers to the records of legal advice services that has been registered via the Sistem Pengurusan Kes Jabatan Bantuan Guaman (SPK-JBG), handled by the Legal Aid Department of Malaysia (JBG). The numbers include legal advice services given all across Malaysia by JBG and is classified by subcategory as shown below. The data shared aims to support the transparency, research and analysis pertaining to the accessibility of legal aid services�in�Malaysia.",
+    "description_en": "This data refers to the records of legal advice services that has been registered via the Sistem Pengurusan Kes Jabatan Bantuan Guaman (SPK-JBG), handled by the Legal Aid Department of Malaysia (JBG). The numbers include legal advice services given all across Malaysia by JBG and is classified by subcategory as shown below. The data shared aims to support the transparency, research and analysis pertaining to the accessibility of legal aid services in Malaysia.",
     "description_ms": "Dataset ini mengandungi rekod perkhidmatan nasihat undang-undang yang didaftarkan melalui Sistem Pengurusan Kes Jabatan Bantuan Guaman (SPK-JBG), yang diuruskan oleh Jabatan Bantuan Guaman Malaysia (JBG). Ia merangkumi perkhidmatan nasihat undang-undang yang diberikan di seluruh Malaysia oleh JBG, dikategorikan mengikut sub kategori. Data ini menyokong ketelusan, penyelidikan, dan analisis mengenai kebolehcapaian perkhidmatan bantuan guaman di Malaysia.",
     "title_sort": "3",
     "exclude_openapi": false,
