@@ -57,12 +57,12 @@
     "translations_en": {
         "tarikh": "Date",
         "cawangan": "Branch",
-        "jumlah": "Number of Services"
+        "jumlah": "Total of Cases"
     },
     "translations_ms": {
         "tarikh": "Tarikh",
         "cawangan": "Cawangan",
-        "jumlah": "Jumlah Perkhidmatan"
+        "jumlah": "Jumlah Kes"
     },
     "site_category": [
         {
