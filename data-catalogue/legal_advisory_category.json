@@ -9,7 +9,7 @@
     "title_sort": "2",
     "exclude_openapi": false,
     "manual_trigger": "",
-    "data_as_of": "2025-01-01 00:01:00.000 +08:00",
+    "data_as_of": "2024-12",
     "frequency": "MONTHLY",
     "geography": [
         "NATIONAL",
@@ -18,7 +18,7 @@
     ],
     "demography": [],
     "dataset_begin": "2022",
-    "dataset_end": 2025,
+    "dataset_end": "2024",
     "data_source": [
         "JBG"
     ],
@@ -29,8 +29,8 @@
     "publication_en": "N/A",
     "publication_ms": "N/A",
     "related_datasets": [],
-    "last_updated": "2025-11-17 15:32:00.931 +08:00",
-    "next_update": "-",
+    "last_updated": "2025-11-17 15:00",
+    "next_update": "2026-12-01 16:00",
     "fields": [
         {
             "name": "tarikh",
