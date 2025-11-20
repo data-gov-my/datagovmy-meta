@@ -1,0 +1,50 @@
+{
+    "publication": "productivity_2025-q3",
+    "publication_type": "labour",
+    "release_date": "2025-11-20",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[3Q 2025] Labour Productivity",
+        "publication_type_title": "Labour Force",
+        "description": "Quarterly labour productivity, covering value added per hour worked or per worker, by economic activity.",
+        "description_email": "DOSM has just released the latest quarterly labour productivity metrics, with disaggregation by economic sector. The value added per worker grew by 2.2% year-on-year (3Q 2024: 2.4%) while the value added per hour worked grew by 1.2% (3Q 2024: 2.6%).",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Labour Productivity: 3Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/labour/productivity_2025-q3.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Labour Productivity: 3Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/labour/productivity_2025-q3.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST3 2025] Produktiviti Buruh",
+        "publication_type_title": "Tenaga Buruh",
+        "description": "Produktiviti buruh suku tahunan, merangkumi nilai ditambah per jam bekerja ataupun per pekerja, mengikut aktiviti ekonomi.",
+        "description_email": "DOSM baru sahaja menerbitkan indikator produktiviti buruh suku tahunan terkini, dengan pecahan mengikut sektor ekonomi. Nilai ditambah per pekerja meningkat sebanyak 2.2% dari tahun ke tahun (ST3 2024: 2.4%) manakala nilai ditambah per jam bekerja meningkat sebanyak 1.2% (ST3 2024: 2.6%).",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Produktiviti Buruh: ST3 2025",
+                "resource_link": "https://storage.dosm.gov.my/labour/productivity_2025-q3.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Produktiviti Buruh: ST3 2025",
+                "resource_link": "https://storage.dosm.gov.my/labour/productivity_2025-q3.pdf"
+            }
+        ]
+    }
+}
