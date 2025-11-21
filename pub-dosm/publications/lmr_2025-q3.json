@@ -1,0 +1,50 @@
+{
+    "publication": "lmr_2025-q3",
+    "publication_type": "analysis",
+    "release_date": "2025-11-21",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[3Q 2025] Labour Market Review",
+        "publication_type_title": "Reviews & Analysis",
+        "description": "Quarterly review of Malaysian labour markets, drawing from the labour force, productivity, employment, jobs, and wage releases.",
+        "description_email": "DOSM has just released the latest quarterly labour market review, covering labour force, productivity, employment, and wage indicators.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Labour Market Review: 3Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/analysis/lmr_2025-q3_en.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Labour Market Review: 3Q 2025",
+                "resource_link": "https://storage.dosm.gov.my/analysis/lmr_2025-q3_en.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[ST3 2025] Sorotan Pasaran Buruh",
+        "publication_type_title": "Sorotan & Analisis",
+        "description": "Sorotan suku tahunan pasaran buruh Malaysia, berasaskan penerbitan tenaga buruh, produktiviti, guna tenaga, jawatan, dan gaji.",
+        "description_email": "DOSM telah menerbitkan sorotan pasaran buruh suku tahunan terkini, merangkumi indikator tenaga buruh, produktiviti, guna tenaga, dan gaji.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Sorotan Pasaran Buruh: ST3 2025",
+                "resource_link": "https://storage.dosm.gov.my/analysis/lmr_2025-q3_bm.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Sorotan Pasaran Buruh: ST3 2025",
+                "resource_link": "https://storage.dosm.gov.my/analysis/lmr_2025-q3_bm.pdf"
+            }
+        ]
+    }
+}
