@@ -1,0 +1,50 @@
+{
+    "publication": "mei_2025-09",
+    "publication_type": "indicators",
+    "release_date": "2025-11-25",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Sep 2025] Malaysian Economic Indicators",
+        "publication_type_title": "Economic Indicators",
+        "description": "Leading, lagging, and coincident composite indices (with diffusion) showing overall economic direction.",
+        "description_email": "DOSM has just released the latest leading, coincident, and lagging economic indicators.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Malaysian Economic Indicators: Sep 2025",
+                "resource_link": "https://storage.dosm.gov.my/mei/mei_2025-09.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Malaysian Economic Indicators: Sep 2025",
+                "resource_link": "https://storage.dosm.gov.my/mei/mei_2025-09.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Sep 2025] Penunjuk Ekonomi Malaysia",
+        "publication_type_title": "Penunjuk Ekonomi",
+        "description": "Indeks komposit pelopor, serentak, dan susulan (termasuk difusi) menunjuk prestasi ekonomi secara am.",
+        "description_email": "DOSM telah menerbitkan indikator ekonomi pelopor, serentak, dan susulan terkini.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Penunjuk Ekonomi Malaysia: Sep 2025",
+                "resource_link": "https://storage.dosm.gov.my/mei/mei_2025-09.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Penunjuk Ekonomi Malaysia: Sep 2025",
+                "resource_link": "https://storage.dosm.gov.my/mei/mei_2025-09.pdf"
+            }
+        ]
+    }
+}
