@@ -1,0 +1,125 @@
+{
+    "link_csv": "https://storage.data.gov.my/dev/motorcycles_2025.csv",
+    "link_parquet": "https://storage.data.gov.my/dev/motorcycles_2025.parquet",
+    "link_preview": "https://storage.data.gov.my/dev/motorcycles_2025_preview.parquet",
+    "title_en": "Vehicle Registration Transactions: Motorcycle",
+    "title_ms": "Data Transaksi Pendaftaran Kenderaan: Motosikal",
+    "description_en": "This dataset contains transactional records of motorcycle registrations, detailing information such as the type of motorcycle, manufacturer, color, fuel type, registration state, and key dates related to registration and expiry. It is important to note that this dataset reflects registrations only and does not account for motorcycles with an active license.",
+    "description_ms": "Dataset ini mengandungi rekod transaksi pendaftaran motosikal, memaparkan maklumat seperti jenis motosikal, pengeluar, warna, jenis bahan api, negeri pendaftaran, dan tarikh penting berkaitan pendaftaran dan tamat tempoh. Penting untuk diperhatikan bahawa dataset ini hanya mencerminkan pendaftaran dan tidak mengambil kira motosikal dengan lesen aktif.",
+    "title_sort": 1,
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2025-09-30",
+    "frequency": "DAILY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2025,
+    "dataset_end": 2025,
+    "data_source": [
+        "JPJ"
+    ],
+    "methodology_en": "The dataset comprises transactional records of all motorcycles registered with the Road Transport Department (JPJ). Each entry represents a single registration transaction, capturing the details provided at the time of registration. The data is collected and updated daily to ensure the most current information is available. No personal identifiable information is included, in compliance with Malaysian data protection laws.",
+    "methodology_ms": "Dataset ini merangkumi rekod transaksi semua motosikal yang didaftarkan dengan Jabatan Pengangkutan Jalan (JPJ). Setiap entri mewakili satu transaksi pendaftaran, menangkap butiran yang diberikan semasa pendaftaran. Data dikumpulkan dan dikemas kini setiap hari untuk memastikan maklumat terkini tersedia. Tiada maklumat peribadi yang boleh dikenal pasti disertakan, selaras dengan undang-undang perlindungan data Malaysia.",
+    "caveat_en": "This dataset only includes information on motorcycles that have been registered for use on the road. It does not include motorcycles that are unregistered or those that are only used privately off-road. Users should be aware that the data is limited to registration information and does not reflect the total number of motorcycles actively licensed or in operation.",
+    "caveat_ms": "Dataset ini hanya merangkumi maklumat mengenai motosikal yang telah didaftarkan untuk digunakan di jalan raya. Ia tidak termasuk motosikal yang tidak didaftarkan atau yang hanya digunakan secara peribadi di luar jalan raya. Pengguna harus sedar bahawa data ini terhad kepada maklumat pendaftaran dan tidak mencerminkan jumlah keseluruhan motosikal yang berlesen aktif atau beroperasi.",
+    "publication_en": "N/A",
+    "publication_ms": "N/A",
+    "related_datasets": [],
+    "last_updated": "2025-09-30",
+    "next_update": "-",
+    "fields": [
+        {
+            "name": "type",
+            "title_en": "Type",
+            "title_ms": "Jenis",
+            "description_en": "The type of vehicle, specifically identifying motorcycles ('motosikal').",
+            "description_ms": "Jenis kenderaan, khususnya mengenal pasti motosikal ('motosikal')."
+        },
+        {
+            "name": "maker",
+            "title_en": "Maker",
+            "title_ms": "Pengeluar",
+            "description_en": "The manufacturer of the motorcycle, such as Yamaha or Honda.",
+            "description_ms": "Pengeluar motosikal, seperti Yamaha atau Honda."
+        },
+        {
+            "name": "colour",
+            "title_en": "Colour",
+            "title_ms": "Warna",
+            "description_en": "The color of the motorcycle, described in lowercase English text.",
+            "description_ms": "Warna motosikal, diterangkan dalam teks Inggeris huruf kecil."
+        },
+        {
+            "name": "fuel",
+            "title_en": "Fuel",
+            "title_ms": "Bahan Api",
+            "description_en": "The type of fuel used by the motorcycle's engine, typically petrol.",
+            "description_ms": "Jenis bahan api yang digunakan oleh enjin motosikal, biasanya petrol."
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "The state where the motorcycle was registered, or 'Rakan Niaga' if registered through an official partner portal.",
+            "description_ms": "Negeri di mana motosikal didaftarkan, atau 'Rakan Niaga' jika didaftarkan melalui portal rakan rasmi."
+        },
+        {
+            "name": "date_reg",
+            "title_en": "Date of Registration",
+            "title_ms": "Tarikh Pendaftaran",
+            "description_en": "The date when the motorcycle was registered, in YYYY-MM-DD format.",
+            "description_ms": "Tarikh apabila motosikal didaftarkan, dalam format YYYY-MM-DD."
+        },
+        {
+            "name": "date_expiry",
+            "title_en": "Date of Expiry",
+            "title_ms": "Tarikh Tamat Tempoh",
+            "description_en": "The expiry date of the motorcycle's registration, in YYYY-MM-DD format.",
+            "description_ms": "Tarikh tamat tempoh pendaftaran motosikal, dalam format YYYY-MM-DD."
+        }
+    ],
+    "translations_en": {
+        "type": "Type",
+        "maker": "Maker",
+        "colour": "Colour",
+        "fuel": "Fuel",
+        "state": "State",
+        "date_reg": "Date of Registration",
+        "date_expiry": "Date of Expiry"
+    },
+    "translations_ms": {
+        "type": "Jenis",
+        "maker": "Pengeluar",
+        "colour": "Warna",
+        "fuel": "Bahan Api",
+        "state": "Negeri",
+        "date_reg": "Tarikh Pendaftaran",
+        "date_expiry": "Tarikh Tamat Tempoh"
+    },
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Transportation",
+            "category_ms": "Pengangkutan",
+            "category_sort": 41,
+            "subcategory_en": "Ridership",
+            "subcategory_ms": "Penggunaan",
+            "subcategory_sort": 10
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ]
+}
