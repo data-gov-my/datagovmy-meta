@@ -1,15 +1,15 @@
 {
-    "title_en": "Orang Asli by State & Village",
-    "title_ms": "Orang Asli mengikut Negeri dan Kampung",
-    "title_sort": "10",
+    "link_csv": "https://storage.data.gov.my/dev/orang_asli.csv",
+    "link_parquet": "https://storage.data.gov.my/dev/orang_asli.parquet",
+    "link_preview": "https://storage.data.gov.my/dev/orang_asli_preview.parquet",
+    "title_en": "Transactional Data: Registered Orang Asli",
+    "title_ms": "Data Transaksi: Orang Asli Berdaftar",
     "description_en": "This dataset provides information on the population of Orang Asli, the indigenous people of Peninsular Malaysia, by state and village. The data includes details on age, sex, religion, ethnicity, and marital status, covering the three main ethnic groups (Negrito, Proto-Malay, and Senoi) and their 18 sub-ethnic groups. The dataset is managed by the Department of Orang Asli Development (JAKOA), which is responsible for the welfare of the Orang Asli communities.",
     "description_ms": "Dataset ini menyediakan maklumat mengenai populasi Orang Asli, penduduk asal Semenanjung Malaysia, mengikut negeri dan kampung. Data ini merangkumi butiran mengenai umur, jantina, agama, etnik, dan status perkahwinan, meliputi tiga kumpulan etnik utama (Negrito, Proto-Melayu, dan Senoi) dan 18 sub-etnik mereka. Dataset ini diuruskan oleh Jabatan Kemajuan Orang Asli (JAKOA), yang bertanggungjawab untuk kebajikan komuniti Orang Asli.",
-    "link_csv": "https://storage.data.gov.my/dev/orang_asli_etnik.csv",
-    "link_parquet": "https://storage.data.gov.my/dev/orang_asli_etnik.parquet",
-    "link_preview": "https://storage.data.gov.my/dev/orang_asli_etnik.parquet",
+    "title_sort": 10,
     "exclude_openapi": false,
     "manual_trigger": "",
-    "data_as_of": "2025-09-24 00:00:00.000 +08:00",
+    "data_as_of": "2022",
     "frequency": "YEARLY",
     "geography": [
         "NATIONAL",
@@ -25,8 +25,8 @@
         "NATIONALITY",
         "MARITAL"
     ],
-    "dataset_begin": "2022",
-    "dataset_end": 2025,
+    "dataset_begin": 2022,
+    "dataset_end": 2022,
     "data_source": [
         "JAKOA"
     ],
@@ -37,11 +37,11 @@
     "publication_en": "N/A",
     "publication_ms": "N/A",
     "related_datasets": [],
-    "last_updated": "2025-09-24 15:44:54.312 +08:00",
+    "last_updated": "2025-09-24",
     "next_update": "-",
     "fields": [
         {
-            "name": "State",
+            "name": "state",
             "title_en": "State",
             "title_ms": "Negeri",
             "description_en": "The state in Malaysia where the Orang Asli community resides.",
@@ -126,7 +126,7 @@
         }
     ],
     "translations_en": {
-        "State": "State",
+        "state": "State",
         "district": "District",
         "mukim": "Mukim",
         "parlimen": "Parliament",
@@ -140,7 +140,7 @@
         "marital_status": "Marital Status"
     },
     "translations_ms": {
-        "State": "Negeri",
+        "state": "Negeri",
         "district": "Daerah",
         "mukim": "Mukim",
         "parlimen": "Parlimen",
