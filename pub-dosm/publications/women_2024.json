@@ -1,0 +1,186 @@
+{
+    "publication": "women_2024",
+    "publication_type": "women",
+    "release_date": "2025-11-25",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "SEX",
+        "AGE"
+    ],
+    "en": {
+        "title": "[2024] Women Empowerment",
+        "publication_type_title": "Women Empowerment",
+        "description": "Annual gender gap index and indicators on female empowerment in 11 core domains, including the economy, education, and health.",
+        "description_email": "DOSM has just released the latest annual data on the gender gap and female empowerment in 11 core domains, including the economy, education, health, and human rights.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Women Empowerment: 2024",
+                "resource_link": "https://storage.dosm.gov.my/women/women_2024.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Gender Gap Index: 2024",
+                "resource_link": "https://storage.dosm.gov.my/women/gendergap_2024.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Economy: 2024",
+                "resource_link": "https://storage.dosm.gov.my/women/women_2024_economy.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Education: 2024",
+                "resource_link": "https://storage.dosm.gov.my/women/women_2024_education.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Health and Related Services: 2024",
+                "resource_link": "https://storage.dosm.gov.my/women/women_2024_health.xlsx"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "excel",
+                "resource_name": "Public Life and Decision Making: 2024",
+                "resource_link": "https://storage.dosm.gov.my/women/women_2024_publiclife.xlsx"
+            },
+            {
+                "resource_id": 7,
+                "resource_type": "excel",
+                "resource_name": "Human Rights: 2024",
+                "resource_link": "https://storage.dosm.gov.my/women/women_2024_humanrights.xlsx"
+            },
+            {
+                "resource_id": 8,
+                "resource_type": "excel",
+                "resource_name": "Social Protection (Focus: Ageing): 2024",
+                "resource_link": "https://storage.dosm.gov.my/women/women_2024_welfare.xlsx"
+            },
+            {
+                "resource_id": 9,
+                "resource_type": "excel",
+                "resource_name": "Disaster Risk Reduction: 2024",
+                "resource_link": "https://storage.dosm.gov.my/women/women_2024_disaster.xlsx"
+            },
+            {
+                "resource_id": 10,
+                "resource_type": "excel",
+                "resource_name": "Peace and Security: 2024",
+                "resource_link": "https://storage.dosm.gov.my/women/women_2024_peace.xlsx"
+            },
+            {
+                "resource_id": 11,
+                "resource_type": "excel",
+                "resource_name": "Refugees: 2024",
+                "resource_link": "https://storage.dosm.gov.my/women/women_2024_refugees.xlsx"
+            },
+            {
+                "resource_id": 12,
+                "resource_type": "excel",
+                "resource_name": "Environment and Climate Change: 2024",
+                "resource_link": "https://storage.dosm.gov.my/women/women_2024_environment.xlsx"
+            },
+            {
+                "resource_id": 13,
+                "resource_type": "excel",
+                "resource_name": "International Migration: 2024",
+                "resource_link": "https://storage.dosm.gov.my/women/women_2024_migration.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2024] Pemerkasaan Wanita",
+        "publication_type_title": "Pemerkasaan Wanita",
+        "description": "Indeks jurang gender tahunan serta indikator pemerkasaan wanita dalam 11 domain utama, termasuk ekonomi, pendidikan, dan kesihatan.",
+        "description_email": "DOSM telah menerbitkan data tahunan terkini mengenai jurang gender serta pemerkasaan wanita dalam 11 domain utama, termasuk ekonomi, pendidikan, kesihatan, dan hak asasi.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Pemerkasaan Wanita: 2024",
+                "resource_link": "https://storage.dosm.gov.my/women/women_2024.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Indeks Jurang Gender: 2024",
+                "resource_link": "https://storage.dosm.gov.my/women/gendergap_2024.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Ekonomi: 2024",
+                "resource_link": "https://storage.dosm.gov.my/women/women_2024_economy.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Pendidikan: 2024",
+                "resource_link": "https://storage.dosm.gov.my/women/women_2024_education.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Kesihatan dan Perkhidmatan Berkaitan: 2024",
+                "resource_link": "https://storage.dosm.gov.my/women/women_2024_health.xlsx"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "excel",
+                "resource_name": "Kehidupan Umum dan Membuat Keputusan: 2024",
+                "resource_link": "https://storage.dosm.gov.my/women/women_2024_publiclife.xlsx"
+            },
+            {
+                "resource_id": 7,
+                "resource_type": "excel",
+                "resource_name": "Hak Asasi Manusia: 2024",
+                "resource_link": "https://storage.dosm.gov.my/women/women_2024_humanrights.xlsx"
+            },
+            {
+                "resource_id": 8,
+                "resource_type": "excel",
+                "resource_name": "Perlindungan Sosial (Fokus: Penuaan): 2024",
+                "resource_link": "https://storage.dosm.gov.my/women/women_2024_welfare.xlsx"
+            },
+            {
+                "resource_id": 9,
+                "resource_type": "excel",
+                "resource_name": "Pengurangan Risiko Bencana: 2024",
+                "resource_link": "https://storage.dosm.gov.my/women/women_2024_disaster.xlsx"
+            },
+            {
+                "resource_id": 10,
+                "resource_type": "excel",
+                "resource_name": "Keamanan dan Keselamatan: 2024",
+                "resource_link": "https://storage.dosm.gov.my/women/women_2024_peace.xlsx"
+            },
+            {
+                "resource_id": 11,
+                "resource_type": "excel",
+                "resource_name": "Pelarian: 2024",
+                "resource_link": "https://storage.dosm.gov.my/women/women_2024_refugees.xlsx"
+            },
+            {
+                "resource_id": 12,
+                "resource_type": "excel",
+                "resource_name": "Alam Sekitar dan Perubahan Iklim: 2024",
+                "resource_link": "https://storage.dosm.gov.my/women/women_2024_environment.xlsx"
+            },
+            {
+                "resource_id": 13,
+                "resource_type": "excel",
+                "resource_name": "Migrasi Antarabangsa: 2024",
+                "resource_link": "https://storage.dosm.gov.my/women/women_2024_migration.xlsx"
+            }
+        ]
+    }
+}
