@@ -1,0 +1,51 @@
+{
+    "publication": "digitaleconomy_2024",
+    "publication_type": "satacc",
+    "release_date": "2025-11-26",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2024]  Digital Economy",
+        "publication_type_title": "Gross Domestic Product",
+        "description": "Annual compilation of statistics covering performance of the ICT sector, ICT use and access, as well as e-commerce.",
+        "description_email": "DOSM has just released the latest annual data on the digital economy and its contribution to GDP, covering the performance of the ICT sector, ICT use and access, as well as e-commerce.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Digital Economy: 2024",
+                "resource_link": "https://storage.dosm.gov.my/gdp/digitaleconomy_2024.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Digital Economy: 2024",
+                "resource_link": "https://storage.dosm.gov.my/gdp/digitaleconomy_2024.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2024]  Ekonomi Digital",
+        "publication_type_title": "Keluaran Dalam Negeri Kasar",
+        "description": "Kompilasi statistik tahunan meliputi prestasi sektor ICT, penggunaan dan akses ICT, serta e-dagang.",
+        "description_email": "DOSM baru saja menerbitkan data tahunan terkini tentang ekonomi digital dan sumbangannya kepada KDNK, merangkumi prestasi sektor ICT, penggunaan dan akses kepada ICT, serta e-dagang.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Ekonomi Digital: 2024",
+                "resource_link": "https://storage.dosm.gov.my/gdp/digitaleconomy_2024.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Ekonomi Digital: 2024",
+                "resource_link": "https://storage.dosm.gov.my/gdp/digitaleconomy_2024.pdf"
+            }
+        ]
+    }
+}
