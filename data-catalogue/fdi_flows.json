@@ -6,9 +6,9 @@
     "description_ms": "Aliran masuk, aliran keluar, dan aliran bersih pelaburan langsung asing (FDI) ke Malaysia.",
     "exclude_openapi": false,
     "manual_trigger": "",
-    "data_as_of": "2024-Q3",
-    "last_updated": "2024-11-15 12:00",
-    "next_update": "2025-02-14 12:00",
+    "data_as_of": "2025-Q3",
+    "last_updated": "2025-11-14 12:00",
+    "next_update": "2026-02-13 12:00",
     "methodology_en": "FDI into Malaysia is a category of investment by non-residents that reflects the objective of obtaining a lasting interest in Malaysia. Financial instruments covered under direct investment include equity, reinvestment of earnings and debt instruments (such as inter-company loans and advances, trade credits). FDI statistics for Malaysia are compiled as part of the balance of payments, which is compiled based on the IMF's BPM6 guidelines. For a full description of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/bop-technotes), particularly the definitions relating to FDI.",
     "methodology_ms": "FDI ke Malaysia adalah kategori pelaburan oleh bukan penduduk yang mencerminkan objektif untuk mendapatkan kepentingan yang berterusan di Malaysia. Instrumen kewangan yang diliputi di bawah pelaburan langsung termasuklah ekuiti, perolehan dilabur semula dan instrumen hutang (seperti pinjaman dan pendahuluan antara syarikat, kredit perdagangan). Statistik FDI bagi Malaysia dikumpulkan sebagai sebahagian daripada imbangan pembayaran, yang dirangka berdasarkan garis panduan BPM6 IMF. Untuk penerangan penuh mengenai metodologi, sila rujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/bop-technotes), terutamanya definisi yang berkaitan dengan FDI.",
     "caveat_en": "Values for the most recent 8 quarters may be revised in future releases.",
@@ -23,7 +23,7 @@
     ],
     "demography": [],
     "dataset_begin": 2008,
-    "dataset_end": 2024,
+    "dataset_end": 2025,
     "data_source": [
         "DOSM"
     ],
