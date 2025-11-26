@@ -143,7 +143,7 @@
     ],
     "translations_en": {
         "x": "Date",
-        "y1": "Value (RM bil)",
+        "y11": "Value (RM bil)",
         "date": "Date",
         "inflow": "Inflows",
         "outflow": "Outflows",
@@ -151,7 +151,7 @@
     },
     "translations_ms": {
         "x": "Tarikh",
-        "y1": "Nilai (RM bilion)",
+        "y11": "Nilai (RM bilion)",
         "date": "Tarikh",
         "inflow": "Aliran Masuk",
         "outflow": "Aliran Keluar",
