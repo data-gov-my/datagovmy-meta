@@ -20,7 +20,7 @@
   "link_preview": "https://storage.dosm.gov.my/population/population_dun_preview.parquet",
   "frequency": "YEARLY",
   "geography": [
-    "PARLIMEN"
+    "DUN"
   ],
   "demography": [
     "SEX",
