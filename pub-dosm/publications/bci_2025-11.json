@@ -1,0 +1,147 @@
+{
+    "publication": "bc_2025-11",
+    "publication_type": "bci",
+    "release_date": "2025-12-10",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Nov 2025] Building Materials Cost Index",
+        "publication_type_title": "Building Materials Cost Index",
+        "description": "Monthly cost of building materials, covering civil engineering, structural, building, mechanical and electrical works.",
+        "description_email": "DOSM has just released the latest monthly building cost data, covering the cost of building materials for civil engineering, structural, building, mechanical and electrical works.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Cost of Civil Engineering Works (Peninsular Msia): Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2025-11_civileng_semenanjung.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Cost of Civil Engineering Works (Sabah & Sarawak): Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2025-11_civileng_ss.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Cost of Building & Structural Works (Peninsular Msia): Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2025-11_structure_semenanjung.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Cost of Building & Structural Works (Sabah & Sarawak): Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2025-11_structure_ss.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Cost of Mechanical & Electrical Works: Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2025-11_mechelec.xlsx"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "pdf",
+                "resource_name": "Cost of Civil Engineering Works (Peninsular Msia): Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2025-11_civileng_semenanjung.pdf"
+            },
+            {
+                "resource_id": 7,
+                "resource_type": "pdf",
+                "resource_name": "Cost of Civil Engineering Works (Sabah & Sarawak): Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2025-11_civileng_ss.pdf"
+            },
+            {
+                "resource_id": 8,
+                "resource_type": "pdf",
+                "resource_name": "Cost of Building & Structural Works (Peninsular Msia): Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2025-11_structure_semenanjung.pdf"
+            },
+            {
+                "resource_id": 9,
+                "resource_type": "pdf",
+                "resource_name": "Cost of Building & Structural Works (Sabah & Sarawak): Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2025-11_structure_ss.pdf"
+            },
+            {
+                "resource_id": 10,
+                "resource_type": "pdf",
+                "resource_name": "Cost of Mechanical & Electrical Works: Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2025-11_mechelec.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Nov 2025] Indeks Kos Bahan Binaan",
+        "publication_type_title": "Indeks Kos Bahan Binaan",
+        "description": "Harga bulanan bahan binaan, merangkumi kerja kejuruteraan sivil, bangunan, struktur, mekanikal dan elektrik.",
+        "description_email": "DOSM baru sahaja menerbitkan kos pembinaan bulanan terkini, merangkumi harga bahan binaan untuk kerja kejuruteraan sivil, bangunan, struktur, mekanikal dan elektrik.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Harga Kerja Kejuruteraan Sivil (Semenanjung Msia): Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2025-11_civileng_semenanjung.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Harga Kerja Kejuruteraan Sivil (Sabah & Sarawak): Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2025-11_civileng_ss.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Harga Kerja Bangunan & Struktur (Semenanjung Msia): Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2025-11_structure_semenanjung.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Harga Kerja Bangunan & Struktur (Sabah & Sarawak): Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2025-11_structure_ss.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Harga Kerja Mekanikal & Elektrik: Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2025-11_mechelec.xlsx"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "pdf",
+                "resource_name": "Harga Kerja Kejuruteraan Sivil (Semenanjung Msia): Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2025-11_civileng_semenanjung.pdf"
+            },
+            {
+                "resource_id": 7,
+                "resource_type": "pdf",
+                "resource_name": "Harga Kerja Kejuruteraan Sivil (Sabah & Sarawak): Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2025-11_civileng_ss.pdf"
+            },
+            {
+                "resource_id": 8,
+                "resource_type": "pdf",
+                "resource_name": "Harga Kerja Bangunan & Struktur (Semenanjung Msia): Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2025-11_structure_semenanjung.pdf"
+            },
+            {
+                "resource_id": 9,
+                "resource_type": "pdf",
+                "resource_name": "Harga Kerja Bangunan & Struktur (Sabah & Sarawak): Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2025-11_structure_ss.pdf"
+            },
+            {
+                "resource_id": 10,
+                "resource_type": "pdf",
+                "resource_name": "Harga Kerja Mekanikal & Elektrik: Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/bci/bci_2025-11_mechelec.pdf"
+            }
+        ]
+    }
+}
