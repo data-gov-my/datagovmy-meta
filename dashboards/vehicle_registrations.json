@@ -1,12 +1,12 @@
 {
     "dashboard_name": "vehicle_registrations",
-    "data_last_updated": "2025-11-11 18:30",
-    "data_next_update": "2025-12-10 16:00",
+    "data_last_updated": "2025-12-10 18:30",
+    "data_next_update": "2026-01-10 16:00",
     "route": "/dashboard/vehicle-registrations,/ms-MY/dashboard/vehicle-registrations",
     "sites": [
         "datagovmy"
     ],
-    "manual_trigger": "2025-11-11 18:31:54.482732",
+    "manual_trigger": "2025-12-10 21:30:12.168912",
     "required_params": [],
     "optional_params": [],
     "charts": {
@@ -14,7 +14,7 @@
             "name": "query_values",
             "chart_type": "query_values",
             "chart_source": "https://storage.data.gov.my/dashboards/vehicles_timeseries_fuel.parquet",
-            "data_as_of": "2025-10-31 23:59",
+            "data_as_of": "2025-11-30 23:59",
             "api_type": "dynamic",
             "api_params": [],
             "variables": {
@@ -27,7 +27,7 @@
             "name": "vehicles_timeseries_fuel",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/vehicles_timeseries_fuel.parquet",
-            "data_as_of": "2025-10-31 23:59",
+            "data_as_of": "2025-11-30 23:59",
             "api_type": "dynamic",
             "api_params": [
                 "type"
@@ -55,7 +55,7 @@
             "name": "vehicles_timeseries_fuel_callout",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/vehicles_timeseries_fuel_callout.parquet",
-            "data_as_of": "2025-10-31 23:59",
+            "data_as_of": "2025-11-30 23:59",
             "api_type": "dynamic",
             "api_params": [
                 "type"
@@ -75,7 +75,7 @@
             "name": "vehicles_timeseries_type",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/vehicles_timeseries_type.parquet",
-            "data_as_of": "2025-10-31 23:59",
+            "data_as_of": "2025-11-30 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -100,7 +100,7 @@
             "name": "vehicles_timeseries_type_callout",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/vehicles_timeseries_type_callout.parquet",
-            "data_as_of": "2025-10-31 23:59",
+            "data_as_of": "2025-11-30 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
