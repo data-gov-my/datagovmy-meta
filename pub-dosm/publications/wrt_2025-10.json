@@ -1,0 +1,50 @@
+{
+    "publication": "iowrt_2025-10",
+    "publication_type": "services",
+    "release_date": "2025-12-12",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Oct 2025] Index of Wholesale & Retail Trade",
+        "publication_type_title": "Wholesale & Retail Trade",
+        "description": "Monthly wholesale and retail trade performance, including the performance of motor vehicle sales.",
+        "description_email": "DOSM has just released the latest monthly wholesale and retail trade data, covering sales turnover and volume.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Index of Wholesale & Retail Trade: Oct 2025",
+                "resource_link": "https://storage.dosm.gov.my/iowrt/iowrt_2025-10.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Index of Wholesale & Retail Trade: Oct 2025",
+                "resource_link": "https://storage.dosm.gov.my/iowrt/iowrt_2025-10.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Okt 2025] Indeks Perdagangan Borong & Runcit",
+        "publication_type_title": "Perdagangan Borong & Runcit",
+        "description": "Prestasi bulanan perdagangan borong dan runcit, termasukan prestasi jualan kenderaan bermotor.",
+        "description_email": "DOSM telah menerbitkan data perdagangan borong dan runcit bulanan terkini, merangkumi nilai dan volum penjualan.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Indeks Perdagangan Borong & Runcit: Okt 2025",
+                "resource_link": "https://storage.dosm.gov.my/iowrt/iowrt_2025-10.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Indeks Perdagangan Borong & Runcit: Okt 2025",
+                "resource_link": "https://storage.dosm.gov.my/iowrt/iowrt_2025-10.pdf"
+            }
+        ]
+    }
+}
