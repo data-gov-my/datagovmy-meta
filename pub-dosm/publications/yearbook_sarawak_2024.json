@@ -1,0 +1,44 @@
+{
+    "publication": "yearbook_sarawak_2024",
+    "publication_type": "review_annual",
+    "release_date": "2025-12-17",
+    "frequency": "YEARLY",
+    "geography": [
+        "STATE",
+        "NATIONAL",
+        "DISTRICT"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY",
+        "AGE"
+    ],
+    "en": {
+        "title": "[2024] Sarawak Yearbook",
+        "publication_type_title": "Sorotan Tahunan",
+        "description": "Annual compilation of key data for Sarawak, including its population, economy, education, and health.",
+        "description_email": "DOSM has just released the latest annual Sarawak Yearbook, presenting a compilation of key statistics for Sarawak, including its population, economy, education, and health.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Sarawak Yearbook: 2024",
+                "resource_link": "https://storage.dosm.gov.my/reviews/yearbook_sarawak_2024.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2024] Buku Tahunan Sarawak",
+        "publication_type_title": "Sorotan Tahunan",
+        "description": "Kompilasi tahunan data penting bagi Sarawak, termasuk penduduk, ekonomi, pendidikan, dan kesihatan.",
+        "description_email": "DOSM telah menerbitkan Buku Tahunan Sarawak terkini, iaitu kompilasi data penting untuk Sarawak, termasuk penduduk, ekonomi, pendidikan, dan kesihatan.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Buku Tahunan Sarawak: 2024",
+                "resource_link": "https://storage.dosm.gov.my/reviews/yearbook_sarawak_2024.pdf"
+            }
+        ]
+    }
+}

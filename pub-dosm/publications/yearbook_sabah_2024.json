@@ -1,0 +1,44 @@
+{
+    "publication": "yearbook_sabah_2024",
+    "publication_type": "review_annual",
+    "release_date": "2025-12-17",
+    "frequency": "YEARLY",
+    "geography": [
+        "STATE",
+        "NATIONAL",
+        "DISTRICT"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY",
+        "AGE"
+    ],
+    "en": {
+        "title": "[2024] Sabah Yearbook",
+        "publication_type_title": "Sorotan Tahunan",
+        "description": "Annual compilation of key data for Sabah, including its population, economy, education, and health.",
+        "description_email": "DOSM has just released the latest annual Sabah Yearbook, presenting a compilation of key statistics for Sabah, including its population, economy, education, and health.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Sabah Yearbook: 2024",
+                "resource_link": "https://storage.dosm.gov.my/reviews/yearbook_sabah_2024.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2024] Buku Tahunan Sabah",
+        "publication_type_title": "Sorotan Tahunan",
+        "description": "Kompilasi tahunan data penting bagi Sabah, termasuk penduduk, ekonomi, pendidikan, dan kesihatan.",
+        "description_email": "DOSM telah menerbitkan Buku Tahunan Sabah terkini, iaitu kompilasi data penting untuk Sabah, termasuk penduduk, ekonomi, pendidikan, dan kesihatan.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Buku Tahunan Sabah: 2024",
+                "resource_link": "https://storage.dosm.gov.my/reviews/yearbook_sabah_2024.pdf"
+            }
+        ]
+    }
+}
