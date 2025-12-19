@@ -1,0 +1,37 @@
+{
+    "publication": "mywi_2024",
+    "publication_type": "mywi",
+    "release_date": "2025-12-19",
+    "frequency": "YEARLY",
+    "geography": [
+        "STATE",
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2024] Well-Being",
+        "publication_type_title": "Well-Being",
+        "description": "Well-being indices at national and state level, covering various components of economic and social well-being.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Well-Being: 2024",
+                "resource_link": "https://storage.dosm.gov.my/mywi/mywi_2024.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2024] Kesejahteraan",
+        "publication_type_title": "Kesejahteraan",
+        "description": "Indeks kesejahteraan pada peringkat nasional dan negeri, merangkumi pelbagai komponen kesejahteraan ekonomi dan sosial.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Kesejahteraan: 2024",
+                "resource_link": "https://storage.dosm.gov.my/mywi/mywi_2024.pdf"
+            }
+        ]
+    }
+}
