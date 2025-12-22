@@ -1,0 +1,75 @@
+{
+    "publication": "cpi_2025-11",
+    "publication_type": "cpi",
+    "release_date": "2025-12-22",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Nov 2025] Consumer Price Index",
+        "publication_type_title": "Consumer Price Index (CPI)",
+        "description": "Official consumer price data, covering headline, core, and state-level inflation",
+        "description_email": "DOSM has just released the latest monthly CPI data, covering headline, core, and state-level inflation.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Consumer Price Index Report: Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-11.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "CPI Main Tables: Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-11_main.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "CPI Tables by State: Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-11_state.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Core CPI Tables: Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-11_core.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Nov 2025] Indeks Harga Pengguna",
+        "publication_type_title": "Indeks Harga Pengguna (IHP)",
+        "description": "Data harga pengguna rasmi, merangkumi inflasi, inflasi teras, dan inflasi mengikut negeri",
+        "description_email": "DOSM telah menerbitkan data IHP bulanan terkini, merangkumi inflasi, inflasi teras, dan inflasi mengikut negeri.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Laporan Indeks Harga Pengguna: Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-11.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Jadual Utama IHP: Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-11_main.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Jadual IHP mengikut Negeri: Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-11_state.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Jadual IHP Teras: Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/cpi/cpi_2025-11_core.xlsx"
+            }
+        ]
+    }
+}
