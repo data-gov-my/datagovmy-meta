@@ -1,11 +1,11 @@
 {
     "dashboard_name": "homepage",
-    "data_last_updated": "2025-12-25 00:01",
+    "data_last_updated": "2025-12-26 00:01",
     "route": "/,/ms-MY/",
     "sites": [
         "datagovmy"
     ],
-    "manual_trigger": "2025-12-25 00:22:00.413007",
+    "manual_trigger": "2025-12-26 00:01:15.753052",
     "required_params": [],
     "optional_params": [],
     "charts": {
@@ -13,7 +13,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/homepage_timeseries.parquet",
-            "data_as_of": "2025-12-24 23:59",
+            "data_as_of": "2025-12-25 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -39,7 +39,7 @@
             "name": "statistics",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/homepage_timeseries_callout.parquet",
-            "data_as_of": "2025-12-24 23:59",
+            "data_as_of": "2025-12-25 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -56,7 +56,7 @@
             "name": "table_summary",
             "chart_type": "metrics_table",
             "chart_source": "https://storage.data.gov.my/dashboards/homepage_top.parquet",
-            "data_as_of": "2025-12-24 23:59",
+            "data_as_of": "2025-12-25 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
