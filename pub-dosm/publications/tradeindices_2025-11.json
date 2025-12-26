@@ -1,0 +1,86 @@
+{
+    "publication": "tradeindices_2025-11",
+    "publication_type": "trade",
+    "release_date": "2025-12-26",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[Nov 2025] Trade Indices",
+        "publication_type_title": "External Trade",
+        "description": "Official monthly trade index data, covering export/import value and volume, and terms of trade",
+        "description_email": "DOSM has just released the latest monthly trade indices, covering export/import value and volume, and terms of trade.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Trade Indices Report: Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/trade/tradeindices_2025-11.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Export Volume and Value: Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/trade/tradeindices_2025-11_export.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Import Volume and Value: Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/trade/tradeindices_2025-11_import.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Seasonally Adjusted Trade Indices: Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/trade/tradeindices_2025-11_sa.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Terms of Trade: Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/trade/tradeindices_2025-11_tot.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[Nov 2025] Indeks Perdagangan",
+        "publication_type_title": "Perdagangan Luar Negeri",
+        "description": "Data indeks perdagangan bulanan rasmi, merangkumi nilai dan volum eksport/import, serta terma perdagangan",
+        "description_email": "DOSM telah menerbitkan indeks perdagangan bulanan terkini, merangkumi nilai dan volum eksport/import, serta terma perdagangan.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Laporan Indeks Perdagangan: Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/trade/tradeindices_2025-11.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Nilai dan Volum Eksport: Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/trade/tradeindices_2025-11_export.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Nilai dan Volum Import: Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/trade/tradeindices_2025-11_import.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Indeks Pelarasan Musim: Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/trade/tradeindices_2025-11_sa.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Terma Perdagangan: Nov 2025",
+                "resource_link": "https://storage.dosm.gov.my/trade/tradeindices_2025-11_tot.xlsx"
+            }
+        ]
+    }
+}
