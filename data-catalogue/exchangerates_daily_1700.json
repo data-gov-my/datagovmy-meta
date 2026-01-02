@@ -5,7 +5,7 @@
     "description_en": "Daily rates of exchange of the Malaysian ringgit vis-à-vis selected currencies at 1700, acting as a end-of-day reference. The table and charts provide a preview using the latest 1 year of data, but you may download the full dataset containing daily rates since 2003.",
     "description_ms": "Kadar pertukaran ringgit Malaysia berbanding mata wang asing terpilih pada 1700, sebagai rujukan pada akhir hari. Jadual dan carta memberikan pratonton menggunakan data bagi 1 tahun terkini, tetapi anda boleh memuat turun set data penuh yang mengandungi kadar pertukaran harian sejak 2003.",
     "exclude_openapi": false,
-    "manual_trigger": "1",
+    "manual_trigger": "",
     "data_as_of": "2026-01-02 17:00",
     "last_updated": "2026-01-02 17:30",
     "next_update": "2026-01-05 17:30",
