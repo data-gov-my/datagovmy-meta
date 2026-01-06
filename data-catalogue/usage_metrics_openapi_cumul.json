@@ -7,7 +7,7 @@
     "exclude_openapi": false,
     "manual_trigger": "",
     "data_as_of": "2026-01-06 23:59",
-    "last_updated": "2026-01-07 07:02",
+    "last_updated": "2026-01-07 07:03",
     "next_update": "2026-01-08 00:10",
     "methodology_en": "This data is aggregated from transactional records produced by web analytics tools which monitor user interactions across the data.gov.my platform in real time. The data does not contain any personally identifiable information, as there is no component of data.gov.my which requires an authenticated login to access.",
     "methodology_ms": "Data ini dihasilkan daripada rekod transaksi yang dijana oleh alat analitik yang memantau interaksi pengguna di platform data.gov.my dalam masa nyata. Data ini tidak mengandungi sebarang data peribadi, kerana penggunaan data.gov.my tidak memerlukan log masuk.",
