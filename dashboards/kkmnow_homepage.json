@@ -1,11 +1,11 @@
 {
     "dashboard_name": "kkmnow_homepage",
-    "data_last_updated": "2026-01-08 00:01",
+    "data_last_updated": "2026-01-09 00:01",
     "route": "/,/ms-MY/",
     "sites": [
         "kkmnow"
     ],
-    "manual_trigger": "2026-01-08 05:58:38.390136",
+    "manual_trigger": "2026-01-09 00:02:10.449289",
     "required_params": [],
     "optional_params": [],
     "charts": {
@@ -13,7 +13,7 @@
             "name": "keystats",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/kkmnow_homepage_keystats.parquet",
-            "data_as_of": "2026-01-07 23:59",
+            "data_as_of": "2026-01-08 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -30,7 +30,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/kkmnow_homepage_timeseries.parquet",
-            "data_as_of": "2026-01-07 23:59",
+            "data_as_of": "2026-01-08 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -53,7 +53,7 @@
             "name": "timeseries_callout",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/kkmnow_homepage_timeseries_callout.parquet",
-            "data_as_of": "2026-01-07 23:59",
+            "data_as_of": "2026-01-08 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
