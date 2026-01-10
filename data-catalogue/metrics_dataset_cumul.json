@@ -40,10 +40,10 @@
     "fields": [
         {
             "name": "id",
-            "title_en": "ID",
-            "title_ms": "ID",
-            "description_en": "[String] Unique dataset identifier",
-            "description_ms": "[Rentetan] ID unik bagi set data"
+            "title_en": "Dataset ID",
+            "title_ms": "ID Set Data",
+            "description_en": "[String] Unique dataset identifier, used as part of the URL for the dataset's catalogue entry",
+            "description_ms": "[Rentetan] ID unik bagi set data, digunakan sebagai bahagian URL untuk halaman katalog set data"
         },
         {
             "name": "title_en",
@@ -106,12 +106,12 @@
                     "default": 0
                 },
                 "filter_columns": [],
-                "freeze_columns": []
+                "freeze_columns": ["id"]
             }
         }
     ],
     "translations_en": {
-        "id": "Dataset UID",
+        "id": "Dataset ID",
         "title_en": "Title (EN)",
         "title_bm": "Title (BM)",
         "views": "Views",
@@ -121,7 +121,7 @@
         "download_png": "PNG Downloads"
     },
     "translations_ms": {
-        "id": "UID Set Data",
+        "id": "ID Set Data",
         "title_en": "Tajuk (BI)",
         "title_bm": "Tajuk (BM)",
         "views": "Paparan",
