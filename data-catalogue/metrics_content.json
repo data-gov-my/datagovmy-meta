@@ -75,23 +75,6 @@
             }
         },
         {
-            "dataviz_id": "timeseries_datasets_monthly",
-            "title_en": "Datasets (Monthly)",
-            "title_ms": "Set Data (Bulanan)",
-            "chart_type": "TIMESERIES",
-            "config": {
-                "filter_columns": [],
-                "precision": 0,
-                "operation": "SUM",
-                "format": {
-                    "x": "date",
-                    "y": [
-                        "datasets"
-                    ]
-                }
-            }
-        },
-        {
             "dataviz_id": "timeseries_datasets_cumul",
             "title_en": "Datasets (Cumulative)",
             "title_ms": "Set Data (kumulatif)",
@@ -104,6 +87,23 @@
                     "x": "date",
                     "y": [
                         "datasets_cumul"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "timeseries_datasets_monthly",
+            "title_en": "Datasets (Monthly)",
+            "title_ms": "Set Data (Bulanan)",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "datasets"
                     ]
                 }
             }
