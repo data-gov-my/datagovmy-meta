@@ -1,0 +1,134 @@
+{
+    "title_en": "Cumulative Views and Downloads by Dataset",
+    "title_ms": "Paparan dan Muat Turun Kumulatif mengikut Set Data",
+    "title_sort": 5,
+    "description_en": "Total views and downloads of datasets on data.gov.my, disaggregated by dataset.",
+    "description_ms": "Jumlah paparan dan muat turun set data di data.gov.my, dengan pecahan mengikut set data.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2026-01-09 23:59",
+    "last_updated": "2026-01-10 22:40",
+    "next_update": "2026-01-11 00:10",
+    "methodology_en": "This data is aggregated from transactional records produced by web analytics tools which monitor user interactions across the data.gov.my platform in real time. The data does not contain any personally identifiable information, as there is no component of data.gov.my which requires an authenticated login to access.",
+    "methodology_ms": "Data ini dihasilkan daripada rekod transaksi yang dijana oleh alat analitik yang memantau interaksi pengguna di platform data.gov.my dalam masa nyata. Data ini tidak mengandungi sebarang data peribadi, kerana penggunaan data.gov.my tidak memerlukan log masuk.",
+    "caveat_en": "This dataset is updated on a daily basis, shortly after midnight. As such, there may be mild discrepancies between the counts provided in this dataset, relative to the realtime counts shown on each catalogue page.",
+    "caveat_ms": "Set data ini dikemas kini pada kadar harian, sedikit selepas pukul 12 malam. Oleh itu, kemungkinan terdapat perbezaan kecil antara bilangan paparan dan muat turun yang dibekalkan dalam set data ini, berbanding dengan angka masa nyata _(real time)_ yang ditunjukkan di setiap halaman.",
+    "publication_en": "N/A",
+    "publication_ms": "N/A",
+    "link_parquet": "https://storage.data.gov.my/metrics/metrics_dataset_cumul.parquet",
+    "link_csv": "https://storage.data.gov.my/metrics/metrics_dataset_cumul.csv",
+    "frequency": "DAILY",
+    "geography": [],
+    "demography": [],
+    "dataset_begin": 2023,
+    "dataset_end": 2026,
+    "data_source": [
+        "JDN",
+        "KD"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Metadata",
+            "category_ms": "Metadata",
+            "category_sort": 120,
+            "subcategory_en": "Site Metrics",
+            "subcategory_ms": "Metrik Portal",
+            "subcategory_sort": 5
+        }
+    ],
+    "fields": [
+        {
+            "name": "id",
+            "title_en": "ID",
+            "title_ms": "ID",
+            "description_en": "[String] Unique dataset identifier",
+            "description_ms": "[Rentetan] ID unik bagi set data"
+        },
+        {
+            "name": "title_en",
+            "title_en": "Title (EN)",
+            "title_ms": "Tajuk (BI)",
+            "description_en": "[String] Dataset title in English",
+            "description_ms": "[Rentetan] Tajuk set data dalam Bahasa Inggeris"
+        },
+        {
+            "name": "title_bm",
+            "title_en": "Title (BM)",
+            "title_ms": "Tajuk (BM)",
+            "description_en": "[String] Dataset title in Malay",
+            "description_ms": "[Rentetan] Tajuk set data dalam Bahasa Melayu"
+        },
+        {
+            "name": "views",
+            "title_en": "Views",
+            "title_ms": "Paparan",
+            "description_en": "[Integer] Number of times the dataset's catalogue entry was accessed via data.gov.my",
+            "description_ms": "[Integer] Bilangan kali halaman katalog set data diakses melalui data.gov.my"
+        },
+        {
+            "name": "download_csv",
+            "title_en": "Download CSV",
+            "title_ms": "Muat Turun CSV",
+            "description_en": "[Integer] Number of times this dataset was downloaded in CSV format",
+            "description_ms": "[Integer] Bilangan kali set data dimuat turun dalam format CSV"
+        },
+        {
+            "name": "download_parquet",
+            "title_en": "Download Parquet",
+            "title_ms": "Muat Turun Parquet",
+            "description_en": "[Integer] Number of times this dataset was downloaded in Parquet format",
+            "description_ms": "[Integer] Bilangan kali set data dimuat turun dalam format Parquet"
+        },
+        {
+            "name": "download_svg",
+            "title_en": "Download SVG",
+            "title_ms": "Muat Turun SVG",
+            "description_en": "[Integer] Number of times an associated data visualisation was downloaded in SVG format",
+            "description_ms": "[Integer] Bilangan kali visualisasi data yang dibekalkan dimuat turun dalam format SVG"
+        },
+        {
+            "name": "download_png",
+            "title_en": "Download PNG",
+            "title_ms": "Muat Turun PNG",
+            "description_en": "[Integer] Number of times an associated data visualisation was downloaded in PNG format",
+            "description_ms": "[Integer] Bilangan kali visualisasi data yang dibekalkan dimuat turun dalam format PNG"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": {
+                    "default": 0
+                },
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "id": "Dataset UID",
+        "title_en": "Title (EN)",
+        "title_bm": "Title (BM)",
+        "views": "Views",
+        "download_csv": "CSV Downloads",
+        "download_parquet": "Parquet Downloads",
+        "download_svg": "SVG Downloads",
+        "download_png": "PNG Downloads"
+    },
+    "translations_ms": {
+        "id": "UID Set Data",
+        "title_en": "Tajuk (BI)",
+        "title_bm": "Tajuk (BM)",
+        "views": "Paparan",
+        "download_csv": "Muat Turun CSV",
+        "download_parquet": "Muat Turun Parquet",
+        "download_svg": "Muat Turun SVG",
+        "download_png": "Muat Turun PNG"
+    },
+    "related_datasets": []
+}
