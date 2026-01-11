@@ -1,0 +1,93 @@
+{
+    "title_en": "List of Datasets on data.gov.my",
+    "title_ms": "Senarai Set Data di data.gov.my",
+    "title_sort": 1,
+    "description_en": "List of datasets published via the data catalogue",
+    "description_ms": "Senarai set data yang diterbitkan di katalog data",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2026-01-09 23:59",
+    "last_updated": "2026-01-10 23:40",
+    "next_update": "2026-01-11 00:10",
+    "methodology_en": "This data is aggregated from the list of datasets extracted from the site's internal API.",
+    "methodology_ms": "Data ini dihasilkan daripada senarai set data yang dikueri daripada API dalaman portal.",
+    "caveat_en": "—",
+    "caveat_ms": "—",
+    "publication_en": "The list of datasets here is fully consistent with the site's [data catalogue](https://data.gov.my/data-catalogue/).",
+    "publication_ms": "Senarai set data di sini adalah selaras dengan [katalog data](https://data.gov.my/ms-MY/data-catalogue/).",
+    "link_parquet": "https://storage.data.gov.my/metrics/dataset_list.parquet",
+    "link_csv": "https://storage.data.gov.my/metrics/dataset_list.csv",
+    "frequency": "MONTHLY",
+    "geography": [],
+    "demography": [],
+    "dataset_begin": 2023,
+    "dataset_end": 2026,
+    "data_source": [
+        "JDN",
+        "KD"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Metadata",
+            "category_ms": "Metadata",
+            "category_sort": 120,
+            "subcategory_en": "Site Content",
+            "subcategory_ms": "Kandungan Portal",
+            "subcategory_sort": 10
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] Date in YYYY-MM-DD format",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+        },
+        {
+            "name": "datasets",
+            "title_en": "Datasets (monthly)",
+            "title_ms": "Set Data (bulanan)",
+            "description_en": "[Integer] Number of new datasets published in the given month",
+            "description_ms": "[Integer] Bilangan set data baharu yang diterbitkan dalam bulan tersebut"
+        },
+        {
+            "name": "datasets_cumul",
+            "title_en": "Datasets (cumulative)",
+            "title_ms": "Set Data (kumulatif)",
+            "description_en": "[Integer] Cumulative total number of datasets published up to (and including) the given month",
+            "description_ms": "[Integer] Jumlah kumulatif set data yang telah diterbitkan sehingga (dan termasuk) bulan tersebut"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": [
+                    "date"
+                ]
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "datasets": "Datasets (monthly)",
+        "datasets_cumul": "Datasets (cumulative)",
+        "x": "Date",
+        "y1": "Datasets"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "datasets": "Set Data (bulanan)",
+        "datasets_cumul": "Set Data (kumulatif)",
+        "x": "Tarikh",
+        "y1": "Set Data"
+    },
+    "related_datasets": []
+}
