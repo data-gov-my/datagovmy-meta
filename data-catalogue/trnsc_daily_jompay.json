@@ -119,7 +119,6 @@
     ],
     "translations_en": {
         "date": "Date",
-        "segment": "Segment",
         "volume": "Volume",
         "value": "Value (RM)",
         "x": "Date",
@@ -127,7 +126,6 @@
     },
     "translations_ms": {
         "date": "Tarikh",
-        "segment": "Segmen",
         "volume": "Bilangan",
         "value": "Nilai (RM)",
         "x": "Tarikh",
