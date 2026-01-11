@@ -1,0 +1,148 @@
+{
+    "title_en": "Daily FPX Transactions",
+    "title_ms": "Transaksi FPX Harian",
+    "title_sort": 5,
+    "description_en": "Daily volume and value of FPX transactions by business model.",
+    "description_ms": "Jumlah dan nilai transaksi FPX harian mengikut model perniagaan.",
+    "exclude_openapi": false,
+    "manual_trigger": "1",
+    "data_as_of": "2026-01-10 23:59",
+    "last_updated": "2026-01-11 02:00",
+    "next_update": "2026-01-12 02:00",
+    "methodology_en": "",
+    "methodology_ms": "",
+    "caveat_en": "N/A",
+    "caveat_ms": "N/A",
+    "publication_en": "N/A",
+    "publication_ms": "N/A",
+    "link_parquet": "https://storage.data.gov.my/finsector/payments/trnsc_daily_fpx.parquet",
+    "link_csv": "https://storage.data.gov.my/finsector/payments/trnsc_daily_fpx.csv",
+    "frequency": "DAILY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2020,
+    "dataset_end": 2026,
+    "data_source": [
+        "PayNet",
+        "BNM"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Financial Markets",
+            "category_ms": "Pasaran Kewangan",
+            "category_sort": 60,
+            "subcategory_en": "Payments",
+            "subcategory_ms": "Pembayaran",
+            "subcategory_sort": 25
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+        },
+        {
+            "name": "model",
+            "title_en": "Business Model",
+            "title_ms": "Model Perniagaan",
+            "description_en": "[String] The type of FPX business model, either business-to-business (B2B) or business-to-consumer (B2C).",
+            "description_ms": "[Rentetan] Jenis model perniagaan FPX, sama ada perniagaan-ke-perniagaan (B2B) atau perniagaan-ke-pengguna (B2C)."
+        },
+        {
+            "name": "volume",
+            "title_en": "Transaction Volume",
+            "title_ms": "Bilangan Transaksi",
+            "description_en": "[Integer] Number of FPX transactions for the date and model.",
+            "description_ms": "[Integer] Jumlah transaksi FPX untuk tarikh dan model."
+        },
+        {
+            "name": "value",
+            "title_en": "Transaction Value (RM)",
+            "title_ms": "Nilai Transaksi (RM)",
+            "description_en": "[Float, RM] Value of FPX transactions for the date and model in Ringgit Malaysia (RM).",
+            "description_ms": "[Apung, RM] Nilai transaksi FPX untuk tarikh dan model, dalam Ringgit Malaysia (RM)."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 4,
+                "filter_columns": [
+                    "model"
+                ],
+                "freeze_columns": [
+                    "date"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "Volume",
+            "title_en": "Transaction Volume",
+            "title_ms": "Bilangan Transaksi",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "model"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "volume"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "Value",
+            "title_en": "Transaction Value",
+            "title_ms": "Nilai Transaksi",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "model"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "value"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "model": "Business Model",
+        "volume": "Transaction Volume",
+        "value": "Transaction Value (RM)",
+        "b2b": "Business-to-Business (B2B)",
+        "b2c": "Business-to-Consumer (B2C)",
+        "x": "Date",
+        "y1": "Value"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "model": "Model Perniagaan",
+        "volume": "Bilangan Transaksi",
+        "value": "Nilai Transaksi (RM)",
+        "b2b": "Perniagaan-ke-Perniagaan (B2B)",
+        "b2c": "Perniagaan-ke-Pengguna (B2C)",
+        "x": "Tarikh",
+        "y1": "Nilai"
+    },
+    "related_datasets": []
+}
