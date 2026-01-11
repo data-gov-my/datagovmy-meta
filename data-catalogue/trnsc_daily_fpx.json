@@ -76,7 +76,13 @@
             "title_ms": "Jadual",
             "chart_type": "TABLE",
             "config": {
-                "precision": 4,
+                "precision": {
+                    "default": 0,
+                    "columns": {
+                        "volume": 0,
+                        "value": 2
+                    }
+                },
                 "filter_columns": [
                     "model"
                 ],
