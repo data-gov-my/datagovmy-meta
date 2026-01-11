@@ -5,7 +5,7 @@
     "description_en": "Total views and downloads of datasets on data.gov.my, disaggregated by dataset.",
     "description_ms": "Jumlah paparan dan muat turun set data di data.gov.my, dengan pecahan mengikut set data.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2026-01-10 23:59",
     "last_updated": "2026-01-11 09:08",
     "next_update": "2026-01-12 00:10",
