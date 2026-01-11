@@ -5,7 +5,7 @@
     "description_en": "List of datasets published via the data catalogue",
     "description_ms": "Senarai set data yang diterbitkan di katalog data",
     "exclude_openapi": false,
-    "manual_trigger": "1",
+    "manual_trigger": "",
     "data_as_of": "2026-01-10 23:59",
     "last_updated": "2026-01-11 10:07",
     "next_update": "2026-01-12 00:10",
@@ -147,7 +147,7 @@
                 "precision": 0,
                 "filter_columns": [],
                 "freeze_columns": [
-                    "date"
+                    "id"
                 ]
             }
         }
