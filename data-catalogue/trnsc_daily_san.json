@@ -5,7 +5,7 @@
     "description_en": "Daily volume and value of Shared ATM Network (SAN) transactions by geographic segment.",
     "description_ms": "Jumlah dan nilai transaksi Rangkaian ATM Kongi (SAN) harian mengikut segmen geografi.",
     "exclude_openapi": false,
-    "manual_trigger": "1",
+    "manual_trigger": "",
     "data_as_of": "2026-01-10 23:59",
     "last_updated": "2026-01-11 02:00",
     "next_update": "2026-01-12 02:00",
