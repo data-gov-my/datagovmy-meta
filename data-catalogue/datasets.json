@@ -6,9 +6,9 @@
     "description_ms": "Senarai set data yang diterbitkan di katalog data",
     "exclude_openapi": false,
     "manual_trigger": "",
-    "data_as_of": "2026-01-09 23:59",
-    "last_updated": "2026-01-10 23:40",
-    "next_update": "2026-01-11 00:10",
+    "data_as_of": "2026-01-10 23:59",
+    "last_updated": "2026-01-11 10:07",
+    "next_update": "2026-01-12 00:10",
     "methodology_en": "This data is aggregated from the list of datasets extracted from the site's internal API.",
     "methodology_ms": "Data ini dihasilkan daripada senarai set data yang dikueri daripada API dalaman portal.",
     "caveat_en": "—",
@@ -39,25 +39,102 @@
     ],
     "fields": [
         {
-            "name": "date",
-            "title_en": "Date",
-            "title_ms": "Tarikh",
-            "description_en": "[Date] Date in YYYY-MM-DD format",
-            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+            "name": "id",
+            "title_en": "Dataset ID",
+            "title_ms": "ID Set Data",
+            "description_en": "[String] Unique identifier for the dataset",
+            "description_ms": "[String] Pengecam unik untuk set data"
         },
         {
-            "name": "datasets",
-            "title_en": "Datasets (monthly)",
-            "title_ms": "Set Data (bulanan)",
-            "description_en": "[Integer] Number of new datasets published in the given month",
-            "description_ms": "[Integer] Bilangan set data baharu yang diterbitkan dalam bulan tersebut"
+            "name": "date_created",
+            "title_en": "Date Created",
+            "title_ms": "Tarikh Dicipta",
+            "description_en": "[Date] Date the dataset was created, in YYYY-MM-DD format",
+            "description_ms": "[Tarikh] Tarikh set data dicipta, dalam format YYYY-MM-DD"
         },
         {
-            "name": "datasets_cumul",
-            "title_en": "Datasets (cumulative)",
-            "title_ms": "Set Data (kumulatif)",
-            "description_en": "[Integer] Cumulative total number of datasets published up to (and including) the given month",
-            "description_ms": "[Integer] Jumlah kumulatif set data yang telah diterbitkan sehingga (dan termasuk) bulan tersebut"
+            "name": "title_en",
+            "title_en": "Title (English)",
+            "title_ms": "Tajuk (Inggeris)",
+            "description_en": "[String] Title of the dataset in English",
+            "description_ms": "[String] Tajuk set data dalam Bahasa Inggeris"
+        },
+        {
+            "name": "category_en",
+            "title_en": "Category (English)",
+            "title_ms": "Kategori (Inggeris)",
+            "description_en": "[String] Dataset's category in English",
+            "description_ms": "[String] Kategori set data dalam Bahasa Inggeris"
+        },
+        {
+            "name": "subcategory_en",
+            "title_en": "Subcategory (English)",
+            "title_ms": "Subkategori (Inggeris)",
+            "description_en": "[String] Dataset's subcategory in English",
+            "description_ms": "[String] Subkategori set data dalam Bahasa Inggeris"
+        },
+        {
+            "name": "title_bm",
+            "title_en": "Title (Malay)",
+            "title_ms": "Tajuk (Melayu)",
+            "description_en": "[String] Title of the dataset in Malay",
+            "description_ms": "[String] Tajuk set data dalam Bahasa Melayu"
+        },
+        {
+            "name": "category_bm",
+            "title_en": "Category (Malay)",
+            "title_ms": "Kategori (Melayu)",
+            "description_en": "[String] Dataset's category in Malay",
+            "description_ms": "[String] Kategori set data dalam Bahasa Melayu"
+        },
+        {
+            "name": "subcategory_bm",
+            "title_en": "Subcategory (Malay)",
+            "title_ms": "Subkategori (Melayu)",
+            "description_en": "[String] Dataset's subcategory in Malay",
+            "description_ms": "[String] Subkategori set data dalam Bahasa Melayu"
+        },
+        {
+            "name": "source",
+            "title_en": "Source",
+            "title_ms": "Sumber",
+            "description_en": "[String] Name(s) of the dataset's source agency",
+            "description_ms": "[String] Nama agensi sumber bagi set data tersebut, mungkin lebih daripada satu"
+        },
+        {
+            "name": "frequency",
+            "title_en": "Data Frequency",
+            "title_ms": "Frekuensi Data",
+            "description_en": "[String] The frequency of the data contained within the dataset",
+            "description_ms": "[String] Frekuensi data yang terkandung dalam set data"
+        },
+        {
+            "name": "geography",
+            "title_en": "Geography",
+            "title_ms": "Geografi",
+            "description_en": "[String] Geographical level covered by the dataset",
+            "description_ms": "[String] Tahap geografi yang diliputi oleh set data"
+        },
+        {
+            "name": "demography",
+            "title_en": "Demography",
+            "title_ms": "Demografi",
+            "description_en": "[String] Demographic breakdowns contained within the dataset",
+            "description_ms": "[String] Pecahan demografi yang terkandung dalam set data"
+        },
+        {
+            "name": "dataset_begin",
+            "title_en": "First Year",
+            "title_ms": "Tahun Pertama",
+            "description_en": "[Integer] Earliest year covered by the dataset",
+            "description_ms": "[Integer] Tahun terawal yang terkandung dalam set data"
+        },
+        {
+            "name": "dataset_end",
+            "title_en": "Last Year",
+            "title_ms": "Tahun Terakhir",
+            "description_en": "[Integer] Most recent year covered by the dataset",
+            "description_ms": "[Integer] Tahun terkini yang terkandung dalam set data"
         }
     ],
     "dataviz": [
@@ -77,17 +154,35 @@
     ],
     "translations_en": {
         "date": "Date",
-        "datasets": "Datasets (monthly)",
-        "datasets_cumul": "Datasets (cumulative)",
-        "x": "Date",
-        "y1": "Datasets"
+        "id": "ID",
+        "title_en": "Title (EN)",
+        "category_en": "Category (EN)",
+        "subcategory_en": "Subcategory (EN)",
+        "title_ms": "Title (BM)",
+        "category_ms": "Category (BM)",
+        "subcategory_ms": "Subcategory (BM)",
+        "source": "Source",
+        "frequency": "Data Frequency",
+        "geography": "Geography",
+        "demography": "Demography",
+        "dataset_begin": "First Year",
+        "dataset_end": "Last Year"
     },
     "translations_ms": {
         "date": "Tarikh",
-        "datasets": "Set Data (bulanan)",
-        "datasets_cumul": "Set Data (kumulatif)",
-        "x": "Tarikh",
-        "y1": "Set Data"
+        "id": "ID",
+        "title_en": "Tajuk (BI)",
+        "category_en": "Kategori (BI)",
+        "subcategory_en": "Subkategori (BI)",
+        "title_ms": "Tajuk (BM)",
+        "category_ms": "Kategori (BM)",
+        "subcategory_ms": "Subkategori (BM)",
+        "source": "Sumber",
+        "frequency": "Frekuensi Data",
+        "geography": "Geografi",
+        "demography": "Demografi",
+        "dataset_begin": "Tahun Pertama",
+        "dataset_end": "Tahun Terakhir"
     },
     "related_datasets": []
 }
