@@ -1,0 +1,143 @@
+{
+    "title_en": "Daily JomPAY Transactions",
+    "title_ms": "Transaksi JomPAY Harian",
+    "title_sort": 11,
+    "description_en": "Daily volume and value of JomPAY transactions.",
+    "description_ms": "Jumlah dan nilai transaksi JomPAY harian.",
+    "exclude_openapi": false,
+    "manual_trigger": "1",
+    "data_as_of": "2026-01-10 23:59",
+    "last_updated": "2026-01-11 02:00",
+    "next_update": "2026-01-12 02:00",
+    "methodology_en": "This data is derived from transactional records of bill payments settled through the JomPAY national bill payment scheme operated by PayNet, Malaysia's national payments network and central financial infrastructure. JomPAY transactions are recorded in real time as they occur through participating banks' internet or mobile banking channels, where customers authorise payments to registered billers. Each transaction is captured centrally by PayNet's infrastructure.\n\nFor the purpose of publication via data.gov.my, PayNet conducts the aggregation and provides only the daily totals; no transaction-level data is ever disseminated outside PayNet's systems.",
+    "methodology_ms": "Data ini dihasilkan daripada rekod transaksi pembayaran bil yang telah diselesaikan melalui skim pembayaran bil kebangsaan JomPAY yang dikendalikan oleh PayNet, rangkaian pembayaran kebangsaan dan infrastruktur kewangan berpusat nasional Malaysia. Transaksi JomPAY direkod secara masa nyata semasa ia berlaku melalui saluran perbankan internet atau mudah alih bank peserta, di mana pelanggan mengesahkan pembayaran kepada entiti berdaftar. Setiap transaksi disimpan secara berpusat oleh infrastruktur PayNet.\nBagi tujuan penerbitan melalui data.gov.my, pihak Paynet yang melaksanakan proses penjumlahan dan seterusnya menyalurkan agregat harian sahaja; tiada data peringkat transaksi yang disebarkan di luar sistem PayNet.",
+    "caveat_en": "This dataset is provided with the highest practical timeliness (updated by 2am daily for data up to the previous day) due to its high potential for use in nowcasting and forecasting models. However, there may occasional revisions to ensure eventual consistency with the monthly payment statistics published by the Central Bank of Malaysia (BNM).",
+    "caveat_ms": "Set data ini dibekalkan dengan kepantasan yang tertinggi (dikemas kini pada pukul 2 pagi secara harian dengan data sehingga hari sebelumnya) kerana potensinya yang tinggi untuk digunakan dalam model _nowcasting_ dan _forecasting_. Walau bagaimanapun, set data ini mungkin disemak dari semasa ke semasa untuk memastikan ia selaras dengan statistik pembayaran bulanan yang diterbitkan oleh Bank Negara Malaysia (BNM).",
+    "publication_en": "N/A",
+    "publication_ms": "N/A",
+    "link_parquet": "https://storage.data.gov.my/finsector/payments/trnsc_daily_jompay.parquet",
+    "link_csv": "https://storage.data.gov.my/finsector/payments/trnsc_daily_jompay.csv",
+    "frequency": "DAILY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2020,
+    "dataset_end": 2026,
+    "data_source": [
+        "PayNet",
+        "BNM"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Financial Markets",
+            "category_ms": "Pasaran Kewangan",
+            "category_sort": 60,
+            "subcategory_en": "Payments",
+            "subcategory_ms": "Pembayaran",
+            "subcategory_sort": 25
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+        },
+        {
+            "name": "volume",
+            "title_en": "Transaction Volume",
+            "title_ms": "Bilangan Transaksi",
+            "description_en": "[Integer] Number of JomPAY transactions for the date.",
+            "description_ms": "[Integer] Jumlah transaksi JomPAY untuk tarikh."
+        },
+        {
+            "name": "value",
+            "title_en": "Transaction Value (RM)",
+            "title_ms": "Nilai Transaksi (RM)",
+            "description_en": "[Float, RM] Value of JomPAY transactions for the date in Ringgit Malaysia (RM).",
+            "description_ms": "[Apung, RM] Nilai transaksi JomPAY untuk tarikh tersebut, dalam Ringgit Malaysia (RM)."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": {
+                    "default": 0,
+                    "columns": {
+                        "volume": 0,
+                        "value": 2
+                    }
+                },
+                "filter_columns": [
+                    "segment"
+                ],
+                "freeze_columns": [
+                    "date"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "Volume",
+            "title_en": "Transaction Volume",
+            "title_ms": "Bilangan Transaksi",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "segment"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "volume"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "Value",
+            "title_en": "Transaction Value",
+            "title_ms": "Nilai Transaksi",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "segment"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "value"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "segment": "Segment",
+        "volume": "Volume",
+        "value": "Value (RM)",
+        "x": "Date",
+        "y1": "Value"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "segment": "Segmen",
+        "volume": "Bilangan",
+        "value": "Nilai (RM)",
+        "x": "Tarikh",
+        "y1": "Nilai"
+    },
+    "related_datasets": []
+}
