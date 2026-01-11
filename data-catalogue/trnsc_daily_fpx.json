@@ -11,8 +11,8 @@
     "next_update": "2026-01-12 02:00",
     "methodology_en": "",
     "methodology_ms": "",
-    "caveat_en": "N/A",
-    "caveat_ms": "N/A",
+    "caveat_en": "This dataset is provided with the highest practical timeliness (updated by 2am daily for data up to the previous day) due to its high potential for use in nowcasting and forecasting models. However, there may be backseries revisions from time to time to ensure concurrence with the monthly payment statistics published by the Central Bank of Malaysia (BNM). Furthermore, users should note that data for 2024-11-24 is missing at this time; this will be rectified by 1 March 2026.",
+    "caveat_ms": "Set data ini dibekalkan dengan kepantasan yang tertinggi (dikemas kini pada pukul 2 pagi secara harian dengan data sehingga hari sebelumnya) kerana potensinya yang tinggi untuk digunakan dalam model _nowcasting_ dan _forecasting_. Walau bagaimanapun, set data ini mungkin disemak dari semasa ke semasa untuk memastikan ia selaras dengan statistik pembayaran bulanan yang diterbitkan oleh Bank Negara Malaysia (BNM). Selain itu, pengguna perlu ambil perhatian bahawa data untuk 2024-11-24 tidak tersedia pada masa ini; isu ini akan diselesaikan sebelum 1 Mac 2026.",
     "publication_en": "N/A",
     "publication_ms": "N/A",
     "link_parquet": "https://storage.data.gov.my/finsector/payments/trnsc_daily_fpx.parquet",
@@ -51,8 +51,8 @@
             "name": "model",
             "title_en": "Business Model",
             "title_ms": "Model Perniagaan",
-            "description_en": "[String] The type of FPX business model, either business-to-business (B2B) or business-to-consumer (B2C).",
-            "description_ms": "[Rentetan] Jenis model perniagaan FPX, sama ada perniagaan-ke-perniagaan (B2B) atau perniagaan-ke-pengguna (B2C)."
+            "description_en": "[String] The type of FPX business model, either all models ('all'), business-to-business ('B2B') or business-to-consumer ('B2C').",
+            "description_ms": "[Rentetan] Jenis model perniagaan FPX, sama ada semua model ('all'), perniagaan-ke-perniagaan ('B2B') atau perniagaan-ke-pengguna ('B2C')."
         },
         {
             "name": "volume",
