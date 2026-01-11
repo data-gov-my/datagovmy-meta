@@ -178,11 +178,15 @@
         },
         "parlimen": {
             "full": "Parliament of Malaysia",
-            "abbr": "parlimen"
+            "abbr": "Parlimen"
+        },
+        "paynet": {
+            "full": "Payments Network Malaysia Sdn Bhd",
+            "abbr": "PayNet"
         },
         "penjara": {
             "full": "Prison Department",
-            "abbr": "penjara"
+            "abbr": "Penjara"
         },
         "perikanan": {
             "full": "Department of Fisheries",
