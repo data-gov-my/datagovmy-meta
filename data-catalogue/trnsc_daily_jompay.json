@@ -76,9 +76,7 @@
                         "value": 2
                     }
                 },
-                "filter_columns": [
-                    "segment"
-                ],
+                "filter_columns": [],
                 "freeze_columns": [
                     "date"
                 ]
@@ -90,9 +88,7 @@
             "title_ms": "Bilangan Transaksi",
             "chart_type": "TIMESERIES",
             "config": {
-                "filter_columns": [
-                    "segment"
-                ],
+                "filter_columns": [],
                 "precision": 0,
                 "operation": "SUM",
                 "format": {
@@ -109,9 +105,7 @@
             "title_ms": "Nilai Transaksi",
             "chart_type": "TIMESERIES",
             "config": {
-                "filter_columns": [
-                    "segment"
-                ],
+                "filter_columns": [],
                 "precision": 0,
                 "operation": "SUM",
                 "format": {
