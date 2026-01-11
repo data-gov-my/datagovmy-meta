@@ -5,7 +5,7 @@
     "description_en": "Daily volume and value of FPX transactions by business model.",
     "description_ms": "Jumlah dan nilai transaksi FPX harian mengikut model perniagaan.",
     "exclude_openapi": false,
-    "manual_trigger": "1",
+    "manual_trigger": "",
     "data_as_of": "2026-01-10 23:59",
     "last_updated": "2026-01-11 02:00",
     "next_update": "2026-01-12 02:00",
