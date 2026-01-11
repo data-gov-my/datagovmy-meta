@@ -1,7 +1,7 @@
 {
     "title_en": "Daily DirectDebit Transactions",
     "title_ms": "Transaksi DirectDebit Harian",
-    "title_sort": 13,
+    "title_sort": 14,
     "description_en": "Daily volume and value of DirectDebit transactions.",
     "description_ms": "Jumlah dan nilai transaksi DirectDebit harian.",
     "exclude_openapi": false,
