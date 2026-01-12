@@ -34,21 +34,21 @@
         {
             "site": "datagovmy",
             "category_en": "Data Dictionaries",
-            "category_ms": "Dictionary Data",
+            "category_ms": "Kamus Data",
             "category_sort": 110,
-            "subcategory_en": "Standard",
-            "subcategory_ms": "Piawaian",
+            "subcategory_en": "National",
+            "subcategory_ms": "Nasional",
             "subcategory_sort": 1
-        },
-        {
+          },
+          {
             "site": "opendosm",
             "category_en": "Data Dictionaries",
-            "category_ms": "Dictionary Data",
+            "category_ms": "Kamus Data",
             "category_sort": 110,
-            "subcategory_en": "Standard",
-            "subcategory_ms": "Piawaian",
+            "subcategory_en": "National",
+            "subcategory_ms": "Nasional",
             "subcategory_sort": 1
-        }
+          }
     ],
     "fields": [
         {
