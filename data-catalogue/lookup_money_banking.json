@@ -4,7 +4,7 @@
   "description_en": "Lookup table, to be left-joined against variable name in the other Money and Banking datasets if specified.",
   "description_ms": "Jadual carian, untuk dipadankan (left-join) dengan nama pembolehubah dalam set data Wang dan Perbankan sekiranya diperlukan.",
   "exclude_openapi": false,
-  "manual_trigger": "",
+  "manual_trigger": "1",
   "data_as_of": "2024-01",
   "last_updated": "2024-02-13 00:01",
   "next_update": "\u2014",
