@@ -1,7 +1,7 @@
 {
     "title_en": "Household Expenditure by DUN",
     "title_ms": "Perbelajaan Isi Rumah mengikut DUN",
-    "title_sort": 30,
+    "title_sort": 40,
     "description_en": "Mean gross monthly household expenditure by DUN constituency from 2019 to 2024.",
     "description_ms": "Purata dan penengah perbelajaan kasar bulanan isi rumah mengikut kawasan DUN dari 2019 hingga 2024.",
     "exclude_openapi": false,
