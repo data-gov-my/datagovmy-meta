@@ -1,7 +1,7 @@
 {
     "title_en": "Household Income by Administrative District",
     "title_ms": "Pendapatan Isi Rumah Mengikut Daerah Pentadbiran",
-    "title_sort": 3,
+    "title_sort": 20,
     "description_en": "Mean and median gross monthly household income by administrative district from 2019 to 2022.",
     "description_ms": "Purata dan penengah pendapatan kasar bulanan isi rumah mengikut daerah pentadbiran dari 2019 hingga 2022.",
     "exclude_openapi": false,

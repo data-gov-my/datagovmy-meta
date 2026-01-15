@@ -1,7 +1,7 @@
 {
     "title_en": "Household Income by State",
     "title_ms": "Pendapatan Isi Rumah Mengikut Negeri",
-    "title_sort": 2,
+    "title_sort": 10,
     "description_en": "Mean and median gross monthly household income by state from 1970 to 2022.",
     "description_ms": "Purata dan penengah pendapatan kasar bulanan isi rumah mengikut negeri dari 1970 hingga 2022.",
     "exclude_openapi": false,
