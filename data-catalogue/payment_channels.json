@@ -83,7 +83,7 @@
                     }
                 },
                 "filter_columns": [
-                    "instrument"
+                    "channel"
                 ],
                 "freeze_columns": [
                     "date"
@@ -97,7 +97,7 @@
             "chart_type": "TIMESERIES",
             "config": {
                 "filter_columns": [
-                    "instrument"
+                    "channel"
                 ],
                 "precision": 0,
                 "operation": "SUM",
@@ -116,7 +116,7 @@
             "chart_type": "TIMESERIES",
             "config": {
                 "filter_columns": [
-                    "instrument"
+                    "channel"
                 ],
                 "precision": 0,
                 "operation": "SUM",
