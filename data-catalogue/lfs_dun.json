@@ -55,8 +55,8 @@
             "name": "state",
             "title_en": "State",
             "title_ms": "Negeri",
-            "description_en": "[Categorical] One of 13 states with a state legislative assembly; the 3 Federal Territories are excluded.",
-            "description_ms": "[Kategori] Satu daripada 13 negeri; 3 Wilayah Persekutuan dikecualikan."
+            "description_en": "[Categorical] One of 13 states with a state legislative assembly; the 3 Federal Territories are excluded as they do not have State Legislative Assemblies.",
+            "description_ms": "[Kategori] Satu daripada 13 negeri; 3 Wilayah Persekutuan dikecualikan kerana tidak mempunyai Dewan Undangan Negeri."
         },
 		{
 			"name": "parlimen",
@@ -67,10 +67,10 @@
 		},
 		{
 			"name": "dun",
-			"title_en": "DUN",
-			"title_ms": "DUN",
-			"description_en": "[Categorical] One of 600 DUNs",
-			"description_ms": "[Kategori] Satu daripada 600 DUN"
+			"title_en": "DUN Constituency",
+			"title_ms": "Kawasan DUN",
+			"description_en": "[Categorical] One of 600 DUN constituencies",
+			"description_ms": "[Kategori] Satu daripada 600 kawasan DUN"
 		},
 		{
 			"name": "date",
