@@ -19,7 +19,6 @@
 	"link_csv": "https://storage.dosm.gov.my/labour/lfs_parlimen.csv",
 	"frequency": "YEARLY",
 	"geography": [
-		"STATE",
 		"PARLIMEN"
 	],
 	"demography": [],
