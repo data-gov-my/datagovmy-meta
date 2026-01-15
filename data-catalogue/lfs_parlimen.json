@@ -131,8 +131,7 @@
 			"config": {
 				"precision": 1,
 				"filter_columns": [
-					"state",
-					"parlimen"
+					"state"
 				],
 				"freeze_columns": []
 			}
