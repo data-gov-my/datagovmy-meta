@@ -1,9 +1,9 @@
 {
-    "title_en": "Monthly Usage of Payment Channels",
-    "title_ms": "Penggunaan Saluran Pembayaran Bulanan",
+    "title_en": "Monthly Usage of Payment Systems",
+    "title_ms": "Penggunaan Sistem Pembayaran Bulanan",
     "title_sort": 22,
-    "description_en": "Monthly volume and value of transactions, disaggregated by payment channel.",
-    "description_ms": "Jumlah dan nilai transaksi, diselaraskan mengikut saluran pembayaran.",
+    "description_en": "Monthly volume and value of transactions, disaggregated by payment system.",
+    "description_ms": "Jumlah dan nilai transaksi, diselaraskan mengikut sistem pembayaran.",
     "exclude_openapi": false,
     "manual_trigger": "1",
     "data_as_of": "2025-11",
@@ -15,8 +15,8 @@
     "caveat_ms": "N/A",
     "publication_en": "data.gov.my provides a [dashboard on electronic payments](https://data.gov.my/dashboard/electronic-payments) where you can explore this data in an interactive and holistic manner.",
     "publication_ms": "data.gov.my menyediakan [dashboard mengenai pembayaran elektronik](https://data.gov.my/ms-MY/dashboard/electronic-payments) di mana anda boleh menerokai data ini secara interaktif dan menyeluruh.",
-    "link_parquet": "https://storage.data.gov.my/finsector/payments/channels.parquet",
-    "link_csv": "https://storage.data.gov.my/finsector/payments/channels.csv",
+    "link_parquet": "https://storage.data.gov.my/finsector/payments/systems.parquet",
+    "link_csv": "https://storage.data.gov.my/finsector/payments/systems.csv",
     "frequency": "DAILY",
     "geography": [
         "NATIONAL"
@@ -47,25 +47,25 @@
             "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai DD ditetapkan sebagai 01 kerana data pada frekuensi bulanan"
         },
         {
-            "name": "channel",
-            "title_en": "Payment Channel",
-            "title_ms": "Saluran Pembayaran",
-            "description_en": "[String] One of 5 payment channels: ATM for cash withdrawals ('atm_cwd'), ATM for financial transactions ('atm_fin'), internet banking by corporate accounts ('internet_corp'), internet banking by individual accounts ('internet_indiv'), and mobile banking ('mobile').",
-            "description_ms": "[Rentetan] Salah satu dari 5 saluran pembayaran: ATM untuk pengeluaran tunai ('atm_cwd'), ATM untuk transaksi kewangan ('atm_fin'), perbankan internet oleh akaun korporat ('internet_corp'), perbankan internet oleh akaun individu ('internet_indiv'), dan perbankan mudah alih ('mobile')."
+            "name": "system",
+            "title_en": "Payment System",
+            "title_ms": "Sistem Pembayaran",
+            "description_en": "[String] One of 6 payment systems: Direct Debit ('dd'), FPX ('fpx'), Interbank GIRO ('ibg'), JomPAY ('jompay'), RENTAS ('rentas'), and DuitNow/RPP ('rpp').",
+            "description_ms": "[Rentetan] Salah satu dari 6 sistem pembayaran: Direct Debit ('dd'), FPX ('fpx'), Interbank GIRO ('ibg'), JomPAY ('jompay'), RENTAS ('rentas'), dan DuitNow/RPP ('rpp')."
         },
         {
             "name": "volume",
             "title_en": "Transaction Volume",
             "title_ms": "Bilangan Transaksi",
-            "description_en": "[Integer] Number of transactions conducted using that channel in that month",
-            "description_ms": "[Integer] Jumlah transaksi yang dilaksanakan menggunakan saluran tersebut dalam bulan tersebut"
+            "description_en": "[Integer] Number of transactions conducted using that system in that month",
+            "description_ms": "[Integer] Jumlah transaksi yang dilaksanakan menggunakan sistem tersebut dalam bulan tersebut"
         },
         {
             "name": "value",
             "title_en": "Transaction Value (RM)",
             "title_ms": "Nilai Transaksi (RM)",
-            "description_en": "[Float, RM] Value of transactions conducted using that channel in that month",
-            "description_ms": "[Apung, RM] Nilai transaksi yang dilaksanakan menggunakan saluran tersebut dalam bulan tersebut"
+            "description_en": "[Float, RM] Value of transactions conducted using that system in that month",
+            "description_ms": "[Apung, RM] Nilai transaksi yang dilaksanakan menggunakan sistem tersebut dalam bulan tersebut"
         }
     ],
     "dataviz": [
@@ -83,7 +83,7 @@
                     }
                 },
                 "filter_columns": [
-                    "channel"
+                    "system"
                 ],
                 "freeze_columns": [
                     "date"
@@ -97,7 +97,7 @@
             "chart_type": "TIMESERIES",
             "config": {
                 "filter_columns": [
-                    "channel"
+                    "system"
                 ],
                 "precision": 0,
                 "operation": "SUM",
@@ -116,7 +116,7 @@
             "chart_type": "TIMESERIES",
             "config": {
                 "filter_columns": [
-                    "channel"
+                    "system"
                 ],
                 "precision": 0,
                 "operation": "SUM",
@@ -131,29 +131,31 @@
     ],
     "translations_en": {
         "date": "Date",
-        "channel": "Channel",
+        "system": "System",
         "volume": "Volume",
         "value": "Value (RM)",
         "x": "Date",
         "y1": "Value",
-        "atm-cwd": "ATM (withdrawals)",
-        "atm-fin": "ATM (financial transactions)",
-        "internet-corp": "Internet (corporate)",
-        "internet-indiv": "Internet (individual)",
-        "mobile": "Mobile"
+        "dd": "Direct Debit",
+        "fpx": "FPX",
+        "ibg": "Interbank GIRO",
+        "jompay": "JomPAY",
+        "rentas": "RENTAS",
+        "rpp": "DuitNow/RPP"
     },
     "translations_ms": {
         "date": "Tarikh",
-        "channel": "Saluran",
+        "system": "Sistem",
         "volume": "Bilangan",
         "value": "Nilai (RM)",
         "x": "Tarikh",
         "y1": "Nilai",
-        "atm-cwd": "ATM (pengeluaran tunai)",
-        "atm-fin": "ATM (transaksi kewangan)",
-        "internet-corp": "Internet (korporat)",
-        "internet-indiv": "Internet (individu)",
-        "mobile": "Mudah Alih"
+        "dd": "Direct Debit",
+        "fpx": "FPX",
+        "ibg": "Interbank GIRO",
+        "jompay": "JomPAY",
+        "rentas": "RENTAS",
+        "rpp": "DuitNow/RPP"
     },
     "related_datasets": []
 }
