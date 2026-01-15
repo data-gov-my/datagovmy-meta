@@ -1,11 +1,11 @@
 {
     "title_en": "Household Income and Expenditure: Administrative Districts",
     "title_ms": "Pendapatan dan Perbelanjaan Isi Rumah: Daerah Pentadbiran",
-    "title_sort": 1001,
+    "title_sort": 20,
     "description_en": "This dataset tabulates household-level income, expenditure, poverty, and income inequality at administrative district level. It is based on the Household Income & Expenditure Surveys (HIES) carried in 2022.",
     "description_ms": "Set data ini menunjukkan pendapatan, perbelanjaan, ketidaksamaan pendapatan, dan kadar kemiskinan bagi isi rumah di peringkat daerah pentadbiran. Data ini dihasilkan berdasarkan Survei Pendapatan dan Isi Rumah (HIES) yang dilaksanakan pada tahun 2022.",
     "exclude_openapi": false,
-    "manual_trigger": "na",
+    "manual_trigger": "",
     "data_as_of": "2022",
     "last_updated": "2023-07-28 12:00",
     "next_update": "-",
