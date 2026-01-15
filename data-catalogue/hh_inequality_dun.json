@@ -11,8 +11,8 @@
     "next_update": "\u2014",
     "methodology_en": "The primary Gini coefficient at state-level is computed based on the distribution of households' gross monthly income, where:\n - Gini coefficient values are bounded within 0 and 1, with higher values indicating greater income inequality.\n - A value of 0 indicates perfect equality (i.e. that every household has the same income).\n - A value of 1 indicates total inequality (i.e. that 1 household earns all the income while all others earn nothing).\n\nBecause the computation of the Gini coefficient relies on household income data, Malaysia's Gini coefficient statistics are produced and published together with statistics on household income derived from the Household Income and Expenditure Survey (HIES), which is conducted at least twice within any 5-year period. For full details on the methodology, especially the computation of the PLI and its evolution and nuances, please refer to the [technical notes](https://open.dosm.gov.my/publications/technical-notes/hies-technotes).",
     "methodology_ms": "Pekali Gini utama di peringkat negeri dihasilkan berdasarkan taburan pendapatan kasar bulanan isi rumah:\n - Nilai pekali Gini adalah antara 0 dengan 1.\n - Nilai 0 bermaksud kesamarataan total (iaitu semua isi rumah mempunyai pendapatan sama).\n - Nilai 1 bermaksud ketidaksamarataan total (iaitu 1 isi rumah mempunyai semua pendapatan di samping yang lain tidak mendapat apa-apa).\n\nOleh sebab penghasilan pekali Gini memerlukan data pendapatan isi rumah, statistik pekali Gini Malaysia dihasilkan dan diterbitkan bersama dengan statistik pendapatan isi rumah yang dihasilkan daripada Survei Pendapatan dan Perbelanjaan Isi Rumah (HIES), yang dilaksanakan sekurang-kurangnya dua kali dalam mana-mana tempoh 5 tahun. Untuk mendapat perincian metodologi yang penuh, terutamanya mengenai pengiraan PGK serta evolusi dan nuansanya, sila rujuk kepada [nota teknikal](https://open.dosm.gov.my/publications/technical-notes/hies-technotes).",
-    "caveat_en": "DUN-level data is only published from 2019 (relative to [state-level data](https://open.dosm.gov.my/data-catalogue/hh_inequality_state) which is available from 1970) as prior HIES samples were not sufficient to support district-level granularity.",
-    "caveat_ms": "Data di peringkat DUN hanya diterbitkan mulai 2019 (berbanding dengan [data negeri](https://open.dosm.gov.my/data-catalogue/hh_inequality_state) yang tersedia dari 1970) kerana sampel HIES sebelumnya tidak mencukupi untuk membolehkan pecahan mengikut daerah.",
+    "caveat_en": "DUN-level data is only published from 2019 (relative to [state-level data](https://open.dosm.gov.my/data-catalogue/hh_inequality_state) which is available from 1970) as prior HIES samples were not sufficient to support DUN-level granularity.",
+    "caveat_ms": "Data di peringkat DUN hanya diterbitkan mulai 2019 (berbanding dengan [data negeri](https://open.dosm.gov.my/data-catalogue/hh_inequality_state) yang tersedia dari 1970) kerana sampel HIES sebelumnya tidak mencukupi untuk membolehkan pecahan mengikut kawasan DUN.",
     "publication_en": "N/A",
     "publication_ms": "N/A",
     "link_parquet": "https://storage.dosm.gov.my/hies/hh_inequality_dun.parquet",
@@ -103,6 +103,7 @@
         "y1": "Gini Coefficient",
         "state": "State",
         "parlimen": "Parliament",
+        "dun": "DUN",
         "date": "Date",
         "gini": "Gini Coefficient"
     },
@@ -111,6 +112,7 @@
         "y1": "Pekali Gini",
         "state": "Negeri",
         "parlimen": "Parlimen",
+        "dun": "DUN",
         "date": "Tarikh",
         "gini": "Pekali Gini"
     },
