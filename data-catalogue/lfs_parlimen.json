@@ -143,34 +143,26 @@
 		"date": "Date",
 		"state": "State",
 		"parlimen": "Parliament",
-		"sex": "Sex",
 		"lf": "Labour Force Size",
 		"lf_employed": "Employed Persons",
 		"lf_unemployed": "Unemployed Persons",
 		"lf_outside": "Outside Labour Force",
 		"u_rate": "Unemployment Rate",
 		"p_rate": "Participation Rate",
-		"ep_ratio": "Employment-Population Ratio",
-		"male": "Male",
-		"female": "Female",
-		"both": "Both Sexes"
+		"ep_ratio": "Employment-Population Ratio"
 	},
 	"translations_ms": {
 		"y1": "Nilai",
 		"date": "Tarikh",
 		"state": "Negeri",
 		"parlimen": "Parlimen",
-		"sex": "Jantina",
 		"lf": "Tenaga Buruh",
 		"lf_employed": "Bekerja",
 		"lf_unemployed": "Penganggur",
 		"lf_outside": "Luar Tenaga Buruh",
 		"u_rate": "Kadar Pengangguran",
 		"p_rate": "Kadar Penyertaan",
-		"ep_ratio": "Nisbah Guna Tenaga kepada Penduduk",
-		"male": "Lelaki",
-		"female": "Perempuan",
-		"both": "Kedua-dua Jantina"
+		"ep_ratio": "Nisbah Guna Tenaga kepada Penduduk"
 	},
 	"related_datasets": []
 }
