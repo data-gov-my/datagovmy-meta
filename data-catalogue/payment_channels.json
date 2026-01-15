@@ -5,7 +5,7 @@
     "description_en": "Monthly volume and value of transactions, disaggregated by payment channel.",
     "description_ms": "Jumlah dan nilai transaksi, diselaraskan mengikut saluran pembayaran.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2025-11",
     "last_updated": "2026-01-10 16:00",
     "next_update": "2026-02-10 16:00",
