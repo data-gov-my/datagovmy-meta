@@ -19,8 +19,6 @@
 	"link_csv": "https://storage.dosm.gov.my/labour/lfs_dun.csv",
 	"frequency": "YEARLY",
 	"geography": [
-		"STATE",
-		"PARLIMEN",
 		"DUN"
 	],
 	"demography": [],
