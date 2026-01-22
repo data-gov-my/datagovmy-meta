@@ -2,7 +2,7 @@
     "publication": "census_agriculture_2023",
     "publication_type": "census_agriculture",
     "abort_email": true,
-    "release_date": "2025-05-29",
+    "release_date": "2025-12-23",
     "frequency": "YEARLY",
     "geography": [
         "NATIONAL",
@@ -10,10 +10,10 @@
     ],
     "demography": [],
     "en": {
-        "title": "[2023] Agricultural Census (Interim)",
+        "title": "[2023] Agricultural Census",
         "publication_type_title": "Agricultural Census",
-        "description": "Interim report of key findings from the Agricultural Census conducted in 2024.",
-        "description_email": "DOSM has just released an interim report of the Agricultural Census conducted in 2024. The report provides a preliminary overview key findings from the census, with a breakdown by agricultural subsector.",
+        "description": "Report of key findings from the Agricultural Census conducted in 2024.",
+        "description_email": "DOSM has just released the report of the Agricultural Census conducted in 2024, for the reference year 2023. The report provides an overview of key findings from the census, with a breakdown by agricultural subsector.",
         "resources": [
             {
                 "resource_id": 1,
@@ -102,16 +102,28 @@
             {
                 "resource_id": 15,
                 "resource_type": "pdf",
-                "resource_name": "Agricultural Census (Other): 2023",
+                "resource_name": "Agricultural Census (Tobacco): 2023",
+                "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_tobacco.pdf"
+            },
+            {
+                "resource_id": 16,
+                "resource_type": "pdf",
+                "resource_name": "Agricultural Census (Others): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_other.pdf"
+            },
+            {
+                "resource_id": 17,
+                "resource_type": "pdf",
+                "resource_name": "Agricultural Census (Labour): 2023",
+                "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_labour.pdf"
             }
         ]
     },
     "bm": {
-        "title": "[2023] Banci Pertanian (Interim)",
+        "title": "[2023] Banci Pertanian",
         "publication_type_title": "Banci Pertanian",
-        "description": "Laporan interim penemuan penting berdasarkan Banci Pertanian yang dilaksanakan pada tahun 2024.",
-        "description_email": "DOSM telah menerbitkan laporan interim Banci Pertanian yang dilaksanakan pada tahun 2024. Laporan ini memberikan gambaran awal penemuan penting berdasarkan banci, dengan pecahan mengikut subsektor pertanian.",
+        "description": "Laporan penemuan penting berdasarkan Banci Pertanian yang dilaksanakan pada tahun 2024.",
+        "description_email": "DOSM telah menerbitkan laporan Banci Pertanian yang dilaksanakan pada tahun 2024, untuk tahun rujukan 2023. Laporan ini merumuskan penemuan penting berdasarkan banci, dengan pecahan mengikut subsektor pertanian.",
         "resources": [
             {
                 "resource_id": 1,
@@ -200,8 +212,20 @@
             {
                 "resource_id": 15,
                 "resource_type": "pdf",
+                "resource_name": "Banci Pertanian (Tembakau): 2023",
+                "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_tobacco.pdf"
+            },
+            {
+                "resource_id": 16,
+                "resource_type": "pdf",
                 "resource_name": "Banci Pertanian (Tanaman Lain): 2023",
                 "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_other.pdf"
+            },
+            {
+                "resource_id": 17,
+                "resource_type": "pdf",
+                "resource_name": "Banci Pertanian (Guna Tenaga): 2023",
+                "resource_link": "https://storage.dosm.gov.my/census/census_agri_2023_labour.pdf"
             }
         ]
     }
