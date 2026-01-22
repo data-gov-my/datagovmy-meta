@@ -1,7 +1,7 @@
 {
-    "link_csv": "https://storage.data.gov.my/dev/legal_advisory_branch.csv",
-    "link_parquet": "https://storage.data.gov.my/dev/legal_advisory_branch.parquet",
-    "link_preview": "https://storage.data.gov.my/dev/legal_advisory_branch.parquet",
+    "link_csv": "https://storage.data.gov.my/publicadmin/legal_advisory_branch.csv",
+    "link_parquet": "https://storage.data.gov.my/publicadmin/legal_advisory_branch.parquet",
+    "link_preview": "https://storage.data.gov.my/publicadmin/legal_advisory_branch.parquet",
     "title_en": "Legal Advisory Services by Branch",
     "title_ms": "Perkhidmatan Nasihat Undang-undang Mengikut Cawangan",
     "description_en": "This data refers to the records of legal advice services that has been registered via the Sistem Pengurusan Kes Jabatan Bantuan Guaman (SPK-JBG), handled by the Legal Aid Department of Malaysia (JBG). The numbers include legal advice services given all across Malaysia by JBG and is classified by branch as shown below. The data shared aims to support the transparency, research and analysis pertaining to the accessibility of legal aid services in Malaysia.",
