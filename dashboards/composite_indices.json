@@ -1,6 +1,6 @@
 {
     "dashboard_name": "composite_indices",
-    "manual_trigger": "2025-12-26 12:05:51.361635",
+    "manual_trigger": "2026-01-23 13:18:45.759030",
     "data_last_updated": "2025-12-23 12:00",
     "data_next_update": "2026-01-23 12:00",
     "route": "/dashboard/composite-indices,/ms-MY/dashboard/composite-indices",
@@ -14,7 +14,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/mei_timeseries.parquet",
-            "data_as_of": "2025-10",
+            "data_as_of": "2025-11",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -40,7 +40,7 @@
             "name": "statistics",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/mei_timeseries_callout.parquet",
-            "data_as_of": "2025-10",
+            "data_as_of": "2025-11",
             "api_type": "static",
             "api_params": [],
             "variables": {
