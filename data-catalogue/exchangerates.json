@@ -5,7 +5,7 @@
     "description_en": "Monthly rates of exchange of the Malaysian ringgit vis-à-vis selected currencies.",
     "description_ms": "Kadar pertukaran ringgit Malaysia berbanding mata wang asing terpilih.",
     "exclude_openapi": false,
-    "manual_trigger": "2026-01-27 00:52:59.898644",
+    "manual_trigger": "2026-01-27 18:11:00.814580",
     "data_as_of": "2026-01-26 23:59",
     "last_updated": "2026-01-27 04:00",
     "next_update": "2026-01-28 04:00",
