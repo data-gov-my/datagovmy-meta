@@ -17,7 +17,7 @@
         "DISTRICT"
     ],
     "demography": [],
-    "dataset_begin": "2022",
+    "dataset_begin": "2021",
     "dataset_end": "2024",
     "data_source": [
         "JBG"
@@ -29,7 +29,7 @@
     "publication_en": "N/A",
     "publication_ms": "N/A",
     "related_datasets": [],
-    "last_updated": "2025-11-17 15:00",
+    "last_updated": "2026-01-29 11:00",
     "next_update": "2026-12-01 16:00",
     "fields": [
         {
