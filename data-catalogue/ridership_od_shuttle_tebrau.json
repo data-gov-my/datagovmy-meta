@@ -19,6 +19,7 @@
     "link_csv": "https://storage.data.gov.my/transportation/ktmb/shuttle_tebrau_YYYY-MM-DD.csv",
     "link_preview": "https://storage.data.gov.my/transportation/ktmb/shuttle_tebrau_preview.parquet",
     "link_editions": [
+        "2026",
         "2025",
         "2024",
         "2023",
