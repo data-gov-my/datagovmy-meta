@@ -8,7 +8,7 @@
     "description_ms": "Data ini mengandungi rekod sesi nasihat undang-undang yang didaftarkan melalui Sistem Pengurusan Kes Jabatan Bantuan Guaman (SPK-JBG), yang dikendalikan oleh Jabatan Bantuan Guaman (JBG). Ia merangkumi perkhidmatan nasihat undang-undang yang diberikan di seluruh Malaysia. Set data ini bertujuan untuk menyokong ketelusan, penyelidikan, dan analisis berkaitan aksesibiliti dan skop perkhidmatan bantuan guaman di Malaysia.",
     "title_sort": 1,
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2025-12",
     "frequency": "MONTHLY",
     "geography": [
@@ -18,7 +18,7 @@
     ],
     "demography": [],
     "dataset_begin": "2021",
-    "dataset_end": "2024",
+    "dataset_end": "2025",
     "data_source": [
         "JBG"
     ],
