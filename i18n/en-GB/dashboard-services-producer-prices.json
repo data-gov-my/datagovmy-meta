@@ -5,7 +5,7 @@
     ],
     "translation": {
         "header": "Services Producer Prices",
-        "description": "In simple terms, labour productivity measures how much output is being produced for every hour worked, or every person employed. Contrary to popular belief, it does not really measure whether workers are 'hardworking' per se, but rather whether the quality of skills, machines and processes used is increasing adequately. Beyond unemployment and wages, policymakers pay close attention to labour productivity, which is a key driver of high-quality economic growth. This dashboard tracks labour productivity across all key sectors in the Malaysian economy.",
+        "description": "The Services Producer Price Index (SPPI) measures the prices charged to producers in 8 selected services subsectors. This serves as a complement to the monthly Producer Price Index (PPI), which does not cover the services sector, thus providing visibility into cost pressures arising from service providers.",
         "section_1": {
             "title": "How are producer prices in the services sector trending?"
         },
