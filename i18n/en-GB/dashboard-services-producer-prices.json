@@ -23,7 +23,8 @@
             "professional": "Professional Services",
             "health": "Health",
             "education": "Education",
-            "realestate": "Real Estate"
+            "realestate": "Real Estate",
+            "x": "X"
         }
     }
 }
