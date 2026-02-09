@@ -1,7 +1,7 @@
 {
     "dashboard_name": "industrial_production",
-    "data_last_updated": "2026-01-09 12:00",
-    "data_next_update": "2026-02-09 12:00",
+    "data_last_updated": "2026-02-09 12:00",
+    "data_next_update": "2026-03-10 12:00",
     "route": "/dashboard/industrial-production,/ms-MY/dashboard/industrial-production",
     "sites": [
         "opendosm"
