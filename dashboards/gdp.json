@@ -1,12 +1,12 @@
 {
     "dashboard_name": "gdp",
-    "data_last_updated": "2025-11-14 12:00",
-    "data_next_update": "2026-02-13 12:00",
+    "data_last_updated": "2026-02-13 12:00",
+    "data_next_update": "2026-05-15 12:00",
     "route": "/dashboard/gdp,/ms-MY/dashboard/gdp",
     "sites": [
         "opendosm"
     ],
-    "manual_trigger": "2025-11-14 12:41:55.573765",
+    "manual_trigger": "2026-02-13 12:40:52.360088",
     "required_params": [],
     "optional_params": [],
     "charts": {
