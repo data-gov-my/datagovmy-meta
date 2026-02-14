@@ -22,7 +22,7 @@
             "1y": "1 year",
             "5y": "5 years",
             "alltime": "All-time",
-            "currency0": "Trade-weighted Exchange Rate (1 Jan 2020 = 100)"
+            "currency0": "Trade-weighted Exchange Rate (1 Jan 2010 = 100)"
         }
     }
 }
