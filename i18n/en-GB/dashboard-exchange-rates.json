@@ -5,7 +5,7 @@
     ],
     "translation": {
         "header": "Exchange Rates",
-        "description": "Malaysia is a small open economy. Trade is very important for our country. Consequently, this dashboard gives you an easy way to conduct exchange rate surveillance. Crucially, it moves beyond the often-quoted USD/MYR rate, and provides you with a comprehensive view of all currency pairs that are important for Malaysia.",
+        "description": "Malaysia is a highly open economy, with trade value exceeding 100% of GDP. Therefore, exchange rate surveillance is critical, particularly since the Ringgit is a free-floating currency. This dashboard presents official exchange rates from Bank Negara Malaysia for 27 currency pairs, giving you a comprehensive view of the Ringgit's performance beyond just the USD/MYR rate.",
         "section_1": {
             "title": "A snapshot of the Ringgit's performance against Malaysia's major trade partners",
             "description": "",
