@@ -1,7 +1,7 @@
 {
     "dashboard_name": "exchange_rates",
-    "data_last_updated": "2026-02-13 04:00",
-    "data_next_update": "2026-02-14 04:00",
+    "data_last_updated": "2026-02-13 12:00",
+    "data_next_update": "2026-02-16 12:00",
     "route": "/dashboard/exchange-rates,/ms-MY/dashboard/exchange-rates",
     "sites": [
         "opendosm"
@@ -13,8 +13,8 @@
         "timeseries": {
             "name": "timeseries",
             "chart_type": "timeseries_chart",
-            "chart_source": "https://storage.dosm.gov.my/dashboards/er_timeseries.parquet",
-            "data_as_of": "2026-02-12 23:59",
+            "chart_source": "https://storage.data.gov.my/dashboards/er_timeseries.parquet",
+            "data_as_of": "2026-02-13 12:00",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -50,15 +50,18 @@
                     "currency21",
                     "currency22",
                     "currency23",
-                    "currency24"
+                    "currency24",
+                    "currency25",
+                    "currency26",
+                    "currency27"
                 ]
             }
         },
         "statistics": {
             "name": "statistics",
             "chart_type": "custom_chart",
-            "chart_source": "https://storage.dosm.gov.my/dashboards/er_timeseries_callout.parquet",
-            "data_as_of": "2026-02-12 23:59",
+            "chart_source": "https://storage.data.gov.my/dashboards/er_timeseries_callout.parquet",
+            "data_as_of": "2026-02-13 12:00",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -77,8 +80,8 @@
         "bar_chart": {
             "name": "bar_chart",
             "chart_type": "bar_chart",
-            "chart_source": "https://storage.dosm.gov.my/dashboards/er_barchart.parquet",
-            "data_as_of": "2026-02-12 23:59",
+            "chart_source": "https://storage.data.gov.my/dashboards/er_barchart.parquet",
+            "data_as_of": "2026-02-13 12:00",
             "api_type": "static",
             "api_params": [],
             "variables": {
