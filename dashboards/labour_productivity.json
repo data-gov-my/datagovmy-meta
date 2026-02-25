@@ -14,7 +14,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/productivity_timeseries.parquet",
-            "data_as_of": "2025-Q3",
+            "data_as_of": "2025-Q4",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -40,7 +40,7 @@
             "name": "timeseries_callout",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/productivity_timeseries_callout.parquet",
-            "data_as_of": "2025-Q3",
+            "data_as_of": "2025-Q4",
             "api_type": "static",
             "api_params": [],
             "variables": {
