@@ -1,12 +1,12 @@
 {
     "dashboard_name": "exchange_rates",
-    "data_last_updated": "2026-03-01 12:30",
-    "data_next_update": "2026-03-04 12:30",
+    "data_last_updated": "2026-02-27 12:30",
+    "data_next_update": "2026-03-02 12:30",
     "route": "/dashboard/exchange-rates,/ms-MY/dashboard/exchange-rates",
     "sites": [
         "opendosm"
     ],
-    "manual_trigger": "2026-03-01 00:17:10.942570",
+    "manual_trigger": "2026-03-01 00:18:00.792556",
     "required_params": [],
     "optional_params": [],
     "charts": {
