@@ -7,15 +7,15 @@
     "description_ms": "Kadar dividen tahunan yang diisytiharkan oleh EPF bagi pelaburan konvensional serta patuh Syariah.",
     "title_sort": 1,
     "exclude_openapi": false,
-    "manual_trigger": "1",
-    "data_as_of": "2024",
+    "manual_trigger": "",
+    "data_as_of": "2025",
     "frequency": "YEARLY",
     "geography": [
         "NATIONAL"
     ],
     "demography": [],
     "dataset_begin": 1952,
-    "dataset_end": 2024,
+    "dataset_end": 2025,
     "data_source": [
         "EPF"
     ],
@@ -26,8 +26,8 @@
     "publication_en": "N/A",
     "publication_ms": "N/A",
     "related_datasets": [],
-    "last_updated": "2025-09-24 10:50",
-    "next_update": "2026-03-31 12:00",
+    "last_updated": "2026-02-28 18:00",
+    "next_update": "2027-03-15 12:00",
     "fields": [
         {
             "name": "date",
