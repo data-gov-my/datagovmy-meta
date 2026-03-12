@@ -1,5 +1,6 @@
 {
     "publication": "iowrt_2026-01",
+    "abort_email": true,
     "publication_type": "services",
     "release_date": "2026-03-12",
     "frequency": "MONTHLY",
