@@ -1,5 +1,6 @@
 {
     "publication": "rubber_2026-01",
+    "abort_email": true,
     "publication_type": "agriculture",
     "release_date": "2026-03-12",
     "frequency": "MONTHLY",
