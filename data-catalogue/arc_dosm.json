@@ -7,9 +7,15 @@
     "exclude_openapi": false,
     "manual_trigger": "2026-03-18 12:32:47.956867",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "data_as_of": "2026-03-30 08:00",
     "last_updated": "2026-03-30 07:59",
     "next_update": "2026-03-31 08:00",
+=======
+    "data_as_of": "2026-03-29 08:00",
+    "last_updated": "2026-03-29 07:59",
+    "next_update": "2026-03-30 08:00",
+>>>>>>> Stashed changes
 =======
     "data_as_of": "2026-03-29 08:00",
     "last_updated": "2026-03-29 07:59",
