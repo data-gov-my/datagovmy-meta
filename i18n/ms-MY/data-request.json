@@ -32,11 +32,11 @@
       },
       "fulfilled": {
         "label": "Dipenuhi",
-        "description": "Data diterbitkan"
+        "description": "Data dibekalkan"
       },
       "rejected": {
         "label": "Ditolak",
-        "description": "Tidak dipenuhi"
+        "description": "Untuk sebab tertentu"
       }
     },
     "table": {

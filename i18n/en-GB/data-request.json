@@ -32,11 +32,11 @@
       },
       "fulfilled": {
         "label": "Fulfilled",
-        "description": "Data published"
+        "description": "Data provided"
       },
       "rejected": {
         "label": "Rejected",
-        "description": "Not fulfilled"
+        "description": "For specific reasons"
       }
     },
     "table": {
