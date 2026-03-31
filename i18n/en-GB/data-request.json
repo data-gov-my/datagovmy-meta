@@ -6,7 +6,7 @@
       "title": "Data Request",
       "description": "Use this page to request data and get transparent updates on your ticket!"
     },
-    "header": "Tell us what you data you need",    
+    "header": "Tell us what you data you need",
     "description_line1": "We are committed to fulfilling your requirements via our portal.",
     "description_line2": "Use this page to request data and get transparent updates on your ticket!",
     "request_data": "Request data",
@@ -20,6 +20,24 @@
       "data_published": "Data Published",
       "rejected": "Rejected",
       "rejected_modal": "This request has been rejected for the following reason"
+    },
+    "callout": {
+      "total": {
+        "label": "Total Tickets",
+        "description": "All submissions"
+      },
+      "review": {
+        "label": "Under Review",
+        "description": "Awaiting response"
+      },
+      "fulfilled": {
+        "label": "Fulfilled",
+        "description": "Data published"
+      },
+      "rejected": {
+        "label": "Rejected",
+        "description": "Not fulfilled"
+      }
     },
     "table": {
       "ticket_id": "Ticket ID",
