@@ -6,7 +6,7 @@
       "title": "Permohonan Data",
       "description": "Gunakan halaman ini untuk meminta data dan mendapatkan kemas kini yang telus pada tiket anda!"
     },
-    "header": "Beritahu kami data apa yang anda perlukan",    
+    "header": "Beritahu kami data apa yang anda perlukan",
     "description_line1": "Kami sentiasa komited untuk memenuhi keperluan data pengguna portal kami.",
     "description_line2": "Gunakan halaman ini untuk meminta data dan mendapatkan kemaskini yang telus pada tiket anda!",
     "request_data": "Mohon data",
@@ -20,6 +20,24 @@
       "data_published": "Data Diterbitkan",
       "rejected": "Ditolak",
       "rejected_modal": "Permintaan ini telah ditolak atas sebab yang berikut"
+    },
+    "callout": {
+      "total": {
+        "label": "Jumlah Tiket",
+        "description": "Semua permohonan"
+      },
+      "review": {
+        "label": "Dalam Semakan",
+        "description": "Menunggu maklum balas"
+      },
+      "fulfilled": {
+        "label": "Dipenuhi",
+        "description": "Data dibekalkan"
+      },
+      "rejected": {
+        "label": "Ditolak",
+        "description": "Untuk sebab tertentu"
+      }
     },
     "table": {
       "ticket_id": "ID Tiket",
