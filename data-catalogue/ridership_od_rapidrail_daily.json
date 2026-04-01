@@ -17,7 +17,7 @@
     "publication_ms": "Portal ini menyediakan [dashboard penggunaan Rapid Rail](https://data.gov.my/ms-MY/dashboard/rapid-explorer) yang membolehkan anda menerokai set data ini dalam bentuk yang lebih interaktif.",
     "link_parquet": "https://storage.data.gov.my/transportation/rapidrail/rapidrail_YYYY-MM-DD_daily.parquet",
     "link_csv": "https://storage.data.gov.my/transportation/rapidrail/rapidrail_YYYY-MM-DD_daily.csv",
-    "link_preview": "https://storage.data.gov.my/transportation/rapidrail/rapidrail_YYYY-MM-DD_daily_preview.parquet",
+    "link_preview": "https://storage.data.gov.my/transportation/rapidrail/rapidrail_2026_daily_preview.parquet",
     "link_editions": [
         "2026",
         "2025",
