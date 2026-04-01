@@ -34,7 +34,7 @@
       },
       "fulfilled": {
         "label": "Fulfilled",
-        "description": "Data provided"
+        "description": "Data provided/Data published"
       },
       "rejected": {
         "label": "Rejected",
