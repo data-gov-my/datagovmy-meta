@@ -17,6 +17,8 @@
       "under_review": "Under Review",
       "under_review_modal": "This request is being processed. The status will be updated here once there is an update. Stay tuned!",
       "in_progress": "In Progress",
+      "data_provided": "Data Provided",
+      "data_provided_modal": "An interim version of the data has been provided manually to the requester. Once an automated pipeline for the data is ready, it will be published via the [data.gov.my](https://data.gov.my/) data catalogue.",
       "data_published": "Data Published",
       "rejected": "Rejected",
       "rejected_modal": "This request has been rejected for the following reason"
@@ -32,7 +34,7 @@
       },
       "fulfilled": {
         "label": "Fulfilled",
-        "description": "Data provided"
+        "description": "Data provided/Data published"
       },
       "rejected": {
         "label": "Rejected",
