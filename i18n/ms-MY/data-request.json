@@ -34,7 +34,7 @@
       },
       "fulfilled": {
         "label": "Dipenuhi",
-        "description": "Data dibekalkan"
+        "description": "Data dibekalkan/Data diterbitkan"
       },
       "rejected": {
         "label": "Ditolak",
