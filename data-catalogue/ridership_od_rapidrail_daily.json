@@ -15,9 +15,9 @@
     "caveat_ms": "Oleh sebab saiz set data penuh bagi setiap tahun sejak 2023 melebihi had baris Microsoft Excel (1,048,576), kami syorkan anda menggunakan data ini secara programatik, khususnya dengan menggunakan fail parquet yang disediakan.",
     "publication_en": "Our site features a [dashboard on Rapid Rail ridership](https://data.gov.my/dashboard/rapid-explorer) where you can explore this data in a more interactive manner.",
     "publication_ms": "Portal ini menyediakan [dashboard penggunaan Rapid Rail](https://data.gov.my/ms-MY/dashboard/rapid-explorer) yang membolehkan anda menerokai set data ini dalam bentuk yang lebih interaktif.",
-    "link_parquet": "https://storage.data.gov.my/transportation/rapidrail/rapidrail_YYYY-MM-DD_daily.parquet",
-    "link_csv": "https://storage.data.gov.my/transportation/rapidrail/rapidrail_YYYY-MM-DD_daily.csv",
-    "link_preview": "https://storage.data.gov.my/transportation/rapidrail/rapidrail_2026_daily_preview.parquet",
+    "link_parquet": "https://storage.data.gov.my/transportation/rail/rapidrail_YYYY-MM-DD_daily.parquet",
+    "link_csv": "https://storage.data.gov.my/transportation/rail/rapidrail_YYYY-MM-DD_daily.csv",
+    "link_preview": "https://storage.data.gov.my/transportation/rail/rapidrail_daily_preview.parquet",
     "link_editions": [
         "2026",
         "2025",
