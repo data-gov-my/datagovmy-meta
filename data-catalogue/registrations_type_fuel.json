@@ -1,0 +1,159 @@
+{
+    "title_en": "Monthly Vehicle Registrations by Vehicle and Fuel Type",
+    "title_ms": "Pendaftaran Kenderaan Bulanan mengikut Jenis Kenderaan dan Bahan Bakar",
+    "title_sort": 10,
+    "description_en": "Monthly count of vehicle registrations, disaggregated by vehicle type and fuel type, from 2000 to the present.",
+    "description_ms": "Bilangan pendaftaran kenderaan bulanan, dengan pecahan mengikut jenis kenderaan dan jenis bahan bakar, dari tahun 2000 sehingga kini.",
+    "exclude_openapi": false,
+    "manual_trigger": "2026-04-03 05:15:21",
+    "data_as_of": "2026-03-31 23:59",
+    "last_updated": "2026-04-03 16:00",
+    "next_update": "2026-05-10 16:00",
+    "methodology_en": "This dataset is derived from the [transactional vehicle registrations data](https://data.gov.my/data-catalogue/registration_transactions_all) made available via data.gov.my, and is provided to facilitate high-level analysis of the private transportation sector.",
+    "methodology_ms": "Set data ini dihasilkan daripada [data transaksi pendaftaran kenderaan](https://data.gov.my/data-catalogue/registration_transactions_all) yang diterbitkan di data.gov.my, dan disediakan untuk memudahkan analisis sektor pengangkutan swasta.",
+    "caveat_en": "This dataset captures the registration of vehicles, not their sale, import, or any other transaction. Therefore, if a vehicle is not registered for use on the road, it will not be counted in this dataset (e.g. vehicles purchased purely for private display). Furthermore, users should note that the dataset includes rows for 'all_types' and 'all_fuels' to facilitate top-level comparisons; these should not be double-counted with the breakdown rows.",
+    "caveat_ms": "Set data ini merekodkan pendaftaran kenderaan, bukannya penjualan, import, atau apa jua transaksi lain. Oleh itu, sekiranya sesebuah kenderaan tidak didaftarkan untuk digunakan di jalan raya, ia tidak akan terkandung dalam set data ini (contohnya kenderaan yang dibeli hanya untuk koleksi swasta). Tambahan, pengguna perlu ambil perhatian bahawa set data ini mengandungi baris bagi 'all_types' dan 'all_fuels' bagi memudahkan perbandingan peringkat tertinggi; baris ini tidak seharusnya dikira dua kali bersama baris pecahan.",
+    "publication_en": "data.gov.my features a [dashboard on vehicle registrations](https://data.gov.my/dashboard/vehicle-registrations), which enables you to explore this dataset in an interactive manner!",
+    "publication_ms": "data.gov.my membekalkan [_dashboard_ tentang pendaftaran kenderaan](https://data.gov.my/ms-MY/dashboard/vehicle-registrations) yang membolehkan anda menerokai set data ini dengan interaktif!",
+    "link_parquet": "https://storage.data.gov.my/transportation/registrations_type_fuel.parquet",
+    "link_csv": "https://storage.data.gov.my/transportation/registrations_type_fuel.csv",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2000,
+    "dataset_end": 2026,
+    "data_source": [
+        "JPJ",
+        "MOT"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Transportation",
+            "category_ms": "Pengangkutan",
+            "category_sort": 41,
+            "subcategory_en": "Vehicle Registrations",
+            "subcategory_ms": "Pendaftaran Kenderaan",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01 as the data is at monthly frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01 kerana data berfrekuensi bulanan"
+        },
+        {
+            "name": "type",
+            "title_en": "Vehicle Type",
+            "title_ms": "Jenis Kenderaan",
+            "description_en": "[Categorical] One of 6 vehicle types for analysis: Cars ('car'), motorcycles ('motorcycle'), lorries ('lorry'), vans ('van'), buses ('bus'), and others ('other'). The value 'all_types' represents the total across all vehicle types. ",
+            "description_ms": "[Kategori] Satu daripada 6 jenis kenderaan untuk analisis: Kereta ('car'), motosikal ('motorcycle'), lori ('lorry'), van ('van'), bas ('bus'), dan lain-lain ('other'). Nilai 'all_types' mewakili jumlah keseluruhan merentasi semua jenis kenderaan."
+        },
+        {
+            "name": "fuel",
+            "title_en": "Fuel Type",
+            "title_ms": "Jenis Bahan Bakar",
+            "description_en": "[Categorical] Fuel type used by the vehicle's engine(s), either petrol ('petrol'), diesel ('diesel'), green diesel ('greendiesel'), natural gas ('ng'), liquefied natural gas ('lng'), hydrogen ('hydrogen'), and electric ('electric'). Hybrid vehicles are classified as 'hybrid_petrol' or 'hybrid_diesel'. The value 'all_fuels' represents the total across all fuel types.",
+            "description_ms": "[Kategori] Jenis bahan bakar yang digunakan oleh enjin kenderaan, sama ada petrol ('petrol'), diesel ('diesel'), diesel hijau ('greendiesel'), gas asli ('ng'), gas asli cecair ('lng'), hidrogen ('hydrogen'), dan elektrik ('electric'). Kenderaan hibrid dikelaskan sebagai 'hybrid_petrol' atau 'hybrid_diesel'. Nilai 'all_fuels' mewakili jumlah keseluruhan merentasi semua jenis bahan bakar."
+        },
+        {
+            "name": "registrations",
+            "title_en": "Registrations",
+            "title_ms": "Pendaftaran",
+            "description_en": "[Integer] Number of vehicle registrations recorded in that month for the given vehicle type and fuel type combination",
+            "description_ms": "[Integer] Bilangan pendaftaran kenderaan yang direkodkan dalam bulan tersebut bagi kombinasi jenis kenderaan dan jenis bahan bakar yang diberikan"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "type",
+                    "fuel"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "registrations",
+            "title_en": "Registrations",
+            "title_ms": "Pendaftaran",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "type",
+                    "fuel"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "registrations"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "type": "Vehicle Type",
+        "fuel": "Fuel Type",
+        "registrations": "Registrations",
+        "y1": "Registrations",
+        "all_types": "All Types",
+        "car": "Car",
+        "motorcycle": "Motorcycle",
+        "lorry": "Lorry",
+        "van": "Van",
+        "bus": "Bus",
+        "trailer": "Trailer",
+        "other": "Other",
+        "all_fuels": "All Fuels",
+        "petrol": "Petrol",
+        "diesel": "Diesel",
+        "electric": "Electric",
+        "hybrid_petrol": "Hybrid (Petrol)",
+        "hybrid_diesel": "Hybrid (Diesel)",
+        "greendiesel": "Green Diesel",
+        "ng": "Natural Gas",
+        "lng": "Liquefied Natural Gas",
+        "hydrogen": "Hydrogen"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "type": "Jenis Kenderaan",
+        "fuel": "Jenis Bahan Bakar",
+        "registrations": "Pendaftaran",
+        "y1": "Pendaftaran",
+        "all_types": "Semua Jenis",
+        "car": "Kereta",
+        "motorcycle": "Motosikal",
+        "lorry": "Lori",
+        "van": "Van",
+        "bus": "Bas",
+        "trailer": "Treler",
+        "other": "Lain-lain",
+        "all_fuels": "Semua Bahan Bakar",
+        "petrol": "Petrol",
+        "diesel": "Diesel",
+        "electric": "Elektrik",
+        "hybrid_petrol": "Hibrid (Petrol)",
+        "hybrid_diesel": "Hibrid (Diesel)",
+        "greendiesel": "Diesel Hijau",
+        "ng": "Gas Asli",
+        "lng": "Gas Asli Cecair",
+        "hydrogen": "Hidrogen"
+    },
+    "related_datasets": []
+}
