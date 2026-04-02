@@ -1,7 +1,7 @@
 {
     "title_en": "Vehicle Registration Transactions: Cars",
     "title_ms": "Transaksi Pendaftaran Kenderaan: Kereta",
-    "title_sort": 10,
+    "title_sort": 6,
     "description_en": "Car registration transactions from 2000 to the present. The table below provides a preview of the full dataset, which contains hundreds of thousands of transactions per year.",
     "description_ms": "Transaksi pendaftaran kereta dari 2000 sehingga kini. Jadual di bawah memberi pratonton kepada dataset penuh yang mengandungi beratus ribu transaksi bagi setiap tahun.",
     "exclude_openapi": true,
