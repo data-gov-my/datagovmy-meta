@@ -5,7 +5,7 @@
     "description_en": "Daily origin-destination ridership data covering all 7 stop on the BRT Sunway Line. The table provides a brief preview of the data, but you may download the data in full.",
     "description_ms": "Data penumpang asal-destinasi harian merangkumi kesemua 7 hentian bagi BRT Laluan Sunway. Jadual memberikan pratonton kepada set data, tetapi anda boleh memuat turun set data penuhnya.",
     "exclude_openapi": true,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2026-03-31 23:59",
     "last_updated": "2026-04-01 22:00",
     "next_update": "2026-04-02 22:00",
