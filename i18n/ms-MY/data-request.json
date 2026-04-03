@@ -18,7 +18,7 @@
       "under_review_modal": "Permintaan ini sedang diproses. Status permintaan ini akan dikemas kini di laman ini apabila terdapat sebarang kemas kini. Nantikan!",
       "in_progress": "Sedang Diuruskan",
       "data_provided": "Data Dibekalkan",
-      "data_provided_modal": "Permintaan ini telah ditunaikan dan set data telah dibekalkan secara manual kepada pemohon buat sementara waktu. Setelah saluran data automatik disediakan, ia akan diterbitkan melalui katalog data di portal [data.gov.my](https://data.gov.my/)",
+      "data_provided_modal": "Data telah disalurkan kepada pemohon namun ia belum diterbitkan dalam portal data.gov.my. Perbincangan susulan akan dibincangkan dengan agensi pembekal data untuk menerbitkan data yang lebih komprehensif melalui katalog data.",
       "data_published": "Data Diterbitkan",
       "rejected": "Ditolak",
       "rejected_modal": "Permintaan ini telah ditolak atas sebab yang berikut"
