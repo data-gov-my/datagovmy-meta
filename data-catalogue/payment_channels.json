@@ -5,10 +5,10 @@
     "description_en": "Monthly volume and value of transactions, disaggregated by payment channel.",
     "description_ms": "Jumlah dan nilai transaksi, diselaraskan mengikut saluran pembayaran.",
     "exclude_openapi": false,
-    "manual_trigger": "1",
-    "data_as_of": "2025-11",
-    "last_updated": "2026-01-10 16:00",
-    "next_update": "2026-02-10 16:00",
+    "manual_trigger": "",
+    "data_as_of": "2026-02",
+    "last_updated": "2026-04-06 15:00",
+    "next_update": "2026-05-06 15:00",
     "methodology_en": "Every electronic payment is conducted using a payment instrument (e.g. a debit or credit card), via a payment channel (e.g. via your modile phone), and processed through a payment system (e.g. DuitNow, FPX, etc.). As the primary regulator of the financial sector, Bank Negara Malaysia (BNM) collects aggregated data on the volume and value of transactions conducted using each payment instrument, channel, and system from all relevant reporting entities in the financial industry, per its mandate as a statuory body under the laws of Malaysia. This datasets presents that data at monthly frequency, disaggregated by payment channel.",
     "methodology_ms": "Setiap pembayaran elektronik dilakukan menggunakan instrumen pembayaran (contoh: kad debit atau kredit), melalui saluran pembayaran (contoh: internet banking, mobile banking, dll.). Data diagregat bulanan mengikut instrumen pembayaran dan saluran pembayaran. Sebagai pengawal selia utama sektor kewangan, Bank Negara Malaysia (BNM) mengumpul data mengenai bilangan dan nilai transaksi yang dilaksanakan menggunakan setiap instrumen, saluran, dan sistem pembayaran dari semua entiti yang berkaitan dalam industri kewangan, selaras dengan mandat BNM sebagai badan berkanun di bawah undang-undang Malaysia. Set data ini membekalkan data tersebut pada frekuensi bulanan, dengan pecahan mengikut saluran pembayaran.",
     "caveat_en": "N/A",
@@ -23,7 +23,7 @@
     ],
     "demography": [],
     "dataset_begin": 2019,
-    "dataset_end": 2025,
+    "dataset_end": 2026,
     "data_source": [
         "BNM"
     ],
