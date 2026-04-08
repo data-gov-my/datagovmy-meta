@@ -1,0 +1,108 @@
+{
+    "link_csv": "https://storage.dosm.gov.my/population/population_malaysia.csv",
+    "link_parquet": "https://storage.dosm.gov.my/population/population_malaysia.parquet",
+    "link_preview": "https://storage.dosm.gov.my/population/population_malaysia.parquet",
+    "title_en": "Population Dataset",
+    "title_ms": "Set Data Populasi",
+    "description_en": "This dataset provides daily population estimates at both national and state levels in Malaysia, segmented by sex, age group, and ethnicity. It captures the dynamic changes in population demographics over time, allowing for detailed analysis of population trends.",
+    "description_ms": "Set data ini menyediakan anggaran populasi harian di peringkat kebangsaan dan negeri di Malaysia, dibahagikan mengikut jantina, kumpulan umur, dan etnik. Ia merakam perubahan dinamik dalam demografi populasi dari masa ke masa, membolehkan analisis terperinci tentang trend populasi.",
+    "title_sort": 1,
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2026-04-06 10:56:00.000 +08:00",
+    "frequency": "DAILY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2026,
+    "dataset_end": 2026,
+    "data_source": [
+        "DOSM"
+    ],
+    "methodology_en": "The dataset is derived from daily population estimates, which are based on the cohort-component method. This method involves adjusting the previous year's population by adding births, subtracting deaths, and accounting for net migration. The estimates are updated daily to reflect the latest demographic changes.",
+    "methodology_ms": "Set data ini diperoleh daripada anggaran populasi harian yang berdasarkan kaedah komponen kohort. Kaedah ini melibatkan pelarasan populasi tahun sebelumnya dengan menambah kelahiran, menolak kematian, dan mengambil kira migrasi bersih. Anggaran ini dikemas kini setiap hari untuk mencerminkan perubahan demografi terkini.",
+    "caveat_en": "The dataset may exhibit minor discrepancies when summing breakdowns due to rounding to one decimal place. Users should exercise caution when interpreting the data, as the granularity of demographic information has evolved over time, potentially affecting comparability across different periods.",
+    "caveat_ms": "Set data ini mungkin menunjukkan perbezaan kecil apabila menjumlahkan pecahan disebabkan oleh pembundaran kepada satu tempat perpuluhan. Pengguna harus berhati-hati apabila mentafsir data ini, kerana kehalusan maklumat demografi telah berkembang dari masa ke masa, yang mungkin menjejaskan kebolehbandingan merentasi tempoh yang berbeza.",
+    "publication_en": "N/A",
+    "publication_ms": "N/A",
+    "related_datasets": [],
+    "last_updated": "2026-04-08 10:54:03.739 +08:00",
+    "next_update": "-",
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "The date of the population estimate in YYYY-MM-DD format, representing daily data.",
+            "description_ms": "Tarikh anggaran populasi dalam format YYYY-MM-DD, mewakili data harian."
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "The sex of the population group, categorized as 'both', 'male', or 'female'.",
+            "description_ms": "Jantina kumpulan penduduk, dikategorikan sebagai 'kedua-duanya', 'lelaki', atau 'perempuan'."
+        },
+        {
+            "name": "age",
+            "title_en": "Age Group",
+            "title_ms": "Kumpulan Umur",
+            "description_en": "The age group of the population, either 'overall' or in five-year intervals such as 0-4, 5-9, etc.",
+            "description_ms": "Kumpulan umur penduduk, sama ada 'keseluruhan' atau dalam selang lima tahun seperti 0-4, 5-9, dan sebagainya."
+        },
+        {
+            "name": "ethnicity",
+            "title_en": "Ethnicity",
+            "title_ms": "Etnik",
+            "description_en": "The ethnic group of the population, including categories like 'overall', 'bumi_malay', 'bumi_other', 'chinese', 'indian', 'other_citizen', and 'other_noncitizen'.",
+            "description_ms": "Kumpulan etnik penduduk, termasuk kategori seperti 'keseluruhan', 'bumi_malay', 'bumi_other', 'cina', 'india', 'warga_lain', dan 'bukan_warga_lain'."
+        },
+        {
+            "name": "population",
+            "title_en": "Population ('000)",
+            "title_ms": "Populasi ('000)",
+            "description_en": "The estimated population in thousands ('000 people).",
+            "description_ms": "Anggaran populasi dalam ribuan ('000 orang)."
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "sex": "Sex",
+        "age": "Age Group",
+        "ethnicity": "Ethnicity",
+        "population": "Population ('000)"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "sex": "Jantina",
+        "age": "Kumpulan Umur",
+        "ethnicity": "Etnik",
+        "population": "Populasi ('000)"
+    },
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Demography",
+            "category_ms": "Demografi",
+            "category_sort": 1,
+            "subcategory_en": "Population",
+            "subcategory_ms": "Penduduk",
+            "subcategory_sort": 1
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ]
+}
