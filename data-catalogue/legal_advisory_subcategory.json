@@ -9,7 +9,7 @@
     "title_sort": "3",
     "exclude_openapi": false,
     "manual_trigger": "",
-    "data_as_of": "2025-12",
+    "data_as_of": "2024-12",
     "frequency": "MONTHLY",
     "geography": [
         "NATIONAL",
@@ -17,7 +17,7 @@
         "DISTRICT"
     ],
     "demography": [],
-    "dataset_begin": "2021",
+    "dataset_begin": "2019",
     "dataset_end": "2024",
     "data_source": [
         "JBG"
