@@ -1,7 +1,7 @@
 {
     "manual_trigger": "1",
-    "data_as_of": "2026-02",
-    "last_updated": "2026-03-27 13:00",
+    "data_as_of": "2026-03",
+    "last_updated": "2026-04-20 13:00",
     "next_update": "2026-04-28 13:00",
     "link_parquet": "https://storage.dosm.gov.my/investor_portal/trade.parquet",
     "frequency": "MONTHLY",
