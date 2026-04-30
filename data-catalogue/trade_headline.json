@@ -1,0 +1,239 @@
+{
+    "title_en": "Headline Monthly Trade in Goods",
+    "title_ms": "Statistik Perdagangan Barangan Bulanan",
+    "title_sort": 1,
+    "description_en": "Monthly exports, imports, total trade, and trade balance statistics for Malaysia.",
+    "description_ms": "Statistik eksport, import, jumlah perdagangan, dan imbangan dagangan bulanan Malaysia.",
+    "exclude_openapi": false,
+    "manual_trigger": "2025-02-06 09:45:14.188498",
+    "data_as_of": "2026-03",
+    "last_updated": "2026-04-28 12:30",
+    "next_update": "2026-05-26 12:30",
+    "methodology_en": "This dataset presents headline monthly trade data for Malaysia, comprising total exports, domestic exports, re-exports, total imports, retained imports, total trade, and trade balance. Users should note that this data only covers the trade in goods; data on trade in services is published on a quarterly frequency as part of the balance of payments publication. For a full description of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/trade-technotes).",
+    "methodology_ms": "Set data ini memaparkan data perdagangan bulanan Malaysia, merangkumi jumlah eksport, eksport domestik, re-eksport, jumlah import, import tertahan, jumlah perdagangan, dan imbangan dagangan. Pengguna perlu ambil perhatian bahawa data ini hanya meliputi perdagangan barangan; data perdagangan perkhidmatan diterbitkan pada frekuensi suku tahunan bersama penerbitan imbangan pembayaran. Untuk mendapat perincian metodologi yang penuh, sila merujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/trade-technotes).",
+    "caveat_en": "Data for the most recent two months is provisional and subject to revision in future updates.",
+    "caveat_ms": "Data bagi dua bulan terkini tertakluk kepada semakan semula dalam kemaskini akan datang.",
+    "publication_en": "[External Trade, Mar 2026](https://open.dosm.gov.my/publications/trade_2026-03), the latest edition of the monthly trade statistics published by DOSM. OpenDOSM also features a [dashboard on trade](https://open.dosm.gov.my/dashboard/external-trade).",
+    "publication_ms": "[Perdagangan Luar, Mac 2026](https://open.dosm.gov.my/ms-MY/publications/trade_2026-03), edisi terkini bagi statistik perdagangan bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan](https://open.dosm.gov.my/ms-MY/dashboard/external-trade).",
+    "link_parquet": "https://storage.dosm.gov.my/trade/trade_headline.parquet",
+    "link_csv": "https://storage.dosm.gov.my/trade/trade_headline.csv",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2000,
+    "dataset_end": 2026,
+    "data_source": [
+        "DOSM"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "External Trade",
+            "subcategory_ms": "Perdagangan Luar",
+            "subcategory_sort": 40
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "External Trade",
+            "subcategory_ms": "Perdagangan Luar",
+            "subcategory_sort": 40
+        }
+    ],
+    "fields": [
+        {
+            "name": "series",
+            "title_en": "Series Type",
+            "title_ms": "Jenis Siri",
+            "description_en": "[Categorical] Either absolute values ('abs'), year-on-year growth ('growth_yoy') or month-on-month growth ('growth_mom')",
+            "description_ms": "[Kategori] Sama ada nilai mutlak ('abs'), pertumbuhan tahunan ('growth_yoy') atau pertumbuhan bulanan ('growth_mom')"
+        },
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01 since the data is at monthly frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD ditetapkan sebagai 01 kerana data berfrekuensi bulanan"
+        },
+        {
+            "name": "exports",
+            "title_en": "Exports",
+            "title_ms": "Eksport",
+            "description_en": "[Float, RM] Gross exports.",
+            "description_ms": "[Apung, RM] Eksport kasar."
+        },
+        {
+            "name": "exports_domestic",
+            "title_en": "Domestic Exports",
+            "title_ms": "Eksport Domestik",
+            "description_en": "[Float, RM] Domestic exports, i.e. exports less re-exports.",
+            "description_ms": "[Apung, RM] Eksport domestik, iaitu eksport tolak re-eksport."
+        },
+        {
+            "name": "re_exports",
+            "title_en": "Re-exports",
+            "title_ms": "Re-eksport",
+            "description_en": "[Float, RM] Re-exports, i.e. goods imported and subsequently exported without substantial transformation.",
+            "description_ms": "[Apung, RM] Re-eksport, iaitu barangan yang diimport dan seterusnya dieksport semula tanpa pengubahan ketara."
+        },
+        {
+            "name": "imports",
+            "title_en": "Imports",
+            "title_ms": "Import",
+            "description_en": "[Float, RM] Gross imports.",
+            "description_ms": "[Apung, RM] Import kasar."
+        },
+        {
+            "name": "imports_retained",
+            "title_en": "Retained Imports",
+            "title_ms": "Import Tertangguh",
+            "description_en": "[Float, RM] Retained imports, i.e. imports less re-exports.",
+            "description_ms": "[Apung, RM] Import tertangguh, iaitu import tolak re-eksport."
+        },
+        {
+            "name": "total",
+            "title_en": "Total Trade",
+            "title_ms": "Jumlah Perdagangan",
+            "description_en": "[Float, RM] Total trade, i.e. exports plus imports.",
+            "description_ms": "[Apung, RM] Jumlah perdagangan, iaitu eksport tambah import."
+        },
+        {
+            "name": "balance",
+            "title_en": "Trade Balance",
+            "title_ms": "Imbangan Dagangan",
+            "description_en": "[Float, RM] Trade balance, i.e. exports less imports.",
+            "description_ms": "[Apung, RM] Imbangan dagangan, iaitu eksport tolak import."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 1,
+                "filter_columns": [
+                    "series"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "exports",
+            "title_en": "Exports",
+            "title_ms": "Eksport",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "series"
+                ],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "exports"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "imports",
+            "title_en": "Imports",
+            "title_ms": "Import",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "series"
+                ],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "imports"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "total",
+            "title_en": "Total Trade",
+            "title_ms": "Jumlah Perdagangan",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "series"
+                ],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "total"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "balance",
+            "title_en": "Trade Balance",
+            "title_ms": "Imbangan Perdagangan",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "series"
+                ],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "balance"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Value",
+        "date": "Date",
+        "series": "Series Type",
+        "exports": "Exports",
+        "exports_domestic": "Domestic Exports",
+        "re_exports": "Re-exports",
+        "imports": "Imports",
+        "imports_retained": "Retained Imports",
+        "total": "Total Trade",
+        "balance": "Trade Balance",
+        "abs": "Absolute (RM)",
+        "growth_yoy": "Year-on-Year Growth (%)",
+        "growth_mom": "Month-on-Month Growth (%)"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Nilai",
+        "date": "Tarikh",
+        "series": "Jenis Siri",
+        "exports": "Eksport",
+        "exports_domestic": "Eksport Domestik",
+        "re_exports": "Re-eksport",
+        "imports": "Import",
+        "imports_retained": "Import Tertangguh",
+        "total": "Jumlah Perdagangan",
+        "balance": "Imbangan Dagangan",
+        "abs": "Mutlak (RM)",
+        "growth_yoy": "Pertumbuhan Tahun ke Tahun (%)",
+        "growth_mom": "Pertumbuhan Bulan ke Bulan (%)"
+    },
+    "related_datasets": []
+}
