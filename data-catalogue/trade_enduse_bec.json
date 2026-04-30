@@ -1,0 +1,229 @@
+{
+    "title_en": "Monthly Retained Imports by End Use and BEC",
+    "title_ms": "Import Tertangguh Bulanan mengikut Penggunaan Akhir dan BEC",
+    "title_sort": 10,
+    "description_en": "Monthly retained imports for Malaysia, broken down by Broad Economic Categories (BEC) and end use. This dataset covers the full hierarchy of BEC codes, enabling analysis of import composition.",
+    "description_ms": "Import tertangguh bulanan Malaysia yang dipecahkan mengikut klasifikasi penggunaan akhir Kategori Ekonomi Umum (BEC). Dataset ini merangkumi hierarki penuh kod BEC, membolehkan analisis komposisi import.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2026-03",
+    "last_updated": "2026-04-28 12:30",
+    "next_update": "2026-05-26 12:30",
+    "methodology_en": "This dataset presents monthly retained import data for Malaysia, broken down by Broad Economic Categories (BEC) and end use. For a full description of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/trade-technotes).",
+    "methodology_ms": "Dataset ini memaparkan data import tertangguh bulanan Malaysia yang dipecahkan mengikut Kategori Ekonomi Umum (BEC) dan penggunaan akhir. Untuk mendapat perincian metodologi yang penuh, sila merujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/trade-technotes).",
+    "caveat_en": "Data for the most recent two months is provisional and subject to revision in future updates.",
+    "caveat_ms": "Data bagi dua bulan terkini tertakluk kepada semakan semula dalam kemaskini akan datang.",
+    "publication_en": "[External Trade, Mar 2026](https://open.dosm.gov.my/publications/trade_2026-03), the latest edition of the monthly trade statistics published by DOSM. OpenDOSM also features a [dashboard on trade](https://open.dosm.gov.my/dashboard/external-trade).",
+    "publication_ms": "[Perdagangan Luar, Mac 2026](https://open.dosm.gov.my/ms-MY/publications/trade_2026-03), edisi terkini bagi statistik perdagangan bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan](https://open.dosm.gov.my/ms-MY/dashboard/external-trade).",
+    "link_parquet": "https://storage.dosm.gov.my/trade/trade_enduse_bec.parquet",
+    "link_csv": "https://storage.dosm.gov.my/trade/trade_enduse_bec.csv",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2010,
+    "dataset_end": 2026,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "BIPD"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "External Trade",
+            "subcategory_ms": "Perdagangan Luar",
+            "subcategory_sort": 40
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "External Trade",
+            "subcategory_ms": "Perdagangan Luar",
+            "subcategory_sort": 40
+        }
+    ],
+    "fields": [
+        {
+            "name": "series",
+            "title_en": "Series Type",
+            "title_ms": "Jenis Siri",
+            "description_en": "[Categorical] Either absolute values ('abs'), year-on-year growth ('growth_yoy') or month-on-month growth ('growth_mom')",
+            "description_ms": "[Kategori] Sama ada nilai mutlak ('abs'), pertumbuhan tahunan ('growth_yoy') atau pertumbuhan bulanan ('growth_mom')"
+        },
+        {
+            "name": "end_use",
+            "title_en": "End Use",
+            "title_ms": "Penggunaan Akhir",
+            "description_en": "[Categorical] BEC end-use category: total retained imports ('retained_imports'), durable assets ('capital'), goods used as inputs to production ('intermediate'), household consumption goods ('consumption'), dual-use goods ('dual_use'), goods not elsewhere specified ('nes'), or low-value transactions ('below_5000')",
+            "description_ms": "[Kategori] Kategori penggunaan akhir BEC: jumlah import tertangguh ('retained_imports'), aset tahan lama ('capital'), barangan yang digunakan sebagai input pengeluaran ('intermediate'), barangan penggunaan isi rumah ('consumption'), barangan kegunaan dual ('dual_use'), barangan tidak tersenarai di tempat lain ('nes'), atau transaksi bernilai rendah ('below_5000')"
+        },
+        {
+            "name": "bec",
+            "title_en": "BEC Code",
+            "title_ms": "Kod BEC",
+            "description_en": "[String] 3-digit BEC code, to be matched using the 'bec_code' column in the [BEC Data Dictionary](https://open.dosm.gov.my/data-catalogue/bec). The BEC data dictionary will give you the English and Malay definitions. The code '000' represents the aggregate across all BEC codes within the given end-use category.",
+            "description_ms": "[Rentetan] Kod BEC 3 digit yang perlu dipadankan dengan medan 'bec_code' dalam [Kamus Data BEC](https://open.dosm.gov.my/ms-MY/data-catalogue/bec). Padanan tersebut akan membolehkan anda mendapat keterangan dalam Bahasa Inggeris dan Bahasa Melayu. Kod '000' mewakili agregat bagi semua kod BEC dalam kategori penggunaan akhir yang dinyatakan."
+        },
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01 since the data is at monthly frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD ditetapkan sebagai 01 kerana data berfrekuensi bulanan"
+        },
+        {
+            "name": "imports",
+            "title_en": "Imports",
+            "title_ms": "Import",
+            "description_en": "[Float, RM] The value of retained imports for that end use and BEC",
+            "description_ms": "[Apung, RM] Nilai import tertangguh bagi penggunaan akhir dan BEC tersebut"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 1,
+                "filter_columns": [
+                    "series",
+                    "end_use",
+                    "bec"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "imports",
+            "title_en": "Imports",
+            "title_ms": "Import",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "series",
+                    "end_use",
+                    "bec"
+                ],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "imports"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Value",
+        "date": "Date",
+        "series": "Series Type",
+        "end_use": "End Use",
+        "bec": "BEC Code",
+        "imports": "Imports",
+        "abs": "Absolute (RM)",
+        "growth-yoy": "Year-on-Year Growth (%)",
+        "growth-mom": "Month-on-Month Growth (%)",
+        "retained-imports": "Retained Imports",
+        "capital": "Capital",
+        "intermediate": "Intermediate",
+        "consumption": "Consumption",
+        "dual_use": "Dual Use",
+        "nes": "Not Elsewhere Specified",
+        "below_5000": "Below RM5,000",
+        "000": "All categories",
+        "100": "Food & beverages",
+        "110": "Food & beverages > Primary",
+        "111": "Food & beverages > Primary > For industry",
+        "112": "Food & beverages > Primary > For households",
+        "120": "Food & beverages > Processed",
+        "121": "Food & beverages > Processed > For industry",
+        "122": "Food & beverages > Processed > For households",
+        "200": "Industrial supplies NES",
+        "210": "Industrial supplies NES > Primary",
+        "220": "Industrial supplies NES > Processed",
+        "300": "Fuels & lubricants",
+        "310": "Fuels & lubricants > Primary",
+        "320": "Fuels & lubricants > Processed",
+        "321": "Fuels & lubricants > Processed > Motor spirit",
+        "322": "Fuels & lubricants > Processed > Others",
+        "400": "Capital goods (excl. transport) & parts",
+        "410": "Capital goods (excl. transport) > Capital goods",
+        "420": "Capital goods (excl. transport) > Parts & accessories",
+        "500": "Transport equipment & parts",
+        "510": "Transport equipment > Passenger vehicles",
+        "520": "Transport equipment > Other",
+        "521": "Transport equipment > Other > Industrial",
+        "522": "Transport equipment > Other > Non-industrial",
+        "530": "Transport equipment > Parts & accessories",
+        "600": "Consumer goods NES",
+        "610": "Consumer goods NES > Durable",
+        "620": "Consumer goods NES > Semi-durable",
+        "630": "Consumer goods NES > Non-durable",
+        "700": "NES",
+        "800": "Transactions under RM5,000"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Nilai",
+        "date": "Tarikh",
+        "series": "Jenis Siri",
+        "end_use": "Penggunaan Akhir",
+        "bec": "Kod BEC",
+        "imports": "Import",
+        "abs": "Mutlak (RM)",
+        "growth-yoy": "Pertumbuhan Tahun ke Tahun (%)",
+        "growth-mom": "Pertumbuhan Bulan ke Bulan (%)",
+        "retained-imports": "Import Tertangguh",
+        "capital": "Modal",
+        "intermediate": "Perantaraan",
+        "consumption": "Penggunaan",
+        "dual_use": "Kegunaan Dual",
+        "nes": "Tidak Tersenarai di Tempat Lain",
+        "below_5000": "Bawah RM5,000",
+        "000": "Semua kategori",
+        "100": "Makanan & minuman",
+        "110": "Makanan & minuman > Utama",
+        "111": "Makanan & minuman > Utama > Untuk industri",
+        "112": "Makanan & minuman > Utama > Untuk isi rumah",
+        "120": "Makanan & minuman > Diproses",
+        "121": "Makanan & minuman > Diproses > Untuk industri",
+        "122": "Makanan & minuman > Diproses > Untuk isi rumah",
+        "200": "Bekalan perindustrian TTTL",
+        "210": "Bekalan perindustrian TTTL > Utama",
+        "220": "Bekalan perindustrian TTTL > Diproses",
+        "300": "Bahan api & pelincir",
+        "310": "Bahan api & pelincir > Utama",
+        "320": "Bahan api & pelincir > Diproses",
+        "321": "Bahan api & pelincir > Diproses > Minyak kenderaan",
+        "322": "Bahan api & pelincir > Diproses > Lain-lain",
+        "400": "Barangan modal (kecuali pengangkutan) & alat ganti",
+        "410": "Barangan modal (kecuali pengangkutan) > Barangan modal",
+        "420": "Barangan modal (kecuali pengangkutan) > Alat ganti & aksesori",
+        "500": "Alat pengangkutan & alat ganti",
+        "510": "Alat pengangkutan > Motokar penumpang",
+        "520": "Alat pengangkutan > Lain-lain",
+        "521": "Alat pengangkutan > Lain-lain > Perindustrian",
+        "522": "Alat pengangkutan > Lain-lain > Bukan perindustrian",
+        "530": "Alat pengangkutan > Alat ganti & aksesori",
+        "600": "Barangan penggunaan TTTL",
+        "610": "Barangan penggunaan TTTL > Tahan lama",
+        "620": "Barangan penggunaan TTTL > Separa tahan lama",
+        "630": "Barangan penggunaan TTTL > Tidak tahan lama",
+        "700": "NES",
+        "800": "Transaksi bawah RM5,000"
+    },
+    "related_datasets": []
+}
