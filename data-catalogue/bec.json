@@ -1,0 +1,109 @@
+{
+    "title_en": "Broad Economic Categories (BEC)",
+    "title_ms": "Kategori Ekonomi Umum (BEC)",
+    "title_sort": 10,
+    "description_en": "This table provides a lookup for codes under the Broad Economic Categories (BEC) classification, as applied and used by publications in Malaysia. The BEC is primarily used by the Department of Statistics Malaysia (DOSM), for instance when categorising and analysing imports by end-use.",
+    "description_ms": "Jadual ini memberi rujukan bagi kod yang terkandung dalam penjenisan Kategori Ekonomi Umum (BEC), seperti yang digunapakai dalam penerbitan data di Malaysia. BEC digunakan terutamanya oleh Jabatan Perangkaan Malaysia (DOSM), misalnya dalam mengkategorikan dan menganalisa data import mengikut penggunaan akhir.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2026-03",
+    "last_updated": "2026-04-28",
+    "next_update": "-",
+    "methodology_en": "The BEC used in Malaysia is based on the [BEC published by the United Nations Statistics Division](https://unstats.un.org/unsd/trade/classifications/bec.asp), which provides a framework for classifying internationally traded goods by their broad economic end-use. The code 000 does not exist in the international version, but is included here for analytical ease to indicate overall values.",
+    "methodology_ms": "BEC yang digunapakai di Malaysia adalah berdasarkan [BEC yang diterbitkan oleh Bahagian Statistik Pertubuhan Bangsa-bangsa Bersatu](https://unstats.un.org/unsd/trade/classifications/bec.asp), yang menyediakan rangka kerja untuk mengklasifikasikan barangan dagangan antarabangsa mengikut penggunaan akhir ekonomi. Kod 000 tidak wujud dalam versi antarabangsa, tetapi disertakan di sini untuk kemudahan analisis, khususnya untuk menunjukkan nilai keseluruhan.",
+    "caveat_en": "—",
+    "caveat_ms": "—",
+    "publication_en": "—",
+    "publication_ms": "—",
+    "link_parquet": "https://storage.dosm.gov.my/dictionaries/bec.parquet",
+    "link_csv": "https://storage.dosm.gov.my/dictionaries/bec.csv",
+    "frequency": "INFREQUENT",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2008,
+    "dataset_end": 2008,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "BIPD"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Data Dictionaries",
+            "category_ms": "Kamus Data",
+            "category_sort": 110,
+            "subcategory_en": "National",
+            "subcategory_ms": "Nasional",
+            "subcategory_sort": 1
+          },
+          {
+            "site": "opendosm",
+            "category_en": "Data Dictionaries",
+            "category_ms": "Kamus Data",
+            "category_sort": 110,
+            "subcategory_en": "National",
+            "subcategory_ms": "Nasional",
+            "subcategory_sort": 1
+          }
+    ],
+    "fields": [
+        {
+            "name": "bec_code",
+            "title_en": "BEC Code",
+            "title_ms": "Kod BEC",
+            "description_en": "[String] 3-digit BEC code; please ensure that you read this column as a string.",
+            "description_ms": "[Rentetan] Kod BEC 3 digit; sila pastikan anda membaca lajur ini sebagai rentetan."
+        },
+        {
+            "name": "end_use",
+            "title_en": "End Use",
+            "title_ms": "Penggunaan Akhir",
+            "description_en": "[String] Broad end-use category of the goods: Durable assets ('capital'), goods used as inputs to the production of other goods ('intermediate'), consumption goods ('consumption'), dual-use goods ('dual_use'), goods not elsewhere specified ('nes'), or transactions below RM5000 ('below_5000').",
+            "description_ms": "[Rentetan] Kategori penggunaan akhir barangan secara umum: Aset tahan lama ('capital'), barangan yang digunakan sebagai input kepada pengeluaran barangan lain ('intermediate'), barangan penggunaan ('consumption'), barangan kegunaan industri dan rumah ('dual_use'), barangan tidak tersenarai di tempat lain ('nes'), atau transaksi di bawah RM5000 ('below_5000')."
+        },
+        {
+            "name": "desc_en",
+            "title_en": "Description (EN)",
+            "title_ms": "Keterangan (EN)",
+            "description_en": "[String] Description for the code, in English",
+            "description_ms": "[Rentetan] Keterangan kod dalam Bahasa Inggeris"
+        },
+        {
+            "name": "desc_bm",
+            "title_en": "Description (BM)",
+            "title_ms": "Keterangan (BM)",
+            "description_en": "[String] Description for the code, in Malay",
+            "description_ms": "[Rentetan] Keterangan kod dalam Bahasa Melayu"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "bec_code": "BEC Code",
+        "end_use": "End Use",
+        "desc_en": "Description (EN)",
+        "desc_bm": "Description (BM)"
+    },
+    "translations_ms": {
+        "bec_code": "Kod BEC",
+        "end_use": "Penggunaan Akhir",
+        "desc_en": "Keterangan (EN)",
+        "desc_bm": "Keterangan (BM)"
+    },
+    "related_datasets": []
+}
