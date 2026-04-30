@@ -216,8 +216,8 @@
         "total": "Total Trade",
         "balance": "Trade Balance",
         "abs": "Absolute (RM)",
-        "growth_yoy": "Year-on-Year Growth (%)",
-        "growth_mom": "Month-on-Month Growth (%)"
+        "growth-yoy": "Year-on-Year Growth (%)",
+        "growth-mom": "Month-on-Month Growth (%)"
     },
     "translations_ms": {
         "x": "Tarikh",
@@ -232,8 +232,8 @@
         "total": "Jumlah Perdagangan",
         "balance": "Imbangan Dagangan",
         "abs": "Mutlak (RM)",
-        "growth_yoy": "Pertumbuhan Tahun ke Tahun (%)",
-        "growth_mom": "Pertumbuhan Bulan ke Bulan (%)"
+        "growth-yoy": "Pertumbuhan Tahun ke Tahun (%)",
+        "growth-mom": "Pertumbuhan Bulan ke Bulan (%)"
     },
     "related_datasets": []
 }
