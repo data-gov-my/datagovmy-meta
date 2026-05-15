@@ -1,8 +1,4 @@
 {
-<<<<<<< Updated upstream
-    "manual_trigger": "2026-04-29 17:26:59.179937",
-=======
-    "manual_trigger": "2026-04-14 08:18:14.943171",
->>>>>>> Stashed changes
+    "manual_trigger": "",
     "parquet_link": "https://storage.dosm.gov.my/meta/arc_full.parquet"
 }
