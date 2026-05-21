@@ -2,6 +2,7 @@
     "publication": "bc_2026-03",
     "publication_type": "bci",
     "release_date": "2026-04-09",
+    "abort_email": true,
     "frequency": "MONTHLY",
     "geography": [
         "NATIONAL",
