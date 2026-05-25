@@ -1,20 +1,20 @@
 {
-    "data_last_updated": "2026-05-24 16:33",
-    "data_next_update": "2026-05-25 22:00",
+    "data_last_updated": "2026-05-26 02:39",
+    "data_next_update": "2026-05-26 22:00",
     "sites": [
         "datagovmy"
     ],
-    "manual_trigger": "2026-05-24 16:33:38.466205",
+    "manual_trigger": "2026-05-26 02:39:39.369999",
     "explorer_name": "Prasarana",
     "route": "/dashboard/rapid-explorer,/ms-MY/dashboard/rapid-explorer",
     "tables": {
         "PrasaranaTimeseries": {
-            "data_as_of": "2026-05-23 23:59",
+            "data_as_of": "2026-05-24 23:59",
             "source": "https://storage.data.gov.my/dashboards/prasarana_timeseries.parquet",
             "update": "REBUILD"
         },
         "PrasaranaTimeseriesCallout": {
-            "data_as_of": "2026-05-23 23:59",
+            "data_as_of": "2026-05-24 23:59",
             "source": "https://storage.data.gov.my/dashboards/prasarana_timeseries_callout.parquet",
             "update": "REBUILD"
         }
