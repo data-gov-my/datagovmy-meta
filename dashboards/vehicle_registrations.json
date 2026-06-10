@@ -1,12 +1,12 @@
 {
     "dashboard_name": "vehicle_registrations",
-    "data_last_updated": "2026-06-10 20:00",
+    "data_last_updated": "2026-06-10 20:02",
     "data_next_update": "2026-07-10 16:00",
     "route": "/dashboard/vehicle-registrations,/ms-MY/dashboard/vehicle-registrations",
     "sites": [
         "datagovmy"
     ],
-    "manual_trigger": "2026-06-10 20:00:36.248278",
+    "manual_trigger": "2026-06-10 20:01:45.005948",
     "required_params": [],
     "optional_params": [],
     "charts": {
