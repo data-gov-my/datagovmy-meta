@@ -5,7 +5,7 @@
     "description_en": "Monthly unemployment statistics focusing on the 15-30 age group.",
     "description_ms": "Statistik pengangguran bulanan dengan fokus pada kumpulan umur 15-30.",
     "exclude_openapi": false,
-    "manual_trigger": "2026-06-11 16:41:11.917165",
+    "manual_trigger": "2026-06-11 16:42:50.877942",
     "data_as_of": "2026-04",
     "last_updated": "2026-06-11 12:30",
     "next_update": "2026-07-10 12:30",
