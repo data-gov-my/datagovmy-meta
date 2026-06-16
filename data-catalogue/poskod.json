@@ -1,0 +1,92 @@
+{
+    "link_csv": "https://storage.data.gov.my/dev/poskod.csv",
+    "link_parquet": "https://storage.data.gov.my/dev/poskod.parquet",
+    "link_preview": "https://storage.data.gov.my/dev/poskod.parquet",
+    "title_en": "Postal Code Lookup",
+    "title_ms": "Carian Poskod",
+    "description_en": "This dataset provides a lookup table for postal codes (poskod) in Malaysia, including the corresponding city (bandar) and state (negeri). Postal codes are used to identify specific geographical areas to facilitate the sorting and delivery of mail.",
+    "description_ms": "Set data ini menyediakan jadual carian untuk poskod di Malaysia, termasuk bandar dan negeri yang sepadan. Poskod digunakan untuk mengenal pasti kawasan geografi tertentu bagi memudahkan proses penyusunan dan penghantaran surat.",
+    "title_sort": 1,
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2026-06-08 09:00:00.000 +08:00",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "NATIONALITY"
+    ],
+    "dataset_begin": 2026,
+    "dataset_end": 2026,
+    "data_source": [
+        "MCMC"
+    ],
+    "methodology_en": "The dataset is compiled from official postal code records, ensuring accuracy in linking postal codes to their respective cities and states. It is updated annually to reflect any changes in postal code allocations.",
+    "methodology_ms": "Set data ini disusun daripada rekod poskod rasmi, memastikan ketepatan dalam menghubungkan poskod kepada bandar dan negeri masing-masing. Ia dikemas kini setiap tahun untuk mencerminkan sebarang perubahan dalam peruntukan poskod.",
+    "caveat_en": "This dataset is intended for general reference and may not reflect real-time changes in postal code allocations. Users should verify with official postal services for the most current information.",
+    "caveat_ms": "Set data ini bertujuan untuk rujukan umum dan mungkin tidak mencerminkan perubahan masa nyata dalam peruntukan poskod. Pengguna harus mengesahkan dengan perkhidmatan pos rasmi untuk maklumat terkini.",
+    "publication_en": "N/A",
+    "publication_ms": "N/A",
+    "related_datasets": [],
+    "last_updated": "2026-06-16 14:33:33.327 +08:00",
+    "next_update": "-",
+    "fields": [
+        {
+            "name": "poskod",
+            "title_en": "Postal Code",
+            "title_ms": "Poskod",
+            "description_en": "The 5-digit postal code representing a specific area within Malaysia.",
+            "description_ms": "Poskod 5-digit yang mewakili kawasan tertentu di Malaysia."
+        },
+        {
+            "name": "bandar",
+            "title_en": "City",
+            "title_ms": "Bandar",
+            "description_en": "The name of the city or town associated with the postal code.",
+            "description_ms": "Nama bandar atau pekan yang berkaitan dengan poskod."
+        },
+        {
+            "name": "negeri",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "The state in Malaysia where the city or town is located.",
+            "description_ms": "Negeri di Malaysia di mana bandar atau pekan itu terletak."
+        }
+    ],
+    "translations_en": {
+        "poskod": "Postal Code",
+        "bandar": "City",
+        "negeri": "State"
+    },
+    "translations_ms": {
+        "poskod": "Poskod",
+        "bandar": "Bandar",
+        "negeri": "Negeri"
+    },
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Data Dictionaries",
+            "category_ms": "Dictionary Data",
+            "category_sort": 110,
+            "subcategory_en": "Others",
+            "subcategory_ms": "Lain-lain",
+            "subcategory_sort": 10000
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ]
+}
