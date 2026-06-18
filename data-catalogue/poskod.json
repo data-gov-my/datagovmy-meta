@@ -26,7 +26,7 @@
     "methodology_en": "The dataset is compiled annually and includes all recognized postcodes across Malaysia. The data is aggregated from official postal service records to ensure accuracy and comprehensiveness. It is structured to allow easy mapping of postcodes to their respective cities and states.",
     "methodology_ms": "Dataset ini disusun setiap tahun dan merangkumi semua poskod yang diiktiraf di seluruh Malaysia. Data ini dikumpulkan daripada rekod perkhidmatan pos rasmi untuk memastikan ketepatan dan kelengkapan. Ia distrukturkan untuk membolehkan pemetaan poskod yang mudah kepada bandar dan negeri masing-masing.",
     "caveat_en": "This dataset is updated on a yearly basis, and changes in postal codes or administrative boundaries may not be immediately reflected. Users should verify the current validity of postcodes for critical applications.",
-    "caveat_ms": "Dataset ini dikemas kini setiap tahun, dan perubahan dalam kod pos atau sempadan pentadbiran mungkin tidak segera tercermin. Pengguna harus mengesahkan kesahihan poskod semasa untuk aplikasi penting.",
+    "caveat_ms": "Set data ini dikemas kini setiap tahun, dan perubahan dalam kod pos atau sempadan pentadbiran mungkin tidak segera tercermin. Pengguna harus mengesahkan kesahihan poskod semasa untuk aplikasi penting.",
     "publication_en": "N/A",
     "publication_ms": "N/A",
     "related_datasets": [],
