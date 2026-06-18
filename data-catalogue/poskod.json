@@ -1,0 +1,92 @@
+{
+    "link_csv": "https://storage.data.gov.my/dev/poskod.csv",
+    "link_parquet": "https://storage.data.gov.my/dev/poskod.parquet",
+    "link_preview": "https://storage.data.gov.my/dev/poskod.parquet",
+    "title_en": "Postcode Dataset",
+    "title_ms": "Dataset Poskod",
+    "description_en": "This dataset contains a list of postcodes in Malaysia, associated with their respective cities and states. Postcodes are a series of numbers (or letters) added to a mailing address to facilitate the sorting and delivery of mail by postal and courier services. Each postcode is assigned to a specific zone, area, or district, helping to ensure efficient mail delivery.",
+    "description_ms": "Dataset ini mengandungi senarai poskod di Malaysia, yang dikaitkan dengan bandar dan negeri masing-masing. Poskod adalah satu siri nombor (atau huruf) yang ditambah kepada alamat surat-menyurat untuk memudahkan penyusunan dan penghantaran surat oleh perkhidmatan pos dan kurier. Setiap poskod diberikan kepada zon, kawasan, atau daerah tertentu, membantu memastikan penghantaran surat yang cekap.",
+    "title_sort": 1,
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2026-06-15 09:00:00.000 +08:00",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "NATIONALITY"
+    ],
+    "dataset_begin": 2026,
+    "dataset_end": 2026,
+    "data_source": [
+        "MCMC"
+    ],
+    "methodology_en": "The dataset is compiled annually and includes all recognized postcodes across Malaysia. The data is aggregated from official postal service records to ensure accuracy and comprehensiveness. It is structured to allow easy mapping of postcodes to their respective cities and states.",
+    "methodology_ms": "Dataset ini disusun setiap tahun dan merangkumi semua poskod yang diiktiraf di seluruh Malaysia. Data ini dikumpulkan daripada rekod perkhidmatan pos rasmi untuk memastikan ketepatan dan kelengkapan. Ia distrukturkan untuk membolehkan pemetaan poskod yang mudah kepada bandar dan negeri masing-masing.",
+    "caveat_en": "This dataset is updated on a yearly basis, and changes in postal codes or administrative boundaries may not be immediately reflected. Users should verify the current validity of postcodes for critical applications.",
+    "caveat_ms": "Dataset ini dikemas kini setiap tahun, dan perubahan dalam kod pos atau sempadan pentadbiran mungkin tidak segera tercermin. Pengguna harus mengesahkan kesahihan poskod semasa untuk aplikasi penting.",
+    "publication_en": "N/A",
+    "publication_ms": "N/A",
+    "related_datasets": [],
+    "last_updated": "2026-06-16 15:09:33.812 +08:00",
+    "next_update": "-",
+    "fields": [
+        {
+            "name": "poskod",
+            "title_en": "Postcode",
+            "title_ms": "Poskod",
+            "description_en": "The postcode associated with a specific area or district in Malaysia.",
+            "description_ms": "Poskod yang dikaitkan dengan kawasan atau daerah tertentu di Malaysia."
+        },
+        {
+            "name": "bandar",
+            "title_en": "City",
+            "title_ms": "Bandar",
+            "description_en": "The city or town associated with the postcode.",
+            "description_ms": "Bandar atau pekan yang dikaitkan dengan poskod."
+        },
+        {
+            "name": "negeri",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "The state in which the city or town is located.",
+            "description_ms": "Negeri di mana bandar atau pekan itu terletak."
+        }
+    ],
+    "translations_en": {
+        "poskod": "Postcode",
+        "bandar": "City",
+        "negeri": "State"
+    },
+    "translations_ms": {
+        "poskod": "Poskod",
+        "bandar": "Bandar",
+        "negeri": "Negeri"
+    },
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Data Dictionaries",
+            "category_ms": "Dictionary Data",
+            "category_sort": 110,
+            "subcategory_en": "Others",
+            "subcategory_ms": "Lain-lain",
+            "subcategory_sort": 10000
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ]
+}
