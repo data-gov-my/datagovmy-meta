@@ -5,7 +5,7 @@
     "title_en": "Postcode Dataset",
     "title_ms": "Dataset Poskod",
     "description_en": "This dataset contains a list of postcodes in Malaysia, associated with their respective cities and states. Postcodes are a series of numbers (or letters) added to a mailing address to facilitate the sorting and delivery of mail by postal and courier services. Each postcode is assigned to a specific zone, area, or district, helping to ensure efficient mail delivery.",
-    "description_ms": "Dataset ini mengandungi senarai poskod di Malaysia, yang dikaitkan dengan bandar dan negeri masing-masing. Poskod adalah satu siri nombor (atau huruf) yang ditambah kepada alamat surat-menyurat untuk memudahkan penyusunan dan penghantaran surat oleh perkhidmatan pos dan kurier. Setiap poskod diberikan kepada zon, kawasan, atau daerah tertentu, membantu memastikan penghantaran surat yang cekap.",
+    "description_ms": "Set data ini mengandungi senarai poskod di Malaysia, yang dikaitkan dengan bandar dan negeri masing-masing. Poskod adalah satu siri nombor (atau huruf) yang ditambah kepada alamat surat-menyurat untuk memudahkan penyusunan dan penghantaran surat oleh perkhidmatan pos dan kurier. Setiap poskod diberikan kepada zon, kawasan, atau daerah tertentu, membantu memastikan penghantaran surat yang cekap.",
     "title_sort": 1,
     "exclude_openapi": false,
     "manual_trigger": "",
