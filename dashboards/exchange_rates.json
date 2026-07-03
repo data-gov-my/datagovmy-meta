@@ -1,12 +1,12 @@
 {
     "dashboard_name": "exchange_rates",
-    "data_last_updated": "2026-07-02 14:18",
-    "data_next_update": "2026-07-02 12:45",
+    "data_last_updated": "2026-07-04 00:27",
+    "data_next_update": "2026-07-04 12:45",
     "route": "/dashboard/exchange-rates,/ms-MY/dashboard/exchange-rates",
     "sites": [
         "opendosm"
     ],
-    "manual_trigger": "2026-07-02 14:18:23.195347",
+    "manual_trigger": "2026-07-04 00:27:40.263055",
     "required_params": [],
     "optional_params": [],
     "charts": {
@@ -14,7 +14,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/er_timeseries.parquet",
-            "data_as_of": "2026-07-01 12:00",
+            "data_as_of": "2026-07-03 12:00",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -61,7 +61,7 @@
             "name": "statistics",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/er_timeseries_callout.parquet",
-            "data_as_of": "2026-07-01 12:00",
+            "data_as_of": "2026-07-03 12:00",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -81,7 +81,7 @@
             "name": "bar_chart",
             "chart_type": "bar_chart",
             "chart_source": "https://storage.data.gov.my/dashboards/er_barchart.parquet",
-            "data_as_of": "2026-07-01 12:00",
+            "data_as_of": "2026-07-03 12:00",
             "api_type": "static",
             "api_params": [],
             "variables": {
