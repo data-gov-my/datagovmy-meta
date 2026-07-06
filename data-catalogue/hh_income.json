@@ -6,8 +6,8 @@
     "description_ms": "Purata dan penengah pendapatan kasar bulanan isi rumah di Malaysia dari 1970 hingga 2022.",
     "exclude_openapi": false,
     "manual_trigger": "",
-    "data_as_of": "2022",
-    "last_updated": "2023-07-28 12:00",
+    "data_as_of": "2024",
+    "last_updated": "2025-12-31 12:00",
     "next_update": "\u2014",
     "methodology_en": "Data on individual salaries and wages [in the formal economy](https://open.dosm.gov.my/dashboard/formal-sector-wages) is easy to obtain from administrative records. However, data on household income is more difficult to tabulate, as it requires the correct definition of a statistical household, as well as the inclusion of non-salary sources of income such as property income, dividends, and interest. For this reason, it requires the use of a representative survey or census.\n\n In Malaysia, data on household income (as well as expenditure and access to basic amenities) is collected through the Household Income and Expenditure Survey (HIES), which is conducted at least twice within any 5-year period. The data shown here was tabulated from household-level HIES records spanning 1970 to 2022 (the latest edition). For a full description of the methodology, please refer to the [technical notes](https://open.dosm.gov.my/publications/technical-notes/hies-technotes).",
     "methodology_ms": "Data mengenai gaji dan upah individu [dalam ekonomi formal](https://open.dosm.gov.my/ms-MY/dashboard/formal-sector-wages) mudah diperoleh daripada rekod pentadbiran. Sebaliknya, data mengenai pendapatan isi rumah lebih sukar untuk dihasilkan, kerana ia memerlukan definisi statistik yang tepat bagi isi rumah, serta sumber pendapatan bukan gaji seperti pendapatan hartanah, dividen, dan faedah. Oleh itu, ia memerlukan penggunaan survei atau banci.\n\nDi Malaysia, data mengenai pendapatan isi rumah (serta perbelanjaan dan akses kepada kemudahan asas) dikumpul melalui Survei Pendapatan dan Perbelanjaan Isi Rumah (HIES), yang dilaksanakan sekurang-kurangnya dua kali dalam mana-mana tempoh 5 tahun. Data yang dipaparkan di sini telah dihasilkan daripada rekod HIES peringkat isi rumah dari tahun 1970 hingga 2022 (edisi terkini). Untuk mendapat perincian metodologi yang penuh, sila rujuk kepada [nota teknikal](https://open.dosm.gov.my/publications/technical-notes/hies-technotes).",
@@ -23,7 +23,7 @@
     ],
     "demography": [],
     "dataset_begin": 1970,
-    "dataset_end": 2022,
+    "dataset_end": 2024,
     "data_source": [
         "DOSM"
     ],
