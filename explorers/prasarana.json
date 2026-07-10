@@ -1,10 +1,10 @@
 {
-    "data_last_updated": "2026-07-10 15:47",
+    "data_last_updated": "2026-07-10 15:54",
     "data_next_update": "2026-07-11 22:00",
     "sites": [
         "datagovmy"
     ],
-    "manual_trigger": "2026-07-10 15:47:58.613595",
+    "manual_trigger": "2026-07-10 15:54:34.400348",
     "explorer_name": "Prasarana",
     "route": "/dashboard/rapid-explorer,/ms-MY/dashboard/rapid-explorer",
     "tables": {
