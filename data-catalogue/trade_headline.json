@@ -6,7 +6,7 @@
     "description_ms": "Statistik eksport, import, jumlah perdagangan, dan imbangan dagangan bulanan Malaysia.",
     "exclude_openapi": false,
     "manual_trigger": "2025-02-06 09:45:14.188498",
-    "data_as_of": "2026-03",
+    "data_as_of": "2026-05",
     "last_updated": "2026-06-26 12:30",
     "next_update": "2026-07-28 12:30",
     "methodology_en": "This dataset presents headline monthly trade data for Malaysia, comprising total exports, domestic exports, re-exports, total imports, retained imports, total trade, and trade balance. Users should note that this data only covers the trade in goods; data on trade in services is published on a quarterly frequency as part of the balance of payments publication. For a full description of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/trade-technotes).",
