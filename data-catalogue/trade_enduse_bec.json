@@ -6,7 +6,7 @@
     "description_ms": "Import tertangguh bulanan mengikut penggunaan akhir dan Kategori Ekonomi Umum (BEC).",
     "exclude_openapi": false,
     "manual_trigger": "",
-    "data_as_of": "2026-03",
+    "data_as_of": "2026-05",
     "last_updated": "2026-06-26 12:30",
     "next_update": "2026-07-28 12:30",
     "methodology_en": "This dataset presents monthly retained imports, broken down by Broad Economic Categories (BEC) and end use. The classification of BEC is based on the [4th revision of the BEC published by the United Nations Statistics Division](https://unstats.un.org/unsd/trade/classifications/bec.asp), which maps HS codes onto the basic classes of goods in national accounts (capital, intermediate, and consumer goods). For a full description of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/trade-technotes).",
