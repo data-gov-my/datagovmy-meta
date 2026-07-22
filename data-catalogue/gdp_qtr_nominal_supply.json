@@ -5,7 +5,7 @@
     "description_en": "Quarterly gross domestic product (GDP) at current prices for the 5 main economic sectors.",
     "description_ms": "Keluaran dalam negeri kasar (KDNK) suku tahunan pada harga semasa bagi 5 sektor ekonomi utama.",
     "exclude_openapi": false,
-    "manual_trigger": "2026-07-22 22:49:32.010506",
+    "manual_trigger": "2026-07-22 23:46:55.787504",
     "data_as_of": "2026-Q1",
     "last_updated": "2026-05-15 12:00",
     "next_update": "2026-08-14 12:00",
