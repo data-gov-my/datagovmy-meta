@@ -5,7 +5,7 @@
     "description_en": "Seasonally adjusted quarterly gross domestic product (GDP) at constant 2015 prices.",
     "description_ms": "Keluaran dalam negeri kasar (KDNK) suku tahunan yang terlaras secara musim, pada harga malar 2015.",
     "exclude_openapi": false,
-    "manual_trigger": "2026-07-22 23:46:55.789567",
+    "manual_trigger": "2026-07-22 23:47:32.185135",
     "data_as_of": "2026-Q1",
     "last_updated": "2026-05-15 12:00",
     "next_update": "2026-08-14 12:00",
