@@ -5,7 +5,7 @@
     "description_en": "Quarterly gross domestic product (GDP) at constant 2015 prices by economic subsector. The table provides a preview of the full dataset using the latest year's data only.",
     "description_ms": "Keluaran dalam negeri kasar (KDNK) suku tahunan pada harga malar 2015 mengikut subsektor ekonomi. Jadual memberi pratonton kepada set data penuh dengan menggunakan data tahun terkini sahaja.",
     "exclude_openapi": true,
-    "manual_trigger": "2026-07-22 23:47:15.359519",
+    "manual_trigger": "2026-07-22 23:47:32.187371",
     "data_as_of": "2026-Q1",
     "last_updated": "2026-05-15 12:00",
     "next_update": "2026-08-14 12:00",
