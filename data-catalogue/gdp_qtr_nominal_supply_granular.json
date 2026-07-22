@@ -5,7 +5,7 @@
     "description_en": "Quarterly gross domestic product (GDP) at current prices by economic subsector. The table provides a preview of the full dataset using the latest year's data only.",
     "description_ms": "Keluaran dalam negeri kasar (KDNK) suku tahunan pada harga semasa mengikut subsektor ekonomi. Jadual memberi pratonton kepada set data penuh dengan menggunakan data tahun terkini sahaja.",
     "exclude_openapi": true,
-    "manual_trigger": "2026-07-22 21:49:12.957771",
+    "manual_trigger": "2026-07-22 21:49:51.549769",
     "data_as_of": "2025-Q4",
     "last_updated": "2026-05-15 12:00",
     "next_update": "2026-08-14 12:00",

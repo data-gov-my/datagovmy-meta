@@ -5,7 +5,7 @@
     "description_en": "Quarterly gross domestic product (GDP) at current prices, by expenditure type.",
     "description_ms": "Keluaran dalam negeri kasar (KDNK) suku tahunan pada harga semasa, mengikut jenis perbelanjaan.",
     "exclude_openapi": false,
-    "manual_trigger": "2026-07-22 21:49:12.955651",
+    "manual_trigger": "2026-07-22 21:49:51.547714",
     "data_as_of": "2025-Q4",
     "last_updated": "2026-05-15 12:00",
     "next_update": "2026-08-14 12:00",

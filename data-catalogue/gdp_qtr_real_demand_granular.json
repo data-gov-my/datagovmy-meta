@@ -5,7 +5,7 @@
     "description_en": "Quarterly gross domestic product (GDP) at constant 2015 prices, by expenditure type and subtype. The table provides a preview of the full dataset using the latest year's data only.",
     "description_ms": "Keluaran dalam negeri kasar (KDNK) suku tahunan pada harga malar 2015, mengikut jenis dan subjenis perbelanjaan. Jadual memberi pratonton kepada set data penuh dengan menggunakan data tahun terkini sahaja.",
     "exclude_openapi": true,
-    "manual_trigger": "2026-07-22 21:49:12.959586",
+    "manual_trigger": "2026-07-22 21:49:51.552027",
     "data_as_of": "2025-Q4",
     "last_updated": "2026-05-15 12:00",
     "next_update": "2026-08-14 12:00",
