@@ -5,7 +5,7 @@
     "description_en": "Quarterly gross domestic product (GDP) at constant 2015 prices.",
     "description_ms": "Keluaran dalam negeri kasar (KDNK) suku tahunan pada harga malar 2015.",
     "exclude_openapi": false,
-    "manual_trigger": "2026-07-22 21:49:12.958273",
+    "manual_trigger": "2026-07-22 21:49:51.550606",
     "data_as_of": "2025-Q4",
     "last_updated": "2026-05-15 12:00",
     "next_update": "2026-08-14 12:00",
