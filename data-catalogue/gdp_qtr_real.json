@@ -6,7 +6,7 @@
     "description_ms": "Keluaran dalam negeri kasar (KDNK) suku tahunan pada harga malar 2015.",
     "exclude_openapi": false,
     "manual_trigger": "2026-05-15 12:14:59.684789",
-    "data_as_of": "2025-Q4",
+    "data_as_of": "2026-Q1",
     "last_updated": "2026-05-15 12:00",
     "next_update": "2026-08-14 12:00",
     "methodology_en": "Gross domestic product (GDP) is the total value of goods and services produced within that year, after deducting the cost of goods and services used in production, but before deducting the consumption of fixed capital. In Malaysia, GDP is estimated in compliance with the [System of National Accounts (2008)](https://storage.dosm.gov.my/technotes/sna_2008.pdf).\n\nThe values in this dataset are measured at constant 2015 prices, i.e. with price effects removed relative to a base year (2015 = 100). For a full description of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/gdp-technotes).",
