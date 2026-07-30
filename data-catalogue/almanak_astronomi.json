@@ -1,0 +1,81 @@
+{
+    "link_csv": "https://storage.data.gov.my/publicadmin/alamanak_astronomi.csv",
+    "link_parquet": "https://storage.data.gov.my/publicadmin/alamanak_astronomi.parquet",
+    "link_preview": "https://storage.data.gov.my/publicadmin/alamanak_astronomi.parquet",
+    "title_en": "Astronomy Almanac ",
+    "title_ms": "Almanak Astronomi",
+    "description_en": "This dataset provides a detailed schedule of celestial phenomena and astronomical events as observed from Malaysia (localized to Kuala Lumpur coordinates). It includes the specific timings for lunar phases, meteor showers, planetary elongations, solstices, and equinoxes.",
+    "description_ms": "Set data ini menyediakan jadual terperinci mengenai fenomena samawi dan peristiwa astronomi yang boleh diperhatikan dari Malaysia (diselaraskan mengikut koordinat Kuala Lumpur). Ia merangkumi waktu spesifik bagi fasa bulan, hujan meteor, elongasi planet, solstis, dan ekuinoks.",
+    "title_sort": 1,
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2026-04-01 16:11:00.000 +08:00",
+    "frequency": "DAILY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": "2022",
+    "dataset_end": 2026,
+    "data_source": [
+        "Met"
+    ],
+    "methodology_en": "This data is technically produced by the Malaysian Space Agency (MYSA) using professional astronomical simulation software, such as The SkyX and Stellarium, to calculate the precise positioning of celestial bodies based on Kuala Lumpur's geographic coordinates. The process involves localizing global astronomical data to Malaysia’s time zone (GMT+8) and cross-referencing these findings with international authorities like NASA and the International Meteor Organization to ensure scientific accuracy. The final output is a comprehensive archive that translates complex celestial mechanics into accessible descriptions, allowing the public to understand and plan for astronomical events within the Malaysian sky.",
+    "methodology_ms": "Data ini dihasilkan secara teknikal oleh Agensi Angkasa Malaysia (MYSA) melalui penggunaan perisian simulasi astronomi profesional seperti The SkyX dan Stellarium bagi mengira kedudukan jasad samawi dengan tepat berdasarkan koordinat geografi Kuala Lumpur. Proses ini melibatkan penyelarasan waktu tempatan (GMT+8) serta pengesahan silang dengan data rujukan antarabangsa daripada organisasi seperti NASA dan International Meteor Organization untuk memastikan ketekalan maklumat. Hasil akhirnya adalah sebuah arkib komprehensif yang menggabungkan pengiraan saintifik dan penerangan pendidikan bagi memudahkan orang awam memahami serta merancang pencerapan fenomena angkasa di Malaysia.",
+    "caveat_en": "The primary caveats for this data are that while the celestial timings are scientifically precise, actual visibility is heavily dependent on Malaysia’s unpredictable tropical weather, cloud cover, and significant light pollution in urban areas which can obscure faint phenomena like meteor showers. Additionally, because the calculations are localized specifically to Kuala Lumpur's coordinates, residents in Sabah and Sarawak may experience slight timing variations, and the dataset itself contains technical formatting inconsistencies—such as unquoted commas—that may require data cleaning for accurate digital processing.",
+    "caveat_ms": "Kekangan utama bagi data ini adalah walaupun pengiraan masa kejadian adalah tepat dari segi saintifik, kenampakan sebenar fenomena tersebut sangat bergantung kepada faktor cuaca tropika Malaysia yang sukar diramal, litupan awan, serta pencemaran cahaya yang tinggi di kawasan bandar. Selain itu, memandangkan data ini dijana khusus mengikut koordinat Kuala Lumpur, penduduk di Sabah dan Sarawak mungkin mengalami sedikit perbezaan waktu pencerapan, manakala dari sudut teknikal, fail ini mengandungi ralat format seperti penggunaan tanda koma yang tidak teratur yang memerlukan pembersihan data jika ingin diproses menggunakan perisian komputer secara automatik.",
+    "publication_en": "N/A",
+    "publication_ms": "N/A",
+    "related_datasets": [],
+    "last_updated": "2026-04-23 16:10:38.307 +08:00",
+    "next_update": "-",
+    "fields": [
+        {
+            "name": "timestamp",
+            "title_en": "DateTime",
+            "title_ms": "Tarikh/Masa",
+            "description_en": "The date and exact time (Local Malaysian Time) of the event. ",
+            "description_ms": "Tarikh dan masa tepat kejadian (Waktu Tempatan Malaysia)."
+        },
+        {
+            "name": "fenomena",
+            "title_en": "String",
+            "title_ms": "Teks (String)",
+            "description_en": "The name/category of the astronomical event.",
+            "description_ms": "Nama atau kategori peristiwa astronomi."
+        },
+        {
+            "name": "penerangan\r",
+            "title_en": "String",
+            "title_ms": "Teks (String)",
+            "description_en": "A textual description of the event, including observation tips or scientific significance.",
+            "description_ms": "Penerangan terperinci dan nota pemerhatian bagi peristiwa tersebut."
+        }
+    ],
+    "translations_en": {},
+    "translations_ms": {},
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Data Dictionaries",
+            "category_ms": "Dictionary Data",
+            "category_sort": 110,
+            "subcategory_en": "Others",
+            "subcategory_ms": "Lain-lain",
+            "subcategory_sort": 10000
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ]
+}
