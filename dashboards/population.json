@@ -1,7 +1,7 @@
 {
     "dashboard_name": "population",
-    "data_last_updated": "2025-07-31 12:00",
-    "data_next_update": "2025-10-16 12:00",
+    "data_last_updated": "2026-07-31 13:00",
+    "data_next_update": "2026-10-15 13:00",
     "route": "/dashboard/population,/ms-MY/dashboard/population",
     "sites": [
         "opendosm"
@@ -16,7 +16,7 @@
             "name": "population_timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/population_timeseries.parquet",
-            "data_as_of": "2025",
+            "data_as_of": "2026",
             "api_type": "dynamic",
             "api_params": [
                 "state"
@@ -39,7 +39,7 @@
             "name": "population_timeseries_callout",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/population_timeseries_callout.parquet",
-            "data_as_of": "2025",
+            "data_as_of": "2026",
             "api_type": "dynamic",
             "api_params": [
                 "state"
@@ -58,7 +58,7 @@
             "name": "vitalstats_timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/population_vitalstats_timeseries.parquet",
-            "data_as_of": "2023",
+            "data_as_of": "2025",
             "api_type": "dynamic",
             "api_params": [
                 "state"
@@ -91,7 +91,7 @@
             "name": "vitalstats_timeseries_callout",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.dosm.gov.my/dashboards/population_vitalstats_timeseries_callout.parquet",
-            "data_as_of": "2023",
+            "data_as_of": "2025",
             "api_type": "dynamic",
             "api_params": [
                 "state"
