@@ -9,7 +9,7 @@
     "title_sort": "4",
     "exclude_openapi": false,
     "manual_trigger": "",
-    "data_as_of": "2024-12",
+    "data_as_of": "2025-12",
     "frequency": "MONTHLY",
     "geography": [
         "NATIONAL",
@@ -17,8 +17,8 @@
         "DISTRICT"
     ],
     "demography": [],
-    "dataset_begin": "2019",
-    "dataset_end": "2024",
+    "dataset_begin": 2019,
+    "dataset_end": 2025,
     "data_source": [
         "JBG"
     ],
@@ -26,10 +26,10 @@
     "methodology_ms": "Data ini dikumpulkan dan diuruskan oleh Jabatan Bantuan Guaman Malaysia (JBG) melalui Sistem Pengurusan Kes Jabatan Bantuan Guaman (SPK-JBG). Ia merekodkan jumlah perkhidmatan nasihat undang-undang yang disediakan oleh pelbagai cawangan di seluruh Malaysia secara bulanan.",
     "caveat_en": "The dataset may not capture all legal advisory services if they are not registered through SPK-JBG. Data is subject to revisions as new information becomes available or errors are corrected.",
     "caveat_ms": "Set data ini mungkin tidak merangkumi semua perkhidmatan nasihat undang-undang jika ia tidak didaftarkan melalui SPK-JBG. Data tertakluk kepada semakan semula apabila maklumat baru tersedia atau kesilapan diperbetulkan.",
-    "publication_en": "N/A",
-    "publication_ms": "N/A",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
     "related_datasets": [],
-    "last_updated": "2026-04-15 11:00",
+    "last_updated": "2026-08-02 11:00",
     "next_update": "2026-12-01 16:00",
     "fields": [
         {
