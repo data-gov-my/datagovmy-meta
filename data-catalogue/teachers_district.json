@@ -6,9 +6,9 @@
     "description_ms": "Bilangan guru di sekolah rendah dan menengah kerajaan di peringkat nasional, negeri, dan daerah.",
     "exclude_openapi": false,
     "manual_trigger": "",
-    "data_as_of": "2022",
-    "last_updated": "2024-09-01 12:00",
-    "next_update": "tbc",
+    "data_as_of": "2025",
+    "last_updated": "2026-08-03 12:00",
+    "next_update": "\u2014",
     "methodology_en": "This dataset is tabulated from individual-level administrative records maintained by the Ministry of Education Malaysia via the Education Management Information System (EMIS).",
     "methodology_ms": "Dataset ini disusun daripada rekod pentadbiran peringkat individu yang dikawalselia oleh Kementerian Pendidikan Malaysia melalui Sistem Pengurusan Maklumat Pendidikan (EMIS).",
     "caveat_en": "\u2014",
@@ -27,7 +27,7 @@
         "SEX"
     ],
     "dataset_begin": 2017,
-    "dataset_end": 2022,
+    "dataset_end": 2025,
     "data_source": [
         "MOE"
     ],
