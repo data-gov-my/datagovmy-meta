@@ -5,7 +5,7 @@
     "description_en": "Daily-frequency ridership data for various public transport services across the country.",
     "description_ms": "Data penggunaan pengangkutan awam berfrekuensi harian daripada beberapa perkhidmatan pengangkutan awam di seluruh negara.",
     "exclude_openapi": false,
-    "manual_trigger": "2026-07-31 17:18:20.213207",
+    "manual_trigger": "2026-08-07 06:02:38.208064",
     "data_as_of": "2026-06-30 23:59",
     "last_updated": "2026-07-12 12:00",
     "next_update": "2026-08-12 12:00",
@@ -102,6 +102,13 @@
             "name": "rail_mrt_pjy",
             "title_en": "MRT Putrajaya Line",
             "title_ms": "MRT Laluan Putrajaya",
+            "description_en": "[Integer] Number of trips, NOT number of unique individuals",
+            "description_ms": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
+        },
+        {
+            "name": "rail_lrt_shah_alam",
+            "title_en": "LRT Shah Alam Line",
+            "title_ms": "LRT Laluan Shah Alam",
             "description_en": "[Integer] Number of trips, NOT number of unique individuals",
             "description_ms": "[Integer] Jumlah penggunaan, BUKAN jumlah pengguna unik"
         },
@@ -287,6 +294,23 @@
                     "x": "date",
                     "y": [
                         "rail_mrt_pjy"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "rail_lrt_shah_alam",
+            "title_en": "LRT Shah Alam Line",
+            "title_ms": "LRT Laluan Shah Alam",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "rail_lrt_shah_alam"
                     ]
                 }
             }
