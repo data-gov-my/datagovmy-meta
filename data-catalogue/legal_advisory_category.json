@@ -1,0 +1,184 @@
+{
+    "title_en": "Legal Advisory Services by Branch & Category",
+    "title_ms": "Perkhidmatan Nasihat Undang-Undang mengikut Cawangan & Kategori",
+    "title_sort": 2,
+    "description_en": "Number of legal advisory sessions provided by the Legal Aid Department (JBG) each month, by branch and category of legal matter.",
+    "description_ms": "Bilangan sesi nasihat undang-undang yang diberikan oleh Jabatan Bantuan Guaman (JBG) setiap bulan, mengikut cawangan dan kategori perkara undang-undang.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2024-12-31 23:59",
+    "last_updated": "2026-08-07 12:00",
+    "next_update": "2027-08-31 12:00",
+    "methodology_en": "This dataset is tabulated from records in the Legal Aid Department's case management system (*Sistem Pengurusan Kes Jabatan Bantuan Guaman*, SPK-JBG). Each legal advisory session provided at a JBG branch is registered in the system with its date, branch, and a classification of the legal matter; this dataset counts those registrations. Every row is the number of sessions for a unique combination of month, branch and case category.\n\nLegal matters are classified in three levels. **Category** is the branch of law: criminal (*Jenayah*), civil (*Sivil*), or Syariah. **Subcategory** distinguishes matters within JBG's statutory remit to represent clients (*bidang kuasa*) from those outside it (*luar bidang kuasa*), where JBG may advise but not act. **Case type** is the specific matter, given either as the statute engaged (e.g. *Akta Kontrak 1950*) or the relief sought (e.g. *Tuntutan Nafkah Anak*).\n\nState is not reported directly by JBG, which organises itself by branch. It is given here as the state in which the branch is located: fifteen branches are state or federal territory offices and take the name of their state, seven are sub-state offices (Gua Musang, Langkawi, Miri, Muar, Raub, Sibu and Taiping), and *Ibu Pejabat* is the department's headquarters in W.P. Putrajaya.\n\nValues in the categorical columns are given in Malay, as legal classifications in Malaysia are defined in Malay and several have no settled English equivalent.",
+    "methodology_ms": "Set data ini dihasilkan daripada rekod dalam Sistem Pengurusan Kes Jabatan Bantuan Guaman (SPK-JBG). Setiap sesi nasihat undang-undang yang diberikan di cawangan JBG didaftarkan dalam sistem berserta tarikh, cawangan, dan pengelasan perkara undang-undang; set data ini mengira pendaftaran tersebut. Setiap baris ialah bilangan sesi bagi gabungan unik bulan, cawangan dan kategori kes.\n\nPerkara undang-undang dikelaskan dalam tiga peringkat. **Kategori** ialah cabang undang-undang: Jenayah, Sivil, atau Syariah. **Subkategori** membezakan perkara dalam bidang kuasa JBG untuk mewakili anak guam daripada perkara di luar bidang kuasa, iaitu JBG boleh menasihat tetapi tidak boleh bertindak. **Jenis kes** ialah perkara khusus, sama ada akta yang berkaitan (cth. *Akta Kontrak 1950*) atau relif yang dituntut (cth. *Tuntutan Nafkah Anak*).\n\nNegeri tidak dilaporkan secara langsung oleh JBG yang disusun mengikut cawangan. Ia diberikan di sini sebagai negeri tempat cawangan terletak: lima belas cawangan ialah pejabat negeri atau wilayah persekutuan dan mengambil nama negeri masing-masing, tujuh ialah pejabat bawah negeri (Gua Musang, Langkawi, Miri, Muar, Raub, Sibu dan Taiping), manakala *Ibu Pejabat* ialah ibu pejabat jabatan di W.P. Putrajaya.\n\nNilai bagi lajur kategori diberikan dalam bahasa Melayu, kerana pengelasan undang-undang di Malaysia ditakrifkan dalam bahasa Melayu dan beberapa daripadanya tiada padanan bahasa Inggeris yang mantap.",
+    "caveat_en": "**Coverage.** Only advisory sessions registered in SPK-JBG are captured. Informal advice, sessions handled outside the system, and demand that never reaches a JBG counter are not represented.\n\n**Sabah is absent for 2022.** JBG's 2022 records contain no entries for the Sabah branch. Sabah figures for 2022 are therefore zero rather than missing, and the 2022 national total is understated by roughly the 1,000-2,000 sessions Sabah records in a typical year.\n\n**Sessions, not people.** The figures count advisory sessions, not distinct individuals. A person who returns for further advice is counted each time.\n\n**Branch, not residence.** The branch records where advice was given, not where the client lives. State figures describe where JBG delivered services, and should not be read as demand by state of residence - particularly for *Ibu Pejabat* in W.P. Putrajaya, which serves walk-ins from across the Klang Valley.",
+    "caveat_ms": "**Liputan.** Hanya sesi nasihat yang didaftarkan dalam SPK-JBG diambil kira. Nasihat tidak formal, sesi yang dikendalikan di luar sistem, dan permintaan yang tidak sampai ke kaunter JBG tidak diwakili.\n\n**Sabah tiada bagi 2022.** Rekod JBG bagi tahun 2022 tidak mengandungi sebarang entri bagi cawangan Sabah. Angka Sabah bagi 2022 adalah sifar dan bukannya hilang, dan jumlah kebangsaan 2022 terkurang kira sebanyak kira-kira 1,000-2,000 sesi yang biasanya direkodkan oleh Sabah setahun.\n\n**Sesi, bukan individu.** Angka ini mengira sesi nasihat, bukan individu yang berbeza. Seseorang yang datang semula untuk nasihat lanjut dikira setiap kali.\n\n**Cawangan, bukan tempat tinggal.** Cawangan merekodkan tempat nasihat diberikan, bukan tempat tinggal anak guam. Angka negeri menggambarkan tempat JBG menyampaikan perkhidmatan, dan tidak boleh ditafsir sebagai permintaan mengikut negeri tempat tinggal - terutamanya bagi Ibu Pejabat di W.P. Putrajaya yang melayan pelawat dari seluruh Lembah Klang.",
+    "publication_en": "—",
+    "publication_ms": "—",
+    "link_parquet": "https://storage.data.gov.my/publicadmin/legal_advisory_category.parquet",
+    "link_csv": "https://storage.data.gov.my/publicadmin/legal_advisory_category.csv",
+    "link_preview": "https://storage.data.gov.my/publicadmin/legal_advisory_category.parquet",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2019,
+    "dataset_end": 2024,
+    "data_source": [
+        "JBG"
+    ],
+    "data_source_granular": [],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Public Safety",
+            "category_ms": "Keselamatan Awam",
+            "category_sort": 42,
+            "subcategory_en": "Justice",
+            "subcategory_ms": "Keadilan",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01 as the data is at monthly frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai DD ditetapkan sebagai 01 kerana data berfrekuensi bulanan"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states; the state in which the JBG branch is located",
+            "description_ms": "[Kategori] Satu daripada 16 negeri; negeri tempat cawangan JBG terletak"
+        },
+        {
+            "name": "branch",
+            "title_en": "Branch",
+            "title_ms": "Cawangan",
+            "description_en": "[Categorical] One of 23 JBG branches; 15 are state or federal territory offices, 7 are sub-state offices, and 'Ibu Pejabat' is the department's headquarters in W.P. Putrajaya",
+            "description_ms": "[Kategori] Satu daripada 23 cawangan JBG; 15 ialah pejabat negeri atau wilayah persekutuan, 7 ialah pejabat bawah negeri, dan 'Ibu Pejabat' ialah ibu pejabat jabatan di W.P. Putrajaya"
+        },
+        {
+            "name": "category",
+            "title_en": "Case Category",
+            "title_ms": "Kategori Kes",
+            "description_en": "[Categorical] The branch of law the matter falls under: 'Jenayah' (criminal), 'Sivil' (civil), or 'Syariah'",
+            "description_ms": "[Kategori] Cabang undang-undang bagi perkara berkenaan: 'Jenayah', 'Sivil', atau 'Syariah'"
+        },
+        {
+            "name": "cases",
+            "title_en": "Legal Advisory Sessions",
+            "title_ms": "Sesi Nasihat Undang-Undang",
+            "description_en": "[Integer] The number of legal advisory sessions registered",
+            "description_ms": "[Integer] Bilangan sesi nasihat undang-undang yang didaftarkan"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "state",
+                    "branch",
+                    "category"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "timeseries",
+            "title_en": "Legal Advisory Sessions",
+            "title_ms": "Sesi Nasihat Undang-Undang",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state",
+                    "branch",
+                    "category"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "cases"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Sessions",
+        "value": "Sessions",
+        "date": "Date",
+        "state": "State",
+        "branch": "Branch",
+        "category": "Case Category",
+        "cases": "Legal Advisory Sessions",
+        "Jenayah": "Criminal",
+        "Sivil": "Civil",
+        "Syariah": "Syariah",
+        "Jenayah Bidang Kuasa": "Criminal (Within Remit)",
+        "Jenayah Luar Bidang Kuasa": "Criminal (Outside Remit)",
+        "Keluarga Sivil": "Civil Family",
+        "Sivil Luar Bidang Kuasa": "Civil (Outside Remit)",
+        "Sivil Pelbagai": "Civil (Miscellaneous)",
+        "Keluarga Syariah": "Syariah Family",
+        "Syariah Luar Bidang Kuasa": "Syariah (Outside Remit)",
+        "Tidak Dinyatakan": "Not Stated"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Sesi",
+        "value": "Sesi",
+        "date": "Tarikh",
+        "state": "Negeri",
+        "branch": "Cawangan",
+        "category": "Kategori Kes",
+        "cases": "Sesi Nasihat Undang-Undang",
+        "Jenayah": "Jenayah",
+        "Sivil": "Sivil",
+        "Syariah": "Syariah",
+        "Jenayah Bidang Kuasa": "Jenayah Bidang Kuasa",
+        "Jenayah Luar Bidang Kuasa": "Jenayah Luar Bidang Kuasa",
+        "Keluarga Sivil": "Keluarga Sivil",
+        "Sivil Luar Bidang Kuasa": "Sivil Luar Bidang Kuasa",
+        "Sivil Pelbagai": "Sivil Pelbagai",
+        "Keluarga Syariah": "Keluarga Syariah",
+        "Syariah Luar Bidang Kuasa": "Syariah Luar Bidang Kuasa",
+        "Tidak Dinyatakan": "Tidak Dinyatakan"
+    },
+    "related_datasets": [
+        {
+            "id": "legal_advisory_branch",
+            "title_en": "Legal Advisory Services by Branch",
+            "title_ms": "Perkhidmatan Nasihat Undang-Undang mengikut Cawangan",
+            "description_en": "Number of legal advisory sessions provided by the Legal Aid Department (JBG) each month, by branch.",
+            "description_ms": "Bilangan sesi nasihat undang-undang yang diberikan oleh Jabatan Bantuan Guaman (JBG) setiap bulan, mengikut cawangan."
+        },
+        {
+            "id": "legal_advisory_subcategory",
+            "title_en": "Legal Advisory Services by Branch & Subcategory",
+            "title_ms": "Perkhidmatan Nasihat Undang-Undang mengikut Cawangan & Subkategori",
+            "description_en": "Number of legal advisory sessions provided by the Legal Aid Department (JBG) each month, by branch and subcategory of legal matter.",
+            "description_ms": "Bilangan sesi nasihat undang-undang yang diberikan oleh Jabatan Bantuan Guaman (JBG) setiap bulan, mengikut cawangan dan subkategori perkara undang-undang."
+        },
+        {
+            "id": "legal_advisory_case_type",
+            "title_en": "Legal Advisory Services by Branch & Case Type",
+            "title_ms": "Perkhidmatan Nasihat Undang-Undang mengikut Cawangan & Jenis Kes",
+            "description_en": "Number of legal advisory sessions provided by the Legal Aid Department (JBG) each month, by branch and specific type of legal matter.",
+            "description_ms": "Bilangan sesi nasihat undang-undang yang diberikan oleh Jabatan Bantuan Guaman (JBG) setiap bulan, mengikut cawangan dan jenis khusus perkara undang-undang."
+        }
+    ]
+}
