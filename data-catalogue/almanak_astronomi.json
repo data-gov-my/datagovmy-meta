@@ -18,7 +18,7 @@
     "dataset_begin": "2022",
     "dataset_end": 2026,
     "data_source": [
-        "Met"
+        "MYSA"
     ],
     "methodology_en": "This data is technically produced by the Malaysian Space Agency (MYSA) using professional astronomical simulation software, such as The SkyX and Stellarium, to calculate the precise positioning of celestial bodies based on Kuala Lumpur's geographic coordinates. The process involves localizing global astronomical data to Malaysia’s time zone (GMT+8) and cross-referencing these findings with international authorities like NASA and the International Meteor Organization to ensure scientific accuracy. The final output is a comprehensive archive that translates complex celestial mechanics into accessible descriptions, allowing the public to understand and plan for astronomical events within the Malaysian sky.",
     "methodology_ms": "Data ini dihasilkan secara teknikal oleh Agensi Angkasa Malaysia (MYSA) melalui penggunaan perisian simulasi astronomi profesional seperti The SkyX dan Stellarium bagi mengira kedudukan jasad samawi dengan tepat berdasarkan koordinat geografi Kuala Lumpur. Proses ini melibatkan penyelarasan waktu tempatan (GMT+8) serta pengesahan silang dengan data rujukan antarabangsa daripada organisasi seperti NASA dan International Meteor Organization untuk memastikan ketekalan maklumat. Hasil akhirnya adalah sebuah arkib komprehensif yang menggabungkan pengiraan saintifik dan penerangan pendidikan bagi memudahkan orang awam memahami serta merancang pencerapan fenomena angkasa di Malaysia.",
