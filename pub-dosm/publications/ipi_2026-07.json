@@ -1,5 +1,6 @@
 {
     "publication": "ipi_2026-07",
+    "abort_email": true,
     "publication_type": "mfg",
     "release_date": "2026-09-09",
     "frequency": "MONTHLY",
