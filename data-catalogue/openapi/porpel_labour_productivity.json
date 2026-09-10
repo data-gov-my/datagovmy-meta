@@ -1,9 +1,9 @@
 {
-    "manual_trigger": "",
-    "data_as_of": "2026-Q2",
+    "manual_trigger": "1",
+    "data_as_of": "2026-06-30",
     "last_updated": "2026-08-20 12:30",
     "next_update": "2026-11-21 12:30",
-    "link_parquet": "https://storage.dosm.gov.my/dashboards/labour_productivity_timeseries.parquet",
+    "link_parquet": "https://storage.dosm.gov.my/dashboards/productivity_timeseries.parquet",
     "frequency": "QUARTERLY",
     "data_source": []
 }
