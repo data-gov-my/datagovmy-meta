@@ -5,7 +5,7 @@
     "description_en": "Monthly exports and imports by SITC commodity sections.",
     "description_ms": "Eksport dan import bulanan mengikut seksyen komoditi SITC.",
     "exclude_openapi": false,
-    "manual_trigger": "2026-09-11 14:28:42.412978",
+    "manual_trigger": "2026-09-11 14:29:40.036567",
     "data_as_of": "2026-07",
     "last_updated": "2026-08-28 12:30",
     "next_update": "2026-09-28 12:30",
