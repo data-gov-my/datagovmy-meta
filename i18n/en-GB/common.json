@@ -86,6 +86,7 @@
     "time": {
       "daily_7d": "Daily (7d avg)",
       "daily": "Daily",
+      "weekly": "Weekly",
       "monthly": "Monthly",
       "yearly": "Yearly"
     },
