@@ -22,7 +22,7 @@
     "range_6m": "6 Bulan",
     "range_1y": "1 Tahun",
     "range_all_daily": "Sepanjang Masa (Harian)",
-    "range_all_weekly": "Sepanjang Masa (Mingguan)",
+    "range_all_monthly": "Sepanjang Masa (Bulanan)",
     "no_trips": "Tiada perjalanan di laluan ini; data bagi 'tap-out' bagi stesen tertentu di laluan Putrajaya belum lagi selesai proses integrasi.",
     "caveats": "Bagi angka keseluruhan, sila rujuk kepada papan pemuka [Pengangkutan Awam](/dashboard/public-transportation) dashboard. Angka keseluruhan tidak boleh dihasilkan terus daripada data asal-destinasi ('origin-destination') kerana metodologi untuk mengira penumpang bagi laluan tertentu (khususnya di stesen pertukaran) adalah rumit."
   }
