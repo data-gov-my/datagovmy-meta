@@ -84,6 +84,7 @@
     "time": {
       "daily_7d": "Purata 7 hari",
       "daily": "Harian",
+      "weekly": "Mingguan",
       "monthly": "Bulanan",
       "yearly": "Tahunan"
     },
