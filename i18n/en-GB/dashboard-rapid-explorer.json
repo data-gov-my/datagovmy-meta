@@ -22,7 +22,7 @@
     "range_6m": "6 Months",
     "range_1y": "1 Year",
     "range_all_daily": "All Time (Daily)",
-    "range_all_weekly": "All Time (Weekly)",
+    "range_all_monthly": "All Time (Monthly)",
     "no_trips": "No trips on this route; note that data for certain exits on the Putrajaya Line is not yet available.",
     "caveats": "For overall ridership data, refer to our [Public Transportation](/dashboard/public-transportation) dashboard. You should not attempt to derive the overall ridership figures from origin-destination data, because the methodology for attributing ridership to specific lines (especially at interchange stations) is not straightforward."
   }
