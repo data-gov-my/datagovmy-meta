@@ -7,6 +7,7 @@
         "header": "KTMB Explorer",
         "description": "Malaysian Railways Limited, or more commonly known as Keretapi Tanah Melayu Berhad (KTMB), is the oldest railway operator in Malaysia. Today, they operate various services such as KTM ETS and KTM Intercity which help people move across the country with ease. Using data from the KTM Integrated Ticketing System (KITS), this dashboard brings you granular data on ridership on KTMB-operated services.",
         "title": "Explore ridership data between any two stations on KTMB-operated services!",
+        "disclaimer": "Each KTMB service runs as a separate network, so stations are chosen within a service: KL Sentral on ETS and KL Sentral on Komuter are counted separately. Note that ETS and Intercity are reserved services, so a journey is counted on the date of travel rather than the date the ticket was bought.",
         "filters": "Filters",
         "origin": "Origin",
         "destination": "Destination",
@@ -19,8 +20,14 @@
         "tebrau": "Shuttle Tebrau",
         "select_origin": "Select Origin",
         "select_destination": "Select Destination",
-        "ridership": "Ridership from {{ from }} to {{ to }}",
+        "all_stations": "All Stations",
+        "ridership": "Ridership: {{ from }} → {{ to }}",
         "this_month": "This Month ({{ date }})",
+        "range_1m": "1 Month",
+        "range_6m": "6 Months",
+        "range_1y": "1 Year",
+        "range_all_daily": "All Time (Daily)",
+        "range_all_monthly": "All Time (Monthly)",
         "no_trips": "No trips on this route"
     }
 }
