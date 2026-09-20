@@ -7,6 +7,7 @@
         "header": "Terokai KTMB",
         "description": "Keretapi Tanah Melayu Berhad (KTMB) adalah pengendali perkhidmatan rel yang paling lama beroperasi di Malaysia. Hari ini, KTMB mengendalikan perkhidmatan seperti KTM ETS dan KTM Intercity yang memudahkan pergerakan orang awam ke seluruh negara. Papan pemuka ini menggunakan data daripada Sistem Tiket Bersepadu KTM (KITS) untuk membekalkan data terperinci tentang penggunaan perkhidmatan KTMB.",
         "title": "Terokailah data penumpang antara mana-mana stesen yang dikendalikan oleh KTMB!",
+        "disclaimer": "Setiap perkhidmatan KTMB beroperasi sebagai rangkaian yang berasingan, jadi stesen dipilih dalam sesuatu perkhidmatan: KL Sentral bagi ETS dan KL Sentral bagi Komuter dikira secara berasingan. Perlu diingati bahawa ETS dan Intercity merupakan perkhidmatan bertempah, jadi perjalanan dikira pada tarikh perjalanan dan bukan tarikh tiket dibeli.",
         "filters": "Penapis",
         "origin": "Asal",
         "destination": "Destinasi",
@@ -19,8 +20,14 @@
         "tebrau": "Shuttle Tebrau",
         "select_origin": "Pilih Permulaan",
         "select_destination": "Pilih Destinasi",
-        "ridership": "Penumpang dari {{ from }} ke {{ to }}",
+        "all_stations": "Semua Stesen",
+        "ridership": "Penumpang: {{ from }} → {{ to }}",
         "this_month": "Bulan Ini ({{ date }})",
+        "range_1m": "1 Bulan",
+        "range_6m": "6 Bulan",
+        "range_1y": "1 Tahun",
+        "range_all_daily": "Sepanjang Masa (Harian)",
+        "range_all_monthly": "Sepanjang Masa (Bulanan)",
         "no_trips": "Tiada perjalanan di laluan ini"
     }
 }
