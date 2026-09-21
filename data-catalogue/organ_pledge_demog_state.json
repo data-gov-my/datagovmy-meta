@@ -5,7 +5,7 @@
     "description_en": "Annual organ donation pledges by state, by the pledger's sex, ethnicity and age group. The table provides a preview of the dataset using the most recent year of data.",
     "description_ms": "Ikrar derma organ tahunan mengikut negeri, mengikut jantina, etnik dan kumpulan umur pengikrar. Jadual memberi pratonton kepada set data dengan menggunakan data bagi tahun terkini.",
     "exclude_openapi": false,
-    "manual_trigger": "1",
+    "manual_trigger": "",
     "data_as_of": "2026-09-20 23:59",
     "last_updated": "2026-09-21 10:00",
     "next_update": "2026-09-22 10:00",
