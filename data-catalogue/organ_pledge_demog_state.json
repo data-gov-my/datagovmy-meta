@@ -168,10 +168,5 @@
         "chinese": "Cina",
         "indian": "India",
         "other": "Lain-lain"
-    },
-    "related_datasets": [
-        "organ_pledge_demog",
-        "organ_pledges",
-        "organ_pledges_state"
-    ]
+    }
 }
