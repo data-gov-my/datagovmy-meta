@@ -1,0 +1,177 @@
+{
+    "title_en": "Organ Donation Pledges by State, Sex, Ethnicity and Age Group",
+    "title_ms": "Ikrar Derma Organ mengikut Negeri, Jantina, Etnik dan Kumpulan Umur",
+    "title_sort": 40,
+    "description_en": "Annual organ donation pledges by state, by the pledger's sex, ethnicity and age group. The table provides a preview of the dataset using the most recent year of data.",
+    "description_ms": "Ikrar derma organ tahunan mengikut negeri, mengikut jantina, etnik dan kumpulan umur pengikrar. Jadual memberi pratonton kepada set data dengan menggunakan data bagi tahun terkini.",
+    "exclude_openapi": false,
+    "manual_trigger": "1",
+    "data_as_of": "2026-09-20 23:59",
+    "last_updated": "2026-09-21 10:00",
+    "next_update": "2026-09-22 10:00",
+    "methodology_en": "This dataset provides a demographic breakdown of [Daily Organ Donation Pledges](https://data.gov.my/data-catalogue/organ_pledges_state) at annual frequency, disaggregated by the pledger's sex, ethnicity and age group. Age group is the pledger's age at the time of pledging.",
+    "methodology_ms": "Set data ini ialah pecahan tahunan dan demografi bagi [Ikrar Derma Organ Harian](https://data.gov.my/ms-MY/data-catalogue/organ_pledges_state) pada frekuensi tahunan, dipecahkan mengikut jantina, etnik dan kumpulan umur pengikrar. Kumpulan umur ialah umur pengikrar pada masa berikrar.",
+    "caveat_en": "The digital organ donation pledge process allows an individual to pledge their organs, and subsequently withdraw their pledge if they so choose. Therefore, the data shown here is dynamic; the number of pledges for a specific year may reduce (but not increase) in future if pledges are withdrawn.\n\nA small number of records with incomplete demographic data are excluded; this affects 0.5% of pledges, so the totals here are slightly below those in [Daily Organ Donation Pledges](https://data.gov.my/data-catalogue/organ_pledges_state).",
+    "caveat_ms": "Proses ikrar derma organ digital membenarkan seseorang individu berikrar untuk menderma organ mereka, dan kemudiannya menarik balik ikrar tersebut atas budi bicara sendiri. Oleh itu, set data ini bersifat dinamik; jumlah ikrar bagi sesuatu tahun mungkin mengurang (tetapi tidak bertambah) pada masa depan sekiranya ikrar ditarik balik.\n\nSebilangan kecil rekod dengan data demografi tidak lengkap telah dikecualikan; ini melibatkan 0.5% daripada ikrar, menyebabkan jumlah dalam set data ini lebih rendah berbanding [Ikrar Derma Organ Harian](https://data.gov.my/ms-MY/data-catalogue/organ_pledges_state).",
+    "publication_en": "KKMNOW features a [dashboard on Organ Donation](https://data.moh.gov.my/dashboard/organ-donation) where you can explore the data in a more interactive manner!",
+    "publication_ms": "Portal KKMNOW memaparkan [papan pemuka tentang Pendermaan Organ](https://data.moh.gov.my/ms-MY/dashboard/organ-donation) di mana anda boleh meneroka data ini dengan lebih interaktif!",
+    "link_parquet": "https://storage.data.gov.my/healthcare/organ_pledge_demog_state.parquet",
+    "link_csv": "https://storage.data.gov.my/healthcare/organ_pledge_demog_state.csv",
+    "link_preview": "https://storage.data.gov.my/healthcare/organ_pledge_demog_state_preview.parquet",
+    "frequency": "YEARLY",
+    "geography": [
+        "STATE"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY",
+        "AGE"
+    ],
+    "dataset_begin": 2009,
+    "dataset_end": 2026,
+    "data_source": [
+        "NTRC",
+        "MOH"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Healthcare",
+            "category_ms": "Kesihatan",
+            "category_sort": 40,
+            "subcategory_en": "Healthcare Programs",
+            "subcategory_ms": "Program Kesihatan",
+            "subcategory_sort": 20
+        },
+        {
+            "site": "kkmnow",
+            "category_en": "Healthcare Programs",
+            "category_ms": "Program Kesihatan",
+            "category_sort": 20,
+            "subcategory_en": "Organ Donation",
+            "subcategory_ms": "Pendermaan Organ",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states, as recorded on the pledge record. It is not necessarily the pledger's state of residence",
+            "description_ms": "[Kategori] Satu daripada 16 negeri, seperti yang direkodkan pada rekod ikrar. Ia tidak semestinya negeri kediaman pengikrar"
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Categorical] Either male ('male') or female ('female')",
+            "description_ms": "[Kategori] Sama ada lelaki ('male') atau perempuan ('female')"
+        },
+        {
+            "name": "ethnicity",
+            "title_en": "Ethnicity",
+            "title_ms": "Etnik",
+            "description_en": "[Categorical] One of 'bumi_malay', 'bumi_other', 'chinese', 'indian' or 'other'",
+            "description_ms": "[Kategori] Satu daripada 'bumi_malay', 'bumi_other', 'chinese', 'indian' atau 'other'"
+        },
+        {
+            "name": "age_group",
+            "title_en": "Age Group",
+            "title_ms": "Kumpulan Umur",
+            "description_en": "[Categorical] The pledger's age at the time of pledging, in ten-year bands from '0-9' to '80+'",
+            "description_ms": "[Kategori] Umur pengikrar pada masa berikrar, dalam kumpulan sepuluh tahun dari '0-9' hingga '80+'"
+        },
+        {
+            "name": "pledges",
+            "title_en": "Number of Pledges",
+            "title_ms": "Jumlah Ikrar",
+            "description_en": "[Integer] Number of pledges received from that group during the year",
+            "description_ms": "[Integer] Bilangan ikrar yang diterima daripada kumpulan tersebut pada tahun berkenaan"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "state",
+                    "sex",
+                    "ethnicity",
+                    "age_group"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "pledges",
+            "title_en": "Pledges",
+            "title_ms": "Ikrar",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state",
+                    "sex",
+                    "ethnicity",
+                    "age_group"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "pledges"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Year",
+        "state": "State",
+        "sex": "Sex",
+        "ethnicity": "Ethnicity",
+        "age_group": "Age Group",
+        "pledges": "Pledges",
+        "y1": "Pledges",
+        "male": "Male",
+        "female": "Female",
+        "bumi-malay": "Malay",
+        "bumi-other": "Other Bumiputera",
+        "chinese": "Chinese",
+        "indian": "Indian",
+        "other": "Other"
+    },
+    "translations_ms": {
+        "date": "Tahun",
+        "state": "Negeri",
+        "sex": "Jantina",
+        "ethnicity": "Etnik",
+        "age_group": "Kumpulan Umur",
+        "pledges": "Ikrar",
+        "y1": "Ikrar",
+        "male": "Lelaki",
+        "female": "Perempuan",
+        "bumi-malay": "Melayu",
+        "bumi-other": "Bumiputera Lain",
+        "chinese": "Cina",
+        "indian": "India",
+        "other": "Lain-lain"
+    },
+    "related_datasets": [
+        "organ_pledge_demog",
+        "organ_pledges",
+        "organ_pledges_state"
+    ]
+}
