@@ -1,7 +1,7 @@
 {
-    "data_last_updated": "2026-09-21 03:30",
-    "data_next_update": "2026-09-22 03:45",
-    "manual_trigger": "2026-09-21 03:30:48.216817",
+    "data_last_updated": "2026-09-22 03:30",
+    "data_next_update": "2026-09-23 03:45",
+    "manual_trigger": "2026-09-22 03:30:48.609411",
     "sites": [
         "datagovmy"
     ],
@@ -9,12 +9,12 @@
     "route": "/dashboard/ktmb-explorer,/ms-MY/dashboard/ktmb-explorer",
     "tables": {
         "KTMBTimeseries": {
-            "data_as_of": "2026-09-20 23:59",
+            "data_as_of": "2026-09-21 23:59",
             "source": "https://storage.data.gov.my/dashboards/ktmb_revalidate.parquet",
             "update": "REBUILD"
         },
         "KTMBTimeseriesCallout": {
-            "data_as_of": "2026-09-20 23:59",
+            "data_as_of": "2026-09-21 23:59",
             "source": "https://storage.data.gov.my/dashboards/ktmb_revalidate_callout.parquet",
             "update": "REBUILD"
         }
