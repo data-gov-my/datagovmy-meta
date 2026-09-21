@@ -98,33 +98,8 @@
             "chart_type": "TABLE",
             "config": {
                 "precision": 0,
-                "filter_columns": [
-                    "sex",
-                    "ethnicity",
-                    "age_group"
-                ],
+                "filter_columns": [],
                 "freeze_columns": []
-            }
-        },
-        {
-            "dataviz_id": "pledges",
-            "title_en": "Pledges",
-            "title_ms": "Ikrar",
-            "chart_type": "TIMESERIES",
-            "config": {
-                "filter_columns": [
-                    "sex",
-                    "ethnicity",
-                    "age_group"
-                ],
-                "precision": 0,
-                "operation": "SUM",
-                "format": {
-                    "x": "date",
-                    "y": [
-                        "pledges"
-                    ]
-                }
             }
         }
     ],
