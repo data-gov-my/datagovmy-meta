@@ -5,7 +5,7 @@
     "description_en": "Monthly producer price index (PPI) by MSIC group (3 digit). The table provides a preview of the full dataset using the latest month of data only.",
     "description_ms": "Indeks harga pengeluar (IHPR) bulanan mengikut kumpulan MSIC (3 digit). Jadual memberi pratonton kepada set data penuh dengan menggunakan data bulan terkini sahaja.",
     "exclude_openapi": true,
-    "manual_trigger": "2026-09-28 12:25:16.584592",
+    "manual_trigger": "2026-09-28 12:32:00.000024",
     "data_as_of": "2026-08",
     "last_updated": "2026-09-28 12:00",
     "next_update": "2026-10-28 12:00",
