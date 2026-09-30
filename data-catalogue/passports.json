@@ -6,9 +6,9 @@
   "description_ms": "Pengeluaran pasport Malaysia secara bulanan mengikut negeri dan cawangan.",
   "exclude_openapi": false,
   "manual_trigger": "",
-  "data_as_of": "2024-10-31 23:59",
-  "last_updated": "2024-11-25 16:00",
-  "next_update": "2024-12-25 16:00",
+  "data_as_of": "2026-08-31 23:59",
+  "last_updated": "2026-09-30 16:00",
+  "next_update": "2026-10-31 16:00",
   "methodology_en": "A Malaysian Passport is a valid Travel Document issued to a Malaysian citizen for the purpose of traveling out of the country. In Malaysia, passports are issued solely by the Immigration Department of Malaysia, and are valid for a period of 5 years from the date of issue. This data is tabulated from the transactional administrative data produced and stored by the Immigration Department in the process of implementing the issuance of passports in Malaysia.",
   "methodology_ms": "Pasport Malaysia adalah suatu Dokumen Perjalanan yang sah yang dikeluarkan kepada warganegara Malaysia bagi maksud perjalanan keluar negara. Di Malaysia, pasport hanya boleh dikeluarkan oleh Jabatan Imigresen Malaysia, dengan tempoh sah laku selama 5 tahun dari tarikh pengeluaran. Set data ini dihasilkan daripada data pentabdiran berbentuk transaksi yang dihasilkan dan disimpan oleh Jabatan Imigresen dalam proses melaksanakan pengeluaran pasport di Malaysia.",
   "caveat_en": "\u2014",
@@ -24,7 +24,7 @@
   ],
   "demography": [],
   "dataset_begin": 2020,
-  "dataset_end": 2024,
+  "dataset_end": 2026,
   "data_source": [
     "Imigresen"
   ],
