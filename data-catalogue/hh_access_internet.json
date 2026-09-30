@@ -1,0 +1,140 @@
+{
+    "title_en": "Household Access to Internet by State & Strata",
+    "title_ms": "Akses Isi Rumah kepada Internet mengikut Negeri & Strata",
+    "title_sort": 20,
+    "description_en": "Percentage of households with access to the Internet by state and strata.",
+    "description_ms": "Peratusan isi rumah yang mempunyai akses kepada Internet mengikut negeri dan strata.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2025",
+    "last_updated": "2026-09-30 12:00",
+    "next_update": "tbc",
+    "methodology_en": "This data is tabulated from survey data collected via the ICT Use and Access by Individuals and Households Survey (ICTHS), which has been conducted annually by DOSM since 2018. The survey covers households living in private living quarters, and statistics on ICT use refer to individuals aged 15 years and above. The reference period for ICT use by individuals is the 3 months prior to the interview. For full details on the methodology, please refer to the technical notes in the [ICTHS report](https://storage.dosm.gov.my/icths/icths_2025.pdf).",
+    "methodology_ms": "Set data ini dirangka daripada data survei yang dikumpulkan melalui Survei Penggunaan dan Capaian ICT oleh Individu dan Isi Rumah (ICTHS), yang dilaksanakan setiap tahun oleh DOSM sejak 2018. Survei ini meliputi isi rumah yang tinggal di tempat kediaman persendirian, dan statistik penggunaan ICT merujuk kepada individu berumur 15 tahun dan ke atas. Tempoh rujukan bagi penggunaan ICT oleh individu ialah 3 bulan sebelum temu ramah. Untuk mendapat perincian metodologi yang penuh, sila rujuk kepada nota teknikal dalam [laporan ICTHS](https://storage.dosm.gov.my/icths/icths_2025.pdf).",
+    "caveat_en": "W.P. Kuala Lumpur and W.P. Putrajaya are fully urban, and therefore have no data for the rural strata.",
+    "caveat_ms": "W.P. Kuala Lumpur dan W.P. Putrajaya adalah bandar sepenuhnya, dan oleh itu tiada data bagi strata luar bandar.",
+    "publication_en": "The [ICT Use and Access by Individuals and Households Survey Report, 2025](https://storage.dosm.gov.my/icths/icths_2025.pdf), the latest edition of the ICT use and access statistics published by DOSM.",
+    "publication_ms": "[Laporan Survei Penggunaan dan Capaian ICT oleh Individu dan Isi Rumah, 2025](https://storage.dosm.gov.my/icths/icths_2025.pdf), edisi terkini bagi statistik penggunaan dan capaian ICT yang diterbitkan oleh DOSM.",
+    "link_parquet": "https://storage.dosm.gov.my/icths/hh_access_internet.parquet",
+    "link_csv": "https://storage.dosm.gov.my/icths/hh_access_internet.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2019,
+    "dataset_end": 2025,
+    "data_source": [
+        "DOSM"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Households",
+            "category_ms": "Isi Rumah",
+            "category_sort": 2,
+            "subcategory_en": "Basic Amenities",
+            "subcategory_ms": "Kemudahan Asas",
+            "subcategory_sort": 30
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Households",
+            "category_ms": "Isi Rumah",
+            "category_sort": 2,
+            "subcategory_en": "Basic Amenities",
+            "subcategory_ms": "Kemudahan Asas",
+            "subcategory_sort": 30
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states, or Malaysia, which has been included for ease of analysis",
+            "description_ms": "[Kategori] Satu daripada 16 negeri, atau Malaysia, yang telah disertakan untuk memudahkan analisis"
+        },
+        {
+            "name": "strata",
+            "title_en": "Strata",
+            "title_ms": "Strata",
+            "description_en": "[Categorical] Either both strata ('overall'), urban ('urban') or rural ('rural')",
+            "description_ms": "[Kategori] Sama ada kedua-dua strata ('overall'), bandar ('urban') atau luar bandar ('rural')"
+        },
+        {
+            "name": "proportion",
+            "title_en": "Internet Access",
+            "title_ms": "Akses Internet",
+            "description_en": "[Float] Percentage of households with access to the Internet",
+            "description_ms": "[Apung] Peratusan isi rumah yang mempunyai akses kepada Internet"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 1,
+                "filter_columns": [
+                    "state",
+                    "strata"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "timeseries",
+            "title_en": "Households with Internet Access",
+            "title_ms": "Isi Rumah dengan Akses Internet",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state",
+                    "strata"
+                ],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "proportion"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Households (%)",
+        "date": "Date",
+        "state": "State",
+        "strata": "Strata",
+        "proportion": "Households (%)",
+        "overall": "Overall",
+        "urban": "Urban",
+        "rural": "Rural"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Isi Rumah (%)",
+        "date": "Tarikh",
+        "state": "Negeri",
+        "strata": "Strata",
+        "proportion": "Isi Rumah (%)",
+        "overall": "Keseluruhan",
+        "urban": "Bandar",
+        "rural": "Luar Bandar"
+    },
+    "related_datasets": []
+}
