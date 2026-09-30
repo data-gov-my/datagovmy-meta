@@ -7,12 +7,12 @@
     "exclude_openapi": false,
     "manual_trigger": "1",
     "data_as_of": "2024",
-    "last_updated": "2026-08-03 12:00",
-    "next_update": "—",
+    "last_updated": "2026-09-30 12:00",
+    "next_update": "tbc",
     "methodology_en": "This data represents estimates of households' access to various basic amenities, and is tabulated from household-level survey data collected via the Household Income and Expenditure Survey (HIES), which is conducted at least twice within any 5-year period. For full details on the methodology, especially on the nuances involved in sampling, please refer to the [technical notes](https://open.dosm.gov.my/publications/technical-notes/hies-technotes).",
     "methodology_ms": "Set data ini memaparkan anggaran akses isi rumah kepada pelbagai kemudahan asas, dan dirangka daripada data survey peringkat isi rumah yang dikumpukan melalui Survei Pendapatan dan Perbelanjaan Isi Rumah (HIES), yang dilaksanakan sekurang-kurangnya dua kali dalam mana-mana tempoh 5 tahun. Untuk mendapat perincian metodologi yang penuh, terutamanya mengenai nuansanya metodologi survei, sila rujuk kepada [nota teknikal](https://open.dosm.gov.my/publications/technical-notes/hies-technotes).",
-    "caveat_en": "\u2014",
-    "caveat_ms": "\u2014",
+    "caveat_en": "Six districts gazetted after 2022 (Membakut in Sabah; Gedong, Lingga, Pantu, Sebuyau and Siburan in Sarawak) appear from 2024 onwards. District-level data on sanitation for these 6 districts is not available for 2024.",
+    "caveat_ms": "Enam daerah yang diwartakan selepas 2022 (Membakut di Sabah; Gedong, Lingga, Pantu, Sebuyau dan Siburan di Sarawak) dipaparkan mulai 2024. Data sanitasi peringkat daerah bagi 6 daerah ini tidak tersedia bagi tahun 2024.",
     "publication_en": "The [Household Income Survey Report, 2024](https://open.dosm.gov.my/publications/household_income_2024), the latest edition of the household income statistics published by DOSM. OpenDOSM also features a [dashboard on household income](https://open.dosm.gov.my/dashboard/household-income-expenditure) which enables you to explore Malaysia's household income data interactively.",
     "publication_ms": "[Laporan Survei Pendapatan Isi Rumah, 2024](https://open.dosm.gov.my/ms-MY/publications/household_income_2024), edisi terkini bagi statistik pendapatan isi rumah yang diterbitkan oleh DOSM. OpenDOSM juga membekalkan [_dashboard_ pendapatan isi rumah](https://open.dosm.gov.my/ms-MY/dashboard/household-income-expenditure) yang membolehkan anda menerokai data pendapatan isi rumah Malaysia secara interaktif.",
     "link_parquet": "https://storage.dosm.gov.my/hies/hh_access_amenities.parquet",
@@ -60,8 +60,8 @@
             "name": "district",
             "title_en": "District",
             "title_ms": "Daerah",
-            "description_en": "[Categorical] One of 160 administrative districts, including the 4 states (Perlis and the 3 Federal Territories) which do not have subdivisions, or 'All Districts' for the state totals",
-            "description_ms": "[Kategori] Satu daripada 160 daerah pentadbiran, termasuk 4 negeri (Perlis dan 3 Wilayah Persekutuan) yang tidak dipecahkan lagi, atau 'Semua Daerah' untuk jumlah keseluruhan negeri"
+            "description_en": "[Categorical] One of 166 administrative districts, including the 4 states (Perlis and the 3 Federal Territories) which do not have subdivisions, or 'All Districts' for the state totals",
+            "description_ms": "[Kategori] Satu daripada 166 daerah pentadbiran, termasuk 4 negeri (Perlis dan 3 Wilayah Persekutuan) yang tidak dipecahkan lagi, atau 'Semua Daerah' untuk jumlah keseluruhan negeri"
         },
         {
             "name": "date",
