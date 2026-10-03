@@ -1,7 +1,7 @@
 {
     "title_en": "Internet Use by Type of Portable Device",
     "title_ms": "Penggunaan Internet mengikut Jenis Peranti Mudah Alih",
-    "title_sort": 50,
+    "title_sort": 15,
     "description_en": "Percentage of individuals using the Internet by type of portable device used, by state and strata.",
     "description_ms": "Peratusan individu yang menggunakan Internet mengikut jenis peranti mudah alih yang digunakan, mengikut negeri dan strata.",
     "exclude_openapi": false,
