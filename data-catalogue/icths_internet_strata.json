@@ -1,7 +1,7 @@
 {
     "title_en": "Internet Use by State & Strata",
     "title_ms": "Penggunaan Internet mengikut Negeri & Strata",
-    "title_sort": 30,
+    "title_sort": 10,
     "description_en": "Percentage of individuals using the Internet by state and strata.",
     "description_ms": "Peratusan individu yang menggunakan Internet mengikut negeri dan strata.",
     "exclude_openapi": false,

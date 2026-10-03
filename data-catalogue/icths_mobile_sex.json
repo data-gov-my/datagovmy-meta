@@ -1,29 +1,31 @@
 {
-    "title_en": "Household Access to Internet by State & Strata",
-    "title_ms": "Akses Isi Rumah kepada Internet mengikut Negeri & Strata",
-    "title_sort": 1,
-    "description_en": "Percentage of households with access to the Internet by state and strata.",
-    "description_ms": "Peratusan isi rumah yang mempunyai akses kepada Internet mengikut negeri dan strata.",
+    "title_en": "Mobile Phone Ownership by State & Sex",
+    "title_ms": "Pemilikan Telefon Bimbit mengikut Negeri & Jantina",
+    "title_sort": 20,
+    "description_en": "Percentage of individuals owning a mobile phone by state and sex.",
+    "description_ms": "Peratusan individu yang memiliki telefon bimbit mengikut negeri dan jantina.",
     "exclude_openapi": false,
     "manual_trigger": "",
     "data_as_of": "2025",
-    "last_updated": "2026-09-30 12:00",
+    "last_updated": "2026-10-03 12:00",
     "next_update": "tbc",
     "methodology_en": "This data is tabulated from survey data collected via the ICT Use and Access by Individuals and Households Survey (ICTHS), which has been conducted annually by DOSM since 2018. The survey covers households living in private living quarters, and statistics on ICT use refer to individuals aged 15 years and above. The reference period for ICT use by individuals is the 3 months prior to the interview. For full details on the methodology, please refer to the technical notes in the [ICTHS report](https://storage.dosm.gov.my/icths/icths_2025.pdf).",
     "methodology_ms": "Set data ini dirangka daripada data survei yang dikumpulkan melalui Survei Penggunaan dan Capaian ICT oleh Individu dan Isi Rumah (ICTHS), yang dilaksanakan setiap tahun oleh DOSM sejak 2018. Survei ini meliputi isi rumah yang tinggal di tempat kediaman persendirian, dan statistik penggunaan ICT merujuk kepada individu berumur 15 tahun dan ke atas. Tempoh rujukan bagi penggunaan ICT oleh individu ialah 3 bulan sebelum temu ramah. Untuk mendapat perincian metodologi yang penuh, sila rujuk kepada nota teknikal dalam [laporan ICTHS](https://storage.dosm.gov.my/icths/icths_2025.pdf).",
-    "caveat_en": "W.P. Kuala Lumpur and W.P. Putrajaya are fully urban, and therefore have no data for the rural strata.",
-    "caveat_ms": "W.P. Kuala Lumpur dan W.P. Putrajaya adalah bandar sepenuhnya, dan oleh itu tiada data bagi strata luar bandar.",
+    "caveat_en": "Data at state level was first published for 2022; data for 2017-2021 is available for Malaysia only.",
+    "caveat_ms": "Data peringkat negeri mula diterbitkan bagi tahun 2022; data bagi tahun 2017-2021 hanya tersedia untuk Malaysia.",
     "publication_en": "The [ICT Use and Access by Individuals and Households Survey Report, 2025](https://storage.dosm.gov.my/icths/icths_2025.pdf), the latest edition of the ICT use and access statistics published by DOSM.",
     "publication_ms": "[Laporan Survei Penggunaan dan Capaian ICT oleh Individu dan Isi Rumah, 2025](https://storage.dosm.gov.my/icths/icths_2025.pdf), edisi terkini bagi statistik penggunaan dan capaian ICT yang diterbitkan oleh DOSM.",
-    "link_parquet": "https://storage.dosm.gov.my/icths/hh_access_internet.parquet",
-    "link_csv": "https://storage.dosm.gov.my/icths/hh_access_internet.csv",
+    "link_parquet": "https://storage.dosm.gov.my/icths/icths_mobile_sex.parquet",
+    "link_csv": "https://storage.dosm.gov.my/icths/icths_mobile_sex.csv",
     "frequency": "YEARLY",
     "geography": [
         "NATIONAL",
         "STATE"
     ],
-    "demography": [],
-    "dataset_begin": 2019,
+    "demography": [
+        "SEX"
+    ],
+    "dataset_begin": 2017,
     "dataset_end": 2025,
     "data_source": [
         "DOSM"
@@ -64,18 +66,18 @@
             "description_ms": "[Kategori] Satu daripada 16 negeri, atau Malaysia, yang telah disertakan untuk memudahkan analisis"
         },
         {
-            "name": "strata",
-            "title_en": "Strata",
-            "title_ms": "Strata",
-            "description_en": "[Categorical] Either both strata ('overall'), urban ('urban') or rural ('rural')",
-            "description_ms": "[Kategori] Sama ada kedua-dua strata ('overall'), bandar ('urban') atau luar bandar ('rural')"
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
+            "description_ms": "[Kategori] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
         },
         {
             "name": "proportion",
-            "title_en": "Internet Access",
-            "title_ms": "Akses Internet",
-            "description_en": "[Float] Percentage of households with access to the Internet",
-            "description_ms": "[Apung] Peratusan isi rumah yang mempunyai akses kepada Internet"
+            "title_en": "Mobile Phone Ownership",
+            "title_ms": "Pemilikan Telefon Bimbit",
+            "description_en": "[Float] Percentage of individuals owning a mobile phone",
+            "description_ms": "[Apung] Peratusan individu yang memiliki telefon bimbit"
         }
     ],
     "dataviz": [
@@ -87,54 +89,33 @@
             "config": {
                 "precision": 1,
                 "filter_columns": [
-                    "state",
-                    "strata"
+                    "state"
                 ],
                 "freeze_columns": []
-            }
-        },
-        {
-            "dataviz_id": "timeseries",
-            "title_en": "Households with Internet Access",
-            "title_ms": "Isi Rumah dengan Akses Internet",
-            "chart_type": "TIMESERIES",
-            "config": {
-                "filter_columns": [
-                    "state",
-                    "strata"
-                ],
-                "precision": 1,
-                "operation": "SUM",
-                "format": {
-                    "x": "date",
-                    "y": [
-                        "proportion"
-                    ]
-                }
             }
         }
     ],
     "translations_en": {
         "x": "Date",
-        "y1": "Households (%)",
+        "y1": "Individuals (%)",
         "date": "Date",
         "state": "State",
-        "strata": "Strata",
-        "proportion": "Households (%)",
-        "overall": "Overall",
-        "urban": "Urban",
-        "rural": "Rural"
+        "proportion": "Individuals (%)",
+        "sex": "Sex",
+        "both": "Both Sexes",
+        "male": "Male",
+        "female": "Female"
     },
     "translations_ms": {
         "x": "Tarikh",
-        "y1": "Isi Rumah (%)",
+        "y1": "Individu (%)",
         "date": "Tarikh",
         "state": "Negeri",
-        "strata": "Strata",
-        "proportion": "Isi Rumah (%)",
-        "overall": "Keseluruhan",
-        "urban": "Bandar",
-        "rural": "Luar Bandar"
+        "proportion": "Individu (%)",
+        "sex": "Jantina",
+        "both": "Kedua-dua Jantina",
+        "male": "Lelaki",
+        "female": "Perempuan"
     },
     "related_datasets": []
 }
