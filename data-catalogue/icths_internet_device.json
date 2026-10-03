@@ -94,32 +94,9 @@
             "config": {
                 "precision": 1,
                 "filter_columns": [
-                    "state",
-                    "strata",
-                    "device"
+                    "state"
                 ],
                 "freeze_columns": []
-            }
-        },
-        {
-            "dataviz_id": "timeseries",
-            "title_en": "Internet Use by Device",
-            "title_ms": "Penggunaan Internet mengikut Peranti",
-            "chart_type": "TIMESERIES",
-            "config": {
-                "filter_columns": [
-                    "state",
-                    "strata",
-                    "device"
-                ],
-                "precision": 1,
-                "operation": "SUM",
-                "format": {
-                    "x": "date",
-                    "y": [
-                        "proportion"
-                    ]
-                }
             }
         }
     ],
