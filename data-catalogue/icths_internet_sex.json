@@ -89,30 +89,9 @@
             "config": {
                 "precision": 1,
                 "filter_columns": [
-                    "state",
-                    "sex"
+                    "state"
                 ],
                 "freeze_columns": []
-            }
-        },
-        {
-            "dataviz_id": "timeseries",
-            "title_en": "Internet Use",
-            "title_ms": "Penggunaan Internet",
-            "chart_type": "TIMESERIES",
-            "config": {
-                "filter_columns": [
-                    "state",
-                    "sex"
-                ],
-                "precision": 1,
-                "operation": "SUM",
-                "format": {
-                    "x": "date",
-                    "y": [
-                        "proportion"
-                    ]
-                }
             }
         }
     ],
