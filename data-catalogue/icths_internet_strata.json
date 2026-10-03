@@ -34,18 +34,18 @@
             "category_en": "Households",
             "category_ms": "Isi Rumah",
             "category_sort": 2,
-            "subcategory_en": "Basic Amenities",
-            "subcategory_ms": "Kemudahan Asas",
-            "subcategory_sort": 30
+            "subcategory_en": "ICT Access",
+            "subcategory_ms": "Akses ICT",
+            "subcategory_sort": 40
         },
         {
             "site": "opendosm",
             "category_en": "Households",
             "category_ms": "Isi Rumah",
             "category_sort": 2,
-            "subcategory_en": "Basic Amenities",
-            "subcategory_ms": "Kemudahan Asas",
-            "subcategory_sort": 30
+            "subcategory_en": "ICT Access",
+            "subcategory_ms": "Akses ICT",
+            "subcategory_sort": 40
         }
     ],
     "fields": [
