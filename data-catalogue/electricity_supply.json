@@ -6,7 +6,7 @@
     "description_ms": "Bekalan elektrik bulanan mengikut sektor.",
     "exclude_openapi": false,
     "manual_trigger": "",
-    "data_as_of": "2026-06-30 23:59",
+    "data_as_of": "2026-06",
     "last_updated": "2026-10-08 12:00",
     "next_update": "tbc",
     "methodology_en": "The Malaysian electrical grid is managed by Tenaga Nasional Berhad (for Peninsular Malaysia), Sabah Electricity Sdn. Bhd., and Sarawak Energy Berhad. Independent power producers also supply electricity. This dataset includes monthly electricity supply data categorized by sector, compiled from the operational records of these providers.",
