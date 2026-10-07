@@ -7,20 +7,17 @@
         "header": "Immigration",
         "description": "Besides births and deaths, migration is a key driver of demographic change, especially for a strategically-located country like Malaysia. Using granular data from the Immigration Department, this dashboard gives you insight into arrivals at our nation's borders. Where do visitors to Malaysia come from? How has that changed over time? Are there peak seasons for travelling? Dive in and find out!",
         "section_1": {
-            "title": "Top 10 nationalities arriving in Malaysia",
-            "description": "Ranked by number of arrivals, separately for male and female travellers. The share is the percentage of all male (or female) arrivals in the selected period.",
+            "title": "Top 15 nationalities arriving in Malaysia",
             "period_12m": "Past 12 months",
             "period_ytd": "{{ year }} (Jan - {{ month }})",
-            "table_male": "Male arrivals",
-            "table_female": "Female arrivals",
             "column_nationality": "Nationality",
             "column_arrivals": "Arrivals",
-            "column_share": "% of Arrivals"
+            "column_share": "% of Arrivals",
+            "column_male": "% Male"
         },
         "section_2": {
-            "title": "How many people from {{ country }} are arriving in Malaysia?",
-            "title_ALL": "How many foreigners are arriving in Malaysia?",
-            "description": "Search for any country to see its arrivals over time. This data is only available at national level because movement between states is free and unmonitored in Malaysia.",
+            "title": "How many people from {{ country }} arrived in Malaysia?",
+            "title_ALL": "How many foreigners arrived in Malaysia?",
             "search_placeholder": "Search for a country",
             "timeseries_title": "Arrivals to Malaysia: {{ country }}",
             "stat_latest": "Arrivals ({{ month }})",
