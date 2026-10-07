@@ -6,7 +6,7 @@
     "description_ms": "Penggunaan elektrik bulanan mengikut sektor.",
     "exclude_openapi": false,
     "manual_trigger": "",
-    "data_as_of": "2026-06-30 23:59",
+    "data_as_of": "2026-06",
     "last_updated": "2026-10-08 12:00",
     "next_update": "tbc",
     "methodology_en": "In Malaysia, the electrical grid is operated by various parties, primarily Tenaga Nasional Berhad (for Peninsular Malaysia), Sabah Electricity Sdn. Bhd., and Sarawak Energy Berhad. Independent power producers also contribute to the grid. This dataset is tabulated from the operational records of these providers, and shows monthly electricity consumption in Malaysia, categorized by the sector in which it is consumed.",
