@@ -5,30 +5,58 @@
     ],
     "translation": {
         "header": "Immigration",
-        "description": "Besides births and deaths, immigration and emigration are key drivers of demographic changes, especially for a strategically-located country like Malaysia. Using granular data from the Department of Immigration, this dashboard gives you insight into activity at our nation's borders. How many people enter Malaysia every year? Which country do they come from? Are there peak seasons for travelling? Dive in and find out!",
+        "description": "Besides births and deaths, migration is a key driver of demographic change, especially for a strategically-located country like Malaysia. Using granular data from the Immigration Department, this dashboard gives you insight into arrivals at our nation's borders. Where do visitors to Malaysia come from? How has that changed over time? Are there peak seasons for travelling? Dive in and find out!",
         "section_1": {
-            "title": "How many people from {{ country }} are entering the country?",
-            "title_ALL": "How many people from {{ country }} are entering the country?",
-            "description": "This data is only available at national level because movement between states is free and unmonitored in Malaysia.",
-            "search_placeholder": "Zoom into a specific country",
-            "timeseries_title": "Entrances into Malaysia"
+            "title": "Top 10 nationalities arriving in Malaysia",
+            "description": "Ranked by number of arrivals, separately for male and female travellers. The share is the percentage of all male (or female) arrivals in the selected period.",
+            "period_12m": "Past 12 months",
+            "period_ytd": "{{ year }} (Jan - {{ month }})",
+            "table_male": "Male arrivals",
+            "table_female": "Female arrivals",
+            "column_nationality": "Nationality",
+            "column_arrivals": "Arrivals",
+            "column_share": "% of Arrivals"
         },
         "section_2": {
-            "title": "A breakdown of foreign arrivals by demographic group",
-            "description": "This data helps illustrate various seasonal patterns. For example, male travellers enter at roughly the same rate all year. Conversely, there is a spike in child and teenage entrances during holiday seasons."
+            "title": "How many people from {{ country }} are arriving in Malaysia?",
+            "title_ALL": "How many foreigners are arriving in Malaysia?",
+            "description": "Search for any country to see its arrivals over time. This data is only available at national level because movement between states is free and unmonitored in Malaysia.",
+            "search_placeholder": "Search for a country",
+            "timeseries_title": "Arrivals to Malaysia: {{ country }}",
+            "stat_latest": "Arrivals ({{ month }})",
+            "stat_yoy": "Year-on-year change",
+            "stat_12m": "Past 12 months"
+        },
+        "section_3": {
+            "title": "Arrivals to Malaysia by continent",
+            "description": "Monthly arrivals of foreign visitors, grouped by the continent of their nationality."
+        },
+        "section_4": {
+            "title": "Arrivals to Malaysia from key tourism sources",
+            "description": "The 9 countries with the most arrivals to Malaysia over the past 36 months ({{ start }} to {{ end }}), ranked from largest to smallest.",
+            "country1": "Singapore",
+            "country2": "Indonesia",
+            "country3": "People's Republic of China",
+            "country4": "Thailand",
+            "country5": "India",
+            "country6": "Brunei Darussalam",
+            "country7": "Philippines",
+            "country8": "South Korea",
+            "country9": "Australia"
+        },
+        "continents": {
+            "asia": "Asia",
+            "europe": "Europe",
+            "oceania": "Oceania",
+            "north_america": "North America",
+            "south_america": "South America",
+            "africa": "Africa"
         },
         "keys": {
-            "entrances": "Entrances",
-            "departures": "Departures",
-            "net_migration": "Net Migration",
+            "arrivals": "Arrivals",
             "male": "Male",
             "female": "Female",
-            "baby": "Babies (< 2 years old)",
-            "child": "Children (3-10 years old)",
-            "teenager": "Teenagers (11-17 years old)",
-            "adult_young": "Young Adults (18-30 years old)",
-            "adult": "Adults (31-60 years old)",
-            "elderly": "Elderly (> 60 years old)"
+            "overall": "Overall"
         }
     }
 }
