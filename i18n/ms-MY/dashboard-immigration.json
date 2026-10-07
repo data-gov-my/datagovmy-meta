@@ -1,32 +1,62 @@
 {
-  "route": "/ms-MY/dashboard/immigration",
-  "sites": ["datagovmy"],
-  "translation": {
-    "header": "Imigresen",
-    "description": "Selain daripada kelahiran dan kematian, migrasi merupakan penyumbang utama kepada perubahan demografi, terutamanya bagi sebuah negara dengan lokasi strategik seperti Malaysia. Dengan menggunakan data terperinci dari Jabatan Imigresen, papan pemuka ini memberi gambaran tentang data dari sempadan negara kita. Berapakah jumlah warga asing yang datang ke Malaysia setiap tahun? Dari negara manakah mereka berasal? Adakah terdapat trend yang menunjukkan kadar peningkatan ketara kemasukan warga asing bagi sektor pelancongan? Terokainya sekarang!",
-    "section_1": {
-      "title": "Berapakah jumlah kemasukan warga {{ country }} ke Malaysia?",
-      "title_ALL": "Berapakah jumlah kemasukan warga asing ke Malaysia?",
-      "description": "Data ini hanya dipaparkan di peringkat nasional kerana pergerakan antara negeri di Malaysia adalah bebas dan tidak dipantau oleh kerajaan.",
-      "search_placeholder": "Cari negara yang spesifik",
-      "timeseries_title": "Kemasukan ke Malaysia"
-    },
-    "section_2": {
-      "title": "Pecahan ketibaan warga asing mengikut kumpulan demografi",
-      "description": "(insert blurb after we can actually see the data)"
-    },
-    "keys": {
-      "entrances": "Kemasukan",
-      "departures": "Pelepasan",
-      "net_migration": "Migrasi Bersih",
-      "male": "Lelaki",
-      "female": "Perempuan",
-      "baby": "Bayi (< 2 tahun)",
-      "child": "Kanak-kanak (3-10 tahun)",
-      "teenager": "Remaja (11-17 tahun)",
-      "adult_young": "Dewasa Muda (18-30 tahun)",
-      "adult": "Dewasa (31-60 tahun)",
-      "elderly": "Warga Emas (> 60 tahun)"
+    "route": "/ms-MY/dashboard/immigration",
+    "sites": [
+        "datagovmy"
+    ],
+    "translation": {
+        "header": "Imigresen",
+        "description": "Selain daripada kelahiran dan kematian, migrasi merupakan penyumbang utama kepada perubahan demografi, terutamanya bagi sebuah negara dengan lokasi strategik seperti Malaysia. Dengan menggunakan data terperinci dari Jabatan Imigresen, papan pemuka ini memberi gambaran tentang ketibaan di sempadan negara kita. Dari manakah pelawat ke Malaysia datang? Bagaimanakah ia berubah dari semasa ke semasa? Adakah terdapat musim puncak untuk melancong? Terokainya sekarang!",
+        "section_1": {
+            "title": "10 warganegara teratas yang tiba di Malaysia",
+            "description": "Disusun mengikut bilangan ketibaan, secara berasingan bagi pengembara lelaki dan perempuan. Peratusan ialah bahagian daripada jumlah ketibaan lelaki (atau perempuan) bagi tempoh yang dipilih.",
+            "period_12m": "12 bulan lepas",
+            "period_ytd": "{{ year }} (Jan - {{ month }})",
+            "table_male": "Ketibaan lelaki",
+            "table_female": "Ketibaan perempuan",
+            "column_nationality": "Warganegara",
+            "column_arrivals": "Ketibaan",
+            "column_share": "% Ketibaan"
+        },
+        "section_2": {
+            "title": "Berapakah jumlah ketibaan warga {{ country }} ke Malaysia?",
+            "title_ALL": "Berapakah jumlah ketibaan warga asing ke Malaysia?",
+            "description": "Cari mana-mana negara untuk melihat ketibaan dari semasa ke semasa. Data ini hanya dipaparkan di peringkat nasional kerana pergerakan antara negeri di Malaysia adalah bebas dan tidak dipantau.",
+            "search_placeholder": "Cari negara",
+            "timeseries_title": "Ketibaan ke Malaysia: {{ country }}",
+            "stat_latest": "Ketibaan ({{ month }})",
+            "stat_yoy": "Perubahan tahun ke tahun",
+            "stat_12m": "12 bulan lepas"
+        },
+        "section_3": {
+            "title": "Ketibaan ke Malaysia mengikut benua",
+            "description": "Ketibaan bulanan pelawat asing, dikumpulkan mengikut benua warganegara mereka."
+        },
+        "section_4": {
+            "title": "Ketibaan ke Malaysia dari sumber pelancongan utama",
+            "description": "9 negara dengan ketibaan tertinggi ke Malaysia dalam tempoh 36 bulan lepas ({{ start }} hingga {{ end }}), disusun dari terbesar ke terkecil.",
+            "country1": "Singapura",
+            "country2": "Indonesia",
+            "country3": "Republik Rakyat China",
+            "country4": "Thailand",
+            "country5": "India",
+            "country6": "Brunei Darussalam",
+            "country7": "Filipina",
+            "country8": "Korea Selatan",
+            "country9": "Australia"
+        },
+        "continents": {
+            "asia": "Asia",
+            "europe": "Eropah",
+            "oceania": "Oceania",
+            "north_america": "Amerika Utara",
+            "south_america": "Amerika Selatan",
+            "africa": "Afrika"
+        },
+        "keys": {
+            "arrivals": "Ketibaan",
+            "male": "Lelaki",
+            "female": "Perempuan",
+            "overall": "Keseluruhan"
+        }
     }
-  }
 }
