@@ -5,7 +5,7 @@
     "description_en": "Breakdown of employment into employers, employees, own-account workers and unpaid family workers.",
     "description_ms": "Pecahan guna tenaga kepada majikan, pekerja, bekerja sendiri dan pekerja keluarga tanpa gaji.",
     "exclude_openapi": false,
-    "manual_trigger": "2026-10-09 12:25:51.662734",
+    "manual_trigger": "2026-10-09 12:27:05.175462",
     "data_as_of": "2026-08",
     "last_updated": "2026-10-09 12:30",
     "next_update": "2026-11-11 12:30",

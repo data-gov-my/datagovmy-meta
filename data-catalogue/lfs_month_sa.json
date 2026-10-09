@@ -5,7 +5,7 @@
     "description_en": "Seasonally adjusted monthly principal labour force statistics, including unemployment and participation rates.",
     "description_ms": "Statistik bulanan utama berkaitan tenaga buruh yang terlaras secara bermusim, termasuk kadar pengangguran dan penyertaan.",
     "exclude_openapi": false,
-    "manual_trigger": "2026-10-09 12:25:51.660287",
+    "manual_trigger": "2026-10-09 12:27:05.173914",
     "data_as_of": "2026-08",
     "last_updated": "2026-10-09 12:30",
     "next_update": "2026-11-11 12:30",

@@ -5,7 +5,7 @@
     "description_en": "Breakdown of monthly unemployed figures by duration of unemployment.",
     "description_ms": "Pecahan angka penganggurann bulanan mengikut tempoh pengangguran.",
     "exclude_openapi": false,
-    "manual_trigger": "2026-10-09 12:25:51.661387",
+    "manual_trigger": "2026-10-09 12:27:05.174588",
     "data_as_of": "2026-06",
     "last_updated": "2026-10-09 12:30",
     "next_update": "2026-11-11 12:30",
