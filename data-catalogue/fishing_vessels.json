@@ -5,7 +5,7 @@
     "description_en": "Annual number of licensed powered fishing vessels by state, coast, engine type and horsepower class.",
     "description_ms": "Bilangan vesel penangkapan ikan berjentera yang berlesen tahunan mengikut negeri, pantai, jenis enjin dan kelas kuasa kuda.",
     "exclude_openapi": false,
-    "manual_trigger": "1",
+    "manual_trigger": "2026-10-10 23:02:29.209651",
     "data_as_of": "2025",
     "last_updated": "2026-10-10 22:57",
     "next_update": "tbc",

@@ -5,7 +5,7 @@
     "description_en": "Annual landings and wholesale and retail value of marine fish landings by state, coast, category and grade of fish.",
     "description_ms": "Pendaratan serta nilai borong dan nilai runcit pendaratan ikan laut tahunan mengikut negeri, pantai, kategori dan gred ikan.",
     "exclude_openapi": false,
-    "manual_trigger": "1",
+    "manual_trigger": "2026-10-10 23:02:29.209651",
     "data_as_of": "2025",
     "last_updated": "2026-10-10 22:57",
     "next_update": "tbc",

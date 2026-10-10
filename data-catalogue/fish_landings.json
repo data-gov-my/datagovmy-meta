@@ -5,7 +5,7 @@
     "description_en": "Monthly landings of marine fish by state and coast from 2005 to 2025.",
     "description_ms": "Pendaratan ikan laut bulanan mengikut negeri dan pantai dari 2005 hingga 2025.",
     "exclude_openapi": false,
-    "manual_trigger": "1",
+    "manual_trigger": "2026-10-10 23:02:29.209651",
     "data_as_of": "2025-12",
     "last_updated": "2026-10-10 12:02",
     "next_update": "2027-12-31 16:00",
