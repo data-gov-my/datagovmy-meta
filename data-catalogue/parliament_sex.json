@@ -6,8 +6,8 @@
     "description_ms": "Peratusan wanita dan lelaki dalam Parlimen Malaysia, merangkumi Dewan Rakyat dan Dewan Negara.",
     "exclude_openapi": false,
     "manual_trigger": "",
-    "data_as_of": "2022",
-    "last_updated": "2024-09-01 12:00",
+    "data_as_of": "2024",
+    "last_updated": "2026-10-11 12:00",
     "next_update": "-",
     "methodology_en": "This dataset is compiled from official records of the Malaysian Parliament as of January 1st each year. The proportions of women and men are computed using the total number of filled seats as the denominator, meaning that vacancies are not included.",
     "methodology_ms": "Set data ini disusun daripada rekod rasmi Parlimen Malaysia setakat 1 Januari setiap tahun. Peratusan wanita dan lelaki dikira menggunakan jumlah kerusi yang diisi, maka kerusi yang kosong tidak diambil kira dalam pengiraan.",
@@ -25,7 +25,7 @@
         "SEX"
     ],
     "dataset_begin": 2016,
-    "dataset_end": 2022,
+    "dataset_end": 2024,
     "data_source": [
         "Parlimen"
     ],

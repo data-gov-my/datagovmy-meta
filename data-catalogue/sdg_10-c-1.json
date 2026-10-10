@@ -6,8 +6,8 @@
     "description_ms": "Data tahunan mengenai kos kiriman wang sebagai peratusan jumlah yang dikirim, selaras dengan Indikator SDG 10-C-1.",
     "exclude_openapi": false,
     "manual_trigger": "",
-    "data_as_of": "2022",
-    "last_updated": "2024-09-01 12:00",
+    "data_as_of": "2024",
+    "last_updated": "2026-10-11 12:00",
     "next_update": "-",
     "methodology_en": "This dataset is tabulated from administrative records of cross-border transactions collected by the Central Bank of Malaysia, and subsequently reported to DOSM in aggregated form. It is collected as part of Malaysia's monitoring of the Sustainable Development Goals (SDGs), in line with the most recent [SDG Global Indicator Framework](https://storage.dosm.gov.my/technotes/sdg.pdf).",
     "methodology_ms": "Set data ini dihasilkan berdasarkan rekod pentadbiran mengenai transaksi merentas sempadan yang dikumpulkan oleh Bank Negara Malaysia, dan kemudiannya dilaporkan kepada DOSM dalam bentuk agregat. Ia dikumpulkan sebagai sebahagian daripada pemantauan Malaysia terhadap Matlamat Pembangunan Lestari (SDG), selaras dengan [Kerangka Indikator Global SDG](https://storage.dosm.gov.my/technotes/sdg.pdf) yang terkini.",
@@ -23,9 +23,9 @@
     ],
     "demography": [],
     "dataset_begin": 2016,
-    "dataset_end": 2022,
+    "dataset_end": 2024,
     "data_source": [
-        "DOSM", 
+        "DOSM",
         "BNM"
     ],
     "site_category": [

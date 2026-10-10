@@ -2,19 +2,19 @@
     "title_en": "Female Representation in Local Authorities",
     "title_ms": "Perwakilan Wanita dalam Pihak Berkuasa Tempatan",
     "title_sort": 11,
-    "description_en": "Proportion of women and men in Malaysian local authorities.",
-    "description_ms": "Peratusan wanita dan lelaki dalam pihak berkuasa tempatan Malaysia.",
+    "description_en": "Proportion of women and men in Malaysian local authorities, by state and local authority.",
+    "description_ms": "Peratusan wanita dan lelaki dalam pihak berkuasa tempatan Malaysia, mengikut negeri dan pihak berkuasa tempatan.",
     "exclude_openapi": false,
     "manual_trigger": "",
-    "data_as_of": "2022",
-    "last_updated": "2024-09-01 12:00",
+    "data_as_of": "2024",
+    "last_updated": "2026-10-11 12:00",
     "next_update": "-",
     "methodology_en": "This dataset is compiled from official records of Malaysian local authorities as of January 1st each year. The proportions of women and men are computed using the total number of filled positions as the denominator, meaning that vacancies are not included.",
     "methodology_ms": "Set data ini disusun daripada rekod rasmi pihak berkuasa tempatan Malaysia setakat 1 Januari setiap tahun. Peratusan wanita dan lelaki dikira menggunakan jumlah jawatan yang diisi, maka jawatan yang kosong tidak diambil kira dalam pengiraan.",
-    "caveat_en": "The data reflects the composition of local authorities at the start of the year. Therefore, it does not capture any changes in composition that occur during the year. However, the proportions usually do not fluctuate significantly.",
-    "caveat_ms": "Data ini mencerminkan komposisi pada satu titik masa tertentu maka tidak memperlihat mana-mana perubahan komposisi yang berlaku sehingga permulaan tahun seterusnya. Namun, peratusan biasanya tidak berubah secara signifikan.",
-    "publication_en": "\u2014",
-    "publication_ms": "\u2014",
+    "caveat_en": "The data reflects the composition of local authorities at the start of the year. Therefore, it does not capture any changes in composition that occur during the year. However, the proportions usually do not fluctuate significantly. From 2022 onwards, state and national totals ('All') are compiled by KPKT at state level, and may therefore differ from the composition of the individual local authorities, which are available up to 2022. W.P. Kuala Lumpur, W.P. Labuan and W.P. Putrajaya are not covered by these totals.",
+    "caveat_ms": "Data ini mencerminkan komposisi pada satu titik masa tertentu maka tidak memperlihat mana-mana perubahan komposisi yang berlaku sehingga permulaan tahun seterusnya. Namun, peratusan biasanya tidak berubah secara signifikan. Dari 2022 dan seterusnya, jumlah negeri dan kebangsaan ('All') disusun oleh KPKT di peringkat negeri, maka mungkin berbeza daripada komposisi pihak berkuasa tempatan individu, yang tersedia sehingga 2022. W.P. Kuala Lumpur, W.P. Labuan dan W.P. Putrajaya tidak diliputi oleh jumlah ini.",
+    "publication_en": "—",
+    "publication_ms": "—",
     "link_parquet": "https://storage.data.gov.my/publicadmin/local_authority_sex.parquet",
     "link_csv": "https://storage.data.gov.my/publicadmin/local_authority_sex.csv",
     "frequency": "ANNUAL",
@@ -26,7 +26,7 @@
         "SEX"
     ],
     "dataset_begin": 2019,
-    "dataset_end": 2022,
+    "dataset_end": 2024,
     "data_source": [
         "KPKT"
     ],
@@ -50,11 +50,18 @@
             "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai MM-DD ditetapkan kepada 01-01 kerana data pada frekuensi tahunan."
         },
         {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states, or Malaysia",
+            "description_ms": "[Kategori] Satu daripada 16 negeri, atau Malaysia"
+        },
+        {
             "name": "local_authority",
             "title_en": "Local Authority",
             "title_ms": "Pihak Berkuaasa Tempatan",
-            "description_en": "[Kategori] Nama pihak berkuasa tempatan",
-            "description_ms": "[Kategori] Nama pihak berkuasa tempatan"
+            "description_en": "[Categorical] Name of the local authority, or 'All' for the total of the state",
+            "description_ms": "[Kategori] Nama pihak berkuasa tempatan, atau 'All' bagi jumlah negeri"
         },
         {
             "name": "female",
