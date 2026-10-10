@@ -6,15 +6,15 @@
     "description_ms": "Jumlah perkahwinan yang didaftarkan setiap tahun mengikut negeri kediaman, termasuk kadar perkahwinan bagi setiap 1,000 penduduk yang tidak berkahwin.",
     "exclude_openapi": false,
     "manual_trigger": "",
-    "data_as_of": "2022-12-31 23:59",
-    "last_updated": "2023-11-23 12:00",
-    "next_update": "2024-11-21 12:00",
+    "data_as_of": "2024",
+    "last_updated": "2026-10-11 12:00",
+    "next_update": "2026-11-19 18:00",
     "methodology_en": "In Malaysia, there are two parallel systems for marriage registration; non-Muslim marriages are registered with the National Registration Department (JPN), while Muslim marriages are registered with the Syariah Court. This dataset is tabulated from the transactional administrative data collected by both administrative systems. Classification by state is based on the state of residence of the bride and groom respectively, meaning that the total number of male and female marriages in a state does not necessarily have to be the same (however, the national totals must match).",
     "methodology_ms": "Di Malaysia, terdapat dua sistem untuk pendaftaran perkahwinan; perkahwinan bagi orang bukan Islam didaftarkan dengan Jabatan Pendaftaran Negara (JPN), manakala perkahwinan bagi orang Islam didaftarkan dengan Mahkamah Syariah. Set data ini dihasilkan daripada rekod pentadbiran yang dikumpulkan oleh kedua-dua sistem administratif tersebut. Klasifikasi mengikut negeri adalah berdasarkan negeri kediaman bagi lelaki dan wanita yang berkahwin; ini bermaksud bahawa jumlah perkahwinan lelaki dan wanita bagi sesuatu negeri tidak semestinya sama (walaupun jumlah di peringkat nasional mesti sepadan).",
-    "caveat_en": "The data represents registered marriages only. Unregistered marriages (including couples originally registered outside Malaysia who have not yet registered their marriage with local authorities) are not included in this dataset.",
-    "caveat_ms": "Set data ini hanya mewakili perkahwinan yang didaftarkan. Perkahwinan yang tidak didaftarkan (termasuk pasangan yang didaftarkan di luar Malaysia yang belum lagi daftarkan perkahwinan mereka dengan kerajaan Malaysia) tidak terkandung dalam set data ini.",
-    "publication_en": "\u2014",
-    "publication_ms": "\u2014",
+    "caveat_en": "The data represents registered marriages only. Unregistered marriages (including couples originally registered outside Malaysia who have not yet registered their marriage with local authorities) are not included in this dataset. Marriage rates for males in W.P. Putrajaya in 2024 are not available.",
+    "caveat_ms": "Set data ini hanya mewakili perkahwinan yang didaftarkan. Perkahwinan yang tidak didaftarkan (termasuk pasangan yang didaftarkan di luar Malaysia yang belum lagi daftarkan perkahwinan mereka dengan kerajaan Malaysia) tidak terkandung dalam set data ini. Kadar perkahwinan bagi lelaki di W.P. Putrajaya pada 2024 tidak tersedia.",
+    "publication_en": "—",
+    "publication_ms": "—",
     "link_parquet": "https://storage.dosm.gov.my/demography/marriages_state.parquet",
     "link_csv": "https://storage.dosm.gov.my/demography/marriages_state.csv",
     "frequency": "YEARLY",
@@ -23,7 +23,7 @@
     ],
     "demography": [],
     "dataset_begin": 2017,
-    "dataset_end": 2022,
+    "dataset_end": 2024,
     "data_source": [
         "DOSM"
     ],
@@ -48,13 +48,13 @@
         }
     ],
     "fields": [
-		{
-			"name": "state",
-			"title_en": "State",
-			"title_ms": "Negeri",
-			"description_en": "[Categorical] One of 16 states, including the 3 Federal Territories",
-			"description_ms": "[Kategoril] Satu daripada 16 negeri, termasuk 3 Wilayah Persekutuan"
-		},
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states, including the 3 Federal Territories",
+            "description_ms": "[Kategoril] Satu daripada 16 negeri, termasuk 3 Wilayah Persekutuan"
+        },
         {
             "name": "date",
             "title_en": "Date",
@@ -92,10 +92,10 @@
             "chart_type": "TABLE",
             "config": {
                 "precision": {
-                  "default": 2,
-                  "columns": {
-                    "abs": 0
-                  }
+                    "default": 2,
+                    "columns": {
+                        "abs": 0
+                    }
                 },
                 "filter_columns": [
                     "state",
@@ -115,10 +115,10 @@
                     "sex"
                 ],
                 "precision": {
-                  "default": 0,
-                  "columns": {
-                    "rate": 2
-                  }
+                    "default": 0,
+                    "columns": {
+                        "rate": 2
+                    }
                 },
                 "operation": "SUM",
                 "format": {
@@ -140,10 +140,10 @@
                     "sex"
                 ],
                 "precision": {
-                  "default": 0,
-                  "columns": {
-                    "rate": 2
-                  }
+                    "default": 0,
+                    "columns": {
+                        "rate": 2
+                    }
                 },
                 "operation": "SUM",
                 "format": {

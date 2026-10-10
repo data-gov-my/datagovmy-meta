@@ -6,43 +6,50 @@
     "description_ms": "Keluasan tahunan hutan simpan setakat hujung tahun, mengikut negeri.",
     "exclude_openapi": false,
     "manual_trigger": "",
-    "data_as_of": "2022",
-    "last_updated": "2026-09-30 12:00",
-    "next_update": "tbc",
+    "data_as_of": "2024",
+    "last_updated": "2026-10-11 12:00",
+    "next_update": "2026-12-31 16:00",
     "methodology_en": "Permanent Reserved Forests (PRFs) are government lands that have been gazetted under the National Forestry Act 1984. Under the National Forestry Policy 1978 (Amendment 1992), PRFs must be managed and classified under four main functions: protection, production, recreation, and research. This dataset records the area of land gazetted as PRFs in Malaysia, with the area is calculated directly from the gazetted PRF maps. For a richer understanding of the definition and purposes of PRFs, please refer to [this policy document](https://storage.data.gov.my/environment/hsk_2021-04-29.pdf).",
     "methodology_ms": "Hutan Simpan Kekal (HSK) ialah kawasan-kawasan tanah kerajaan yang telah diwartakan di bawah Akta Perhutanan Negara 1984. Di bawah Dasar Perhutanan Negara 1978 (Pindaan 1992), HSK perlu diurus dan dikelaskan di bawah empat fungsi utama iaitu hutan perlindungan, hutan berhasil, hutan lipur dan hutan penyelidikan. Set data ini merekodkan keluasan kawasan yang diwartakan sebagai HSK di Malaysia, di mana keluasan tersebut dikira secara terus daripada peta HSK yang diwartakan. Untuk mendapat pemahaman yang lebih mendalam mengenai definisi dan tujuan HSK, sila rujuk kepada [dokumen dasar ini](https://storage.data.gov.my/environment/hsk_2021-04-29.pdf)",
     "caveat_en": "Data prior to 2017 for states in Peninsular Malaysia  includes the area of included proposed PRFs which had not yet been gazetted. Data from 2017 is based only on the area of gazetted PRFs. Furthermore, data on PRFs in Sarawak for 2010 and 2011 is not available at present and will be updated at a later date.",
-    "caveat_ms": "Data sebelum 2017 bagi negeri-negeri di Semenanjung Malaysia termasuk cadangan HSK yang belum diwartakan. Mulai 2017, data adalah berdasarkan keluasan HSK yang diwartakan sahaja. Tambahan lagi, data HSK Sarawak bagi tahun 2010 dan 2011 tidak tersedia buat masa ini, dan akan dikemaskini nanti.",    
-    "publication_en": "\u2014",
-    "publication_ms": "\u2014",
+    "caveat_ms": "Data sebelum 2017 bagi negeri-negeri di Semenanjung Malaysia termasuk cadangan HSK yang belum diwartakan. Mulai 2017, data adalah berdasarkan keluasan HSK yang diwartakan sahaja. Tambahan lagi, data HSK Sarawak bagi tahun 2010 dan 2011 tidak tersedia buat masa ini, dan akan dikemaskini nanti.",
+    "publication_en": "—",
+    "publication_ms": "—",
     "link_parquet": "https://storage.data.gov.my/environment/forest_reserve_state.parquet",
     "link_csv": "https://storage.data.gov.my/environment/forest_reserve_state.csv",
     "frequency": "YEARLY",
-    "geography": ["STATE"],
+    "geography": [
+        "STATE"
+    ],
     "demography": [],
     "dataset_begin": 2003,
-    "dataset_end": 2022,
-    "data_source": ["Perhutanan", "DOSM"],
-    "data_source_granular": ["BPPAS"],
+    "dataset_end": 2024,
+    "data_source": [
+        "Perhutanan",
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "BPPAS"
+    ],
     "site_category": [
-      {
-        "site": "datagovmy",
-        "category_en": "Environment",
-        "category_ms": "Alam Sekitar",
-        "category_sort": 45,
-        "subcategory_en": "Land Use",
-        "subcategory_ms": "Penggunaan Tanah",
-        "subcategory_sort": 10
-      },
-      {
-        "site": "opendosm",
-        "category_en": "Environment",
-        "category_ms": "Alam Sekitar",
-        "category_sort": 95,
-        "subcategory_en": "Land Use",
-        "subcategory_ms": "Penggunaan Tanah",
-        "subcategory_sort": 10
-      }
+        {
+            "site": "datagovmy",
+            "category_en": "Environment",
+            "category_ms": "Alam Sekitar",
+            "category_sort": 45,
+            "subcategory_en": "Land Use",
+            "subcategory_ms": "Penggunaan Tanah",
+            "subcategory_sort": 10
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Environment",
+            "category_ms": "Alam Sekitar",
+            "category_sort": 95,
+            "subcategory_en": "Land Use",
+            "subcategory_ms": "Penggunaan Tanah",
+            "subcategory_sort": 10
+        }
     ],
     "fields": [
         {
@@ -68,47 +75,52 @@
         }
     ],
     "dataviz": [
-      {
-        "dataviz_id": "table",
-        "title_en": "Table",
-        "title_ms": "Jadual",
-        "chart_type": "TABLE",
-        "config": {
-          "precision": 0,
-          "filter_columns": ["state"],
-          "freeze_columns": []
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "state"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "area",
+            "title_en": "Forest Reserve Area",
+            "title_ms": "Keluasan Hutan Simpan",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "area"
+                    ]
+                }
+            }
         }
-      },
-      {
-        "dataviz_id": "area",
-        "title_en": "Forest Reserve Area",
-        "title_ms": "Keluasan Hutan Simpan",
-        "chart_type": "TIMESERIES",
-        "config": {
-          "filter_columns": ["state"],
-          "precision": 0,
-          "operation": "SUM",
-          "format": {
-            "x": "date",
-            "y": ["area"]
-          }
-        }
-      }
     ],
     "translations_en": {
-      "y1": "Value",
-      "date": "Date",
-      "state": "State",
-      "area": "Area",
-      "semenanjung-malaysia": "Semenanjung Malaysia"
+        "y1": "Value",
+        "date": "Date",
+        "state": "State",
+        "area": "Area",
+        "semenanjung-malaysia": "Semenanjung Malaysia"
     },
     "translations_ms": {
-      "y1": "Nilai",
-      "date": "Tarikh",
-      "state": "Negeri",
-      "area": "Keluasan",
-      "semenanjung-malaysia": "Semenanjung Malaysia"
+        "y1": "Nilai",
+        "date": "Tarikh",
+        "state": "Negeri",
+        "area": "Keluasan",
+        "semenanjung-malaysia": "Semenanjung Malaysia"
     },
     "related_datasets": []
-  }
-  
+}
