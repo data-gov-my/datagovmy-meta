@@ -5,7 +5,7 @@
     "description_en": "Monthly production of farmed seaweed by state, with its wholesale and retail value.",
     "description_ms": "Pengeluaran bulanan rumpai laut ternakan mengikut negeri, serta nilai borong dan nilai runcitnya.",
     "exclude_openapi": false,
-    "manual_trigger": "1",
+    "manual_trigger": "2026-10-10 23:02:29.209651",
     "data_as_of": "2025-12",
     "last_updated": "2026-10-10 22:57",
     "next_update": "tbc",

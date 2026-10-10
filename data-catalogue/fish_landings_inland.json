@@ -5,7 +5,7 @@
     "description_en": "Annual landings, wholesale value and retail value of freshwater fish caught in public waterbodies (inland fisheries), by state and type of waterbody.",
     "description_ms": "Pendaratan, nilai borong dan nilai runcit ikan air tawar tahunan yang ditangkap di perairan umum (perikanan darat), mengikut negeri dan jenis perairan.",
     "exclude_openapi": false,
-    "manual_trigger": "1",
+    "manual_trigger": "2026-10-10 23:02:29.209651",
     "data_as_of": "2025",
     "last_updated": "2026-10-10 22:57",
     "next_update": "tbc",
