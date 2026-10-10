@@ -2,17 +2,17 @@
     "title_en": "SDG 16-1-1: Victims of Intentional Homicide",
     "title_ms": "SDG 16-1-1: Mangsa Pembunuhan",
     "title_sort": 100,
-    "description_en": "Number of victims of intentional homicide per 100,000 population by sex, as per the specifications of SDG Indicator 16-1-1.",
-    "description_ms": "Bilangan mangsa pembunuhan secara sengaja bagi setiap 100,000 penduduk mengikut jantina, selaras dengan spesifikasi Indikator SDG 16-1-1.",
+    "description_en": "Number of victims of intentional homicide per 100,000 population by state and sex, as per the specifications of SDG Indicator 16-1-1.",
+    "description_ms": "Bilangan mangsa pembunuhan secara sengaja bagi setiap 100,000 penduduk mengikut negeri dan jantina, selaras dengan spesifikasi Indikator SDG 16-1-1.",
     "exclude_openapi": false,
     "manual_trigger": "1",
-    "data_as_of": "2022",
-    "last_updated": "2024-09-01 12:00",
+    "data_as_of": "2024",
+    "last_updated": "2026-10-11 12:00",
     "next_update": "-",
-    "methodology_en": "This dataset is produced based on the individual-level administrative records collected by the Royal Malaysia Police (PDRM), which is the single source of truth for data on crimes in Malaysia. Besides for operational purposes, this data is reported as part of Malaysia's monitoring of the Sustainable Development Goals (SDGs), in line with the most recent [SDG Global Indicator Framework](https://storage.dosm.gov.my/technotes/sdg.pdf).",
-    "methodology_ms": "Set data ini dihasilkan daripada rekod pentadbiran peringkat individu yang dikumpukkan oleh Polis Diraja Malaysia (PDRM), yang merupakan sumber rujukan tunggal bagi data mengenai jenayah di Malaysia. Selain tujuan operasi, data ini juga dilaporkan sebagai sebahagian daripada pemantauan Malaysia terhadap Matlamat Pembangunan Lestari (SDG), selaras dengan [Kerangka Indikator Global SDG](https://storage.dosm.gov.my/technotes/sdg.pdf) yang terkini.",
-    "caveat_en": "The data is subject to revision in future updates.",
-    "caveat_ms": "Data ini mungkin akan disemak semula dalam kemaskini akan datang.",
+    "methodology_en": "This dataset is produced based on the individual-level administrative records collected by the Royal Malaysia Police (PDRM), which is the single source of truth for data on crimes in Malaysia. Besides for operational purposes, this data is reported as part of Malaysia's monitoring of the Sustainable Development Goals (SDGs), in line with the most recent [SDG Global Indicator Framework](https://storage.dosm.gov.my/technotes/sdg.pdf). Rates are computed using the mid-year population estimate for the respective state and sex.",
+    "methodology_ms": "Set data ini dihasilkan daripada rekod pentadbiran peringkat individu yang dikumpukkan oleh Polis Diraja Malaysia (PDRM), yang merupakan sumber rujukan tunggal bagi data mengenai jenayah di Malaysia. Selain tujuan operasi, data ini juga dilaporkan sebagai sebahagian daripada pemantauan Malaysia terhadap Matlamat Pembangunan Lestari (SDG), selaras dengan [Kerangka Indikator Global SDG](https://storage.dosm.gov.my/technotes/sdg.pdf) yang terkini. Kadar dikira menggunakan anggaran penduduk pertengahan tahun bagi negeri dan jantina berkenaan.",
+    "caveat_en": "Figures from 2022 onwards cover all victims of intentional homicide recorded by PDRM, and are not directly comparable with figures for earlier years, which were compiled on a different basis. From 2022 onwards, figures for Sabah include W.P. Labuan, and figures for W.P. Kuala Lumpur include W.P. Putrajaya. The data is subject to revision in future updates.",
+    "caveat_ms": "Angka dari 2022 dan seterusnya merangkumi semua mangsa pembunuhan secara sengaja yang direkodkan oleh PDRM, dan tidak boleh dibandingkan secara langsung dengan angka bagi tahun-tahun sebelumnya, yang disusun atas asas yang berbeza. Dari 2022 dan seterusnya, angka bagi Sabah termasuk W.P. Labuan, dan angka bagi W.P. Kuala Lumpur termasuk W.P. Putrajaya. Data ini mungkin akan disemak semula dalam kemaskini akan datang.",
     "publication_en": "—",
     "publication_ms": "—",
     "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_16-1-1.parquet",
@@ -24,7 +24,7 @@
     ],
     "demography": [],
     "dataset_begin": 2016,
-    "dataset_end": 2022,
+    "dataset_end": 2024,
     "data_source": [
         "PDRM"
     ],
@@ -53,8 +53,8 @@
             "name": "state",
             "title_en": "State",
             "title_ms": "Negeri",
-            "description_en": "[Categorical] One of 16 states, or Malaysia",
-            "description_ms": "[Kategori] Satu daripada 16 negeri, atau Malaysia"
+            "description_en": "[Categorical] One of 16 states, or Malaysia (from 2022, Sabah includes W.P. Labuan and W.P. Kuala Lumpur includes W.P. Putrajaya)",
+            "description_ms": "[Kategori] Satu daripada 16 negeri, atau Malaysia (dari 2022, Sabah termasuk W.P. Labuan dan W.P. Kuala Lumpur termasuk W.P. Putrajaya)"
         },
         {
             "name": "date",
@@ -63,20 +63,20 @@
             "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency.",
             "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai MM-DD ditetapkan kepada 01-01 kerana data pada frekuensi tahunan."
         },
-		{
-			"name": "sex",
-			"title_en": "Sex",
-			"title_ms": "Jantina",
-			"description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
-			"description_ms": "[Kategori] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
-		},
-		{
-			"name": "value",
-			"title_en": "Victims per 100,000 Population",
-			"title_ms": "Mangsa per 100,000 Penduduk",
-			"description_en": "[Float] The number of victims of intentional homicide per 100,000 population",
-			"description_ms": "[Apung] Bilangan mangsa pembunuhan secara sengaja bagi setiap 100,000 penduduk"
-		}
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
+            "description_ms": "[Kategori] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
+        },
+        {
+            "name": "value",
+            "title_en": "Victims per 100,000 Population",
+            "title_ms": "Mangsa per 100,000 Penduduk",
+            "description_en": "[Float] The number of victims of intentional homicide per 100,000 population",
+            "description_ms": "[Apung] Bilangan mangsa pembunuhan secara sengaja bagi setiap 100,000 penduduk"
+        }
     ],
     "dataviz": [
         {
