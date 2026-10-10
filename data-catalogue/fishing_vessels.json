@@ -1,0 +1,204 @@
+{
+    "title_en": "Annual Number of Licensed Fishing Vessels by State, Engine Type & Horsepower",
+    "title_ms": "Bilangan Vesel Penangkapan Ikan Berlesen Tahunan mengikut Negeri, Jenis Enjin & Kuasa Kuda",
+    "title_sort": 245,
+    "description_en": "Annual number of licensed powered fishing vessels by state, coast, engine type and horsepower class.",
+    "description_ms": "Bilangan vesel penangkapan ikan berjentera yang berlesen tahunan mengikut negeri, pantai, jenis enjin dan kelas kuasa kuda.",
+    "exclude_openapi": false,
+    "manual_trigger": "1",
+    "data_as_of": "2025",
+    "last_updated": "2026-10-10 22:57",
+    "next_update": "tbc",
+    "methodology_en": "Data on fishing vessels in Malaysia is compiled by the Department of Fisheries (DOF) from its licensing records, and counts the vessels licensed by the DOF for marine capture fisheries in the year. Accordingly, unlicensed boats, including those used for fishing for personal consumption, are not included in this data. Only powered vessels are covered; non-powered vessels are excluded.\n\nIt should be noted that W.P. Kuala Lumpur and W.P. Putrajaya are excluded from the data as they do not have coastlines. Classification by coast and state follows the fisheries district in which the vessel is licensed. Vessels are classified by engine type (inboard or outboard engines, and from 2025 long-tail or pump engines) and by the horsepower of the engine.",
+    "methodology_ms": "Data vesel penangkapan ikan di Malaysia disusun oleh Jabatan Perikanan berdasarkan rekod pelesenan, dan merangkumi vesel yang dilesenkan oleh Jabatan Perikanan untuk perikanan tangkapan laut pada tahun tersebut. Oleh itu, bot tanpa lesen, termasuk yang digunakan untuk menangkap ikan bagi kegunaan sendiri, tidak termasuk dalam data ini. Hanya vesel berjentera diliputi; vesel tidak berjentera dikecualikan.\n\nW.P. Kuala Lumpur dan W.P. Putrajaya tidak terkandung dalam set data ini kerana tiada pantai di negeri tersebut. Pengkelasan berdasarkan pantai dan negeri adalah mengikut daerah perikanan di mana vesel dilesenkan. Vesel dikelaskan mengikut jenis enjin (enjin dalam atau enjin sangkut, dan mulai 2025 enjin ekor panjang atau enjin pam) dan mengikut kuasa kuda enjin.",
+    "caveat_en": "Non-powered vessels are excluded. Long-tail and pump engines are reported separately only from 2025, with horsepower classes of 10-15 hp and 16-19 hp instead of 10-19 hp; in earlier years such vessels are included under the other engine types.",
+    "caveat_ms": "Vesel tidak berjentera dikecualikan. Enjin ekor panjang dan enjin pam hanya dilaporkan secara berasingan mulai 2025, dengan kelas kuasa kuda 10-15 k.k dan 16-19 k.k dan bukannya 10-19 k.k; bagi tahun-tahun sebelumnya, vesel sedemikian termasuk di bawah jenis enjin yang lain.",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/agriculture/fishing_vessels.parquet",
+    "link_csv": "https://storage.data.gov.my/agriculture/fishing_vessels.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2005,
+    "dataset_end": 2025,
+    "data_source": [
+        "Perikanan"
+    ],
+    "data_source_granular": [
+        "BPTAS"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "Agriculture",
+            "subcategory_ms": "Pertanian",
+            "subcategory_sort": 14
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "Agriculture",
+            "subcategory_ms": "Pertanian",
+            "subcategory_sort": 14
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "coast",
+            "title_en": "Coast",
+            "title_ms": "Pantai",
+            "description_en": "[Categorical] The coast where the fishing vessel is licensed; either all coasts ('all'), the east coast of Peninsular Malaysia ('east'), west coast of Peninsular Malaysia ('west') or Borneo ('borneo')",
+            "description_ms": "[Kategori] Pantai di mana vesel penangkapan ikan dilesenkan; sama ada semua pantai ('semua'), pantai timur Semenanjung Malaysia ('timur'), pantai barat Semenanjung Malaysia ('barat') atau Borneo ('borneo')"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] The state where the fishing vessel is licensed; one of 14 states (excluding W.P. Kuala Lumpur and W.P. Putrajaya, which do not have coastlines), 'All States' for a coast's total, or Malaysia. Johor is a part of both the east and west coast data.",
+            "description_ms": "[Kategori] Negeri di mana vesel penangkapan ikan dilesenkan; satu daripada 14 negeri (tidak termasuk W.P. Kuala Lumpur dan W.P. Putrajaya, yang tidak mempunyai pantai), 'All States' bagi jumlah sesuatu pantai, atau Malaysia. Johor adalah sebahagian daripada data pantai timur dan juga pantai barat."
+        },
+        {
+            "name": "engine",
+            "title_en": "Engine Type",
+            "title_ms": "Jenis Enjin",
+            "description_en": "[Categorical] The vessel's engine type: inboard, outboard or (from 2025) long-tail/pump engine, or 'total' for all powered vessels",
+            "description_ms": "[Kategori] Jenis enjin vesel: enjin dalam, enjin sangkut atau (mulai 2025) enjin ekor panjang/enjin pam, atau 'total' bagi semua vesel berjentera"
+        },
+        {
+            "name": "horsepower",
+            "title_en": "Horsepower",
+            "title_ms": "Kuasa Kuda",
+            "description_en": "[Categorical] The horsepower class of the vessel's engine, as classified by DOF within each engine type, or 'total' for all classes",
+            "description_ms": "[Kategori] Kelas kuasa kuda enjin vesel, seperti yang dikelaskan oleh Jabatan Perikanan bagi setiap jenis enjin, atau 'total' bagi semua kelas"
+        },
+        {
+            "name": "vessels",
+            "title_en": "Vessels",
+            "title_ms": "Vesel",
+            "description_en": "[Integer] Number of licensed fishing vessels",
+            "description_ms": "[Integer] Bilangan vesel penangkapan ikan berlesen"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "coast",
+                    "state",
+                    "engine",
+                    "horsepower"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "timeseries",
+            "title_en": "Licensed Fishing Vessels",
+            "title_ms": "Vesel Penangkapan Ikan Berlesen",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "coast",
+                    "state",
+                    "engine",
+                    "horsepower"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "vessels"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Vessels",
+        "date": "Date",
+        "coast": "Coast",
+        "state": "State",
+        "engine": "Engine Type",
+        "horsepower": "Horsepower",
+        "vessels": "Vessels",
+        "east": "East Coast",
+        "west": "West Coast",
+        "borneo": "Borneo",
+        "all": "All Coasts",
+        "all-states": "All States",
+        "inboard": "Inboard-Powered",
+        "outboard": "Outboard-Powered",
+        "longtail_pump": "Long-Tail/Pump Engine",
+        "under_5": "Under 5 hp",
+        "5_9": "5-9 hp",
+        "10_15": "10-15 hp",
+        "16_19": "16-19 hp",
+        "10_19": "10-19 hp",
+        "20_39": "20-39 hp",
+        "40_59": "40-59 hp",
+        "60_99": "60-99 hp",
+        "100_149": "100-149 hp",
+        "100_above": "100 hp & Above",
+        "150_249": "150-249 hp",
+        "250_299": "250-299 hp",
+        "300_349": "300-349 hp",
+        "350_above": "350 hp & Above",
+        "total": "Total"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Vesel",
+        "date": "Tarikh",
+        "coast": "Pantai",
+        "state": "Negeri",
+        "engine": "Jenis Enjin",
+        "horsepower": "Kuasa Kuda",
+        "vessels": "Vesel",
+        "east": "Pantai Timur",
+        "west": "Pantai Barat",
+        "borneo": "Borneo",
+        "all": "Semua Pantai",
+        "all-states": "Semua Negeri",
+        "inboard": "Berjentera Dalam",
+        "outboard": "Berjentera Sangkut",
+        "longtail_pump": "Enjin Ekor Panjang/Enjin Pam",
+        "under_5": "Kurang dari 5 k.k",
+        "5_9": "5-9 k.k",
+        "10_15": "10-15 k.k",
+        "16_19": "16-19 k.k",
+        "10_19": "10-19 k.k",
+        "20_39": "20-39 k.k",
+        "40_59": "40-59 k.k",
+        "60_99": "60-99 k.k",
+        "100_149": "100-149 k.k",
+        "100_above": "100 k.k ke atas",
+        "150_249": "150-249 k.k",
+        "250_299": "250-299 k.k",
+        "300_349": "300-349 k.k",
+        "350_above": "350 k.k ke atas",
+        "total": "Jumlah"
+    },
+    "related_datasets": []
+}
