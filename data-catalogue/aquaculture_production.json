@@ -1,0 +1,192 @@
+{
+    "title_en": "Annual Aquaculture Production by State & Culture System",
+    "title_ms": "Pengeluaran Akuakultur Tahunan mengikut Negeri & Sistem Ternakan",
+    "title_sort": 250,
+    "description_en": "Annual aquaculture production and its wholesale and retail value by state and culture system.",
+    "description_ms": "Pengeluaran akuakultur tahunan serta nilai borong dan nilai runcitnya mengikut negeri dan sistem ternakan.",
+    "exclude_openapi": false,
+    "manual_trigger": "1",
+    "data_as_of": "2025",
+    "last_updated": "2026-10-10 22:57",
+    "next_update": "tbc",
+    "methodology_en": "Data on aquaculture production in Malaysia is collected via establishment-level surveys and censuses of aquaculture farms conducted by the Department of Fisheries (DOF). Accordingly, this data reflects the production of culturists registered with the DOF only. Production is the quantity harvested from freshwater culture systems (ponds, ex-mining pools, cages, cement/fibre and canvas tanks, pens and fish estates) and brackishwater/marine culture systems (ponds, cages, tanks, pens, mollusc culture and seaweed longlines), classified by the state where the farm is located. Wholesale and retail values are the DOF's valuation of that production at wholesale and retail prices.\n\nThe DOF's culture systems changed over time: canvas tanks are reported separately from 2007, brackishwater tanks from 2007, brackishwater pen culture from 2012 and fish estates from 2018, while from 2018 cockles, mussels and oysters are reported together as molluscs. W.P. Labuan appears from 2011 and W.P. Kuala Lumpur from 2019.",
+    "methodology_ms": "Data pengeluaran akuakultur di Malaysia dikumpulkan melalui survei dan banci ladang akuakultur yang dilaksanakan oleh Jabatan Perikanan. Oleh itu, data ini merujuk kepada pengeluaran penternak yang berdaftar dengan Jabatan Perikanan sahaja. Pengeluaran merujuk kepada kuantiti yang dituai daripada sistem ternakan air tawar (kolam, bekas lombong, sangkar, tangki simen/fiber dan tangki kanvas, kandang dan estet ikan) dan sistem ternakan air payau/masin (kolam, sangkar, tangki, kandang, ternakan kerang-kerangan dan rawai rumpai laut), dikelaskan mengikut negeri di mana ladang tersebut terletak. Nilai borong dan nilai runcit ialah nilai pengeluaran tersebut pada harga borong dan harga runcit seperti yang dianggarkan oleh Jabatan Perikanan.\n\nSistem ternakan yang dilaporkan oleh Jabatan Perikanan berubah dari semasa ke semasa: tangki kanvas dilaporkan secara berasingan mulai 2007, tangki air payau mulai 2007, kandang air payau mulai 2012 dan estet ikan mulai 2018, manakala mulai 2018 kerang, siput sudu dan tiram dilaporkan bersama sebagai kerang-kerangan. W.P. Labuan dilaporkan mulai 2011 dan W.P. Kuala Lumpur mulai 2019.",
+    "caveat_en": "National totals may be slightly different to the sum of state values, and totals to the sum of culture systems, due to rounding. Seaweed production is in wet weight. The DOF notes that Johor's seaweed production in 2022, 2023 and 2025 is from unregistered farmers.",
+    "caveat_ms": "Angka-angka di peringkat nasional mungkin sedikit berbeza dengan angka peringkat negeri apabila dijumlahkan, dan jumlah dengan sistem ternakan, disebabkan oleh penggenapan. Pengeluaran rumpai laut adalah dalam berat basah. Jabatan Perikanan menyatakan bahawa pengeluaran rumpai laut di Johor pada tahun 2022, 2023 dan 2025 adalah daripada penternak tidak berdaftar.",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/agriculture/aquaculture_production.parquet",
+    "link_csv": "https://storage.data.gov.my/agriculture/aquaculture_production.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2005,
+    "dataset_end": 2025,
+    "data_source": [
+        "Perikanan"
+    ],
+    "data_source_granular": [
+        "BPTAS"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "Agriculture",
+            "subcategory_ms": "Pertanian",
+            "subcategory_sort": 14
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "Agriculture",
+            "subcategory_ms": "Pertanian",
+            "subcategory_sort": 14
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] The state where the farm is located, or Malaysia for the national total",
+            "description_ms": "[Kategori] Negeri di mana ladang terletak, atau Malaysia bagi jumlah nasional"
+        },
+        {
+            "name": "system",
+            "title_en": "Culture System",
+            "title_ms": "Sistem Ternakan",
+            "description_en": "[Categorical] The culture system as classified by DOF; 'freshwater_total' and 'brackish_total' are DOF's sub-totals and 'total' is all culture systems",
+            "description_ms": "[Kategori] Sistem ternakan seperti yang dikelaskan oleh Jabatan Perikanan; 'freshwater_total' dan 'brackish_total' ialah jumlah kecil dan 'total' ialah semua sistem ternakan"
+        },
+        {
+            "name": "production",
+            "title_en": "Production",
+            "title_ms": "Pengeluaran",
+            "description_en": "[Float] Aquaculture production in metric tonnes (seaweed in wet weight)",
+            "description_ms": "[Apung] Pengeluaran akuakultur dalam tan metrik (rumpai laut dalam berat basah)"
+        },
+        {
+            "name": "wholesale_value",
+            "title_en": "Wholesale Value",
+            "title_ms": "Nilai Borong",
+            "description_en": "[Float] Wholesale value of the production in RM",
+            "description_ms": "[Apung] Nilai borong pengeluaran dalam RM"
+        },
+        {
+            "name": "retail_value",
+            "title_en": "Retail Value",
+            "title_ms": "Nilai Runcit",
+            "description_en": "[Float] Retail value of the production in RM",
+            "description_ms": "[Apung] Nilai runcit pengeluaran dalam RM"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 2,
+                "filter_columns": [
+                    "state",
+                    "system"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "timeseries",
+            "title_en": "Aquaculture Production (mt)",
+            "title_ms": "Pengeluaran Akuakultur (mt)",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state",
+                    "system"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "production"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Production (mt)",
+        "date": "Date",
+        "state": "State",
+        "system": "Culture System",
+        "production": "Production",
+        "wholesale_value": "Wholesale Value",
+        "retail_value": "Retail Value",
+        "freshwater_ponds": "Freshwater Ponds",
+        "ex_mining_pools": "Ex-Mining Pools",
+        "freshwater_cages": "Freshwater Cages",
+        "cement_tanks": "Cement/Fibre Tanks",
+        "canvas_tanks": "Canvas Tanks",
+        "freshwater_pens": "Freshwater Pen Culture",
+        "fish_estates": "Fish Estates",
+        "freshwater_total": "All Freshwater Systems",
+        "brackish_ponds": "Brackishwater Ponds",
+        "brackish_cages": "Brackishwater Cages",
+        "brackish_tanks": "Brackishwater Tanks",
+        "brackish_pens": "Brackishwater Pen Culture",
+        "cockles": "Cockles",
+        "mussels": "Mussels",
+        "oysters": "Oysters",
+        "molluscs": "Molluscs",
+        "seaweed": "Seaweed (wet weight)",
+        "brackish_total": "All Brackishwater Systems",
+        "total": "All Systems"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Pengeluaran (mt)",
+        "date": "Tarikh",
+        "state": "Negeri",
+        "system": "Sistem Ternakan",
+        "production": "Pengeluaran",
+        "wholesale_value": "Nilai Borong",
+        "retail_value": "Nilai Runcit",
+        "freshwater_ponds": "Kolam Air Tawar",
+        "ex_mining_pools": "Bekas Lombong",
+        "freshwater_cages": "Sangkar Air Tawar",
+        "cement_tanks": "Tangki Simen/Fiber",
+        "canvas_tanks": "Tangki Kanvas",
+        "freshwater_pens": "Kandang Ikan Air Tawar",
+        "fish_estates": "Estet Ikan",
+        "freshwater_total": "Semua Sistem Air Tawar",
+        "brackish_ponds": "Kolam Air Payau",
+        "brackish_cages": "Sangkar Air Payau",
+        "brackish_tanks": "Tangki Air Payau",
+        "brackish_pens": "Kandang Air Payau",
+        "cockles": "Kerang",
+        "mussels": "Siput Sudu",
+        "oysters": "Tiram",
+        "molluscs": "Kerang-kerangan",
+        "seaweed": "Rumpai Laut (berat basah)",
+        "brackish_total": "Semua Sistem Air Payau",
+        "total": "Semua Sistem"
+    },
+    "related_datasets": []
+}

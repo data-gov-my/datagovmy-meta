@@ -1,0 +1,201 @@
+{
+    "title_en": "Annual Number of Fishers by State & Fishing Gear",
+    "title_ms": "Bilangan Nelayan Tahunan mengikut Negeri & Peralatan Menangkap Ikan",
+    "title_sort": 240,
+    "description_en": "Annual number of fishers working on licensed fishing vessels by state, coast and fishing gear group.",
+    "description_ms": "Bilangan nelayan tahunan yang bekerja di atas vesel penangkapan ikan berlesen mengikut negeri, pantai dan kumpulan peralatan menangkap ikan.",
+    "exclude_openapi": false,
+    "manual_trigger": "1",
+    "data_as_of": "2025",
+    "last_updated": "2026-10-10 22:57",
+    "next_update": "tbc",
+    "methodology_en": "Data on fishers in Malaysia is compiled by the Department of Fisheries (DOF) from its licensing records. A fisher is counted when he or she works on a fishing vessel licensed by the DOF; the count covers both local and foreign fishers. Accordingly, people fishing from unlicensed boats or from the shore, including those fishing for personal consumption, are not included in this data, nor are inland (freshwater) fishers.\n\nIt should be noted that W.P. Kuala Lumpur and W.P. Putrajaya are excluded from the data as they do not have coastlines. Classification by coast and state follows the fisheries district in which the vessel is licensed. Each vessel is classified under a single fishing gear group, being the main gear it is licensed to use, and its fishers are counted under that gear group.",
+    "methodology_ms": "Data nelayan di Malaysia disusun oleh Jabatan Perikanan berdasarkan rekod pelesenan. Seseorang nelayan dikira apabila beliau bekerja di atas vesel penangkapan ikan yang dilesenkan oleh Jabatan Perikanan; bilangan ini merangkumi nelayan tempatan dan nelayan asing. Oleh itu, individu yang menangkap ikan menggunakan bot tanpa lesen atau dari pantai, termasuk untuk kegunaan sendiri, tidak termasuk dalam data ini, begitu juga nelayan perikanan darat (air tawar).\n\nW.P. Kuala Lumpur dan W.P. Putrajaya tidak terkandung dalam set data ini kerana tiada pantai di negeri tersebut. Pengkelasan berdasarkan pantai dan negeri adalah mengikut daerah perikanan di mana vesel dilesenkan. Setiap vesel dikelaskan di bawah satu kumpulan peralatan menangkap ikan, iaitu peralatan utama yang dilesenkan, dan nelayannya dikira di bawah kumpulan peralatan tersebut.",
+    "caveat_en": "Some gear groups (kenka nets, fish aggregating devices, marine culture systems, crab traps and anchovy boilers) are reported separately only from 2006. For 2024 and 2025, only the total number of fishers by state is available, as the Department of Fisheries now publishes the breakdown by gear group for local fishers only.",
+    "caveat_ms": "Sesetengah kumpulan peralatan (pukat kenka, menunggu peranti pengumpul ikan, sistem kultur laut, bintoh ketam dan masak bilis) hanya dilaporkan secara berasingan mulai 2006. Bagi 2024 dan 2025, hanya jumlah nelayan mengikut negeri tersedia, kerana Jabatan Perikanan kini menerbitkan pecahan mengikut kumpulan peralatan bagi nelayan tempatan sahaja.",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/agriculture/fishers.parquet",
+    "link_csv": "https://storage.data.gov.my/agriculture/fishers.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2005,
+    "dataset_end": 2025,
+    "data_source": [
+        "Perikanan"
+    ],
+    "data_source_granular": [
+        "BPTAS"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "Agriculture",
+            "subcategory_ms": "Pertanian",
+            "subcategory_sort": 14
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "Agriculture",
+            "subcategory_ms": "Pertanian",
+            "subcategory_sort": 14
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "coast",
+            "title_en": "Coast",
+            "title_ms": "Pantai",
+            "description_en": "[Categorical] The coast where the fishing vessel is licensed; either all coasts ('all'), the east coast of Peninsular Malaysia ('east'), west coast of Peninsular Malaysia ('west') or Borneo ('borneo')",
+            "description_ms": "[Kategori] Pantai di mana vesel penangkapan ikan dilesenkan; sama ada semua pantai ('semua'), pantai timur Semenanjung Malaysia ('timur'), pantai barat Semenanjung Malaysia ('barat') atau Borneo ('borneo')"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] The state where the fishing vessel is licensed; one of 14 states (excluding W.P. Kuala Lumpur and W.P. Putrajaya, which do not have coastlines), 'All States' for a coast's total, or Malaysia. Johor is a part of both the east and west coast data.",
+            "description_ms": "[Kategori] Negeri di mana vesel penangkapan ikan dilesenkan; satu daripada 14 negeri (tidak termasuk W.P. Kuala Lumpur dan W.P. Putrajaya, yang tidak mempunyai pantai), 'All States' bagi jumlah sesuatu pantai, atau Malaysia. Johor adalah sebahagian daripada data pantai timur dan juga pantai barat."
+        },
+        {
+            "name": "gear",
+            "title_en": "Fishing Gear",
+            "title_ms": "Peralatan Menangkap Ikan",
+            "description_en": "[Categorical] The fishing gear group of the licensed vessel, as classified by DOF, or 'total' for all gear groups",
+            "description_ms": "[Kategori] Kumpulan peralatan menangkap ikan bagi vesel berlesen, seperti yang dikelaskan oleh Jabatan Perikanan, atau 'total' bagi semua kumpulan peralatan"
+        },
+        {
+            "name": "fishers",
+            "title_en": "Fishers",
+            "title_ms": "Nelayan",
+            "description_en": "[Integer] Number of fishers (persons) working on licensed fishing vessels",
+            "description_ms": "[Integer] Bilangan nelayan (orang) yang bekerja di atas vesel penangkapan ikan berlesen"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "coast",
+                    "state",
+                    "gear"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "timeseries",
+            "title_en": "Fishers",
+            "title_ms": "Nelayan",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "coast",
+                    "state",
+                    "gear"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "fishers"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Fishers",
+        "date": "Date",
+        "coast": "Coast",
+        "state": "State",
+        "gear": "Fishing Gear",
+        "fishers": "Fishers",
+        "east": "East Coast",
+        "west": "West Coast",
+        "borneo": "Borneo",
+        "all": "All Coasts",
+        "all-states": "All States",
+        "trawl": "Trawl Nets",
+        "purse_seine_fish": "Fish Purse Seines",
+        "purse_seine_anchovy": "Anchovy Purse Seines",
+        "kenka_one_boat": "Kenka (One Boat)",
+        "kenka_two_boats": "Kenka (Two Boats)",
+        "seine_other": "Other Seines",
+        "drift_gill_net": "Drift/Gill Nets",
+        "lift_net": "Lift Nets",
+        "stationary_trap": "Stationary Traps",
+        "portable_trap": "Portable Traps",
+        "hook_line": "Hooks & Lines",
+        "bag_net": "Bag Nets",
+        "push_scoop_net": "Push/Scoop Nets",
+        "barrier_net": "Barrier Nets",
+        "shellfish_collection": "Shellfish Collection",
+        "fish_carrier": "Fish Carriers",
+        "fad": "Fish Aggregating Devices",
+        "marine_culture": "Marine Culture Systems",
+        "crab_trap": "Crab Traps",
+        "anchovy_boiler": "Anchovy Boilers/Carriers",
+        "misc": "Miscellaneous",
+        "total": "All Gear"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Nelayan",
+        "date": "Tarikh",
+        "coast": "Pantai",
+        "state": "Negeri",
+        "gear": "Peralatan Menangkap Ikan",
+        "fishers": "Nelayan",
+        "east": "Pantai Timur",
+        "west": "Pantai Barat",
+        "borneo": "Borneo",
+        "all": "Semua Pantai",
+        "all-states": "Semua Negeri",
+        "trawl": "Pukat Tunda",
+        "purse_seine_fish": "Pukat Jerut Ikan",
+        "purse_seine_anchovy": "Pukat Jerut Bilis",
+        "kenka_one_boat": "Pukat Kenka Satu Bot",
+        "kenka_two_boats": "Pukat Kenka Dua Bot",
+        "seine_other": "Pukat Tarik Lain",
+        "drift_gill_net": "Pukat Hanyut",
+        "lift_net": "Pukat Tangguk",
+        "stationary_trap": "Belat",
+        "portable_trap": "Bubu",
+        "hook_line": "Pancing / Kail Mengail",
+        "bag_net": "Pukat Bakul",
+        "push_scoop_net": "Pukat Surung",
+        "barrier_net": "Pukat Rentang",
+        "shellfish_collection": "Memungut Siput",
+        "fish_carrier": "Pembawa Ikan",
+        "fad": "Menunggu Peranti Pengumpul Ikan",
+        "marine_culture": "Sistem Kultur Laut",
+        "crab_trap": "Bintoh Ketam",
+        "anchovy_boiler": "Masak Bilis",
+        "misc": "Rampaian",
+        "total": "Semua Peralatan"
+    },
+    "related_datasets": []
+}

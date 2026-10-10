@@ -1,0 +1,165 @@
+{
+    "title_en": "Annual Landings & Value of Freshwater Fish from Inland Fisheries by State & Waterbody",
+    "title_ms": "Pendaratan & Nilai Ikan Air Tawar Tahunan dari Perikanan Darat mengikut Negeri & Perairan",
+    "title_sort": 230,
+    "description_en": "Annual landings, wholesale value and retail value of freshwater fish caught in public waterbodies (inland fisheries), by state and type of waterbody.",
+    "description_ms": "Pendaratan, nilai borong dan nilai runcit ikan air tawar tahunan yang ditangkap di perairan umum (perikanan darat), mengikut negeri dan jenis perairan.",
+    "exclude_openapi": false,
+    "manual_trigger": "1",
+    "data_as_of": "2025",
+    "last_updated": "2026-10-10 22:57",
+    "next_update": "tbc",
+    "methodology_en": "Data on landings of freshwater fish from inland fisheries in Malaysia is collected via surveys and censuses conducted by the Department of Fisheries (DOF). Inland fisheries refers to the capture of fish in public waterbodies (rivers, ex-mining pools, dams, lakes and others), as opposed to aquaculture, which is published separately. Accordingly, this data reflects landings recorded by the DOF only; fish caught by individuals for personal consumption are not included.\n\nWholesale and retail values are estimates of the value of the landings at wholesale and retail prices respectively, in RM.",
+    "methodology_ms": "Data pendaratan ikan air tawar daripada perikanan darat di Malaysia dikumpulkan melalui survei dan banci yang dilaksanakan oleh Jabatan Perikanan. Perikanan darat merujuk kepada penangkapan ikan di perairan umum (sungai, bekas lombong, empangan, tasik dan lain-lain), berbeza daripada akuakultur yang diterbitkan secara berasingan. Oleh itu, data ini merujuk kepada pendaratan yang direkodkan oleh Jabatan Perikanan sahaja; ikan yang ditangkap oleh individu untuk kegunaan sendiri tidak termasuk dalam data ini.\n\nNilai borong dan nilai runcit ialah anggaran nilai pendaratan pada harga borong dan harga runcit, dalam RM.",
+    "caveat_en": "Not every measure is published for every year: wholesale value is available from 2011, and retail value for 2012-2013 and from 2016. Sarawak has no data for 2005-2010 and Sabah none for 2007-2009, so national totals for those years exclude them; W.P. Labuan is included from 2011. National totals may be slightly different to the sum of state values, and totals to the sum of waterbodies, due to rounding.",
+    "caveat_ms": "Tidak semua ukuran diterbitkan bagi setiap tahun: nilai borong tersedia mulai 2011, dan nilai runcit bagi 2012-2013 dan mulai 2016. Tiada data bagi Sarawak untuk 2005-2010 dan bagi Sabah untuk 2007-2009, maka jumlah nasional bagi tahun-tahun tersebut tidak merangkumi negeri-negeri ini; W.P. Labuan dimasukkan mulai 2011. Angka-angka di peringkat nasional mungkin sedikit berbeza dengan angka peringkat negeri apabila dijumlahkan, dan jumlah dengan perairan, disebabkan oleh penggenapan.",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/agriculture/fish_landings_inland.parquet",
+    "link_csv": "https://storage.data.gov.my/agriculture/fish_landings_inland.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2005,
+    "dataset_end": 2025,
+    "data_source": [
+        "Perikanan"
+    ],
+    "data_source_granular": [
+        "BPTAS"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "Agriculture",
+            "subcategory_ms": "Pertanian",
+            "subcategory_sort": 14
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "Agriculture",
+            "subcategory_ms": "Pertanian",
+            "subcategory_sort": 14
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] The state where the fish was landed, or Malaysia for the national total",
+            "description_ms": "[Kategori] Negeri di mana ikan didaratkan, atau Malaysia bagi jumlah nasional"
+        },
+        {
+            "name": "waterbody",
+            "title_en": "Waterbody",
+            "title_ms": "Perairan",
+            "description_en": "[Categorical] The type of public waterbody: rivers, ex-mining pools, dams, lakes, others, or 'total' for all waterbodies",
+            "description_ms": "[Kategori] Jenis perairan umum: sungai, bekas lombong, empangan, tasik, lain-lain, atau 'total' bagi semua perairan"
+        },
+        {
+            "name": "measure",
+            "title_en": "Measure",
+            "title_ms": "Ukuran",
+            "description_en": "[Categorical] What the value measures: 'landings' (metric tonnes), 'value_wholesale' (wholesale value in RM) or 'value_retail' (retail value in RM)",
+            "description_ms": "[Kategori] Apa yang diukur oleh nilai: 'landings' (pendaratan dalam tan metrik), 'value_wholesale' (nilai borong dalam RM) atau 'value_retail' (nilai runcit dalam RM)"
+        },
+        {
+            "name": "value",
+            "title_en": "Value",
+            "title_ms": "Nilai",
+            "description_en": "[Float] Landings in metric tonnes if measure is 'landings'; otherwise value in RM",
+            "description_ms": "[Apung] Pendaratan dalam tan metrik jika ukuran ialah 'landings'; jika tidak, nilai dalam RM"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 2,
+                "filter_columns": [
+                    "state",
+                    "waterbody",
+                    "measure"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "timeseries",
+            "title_en": "Inland Fisheries",
+            "title_ms": "Perikanan Darat",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state",
+                    "waterbody",
+                    "measure"
+                ],
+                "precision": 2,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "value"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Value",
+        "date": "Date",
+        "state": "State",
+        "waterbody": "Waterbody",
+        "measure": "Measure",
+        "value": "Value",
+        "landings": "Landings (tonnes)",
+        "value_wholesale": "Wholesale Value (RM)",
+        "value_retail": "Retail Value (RM)",
+        "total": "All Waterbodies",
+        "river": "Rivers",
+        "ex_mining_pool": "Ex-Mining Pools",
+        "dam": "Dams",
+        "lake": "Lakes",
+        "other": "Others"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Nilai",
+        "date": "Tarikh",
+        "state": "Negeri",
+        "waterbody": "Perairan",
+        "measure": "Ukuran",
+        "value": "Nilai",
+        "landings": "Pendaratan (tan)",
+        "value_wholesale": "Nilai Borong (RM)",
+        "value_retail": "Nilai Runcit (RM)",
+        "total": "Semua Perairan",
+        "river": "Sungai",
+        "ex_mining_pool": "Bekas Lombong",
+        "dam": "Empangan",
+        "lake": "Tasik",
+        "other": "Lain-Lain"
+    },
+    "related_datasets": []
+}

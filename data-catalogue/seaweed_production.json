@@ -1,0 +1,143 @@
+{
+    "title_en": "Monthly Seaweed Production by State",
+    "title_ms": "Pengeluaran Rumpai Laut Bulanan mengikut Negeri",
+    "title_sort": 260,
+    "description_en": "Monthly production of farmed seaweed by state, with its wholesale and retail value.",
+    "description_ms": "Pengeluaran bulanan rumpai laut ternakan mengikut negeri, serta nilai borong dan nilai runcitnya.",
+    "exclude_openapi": false,
+    "manual_trigger": "1",
+    "data_as_of": "2025-12",
+    "last_updated": "2026-10-10 22:57",
+    "next_update": "tbc",
+    "methodology_en": "Data on aquaculture production in Malaysia is collected via establishment-level surveys and censuses of aquaculture farms conducted by the Department of Fisheries (DOF). Accordingly, this data reflects the production of culturists registered with the DOF only. This dataset covers seaweed culture (mainly longline culture in Sabah), classified by the state where the farm is located. Production is reported by the DOF in metric tonnes of wet weight. Wholesale and retail values are the DOF's valuation of that production at wholesale and retail prices.\n\nMonthly production is available from 2005, monthly wholesale value from 2011 and monthly retail value from 2016.",
+    "methodology_ms": "Data pengeluaran akuakultur di Malaysia dikumpulkan melalui survei dan banci ladang akuakultur yang dilaksanakan oleh Jabatan Perikanan. Oleh itu, data ini merujuk kepada pengeluaran penternak yang berdaftar dengan Jabatan Perikanan sahaja. Set data ini merangkumi ternakan rumpai laut (terutamanya sistem rawai di Sabah), dikelaskan mengikut negeri di mana ladang tersebut terletak. Pengeluaran dilaporkan oleh Jabatan Perikanan dalam tan metrik berat basah. Nilai borong dan nilai runcit ialah nilai pengeluaran tersebut pada harga borong dan harga runcit seperti yang dianggarkan oleh Jabatan Perikanan.\n\nPengeluaran bulanan tersedia mulai 2005, nilai borong bulanan mulai 2011 dan nilai runcit bulanan mulai 2016.",
+    "caveat_en": "National totals may be slightly different to the sum of state values due to rounding. For Sabah in 2008, 2009 and 2016, monthly figures are an equal share of the annual total, so monthly movements in those years should not be interpreted. The DOF notes that Johor's seaweed production in 2022, 2023 and 2025 is from unregistered farmers.",
+    "caveat_ms": "Angka-angka di peringkat nasional mungkin sedikit berbeza dengan angka peringkat negeri apabila dijumlahkan disebabkan oleh penggenapan. Bagi Sabah pada tahun 2008, 2009 dan 2016, angka bulanan adalah bahagian yang sama daripada jumlah tahunan, maka perubahan bulanan pada tahun-tahun tersebut tidak harus ditafsirkan. Jabatan Perikanan menyatakan bahawa pengeluaran rumpai laut di Johor pada tahun 2022, 2023 dan 2025 adalah daripada penternak tidak berdaftar.",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/agriculture/seaweed_production.parquet",
+    "link_csv": "https://storage.data.gov.my/agriculture/seaweed_production.csv",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2005,
+    "dataset_end": 2025,
+    "data_source": [
+        "Perikanan"
+    ],
+    "data_source_granular": [
+        "BPTAS"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "Agriculture",
+            "subcategory_ms": "Pertanian",
+            "subcategory_sort": 14
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "Agriculture",
+            "subcategory_ms": "Pertanian",
+            "subcategory_sort": 14
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01 as the data is at monthly frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01 kerana data berfrekuensi bulanan"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] The state where the farm is located, or Malaysia for the national total",
+            "description_ms": "[Kategori] Negeri di mana ladang terletak, atau Malaysia bagi jumlah nasional"
+        },
+        {
+            "name": "production",
+            "title_en": "Production",
+            "title_ms": "Pengeluaran",
+            "description_en": "[Float] Seaweed production in metric tonnes of wet weight",
+            "description_ms": "[Apung] Pengeluaran rumpai laut dalam tan metrik berat basah"
+        },
+        {
+            "name": "wholesale_value",
+            "title_en": "Wholesale Value",
+            "title_ms": "Nilai Borong",
+            "description_en": "[Float] Wholesale value of the production in RM; available from 2011",
+            "description_ms": "[Apung] Nilai borong pengeluaran dalam RM; tersedia mulai 2011"
+        },
+        {
+            "name": "retail_value",
+            "title_en": "Retail Value",
+            "title_ms": "Nilai Runcit",
+            "description_en": "[Float] Retail value of the production in RM; available from 2016",
+            "description_ms": "[Apung] Nilai runcit pengeluaran dalam RM; tersedia mulai 2016"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 2,
+                "filter_columns": [
+                    "state"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "timeseries",
+            "title_en": "Seaweed Production (mt)",
+            "title_ms": "Pengeluaran Rumpai Laut (mt)",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "production"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Production (mt)",
+        "date": "Date",
+        "state": "State",
+        "production": "Production",
+        "wholesale_value": "Wholesale Value",
+        "retail_value": "Retail Value"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Pengeluaran (mt)",
+        "date": "Tarikh",
+        "state": "Negeri",
+        "production": "Pengeluaran",
+        "wholesale_value": "Nilai Borong",
+        "retail_value": "Nilai Runcit"
+    },
+    "related_datasets": []
+}

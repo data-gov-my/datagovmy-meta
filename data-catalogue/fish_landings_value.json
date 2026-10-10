@@ -1,0 +1,214 @@
+{
+    "title_en": "Annual Value of Marine Fish Landings by State & Grade",
+    "title_ms": "Nilai Pendaratan Ikan Laut Tahunan mengikut Negeri & Gred",
+    "title_sort": 225,
+    "description_en": "Annual landings and wholesale and retail value of marine fish landings by state, coast, category and grade of fish.",
+    "description_ms": "Pendaratan serta nilai borong dan nilai runcit pendaratan ikan laut tahunan mengikut negeri, pantai, kategori dan gred ikan.",
+    "exclude_openapi": false,
+    "manual_trigger": "1",
+    "data_as_of": "2025",
+    "last_updated": "2026-10-10 22:57",
+    "next_update": "tbc",
+    "methodology_en": "Data on landings of marine fish in Malaysia is collected via establishment-level surveys and censuses conducted by the Department of Fisheries (DOF). Accordingly, this data reflects the production of establishments registered with the DOF only. In layperson terms, this means that the fish caught by individuals fishing for personal consumption are not included in this data.\n\nThe DOF values landings at wholesale and retail prices, and classifies fish, prawns and squid into grades by species: for fish, Grade A1 covers premium species such as pomfrets, threadfins and groupers, Grade A2 species such as snappers, Spanish mackerel and giant sea perch, Grade B species such as small pomfrets, shads and trevallies, and Grade C all other fish; prawns are graded similarly from lobsters and tiger prawns (A1) to other prawns (C), and squid into common squids and cuttlefish (A) and octopus and others (B). The species in each grade have been revised over time. Classification by coast and state is based on where the fish was landed.",
+    "methodology_ms": "Data pendaratan ikan laut di Malaysia dikumpulkan melalui survei dan banci perusahaan perikanan yang dilaksanakan oleh Jabatan Perikanan. Oleh itu, data ini merujuk kepada data syarikat yang berdaftar dengan Jabatan Perikanan sahaja. Dalam bahasa mudah, ini bermaksud bahawa ikan yang ditangkap oleh individu untuk tujuan peribadi tidak termasuk dalam data ini.\n\nJabatan Perikanan menilai pendaratan pada harga borong dan harga runcit, dan mengelaskan ikan, udang dan sotong kepada gred mengikut spesies: bagi ikan, Gred A1 merangkumi spesies premium seperti bawal, senangin/kurau dan kerapu, Gred A2 spesies seperti merah, tenggiri dan siakap, Gred B spesies seperti bawal selatan, terubuk dan gerut-gerut, dan Gred C ikan-ikan lain; udang digredkan dengan cara yang sama daripada udang karang dan udang harimau (A1) hingga udang-udang lain (C), dan sotong kepada sotong biasa dan sotong katak (A) serta sotong kereta dan lain-lain (B). Spesies dalam setiap gred telah disemak dari semasa ke semasa. Pengkelasan berdasarkan pantai dan negeri adalah berdasarkan lokasi pendaratan ikan.",
+    "caveat_en": "Values are in Ringgit Malaysia (RM) at current prices. The species in each grade have been revised over time, so grades are not strictly comparable across years; in particular, the split of squid between Grades A and B shifts sharply in some years. National totals may be slightly different to the sum of state values, and totals to the sum of grades and categories, due to rounding.",
+    "caveat_ms": "Nilai adalah dalam Ringgit Malaysia (RM) pada harga semasa. Spesies dalam setiap gred telah disemak dari semasa ke semasa, maka gred tidak boleh dibandingkan secara tepat antara tahun; khususnya, pembahagian sotong antara Gred A dan B berubah dengan ketara dalam sesetengah tahun. Angka-angka di peringkat nasional mungkin sedikit berbeza dengan angka peringkat negeri apabila dijumlahkan, dan jumlah dengan gred dan kategori, disebabkan oleh penggenapan.",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.data.gov.my/agriculture/fish_landings_value.parquet",
+    "link_csv": "https://storage.data.gov.my/agriculture/fish_landings_value.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2015,
+    "dataset_end": 2025,
+    "data_source": [
+        "Perikanan"
+    ],
+    "data_source_granular": [
+        "BPTAS"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "Agriculture",
+            "subcategory_ms": "Pertanian",
+            "subcategory_sort": 14
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "Agriculture",
+            "subcategory_ms": "Pertanian",
+            "subcategory_sort": 14
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "coast",
+            "title_en": "Coast",
+            "title_ms": "Pantai",
+            "description_en": "[Categorical] The coast where the fish was landed; either all coasts ('all'), the east coast of Peninsular Malaysia ('east'), west coast of Peninsular Malaysia ('west') or Borneo ('borneo')",
+            "description_ms": "[Kategori] Pantai di mana ikan mendarat; sama ada semua pantai ('semua'), pantai timur Semenanjung Malaysia ('timur'), pantai barat Semenanjung Malaysia ('barat') atau Borneo ('borneo')"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] The state where the fish was landed; one of 14 states (excluding W.P. Kuala Lumpur and W.P. Putrajaya, which do not have coastlines), 'All States' for a coast's total, or Malaysia. Johor is a part of both the east and west coast data.",
+            "description_ms": "[Kategori] Negeri di mana ikan mendarat; satu daripada 14 negeri (tidak termasuk W.P. Kuala Lumpur dan W.P. Putrajaya, yang tidak mempunyai pantai), 'All States' bagi jumlah sesuatu pantai, atau Malaysia. Johor adalah sebahagian daripada data pantai timur dan juga pantai barat."
+        },
+        {
+            "name": "category",
+            "title_en": "Category",
+            "title_ms": "Kategori",
+            "description_en": "[Categorical] The category of catch as classified by DOF: fish, prawns, squid, crabs, shellfish, mixed fish, trash fish, miscellaneous, or 'total' for all categories",
+            "description_ms": "[Kategori] Kategori tangkapan seperti yang dikelaskan oleh Jabatan Perikanan: ikan, udang, sotong, ketam, kerang-kerangan, ikan campur, ikan baja, pelbagai, atau 'total' bagi semua kategori"
+        },
+        {
+            "name": "grade",
+            "title_en": "Grade",
+            "title_ms": "Gred",
+            "description_en": "[Categorical] The grade within the category (A1, A2, B or C for fish and prawns; A or B for squid), or 'total' for all grades; categories which are not graded only have 'total'",
+            "description_ms": "[Kategori] Gred dalam kategori (A1, A2, B atau C bagi ikan dan udang; A atau B bagi sotong), atau 'total' bagi semua gred; kategori yang tidak digredkan hanya mempunyai 'total'"
+        },
+        {
+            "name": "landings",
+            "title_en": "Landings",
+            "title_ms": "Pendaratan",
+            "description_en": "[Float] Landings in metric tonnes",
+            "description_ms": "[Apung] Pendaratan dalam tan metrik"
+        },
+        {
+            "name": "value_wholesale",
+            "title_en": "Wholesale Value",
+            "title_ms": "Nilai Borong",
+            "description_en": "[Integer] Value of the landings at wholesale prices, in RM",
+            "description_ms": "[Integer] Nilai pendaratan pada harga borong, dalam RM"
+        },
+        {
+            "name": "value_retail",
+            "title_en": "Retail Value",
+            "title_ms": "Nilai Runcit",
+            "description_en": "[Integer] Value of the landings at retail prices, in RM",
+            "description_ms": "[Integer] Nilai pendaratan pada harga runcit, dalam RM"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "coast",
+                    "state",
+                    "category",
+                    "grade"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "timeseries",
+            "title_en": "Wholesale Value of Fish Landings (RM)",
+            "title_ms": "Nilai Borong Pendaratan Ikan (RM)",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "coast",
+                    "state",
+                    "category",
+                    "grade"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "value_wholesale"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Wholesale Value (RM)",
+        "date": "Date",
+        "coast": "Coast",
+        "state": "State",
+        "category": "Category",
+        "grade": "Grade",
+        "landings": "Landings (tonnes)",
+        "value_wholesale": "Wholesale Value (RM)",
+        "value_retail": "Retail Value (RM)",
+        "east": "East Coast",
+        "west": "West Coast",
+        "borneo": "Borneo",
+        "all": "All Coasts",
+        "all-states": "All States",
+        "total": "Total",
+        "fish": "Fish",
+        "prawn": "Prawns",
+        "squid": "Squid",
+        "crab": "Crabs",
+        "shellfish": "Shellfish",
+        "mixed_fish": "Mixed Fish",
+        "trash_fish": "Trash Fish",
+        "misc": "Miscellaneous",
+        "a1": "Grade A1",
+        "a2": "Grade A2",
+        "a": "Grade A",
+        "b": "Grade B",
+        "c": "Grade C"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Nilai Borong (RM)",
+        "date": "Tarikh",
+        "coast": "Pantai",
+        "state": "Negeri",
+        "category": "Kategori",
+        "grade": "Gred",
+        "landings": "Pendaratan (tan)",
+        "value_wholesale": "Nilai Borong (RM)",
+        "value_retail": "Nilai Runcit (RM)",
+        "east": "Pantai Timur",
+        "west": "Pantai Barat",
+        "borneo": "Borneo",
+        "all": "Semua Pantai",
+        "all-states": "Semua Negeri",
+        "total": "Jumlah",
+        "fish": "Ikan",
+        "prawn": "Udang",
+        "squid": "Sotong",
+        "crab": "Ketam",
+        "shellfish": "Kerang-kerangan",
+        "mixed_fish": "Ikan Campur",
+        "trash_fish": "Ikan Baja",
+        "misc": "Pelbagai",
+        "a1": "Gred A1",
+        "a2": "Gred A2",
+        "a": "Gred A",
+        "b": "Gred B",
+        "c": "Gred C"
+    },
+    "related_datasets": []
+}
