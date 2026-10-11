@@ -1,0 +1,109 @@
+{
+    "title_en": "SDG 16-10-1: Violence Against Journalists, Trade Unionists & Human Rights Advocates",
+    "title_ms": "SDG 16-10-1: Keganasan Terhadap Wartawan, Ahli Kesatuan Sekerja & Pembela Hak Asasi Manusia",
+    "title_sort": 110,
+    "description_en": "Number of verified cases of killing, kidnapping, enforced disappearance, arbitrary detention and torture of journalists, associated media personnel, trade unionists and human rights advocates by state and sex, as per the specifications of SDG Indicator 16-10-1.",
+    "description_ms": "Bilangan kes pembunuhan, penculikan, kehilangan secara paksa, penahanan sewenang-wenangnya dan penyeksaan terhadap wartawan, kakitangan media yang berkaitan, ahli kesatuan sekerja dan pembela hak asasi manusia yang telah disahkan mengikut negeri dan jantina, selaras dengan spesifikasi Indikator SDG 16-10-1.",
+    "exclude_openapi": false,
+    "manual_trigger": "1",
+    "data_as_of": "2024",
+    "last_updated": "2026-10-11 12:00",
+    "next_update": "2027-12-31 18:00",
+    "methodology_en": "This dataset is produced based on the case-level administrative records collected by the Royal Malaysia Police (PDRM), which is the single source of truth for data on crimes in Malaysia. Besides for operational purposes, this data is reported as part of Malaysia's monitoring of the Sustainable Development Goals (SDGs), in line with the most recent [SDG Global Indicator Framework](https://storage.dosm.gov.my/technotes/sdg.pdf). Users should note that the value of 0 in every row is not an error, as no cases were recorded in any state from 2016 to 2024.",
+    "methodology_ms": "Set data ini dihasilkan daripada rekod pentadbiran peringkat kes yang dikumpulkan oleh Polis Diraja Malaysia (PDRM), yang merupakan sumber rujukan tunggal bagi data mengenai jenayah di Malaysia. Selain tujuan operasi, data ini juga dilaporkan sebagai sebahagian daripada pemantauan Malaysia terhadap Matlamat Pembangunan Lestari (SDG), selaras dengan [Kerangka Indikator Global SDG](https://storage.dosm.gov.my/technotes/sdg.pdf) yang terkini. Pengguna perlu ambil perhatian bahawa nilai 0 dalam setiap baris bukanlah kesilapan, kerana sememangnya tiada kes direkodkan di mana-mana negeri dari 2016 hingga 2024.",
+    "caveat_en": "Figures for Sabah include W.P. Labuan, and figures for W.P. Kuala Lumpur include W.P. Putrajaya.",
+    "caveat_ms": "Angka bagi Sabah termasuk W.P. Labuan, dan angka bagi W.P. Kuala Lumpur termasuk W.P. Putrajaya.",
+    "publication_en": "—",
+    "publication_ms": "—",
+    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_16-10-1.parquet",
+    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_16-10-1.csv",
+    "frequency": "ANNUAL",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2016,
+    "dataset_end": 2024,
+    "data_source": [
+        "PDRM"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Indikator SDG",
+            "subcategory_sort": 10
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Indikator SDG",
+            "subcategory_sort": 10
+        }
+    ],
+    "fields": [
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 14 states (Sabah includes W.P. Labuan, and W.P. Kuala Lumpur includes W.P. Putrajaya), or Malaysia",
+            "description_ms": "[Kategori] Satu daripada 14 negeri (Sabah termasuk W.P. Labuan, dan W.P. Kuala Lumpur termasuk W.P. Putrajaya), atau Malaysia"
+        },
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency.",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai MM-DD ditetapkan kepada 01-01 kerana data pada frekuensi tahunan."
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
+            "description_ms": "[Kategori] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
+        },
+        {
+            "name": "value",
+            "title_en": "Number of Cases",
+            "title_ms": "Bilangan Kes",
+            "description_en": "[Integer] Number of verified cases of killing, kidnapping, enforced disappearance, arbitrary detention and torture of journalists, associated media personnel, trade unionists and human rights advocates",
+            "description_ms": "[Integer] Bilangan kes pembunuhan, penculikan, kehilangan secara paksa, penahanan sewenang-wenangnya dan penyeksaan terhadap wartawan, kakitangan media yang berkaitan, ahli kesatuan sekerja dan pembela hak asasi manusia yang telah disahkan"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "state"
+                ],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "state": "State",
+        "sex": "Sex",
+        "value": "Cases"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "state": "Negeri",
+        "sex": "Jantina",
+        "value": "Kes"
+    },
+    "related_datasets": []
+}
