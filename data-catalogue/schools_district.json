@@ -150,7 +150,10 @@
         "tertiary": "Tertiary",
         "sekolah-rendah-kerajaan": "Government Primary School",
         "sekolah-menengah-kerajaan": "Government Secondary School",
-        "ipta": "Public Higher Education Institution"
+        "ipta": "Public Higher Education Institution",
+        "institut-pendidikan-guru": "Teacher Education Institute",
+        "politeknik": "Polytechnic",
+        "kolej-komuniti": "Community College"
     },
     "translations_ms": {
         "x": "Tarikh",
@@ -167,7 +170,10 @@
         "tertiary": "Pengajian Tinggi",
         "sekolah-rendah-kerajaan": "Sekolah Rendah Kerajaan",
         "sekolah-menengah-kerajaan": "Sekolah Menengah Kerajaan",
-        "ipta": "Institusi Pengajian Tinggi Awam"
+        "ipta": "Institusi Pengajian Tinggi Awam",
+        "institut-pendidikan-guru": "Institut Pendidikan Guru",
+        "politeknik": "Politeknik",
+        "kolej-komuniti": "Kolej Komuniti"
     },
     "related_datasets": []
 }
