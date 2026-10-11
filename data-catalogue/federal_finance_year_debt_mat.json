@@ -1,0 +1,165 @@
+{
+    "title_en": "Annual Federal Government Debt by Remaining Maturity",
+    "title_ms": "Hutang Tahunan Kerajaan Persekutuan mengikut Tempoh Baki Matang",
+    "title_sort": 12,
+    "description_en": "Annual Federal Government debt outstanding by sector (domestic or external), type of instrument, and remaining maturity.",
+    "description_ms": "Hutang tertunggak tahunan Kerajaan Persekutuan mengikut sektor (dalam negeri atau luar negeri), jenis instrumen, dan tempoh baki matang.",
+    "exclude_openapi": false,
+    "manual_trigger": "2026-10-11 09:20:13.414207",
+    "data_as_of": "2025",
+    "last_updated": "2026-10-11 18:00",
+    "next_update": "2027-03-31 18:00",
+    "methodology_en": "This data is compiled by Bank Negara Malaysia from Federal Government debt records, and reflects the nominal value of debt outstanding at the end of each period, classified by remaining maturity. A few key relationships should be noted:\n- Total debt is the sum of domestic and external debt.\n- Domestic debt comprises Treasury Bills, Malaysian Government Investment Issues (MGII), Malaysian Government Securities (MGS) and other loans; MGII and MGS are further broken down by remaining maturity.\n- External debt comprises non-resident holdings of ringgit-denominated Federal Government debt, and foreign currency (offshore) borrowing in the form of market loans and project loans.",
+    "methodology_ms": "Data ini dihimpun oleh Bank Negara Malaysia daripada rekod hutang Kerajaan Persekutuan, dan mencerminkan nilai nominal hutang tertunggak pada akhir setiap tempoh, dikelaskan mengikut tempoh baki matang. Beberapa hubungan penting perlu diambil perhatian:\n- Jumlah hutang adalah hasil tambah hutang dalam negeri dan hutang luar negeri.\n- Hutang dalam negeri terdiri daripada Bil-bil Perbendaharaan, Terbitan Pelaburan Kerajaan Malaysia (MGII), Sekuriti Kerajaan Malaysia (MGS) dan pinjaman-pinjaman lain; MGII dan MGS dipecahkan lagi mengikut tempoh baki matang.\n- Hutang luar negeri terdiri daripada pemegangan hutang Kerajaan Persekutuan dalam denominasi RM oleh bukan pemastautin, serta hutang dalam mata wang asing (peminjaman luar pesisir) dalam bentuk pinjaman pasaran dan pinjaman projek.",
+    "caveat_en": "Numbers may not add up due to rounding during derivation.",
+    "caveat_ms": "Jumlah tidak semestinya tepat kerana penggenapan.",
+    "publication_en": "—",
+    "publication_ms": "—",
+    "link_parquet": "https://storage.data.gov.my/publicadmin/federal_finance_year_debt_mat.parquet",
+    "link_csv": "https://storage.data.gov.my/publicadmin/federal_finance_year_debt_mat.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2008,
+    "dataset_end": 2025,
+    "data_source": [
+        "BNM"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Public Administration",
+            "category_ms": "Pentadbiran Awam",
+            "category_sort": 80,
+            "subcategory_en": "Public Finance",
+            "subcategory_ms": "Kewangan Awam",
+            "subcategory_sort": 10
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency; values are as at the end of the year",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan; nilai adalah pada akhir tahun"
+        },
+        {
+            "name": "sector",
+            "title_en": "Sector",
+            "title_ms": "Sektor",
+            "description_en": "[Categorical] Overall debt ('total'), domestic debt ('domestic'), or external debt ('external')",
+            "description_ms": "[Kategori] Hutang keseluruhan ('total'), hutang dalam negeri ('domestic'), atau hutang luar negeri ('external')"
+        },
+        {
+            "name": "type",
+            "title_en": "Type",
+            "title_ms": "Jenis",
+            "description_en": "[Categorical] Type of debt instrument: for domestic debt, Treasury Bills ('tbills'), MGII ('mgii'), MGS ('mgs') or other loans ('other'); for external debt, non-resident holdings of RM-denominated debt ('rm'), market loans ('market') or project loans ('project'); 'total' denotes the sum across types",
+            "description_ms": "[Kategori] Jenis instrumen hutang: bagi hutang dalam negeri, Bil-bil Perbendaharaan ('tbills'), MGII ('mgii'), MGS ('mgs') atau pinjaman-pinjaman lain ('other'); bagi hutang luar negeri, pemegangan hutang dalam denominasi RM oleh bukan pemastautin ('rm'), pinjaman pasaran ('market') atau pinjaman projek ('project'); 'total' mewakili jumlah merentasi semua jenis"
+        },
+        {
+            "name": "maturity",
+            "title_en": "Remaining Maturity",
+            "title_ms": "Tempoh Baki Matang",
+            "description_en": "[Categorical] Remaining maturity in years ('0-3', '3-5', '5-10', '10-15', '15+'), available for MGII and MGS only; 'total' denotes the sum across maturities",
+            "description_ms": "[Kategori] Tempoh baki matang dalam tahun ('0-3', '3-5', '5-10', '10-15', '15+'), hanya bagi MGII dan MGS; 'total' mewakili jumlah merentasi semua tempoh"
+        },
+        {
+            "name": "value",
+            "title_en": "Debt (RM mil)",
+            "title_ms": "Hutang (RM juta)",
+            "description_en": "[Float] Nominal value of debt outstanding in millions of ringgit (RM mil)",
+            "description_ms": "[Apung] Nilai nominal hutang tertunggak dalam juta ringgit (RM juta)"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "sector",
+                    "type",
+                    "maturity"
+                ],
+                "freeze_columns": [
+                    "date"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "value",
+            "title_en": "Debt (RM mil)",
+            "title_ms": "Hutang (RM juta)",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "sector",
+                    "type",
+                    "maturity"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "value"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "y1": "Debt (RM mil)",
+        "date": "Date",
+        "sector": "Sector",
+        "type": "Type",
+        "maturity": "Remaining maturity",
+        "value": "Debt (RM mil)",
+        "total": "Total",
+        "domestic": "Domestic debt",
+        "external": "External debt",
+        "tbills": "Treasury Bills",
+        "mgii": "Malaysian Government Investment Issues (MGII)",
+        "mgs": "Malaysian Government Securities (MGS)",
+        "other": "Other loans",
+        "rm": "Non-resident holdings of RM-denominated debt",
+        "market": "Market loans",
+        "project": "Project loans",
+        "0-3": "Less than 3 years",
+        "3-5": "3 to 5 years",
+        "5-10": "5 to 10 years",
+        "10-15": "10 to 15 years",
+        "15+": "More than 15 years"
+    },
+    "translations_ms": {
+        "y1": "Hutang (RM juta)",
+        "date": "Tarikh",
+        "sector": "Sektor",
+        "type": "Jenis",
+        "maturity": "Tempoh baki matang",
+        "value": "Hutang (RM juta)",
+        "total": "Jumlah",
+        "domestic": "Hutang dalam negeri",
+        "external": "Hutang luar negeri",
+        "tbills": "Bil-bil Perbendaharaan",
+        "mgii": "Terbitan Pelaburan Kerajaan Malaysia (MGII)",
+        "mgs": "Sekuriti Kerajaan Malaysia (MGS)",
+        "other": "Pinjaman-pinjaman lain",
+        "rm": "Pemegangan hutang dalam denominasi RM oleh bukan pemastautin",
+        "market": "Pinjaman pasaran",
+        "project": "Pinjaman projek",
+        "0-3": "Kurang daripada 3 tahun",
+        "3-5": "3 hingga 5 tahun",
+        "5-10": "5 hingga 10 tahun",
+        "10-15": "10 hingga 15 tahun",
+        "15+": "Melebihi 15 tahun"
+    },
+    "related_datasets": []
+}
