@@ -1,0 +1,145 @@
+{
+    "title_en": "Primary Energy Supply by Commodity",
+    "title_ms": "Bekalan Tenaga Primer mengikut Komoditi",
+    "title_sort": 100,
+    "description_en": "Annual primary energy supply in Malaysia, by energy commodity.",
+    "description_ms": "Bekalan tenaga primer tahunan di Malaysia, mengikut komoditi tenaga.",
+    "exclude_openapi": false,
+    "manual_trigger": "1",
+    "data_as_of": "2024",
+    "last_updated": "2026-10-11 12:00",
+    "next_update": "2027-12-31 18:00",
+    "methodology_en": "This data is compiled by the Energy Commission (Suruhanjaya Tenaga) for the National Energy Balance, from data reported by energy producers, power utilities, oil and gas companies and government agencies. Primary energy supply is the energy available for use in Malaysia: domestic production plus imports, less exports, international bunkers and changes in stocks. Final energy consumption is the energy delivered to end users, after conversion (such as refining and power generation) and losses. All values are in kilotonnes of oil equivalent (ktoe).",
+    "methodology_ms": "Data ini disusun oleh Suruhanjaya Tenaga untuk Imbangan Tenaga Negara, berdasarkan data yang dilaporkan oleh pengeluar tenaga, utiliti kuasa, syarikat minyak dan gas serta agensi kerajaan. Bekalan tenaga primer ialah tenaga yang tersedia untuk digunakan di Malaysia: pengeluaran domestik dan import, tolak eksport, bunker antarabangsa dan perubahan stok. Penggunaan tenaga akhir ialah tenaga yang disalurkan kepada pengguna akhir, selepas penukaran (seperti penapisan dan penjanaan kuasa) dan kehilangan. Semua nilai adalah dalam kilotan setara minyak (ktoe).",
+    "caveat_en": "Figures may be revised as the National Energy Balance is updated. Crude oil and petroleum products are available separately from 2005; before then, only their combined supply ('oil') is available. Supply of petroleum products is net of exports, and is negative in years when exports exceed imports. The total is the sum of oil, natural gas, coal and coke, and the renewables.",
+    "caveat_ms": "Angka mungkin disemak semula apabila Imbangan Tenaga Negara dikemas kini. Minyak mentah dan produk petroleum tersedia secara berasingan mulai 2005; sebelum itu, hanya bekalan gabungannya ('oil') tersedia. Bekalan produk petroleum adalah bersih daripada eksport, dan bernilai negatif pada tahun apabila eksport melebihi import. Jumlah ialah hasil tambah minyak, gas asli, arang batu dan kok, serta tenaga boleh baharu.",
+    "publication_en": "The [National Energy Balance 2022](https://www.st.gov.my/sites/default/files/2026-02/National_Energy_Balance_2022.pdf), published by the Energy Commission.",
+    "publication_ms": "[Imbangan Tenaga Negara 2022](https://www.st.gov.my/sites/default/files/2026-02/National_Energy_Balance_2022.pdf), diterbitkan oleh Suruhanjaya Tenaga.",
+    "link_parquet": "https://storage.data.gov.my/energy/energy_supply_commodity.parquet",
+    "link_csv": "https://storage.data.gov.my/energy/energy_supply_commodity.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 1978,
+    "dataset_end": 2024,
+    "data_source": [
+        "ST"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Environment",
+            "category_ms": "Alam Sekitar",
+            "category_sort": 45,
+            "subcategory_en": "Energy",
+            "subcategory_ms": "Tenaga",
+            "subcategory_sort": 20
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Environment",
+            "category_ms": "Alam Sekitar",
+            "category_sort": 95,
+            "subcategory_en": "Energy",
+            "subcategory_ms": "Tenaga",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] Date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data pada frekuensi tahunan"
+        },
+        {
+            "name": "commodity",
+            "title_en": "Commodity",
+            "title_ms": "Komoditi",
+            "description_en": "[Categorical] All commodities ('total'); crude oil, petroleum products and others ('oil'), split from 2005 into crude oil ('oil_crude') and petroleum products and others ('oil_products'); natural gas ('natural_gas'); coal and coke ('coal_coke'); hydropower ('hydro'); solar ('solar'); biomass ('biomass'); biogas ('biogas'); or biodiesel ('biodiesel')",
+            "description_ms": "[Kategori] Semua komoditi ('total'); minyak mentah, produk petroleum dan lain-lain ('oil'), dipecahkan mulai 2005 kepada minyak mentah ('oil_crude') dan produk petroleum dan lain-lain ('oil_products'); gas asli ('natural_gas'); arang batu dan kok ('coal_coke'); hidro ('hydro'); solar ('solar'); biojisim ('biomass'); biogas ('biogas'); atau biodiesel ('biodiesel')"
+        },
+        {
+            "name": "supply",
+            "title_en": "Primary Energy Supply",
+            "title_ms": "Bekalan Tenaga Primer",
+            "description_en": "[Float] Primary energy supply in kilotonnes of oil equivalent (ktoe)",
+            "description_ms": "[Apung] Bekalan tenaga primer dalam kilotan setara minyak (ktoe)"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "commodity"
+                ],
+                "freeze_columns": [
+                    "date"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "timeseries",
+            "title_en": "Primary Energy Supply by Commodity",
+            "title_ms": "Bekalan Tenaga Primer mengikut Komoditi",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "commodity"
+                ],
+                "precision": 0,
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "supply"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Primary Energy Supply (ktoe)",
+        "date": "Date",
+        "commodity": "Commodity",
+        "supply": "Primary Energy Supply",
+        "total": "Total",
+        "oil": "Oil (Crude, Products & Others)",
+        "oil-crude": "Crude Oil",
+        "oil-products": "Petroleum Products & Others",
+        "natural-gas": "Natural Gas",
+        "coal-coke": "Coal & Coke",
+        "hydro": "Hydropower",
+        "solar": "Solar",
+        "biomass": "Biomass",
+        "biogas": "Biogas",
+        "biodiesel": "Biodiesel"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Bekalan Tenaga Primer (ktoe)",
+        "date": "Tarikh",
+        "commodity": "Komoditi",
+        "supply": "Bekalan Tenaga Primer",
+        "total": "Jumlah",
+        "oil": "Minyak (Mentah, Produk & Lain-lain)",
+        "oil-crude": "Minyak Mentah",
+        "oil-products": "Produk Petroleum & Lain-lain",
+        "natural-gas": "Gas Asli",
+        "coal-coke": "Arang Batu & Kok",
+        "hydro": "Hidro",
+        "solar": "Solar",
+        "biomass": "Biojisim",
+        "biogas": "Biogas",
+        "biodiesel": "Biodiesel"
+    },
+    "related_datasets": []
+}
