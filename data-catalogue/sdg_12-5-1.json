@@ -1,0 +1,119 @@
+{
+    "title_en": "SDG 12-5-1: National Recycling Rate",
+    "title_ms": "SDG 12-5-1: Kadar Kitar Semula Nasional",
+    "title_sort": 60,
+    "description_en": "Annual national recycling rate and tons of material recycled, as per the specifications of SDG Indicator 12-5-1.",
+    "description_ms": "Kadar kitar semula nasional tahunan dan tan bahan yang dikitar semula, selaras dengan spesifikasi Indikator SDG 12-5-1.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2024",
+    "last_updated": "2026-10-11 12:00",
+    "next_update": "2027-12-31 18:00",
+    "methodology_en": "This dataset is tabulated from administrative records on recycling compiled by the Ministry of Local Government Development (KPKT), and subsequently reported to DOSM in aggregated form. It is collected as part of Malaysia's monitoring of the Sustainable Development Goals (SDGs), in line with the most recent [SDG Global Indicator Framework](https://storage.dosm.gov.my/technotes/sdg.pdf).",
+    "methodology_ms": "Set data ini dihasilkan berdasarkan rekod pentadbiran mengenai kitar semula yang dikumpulkan oleh Kementerian Pembangunan Kerajaan Tempatan (KPKT), dan kemudiannya dilaporkan kepada DOSM dalam bentuk agregat. Ia dikumpulkan sebagai sebahagian daripada pemantauan Malaysia terhadap Matlamat Pembangunan Lestari (SDG), selaras dengan [Kerangka Indikator Global SDG](https://storage.dosm.gov.my/technotes/sdg.pdf) yang terkini.",
+    "caveat_en": "The data is subject to revision in future updates.",
+    "caveat_ms": "Data ini mungkin akan disemak semula dalam kemaskini akan datang.",
+    "publication_en": "—",
+    "publication_ms": "—",
+    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_12-5-1.parquet",
+    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_12-5-1.csv",
+    "frequency": "ANNUAL",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2014,
+    "dataset_end": 2024,
+    "data_source": [
+        "DOSM",
+        "KPKT"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Indikator SDG",
+            "subcategory_sort": 10
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Indikator SDG",
+            "subcategory_sort": 10
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency.",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai MM-DD ditetapkan kepada 01-01 kerana data pada frekuensi tahunan."
+        },
+        {
+            "name": "rate",
+            "title_en": "Recycling Rate",
+            "title_ms": "Kadar Kitar Semula",
+            "description_en": "[Float] National recycling rate, in percent",
+            "description_ms": "[Apung] Kadar kitar semula nasional, dalam peratus"
+        },
+        {
+            "name": "tonnes",
+            "title_en": "Material Recycled",
+            "title_ms": "Bahan Dikitar Semula",
+            "description_en": "[Float] Tons of material recycled",
+            "description_ms": "[Apung] Tan bahan yang dikitar semula"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 2,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "recycling_rate",
+            "title_en": "Recycling Rate",
+            "title_ms": "Kadar Kitar Semula",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [],
+                "precision": 2,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y1": [
+                        "rate"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Recycling Rate (%)",
+        "date": "Date",
+        "rate": "Recycling Rate (%)",
+        "tonnes": "Material Recycled (Tons)"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Kadar Kitar Semula (%)",
+        "date": "Tarikh",
+        "rate": "Kadar Kitar Semula (%)",
+        "tonnes": "Bahan Dikitar Semula (Tan)"
+    },
+    "related_datasets": []
+}
