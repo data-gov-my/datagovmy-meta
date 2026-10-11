@@ -1,0 +1,121 @@
+{
+    "title_en": "Vaccination Status of Children Aged 12-23 Months",
+    "title_ms": "Status Vaksinasi Kanak-Kanak Berumur 12-23 Bulan",
+    "title_sort": 55,
+    "description_en": "Proportion of children aged 12-23 months with complete, incomplete, or no vaccination against vaccine-preventable childhood diseases, at national and state level, with a breakdown by sex at national level.",
+    "description_ms": "Peratusan kanak-kanak berumur 12-23 bulan yang menerima vaksinasi lengkap, tidak lengkap, atau tiada vaksinasi terhadap penyakit kanak-kanak yang boleh dicegah dengan vaksin, di peringkat nasional dan negeri, dengan pecahan mengikut jantina di peringkat nasional.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2016",
+    "last_updated": "2026-10-11 12:00",
+    "next_update": "—",
+    "methodology_en": "This data is tabulated based on survey records collected via the National Health and Morbidity Survey (NHMS), which is conducted by the Ministry of Health once every 4 years. Figures are from NHMS 2016: Maternal and Child Health.\n\nVaccination status refers to vaccination against vaccine-preventable childhood diseases before the survey and by the child's first birthday. Complete vaccination is verified where it is confirmed by the child's health record, and self-reported where it is reported by the parent or caregiver without a record.",
+    "methodology_ms": "Data ini dihasilkan berdasarkan rekod tinjauan yang dikumpul melalui Tinjauan Kesihatan dan Morbiditi Kebangsaan (NHMS), yang dilaksanakan oleh Kementerian Kesihatan setiap 4 tahun. Angka adalah daripada NHMS 2016: Kesihatan Ibu dan Anak.\n\nStatus vaksinasi merujuk kepada vaksinasi terhadap penyakit kanak-kanak yang boleh dicegah dengan vaksin sebelum tinjauan dan sebelum hari lahir pertama kanak-kanak. Vaksinasi lengkap disahkan jika dibuktikan melalui rekod kesihatan kanak-kanak, dan dilaporkan sendiri jika dilaporkan oleh ibu bapa atau penjaga tanpa rekod.",
+    "caveat_en": "These are survey estimates, and are not comparable with the administrative immunisation coverage rates published by the Ministry of Health. Figures for Sabah include W.P. Labuan. A breakdown by sex is available at national level only.",
+    "caveat_ms": "Angka ini adalah anggaran tinjauan, dan tidak boleh dibandingkan dengan kadar liputan imunisasi pentadbiran yang diterbitkan oleh Kementerian Kesihatan. Angka bagi Sabah termasuk W.P. Labuan. Pecahan mengikut jantina hanya tersedia di peringkat nasional.",
+    "publication_en": "—",
+    "publication_ms": "—",
+    "link_parquet": "https://storage.data.gov.my/healthcare/infant_immunisation_status.parquet",
+    "link_csv": "https://storage.data.gov.my/healthcare/infant_immunisation_status.csv",
+    "frequency": "INFREQUENT",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "SEX"
+    ],
+    "dataset_begin": 2016,
+    "dataset_end": 2016,
+    "data_source": [
+        "MOH"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Healthcare",
+            "category_ms": "Kesihatan",
+            "category_sort": 40,
+            "subcategory_en": "Healthcare Programs",
+            "subcategory_ms": "Program Kesihatan",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as this is annual data",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01 kerana ini adalah data tahunan"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 15 states (Sabah includes W.P. Labuan), or Malaysia",
+            "description_ms": "[Kategori] Satu daripada 15 negeri (Sabah termasuk W.P. Labuan), atau Malaysia"
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female'); by sex at national level only",
+            "description_ms": "[Kategori] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female'); mengikut jantina di peringkat nasional sahaja"
+        },
+        {
+            "name": "status",
+            "title_en": "Vaccination Status",
+            "title_ms": "Status Vaksinasi",
+            "description_en": "[Categorical] One of 'complete_verified' (complete, verified by health record), 'complete_self_reported' (complete, reported without a record), 'incomplete', or 'unvaccinated'",
+            "description_ms": "[Kategori] Salah satu daripada 'complete_verified' (lengkap, disahkan melalui rekod kesihatan), 'complete_self_reported' (lengkap, dilaporkan tanpa rekod), 'incomplete' (tidak lengkap), atau 'unvaccinated' (tidak divaksin)"
+        },
+        {
+            "name": "prevalence",
+            "title_en": "Prevalence",
+            "title_ms": "Prevalens",
+            "description_en": "[Float] Percentage of children aged 12-23 months with the given vaccination status",
+            "description_ms": "[Apung] Peratusan kanak-kanak berumur 12-23 bulan dengan status vaksinasi berkenaan"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 1,
+                "filter_columns": [
+                    "sex"
+                ],
+                "freeze_columns": [
+                    "state"
+                ]
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "state": "State",
+        "sex": "Sex",
+        "status": "Vaccination Status",
+        "prevalence": "Prevalence (%)",
+        "complete_verified": "Complete (verified)",
+        "complete_self_reported": "Complete (self-reported)",
+        "incomplete": "Incomplete",
+        "unvaccinated": "Unvaccinated"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "state": "Negeri",
+        "sex": "Jantina",
+        "status": "Status Vaksinasi",
+        "prevalence": "Prevalens (%)",
+        "complete_verified": "Lengkap (disahkan)",
+        "complete_self_reported": "Lengkap (dilaporkan sendiri)",
+        "incomplete": "Tidak Lengkap",
+        "unvaccinated": "Tidak Divaksin"
+    },
+    "related_datasets": []
+}
