@@ -5,7 +5,7 @@
     "description_en": "Performance of the wholesale & retail trade subsectors by MSIC group (3 digit), covering sales value and volume. The table provides a preview of the full dataset using the latest month of data only.",
     "description_ms": "Prestasi subsektor perdagangan borong & runcit mengikut kumpulan MSIC (3 digit), merangkumi nilai dan volum jualan. Jadual memberi pratonton kepada set data penuh dengan menggunakan data bulan terkini sahaja.",
     "exclude_openapi": true,
-    "manual_trigger": "",
+    "manual_trigger": "1",
     "data_as_of": "2026-08",
     "last_updated": "2026-10-09 12:30",
     "next_update": "2026-11-13 12:30",
