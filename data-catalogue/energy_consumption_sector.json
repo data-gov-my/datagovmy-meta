@@ -1,0 +1,139 @@
+{
+    "title_en": "Final Energy Consumption by Sector",
+    "title_ms": "Penggunaan Tenaga Akhir mengikut Sektor",
+    "title_sort": 110,
+    "description_en": "Annual final energy consumption in Malaysia, by sector of use.",
+    "description_ms": "Penggunaan tenaga akhir tahunan di Malaysia, mengikut sektor penggunaan.",
+    "exclude_openapi": false,
+    "manual_trigger": "1",
+    "data_as_of": "2024",
+    "last_updated": "2026-10-11 12:00",
+    "next_update": "2027-12-31 18:00",
+    "methodology_en": "This data is compiled by the Energy Commission (Suruhanjaya Tenaga) for the National Energy Balance, from data reported by energy producers, power utilities, oil and gas companies and government agencies. Primary energy supply is the energy available for use in Malaysia: domestic production plus imports, less exports, international bunkers and changes in stocks. Final energy consumption is the energy delivered to end users, after conversion (such as refining and power generation) and losses. All values are in kilotonnes of oil equivalent (ktoe).",
+    "methodology_ms": "Data ini disusun oleh Suruhanjaya Tenaga untuk Imbangan Tenaga Negara, berdasarkan data yang dilaporkan oleh pengeluar tenaga, utiliti kuasa, syarikat minyak dan gas serta agensi kerajaan. Bekalan tenaga primer ialah tenaga yang tersedia untuk digunakan di Malaysia: pengeluaran domestik dan import, tolak eksport, bunker antarabangsa dan perubahan stok. Penggunaan tenaga akhir ialah tenaga yang disalurkan kepada pengguna akhir, selepas penukaran (seperti penapisan dan penjanaan kuasa) dan kehilangan. Semua nilai adalah dalam kilotan setara minyak (ktoe).",
+    "caveat_en": "Figures may be revised as the National Energy Balance is updated. Consumption by the fishery sector is recorded from 2012. Total consumption may differ slightly between the breakdowns by commodity and by sector in some years (notably 1990 to 1996, and 2017), as each total is the sum of its own breakdown.",
+    "caveat_ms": "Angka mungkin disemak semula apabila Imbangan Tenaga Negara dikemas kini. Penggunaan oleh sektor perikanan direkodkan mulai 2012. Jumlah penggunaan mungkin berbeza sedikit antara pecahan mengikut komoditi dan mengikut sektor bagi sesetengah tahun (terutamanya 1990 hingga 1996, dan 2017), kerana setiap jumlah ialah hasil tambah pecahannya sendiri.",
+    "publication_en": "The [National Energy Balance 2022](https://www.st.gov.my/sites/default/files/2026-02/National_Energy_Balance_2022.pdf), published by the Energy Commission.",
+    "publication_ms": "[Imbangan Tenaga Negara 2022](https://www.st.gov.my/sites/default/files/2026-02/National_Energy_Balance_2022.pdf), diterbitkan oleh Suruhanjaya Tenaga.",
+    "link_parquet": "https://storage.data.gov.my/energy/energy_consumption_sector.parquet",
+    "link_csv": "https://storage.data.gov.my/energy/energy_consumption_sector.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 1980,
+    "dataset_end": 2024,
+    "data_source": [
+        "ST"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Environment",
+            "category_ms": "Alam Sekitar",
+            "category_sort": 45,
+            "subcategory_en": "Energy",
+            "subcategory_ms": "Tenaga",
+            "subcategory_sort": 20
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Environment",
+            "category_ms": "Alam Sekitar",
+            "category_sort": 95,
+            "subcategory_en": "Energy",
+            "subcategory_ms": "Tenaga",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] Date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data pada frekuensi tahunan"
+        },
+        {
+            "name": "sector",
+            "title_en": "Sector",
+            "title_ms": "Sektor",
+            "description_en": "[Categorical] All sectors ('total'), residential ('residential'), commercial ('commercial'), industrial ('industrial'), transport ('transport'), agriculture ('agriculture'), fishery ('fishery'), or non-energy use ('non_energy'), which covers fuels used as raw materials, such as natural gas used as petrochemical feedstock",
+            "description_ms": "[Kategori] Semua sektor ('total'), kediaman ('residential'), komersial ('commercial'), perindustrian ('industrial'), pengangkutan ('transport'), pertanian ('agriculture'), perikanan ('fishery'), atau kegunaan bukan tenaga ('non_energy'), iaitu bahan api yang digunakan sebagai bahan mentah, seperti gas asli yang digunakan sebagai bahan suapan petrokimia"
+        },
+        {
+            "name": "consumption",
+            "title_en": "Final Energy Consumption",
+            "title_ms": "Penggunaan Tenaga Akhir",
+            "description_en": "[Float] Final energy consumption in kilotonnes of oil equivalent (ktoe)",
+            "description_ms": "[Apung] Penggunaan tenaga akhir dalam kilotan setara minyak (ktoe)"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "sector"
+                ],
+                "freeze_columns": [
+                    "date"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "timeseries",
+            "title_en": "Final Energy Consumption by Sector",
+            "title_ms": "Penggunaan Tenaga Akhir mengikut Sektor",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "sector"
+                ],
+                "precision": 0,
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "consumption"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Final Energy Consumption (ktoe)",
+        "date": "Date",
+        "sector": "Sector",
+        "consumption": "Final Energy Consumption",
+        "total": "Total",
+        "residential": "Residential",
+        "commercial": "Commercial",
+        "industrial": "Industrial",
+        "transport": "Transport",
+        "agriculture": "Agriculture",
+        "fishery": "Fishery",
+        "non-energy": "Non-Energy Use"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Penggunaan Tenaga Akhir (ktoe)",
+        "date": "Tarikh",
+        "sector": "Sektor",
+        "consumption": "Penggunaan Tenaga Akhir",
+        "total": "Jumlah",
+        "residential": "Kediaman",
+        "commercial": "Komersial",
+        "industrial": "Perindustrian",
+        "transport": "Pengangkutan",
+        "agriculture": "Pertanian",
+        "fishery": "Perikanan",
+        "non-energy": "Kegunaan Bukan Tenaga"
+    },
+    "related_datasets": []
+}
