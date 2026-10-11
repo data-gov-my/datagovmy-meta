@@ -6,15 +6,15 @@
     "description_ms": "Bilangan pensyarah di universiti awam di peringkat nasional dan negeri, dengan pecahan mengikut kewarganegaraan dan jantina.",
     "exclude_openapi": false,
     "manual_trigger": "",
-    "data_as_of": "2023",
-    "last_updated": "2024-09-01 12:00",
-    "next_update": "tbc",
+    "data_as_of": "2025",
+    "last_updated": "2026-10-11 12:00",
+    "next_update": "2027-12-31 18:00",
     "methodology_en": "This dataset is tabulated from administrative records maintained by the Ministry of Higher Education.",
     "methodology_ms": "Dataset ini disusun daripada rekod pentadbiran yang dikawalselia oleh Kementerian Pengajian Tinggi.",
     "caveat_en": "—",
     "caveat_ms": "—",
-    "publication_en": "—",
-    "publication_ms": "—",
+    "publication_en": "This data was also published as part of the Ministry of Higher Education's [annual Higher Education Statistics report](https://storage.data.gov.my/education/pub/ua_2025.pdf).",
+    "publication_ms": "Data ini juga diterbitkan sebagai sebahagian daripada [laporan tahunan Statistik Pendidikan Tinggi](https://storage.data.gov.my/education/pub/ua_2025.pdf) oleh Kementerian Pendidikan Tinggi.",
     "link_parquet": "https://storage.data.gov.my/education/lecturers_uni.parquet",
     "link_csv": "https://storage.data.gov.my/education/lecturers_uni.csv",
     "frequency": "YEARLY",
@@ -27,7 +27,7 @@
         "NATIONALITY"
     ],
     "dataset_begin": 2014,
-    "dataset_end": 2023,
+    "dataset_end": 2025,
     "data_source": [
         "MOHE"
     ],
@@ -91,8 +91,8 @@
             "name": "staff",
             "title_en": "Academic Staff",
             "title_ms": "Staf Akademik",
-            "description_en": "[Integer] Number of academic staff",
-            "description_ms": "[Integer] Bilangan staf akademik"
+            "description_en": "[Integer] Number of academic staff, comprising professors, associate professors, lecturers, language teachers, and other academic positions such as research fellows and tutors",
+            "description_ms": "[Integer] Bilangan staf akademik, merangkumi profesor, profesor madya, pensyarah, guru bahasa, dan jawatan akademik lain seperti felo penyelidik dan tutor"
         }
     ],
     "dataviz": [
