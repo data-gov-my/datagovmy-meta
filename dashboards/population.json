@@ -1,7 +1,7 @@
 {
     "dashboard_name": "population",
-    "data_last_updated": "2026-07-31 13:00",
-    "data_next_update": "2026-10-15 13:00",
+    "data_last_updated": "2026-10-15 13:00",
+    "data_next_update": "2027-07-31 13:00",
     "route": "/dashboard/population,/ms-MY/dashboard/population",
     "sites": [
         "opendosm"
