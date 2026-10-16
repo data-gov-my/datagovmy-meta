@@ -1,0 +1,162 @@
+{
+    "publication": "crime_2025",
+    "publication_type": "crime",
+    "release_date": "2026-10-16",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE",
+        "DISTRICT"
+    ],
+    "demography": [
+        "SEX",
+        "AGE",
+        "ETHNICITY"
+    ],
+    "en": {
+        "title": "[2025] Crime",
+        "publication_type_title": "Crime",
+        "description": "Annual crime statistics at national, state, and district level, classified by the International Classification of Crime for Statistical Purposes (ICCS), with breakdowns by type of crime and demographic groups.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Crime: 2025",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2025.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Acts Leading to Death (ICCS 1): 2025",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2025_iccs1_homicide.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Acts Causing Harm (ICCS 2): 2025",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2025_iccs2_assault.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Injurious Acts of a Sexual Nature (ICCS 3): 2025",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2025_iccs3_sexual.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Property Crime with Violence or Threat (ICCS 4): 2025",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2025_iccs4_robbery.xlsx"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "excel",
+                "resource_name": "Drug Offences (ICCS 6): 2025",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2025_iccs6_drugs.xlsx"
+            },
+            {
+                "resource_id": 7,
+                "resource_type": "excel",
+                "resource_name": "Fraud, Deception & Corruption (ICCS 7): 2025",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2025_iccs7_fraud_corruption.xlsx"
+            },
+            {
+                "resource_id": 8,
+                "resource_type": "excel",
+                "resource_name": "Public Order & Authority (ICCS 8): 2025",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2025_iccs8_public_order.xlsx"
+            },
+            {
+                "resource_id": 9,
+                "resource_type": "excel",
+                "resource_name": "Public Safety & State Security (ICCS 9): 2025",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2025_iccs9_public_safety.xlsx"
+            },
+            {
+                "resource_id": 10,
+                "resource_type": "excel",
+                "resource_name": "Natural Environment (ICCS 10): 2025",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2025_iccs10_environment.xlsx"
+            },
+            {
+                "resource_id": 11,
+                "resource_type": "excel",
+                "resource_name": "Other Criminal Acts (ICCS 11): 2025",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2025_iccs11_other.xlsx"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2025] Jenayah",
+        "publication_type_title": "Jenayah",
+        "description": "Statistik jenayah tahunan di peringkat nasional, negeri, dan daerah, dikelaskan mengikut Klasifikasi Jenayah Antarabangsa bagi Tujuan Statistik (ICCS), dengan pecahan mengikut jenis jenayah dan kumpulan demografi.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "pdf",
+                "resource_name": "Jenayah: 2025",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2025.pdf"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "excel",
+                "resource_name": "Perbuatan Membawa kepada Kematian (ICCS 1): 2025",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2025_iccs1_homicide.xlsx"
+            },
+            {
+                "resource_id": 3,
+                "resource_type": "excel",
+                "resource_name": "Perbuatan Menyebabkan Kemudaratan (ICCS 2): 2025",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2025_iccs2_assault.xlsx"
+            },
+            {
+                "resource_id": 4,
+                "resource_type": "excel",
+                "resource_name": "Perbuatan Mencederakan Bersifat Seksual (ICCS 3): 2025",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2025_iccs3_sexual.xlsx"
+            },
+            {
+                "resource_id": 5,
+                "resource_type": "excel",
+                "resource_name": "Jenayah Harta dengan Keganasan atau Ancaman (ICCS 4): 2025",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2025_iccs4_robbery.xlsx"
+            },
+            {
+                "resource_id": 6,
+                "resource_type": "excel",
+                "resource_name": "Kesalahan Dadah (ICCS 6): 2025",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2025_iccs6_drugs.xlsx"
+            },
+            {
+                "resource_id": 7,
+                "resource_type": "excel",
+                "resource_name": "Penipuan, Pemalsuan & Rasuah (ICCS 7): 2025",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2025_iccs7_fraud_corruption.xlsx"
+            },
+            {
+                "resource_id": 8,
+                "resource_type": "excel",
+                "resource_name": "Ketenteraman Awam & Pihak Berkuasa (ICCS 8): 2025",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2025_iccs8_public_order.xlsx"
+            },
+            {
+                "resource_id": 9,
+                "resource_type": "excel",
+                "resource_name": "Keselamatan Awam & Keselamatan Negara (ICCS 9): 2025",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2025_iccs9_public_safety.xlsx"
+            },
+            {
+                "resource_id": 10,
+                "resource_type": "excel",
+                "resource_name": "Alam Sekitar (ICCS 10): 2025",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2025_iccs10_environment.xlsx"
+            },
+            {
+                "resource_id": 11,
+                "resource_type": "excel",
+                "resource_name": "Lain-lain Perbuatan Jenayah (ICCS 11): 2025",
+                "resource_link": "https://storage.dosm.gov.my/crime/crime_2025_iccs11_other.xlsx"
+            }
+        ]
+    }
+}
