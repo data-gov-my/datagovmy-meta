@@ -1,0 +1,203 @@
+{
+    "title_en": "Life Tables by State & Sex",
+    "title_ms": "Jadual Hayat mengikut Negeri & Jantina",
+    "title_sort": 115,
+    "description_en": "Abridged life tables by state, sex and age group. The preview table shows data for the latest year only, but you may download the data in full.",
+    "description_ms": "Jadual hayat ringkas mengikut negeri, jantina dan kumpulan umur. Jadual pratonton hanya menunjukkan data bagi tahun terkini, tetapi data penuh boleh dimuat turun.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2026",
+    "last_updated": "2026-10-16 18:00",
+    "next_update": "2027-09-30 12:00",
+    "methodology_en": "Life tables are compiled by DOSM from deaths registered with the National Registration Department (JPN) and mid-year population estimates, using the Coale-Demeny (West) model life tables. To smooth out random fluctuations, the final life table for a year uses the average number of deaths in that year and the years immediately before and after it; preliminary figures use an estimate of deaths for the following year, while estimates for the latest year use deaths in that year only. Life expectancy is the average number of years a person is expected to live from a given age, if the age-specific mortality rates of that year were to remain the same throughout their lifetime. Life expectancy at birth is not affected by the age structure of the population.",
+    "methodology_ms": "Jadual hayat disusun oleh DOSM berdasarkan kematian yang didaftarkan dengan Jabatan Pendaftaran Negara (JPN) dan anggaran penduduk pertengahan tahun, menggunakan jadual hayat model Coale-Demeny (West). Bagi mengurangkan turun naik rawak, jadual hayat muktamad bagi sesuatu tahun menggunakan purata bilangan kematian bagi tahun tersebut serta tahun sebelum dan selepasnya; angka permulaan menggunakan anggaran kematian bagi tahun berikutnya, manakala anggaran bagi tahun terkini menggunakan kematian bagi tahun tersebut sahaja. Jangkaan hayat ialah purata bilangan tahun seseorang dijangka hidup dari sesuatu umur, sekiranya kadar kematian mengikut umur bagi tahun tersebut kekal sepanjang hayatnya. Jangkaan hayat ketika lahir tidak dipengaruhi oleh struktur umur penduduk.",
+    "caveat_en": "Before 2016 (life expectancy at birth) and before 2020 (life tables), DOSM published Sabah including W.P. Labuan and Selangor including W.P. Putrajaya; in those years, 'Sabah' and 'Selangor' cover both areas, and W.P. Labuan and W.P. Putrajaya have no separate figures. Figures for Sabah were not published for 2001-2007. Figures for Sabah for 2008-2009 (and, in the life tables, 2008-2012) were compiled before a downward revision of Sabah's estimates from 2010 onwards, and are not comparable with later years. Final life tables by state were not published for 2011 and 2012; the figures for those years are preliminary (2011) and estimates (2012). Life tables for both sexes combined are available from 2020 onwards.\n\nEach annual release revises the two preceding years: figures for the latest year are estimates and those for the year before are preliminary, and both will be revised in the next release. Every year in this dataset is taken from the most recent release that covers it. Figures from 2020 onwards are based on population estimates from the Population and Housing Census of Malaysia 2020, while figures for 2010-2019 are based on the 2010 Census and will be revised in future.",
+    "caveat_ms": "Sebelum 2016 (jangkaan hayat ketika lahir) dan sebelum 2020 (jadual hayat), DOSM menerbitkan Sabah termasuk W.P. Labuan dan Selangor termasuk W.P. Putrajaya; bagi tahun-tahun tersebut, 'Sabah' dan 'Selangor' meliputi kedua-dua kawasan, dan tiada angka berasingan bagi W.P. Labuan dan W.P. Putrajaya. Angka bagi Sabah tidak diterbitkan bagi 2001-2007. Angka bagi Sabah bagi 2008-2009 (dan, dalam jadual hayat, 2008-2012) disusun sebelum semakan semula ke bawah anggaran Sabah dari 2010 dan seterusnya, dan tidak boleh dibandingkan dengan tahun-tahun kemudian. Jadual hayat muktamad mengikut negeri tidak diterbitkan bagi 2011 dan 2012; angka bagi tahun-tahun tersebut adalah permulaan (2011) dan anggaran (2012). Jadual hayat bagi kedua-dua jantina tersedia mulai 2020.\n\nSetiap keluaran tahunan menyemak semula dua tahun sebelumnya: angka bagi tahun terkini adalah anggaran dan angka bagi tahun sebelumnya adalah permulaan, dan kedua-duanya akan disemak semula dalam keluaran berikutnya. Setiap tahun dalam set data ini diambil daripada keluaran terkini yang meliputi tahun tersebut. Angka dari 2020 dan seterusnya adalah berdasarkan anggaran penduduk daripada Banci Penduduk dan Perumahan Malaysia 2020, manakala angka bagi 2010-2019 adalah berdasarkan Banci 2010 dan akan disemak semula pada masa hadapan.",
+    "publication_en": "OpenDOSM features a dashboard on [Life Expectancy](https://open.dosm.gov.my/dashboard/life-expectancy) where you can explore this data in a more interactive manner!",
+    "publication_ms": "OpenDOSM memaparkan papan pemuka tentang [Jangkaan Hayat](https://open.dosm.gov.my/ms-MY/dashboard/life-expectancy) yang membolehkan anda menerokai data ini dengan lebih interaktif!",
+    "link_parquet": "https://storage.dosm.gov.my/demography/lifetables_state.parquet",
+    "link_csv": "https://storage.dosm.gov.my/demography/lifetables_state.csv",
+    "link_preview": "https://storage.dosm.gov.my/demography/lifetables_state_latest.parquet",
+    "frequency": "YEARLY",
+    "geography": [
+        "STATE"
+    ],
+    "demography": [
+        "SEX",
+        "AGE"
+    ],
+    "dataset_begin": 2001,
+    "dataset_end": 2026,
+    "data_source": [
+        "JPN",
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "BPPD"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Demography",
+            "category_ms": "Demografi",
+            "category_sort": 1,
+            "subcategory_en": "Life Expectancy",
+            "subcategory_ms": "Jangkaan Hayat",
+            "subcategory_sort": 5
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Demography",
+            "category_ms": "Demografi",
+            "category_sort": 1,
+            "subcategory_en": "Life Expectancy",
+            "subcategory_ms": "Jangkaan Hayat",
+            "subcategory_sort": 5
+        }
+    ],
+    "fields": [
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states",
+            "description_ms": "[Kategori] Satu daripada 16 negeri"
+        },
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
+            "description_ms": "[Kategori] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
+        },
+        {
+            "name": "age",
+            "title_en": "Age Group",
+            "title_ms": "Kumpulan Umur",
+            "description_en": "[Categorical] Under 1 year ('0'), 1-4 years ('1-4'), then 5-year age groups (5-9, 10-14, ..., 75-79); 80+ is the oldest group",
+            "description_ms": "[Kategori] Bawah 1 tahun ('0'), 1-4 tahun ('1-4'), kemudian kumpulan umur 5 tahun (5-9, 10-14, ..., 75-79); 80+ adalah kumpulan yang tertua"
+        },
+        {
+            "name": "prob_death",
+            "title_en": "Probability of Dying",
+            "title_ms": "Kebarangkalian Mati",
+            "description_en": "[Float] Probability that a person alive at the start of the age group dies before reaching the end of it (nqx)",
+            "description_ms": "[Apung] Kebarangkalian seseorang yang hidup pada permulaan kumpulan umur mati sebelum mencapai penghujungnya (nqx)"
+        },
+        {
+            "name": "deaths",
+            "title_en": "Deaths",
+            "title_ms": "Kematian",
+            "description_en": "[Integer] Number of deaths within the age group, out of a hypothetical cohort of 100,000 births (ndx)",
+            "description_ms": "[Integer] Bilangan kematian dalam kumpulan umur, daripada kohort hipotetikal 100,000 kelahiran (ndx)"
+        },
+        {
+            "name": "mortality_rate",
+            "title_en": "Central Mortality Rate",
+            "title_ms": "Kadar Tengah Mortaliti",
+            "description_en": "[Float] Deaths within the age group per person-year lived in it (nmx)",
+            "description_ms": "[Apung] Kematian dalam kumpulan umur bagi setiap tahun-orang yang dihidupi dalamnya (nmx)"
+        },
+        {
+            "name": "survivors",
+            "title_en": "Survivors",
+            "title_ms": "Penakat",
+            "description_en": "[Integer] Number of the 100,000 births still alive at the start of the age group (lx)",
+            "description_ms": "[Integer] Bilangan daripada 100,000 kelahiran yang masih hidup pada permulaan kumpulan umur (lx)"
+        },
+        {
+            "name": "person_years",
+            "title_en": "Person-Years Lived",
+            "title_ms": "Tahun-Orang Dihidupi",
+            "description_en": "[Integer] Total number of years lived by the cohort within the age group (nLx)",
+            "description_ms": "[Integer] Jumlah bilangan tahun yang dihidupi oleh kohort dalam kumpulan umur (nLx)"
+        },
+        {
+            "name": "survival_ratio",
+            "title_en": "Survival Ratio",
+            "title_ms": "Nisbah Ketakatan",
+            "description_en": "[Float] Proportion of persons in the age group who survive into the next 5-year age group (nSx). For '0', from birth to age group 0-4; for '1-4', from age group 0-4 to 5-9; for '75-79', into 80+. Not applicable to 80+",
+            "description_ms": "[Apung] Kadar penduduk dalam kumpulan umur yang terus hidup ke kumpulan umur 5 tahun berikutnya (nSx). Bagi '0', dari kelahiran ke kumpulan umur 0-4; bagi '1-4', dari kumpulan umur 0-4 ke 5-9; bagi '75-79', ke 80+. Tidak berkenaan bagi 80+"
+        },
+        {
+            "name": "person_years_remaining",
+            "title_en": "Total Person-Years Remaining",
+            "title_ms": "Jumlah Tahun-Orang Selepas Umur Tepat",
+            "description_en": "[Integer] Total number of years lived by the cohort from the start of the age group onwards (Tx)",
+            "description_ms": "[Integer] Jumlah bilangan tahun yang dihidupi oleh kohort dari permulaan kumpulan umur dan seterusnya (Tx)"
+        },
+        {
+            "name": "life_expectancy",
+            "title_en": "Life Expectancy",
+            "title_ms": "Jangkaan Hayat",
+            "description_en": "[Float] Average number of further years a person at the start of the age group is expected to live (ex)",
+            "description_ms": "[Apung] Purata bilangan tahun lagi seseorang pada permulaan kumpulan umur dijangka hidup (ex)"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": {
+                    "default": 0,
+                    "columns": {
+                        "prob_death": 5,
+                        "mortality_rate": 5,
+                        "survival_ratio": 5,
+                        "life_expectancy": 2
+                    }
+                },
+                "filter_columns": [
+                    "state",
+                    "sex"
+                ],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Year",
+        "state": "State",
+        "sex": "Sex",
+        "age": "Age Group",
+        "life_expectancy": "Life Expectancy",
+        "both": "Both Sexes",
+        "male": "Male",
+        "female": "Female",
+        "prob_death": "Probability of Dying",
+        "deaths": "Deaths",
+        "mortality_rate": "Central Mortality Rate",
+        "survivors": "Survivors",
+        "person_years": "Person-Years Lived",
+        "survival_ratio": "Survival Ratio",
+        "person_years_remaining": "Total Person-Years Remaining"
+    },
+    "translations_ms": {
+        "date": "Tahun",
+        "state": "Negeri",
+        "sex": "Jantina",
+        "age": "Kumpulan Umur",
+        "life_expectancy": "Jangkaan Hayat",
+        "both": "Kedua-dua Jantina",
+        "male": "Lelaki",
+        "female": "Perempuan",
+        "prob_death": "Kebarangkalian Mati",
+        "deaths": "Kematian",
+        "mortality_rate": "Kadar Tengah Mortaliti",
+        "survivors": "Penakat",
+        "person_years": "Tahun-Orang Dihidupi",
+        "survival_ratio": "Nisbah Ketakatan",
+        "person_years_remaining": "Jumlah Tahun-Orang Selepas Umur Tepat"
+    },
+    "related_datasets": []
+}
