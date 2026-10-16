@@ -1,0 +1,170 @@
+{
+    "title_en": "Life Expectancy by State, Sex, & Ethnicity",
+    "title_ms": "Jangkaan Hayat mengikut Negeri, Jantina & Etnik",
+    "title_sort": 20,
+    "description_en": "Life expectancy at birth by state, sex and ethnic group.",
+    "description_ms": "Jangkaan hayat ketika lahir mengikut negeri, jantina dan kumpulan etnik.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2026",
+    "last_updated": "2026-10-16 18:00",
+    "next_update": "2027-09-30 12:00",
+    "methodology_en": "Life tables are compiled by DOSM from deaths registered with the National Registration Department (JPN) and mid-year population estimates, using the Coale-Demeny (West) model life tables. To smooth out random fluctuations, the final life table for a year uses the average number of deaths in that year and the years immediately before and after it; preliminary figures use an estimate of deaths for the following year, while estimates for the latest year use deaths in that year only. Life expectancy is the average number of years a person is expected to live from a given age, if the age-specific mortality rates of that year were to remain the same throughout their lifetime. Life expectancy at birth is not affected by the age structure of the population.",
+    "methodology_ms": "Jadual hayat disusun oleh DOSM berdasarkan kematian yang didaftarkan dengan Jabatan Pendaftaran Negara (JPN) dan anggaran penduduk pertengahan tahun, menggunakan jadual hayat model Coale-Demeny (West). Bagi mengurangkan turun naik rawak, jadual hayat muktamad bagi sesuatu tahun menggunakan purata bilangan kematian bagi tahun tersebut serta tahun sebelum dan selepasnya; angka permulaan menggunakan anggaran kematian bagi tahun berikutnya, manakala anggaran bagi tahun terkini menggunakan kematian bagi tahun tersebut sahaja. Jangkaan hayat ialah purata bilangan tahun seseorang dijangka hidup dari sesuatu umur, sekiranya kadar kematian mengikut umur bagi tahun tersebut kekal sepanjang hayatnya. Jangkaan hayat ketika lahir tidak dipengaruhi oleh struktur umur penduduk.",
+    "caveat_en": "Figures for citizens and non-citizens are available from 2023 onwards. Figures not published for a group in a state, typically where the population is too small, are omitted.\n\nEach annual release revises the two preceding years: figures for the latest year are estimates and those for the year before are preliminary, and both will be revised in the next release. Every year in this dataset is taken from the most recent release that covers it. Figures from 2020 onwards are based on population estimates from the Population and Housing Census of Malaysia 2020, while figures for 2010-2019 are based on the 2010 Census and will be revised in future.",
+    "caveat_ms": "Angka bagi warganegara dan bukan warganegara tersedia mulai 2023. Angka yang tidak diterbitkan bagi sesuatu kumpulan dalam sesebuah negeri, lazimnya kerana bilangan penduduk yang terlalu kecil, tidak dimasukkan.\n\nSetiap keluaran tahunan menyemak semula dua tahun sebelumnya: angka bagi tahun terkini adalah anggaran dan angka bagi tahun sebelumnya adalah permulaan, dan kedua-duanya akan disemak semula dalam keluaran berikutnya. Setiap tahun dalam set data ini diambil daripada keluaran terkini yang meliputi tahun tersebut. Angka dari 2020 dan seterusnya adalah berdasarkan anggaran penduduk daripada Banci Penduduk dan Perumahan Malaysia 2020, manakala angka bagi 2010-2019 adalah berdasarkan Banci 2010 dan akan disemak semula pada masa hadapan.",
+    "publication_en": "OpenDOSM features a dashboard on [Life Expectancy](https://open.dosm.gov.my/dashboard/life-expectancy) where you can explore this data in a more interactive manner!",
+    "publication_ms": "OpenDOSM memaparkan papan pemuka tentang [Jangkaan Hayat](https://open.dosm.gov.my/ms-MY/dashboard/life-expectancy) yang membolehkan anda menerokai data ini dengan lebih interaktif!",
+    "link_parquet": "https://storage.dosm.gov.my/demography/life_expectancy_state_ethnic.parquet",
+    "link_csv": "https://storage.dosm.gov.my/demography/life_expectancy_state_ethnic.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "STATE"
+    ],
+    "demography": [
+        "SEX",
+        "ETHNICITY"
+    ],
+    "dataset_begin": 2022,
+    "dataset_end": 2026,
+    "data_source": [
+        "JPN",
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "BPPD"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Demography",
+            "category_ms": "Demografi",
+            "category_sort": 1,
+            "subcategory_en": "Life Expectancy",
+            "subcategory_ms": "Jangkaan Hayat",
+            "subcategory_sort": 5
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Demography",
+            "category_ms": "Demografi",
+            "category_sort": 1,
+            "subcategory_en": "Life Expectancy",
+            "subcategory_ms": "Jangkaan Hayat",
+            "subcategory_sort": 5
+        }
+    ],
+    "fields": [
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states",
+            "description_ms": "[Kategori] Satu daripada 16 negeri"
+        },
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
+            "description_ms": "[Kategori] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
+        },
+        {
+            "name": "ethnicity",
+            "title_en": "Ethnicity",
+            "title_ms": "Kumpulan Etnik",
+            "description_en": "[Categorical] One of all persons, including non-citizens ('overall'), all citizens ('citizen'), Bumiputera ('bumi'), Malay ('bumi_malay'), other Bumiputera ('bumi_other'), Chinese ('chinese'), Indian ('indian'), or non-citizens ('noncitizen')",
+            "description_ms": "[Kategori] Salah satu daripada semua penduduk, termasuk bukan warganegara ('overall'), semua warganegara ('citizen'), Bumiputera ('bumi'), Melayu ('bumi_malay'), Bumiputera lain ('bumi_other'), Cina ('chinese'), India ('indian'), atau bukan warganegara ('noncitizen')"
+        },
+        {
+            "name": "life_expectancy",
+            "title_en": "Life Expectancy at Birth",
+            "title_ms": "Jangkaan Hayat Ketika Lahir",
+            "description_en": "[Float] Average number of years a newborn is expected to live",
+            "description_ms": "[Apung] Purata bilangan tahun bayi yang baru lahir dijangka hidup"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 1,
+                "filter_columns": [
+                    "state",
+                    "sex"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "life_expectancy",
+            "title_en": "Life Expectancy at Birth",
+            "title_ms": "Jangkaan Hayat Ketika Lahir",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state",
+                    "sex",
+                    "ethnicity"
+                ],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "life_expectancy"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "y1": "Value",
+        "date": "Year",
+        "state": "State",
+        "sex": "Sex",
+        "ethnicity": "Ethnicity",
+        "life_expectancy": "Life Expectancy",
+        "both": "Both Sexes",
+        "male": "Male",
+        "female": "Female",
+        "overall": "All Persons",
+        "citizen": "All Citizens",
+        "bumi": "Bumiputera",
+        "bumi_malay": "Malay",
+        "bumi_other": "Other Bumiputera",
+        "chinese": "Chinese",
+        "indian": "Indian",
+        "noncitizen": "Non-Citizens"
+    },
+    "translations_ms": {
+        "y1": "Nilai",
+        "date": "Tahun",
+        "state": "Negeri",
+        "sex": "Jantina",
+        "ethnicity": "Kumpulan Etnik",
+        "life_expectancy": "Jangkaan Hayat",
+        "both": "Kedua-dua Jantina",
+        "male": "Lelaki",
+        "female": "Perempuan",
+        "overall": "Semua Penduduk",
+        "citizen": "Semua Warganegara",
+        "bumi": "Bumiputera",
+        "bumi_malay": "Melayu",
+        "bumi_other": "Bumiputera Lain",
+        "chinese": "Cina",
+        "indian": "India",
+        "noncitizen": "Bukan Warganegara"
+    },
+    "related_datasets": []
+}
