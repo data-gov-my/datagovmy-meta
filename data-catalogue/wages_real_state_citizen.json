@@ -1,0 +1,161 @@
+{
+    "title_en": "Real Monthly Salaries & Wages of Citizens by State",
+    "title_ms": "Gaji & Upah Benar Bulanan Warganegara mengikut Negeri",
+    "title_sort": 315,
+    "description_en": "Real median and mean monthly salaries & wages of employees who are Malaysian citizens by state, at 2010 prices.",
+    "description_ms": "Penengah dan purata gaji & upah benar bulanan pekerja warganegara Malaysia mengikut negeri, pada harga 2010.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2025",
+    "last_updated": "2026-09-21 12:00",
+    "next_update": "2027-09-30 12:00",
+    "methodology_en": "This data is produced from the Salaries & Wages Survey (SWS), which DOSM conducts alongside the Labour Force Survey (LFS) through personal interviews with households in private living quarters, covering urban and rural areas in all states.\n\n**Salaries & wages** refer to the monthly wage rate received by employees in the public and private sectors from their principal job in the reference month, comprising:\n- basic wages\n- cost-of-living allowances\n- other guaranteed and regularly paid allowances in cash or in kind\n- overtime payments\n\nThey exclude bonuses, gratuities, family allowances and social security payments made by employers. The statistics cover employees aged 15-64; employers, own-account workers, unpaid family workers, domestic workers employed by households and casual workers are not covered.\n\nReal salaries & wages are nominal salaries & wages adjusted for inflation using the Consumer Price Index (CPI) of each state, and are expressed at 2010 prices: real salaries & wages = nominal salaries & wages x CPI (2010) / CPI (year).",
+    "methodology_ms": "Data ini dihasilkan berdasarkan Survei Gaji & Upah (SGU), yang dijalankan oleh DOSM bersama-sama dengan Survei Tenaga Buruh (STB) melalui temu ramah bersemuka dengan isi rumah di tempat kediaman persendirian, meliputi kawasan bandar dan luar bandar di semua negeri.\n\n**Gaji & upah** merujuk kepada kadar upah bulanan yang diterima oleh pekerja dalam sektor awam dan swasta daripada pekerjaan utama mereka dalam bulan rujukan, merangkumi:\n- gaji pokok\n- elaun sara hidup\n- elaun lain yang dijamin dan dibayar secara tetap dalam bentuk tunai atau barangan\n- bayaran kerja lebih masa\n\nIa tidak termasuk bonus, ganjaran, elaun keluarga dan bayaran keselamatan sosial oleh majikan. Statistik ini meliputi pekerja berumur 15-64 tahun; majikan, pekerja sendiri, pekerja keluarga tanpa gaji, pembantu rumah yang diambil bekerja oleh isi rumah dan pekerja kasual tidak diliputi.\n\nGaji & upah benar ialah gaji & upah nominal yang diselaraskan bagi inflasi menggunakan Indeks Harga Pengguna (IHP) setiap negeri, dan dinyatakan pada harga 2010: gaji & upah benar = gaji & upah nominal x IHP (2010) / IHP (tahun).",
+    "caveat_en": "",
+    "caveat_ms": "",
+    "publication_en": "The [Salaries & Wages Survey Report, 2025](https://open.dosm.gov.my/publications/salaries_wages_2025), the latest edition of the annual salaries & wages statistics published by DOSM.",
+    "publication_ms": "[Laporan Survei Gaji & Upah, 2025](https://open.dosm.gov.my/ms-MY/publications/salaries_wages_2025), edisi terkini bagi statistik gaji & upah tahunan yang diterbitkan oleh DOSM.",
+    "link_parquet": "https://storage.dosm.gov.my/labour/wages_real_state_citizen.parquet",
+    "link_csv": "https://storage.dosm.gov.my/labour/wages_real_state_citizen.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "STATE"
+    ],
+    "demography": [
+        "NATIONALITY"
+    ],
+    "dataset_begin": 2010,
+    "dataset_end": 2025,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "MBLS"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Labour Markets",
+            "category_ms": "Pasaran Buruh",
+            "category_sort": 50,
+            "subcategory_en": "Salaries & Wages",
+            "subcategory_ms": "Gaji & Upah",
+            "subcategory_sort": 20
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Labour Markets",
+            "category_ms": "Pasaran Buruh",
+            "category_sort": 50,
+            "subcategory_en": "Salaries & Wages",
+            "subcategory_ms": "Gaji & Upah",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states, or 'Malaysia' for the national figure",
+            "description_ms": "[Kategori] Satu daripada 16 negeri, atau 'Malaysia' bagi angka nasional"
+        },
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "wages_median_real",
+            "title_en": "Real Median Salaries & Wages",
+            "title_ms": "Penengah Gaji & Upah Benar",
+            "description_en": "[Integer, RM] Median monthly salaries & wages at 2010 prices",
+            "description_ms": "[Integer, RM] Penengah gaji & upah bulanan pada harga 2010"
+        },
+        {
+            "name": "wages_mean_real",
+            "title_en": "Real Mean Salaries & Wages",
+            "title_ms": "Purata Gaji & Upah Benar",
+            "description_en": "[Integer, RM] Mean monthly salaries & wages at 2010 prices",
+            "description_ms": "[Integer, RM] Purata gaji & upah bulanan pada harga 2010"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "state"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "wages_median_real",
+            "title_en": "Real Median Salaries & Wages",
+            "title_ms": "Penengah Gaji & Upah Benar",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "wages_median_real"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "wages_mean_real",
+            "title_en": "Real Mean Salaries & Wages",
+            "title_ms": "Purata Gaji & Upah Benar",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "state"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "wages_mean_real"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "y1": "Value",
+        "date": "Year",
+        "sex": "Sex",
+        "state": "State",
+        "both": "Both Sexes",
+        "male": "Male",
+        "female": "Female",
+        "wages_median_real": "Real Median Salaries & Wages",
+        "wages_mean_real": "Real Mean Salaries & Wages"
+    },
+    "translations_ms": {
+        "y1": "Nilai",
+        "date": "Tahun",
+        "sex": "Jantina",
+        "state": "Negeri",
+        "both": "Kedua-dua Jantina",
+        "male": "Lelaki",
+        "female": "Perempuan",
+        "wages_median_real": "Penengah Gaji & Upah Benar",
+        "wages_mean_real": "Purata Gaji & Upah Benar"
+    },
+    "related_datasets": []
+}

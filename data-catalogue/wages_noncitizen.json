@@ -1,0 +1,214 @@
+{
+    "title_en": "Monthly Salaries & Wages of Non-Citizens by Sex & Strata",
+    "title_ms": "Gaji & Upah Bulanan Bukan Warganegara mengikut Jantina & Strata",
+    "title_sort": 210,
+    "description_en": "Number of recipients, median and mean monthly salaries & wages of employees who are non-citizens, by sex and by strata.",
+    "description_ms": "Bilangan penerima, penengah dan purata gaji & upah bulanan pekerja bukan warganegara, mengikut jantina dan mengikut strata.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2025",
+    "last_updated": "2026-09-21 12:00",
+    "next_update": "2027-09-30 12:00",
+    "methodology_en": "This data is produced from the Salaries & Wages Survey (SWS), which DOSM conducts alongside the Labour Force Survey (LFS) through personal interviews with households in private living quarters, covering urban and rural areas in all states.\n\n**Salaries & wages** refer to the monthly wage rate received by employees in the public and private sectors from their principal job in the reference month, comprising:\n- basic wages\n- cost-of-living allowances\n- other guaranteed and regularly paid allowances in cash or in kind\n- overtime payments\n\nThey exclude bonuses, gratuities, family allowances and social security payments made by employers. The statistics cover employees aged 15-64; employers, own-account workers, unpaid family workers, domestic workers employed by households and casual workers are not covered.",
+    "methodology_ms": "Data ini dihasilkan berdasarkan Survei Gaji & Upah (SGU), yang dijalankan oleh DOSM bersama-sama dengan Survei Tenaga Buruh (STB) melalui temu ramah bersemuka dengan isi rumah di tempat kediaman persendirian, meliputi kawasan bandar dan luar bandar di semua negeri.\n\n**Gaji & upah** merujuk kepada kadar upah bulanan yang diterima oleh pekerja dalam sektor awam dan swasta daripada pekerjaan utama mereka dalam bulan rujukan, merangkumi:\n- gaji pokok\n- elaun sara hidup\n- elaun lain yang dijamin dan dibayar secara tetap dalam bentuk tunai atau barangan\n- bayaran kerja lebih masa\n\nIa tidak termasuk bonus, ganjaran, elaun keluarga dan bayaran keselamatan sosial oleh majikan. Statistik ini meliputi pekerja berumur 15-64 tahun; majikan, pekerja sendiri, pekerja keluarga tanpa gaji, pembantu rumah yang diambil bekerja oleh isi rumah dan pekerja kasual tidak diliputi.",
+    "caveat_en": "",
+    "caveat_ms": "",
+    "publication_en": "The [Salaries & Wages Survey Report, 2025](https://open.dosm.gov.my/publications/salaries_wages_2025), the latest edition of the annual salaries & wages statistics published by DOSM.",
+    "publication_ms": "[Laporan Survei Gaji & Upah, 2025](https://open.dosm.gov.my/ms-MY/publications/salaries_wages_2025), edisi terkini bagi statistik gaji & upah tahunan yang diterbitkan oleh DOSM.",
+    "link_parquet": "https://storage.dosm.gov.my/labour/wages_noncitizen.parquet",
+    "link_csv": "https://storage.dosm.gov.my/labour/wages_noncitizen.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [
+        "SEX",
+        "NATIONALITY"
+    ],
+    "dataset_begin": 2010,
+    "dataset_end": 2025,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "MBLS"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Labour Markets",
+            "category_ms": "Pasaran Buruh",
+            "category_sort": 50,
+            "subcategory_en": "Salaries & Wages",
+            "subcategory_ms": "Gaji & Upah",
+            "subcategory_sort": 20
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Labour Markets",
+            "category_ms": "Pasaran Buruh",
+            "category_sort": 50,
+            "subcategory_en": "Salaries & Wages",
+            "subcategory_ms": "Gaji & Upah",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
+            "description_ms": "[Kategori] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
+        },
+        {
+            "name": "strata",
+            "title_en": "Strata",
+            "title_ms": "Strata",
+            "description_en": "[Categorical] Either both strata ('overall'), urban ('urban') or rural ('rural')",
+            "description_ms": "[Kategori] Sama ada kedua-dua strata ('overall'), bandar ('urban') atau luar bandar ('rural')"
+        },
+        {
+            "name": "recipients",
+            "title_en": "Recipients",
+            "title_ms": "Penerima",
+            "description_en": "[Float] Number of salaries & wages recipients, in thousands",
+            "description_ms": "[Apung] Bilangan penerima gaji & upah, dalam ribu"
+        },
+        {
+            "name": "wages_median",
+            "title_en": "Median Salaries & Wages",
+            "title_ms": "Penengah Gaji & Upah",
+            "description_en": "[Integer, RM] Median monthly salaries & wages; half of employees earn less than this amount",
+            "description_ms": "[Integer, RM] Penengah gaji & upah bulanan; separuh daripada pekerja memperoleh kurang daripada jumlah ini"
+        },
+        {
+            "name": "wages_mean",
+            "title_en": "Mean Salaries & Wages",
+            "title_ms": "Purata Gaji & Upah",
+            "description_en": "[Integer, RM] Mean monthly salaries & wages, i.e. total salaries & wages divided by the number of recipients",
+            "description_ms": "[Integer, RM] Purata gaji & upah bulanan, iaitu jumlah gaji & upah dibahagi dengan bilangan penerima"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": {
+                    "default": 0,
+                    "columns": {
+                        "recipients": 1
+                    }
+                },
+                "filter_columns": [
+                    "strata",
+                    "sex"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "wages_median",
+            "title_en": "Median Salaries & Wages",
+            "title_ms": "Penengah Gaji & Upah",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "strata",
+                    "sex"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "wages_median"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "wages_mean",
+            "title_en": "Mean Salaries & Wages",
+            "title_ms": "Purata Gaji & Upah",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "strata",
+                    "sex"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "wages_mean"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "recipients",
+            "title_en": "Recipients",
+            "title_ms": "Penerima",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "strata",
+                    "sex"
+                ],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "recipients"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "y1": "Value",
+        "date": "Year",
+        "sex": "Sex",
+        "state": "State",
+        "both": "Both Sexes",
+        "male": "Male",
+        "female": "Female",
+        "recipients": "Recipients",
+        "wages_median": "Median Salaries & Wages",
+        "wages_mean": "Mean Salaries & Wages",
+        "strata": "Strata",
+        "overall": "Overall",
+        "urban": "Urban",
+        "rural": "Rural"
+    },
+    "translations_ms": {
+        "y1": "Nilai",
+        "date": "Tahun",
+        "sex": "Jantina",
+        "state": "Negeri",
+        "both": "Kedua-dua Jantina",
+        "male": "Lelaki",
+        "female": "Perempuan",
+        "recipients": "Penerima",
+        "wages_median": "Penengah Gaji & Upah",
+        "wages_mean": "Purata Gaji & Upah",
+        "strata": "Strata",
+        "overall": "Keseluruhan",
+        "urban": "Bandar",
+        "rural": "Luar Bandar"
+    },
+    "related_datasets": []
+}
