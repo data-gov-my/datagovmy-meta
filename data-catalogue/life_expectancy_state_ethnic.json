@@ -141,8 +141,8 @@
         "overall": "All Persons",
         "citizen": "All Citizens",
         "bumi": "Bumiputera",
-        "bumi_malay": "Malay",
-        "bumi_other": "Other Bumiputera",
+        "bumi-malay": "Malay",
+        "bumi-other": "Other Bumiputera",
         "chinese": "Chinese",
         "indian": "Indian",
         "noncitizen": "Non-Citizens"
@@ -160,8 +160,8 @@
         "overall": "Semua Penduduk",
         "citizen": "Semua Warganegara",
         "bumi": "Bumiputera",
-        "bumi_malay": "Melayu",
-        "bumi_other": "Bumiputera Lain",
+        "bumi-malay": "Melayu",
+        "bumi-other": "Bumiputera Lain",
         "chinese": "Cina",
         "indian": "India",
         "noncitizen": "Bukan Warganegara"
