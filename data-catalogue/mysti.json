@@ -21,7 +21,7 @@
   "demography": [],
   "dataset_begin": 2023,
   "dataset_end": 2026,
-  "data_source": "MOSTI",
+  "data_source": ["MOSTI"],
   "caveat_en": "The accuracy and completeness of the information are subject to the records provided by the data owner. Users are advised to consult the data owner for further verification should any discrepancies arise or if clarification regarding the displayed information is required.",
   "caveat_ms": "Ketepatan dan kelengkapan maklumat adalah tertakluk kepada rekod yang disediakan oleh pemilik data. Pengguna disarankan merujuk kepada pihak pemilik data bagi mendapatkan pengesahan lanjut sekiranya terdapat percanggahan atau keperluan penjelasan terhadap maklumat yang dipaparkan.",
   "publication_en": "N/A",
