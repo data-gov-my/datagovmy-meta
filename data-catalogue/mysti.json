@@ -137,8 +137,7 @@
           "tahun"
         ],
         "freeze_columns": [
-          "tahun",
-          "nama"
+          "tahun"
         ]
       }
     }
