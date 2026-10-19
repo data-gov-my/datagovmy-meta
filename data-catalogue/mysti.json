@@ -134,12 +134,7 @@
       "config": {
         "precision": 0,
         "filter_columns": [
-          "tahun",
-          "negeri",
-          "produk/servis",
-          "kategori",
-          "sektor",
-          "teknologi"
+          "tahun"
         ],
         "freeze_columns": [
           "tahun",
