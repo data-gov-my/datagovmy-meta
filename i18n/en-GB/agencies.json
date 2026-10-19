@@ -251,6 +251,10 @@
         "unhcr": {
             "full": "United Nations High Commissioner for Refugees",
             "abbr": "UNHCR"
+        },
+         "mosti": {
+                    "full": "Ministry of Science, Technology and Innovation",
+                    "abbr": "MOSTI"
         }
     }
 }
