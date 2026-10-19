@@ -11,7 +11,7 @@
   "next_update": "N/A",
   "methodology_en": "This data is generated through the collection and organization of information regarding products and services that have been awarded the MySTI logo. The recorded information includes the year the MySTI logo was awarded, the name of the product or service, company name, state, category, sector, technology field, and intellectual property details. The data is collected and organized into a structured database to facilitate the storage, management, monitoring, and reporting of the MySTI program.",
   "methodology_ms": "Data ini dijana melalui proses pengumpulan dan penyusunan maklumat berkaitan produk dan perkhidmatan yang menerima penandaan logo MySTI. Maklumat yang direkodkan merangkumi tahun penerimaan penandaan logo MySTI, nama produk atau perkhidmatan, nama syarikat, negeri, kategori, sektor, bidang teknologi serta maklumat harta intelek. Data dikumpulkan dan disusun dalam pangkalan data berstruktur bagi tujuan penyimpanan, pengurusan, pemantauan dan pelaporan berkaitan program MySTI.",
-  "link_parquet": "https://storage.data.gov.my/mysti/mcy_award.csv",
+  "link_parquet": "https://storage.data.gov.my/mysti/mcy_award.parquet",
   "link_csv": "https://storage.data.gov.my/mysti/mcy_award.csv",
   "frequency": "",
   "geography": [
