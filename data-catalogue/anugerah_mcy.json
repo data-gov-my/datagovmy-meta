@@ -6,7 +6,7 @@
   "description_ms": "Dataset Pemenang Anugerah Malaysia Commercialisation Year (MCY) mengandungi maklumat berkaitan individu, syarikat, organisasi atau produk yang menerima pengiktirafan dalam Anugerah MCY. Maklumat ini bertujuan mendokumentasikan pencapaian dalam pengkomersialan hasil penyelidikan dan inovasi, termasuk maklumat pemenang, tahun penganugerahan serta kategori anugerah yang berkaitan, tertakluk kepada maklumat yang direkodkan oleh pemilik data.",
   "exclude_openapi": false,
   "manual_trigger": "",
-  "data_as_of": "2026-09-23",
+  "data_as_of": "2026",
   "last_updated": "2026-09-30",
   "next_update": "N/A",
   "methodology_en": "This data is generated through the collection and organization of information regarding products and services that have been awarded the MySTI logo. The recorded information includes the year the MySTI logo was awarded, the name of the product or service, company name, state, category, sector, technology field, and intellectual property details. The data is collected and organized into a structured database to facilitate the storage, management, monitoring, and reporting of the MySTI program.",
