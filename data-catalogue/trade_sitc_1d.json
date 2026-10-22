@@ -5,8 +5,8 @@
     "description_en": "Monthly exports and imports by SITC commodity sections.",
     "description_ms": "Eksport dan import bulanan mengikut seksyen komoditi SITC.",
     "exclude_openapi": false,
-    "manual_trigger": "2026-10-09 13:41:44.177895",
-    "data_as_of": "2026-08",
+    "manual_trigger": "2026-10-20 06:32:42.945365",
+    "data_as_of": "2026-09",
     "last_updated": "2026-09-28 12:30",
     "next_update": "2026-10-28 12:30",
     "methodology_en": "This dataset presents monthly trade in goods, broken down by SITC section. The SITC classification is a widely used international system for classifying traded goods and services. For a full description of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/trade-technotes).",
@@ -22,7 +22,7 @@
         "NATIONAL"
     ],
     "demography": [],
-    "dataset_begin": 2000,
+    "dataset_begin": 1990,
     "dataset_end": 2026,
     "data_source": [
         "DOSM"
