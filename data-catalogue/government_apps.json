@@ -55,6 +55,13 @@
             "description_ms": "[Rentetan] Nama rasmi aplikasi mudah alih kerajaan."
         },
         {
+            "name": "agency",
+            "title_en": "Agency",
+            "title_ms": "Agensi",
+            "description_en": "[String] Abbreviated name of the government agency that owns the application, as shown on GAMMA.",
+            "description_ms": "[Rentetan] Singkatan nama agensi kerajaan yang memiliki aplikasi, seperti yang dipaparkan di GAMMA."
+        },
+        {
             "name": "app_os_platform",
             "title_en": "Operating System Platform",
             "title_ms": "Platform Sistem Operasi",
