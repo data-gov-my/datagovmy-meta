@@ -16,7 +16,7 @@
     "select_origin": "Pilih Permulaan",
     "select_destination": "Pilih Destinasi",
     "all_stations": "Semua Stesen",
-    "ridership": "Penumpang: {{ from }} → {{ to }}",
+    "ridership": "Penggunaan: {{ from }} → {{ to }}",
     "this_month": "Bulan Ini ({{ date }})",
     "range_1m": "1 Bulan",
     "range_6m": "6 Bulan",
