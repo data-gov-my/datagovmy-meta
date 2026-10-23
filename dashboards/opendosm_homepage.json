@@ -1,11 +1,11 @@
 {
     "dashboard_name": "opendosm_homepage",
-    "data_last_updated": "2026-10-23 00:01",
+    "data_last_updated": "2026-10-23 22:52",
     "route": "/,/ms-MY/",
     "sites": [
         "opendosm"
     ],
-    "manual_trigger": "2026-10-23 07:29:31.608682",
+    "manual_trigger": "2026-10-23 22:52:56.599319",
     "required_params": [],
     "optional_params": [],
     "charts": {
