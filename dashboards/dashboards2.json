@@ -6,7 +6,7 @@
         "datagovmy",
         "opendosm"
     ],
-    "manual_trigger": "2026-10-23 23:00:00.987518",
+    "manual_trigger": "2026-10-23 23:59:59.793876",
     "required_params": [],
     "optional_params": [],
     "charts": {
