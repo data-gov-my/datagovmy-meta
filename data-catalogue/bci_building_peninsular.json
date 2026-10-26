@@ -37,8 +37,8 @@
             "category_en": "Prices",
             "category_ms": "Harga",
             "category_sort": 70,
-            "subcategory_en": "Building Material Costs",
-            "subcategory_ms": "Harga Bahan Binaan",
+            "subcategory_en": "Construction Prices",
+            "subcategory_ms": "Harga Pembinaan",
             "subcategory_sort": 40
         },
         {
@@ -46,8 +46,8 @@
             "category_en": "Prices",
             "category_ms": "Harga",
             "category_sort": 70,
-            "subcategory_en": "Building Material Costs",
-            "subcategory_ms": "Harga Bahan Binaan",
+            "subcategory_en": "Construction Prices",
+            "subcategory_ms": "Harga Pembinaan",
             "subcategory_sort": 40
         }
     ],
@@ -138,7 +138,13 @@
         "rc-5-storey-office": "5 storey and above R.C. building (for office)",
         "timber-building": "Timber building",
         "timber-piling": "Timber piling",
-        "rc-piling": "R.C. piling"
+        "rc-piling": "R.C. piling",
+        "penang-kedah-perlis": "Penang, Kedah & Perlis",
+        "perak": "Perak",
+        "selangor-kuala-lumpur-melaka-negeri-sembilan": "Selangor, Kuala Lumpur, Melaka & Negeri Sembilan",
+        "johor": "Johor",
+        "pahang": "Pahang",
+        "kelantan-terengganu": "Kelantan & Terengganu"
     },
     "translations_ms": {
         "date": "Tarikh",
@@ -153,6 +159,12 @@
         "rc-5-storey-office": "Bangunan K.T. 5 tingkat dan lebih (untuk pejabat)",
         "timber-building": "Bangunan kayu",
         "timber-piling": "Cerucuk kayu",
-        "rc-piling": "Cerucuk K.T."
+        "rc-piling": "Cerucuk K.T.",
+        "penang-kedah-perlis": "Pulau Pinang, Kedah & Perlis",
+        "perak": "Perak",
+        "selangor-kuala-lumpur-melaka-negeri-sembilan": "Selangor, Kuala Lumpur, Melaka & Negeri Sembilan",
+        "johor": "Johor",
+        "pahang": "Pahang",
+        "kelantan-terengganu": "Kelantan & Terengganu"
     }
 }

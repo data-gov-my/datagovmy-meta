@@ -1,6 +1,6 @@
 {
-    "title_en": "Average Prices of Civil Engineering Materials: Peninsular Malaysia",
-    "title_ms": "Harga Purata Bahan Kejuruteraan Awam: Semenanjung Malaysia",
+    "title_en": "Civil Engineering Materials Prices: Peninsular Malaysia",
+    "title_ms": "Harga Bahan Kejuruteraan Awam: Semenanjung Malaysia",
     "title_sort": 30,
     "description_en": "Monthly average unit prices of civil engineering materials for Peninsular Malaysia, by item and region.",
     "description_ms": "Harga unit purata bulanan bagi bahan kejuruteraan awam bagi Semenanjung Malaysia, mengikut item dan kawasan.",
@@ -37,8 +37,8 @@
             "category_en": "Prices",
             "category_ms": "Harga",
             "category_sort": 70,
-            "subcategory_en": "Building Material Costs",
-            "subcategory_ms": "Harga Bahan Binaan",
+            "subcategory_en": "Construction Prices",
+            "subcategory_ms": "Harga Pembinaan",
             "subcategory_sort": 40
         },
         {
@@ -46,8 +46,8 @@
             "category_en": "Prices",
             "category_ms": "Harga",
             "category_sort": 70,
-            "subcategory_en": "Building Material Costs",
-            "subcategory_ms": "Harga Bahan Binaan",
+            "subcategory_en": "Construction Prices",
+            "subcategory_ms": "Harga Pembinaan",
             "subcategory_sort": 40
         }
     ],
@@ -207,6 +207,10 @@
         "sewer-pipe-concrete-sacrificial-900mm": "Sewerage pipe: reinforced concrete, with lining (sacrificial lining), 900mm",
         "sewer-pipe-abs-gravity-110mm": "Sewerage pipe: ABS, gravity, 110mm",
         "sewer-pipe-abs-force-main-225mm": "Sewerage pipe: ABS, force main, 225mm",
+        "north": "North",
+        "central": "Central",
+        "east": "East",
+        "peninsular-malaysia": "Peninsular Malaysia",
         "RM per tonne": "RM per tonne",
         "RM per 50kg bag": "RM per 50kg bag",
         "RM per litre": "RM per litre",
@@ -296,6 +300,10 @@
         "sewer-pipe-concrete-sacrificial-900mm": "Paip pembetungan: konkrit bertetulang, berpelapik (pelapik korban), 900mm",
         "sewer-pipe-abs-gravity-110mm": "Paip pembetungan: ABS, graviti, 110mm",
         "sewer-pipe-abs-force-main-225mm": "Paip pembetungan: ABS, paip utama tekanan, 225mm",
+        "north": "Utara",
+        "central": "Tengah",
+        "east": "Timur",
+        "peninsular-malaysia": "Semenanjung Malaysia",
         "RM per tonne": "RM per tan metrik",
         "RM per 50kg bag": "RM sekampit 50kg",
         "RM per litre": "RM seliter",

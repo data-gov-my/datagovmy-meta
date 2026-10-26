@@ -1,5 +1,5 @@
 {
-    "title_en": "Unit Price Index of Building Materials: Peninsular Malaysia",
+    "title_en": "Building Materials Unit Price Index: Peninsular Malaysia",
     "title_ms": "Indeks Harga Seunit Bahan Binaan: Semenanjung Malaysia",
     "title_sort": 20,
     "description_en": "Monthly unit price index of building materials for Peninsular Malaysia, by material and region.",
@@ -37,8 +37,8 @@
             "category_en": "Prices",
             "category_ms": "Harga",
             "category_sort": 70,
-            "subcategory_en": "Building Material Costs",
-            "subcategory_ms": "Harga Bahan Binaan",
+            "subcategory_en": "Construction Prices",
+            "subcategory_ms": "Harga Pembinaan",
             "subcategory_sort": 40
         },
         {
@@ -46,8 +46,8 @@
             "category_en": "Prices",
             "category_ms": "Harga",
             "category_sort": 70,
-            "subcategory_en": "Building Material Costs",
-            "subcategory_ms": "Harga Bahan Binaan",
+            "subcategory_en": "Construction Prices",
+            "subcategory_ms": "Harga Pembinaan",
             "subcategory_sort": 40
         }
     ],
@@ -146,7 +146,14 @@
         "angles-equal": "Structural steel: equal angles",
         "angles-unequal": "Structural steel: unequal angles",
         "channels-u": "Structural steel: 'U' channels",
-        "channels-lipped": "Structural steel: lipped channels"
+        "channels-lipped": "Structural steel: lipped channels",
+        "penang-kedah-perlis": "Penang, Kedah & Perlis",
+        "perak": "Perak",
+        "selangor-kuala-lumpur-melaka-negeri-sembilan": "Selangor, Kuala Lumpur, Melaka & Negeri Sembilan",
+        "johor": "Johor",
+        "pahang": "Pahang",
+        "kelantan-terengganu": "Kelantan & Terengganu",
+        "selangor-kuala-lumpur": "Selangor & Kuala Lumpur"
     },
     "translations_ms": {
         "date": "Tarikh",
@@ -177,6 +184,13 @@
         "angles-equal": "Keluli struktur: sesiku sama",
         "angles-unequal": "Keluli struktur: sesiku tak sama",
         "channels-u": "Keluli struktur: sesalur 'U'",
-        "channels-lipped": "Keluli struktur: sesalur bibir"
+        "channels-lipped": "Keluli struktur: sesalur bibir",
+        "penang-kedah-perlis": "Pulau Pinang, Kedah & Perlis",
+        "perak": "Perak",
+        "selangor-kuala-lumpur-melaka-negeri-sembilan": "Selangor, Kuala Lumpur, Melaka & Negeri Sembilan",
+        "johor": "Johor",
+        "pahang": "Pahang",
+        "kelantan-terengganu": "Kelantan & Terengganu",
+        "selangor-kuala-lumpur": "Selangor & Kuala Lumpur"
     }
 }

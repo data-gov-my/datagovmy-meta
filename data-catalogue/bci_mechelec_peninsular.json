@@ -1,6 +1,6 @@
 {
-    "title_en": "Unit Price Index of Mechanical & Electrical Items: Peninsular Malaysia",
-    "title_ms": "Indeks Harga Seunit Item Mekanikal & Elektrik: Semenanjung Malaysia",
+    "title_en": "Mechanical & Electrical Unit Price Index: Peninsular Malaysia",
+    "title_ms": "Indeks Harga Seunit Mekanikal & Elektrik: Semenanjung Malaysia",
     "title_sort": 40,
     "description_en": "Monthly unit price index of mechanical and electrical items for Peninsular Malaysia.",
     "description_ms": "Indeks harga seunit bulanan bagi item mekanikal dan elektrik bagi Semenanjung Malaysia.",
@@ -37,8 +37,8 @@
             "category_en": "Prices",
             "category_ms": "Harga",
             "category_sort": 70,
-            "subcategory_en": "Building Material Costs",
-            "subcategory_ms": "Harga Bahan Binaan",
+            "subcategory_en": "Construction Prices",
+            "subcategory_ms": "Harga Pembinaan",
             "subcategory_sort": 40
         },
         {
@@ -46,8 +46,8 @@
             "category_en": "Prices",
             "category_ms": "Harga",
             "category_sort": 70,
-            "subcategory_en": "Building Material Costs",
-            "subcategory_ms": "Harga Bahan Binaan",
+            "subcategory_en": "Construction Prices",
+            "subcategory_ms": "Harga Pembinaan",
             "subcategory_sort": 40
         }
     ],

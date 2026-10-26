@@ -1,5 +1,5 @@
 {
-    "title_en": "Unit Price Index of Building Materials: Sabah & Sarawak",
+    "title_en": "Building Materials Unit Price Index: Sabah & Sarawak",
     "title_ms": "Indeks Harga Seunit Bahan Binaan: Sabah & Sarawak",
     "title_sort": 25,
     "description_en": "Monthly unit price index of building materials for Sabah & Sarawak, by material and region.",
@@ -37,8 +37,8 @@
             "category_en": "Prices",
             "category_ms": "Harga",
             "category_sort": 70,
-            "subcategory_en": "Building Material Costs",
-            "subcategory_ms": "Harga Bahan Binaan",
+            "subcategory_en": "Construction Prices",
+            "subcategory_ms": "Harga Pembinaan",
             "subcategory_sort": 40
         },
         {
@@ -46,8 +46,8 @@
             "category_en": "Prices",
             "category_ms": "Harga",
             "category_sort": 70,
-            "subcategory_en": "Building Material Costs",
-            "subcategory_ms": "Harga Bahan Binaan",
+            "subcategory_en": "Construction Prices",
+            "subcategory_ms": "Harga Pembinaan",
             "subcategory_sort": 40
         }
     ],
@@ -137,7 +137,13 @@
         "glass": "Glass",
         "paints": "Paints",
         "plywood": "Plywood",
-        "ready-mix-concrete": "Ready-mix concrete"
+        "ready-mix-concrete": "Ready-mix concrete",
+        "kota-kinabalu": "Kota Kinabalu",
+        "sandakan": "Sandakan",
+        "tawau": "Tawau",
+        "kuching": "Kuching",
+        "sibu": "Sibu",
+        "miri": "Miri"
     },
     "translations_ms": {
         "date": "Tarikh",
@@ -159,6 +165,12 @@
         "glass": "Kaca",
         "paints": "Cat",
         "plywood": "Papan lapis",
-        "ready-mix-concrete": "Konkrit sedia bancuh"
+        "ready-mix-concrete": "Konkrit sedia bancuh",
+        "kota-kinabalu": "Kota Kinabalu",
+        "sandakan": "Sandakan",
+        "tawau": "Tawau",
+        "kuching": "Kuching",
+        "sibu": "Sibu",
+        "miri": "Miri"
     }
 }
