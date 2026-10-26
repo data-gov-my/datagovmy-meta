@@ -5,7 +5,7 @@
     "description_en": "Monthly unit value and volume indices of exports and imports, and the terms of trade, by SITC section.",
     "description_ms": "Indeks nilai seunit dan indeks volum eksport dan import bulanan, serta terma perdagangan, mengikut seksyen SITC.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "2026-10-26 23:29:35.742077",
     "data_as_of": "2026-08",
     "last_updated": "2026-09-28 12:30",
     "next_update": "2026-10-28 12:30",
