@@ -1,0 +1,271 @@
+{
+    "title_en": "Annual Trade Indices by SITC Section",
+    "title_ms": "Indeks Perdagangan Tahunan mengikut Seksyen SITC",
+    "title_sort": 115,
+    "description_en": "Annual unit value and volume indices of exports and imports, and the terms of trade, by SITC section.",
+    "description_ms": "Indeks nilai seunit dan indeks volum eksport dan import tahunan, serta terma perdagangan, mengikut seksyen SITC.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2025",
+    "last_updated": "2026-09-28 12:30",
+    "next_update": "2026-10-28 12:30",
+    "methodology_en": "Conceptually, a unit value index measures changes in the average price of exported or imported goods, while a volume index measures changes in their quantity. The terms of trade is the ratio of the export unit value index to the import unit value index, multiplied by 100; a value above 100 means that export prices have risen relative to import prices since 2010.\n\nMalaysia's external trade indices are compiled from external trade statistics, which are processed mainly from customs declarations. Unit value indices (Laspeyres indices weighted by the value of trade in 2015, chain-linked in December 2018 to keep the reference year 2010 = 100) are calculated for between 80-90% of the value of exports and imports in 2015. Volume indices (Paasche indices) are derived by deflating the value of exports and imports by the corresponding unit value index. Exports are valued free on board (f.o.b.) and imports at cost, insurance and freight (c.i.f.). Lumpy imports such as aircraft and ships are excluded, as are items traded in fewer than seven months of the year. All indices are published for the 10 sections of the Standard International Trade Classification (SITC Rev. 4). Annual indices are computed from the monthly series.",
+    "methodology_ms": "Secara konsep, indeks nilai seunit mengukur perubahan harga purata barangan yang dieksport atau diimport, manakala indeks volum mengukur perubahan kuantitinya. Terma perdagangan ialah nisbah indeks nilai seunit eksport kepada indeks nilai seunit import, didarab dengan 100; nilai melebihi 100 bermaksud harga eksport telah meningkat berbanding harga import sejak 2010.\n\nIndeks perdagangan luar negeri Malaysia disusun daripada perangkaan perdagangan luar negeri, yang sebahagian besarnya diproses daripada borang pengikraran kastam. Indeks nilai seunit (indeks Laspeyres berwajaran nilai perdagangan tahun 2015, dirantai pada Disember 2018 untuk mengekalkan tahun rujukan 2010 = 100) dikira bagi antara 80-90% daripada nilai eksport dan import tahun 2015. Indeks volum (indeks Paasche) diperoleh dengan mendeflasikan nilai eksport dan import menggunakan indeks nilai seunit yang berkaitan. Eksport dinilai pada harga free on board (f.o.b.) dan import pada kos, insurans dan tambang (c.i.f.). Import lumpy seperti kapal terbang dan kapal dikecualikan, begitu juga barangan yang didagangkan kurang daripada tujuh bulan dalam setahun. Semua indeks diterbitkan bagi 10 seksyen Klasifikasi Perdagangan Antarabangsa Piawai (SITC Rev. 4). Indeks tahunan dikira berdasarkan siri bulanan.",
+    "caveat_en": "",
+    "caveat_ms": "",
+    "publication_en": "[External Trade Indices, Aug 2026](https://open.dosm.gov.my/publications/tradeindices_2026-08), the latest edition of the monthly trade indices published by DOSM. OpenDOSM also features a [dashboard on trade](https://open.dosm.gov.my/dashboard/external-trade).",
+    "publication_ms": "[Indeks Perdagangan Luar Negeri, Ogo 2026](https://open.dosm.gov.my/ms-MY/publications/tradeindices_2026-08), edisi terkini bagi indeks perdagangan bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan](https://open.dosm.gov.my/ms-MY/dashboard/external-trade).",
+    "link_parquet": "https://storage.dosm.gov.my/trade/tradeidx_annual.parquet",
+    "link_csv": "https://storage.dosm.gov.my/trade/tradeidx_annual.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2010,
+    "dataset_end": 2025,
+    "data_source": [
+        "DOSM"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "External Trade",
+            "subcategory_ms": "Perdagangan Luar",
+            "subcategory_sort": 40
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "External Trade",
+            "subcategory_ms": "Perdagangan Luar",
+            "subcategory_sort": 40
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "section",
+            "title_en": "SITC Section",
+            "title_ms": "Seksyen SITC",
+            "description_en": "[String] 1-digit SITC code, or 'overall' for all goods, to be matched using the 'section' column in the [SITC Lookup](https://open.dosm.gov.my/data-catalogue/sitc). The SITC lookup table will give you the English and Malay definitions.",
+            "description_ms": "[Rentetan] Kod SITC 1 digit, atau 'overall' bagi semua barangan, yang perlu dipadankan dengan medan 'section' dalam [Jadual SITC](https://open.dosm.gov.my/ms-MY/data-catalogue/sitc). Padanan tersebut akan membolehkan anda mendapat keterangan dalam Bahasa Inggeris dan Bahasa Melayu."
+        },
+        {
+            "name": "exports_unit_value",
+            "title_en": "Export Unit Value",
+            "title_ms": "Nilai Seunit Eksport",
+            "description_en": "[Float] Index of the unit value of exports with base 2010 = 100",
+            "description_ms": "[Apung] Indeks nilai seunit eksport dengan asas 2010 = 100"
+        },
+        {
+            "name": "exports_volume",
+            "title_en": "Export Volume",
+            "title_ms": "Volum Eksport",
+            "description_en": "[Float] Index of the volume of exports with base 2010 = 100",
+            "description_ms": "[Apung] Indeks volum eksport dengan asas 2010 = 100"
+        },
+        {
+            "name": "imports_unit_value",
+            "title_en": "Import Unit Value",
+            "title_ms": "Nilai Seunit Import",
+            "description_en": "[Float] Index of the unit value of imports with base 2010 = 100",
+            "description_ms": "[Apung] Indeks nilai seunit import dengan asas 2010 = 100"
+        },
+        {
+            "name": "imports_volume",
+            "title_en": "Import Volume",
+            "title_ms": "Volum Import",
+            "description_en": "[Float] Index of the volume of imports with base 2010 = 100",
+            "description_ms": "[Apung] Indeks volum import dengan asas 2010 = 100"
+        },
+        {
+            "name": "terms_of_trade",
+            "title_en": "Terms of Trade",
+            "title_ms": "Terma Perdagangan",
+            "description_en": "[Float] Index of the terms of trade with base 2010 = 100",
+            "description_ms": "[Apung] Indeks terma perdagangan dengan asas 2010 = 100"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 1,
+                "filter_columns": [
+                    "section"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "exports_unit_value",
+            "title_en": "Export Unit Value",
+            "title_ms": "Nilai Seunit Eksport",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "section"
+                ],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "exports_unit_value"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "exports_volume",
+            "title_en": "Export Volume",
+            "title_ms": "Volum Eksport",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "section"
+                ],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "exports_volume"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "imports_unit_value",
+            "title_en": "Import Unit Value",
+            "title_ms": "Nilai Seunit Import",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "section"
+                ],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "imports_unit_value"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "imports_volume",
+            "title_en": "Import Volume",
+            "title_ms": "Volum Import",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "section"
+                ],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "imports_volume"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "terms_of_trade",
+            "title_en": "Terms of Trade",
+            "title_ms": "Terma Perdagangan",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "section"
+                ],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "terms_of_trade"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "x": "Date",
+        "y1": "Index (2010 = 100)",
+        "date": "Date",
+        "section": "SITC Section",
+        "exports_unit_value": "Export Unit Value",
+        "exports_volume": "Export Volume",
+        "imports_unit_value": "Import Unit Value",
+        "imports_volume": "Import Volume",
+        "terms_of_trade": "Terms of Trade",
+        "0": "Food & Live Animals",
+        "1": "Beverages & Tobacco",
+        "2": "Crude Materials, Inedible, Except Fuels",
+        "3": "Mineral Fuels, Lubricants & Related Materials",
+        "4": "Animal and Vegetable Oils, Fats & Waxes",
+        "5": "Chemicals & Related Products N.E.C.",
+        "6": "Manufactured Goods Classified Chiefly by Material",
+        "7": "Machinery & Transport Equipment",
+        "8": "Miscellaneous Manufactured Articles",
+        "9": "Other Commodities & Transactions N.E.C.",
+        "overall": "Overall"
+    },
+    "translations_ms": {
+        "x": "Tarikh",
+        "y1": "Indeks (2010 = 100)",
+        "date": "Tarikh",
+        "section": "Seksyen SITC",
+        "exports_unit_value": "Nilai Seunit Eksport",
+        "exports_volume": "Volum Eksport",
+        "imports_unit_value": "Nilai Seunit Import",
+        "imports_volume": "Volum Import",
+        "terms_of_trade": "Terma Perdagangan",
+        "0": "Makanan & Binatang Hidup",
+        "1": "Minuman & Tembakau",
+        "2": "Bahan Mentah tidak boleh Dimakan, Kecuali Bahan Api",
+        "3": "Bahan Api Galian, Pelincir & Bahan Berkaitan",
+        "4": "Minyak, Lemak dan Minyak Tepu Binatang & Sayuran",
+        "5": "Bahan Kimia & Keluaran Berkaitan T.T.T.L.",
+        "6": "Barang-Barang Keluaran Kilang Mengikut Jenis Bahan",
+        "7": "Jentera & Kelengkapan Pengangkutan",
+        "8": "Pelbagai Barang Keluaran Kilang",
+        "9": "Urus Niaga & Barangan Lain T.T.T.L.",
+        "overall": "Keseluruhan"
+    },
+    "related_datasets": [
+        {
+            "id": "tradeidx",
+            "title_en": "Monthly Trade Indices by SITC Section",
+            "title_ms": "Indeks Perdagangan Bulanan mengikut Seksyen SITC",
+            "description_en": "Monthly unit value and volume indices of exports and imports, and the terms of trade, by SITC section.",
+            "description_ms": "Indeks nilai seunit dan indeks volum eksport dan import bulanan, serta terma perdagangan, mengikut seksyen SITC."
+        },
+        {
+            "id": "tradeidx_sa",
+            "title_en": "Monthly Trade Volume Indices (Seasonally Adjusted)",
+            "title_ms": "Indeks Volum Perdagangan Bulanan (Terlaras Musim)",
+            "description_en": "Monthly seasonally adjusted volume indices of total exports and imports.",
+            "description_ms": "Indeks volum eksport dan import keseluruhan bulanan yang terlaras secara musim."
+        }
+    ]
+}
