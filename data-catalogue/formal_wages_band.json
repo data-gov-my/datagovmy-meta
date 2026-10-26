@@ -1,0 +1,155 @@
+{
+    "title_en": "Monthly Formal Sector Employees by Wage Band",
+    "title_ms": "Pekerja Sektor Formal Bulanan mengikut Julat Upah",
+    "title_sort": 430,
+    "description_en": "Number of formal employees who are Malaysian citizens by monthly wage band.",
+    "description_ms": "Bilangan pekerja formal warganegara Malaysia mengikut julat upah bulanan.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2026-03",
+    "last_updated": "2026-07-29 12:00",
+    "next_update": "2026-10-27 13:00",
+    "methodology_en": "Conceptually, formal employees are persons who work under a contract of service or apprenticeship with an employer and receive remuneration for the work done. Non-standard employment, such as the self-employed, gig workers, own-account workers and unpaid family workers, is not covered.\n\nConsequently, data on formal sector wages is compiled from administrative records, primarily the mandatory retirement savings contributions to the Employees Provident Fund (EPF) and social security contributions to the Social Security Organisation (SOCSO).",
+    "methodology_ms": "Secara konsep, pekerja formal ialah individu yang bekerja di bawah kontrak perkhidmatan atau perantisan dengan majikan dan menerima saraan bagi kerja yang dilakukan. Pekerjaan bukan standard, seperti bekerja sendiri, pekerja gig, pekerja akaun sendiri dan pekerja keluarga tanpa gaji, tidak diliputi.\n\nOleh itu, data upah sektor formal disusun daripada rekod pentadbiran, terutamanya caruman wajib simpanan persaraan kepada Kumpulan Wang Simpanan Pekerja (KWSP) dan caruman keselamatan sosial kepada Pertubuhan Keselamatan Sosial (PERKESO).",
+    "caveat_en": "The most recent 15 months of data are subject to revision if more complete contribution data are received. Employee numbers are rounded to the nearest hundred until December 2025.",
+    "caveat_ms": "Data bagi 15 bulan terkini tertakluk kepada semakan sekiranya data caruman yang lebih lengkap diterima. Bilangan pekerja dibundarkan kepada ratus terdekat sehingga Disember 2025.",
+    "publication_en": "The [Employee Wages Statistics (Formal Sector) Report, First Quarter 2026](https://open.dosm.gov.my/publications/formal_wages_2026-q1), the latest edition of the quarterly formal sector wages statistics published by DOSM.",
+    "publication_ms": "[Laporan Statistik Upah Pekerja (Sektor Formal), Suku Tahun Pertama 2026](https://open.dosm.gov.my/ms-MY/publications/formal_wages_2026-q1), edisi terkini bagi statistik upah sektor formal suku tahunan yang diterbitkan oleh DOSM.",
+    "link_parquet": "https://storage.dosm.gov.my/labour/formal_wages_band.parquet",
+    "link_csv": "https://storage.dosm.gov.my/labour/formal_wages_band.csv",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2022,
+    "dataset_end": 2026,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "MBLS"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Labour Markets",
+            "category_ms": "Pasaran Buruh",
+            "category_sort": 50,
+            "subcategory_en": "Salaries & Wages",
+            "subcategory_ms": "Gaji & Upah",
+            "subcategory_sort": 20
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Labour Markets",
+            "category_ms": "Pasaran Buruh",
+            "category_sort": 50,
+            "subcategory_en": "Salaries & Wages",
+            "subcategory_ms": "Gaji & Upah",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01 since the data is at monthly frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD ditetapkan sebagai 01 kerana data berfrekuensi bulanan"
+        },
+        {
+            "name": "band",
+            "title_en": "Wage Band",
+            "title_ms": "Julat Upah",
+            "description_en": "[Categorical] Monthly wage below RM2,000 ('below_2000'), RM1,000-wide bands from '2000-2999' to '14000-14999', or RM15,000 and above ('15000_above'). Wages refer to all remuneration in money paid to employees in the reference month, including bonuses, commissions and allowances. They exclude service charges, overtime payments, gratuities, retirement benefits, retrenchment or termination benefits and travelling allowances. Wages are recorded on an accrual basis, i.e. in the month the work was done, regardless of when payment was made. For an employee with more than one job, wages from all jobs are summed.",
+            "description_ms": "[Kategori] Upah bulanan bawah RM2,000 ('below_2000'), julat RM1,000 dari '2000-2999' hingga '14000-14999', atau RM15,000 dan ke atas ('15000_above'). Upah merujuk kepada semua saraan dalam bentuk wang yang dibayar kepada pekerja dalam bulan rujukan, termasuk bonus, komisen dan elaun. Ia tidak termasuk caj perkhidmatan, bayaran kerja lebih masa, ganjaran, faedah persaraan, faedah pemberhentian atau penamatan kerja dan elaun perjalanan. Upah direkodkan mengikut asas akruan, iaitu pada bulan kerja dilakukan, tanpa mengira bila bayaran dibuat. Bagi pekerja yang mempunyai lebih daripada satu pekerjaan, upah daripada semua pekerjaan dijumlahkan."
+        },
+        {
+            "name": "employees",
+            "title_en": "Employees",
+            "title_ms": "Pekerja",
+            "description_en": "[Integer] Number of formal employees; an employee with more than one job is counted once",
+            "description_ms": "[Integer] Bilangan pekerja formal; pekerja yang mempunyai lebih daripada satu pekerjaan dikira sekali"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "band"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "employees",
+            "title_en": "Employees",
+            "title_ms": "Pekerja",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "band"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "employees"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "y1": "Value",
+        "date": "Month",
+        "employees": "Employees",
+        "wages_median": "Median Wage",
+        "band": "Wage Band",
+        "below_2000": "Below RM2,000",
+        "15000_above": "RM15,000 & Above",
+        "2000-2999": "RM2,000 - RM2,999",
+        "3000-3999": "RM3,000 - RM3,999",
+        "4000-4999": "RM4,000 - RM4,999",
+        "5000-5999": "RM5,000 - RM5,999",
+        "6000-6999": "RM6,000 - RM6,999",
+        "7000-7999": "RM7,000 - RM7,999",
+        "8000-8999": "RM8,000 - RM8,999",
+        "9000-9999": "RM9,000 - RM9,999",
+        "10000-10999": "RM10,000 - RM10,999",
+        "11000-11999": "RM11,000 - RM11,999",
+        "12000-12999": "RM12,000 - RM12,999",
+        "13000-13999": "RM13,000 - RM13,999",
+        "14000-14999": "RM14,000 - RM14,999"
+    },
+    "translations_ms": {
+        "y1": "Nilai",
+        "date": "Bulan",
+        "employees": "Pekerja",
+        "wages_median": "Penengah Upah",
+        "band": "Julat Upah",
+        "below_2000": "Bawah RM2,000",
+        "15000_above": "RM15,000 & Ke Atas",
+        "2000-2999": "RM2,000 - RM2,999",
+        "3000-3999": "RM3,000 - RM3,999",
+        "4000-4999": "RM4,000 - RM4,999",
+        "5000-5999": "RM5,000 - RM5,999",
+        "6000-6999": "RM6,000 - RM6,999",
+        "7000-7999": "RM7,000 - RM7,999",
+        "8000-8999": "RM8,000 - RM8,999",
+        "9000-9999": "RM9,000 - RM9,999",
+        "10000-10999": "RM10,000 - RM10,999",
+        "11000-11999": "RM11,000 - RM11,999",
+        "12000-12999": "RM12,000 - RM12,999",
+        "13000-13999": "RM13,000 - RM13,999",
+        "14000-14999": "RM14,000 - RM14,999"
+    },
+    "related_datasets": []
+}
