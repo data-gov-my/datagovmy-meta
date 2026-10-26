@@ -1,0 +1,209 @@
+{
+    "title_en": "Monthly Formal Sector Wages by Economic Activity",
+    "title_ms": "Gaji Sektor Formal Bulanan mengikut Aktiviti Ekonomi",
+    "title_sort": 415,
+    "description_en": "Number of formal employees and median monthly wages of employees who are Malaysian citizens by economic sector and sub-sector.",
+    "description_ms": "Bilangan pekerja formal dan penengah upah bulanan pekerja warganegara Malaysia mengikut sektor dan subsektor ekonomi.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2026-03",
+    "last_updated": "2026-07-29 12:00",
+    "next_update": "2026-10-27 13:00",
+    "methodology_en": "Conceptually, formal employees are persons who work under a contract of service or apprenticeship with an employer and receive remuneration for the work done. Non-standard employment, such as the self-employed, gig workers, own-account workers and unpaid family workers, is not covered.\n\nConsequently, data on formal sector wages is compiled from administrative records, primarily the mandatory retirement savings contributions to the Employees Provident Fund (EPF) and social security contributions to the Social Security Organisation (SOCSO).",
+    "methodology_ms": "Secara konsep, pekerja formal ialah individu yang bekerja di bawah kontrak perkhidmatan atau perantisan dengan majikan dan menerima saraan bagi kerja yang dilakukan. Pekerjaan bukan standard, seperti bekerja sendiri, pekerja gig, pekerja akaun sendiri dan pekerja keluarga tanpa gaji, tidak diliputi.\n\nOleh itu, data upah sektor formal disusun daripada rekod pentadbiran, terutamanya caruman wajib simpanan persaraan kepada Kumpulan Wang Simpanan Pekerja (KWSP) dan caruman keselamatan sosial kepada Pertubuhan Keselamatan Sosial (PERKESO).",
+    "caveat_en": "The most recent 15 months of data are subject to revision if more complete contribution data are received. Employee numbers are rounded to the nearest hundred until December 2024. Median wages are not available for unclassified employees.",
+    "caveat_ms": "Data bagi 15 bulan terkini tertakluk kepada semakan sekiranya data caruman yang lebih lengkap diterima. Bilangan pekerja dibundarkan kepada ratus terdekat sehingga Disember 2024. Penengah upah tidak tersedia bagi pekerja tidak dikelaskan.",
+    "publication_en": "The [Employee Wages Statistics (Formal Sector) Report, First Quarter 2026](https://open.dosm.gov.my/publications/formal_wages_2026-q1), the latest edition of the quarterly formal sector wages statistics published by DOSM.",
+    "publication_ms": "[Laporan Statistik Upah Pekerja (Sektor Formal), Suku Tahun Pertama 2026](https://open.dosm.gov.my/ms-MY/publications/formal_wages_2026-q1), edisi terkini bagi statistik upah sektor formal suku tahunan yang diterbitkan oleh DOSM.",
+    "link_parquet": "https://storage.dosm.gov.my/labour/formal_wages_msic.parquet",
+    "link_csv": "https://storage.dosm.gov.my/labour/formal_wages_msic.csv",
+    "frequency": "MONTHLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2022,
+    "dataset_end": 2026,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "MBLS"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Labour Markets",
+            "category_ms": "Pasaran Buruh",
+            "category_sort": 50,
+            "subcategory_en": "Salaries & Wages",
+            "subcategory_ms": "Gaji & Upah",
+            "subcategory_sort": 20
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Labour Markets",
+            "category_ms": "Pasaran Buruh",
+            "category_sort": 50,
+            "subcategory_en": "Salaries & Wages",
+            "subcategory_ms": "Gaji & Upah",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01 since the data is at monthly frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD ditetapkan sebagai 01 kerana data berfrekuensi bulanan"
+        },
+        {
+            "name": "sector",
+            "title_en": "Sector",
+            "title_ms": "Sektor",
+            "description_en": "[Categorical] Economic sector, classified according to the Malaysia Standard Industrial Classification (MSIC) 2008: all sectors ('overall'), agriculture ('agriculture'), mining and quarrying ('mining'), manufacturing ('manufacturing'), construction ('construction'), services ('services') or unclassified ('unclassified'). Unclassified employees are those whose economic activity cannot be determined",
+            "description_ms": "[Kategori] Sektor ekonomi, dikelaskan mengikut Piawaian Klasifikasi Industri Malaysia (MSIC) 2008: semua sektor ('overall'), pertanian ('agriculture'), perlombongan dan pengkuarian ('mining'), pembuatan ('manufacturing'), pembinaan ('construction'), perkhidmatan ('services') atau tidak dikelaskan ('unclassified'). Pekerja tidak dikelaskan ialah pekerja yang aktiviti ekonominya tidak dapat ditentukan"
+        },
+        {
+            "name": "industry",
+            "title_en": "Sub-sector",
+            "title_ms": "Subsektor",
+            "description_en": "[Categorical] Sub-sector, grouping MSIC 2008 activities: the whole sector ('overall'), or one of 8 sub-sectors of manufacturing ('food', 'beverages_tobacco', 'textiles_apparel', 'wood_paper', 'petroleum_chemical', 'minerals_metals', 'electrical_electronic', 'transport_other') or of services ('utilities', 'wholesale_retail', 'food_accommodation', 'transport_storage', 'info_comm', 'finance_insurance', 'realestate_business', 'other')",
+            "description_ms": "[Kategori] Subsektor, mengumpulkan aktiviti MSIC 2008: keseluruhan sektor ('overall'), atau salah satu daripada 8 subsektor pembuatan ('food', 'beverages_tobacco', 'textiles_apparel', 'wood_paper', 'petroleum_chemical', 'minerals_metals', 'electrical_electronic', 'transport_other') atau perkhidmatan ('utilities', 'wholesale_retail', 'food_accommodation', 'transport_storage', 'info_comm', 'finance_insurance', 'realestate_business', 'other')"
+        },
+        {
+            "name": "employees",
+            "title_en": "Employees",
+            "title_ms": "Pekerja",
+            "description_en": "[Integer] Number of formal employees; an employee with more than one job is counted once",
+            "description_ms": "[Integer] Bilangan pekerja formal; pekerja yang mempunyai lebih daripada satu pekerjaan dikira sekali"
+        },
+        {
+            "name": "wages_median",
+            "title_en": "Median Wage",
+            "title_ms": "Penengah Upah",
+            "description_en": "[Integer, RM] Median monthly wage; half of formal employees earn less than this amount. Wages refer to all remuneration in money paid to employees in the reference month, including bonuses, commissions and allowances. They exclude service charges, overtime payments, gratuities, retirement benefits, retrenchment or termination benefits and travelling allowances. Wages are recorded on an accrual basis, i.e. in the month the work was done, regardless of when payment was made. For an employee with more than one job, wages from all jobs are summed.",
+            "description_ms": "[Integer, RM] Penengah upah bulanan; separuh daripada pekerja formal memperoleh kurang daripada jumlah ini. Upah merujuk kepada semua saraan dalam bentuk wang yang dibayar kepada pekerja dalam bulan rujukan, termasuk bonus, komisen dan elaun. Ia tidak termasuk caj perkhidmatan, bayaran kerja lebih masa, ganjaran, faedah persaraan, faedah pemberhentian atau penamatan kerja dan elaun perjalanan. Upah direkodkan mengikut asas akruan, iaitu pada bulan kerja dilakukan, tanpa mengira bila bayaran dibuat. Bagi pekerja yang mempunyai lebih daripada satu pekerjaan, upah daripada semua pekerjaan dijumlahkan."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "sector",
+                    "industry"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "employees",
+            "title_en": "Employees",
+            "title_ms": "Pekerja",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "sector",
+                    "industry"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "employees"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "wages_median",
+            "title_en": "Median Wage",
+            "title_ms": "Penengah Upah",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "sector",
+                    "industry"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "wages_median"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "y1": "Value",
+        "date": "Month",
+        "employees": "Employees",
+        "wages_median": "Median Wage",
+        "sector": "Sector",
+        "agriculture": "Agriculture",
+        "mining": "Mining & Quarrying",
+        "manufacturing": "Manufacturing",
+        "construction": "Construction",
+        "services": "Services",
+        "unclassified": "Unclassified",
+        "industry": "Sub-sector",
+        "food": "Vegetable & Animal Oils & Fats and Food Processing",
+        "beverages_tobacco": "Beverages & Tobacco Products",
+        "textiles_apparel": "Textiles, Wearing Apparel & Leather Products",
+        "wood_paper": "Wood Products, Furniture, Paper Products & Printing",
+        "petroleum_chemical": "Petroleum, Chemical, Rubber & Plastic Products",
+        "minerals_metals": "Non-Metallic Mineral Products, Basic Metal & Fabricated Metal Products",
+        "electrical_electronic": "Electrical, Electronic & Optical Products",
+        "transport_other": "Transport Equipment, Other Manufacturing & Repair",
+        "utilities": "Utilities",
+        "wholesale_retail": "Wholesale & Retail Trade",
+        "food_accommodation": "Food & Beverages and Accommodation",
+        "transport_storage": "Transportation & Storage",
+        "info_comm": "Information & Communication",
+        "finance_insurance": "Finance & Insurance",
+        "realestate_business": "Real Estate & Business Services",
+        "other": "Other Services",
+        "overall": "Overall"
+    },
+    "translations_ms": {
+        "y1": "Nilai",
+        "date": "Bulan",
+        "employees": "Pekerja",
+        "wages_median": "Penengah Upah",
+        "sector": "Sektor",
+        "agriculture": "Pertanian",
+        "mining": "Perlombongan & Pengkuarian",
+        "manufacturing": "Pembuatan",
+        "construction": "Pembinaan",
+        "services": "Perkhidmatan",
+        "unclassified": "Tidak Dikelaskan",
+        "industry": "Subsektor",
+        "food": "Minyak & Lemak daripada Sayuran & Haiwan dan Pemprosesan Makanan",
+        "beverages_tobacco": "Minuman & Produk Tembakau",
+        "textiles_apparel": "Produk Tekstil, Pakaian & Kulit",
+        "wood_paper": "Produk Kayu, Perabot, Keluaran Kertas & Percetakan",
+        "petroleum_chemical": "Produk Petroleum, Kimia, Getah & Plastik",
+        "minerals_metals": "Produk Mineral Bukan Logam, Logam Asas & Produk Logam Fabrikasi",
+        "electrical_electronic": "Produk Elektrik, Elektronik & Optikal",
+        "transport_other": "Peralatan Pengangkutan, Pembuatan Lain & Pembaikan",
+        "utilities": "Utiliti",
+        "wholesale_retail": "Perdagangan Borong & Runcit",
+        "food_accommodation": "Makanan & Minuman dan Penginapan",
+        "transport_storage": "Pengangkutan & Penyimpanan",
+        "info_comm": "Maklumat & Komunikasi",
+        "finance_insurance": "Kewangan & Insurans",
+        "realestate_business": "Hartanah & Perkhidmatan Perniagaan",
+        "other": "Perkhidmatan Lain",
+        "overall": "Keseluruhan"
+    },
+    "related_datasets": []
+}
