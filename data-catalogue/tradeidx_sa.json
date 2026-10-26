@@ -5,7 +5,7 @@
     "description_en": "Monthly seasonally adjusted volume indices of total exports and imports.",
     "description_ms": "Indeks volum eksport dan import keseluruhan bulanan yang terlaras secara musim.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "2026-10-26 23:29:35.746419",
     "data_as_of": "2025-12",
     "last_updated": "2026-09-28 12:30",
     "next_update": "2026-10-28 12:30",
