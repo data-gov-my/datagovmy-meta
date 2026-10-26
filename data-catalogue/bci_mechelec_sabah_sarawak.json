@@ -1,0 +1,190 @@
+{
+    "title_en": "Unit Price Index of Mechanical & Electrical Items: Sabah & Sarawak",
+    "title_ms": "Indeks Harga Seunit Item Mekanikal & Elektrik: Sabah & Sarawak",
+    "title_sort": 45,
+    "description_en": "Monthly unit price index of mechanical and electrical items for Sabah & Sarawak.",
+    "description_ms": "Indeks harga seunit bulanan bagi item mekanikal dan elektrik bagi Sabah & Sarawak.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2026-09",
+    "last_updated": "2026-10-12 12:00",
+    "next_update": "2026-11-10 12:00",
+    "methodology_en": "This data shows unit price indices for the mechanical and electrical components of building works: copper cables, switchgears, transformers, generators, lightning protection and earthing systems, air conditioning systems and pumpsets. The specifications are set by the Public Works Department (JKR) and the Construction Industry Development Board (CIDB). Prices for electrical components are collected every month; prices for other components are obtained from suppliers. The index is the reference for price variation in government contracts. Prices are reported for Sabah and Sarawak separately, except air conditioning systems and pumpsets, which are priced for Sabah and Sarawak together. It is on base January 2023 = 100, and is available from January 2023.",
+    "methodology_ms": "Data ini menunjukkan indeks harga seunit bagi komponen mekanikal dan elektrik dalam kerja-kerja bangunan: kabel kuprum, suis gear, transformer, penjana, sistem perlindungan kilat dan pembumian, sistem penyaman udara dan set pam. Spesifikasi ditetapkan oleh Jabatan Kerja Raya (JKR) dan Lembaga Pembangunan Industri Pembinaan Malaysia (CIDB). Harga bagi komponen elektrik dipungut setiap bulan; harga bagi komponen lain diperoleh daripada pembekal. Indeks ini menjadi rujukan bagi perubahan harga dalam kontrak kerajaan. Harga dilaporkan bagi Sabah dan Sarawak secara berasingan, kecuali sistem penyaman udara dan set pam, yang dicerap bagi Sabah dan Sarawak secara bersama. Ia berasaskan Januari 2023 = 100, dan tersedia bermula Januari 2023.",
+    "caveat_en": "The specifications of busducts, hermetically sealed transformers, generators, air conditioning systems and pumpsets are under review, so their indices may remain unchanged for long periods. Data for the most recent 12 months may be revised in subsequent releases.",
+    "caveat_ms": "Spesifikasi bagi salur bas, transformer kedap hermetik, penjana, sistem penyaman udara dan set pam sedang dikaji semula, maka indeks bagi item tersebut mungkin kekal tidak berubah untuk tempoh yang panjang. Data bagi 12 bulan terkini mungkin disemak semula dalam penerbitan berikutnya.",
+    "publication_en": "[Building Materials Cost Index, Sep 2026](https://open.dosm.gov.my/publications/bc_2026-09), the latest edition of the monthly building materials cost statistics published by DOSM.",
+    "publication_ms": "[Indeks Kos Bahan Binaan, Sep 2026](https://open.dosm.gov.my/ms-MY/publications/bc_2026-09), edisi terkini bagi statistik kos bahan binaan bulanan yang diterbitkan oleh DOSM.",
+    "link_parquet": "https://storage.dosm.gov.my/bci/bci_mechelec_sabah_sarawak.parquet",
+    "link_csv": "https://storage.dosm.gov.my/bci/bci_mechelec_sabah_sarawak.csv",
+    "link_preview": "https://storage.dosm.gov.my/bci/bci_mechelec_sabah_sarawak.parquet",
+    "frequency": "MONTHLY",
+    "geography": [
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2023,
+    "dataset_end": 2026,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "BPHPP"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Prices",
+            "category_ms": "Harga",
+            "category_sort": 70,
+            "subcategory_en": "Building Material Costs",
+            "subcategory_ms": "Harga Bahan Binaan",
+            "subcategory_sort": 40
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Prices",
+            "category_ms": "Harga",
+            "category_sort": 70,
+            "subcategory_en": "Building Material Costs",
+            "subcategory_ms": "Harga Bahan Binaan",
+            "subcategory_sort": 40
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01 as the data is at monthly frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01 kerana data berfrekuensi bulanan"
+        },
+        {
+            "name": "item",
+            "title_en": "Item",
+            "title_ms": "Item",
+            "description_en": "[String] Mechanical or electrical item, e.g. 'cables_conduit', 'switchgears_above_1kv'; the full list of items is in the table",
+            "description_ms": "[Rentetan] Item mekanikal atau elektrik, contohnya 'cables_conduit', 'switchgears_above_1kv'; senarai penuh item terdapat dalam jadual"
+        },
+        {
+            "name": "region",
+            "title_en": "Region",
+            "title_ms": "Kawasan",
+            "description_en": "[String] Region, one of 'Sabah', 'Sarawak', 'Sabah & Sarawak'; air conditioning systems and pumpsets are priced for Sabah & Sarawak together",
+            "description_ms": "[Rentetan] Kawasan, salah satu daripada 'Sabah', 'Sarawak', 'Sabah & Sarawak'; sistem penyaman udara dan set pam dicerap bagi Sabah & Sarawak secara bersama"
+        },
+        {
+            "name": "index",
+            "title_en": "Index",
+            "title_ms": "Indeks",
+            "description_en": "[Float] Unit price index of the item (January 2023 = 100)",
+            "description_ms": "[Float] Indeks harga seunit bagi item tersebut (Januari 2023 = 100)"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 1,
+                "filter_columns": [
+                    "item",
+                    "region"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "timeseries",
+            "title_en": "Index",
+            "title_ms": "Indeks",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "item",
+                    "region"
+                ],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "index"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "item": "Item",
+        "region": "Region",
+        "index": "Index",
+        "cables-conduit": "Copper cables: concealed/surface wiring in conduit (per unit point)",
+        "cables-trunking": "Copper cables: cables in trunking (per metre run)",
+        "cables-underground-120mm-above": "Copper cables: laid underground, 120 sq. mm and above (per metre run)",
+        "cables-underground-below-120mm": "Copper cables: laid underground, below 120 sq. mm (per metre run)",
+        "cables-tray-120mm-above": "Copper cables: on tray/ladder, 120 sq. mm and above (per metre run)",
+        "cables-tray-below-120mm": "Copper cables: on tray/ladder, below 120 sq. mm (per metre run)",
+        "busduct": "Copper cables: busduct",
+        "switchgears-above-1kv": "Switchgears (above 1kV)",
+        "lv-switchboards-600a-above": "LV switchboards (incomer breaker 600A and above)",
+        "lv-switchboards-below-600a": "LV switchboards and sub-switchboards (incomer breaker below 600A)",
+        "distribution-boards": "TPN & SPN distribution boards (incomer breaker 100A and below) and feeder pillars",
+        "transformer-cast-resin": "Cast resin transformer",
+        "transformer-hermetically-sealed": "Hermetically sealed (oil-filled) transformer",
+        "generator-above-500kva": "Generator sets, above 500kVA",
+        "generator-500kva-below": "Generator sets, 500kVA and below",
+        "lightning-protection": "Lightning protection system",
+        "earthing-switchgears": "Earthing system for switchgears (above 1kV), transformers, LV switchboards and sub-switchboards, and generator sets",
+        "earthing-distribution-boards": "Earthing system for distribution boards and others",
+        "chiller-water-cooled": "Air conditioning: water cooled chiller",
+        "chiller-air-cooled": "Air conditioning: air cooled chiller",
+        "package-water-cooled": "Air conditioning: water cooled package",
+        "package-air-cooled": "Air conditioning: air cooled package",
+        "split-wall-mounted": "Air conditioning: split unit, wall mounted",
+        "split-ceiling-cassette": "Air conditioning: split unit, ceiling cassette mounted",
+        "vrv-indoor": "Air conditioning: VRV system, indoor",
+        "vrv-outdoor": "Air conditioning: VRV system, outdoor",
+        "pump-condenser-water": "Motor (pumpset): condenser water pump",
+        "pump-chilled-water": "Motor (pumpset): chilled water pump",
+        "pump-hose-reel": "Motor (pumpset): hose reel pump"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "item": "Item",
+        "region": "Kawasan",
+        "index": "Indeks",
+        "cables-conduit": "Kabel kuprum: pendawaian tersembunyi/permukaan dalam konduit (setiap titik)",
+        "cables-trunking": "Kabel kuprum: kabel dalam trunking (setiap meter)",
+        "cables-underground-120mm-above": "Kabel kuprum: ditanam di bawah tanah, 120 mm persegi dan ke atas (setiap meter)",
+        "cables-underground-below-120mm": "Kabel kuprum: ditanam di bawah tanah, bawah 120 mm persegi (setiap meter)",
+        "cables-tray-120mm-above": "Kabel kuprum: atas dulang/tangga, 120 mm persegi dan ke atas (setiap meter)",
+        "cables-tray-below-120mm": "Kabel kuprum: atas dulang/tangga, bawah 120 mm persegi (setiap meter)",
+        "busduct": "Kabel kuprum: busduct",
+        "switchgears-above-1kv": "Suis gear (melebihi 1kV)",
+        "lv-switchboards-600a-above": "Papan suis voltan rendah (pemutus masuk 600A dan ke atas)",
+        "lv-switchboards-below-600a": "Papan suis dan sub-papan suis voltan rendah (pemutus masuk bawah 600A)",
+        "distribution-boards": "Papan agihan TPN & SPN (pemutus masuk 100A dan ke bawah) dan tiang penyuap",
+        "transformer-cast-resin": "Transformer resin tuang",
+        "transformer-hermetically-sealed": "Transformer kedap hermetik (berisi minyak)",
+        "generator-above-500kva": "Set penjana, melebihi 500kVA",
+        "generator-500kva-below": "Set penjana, 500kVA dan ke bawah",
+        "lightning-protection": "Sistem perlindungan kilat",
+        "earthing-switchgears": "Sistem pembumian bagi suis gear (melebihi 1kV), transformer, papan suis dan sub-papan suis voltan rendah, dan set penjana",
+        "earthing-distribution-boards": "Sistem pembumian bagi papan agihan dan lain-lain",
+        "chiller-water-cooled": "Penyaman udara: penyejuk (chiller) disejukkan air",
+        "chiller-air-cooled": "Penyaman udara: penyejuk (chiller) disejukkan udara",
+        "package-water-cooled": "Penyaman udara: unit pakej disejukkan air",
+        "package-air-cooled": "Penyaman udara: unit pakej disejukkan udara",
+        "split-wall-mounted": "Penyaman udara: unit pisah, lekap dinding",
+        "split-ceiling-cassette": "Penyaman udara: unit pisah, kaset siling",
+        "vrv-indoor": "Penyaman udara: sistem VRV, unit dalaman",
+        "vrv-outdoor": "Penyaman udara: sistem VRV, unit luaran",
+        "pump-condenser-water": "Motor (set pam): pam air pemeluwap",
+        "pump-chilled-water": "Motor (set pam): pam air dingin",
+        "pump-hose-reel": "Motor (set pam): pam gelung hos"
+    }
+}

@@ -1,0 +1,182 @@
+{
+    "title_en": "Unit Price Index of Building Materials: Peninsular Malaysia",
+    "title_ms": "Indeks Harga Seunit Bahan Binaan: Semenanjung Malaysia",
+    "title_sort": 20,
+    "description_en": "Monthly unit price index of building materials for Peninsular Malaysia, by material and region.",
+    "description_ms": "Indeks harga seunit bahan binaan bulanan bagi Semenanjung Malaysia, mengikut bahan dan kawasan.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2026-09",
+    "last_updated": "2026-10-12 12:00",
+    "next_update": "2026-11-10 12:00",
+    "methodology_en": "The unit price index measures the change in the price of each of the building materials that make up the Building Materials Cost Index, using the same monthly price collection, and its specifications are set by the Public Works Department (JKR). Structural steel sections ('sheet_piles_u' to 'channels_lipped') are priced for Selangor & Kuala Lumpur only. Peninsular Malaysia is divided into 6 regions: Penang, Kedah & Perlis; Perak; Selangor, Kuala Lumpur, Melaka & Negeri Sembilan; Johor; Pahang; and Kelantan & Terengganu.\n\nIndices before January 2023 were compiled on earlier base periods, each with its own material specifications and weights. To provide a continuous series, they are linked to the January 2023=100 base at the reference month of each later base, so the month-on-month and year-on-year changes within each base period are unchanged. The base periods and the months they cover are:\n- July 2008=100: July 2008 to June 2012\n- July 2012=100: July 2012 to June 2017\n- July 2017=100: July 2017 to December 2022\n- January 2023=100: January 2023 onwards\n\nA series that was introduced with a later base starts in that base's first month.",
+    "methodology_ms": "Indeks harga seunit mengukur perubahan harga setiap bahan binaan yang membentuk Indeks Kos Bahan Binaan, menggunakan pungutan harga bulanan yang sama, dan spesifikasinya ditetapkan oleh Jabatan Kerja Raya (JKR). Keratan keluli struktur ('sheet_piles_u' hingga 'channels_lipped') dicerap bagi Selangor & Kuala Lumpur sahaja. Semenanjung Malaysia dibahagikan kepada 6 kawasan: Pulau Pinang, Kedah & Perlis; Perak; Selangor, Kuala Lumpur, Melaka & Negeri Sembilan; Johor; Pahang; serta Kelantan & Terengganu.\n\nIndeks sebelum Januari 2023 dihasilkan berdasarkan tempoh asas yang terdahulu, setiap satunya dengan spesifikasi bahan dan pemberat tersendiri. Bagi menghasilkan siri yang berterusan, indeks tersebut dirantaikan kepada asas Januari 2023=100 pada bulan rujukan bagi setiap asas berikutnya, maka perubahan bulan ke bulan dan tahun ke tahun dalam setiap tempoh asas kekal tidak berubah. Tempoh asas dan bulan yang diliputi adalah seperti berikut:\n- Julai 2008=100: Julai 2008 hingga Jun 2012\n- Julai 2012=100: Julai 2012 hingga Jun 2017\n- Julai 2017=100: Julai 2017 hingga Disember 2022\n- Januari 2023=100: Januari 2023 dan seterusnya\n\nSiri yang diperkenalkan dengan asas yang kemudian bermula pada bulan pertama asas tersebut.",
+    "caveat_en": "Data for the most recent 12 months may be revised in subsequent releases.",
+    "caveat_ms": "Data bagi 12 bulan terkini mungkin disemak semula dalam penerbitan berikutnya.",
+    "publication_en": "[Building Materials Cost Index, Sep 2026](https://open.dosm.gov.my/publications/bc_2026-09), the latest edition of the monthly building materials cost statistics published by DOSM.",
+    "publication_ms": "[Indeks Kos Bahan Binaan, Sep 2026](https://open.dosm.gov.my/ms-MY/publications/bc_2026-09), edisi terkini bagi statistik kos bahan binaan bulanan yang diterbitkan oleh DOSM.",
+    "link_parquet": "https://storage.dosm.gov.my/bci/bci_materials_peninsular.parquet",
+    "link_csv": "https://storage.dosm.gov.my/bci/bci_materials_peninsular.csv",
+    "link_preview": "https://storage.dosm.gov.my/bci/bci_materials_peninsular.parquet",
+    "frequency": "MONTHLY",
+    "geography": [
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2008,
+    "dataset_end": 2026,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "BPHPP"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Prices",
+            "category_ms": "Harga",
+            "category_sort": 70,
+            "subcategory_en": "Building Material Costs",
+            "subcategory_ms": "Harga Bahan Binaan",
+            "subcategory_sort": 40
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Prices",
+            "category_ms": "Harga",
+            "category_sort": 70,
+            "subcategory_en": "Building Material Costs",
+            "subcategory_ms": "Harga Bahan Binaan",
+            "subcategory_sort": 40
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01 as the data is at monthly frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01 kerana data berfrekuensi bulanan"
+        },
+        {
+            "name": "material",
+            "title_en": "Material",
+            "title_ms": "Bahan",
+            "description_en": "[String] Building material, e.g. 'cement', 'steel', 'sand'; the full list of materials is in the table",
+            "description_ms": "[Rentetan] Bahan binaan, contohnya 'cement', 'steel', 'sand'; senarai penuh bahan terdapat dalam jadual"
+        },
+        {
+            "name": "region",
+            "title_en": "Region",
+            "title_ms": "Kawasan",
+            "description_en": "[String] Region, one of 'Penang, Kedah & Perlis', 'Perak', 'Selangor, Kuala Lumpur, Melaka & Negeri Sembilan', 'Johor', 'Pahang', 'Kelantan & Terengganu', 'Selangor & Kuala Lumpur'",
+            "description_ms": "[Rentetan] Kawasan, salah satu daripada 'Penang, Kedah & Perlis', 'Perak', 'Selangor, Kuala Lumpur, Melaka & Negeri Sembilan', 'Johor', 'Pahang', 'Kelantan & Terengganu', 'Selangor & Kuala Lumpur'"
+        },
+        {
+            "name": "index",
+            "title_en": "Index",
+            "title_ms": "Indeks",
+            "description_en": "[Float] Unit price index of the material (January 2023 = 100)",
+            "description_ms": "[Float] Indeks harga seunit bagi bahan tersebut (Januari 2023 = 100)"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 1,
+                "filter_columns": [
+                    "material",
+                    "region"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "timeseries",
+            "title_en": "Index",
+            "title_ms": "Indeks",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "material",
+                    "region"
+                ],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "index"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "material": "Material",
+        "region": "Region",
+        "index": "Index",
+        "cement": "Cement",
+        "steel": "Steel",
+        "aggregates": "Aggregates",
+        "sand": "Sand",
+        "bricks-wall": "Bricks & wall",
+        "timber": "Timber",
+        "roofing": "Roofing materials",
+        "ceiling": "Ceiling materials",
+        "steel-metal-sections": "Steel & metal sections",
+        "plumbing": "Plumbing materials",
+        "floor-wall-tiles": "Floor & wall tiles",
+        "sanitary-fittings": "Sanitary fittings",
+        "glass": "Glass",
+        "paints": "Paints",
+        "plywood": "Plywood",
+        "ready-mix-concrete": "Ready-mix concrete",
+        "sheet-piles-u": "Structural steel: 'U' type sheet piles",
+        "hollow-sections-square": "Structural steel: square hollow sections",
+        "hollow-sections-rectangular": "Structural steel: rectangular hollow sections",
+        "universal-beams": "Structural steel: universal beams",
+        "rolled-steel-joists": "Structural steel: rolled steel joists",
+        "angles-equal": "Structural steel: equal angles",
+        "angles-unequal": "Structural steel: unequal angles",
+        "channels-u": "Structural steel: 'U' channels",
+        "channels-lipped": "Structural steel: lipped channels"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "material": "Bahan",
+        "region": "Kawasan",
+        "index": "Indeks",
+        "cement": "Simen",
+        "steel": "Besi",
+        "aggregates": "Batu baur",
+        "sand": "Pasir",
+        "bricks-wall": "Batu bata & dinding",
+        "timber": "Kayu",
+        "roofing": "Bahan bumbung",
+        "ceiling": "Bahan siling",
+        "steel-metal-sections": "Keratan keluli & logam",
+        "plumbing": "Bahan kerja paip",
+        "floor-wall-tiles": "Jubin lantai & dinding",
+        "sanitary-fittings": "Lengkapan kebersihan",
+        "glass": "Kaca",
+        "paints": "Cat",
+        "plywood": "Papan lapis",
+        "ready-mix-concrete": "Konkrit sedia bancuh",
+        "sheet-piles-u": "Keluli struktur: cerucuk keping jenis 'U'",
+        "hollow-sections-square": "Keluli struktur: keratan geronggang segi empat sama",
+        "hollow-sections-rectangular": "Keluli struktur: keratan geronggang segi empat tepat",
+        "universal-beams": "Keluli struktur: rasuk semesta",
+        "rolled-steel-joists": "Keluli struktur: gelegar keluli guling",
+        "angles-equal": "Keluli struktur: sesiku sama",
+        "angles-unequal": "Keluli struktur: sesiku tak sama",
+        "channels-u": "Keluli struktur: sesalur 'U'",
+        "channels-lipped": "Keluli struktur: sesalur bibir"
+    }
+}
