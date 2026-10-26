@@ -37,8 +37,8 @@
             "category_en": "Prices",
             "category_ms": "Harga",
             "category_sort": 70,
-            "subcategory_en": "Building Material Costs",
-            "subcategory_ms": "Harga Bahan Binaan",
+            "subcategory_en": "Construction Prices",
+            "subcategory_ms": "Harga Pembinaan",
             "subcategory_sort": 40
         },
         {
@@ -46,8 +46,8 @@
             "category_en": "Prices",
             "category_ms": "Harga",
             "category_sort": 70,
-            "subcategory_en": "Building Material Costs",
-            "subcategory_ms": "Harga Bahan Binaan",
+            "subcategory_en": "Construction Prices",
+            "subcategory_ms": "Harga Pembinaan",
             "subcategory_sort": 40
         }
     ],
@@ -140,7 +140,13 @@
         "timber-piling": "Timber piling",
         "rc-piling": "R.C. piling",
         "steel-frame-building": "Single-storey steel frame (building)",
-        "steel-frame-tower": "Single-storey steel frame (tower only)"
+        "steel-frame-tower": "Single-storey steel frame (tower only)",
+        "kota-kinabalu": "Kota Kinabalu",
+        "sandakan": "Sandakan",
+        "tawau": "Tawau",
+        "kuching": "Kuching",
+        "sibu": "Sibu",
+        "miri": "Miri"
     },
     "translations_ms": {
         "date": "Tarikh",
@@ -157,6 +163,12 @@
         "timber-piling": "Cerucuk kayu",
         "rc-piling": "Cerucuk K.T.",
         "steel-frame-building": "Kerangka besi satu tingkat (bangunan)",
-        "steel-frame-tower": "Kerangka besi satu tingkat (menara sahaja)"
+        "steel-frame-tower": "Kerangka besi satu tingkat (menara sahaja)",
+        "kota-kinabalu": "Kota Kinabalu",
+        "sandakan": "Sandakan",
+        "tawau": "Tawau",
+        "kuching": "Kuching",
+        "sibu": "Sibu",
+        "miri": "Miri"
     }
 }

@@ -1,6 +1,6 @@
 {
-    "title_en": "Unit Price Index of Mechanical & Electrical Items: Sabah & Sarawak",
-    "title_ms": "Indeks Harga Seunit Item Mekanikal & Elektrik: Sabah & Sarawak",
+    "title_en": "Mechanical & Electrical Unit Price Index: Sabah & Sarawak",
+    "title_ms": "Indeks Harga Seunit Mekanikal & Elektrik: Sabah & Sarawak",
     "title_sort": 45,
     "description_en": "Monthly unit price index of mechanical and electrical items for Sabah & Sarawak.",
     "description_ms": "Indeks harga seunit bulanan bagi item mekanikal dan elektrik bagi Sabah & Sarawak.",
@@ -37,8 +37,8 @@
             "category_en": "Prices",
             "category_ms": "Harga",
             "category_sort": 70,
-            "subcategory_en": "Building Material Costs",
-            "subcategory_ms": "Harga Bahan Binaan",
+            "subcategory_en": "Construction Prices",
+            "subcategory_ms": "Harga Pembinaan",
             "subcategory_sort": 40
         },
         {
@@ -46,8 +46,8 @@
             "category_en": "Prices",
             "category_ms": "Harga",
             "category_sort": 70,
-            "subcategory_en": "Building Material Costs",
-            "subcategory_ms": "Harga Bahan Binaan",
+            "subcategory_en": "Construction Prices",
+            "subcategory_ms": "Harga Pembinaan",
             "subcategory_sort": 40
         }
     ],
@@ -150,7 +150,10 @@
         "vrv-outdoor": "Air conditioning: VRV system, outdoor",
         "pump-condenser-water": "Motor (pumpset): condenser water pump",
         "pump-chilled-water": "Motor (pumpset): chilled water pump",
-        "pump-hose-reel": "Motor (pumpset): hose reel pump"
+        "pump-hose-reel": "Motor (pumpset): hose reel pump",
+        "sabah": "Sabah",
+        "sarawak": "Sarawak",
+        "sabah-sarawak": "Sabah & Sarawak"
     },
     "translations_ms": {
         "date": "Tarikh",
@@ -185,6 +188,9 @@
         "vrv-outdoor": "Penyaman udara: sistem VRV, unit luaran",
         "pump-condenser-water": "Motor (set pam): pam air pemeluwap",
         "pump-chilled-water": "Motor (set pam): pam air dingin",
-        "pump-hose-reel": "Motor (set pam): pam gelung hos"
+        "pump-hose-reel": "Motor (set pam): pam gelung hos",
+        "sabah": "Sabah",
+        "sarawak": "Sarawak",
+        "sabah-sarawak": "Sabah & Sarawak"
     }
 }
