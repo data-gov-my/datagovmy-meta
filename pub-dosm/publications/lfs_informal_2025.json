@@ -1,5 +1,6 @@
 {
     "publication": "lfs_informal_2025",
+    "abort_email": true,
     "publication_type": "lfs_informal",
     "release_date": "2026-09-09",
     "frequency": "YEARLY",
