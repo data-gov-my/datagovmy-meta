@@ -5,7 +5,7 @@
     "description_en": "Monthly average unit prices of civil engineering materials for Peninsular Malaysia, by item and region.",
     "description_ms": "Harga unit purata bulanan bagi bahan kejuruteraan awam bagi Semenanjung Malaysia, mengikut item dan kawasan.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "2026-10-27 08:07:18.996404",
     "data_as_of": "2026-09",
     "last_updated": "2026-10-12 12:00",
     "next_update": "2026-11-10 12:00",

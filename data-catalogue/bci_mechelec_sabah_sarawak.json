@@ -5,7 +5,7 @@
     "description_en": "Monthly unit price index of mechanical and electrical items for Sabah & Sarawak.",
     "description_ms": "Indeks harga seunit bulanan bagi item mekanikal dan elektrik bagi Sabah & Sarawak.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "2026-10-27 08:07:18.996404",
     "data_as_of": "2026-09",
     "last_updated": "2026-10-12 12:00",
     "next_update": "2026-11-10 12:00",
