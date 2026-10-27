@@ -1,10 +1,10 @@
 {
     "link_csv": "https://storage.data.gov.my/publicsafety/drug_addicts_drugtype.csv",
     "link_parquet": "https://storage.data.gov.my/publicsafety/drug_addicts_drugtype.parquet",
-    "title_en": "Drug Addicts by State & Drug Type",
-    "title_ms": "Penagih Dadah mengikut Negeri & Jenis Dadah",
+    "title_en": "Drug and Substance Addicts and Abusers by Drug Category",
+    "title_ms": "Penagih dan Penyalah Guna Dadah dan Bahan Mengikut Kategori Dadah",
     "description_en": "This dataset provides information on the types of drugs reported by each state in Malaysia, as recorded by the National Anti-Drugs Agency (AADK). The data is categorized based on the type of drug as defined by relevant acts, and includes the number of addicts associated with each drug type per state.",
-    "description_ms": "Set data ini menyediakan maklumat mengenai jenis-jenis dadah yang dilaporkan oleh setiap negeri di Malaysia, seperti yang direkodkan oleh Agensi Anti Dadah Kebangsaan (AADK). Data dikategorikan berdasarkan jenis dadah seperti yang ditentukan oleh akta berkaitan, dan termasuk bilangan penagih yang dikaitkan dengan setiap jenis dadah mengikut negeri.",
+    "description_ms": "Set data ini menyediakan maklumat mengenai jenis-jenis dadah yang dilaporkan oleh setiap negeri di Malaysia, seperti yang direkodkan oleh Agensi Anti Dadah Kebangsaan (AADK). Data dikategorikan berdasarkan jenis dadah seperti yang ditentukan oleh akta berkaitan, dan termasuk bilangan penagih yang dikaitkan dengan setiap jenis dadah mengikut negeri.Kategori dadah adalah seperti berikut:\na. Stimulan jenis amfetamin (ATS):\ni) Methamphetamine (Crystalline): Syabu, Ice dan Batu\nii) Methamphetamine (Tablet): Pil Kuda, Pil YABA, Pil YAMA dan Pil Bom\niii) Ecstasy\niv) Amphetamine\nb. Opiat: Candu, Heroin, Morfin dan Kodein\nc. Ganja: Ganja, Hashish dan Marijuana\nd. Pil Psikotropik: Benzodiazepine (Nimetazepam, Diazepam dan Midazolam)\ne. Lain-lain: Ketum, Kokain, Ketamin, Halusinogen, Inhalan dan lain-lain.",
     "title_sort": 9,
     "exclude_openapi": false,
     "manual_trigger": "",
@@ -28,8 +28,8 @@
     "publication_en": "N/A",
     "publication_ms": "N/A",
     "related_datasets": [],
-    "last_updated": "2026-10-08 07:58",
-    "next_update": "2027-10-31 16:00",
+    "last_updated": "2026-10-27 17:00",
+    "next_update": "N/A",
     "fields": [
         {
             "name": "date",
@@ -47,15 +47,15 @@
         },
         {
             "name": "drugs",
-            "title_en": "Drug Type",
-            "title_ms": "Jenis Dadah",
+            "title_en": "Drug Category",
+            "title_ms": "Kategori Dadah",
             "description_en": "The type of drug used: 'ats' (amphetamine-type stimulants), 'opiate', 'cannabis', 'psychotropic_pill' and 'others', with 'total' covering all types. Up to 2020, methamphetamine is reported separately as 'methamphetamine_crystalline' and 'methamphetamine_pills'; from 2021 it is included in 'ats'.",
             "description_ms": "Jenis dadah yang digunakan: 'ats' (perangsang jenis amfetamin), 'opiate' (opiat), 'cannabis' (ganja), 'psychotropic_pill' (pil psikotropik) dan 'others' (lain-lain), dengan 'total' merangkumi semua jenis. Sehingga 2020, methamphetamine dilaporkan secara berasingan sebagai 'methamphetamine_crystalline' dan 'methamphetamine_pills'; mulai 2021 ia termasuk dalam 'ats'."
         },
         {
             "name": "addicts",
-            "title_en": "Number of Addicts",
-            "title_ms": "Bilangan Penagih",
+            "title_en": "Number",
+            "title_ms": "Bilangan",
             "description_en": "The number of drug addicts recorded for the given year, state and category.",
             "description_ms": "Bilangan penagih dadah yang direkodkan bagi tahun, negeri dan kategori yang berkenaan."
         }
@@ -63,14 +63,14 @@
     "translations_en": {
         "date": "Date",
         "state": "State",
-        "drugs": "Drug Type",
-        "addicts": "Number of Addicts"
+        "drugs": "Drug Category",
+        "addicts": "Number"
     },
     "translations_ms": {
         "date": "Tarikh",
         "state": "Negeri",
-        "drugs": "Jenis Dadah",
-        "addicts": "Bilangan Penagih"
+        "drugs": "Kategori Dadah",
+        "addicts": "Bilangan"
     },
     "site_category": [
         {
