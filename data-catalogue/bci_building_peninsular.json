@@ -5,7 +5,7 @@
     "description_en": "Monthly building materials cost index for Peninsular Malaysia, by category of building and region, excluding and including steel bars.",
     "description_ms": "Indeks kos bahan binaan bulanan bagi Semenanjung Malaysia, mengikut kategori bangunan dan kawasan, tanpa dan termasuk bar keluli.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "2026-10-27 08:07:18.996404",
     "data_as_of": "2026-09",
     "last_updated": "2026-10-12 12:00",
     "next_update": "2026-11-10 12:00",
