@@ -1,8 +1,8 @@
 {
     "link_csv": "https://storage.data.gov.my/publicsafety/drug_addicts_age.csv",
     "link_parquet": "https://storage.data.gov.my/publicsafety/drug_addicts_age.parquet",
-    "title_en": "Drug Addicts by State & Age Group",
-    "title_ms": "Penagih Dadah mengikut Negeri & Kumpulan Umur",
+    "title_en": "Drug and Substance Addicts and Abusers by Age Category",
+    "title_ms": "Penagih dan Penyalah Guna Dadah dan Bahan Mengikut Kategori Umur",
     "description_en": "This dataset provides yearly statistics on the number of drug addicts in Malaysia, broken down by state and age group. It offers insights into the demographic distribution of drug addiction across different regions and age categories in the country.",
     "description_ms": "Set data ini menyediakan statistik tahunan mengenai bilangan penagih dadah di Malaysia, yang dipecahkan mengikut negeri dan kumpulan umur. Ia menawarkan pandangan tentang taburan demografi penagihan dadah di pelbagai kawasan dan kategori umur di negara ini.",
     "title_sort": 5,
@@ -30,8 +30,8 @@
     "publication_en": "N/A",
     "publication_ms": "N/A",
     "related_datasets": [],
-    "last_updated": "2026-10-08 07:58",
-    "next_update": "2027-10-31 16:00",
+    "last_updated": "2026-10-27 17:00",
+    "next_update": "N/A",
     "fields": [
         {
             "name": "date",
@@ -56,8 +56,8 @@
         },
         {
             "name": "addicts",
-            "title_en": "Number of Addicts",
-            "title_ms": "Bilangan Penagih",
+            "title_en": "Number",
+            "title_ms": "Bilangan",
             "description_en": "The number of drug addicts recorded for the given year, state and category.",
             "description_ms": "Bilangan penagih dadah yang direkodkan bagi tahun, negeri dan kategori yang berkenaan."
         }
@@ -66,13 +66,13 @@
         "date": "Date",
         "state": "State",
         "age_group": "Age Group",
-        "addicts": "Number of Addicts"
+        "addicts": "Number"
     },
     "translations_ms": {
         "date": "Tarikh",
         "state": "Negeri",
         "age_group": "Kumpulan Umur",
-        "addicts": "Bilangan Penagih"
+        "addicts": "Bilangan"
     },
     "site_category": [
         {
