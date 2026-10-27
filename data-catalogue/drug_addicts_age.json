@@ -37,8 +37,8 @@
             "name": "date",
             "title_en": "Date",
             "title_ms": "Tarikh",
-            "description_en": "The year of the data, in YYYY-MM-DD format, where YYYY-01-01 represents the full year.",
-            "description_ms": "Tahun data, dalam format YYYY-MM-DD, di mana YYYY-01-01 mewakili tahun penuh."
+            "description_en": "The year of the data, in YYYY-MM-DD format, where YYYY-12-31 represents the full year.",
+            "description_ms": "Tahun data, dalam format YYYY-MM-DD, di mana YYYY-12-31 mewakili tahun penuh."
         },
         {
             "name": "state",
@@ -52,7 +52,7 @@
             "title_en": "Age Group",
             "title_ms": "Kumpulan Umur",
             "description_en": "The age group of the addicts: '<13', '13-15', '16-19', '20-24', '25-29', '30-34', '35-39' and '40+', with 'total' covering all age groups.",
-            "description_ms": "Kumpulan umur penagih: '<13', '13-15', '16-19', '20-24', '25-29', '30-34', '35-39' dan '40+', dengan 'total' merangkumi semua kumpulan umur."
+            "description_ms": "Kumpulan umur penagih: '<13', '13-15', '16-19', '20-24', '25-29', '30-34', '35-39' dan '40+', dengan 'jumlah' merangkumi semua kumpulan umur."
         },
         {
             "name": "addicts",
