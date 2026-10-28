@@ -49,8 +49,8 @@
             "name": "education",
             "title_en": "Education Level",
             "title_ms": "Tahap Pendidikan",
-            "description_en": "The highest level of education attained by the addicts: 'none', 'primary', 'pmr', 'spm', 'stpm', 'diploma', 'tertiary' (bachelor's, master's or PhD) and 'others' (e.g. skills certificates), with 'JUMLAH' covering all levels.",
-            "description_ms": "Tahap pendidikan tertinggi yang dicapai oleh penagih: 'none' (tiada pendidikan formal), 'primary' (sekolah rendah), 'pmr', 'spm', 'stpm', 'diploma', 'tertiary' (sarjana muda, sarjana atau PhD) dan 'others' (lain-lain, seperti sijil kemahiran), dengan 'total' merangkumi semua tahap."
+            "description_en": "The highest level of education attained by the addicts: 'none', 'primary', 'pmr', 'spm', 'stpm', 'diploma', 'tertiary' (bachelor's, master's or PhD) and 'others' (e.g. skills certificates), with 'total' covering all levels.",
+            "description_ms": "Tahap pendidikan tertinggi yang dicapai oleh penagih: 'none' (tiada pendidikan formal), 'primary' (sekolah rendah), 'pmr', 'spm', 'stpm', 'diploma', 'tertiary' (sarjana muda, sarjana atau PhD) dan 'others' (lain-lain, seperti sijil kemahiran), dengan 'JUMLAH' merangkumi semua tahap."
         },
         {
             "name": "addicts",
