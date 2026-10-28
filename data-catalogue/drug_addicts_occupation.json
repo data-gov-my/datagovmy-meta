@@ -1,8 +1,8 @@
 {
     "link_csv": "https://storage.data.gov.my/publicsafety/drug_addicts_occupation.csv",
     "link_parquet": "https://storage.data.gov.my/publicsafety/drug_addicts_occupation.parquet",
-    "title_en": "Drug Addicts by State & Occupation",
-    "title_ms": "Penagih Dadah mengikut Negeri & Pekerjaan",
+    "title_en": "Drug and Substance Addicts and Abusers by Occupational Category",
+    "title_ms": "Penagih dan Penyalah Guna Dadah dan Bahan Mengikut Kategori Pekerjaan",
     "description_en": "This dataset managed by the National Anti-Drugs Agency (NADA) in collaboration with the Department of Statistics Malaysia (DOSM), provides annual statistics on drug addiction in Malaysia. It presents data at both the national and state levels, offering insights into trends and demographic breakdowns of drug addiction by occupation. This information is crucial for understanding the impact of drug addiction across different occupational sectors and aids in policy-making and intervention strategies.",
     "description_ms": "Dataset ini diuruskan oleh Agensi Anti Dadah Kebangsaan (AADK) dengan kerjasama Jabatan Perangkaan Malaysia (DOSM), menyediakan statistik tahunan mengenai ketagihan dadah di Malaysia. Ia memaparkan data di peringkat nasional dan negeri, memberikan pandangan tentang trend dan pecahan demografi ketagihan dadah mengikut pekerjaan. Maklumat ini penting untuk memahami impak ketagihan dadah di pelbagai sektor pekerjaan dan membantu dalam pembuatan dasar dan strategi intervensi.",
     "title_sort": 13,
@@ -28,8 +28,8 @@
     "publication_en": "N/A",
     "publication_ms": "N/A",
     "related_datasets": [],
-    "last_updated": "2026-10-08 07:58",
-    "next_update": "2027-10-31 16:00",
+    "last_updated": "2026-10-27 17:00",
+    "next_update": "N/A",
     "fields": [
         {
             "name": "date",
@@ -54,8 +54,8 @@
         },
         {
             "name": "addicts",
-            "title_en": "Number of Addicts",
-            "title_ms": "Bilangan Penagih",
+            "title_en": "Number",
+            "title_ms": "Bilangan",
             "description_en": "The number of drug addicts recorded for the given year, state and category.",
             "description_ms": "Bilangan penagih dadah yang direkodkan bagi tahun, negeri dan kategori yang berkenaan."
         }
@@ -63,14 +63,14 @@
     "translations_en": {
         "date": "Date",
         "state": "State",
-        "jobs": "Occupation",
-        "addicts": "Number of Addicts"
+        "jobs": "Occupation Category",
+        "addicts": "Number"
     },
     "translations_ms": {
         "date": "Tarikh",
         "state": "Negeri",
-        "jobs": "Pekerjaan",
-        "addicts": "Bilangan Penagih"
+        "jobs": "Kategori Pekerjaan",
+        "addicts": "Bilangan"
     },
     "site_category": [
         {
