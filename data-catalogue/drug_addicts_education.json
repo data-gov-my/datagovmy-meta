@@ -1,10 +1,10 @@
 {
     "link_csv": "https://storage.data.gov.my/publicsafety/drug_addicts_education.csv",
     "link_parquet": "https://storage.data.gov.my/publicsafety/drug_addicts_education.parquet",
-    "title_en": "Drug Addicts by Highest Education Level",
-    "title_ms": "Penagih Dadah Mengikut Tahap Pendidikan Tertinggi",
+    "title_en": "Drug Addicts and Substance Abusers by Education Category",
+    "title_ms": "Penagih dan Penyalah Guna Dadah dan Bahan Mengikut Kategori Pendidikan",
     "description_en": "The dataset provides information on drug addicts categorized by their highest level of education. The data is collected by the National Anti-Drugs Agency (NADA) through various treatment and rehabilitation centers across Malaysia. It includes yearly data at both national and state levels.",
-    "description_ms": "Set data ini menyediakan maklumat mengenai penagih dadah yang dikategorikan mengikut tahap pendidikan tertinggi mereka. Data ini dikumpulkan oleh Agensi Anti Dadah Kebangsaan (AADK) melalui pelbagai pusat rawatan dan pemulihan di seluruh Malaysia. Ia merangkumi data tahunan di peringkat kebangsaan dan negeri.",
+    "description_ms": "Set data ini menyediakan maklumat mengenai penagih dadah yang dikategorikan mengikut tahap pendidikan tertinggi mereka. Data ini dikumpulkan oleh Agensi Anti Dadah Kebangsaan (AADK) melalui pelbagai pusat rawatan dan pemulihan di seluruh Malaysia. Ia merangkumi data tahunan di peringkat kebangsaan dan negeri. Lain-lain termasuk matrikulasi; sijil kemahiran bukan MLVK asas; sijil kemahiran bukan MLVK lanjutan; sijil kemahiran bukan teknikal; sijil kemahiran MLVK dan lain-lain sijil kemahiran yang berkaitan.",
     "title_sort": 11,
     "exclude_openapi": false,
     "manual_trigger": "",
@@ -28,8 +28,8 @@
     "publication_en": "N/A",
     "publication_ms": "N/A",
     "related_datasets": [],
-    "last_updated": "2026-10-08 07:58",
-    "next_update": "2027-10-31 16:00",
+    "last_updated": "2026-10-27 17:00",
+    "next_update": "N/A",
     "fields": [
         {
             "name": "date",
@@ -54,8 +54,8 @@
         },
         {
             "name": "addicts",
-            "title_en": "Number of Addicts",
-            "title_ms": "Bilangan Penagih",
+            "title_en": "Number",
+            "title_ms": "Bilangan",
             "description_en": "The number of drug addicts recorded for the given year, state and category.",
             "description_ms": "Bilangan penagih dadah yang direkodkan bagi tahun, negeri dan kategori yang berkenaan."
         }
@@ -63,14 +63,14 @@
     "translations_en": {
         "date": "Date",
         "state": "State",
-        "education": "Education Level",
-        "addicts": "Number of Addicts"
+        "education": "Education Category",
+        "addicts": "Number"
     },
     "translations_ms": {
         "date": "Tarikh",
         "state": "Negeri",
-        "education": "Tahap Pendidikan",
-        "addicts": "Bilangan Penagih"
+        "education": "Kategori Pendidikan",
+        "addicts": "Bilangan"
     },
     "site_category": [
         {
