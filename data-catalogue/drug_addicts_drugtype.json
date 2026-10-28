@@ -35,8 +35,8 @@
             "name": "date",
             "title_en": "Date",
             "title_ms": "Tarikh",
-            "description_en": "The year of the data, in YYYY-MM-DD format, where YYYY-01-01 represents the full year.",
-            "description_ms": "Tahun data, dalam format YYYY-MM-DD, di mana YYYY-01-01 mewakili tahun penuh."
+            "description_en": "The year of the data, in YYYY-MM-DD format, where YYYY-12-31 represents the full year.",
+            "description_ms": "Tahun data, dalam format YYYY-MM-DD, di mana YYYY-12-31 mewakili tahun penuh."
         },
         {
             "name": "state",
@@ -49,8 +49,8 @@
             "name": "drugs",
             "title_en": "Drug Type",
             "title_ms": "Jenis Dadah",
-            "description_en": "The type of drug used: 'ats' (amphetamine-type stimulants), 'opiate', 'cannabis', 'psychotropic_pill' and 'others', with 'total' covering all types. Up to 2020, methamphetamine is reported separately as 'methamphetamine_crystalline' and 'methamphetamine_pills'; from 2021 it is included in 'ats'.",
-            "description_ms": "Jenis dadah yang digunakan: 'ats' (perangsang jenis amfetamin), 'opiate' (opiat), 'cannabis' (ganja), 'psychotropic_pill' (pil psikotropik) dan 'others' (lain-lain), dengan 'total' merangkumi semua jenis. Sehingga 2020, methamphetamine dilaporkan secara berasingan sebagai 'methamphetamine_crystalline' dan 'methamphetamine_pills'; mulai 2021 ia termasuk dalam 'ats'."
+            "description_en": "The type of drug used: 'ats' (amphetamine-type stimulants), 'opiate', 'cannabis', 'psychotropic_pill' and 'others', with 'JUMLAH' covering all types. Up to 2023, methamphetamine is reported separately as 'methamphetamine_crystalline' and 'methamphetamine_pills'; from 2025 it is included in 'ats'.",
+            "description_ms": "Jenis dadah yang digunakan: 'ats' (perangsang jenis amfetamin), 'opiate' (opiat), 'cannabis' (ganja), 'psychotropic_pill' (pil psikotropik) dan 'others' (lain-lain), dengan 'JUMLAH' merangkumi semua jenis. Sehingga 2023, methamphetamine dilaporkan secara berasingan sebagai 'methamphetamine_crystalline' dan 'methamphetamine_pills'; mulai 2025 ia termasuk dalam 'ats'."
         },
         {
             "name": "addicts",
