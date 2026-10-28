@@ -49,7 +49,7 @@
             "name": "drugs",
             "title_en": "Drug Type",
             "title_ms": "Jenis Dadah",
-            "description_en": "The type of drug used: 'ats' (amphetamine-type stimulants), 'opiate', 'cannabis', 'psychotropic_pill' and 'others', with 'JUMLAH' covering all types. Up to 2023, methamphetamine is reported separately as 'methamphetamine_crystalline' and 'methamphetamine_pills'; from 2025 it is included in 'ats'.",
+            "description_en": "The type of drug used: 'ats' (amphetamine-type stimulants), 'opiate', 'cannabis', 'psychotropic_pill' and 'others', with 'total' covering all types. Up to 2023, methamphetamine is reported separately as 'methamphetamine_crystalline' and 'methamphetamine_pills'; from 2025 it is included in 'ats'.",
             "description_ms": "Jenis dadah yang digunakan: 'ats' (perangsang jenis amfetamin), 'opiate' (opiat), 'cannabis' (ganja), 'psychotropic_pill' (pil psikotropik) dan 'others' (lain-lain), dengan 'JUMLAH' merangkumi semua jenis. Sehingga 2023, methamphetamine dilaporkan secara berasingan sebagai 'methamphetamine_crystalline' dan 'methamphetamine_pills'; mulai 2025 ia termasuk dalam 'ats'."
         },
         {
