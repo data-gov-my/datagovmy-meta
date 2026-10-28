@@ -35,8 +35,8 @@
             "name": "date",
             "title_en": "Date",
             "title_ms": "Tarikh",
-            "description_en": "The year of the data, in YYYY-MM-DD format, where YYYY-01-01 represents the full year.",
-            "description_ms": "Tahun data, dalam format YYYY-MM-DD, di mana YYYY-01-01 mewakili tahun penuh."
+            "description_en": "The year of the data, in YYYY-MM-DD format, where YYYY-12-31 represents the full year.",
+            "description_ms": "Tahun data, dalam format YYYY-MM-DD, di mana YYYY-12-31 mewakili tahun penuh."
         },
         {
             "name": "state",
@@ -49,8 +49,8 @@
             "name": "jobs",
             "title_en": "Occupation",
             "title_ms": "Pekerjaan",
-            "description_en": "The occupation category of the addicts, including whether they are unemployed, with 'total' covering all categories. The categories changed over time: up to 2020, jobs are broken down by sector (e.g. 'binaan', 'perkilangan'); from 2021, by employment type (e.g. 'swasta', 'kerajaan', 'bekerja_sendiri').",
-            "description_ms": "Kategori pekerjaan penagih, termasuk sama ada mereka menganggur, dengan 'total' merangkumi semua kategori. Kategori berubah mengikut masa: sehingga 2020, pekerjaan dipecahkan mengikut sektor (cth. 'binaan', 'perkilangan'); mulai 2021, mengikut jenis pekerjaan (cth. 'swasta', 'kerajaan', 'bekerja_sendiri')."
+            "description_en": "The occupation category of the addicts, including whether they are unemployed, with 'JUMLAH' covering all categories. The categories changed over time: up to 2023, jobs are broken down by sector (e.g. 'binaan', 'perkilangan'); from 2025, by employment type (e.g. 'swasta', 'kerajaan', 'bekerja_sendiri').",
+            "description_ms": "Kategori pekerjaan penagih, termasuk sama ada mereka menganggur, dengan 'total' merangkumi semua kategori. Kategori berubah mengikut masa: sehingga 2023, pekerjaan dipecahkan mengikut sektor (cth. 'binaan', 'perkilangan'); mulai 2025, mengikut jenis pekerjaan (cth. 'swasta', 'kerajaan', 'bekerja_sendiri')."
         },
         {
             "name": "addicts",
