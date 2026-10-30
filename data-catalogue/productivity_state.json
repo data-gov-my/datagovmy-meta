@@ -1,0 +1,169 @@
+{
+    "title_en": "Annual Productivity by State",
+    "title_ms": "Produktiviti Tahunan mengikut Negeri",
+    "title_sort": 10,
+    "description_en": "Annual labour productivity by state and main economic sector, measured as value added per employed person.",
+    "description_ms": "Produktiviti tenaga buruh tahunan mengikut negeri dan sektor ekonomi utama, diukur sebagai nilai ditambah per penduduk bekerja.",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2025",
+    "last_updated": "2026-10-29 12:30",
+    "next_update": "2027-10-29 12:30",
+    "methodology_en": "Labour productivity by state is measured as value added per employed person: GDP by state and main economic sector at constant 2015 prices (to strip out the effects of inflation), divided by the number of employed persons in that state and sector.\n\nEmployed persons by state and sector are estimated by combining two sources: the Labour Force Survey, which covers the informal (household) sector, and the Economic Census (2015 and 2022), which covers the formal sector. Each source's share of total employed persons is interpolated for the years between the censuses (2016-2021) and extrapolated for the years after the latest census (2023 onwards), then applied to estimate total employed persons in each main sector. Mining and quarrying is estimated separately.\n\n'Supra' covers production activities whose centre of economic interest spans several states, and so cannot be attributed to any one of them; in Malaysia, these are in the mining and quarrying sector. For further detail on the concepts used, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/productivity).",
+    "methodology_ms": "Produktiviti tenaga buruh mengikut negeri diukur sebagai nilai ditambah per penduduk bekerja: KDNK mengikut negeri dan sektor ekonomi utama pada harga malar 2015 (untuk mengecualikan kesan inflasi), dibahagikan dengan bilangan penduduk bekerja dalam negeri dan sektor tersebut.\n\nPenduduk bekerja mengikut negeri dan sektor dianggarkan dengan menggabungkan dua sumber: Survei Tenaga Buruh, yang meliputi sektor tidak formal (isi rumah), dan Banci Ekonomi (2015 dan 2022), yang meliputi sektor formal. Peratus sumbangan setiap sumber kepada jumlah penduduk bekerja diinterpolasi bagi tahun-tahun di antara banci (2016-2021) dan diekstrapolasi bagi tahun-tahun selepas banci terkini (2023 dan seterusnya), kemudian digunakan untuk menganggar jumlah penduduk bekerja bagi setiap sektor utama. Sektor perlombongan dan pengkuarian dianggarkan secara berasingan.\n\n'Supra' merangkumi aktiviti pengeluaran yang pusat kepentingan ekonominya merentasi beberapa negeri, dan oleh itu tidak boleh dikaitkan dengan mana-mana satu negeri; di Malaysia, aktiviti ini adalah dalam sektor perlombongan dan pengkuarian. Untuk keterangan lanjut tentang konsep yang digunakan, sila rujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/productivity).",
+    "caveat_en": "Although this indicator is classified as a measure of *labour* productivity, it does not refer to any notion of intrinsic labour capacity. In technical terms, it is a Single Factor Productivity measure, which implicitly includes the contributions of all other factors of production. This matters especially when comparing states: a state whose output is capital-intensive (e.g. mining in Sabah and Sarawak, or manufacturing in Terengganu) will record high value added per worker regardless of how 'hardworking' or 'skilled' its labour force is.\n\nValue added per employed person is not available for mining and quarrying in W.P. Labuan and W.P. Putrajaya; those rows are omitted. Annual growth is computed from the levels and rounded to 1 decimal place. Data may be revised in subsequent releases, in line with revisions to GDP by state and to employment estimates.",
+    "caveat_ms": "Walaupun indikator ini diklasifikasikan sebagai ukuran produktiviti *tenaga buruh*, ia tidak sama sekali merujuk kepada kapasiti ataupun potensi tenaga buruh. Dalam istilah teknikal, ia adalah ukuran Produktiviti Faktor Tunggal, yang secara tidak langsung termasuk sumbangan semua faktor pengeluaran lain. Perkara ini amat penting apabila membandingkan negeri: negeri yang outputnya intensif modal (contohnya perlombongan di Sabah dan Sarawak, atau pembuatan di Terengganu) akan mencatatkan nilai ditambah per pekerja yang tinggi tanpa mengira 'kerajinan' atau 'tahap kepakaran' tenaga buruhnya.\n\nNilai ditambah per penduduk bekerja tidak tersedia bagi sektor perlombongan dan pengkuarian di W.P. Labuan dan W.P. Putrajaya; baris tersebut tidak dimasukkan. Pertumbuhan tahunan dikira daripada nilai mutlak dan dibundarkan kepada 1 tempat perpuluhan. Data mungkin disemak semula dalam penerbitan berikutnya, selaras dengan semakan KDNK mengikut negeri dan anggaran guna tenaga.",
+    "publication_en": "[Labour Productivity by State, 2025](https://open.dosm.gov.my/publications/productivity_state_2025), the latest edition of the annual labour productivity by state statistics published by DOSM.",
+    "publication_ms": "[Produktiviti Tenaga Buruh mengikut Negeri, 2025](https://open.dosm.gov.my/ms-MY/publications/productivity_state_2025), edisi terkini bagi statistik produktiviti tenaga buruh mengikut negeri yang diterbitkan oleh DOSM.",
+    "link_parquet": "https://storage.dosm.gov.my/labour/productivity_state.parquet",
+    "link_csv": "https://storage.dosm.gov.my/labour/productivity_state.csv",
+    "link_preview": "https://storage.dosm.gov.my/labour/productivity_state.parquet",
+    "frequency": "YEARLY",
+    "geography": [
+        "STATE",
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2015,
+    "dataset_end": 2025,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "MBLS"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Labour Markets",
+            "category_ms": "Pasaran Buruh",
+            "category_sort": 50,
+            "subcategory_en": "Labour Productivity",
+            "subcategory_ms": "Produktiviti Tenaga Buruh",
+            "subcategory_sort": 50
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Labour Markets",
+            "category_ms": "Pasaran Buruh",
+            "category_sort": 50,
+            "subcategory_en": "Labour Productivity",
+            "subcategory_ms": "Produktiviti Tenaga Buruh",
+            "subcategory_sort": 50
+        }
+    ],
+    "fields": [
+        {
+            "name": "series",
+            "title_en": "Series Type",
+            "title_ms": "Jenis Siri",
+            "description_en": "[String] Series type, either absolute values ('abs') or year-on-year growth ('growth_yoy')",
+            "description_ms": "[Rentetan] Jenis siri, sama ada nilai mutlak ('abs') atau pertumbuhan tahunan ('growth_yoy')"
+        },
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan kepada 01-01 kerana data adalah pada frekuensi tahunan"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[String] One of the 16 states, 'Supra' (production activities that cannot be attributed to any one state), or 'Malaysia' for the national total",
+            "description_ms": "[Rentetan] Salah satu daripada 16 negeri, 'Supra' (aktiviti pengeluaran yang tidak boleh dikaitkan dengan mana-mana satu negeri), atau 'Malaysia' bagi jumlah nasional"
+        },
+        {
+            "name": "sector",
+            "title_en": "Economic Sector",
+            "title_ms": "Sektor Ekonomi",
+            "description_en": "[String] Code for the economic sector, to be mapped using the [Lookup Table](https://open.dosm.gov.my/data-catalogue/productivity_lookup): 'p0' (whole economy), 'p1' (agriculture), 'p2' (mining and quarrying), 'p3' (manufacturing), 'p4' (construction) or 'p5' (services)",
+            "description_ms": "[Rentetan] Kod bagi sektor ekonomi, yang perlu dipadankan dengan [Jadual Carian](https://open.dosm.gov.my/ms-MY/data-catalogue/productivity_lookup): 'p0' (keseluruhan), 'p1' (pertanian), 'p2' (perlombongan dan pengkuarian), 'p3' (pembuatan), 'p4' (pembinaan) atau 'p5' (perkhidmatan)"
+        },
+        {
+            "name": "output_employment",
+            "title_en": "Output per Worker",
+            "title_ms": "Output per Pekerja",
+            "description_en": "[Float] Either value added per employed person in RM at constant 2015 prices (for rows with series type 'abs') or its annual growth as a percentage (for rows with series type 'growth_yoy')",
+            "description_ms": "[Apung] Sama ada nilai ditambah per penduduk bekerja dalam RM pada harga malar 2015 (bagi baris dengan jenis siri 'abs') ataupun pertumbuhan tahunannya sebagai peratus (bagi baris dengan jenis siri 'growth_yoy')"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 1,
+                "filter_columns": [
+                    "series",
+                    "state",
+                    "sector"
+                ],
+                "freeze_columns": [
+                    "series",
+                    "date",
+                    "state"
+                ]
+            }
+        },
+        {
+            "dataviz_id": "output_employment",
+            "title_en": "Output per Worker",
+            "title_ms": "Output per Pekerja",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "series",
+                    "state",
+                    "sector"
+                ],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "output_employment"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "series": "Series Type",
+        "date": "Date",
+        "state": "State",
+        "sector": "Economic Sector",
+        "output_employment": "Output per Worker",
+        "abs": "Absolute Values",
+        "growth-yoy": "Year-on-Year Growth",
+        "x": "Date",
+        "y1": "Value",
+        "p0": "Whole Economy",
+        "p1": "Agriculture",
+        "p2": "Mining and quarrying",
+        "p3": "Manufacturing",
+        "p4": "Construction",
+        "p5": "Services"
+    },
+    "translations_ms": {
+        "series": "Jenis Siri",
+        "date": "Tarikh",
+        "state": "Negeri",
+        "sector": "Sektor Ekonomi",
+        "output_employment": "Output per Pekerja",
+        "abs": "Nilai mutlak",
+        "growth-yoy": "Pertumbuhan Tahunan",
+        "x": "Tarikh",
+        "y1": "Nilai",
+        "p0": "Keseluruhan",
+        "p1": "Pertanian",
+        "p2": "Perlombongan & Pengkuarian",
+        "p3": "Pembuatan",
+        "p4": "Pembinaan",
+        "p5": "Perkhidmatan"
+    },
+    "related_datasets": []
+}
