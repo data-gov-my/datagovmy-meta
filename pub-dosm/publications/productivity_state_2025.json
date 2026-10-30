@@ -1,0 +1,52 @@
+{
+    "publication": "productivity_state_2025",
+    "publication_type": "labour",
+    "release_date": "2026-10-29",
+    "abort_email": true,
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "en": {
+        "title": "[2025] Labour Productivity by State",
+        "publication_type_title": "Labour Force",
+        "description": "Annual labour productivity by state, covering value added per hour worked or per worker, by economic activity.",
+        "description_email": "DOSM has just released the latest annual labour productivity metrics by state, with disaggregation by economic sector.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Labour Productivity by State: 2025",
+                "resource_link": "https://storage.dosm.gov.my/labour/productivity_2025_state.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Labour Productivity by State: 2025",
+                "resource_link": "https://storage.dosm.gov.my/labour/productivity_2025_state.pdf"
+            }
+        ]
+    },
+    "bm": {
+        "title": "[2025] Produktiviti Buruh mengikut Negeri",
+        "publication_type_title": "Tenaga Buruh",
+        "description": "Produktiviti buruh tahunan mengikut negeri, merangkumi nilai ditambah per jam bekerja ataupun per pekerja, mengikut aktiviti ekonomi.",
+        "description_email": "DOSM baru sahaja menerbitkan indikator produktiviti buruh tahunan terkini mengikut negeri, dengan pecahan mengikut sektor ekonomi.",
+        "resources": [
+            {
+                "resource_id": 1,
+                "resource_type": "excel",
+                "resource_name": "Produktiviti Buruh mengikut Negeri: 2025",
+                "resource_link": "https://storage.dosm.gov.my/labour/productivity_2025_state.xlsx"
+            },
+            {
+                "resource_id": 2,
+                "resource_type": "pdf",
+                "resource_name": "Produktiviti Buruh mengikut Negeri: 2025",
+                "resource_link": "https://storage.dosm.gov.my/labour/productivity_2025_state.pdf"
+            }
+        ]
+    }
+}
