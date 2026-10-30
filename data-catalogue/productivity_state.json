@@ -5,7 +5,7 @@
     "description_en": "Annual labour productivity by state and main economic sector, measured as value added per employed person.",
     "description_ms": "Produktiviti tenaga buruh tahunan mengikut negeri dan sektor ekonomi utama, diukur sebagai nilai ditambah per penduduk bekerja.",
     "exclude_openapi": false,
-    "manual_trigger": "",
+    "manual_trigger": "2026-10-30 10:10:47.324446",
     "data_as_of": "2025",
     "last_updated": "2026-10-29 12:30",
     "next_update": "2027-10-29 12:30",
