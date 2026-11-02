@@ -2,6 +2,7 @@
     "publication": "mei_2026-08",
     "publication_type": "indicators",
     "release_date": "2026-10-23",
+    "abort_email": true,
     "frequency": "MONTHLY",
     "geography": [
         "NATIONAL"
