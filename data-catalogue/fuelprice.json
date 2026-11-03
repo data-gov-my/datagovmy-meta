@@ -4,7 +4,7 @@
     "description_en": "Weekly retail prices of RON95 petrol, RON97 petrol, and diesel in Malaysia.",
     "description_ms": "Harga runcit mingguan bagi petrol RON95, petrol RON97 dan diesel di Malaysia.",
     "exclude_openapi": false,
-    "manual_trigger": "2026-10-30 09:38:48.304307",
+    "manual_trigger": "2026-11-03 15:12:50.647945",
     "data_as_of": "2026-10-29 00:01",
     "last_updated": "2026-10-28 23:59",
     "next_update": "2026-11-04 23:59",
