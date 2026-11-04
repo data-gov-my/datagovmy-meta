@@ -2,6 +2,7 @@
     "publication": "pwd_2025",
     "publication_type": "pwd",
     "release_date": "2026-11-04",
+    "abort_email": true,
     "frequency": "YEARLY",
     "geography": [
         "NATIONAL",
@@ -50,12 +51,6 @@
                 "resource_link": "https://storage.dosm.gov.my/demography/oku_2025_employment.xlsx"
             },
             {
-                "resource_id": 6,
-                "resource_type": "excel",
-                "resource_name": "Persons with Disabilities (Income & Expenditure): 2025",
-                "resource_link": "https://storage.dosm.gov.my/demography/oku_2025_hies.xlsx"
-            },
-            {
                 "resource_id": 7,
                 "resource_type": "excel",
                 "resource_name": "Persons with Disabilities (Welfare): 2025",
@@ -66,12 +61,6 @@
                 "resource_type": "excel",
                 "resource_name": "Persons with Disabilities (Sport): 2025",
                 "resource_link": "https://storage.dosm.gov.my/demography/oku_2025_sport.xlsx"
-            },
-            {
-                "resource_id": 9,
-                "resource_type": "excel",
-                "resource_name": "Persons with Disabilities (SDG): 2025",
-                "resource_link": "https://storage.dosm.gov.my/demography/oku_2025_sdg.xlsx"
             }
         ]
     },
@@ -112,12 +101,6 @@
                 "resource_link": "https://storage.dosm.gov.my/demography/oku_2025_employment.xlsx"
             },
             {
-                "resource_id": 6,
-                "resource_type": "excel",
-                "resource_name": "Orang Kurang Upaya (Pendapatan & Perbelanjaan): 2025",
-                "resource_link": "https://storage.dosm.gov.my/demography/oku_2025_hies.xlsx"
-            },
-            {
                 "resource_id": 7,
                 "resource_type": "excel",
                 "resource_name": "Orang Kurang Upaya (Kebajikan): 2025",
@@ -128,12 +111,6 @@
                 "resource_type": "excel",
                 "resource_name": "Orang Kurang Upaya (Sukan): 2025",
                 "resource_link": "https://storage.dosm.gov.my/demography/oku_2025_sport.xlsx"
-            },
-            {
-                "resource_id": 9,
-                "resource_type": "excel",
-                "resource_name": "Orang Kurang Upaya (SDG): 2025",
-                "resource_link": "https://storage.dosm.gov.my/demography/oku_2025_sdg.xlsx"
             }
         ]
     }
