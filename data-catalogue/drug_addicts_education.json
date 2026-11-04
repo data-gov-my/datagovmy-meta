@@ -1,10 +1,10 @@
 {
     "link_csv": "https://storage.data.gov.my/publicsafety/drug_addicts_education.csv",
     "link_parquet": "https://storage.data.gov.my/publicsafety/drug_addicts_education.parquet",
-    "title_en": "Drug Addicts by Highest Education Level",
-    "title_ms": "Penagih Dadah Mengikut Tahap Pendidikan Tertinggi",
-    "description_en": "The dataset provides information on drug addicts categorized by their highest level of education. The data is collected by the National Anti-Drugs Agency (NADA) through various treatment and rehabilitation centers across Malaysia. It includes yearly data at both national and state levels.",
-    "description_ms": "Set data ini menyediakan maklumat mengenai penagih dadah yang dikategorikan mengikut tahap pendidikan tertinggi mereka. Data ini dikumpulkan oleh Agensi Anti Dadah Kebangsaan (AADK) melalui pelbagai pusat rawatan dan pemulihan di seluruh Malaysia. Ia merangkumi data tahunan di peringkat kebangsaan dan negeri.",
+    "title_en": "Drug and Substance Addicts and Abusers by Education Level",
+    "title_ms": "Penagih dan Penyalah Guna Dadah dan Bahan Mengikut Tahap Pendidikan",
+    "description_en": "This dataset provides yearly statistics on the number of drug and substance addicts and abusers in Malaysia, broken down by state and education level. It offers an overview of the distribution of drug and substance addicts and abusers by education level across the country.",
+    "description_ms": "Set data ini menyediakan statistik tahunan mengenai bilangan penagih dan penyalah guna dadah dan bahan di Malaysia, yang dipecahkan mengikut negeri dan tahap pendidikan. Set data ini memberikan gambaran tentang taburan penagihan dan penyalahgunaan dadah dan bahan berdasarkan tahap pendidikan di seluruh negara.",
     "title_sort": 11,
     "exclude_openapi": false,
     "manual_trigger": "",
@@ -21,10 +21,10 @@
         "AADK",
         "KDN"
     ],
-    "methodology_en": "The data is compiled annually by the National Anti-Drugs Agency (NADA) from records at various treatment and rehabilitation centers throughout Malaysia. Each entry in the dataset represents the number of drug addicts identified within a given year, categorized by their highest level of education and the state in which they were recorded.",
-    "methodology_ms": "Data ini dikumpulkan setiap tahun oleh Agensi Anti Dadah Kebangsaan (AADK) dari rekod di pelbagai pusat rawatan dan pemulihan di seluruh Malaysia. Setiap entri dalam set data ini mewakili bilangan penagih dadah yang dikenal pasti dalam tahun tertentu, dikategorikan mengikut tahap pendidikan tertinggi mereka dan negeri di mana mereka direkodkan.",
-    "caveat_en": "The dataset is based on administrative records from NADA's treatment centers and may not capture all cases of drug addiction within the community. The education level is self-reported by the individuals and may not be verified. Additionally, the data does not account for individuals who may have relapsed or those who have not sought treatment.",
-    "caveat_ms": "Set data ini berdasarkan rekod pentadbiran dari pusat rawatan AADK dan mungkin tidak merekodkan semua kes ketagihan dadah dalam komuniti. Tahap pendidikan dilaporkan sendiri oleh individu dan mungkin tidak disahkan. Selain itu, data ini tidak mengambil kira individu dengan rawatan berulang atau mereka yang tidak mendapatkan rawatan.",
+    "methodology_en": "The data is collected annually from national and state-level reports on drug and substance addiction and abuse. The data is categorized by education level to enable analysis of the distribution of drug and substance addicts and abusers by education level. The dataset includes data from all Malaysian states and Federal Territories.",
+    "methodology_ms": "Data dikumpulkan setiap tahun daripada laporan peringkat kebangsaan dan negeri mengenai penagihan dan penyalahgunaan dadah dan bahan. Data dikategorikan mengikut tahap pendidikan bagi membolehkan analisis taburan penagih dan penyalah guna dadah dan bahan berdasarkan tahap pendidikan. Set data ini merangkumi data dari semua negeri dan Wilayah Persekutuan di Malaysia.",
+    "caveat_en": "There are several caveats to note:\n\n- The dataset may not account for unreported cases of drug and substance addiction and abuse.\n- Interpretation of the data should take into account the education level categories used in the source records. Where a 'total' category is present, it covers all education level categories and should not be summed again with the other education level categories.\n- Data for 2016-2018 is available only at the national level ('Malaysia'); the breakdown by state begins in 2019.",
+    "caveat_ms": "Terdapat beberapa perkara yang perlu diberi perhatian:\n\n- Set data ini mungkin tidak mengambil kira kes penagihan dan penyalahgunaan dadah dan bahan yang tidak dilaporkan.\n- Tafsiran data hendaklah mengambil kira kategori tahap pendidikan yang digunakan dalam rekod sumber. Sekiranya terdapat kategori jumlah keseluruhan (total), kategori tersebut merangkumi semua kategori tahap pendidikan dan tidak seharusnya dijumlahkan sekali lagi dengan kategori tahap pendidikan yang lain.\n- Data bagi tempoh sebelum 2019 hanya tersedia di peringkat kebangsaan ('Malaysia'); pecahan mengikut negeri bermula pada tahun 2019.",
     "publication_en": "N/A",
     "publication_ms": "N/A",
     "related_datasets": [],
@@ -42,8 +42,8 @@
             "name": "state",
             "title_en": "State",
             "title_ms": "Negeri",
-            "description_en": "The state where the addicts were recorded, or 'Malaysia' for the national total. Includes all states and federal territories.",
-            "description_ms": "Negeri di mana penagih direkodkan, atau 'Malaysia' bagi jumlah kebangsaan. Merangkumi semua negeri dan wilayah persekutuan."
+            "description_en": "The state where the addicts and abusers were recorded, or 'Malaysia' for the national total. Includes all states and Federal Territories.",
+            "description_ms": "Negeri di mana penagih dan penyalah guna direkodkan, atau 'Malaysia' bagi jumlah kebangsaan. Merangkumi semua negeri dan Wilayah Persekutuan."
         },
         {
             "name": "education",
@@ -54,23 +54,23 @@
         },
         {
             "name": "addicts",
-            "title_en": "Number of Addicts",
-            "title_ms": "Bilangan Penagih",
-            "description_en": "The number of drug addicts recorded for the given year, state and category.",
-            "description_ms": "Bilangan penagih dadah yang direkodkan bagi tahun, negeri dan kategori yang berkenaan."
+            "title_en": "Number of Addicts and Abusers",
+            "title_ms": "Bilangan Penagih dan Penyalah Guna",
+            "description_en": "The number of drug or substance addicts and abusers recorded for the given year, state and category.",
+            "description_ms": "Bilangan penagih dan penyalah guna dadah atau bahan yang direkodkan bagi tahun, negeri dan kategori yang berkenaan."
         }
     ],
     "translations_en": {
         "date": "Date",
         "state": "State",
         "education": "Education Level",
-        "addicts": "Number of Addicts"
+        "addicts": "Number of Addicts and Abusers"
     },
     "translations_ms": {
         "date": "Tarikh",
         "state": "Negeri",
         "education": "Tahap Pendidikan",
-        "addicts": "Bilangan Penagih"
+        "addicts": "Bilangan Penagih dan Penyalah Guna"
     },
     "site_category": [
         {
