@@ -1,7 +1,7 @@
 {
 	"dashboard_name": "drug_addiction",
-	"data_last_updated": "2024-10-16 12:00",
-	"data_next_update": "2025-10-16 12:00",
+	"data_last_updated": "2024-10-27 17:00",
+	"data_next_update": "N/A",
 	"route": "/dashboard/drug-addiction,/ms-MY/dashboard/drug-addiction",
 	"sites": ["datagovmy"],
 	"manual_trigger": "",
