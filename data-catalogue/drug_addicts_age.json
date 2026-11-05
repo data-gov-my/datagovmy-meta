@@ -1,7 +1,7 @@
 {
     "link_csv": "https://storage.data.gov.my/publicsafety/drug_addicts_age.csv",
     "link_parquet": "https://storage.data.gov.my/publicsafety/drug_addicts_age.parquet",
-    "title_en": "Drug and Substance Addicts and Abusers by Age Category",
+    "title_en": "Drug and Substance Addicts and Abusers by Age Group",
     "title_ms": "Penagih dan Penyalah Guna Dadah dan Bahan Mengikut Kategori Umur",
     "description_en": "This dataset provides annual statistics on the number of individuals addicted to or misusing drugs and substances in Malaysia, broken down by state and age group. It offers insights into the demographic distribution of drug and substance addiction and misuse across various regions and age categories in the country.",
     "description_ms": "Set data ini menyediakan statistik tahunan mengenai bilangan penagih dan penyalah guna dadah dan bahan di Malaysia, yang dipecahkan mengikut negeri dan kumpulan umur. Ia menawarkan pandangan tentang taburan demografi penagihan dan penyalahgunaan dadah dan bahan di pelbagai kawasan dan kategori umur di negara ini.",
@@ -66,13 +66,13 @@
         "date": "Date",
         "state": "State",
         "age_group": "Age Group",
-        "addicts": "Number"
+        "addicts": "Number of Addicts and Abusers"
     },
     "translations_ms": {
         "date": "Tarikh",
         "state": "Negeri",
         "age_group": "Kumpulan Umur",
-        "addicts": "Bilangan"
+        "addicts": "Bilangan Penagih dan Penyalah Guna"
     },
     "site_category": [
         {

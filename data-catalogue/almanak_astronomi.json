@@ -1,21 +1,23 @@
 {
-    "link_csv": "https://storage.data.gov.my/publicadmin/alamanak_astronomi.csv",
-    "link_parquet": "https://storage.data.gov.my/publicadmin/alamanak_astronomi.parquet",
-    "link_preview": "https://storage.data.gov.my/publicadmin/alamanak_astronomi.parquet",
-    "title_en": "Astronomy Almanac ",
+    "link_csv": "https://storage.data.gov.my/science/alamanak_astronomi.csv",
+    "link_parquet": "https://storage.data.gov.my/science/alamanak_astronomi.parquet",
+    "link_preview": "https://storage.data.gov.my/science/alamanak_astronomi.parquet",
+    "title_en": "Astronomy Almanac",
     "title_ms": "Almanak Astronomi",
     "description_en": "This dataset provides information on astronomical phenomena observable from Malaysia, including the phases of the Moon, the Moon's perigee and apogee, Earth's perihelion and aphelion, meteor showers, planetary elongations, the solstices, equinoxes, and other related astronomical events. The data are calculated using Kuala Lumpur as the reference location and Malaysia Time (MYT, UTC+8), based on internationally recognized astronomical sources. This almanac is intended to support astronomical observations, education, and the planning of astronomy-related activities.",
     "description_ms": "Set data ini menyediakan maklumat fenomena astronomi yang dapat dicerap di Malaysia, termasuk fasa Bulan, perigee dan apogee Bulan, perihelion dan aphelion Bumi, hujan meteor, elongasi planet, solstis, ekuinoks serta fenomena berkaitan. Data dikira berdasarkan lokasi rujukan Kuala Lumpur dan Waktu Piawai Malaysia (MYT, UTC+8) menggunakan sumber astronomi yang diiktiraf. Almanak ini digunakan bagi tujuan pencerapan, pendidikan dan perancangan aktiviti astronomi.",
     "title_sort": 1,
     "exclude_openapi": false,
     "manual_trigger": "",
-    "data_as_of": "2026-04-01 16:11:00.000 +08:00",
+    "data_as_of": "2026-11-03",
+    "last_updated": "2026-11-03 16:00",
+    "next_update": "-",
     "frequency": "DAILY",
     "geography": [
         "NATIONAL"
     ],
     "demography": [],
-    "dataset_begin": "2022",
+    "dataset_begin": 2022,
     "dataset_end": 2026,
     "data_source": [
         "MYSA"
@@ -27,8 +29,6 @@
     "publication_en": "N/A",
     "publication_ms": "N/A",
     "related_datasets": [],
-    "last_updated": "2026-04-23 16:10:38.307 +08:00",
-    "next_update": "-",
     "fields": [
         {
             "name": "timestamp",
@@ -45,7 +45,7 @@
             "description_ms": "Nama atau kategori peristiwa astronomi."
         },
         {
-            "name": "penerangan\r",
+            "name": "penerangan",
             "title_en": "String",
             "title_ms": "Teks (String)",
             "description_en": "A textual description of the event, including observation tips or scientific significance.",
@@ -57,12 +57,12 @@
     "site_category": [
         {
             "site": "datagovmy",
-            "category_en": "Data Dictionaries",
-            "category_ms": "Kamus Data",
-            "category_sort": 110,
-            "subcategory_en": "Other",
-            "subcategory_ms": "Lain-lain",
-            "subcategory_sort": 10000
+            "category_en": "Science",
+            "category_ms": "Sains",
+            "category_sort": 46,
+            "subcategory_en": "Astronomy",
+            "subcategory_ms": "Astronomi",
+            "subcategory_sort": 10
         }
     ],
     "dataviz": [
