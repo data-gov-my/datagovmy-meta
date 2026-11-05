@@ -56,8 +56,8 @@
             "name": "addicts",
             "title_en": "Number",
             "title_ms": "Bilangan",
-            "description_en": "The number of drug or substance users recorded for the relevant year, state, and category.",
-            "description_ms": "Bilangan penagih dadah atau bahan yang direkodkan bagi tahun, negeri dan kategori yang berkenaan."
+            "description_en": "The number of drug or substance addicts and abusers recorded for the relevant year, state, and category.",
+            "description_ms": "Bilangan penagih dan penyalah guna dadah atau bahan yang direkodkan bagi tahun, negeri dan kategori yang berkenaan."
         }
     ],
     "translations_en": {
