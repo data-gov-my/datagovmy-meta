@@ -1,10 +1,10 @@
 {
     "link_csv": "https://storage.data.gov.my/publicsafety/drug_addicts_drugtype.csv",
     "link_parquet": "https://storage.data.gov.my/publicsafety/drug_addicts_drugtype.parquet",
-    "title_en": "Drug and Substance Addicts and Abusers by Drug Type",
-    "title_ms": "Penagih dan Penyalah Guna Dadah dan Bahan Mengikut Jenis Dadah",
-    "description_en": "This dataset provides yearly statistics on the number of drug and substance addicts and abusers in Malaysia, broken down by state and type of drug or substance. It offers an overview of the distribution of drug and substance addiction and abuse by type of drug or substance across the country.",
-    "description_ms": "Set data ini menyediakan statistik tahunan mengenai bilangan penagih dan penyalah guna dadah dan bahan di Malaysia, yang dipecahkan mengikut negeri dan jenis dadah dan bahan. Set data ini memberikan gambaran tentang taburan penagihan dan penyalahgunaan dadah dan bahan berdasarkan jenis dadah dan bahan di seluruh negara.",
+    "title_en": "Drug and Substance Addicts and Abusers by Drug Category",
+    "title_ms": "Penagih dan Penyalah Guna Dadah dan Bahan Mengikut Kategori Dadah",
+    "description_en": "This dataset provides annual statistics on the number of individuals addicted to or misusing drugs and substances in Malaysia, broken down by state and by the type of drug or substance. It offers an overview of the distribution of drug and substance addiction and misuse categorized by the specific type of drug or substance across various locations in the country.",
+    "description_ms": "Set data ini menyediakan statistik tahunan mengenai bilangan penagih dan penyalah guna dadah dan bahan di Malaysia, yang dipecahkan mengikut negeri dan jenis dadah dan bahan. Set data ini memberikan gambaran tentang taburan penagihan dan penyalahgunaan dadah dan bahan berdasarkan jenis dadah dan bahan di pelbagai penempatan di negara ini.",
     "title_sort": 9,
     "exclude_openapi": false,
     "manual_trigger": "",
@@ -21,14 +21,14 @@
         "AADK",
         "KDN"
     ],
-    "methodology_en": "The data is collected annually from national and state-level reports on drug and substance addiction and abuse. The data is categorized by type of drug or substance to enable analysis of the distribution of addicts and abusers by the type of drug or substance recorded. The dataset includes data from all Malaysian states and Federal Territories.",
-    "methodology_ms": "Data dikumpulkan setiap tahun daripada laporan peringkat kebangsaan dan negeri mengenai penagihan dan penyalahgunaan dadah dan bahan. Data dikategorikan mengikut jenis dadah dan bahan bagi membolehkan analisis taburan penagih dan penyalah guna berdasarkan jenis dadah dan bahan direkodkan. Set data ini merangkumi data dari semua negeri dan Wilayah Persekutuan di Malaysia.",
-    "caveat_en": "There are several caveats to note:\n\n- The classification of drug and substance types is based on the categories used in AADK's source records. Changes in classification or updates to categories over time may affect comparisons of data across years.\n- Up to 2020, methamphetamine is reported separately as 'methamphetamine_crystalline' (from 2015) and 'methamphetamine_pills' (from 2017). From 2021 onwards, methamphetamine is included under 'ats', so 'ats' figures before and after 2021 are not directly comparable.\n- Data for 2015-2022 is compiled on AADK's earlier basis, which counted slightly more addicts and abusers than the basis used from 2023 onwards (e.g. 26,248 in 2022, against 23,517 in the other three AADK datasets). From 2023, the totals in this dataset match those in the datasets by age group, education level and occupation. Part of the decline between 2022 and 2023 therefore reflects this change in basis.\n- Data for 2015-2018 is available only at the national level ('Malaysia'); the breakdown by state begins in 2019.",
-    "caveat_ms": "Terdapat beberapa perkara yang perlu diberi perhatian:\n\n- Pengelasan jenis dadah dan bahan adalah berdasarkan kategori yang digunakan dalam rekod sumber AADK. Perubahan dalam pengelasan atau pengemaskinian kategori dari semasa ke semasa boleh mempengaruhi perbandingan data antara tahun.\n- Sehingga 2020, methamphetamine dilaporkan secara berasingan sebagai 'methamphetamine_crystalline' (mulai 2015) dan 'methamphetamine_pills' (mulai 2017). Mulai 2021, methamphetamine dimasukkan di bawah 'ats', maka angka 'ats' sebelum dan selepas 2021 tidak boleh dibandingkan secara langsung.\n- Data bagi tempoh 2015-2022 disusun mengikut asas terdahulu AADK, yang mengira sedikit lebih ramai penagih dan penyalah guna berbanding asas yang digunakan mulai 2023 (cth. 26,248 pada 2022, berbanding 23,517 dalam tiga set data AADK yang lain). Mulai 2023, jumlah dalam set data ini sepadan dengan set data mengikut kategori umur, tahap pendidikan dan pekerjaan. Oleh itu, sebahagian daripada penurunan antara 2022 dan 2023 adalah disebabkan oleh perubahan asas ini.\n- Data bagi tempoh sebelum 2019 hanya tersedia di peringkat kebangsaan ('Malaysia'); pecahan mengikut negeri bermula pada tahun 2019.",
+    "methodology_en": "Data is collected annually from national and state-level reports concerning drug and substance addiction and abuse. The data is categorized by type of drug or substance, enabling an analysis of the distribution of individuals struggling with addiction or substance abuse based on the specific substances involved. This dataset encompasses information from all states and territories in Malaysia.",
+    "methodology_ms": "Data dikumpulkan setiap tahun daripada laporan peringkat kebangsaan dan negeri mengenai penagihan dan penyalahgunaan dadah dan bahan. Data dikategorikan mengikut jenis dadah dan bahan bagi membolehkan analisis taburan penagih dan penyalah guna berdasarkan jenis dadah dan bahan direkodkan. Set data ini merangkumi data dari semua negeri dan wilayah di Malaysia. ",
+    "caveat_en": "The classification of drug types and substances is based on the categories used in AADK’s source records. Changes in classification or updates to these categories over time may affect data comparisons between years.",
+    "caveat_ms": "Pengelasan jenis dadah dan bahan adalah berdasarkan kategori yang digunakan dalam rekod sumber AADK. Perubahan dalam pengelasan atau pengemaskinian kategori dari semasa ke semasa boleh mempengaruhi perbandingan data antara tahun.",
     "publication_en": "N/A",
     "publication_ms": "N/A",
     "related_datasets": [],
-    "last_updated": "2026-10-27 17:00",
+    "last_updated": "2026-11-05 17:00",
     "next_update": "N/A",
     "fields": [
         {
@@ -42,7 +42,7 @@
             "name": "state",
             "title_en": "State",
             "title_ms": "Negeri",
-            "description_en": "The state where the addicts and abusers were recorded, or 'Malaysia' for the national total. Includes all states and Federal Territories.",
+            "description_en": "The state where addicts and substance abusers are recorded, or 'Malaysia' for the national total. Includes all states and Federal Territories.",
             "description_ms": "Negeri di mana penagih dan penyalah guna direkodkan, atau 'Malaysia' bagi jumlah kebangsaan. Merangkumi semua negeri dan Wilayah Persekutuan."
         },
         {
@@ -54,10 +54,10 @@
         },
         {
             "name": "addicts",
-            "title_en": "Number of Addicts and Abusers",
-            "title_ms": "Bilangan Penagih dan Penyalah Guna",
-            "description_en": "The number of drug or substance addicts and abusers recorded for the given year, state and category.",
-            "description_ms": "Bilangan penagih dan penyalah guna dadah atau bahan yang direkodkan bagi tahun, negeri dan kategori yang berkenaan."
+            "title_en": "Number",
+            "title_ms": "Bilangan",
+            "description_en": "The number of drug or substance users recorded for the relevant year, state, and category.",
+            "description_ms": "Bilangan penagih dadah atau bahan yang direkodkan bagi tahun, negeri dan kategori yang berkenaan."
         }
     ],
     "translations_en": {
