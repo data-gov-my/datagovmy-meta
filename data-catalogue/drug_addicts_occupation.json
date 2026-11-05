@@ -3,8 +3,8 @@
     "link_parquet": "https://storage.data.gov.my/publicsafety/drug_addicts_occupation.parquet",
     "title_en": "Drug and Substance Addicts and Abusers by Occupational Category",
     "title_ms": "Penagih dan Penyalah Guna Dadah dan Bahan Mengikut Kategori Pekerjaan",
-    "description_en": "This dataset managed by the National Anti-Drugs Agency (NADA) in collaboration with the Department of Statistics Malaysia (DOSM), provides annual statistics on drug addiction in Malaysia. It presents data at both the national and state levels, offering insights into trends and demographic breakdowns of drug addiction by occupation. This information is crucial for understanding the impact of drug addiction across different occupational sectors and aids in policy-making and intervention strategies.",
-    "description_ms": "Dataset ini diuruskan oleh Agensi Anti Dadah Kebangsaan (AADK) dengan kerjasama Jabatan Perangkaan Malaysia (DOSM), menyediakan statistik tahunan mengenai ketagihan dadah di Malaysia. Ia memaparkan data di peringkat nasional dan negeri, memberikan pandangan tentang trend dan pecahan demografi ketagihan dadah mengikut pekerjaan. Maklumat ini penting untuk memahami impak ketagihan dadah di pelbagai sektor pekerjaan dan membantu dalam pembuatan dasar dan strategi intervensi.",
+    "description_en": "This dataset provides annual statistics on the number of drug and substance addicts and abusers in Malaysia, broken down by state and occupational category. It offers an overview of the distribution of drug and substance addicts and abusers based on their occupational category.",
+    "description_ms": "Set data ini menyediakan statistik tahunan mengenai bilangan penagih dan penyalah guna dadah dan bahan di Malaysia, yang dipecahkan mengikut negeri dan kategori pekerjaan. Set data ini memberikan gambaran tentang taburan penagih dan penyalah guna dadah dan bahan berdasarkan kategori pekerjaan.",
     "title_sort": 13,
     "exclude_openapi": false,
     "manual_trigger": "",
@@ -21,14 +21,14 @@
         "AADK",
         "KDN"
     ],
-    "methodology_en": "The data is collected and compiled annually by the National Anti-Drugs Agency (NADA) and the Department of Statistics Malaysia (DOSM). It includes information on the number of drug addicts categorized by their occupation, covering both national and state levels. The dataset is updated yearly to reflect current trends and demographic shifts in drug addiction across different occupational groups.",
-    "methodology_ms": "Data dikumpul dan disusun setiap tahun oleh Agensi Anti Dadah Kebangsaan (AADK) dan Jabatan Perangkaan Malaysia (DOSM). Ia merangkumi maklumat mengenai bilangan penagih dadah yang dikategorikan mengikut pekerjaan mereka, meliputi peringkat nasional dan negeri. Dataset ini dikemas kini setiap tahun untuk mencerminkan trend semasa dan perubahan demografi dalam ketagihan dadah di pelbagai kumpulan pekerjaan.",
-    "caveat_en": "The dataset may contain missing values for certain occupations or states due to data collection limitations. Additionally, the occupation categories are not exhaustive and may not cover all possible job roles. Users should exercise caution when interpreting trends or making comparisons across different regions or years.",
-    "caveat_ms": "Dataset ini mungkin mengandungi nilai yang hilang untuk pekerjaan atau negeri tertentu disebabkan oleh batasan pengumpulan data. Selain itu, kategori pekerjaan tidak menyeluruh dan mungkin tidak merangkumi semua peranan kerja yang mungkin. Pengguna harus berhati-hati ketika mentafsirkan trend atau membuat perbandingan merentasi pelbagai wilayah atau tahun.",
+    "methodology_en": "Data is collected annually from national and state-level reports on drug and substance addiction and abuse. The data is categorized by occupation, enabling an analysis of the distribution of individuals who use or abuse drugs and substances based on their employment. This dataset encompasses information from all states and Federal Territories in Malaysia.",
+    "methodology_ms": "Data dikumpulkan setiap tahun daripada laporan peringkat kebangsaan dan negeri mengenai penagihan dan penyalahgunaan dadah dan bahan. Data dikategorikan mengikut kategori pekerjaan bagi membolehkan analisis taburan penagih dan penyalah guna dadah dan bahan berdasarkan pekerjaan. Set data ini merangkumi data dari semua negeri dan Wilayah Persekutuan di Malaysia.",
+    "caveat_en": "This dataset may not account for unreported cases of drug and substance addiction and abuse. Data interpretation should take into consideration the occupational categories used in the source records. If a total category is present, it encompasses all occupational categories and should not be added again to the other occupational categories.",
+    "caveat_ms": "Set data ini mungkin tidak mengambil kira kes penagihan dan penyalahgunaan dadah dan bahan yang tidak dilaporkan. Tafsiran data hendaklah mengambil kira kategori pekerjaan yang digunakan dalam rekod sumber. Sekiranya terdapat kategori jumlah keseluruhan (total), kategori tersebut merangkumi semua kategori pekerjaan dan tidak seharusnya dijumlahkan sekali lagi dengan kategori pekerjaan yang lain.",
     "publication_en": "N/A",
     "publication_ms": "N/A",
     "related_datasets": [],
-    "last_updated": "2026-10-27 17:00",
+    "last_updated": "2026-11-05 17:00",
     "next_update": "N/A",
     "fields": [
         {
@@ -42,8 +42,8 @@
             "name": "state",
             "title_en": "State",
             "title_ms": "Negeri",
-            "description_en": "The state where the addicts were recorded, or 'Malaysia' for the national total. Includes all states and federal territories.",
-            "description_ms": "Negeri di mana penagih direkodkan, atau 'Malaysia' bagi jumlah kebangsaan. Merangkumi semua negeri dan wilayah persekutuan."
+            "description_en": "The state where addicts and substance abusers are recorded, or 'Malaysia' for the national total. Includes all states and Federal Territories.",
+            "description_ms": "Negeri di mana penagih dan penyalah guna direkodkan, atau 'Malaysia' bagi jumlah kebangsaan. Merangkumi semua negeri dan Wilayah Persekutuan."
         },
         {
             "name": "jobs",
@@ -56,8 +56,8 @@
             "name": "addicts",
             "title_en": "Number",
             "title_ms": "Bilangan",
-            "description_en": "The number of drug addicts recorded for the given year, state and category.",
-            "description_ms": "Bilangan penagih dadah yang direkodkan bagi tahun, negeri dan kategori yang berkenaan."
+            "description_en": "Number of drug or substance users recorded by year, state, and relevant category.",
+            "description_ms": "Bilangan penagih dadah atau bahan yang direkodkan bagi tahun, negeri dan kategori yang berkenaan."
         }
     ],
     "translations_en": {

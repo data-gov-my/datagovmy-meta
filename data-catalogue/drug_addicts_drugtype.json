@@ -3,8 +3,8 @@
     "link_parquet": "https://storage.data.gov.my/publicsafety/drug_addicts_drugtype.parquet",
     "title_en": "Drug and Substance Addicts and Abusers by Drug Category",
     "title_ms": "Penagih dan Penyalah Guna Dadah dan Bahan Mengikut Kategori Dadah",
-    "description_en": "This dataset provides information on the types of drugs reported by each state in Malaysia, as recorded by the National Anti-Drugs Agency (AADK). The data is categorized based on the type of drug as defined by relevant acts, and includes the number of addicts associated with each drug type per state.",
-    "description_ms": "Set data ini menyediakan maklumat mengenai jenis-jenis dadah yang dilaporkan oleh setiap negeri di Malaysia, seperti yang direkodkan oleh Agensi Anti Dadah Kebangsaan (AADK). Data dikategorikan berdasarkan jenis dadah seperti yang ditentukan oleh akta berkaitan, dan termasuk bilangan penagih yang dikaitkan dengan setiap jenis dadah mengikut negeri.Kategori dadah adalah seperti berikut:\na. Stimulan jenis amfetamin (ATS):\ni) Methamphetamine (Crystalline): Syabu, Ice dan Batu\nii) Methamphetamine (Tablet): Pil Kuda, Pil YABA, Pil YAMA dan Pil Bom\niii) Ecstasy\niv) Amphetamine\nb. Opiat: Candu, Heroin, Morfin dan Kodein\nc. Ganja: Ganja, Hashish dan Marijuana\nd. Pil Psikotropik: Benzodiazepine (Nimetazepam, Diazepam dan Midazolam)\ne. Lain-lain: Ketum, Kokain, Ketamin, Halusinogen, Inhalan dan lain-lain.",
+    "description_en": "This dataset provides annual statistics on the number of individuals addicted to or misusing drugs and substances in Malaysia, broken down by state and by the type of drug or substance. It offers an overview of the distribution of drug and substance addiction and misuse categorized by the specific type of drug or substance across various locations in the country.",
+    "description_ms": "Set data ini menyediakan statistik tahunan mengenai bilangan penagih dan penyalah guna dadah dan bahan di Malaysia, yang dipecahkan mengikut negeri dan jenis dadah dan bahan. Set data ini memberikan gambaran tentang taburan penagihan dan penyalahgunaan dadah dan bahan berdasarkan jenis dadah dan bahan di pelbagai penempatan di negara ini.",
     "title_sort": 9,
     "exclude_openapi": false,
     "manual_trigger": "",
@@ -21,14 +21,14 @@
         "AADK",
         "KDN"
     ],
-    "methodology_en": "The data is collected annually from records maintained by the National Anti-Drugs Agency (AADK). Each entry in the dataset corresponds to a specific state and includes the type of drug and the number of addicts reported for that drug type. The categorization of drugs is based on existing legal definitions and classifications.",
-    "methodology_ms": "Data dikumpulkan setiap tahun daripada rekod yang diselenggara oleh Agensi Anti Dadah Kebangsaan (AADK). Setiap entri dalam set data ini merujuk kepada negeri tertentu dan termasuk jenis dadah serta bilangan penagih yang dilaporkan untuk jenis dadah tersebut. Pengkategorian dadah adalah berdasarkan definisi dan klasifikasi undang-undang sedia ada.",
-    "caveat_en": "The data represents annual records and may not reflect real-time changes or updates. Additionally, the number of addicts is reported as recorded and may not account for unreported cases or discrepancies in data collection methods across different states.",
-    "caveat_ms": "Data ini mewakili rekod tahunan dan mungkin tidak mencerminkan perubahan atau kemas kini masa nyata. Selain itu, bilangan penagih dilaporkan seperti yang direkodkan dan mungkin tidak mengambil kira kes yang tidak dilaporkan atau perbezaan dalam kaedah pengumpulan data di negeri-negeri yang berbeza.",
+    "methodology_en": "Data is collected annually from national and state-level reports concerning drug and substance addiction and abuse. The data is categorized by type of drug or substance, enabling an analysis of the distribution of individuals struggling with addiction or substance abuse based on the specific substances involved. This dataset encompasses information from all states and territories in Malaysia.",
+    "methodology_ms": "Data dikumpulkan setiap tahun daripada laporan peringkat kebangsaan dan negeri mengenai penagihan dan penyalahgunaan dadah dan bahan. Data dikategorikan mengikut jenis dadah dan bahan bagi membolehkan analisis taburan penagih dan penyalah guna berdasarkan jenis dadah dan bahan direkodkan. Set data ini merangkumi data dari semua negeri dan wilayah di Malaysia. ",
+    "caveat_en": "The classification of drug types and substances is based on the categories used in AADK’s source records. Changes in classification or updates to these categories over time may affect data comparisons between years.",
+    "caveat_ms": "Pengelasan jenis dadah dan bahan adalah berdasarkan kategori yang digunakan dalam rekod sumber AADK. Perubahan dalam pengelasan atau pengemaskinian kategori dari semasa ke semasa boleh mempengaruhi perbandingan data antara tahun.",
     "publication_en": "N/A",
     "publication_ms": "N/A",
     "related_datasets": [],
-    "last_updated": "2026-10-27 17:00",
+    "last_updated": "2026-11-05 17:00",
     "next_update": "N/A",
     "fields": [
         {
@@ -42,8 +42,8 @@
             "name": "state",
             "title_en": "State",
             "title_ms": "Negeri",
-            "description_en": "The state where the addicts were recorded, or 'Malaysia' for the national total. Includes all states and federal territories.",
-            "description_ms": "Negeri di mana penagih direkodkan, atau 'Malaysia' bagi jumlah kebangsaan. Merangkumi semua negeri dan wilayah persekutuan."
+            "description_en": "The state where addicts and substance abusers are recorded, or 'Malaysia' for the national total. Includes all states and Federal Territories.",
+            "description_ms": "Negeri di mana penagih dan penyalah guna direkodkan, atau 'Malaysia' bagi jumlah kebangsaan. Merangkumi semua negeri dan Wilayah Persekutuan."
         },
         {
             "name": "drugs",
@@ -56,8 +56,8 @@
             "name": "addicts",
             "title_en": "Number",
             "title_ms": "Bilangan",
-            "description_en": "The number of drug addicts recorded for the given year, state and category.",
-            "description_ms": "Bilangan penagih dadah yang direkodkan bagi tahun, negeri dan kategori yang berkenaan."
+            "description_en": "The number of drug or substance users recorded for the relevant year, state, and category.",
+            "description_ms": "Bilangan penagih dadah atau bahan yang direkodkan bagi tahun, negeri dan kategori yang berkenaan."
         }
     ],
     "translations_en": {
