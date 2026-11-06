@@ -13,6 +13,7 @@
   "methodology_ms": "Data ini dijana melalui proses pengumpulan dan penyusunan maklumat berkaitan produk dan perkhidmatan yang menerima penandaan logo MySTI. Maklumat yang direkodkan merangkumi tahun penerimaan penandaan logo MySTI, nama produk atau perkhidmatan, nama syarikat, negeri, kategori, sektor, bidang teknologi serta maklumat harta intelek. Data dikumpulkan dan disusun dalam pangkalan data berstruktur bagi tujuan penyimpanan, pengurusan, pemantauan dan pelaporan berkaitan program MySTI.",
   "link_parquet": "https://storage.data.gov.my/mysti/mysti.parquet",
   "link_csv": "https://storage.data.gov.my/mysti/mysti.csv",
+  "link_preview": "https://storage.data.gov.my/mysti/mysti.parquet",
   "frequency": "",
   "geography": [
     "NATIONAL",
