@@ -1,10 +1,10 @@
 {
     "link_csv": "https://storage.data.gov.my/publicsafety/drug_addicts_education.csv",
     "link_parquet": "https://storage.data.gov.my/publicsafety/drug_addicts_education.parquet",
-    "title_en": "Drug and Substance Addicts and Abusers by Education Level",
-    "title_ms": "Penagih dan Penyalah Guna Dadah dan Bahan Mengikut Tahap Pendidikan",
-    "description_en": "This dataset provides yearly statistics on the number of drug and substance addicts and abusers in Malaysia, broken down by state and education level. It offers an overview of the distribution of drug and substance addicts and abusers by education level across the country.",
-    "description_ms": "Set data ini menyediakan statistik tahunan mengenai bilangan penagih dan penyalah guna dadah dan bahan di Malaysia, yang dipecahkan mengikut negeri dan tahap pendidikan. Set data ini memberikan gambaran tentang taburan penagihan dan penyalahgunaan dadah dan bahan berdasarkan tahap pendidikan di seluruh negara.",
+    "title_en": "Drug Addicts and Substance Abusers by Education Category",
+    "title_ms": "Penagih dan Penyalah Guna Dadah dan Bahan Mengikut Kategori Pendidikan",
+    "description_en": "This dataset provides annual statistics on the number of drug and substance addicts and abusers in Malaysia, broken down by state and level of education. It offers an overview of the distribution of drug and substance addicts and abusers categorized by their level of education across various locations in the country.",
+    "description_ms": "Set data ini menyediakan statistik tahunan mengenai bilangan penagih dan penyalah guna dadah dan bahan di Malaysia, yang dipecahkan mengikut negeri dan tahap Pendidikan. Set data ini memberikan gambaran tentang taburan penagih dan penyalah guna dadah dan bahan berdasarkan tahap pendidikan di pelbagai penempatan di negara ini.",
     "title_sort": 11,
     "exclude_openapi": false,
     "manual_trigger": "",
@@ -21,28 +21,28 @@
         "AADK",
         "KDN"
     ],
-    "methodology_en": "The data is collected annually from national and state-level reports on drug and substance addiction and abuse. The data is categorized by education level to enable analysis of the distribution of drug and substance addicts and abusers by education level. The dataset includes data from all Malaysian states and Federal Territories.",
+    "methodology_en": "Data is collected annually from national and state-level reports on drug and substance addiction and abuse. The data is categorized by educational attainment to enable an analysis of the distribution of individuals who use or abuse drugs and substances, based on their level of education. This dataset encompasses information from all states and Federal Territories in Malaysia.",
     "methodology_ms": "Data dikumpulkan setiap tahun daripada laporan peringkat kebangsaan dan negeri mengenai penagihan dan penyalahgunaan dadah dan bahan. Data dikategorikan mengikut tahap pendidikan bagi membolehkan analisis taburan penagih dan penyalah guna dadah dan bahan berdasarkan tahap pendidikan. Set data ini merangkumi data dari semua negeri dan Wilayah Persekutuan di Malaysia.",
-    "caveat_en": "There are several caveats to note:\n\n- The dataset may not account for unreported cases of drug and substance addiction and abuse.\n- Interpretation of the data should take into account the education level categories used in the source records. Where a 'total' category is present, it covers all education level categories and should not be summed again with the other education level categories.\n- Data for 2016-2018 is available only at the national level ('Malaysia'); the breakdown by state begins in 2019.",
-    "caveat_ms": "Terdapat beberapa perkara yang perlu diberi perhatian:\n\n- Set data ini mungkin tidak mengambil kira kes penagihan dan penyalahgunaan dadah dan bahan yang tidak dilaporkan.\n- Tafsiran data hendaklah mengambil kira kategori tahap pendidikan yang digunakan dalam rekod sumber. Sekiranya terdapat kategori jumlah keseluruhan (total), kategori tersebut merangkumi semua kategori tahap pendidikan dan tidak seharusnya dijumlahkan sekali lagi dengan kategori tahap pendidikan yang lain.\n- Data bagi tempoh sebelum 2019 hanya tersedia di peringkat kebangsaan ('Malaysia'); pecahan mengikut negeri bermula pada tahun 2019.",
+    "caveat_en": "This dataset may not account for unreported cases of drug and substance addiction and abuse. Data interpretation should take into consideration the educational attainment categories used in the source records. If a total category is present, it encompasses all educational attainment categories and should not be added again to the other educational attainment categories",
+    "caveat_ms": "Set data ini mungkin tidak mengambil kira kes penagihan dan penyalahgunaan dadah dan bahan yang tidak dilaporkan. Tafsiran data hendaklah mengambil kira kategori tahap pendidikan yang digunakan dalam rekod sumber. Sekiranya terdapat kategori jumlah keseluruhan (total), kategori tersebut merangkumi semua kategori tahap pendidikan dan tidak seharusnya dijumlahkan sekali lagi dengan kategori tahap pendidikan yang lain.",
     "publication_en": "N/A",
     "publication_ms": "N/A",
     "related_datasets": [],
-    "last_updated": "2026-10-08 07:58",
-    "next_update": "2027-10-31 16:00",
+    "last_updated": "2026-11-05 17:00",
+    "next_update": "N/A",
     "fields": [
         {
             "name": "date",
             "title_en": "Date",
             "title_ms": "Tarikh",
-            "description_en": "The year of the data, in YYYY-MM-DD format, where YYYY-01-01 represents the full year.",
-            "description_ms": "Tahun data, dalam format YYYY-MM-DD, di mana YYYY-01-01 mewakili tahun penuh."
+            "description_en": "The year of the data, in YYYY-MM-DD format, where YYYY-12-31 represents the full year.",
+            "description_ms": "Tahun data, dalam format YYYY-MM-DD, di mana YYYY-12-31 mewakili tahun penuh."
         },
         {
             "name": "state",
             "title_en": "State",
             "title_ms": "Negeri",
-            "description_en": "The state where the addicts and abusers were recorded, or 'Malaysia' for the national total. Includes all states and Federal Territories.",
+            "description_en": "The state where addicts and substance abusers are recorded, or 'Malaysia' for the national total. Includes all states and Federal Territories.",
             "description_ms": "Negeri di mana penagih dan penyalah guna direkodkan, atau 'Malaysia' bagi jumlah kebangsaan. Merangkumi semua negeri dan Wilayah Persekutuan."
         },
         {
@@ -50,13 +50,13 @@
             "title_en": "Education Level",
             "title_ms": "Tahap Pendidikan",
             "description_en": "The highest level of education attained by the addicts: 'none', 'primary', 'pmr', 'spm', 'stpm', 'diploma', 'tertiary' (bachelor's, master's or PhD) and 'others' (e.g. skills certificates), with 'total' covering all levels.",
-            "description_ms": "Tahap pendidikan tertinggi yang dicapai oleh penagih: 'none' (tiada pendidikan formal), 'primary' (sekolah rendah), 'pmr', 'spm', 'stpm', 'diploma', 'tertiary' (sarjana muda, sarjana atau PhD) dan 'others' (lain-lain, seperti sijil kemahiran), dengan 'total' merangkumi semua tahap."
+            "description_ms": "Tahap pendidikan tertinggi yang dicapai oleh penagih: 'none' (tiada pendidikan formal), 'primary' (sekolah rendah), 'pmr', 'spm', 'stpm', 'diploma', 'tertiary' (sarjana muda, sarjana atau PhD) dan 'others' (lain-lain, seperti sijil kemahiran), dengan 'JUMLAH' merangkumi semua tahap."
         },
         {
             "name": "addicts",
-            "title_en": "Number of Addicts and Abusers",
-            "title_ms": "Bilangan Penagih dan Penyalah Guna",
-            "description_en": "The number of drug or substance addicts and abusers recorded for the given year, state and category.",
+            "title_en": "Number",
+            "title_ms": "Bilangan",
+            "description_en": "The number of drug or substance addicts and abusers recorded for the relevant year, state, and category.",
             "description_ms": "Bilangan penagih dan penyalah guna dadah atau bahan yang direkodkan bagi tahun, negeri dan kategori yang berkenaan."
         }
     ],
