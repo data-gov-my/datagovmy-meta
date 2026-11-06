@@ -134,10 +134,10 @@
       "config": {
         "precision": 0,
         "filter_columns": [
-          "tahun"
+          "Tahun"
         ],
         "freeze_columns": [
-          "tahun"
+          "Tahun"
         ]
       }
     }
