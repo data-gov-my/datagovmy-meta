@@ -29,63 +29,63 @@
   "related_datasets": [],
   "fields": [
     {
-      "name": "tahun",
+      "name": "Tahun",
       "title_en": "Year",
       "title_ms": "Tahun",
       "description_en": "[String] Year recorded for the entry, from 2023 to 2026. Stored as text; the source does not define whether this is the application, approval or certification year.",
       "description_ms": "[Teks] Tahun yang direkodkan bagi entri, dari 2023 hingga 2026. Disimpan sebagai teks; sumber tidak menentukan sama ada ini tahun permohonan, kelulusan atau pensijilan."
     },
     {
-      "name": "nama",
+      "name": "Nama",
       "title_en": "Product or Service Name",
       "title_ms": "Nama Produk atau Perkhidmatan",
       "description_en": "[String] Name of the product or service recorded in the dataset. Names are not unique identifiers.",
       "description_ms": "[Teks] Nama produk atau perkhidmatan yang direkodkan dalam set data. Nama bukan pengecam unik."
     },
     {
-      "name": "nama syarikat",
+      "name": "Nama Syarikat",
       "title_en": "Company Name",
       "title_ms": "Nama Syarikat",
       "description_en": "[String] Company name associated with the entry, as supplied in the source.",
       "description_ms": "[Teks] Nama syarikat yang dikaitkan dengan entri, seperti dibekalkan dalam sumber."
     },
     {
-      "name": "negeri",
+      "name": "Negeri",
       "title_en": "State or Federal Territory",
       "title_ms": "Negeri atau Wilayah Persekutuan",
       "description_en": "[String] State or federal territory recorded for the entry. Source labels are preserved, including Putrajaya.",
       "description_ms": "[Teks] Negeri atau wilayah persekutuan yang direkodkan bagi entri. Label sumber dikekalkan, termasuk Putrajaya."
     },
     {
-      "name": "produk/servis",
+      "name": "Produk/Servis",
       "title_en": "Product or Service",
       "title_ms": "Produk atau Perkhidmatan",
       "description_en": "[String] Entry type: Produk (product) or Perkhidmatan (service).",
       "description_ms": "[Teks] Jenis entri: Produk atau Perkhidmatan."
     },
     {
-      "name": "kategori",
+      "name": "Kategori",
       "title_en": "Category",
       "title_ms": "Kategori",
       "description_en": "[String] Category recorded in the source: Produk fizikal (physical product) or Peranti (device). This field is separate from the product/service type.",
       "description_ms": "[Teks] Kategori yang direkodkan dalam sumber: Produk fizikal atau Peranti. Medan ini berasingan daripada jenis produk/perkhidmatan."
     },
     {
-      "name": "sektor",
+      "name": "Sektor",
       "title_en": "Sector",
       "title_ms": "Sektor",
       "description_en": "[String] Sector assigned to the entry, such as Medical & Healthcare or Smart Technology & System. The source contains 10 distinct sector labels.",
       "description_ms": "[Teks] Sektor yang diberikan kepada entri, seperti Medical & Healthcare atau Smart Technology & System. Sumber mengandungi 10 label sektor berbeza."
     },
     {
-      "name": "teknologi",
+      "name": "Teknologi",
       "title_en": "Technology",
       "title_ms": "Teknologi",
       "description_en": "[String] Technology classification assigned to the entry, such as Bioscience Technology or Advanced Intelligence Systems. The source contains 10 distinct technology labels.",
       "description_ms": "[Teks] Klasifikasi teknologi yang diberikan kepada entri, seperti Bioscience Technology atau Advanced Intelligence Systems. Sumber mengandungi 10 label teknologi berbeza."
     },
     {
-      "name": "harta intelek",
+      "name": "Harta Intelek",
       "title_en": "Intellectual Property",
       "title_ms": "Harta Intelek",
       "description_en": "[String] Intellectual property label or labels recorded for the entry. Multiple labels are comma-separated within one cell. Labels include Patent, Trademark, Copyright, Industrial Design, Utility Innovation and Invention Disclosure Form. A label does not establish registration or legal status. One entry is missing this value.",
