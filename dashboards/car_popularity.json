@@ -1,12 +1,12 @@
 {
     "dashboard_name": "car_popularity",
     "data_last_updated": "2026-10-10 18:00",
-    "data_next_update": "2026-11-13 18:00",
+    "data_next_update": "2026-11-10 18:00",
     "route": "/dashboard/car-popularity,/ms-MY/dashboard/car-popularity",
     "sites": [
         "datagovmy"
     ],
-    "manual_trigger": "2026-11-10 18:02:19.136665",
+    "manual_trigger": "2026-10-10 16:14:11.988159",
     "required_params": [],
     "optional_params": [
         "maker",

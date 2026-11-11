@@ -33,4 +33,4 @@ jobs:
                   url: "https://staging.datagovmy.dev/data-catalogue/update/"
                   method: "POST"
                   customHeaders: '{"Authorization": "${{ secrets.DATA_CATALOGUE_TOKEN_STAGING }}"}'
-                  timeout: 120000
+                  timeout: 30000
