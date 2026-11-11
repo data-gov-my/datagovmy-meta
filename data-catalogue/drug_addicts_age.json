@@ -1,10 +1,10 @@
 {
     "link_csv": "https://storage.data.gov.my/publicsafety/drug_addicts_age.csv",
     "link_parquet": "https://storage.data.gov.my/publicsafety/drug_addicts_age.parquet",
-    "title_en": "Drug and Substance Addicts and Abusers by Age Group",
+    "title_en": "Drug and Substance Addicts and Abusers by Age Category",
     "title_ms": "Penagih dan Penyalah Guna Dadah dan Bahan Mengikut Kategori Umur",
-    "description_en": "This dataset provides yearly statistics on the number of drug and substance addicts and abusers in Malaysia, broken down by state and age group. It offers insights into the demographic distribution of drug and substance addiction and abuse across different regions and age categories in the country.",
-    "description_ms": "Set data ini menyediakan statistik tahunan mengenai bilangan penagih dan penyalah guna dadah dan bahan di Malaysia, yang dipecahkan mengikut negeri dan kumpulan umur. Ia menawarkan pandangan tentang taburan demografi penagihan dan penyalahgunaan dadah dan bahan di pelbagai kawasan dan kategori umur di negara ini.",
+    "description_en": "This dataset provides yearly statistics on the number of drug addicts in Malaysia, broken down by state and age group. It offers insights into the demographic distribution of drug addiction across different regions and age categories in the country.",
+    "description_ms": "Set data ini menyediakan statistik tahunan mengenai bilangan penagih dadah di Malaysia, yang dipecahkan mengikut negeri dan kumpulan umur. Ia menawarkan pandangan tentang taburan demografi penagihan dadah di pelbagai kawasan dan kategori umur di negara ini.",
     "title_sort": 5,
     "exclude_openapi": false,
     "manual_trigger": "",
@@ -23,10 +23,10 @@
         "AADK",
         "KDN"
     ],
-    "methodology_en": "The data is collected annually from national and state-level reports on drug and substance addiction and abuse. The age groups are categorized into specific ranges to facilitate a detailed analysis of the demographic distribution of addicts and abusers. The dataset includes data from all Malaysian states and Federal Territories.",
-    "methodology_ms": "Data dikumpulkan setiap tahun daripada laporan peringkat kebangsaan dan negeri mengenai penagihan dan penyalahgunaan dadah dan bahan. Kumpulan umur dikategorikan kepada julat tertentu untuk memudahkan analisis terperinci mengenai taburan demografi penagih dan penyalah guna. Set data ini merangkumi data dari semua negeri dan Wilayah Persekutuan di Malaysia.",
-    "caveat_en": "There are several caveats to note:\n\n- The dataset may not account for unreported cases of drug and substance addiction and abuse.\n- The age group labeled 'total' includes all age categories, which might lead to discrepancies if summed with other specific age groups.\n- Data for 2015-2018 is available only at the national level ('Malaysia'); the breakdown by state begins in 2019.",
-    "caveat_ms": "Terdapat beberapa perkara yang perlu diberi perhatian:\n\n- Set data ini mungkin tidak mengambil kira kes penagihan dan penyalahgunaan dadah dan bahan yang tidak dilaporkan.\n- Kumpulan umur yang dilabelkan sebagai 'total' merangkumi semua kategori umur, yang mungkin menyebabkan ketidakkonsistenan jika dijumlahkan dengan kumpulan umur tertentu yang lain.\n- Data bagi tempoh sebelum 2019 hanya tersedia di peringkat kebangsaan ('Malaysia'); pecahan mengikut negeri bermula pada tahun 2019.",
+    "methodology_en": "The data is collected annually from national and state-level reports on drug addiction. The age groups are categorized into specific ranges to facilitate a detailed analysis of the demographic distribution of addicts. The dataset includes data from all Malaysian states and territories.",
+    "methodology_ms": "Data dikumpulkan setiap tahun daripada laporan peringkat kebangsaan dan negeri mengenai penagihan dadah. Kumpulan umur dikategorikan kepada julat tertentu untuk memudahkan analisis terperinci mengenai taburan demografi penagih. Set data ini merangkumi data dari semua negeri dan wilayah di Malaysia.",
+    "caveat_en": "The dataset may not account for unreported cases of drug addiction. Additionally, the age group labeled 'total' includes all age categories, which might lead to discrepancies if summed with other specific age groups.",
+    "caveat_ms": "Set data ini mungkin tidak mengambil kira kes penagihan dadah yang tidak dilaporkan. Selain itu, kumpulan umur yang dilabelkan sebagai 'total' merangkumi semua kategori umur, yang mungkin menyebabkan ketidakkonsistenan jika dijumlahkan dengan kumpulan umur tertentu yang lain.",
     "publication_en": "N/A",
     "publication_ms": "N/A",
     "related_datasets": [],
@@ -44,8 +44,8 @@
             "name": "state",
             "title_en": "State",
             "title_ms": "Negeri",
-            "description_en": "The state where the addicts and abusers were recorded, or 'Malaysia' for the national total. Includes all states and Federal Territories.",
-            "description_ms": "Negeri di mana penagih dan penyalah guna direkodkan, atau 'Malaysia' bagi jumlah kebangsaan. Merangkumi semua negeri dan Wilayah Persekutuan."
+            "description_en": "The state where the addicts were recorded, or 'Malaysia' for the national total. Includes all states and federal territories.",
+            "description_ms": "Negeri di mana penagih direkodkan, atau 'Malaysia' bagi jumlah kebangsaan. Merangkumi semua negeri dan wilayah persekutuan."
         },
         {
             "name": "age_group",
@@ -56,23 +56,23 @@
         },
         {
             "name": "addicts",
-            "title_en": "Number of Addicts and Abusers",
-            "title_ms": "Bilangan Penagih dan Penyalah Guna",
-            "description_en": "The number of drug or substance addicts and abusers recorded for the given year, state and category.",
-            "description_ms": "Bilangan penagih dan penyalah guna dadah atau bahan yang direkodkan bagi tahun, negeri dan kategori yang berkenaan."
+            "title_en": "Number",
+            "title_ms": "Bilangan",
+            "description_en": "The number of drug addicts recorded for the given year, state and category.",
+            "description_ms": "Bilangan penagih dadah yang direkodkan bagi tahun, negeri dan kategori yang berkenaan."
         }
     ],
     "translations_en": {
         "date": "Date",
         "state": "State",
         "age_group": "Age Group",
-        "addicts": "Number of Addicts and Abusers"
+        "addicts": "Number"
     },
     "translations_ms": {
         "date": "Tarikh",
         "state": "Negeri",
         "age_group": "Kumpulan Umur",
-        "addicts": "Bilangan Penagih dan Penyalah Guna"
+        "addicts": "Bilangan"
     },
     "site_category": [
         {
