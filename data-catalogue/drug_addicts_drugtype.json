@@ -49,8 +49,8 @@
             "name": "drugs",
             "title_en": "Drug Type",
             "title_ms": "Jenis Dadah",
-            "description_en": "The type of drug used: 'ats' (amphetamine-type stimulants), 'opiate', 'cannabis', 'psychotropic_pill' and 'others', with 'total' covering all types. Up to 2023, methamphetamine is reported separately as 'methamphetamine_crystalline' and 'methamphetamine_pills'; from 2025 it is included in 'ats'.",
-            "description_ms": "Jenis dadah yang digunakan: 'ats' (perangsang jenis amfetamin), 'opiate' (opiat), 'cannabis' (ganja), 'psychotropic_pill' (pil psikotropik) dan 'others' (lain-lain), dengan 'JUMLAH' merangkumi semua jenis. Sehingga 2023, methamphetamine dilaporkan secara berasingan sebagai 'methamphetamine_crystalline' dan 'methamphetamine_pills'; mulai 2025 ia termasuk dalam 'ats'."
+            "description_en": "Drugs are categorised into the following types: 'Amphetamine-Type Stimulants (ATS)' [Methamphetamine (Crystalline): Syabu, Ice and Batu; Methamphetamine (Tablets): Pil Kuda, YABA pills, YAMA pills and Bom pills; Ecstasy and Amphetamine], 'Opiates' [Opium; Heroin; Morphine and Codeine], 'Cannabis' [Cannabis, Hashish and Marijuana], 'Psychotropic Pills' [Benzodiazepines (Nimetazepam, Diazepam and Midazolam)], and 'Others' [Kratom (Ketum); Cocaine; Ketamine; Hallucinogens; Inhalants, etc].",
+            "description_ms": "Jenis dadah dikategorikan kepada 'Stimulan jenis amfetamin (ATS)' [Methamphetamine (Crystalline): Syabu, Ice dan Batu; Methamphetamine (Tablet): Pil Kuda, Pil YABA, Pil YAMA dan Pil Bom; Ecstacy dan Amphetamine], 'Opiat' [Candu; Heroin; Morfin dan Kodein], 'Ganja' [Ganja; Hashish dan Marijuana], 'Pil Psikotropik' [Benzodiazepine (Nimetazepam; Diazepam dan Midazolam)], 'Lain-lain' [Ketum; Kokain; Ketamin; Halusinogen; Inhalan dan dll]."
         },
         {
             "name": "addicts",
