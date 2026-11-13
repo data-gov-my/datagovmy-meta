@@ -110,12 +110,20 @@
     "translations_en": {
         "date": "Date",
         "volume": "Volume Index",
-        "segment": "Segment"
+        "segment": "Segment",
+        "g-i": "Wholesale & Retail Trade, Food & Beverage and Accommodation",
+        "h-j": "Transportation & Storage and Information & Communication",
+        "k-l-m-n": "Finance, Real Estate and Business Services",
+        "p-86-r-s": "Other Services"
     },
     "translations_ms": {
         "date": "Tarikh",
         "volume": "Indeks Volum",
-        "segment": "Segmen"
+        "segment": "Segmen",
+        "g-i": "Perdagangan Borong & Runcit, Makanan & Minuman dan Penginapan",
+        "h-j": "Pengangkutan & Penyimpanan dan Maklumat & Komunikasi",
+        "k-l-m-n": "Kewangan, Hartanah dan Perkhidmatan Perniagaan",
+        "p-86-r-s": "Perkhidmatan Lain"
     },
     "related_datasets": []
 }

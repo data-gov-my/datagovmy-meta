@@ -1,5 +1,5 @@
 {
-    "title_en": "Quarterly Services Statistics by Sub-sector",
+    "title_en": "Quarterly Services Statistics by Sub-Sector",
     "title_ms": "Perangkaan Perkhidmatan Suku Tahunan mengikut Subsektor",
     "title_sort": 115,
     "description_en": "Revenue, number of persons engaged, and salaries & wages paid in the services sector, by sub-sector.",
@@ -60,7 +60,7 @@
         },
         {
             "name": "subsector",
-            "title_en": "Sub-sector",
+            "title_en": "Sub-Sector",
             "title_ms": "Subsektor",
             "description_en": "[String] MSIC section (1 letter) or division (2 digit) code of the sub-sector (see methodology), to be matched using the 'section' or 'division' column in the [MSIC Lookup](https://open.dosm.gov.my/data-catalogue/msic). The MSIC lookup table will give you the English and Malay definitions.",
             "description_ms": "[Rentetan] Kod seksyen (1 huruf) atau bahagian (2 digit) MSIC bagi subsektor (rujuk metodologi), yang perlu dipadankan dengan lajur 'section' atau 'division' dalam [Jadual Rujukan MSIC](https://open.dosm.gov.my/ms-MY/data-catalogue/msic). Padanan tersebut akan membolehkan anda mendapat keterangan dalam Bahasa Inggeris dan Bahasa Melayu."
@@ -164,14 +164,38 @@
         "revenue": "Revenue",
         "employees": "Persons Engaged",
         "wages": "Salaries & Wages",
-        "subsector": "Sub-sector"
+        "subsector": "Sub-Sector",
+        "55": "Accommodation",
+        "56": "Food & Beverage",
+        "86": "Private Health",
+        "g": "Wholesale & Retail Trade",
+        "h": "Transportation & Storage",
+        "j": "Information & Communication",
+        "l": "Real Estate",
+        "m": "Professional",
+        "n": "Administrative & Support Services",
+        "p": "Private Education",
+        "r": "Arts, Entertainment & Recreation",
+        "s": "Personal Services & Other Activities"
     },
     "translations_ms": {
         "date": "Tarikh",
         "revenue": "Hasil",
         "employees": "Pekerja",
         "wages": "Gaji & Upah",
-        "subsector": "Subsektor"
+        "subsector": "Subsektor",
+        "55": "Penginapan",
+        "56": "Makanan & Minuman",
+        "86": "Kesihatan Swasta",
+        "g": "Perdagangan Borong & Runcit",
+        "h": "Pengangkutan & Penyimpanan",
+        "j": "Maklumat & Komunikasi",
+        "l": "Hartanah",
+        "m": "Profesional",
+        "n": "Pentadbiran & Khidmat Sokongan",
+        "p": "Pendidikan Swasta",
+        "r": "Kesenian, Hiburan & Rekreasi",
+        "s": "Perkhidmatan Persendirian & Lain-lain Aktiviti"
     },
     "related_datasets": []
 }

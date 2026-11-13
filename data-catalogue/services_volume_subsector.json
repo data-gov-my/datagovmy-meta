@@ -1,5 +1,5 @@
 {
-    "title_en": "Quarterly Volume Index of Services by Sub-sector",
+    "title_en": "Quarterly Volume Index of Services by Sub-Sector",
     "title_ms": "Indeks Volum Perkhidmatan Suku Tahunan mengikut Subsektor",
     "title_sort": 320,
     "description_en": "Volume index of the services sector, which measures its output at constant prices, by sub-sector.",
@@ -60,7 +60,7 @@
         },
         {
             "name": "subsector",
-            "title_en": "Sub-sector",
+            "title_en": "Sub-Sector",
             "title_ms": "Subsektor",
             "description_en": "[String] MSIC section (1 letter) or division (2 digit) code of the sub-sector (or a combination of codes; see methodology), to be matched using the 'section' or 'division' column in the [MSIC Lookup](https://open.dosm.gov.my/data-catalogue/msic). The MSIC lookup table will give you the English and Malay definitions.",
             "description_ms": "[Rentetan] Kod seksyen (1 huruf) atau bahagian (2 digit) MSIC bagi subsektor (atau gabungan kod; rujuk metodologi), yang perlu dipadankan dengan lajur 'section' atau 'division' dalam [Jadual Rujukan MSIC](https://open.dosm.gov.my/ms-MY/data-catalogue/msic). Padanan tersebut akan membolehkan anda mendapat keterangan dalam Bahasa Inggeris dan Bahasa Melayu."
@@ -110,12 +110,34 @@
     "translations_en": {
         "date": "Date",
         "volume": "Volume Index",
-        "subsector": "Sub-sector"
+        "subsector": "Sub-Sector",
+        "55": "Accommodation",
+        "56": "Food & Beverage",
+        "86": "Private Health",
+        "g": "Wholesale & Retail Trade",
+        "h": "Transportation & Storage",
+        "j": "Information & Communication",
+        "k": "Finance & Insurance",
+        "l": "Real Estate",
+        "m-n": "Professional, and Administrative & Support Services",
+        "p": "Private Education",
+        "r-s": "Arts, Entertainment & Recreation, and Personal Services & Other Activities"
     },
     "translations_ms": {
         "date": "Tarikh",
         "volume": "Indeks Volum",
-        "subsector": "Subsektor"
+        "subsector": "Subsektor",
+        "55": "Penginapan",
+        "56": "Makanan & Minuman",
+        "86": "Kesihatan Swasta",
+        "g": "Perdagangan Borong & Runcit",
+        "h": "Pengangkutan & Penyimpanan",
+        "j": "Maklumat & Komunikasi",
+        "k": "Kewangan & Insurans",
+        "l": "Hartanah",
+        "m-n": "Profesional, serta Pentadbiran & Khidmat Sokongan",
+        "p": "Pendidikan Swasta",
+        "r-s": "Kesenian, Hiburan & Rekreasi, serta Perkhidmatan Persendirian & Lain-lain Aktiviti"
     },
     "related_datasets": []
 }
