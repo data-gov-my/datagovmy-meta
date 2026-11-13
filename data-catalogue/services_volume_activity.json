@@ -110,12 +110,36 @@
     "translations_en": {
         "date": "Date",
         "volume": "Volume Index",
-        "activity": "Activity"
+        "activity": "Activity",
+        "45": "Motor Vehicles",
+        "46": "Wholesale Trade",
+        "47": "Retail Trade",
+        "49": "Land Transport",
+        "50": "Water Transport",
+        "51": "Air Transport",
+        "52-53": "Warehousing & Support Activities, and Postal & Courier",
+        "58-59-60": "Publishing & Broadcasting",
+        "61": "Telecommunications",
+        "62-63": "Computer & Information Services",
+        "64-661-663": "Finance",
+        "65-662": "Insurance"
     },
     "translations_ms": {
         "date": "Tarikh",
         "volume": "Indeks Volum",
-        "activity": "Aktiviti"
+        "activity": "Aktiviti",
+        "45": "Kenderaan Bermotor",
+        "46": "Perdagangan Borong",
+        "47": "Perdagangan Runcit",
+        "49": "Pengangkutan Darat",
+        "50": "Pengangkutan Air",
+        "51": "Pengangkutan Udara",
+        "52-53": "Penyimpanan & Aktiviti Sokongan, serta Pos & Kurier",
+        "58-59-60": "Penerbitan & Penyiaran",
+        "61": "Telekomunikasi",
+        "62-63": "Perkhidmatan Komputer & Maklumat",
+        "64-661-663": "Kewangan",
+        "65-662": "Insurans"
     },
     "related_datasets": []
 }

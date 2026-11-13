@@ -1,9 +1,9 @@
 {
-    "title_en": "Quarterly Wholesale & Retail Trade Statistics by Division (2 digit)",
-    "title_ms": "Perangkaan Perdagangan Borong & Runcit Suku Tahunan mengikut Bahagian (2 digit)",
+    "title_en": "Quarterly Services Statistics by Division (2 digit)",
+    "title_ms": "Perangkaan Perkhidmatan Suku Tahunan mengikut Bahagian (2 digit)",
     "title_sort": 120,
-    "description_en": "Sales value, number of persons engaged, and salaries & wages paid in the wholesale & retail trade sub-sector of the services sector, by MSIC division (2 digit).",
-    "description_ms": "Nilai jualan, bilangan pekerja, serta gaji & upah yang dibayar dalam subsektor perdagangan borong & runcit bagi sektor perkhidmatan, mengikut bahagian MSIC (2 digit).",
+    "description_en": "Revenue, number of persons engaged, and salaries & wages paid in the services sector, by MSIC division (2 digit); wholesale & retail trade is the only sub-sector broken down to this level.",
+    "description_ms": "Hasil, bilangan pekerja, serta gaji & upah yang dibayar dalam sektor perkhidmatan, mengikut bahagian MSIC (2 digit); perdagangan borong & runcit ialah satu-satunya subsektor yang dipecahkan ke peringkat ini.",
     "exclude_openapi": false,
     "manual_trigger": "2026-11-13 17:17:15.251169",
     "data_as_of": "2026-Q3",
@@ -164,14 +164,20 @@
         "revenue": "Revenue",
         "employees": "Persons Engaged",
         "wages": "Salaries & Wages",
-        "division": "Division"
+        "division": "Division",
+        "45": "Motor Vehicles",
+        "46": "Wholesale Trade",
+        "47": "Retail Trade"
     },
     "translations_ms": {
         "date": "Tarikh",
         "revenue": "Hasil",
         "employees": "Pekerja",
         "wages": "Gaji & Upah",
-        "division": "Bahagian"
+        "division": "Bahagian",
+        "45": "Kenderaan Bermotor",
+        "46": "Perdagangan Borong",
+        "47": "Perdagangan Runcit"
     },
     "related_datasets": []
 }
