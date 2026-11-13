@@ -1,0 +1,44 @@
+{
+	"publication": "services-technotes",
+	"documentation_type": "technical-note",
+	"publication_type": "services",
+	"release_date": "2026-11-13",
+	"en": {
+		"title": "Services",
+		"publication_type_title": "Services",
+		"description": "Quarterly revenue, persons engaged, and salaries & wages in the services sector, and the volume index of services.",
+		"resources": [
+			{
+				"resource_id": 1,
+				"resource_type": "pdf",
+				"resource_name": "Technical Notes: Quarterly Services Statistics",
+				"resource_link": "https://storage.dosm.gov.my/technotes/services.pdf"
+			},
+			{
+				"resource_id": 2,
+				"resource_type": "pdf",
+				"resource_name": "Technical Notes: Volume Index of Services",
+				"resource_link": "https://storage.dosm.gov.my/technotes/services_volume.pdf"
+			}
+		]
+	},
+	"bm": {
+		"title": "Perkhidmatan",
+		"publication_type_title": "Perkhidmatan",
+		"description": "Hasil, pekerja, serta gaji & upah suku tahunan dalam sektor perkhidmatan, dan indeks volum perkhidmatan.",
+		"resources": [
+			{
+				"resource_id": 1,
+				"resource_type": "pdf",
+				"resource_name": "Nota Teknikal: Perangkaan Perkhidmatan Suku Tahunan",
+				"resource_link": "https://storage.dosm.gov.my/technotes/services.pdf"
+			},
+			{
+				"resource_id": 2,
+				"resource_type": "pdf",
+				"resource_name": "Nota Teknikal: Indeks Volum Perkhidmatan",
+				"resource_link": "https://storage.dosm.gov.my/technotes/services_volume.pdf"
+			}
+		]
+	}
+}
