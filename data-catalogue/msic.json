@@ -135,6 +135,13 @@
       "title_ms": "Kemasukan (BM)",
       "description_en": "[String] List of exclusions, in Malay, provided for avoidance of doubt",
       "description_ms": "[Rentetan] Senarai kemasukan bagi kod tersebut dalam Bahasa Melayu, bagi tujuan mengelakkan keraguan"
+    },
+    {
+      "name": "canonical",
+      "title_en": "Canonical",
+      "title_ms": "Kanonik",
+      "description_en": "[Boolean] True if the row is part of the official MSIC 2008 classification. False if the row was added for convenience, to describe a code used in OpenDOSM datasets that is not in the official classification: either several codes published as one (joined with an underscore, e.g. '142_143'), or the remaining items in a group after selected items are published separately (the group code followed by 'XX', e.g. '102XX')",
+      "description_ms": "[Boolean] True sekiranya baris tersebut merupakan sebahagian daripada klasifikasi rasmi MSIC 2008. False sekiranya baris tersebut ditambah bagi kemudahan, untuk menerangkan kod yang digunakan dalam set data OpenDOSM yang tiada dalam klasifikasi rasmi: sama ada beberapa kod yang diterbitkan sebagai satu (digabungkan dengan garis bawah, contohnya '142_143'), atau barangan lain dalam sesuatu kumpulan selepas barangan terpilih diterbitkan secara berasingan (kod kumpulan diikuti 'XX', contohnya '102XX')"
     }
   ],
   "dataviz": [
@@ -162,7 +169,8 @@
     "include_en": "Inclusions (EN)",
     "desc_bm": "Description (BM)",
     "exclude_bm": "Exclusions (BM)",
-    "include_bm": "Inclusions (BM)"
+    "include_bm": "Inclusions (BM)",
+    "canonical": "Canonical"
   },
   "translations_ms": {
     "digits": "Digit",
@@ -176,7 +184,8 @@
     "include_en": "Kemasukan (EN)",
     "desc_bm": "Keterangan (BM)",
     "exclude_bm": "Pengecualian (BM)",
-    "include_bm": "Kemasukan (BM)"
+    "include_bm": "Kemasukan (BM)",
+    "canonical": "Kanonik"
   },
   "related_datasets": []
 }
