@@ -1,0 +1,108 @@
+{
+    "title_en": "Quarterly E-commerce Income",
+    "title_ms": "Pendapatan E-dagang Suku Tahunan",
+    "title_sort": 210,
+    "description_en": "Total income of establishments with e-commerce transactions.",
+    "description_ms": "Jumlah pendapatan pertubuhan yang mempunyai urus niaga e-dagang.",
+    "exclude_openapi": false,
+    "manual_trigger": "2026-11-13 17:17:15.256459",
+    "data_as_of": "2026-Q3",
+    "last_updated": "2026-11-13 12:30",
+    "next_update": "2027-02-10 12:30",
+    "methodology_en": "These statistics are compiled from short-term surveys, to measure the current performance of e-commerce in Malaysia. E-commerce income is the total income of establishments with e-commerce transactions.\n\nFollowing the OECD definition, an e-commerce transaction is the sale or purchase of goods or services conducted over computer networks by methods specifically designed for receiving or placing orders, such as websites, extranets or Electronic Data Interchange (EDI); payment and delivery may take place online or offline. Orders made by telephone, fax or manually typed email are excluded.\n\nFor a deeper understanding of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/services-technotes).",
+    "methodology_ms": "Perangkaan ini dihasilkan daripada survei jangka pendek, bagi mengukur prestasi semasa e-dagang di Malaysia. Pendapatan e-dagang ialah jumlah pendapatan pertubuhan yang mempunyai urus niaga e-dagang.\n\nBerdasarkan definisi OECD, urus niaga e-dagang ialah jualan atau belian barangan atau perkhidmatan melalui rangkaian komputer menggunakan kaedah yang direka khusus untuk menerima atau membuat pesanan, seperti laman web, ekstranet atau Pertukaran Data Elektronik (EDI); pembayaran dan penghantaran boleh dibuat secara dalam talian atau luar talian. Pesanan melalui telefon, faks atau e-mel yang ditaip secara manual tidak termasuk.\n\nUntuk memahami metodologi dengan lebih mendalam, sila rujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/services-technotes).",
+    "caveat_en": "Figures are revised as annual survey data becomes available, and may be revised in future releases.",
+    "caveat_ms": "Angka dipinda apabila data survei tahunan tersedia, dan mungkin dipinda dalam terbitan akan datang.",
+    "publication_en": "[Services, 3Q 2026](https://open.dosm.gov.my/publications/services_2026-q3), the latest edition of the quarterly services statistics published by DOSM. OpenDOSM also features a [dashboard on services statistics](https://open.dosm.gov.my/dashboard/services-statistics).",
+    "publication_ms": "[Perkhidmatan, ST3 2026](https://open.dosm.gov.my/ms-MY/publications/services_2026-q3), edisi terkini bagi perangkaan perkhidmatan suku tahunan yang diterbitkan oleh DOSM. OpenDOSM juga menampilkan [papan pemuka perangkaan perkhidmatan](https://open.dosm.gov.my/ms-MY/dashboard/services-statistics).",
+    "link_parquet": "https://storage.dosm.gov.my/services/services_ecommerce.parquet",
+    "link_csv": "https://storage.dosm.gov.my/services/services_ecommerce.csv",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2020,
+    "dataset_end": 2026,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "BPP"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "Services",
+            "subcategory_ms": "Perkhidmatan",
+            "subcategory_sort": 10
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "Services",
+            "subcategory_ms": "Perkhidmatan",
+            "subcategory_sort": 10
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format. The earliest date in the quarter is chosen, e.g. YYYY-01-01 for the 1st quarter and YYYY-04-01 for the 2nd quarter.",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD. Tarikh yang dipilih adalah tarikh terawal dalam suku tahun, contohnya YYYY-01-01 bagi suku tahun pertama dan YYYY-04-01 bagi suku tahun kedua."
+        },
+        {
+            "name": "income",
+            "title_en": "Income",
+            "title_ms": "Pendapatan",
+            "description_en": "[Integer] Total income during the quarter of establishments with e-commerce transactions, in RM",
+            "description_ms": "[Integer] Jumlah pendapatan dalam suku tahun tersebut bagi pertubuhan yang mempunyai urus niaga e-dagang, dalam RM"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "income",
+            "title_en": "Income",
+            "title_ms": "Pendapatan",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "income"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "income": "Income"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "income": "Pendapatan"
+    },
+    "related_datasets": []
+}

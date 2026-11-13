@@ -1,0 +1,108 @@
+{
+    "title_en": "Quarterly Volume Index of Services",
+    "title_ms": "Indeks Volum Perkhidmatan Suku Tahunan",
+    "title_sort": 310,
+    "description_en": "Volume index of the services sector, which measures its output at constant prices.",
+    "description_ms": "Indeks volum sektor perkhidmatan, yang mengukur keluarannya pada harga malar.",
+    "exclude_openapi": false,
+    "manual_trigger": "2026-11-13 17:17:15.258530",
+    "data_as_of": "2026-Q3",
+    "last_updated": "2026-11-13 12:30",
+    "next_update": "2027-02-10 12:30",
+    "methodology_en": "This dataset is compiled from the Quarterly Survey of Services and the Monthly Survey of Wholesale & Retail Trade, which cover establishments in the services sector (excluding finance & insurance and public administration, and only private establishments in health and education). For each industry, the surveys collect revenue, persons engaged, and salaries & wages paid during the month or quarter.\n\nThe volume index of services measures real output: revenue with the effect of price changes removed (deflated by matching items from the CPI, PPI, and SPPI) and expressed relative to its 2015 average (2015 = 100). It therefore shows whether the sector is producing more or less, rather than earning more or less. The index also covers finance & insurance, using data from Bank Negara Malaysia and the Securities Commission.\n\nThe overall index is the weighted average of the 4 segments in the dataset on the volume index of services by segment.\n\nFor a deeper understanding of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/services-technotes).",
+    "methodology_ms": "Set data ini dihasilkan daripada Survei Perkhidmatan Suku Tahunan dan Survei Perdagangan Borong & Runcit Bulanan, yang meliputi pertubuhan dalam sektor perkhidmatan (tidak termasuk kewangan & insurans dan pentadbiran awam, dan hanya pertubuhan swasta bagi kesihatan dan pendidikan). Bagi setiap industri, survei ini mengumpul hasil, pekerja, serta gaji & upah yang dibayar dalam bulan atau suku tahun tersebut.\n\nIndeks volum perkhidmatan mengukur keluaran benar: hasil setelah kesan perubahan harga disingkirkan (dideflasi menggunakan item sepadan daripada IHP, IHPR dan IHPP) dan dinyatakan berbanding puratanya pada tahun 2015 (2015 = 100). Oleh itu, indeks ini menunjukkan sama ada sektor tersebut mengeluarkan lebih banyak atau kurang, dan bukannya sama ada ia memperoleh pendapatan lebih banyak atau kurang. Indeks ini turut meliputi kewangan & insurans, menggunakan data daripada Bank Negara Malaysia dan Suruhanjaya Sekuriti.\n\nIndeks keseluruhan ialah purata berwajaran bagi 4 segmen dalam set data indeks volum perkhidmatan mengikut segmen.\n\nUntuk memahami metodologi dengan lebih mendalam, sila rujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/services-technotes).",
+    "caveat_en": "Figures for the latest quarter are preliminary, and figures for the previous quarter may be revised in future releases.",
+    "caveat_ms": "Angka bagi suku tahun terkini adalah awalan, dan angka bagi suku tahun sebelumnya mungkin dipinda dalam terbitan akan datang.",
+    "publication_en": "[Services, 3Q 2026](https://open.dosm.gov.my/publications/services_2026-q3), the latest edition of the quarterly services statistics published by DOSM. OpenDOSM also features a [dashboard on services statistics](https://open.dosm.gov.my/dashboard/services-statistics).",
+    "publication_ms": "[Perkhidmatan, ST3 2026](https://open.dosm.gov.my/ms-MY/publications/services_2026-q3), edisi terkini bagi perangkaan perkhidmatan suku tahunan yang diterbitkan oleh DOSM. OpenDOSM juga menampilkan [papan pemuka perangkaan perkhidmatan](https://open.dosm.gov.my/ms-MY/dashboard/services-statistics).",
+    "link_parquet": "https://storage.dosm.gov.my/services/services_volume_headline.parquet",
+    "link_csv": "https://storage.dosm.gov.my/services/services_volume_headline.csv",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2015,
+    "dataset_end": 2026,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "BPP"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "Services",
+            "subcategory_ms": "Perkhidmatan",
+            "subcategory_sort": 10
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "Services",
+            "subcategory_ms": "Perkhidmatan",
+            "subcategory_sort": 10
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format. The earliest date in the quarter is chosen, e.g. YYYY-01-01 for the 1st quarter and YYYY-04-01 for the 2nd quarter.",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD. Tarikh yang dipilih adalah tarikh terawal dalam suku tahun, contohnya YYYY-01-01 bagi suku tahun pertama dan YYYY-04-01 bagi suku tahun kedua."
+        },
+        {
+            "name": "volume",
+            "title_en": "Volume Index",
+            "title_ms": "Indeks Volum",
+            "description_en": "[Float] Volume index of services, with base 2015 = 100",
+            "description_ms": "[Apung] Indeks volum perkhidmatan, dengan tahun asas 2015 = 100"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 1,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "volume",
+            "title_en": "Volume Index",
+            "title_ms": "Indeks Volum",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [],
+                "precision": 1,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "volume"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "volume": "Volume Index"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "volume": "Indeks Volum"
+    },
+    "related_datasets": []
+}

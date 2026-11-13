@@ -1,0 +1,177 @@
+{
+    "title_en": "Quarterly Services Statistics by Sub-sector",
+    "title_ms": "Perangkaan Perkhidmatan Suku Tahunan mengikut Subsektor",
+    "title_sort": 115,
+    "description_en": "Revenue, number of persons engaged, and salaries & wages paid in the services sector, by sub-sector.",
+    "description_ms": "Hasil, bilangan pekerja, serta gaji & upah yang dibayar dalam sektor perkhidmatan, mengikut subsektor.",
+    "exclude_openapi": false,
+    "manual_trigger": "2026-11-13 17:17:15.248498",
+    "data_as_of": "2026-Q3",
+    "last_updated": "2026-11-13 12:30",
+    "next_update": "2027-02-10 12:30",
+    "methodology_en": "This dataset is compiled from the Quarterly Survey of Services and the Monthly Survey of Wholesale & Retail Trade, which cover establishments in the services sector (excluding finance & insurance and public administration, and only private establishments in health and education). For each industry, the surveys collect revenue, persons engaged, and salaries & wages paid during the month or quarter.\n\nThe 12 sub-sectors add up to the services sector total and are coded as follows: G (wholesale & retail trade), H (transportation & storage), 55 (accommodation), 56 (food & beverage), J (information & communication), L (real estate), M (professional), N (administrative & support services), P (private education), 86 (private health), R (arts, entertainment & recreation), and S (personal services & other activities).\n\nData for wholesale & retail trade (G), transportation & storage (H), information & communication (J), food & beverage (56), private health (86), private education (P) and arts, entertainment & recreation (R) begins in 2012. Data for the other 5 sub-sectors begins in 2019, when survey coverage was widened: administrative & support services (N) and personal services & other activities (S) were added, real estate (L) was extended from real estate agents to include real estate developers, and the coverage of professional services (M) and accommodation (55) was revised. The sub-sectors therefore add up to the services sector total from 2019 onward.\n\nFor a deeper understanding of the methodology, please refer to the [Technical Notes](https://open.dosm.gov.my/publications/technical-notes/services-technotes).",
+    "methodology_ms": "Set data ini dihasilkan daripada Survei Perkhidmatan Suku Tahunan dan Survei Perdagangan Borong & Runcit Bulanan, yang meliputi pertubuhan dalam sektor perkhidmatan (tidak termasuk kewangan & insurans dan pentadbiran awam, dan hanya pertubuhan swasta bagi kesihatan dan pendidikan). Bagi setiap industri, survei ini mengumpul hasil, pekerja, serta gaji & upah yang dibayar dalam bulan atau suku tahun tersebut.\n\n12 subsektor menjumlah kepada jumlah sektor perkhidmatan dan dikodkan seperti berikut: G (perdagangan borong & runcit), H (pengangkutan & penyimpanan), 55 (penginapan), 56 (makanan & minuman), J (maklumat & komunikasi), L (hartanah), M (profesional), N (pentadbiran & khidmat sokongan), P (pendidikan swasta), 86 (kesihatan swasta), R (kesenian, hiburan & rekreasi), dan S (perkhidmatan persendirian & lain-lain aktiviti).\n\nData bagi perdagangan borong & runcit (G), pengangkutan & penyimpanan (H), maklumat & komunikasi (J), makanan & minuman (56), kesihatan swasta (86), pendidikan swasta (P) dan kesenian, hiburan & rekreasi (R) bermula pada tahun 2012. Data bagi 5 subsektor lain bermula pada tahun 2019, apabila liputan survei diperluas: pentadbiran & khidmat sokongan (N) dan perkhidmatan persendirian & lain-lain aktiviti (S) ditambah, hartanah (L) diperluas daripada ejen hartanah untuk turut merangkumi pemaju hartanah, dan liputan perkhidmatan profesional (M) serta penginapan (55) disemak semula. Oleh itu, subsektor menjumlah kepada jumlah sektor perkhidmatan mulai tahun 2019.\n\nUntuk memahami metodologi dengan lebih mendalam, sila rujuk kepada [Nota Teknikal](https://open.dosm.gov.my/ms-MY/publications/technical-notes/services-technotes).",
+    "caveat_en": "Figures for the latest quarter are preliminary, and figures for the previous quarter may be revised in future releases.",
+    "caveat_ms": "Angka bagi suku tahun terkini adalah awalan, dan angka bagi suku tahun sebelumnya mungkin dipinda dalam terbitan akan datang.",
+    "publication_en": "[Services, 3Q 2026](https://open.dosm.gov.my/publications/services_2026-q3), the latest edition of the quarterly services statistics published by DOSM. OpenDOSM also features a [dashboard on services statistics](https://open.dosm.gov.my/dashboard/services-statistics).",
+    "publication_ms": "[Perkhidmatan, ST3 2026](https://open.dosm.gov.my/ms-MY/publications/services_2026-q3), edisi terkini bagi perangkaan perkhidmatan suku tahunan yang diterbitkan oleh DOSM. OpenDOSM juga menampilkan [papan pemuka perangkaan perkhidmatan](https://open.dosm.gov.my/ms-MY/dashboard/services-statistics).",
+    "link_parquet": "https://storage.dosm.gov.my/services/services_subsector.parquet",
+    "link_csv": "https://storage.dosm.gov.my/services/services_subsector.csv",
+    "frequency": "QUARTERLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2012,
+    "dataset_end": 2026,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+        "BPP"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "Services",
+            "subcategory_ms": "Perkhidmatan",
+            "subcategory_sort": 10
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Economic Sectors",
+            "category_ms": "Sektor Ekonomi",
+            "category_sort": 90,
+            "subcategory_en": "Services",
+            "subcategory_ms": "Perkhidmatan",
+            "subcategory_sort": 10
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format. The earliest date in the quarter is chosen, e.g. YYYY-01-01 for the 1st quarter and YYYY-04-01 for the 2nd quarter.",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD. Tarikh yang dipilih adalah tarikh terawal dalam suku tahun, contohnya YYYY-01-01 bagi suku tahun pertama dan YYYY-04-01 bagi suku tahun kedua."
+        },
+        {
+            "name": "subsector",
+            "title_en": "Sub-sector",
+            "title_ms": "Subsektor",
+            "description_en": "[String] MSIC section (1 letter) or division (2 digit) code of the sub-sector (see methodology), to be matched using the 'section' or 'division' column in the [MSIC Lookup](https://open.dosm.gov.my/data-catalogue/msic). The MSIC lookup table will give you the English and Malay definitions.",
+            "description_ms": "[Rentetan] Kod seksyen (1 huruf) atau bahagian (2 digit) MSIC bagi subsektor (rujuk metodologi), yang perlu dipadankan dengan lajur 'section' atau 'division' dalam [Jadual Rujukan MSIC](https://open.dosm.gov.my/ms-MY/data-catalogue/msic). Padanan tersebut akan membolehkan anda mendapat keterangan dalam Bahasa Inggeris dan Bahasa Melayu."
+        },
+        {
+            "name": "revenue",
+            "title_en": "Revenue",
+            "title_ms": "Hasil",
+            "description_en": "[Integer] Revenue during the quarter, in RM; for wholesale & retail trade, this is the sales value",
+            "description_ms": "[Integer] Hasil dalam suku tahun tersebut, dalam RM; bagi perdagangan borong & runcit, ini ialah nilai jualan"
+        },
+        {
+            "name": "employees",
+            "title_en": "Persons Engaged",
+            "title_ms": "Pekerja",
+            "description_en": "[Integer] Number of persons engaged during the last pay period of the quarter, including working proprietors, active business partners and unpaid family workers",
+            "description_ms": "[Integer] Bilangan pekerja dalam tempoh gaji terakhir suku tahun tersebut, termasuk pemilik yang bekerja, rakan niaga yang aktif dan pekerja keluarga tanpa gaji"
+        },
+        {
+            "name": "wages",
+            "title_en": "Salaries & Wages",
+            "title_ms": "Gaji & Upah",
+            "description_en": "[Integer] Salaries and wages paid to employees during the quarter, in RM",
+            "description_ms": "[Integer] Gaji dan upah yang dibayar kepada pekerja dalam suku tahun tersebut, dalam RM"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "subsector"
+                ],
+                "freeze_columns": []
+            }
+        },
+        {
+            "dataviz_id": "revenue",
+            "title_en": "Revenue",
+            "title_ms": "Hasil",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "subsector"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "revenue"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "employees",
+            "title_en": "Persons Engaged",
+            "title_ms": "Pekerja",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "subsector"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "employees"
+                    ]
+                }
+            }
+        },
+        {
+            "dataviz_id": "wages",
+            "title_en": "Salaries & Wages",
+            "title_ms": "Gaji & Upah",
+            "chart_type": "TIMESERIES",
+            "config": {
+                "filter_columns": [
+                    "subsector"
+                ],
+                "precision": 0,
+                "operation": "SUM",
+                "format": {
+                    "x": "date",
+                    "y": [
+                        "wages"
+                    ]
+                }
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "revenue": "Revenue",
+        "employees": "Persons Engaged",
+        "wages": "Salaries & Wages",
+        "subsector": "Sub-sector"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "revenue": "Hasil",
+        "employees": "Pekerja",
+        "wages": "Gaji & Upah",
+        "subsector": "Subsektor"
+    },
+    "related_datasets": []
+}
