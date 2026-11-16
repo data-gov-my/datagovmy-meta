@@ -1,147 +1,129 @@
 {
-  "title_en": "MSIC",
-  "title_ms": "MSIC",
+  "title_en": "MYSTI - Programme Database : Products & Services",
+  "title_ms": "MYSTI - Pangkalan Data Program : Produk & Perkhidmatan",
   "title_sort": 1,
-  "description_en": "This table provides a complete lookup for the MSIC (Malaysian Standard Industrial Classification) 2008, as applied and used in data publications in Malaysia. The MSIC is primarily used by the Department of Statistics Malaysia (DOSM), for the purpose of categorising economic data, such as during the production of GDP data.",
-  "description_ms": "Jadual ini memberi rujukan lengkap bagi MSIC (Piawaian Klasifikasi Industri Malaysia) 2008, seperti yang digunapakai dalam penerbitan data di Malaysia. MCOICOP digunakan terutamanya oleh Jabatan Perangkaan Malaysia (DOSM) bagi tujuan pengkelasan data ekonomi, misalnya dalam penghasilan data KDNK.",
+  "description_en": "A database that lists products and services bearing the MySTI logo, categorized by year, company name, state, sector, technology, and intellectual property information.",
+  "description_ms": "Pangkalan data yang menyenaraikan produk dan perkhidmatan yang menerima penandaan logo MySTI mengikut tahun, nama syarikat, negeri, sektor, teknologi dan maklumat harta intelek.",
   "exclude_openapi": false,
-  "manual_trigger": "na",
-  "data_as_of": "2008",
-  "last_updated": "2008-12-31 23:59",
-  "next_update": "-",
-  "methodology_en": "The MSIC was adapted from the [ISIC published by the United Nations Statistics Division](https://unstats.un.org/unsd/classifications/Econ/isic), which is used as a global reference for the classification of economic activities.",
-  "methodology_ms": "MSIC diadaptasikan daripada [ISIC yang diterbitkan oleh Bahagian Statistik Pertubuhan Bangsa-bangsa Bersatu](https://unstats.un.org/unsd/classifications/Econ/isic), yang diguna sebagai rujukan antarabanga dalam pengkelasan aktiviti ekonomi.",
-  "caveat_en": "\u2014",
-  "caveat_ms": "\u2014",
-  "publication_en": "\u2014",
-  "publication_ms": "\u2014",
-  "link_parquet": "https://storage.dosm.gov.my/dictionaries/msic.parquet",
-  "link_csv": "https://storage.dosm.gov.my/dictionaries/msic.csv",
-  "link_preview": "https://storage.dosm.gov.my/dictionaries/msic.parquet",
-  "frequency": "INFREQUENT",
+  "manual_trigger": "",
+  "data_as_of": "2026",
+  "last_updated": "2026-11-16",
+  "next_update": "N/A",
+  "methodology_en": "This data is generated through the collection and organization of information regarding products and services that have been awarded the MySTI logo. The recorded information includes the year the MySTI logo was awarded, the name of the product or service, company name, state, category, sector, technology field, and intellectual property details. The data is collected and organized into a structured database to facilitate the storage, management, monitoring, and reporting of the MySTI program.",
+  "methodology_ms": "Data ini dijana melalui proses pengumpulan dan penyusunan maklumat berkaitan produk dan perkhidmatan yang menerima penandaan logo MySTI. Maklumat yang direkodkan merangkumi tahun penerimaan penandaan logo MySTI, nama produk atau perkhidmatan, nama syarikat, negeri, kategori, sektor, bidang teknologi serta maklumat harta intelek. Data dikumpulkan dan disusun dalam pangkalan data berstruktur bagi tujuan penyimpanan, pengurusan, pemantauan dan pelaporan berkaitan program MySTI.",
+  "link_parquet": "https://storage.data.gov.my/mysti/mysti.parquet",
+  "link_csv": "https://storage.data.gov.my/mysti/mysti.csv",
+  "link_preview": "https://storage.data.gov.my/mysti/mysti.parquet",
+  "frequency": "YEARLY",
   "geography": [
-    "NATIONAL"
+    "NATIONAL",
+    "STATE"
   ],
   "demography": [],
-  "dataset_begin": 2008,
-  "dataset_end": 2023,
-  "data_source": [
-    "DOSM"
+  "dataset_begin": 2023,
+  "dataset_end": 2026,
+  "data_source": ["MOSTI"],
+  "caveat_en": "The accuracy and completeness of the information are subject to the records provided by the data owner. Users are advised to consult the data owner for further verification should any discrepancies arise or if clarification regarding the displayed information is required.",
+  "caveat_ms": "Ketepatan dan kelengkapan maklumat adalah tertakluk kepada rekod yang disediakan oleh pemilik data. Pengguna disarankan merujuk kepada pihak pemilik data bagi mendapatkan pengesahan lanjut sekiranya terdapat percanggahan atau keperluan penjelasan terhadap maklumat yang dipaparkan.",
+  "publication_en": "N/A",
+  "publication_ms": "N/A",
+  "related_datasets": [],
+  "fields": [
+    {
+      "name": "Tahun",
+      "title_en": "Year",
+      "title_ms": "Tahun",
+      "description_en": "[String] Year recorded for the entry, from 2023 to 2026. Stored as text; the source does not define whether this is the application, approval or certification year.",
+      "description_ms": "[Teks] Tahun yang direkodkan bagi entri, dari 2023 hingga 2026. Disimpan sebagai teks; sumber tidak menentukan sama ada ini tahun permohonan, kelulusan atau pensijilan."
+    },
+    {
+      "name": "Nama",
+      "title_en": "Product or Service Name",
+      "title_ms": "Nama Produk atau Perkhidmatan",
+      "description_en": "[String] Name of the product or service recorded in the dataset. Names are not unique identifiers.",
+      "description_ms": "[Teks] Nama produk atau perkhidmatan yang direkodkan dalam set data. Nama bukan pengecam unik."
+    },
+    {
+      "name": "Nama Syarikat",
+      "title_en": "Company Name",
+      "title_ms": "Nama Syarikat",
+      "description_en": "[String] Company name associated with the entry, as supplied in the source.",
+      "description_ms": "[Teks] Nama syarikat yang dikaitkan dengan entri, seperti dibekalkan dalam sumber."
+    },
+    {
+      "name": "Negeri",
+      "title_en": "State or Federal Territory",
+      "title_ms": "Negeri atau Wilayah Persekutuan",
+      "description_en": "[String] State or federal territory recorded for the entry. Source labels are preserved, including Putrajaya.",
+      "description_ms": "[Teks] Negeri atau wilayah persekutuan yang direkodkan bagi entri. Label sumber dikekalkan, termasuk Putrajaya."
+    },
+    {
+      "name": "Produk/Servis",
+      "title_en": "Product or Service",
+      "title_ms": "Produk atau Perkhidmatan",
+      "description_en": "[String] Entry type: Produk (product) or Perkhidmatan (service).",
+      "description_ms": "[Teks] Jenis entri: Produk atau Perkhidmatan."
+    },
+    {
+      "name": "Kategori",
+      "title_en": "Category",
+      "title_ms": "Kategori",
+      "description_en": "[String] Category recorded in the source: Produk fizikal (physical product) or Peranti (device). This field is separate from the product/service type.",
+      "description_ms": "[Teks] Kategori yang direkodkan dalam sumber: Produk fizikal atau Peranti. Medan ini berasingan daripada jenis produk/perkhidmatan."
+    },
+    {
+      "name": "Sektor",
+      "title_en": "Sector",
+      "title_ms": "Sektor",
+      "description_en": "[String] Sector assigned to the entry, such as Medical & Healthcare or Smart Technology & System. The source contains 10 distinct sector labels.",
+      "description_ms": "[Teks] Sektor yang diberikan kepada entri, seperti Medical & Healthcare atau Smart Technology & System. Sumber mengandungi 10 label sektor berbeza."
+    },
+    {
+      "name": "Teknologi",
+      "title_en": "Technology",
+      "title_ms": "Teknologi",
+      "description_en": "[String] Technology classification assigned to the entry, such as Bioscience Technology or Advanced Intelligence Systems. The source contains 10 distinct technology labels.",
+      "description_ms": "[Teks] Klasifikasi teknologi yang diberikan kepada entri, seperti Bioscience Technology atau Advanced Intelligence Systems. Sumber mengandungi 10 label teknologi berbeza."
+    },
+    {
+      "name": "Harta Intelek",
+      "title_en": "Intellectual Property",
+      "title_ms": "Harta Intelek",
+      "description_en": "[String] Intellectual property label or labels recorded for the entry. Multiple labels are comma-separated within one cell. Labels include Patent, Trademark, Copyright, Industrial Design, Utility Innovation and Invention Disclosure Form. A label does not establish registration or legal status. One entry is missing this value.",
+      "description_ms": "[Teks] Label harta intelek yang direkodkan bagi entri. Berbilang label dipisahkan dengan koma dalam satu sel. Label termasuk Patent, Trademark, Copyright, Industrial Design, Utility Innovation dan Invention Disclosure Form. Label tidak membuktikan pendaftaran atau status undang-undang. Satu entri tidak mempunyai nilai ini."
+    }
   ],
-  "data_source_granular": [
-    "BIPD"
-  ],
+  "translations_en": {
+    "tahun": "Year",
+    "nama": "Product or Service Name",
+    "nama syarikat": "Company Name",
+    "negeri": "State or Federal Territory",
+    "produk/servis": "Product or Service",
+    "kategori": "Category",
+    "sektor": "Sector",
+    "teknologi": "Technology",
+    "harta intelek": "Intellectual Property"
+  },
+  "translations_ms": {
+    "tahun": "Tahun",
+    "nama": "Nama Produk atau Perkhidmatan",
+    "nama syarikat": "Nama Syarikat",
+    "negeri": "Negeri atau Wilayah Persekutuan",
+    "produk/servis": "Produk atau Perkhidmatan",
+    "kategori": "Kategori",
+    "sektor": "Sektor",
+    "teknologi": "Teknologi",
+    "harta intelek": "Harta Intelek"
+  },
   "site_category": [
     {
       "site": "datagovmy",
-      "category_en": "Data Dictionaries",
-      "category_ms": "Kamus Data",
-      "category_sort": 110,
-      "subcategory_en": "National",
-      "subcategory_ms": "Nasional",
+      "category_en": "Technology",
+      "category_ms": "Teknologi",
+      "category_sort": 49,
+      "subcategory_en": "Products and Services",
+      "subcategory_ms": "Produk dan Perkhidmatan",
       "subcategory_sort": 1
-    },
-    {
-      "site": "opendosm",
-      "category_en": "Data Dictionaries",
-      "category_ms": "Kamus Data",
-      "category_sort": 110,
-      "subcategory_en": "National",
-      "subcategory_ms": "Nasional",
-      "subcategory_sort": 1
-    }
-  ],
-  "fields": [
-    {
-      "name": "digits",
-      "title_en": "Digits",
-      "title_ms": "Digit",
-      "description_en": "[Integer] Number of digits; this column can be used as a filter if you only want to keep 2 digit codes, for example",
-      "description_ms": "[Integer] Bilangan digit; lajur ini boleh digunakan sebagai penapis contohnya untuk menyimpan data 2 digit sahaja"
-    },
-    {
-      "name": "section",
-      "title_en": "Section",
-      "title_ms": "Seksyen",
-      "description_en": "[String] 1-digit code; unlike the 2 to 5-digit codes, this is a letter rather than than a number",
-      "description_ms": "[Rentetan] Kod 1 digit; ia adalah abjad dan bukannya nombor seperti kod 2 hingga 5 digit"
-    },
-    {
-      "name": "division",
-      "title_en": "Division",
-      "title_ms": "Bahagian",
-      "description_en": "[String] 2-digit code; please ensure that you read this column as a string, because the (intentional) leading zeroes will be dropped if read as an integer (e.g. upon opening in Microsoft Excel)",
-      "description_ms": "[Rentetan] Kod 2 digit; sila pastikan anda membaca lajur ini sebagai rentetan kerana angka sifar di hadapan akan digugurkan sekiranya dibaca sebagai integer (contohnya apabila dibuka dalam Microsoft Excel)"
-    },
-    {
-      "name": "group",
-      "title_en": "Group",
-      "title_ms": "Kumpulan",
-      "description_en": "[String] 3-digit code, with dashes where not applicable (e.g. for rows providing 2-digit definitions)",
-      "description_ms": "[Rentetan] Kod 3 digit, dengan tanda sempang apabila tidak berkaitan (contohnya untuk baris yang memberi definisi 2 digit)"
-    },
-    {
-      "name": "class",
-      "title_en": "Class",
-      "title_ms": "Kelas",
-      "description_en": "[String] 4-digit code, with dashes where not applicable (e.g. for rows providing 2 and 3-digit definitions)",
-      "description_ms": "[Rentetan] Kod 4 digit, dengan tanda sempang apabila tidak berkaitan (contohnya untuk baris yang memberi definisi 2 dan 3 digit)"
-    },
-    {
-      "name": "item",
-      "title_en": "Item",
-      "title_ms": "Barangan",
-      "description_en": "[String] 5-digit code, with dashes where not applicable (e.g. for rows providing 2, 3, and 4-digit definitions)",
-      "description_ms": "[Rentetan] Kod 4 digit, dengan tanda sempang apabila tidak berkaitan (contohnya untuk baris yang memberi definisi 2, 3, dan 4 digit)"
-    },
-    {
-      "name": "desc_en",
-      "title_en": "Description (EN)",
-      "title_ms": "Keterangan (EN)",
-      "description_en": "[String] Description for the code, in English",
-      "description_ms": "[Rentetan] Keterangan kod dalam Bahasa Inggeris"
-    },
-    {
-      "name": "exclude_en",
-      "title_en": "Exclusions (EN)",
-      "title_ms": "Pengecualian (EN)",
-      "description_en": "[String] List of inclusions, in English, provided for avoidance of doubt",
-      "description_ms": "[Rentetan] Senarai pengecualian bagi kod tersebut dalam Bahasa Inggeris, bagi tujuan mengelakkan keraguan"
-    },
-    {
-      "name": "include_en",
-      "title_en": "Inclusions (EN)",
-      "title_ms": "Kemasukan (EN)",
-      "description_en": "[String] List of exclusions, in English, provided for avoidance of doubt",
-      "description_ms": "[Rentetan] Senarai kemasukan bagi kod tersebut dalam Bahasa Inggeris, bagi tujuan mengelakkan keraguan"
-    },
-    {
-      "name": "desc_bm",
-      "title_en": "Description (BM)",
-      "title_ms": "Keterangan (BM)",
-      "description_en": "[String] Description for the code, in Malay",
-      "description_ms": "[Rentetan] Keterangan kod dalam Bahasa Melayu"
-    },
-    {
-      "name": "exclude_bm",
-      "title_en": "Exclusions (BM)",
-      "title_ms": "Pengecualian (BM)",
-      "description_en": "[String] List of inclusions, in Malay, provided for avoidance of doubt",
-      "description_ms": "[Rentetan] Senarai pengecualian bagi kod tersebut dalam Bahasa Melayu, bagi tujuan mengelakkan keraguan"
-    },
-    {
-      "name": "include_bm",
-      "title_en": "Inclusions (BM)",
-      "title_ms": "Kemasukan (BM)",
-      "description_en": "[String] List of exclusions, in Malay, provided for avoidance of doubt",
-      "description_ms": "[Rentetan] Senarai kemasukan bagi kod tersebut dalam Bahasa Melayu, bagi tujuan mengelakkan keraguan"
-    },
-    {
-      "name": "canonical",
-      "title_en": "Canonical",
-      "title_ms": "Kanonik",
-      "description_en": "[Boolean] True if the row is part of the official MSIC 2008 classification. False if the row was added for convenience, to describe a code used in OpenDOSM datasets that is not in the official classification: either several codes published as one (joined with an underscore, e.g. '142_143'), or the remaining items in a group after selected items are published separately (the group code followed by 'XX', e.g. '102XX')",
-      "description_ms": "[Boolean] True sekiranya baris tersebut merupakan sebahagian daripada klasifikasi rasmi MSIC 2008. False sekiranya baris tersebut ditambah bagi kemudahan, untuk menerangkan kod yang digunakan dalam set data OpenDOSM yang tiada dalam klasifikasi rasmi: sama ada beberapa kod yang diterbitkan sebagai satu (digabungkan dengan garis bawah, contohnya '142_143'), atau barangan lain dalam sesuatu kumpulan selepas barangan terpilih diterbitkan secara berasingan (kod kumpulan diikuti 'XX', contohnya '102XX')"
     }
   ],
   "dataviz": [
@@ -152,40 +134,13 @@
       "chart_type": "TABLE",
       "config": {
         "precision": 0,
-        "filter_columns": [],
-        "freeze_columns": []
+        "filter_columns": [
+          "Tahun"
+        ],
+        "freeze_columns": [
+          "Tahun"
+        ]
       }
     }
-  ],
-  "translations_en": {
-    "digits": "Digits",
-    "section": "Section",
-    "division": "Division",
-    "group": "Group",
-    "class": "Class",
-    "item": "Item",
-    "desc_en": "Description (EN)",
-    "exclude_en": "Exclusions (EN)",
-    "include_en": "Inclusions (EN)",
-    "desc_bm": "Description (BM)",
-    "exclude_bm": "Exclusions (BM)",
-    "include_bm": "Inclusions (BM)",
-    "canonical": "Canonical"
-  },
-  "translations_ms": {
-    "digits": "Digit",
-    "section": "Seksyen",
-    "division": "Bahagian",
-    "group": "Kumpulan",
-    "class": "Kelas",
-    "item": "Barangan",
-    "desc_en": "Keterangan (EN)",
-    "exclude_en": "Pengecualian (EN)",
-    "include_en": "Kemasukan (EN)",
-    "desc_bm": "Keterangan (BM)",
-    "exclude_bm": "Pengecualian (BM)",
-    "include_bm": "Kemasukan (BM)",
-    "canonical": "Kanonik"
-  },
-  "related_datasets": []
+  ]
 }
