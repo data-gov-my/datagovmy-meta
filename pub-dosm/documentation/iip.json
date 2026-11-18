@@ -1,0 +1,32 @@
+{
+	"publication": "iip-technotes",
+	"documentation_type": "technical-note",
+	"publication_type": "iip",
+	"release_date": "2026-11-18",
+	"en": {
+		"title": "International Investment Position",
+		"publication_type_title": "International Investment Position",
+		"description": "Quarterly international investment position, covering Malaysia's external financial assets and liabilities, with direct investment positions by sector and by country.",
+		"resources": [
+			{
+				"resource_id": 1,
+				"resource_type": "pdf",
+				"resource_name": "Technical Notes: International Investment Position",
+				"resource_link": "https://storage.dosm.gov.my/technotes/iip.pdf"
+			}
+		]
+	},
+	"bm": {
+		"title": "Kedudukan Pelaburan Antarabangsa",
+		"publication_type_title": "Kedudukan Pelaburan Antarabangsa",
+		"description": "Kedudukan pelaburan antarabangsa suku tahunan, merangkumi aset dan liabiliti kewangan luar Malaysia, termasuk kedudukan pelaburan langsung mengikut sektor dan negara.",
+		"resources": [
+			{
+				"resource_id": 1,
+				"resource_type": "pdf",
+				"resource_name": "Nota Teknikal: Kedudukan Pelaburan Antarabangsa",
+				"resource_link": "https://storage.dosm.gov.my/technotes/iip.pdf"
+			}
+		]
+	}
+}
