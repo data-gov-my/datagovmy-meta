@@ -28,7 +28,7 @@
       "sdmx_xml": "XML",
       "sdmx_json": "JSON",
       "sdmx_csv": "CSV",
-      "sdmx_parquet_tooltip": "Kami memperkenalkan format data baharu. Klik pautan di bawah untuk melihat [Dokumentasi Teknikal](https://storage.dosm.gov.my/sdmx/sdmx-parquet.pdf)",
+      "sdmx_parquet_tooltip": "Kami memperkenalkan format data baharu.",
       "sdmx_excel": "Excel"
     },
     "section_real": {
