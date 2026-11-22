@@ -5,7 +5,7 @@
     "description_en": "Monthly count of vehicle registrations, disaggregated by vehicle type and fuel type, from 2000 to the present.",
     "description_ms": "Bilangan pendaftaran kenderaan bulanan, dengan pecahan mengikut jenis kenderaan dan jenis bahan bakar, dari tahun 2000 sehingga kini.",
     "exclude_openapi": false,
-    "manual_trigger": "2026-11-12 18:12:22.902695",
+    "manual_trigger": "2026-11-23 06:43:20.932241",
     "data_as_of": "2026-10-31 23:59",
     "last_updated": "2026-11-10 18:00",
     "next_update": "2026-12-10 18:00",
