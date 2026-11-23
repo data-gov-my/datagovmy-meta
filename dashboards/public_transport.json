@@ -6,11 +6,7 @@
     "sites": [
         "datagovmy"
     ],
-<<<<<<< Updated upstream
     "manual_trigger": "2026-11-23 08:23:28.003319",
-=======
-    "manual_trigger": "2026-11-23 08:31:28.174625",
->>>>>>> Stashed changes
     "required_params": [],
     "optional_params": [],
     "charts": {
